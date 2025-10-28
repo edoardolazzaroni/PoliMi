@@ -14,4 +14,5 @@
 |     1     |    2     |   1   |
 |     0     |          |       |
 
-- Formula per rappresentare il numero *N* in bit $log2(N+1$
+- Formula per rappresentare il numero *N* in bit $=log2(N+1)$
+- 
