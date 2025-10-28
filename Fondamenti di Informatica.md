@@ -1,6 +1,4 @@
 
 
 # Conversioni binarie
-
-
-Con n bit codifichiamo 
+Binari na
