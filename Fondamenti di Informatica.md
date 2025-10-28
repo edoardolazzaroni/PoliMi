@@ -1,5 +1,5 @@
-_________________________________
+
 
 # Conversioni binarie
 
-- Con *n* bit codifichiamo 2N
+- Con *n* bit codifichiamo 2*n
