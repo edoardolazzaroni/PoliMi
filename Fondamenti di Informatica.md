@@ -1,4 +1,5 @@
-
+_________________________________
 
 # Conversioni binarie
-Binari na
+
+- Con *n* bit codifichiamo 2N
