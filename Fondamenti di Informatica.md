@@ -14,8 +14,8 @@ dati (osservazioni, fatti, entità fisiche o concettuali) che rappresentano una
 		- SEQUENZA![[Pasted image 20251029172250.png]]
 		- SELEZIONE![[Pasted image 20251029172346.png]]
 		- ITERAZIONE
-			- Ciclo a condizione FINALE (il corpo del ciclo è eseqguito):
-			- Ciclo a condizione INIZIALE:
+			- Ciclo a condizione FINALE (il corpo del ciclo è eseguito almeno una volta):
+			- Ciclo a condizione INIZIALE (il corpo del ciclo è eseguito zero o più volte):
 		
 	- Flusso di ESECUZIONE = sequenza di operazioni effettivamente seguita in esecuzione;
 	- Elementi grafici:![[Pasted image 20251029171350.png]]
