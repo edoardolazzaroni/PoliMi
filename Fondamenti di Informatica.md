@@ -1,5 +1,5 @@
 
-L’informatica è una scienza, ovvero una conoscenza  sistematica di tecniche e metodi per rappresentare ed elaborare l’informazione.  inoltre costituita da una collezione strutturata di 
+L’informatica è una scienza, ovvero una conoscenza  sistematica di tecniche e metodi per rappresentare ed elaborare l’informazione.   inoltre costituita da una collezione strutturata di 
 
 dati (osservazioni, fatti, entità fisiche o concettuali) che 
 
