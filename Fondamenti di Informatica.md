@@ -16,7 +16,7 @@ dati (osservazioni, fatti, entità fisiche o concettuali) che rappresentano una
 		- ITERAZIONE
 			- Ciclo a condizione FINALE (il corpo del ciclo è eseguito almeno una volta):![[Pasted image 20251029172743.png]]
 			- Ciclo a condizione INIZIALE (il corpo del ciclo è eseguito zero o più volte):![[Pasted image 20251029172813.png]]
-		
+		Teorema di Jacopini e Böhm
 	- Flusso di ESECUZIONE = sequenza di operazioni effettivamente seguita in esecuzione;
 	- Elementi grafici:![[Pasted image 20251029171350.png]]
 
