@@ -14,6 +14,7 @@ dati (osservazioni, fatti, entità fisiche o concettuali) che rappresentano una
 		- SEQUENZA![[Pasted image 20251029172250.png]]
 		- SELEZIONE![[Pasted image 20251029172346.png]]
 		- ITERAZIONE
+			- 
 		
 	- Flusso di ESECUZIONE = sequenza di operazioni effettivamente seguita in esecuzione;
 	- Elementi grafici:![[Pasted image 20251029171350.png]]
