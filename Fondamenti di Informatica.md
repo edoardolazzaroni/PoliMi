@@ -14,11 +14,14 @@ dati (osservazioni, fatti, entità fisiche o concettuali) che rappresentano una
 	 Il flusso di controllo di un algoritmo viene costruito in base a tre strutture di controllo dette: 
 		- SEQUENZA
 		 ![[Pasted image 20251029172250.png|262x346]]
+		- 
 		- SELEZIONE
 		![[Pasted image 20251029172346.png|306x174]]
 		- ITERAZIONE
-			- Ciclo a condizione FINALE (il corpo del ciclo è eseguito almeno una volta):![[Pasted image 20251029172743.png|322x256]]
-			- Ciclo a condizione INIZIALE (il corpo del ciclo è eseguito zero o più volte):![[Pasted image 20251029172813.png|328x177]]
+			- Ciclo a condizione FINALE (il corpo del ciclo è eseguito almeno una volta):
+			![[Pasted image 20251029172743.png|322x256]]
+			- Ciclo a condizione INIZIALE (il corpo del ciclo è eseguito zero o più volte):
+			![[Pasted image 20251029172813.png|328x177]]
 		Teorema di Jacopini e Böhm: formulato nel 1966 dagli informatici italiani Corrado Böhm e Giuseppe Jacopini, afferma che qualsiasi algoritmo può essere espresso utilizzando unicamente le tre strutture di controllo fondamentali (sequenza, selezione ed iterazione);
 	- Flusso di ESECUZIONE = sequenza di operazioni effettivamente seguita in esecuzione;
 	- Elementi grafici:
