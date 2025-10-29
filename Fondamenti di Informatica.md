@@ -1,4 +1,7 @@
 
+L’informatica è una scienza, ovvero una conoscenza  sistematica di tecniche e metodi per Rappresentare l’informazione
+
+§ Elaborare l’informazione
 # Algoritmi
 
 - ALGORITMO = sequenza finita di passi non ambigui e comprensibili da un esecutore per permettere di risolvere un problema;
