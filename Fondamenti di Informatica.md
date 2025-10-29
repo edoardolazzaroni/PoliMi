@@ -1,7 +1,7 @@
 
 L’informatica è una scienza, ovvero una conoscenza  sistematica di tecniche e metodi per rappresentare ed elaborare l’informazione. È inoltre costituita da una collezione strutturata di 
 dati (osservazioni, fatti, entità fisiche o concettuali) che rappresentano una parte del mondo reale.
-	CALCOLATORE = strumento elettronico che elabora informazione, che esegue un algoritmo (o un insieme di algoritmi) ed utilizza elementi di memoria per immagazzinare le informazioni che sta elaborando![[Pasted image 20251029170852.png]]
+	CALCOLATORE = strumento elettronico che elabora informazione, che esegue un algoritmo (o un insieme di algoritmi) ed utilizza elementi di memoria per immagazzinare le informazioni che sta elaborando![[Pasted image 20251029170852.png|467x268]]
 		
 # Algoritmi
 
@@ -18,10 +18,11 @@ dati (osservazioni, fatti, entità fisiche o concettuali) che rappresentano una
 		![[Pasted image 20251029172346.png|306x174]]
 		- ITERAZIONE
 			- Ciclo a condizione FINALE (il corpo del ciclo è eseguito almeno una volta):![[Pasted image 20251029172743.png|322x256]]
-			- Ciclo a condizione INIZIALE (il corpo del ciclo è eseguito zero o più volte):![[Pasted image 20251029172813.png]]
+			- Ciclo a condizione INIZIALE (il corpo del ciclo è eseguito zero o più volte):![[Pasted image 20251029172813.png|328x177]]
 		Teorema di Jacopini e Böhm: formulato nel 1966 dagli informatici italiani Corrado Böhm e Giuseppe Jacopini, afferma che qualsiasi algoritmo può essere espresso utilizzando unicamente le tre strutture di controllo fondamentali (sequenza, selezione ed iterazione);
 	- Flusso di ESECUZIONE = sequenza di operazioni effettivamente seguita in esecuzione;
-	- Elementi grafici:![[Pasted image 20251029171350.png|341x303]]
+	- Elementi grafici:
+	![[Pasted image 20251029171350.png|341x303]]
 
 - VARIABILE = contenitore di valori, a cui è sempre associato un valore alla volta, non può essere vuota (al massimo non è inizializzata e quindi contiene un valore “a caso”), è collocata in una riga della memoria, è identificata tramite un nome simbolico. Le operazioni descritte nell’algoritmo possono essere eseguite di volta in volta sui diversi valori assegnati alle variabili (formulazione generale dell’algoritmo); possiamo eseguire due operazioni su una variabile:
 	- Lettura: recuperiamo il valore contenuto
