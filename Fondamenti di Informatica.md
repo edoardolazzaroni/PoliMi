@@ -5,7 +5,16 @@ dati (osservazioni, fatti, entità fisiche o concettuali) che rappresentano una
 # Algoritmi
 
 - ALGORITMO = sequenza finita di passi non ambigui e comprensibili da un esecutore per permettere di risolvere un problema;
-	- Flusso di CONTROLLO = descrizione a priori di tutte le possibili sequenze dei passi algoritmici;
+	- Flusso di CONTROLLO = descrizione a priori di tutte le possibili sequenze dei passi algoritmici; il flusso di controllo di un diagramma di flusso viene costruito mediante specifiche regole:
+		- Un solo blocco di inizio
+		- Almeno un blocco di terminazione (preferibilmente uno)
+		- Non si può lasciare sconnessa alcuna freccia in ingresso o in uscita di un 
+		- qualsiasi altro blocco
+	 Il flusso di controllo di un algoritmo viene costruito in base a tre strutture di controllo dette: 
+		- Sequenza
+		- Selezione
+
+§ Iterazione
 	- Flusso di ESECUZIONE = sequenza di operazioni effettivamente seguita in esecuzione;
 	- Elementi grafici:![[Pasted image 20251029171350.png]]
 
