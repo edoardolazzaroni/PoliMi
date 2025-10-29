@@ -2,7 +2,9 @@
 # Algoritmi
 
 - ALGORITMO = sequenza finita di passi non ambigui e comprensibili da un esecutore per permettere di risolvere un problema;
-	- Flusso di CONTROLLO = descrizione a priori di tutte le possibili seque
+	- Flusso di CONTROLLO = descrizione a priori di tutte le possibili sequenze dei passi algoritmici;
+	- Flusso di ESECUZIONE = sequenza di operazioni effettivamente seguita in esecuzione;
+	-
 # Conversioni binarie
 
 - Con *n* bit codifichiamo $2^n$ numeri nell'intervallo $[0; 2^n - 1]$
