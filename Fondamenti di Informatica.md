@@ -11,7 +11,7 @@ dati (osservazioni, fatti, entità fisiche o concettuali) che rappresentano una
 		- Non si può lasciare sconnessa alcuna freccia in ingresso o in uscita di un 
 		- qualsiasi altro blocco
 	 Il flusso di controllo di un algoritmo viene costruito in base a tre strutture di controllo dette: 
-		- SEQUENZA
+		- SEQUENZA![[Pasted image 20251029172250.png]]
 		- SELEZIONE
 		- ITERAZIONE
 		
