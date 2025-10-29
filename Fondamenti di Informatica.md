@@ -12,7 +12,7 @@ dati (osservazioni, fatti, entità fisiche o concettuali) che rappresentano una
 		- qualsiasi altro blocco
 	 Il flusso di controllo di un algoritmo viene costruito in base a tre strutture di controllo dette: 
 		- SEQUENZA![[Pasted image 20251029172250.png]]
-		- SELEZIONE
+		- SELEZIONE![[Pasted image 20251029172346.png]]
 		- ITERAZIONE
 		
 	- Flusso di ESECUZIONE = sequenza di operazioni effettivamente seguita in esecuzione;
