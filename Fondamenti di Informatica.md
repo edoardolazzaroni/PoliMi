@@ -30,6 +30,7 @@ dati (osservazioni, fatti, entità fisiche o concettuali) che rappresentano una
 	- Lettura: recuperiamo il valore contenuto
 	- Scrittura: salviamo un nuovo valore
 
+
 # Conversioni binarie
 
 - Con *n* bit codifichiamo $2^n$ numeri nell'intervallo $[0; 2^n - 1]$
