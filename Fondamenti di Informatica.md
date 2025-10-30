@@ -38,12 +38,13 @@ L’algebra di Boole (inventata da G. Boole, britannico, seconda metà ’800),
 - Una variabile logica può contenere il valore 0 o 1 e memorizza il risultato di una condizione.
 
 È possibile esprimere condizioni più complesse mediante gli operatori logici:
+
 - Operatori logici BINARI (con 2 operandi logici):
-	- OR (somma logica)
-	- AND (prodotto logico)
+	- OR (SOMMA logica)
+	- AND (PRODOTTO logico)
 
 • Operatore logico UNARIO (con 1 operando):
-	- Operatore NOT (negazione o inversione)
+	- Operatore NOT (NEGAZIONE o inversione)
 
 # Conversioni binarie
 
