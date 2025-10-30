@@ -46,6 +46,8 @@ L’algebra di Boole (inventata da G. Boole, britannico, seconda metà ’800),
 • Operatore logico UNARIO (con 1 operando):
 	- Operatore NOT (NEGAZIONE o inversione)
 
+![[image.png|547x194]]
+
 # Conversioni binarie
 
 - Con *n* bit codifichiamo $2^n$ numeri nell'intervallo $[0; 2^n - 1]$
