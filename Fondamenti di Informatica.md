@@ -33,8 +33,20 @@ dati (osservazioni, fatti, entità fisiche o concettuali) che rappresentano una
 # Algebra di Boole
 
 L’algebra di Boole (inventata da G. Boole, britannico, seconda metà ’800), o algebra della logica, è un’algebra astratta che opera su due soli valori di verità, falso e vero, mediante operatori logici.
-In un calcolatore VERO = 1, FALSO = 0;
-Una variabile logica può contenere il valore 0 o 1 e memorizza il risultato di una condizione
+
+- In un calcolatore VERO = 1, FALSO = 0.
+- Una variabile logica può contenere il valore 0 o 1 e memorizza il risultato di una condizione.
+
+È possibile esprimere condizioni più complesse mediante gli operatori logici
+
+- Operatori logici binari (con 2 operandi logici)
+	- OR, o somma logica
+
+§ Operatore AND, o prodotto logico
+
+• Operatore logico unario (con 1 operando)
+
+§ Operatore NOT, o negazione, o inversione
 
 # Conversioni binarie
 
