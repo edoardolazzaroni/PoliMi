@@ -67,7 +67,7 @@ L’algebra di Boole (inventata da G. Boole, britannico, seconda metà ’800),
 
 - Formula per rappresentare il numero *N* in bit $=log2(N+1)$
 
-## Operazioni con numeri binari naturali
+## OPERAZIONI con numeri binari naturali
 
 - ADDIZIONE:
 		![[image-1.png|365x159]]
@@ -87,4 +87,4 @@ Nel computer il segno di un numero deve essere rappresentato in qualche modo co
 	Osservazioni:
 		- Il bit di segno è applicato al numero rappresentato, ma non fa propriamente parte del numero in quanto tale, ovvero non ha significato numerico;
 		- Distaccando il bit di segno, i bit rimanenti rappresentano il valore assoluto del numero;
-
+	Formula per rappresentare il numero *N* in bit $=log2(N+1)$
