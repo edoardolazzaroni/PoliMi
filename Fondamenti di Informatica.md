@@ -52,10 +52,7 @@ L’algebra di Boole (inventata da G. Boole, britannico, seconda metà ’800),
 
 - Usata dal calcolatore per tutte le informazioni; alfabeto: {0, 1}
 	- BIT (“BInary digIT”): unità elementare di informazione
-	- Facile da implementare: dispositivi che assumono due stati
-Acceso/spento
-
-• Due valori di tensione: Vdd e Vgnd
+	- Facile da implementare: dispositivi che assumono due stati (acceso/spento), ovvero due valori di tensione: $V^dd$  e Vgnd
 - Con *n* bit codifichiamo $2^n$ numeri nell'intervallo $[0; 2^n - 1]$
 - Per convertire un numero naturale in binario si usa il metodo dei resti, dividendo il numero considerato per 2 fino ad arrivare allo 0/1: 
 
