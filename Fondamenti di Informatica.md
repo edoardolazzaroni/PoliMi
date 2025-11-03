@@ -100,5 +100,24 @@ Il complemento a due è un sistema binario, ma il primo bit (quello a sinistra,
 			![[image-3.png|286x169]]
 
 - Conversione da decimale a C2:
-		
+		- Se $Ddec\geq0$:
+			Convertire $Ddec$ in binario naturale
+
+2. Aggiungere il bit 0 in testa alla sequenza di bit ottenuta
+
+§ Esempio: 154dec Þ 10011010bin Þ 010011010C2
+
+• Se Ddec < 0:
+
+1. Trascurare il segno e converti Ddec in binario naturale
+
+2. Aggiungere il bit 0 in testa alla sequenza di bit ottenuta
+
+3. Calcolare l’opposto del numero così ottenuto, secondo la procedura 
+
+di inversione in C2
+
+§ Esempio: -154dec Þ 154dec Þ 10011010bin Þ
+
+ Þ 010011010bin Þ 101100101 + 1 Þ 101100110C2
 - 
