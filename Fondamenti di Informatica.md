@@ -66,4 +66,7 @@ L’algebra di Boole (inventata da G. Boole, britannico, seconda metà ’800),
 |     0     |          |       |
 
 - Formula per rappresentare il numero *N* in bit $=log2(N+1)$
-## Operazioni con 
+
+## Operazioni con numeri binari naturali:
+
+- ADDIZIONE:
