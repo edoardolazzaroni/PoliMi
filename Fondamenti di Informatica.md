@@ -95,4 +95,5 @@ Nel computer il segno di un numero deve essere rappresentato in qualche modo co
 
 ### COMPLEMENTO A DUE:
 
-Il complemento a due è un sistema binario, ma il primo bit (quello a sinistra, il più significativo) ha peso negativo, mentre tutti gli altri bit hanno peso positivo; vi è ancora il bit di segno 
+Il complemento a due è un sistema binario, ma il primo bit (quello a sinistra, il più significativo) ha peso negativo, mentre tutti gli altri bit hanno peso positivo; vi è ancora il bit di segno (il più significativo)
+		Esempi:
