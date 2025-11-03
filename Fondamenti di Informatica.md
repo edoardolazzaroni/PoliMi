@@ -127,9 +127,11 @@ Il complemento a due è un sistema binario, ma il primo bit (quello a sinistra,
 
 - OPERAZIONI:
 		- SOMMA:
-				- Identica a quella dei numeri binari naturali, e il bit di segno è elaborato esattamente come gli altri bit![[image-5.png|546x227]]
+			- Identica a quella dei numeri binari naturali, e il bit di segno è elaborato esattamente come gli altri bit![[image-5.png|407x169]]
+		- 
 		- SOTTRAZIONE: viene eseguita con l'operazione di somma, ovvero $A-B=A+(-B)$
-			- Overflow:
+	
+		- Overflow:
 				- Se gli addendi sono tra loro discordi (di segno diverso) non si verifica mai
 				- Se gli addendi sono tra loro concordi, si verifica se e solo se il risultato è discorde (addendi positivi ma risultato negativo o addendi negativi ma risultato positivo)
 				- Nelle operazioni su numeri C2 l’overflow non ha alcuna relazione con il riporto, cioè si può avere overflow senza riporto perduto (due addendi positivi e risultato negativo) e viceversa.
