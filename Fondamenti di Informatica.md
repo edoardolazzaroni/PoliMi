@@ -83,4 +83,4 @@ L’algebra di Boole (inventata da G. Boole, britannico, seconda metà ’800),
 
 Nel computer il segno di un numero deve essere rappresentato in qualche modo con cifre binarie, perciò si ricorre ai numeri relativi:
 	Il primo bit a sinistra rappresenta il segno del numero (bit di segno), i bit rimanenti rappresentano il valore; si usa per convenzione 0 per il segno POSITIVO, 1 per il segno NEGATIVO.
-		In questo modo con 
+		In questo modo con $n$ bit $(n\geq2)$ 
