@@ -108,18 +108,5 @@ Il complemento a due è un sistema binario, ma il primo bit (quello a sinistra,
 			1) Trascurare il segno e converti $Ddec$ in binario naturale
 			2) Aggiungere il bit 0 in testa alla sequenza di bit ottenuta
 			3) Calcolare l’opposto del numero così ottenuto, secondo la procedura di inversione in C2
-			*Esempio: $-154 (dec) = 154 (dec) = 10011010 (bin) = 010011010 (bin) = 101100101 + 1 Þ 101100110C2$*
-
-
-1. Trascurare il segno e converti Ddec in binario naturale
-
-2. Aggiungere il bit 0 in testa alla sequenza di bit ottenuta
-
-3. Calcolare l’opposto del numero così ottenuto, secondo la procedura 
-
-di inversione in C2
-
-§ Esempio: -154dec Þ 154dec Þ 10011010bin Þ
-
- Þ 010011010bin Þ 101100101 + 1 Þ 101100110C2
-- 
+			*Esempio: $-154 (dec) = 154 (dec) = 10011010 (bin) = 010011010 (bin) = 101100101 + 1 = 101100110 (C2)$*
+- Con $n$ bit $(n\geq2)$ codifichiamo $2^n$ numeri nell'intervallo $[-2^(n-1), 2^(n-1))$ 
