@@ -93,4 +93,6 @@ Nel computer il segno di un numero deve essere rappresentato in qualche modo co
 		- Somma di due numeri con segno discorde: si effettua la sottrazione tra il valore assoluto più grande e quello più piccolo (sono due numeri naturali) e si aggiunge al risultato il segno dell’operando con valore assoluto maggiore;
 		- Sottrazione: Si inverte il segno del secondo operando e si esegue la somma secondo le regole mostrate sopra
 
-	
+### COMPLEMENTO A DUE:
+
+Il complemento a due è un sistema binario, ma il primo bit (quello a sinistra, il più significativo) ha peso negativo, mentre tutti gli altri bit hanno peso positivo; vi è ancora il bit di segno 
