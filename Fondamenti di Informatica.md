@@ -131,4 +131,5 @@ Il complemento a due è un sistema binario, ma il primo bit (quello a sinistra,
 			- Overflow:
 				- Se gli addendi sono tra loro discordi (di segno diverso) non si verifica mai
 				- Se gli addendi sono tra loro concordi, si verifica se e solo se il risultato è discorde (addendi positivi ma risultato negativo o addendi negativi ma risultato positivo)
+				- Nelle operazioni su numeri C2 l’overflow non ha alcuna relazione con il riporto, cioè si può avere overflow senza riporto perduto (due addendi positivi e risultato negativo) e viceversa
 - 
