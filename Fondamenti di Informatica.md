@@ -124,4 +124,8 @@ Il complemento a due è un sistema binario, ma il primo bit (quello a sinistra,
 
 - Confronto con le altre rappresentazioni:
 		![[image-4.png|484x285]]
+
+- OPERAZIONI:
+		- SOMMA:
+		- SOTTRAZIONE:
 - 
