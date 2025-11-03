@@ -77,4 +77,5 @@ L’algebra di Boole (inventata da G. Boole, britannico, seconda metà ’800),
 - SOTTRAZIONE:
 		![[image-2.png|365x152]]
 
+	- Il secondo operando deve essere minore del primo, e al posto dei riporti come nella somma si utilizzano i prestiti
 - 
