@@ -85,4 +85,6 @@ Nel computer il segno di un numero deve essere rappresentato in qualche modo co
 	Il primo bit a sinistra rappresenta il segno del numero (bit di segno), i bit rimanenti rappresentano il valore; si usa per convenzione 0 per il segno POSITIVO, 1 per il segno NEGATIVO.
 		In questo modo con $n$ bit $(n\geq2)$ codifichiamo $2^n$ numeri nell'intervallo $(-2^(n-1), 2^(n-1))$ 
 	Osservazioni:
-		
+		- Il bit di segno è applicato al numero rappresentato, ma non fa propriamente parte del numero in quanto tale, ovvero non ha significato numerico;
+		- Distaccando il bit di segno, i bit rimanenti rappresentano il valore assoluto del numero;
+
