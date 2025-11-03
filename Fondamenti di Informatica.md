@@ -120,5 +120,5 @@ Il complemento a due è un sistema binario, ma il primo bit (quello a sinistra,
 	
 - Numero minimo di bit necessario per rappresentare in binario complemento a 2 un dato valore:
 	- $N\geq0$: $bit=[log2(N+1)]+1$
-	- $N\geq0$: $bit=[log2(N+1)]+1$
-- 
+	- $N<0$: $bit=[log2(|N|)]+1$
+- Confronto con le altre rappresentazioni:
