@@ -72,4 +72,7 @@ L’algebra di Boole (inventata da G. Boole, britannico, seconda metà ’800),
 - ADDIZIONE:
 		![[image-1.png|365x159]]
 
-- SOTTRAZIONE: 
+- SOTTRAZIONE:
+		![[image-2.png|365x152]]
+
+- 
