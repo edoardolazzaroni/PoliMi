@@ -72,6 +72,8 @@ L’algebra di Boole (inventata da G. Boole, britannico, seconda metà ’800),
 - ADDIZIONE:
 		![[image-1.png|365x159]]
 
+	- Nelle operazioni binarie si può verir
+
 - SOTTRAZIONE:
 		![[image-2.png|365x152]]
 
