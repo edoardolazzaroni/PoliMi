@@ -70,3 +70,6 @@ L’algebra di Boole (inventata da G. Boole, britannico, seconda metà ’800),
 ## Operazioni con numeri binari naturali:
 
 - ADDIZIONE:
+		![[image-1.png|365x159]]
+
+- 
