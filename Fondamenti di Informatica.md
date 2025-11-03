@@ -127,5 +127,6 @@ Il complemento a due è un sistema binario, ma il primo bit (quello a sinistra,
 
 - OPERAZIONI:
 		- SOMMA:
-		- SOTTRAZIONE:
+		- SOTTRAZIONE: viene eseguita con l'operazione di somma, ovvero $A-B=A+(-B)$
+		
 - 
