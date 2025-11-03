@@ -101,11 +101,9 @@ Il complemento a due è un sistema binario, ma il primo bit (quello a sinistra,
 
 - Conversione da decimale a C2:
 		- Se $Ddec\geq0$:
-			Convertire $Ddec$ in binario naturale
-
-2. Aggiungere il bit 0 in testa alla sequenza di bit ottenuta
-
-§ Esempio: 154dec Þ 10011010bin Þ 010011010C2
+			1) Convertire $Ddec$ in binario naturale
+			2) Aggiungere il bit 0 in testa alla sequenza di bit ottenuta
+			*Esempio: 1$54dec Þ 10011010bin Þ 010011010C2*$
 
 • Se Ddec < 0:
 
