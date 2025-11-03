@@ -89,5 +89,8 @@ Nel computer il segno di un numero deve essere rappresentato in qualche modo co
 		- Distaccando il bit di segno, i bit rimanenti rappresentano il valore assoluto del numero;
 	Formula per rappresentare in modulo e segno il numero *N* in bit $=log2(N+1)+1$
 	Operazioni:
-		- Somma di due numeri con STESSO S: si sommano i valori assoluti dei due numeri (sono due numeri naturali) e si aggiunge al risultato il segno dei due operandi
+		- Somma di due numeri con STESSO SEGNO: si sommano i valori assoluti dei due numeri (sono due numeri naturali) e si aggiunge al risultato il segno dei due operandi;
+		- Somma di due numeri con segno discorde: si effettua la sottrazione tra il valore assoluto più grande e quello più piccolo (sono due numeri naturali) e si aggiunge al risultato il segno dell’operando con valore assoluto maggiore;
+		- Sottrazione: Si inverte il segno del secondo operando e si esegue la somma secondo le regole mostrate sopra
+
 	
