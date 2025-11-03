@@ -87,4 +87,7 @@ Nel computer il segno di un numero deve essere rappresentato in qualche modo co
 	Osservazioni:
 		- Il bit di segno è applicato al numero rappresentato, ma non fa propriamente parte del numero in quanto tale, ovvero non ha significato numerico;
 		- Distaccando il bit di segno, i bit rimanenti rappresentano il valore assoluto del numero;
-	Formula per rappresentare il numero *N* in bit $=log2(N+1)$
+	Formula per rappresentare in modulo e segno il numero *N* in bit $=log2(N+1)+1$
+	Operazioni:
+		- Somma di due numeri con STESSO S: si sommano i valori assoluti dei due numeri (sono due numeri naturali) e si aggiunge al risultato il segno dei due operandi
+	
