@@ -110,3 +110,22 @@ Il complemento a due è un sistema binario, ma il primo bit (quello a sinistra,
 			3) Calcolare l’opposto del numero così ottenuto, secondo la procedura di inversione in C2
 			*Esempio: $-154 (dec) = 154 (dec) = 10011010 (bin) = 010011010 (bin) = 101100101 + 1 = 101100110 (C2)$*
 - Con $n$ bit $(n\geq2)$ codifichiamo $2^n$ numeri nell'intervallo $[-2^(n-1), 2^(n-1))$ 
+- Osservazioni:
+	- Il segno è incorporato nel numero rappresentato in C2, non è semplicemente applicato (come in m&s);
+	- Si può eseguire l’estensione del numero di bit della codifica replicando il bit più a sinistra;
+	- La riduzione si può effettuare fino a che non si trova una sequenza 10 o 01 poiché il primo bit rappresenterà il segno
+
+• Il bit più significativo rivela il segno: 0 per numero positivo, 1 
+
+per numero negativo (il numero zero è considerato positivo), 
+
+ma…
+
+• Se il numero è negativo, NON si può distaccare il bit più 
+
+significativo e dire che i bit rimanenti rappresentano il valore 
+
+assoluto del numero
+
+• Implementazione hardware della sottrazione è semplificata
+- 
