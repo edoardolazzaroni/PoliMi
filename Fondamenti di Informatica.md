@@ -72,7 +72,7 @@ L’algebra di Boole (inventata da G. Boole, britannico, seconda metà ’800),
 - ADDIZIONE:
 		![[image-1.png|365x159]]
 
-	- Nelle operazioni binarie si può verir
+	- Nelle operazioni binarie si può verificare OVERFLOW: il risultato di un’operazione non può essere rappresentato sul numero di bit a disposizione, generando così un risultato errato
 
 - SOTTRAZIONE:
 		![[image-2.png|365x152]]
