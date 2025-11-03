@@ -118,4 +118,6 @@ Il complemento a due è un sistema binario, ma il primo bit (quello a sinistra,
 	- Il bit più significativo rivela il segno: 0 per numero positivo, 1 per numero negativo (il numero zero è considerato positivo), ma se il numero è negativo, NON si può distaccare il bit più significativo e dire che i bit rimanenti rappresentano il valore assoluto del numero;
 	- Implementazione hardware della sottrazione è semplificata
 	
+- Numero minimo di bit necessario per rappresentare in binario complemento a 2 un dato valore:
+	- N
 - 
