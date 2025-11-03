@@ -119,5 +119,5 @@ Il complemento a due è un sistema binario, ma il primo bit (quello a sinistra,
 	- Implementazione hardware della sottrazione è semplificata
 	
 - Numero minimo di bit necessario per rappresentare in binario complemento a 2 un dato valore:
-	- N
+	- $N\geq0$: bit
 - 
