@@ -81,3 +81,5 @@ L’algebra di Boole (inventata da G. Boole, britannico, seconda metà ’800),
 
 ## Numeri binari interi RELATIVI in MODULO E SEGNO:
 
+Nel computer il segno di un numero deve essere rappresentato in qualche modo con cifre binarie, perciò si ricorre ai numeri relativi:
+	Il primo bit a sinistra rappresenta il segno del numero (bit di segno), i bit rimanenti rappresentano il valore 0 per il segno positivo 1 per il segno negativo
