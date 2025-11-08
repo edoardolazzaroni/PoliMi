@@ -55,7 +55,6 @@ L’algebra di Boole (inventata da G. Boole, britannico, seconda metà ’800),
 	- Facile da implementare: dispositivi che assumono due stati (acceso/spento), ovvero due valori di tensione: $Vdd$  e $Vgnd$
 - Con *n* bit codifichiamo $2^n$ numeri nell'intervallo $[0; 2^n - 1]$
 - Per convertire un numero naturale in binario si usa il metodo dei resti, dividendo il numero considerato per 2 fino ad arrivare allo 0/1:
-- questo per dire che non ci sono altri settori al di fuori della moda in cui una persona potrebbe lavorare
 
 | dividendo | divisore | resto |
 | :-------: | :------: | :---: |
