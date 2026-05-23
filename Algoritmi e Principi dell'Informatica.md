@@ -79,27 +79,11 @@ Le operazioni su di un determinato linguaggio crea nuove classi di linguaggi con
 
 In questo capitolo verrà introdotto il concetto di automa e se ne analizzeranno le varie classi esistenti, differenziandole in base alla loro espressività nella rappresentazione di linguaggi via via sempre più complessi. Si inizierà con lo studio degli automi determinstici per passare gradualmente a quelli non deterministici, analzzandone le differenze e le caratteristiche più importanti. Di seguito sono date le definizioni di automa, accettatore e trasduttore:
 
-- Gli ==automi== sono sistemi dinamici discreti e tempo invarianti. Lo stato di un automa
+- Gli ==automi== sono sistemi dinamici discreti e tempo invarianti. Lo stato di un automa viene modificato a fronte di un simbolo di ingresso. Ogni automa presenta uno stato iniziale, da cui ha inizio la sua esecuzione, e uno o più stati finali in cui la sua esecuzione ha termine.
+- Gli ==accettatori== sono automi che indicano se una determinata sequenza di simboli appartiene ad un linguaggio.
+- I ==trasduttori== sono automi che mappano una determinata sequenza di simboli appartenenti ad un linguaggio in una sequenza di simboli appartenenti ad un linguaggio differente. Un trasduttore lavora quindi su due nastri infiniti: il primo nastro in ingresso di sola lettura, il secondo nastro in uscita di sola scrittura.
 
-viene modificato a fronte di un simbolo di ingresso. Ogni automa presenta uno stato iniziale, da cui ha
-
-inizio la sua esecuzione, e uno o pi`u stati finali in cui la sua esecuzione ha termine.
-
-Definizione 2.0.2. Gli accettatori sono automi che indicano se una determinata sequenza di simboli
-
-appartiene ad un linguaggio.
-
-Definizione 2.0.3. I trasduttori sono automi che mappano una determinata sequenza di simboli ap-
-
-partenenti ad un linguaggio in una sequenza di simboli appartenenti ad un linguaggio differente. Un
-
-trasduttore lavora quindi su due nastri infiniti: il primo nastro in ingresso di sola lettura, il secondo
-
-nastro in uscita di sola scrittura.
-
-Un automa `e rappresentato graficamente come un inisieme di circonferenze denominate (che rappre-
-
-sentano gli stati dell’automa), ognuna delle quali `e connessa ad altri stati tramite frecce. Su tali frecce `e
+Un automa è rappresentato graficamente come un inisieme di circonferenze denominate (che rappresentano gli stati dell’automa), ognuna delle quali `e connessa ad altri stati tramite frecce. Su tali frecce `e
 
 segnata la condizione da soddisfare per intraprendere quel passaggio di stato e come viene modificato lo
 
