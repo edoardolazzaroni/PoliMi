@@ -6,11 +6,8 @@
 **1.1 Alfabeti e Stringhe**
 
 Di seguito sono riportate alcune definizioni importanti riguardanti i linguaggi formali:
-Definizione 1.1.1 (Alfabeto). Un alfabeto (o vocabolario) V `e un insieme finito di oggetti elementari
-
-detti simboli (o caratteri)
-
-Definizione 1.1.2 (Stringa). Una stringa x appartenente ad un alfabeto V `e una sequenza finita e
+- Un ==alfabeto== (o vocabolario) V è un insieme finito di oggetti elementari detti simboli (o caratteri);
+- Una stringa x appartenente ad un alfabeto V `e una sequenza finita e
 
 ordinata di caratteri appartenenti a tale alfabeto.
 
