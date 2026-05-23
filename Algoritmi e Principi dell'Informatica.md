@@ -16,14 +16,11 @@ Per poter confrontare due stringhe e necessario verificare che:
 
 La **concatenazione** (o prodotto) $x.y$ di due stringhe x e y è una stringa composta da tutti i caratteri di x seguiti da tutti i caratteri di y. Inoltre, la concatenazione $x.ε$ produce come risultato la stringa x.
 Data una stringa s, una stringa x è **sottostringa** (o fattore) di s se esistono due stringhe y e z, tali che $s = yxz$. Inoltre:
-- se $y = ε$, x è detta prefisso.
-- se $z = ε$, x e detta suffisso.
+- se $y = ε$, x è detta prefisso
+- se $z = ε$, x è detta suffisso
+- se $z = y = ε$, $x= s$
 
-se z= y= ε, x= s
-
-Data una stringa x, l’espressione xi indica la concatenazione della stringa x con s`e stessa per i−1
-
-volte, ovvero x0 = ε e xi+1 = x.xi
+Data una stringa x, l’espressione $xi$ indica la concatenazione della stringa x con s e stessa per i−1 volte, ovvero x0 = ε e xi+1 = x.xi
 
 .
 
