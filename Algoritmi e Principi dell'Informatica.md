@@ -297,9 +297,7 @@ Gli Automi a Pila sono chiusi solamente rispetto all’operazione di complementa
 3. Eliminazione delle mosse spontanee che collegano stati non finali a stati finali;
 4. Scambio di stati finali e non finali.
 
-I PDA non sono aperti rispetto ad alcun’altra operazione, quindi un automa a pila non riesce a riconoscere i linguaggi generati dall’intersezione o l’unione di più linguaggi. Inoltre, gli automi a pila presentano ulteriori limitazioni dovute al fatto che lo stack di memoria sia di tipo distruttivo: per poter leggere le informazioni contenute in memoria è prima necessario eliminare tutte le altre informazioni che si trova al di sopra di essa. Quindi, linguaggi del tipo $L= {a^nb^nc^n |n≥1}$ non possono essere riconosciuti da
-
-normali PDA perch`e una volta terminata la lettura delle b e, quindi, una volta eliminati tutti i simboli
+I PDA non sono aperti rispetto ad alcun’altra operazione, quindi un automa a pila non riesce a riconoscere i linguaggi generati dall’intersezione o l’unione di più linguaggi. Inoltre, gli automi a pila presentano ulteriori limitazioni dovute al fatto che lo stack di memoria sia di tipo distruttivo: per poter leggere le informazioni contenute in memoria è prima necessario eliminare tutte le altre informazioni che si trova al di sopra di essa. Quindi, linguaggi del tipo $L= \left \{a^nb^nc^n |n≥1\right \}$ non possono essere riconosciuti da normali PDA perchè una volta terminata la lettura delle $b$ e, quindi, una volta eliminati tutti i simboli
 
 sulla pila per controllare che il numero di bsia uguale al numero di a, non rimane pi`u alcuna informazione
 
