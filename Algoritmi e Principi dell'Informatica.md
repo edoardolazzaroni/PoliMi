@@ -39,11 +39,11 @@ Nel contesto dei linguaggi, l’operatore $◦$ rappresenta la concatenazione di
 
 Nel contesto dei linguaggi, l’elemento unitario $u$ rappresenta la stringa vuota $ε$: infatti, la concatenazione di una generica stringa $x$ con la stringa vuota $ε$ produce come risultato nuovamente la stringa originaria $x$.
 
-- Un ==gruppo== è un monoide in cui è definito un elemento inverso x−1 unico per ogni elemento x dell’insieme S, tale che ∀x(x◦x−1 = u).
+- Un ==gruppo== è un monoide in cui è definito un elemento inverso $x−1$ unico per ogni elemento x dell’insieme S, tale che $∀x(x◦x−1 = u)$.
 
-Date le definizioni 1.2.1, 1.2.2 e 1.2.3, si possono definire gli operatori di Kleene:
+Si possono quindi definire gli **Operatori di Kleene**:
 
-Definizione 1.2.4 (Pi`u di Kleene). Sia < S,◦ > un semigruppo. Per ogni X ⊆ S, S+ indica il
+- Sia < S,◦ > un semigruppo. Per ogni X ⊆ S, S+ indica il
 
 sottoinsieme di S generato da X, ovvero l’insieme di tutti gli elementi s∈S tale per cui s= x1 ◦x2 ◦...◦xn
 
