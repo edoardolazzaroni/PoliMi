@@ -264,39 +264,16 @@ I PDT (Push Down Trasducer) sono trasduttori che presentano un numero finiti di 
 	- $q∈Q$ è lo stato corrente del dispositivo di controllo;
 	- $x∈I^∗$ è la porzione non ancora letta della stringa d'ingresso;
 	- $γ ∈Γ^∗$ è la stringa composta da tutti i simboli contenuti all’interno della pila;
-	- z∈O∗`e la stringa presente sul nastro di uscita.2.3. MACCHINE DI TURING 15
+	- $z∈O^∗$ è la stringa presente sul nastro di uscita.
 
-Le relazioni di transizione c=<q,x,γ,z>⊢c′
+Le relazioni di transizione $c=<q,x,γ,z>⊢c′=<q′,x′,γ′,z′>$ possono essere di due categorie:
 
-=<q′,x′,γ′,z′> possono essere di due categorie:
-
-1. se δ(q,i,A) =<q′,α>`e una mossa definita, si ha che η(q,i,A) = w, dove:
-
-γ= Aβ, la pila contiene il simbolo A, utilizzato per eseguire la mossa, seguito dalla stringa β
-
-composta da tutti irestanti simboli della pila;
-
-x = iy, la stringa in ingresso `e composta da un simbolo i, utilizzato per eseguire la mossa,
-
-seguito dalla stringa y composta da tutti i restanti simboli non ancora letti;
-
-γ′
-
-= αβ, dopo la transizione, la pila contiene la stringa αappena inserita, seguita dalla stringa
-
-β composta da tutti i restanti simboli delle pila;
-
-x′
-
-= y, dopo la tranisizone, la stringa in ingresso `e composta da tutti i simboli non ancora
-
-letti; in altre parole, la testina di lettura si sposta a destra di una posizione;
-
-z′
-
-= zw, dopo la tranisizone, alla stringa sul nastro di uscita viene concatenato il simbolo w
-
-prodotto dalla funzione di traduzione.
+1. se $δ(q,i,A) =<q′,α>$ è una mossa definita, si ha che $η(q,i,A) = w$, dove:
+	- $γ= Aβ$, la pila contiene il simbolo $A$, utilizzato per eseguire la mossa, seguito dalla stringa $β$ composta da tutti i restanti simboli della pila;
+	- $x = iy$, la stringa in ingresso è composta da un simbolo $i$, utilizzato per eseguire la mossa, seguito dalla stringa y composta da tutti i restanti simboli non ancora letti;
+	- γ′ = αβ, dopo la transizione, la pila contiene la stringa αappena inserita, seguita dalla stringa β composta da tutti i restanti simboli delle pila;
+	- x′ = y, dopo la tranisizone, la stringa in ingresso `e composta da tutti i simboli non ancora letti; in altre parole, la testina di lettura si sposta a destra di una posizione;
+	- z′ = zw, dopo la tranisizone, alla stringa sul nastro di uscita viene concatenato il simbolo w prodotto dalla funzione di traduzione.
 
 2. Se δ(q,ε,A) =<q′,α>`e una mossa definita, si ha che η(q,ε,A) = w, dove:
 
