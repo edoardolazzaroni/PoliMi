@@ -244,11 +244,10 @@ A differenza degli FSA, i PDA potrebbero anche non terminare la propria esecuzio
 
 Un tale automa legge sempre per intero la stringa in ingresso prima di terminare la propria esecuzione ed accettare tale stringa, non potendo finire in un ciclo di ε-mosse. Un automa a pila cicliclo può sempre essere trasformato in un automa a pila aciclico equivalente.
 
-2.2.1 Trasduttori a Pila
 
-I PDT (Push Down Trasducer) sono trasduttori che presentano un numero finiti di stati e una memoria
+#### **2.2.1 Trasduttori a Pila**
 
-organizzata su una struttura a pila. Formalmente:
+I PDT (Push Down Trasducer) sono trasduttori che presentano un numero finiti di stati e una memoria organizzata su una struttura a pila. Formalmente:
 
 Definizione 2.2.4. Un PDT `e una tupla di 9 elementi <Q,I,δ,Γ,q0,Z0,F,O,η>, dove:
 
