@@ -178,13 +178,11 @@ Si enuncia quindi il seguente teorema noto con il nome di Pumping Lemma:
 
 - ==Teorema del Pumping Lemma==: sia $A$ un automa a stati finiti. Se $x∈L$ e $|x| ≤ |Q|$, allora esistono uno stato $q∈Q$ e una stringa $w∈I^+$ tali che:
 	- $x= ywz$
-	- $δ∗(q,w) = q$.
+	- $δ^∗(q,w) = q$
 
-Perci`o vale che ∀n≥0 ywnz∈L
+Perciò vale che $∀n≥0, ywnz∈L$.
 
-Il Pumping Lemma fornisce una condizione necessaria, ma non sufficiente sulla struttura dei linguaggi
-
-che vengono riconosciuti da un FSA. In altri termini, il teorema 2.1.3 afferma che se una stringa x `e
+Il Pumping Lemma fornisce una condizione necessaria, ma non sufficiente sulla struttura dei linguaggi che vengono riconosciuti da un FSA. In altri termini, il teorema afferma che se una stringa x `e
 
 lunga almeno quanto il numero degli stati interni di un determinato automa che accetta tale stringa,
 
