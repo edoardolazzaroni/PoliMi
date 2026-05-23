@@ -111,8 +111,8 @@ Data la funzione di transizione $δ$ è possibile definire una sequenza di mosse
 
 - La chiusura riflessiva e transitiva della funzione di trasferimento, indicata con $δ^∗: Q×A^∗→Q$ è definita in maniera induttiva come segue:
 		$δ^∗(q,ε)=q$;
-		δ^∗(q,y_i) = δ(δ^∗(q,y),i)
-	∀x: x∈L⇔δ^∗(q_0,x) ∈F.
+		$δ^∗(q,yi) = δ(δ^∗(q,y),i)$
+	$∀x: x∈L⇔δ^∗(q_0,x) ∈F$.
 
 In altri termini, se l’automa ricesse in ingresso la stringa vuota ε, allora rimarrebbe nello stato qin cui
 
