@@ -152,7 +152,7 @@ Tramite questa definizione, si può affermare che la traduzione di una stringa i
 Gli Automi a Stati Finiti sono chiusi rispetto alle sequenti operazioni:
 
 - INTERSEZIONE. Formalmente, dati:
-	– A1 =<Q1,I,δ1,q10 ,F1 >
+	– $A^1 =<Q^1,I,δ^1,q10 ,F1 >$
 	– A2 =<Q2,I,δ2,q20 ,F2 >
 	allora < A1,A2 >= < Q1 ×Q2,I,δ,< q10 ,q20 >,F1 ×F2 > e si può dimostrare che il linguaggio L(<A1,A2 >) = L(A1) ∩L(A2).
 
@@ -163,13 +163,10 @@ Gli Automi a Stati Finiti sono chiusi rispetto alle sequenti operazioni:
 
 - COMPLEMENTAZIONE. L’idea alla base del ragionamento è che FC = Q−F, quindi per poter complementare un automa a stati finiti è necessario rendere finali gli stati che non lo sono e viceversa. Bisogna però prestare attenzione al caso in cui la funzione di transizione dell’automa sia parziale: in tal caso, è necessario innanzitutto completare l’automa, definendo tutte le transizioni precedentemente non definite, e solo in seguito procedere con lo stesso algoritmo.
 
-#### 2.1.3 Pumping Lemma
 
-Gli automi appena analizzati sono molto semplici e hanno delle evidenti limitazioni, che li rendono
+#### **2.1.3 Pumping Lemma**
 
-inefficaci nella risoluzione di alcuni problemi. Dallo studio di questi automi si possono ricavare alcuni
-
-teoremi dimostrabili, utili per mettere in luce tali limitazioni:
+Gli automi appena analizzati sono molto semplici e hanno delle evidenti limitazioni, che li rendono inefficaci nella risoluzione di alcuni problemi. Dallo studio di questi automi si possono ricavare alcuni teoremi dimostrabili, utili per mettere in luce tali limitazioni:
 
 Teorema 2.1.1. Dato un automa a stati finiti A=< Q,I,δ,q0,F >, dove Q ha cardinalit`a n, il
 
