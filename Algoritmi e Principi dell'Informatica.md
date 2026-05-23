@@ -211,13 +211,10 @@ Dalla definizione, si può osservare che l’automa è in grado di decidere il p
 Una mossa spontanea non altera la posizione della testina di lettura sul nastro di ingresso, proprio per il fatto che, in tal caso, l’automa ignora deliberatamente il nastro in questione.
 Per gli automi a pila, si può introdurre il concetto di configurazione, ossia una generalizzazione della nozione di stato, definita come segue:
 
-- Una **configurazione** $c$ è una tupla di 3 elementi <q,x,γ >, dove:
-
-q∈Q `e lo stato corrente del dispositivo di controllo;
-
-x∈I∗`e la porzione non ancora letta della stringa d’ingresso;
-
-γ ∈Γ∗`e la stringa composta da tutti i simboli contenuti all’interno della pila.
+- Una **configurazione** $c$ è una tupla di 3 elementi $<q,x,γ >$, dove:
+	- $q∈Q$ è lo stato corrente del dispositivo di controllo;
+	- $x∈I^∗$ è la porzione non ancora letta della stringa d’ingresso;
+	- $γ ∈Γ^∗$ è la stringa composta da tutti i simboli contenuti all’interno della pila.
 
 Una configurazione pu`o essere quindi vista come una fotografia dello stato dell’automa in un deter-
 
