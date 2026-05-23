@@ -136,17 +136,11 @@ Quando l’automa riceve in ingresso un simbolo, modifica il proprio stato e mos
 
 **Attenzione!** La funzione di uscita $η$ non sempre è totale: ciò significa che in alcuni automi è possibile che non ci sia nessuna associazione fra un simbolo del linguaggio in ingresso e un simbolo del linguaggio di uscita.
 
-Data la funzione di uscita $η$, è possibile definire una sequenza di uscita $η∗$, che opera su una stringa
+Data la funzione di uscita $η$, è possibile definire una sequenza di uscita $η^∗$, che opera su una stringa anzichè su un unico simbolo in ingresso. Formalmente:
 
-anzich`e su un unico simbolo in ingresso. Formalmente:
-
-Definizione 2.1.4. La chiusura riflessiva e transitiva della funzione di uscita, indicata con η∗: Q×I∗→
-
-O∗, `e definita in maniera induttiva come segue:
-
-η∗(q,ε) = ε;
-
-η∗(q,yi) = η∗(q,y).η(δ∗(q,y),i)
+- La chiusura riflessiva e transitiva della funzione di uscita, indicata con $η^∗: Q×I^∗→ O^∗$, è definita in maniera induttiva come segue:
+		η∗(q,ε) = ε;
+		η∗(q,yi) = η∗(q,y).η(δ∗(q,y),i)
 
 ∀x: τ(x) = η∗(q0,x) ⇔ δ∗(q0,x) ∈F in cui tau rappresenta la funzione di traduzione.
 
