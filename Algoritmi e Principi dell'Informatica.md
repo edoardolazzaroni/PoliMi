@@ -223,27 +223,12 @@ Le transizioni tra configurazioni, indicate con il simbolo $⊢,$ dipendono natu
 	- $γ= Aβ$, la pila contiene il simbolo $A$, utilizzato per eseguire la mossa, seguito dalla stringa $β$ composta da tutti i restanti simboli della pila;
 	- $x = iy$, la stringa in ingresso è composta da un simbolo $i$, utilizzato per eseguire la mossa, seguito dalla stringa $y$ composta da tutti i restanti simboli non ancora letti;
 	- $γ′ = αβ$, dopo la transizione, la pila contiene la stringa $α$ appena inserita, seguita dalla stringa $β$ composta da tutti i restanti simboli della pila;
-	- x′ = y, dopo la transizione, la stringa in ingresso `e composta da tutti i simboli non ancora letti; in altre parole, la testina di lettura si sposta a destra di una posizione.
+	- $x′ = y$, dopo la transizione, la stringa in ingresso è composta da tutti i simboli non ancora letti; in altre parole, la testina di lettura si sposta a destra di una posizione.
 
-2. Se δ(q,ε,A) =<q′,α>`e una mossa definita, si ha che c=<q,x,γ >⊢ c′
-
-=<q′,x′,γ′>. dove:
-
-γ= Aβ, la pila contiene il simbolo A, utilizzato per eseguire la mossa, seguito dalla stringa β
-
-composta da tutti i restanti simboli della pila;
-
-γ′
-
-= αβ, dopo la transizione, la pila contiene la stringa αappena inserita, seguita dalla stringa
-
-β composta da tutti i restanti simboli della pila;
-
-x′
-
-= x, dopo la transizione, la stringa in ingresso `e la medesima; in altre parole, la testina di
-
-lettura non si sposta.14 CAPITOLO 2. AUTOMI DETERMINISTICI
+2. Se $δ(q,ε,A) =<q′,α>$ è una mossa definita, si ha che $c=<q,x,γ >⊢ c′ =<q′,x′,γ′>$, dove:
+	- γ= Aβ, la pila contiene il simbolo A, utilizzato per eseguire la mossa, seguito dalla stringa β composta da tutti i restanti simboli della pila;
+	- γ′ = αβ, dopo la transizione, la pila contiene la stringa αappena inserita, seguita dalla stringa β composta da tutti i restanti simboli della pila;
+	- x′ = x, dopo la transizione, la stringa in ingresso `e la medesima; in altre parole, la testina di lettura non si sposta.14 CAPITOLO 2. AUTOMI DETERMINISTICI
 
 Se δ(q,ε,A) ̸= ⊥, ovvero se la funzione di transizione `e definita, allora ∀i ∈ I,δ(q,i,A) = ⊥:
 
