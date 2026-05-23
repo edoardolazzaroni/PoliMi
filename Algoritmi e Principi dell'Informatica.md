@@ -325,7 +325,7 @@ Si noti che la funzione di transizione $δ$ è definita in modo tale che non ci 
 	- $u↑o$ è la posizione in cui si trova la testina di lettura del nastro di uscita, con $u∈O^∗$ e $o∈O$;
 	- $↑\notin I∪Γ ∪O$, rappresenta la posizione della testina di lettura di un determinato nastro; la testina di lettura punta la cella in cui è contenuto il carattere immediatamente alla destra del simbolo $↑$.
 
-La configurazione iniziale $c_0$ di una MT a $k$ nastri è una tupla di $k+3$ elementi: $<q_0,↑iy,↑Z_0,...,↑Z_0,↑_>$. Quindi, $x= ε,A_1,...,A_k = Z_0,α_1,...,α_k = ε,β_1,...β_k = ε,u= ε e o=$.
+La configurazione iniziale $c_0$ di una MT a $k$ nastri è una tupla di $k+3$ elementi: $<q_0,↑iy,↑Z_0,...,↑Z_0,↑ (blank)>$. Quindi: $x= ε,A_1,...,A_k = Z_0,α_1,...,α_k = ε,β_1,...β_k = ε,u= ε$ e $o= (blank)$.
 
 Ora, data la definizione di configurazione, è necessario anche formalizzare il significato di transizione $⊢$ tra due date configurazioni $c$ e $c′$ (detta anche mossa o passo computazionale):
 
