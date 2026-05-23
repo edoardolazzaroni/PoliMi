@@ -85,12 +85,13 @@ In questo capitolo verrà introdotto il concetto di automa e se ne analizzeranno
 
 Un automa è rappresentato graficamente come un inisieme di circonferenze denominate (che rappresentano gli stati dell’automa), ognuna delle quali è connessa ad altri stati tramite frecce. Su tali frecce è segnata la condizione da soddisfare per intraprendere quel passaggio di stato e come viene modificato lo stato durante il passaggio. Lo stato iniziale si riconosce per via di una freccia entrante nel nodo, mentre gli stati finali sono rappresentati da circonferenze con bordo doppio.
 
-Figura 2.1: Esempio di rappresentazione di un automa a stati finiti
+*Esempio di rappresentazione di un automa a stati finiti:*
 
 
 ![[Screenshot 2026-05-23 alle 16.07.21.png|363]]
-![[Screenshot 2026-05-23 alle 21.02.24.png|214x47]]
-Figura 2.2: Esempio di rappresentazione di una macchina di Turing
+![[Screenshot 2026-05-23 alle 21.02.24.png|621]]
+
+Esempio di rappresentazione di una macchina di Turing
 
 
 ### **2.1 Automi a Stati Finiti**
