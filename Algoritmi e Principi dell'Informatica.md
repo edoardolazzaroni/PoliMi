@@ -159,9 +159,9 @@ Gli Automi a Stati Finiti sono chiusi rispetto alle sequenti operazioni:
 - UNIONE. Formalmente, dati:
 	– $A^1 =<Q^1,I,δ^1,q_0^1 ,F^1 >$
 	– $A^2 =<Q^2,I,δ^2,q_0^2 ,F^2>$
-	allora $< A^1,A^2 >= < Q^1 ×Q^2,I,δ,< q_0^1 ,q_0^2 >,F^1 ×Q^2 ∪Q^1 ×F^2$ con $δ(< q^1,q^2 >,i) =<δ1(q1,i),δ2(q2,i) >$
+	allora $< A^1,A^2 >= < Q^1 ×Q^2,I,δ,< q_0^1 ,q_0^2 >,F^1 ×Q^2 ∪Q^1 ×F^2$ con $δ(< q^1,q^2 >,i) =<δ^1(q^1,i),δ^2(q^2,i) >$.
 
-- COMPLEMENTAZIONE. L’idea alla base del ragionamento è che FC = Q−F, quindi per poter complementare un automa a stati finiti è necessario rendere finali gli stati che non lo sono e viceversa. Bisogna però prestare attenzione al caso in cui la funzione di transizione dell’automa sia parziale: in tal caso, è necessario innanzitutto completare l’automa, definendo tutte le transizioni precedentemente non definite, e solo in seguito procedere con lo stesso algoritmo.
+- COMPLEMENTAZIONE. L’idea alla base del ragionamento è che $F^C = Q−F$, quindi per poter complementare un automa a stati finiti è necessario rendere finali gli stati che non lo sono e viceversa. Bisogna però prestare attenzione al caso in cui la funzione di transizione dell’automa sia parziale: in tal caso, è necessario innanzitutto completare l’automa, definendo tutte le transizioni precedentemente non definite, e solo in seguito procedere con lo stesso algoritmo.
 
 
 #### **2.1.3 Pumping Lemma**
