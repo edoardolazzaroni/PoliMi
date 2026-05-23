@@ -216,19 +216,11 @@ Per gli automi a pila, si può introdurre il concetto di configurazione, ossia u
 	- $x∈I^∗$ è la porzione non ancora letta della stringa d’ingresso;
 	- $γ ∈Γ^∗$ è la stringa composta da tutti i simboli contenuti all’interno della pila.
 
-Una configurazione pu`o essere quindi vista come una fotografia dello stato dell’automa in un deter-
+Una configurazione può essere quindi vista come una fotografia dello stato dell’automa in un determinato istante di tempo.
+Le transizioni tra configurazioni, indicate con il simbolo $⊢,$ dipendono naturalmente dalla funzione di transizione $δ$ e si distinguono in due categorie:
 
-minbato istante di tempo.
-
-Le transizioni tra configurazioni, indicate con il simbolo ⊢, dipendono naturalmente dalla funzione di
-
-transizione δ e si distinguono in due categorie:
-
-1. Se δ(q,i,A) =<q′,α>`e una mossa definita, si ha che c=<q,x,γ >⊢ c′
-
-=<q′,x′,γ′>, dove:
-
-γ= Aβ, la pila contiene il simbolo A, utilizzato per eseguire la mossa, seguito dalla stringa β
+1. Se δ(q,i,A) =<q′,α> è una mossa definita, si ha che c=<q,x,γ >⊢ c′ =<q′,x′,γ′>, dove:
+	-γ= Aβ, la pila contiene il simbolo A, utilizzato per eseguire la mossa, seguito dalla stringa β
 
 composta da tutti i restanti simboli della pila;
 
