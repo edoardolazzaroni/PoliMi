@@ -20,7 +20,7 @@ Data una stringa s, una stringa x è **sottostringa** (o fattore) di s se esisto
 - se $z = ε$, x è detta suffisso
 - se $z = y = ε$, $x= s$
 
-Data una stringa x, l’espressione $x^i$ indica la concatenazione della stringa x con s e stessa per $i−1$ volte, ovvero $x^0 = ε$ e $x_(i+1) = x.xi$
+Data una stringa x, l’espressione $x^i$ indica la concatenazione della stringa x con s e stessa per $i−1$ volte, ovvero $x^0 = ε$ e $x^{i+1} = x.xi$
 
 .
 
