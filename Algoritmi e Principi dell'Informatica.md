@@ -184,9 +184,7 @@ Perciò vale che $∀n≥0, ywnz∈L$.
 
 Il Pumping Lemma fornisce una condizione necessaria, ma non sufficiente sulla struttura dei linguaggi che vengono riconosciuti da un FSA. In altri termini, il teorema afferma che se una stringa $x$ è lunga almeno quanto il numero degli stati interni di un determinato automa che accetta tale stringa, allora $x$ passa necessariamente per una sequenza di mosse contenti un ciclo. Inoltre, tutte le stringhe che si ottengono da $x$ ripetendo la sua sottostringa che attraversa il ciclo, sono sequenze riconosciute e accettate dall’automa. Allo stesso modo, sono accettate anche tutte le stringhe che si ottengono da $x$ cancellando qualsiasi sua sottostringa che attraversi tale ciclo.
 
-Ora supponiamo di progettare un automa $A$ che riconosce tutte e sole le stringhe del linguaggio $L= {a^nb^n : n < 0}$. Inizialmente si assume che A sia in grado di riconoscere un tale linguaggio. Si
-
-considera innanzitutto il caso in cui x= ambm : m> |Q|. Sappiamo, grazie al Pumping Lemma, che
+Ora supponiamo di progettare un automa $A$ che riconosce tutte e sole le stringhe del linguaggio $L= \left \{a^nb^n : n < 0\right \}$. Inizialmente si assume che $A$ sia in grado di riconoscere un tale linguaggio. Si considera innanzitutto il caso in cui x= ambm : m> |Q|. Sappiamo, grazie al Pumping Lemma, che
 
 ci sar`a un ciclo interno all’automa e pu`o esistere nei tre casi sottolineati:
 
