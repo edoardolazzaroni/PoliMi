@@ -187,11 +187,8 @@ Il Pumping Lemma fornisce una condizione necessaria, ma non sufficiente sulla st
 Ora supponiamo di progettare un automa $A$ che riconosce tutte e sole le stringhe del linguaggio $L= \left \{a^nb^n : n < 0\right \}$. Inizialmente si assume che $A$ sia in grado di riconoscere un tale linguaggio. Si considera innanzitutto il caso in cui $x= a^mb^m : m> |Q|$. Sappiamo, grazie al Pumping Lemma, che ci sarà un ciclo interno all’automa e può esistere nei tre casi sottolineati:
 	1)$...aaaaaabbbbbb...$ : se così fosse si potrebbe rimovere dalla stringa la sottostringa che passa all’interno del ciclo e l’automa riconoscerebbe comunque come accettabile tale stringa, ma ciò non è vero in quanto il numero di $a$ presenti dopo la rimozione di tale sottostringa sarebbe minore del numero delle $b$ e dunque la stringa non sarebbe riconosciuta dall’automa;
 
-2)...aaaaaabbbbbb... : si applica lo stesso ragionamento del punto precedente;
-
-3)..aaaaaabbbbbb... : se così fosse si potrebbe ripercorrere quel determinato ciclo anche due volte, ma così facendo si otterrebbe la stringa ...aaaaaaaabbaabbbbbbbb... che, secondo il lemma dovrebbe
-
-essere riconoscibile dall’automa, ma cos`ı non `e.
+	2)$...aaaaaabbbbbb...$ : si applica lo stesso ragionamento del punto precedente;
+	3)$...aaaaaabbbbbb...$ : se così fosse si potrebbe ripercorrere quel determinato ciclo anche due volte, ma così facendo si otterrebbe la stringa $...aaaaaaaabbaabbbbbbbb...$ che, secondo il lemma dovrebbe essere riconoscibile dall’automa, ma così non è.
 
 Si nota quindi che non esiste nessun automa a stati finiti che riesca a interpretare un tale linguaggio,
 
