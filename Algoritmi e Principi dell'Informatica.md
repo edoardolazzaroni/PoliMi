@@ -249,7 +249,7 @@ Un tale automa legge sempre per intero la stringa in ingresso prima di terminare
 
 I PDT (Push Down Trasducer) sono trasduttori che presentano un numero finiti di stati e una memoria organizzata su una struttura a pila. Formalmente:
 
-Definizione 2.2.4. Un PDT `e una tupla di 9 elementi <Q,I,δ,Γ,q0,Z0,F,O,η>, dove:
+- Un ==PDT== è una tupla di 9 elementi $<Q,I,δ,Γ,q_0,Z_0,F,O,η>$, dove:
 
 Q `e un inisieme finito di stati;
 
