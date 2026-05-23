@@ -219,26 +219,11 @@ Per gli automi a pila, si può introdurre il concetto di configurazione, ossia u
 Una configurazione può essere quindi vista come una fotografia dello stato dell’automa in un determinato istante di tempo.
 Le transizioni tra configurazioni, indicate con il simbolo $⊢,$ dipendono naturalmente dalla funzione di transizione $δ$ e si distinguono in due categorie:
 
-1. Se δ(q,i,A) =<q′,α> è una mossa definita, si ha che c=<q,x,γ >⊢ c′ =<q′,x′,γ′>, dove:
-	-γ= Aβ, la pila contiene il simbolo A, utilizzato per eseguire la mossa, seguito dalla stringa β
-
-composta da tutti i restanti simboli della pila;
-
-x = iy, la stringa in ingresso `e composta da un simbolo i, utilizzato per eseguire la mossa,
-
-seguito dalla stringa y composta da tutti i restanti simboli non ancora letti;
-
-γ′
-
-= αβ, dopo la transizione, la pila contiene la stringa αappena inserita, seguita dalla stringa
-
-β composta da tutti i restanti simboli della pila;
-
-x′
-
-= y, dopo la transizione, la stringa in ingresso `e composta da tutti i simboli non ancora
-
-letti; in altre parole, la testina di lettura si sposta a destra di una posizione.
+1. Se $δ(q,i,A) =<q′,α>$ è una mossa definita, si ha che $c=<q,x,γ >⊢ c′ =<q′,x′,γ′>$, dove:
+	- γ= Aβ, la pila contiene il simbolo A, utilizzato per eseguire la mossa, seguito dalla stringa β composta da tutti i restanti simboli della pila;
+	- x = iy, la stringa in ingresso `e composta da un simbolo i, utilizzato per eseguire la mossa, seguito dalla stringa y composta da tutti i restanti simboli non ancora letti;
+	- γ′ = αβ, dopo la transizione, la pila contiene la stringa αappena inserita, seguita dalla stringa β composta da tutti i restanti simboli della pila;
+	- x′ = y, dopo la transizione, la stringa in ingresso `e composta da tutti i simboli non ancora letti; in altre parole, la testina di lettura si sposta a destra di una posizione.
 
 2. Se δ(q,ε,A) =<q′,α>`e una mossa definita, si ha che c=<q,x,γ >⊢ c′
 
