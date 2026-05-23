@@ -228,9 +228,9 @@ Le transizioni tra configurazioni, indicate con il simbolo $⊢,$ dipendono natu
 2. Se $δ(q,ε,A) =<q′,α>$ è una mossa definita, si ha che $c=<q,x,γ >⊢ c′ =<q′,x′,γ′>$, dove:
 	- $γ= Aβ$, la pila contiene il simbolo $A$, utilizzato per eseguire la mossa, seguito dalla stringa $β$ composta da tutti i restanti simboli della pila;
 	- $γ′ = αβ$, dopo la transizione, la pila contiene la stringa $α$ appena inserita, seguita dalla stringa $β$ composta da tutti i restanti simboli della pila;
-	- $x′ = x$, dopo la transizione, la stringa in ingresso `e la medesima; in altre parole, la testina di lettura non si sposta.
+	- $x′ = x$, dopo la transizione, la stringa in ingresso è la medesima; in altre parole, la testina di lettura non si sposta.
 
-Se δ(q,ε,A) ̸= ⊥, ovvero se la funzione di transizione `e definita, allora ∀i ∈ I,δ(q,i,A) = ⊥:
+Se $δ(q,ε,A) ̸= ⊥$, ovvero se la funzione di transizione `e definita, allora ∀i ∈ I,δ(q,i,A) = ⊥:
 
 se questa propriet`a non fosse soddisfatta, entrambe le transizioni sarebbero consentinte e, come detto
 
