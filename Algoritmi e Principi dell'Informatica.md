@@ -170,15 +170,9 @@ Gli automi appena analizzati sono molto semplici e hanno delle evidenti limitazi
 
 - **Primo Teorema**: dato un automa a stati finiti $A=< Q,I,δ,q_0,F >$, dove $Q$ ha cardinalità $n$, il linguaggio riconosciuto da $A$ non è vuoto se e solo se $A$ accetta una stringa $x$ con $— x —  ¡n$. 
 
-- **Secondo Teorema**: dato un automa a stati finiti $A=< Q,I,δ,q_0,F >$, dove $Q$ ha cardinalità $n$, il linguaggio riconosciuto da $A$ è infinito se e solo se A accetta una stringa x con n≤ |x| <2n.
+- **Secondo Teorema**: dato un automa a stati finiti $A=< Q,I,δ,q_0,F >$, dove $Q$ ha cardinalità $n$, il linguaggio riconosciuto da $A$ è infinito se e solo se $A$ accetta una stringa $x$ con $n≤ |x| <2n$.
 
-I teoremi 2.1.1 e 2.1.2 sono basati sul fatto che un determinato Automa a Stati Finiti pu`o presentare
-
-cicli nella sua rappresentazione grafica. Nel caso in cui l’automa non presenta alcun ciclo nella sua
-
-rappresentazione grafica, il linguaggio `e sicuramente finito, in quanto la stringta in ingresso pu`o far
-
-passare l’automa una sola volta in ciascuno dei suoi stati: di conseguenza, la stringa pu`o essere lunga al
+I teoremi sono basati sul fatto che un determinato FSA può presentare cicli nella sua rappresentazione grafica. Nel caso in cui l’automa non presenta alcun ciclo nella sua rappresentazione grafica, il linguaggio è **sicuramente finito**, in quanto la stringa in ingresso può far passare l’automa una sola volta in ciascuno dei suoi stati: di conseguenza, la stringa pu`o essere lunga al
 
 pi`u come il numero di stati dell’automa meno uno.
 
