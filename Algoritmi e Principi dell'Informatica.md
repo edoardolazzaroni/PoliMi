@@ -109,14 +109,12 @@ Quando l’automa riceve in ingresso un simbolo del proprio alfabeto, cambia lo 
 **Attenzione!** La funzione di transizione δ non sempre è totale: ciò significa che in alcuni automi non tutte le transizioni da uno stato a quello successivo sono definite. Gli automi che presentano una funzione di transizione completa sono detti completi.
 Data la funzione di transizione $δ$ è possibile definire una sequenza di mosse $δ^∗$, che opera su una stringa anzichè su un unico simbolo in ingresso. Formalmente:
 
-- La chiusura riflessiva e transitiva della funzione di trasferimento, indicata con $δ^∗: Q×A^∗→Q$ è definita in maniera induttiva come segue:
+- La chiusura **riflessiva** e **transitiva** della funzione di trasferimento, indicata con $δ^∗: Q×A^∗→Q$ è definita in maniera induttiva come segue:
 		$δ^∗(q,ε)=q$;
 		$δ^∗(q,yi) = δ(δ^∗(q,y),i)$
 	$∀x: x∈L⇔δ^∗(q_0,x) ∈F$.
 
-In altri termini, se l’automa ricesse in ingresso la stringa vuota ε, allora rimarrebbe nello stato qin cui
-
-si trova, mentre nel caso in cui ricevesse una sequenza di caratteri yilo stato che l’automa raggiungerebbe
+In altri termini, se l’automa ricesse in ingresso la stringa vuota $ε$, allora rimarrebbe nello stato $q$ in cui si trova, mentre nel caso in cui ricevesse una sequenza di caratteri yilo stato che l’automa raggiungerebbe
 
 sarebbe quello che raggiungerebbe con ingresso i, a partire dallo stato che raggiungerebbe da q con la
 
