@@ -37,15 +37,9 @@ Nel contesto dei linguaggi, l’operatore $◦$ rappresenta la concatenazione di
 
 - Un ==monoide== è un semigruppo in cui è definito un elemento unitario $u∈S$, tale che $∀x,∃u (x◦u= x)$.
 
-Nel contesto dei linguaggi, l’elemento unitario u rappresenta la stringa vuota ε: infatti, la concate-
+Nel contesto dei linguaggi, l’elemento unitario $u$ rappresenta la stringa vuota $ε$: infatti, la concatenazione di una generica stringa $x$ con la stringa vuota $ε$ produce come risultato nuovamente la stringa originaria $x$.
 
-nazione di una generica stringa x con la stringa vuota ε produce come risultato nuovamente la stringa
-
-originaria x.
-
-Definizione 1.2.3 (Gruppo). Un gruppo `e un monoide in cui `e definito un elemento inverso x−1 unico
-
-per ogni elemento x dell’insieme S, tale che ∀x(x◦x−1 = u).
+- Un ==gruppo== è un monoide in cui è definito un elemento inverso x−1 unico per ogni elemento x dell’insieme S, tale che ∀x(x◦x−1 = u).
 
 Date le definizioni 1.2.1, 1.2.2 e 1.2.3, si possono definire gli operatori di Kleene:
 
