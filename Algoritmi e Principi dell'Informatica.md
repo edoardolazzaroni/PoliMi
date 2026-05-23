@@ -114,17 +114,8 @@ Data la funzione di transizione $δ$ è possibile definire una sequenza di mosse
 		$δ^∗(q,yi) = δ(δ^∗(q,y),i)$
 	$∀x: x∈L⇔δ^∗(q_0,x) ∈F$.
 
-In altri termini, se l’automa ricesse in ingresso la stringa vuota $ε$, allora rimarrebbe nello stato $q$ in cui si trova, mentre nel caso in cui ricevesse una sequenza di caratteri yilo stato che l’automa raggiungerebbe
-
-sarebbe quello che raggiungerebbe con ingresso i, a partire dallo stato che raggiungerebbe da q con la
-
-stringa y.
-
-Tramite questa definizione, si pu`o affermare che una generica stringa xappartiene al linguaggio Lse
-
-e solo se l’automa si trova in uno stato finale a fronte della lettura della stringa in ingresso: in tal caso si
-
-dice che l’automa accetta o riconosce la stringa di ingresso. Per questo motivo, gli FSA sono detti essere
+In altri termini, se l’automa ricesse in ingresso la stringa vuota $ε$, allora rimarrebbe nello stato $q$ in cui si trova, mentre nel caso in cui ricevesse una sequenza di caratteri $yi$ lo stato che l’automa raggiungerebbe sarebbe quello che raggiungerebbe con ingresso $i$, a partire dallo stato che raggiungerebbe da $q$ con la stringa $y$.
+Tramite questa definizione, si può affermare che una generica stringa $x$ appartiene al linguaggio $L$ se e solo se l’automa si trova in uno stato finale a fronte della lettura della stringa in ingresso: in tal caso si dice che l’automa accetta o riconosce la stringa di ingresso. Per questo motivo, gli FSA sono detti essere
 
 accettatori, in quanto verificano se una determinata stringa appartiene o meno ad un dato linguaggio.
 
