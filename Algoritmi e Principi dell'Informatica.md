@@ -43,15 +43,11 @@ Nel contesto dei linguaggi, l’elemento unitario $u$ rappresenta la stringa vuo
 
 Si possono quindi definire gli **Operatori di Kleene**:
 
-- Sia $< S,◦ >$ un semigruppo. Per ogni $X ⊆ S, S+$ indica il sottoinsieme di S generato da X, ovvero l’insieme di tutti gli elementi $s∈S$ tale per cui $s= x_1 ◦x_2 ◦...◦x_n$ per qualche n≥1, con xi ∈X (stringhe non vuote).
+- Sia $< S,◦ >$ un semigruppo. Per ogni $X ⊆ S, S+$ indica il sottoinsieme di S generato da X, ovvero l’insieme di tutti gli elementi $s∈S$ tale per cui $s= x_1 ◦x_2 ◦...◦x_n$ per qualche $n≥1$, con $x_i ∈X$ (stringhe non vuote).
 
-Nel contesto dei linguaggi, l’operatore + di Kleene rappresenta l’insieme infinito di stringhe non
+Nel contesto dei linguaggi, l’operatore $+$ di Kleene rappresenta l’insieme infinito di stringhe non vuote, che si possono generare a partire dall’insieme $S$ di simboli, a cui si applica tale operatore.
 
-vuote, che si possono generare a partire dall’insieme S di simboli, a cui si applica tale operatore.
-
-Definizione 1.2.5 (Stella di Kleene). Se <S,◦,u>`e un monoide, allora X∗
-
-(pi`u precisamente un sottomonoide) di S ed `e detto monoide libero generato da X.
+- Se $<S,◦,u>$ è un monoide, allora X∗ (pi precisamente un sottomonoide) di S ed `e detto monoide libero generato da X.
 
 = X+ ∪{u}`e un monoide
 
