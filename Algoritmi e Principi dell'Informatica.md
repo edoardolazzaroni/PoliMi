@@ -62,18 +62,20 @@ Data la definizione della stella di Kleene, si può ora dare la definizione di l
 Dato un insieme di simboli, si possono generare infiniti linguaggi.
 
 Poichè i linguaggi sono un inisieme di stringhe, valgono tutte le operazioni insiemistiche come:
-	- Unione (L1 ∪L2): l’inisieme di tutte le stringhe che appartengono o ad L1 o ad L2 o ad entrambi i linguaggi;
-	- Intersezione (L1 ∩L2): l’insieme di tutte le stringhe che appartengono sia ad L1 che ad L2;
-	- Differenza (L1\L2): l’insieme di tutte le stringhe che appartengono ad L1 ma non ad L2;
+	- Unione ($L1 ∪L2$): l’inisieme di tutte le stringhe che appartengono o ad L1 o ad L2 o ad entrambi i linguaggi;
+	- Intersezione ($L1 ∩L2$): l’insieme di tutte le stringhe che appartengono sia ad L1 che ad L2;
+	- Differenza ($L1\L2$): l’insieme di tutte le stringhe che appartengono ad L1 ma non ad L2;
 	- Complementare (LC = A∗\L): l’insieme di tutte le stringhe che non appartengono al linguaggio L;
 	- Concatenazione (L1.L2): l’insieme di tutte le stringhe che si ottengono concatenando ad ogni stringa di L1 ogni stringa di L2; formalmente L1.L2 = {xy: x∈L1, y∈L2};
 	- Potenza n-esima (Ln): l’insieme di tutte le stringhe che si ottengono concatenando Lcon s`e stesso n volte, utilizzando le regole della concatenazione precedentemente definite;
 	- Chiusura di Kleene L∗= ∞ Ln e L+ = ∞ n=0 n=1 Ln
 
 Le operazioni su di un determinato linguaggio crea nuove classi di linguaggi con caratteristiche proprie, talvolta interessanti. Un linguaggio diventa di interesse nel momento in cui le stringhe di cui è composto possono essere utilizzate per veicolare informazioni, problemi, soluzioni o per rappresentare programmi, documenti, elementi multimediali o, nel caso più rilevante, per rappresentare computazioni.
-Capitolo 2
 
-Automi Deterministici
+
+
+## **Automi Deterministici**
+
 
 In questo capitolo verr`a introdotto il concetto di automa e se ne analizzeranno le varie classi esistenti,
 
