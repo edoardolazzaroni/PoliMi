@@ -35,8 +35,7 @@ Per poter proseguire con il trattato, è prima necessario introdurre alcuni conc
 
 Nel contesto dei linguaggi, l’operatore $◦$ rappresenta la concatenazione di stringhe.
 
-- Un ==monoide== è un semigruppo in cui è definito un elemento unitario u∈S, tale che ∀x,∃u(x◦u= x).
-
+- Un ==monoide== è un semigruppo in cui è definito un elemento unitario $u∈S$, tale che $∀x,∃u (x◦u= x)$.
 
 Nel contesto dei linguaggi, l’elemento unitario u rappresenta la stringa vuota ε: infatti, la concate-
 
