@@ -315,16 +315,9 @@ Le MT (Turing Machine) sono automi che presentano un numero finito di stati e ch
 	- $Z_0∈Γ$ è il simbolo iniziale dell’alfabeto di memoria;
 	- $F ⊆Q$ è un insieme di stati finali.
 
+Si noti che la funzione di transizione $δ$ è definita in modo tale che non ci siano transizioni uscenti da uno stato finale.
 
-η: (Q−F) ×I×Γk →O×{R,S}`e la funzione di uscita (eventualmente parziale), definita dove
-
-`e definita la funzione di transizione δ;
-
-Si noti che la funzione di transizione δ `e definita in modo tale che non ci siano transizioni uscnti da
-
-uno stato finale.
-
-Definizione 2.3.2. Una configurazione c di una TM a k nastri `e una tupla di k+3 elementi
+- Una configurazione $c$ di una MT a k nastri `e una tupla di k+3 elementi
 
 <q, x↑iy, α1 ↑A1β1,...,αk↑Akβk, u↑o>, dove:
 
