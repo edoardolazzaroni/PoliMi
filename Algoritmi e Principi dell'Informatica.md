@@ -176,13 +176,9 @@ I teoremi sono basati sul fatto che un determinato FSA può presentare cicli nel
 
 Si enuncia quindi il seguente teorema noto con il nome di Pumping Lemma:
 
-- ==Teorema del Pumping Lemma==: sia $A$ un automa a stati finiti. Se x∈L e |x| ≤ |Q|, allora
-
-esistono uno stato q∈Q e una stringa w∈I+ tali che:
-
-x= ywz;
-
-δ∗(q,w) = q
+- ==Teorema del Pumping Lemma==: sia $A$ un automa a stati finiti. Se $x∈L$ e $|x| ≤ |Q|$, allora esistono uno stato $q∈Q$ e una stringa $w∈I^+$ tali che:
+	- $x= ywz$
+	- $δ∗(q,w) = q$.
 
 Perci`o vale che ∀n≥0 ywnz∈L
 
