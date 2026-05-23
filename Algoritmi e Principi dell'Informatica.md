@@ -107,13 +107,9 @@ Gli FSA (Finite State Automaton) sono automi che presentano un numero finito di 
 
 Quando l’automa riceve in ingresso un simbolo del proprio alfabeto, cambia lo stato in cui si trova. Il passaggio da uno stato a quello successivo avviene attraverso la funzione di transizione $δ$; tale funzione indica, a partire da un determinato stato, in quale stato si troverà l’automa dopo la ricezione di un simbolo in ingresso.
 **Attenzione!** La funzione di transizione δ non sempre è totale: ciò significa che in alcuni automi non tutte le transizioni da uno stato a quello successivo sono definite. Gli automi che presentano una funzione di transizione completa sono detti completi.
-Data la funzione di transizione $δ$ è possibile definire una sequenza di mosse $δ^∗$, che opera su una
+Data la funzione di transizione $δ$ è possibile definire una sequenza di mosse $δ^∗$, che opera su una stringa anzichè su un unico simbolo in ingresso. Formalmente:
 
-stringa anzich`e su un unico simbolo in ingresso. Formalmente:
-
-Definizione 2.1.2. La chiusura riflessiva e transitiva della funzione di trasferimento, indicata con
-
-δ∗: Q×A∗→Q, `e definita in maniera induttiva come segue:
+- La chiusura riflessiva e transitiva della funzione di trasferimento, indicata con $δ^∗: Q×A^∗→Q$ è definita in maniera induttiva come segue:
 
 δ∗(q,ε)=q;
 
