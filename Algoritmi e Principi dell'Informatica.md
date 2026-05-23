@@ -139,10 +139,9 @@ Quando l’automa riceve in ingresso un simbolo, modifica il proprio stato e mos
 Data la funzione di uscita $η$, è possibile definire una sequenza di uscita $η^∗$, che opera su una stringa anzichè su un unico simbolo in ingresso. Formalmente:
 
 - La chiusura riflessiva e transitiva della funzione di uscita, indicata con $η^∗: Q×I^∗→ O^∗$, è definita in maniera induttiva come segue:
-		η∗(q,ε) = ε;
-		η∗(q,yi) = η∗(q,y).η(δ∗(q,y),i)
-
-∀x: τ(x) = η∗(q0,x) ⇔ δ∗(q0,x) ∈F in cui tau rappresenta la funzione di traduzione.
+		$η^∗(q,ε) = ε$;
+		$η^∗(q,yi) = η^∗(q,y).η(δ^∗(q,y),i)$
+	$∀x: τ(x) = η^∗(q_0,x) ⇔ δ^∗(q_0,x) ∈F$ in cui tau rappresenta la funzione di traduzione.
 
 In altri termini, se l’automa ricevesse in ingresso la stringa vuota ε, allora rimarrebbe nello stato q
 
