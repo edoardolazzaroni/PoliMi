@@ -309,7 +309,7 @@ Le MT (Turing Machine) sono automi che presentano un numero finito di stati e ch
 	- $I$ è l’alfabeto di ingresso;
 	- $Γ$ è l’alfabeto di memoria;
 	- $O$ è l'alfabeto di uscita;
-	- $δ:(Q−F)×I×Γ^k →Q×Γ^k×{R,L,S}k+1$ è la funzione di transizione (eventualmente parziale);
+	- $δ:(Q−F)×I×Γ^k →Q×Γ^k×\left \{R,L,S\right \}^{k+1}$ è la funzione di transizione (eventualmente parziale);
 	- η: (Q−F) ×I×Γk →O×{R,S} è la funzione di uscita (eventualmente parziale), definita dove è definita la funzione di transizione $δ$;
 	- $q_0∈Q$ è lo stato iniziale;
 	- $Z_0∈Γ$ è il simbolo iniziale dell’alfabeto di memoria;
