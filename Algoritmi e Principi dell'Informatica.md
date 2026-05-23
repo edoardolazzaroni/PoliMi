@@ -300,23 +300,9 @@ I PDA non sono aperti rispetto ad alcun’altra operazione, quindi un automa a p
 
 
 
-2.3 Macchine di Turing
+### **2.3 Macchine di Turing**
 
-Le TM (Turing Machine) sono automi che presentano un numero finito di stati e che operano su un insieme
-
-di nastri infiniti a destra: un nastro di ingresso, un nastro di uscita e uno o pi`u nastri di memoria. Ogni
-
-nastro `e composto da celle inizializzate dal simbolo di blank (tramite cui si indica che la cella `e vuota)
-
-che pu`o essere sovrascritto con un qualsiasi simbolo dell’alfabeto in ingresso. Il dispositivo di controllo
-
-pu`o muovere le testine di lettura dei nastri in maniera indipendente l’una dall’altra, spostandole a destra
-
-(R) o a sinistra (L) di una cella, oppure lasciandole ferme (S) nella posizione in cui si trovano. L’unica16 CAPITOLO 2. AUTOMI DETERMINISTICI
-
-eccezione `e costituita dal nastro di uscita che pu`o essere spostato solamente a destra. In alternativa,
-
-l’automa pu`o anche non effettuare alcuna operazione, fermandosi definitivamente.
+Le MT (Turing Machine) sono automi che presentano un numero finito di stati e che operano su un insieme di nastri infiniti a destra: un nastro di ingresso, un nastro di uscita e uno o più nastri di memoria. Ogni nastro è composto da celle inizializzate dal simbolo di blank (tramite cui si indica che la cella è vuota) che può essere sovrascritto con un qualsiasi simbolo dell’alfabeto in ingresso. Il dispositivo di controllo può muovere le testine di lettura dei nastri in maniera indipendente l’una dall’altra, spostandole a destra (R) o a sinistra (L) di una cella, oppure lasciandole ferme (S) nella posizione in cui si trovano. L’unica eccezione è costituita dal nastro di uscita che può essere spostato solamente a destra. In alternativa, l’automa può anche non effettuare alcuna operazione, fermandosi definitivamente.
 
 Formalmente:
 
