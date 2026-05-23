@@ -240,13 +240,9 @@ Sappiamo quindi che il linguaggio $a^nb^n$ non può essere riconosciuto da alcun
 Lemma. Inoltre, ogni linguaggio riconosciuto da un FSA è riconoscibile anche da un PDA. Si può affermare, quindi, che gli automi a pila sono più espressivi e di **maggiore potenza** rispetto agli automi a stati finiti, i quali possono essere visti come un sottoinsieme dei PDA.
 A differenza degli FSA, i PDA potrebbero anche non terminare la propria esecuzione dopo un numero finito di mosse, in quanto possono presentare cicli di ε-mosse. Tali cicli non aggiungono potere espressivo ai PDA: questo significa che gli automi a pila ciclici riconoscono lo stesso insieme di linguaggi degli automi aciclici. Per questo motivo, si preferisce eliminare tale categoria di automi, utilizzando tranisizioni tra configurazioni del tipo $< q,x,α >⊢_d^∗< q′,x,β >$, in cui il simbolo $⊢_d^∗$ indica che per $< q,x,α >⊢^∗<q′,x,β >$ con $β= Zβ′, δ(q′,ε,Z) = ⊥$, ovvero transizioni che hanno necessariamente bisogno di un simbolo in ingresso per proseguire la propria esecuzione. Formalmente:
 
-- Un PDA si definisce **aciclico** se e solo se: $∀x∈I^∗\∃q,γ :<q0,x,Z0 >⊢∗d<q,ε,γ >$.
+- Un PDA si definisce **aciclico** se e solo se: $∀x∈I^∗∃q,γ :<q_0,x,Z_0 >⊢_d^∗<q,ε,γ >$.
 
-Un tale automa legge sempre per intero la stringa in ingresso prima di terminare la propria esecuzione
-
-ed accettare tale stringa, non potendo finire in un ciclo di ε-mosse. Un automa a pila cicliclo pu`o sempre
-
-essere trasformato in un automa a pila aciclico equivalente.
+Un tale automa legge sempre per intero la stringa in ingresso prima di terminare la propria esecuzione ed accettare tale stringa, non potendo finire in un ciclo di ε-mosse. Un automa a pila cicliclo può sempre essere trasformato in un automa a pila aciclico equivalente.
 
 2.2.1 Trasduttori a Pila
 
