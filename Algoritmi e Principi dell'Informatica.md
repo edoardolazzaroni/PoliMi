@@ -250,20 +250,14 @@ Un tale automa legge sempre per intero la stringa in ingresso prima di terminare
 I PDT (Push Down Trasducer) sono trasduttori che presentano un numero finiti di stati e una memoria organizzata su una struttura a pila. Formalmente:
 
 - Un ==PDT== è una tupla di 9 elementi $<Q,I,δ,Γ,q_0,Z_0,F,O,η>$, dove:
+	- $Q$ è un insieme finito di stati;
+	- $I$ è l’alfabeto di ingresso;
+	- $Γ$ è l’alfabeto della pila, tale per cui $Γ ∩I= ∅$;
+	- $δ: Q×(I∪{ε}) ×Γ →Q×Γ^∗$ è la funzione di transizione (eventualmente parziale);
+	- $q_0$ è lo stato iniziale;
+	- $Z_0$ è il simbolo di fondo pila, ovvero l’unico simbolo che appare inizialmente nella pila;
+	- $F ⊆Q$ è un insieme di stati finali.
 
-Q `e un inisieme finito di stati;
-
-I `e l’alfabeto di ingresso;
-
-Γ `e l’alfabeto della pila, tale per cui Γ ∩I= ∅;
-
-δ: Q×(I∪{ε}) ×Γ →Q×Γ∗`e la funzione di transizione (eventualmente parziale);
-
-q0 `e lo stato iniziale
-
-Z0 `e il simbolo di fondo pila, ovvero l’unico simbolo che appare inizialmente nella pila;
-
-F ⊆Q `e un insieme di stati finali;
 
 O `e l’alfabeto di uscita;
 
