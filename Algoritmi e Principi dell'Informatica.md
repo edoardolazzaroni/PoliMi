@@ -199,19 +199,13 @@ I PDA (Push Down Automaton) sono automi che presentano un numero finito di stati
 Questi particolari tipi di automi hanno la possibilità di utilizzare il simbolo in cima alla pila per decidere quale transizione effettuare e la possibilità di manipolare la pila, rimuovendone il simbolo alla cima, oppure aggiungendo un nuovo simbolo. Formalmente:
 
 - Un ==PDA== è una tupla di 7 elementi $<Q,I,δ,Γ,q_0,Z_0,F >$, dove:
-	-Q `e un inisieme finito di stati;
-
-I `e l’alfabeto di ingresso;
-
-Γ `e l’alfabeto della pila, tale per cui Γ ∩I= ∅;
-
-δ: Q×(I∪{ε}) ×Γ →Q×Γ∗`e la funzione di transizione (eventualmente parziale);
-
-q0 `e lo stato iniziale
-
-Z0 `e il simbolo di fondo pila, ovvero l’unico simbolo che appare inizialmente nella pila;
-
-F ⊆Q `e un insieme di stati finali.
+	- $Q$ è un insieme finito di stati;
+	- $I$ è l’alfabeto di ingresso;
+	- $Γ$ è l’alfabeto della pila, tale per cui Γ ∩I= ∅;
+	- δ: Q×(I∪{ε}) ×Γ →Q×Γ∗ è la funzione di transizione (eventualmente parziale);
+	- q0 è lo stato iniziale
+	- Z0 è il simbolo di fondo pila, ovvero l’unico simbolo che appare inizialmente nella pila;
+	- F ⊆Q è un insieme di stati finali.
 
 Dalla definizione, si pu`o osservare che l’automa `e in grado di decidere il passo successivo anche senza
 
