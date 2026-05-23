@@ -154,10 +154,10 @@ Gli Automi a Stati Finiti sono chiusi rispetto alle sequenti operazioni:
 - INTERSEZIONE. Formalmente, dati:
 	– $A^1 =<Q^1,I,δ^1,q_0^1 ,F^1>$
 	– $A^2 =<Q^2,I,δ^2,q_0^2 ,F^2>$
-	allora $< A^1,A^2 >= < Q^1 ×Q^2,I,δ,< q_0^1 ,q_0^2 >,F^1 ×F^2 >$ e si può dimostrare che il linguaggio L(<A1,A2 >) = L(A1) ∩L(A2).
+	allora $< A^1,A^2 >= < Q^1 ×Q^2,I,δ,< q_0^1 ,q_0^2 >,F^1 ×F^2 >$ e si può dimostrare che il linguaggio $L(<A^1,A^2>) = L(A^1) ∩L(A^2)$.
 
 - UNIONE. Formalmente, dati:
-	– A1 =<Q1,I,δ1,q10 ,F1 >
+	– $A^1 =<Q^1,I,δ^1,q_0^1 ,F^1 >$
 	– A2 =<Q2,I,δ2,q20 ,F2 >
 	allora < A1,A2 >= < Q1 ×Q2,I,δ,< q10 ,q20 >,F1 ×Q2 ∪Q1 ×F2 con δ(< q1,q2 >,i) =<δ1(q1,i),δ2(q2,i) >
 
