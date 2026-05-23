@@ -1,4 +1,5 @@
 
+
 # Parte I: Informatica Teorica
 
 ## Linguaggi Formali
@@ -22,13 +23,10 @@ Data una stringa s, una stringa x è **sottostringa** (o fattore) di s se esisto
 
 Data una stringa x, l’espressione $x^i$ indica la concatenazione della stringa x con s e stessa per $i−1$ volte, ovvero $x^0 = ε$ e $x^{i+1} = x.x^i$  .
 
-.
 
-1.2 Operatori di Kleene
+### 1.2 Operatori di Kleene
 
-Per poter proseguire con il trattato, `e prima necessario introdurre alcuni concetti matematici fondamen-
-
-tali. Si danno quindi le seguenti definizioni:
+Per poter proseguire con il trattato, è prima necessario introdurre alcuni concetti matematici fondamentali. Si danno quindi le seguenti definizioni:
 
 Definizione 1.2.1 (Semigruppo). Un semigruppo `e una coppia <S,◦>, dove:
 
