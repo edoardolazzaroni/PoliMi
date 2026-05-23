@@ -144,19 +144,16 @@ Data la funzione di uscita $η$, è possibile definire una sequenza di uscita $�
 	$∀x: τ(x) = η^∗(q_0,x) ⇔ δ^∗(q_0,x) ∈F$ in cui tau rappresenta la funzione di traduzione.
 
 In altri termini, se l’automa ricevesse in ingresso la stringa vuota $ε$, allora rimarrebbe nello stato $q$ in cui si trova e non scriverebbe nessun simbolo sul nastro di uscita, mentre, nel caso in cui ricevesse in ingresso una sequenza di caratteri $yi$, allora l’automa produrebbe in uscita quello che produrrebbe da $q$ leggendo $y$ seguito da ciò che produrrebbe dallo stato che raggiungerebbe da $q$ leggendo $y$, avendo $i$ come ingresso. Quindi la funzione $η^∗$ ha il compito di concatenare il simbolo (o la stringa) che si ottiene a fronte della prima transizione con i simboli (o le stringhe) che si ottengono nei successivi passaggi di stato.
-Tramite questa definizione, si può affermare che la traduzione di una stringa in ingresso $x$ è accettata se e solo se l’automa si trova in uno stato finale a fronte della lettura di x.
+Tramite questa definizione, si può affermare che la traduzione di una stringa in ingresso $x$ è accettata se e solo se l’automa si trova in uno stato finale a fronte della lettura di $x$.
 
-2.1.2 Operazioni sugli Automi a Stati Finiti
+
+#### **2.1.2 Operazioni sugli Automi a Stati Finiti**
 
 Gli Automi a Stati Finiti sono chiusi rispetto alle sequenti operazioni:
 
-Intersezione. Formalmente, dati:
-
-– A1 =<Q1,I,δ1,q1
-
-0 ,F1 >
-
-– A2 =<Q2,I,δ2,q2
+- Intersezione. Formalmente, dati:
+	– A1 =<Q1,I,δ1,q10 ,F1 >
+	– A2 =<Q2,I,δ2,q2
 
 0 ,F2 >
 
