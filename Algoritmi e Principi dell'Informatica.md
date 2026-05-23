@@ -321,8 +321,9 @@ Si noti che la funzione di transizione $δ$ è definita in modo tale che non ci 
 	- $q∈Q$ è lo stato attuale in cui si trova l’automa;
 	- $x↑iy$ è la posizione in cui si trova la testina di lettura del nastro di ingresso, con $x,y∈I^∗$e $i∈I$;
 	- $α_1 ↑A_1β_1$ è la posizione in cui si trova la testina di lettura del primo nastro di memoria, con $α_1,β_1 ∈Γ^∗$ e $A_1 ∈Γ$;
-	- $α_k ↑A_kβ_k$ è la posizione in cui si trova la testina di lettura del $k$-esimo nastro di memoria, con $α_k,β_k ∈Γ^∗$ e $A_k ∈Γ$. u↑o `e la posizione in cui si trova la testina di lettura del nastro di uscita, con u∈O∗ e o∈O;
-	- ↑/ ∈I∪Γ ∪O, rappresenta la posizione della testina di lettura di un determinato nastro; la testina di lettura punta la cella in cui `e contenuto il carattere immediatamente alla destra del simbolo ↑.
+	- $α_k ↑A_kβ_k$ è la posizione in cui si trova la testina di lettura del $k$-esimo nastro di memoria, con $α_k,β_k ∈Γ^∗$ e $A_k ∈Γ$;
+	- $u↑o$ è la posizione in cui si trova la testina di lettura del nastro di uscita, con $u∈O^∗$ e $o∈O$;
+	- $↑/ ∈I∪Γ ∪O$, rappresenta la posizione della testina di lettura di un determinato nastro; la testina di lettura punta la cella in cui è contenuto il carattere immediatamente alla destra del simbolo $↑$.
 
 La configurazione iniziale c0 di una TM a k nastri `e una tupla di k+3 elementi
 
