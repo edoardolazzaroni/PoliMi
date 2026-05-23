@@ -151,31 +151,15 @@ Tramite questa definizione, si può affermare che la traduzione di una stringa i
 
 Gli Automi a Stati Finiti sono chiusi rispetto alle sequenti operazioni:
 
-- Intersezione. Formalmente, dati:
+- INTERSEZIONE. Formalmente, dati:
 	– A1 =<Q1,I,δ1,q10 ,F1 >
-	– A2 =<Q2,I,δ2,q2
+	– A2 =<Q2,I,δ2,q20 ,F2 >
+	allora < A1,A2 >= < Q1 ×Q2,I,δ,< q10 ,q20 >,F1 ×F2 > e si può dimostrare che il linguaggio L(<A1,A2 >) = L(A1) ∩L(A2).
 
-0 ,F2 >
-
-allora < A1,A2 >= < Q1 ×Q2,I,δ,< q1
-
-0 ,q2
-
-0 >,F1 ×F2 > e si pu`o dimostrare che il linguaggio
-
-L(<A1,A2 >) = L(A1) ∩L(A2)
-
-Unione. Formalmente, dati:
-
-– A1 =<Q1,I,δ1,q1
-
-0 ,F1 >
-
-– A2 =<Q2,I,δ2,q2
-
-0 ,F2 >
-
-Allora < A1,A2 >= < Q1 ×Q2,I,δ,< q1
+- UNIONE. Formalmente, dati:
+	– A1 =<Q1,I,δ1,q10 ,F1 >
+	– A2 =<Q2,I,δ2,q20 ,F2 >
+	allora < A1,A2 >= < Q1 ×Q2,I,δ,< q1
 
 0 ,q2
 
