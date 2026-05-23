@@ -191,21 +191,12 @@ Ora supponiamo di progettare un automa $A$ che riconosce tutte e sole le stringh
 
 Si nota quindi che non esiste nessun automa a stati finiti che riesca a interpretare un tale linguaggio, in quanto ha una struttura che richiede di contare e ricordare il numero di simboli letti. Per poter contare un numero $n$ arbitrariamente grande si renderebbe necessaria una memoria infinita, che abbia, quindi, un numero infinito di stati.
 
+
 ### **2.2 Automi a Pila**
 
-I PDA (Push Down Automaton) sono automi che presentano un numero finito di stati e una memoria
+I PDA (Push Down Automaton) sono automi che presentano un numero finito di stati e una memoria organizzata su una struttura a pila. Tale memoria ha lo stesso comportamento dell’omonima struttura dati: i nuovi simboli vengono inseriti in cima allo stack ed estratti dalla cima dello stack, secondo la politica *LIFO* (Last In First Out). Per indicare che non ci sono più simboli in memoria, si utilizza il simbolo speciale $Z_0$, detto di fondo pila.
 
-organizzata su una struttura a pila. Tale memoria ha lo stesso comportamento dell’omonima struttura
-
-dati: i nuovi simboli vengono inseriti in cima allo stack ed estratti dalla cima dello stack, secondo la
-
-politica LIFO (Last In First Out). Per indicare che non ci sono pi`u simboli in memoria, si utilizza il
-
-simbolo speciale Z0, detto di fondo pila.
-
-Questi particolari tipi di automi hanno la possibilit`a di utilizzare il simbolo in cima alla pila per
-
-decidere quale transizione effettuare e la possibilit`a di manipolare la pila, rimuovendone il simbolo alla
+Questi particolari tipi di automi hanno la possibilità di utilizzare il simbolo in cima alla pila per decidere quale transizione effettuare e la possibilità di manipolare la pila, rimuovendone il simbolo alla
 
 cima, oppure aggiungendo un nuovo simbolo.
 
