@@ -232,13 +232,7 @@ Le transizioni tra configurazioni, indicate con il simbolo $⊢,$ dipendono natu
 
 Se $δ(q,ε,A) \ne ⊥$, ovvero se la funzione di transizione è definita, allora $∀i ∈ I,δ(q,i,A) = ⊥$: se questa proprietà non fosse soddisfatta, entrambe le transizioni sarebbero consentinte e, come detto precedentemente, l’automa non avrebbe un comportamento deterministico.
 
-Data la funzione di transizione tra configurazioni ⊢, si pu`o definire la chiusura transitiva e riflessiva ⊢∗
-
-che opera su un insieme di configurazioni anzich`e su un’unica configurazione. Un automa a pila accetta
-
-una determinata stringa x se c’`e un cammino coerente che va dallo stato iniziale ad uno stato finale al
-
-termine della lettura della stringa d’ingresso. Formalmente:
+Data la funzione di transizione tra configurazioni $⊢$, si può definire la chiusura transitiva e riflessiva $⊢^∗$ che opera su un insieme di configurazioni anzichè su un’unica configurazione. Un automa a pila accetta una determinata stringa $x$ se c’è un cammino coerente che va dallo stato iniziale ad uno stato finale al termine della lettura della stringa d’ingresso. Formalmente:
 
 ∀x∈I∗,x∈L ⇐⇒ c0 =<q0,x,Z0 >⊢∗ cF =<q∈F,ε,γ >
 
