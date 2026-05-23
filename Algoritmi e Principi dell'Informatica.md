@@ -122,13 +122,15 @@ Tramite questa definizione, si può affermare che una generica stringa $x$ appar
 Gli FST (Finate State Trasducer) sono trasduttori che presentano un numero finito di stati . Formalmente:
 
 - Un ==FST== è una tupla di 7 elementi $<Q,I,δ,q_0,F,O,η>$, dove:
-	- Q è un insieme finito di stati;
-	- I è l’alfabeto di ingresso;
+	- $Q$ è un insieme finito di stati;
+	- $I$ è l’alfabeto di ingresso;
 	- $δ: Q×I →Q$ è la funzione di transizione (eventualmente parziale);
 	- $q_0 ∈Q$ è lo stato iniziale;
-	- $F ⊆Q$  un insieme di stati finali
-	- O `e l’alfabeto di uscita;
-	- η: Q×I →O∗`e la funzione di uscita (eventualmente parziale).2.1. AUTOMI A STATI FINITI 11
+	- $F ⊆Q$ è un insieme di stati finali;
+	- $O$ è l’alfabeto di uscita;
+	- $η: Q×I →O^∗$ è la funzione di uscita (eventualmente parziale).
+
+2.1. AUTOMI A STATI FINITI 11
 
 Quando l’automa riceve in ingresso un simbolo, modifica il proprio stato e mostra in uscita una
 
