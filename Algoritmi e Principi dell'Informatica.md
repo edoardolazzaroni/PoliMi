@@ -207,25 +207,11 @@ Questi particolari tipi di automi hanno la possibilità di utilizzare il simbolo
 	- $Z_0$ è il simbolo di fondo pila, ovvero l’unico simbolo che appare inizialmente nella pila;
 	- $F ⊆Q$ è un insieme di stati finali.
 
-Dalla definizione, si pu`o osservare che l’automa `e in grado di decidere il passo successivo anche senza
+Dalla definizione, si può osservare che l’automa è in grado di decidere il passo successivo anche senza la lettura di alcun simbolo dal nastro di ingresso, ma solo a fronte della lettura di un simbolo sulla cima dello stack. Tali mosse prendono il nome di **ε-mosse** o mosse spontanee. Ovviamente, per uno stesso stato, non è possibile definire sia una transizione spontanea che una non spontanea, in quanto l’automa in questione sarebbe non deterministico e non sarebbe possibile definirne il comportamento a priori.
+Una mossa spontanea non altera la posizione della testina di lettura sul nastro di ingresso, proprio per il fatto che, in tal caso, l’automa ignora deliberatamente il nastro in questione.
+Per gli automi a pila, si può introdurre il concetto di configurazione, ossia una generalizzazione della nozione di stato, definita come segue:
 
-la lettura di alcun simbolo dal nastro di ingresso, ma solo a fronte della lettura di un simbolo sulla cima
-
-dello stack. Tali mosse prendono il nome di ε-mosse o mosse spontanee. Ovviamente, per uno stesso
-
-stato, non `e possibile definire sia una transizione spontanea che una non spontanea, in quanto l’automa
-
-in questione sarebbe non deterministico e non sarebbe possibile definirne il comportamento a priori.
-
-Una mossa spontanea non altera la posizione della testina di lettura sul nastro di ingresso, proprio
-
-per il fatto che, in tal caso, l’automa ignora deliberatamente il nastro in questione.
-
-Per gli automi a pila, si pu`o introdurre il concetto di configurazione, ossia una generalizzazione della
-
-nozione di stato, definita come segue:
-
-Definizione 2.2.2. Una configurazione c `e una tupla di 3 elementi <q,x,γ >, dove:
+- Una **configurazione** $c$ è una tupla di 3 elementi <q,x,γ >, dove:
 
 q∈Q `e lo stato corrente del dispositivo di controllo;
 
