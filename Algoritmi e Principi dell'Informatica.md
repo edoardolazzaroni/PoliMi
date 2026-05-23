@@ -158,8 +158,8 @@ Gli Automi a Stati Finiti sono chiusi rispetto alle sequenti operazioni:
 
 - UNIONE. Formalmente, dati:
 	– $A^1 =<Q^1,I,δ^1,q_0^1 ,F^1 >$
-	– A2 =<Q2,I,δ2,q20 ,F2 >
-	allora < A1,A2 >= < Q1 ×Q2,I,δ,< q10 ,q20 >,F1 ×Q2 ∪Q1 ×F2 con δ(< q1,q2 >,i) =<δ1(q1,i),δ2(q2,i) >
+	– $A^2 =<Q^2,I,δ^2,q_0^2 ,F^2>$
+	allora $< A^1,A^2 >= < Q^1 ×Q^2,I,δ,< q_0^1 ,q_0^2 >,F^1 ×Q^2 ∪Q^1 ×F^2$ con $δ(< q^1,q^2 >,i) =<δ1(q1,i),δ2(q2,i) >$
 
 - COMPLEMENTAZIONE. L’idea alla base del ragionamento è che FC = Q−F, quindi per poter complementare un automa a stati finiti è necessario rendere finali gli stati che non lo sono e viceversa. Bisogna però prestare attenzione al caso in cui la funzione di transizione dell’automa sia parziale: in tal caso, è necessario innanzitutto completare l’automa, definendo tutte le transizioni precedentemente non definite, e solo in seguito procedere con lo stesso algoritmo.
 
