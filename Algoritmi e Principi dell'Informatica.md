@@ -143,13 +143,7 @@ Data la funzione di uscita $η$, è possibile definire una sequenza di uscita $�
 		$η^∗(q,yi) = η^∗(q,y).η(δ^∗(q,y),i)$
 	$∀x: τ(x) = η^∗(q_0,x) ⇔ δ^∗(q_0,x) ∈F$ in cui tau rappresenta la funzione di traduzione.
 
-In altri termini, se l’automa ricevesse in ingresso la stringa vuota ε, allora rimarrebbe nello stato q
-
-in cui si trova e non scriverebbe nessun simbolo sul nastro di uscita, mentre, nel caso in cui ricevesse in
-
-ingresso una sequenza di caratteri yi, allora l’automa produrebbe in uscita quello che produrrebbe da
-
-q leggendo y seguito da ci`o che produrrebbe dallo stato che raggiungerebbe da q leggendo y, avendo i
+In altri termini, se l’automa ricevesse in ingresso la stringa vuota $ε$, allora rimarrebbe nello stato $q$ in cui si trova e non scriverebbe nessun simbolo sul nastro di uscita, mentre, nel caso in cui ricevesse in ingresso una sequenza di caratteri $yi$, allora l’automa produrebbe in uscita quello che produrrebbe da $q$ leggendo $y$ seguito da ciò che produrrebbe dallo stato che raggiungerebbe da $q$ leggendo $y$, avendo i
 
 come ingresso. Quindi la funzione η∗ha il compito di concatenare il simbolo (o la stringa) che si ottiene
 
