@@ -159,25 +159,11 @@ Gli Automi a Stati Finiti sono chiusi rispetto alle sequenti operazioni:
 - UNIONE. Formalmente, dati:
 	– A1 =<Q1,I,δ1,q10 ,F1 >
 	– A2 =<Q2,I,δ2,q20 ,F2 >
-	allora < A1,A2 >= < Q1 ×Q2,I,δ,< q1
+	allora < A1,A2 >= < Q1 ×Q2,I,δ,< q10 ,q20 >,F1 ×Q2 ∪Q1 ×F2 con δ(< q1,q2 >,i) =<δ1(q1,i),δ2(q2,i) >
 
-0 ,q2
+- COMPLEMENTAZIONE. L’idea alla base del ragionamento è che FC = Q−F, quindi per poter complementare un automa a stati finiti è necessario rendere finali gli stati che non lo sono e viceversa. Bisogna però prestare attenzione al caso in cui la funzione di transizione dell’automa sia parziale: in tal caso, è necessario innanzitutto completare l’automa, definendo tutte le transizioni precedentemente non definite, e solo in seguito procedere con lo stesso algoritmo.
 
-0 >,F1 ×Q2 ∪Q1 ×F2 con δ(< q1,q2 >,i) =<
-
-δ1(q1,i),δ2(q2,i) >
-
-Complementazione. L’idea alla base del ragionamento `e che FC = Q−F, quindi per poter
-
-complementare un automa a stati finiti `e necessario rendere finali gli stati che non lo sono e
-
-viceversa. Bisogna per`o prestare attenzione al caso in cui la funzione di transizione dell’automa sia
-
-parziale: in tal caso, `e necessario innanzitutto completare l’automa, definendo tutte le transizioni
-
-precedentemente non definite, e solo in seguito procedere con lo stesso algoritmo.
-
-2.1.3 Pumping Lemma
+#### 2.1.3 Pumping Lemma
 
 Gli automi appena analizzati sono molto semplici e hanno delle evidenti limitazioni, che li rendono
 
