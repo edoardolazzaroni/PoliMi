@@ -130,13 +130,9 @@ Gli FST (Finate State Trasducer) sono trasduttori che presentano un numero finit
 	- $O$ è l’alfabeto di uscita;
 	- $η: Q×I →O^∗$ è la funzione di uscita (eventualmente parziale).
 
-2.1. AUTOMI A STATI FINITI 11
+#### **2.1. AUTOMI A STATI FINITI**
 
-Quando l’automa riceve in ingresso un simbolo, modifica il proprio stato e mostra in uscita una
-
-sequenza di uno o pi`u simboli. Il passaggio da uno stato a quello successivo avviene attraverso la
-
-funzione di transizione δ, mentre l’operazione di uscita avviene tramite la funzione di uscita η.
+Quando l’automa riceve in ingresso un simbolo, modifica il proprio stato e mostra in uscita una sequenza di uno o più simboli. Il passaggio da uno stato a quello successivo avviene attraverso la funzione di transizione $δ$, mentre l’operazione di uscita avviene tramite la funzione di uscita η.
 
 Attenzione! La funzione di uscita ηnon sempre `e totale: ci`o significa che in alcuni automi `e possibile
 
