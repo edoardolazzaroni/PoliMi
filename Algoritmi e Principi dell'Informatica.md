@@ -305,10 +305,15 @@ I PDA non sono aperti rispetto ad alcun’altra operazione, quindi un automa a p
 Le MT (Turing Machine) sono automi che presentano un numero finito di stati e che operano su un insieme di nastri infiniti a destra: un nastro di ingresso, un nastro di uscita e uno o più nastri di memoria. Ogni nastro è composto da celle inizializzate dal simbolo di blank (tramite cui si indica che la cella è vuota) che può essere sovrascritto con un qualsiasi simbolo dell’alfabeto in ingresso. Il dispositivo di controllo può muovere le testine di lettura dei nastri in maniera indipendente l’una dall’altra, spostandole a destra (R) o a sinistra (L) di una cella, oppure lasciandole ferme (S) nella posizione in cui si trovano. L’unica eccezione è costituita dal nastro di uscita che può essere spostato solamente a destra. In alternativa, l’automa può anche non effettuare alcuna operazione, fermandosi definitivamente. Formalmente:
 
 - Una ==MT== a $k$ nastri è una tupla di 9 elementi $<Q,I,Γ,O,δ,η,q_0,Z_0,F >$, dove:
-
-Q `e un insieme finito di stati;
-
-I `e l’alfabeto di ingresso;
+	- $Q$ è un insieme finito di stati;
+	- $I$ è l’alfabeto di ingresso;
+	- $Γ$ è l’alfabeto di memoria;
+	- $O$
+	- $δ: Q×(I∪{ε}) ×Γ →Q×Γ^∗$ è la funzione di transizione (eventualmente parziale);
+	- $q_0$ è lo stato iniziale;
+	- $Z_0$ è il simbolo di fondo pila, ovvero l’unico simbolo che appare inizialmente nella pila;
+	- $F ⊆Q$ è un insieme di stati finali.
+	
 
 Γ `e l’alfabeto di memoria;
 
