@@ -94,26 +94,15 @@ Figura 2.2: Esempio di rappresentazione di una macchina di Turing
 
 Gli FSA (Finite State Automaton) sono automi che presentano un numero finito di stati. Formalmente:
 
-- Un FSA è una tupla di 5 elementi $<Q,A,δ,q_0,F >$, dove:
+- Un ==FSA== è una tupla di 5 elementi $<Q,A,δ,q_0,F >$, dove:
 	- $Q$ è un insieme finito di stati;
 	- $A:=$ {$a_0,a_1,a_2,...,a_n$} è l’alfabeto di ingresso;
 	- $δ: Q×A→Q$: è la funzione di transizione (eventualmente parziale);
 	- $q_0 ∈Q$ è lo stato iniziale;
 	- $F ⊆Q$ è un insieme di stati finali.
 
-Quando l’automa riceve in ingresso un simbolo del proprio alfabeto, cambia lo stato in cui si trova. Il
-
-passaggio da uno stato a quello successivo avviene attraverso la funzione di transizione δ; tale funzione
-
-indica, a partire da un determinato stato, in quale stato si trover`a l’automa dopo la ricezione di un
-
-simbolo in ingresso.
-
-Attenzione! La funzione di transizione δ non sempre `e totale: ci`o significa che in alcuni automi
-
-non tutte le transizioni da uno stato a quello successivo sono definite. Gli automi che presentano una
-
-funzione di transizione completa sono detti completi.
+Quando l’automa riceve in ingresso un simbolo del proprio alfabeto, cambia lo stato in cui si trova. Il passaggio da uno stato a quello successivo avviene attraverso la funzione di transizione $δ$; tale funzione indica, a partire da un determinato stato, in quale stato si troverà l’automa dopo la ricezione di un simbolo in ingresso.
+**Attenzione!** La funzione di transizione δ non sempre è totale: ciò significa che in alcuni automi non tutte le transizioni da uno stato a quello successivo sono definite. Gli automi che presentano una funzione di transizione completa sono detti completi.
 
 Data la funzione di transizione δ `e possibile definire una sequenza di mosse δ∗, che opera su una
 
