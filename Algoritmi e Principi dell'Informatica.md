@@ -7,13 +7,7 @@
 
 Di seguito sono riportate alcune definizioni importanti riguardanti i linguaggi formali:
 - Un ==alfabeto== (o vocabolario) V è un insieme finito di oggetti elementari detti simboli (o caratteri);
-- Una stringa x appartenente ad un alfabeto V `e una sequenza finita e
-
-ordinata di caratteri appartenenti a tale alfabeto.
-
-Data una stringa x, la notazione |x|indica la lunghezza di tale stringa, ovvero il numero di caratteri
-
-di cui `e composta (la cardinalit`a del suo dominio V). Per convenzione la stringa vuota, che non contiene
+- Una ==stringa== x appartenente ad un alfabeto V è una sequenza finita e ordinata di caratteri appartenenti a tale alfabeto; data una stringa x, la notazione |x| indica la lunghezza di tale stringa, ovvero il numero di caratteri di cui `e composta (la cardinalit`a del suo dominio V). Per convenzione la stringa vuota, che non contiene
 
 nessun carattere, `e indicata con la lettera ε. La stringa vuota ε ha lunghezza zero.
 
