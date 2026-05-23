@@ -266,7 +266,7 @@ Z0 `e il simbolo di fondo pila, ovvero l’unico simbolo che appare inizialmente
 F ⊆Q `e un insieme di stati finali;
 
 O `e l’alfabeto di uscita;
-
+****
 η: Q×(I∪{ε}) ×Γ →O∗`e la funzione di uscita (eventualmente paziale).
 
 Definizione 2.2.5. Una configurazione c di un PDT `e una tupla di 4 elementi <q,x,γ,z>, dove:
