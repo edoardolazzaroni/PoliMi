@@ -88,8 +88,7 @@ Un automa è rappresentato graficamente come un inisieme di circonferenze denomi
 Figura 2.1: Esempio di rappresentazione di un automa a stati finiti
 
 
-
-
+![[Screenshot 2026-05-23 alle 16.07.21.png|363]]
 Figura 2.2: Esempio di rappresentazione di una macchina di Turing
 
 
