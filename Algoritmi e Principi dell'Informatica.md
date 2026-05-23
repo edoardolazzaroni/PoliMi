@@ -43,11 +43,7 @@ Nel contesto dei linguaggi, l’elemento unitario $u$ rappresenta la stringa vuo
 
 Si possono quindi definire gli **Operatori di Kleene**:
 
-- Sia < S,◦ > un semigruppo. Per ogni X ⊆ S, S+ indica il
-
-sottoinsieme di S generato da X, ovvero l’insieme di tutti gli elementi s∈S tale per cui s= x1 ◦x2 ◦...◦xn
-
-per qualche n≥1, con xi ∈X (stringhe non vuote).
+- Sia $< S,◦ >$ un semigruppo. Per ogni $X ⊆ S, S+$ indica il sottoinsieme di S generato da X, ovvero l’insieme di tutti gli elementi $s∈S$ tale per cui $s= x_1 ◦x_2 ◦...◦x_n$ per qualche n≥1, con xi ∈X (stringhe non vuote).
 
 Nel contesto dei linguaggi, l’operatore + di Kleene rappresenta l’insieme infinito di stringhe non
 
