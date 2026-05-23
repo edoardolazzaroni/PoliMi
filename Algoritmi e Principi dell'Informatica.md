@@ -302,13 +302,9 @@ I PDA non sono aperti rispetto ad alcun’altra operazione, quindi un automa a p
 
 ### **2.3 Macchine di Turing**
 
-Le MT (Turing Machine) sono automi che presentano un numero finito di stati e che operano su un insieme di nastri infiniti a destra: un nastro di ingresso, un nastro di uscita e uno o più nastri di memoria. Ogni nastro è composto da celle inizializzate dal simbolo di blank (tramite cui si indica che la cella è vuota) che può essere sovrascritto con un qualsiasi simbolo dell’alfabeto in ingresso. Il dispositivo di controllo può muovere le testine di lettura dei nastri in maniera indipendente l’una dall’altra, spostandole a destra (R) o a sinistra (L) di una cella, oppure lasciandole ferme (S) nella posizione in cui si trovano. L’unica eccezione è costituita dal nastro di uscita che può essere spostato solamente a destra. In alternativa, l’automa può anche non effettuare alcuna operazione, fermandosi definitivamente.
+Le MT (Turing Machine) sono automi che presentano un numero finito di stati e che operano su un insieme di nastri infiniti a destra: un nastro di ingresso, un nastro di uscita e uno o più nastri di memoria. Ogni nastro è composto da celle inizializzate dal simbolo di blank (tramite cui si indica che la cella è vuota) che può essere sovrascritto con un qualsiasi simbolo dell’alfabeto in ingresso. Il dispositivo di controllo può muovere le testine di lettura dei nastri in maniera indipendente l’una dall’altra, spostandole a destra (R) o a sinistra (L) di una cella, oppure lasciandole ferme (S) nella posizione in cui si trovano. L’unica eccezione è costituita dal nastro di uscita che può essere spostato solamente a destra. In alternativa, l’automa può anche non effettuare alcuna operazione, fermandosi definitivamente. Formalmente:
 
-Formalmente:
-
-Definizione 2.3.1 (Turing machine). Una TM a k nastri `e una tupla di 9 elementi
-
-<Q,I,Γ,O,δ,η,q0,Z0,F >, dove:
+- Una ==MT== a $k$ nastri è una tupla di 9 elementi $<Q,I,Γ,O,δ,η,q_0,Z_0,F >$, dove:
 
 Q `e un insieme finito di stati;
 
