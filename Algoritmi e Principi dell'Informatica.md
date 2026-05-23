@@ -3,7 +3,7 @@
 
 ## Linguaggi Formali
 
-1.1 **==Alfabeti e Stringhe==**
+**1.1 Alfabeti e Stringhe**
 
 Di seguito sono riportate alcune definizioni importanti riguardanti i linguaggi formali:
 
