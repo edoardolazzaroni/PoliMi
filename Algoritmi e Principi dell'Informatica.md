@@ -28,9 +28,7 @@ Data una stringa x, l’espressione $x^i$ indica la concatenazione della stringa
 
 Per poter proseguire con il trattato, è prima necessario introdurre alcuni concetti matematici fondamentali. Si danno quindi le seguenti definizioni:
 
-Definizione 1.2.1 (Semigruppo). Un semigruppo `e una coppia <S,◦>, dove:
-
-S `e un insieme chiuso rispetto a ◦; per cui, se si prendono due qualsiasi elementi A e B di tale
+- Un ==semigruppo==  è una coppia $<S,◦>$, dove: S è un insieme chiuso rispetto a <S,◦>; per cui, se si prendono due qualsiasi elementi A e B di tale
 
 insieme, l’operazione A◦B produce come risultato un elemento appartenente ad S;
 
