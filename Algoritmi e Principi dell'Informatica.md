@@ -50,7 +50,7 @@ Nel contesto dei linguaggi, l’operatore $+$ di Kleene rappresenta l’insieme 
 - Se $<S,◦,u>$ è un monoide, allora $X∗= X^+ ∪{u‎}$ è un monoide (più precisamente un sottomonoide) di S ed è detto monoide libero generato da X; esso è detto **Stella di Kleene**.
 
 Nel contesto dei linguaggi, la stella di Kleene rappresenta l’insieme infinito di stringhe, inclusa la stringa vuota $ε$, che si possono generare a partire dall’insieme $S$ di simboli, a cui si applica tale operatore. Quindi: $X^∗ = X^+ ∪{ε}$.
-Ad esempio, dato l’insieme di simboli $S= {a,b,c}$, S+ = {a,b,c,aa,ab,ac,ba,bb,bc,ca,cb,cc,aaa...}
+Ad esempio, dato l’insieme di simboli $S= \left \{a,b,c\right \}$, $S^+ = \left \{a,b,c,aa,ab,ac,ba,bb,bc,ca,cb,cc,aaa...}$
 
 e S∗
 
