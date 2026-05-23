@@ -47,7 +47,7 @@ Si possono quindi definire gli **Operatori di Kleene**:
 
 Nel contesto dei linguaggi, l’operatore $+$ di Kleene rappresenta l’insieme infinito di stringhe non vuote, che si possono generare a partire dall’insieme $S$ di simboli, a cui si applica tale operatore.
 
-- Se $<S,◦,u>$ è un monoide, allora $X∗$ (più precisamente un sottomonoide) di S ed `e detto monoide libero generato da X.
+- Se $<S,◦,u>$ è un monoide, allora $X∗= X^+ ∪{u‎}$ è un monoide (più precisamente un sottomonoide) di S ed `e detto monoide libero generato da X.
 
 = X+ ∪{u}`e un monoide
 
