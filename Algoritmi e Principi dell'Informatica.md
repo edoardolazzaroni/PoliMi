@@ -276,12 +276,12 @@ Le relazioni di transizione $c=<q,x,γ,z>⊢c′=<q′,x′,γ′,z′>$ possono
 	- $z′ = zw$, dopo la transizione, alla stringa sul nastro di uscita viene concatenato il simbolo $w$ prodotto dalla funzione di traduzione.
 
 2. Se $δ(q,ε,A) =<q′,α>$ è una mossa definita, si ha che $η(q,ε,A) = w$, dove:
-	- $γ= Aβ$, la pila contiene il simbolo $A$, utilizzato per eseguire la mossa, seguito dalla stringa β composta da tutti i restanti simboli della pila;
-	- γ′ = αβ, dopo la transizione, la pila contiene la stringa αappena inserita, seguita dalla stringa β composta da tutti i restanti simboli della pila;
-	- x′ = x, dopo la transizione, la stringa in ingresso `e la medesima; in altre parole, la testina di lettura non si sposta;
-	- z′ = zw, dopo la tranisizone, alla stringa sul nastro di uscita viene concatenato il simbolo w prodotto dalla funzione di traduzione.
+	- $γ= Aβ$, la pila contiene il simbolo $A$, utilizzato per eseguire la mossa, seguito dalla stringa $β$ composta da tutti i restanti simboli della pila;
+	- $γ′ = αβ$, dopo la transizione, la pila contiene la stringa $α$ appena inserita, seguita dalla stringa $β$ composta da tutti i restanti simboli della pila;
+	- $x′ = x$, dopo la transizione, la stringa in ingresso è la medesima; in altre parole, la testina di lettura non si sposta;
+	- $z′ = zw$, dopo la transizione, alla stringa sul nastro di uscita viene concatenato il simbolo $w$ prodotto dalla funzione di traduzione.
 
-La condizione di accettazione della traduzione `e quindi la seguente:
+La condizione di accettazione della traduzione è quindi la seguente:
 
 ∀x∈I∗: x∈L∧z= η(x) ⇐⇒ c0 =<q0,x,Z0,ε>⊢∗cF =<q∈F,ε,γ,z>.
 
