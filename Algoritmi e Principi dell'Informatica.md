@@ -230,7 +230,7 @@ Le transizioni tra configurazioni, indicate con il simbolo $⊢,$ dipendono natu
 	- $γ′ = αβ$, dopo la transizione, la pila contiene la stringa $α$ appena inserita, seguita dalla stringa $β$ composta da tutti i restanti simboli della pila;
 	- $x′ = x$, dopo la transizione, la stringa in ingresso è la medesima; in altre parole, la testina di lettura non si sposta.
 
-Se $δ(q,ε,A) ̸= ⊥$, ovvero se la funzione di transizione `e definita, allora ∀i ∈ I,δ(q,i,A) = ⊥:
+Se $δ(q,ε,A) \ne ⊥$, ovvero se la funzione di transizione `e definita, allora ∀i ∈ I,δ(q,i,A) = ⊥:
 
 se questa propriet`a non fosse soddisfatta, entrambe le transizioni sarebbero consentinte e, come detto
 
