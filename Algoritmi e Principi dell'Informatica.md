@@ -186,19 +186,12 @@ Il Pumping Lemma fornisce una condizione necessaria, ma non sufficiente sulla st
 
 Ora supponiamo di progettare un automa $A$ che riconosce tutte e sole le stringhe del linguaggio $L= \left \{a^nb^n : n < 0\right \}$. Inizialmente si assume che $A$ sia in grado di riconoscere un tale linguaggio. Si considera innanzitutto il caso in cui $x= a^mb^m : m> |Q|$. Sappiamo, grazie al Pumping Lemma, che ci sarà un ciclo interno all’automa e può esistere nei tre casi sottolineati:
 	1)$...aaaaaabbbbbb...$ : se così fosse si potrebbe rimovere dalla stringa la sottostringa che passa all’interno del ciclo e l’automa riconoscerebbe comunque come accettabile tale stringa, ma ciò non è vero in quanto il numero di $a$ presenti dopo la rimozione di tale sottostringa sarebbe minore del numero delle $b$ e dunque la stringa non sarebbe riconosciuta dall’automa;
-
 	2)$...aaaaaabbbbbb...$ : si applica lo stesso ragionamento del punto precedente;
 	3)$...aaaaaabbbbbb...$ : se così fosse si potrebbe ripercorrere quel determinato ciclo anche due volte, ma così facendo si otterrebbe la stringa $...aaaaaaaabbaabbbbbbbb...$ che, secondo il lemma dovrebbe essere riconoscibile dall’automa, ma così non è.
 
-Si nota quindi che non esiste nessun automa a stati finiti che riesca a interpretare un tale linguaggio,
+Si nota quindi che non esiste nessun automa a stati finiti che riesca a interpretare un tale linguaggio, in quanto ha una struttura che richiede di contare e ricordare il numero di simboli letti. Per poter contare un numero $n$ arbitrariamente grande si renderebbe necessaria una memoria infinita, che abbia, quindi, un numero infinito di stati.
 
-in quanto ha una struttura che richiede di contare e ricordare il numero di simboli letti. Per poter contare
-
-un numero n arbitrariamente grande si renderebbe necessaria una memoria infinita, che abbia, quindi,
-
-un numero infinito di stati.
-
-2.2 Automi a Pila
+### **2.2 Automi a Pila**
 
 I PDA (Push Down Automaton) sono automi che presentano un numero finito di stati e una memoria
 
