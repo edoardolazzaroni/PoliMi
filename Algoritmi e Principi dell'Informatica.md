@@ -94,11 +94,9 @@ Figura 2.2: Esempio di rappresentazione di una macchina di Turing
 
 Gli FSA (Finite State Automaton) sono automi che presentano un numero finito di stati. Formalmente:
 
-- Un FSA è una tupla di 5 elementi <Q,A,δ,q0,F >, dove:
-
-Q `e un insieme finito di stati;
-
-A:= {a0,a1,a2,...,an}`e l’alfabeto di ingresso;
+- Un FSA è una tupla di 5 elementi $<Q,A,δ,q_0,F >$, dove:
+	- $Q$ è un insieme finito di stati;
+	- $A:=$ {a0,a1,a2,...,an}`e l’alfabeto di ingresso;
 
 δ: Q×A→Q: `e la funzione di transizione (eventualmente parziale);
 
