@@ -196,15 +196,10 @@ Si nota quindi che non esiste nessun automa a stati finiti che riesca a interpre
 
 I PDA (Push Down Automaton) sono automi che presentano un numero finito di stati e una memoria organizzata su una struttura a pila. Tale memoria ha lo stesso comportamento dell’omonima struttura dati: i nuovi simboli vengono inseriti in cima allo stack ed estratti dalla cima dello stack, secondo la politica *LIFO* (Last In First Out). Per indicare che non ci sono più simboli in memoria, si utilizza il simbolo speciale $Z_0$, detto di fondo pila.
 
-Questi particolari tipi di automi hanno la possibilità di utilizzare il simbolo in cima alla pila per decidere quale transizione effettuare e la possibilità di manipolare la pila, rimuovendone il simbolo alla
+Questi particolari tipi di automi hanno la possibilità di utilizzare il simbolo in cima alla pila per decidere quale transizione effettuare e la possibilità di manipolare la pila, rimuovendone il simbolo alla cima, oppure aggiungendo un nuovo simbolo. Formalmente:
 
-cima, oppure aggiungendo un nuovo simbolo.
-
-Formalmente:2.2. AUTOMI A PILA 13
-
-Definizione 2.2.1. Un PDA `e una tupla di 7 elementi <Q,I,δ,Γ,q0,Z0,F >, dove:
-
-Q `e un inisieme finito di stati;
+- Un ==PDA== è una tupla di 7 elementi $<Q,I,δ,Γ,q_0,Z_0,F >$, dove:
+	-Q `e un inisieme finito di stati;
 
 I `e l’alfabeto di ingresso;
 
