@@ -257,11 +257,8 @@ I PDT (Push Down Trasducer) sono trasduttori che presentano un numero finiti di 
 	- $q_0$ è lo stato iniziale;
 	- $Z_0$ è il simbolo di fondo pila, ovvero l’unico simbolo che appare inizialmente nella pila;
 	- $F ⊆Q$ è un insieme di stati finali.
-
-
-O `e l’alfabeto di uscita;
-
-η: Q×(I∪{ε}) ×Γ →O∗`e la funzione di uscita (eventualmente paziale).
+	- $O$ è l’alfabeto di uscita;
+	- $η: Q×(I∪{ε}) ×Γ →O^∗$ è la funzione di uscita (eventualmente paziale).
 
 Definizione 2.2.5. Una configurazione c di un PDT `e una tupla di 4 elementi <q,x,γ,z>, dove:
 
