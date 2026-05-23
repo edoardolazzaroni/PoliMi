@@ -12,7 +12,7 @@ Di seguito sono riportate alcune definizioni importanti riguardanti i linguaggi 
 
 Per poter confrontare due stringhe e necessario verificare che:
 - $|x| = |y|$
-- $xi = yi  ∀i= 0,1,2,...,|x|$
+- $xi = yi i= 0,1,2,...,|x|$
 
 La concatenazione (o prodotto) x.y di due stringhe x e y `e una stringa composta da tutti i caratteri
 
