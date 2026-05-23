@@ -110,12 +110,8 @@ Quando l’automa riceve in ingresso un simbolo del proprio alfabeto, cambia lo 
 Data la funzione di transizione $δ$ è possibile definire una sequenza di mosse $δ^∗$, che opera su una stringa anzichè su un unico simbolo in ingresso. Formalmente:
 
 - La chiusura riflessiva e transitiva della funzione di trasferimento, indicata con $δ^∗: Q×A^∗→Q$ è definita in maniera induttiva come segue:
-
-δ∗(q,ε)=q;
-
-δ∗(q,yi) = δ(δ∗(q,y),i)
-
-∀x: x∈L⇔δ∗(q0,x) ∈F.
+		$δ^∗(q,ε)=q$;
+		$δ^∗(q,y_i) = δ(δ^∗(q,y),i) ∀x: x∈L⇔δ∗(q0,x) ∈F$.
 
 In altri termini, se l’automa ricesse in ingresso la stringa vuota ε, allora rimarrebbe nello stato qin cui
 
