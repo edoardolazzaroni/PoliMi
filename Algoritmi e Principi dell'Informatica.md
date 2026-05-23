@@ -317,9 +317,7 @@ Le MT (Turing Machine) sono automi che presentano un numero finito di stati e ch
 
 Si noti che la funzione di transizione $δ$ è definita in modo tale che non ci siano transizioni uscenti da uno stato finale.
 
-- Una configurazione $c$ di una MT a k nastri `e una tupla di k+3 elementi
-
-<q, x↑iy, α1 ↑A1β1,...,αk↑Akβk, u↑o>, dove:
+- Una **configurazione** $c$ di una MT a $k$ nastri è una tupla di $k+3$ elementi $<q, x↑iy, α_1 ↑A_1β_1,...,αk↑Akβk, u↑o>$, dove:
 
 q∈Q `e lo stato attuale in cui si trova l’automa;
 
