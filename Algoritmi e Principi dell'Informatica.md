@@ -230,11 +230,7 @@ Le transizioni tra configurazioni, indicate con il simbolo $⊢,$ dipendono natu
 	- $γ′ = αβ$, dopo la transizione, la pila contiene la stringa $α$ appena inserita, seguita dalla stringa $β$ composta da tutti i restanti simboli della pila;
 	- $x′ = x$, dopo la transizione, la stringa in ingresso è la medesima; in altre parole, la testina di lettura non si sposta.
 
-Se $δ(q,ε,A) \ne ⊥$, ovvero se la funzione di transizione `e definita, allora ∀i ∈ I,δ(q,i,A) = ⊥:
-
-se questa propriet`a non fosse soddisfatta, entrambe le transizioni sarebbero consentinte e, come detto
-
-precedentemente, l’automa non avrebbe un comportamento deterministico.
+Se $δ(q,ε,A) \ne ⊥$, ovvero se la funzione di transizione è definita, allora $∀i ∈ I,δ(q,i,A) = ⊥$: se questa proprietà non fosse soddisfatta, entrambe le transizioni sarebbero consentinte e, come detto precedentemente, l’automa non avrebbe un comportamento deterministico.
 
 Data la funzione di transizione tra configurazioni ⊢, si pu`o definire la chiusura transitiva e riflessiva ⊢∗
 
