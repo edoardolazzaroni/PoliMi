@@ -281,9 +281,9 @@ Le relazioni di transizione $c=<q,x,γ,z>⊢c′=<q′,x′,γ′,z′>$ possono
 	- $x′ = x$, dopo la transizione, la stringa in ingresso è la medesima; in altre parole, la testina di lettura non si sposta;
 	- $z′ = zw$, dopo la transizione, alla stringa sul nastro di uscita viene concatenato il simbolo $w$ prodotto dalla funzione di traduzione.
 
-La condizione di accettazione della traduzione è quindi la seguente:
+La **condizione di accettazione** della traduzione è quindi la seguente:
 
-∀x∈I∗: x∈L∧z= η(x) ⇐⇒ c0 =<q0,x,Z0,ε>⊢∗cF =<q∈F,ε,γ,z>.
+$∀x∈I^∗: x∈L∧z= η(x) ⇐⇒ c_0 =<q_0,x,Z_0,ε>⊢^∗c_F =<q∈F,ε,γ,z>$.
 
 2.2.2 Operazioni sugli Automi a Pila
 
