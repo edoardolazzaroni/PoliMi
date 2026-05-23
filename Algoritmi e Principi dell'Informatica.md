@@ -3,15 +3,14 @@
 
 ## Linguaggi Formali
 
-**1.1 Alfabeti e Stringhe**
+### **1.1 Alfabeti e Stringhe**
 
 Di seguito sono riportate alcune definizioni importanti riguardanti i linguaggi formali:
+
 - Un ==alfabeto== (o vocabolario) V è un insieme finito di oggetti elementari detti simboli (o caratteri);
 - Una ==stringa== x appartenente ad un alfabeto V è una sequenza finita e ordinata di caratteri appartenenti a tale alfabeto. Data una stringa x, la notazione |x| indica la lunghezza di tale stringa, ovvero il numero di caratteri di cui è composta (la cardinalità del suo dominio V). Per convenzione la stringa vuota, che non contiene nessun carattere, è indicata con la lettera ε. La stringa vuota ε ha lunghezza zero.
 
-Per poter confrontare due stringhe e necessario verificare che:
-
-|x|= |y|
+Per poter confrontare due stringhe e necessario verificare che: $|x| = |y|$
 
 xi = yi ∀i= 0,1,2,...,|x|
 
