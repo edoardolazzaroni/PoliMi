@@ -132,15 +132,11 @@ Gli FST (Finate State Trasducer) sono trasduttori che presentano un numero finit
 
 #### **2.1. AUTOMI A STATI FINITI**
 
-Quando l’automa riceve in ingresso un simbolo, modifica il proprio stato e mostra in uscita una sequenza di uno o più simboli. Il passaggio da uno stato a quello successivo avviene attraverso la funzione di transizione $δ$, mentre l’operazione di uscita avviene tramite la funzione di uscita η.
+Quando l’automa riceve in ingresso un simbolo, modifica il proprio stato e mostra in uscita una sequenza di uno o più simboli. Il passaggio da uno stato a quello successivo avviene attraverso la funzione di transizione $δ$, mentre l’operazione di uscita avviene tramite la funzione di uscita $η$.
 
-Attenzione! La funzione di uscita ηnon sempre `e totale: ci`o significa che in alcuni automi `e possibile
+**Attenzione!** La funzione di uscita $η$ non sempre è totale: ciò significa che in alcuni automi è possibile che non ci sia nessuna associazione fra un simbolo del linguaggio in ingresso e un simbolo del linguaggio di uscita.
 
-che non ci sia nessuna associazione fra un simbolo del linguaggio in ingresso e un simbolo del linguaggio
-
-di uscita.
-
-Data la funzione di uscita η, `e possibile definire una sequenza di uscita η∗, che opera su una stringa
+Data la funzione di uscita $η$, è possibile definire una sequenza di uscita $η∗$, che opera su una stringa
 
 anzich`e su un unico simbolo in ingresso. Formalmente:
 
