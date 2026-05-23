@@ -238,13 +238,7 @@ $∀x∈I^∗,x∈L ⇐⇒ c_0 =<q_0,x,Z_0 >⊢^∗ c_F =<q∈F,ε,γ >$
 
 Sappiamo quindi che il linguaggio $a^nb^n$ non può essere riconosciuto da alcun FSA per il Pumping
 Lemma. Inoltre, ogni linguaggio riconosciuto da un FSA è riconoscibile anche da un PDA. Si può affermare, quindi, che gli automi a pila sono più espressivi e di **maggiore potenza** rispetto agli automi a stati finiti, i quali possono essere visti come un sottoinsieme dei PDA.
-A differenza degli FSA, i PDA potrebbero anche non terminare la propria esecuzione dopo un numero finito di mosse, in quanto possono presentare cicli di ε-mosse. Tali cicli non aggiungono potere espressivo ai PDA: questo significa che gli automi a pila ciclici riconoscono lo stesso insieme di linguaggi degli automi aciclici. Per questo motivo, si preferisce eliminare tale categoria di automi, utilizzando tranisizioni tra
-
-configurazioni del tipo < q,x,α >⊢∗
-
-d< q′,x,β >, in cui il simbolo ⊢∗
-
-d indica che per < q,x,α >⊢∗<
+A differenza degli FSA, i PDA potrebbero anche non terminare la propria esecuzione dopo un numero finito di mosse, in quanto possono presentare cicli di ε-mosse. Tali cicli non aggiungono potere espressivo ai PDA: questo significa che gli automi a pila ciclici riconoscono lo stesso insieme di linguaggi degli automi aciclici. Per questo motivo, si preferisce eliminare tale categoria di automi, utilizzando tranisizioni tra configurazioni del tipo $< q,x,α >⊢_d^∗< q′,x,β >$, in cui il simbolo $⊢_d^∗$ indica che per < q,x,α >⊢∗<
 
 q′,x,β > con β= Zβ′
 
