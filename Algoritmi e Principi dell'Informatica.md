@@ -3,7 +3,7 @@
 # Parte I: Informatica Teorica
 
 
-## Linguaggi Formali
+## **Linguaggi Formali**
 
 ### **1.1 Alfabeti e Stringhe**
 
@@ -25,7 +25,7 @@ Data una stringa s, una stringa x è **sottostringa** (o fattore) di s se esisto
 Data una stringa x, l’espressione $x^i$ indica la concatenazione della stringa x con s e stessa per $i−1$ volte, ovvero $x^0 = ε$ e $x^{i+1} = x.x^i$  .
 
 
-### 1.2 Operatori di Kleene
+### **1.2 Operatori di Kleene**
 
 Per poter proseguire con il trattato, è prima necessario introdurre alcuni concetti matematici fondamentali. Si danno quindi le seguenti definizioni:
 
@@ -35,7 +35,7 @@ Per poter proseguire con il trattato, è prima necessario introdurre alcuni conc
 
 Nel contesto dei linguaggi, l’operatore $◦$ rappresenta la concatenazione di stringhe.
 
-- Un monoide è un semigruppo in cui è definito un elemento unitario u∈S, tale che ∀x,∃u(x◦u= x).
+- Un ==monoide== è un semigruppo in cui è definito un elemento unitario u∈S, tale che ∀x,∃u(x◦u= x).
 
 
 Nel contesto dei linguaggi, l’elemento unitario u rappresenta la stringa vuota ε: infatti, la concate-
