@@ -52,13 +52,12 @@ Nel contesto dei linguaggi, l’operatore $+$ di Kleene rappresenta l’insieme 
 Nel contesto dei linguaggi, la stella di Kleene rappresenta l’insieme infinito di stringhe, inclusa la stringa vuota $ε$, che si possono generare a partire dall’insieme $S$ di simboli, a cui si applica tale operatore. Quindi: $X^∗ = X^+ ∪{ε}$.
 Ad esempio, dato l’insieme di simboli $S= \left \{a,b,c\right \}$, $S^+ = \left \{a,b,c,aa,ab,ac,ba,bb,bc,ca,cb,cc,aaa...\right \}$ e $S^∗ = \left \{ε,a,b,c,aa,ab,ac,ba,bb,bc,ca,cb,cc,aaa...\right \}$.
 
-1.3 Linguaggi
 
-Data la definizione della stella di Kleene, si pu`o ora dare la definizione di linguaggio:
+### **1.3 Linguaggi**
 
-Definizione 1.3.1 (Linguaggio). Un linguaggio L su un alfabeto V `e un sottoinsieme di V∗
+Data la definizione della stella di Kleene, si può ora dare la definizione di linguaggio:
 
-.
+- Un ==linguaggio== L su un alfabeto V è un sottoinsieme di V∗
 
 Dato un insieme di simboli, si possono generare infiniti linguaggi.
 
