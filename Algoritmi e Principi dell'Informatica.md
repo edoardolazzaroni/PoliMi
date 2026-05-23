@@ -168,7 +168,7 @@ Gli Automi a Stati Finiti sono chiusi rispetto alle sequenti operazioni:
 
 Gli automi appena analizzati sono molto semplici e hanno delle evidenti limitazioni, che li rendono inefficaci nella risoluzione di alcuni problemi. Dallo studio di questi automi si possono ricavare alcuni teoremi dimostrabili, utili per mettere in luce tali limitazioni:
 
-- **Teorema**: dato un automa a stati finiti $A=< Q,I,δ,q_0,F >$, dove $Q$ ha cardinalità $n$, il linguaggio riconosciuto da $A$ non è vuoto se e solo se $A$ accetta una stringa $x$ con $— x —  ¡n$.12 CAPITOLO 2. AUTOMI DETERMINISTICI
+- **Teorema**: dato un automa a stati finiti $A=< Q,I,δ,q_0,F >$, dove $Q$ ha cardinalità $n$, il linguaggio riconosciuto da $A$ non è vuoto se e solo se $A$ accetta una stringa $x$ con $— x —  ¡n$. CAPITOLO 2. AUTOMI DETERMINISTICI
 
 Teorema 2.1.2. Dato un automa a stati finiti A=< Q,I,δ,q0,F >, dove Q ha cardinalit`a n, il
 
