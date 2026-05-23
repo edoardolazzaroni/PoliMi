@@ -170,9 +170,7 @@ Gli automi appena analizzati sono molto semplici e hanno delle evidenti limitazi
 
 - **Primo Teorema**: dato un automa a stati finiti $A=< Q,I,δ,q_0,F >$, dove $Q$ ha cardinalità $n$, il linguaggio riconosciuto da $A$ non è vuoto se e solo se $A$ accetta una stringa $x$ con $— x —  ¡n$. 
 
-- Teorema 2.1.2. Dato un automa a stati finiti A=< Q,I,δ,q0,F >, dove Q ha cardinalit`a n, il
-
-linguaggio riconosciuto da A `e infinito se e solo se A accetta una stringa x con n≤ |x| <2n.
+- **Secondo Teorema**: dato un automa a stati finiti $A=< Q,I,δ,q_0,F >$, dove $Q$ ha cardinalità $n$, il linguaggio riconosciuto da $A$ è infinito se e solo se A accetta una stringa x con n≤ |x| <2n.
 
 I teoremi 2.1.1 e 2.1.2 sono basati sul fatto che un determinato Automa a Stati Finiti pu`o presentare
 
