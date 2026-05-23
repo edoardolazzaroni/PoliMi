@@ -185,15 +185,11 @@ Perciò vale che $∀n≥0, ywnz∈L$.
 Il Pumping Lemma fornisce una condizione necessaria, ma non sufficiente sulla struttura dei linguaggi che vengono riconosciuti da un FSA. In altri termini, il teorema afferma che se una stringa $x$ è lunga almeno quanto il numero degli stati interni di un determinato automa che accetta tale stringa, allora $x$ passa necessariamente per una sequenza di mosse contenti un ciclo. Inoltre, tutte le stringhe che si ottengono da $x$ ripetendo la sua sottostringa che attraversa il ciclo, sono sequenze riconosciute e accettate dall’automa. Allo stesso modo, sono accettate anche tutte le stringhe che si ottengono da $x$ cancellando qualsiasi sua sottostringa che attraversi tale ciclo.
 
 Ora supponiamo di progettare un automa $A$ che riconosce tutte e sole le stringhe del linguaggio $L= \left \{a^nb^n : n < 0\right \}$. Inizialmente si assume che $A$ sia in grado di riconoscere un tale linguaggio. Si considera innanzitutto il caso in cui $x= a^mb^m : m> |Q|$. Sappiamo, grazie al Pumping Lemma, che ci sarà un ciclo interno all’automa e può esistere nei tre casi sottolineati:
-	1)$...aaaaaabbbbbb...$ : se così fosse si potrebbe rimovere dalla stringa la sottostringa che passa all’interno del ciclo e l’automa riconoscerebbe comunque come accettabile tale stringa, ma ciò non è vero in quanto il numero di $a$ presenti dopo la rimozione di tale sottostringa sarebbe minore del
+	1)$...aaaaaabbbbbb...$ : se così fosse si potrebbe rimovere dalla stringa la sottostringa che passa all’interno del ciclo e l’automa riconoscerebbe comunque come accettabile tale stringa, ma ciò non è vero in quanto il numero di $a$ presenti dopo la rimozione di tale sottostringa sarebbe minore del numero delle $b$ e dunque la stringa non sarebbe riconosciuta dall’automa;
 
-numero delle b e dunque la stringa non sarebbe riconosciuta dall’automa;
+2)...aaaaaabbbbbb... : si applica lo stesso ragionamento del punto precedente;
 
-...aaaaaabbbbbb... : si applica lo stesso ragionamento del punto precedente;
-
-..aaaaaabbbbbb... : se cos`ı fosse si potrebbe ripercorrere quel determinato ciclo anche due volte, ma
-
-cos`ı facendo si otterrebbe la stringa ...aaaaaaaabbaabbbbbbbb... che, secondo il lemma dovrebbe
+3)..aaaaaabbbbbb... : se così fosse si potrebbe ripercorrere quel determinato ciclo anche due volte, ma così facendo si otterrebbe la stringa ...aaaaaaaabbaabbbbbbbb... che, secondo il lemma dovrebbe
 
 essere riconoscibile dall’automa, ma cos`ı non `e.
 
