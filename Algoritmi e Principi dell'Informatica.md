@@ -68,7 +68,7 @@ Poichè i linguaggi sono un inisieme di stringhe, valgono tutte le operazioni in
 	- Complementare ($L^C = A^∗\L$): l’insieme di tutte le stringhe che non appartengono al linguaggio $L$;
 	- Concatenazione ($L_1.L_2$): l’insieme di tutte le stringhe che si ottengono concatenando ad ogni stringa di $L_1$ ogni stringa di $L_2$; formalmente $L_1.L_2 =\left \{xy: x∈L_1, y∈L_2\right \}$;
 	- Potenza $n$-esima ($L^n$): l’insieme di tutte le stringhe che si ottengono concatenando $L$ con se' stesso $n$ volte, utilizzando le regole della concatenazione precedentemente definite;
-	- Chiusura di Kleene: $\left ( L^∗= \bigcup_{n=0}^{∞} L^n e L+ = ∞ n=0 n=1 Ln \right )$ L∗= ∞ Ln e L+ = ∞ n=0 n=1 Ln
+	- Chiusura di Kleene: $\left ( L^∗= \bigcup_{n=0}^{∞} L^n e  L^+ = ∞ n=0 n=1 Ln \right )$ L∗= ∞ Ln e L+ = ∞ n=0 n=1 Ln
 
 Le operazioni su di un determinato linguaggio crea nuove classi di linguaggi con caratteristiche proprie, talvolta interessanti. Un linguaggio diventa di interesse nel momento in cui le stringhe di cui è composto possono essere utilizzate per veicolare informazioni, problemi, soluzioni o per rappresentare programmi, documenti, elementi multimediali o, nel caso più rilevante, per rappresentare computazioni.
 
