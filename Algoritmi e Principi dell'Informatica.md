@@ -61,7 +61,7 @@ Data la definizione della stella di Kleene, si può ora dare la definizione di l
 
 Dato un insieme di simboli, si possono generare infiniti linguaggi.
 
-Poichè i linguaggi sono un inisieme di stringhe, valgono tutte le operazioni insiemistiche come:
+Poichè i linguaggi sono un insieme di stringhe, valgono tutte le **operazioni insiemistiche** come:
 	- Unione ($L_1 ∪L_2$): l’insieme di tutte le stringhe che appartengono o ad $L_1$ o ad $L_2$ o ad entrambi i linguaggi;
 	- Intersezione ($L_1 ∩L_2$): l’insieme di tutte le stringhe che appartengono sia ad $L_1$ che ad $L_2$;
 	- Differenza ($L_1\L_2$): l’insieme di tutte le stringhe che appartengono ad L1 ma non ad L2;
@@ -77,17 +77,9 @@ Le operazioni su di un determinato linguaggio crea nuove classi di linguaggi con
 ## **Automi Deterministici**
 
 
-In questo capitolo verr`a introdotto il concetto di automa e se ne analizzeranno le varie classi esistenti,
+In questo capitolo verrà introdotto il concetto di automa e se ne analizzeranno le varie classi esistenti, differenziandole in base alla loro espressività nella rappresentazione di linguaggi via via sempre più complessi. Si inizierà con lo studio degli automi determinstici per passare gradualmente a quelli non deterministici, analzzandone le differenze e le caratteristiche più importanti. Di seguito sono date le definizioni di automa, accettatore e trasduttore:
 
-differenziandole in base alla loro espressivit`a nella rappresentazione di linguaggi via via sempre pi`u
-
-complessi. Si inizier`a con lo studio degli automi determinstici per passare gradualmente a quelli non
-
-deterministici, analzzandone le differenze e le caratteristiche pi`u importanti. Di seguito sono date le
-
-definizioni di automa, accettatore e trasduttore:
-
-Definizione 2.0.1. Gli automi sono sistemi dinamici discreti e tempo invarianti. Lo stato di un automa
+- Gli ==automi== sono sistemi dinamici discreti e tempo invarianti. Lo stato di un automa
 
 viene modificato a fronte di un simbolo di ingresso. Ogni automa presenta uno stato iniziale, da cui ha
 
