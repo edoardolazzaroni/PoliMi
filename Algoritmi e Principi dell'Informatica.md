@@ -96,13 +96,10 @@ Gli FSA (Finite State Automaton) sono automi che presentano un numero finito di 
 
 - Un FSA è una tupla di 5 elementi $<Q,A,δ,q_0,F >$, dove:
 	- $Q$ è un insieme finito di stati;
-	- $A:=$ {a0,a1,a2,...,an}`e l’alfabeto di ingresso;
-
-δ: Q×A→Q: `e la funzione di transizione (eventualmente parziale);
-
-q0 ∈Q `e lo stato iniziale;
-
-F ⊆Q `e un insieme di stati finali
+	- $A:=$ {$a_0,a_1,a_2,...,a_n$} è l’alfabeto di ingresso;
+	- $δ: Q×A→Q$: è la funzione di transizione (eventualmente parziale);
+	- $q_0 ∈Q$ è lo stato iniziale;
+	- $F ⊆Q$ è un insieme di stati finali.
 
 Quando l’automa riceve in ingresso un simbolo del proprio alfabeto, cambia lo stato in cui si trova. Il
 
