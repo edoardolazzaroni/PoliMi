@@ -262,11 +262,9 @@ I PDT (Push Down Trasducer) sono trasduttori che presentano un numero finiti di 
 
 - Una configurazione $c$ di un PDT è una tupla di 4 elementi $<q,x,γ,z>$, dove:
 	- $q∈Q$ è lo stato corrente del dispositivo di controllo;
-	- x∈I∗`e la porzione non ancora letta della stringa d`aingresso;
-
-γ ∈Γ∗`e la stringa composta da tutti i simboli contenuti all’interno della pila;
-
-z∈O∗`e la stringa presente sul nastro di uscita.2.3. MACCHINE DI TURING 15
+	- $x∈I^∗$ è la porzione non ancora letta della stringa d'ingresso;
+	- $γ ∈Γ^∗$ è la stringa composta da tutti i simboli contenuti all’interno della pila;
+	- z∈O∗`e la stringa presente sul nastro di uscita.2.3. MACCHINE DI TURING 15
 
 Le relazioni di transizione c=<q,x,γ,z>⊢c′
 
