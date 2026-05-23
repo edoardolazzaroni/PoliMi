@@ -28,16 +28,14 @@ Data una stringa x, l’espressione $x^i$ indica la concatenazione della stringa
 
 Per poter proseguire con il trattato, è prima necessario introdurre alcuni concetti matematici fondamentali. Si danno quindi le seguenti definizioni:
 
-- Un ==semigruppo==  è una coppia $<S,◦>$, dove: S è un insieme chiuso rispetto a $◦$; per cui, se si prendono due qualsiasi elementi A e B di tale insieme, l’operazione A◦B produce come risultato un elemento appartenente ad S;
+- Un ==semigruppo==  è una coppia $<S,◦>$, dove:
+		- S è un insieme chiuso rispetto a $◦$ per cui, se si prendono due qualsiasi elementi A e B di tale insieme, l’operazione $A◦B$ produce come risultato un elemento appartenente ad S;
 	- e un’operazione associativa su S.
 
 Nel contesto dei linguaggi, l’operatore $◦$ rappresenta la concatenazione di stringhe.
 
-- Un monoide è un semigruppo in cui è definito un elemento unitario
+- Un monoide è un semigruppo in cui è definito un elemento unitario u∈S, tale che ∀x,∃u(x◦u= x).
 
-u∈S, tale che ∀x,∃u(x◦u= x).
-
-78 CAPITOLO 1. LINGUAGGI FORMALI
 
 Nel contesto dei linguaggi, l’elemento unitario u rappresenta la stringa vuota ε: infatti, la concate-
 
