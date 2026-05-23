@@ -234,7 +234,7 @@ Se $δ(q,ε,A) \ne ⊥$, ovvero se la funzione di transizione è definita, allor
 
 Data la funzione di transizione tra configurazioni $⊢$, si può definire la chiusura transitiva e riflessiva $⊢^∗$ che opera su un insieme di configurazioni anzichè su un’unica configurazione. Un automa a pila accetta una determinata stringa $x$ se c’è un cammino coerente che va dallo stato iniziale ad uno stato finale al termine della lettura della stringa d’ingresso. Formalmente:
 
-∀x∈I∗,x∈L ⇐⇒ c0 =<q0,x,Z0 >⊢∗ cF =<q∈F,ε,γ >
+$∀x∈I^∗,x∈L ⇐⇒ c_0 =<q_0,x,Z_0 >⊢^∗ c_F =<q∈F,ε,γ >$
 
 Sappiamo quindi che il linguaggio anbn non pu`o essere riconosciuto da alcun FSA per il Pumping
 
