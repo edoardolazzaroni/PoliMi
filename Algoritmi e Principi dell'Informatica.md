@@ -261,9 +261,8 @@ I PDT (Push Down Trasducer) sono trasduttori che presentano un numero finiti di 
 	- $η: Q×(I∪{ε}) ×Γ →O^∗$ è la funzione di uscita (eventualmente parziale).
 
 - Una configurazione $c$ di un PDT è una tupla di 4 elementi $<q,x,γ,z>$, dove:
-- q∈Q `e lo stato corrente del dispositivo di controllo;
-
-x∈I∗`e la porzione non ancora letta della stringa d`aingresso;
+	- $q∈Q$ è lo stato corrente del dispositivo di controllo;
+	- x∈I∗`e la porzione non ancora letta della stringa d`aingresso;
 
 γ ∈Γ∗`e la stringa composta da tutti i simboli contenuti all’interno della pila;
 
