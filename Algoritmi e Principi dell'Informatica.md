@@ -201,11 +201,11 @@ Questi particolari tipi di automi hanno la possibilità di utilizzare il simbolo
 - Un ==PDA== è una tupla di 7 elementi $<Q,I,δ,Γ,q_0,Z_0,F >$, dove:
 	- $Q$ è un insieme finito di stati;
 	- $I$ è l’alfabeto di ingresso;
-	- $Γ$ è l’alfabeto della pila, tale per cui Γ ∩I= ∅;
-	- δ: Q×(I∪{ε}) ×Γ →Q×Γ∗ è la funzione di transizione (eventualmente parziale);
-	- q0 è lo stato iniziale
-	- Z0 è il simbolo di fondo pila, ovvero l’unico simbolo che appare inizialmente nella pila;
-	- F ⊆Q è un insieme di stati finali.
+	- $Γ$ è l’alfabeto della pila, tale per cui $Γ ∩I= ∅$;
+	- $δ: Q×(I∪{ε}) ×Γ →Q×Γ^∗$ è la funzione di transizione (eventualmente parziale);
+	- $q_0$ è lo stato iniziale;
+	- $Z_0$ è il simbolo di fondo pila, ovvero l’unico simbolo che appare inizialmente nella pila;
+	- $F ⊆Q$ è un insieme di stati finali.
 
 Dalla definizione, si pu`o osservare che l’automa `e in grado di decidere il passo successivo anche senza
 
