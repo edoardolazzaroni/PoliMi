@@ -598,19 +598,9 @@ In questa sezione si cercherà di rispondere alla domanda: quali problemi posson
 
 ### **5.1 Formalizzazione dei Problemi**
 
-Molti problemi possono essere opportunamente descritti come il riconoscimento di un determinato linguaggio o coma la sua traduzione in un altro linguaggio. Ogni problema matematico è descrivibile mediante una di queste forme, alla sola condizione che il dominio di tale problema sia un insieme numerabile, in maniera tale che i suoi elementi si possono porre in corrispondenza biunivoca con gli elementi di N o, se si preferisce, di V∗, in cui V rappresenta un alfabeto. Dunque, il problema di origine si pu`o
+Molti problemi possono essere opportunamente descritti come il riconoscimento di un determinato linguaggio o coma la sua traduzione in un altro linguaggio. Ogni problema matematico è descrivibile mediante una di queste forme, alla sola condizione che il dominio di tale problema sia un insieme numerabile, in maniera tale che i suoi elementi si possono porre in corrispondenza biunivoca con gli elementi di $\mathbb{N}$ o, se si preferisce, di $V^∗$, in cui $V$ rappresenta un alfabeto. Dunque, il problema di origine si può riformulare come il problema di calcolo di una funzione $f : \mathbb{N} →\mathbb{N}$. Quanto detto è in perfetto accordo con tutti i formalismi matematici esaminati fino ad ora: questi, infatti, sono discreti e hanno un dominio matematico numerabile.
 
-riformulare come il problema di calcolo di una funzione f : N →N. Quanto detto `e in perfetto accordo
-
-con tutti i formalismi matematici esaminati fino ad ora: questi, infatti, sono discreti e hanno un dominio
-
-matematico numerabile.
-
-Il riconoscimento di linguaggi e la loro traduzione sono due formulazioni differenti di un problema, che
-
-sono facilmente riducibili l’uno all’altro. Infatti, dato il problema di stabilire se una determinata stringa
-
-x appartenga al linguaggio L, tale problema pu`o anche essere impostato come la traduzione τL(x), per
+Il riconoscimento di linguaggi e la loro traduzione sono due formulazioni differenti di un problema, che sono facilmente riducibili l’uno all’altro. Infatti, dato il problema di stabilire se una determinata stringa $x$ appartenga al linguaggio L, tale problema pu`o anche essere impostato come la traduzione τL(x), per
 
 cui τL(x) = 1 se x∈L, τL(x) = 0 altrimenti. Viceversa, data la traduzione τ : V∗
 
