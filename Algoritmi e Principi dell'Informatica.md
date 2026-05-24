@@ -701,17 +701,10 @@ La dimostrazione di tale teorema si ottiene tramite la tecnica della diagonale, 
 
 - **Teorema**: nessuna MT è in grado di calcolare la funzione totale $k$ definita nel seguente modo: $k(x) =$ `if` $f_x(x) \ne ⊥$ `then` $1$ `else` $0$
 
-Questo problema rappresenta un caso speciale della funzione $g(y,x)$ in quanto $k(x) = g(x,x)$, dunque la calcolabilitò della funzione $k$ è direttamente correlata alla calcolabilità della funzione $g$. Si noti che, in generale, se un problema è irrisolvibile, può accadere che un suo caso particolare sia risolvibile, mentre una sua generalizzazione è necessariamente irrisolvibile. Al contrario, se un problema è risolvibile,5.6. PROBLEMI DI DECISIONE 29
+Questo problema rappresenta un caso speciale della funzione $g(y,x)$ in quanto $k(x) = g(x,x)$, dunque la calcolabilitò della funzione $k$ è direttamente correlata alla calcolabilità della funzione $g$. Si noti che, in generale, se un problema è irrisolvibile, può accadere che un suo caso particolare sia risolvibile, mentre una sua generalizzazione è necessariamente irrisolvibile. Al contrario, se un problema è risolvibile, può accadere che una sua generalizzazione diventi irrisolvibile, mentre un suo caso particolare rimane sicuramente risolvibile.
 
-pu`o accadere che una sua generalizzazione diventi irrisolvibile, mentre un suo caso particolare rimane
 
-sicuramente risolvibile.
-
-Un altro teorema certamente importante `e il seguente:
-
-Teorema 5.5.3. Nessuna TM `e in grado di calcolare la funzione k definita nel seguente modo:
-
-k(y) = if fy(x) ̸= ⊥then1 else0
+- **Teorema**: nessuna MT è in grado di calcolare la funzione $k$ definita nel seguente modo: $k(y) =$ if $f_y(x)$\ne ⊥$ then $1$ else$0
 
 Da un punto di vista pratico questo problema `e interessante perch`e qualifica tutti i possibili dati in
 
