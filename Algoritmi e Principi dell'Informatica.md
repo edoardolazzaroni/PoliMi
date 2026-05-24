@@ -505,18 +505,10 @@ Quindi il linguaggio generato da una grammatica è costituito da tutte e sole le
 
 Una volta definite cosa siano le grammatiche, è possibile classificarle in base alle loro proprietà e in base alla forma ammessa per le produzioni. Tale classificazione viene anche detta ==Gerarchia di Chomsky==, tramite cui si dividono le grammatiche in quattro categorie:
 
-- Tipo 0 (non ristrette): sono grammatiche definite come nella , ovvero grammatiche che non possiedono nessuna restrizione nel tipo di produzione;
-- Tipo 1 (sensibili al contesto): sono grammatiche a cui si introduce il vincolo per cui le produzioni possono essere solo nella forma αAβ →αγβ, dove α,β,γ ∈V e A ∈VN, con
-
-γ ̸= ε; inoltre, la derivazione S →ε`e consentita solo se S non appare a destra in nessuna regola di
-
-derivazione;
-
-Grammatiche di tipo 2 (non contestuali): sono grammatiche a cui si introduce il vincolo per cui
-
-ad ogni produzione α→β ∈P si verifica che |α| = 1 (quindi α∈VN) e β ∈V∗;
-
-Grammatiche di tipo 3 (regolari): sono grammatiche a cui si introduce il vincolo per cui ad ogni
+- Tipo 0 (NON RISTRETTE): sono grammatiche definite come nella , ovvero grammatiche che non possiedono nessuna restrizione nel tipo di produzione;
+- Tipo 1 (CONTESTUALI): sono grammatiche a cui si introduce il vincolo per cui le produzioni possono essere solo nella forma αAβ →αγβ, dove α,β,γ ∈V e A ∈VN, con γ ̸= ε; inoltre, la derivazione S →ε è consentita solo se S non appare a destra in nessuna regola di derivazione;
+- Tipo 2 (NON CONTESTUALI): sono grammatiche a cui si introduce il vincolo per cui ad ogni produzione α→β ∈P si verifica che |α| = 1 (quindi α∈VN) e β ∈V∗;
+- Tipo 3 (REGOLARI): sono grammatiche a cui si introduce il vincolo per cui ad ogni
 
 produzione α →β ∈P si verifica che |α | = 1 (quindi α ∈VN) e che β sia in una sola delle
 
