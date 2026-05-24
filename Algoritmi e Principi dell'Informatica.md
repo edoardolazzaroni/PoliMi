@@ -507,8 +507,8 @@ Una volta definite cosa siano le grammatiche, è possibile classificarle in base
 
 - Tipo 0 (NON RISTRETTE): sono grammatiche definite come nella definizione generale, ovvero grammatiche che non possiedono nessuna restrizione nel tipo di produzione;
 - Tipo 1 (CONTESTUALI): sono grammatiche a cui si introduce il vincolo per cui le produzioni possono essere solo nella forma $αAβ →αγβ$, dove $α,β,γ ∈V$ e $A ∈V_N$, con $γ ̸= ε$; inoltre, la derivazione $S →ε$ è consentita solo se $S$ non appare a destra in nessuna regola di derivazione;
-- Tipo 2 (NON CONTESTUALI): sono grammatiche a cui si introduce il vincolo per cui ad ogni produzione $α→β ∈P$ si verifica che |α| = 1 (quindi α∈VN) e β ∈V∗;
-- Tipo 3 (REGOLARI): sono grammatiche a cui si introduce il vincolo per cui ad ogni produzione α →β ∈P si verifica che |α | = 1 (quindi α ∈VN) e che β sia in una sola delle seguenti forme: aB, Ba, a oppure ε, con a ∈VT e B ∈VN; inoltre, la derivazione S →ε è consentita solo se S non appare a destra in nessuna regola di derivazione;
+- Tipo 2 (NON CONTESTUALI): sono grammatiche a cui si introduce il vincolo per cui ad ogni produzione $α→β ∈P$ si verifica che $|α| = 1$ (quindi $α∈V_N$) e $β ∈V^∗$;
+- Tipo 3 (REGOLARI): sono grammatiche a cui si introduce il vincolo per cui ad ogni produzione $α →β ∈P$ si verifica che $|α | = 1$ (quindi $α ∈V_N$) e che $β$ sia in una sola delle seguenti forme: $aB, Ba, a$ oppure $ε$, con $a ∈V_T$ e $B ∈V_N$; inoltre, la derivazione $S →ε$ è consentita solo se $S$ non appare a destra in nessuna regola di derivazione.
 
 
 *Gerarchia di Chomsky*:
