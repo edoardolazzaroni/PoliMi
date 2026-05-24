@@ -704,17 +704,9 @@ La dimostrazione di tale teorema si ottiene tramite la tecnica della diagonale, 
 Questo problema rappresenta un caso speciale della funzione $g(y,x)$ in quanto $k(x) = g(x,x)$, dunque la calcolabilitò della funzione $k$ è direttamente correlata alla calcolabilità della funzione $g$. Si noti che, in generale, se un problema è irrisolvibile, può accadere che un suo caso particolare sia risolvibile, mentre una sua generalizzazione è necessariamente irrisolvibile. Al contrario, se un problema è risolvibile, può accadere che una sua generalizzazione diventi irrisolvibile, mentre un suo caso particolare rimane sicuramente risolvibile.
 
 
-- **Teorema**: nessuna MT è in grado di calcolare la funzione $k$ definita nel seguente modo: $k(y) =$ if $f_y(x)$\ne ⊥$ then $1$ else$0
+- **Teorema**: nessuna MT è in grado di calcolare la funzione $k$ definita nel seguente modo: $k(y) =$ `if` $f_y(x) \ne⊥$ `then` $1$ `else` $0$
 
-Da un punto di vista pratico questo problema `e interessante perch`e qualifica tutti i possibili dati in
-
-ingresso. Afferma, infatti, l’irrisolvibilit`a del problema di decidere se un certo programma termini la pro-
-
-pria esecuzione per qualsiasi dato in ingresso o se, al contrario, per qualche dato il programma andrebbe
-
-in loop.Nel caso precedente, invece, si era interessati al problema di sapere se un certo programma con
-
-certi dati avrebbe terminato o meno la propria esecuzione.
+Da un punto di vista pratico questo problema è interessante perchè qualifica tutti i possibili dati in ingresso. Afferma, infatti, l’irrisolvibilità del problema di decidere se un certo programma termini la propria esecuzione per qualsiasi dato in ingresso o se, al contrario, per qualche dato il programma andrebbe in loop. Nel caso precedente, invece, si era interessati al problema di sapere se un certo programma con certi dati avrebbe terminato o meno la propria esecuzione.
 
 In definitiva, si `e constatato che esistono problemi non risolvibili algoritmicamente. Ci`o non esclude
 
