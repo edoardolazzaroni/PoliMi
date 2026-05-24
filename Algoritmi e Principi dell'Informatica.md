@@ -553,20 +553,11 @@ Un’espressione regolare è un’espressione utilizzabile per denotare un lingu
 	- $∀a∈V_T,a$ è un’espressione regolare che denota il linguaggio formato solo dal simbolo $a$;
 	- Se $R_1$ ed $R_2$ sono espressioni regolari, anche la loro unione, indicata con $R_1 + R_2$ o $R_1 | R_2$, è un’espressione regolare;
 	- Se $R_1$ ed $R_2$ sono espressioni regolari, anche la loro concatenazione, indicata con $R_1·R_2$, è un’espressione regolare;
+	- Se $R$ è un’espressione regolare, anche la stella di Kleene di R, indicata con $R^∗$, è un’espressione regolare.
 
-Se R `e un’espressione regolare, anche la stella di Kleene di R, indicata con R∗, `e un’espressione
+Nessun’altra stringa è un’espressione regolare.
 
-regolare.24 CAPITOLO 4. GRAMMATICHE
-
-Nessun’altra stringa `e un’espressione regolare.
-
-Gli operatori |,·
-
-,
-
-∗ definiti per le espressioni regolari, hanno un implicito ordine di applicazione, se
-
-non indicato diversamente dall’uso delle parentesi. In particolare, * ha la precedenza rispetto a·, che ha
+Gli operatori $|,·,∗$ definiti per le espressioni regolari, hanno un implicito ordine di applicazione, se non indicato diversamente dall’uso delle parentesi. In particolare, $*$ ha la precedenza rispetto a $·$, che ha
 
 a sua volta la precedenza su |.
 
