@@ -576,9 +576,17 @@ Ad esempio, il pattern $<0,1,v_1,v_2,v_1v_10v_2 >$ rappresenta il linguaggio com
 Le espressioni regolari seguono la stessa idea dei sistemi di pattern, ma hanno un potere espressivo differente: nello specifico è possibile esprimere certi linguaggi con i pattern, ma non con le espressioni regolare, e viceversa, è possibile esprimere alcuni linguaggi con le espressioni regolari, ma non con i pattern. Per tale motivo, i due modelli si dicono essere **non confrontabili**.
 
 
-4.6 Riepilogo
+### **4.6 Riepilogo**
 
-Tabella 4.1: Relazione fra grammatiche, linguaggi e automi
+*Relazione fra grammatiche, linguaggi e automi*:
+
+|     |     |     |
+| --- | --- | --- |
+|     |     |     |
+
+
+
+
 
 Gerarchia Grammatiche Linguaggi Automa minimo
 
