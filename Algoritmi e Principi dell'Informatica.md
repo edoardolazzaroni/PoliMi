@@ -437,7 +437,7 @@ Infatti, dato un NFSA, si può costruire un FSA equivalente che ha come stati gl
 
 Un ==NPDA== (Nondeterministic Push Down Automaton) è un automa che presenta un numero finito di stati e una memoria organizzata su una struttura a pila. Tali automi sono definiti come i corrispettivi automi deterministici, con l’unica differenza che presentano una funzione di transizione definita nel seguente modo:
 
-δ: Q×(I∪{ε}) ×Γ →℘F(Q×Γ∗)
+						$δ: Q×(I∪\left\{ε\right\}) ×Γ →℘_F(Q×Γ^∗)$
 
 La relazione di transizione fra configurazioni su Q×I∗×Γ∗`e definita da < q,x,γ >⊢< q′,x′,γ′>
 
