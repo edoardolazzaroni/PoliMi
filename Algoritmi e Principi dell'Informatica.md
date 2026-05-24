@@ -473,17 +473,8 @@ Data una qualsiasi NTM $M$, è sempre possibile costruire una MT deterministica 
 
 ## **Grammatiche**
 
-Come visto in precedenza, spesso gli automi vengono utilizzati come modelli per il riconoscimento di lin-
 
-guaggi. Gli automi sono quindi uno strumento formale per la descrizione e la definizione di un determinato
-
-linguaggio, costituito dall’insieme delle stringhe accettate dall’automa stesso.
-
-Un altro formalismo utilizzato per la definizione di linguaggio sono le cosiddette grammatiche formali,
-
-che definiscono un linguaggio fornendo il procedimento mediante cui si ottengono le stringhe appartenenti
-
-al linguaggio stesso.
+Come visto in precedenza, spesso gli automi vengono utilizzati come modelli per il riconoscimento di linguaggi. Gli automi sono quindi uno strumento formale per la descrizione e la definizione di un determinato linguaggio, costituito dall’insieme delle stringhe accettate dall’automa stesso. Un altro formalismo utilizzato per la definizione di linguaggio sono le cosiddette ==grammatiche formali==, che definiscono un linguaggio fornendo il procedimento mediante cui si ottengono le stringhe appartenenti al linguaggio stesso.
 
 4.1 Introduzione
 
