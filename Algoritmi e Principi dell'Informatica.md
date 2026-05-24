@@ -371,8 +371,8 @@ Se $x / ∈ L$, $M$ può anche non raggiungere mai una configurazione di arresto
 Quando le macchine di Turing vengono impiegate per la traduzione di linguaggi, ovvero per mappare stringhe di $I^∗$ in stringhe di $O^∗$, il nastro di uscita non viene più ignorato come nel caso degli accettatori.
 Dunque, una $MT$ utilizzata come trasduttore è una tupla di 9 elementi, esattamente come presentata nella definizione generale di $MT$:
 
-- Sia $M$ una $MT$ a $k$ nastri. $M$ definisce una traduzione $τ(x) = y, con τM : I∗→O∗$, se e solo se:
-		c0 =<q0,↑x,↑Z0,...,↑Z0,↑ >⊢∗cF =<q∈F,x′↑iy, α1 ↑A1β1,...,αk↑Akβk, y↑ >
+- Sia $M$ una $MT$ a $k$ nastri, definisce una traduzione $τ(x) = y$, con $τ_M : I^∗→O^∗$, se e solo se:
+		$c_0 =<q_0,↑x,↑Z_0,...,↑Z_0,↑ >⊢∗c_F =<q∈F,x′↑iy, α_1 ↑A_1β_1,...,αk↑Akβk, y↑ >$
 
 In altre parole, una stringa xviene tradotta in una stringa y da una TM M se esiste un cammino che
 
