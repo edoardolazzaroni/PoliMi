@@ -718,13 +718,9 @@ Più in generale si noti che una qualsiasi proprietà di un determinato elemento
 
 In questa sezione si prendono in particolare considerazione i sottoinsiemi di $\mathbb{N}$, indicati convenzionalmente con $S ⊆\mathbb{N}$. Quindi, formalmente, dato un determinato elemento $x∈\mathbb{N}$ e un insieme $S$, si cerca di capire se $x$ appartenga ad $S$.
 
-- La funzione caratteristica $c_S : \mathbb{N} →\left\{0,1\right\}$ di un insieme $S$ è definita come segue:
+- La funzione caratteristica $c_S : \mathbb{N} →\left\{0,1\right\}$ di un insieme $S$ è definita come segue: $c_S(x) =$ `if` $x∈S$ `then` $1$ `else` $0$
 
-cS(x) = if x∈S then1 else0
-
-La risolvibilit`a del problema di appartenenza ad un insieme (detta anche ricorsivit`a dell’insieme)
-
-dipende dalla computabilit`a della funzione caratteristica cS, come definito di seguito:
+La risolvibilità del problema di appartenenza ad un insieme (detta anche ricorsività dell’insieme) dipende dalla computabilità della funzione caratteristica cS, come definito di seguito:
 
 Definizione 5.6.2. Un insieme S `e ricorsivo (o decidibile) se e solo se la sua funzione caratteristica `e
 
