@@ -446,22 +446,16 @@ La relazione di transizione fra configurazioni su $Q×I^∗×Γ^∗$ è definita
 
 Inoltre, la stringa $x∈I^∗$ è accettata dall’automa se e solo se:
 
-						$<q0,x,Z0 >⊢∗<q∈F,ε,γ ∈Γ∗>.$
+						$<q0,x,Z0 >⊢^∗<q∈F,ε,γ ∈Γ^∗>.$
 
 
-Si noti che i PDA sono automi intrinsecamente non deterministici: infatti, nella prima definizione di
+Si noti che i PDA sono automi intrinsecamente non deterministici: infatti, nella prima definizione di automa a pila si era dovuto aggiungere il vincolo che, se per una determinata condizione era definita una ε-mossa, allora non era definita nessun’altra transizione che partisse da quello stato. Nella definizione appena data, invece, questo vincolo viene rimosso.
 
-automa a pila si era dovuto aggiungere il vincolo che, se per una determinata condizione era definita una
 
-ε-mossa, allora non era definita nessun’altra transizione che partisse da quello stato. Nella definizione
 
-appena data, invece, questo vincolo viene rimosso.
+### **3.3 Macchine di Turing non deterministiche**
 
-3.3 Macchine di Turing non deterministiche
-
-Una NTM (Nondeterministic Turing Machine) `e un automa che presenta un numero finito di stati e che
-
-opera su un insieme di nastri infiniti a destra. Tali automi sono defiuniti come i corrispettivi automi
+Una ==NTM== (Nondeterministic Turing Machine) è un automa che presenta un numero finito di stati e che opera su un insieme di nastri infiniti a destra. Tali automi sono defiuniti come i corrispettivi automi
 
 deterministici, con l’unica differenza che presentano una funzione di transizione e di accettazione definita
 
