@@ -466,25 +466,7 @@ mentre per una NTM a nastro singolo, la funzione di transizione è definita nel 
 
 - **Teorema**: le macchine di Turing non deterministiche non sono più potenti delle corrispettive macchine di Turing deterministiche se utilizzate come riconoscitori di linguaggi.
 
-Data una qualsiasi NTM $M$, è sempre possibile costruire una MT deterministica $M’$ che riconosce lo stesso linguaggio di M. Se si considera una computazione di M su una stringa in ingresso, questa è ben definita da un albero di configurazioni, in cui è inserita ogni configurazione raggiungibile dallo stato iniziale. Una stringa viene accettata solo se esiste almeno un cammino all’interno della struttura ad albero che si conclude in una configurazione finale. M’ potr`a simulare il comportamento della TM M,
-
-ricostruendo in maniera sequenziale tutte le possibili computazioni di M. Si noti per`o che quando una
-
-stringa non viene accettata, la macchina di Turing M potrebbe entrare in un ciclo infinito, senza mai
-
-terminare la propria esecuzione: per questo motivo, l’albero delle computazioni potrebbe presentare rami
-
-infiniti. La TM M’, che simula M, deve quindi evitare di visitare l’albero delle computazioni ’in profondit`a’
-
-(ovvero tramite un algoritmo di depth first search), ossia seguendo un percorso fino al suo termine, prima
-
-di passare ad un ramo successivo, in quanto alcuni rami sono, appunto, infiniti. Conviene quindi visitare
-
-l’albero delle computazioni ’in ampiezza’ (ovvero tramite un algoritmo di breadth first search), ossia
-
-seguendo tutti i nodi dei rami sullo stesso livello. In questo modo, se esiste un cammino dell’albero di M
-
-che porti all’accettazione della stringa, M’ riuscir`a a trovarlo in un tempo finito, terminando la propria
+Data una qualsiasi NTM $M$, è sempre possibile costruire una MT deterministica $M’$ che riconosce lo stesso linguaggio di M. Se si considera una computazione di M su una stringa in ingresso, questa è ben definita da un albero di configurazioni, in cui è inserita ogni configurazione raggiungibile dallo stato iniziale. Una stringa viene accettata solo se esiste almeno un cammino all’interno della struttura ad albero che si conclude in una configurazione finale. $M’$ potrà simulare il comportamento della MT $M$, ricostruendo in maniera sequenziale tutte le possibili computazioni di $M$. Si noti però che quando una stringa non viene accettata, la macchina di Turing $M$ potrebbe entrare in un ciclo infinito, senza mai terminare la propria esecuzione: per questo motivo, l’albero delle computazioni potrebbe presentare rami infiniti. La MT $M’$, che simula $M$, deve quindi evitare di visitare l’albero delle computazioni ’in profondità’ (ovvero tramite un algoritmo di depth first search), ossia seguendo un percorso fino al suo termine, prima di passare ad un ramo successivo, in quanto alcuni rami sono, appunto, infiniti. Conviene quindi visitare l’albero delle computazioni ’in ampiezza’ (ovvero tramite un algoritmo di breadth first search), ossia seguendo tutti i nodi dei rami sullo stesso livello. In questo modo, se esiste un cammino dell’albero di $M$ che porti all’accettazione della stringa, M’ riuscir`a a trovarlo in un tempo finito, terminando la propria
 
 esecuzione. Altrimenti, se tutti i cammini di M terminano in stati non finali, M’ terminer`a la propria
 
