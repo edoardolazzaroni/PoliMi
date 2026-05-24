@@ -414,7 +414,8 @@ Ci sono però casi in cui questo non è possibile, in quanto non si ha una conos
 
 Gli ==NFSA== (Nondeterministic Finite State Automaton) sono automi a stati finiti che presentano un numero finito di stati. Tali automi sono definiti come i corrispettivi automi deterministici, con l’unica differenza che presentano una funzione di transizione definita nel seguente modo:
 
-							$δ: Q×I →℘(Q) 1$
+							$δ: Q×I →℘(Q)$
+							(in cui $℘(Q)$ rappresenta l'insieme delle parti di Q, i cui elementi sono insiem)
 
 Di conseguenza, la chiusura riflessiva e transitiva di tale funzione, si definisce induttivamente nel seguente modo:
 
