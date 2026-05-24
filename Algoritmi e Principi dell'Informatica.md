@@ -694,18 +694,14 @@ Quando si scrive un programma, ci sono diverse proprietà che si vorebbero garan
 ![[Algoritmi e Principi dell'Informatica-1779647450525.webp|396]]
 
 
-- **Teorema** dell'==Halting Problem==: nessuna MT può calcolare la funzione $g : \mathbb{N} ×\mathbb{N} →\left\{0,1\right\}$ definita nel seguente modo: $g(x,y) =$ if $f_y(x) = ⊥$ then $1$ else $0$
+- **Teorema** dell'==Halting Problem==: nessuna MT può calcolare la funzione $g : \mathbb{N} ×\mathbb{N} →\left\{0,1\right\}$ definita nel seguente modo: $g(x,y) =$ `if` $f_y(x) = ⊥$ `then` $1$ `else` $0$
 
 La dimostrazione di tale teorema si ottiene tramite la tecnica della diagonale, detta anche metodo di Cantor: l’obiettivo è quello di mostrare che un’enumerazione di oggetti di cardinalità almeno 2, non è completa, ossia che un oggetto che si vorrebbe trovare all’interno di tale enumerazione in realtà non è presente. L’enumerazione di una successione può essere rappresentata come una tabella con un numero infinito di righe. L’elemento che non compare in tale tabella viene individuato per assurdo considerando inizialmente la diagonale $d$ (dunque $d_i$ è l’elemento che si trova all’$i$-esima riga e all’$i$-esima colonna) e poi componendo una diagonale d′tale che, per ogni $i$, $d_i'$ sia diverso da $d_i$.
 
 
-- **Teorema**: nessuna MT è in grado di calcolare la funzione totale $k$ definita nel seguente modo: $k(x) =$ if $f_x(x) \ne ⊥$ `then` $1$ `else` $0$
+- **Teorema**: nessuna MT è in grado di calcolare la funzione totale $k$ definita nel seguente modo: $k(x) =$ `if` $f_x(x) \ne ⊥$ `then` $1$ `else` $0$
 
-Questo problema rappresenta un caso speciale della funzione $g(y,x)$ in quanto $k(x) = g(x,x)$, dunque la calcolabilit`a della funzione k `e direttamente correlata alla calcolabilit`a della funzione g. Si noti
-
-che, in generale, se un problema `e irrisolvibile, pu`o accadere che un suo caso particolare sia risolvibile,
-
-mentre una sua generalizzazione `e necessariamente irrisolvibile. Al contrario, se un problema `e risolvibile,5.6. PROBLEMI DI DECISIONE 29
+Questo problema rappresenta un caso speciale della funzione $g(y,x)$ in quanto $k(x) = g(x,x)$, dunque la calcolabilitò della funzione $k$ è direttamente correlata alla calcolabilità della funzione $g$. Si noti che, in generale, se un problema è irrisolvibile, può accadere che un suo caso particolare sia risolvibile, mentre una sua generalizzazione è necessariamente irrisolvibile. Al contrario, se un problema è risolvibile,5.6. PROBLEMI DI DECISIONE 29
 
 pu`o accadere che una sua generalizzazione diventi irrisolvibile, mentre un suo caso particolare rimane
 
