@@ -655,13 +655,9 @@ Inoltre, è noto che una MT $M$ può risolvere una funzione $f_M : D→R$, con $
 Le ==UTM== (Universal Turing Machines) sono MT in grado di modellare dispositivi generali di risoluzione dei problemi, in cui il problema da risolvere non viene codificato nella struttura del dispositivo (come avviene per le MT), ma gli viene fornito come input, assieme ai dati con cui operare (esattamente come gli oderni calcolatori). Le UTM sono quindi MT che calcolano la funzione $g(y,x) = f_y(x)$, in cui $y$ rappresenta la funzione $f_y$, calcolata dalla MT $M_y$, ed $x$ rappresenta l’ingresso su cui $M_y$ opera; calcolano, dunque, il valore della funzione $f_y$ applicata ad $x$.
 
 Come si può osservare, la UTM così definita non sembra appartenere all’insieme delle macchine di Turing, in quanto la funzione $g(y,x)$ è opera da $\mathbb{N} ×\mathbb{N}$ ad $\mathbb{N}$, anzichè da $\mathbb{N}$ ad $\mathbb{N}$ come tutte le altre MT.
- per`o possibile, come gi`a dimostrato in precedenza, definire una biiezione calcolabile algoritmicamente,
+È però possibile, come già dimostrato in precedenza, definire una biiezione calcolabile algoritmicamente, tramite la funzione:
 
-tramite la funzione:
-
-d(x,y) = x+ (x+ y)(x+ y−1)
-
-2
+$d(x,y) = x+ (x+ y)(x+ y−1)2$
 
 che mette in corrispondenza l’insieme N ×N, composto dalle coppie di numeri naturali, all’insieme N,
 
