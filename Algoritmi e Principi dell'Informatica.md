@@ -668,14 +668,9 @@ Graficamente, è come visitare le coppie di punti nel piano in un ordine prefiss
 ![[Algoritmi e Principi dell'Informatica-1779633374904.webp|383]]
 
 
-Si osservi che la funzione $g(y,x)$ è computabile da una macchina di Turing, ossia $∃i∈N : f_i = g$, ed
+Si osservi che la funzione $g(y,x)$ è computabile da una macchina di Turing, ossia $∃i∈ \mathbb{N} : f_i = g$, ed è possibile calcolarla tramite i seguenti passaggi:
 
-`e possibile calcolarla tramite i seguenti passaggi:
-
-1. Si sceglie un alfabeto finito A per codificare i numeri naturali ed ogni altra informazione richiesta
-
-per la computazione;
-
+1. Si sceglie un alfabeto finito $A$ per codificare i numeri naturali ed ogni altra informazione richiesta per la computazione;
 2. Si traduce la rappresentazione di n in un’opportuna rappresentazione della coppia <x,y > corri-
 
 spondente ad n. La rappresentazione decimale di n pu`o essere tradotta nelle due rappresentazioni
