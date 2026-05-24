@@ -671,13 +671,8 @@ Graficamente, è come visitare le coppie di punti nel piano in un ordine prefiss
 Si osservi che la funzione $g(y,x)$ è computabile da una macchina di Turing, ossia $∃i∈ \mathbb{N} : f_i = g$, ed è possibile calcolarla tramite i seguenti passaggi:
 
 1. Si sceglie un alfabeto finito $A$ per codificare i numeri naturali ed ogni altra informazione richiesta per la computazione;
-2. Si traduce la rappresentazione di n in un’opportuna rappresentazione della coppia <x,y > corri-
-
-spondente ad n. La rappresentazione decimale di n pu`o essere tradotta nelle due rappresentazioni
-
-decimali di x ed y, separate dal simbolo $;
-
-3. Si traduce y in un’opportuna codifica della TM y-esima My nella enumerazione di G¨odel;
+2. Si traduce la rappresentazione di $n$ in un’opportuna rappresentazione della coppia $<x,y >$ corrispondente ad $n$. La rappresentazione decimale di $n$ può essere tradotta nelle due rappresentazioni decimali di $x$ ed $y$, separate dal simbolo $;
+3. Si traduce $y$ in un’opportuna codifica della MT $y$-esima $M_y$ nella enumerazione di Godel;
 
 4. Si simula la computazione di My su x.
 
