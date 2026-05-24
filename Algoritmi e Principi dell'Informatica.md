@@ -336,7 +336,7 @@ Ora, data la definizione di configurazione, è necessario anche formalizzare il 
 		(b) $x’=xi, i’=j, y’=y$ ed $N=R$;
 		(c) $x’=x, i’=i, y’=iy$ ed $N=L$;
 	3. Vale anche una delle seguenti condizioni, per $1 ≤r≤k$:
-		(a) α′r
+		(a) $α′_r= αr,A′r= Cr,β′r=βr$, ed Nr = S;
 		(b) α′r
 		(c) α′r= αr,A′r= Cr,β′r= αrCr,A′r= Br,β′r= αr,A′r= Ar,β′r= βr, ed Nr = S;
 
