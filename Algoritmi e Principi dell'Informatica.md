@@ -412,7 +412,7 @@ Ci sono però casi in cui questo non è possibile, in quanto non si ha una conos
 
 ### **3.1 Automi a Stati Finiti non deterministici**
 
-Gli NFSA (Nondeterministic Finite State Automaton) sono automi a stati finiti che presentano un numero finito di stati. Tali automi sono definiti come i corrispettivi automi deterministici, con l’unica differenza che presentano una funzione di transizione definita nel seguente modo:
+Gli ==NFSA== (Nondeterministic Finite State Automaton) sono automi a stati finiti che presentano un numero finito di stati. Tali automi sono definiti come i corrispettivi automi deterministici, con l’unica differenza che presentano una funzione di transizione definita nel seguente modo:
 
 							$δ: Q×I →℘(Q) 1$
 
@@ -421,24 +421,12 @@ Di conseguenza, la chiusura riflessiva e transitiva di tale funzione, si definis
 							$δ^∗(q,ε) = \left \{q\right \}, ∀q$
 						$δ∗(q,xi) =\bigcup_{q′∈δ^∗(q,x)}^{ } δ(q′,i)$
 
-Nel caso di accettatori, $x∈I^∗$ è accettata da un NFSA $<Q,I,δ,q_0,F >$ se e solo se $δ∗(q0,x)∩F= ∅$.
-In altre parole, un NFSA pu`o presentare diverse sequenze di transizioni per ogni dato stato e per
+Nel caso di accettatori, $x∈I^∗$ è accettata da un NFSA $<Q,I,δ,q_0,F >$ se e solo se $δ^∗(q_0,x)∩F= ∅$.
+In altre parole, un NFSA può presentare diverse sequenze di transizioni per ogni dato stato e per ogni data sequenza di ingresso, quindi la chiusura riflessive e transitiva della funzione $δ$ non rappresenta più un singolo cammino coerente con la stringa di ingresso, ma un insieme di cammini possibili. Questo porta anche alla necessità di dover modificare la condizione di accettazione di una determinata stringa in ingresso: intuitivamente, infatti, tale nastro è accettato dall’automa se e solo se almeno una delle possibili sequenze di transizioni conduce a uno stato finale.
 
-ogni data sequenza di ingresso, quindi la chiusura riflessive e transitiva della funzione δ non rappresenta
+Gli automi non deterministici a stati finiti hanno la stessa potenza di calcolo dei corrispettivi automi deterministici, ma sono spesso più convenienti da utilizzare. Da qui il seguente teorema:
 
-pi`u un singolo cammino coerente con la stringa di ingresso, ma un insieme di cammini possibili. Questo
-
-porta anche alla necessit`a di dover modificare la condizione di accettazione di una determinata stringa
-
-in ingresso: intuitivamente, infatti, tale nastro `e accettato dall’automa se e solo se almeno una delle
-
-possibili sequenze di transizioni conduce a uno stato finale.
-
-Gli automi non deterministici a stati finiti hanno la stessa potenza di calcolo dei corrispettivi automi
-
-deterministici, ma sono spesso pi`u convenienti da utilizzare. Da qui il seguente teorema:
-
-Teorema 3.1.1. Per ogni NFSA A, pu`o essere costruito un FSA AD deterministico che accetti lo stesso
+- Teorema: Per ogni NFSA A, pu`o essere costruito un FSA AD deterministico che accetti lo stesso
 
 linguaggio.
 
