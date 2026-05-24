@@ -632,13 +632,11 @@ Ogni algoritmo ha le seguenti proprietà:
 7. Non esiste un limite alla quantità di memoria richiesta per effettuare i calcoli;
 8. Non esiste un limite al numero di passi discreti richiesti per effettuare un calcolo ed è dunque possibile avere computazioni infinite.
 
-La tesi di Church non si ferma solo nell’affermazione che nessun formalismo sia più espressivo delle MT, ma afferma anche che nessun algoritmo è in grado di risolvere un problema che non è risolvibile da una M. Formalmente:
+La tesi di Church non si ferma solo nell’affermazione che nessun formalismo sia più espressivo delle MT, ma afferma anche che nessun algoritmo è in grado di risolvere un problema che non è risolvibile da una MT. Formalmente:
 
-Tesi 5.2.2 (Tesi di Church - Seconda Parte). Ogni algoritmo per la soluzione automatica di un problema
+- **==Tesi di Church==** (**Seconda Parte**): Ogni algoritmo per la soluzione automatica di un problema può essere codificato in termini di una MT (o di un formalismo a potenza equivalente).
 
-pu`o essere codificato in termini di una TM (o di un formalismo a potenza equivalente).
-
-Teorema 5.2.1. Ogni funzione (o problema), per cui esiste una TM che la calcoli (o risolva), si dice
+- **Teorema**: Ogni funzione (o problema), per cui esiste una MT che la calcoli (o risolva), si dice
 
 computabile o calcolabile (o risolvibile). Un problema risolvibile la cui risposta sia booleana ed esistente
 
