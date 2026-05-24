@@ -580,12 +580,12 @@ Le espressioni regolari seguono la stessa idea dei sistemi di pattern, ma hanno 
 
 *Relazione fra grammatiche, linguaggi e automi*:
 
-| Gerarchia | Grammatiche | Linguaggi                  | Automa minimo |
-| --------- | ----------- | -------------------------- | ------------- |
-| 0         | Generali    | Ricorsivamente enumerabili | MT            |
-| 1         |             |                            |               |
-| 2         |             |                            |               |
-| 3         |             |                            |               |
+| Gerarchia | Grammatiche             | Linguaggi                  | Automa minimo |
+| --------- | ----------------------- | -------------------------- | ------------- |
+| 0         | Generali                | Ricorsivamente enumerabili | MT            |
+| 1         | Dipendenti dal contesto | Dipendenti dal contesto    | NTM           |
+| 2         | Non contestuali         |                            |               |
+| 3         |                         |                            |               |
 
 
 
