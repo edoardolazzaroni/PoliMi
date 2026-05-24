@@ -332,13 +332,10 @@ Ora, data la definizione di configurazione, è necessario anche formalizzare il 
 - Siano: $c =< q,x ↑iy,α_1 ↑A_1β_1,...,α_k ↑A_kβ_k,u ↑o >$, con $x = xi,y= jy,α_1 = α_1A_1,...,α_k = α_kA_k$ e $β_1 = β_1B_1,...,β_k = β_kB_k, c′ =<q′,x′↑i′y′,α′_1 ↑A′_1β′_1,...,α′_k↑A′_kβ′_k,u′↑o′>$, $δ(q,i,A_1,...,A_k) =< p,C_1,...,C_k,N,N_1,...N_k >$, con $p ∈Q,N,N_1,...,N_k ∈\left \{R,L,S\right \}$e $C_1,...,C_k ∈Γ$, e $η(q,i,A_1,...,A_k) =<v,M >$, con $v∈O$ e $M ∈\left \{R,S\right \}$. Allora $c⊢c′$ se e solo se:
 	1. Vale che $p= q′$;
 	2. Vale anche una delle seguenti condizioni:
-		- (a) x=x’, i=i’, y=y’ ed N=S;
-
-(b) x’=xi, i’=j, y’=y ed N=R;2.3. MACCHINE DI TURING 17
-
-(c) x’=x, i’=i, y’=iy ed N=L;
-
-3. Vale anche una delle seguenti condizioni, per 1 ≤r≤k:
+		(a) $x=x’, i=i’, y=y’$ ed $N=S$;
+		(b) $x’=xi, i’=j, y’=y$ ed N=R;
+		(c) x’=x, i’=i, y’=iy ed N=L;
+	3. Vale anche una delle seguenti condizioni, per $1 ≤r≤k$:
 
 (a) α′
 
