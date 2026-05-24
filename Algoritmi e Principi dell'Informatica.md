@@ -708,13 +708,10 @@ Questo problema rappresenta un caso speciale della funzione $g(y,x)$ in quanto $
 
 Da un punto di vista pratico questo problema è interessante perchè qualifica tutti i possibili dati in ingresso. Afferma, infatti, l’irrisolvibilità del problema di decidere se un certo programma termini la propria esecuzione per qualsiasi dato in ingresso o se, al contrario, per qualche dato il programma andrebbe in loop. Nel caso precedente, invece, si era interessati al problema di sapere se un certo programma con certi dati avrebbe terminato o meno la propria esecuzione.
 
-In definitiva, si `e constatato che esistono problemi non risolvibili algoritmicamente. Ci`o non esclude
+In definitiva, si è constatato che esistono problemi non risolvibili algoritmicamente. Ciò non esclude comunque la possibilità di trovare una soluzione per tali problemi, in quanto non tutti i problemi sono risolvibili tramite un procedimento algoritmico.
 
-comunque la possibilit`a di trovare una soluzione per tali problemi, in quanto non tutti i problemi sono
 
-risolvibili tramite un procedimento algoritmico.
-
-5.6 Problemi di Decisione
+### **5.6 Problemi di Decisione**
 
 Un problema di decisione `e una domanda che ha come uniche risposte si o no (0, 1). Questo pu`o anche
 
