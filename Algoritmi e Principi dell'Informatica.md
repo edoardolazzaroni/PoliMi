@@ -716,13 +716,9 @@ In definitiva, si è constatato che esistono problemi non risolvibili algoritmic
 Un problema di decisione è una domanda che ha come uniche risposte sì o no $(0, 1)$. Questo può anche essere espresso come un problema di appartenenza di un determinato elemento ad un certo insieme.
 Più in generale si noti che una qualsiasi proprietà di un determinato elemento di un insieme può essere formalizzata come un suo sottoinsieme (ad esempio, la proprietà di terminazione del calcolo per ogni valore dei dati in ingresso individua un sottoinsieme dell’insieme di tutti i programmi).
 
-In questa sezione si prendono in particolare considerazione i sottoinsiemi di $\mathbb{N}$, indicati convenzional-
+In questa sezione si prendono in particolare considerazione i sottoinsiemi di $\mathbb{N}$, indicati convenzionalmente con $S ⊆\mathbb{N}$. Quindi, formalmente, dato un determinato elemento $x∈\mathbb{N}$ e un insieme $S$, si cerca di capire se $x$ appartenga ad $S$.
 
-mente con S ⊆N. Quindi, formalmente, dato un determinato elemento x∈N e un insieme S, si cerca
-
-di capire se x appartenga ad S.
-
-Definizione 5.6.1. La funzione caratteristica cS : N →{0,1}di un insieme S `e definita come segue:
+- La funzione caratteristica $c_S : \mathbb{N} →\left\{0,1\right\}$ di un insieme $S$ è definita come segue:
 
 cS(x) = if x∈S then1 else0
 
