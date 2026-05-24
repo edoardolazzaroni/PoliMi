@@ -479,16 +479,10 @@ Come visto in precedenza, spesso gli automi vengono utilizzati come modelli per 
 
 Una grammatica formale è un insieme di regole per costruire stringhe appartenenti ad un determinato linguaggio, attraverso il meccanismo di riscrittura, che consiste in un insieme di tecniche che determinano come sostituire le parti di una formula con parti più semplificate. In generale, un meccanismo di riscrittura consiste in un insieme di regole linguistiche, di cui una descrive l’oggetto principale come una sequenza di componenti. Ogni componente si può raffinare da elementi via via sempre più dettagliati, fino ad ottenere una sequenza di componenti elementari.
 
-Una grammatica non è altro che un meccanismo linguistico, composto dall’oggetto principale, detto anche simbolo iniziale, da un insieme di componenti, a loro volta da sostituire durante il processo di derivazione, detti anche simboli non terminaliun insieme di elementi di base, detti anche simboli elementari,
+Una grammatica non è altro che un meccanismo linguistico, composto dall’oggetto principale, detto anche simbolo iniziale, da un insieme di componenti, a loro volta da sostituire durante il processo di derivazione, detti anche simboli non terminali, un insieme di elementi di base, detti anche simboli elementari, e da un insieme di regole di raffinamento o sostituzioni, chiamate produzioni.
 
-e da un insieme di regole di raffinamento o sostituzioni, chiamate produzioni.
-
-Definizione 4.1.1. Una grammatica G `e una tupla di 4 elementi G=<VT,VN,P,S >, dove:
-
-VT `e un insieme di simboli terminali (solitamente indicati con lettere minuscole), detto anche
-
-alfabeto terminale;
-
+- Una ==grammatica== $G$ è una tupla di 4 elementi $G=<V_T,V_N,P,S >$, dove:
+	- VT è un insieme di simboli terminali (solitamente indicati con lettere minuscole), detto anche alfabeto terminale;
 VN `e un insieme di simboli non terminali (solitamente indicati con lettere maiuscole), tali che
 
 VT ∩VN = ∅, detto anche alfabeto non terminale; V indica VT ∪VN;
