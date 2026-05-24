@@ -489,11 +489,9 @@ Una grammatica non è altro che un meccanismo linguistico, composto dall’ogget
 
 Quindi, un elemento che deve essere ancora raffinato è un simbolo non terminale, un elemento di base è un simbolo terminale, le componenti di un oggetto possono essere sia simboli terminali che non terminali, mentre una produzione corrisponde ad una regola di raffinamento.
 
-- Data una grammatica $G$, si definisce su $V^∗$ la relazione binaria di derivazione immediata, indicata con il simbolo $⇒$ da $α$ a $β$. Tale relazione sussiste se e solo se $α= α_1γα_2,β= α_1δα_2, con α_1,α_2,δ∈V^∗,γ ∈V+N,γ →δ∈P$.
+- Data una grammatica $G$, si definisce su $V^∗$ la relazione binaria di derivazione immediata, indicata con il simbolo $⇒$ da $α$ a $β$. Tale relazione sussiste se e solo se $α= α_1γα_2,β= α_1δα_2$, con $α_1,α_2,δ∈V^∗,γ ∈V_N^+,γ →δ∈P$.
 
-Data la definizione di derivazione immediata, si pu`o anche definire la chiusura riflessiva e transitiva,
-
-indicata con il simbolo ⇒∗, che opera su una serie di stringhe (di simboli elementari o non elementari),
+Data la definizione di derivazione immediata, si può anche definire la chiusura riflessiva e transitiva, indicata con il simbolo ⇒∗, che opera su una serie di stringhe (di simboli elementari o non elementari),
 
 anzich`e che su una sola stringa.
 
