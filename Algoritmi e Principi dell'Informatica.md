@@ -636,27 +636,14 @@ La tesi di Church non si ferma solo nell’affermazione che nessun formalismo si
 
 - **==Tesi di Church==** (**Seconda Parte**): Ogni algoritmo per la soluzione automatica di un problema può essere codificato in termini di una MT (o di un formalismo a potenza equivalente).
 
-- **Teorema**: Ogni funzione (o problema), per cui esiste una MT che la calcoli (o risolva), si dice
+- **Teorema**: Ogni funzione (o problema), per cui esiste una MT che la calcoli (o risolva), si dice computabile o calcolabile (o risolvibile). Un problema risolvibile la cui risposta sia booleana ed esistente per ogni valore del dominio di definizione (ossia è formalizzato da una funzione calcolabile e totale) si dice decidibile.
 
-computabile o calcolabile (o risolvibile). Un problema risolvibile la cui risposta sia booleana ed esistente
+Grazie alla seconda parte della tesi di Church si può affermare che è possibile studiare i limiti del calcolo automatico indipendentemente dalla formalizzazione del problema e del particolare modello computazionale.
 
-per ogni valore del dominio di definizione (ossia `e formalizzato da una funzione calcolabile e totale) si
 
-dice decidibile.
+### **5.3 Enumerazione delle TM**
 
-Grazie alla seconda parte della tesi di Church si pu`o affermare che `e possibile studiare i limiti
-
-del calcolo automatico indipendentemente dalla formalizzazione del problema e del particolare modello
-
-computazionale.
-
-5.3 Enumerazione delle TM
-
-Le macchine di Turing possono essere viste come dei calcolatori astratti, specializzati nella risoluzione di
-
-un solo problema e non porgrammabili. Ci si pone quindi la domanda: ’le TM sono in grado di simulare
-
-i calcolatori programmabili e di risolvere i problemi da N a N?’
+Le macchine di Turing possono essere viste come dei calcolatori astratti, specializzati nella risoluzione di un solo problema e non porgrammabili. Ci si pone quindi la domanda: le MT sono in grado di simulare i calcolatori programmabili e di risolvere i problemi da N a N?’
 
 Per poter risondere a tale domanda, si noti innanzitutto che dato un qualsiasi insieme S, questo pu`o
 
