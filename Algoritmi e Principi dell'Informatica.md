@@ -416,15 +416,9 @@ Gli NFSA (Nondeterministic Finite State Automaton) sono automi a stati finiti ch
 
 							$δ: Q×I →℘(Q) 1$
 
-Di conseguenza, la chiusura riflessiva e transitiva di tale funzione, si definisce induttivamente nel
+Di conseguenza, la chiusura riflessiva e transitiva di tale funzione, si definisce induttivamente nel seguente modo:
 
-seguente modo:
-
-δ∗(q,ε) = {q}, ∀q δ∗(q,xi) =
-
-δ(q′,i)
-
-q′∈δ∗(q,x)
+	$δ∗(q,ε) = {q}, ∀q$                       δ∗(q,xi) =δ(q′,i) q′∈δ∗(q,x)
 
 Nel caso di accettatori, x∈I∗`e accettata da un NFSA <Q,I,δ,q0,F >se e solo se δ∗(q0,x)∩F= ∅.
 
