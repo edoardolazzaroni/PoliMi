@@ -363,15 +363,11 @@ Quando le macchine di Turing vengono impiegate per il riconoscimento di un deter
 
 In altre parole, il linguaggio riconosciuto da una MT $M$ è composto da tutte e sole le stringhe che permettono di andare dallo stato iniziale ad uno stato finale. Inoltre, non è richiesto che al termine della computazione la testina si trovi al termine della stringa in ingresso: la MT $M$ può raggiungere uno stato finale anche senza aver completamente letto la stringa in ingresso.
 
-Se x / ∈ L, M pu`o anche non raggiungere mai una configurazione di arresto e continuare la sua
+Se $x / ∈ L$, $M$ può anche non raggiungere mai una configurazione di arresto e continuare la sua esecuzione per un tempo indefinito.
 
-esecuzione per un tempo indefinito.
+#### **2.3.2 Macchine di Turing come Trasduttori**
 
-2.3.2 Macchine di Turing come Trasduttori
-
-Quando le macchine di Turing vengono impiegate per la traduzione di linguaggi, ovvero per mappare
-
-stringhe di I∗in stringhe di O∗, il nastro di uscita non viene pi`u ignorato come nel caso degli accettatori.
+Quando le macchine di Turing vengono impiegate per la traduzione di linguaggi, ovvero per mappare stringhe di $I∗ in stringhe di O∗, il nastro di uscita non viene pi`u ignorato come nel caso degli accettatori.
 
 Dunque, una TM utilizzata come trasduttore `e una tupla di 9 elementi, esattamente come presentata
 
