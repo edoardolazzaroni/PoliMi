@@ -463,19 +463,10 @@ mentre per una NTM a nastro singolo, la funzione di transizione è definita nel 
 
 						$δ: (Q−F) ×A→℘(Q×A×\left\{R,L,S\right\})$
 
-- Le macchine di Turing non deterministiche non sono pi`u potenti delle corrispettive
 
-macchine di Turing deterministiche se utilizzate come riconoscitori di linguaggi.
+- **Teorema**: le macchine di Turing non deterministiche non sono più potenti delle corrispettive macchine di Turing deterministiche se utilizzate come riconoscitori di linguaggi.
 
-Data una qualsiasi NTM M, `e sempre possibile costruire una TM deterministica M’ che riconosce
-
-lo stesso linguaggio di M. Se si considera una computazione di M su una stringa in ingresso, questa `e
-
-ben definita da un albero di configurazioni, in cui `e inserita ogni configurazione raggiungibile dallo stato
-
-iniziale. Una stringa viene accettata solo se esiste almeno un cammino all’interno della struttura ad
-
-albero che si conclude in una configurazione finale. M’ potr`a simulare il comportamento della TM M,
+Data una qualsiasi NTM $M$, è sempre possibile costruire una MT deterministica $M’$ che riconosce lo stesso linguaggio di M. Se si considera una computazione di M su una stringa in ingresso, questa è ben definita da un albero di configurazioni, in cui è inserita ogni configurazione raggiungibile dallo stato iniziale. Una stringa viene accettata solo se esiste almeno un cammino all’interno della struttura ad albero che si conclude in una configurazione finale. M’ potr`a simulare il comportamento della TM M,
 
 ricostruendo in maniera sequenziale tutte le possibili computazioni di M. Si noti per`o che quando una
 
