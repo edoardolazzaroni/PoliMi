@@ -691,10 +691,10 @@ Quando si scrive un programma, ci sono diverse proprietà che si vorebbero garan
 
 *Gerarchia dei problemi*
 
+![[Algoritmi e Principi dell'Informatica-1779647450525.webp|396]]
 
 
-
-Teorema 5.5.1 (Halting Problem). Nessuna TM pu`o calcolare la funzione g : N ×N →{0,1}definita
+- **Teorema** dell'==Halting Problem==: Nessuna MT pu`o calcolare la funzione g : N ×N →{0,1}definita
 
 nel seguente modo:
 
