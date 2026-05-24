@@ -426,17 +426,9 @@ In altre parole, un NFSA può presentare diverse sequenze di transizioni per ogn
 
 Gli automi non deterministici a stati finiti hanno la stessa potenza di calcolo dei corrispettivi automi deterministici, ma sono spesso più convenienti da utilizzare. Da qui il seguente teorema:
 
-- Teorema: Per ogni NFSA A, pu`o essere costruito un FSA AD deterministico che accetti lo stesso
+- **Teorema**: per ogni NFSA $A$, può essere costruito un FSA $A_D$ deterministico che accetti lo stesso linguaggio.
 
-linguaggio.
-
-Infatti, dato un NFSA, si pu`o costruire un FSA equivalente che ha come stati gli insiemi formati da
-
-stati dell’NFSA. La funzione di transizione `e costruita in modo che se un insieme di stati `e raggiungibile
-
-a partire da uno stato dell’NFSA, allora tale relazione deve essere presente anche nell’FSA sfruttando la
-
-costruzione degli stati come insiemi di stati dell’NFSA.
+Infatti, dato un NFSA, si può costruire un FSA equivalente che ha come stati gli insiemi formati da stati dell’NFSA. La funzione di transizione è costruita in modo che se un insieme di stati è raggiungibile a partire da uno stato dell’NFSA, allora tale relazione deve essere presente anche nell’FSA sfruttando la costruzione degli stati come insiemi di stati dell’NFSA.
 
 1℘(Q) rappresenta l’insieme delle parti di Q, i cui elementi sono insiemi di stati.
 
