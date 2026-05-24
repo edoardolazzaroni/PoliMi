@@ -359,15 +359,9 @@ Si introduce di seguito il teorema tramite cui si afferma la supremazia delle ma
 Quando le macchine di Turing vengono impiegate per il riconoscimento di un determinato linguaggio o per definire nuovi linguaggi, il nastro di uscita viene completamente ignorato. Dunque, una MT utilizzata come accettatore è una tupla di 7 elementi, ottenuta eliminando gli elementi $O$ (l’alfabeto di uscita) ed $η$ (la funzione di uscita). Di conseguenza si omette anche la rappresentazione del nastro di uscita.
 
 - Sia $M$ una MT a $k$ nastri. Una stringa $x∈I^∗$ è accettata da $M$ se e solo se:
-		$c_0 =<q_0,↑x,↑Z0,...,↑Z0 >⊢∗cF <q∈F,x′↑iy, α1 ↑A1β1,...,αk↑Akβk >$.
+		$c_0 =<q_0,↑x,↑Z_0,...,↑Z_0 >⊢^∗c_F <q∈F,x′↑iy, α_1 ↑A_1β_1,...,α_k↑A_kβ_k >$.
 
-In altre parole, il linguaggio riconosciuto da una TM M `e composto da tutte e sole le stringhe che
-
-permettono di andare dallo stato iniziale ad uno stato finale. Inoltre, non `e richiesto che al termine della
-
-computazione la testina si trovi al termine della stringa in ingresso: la TM M pu`o raggiungere uno stato
-
-finale anche senza aver completamente letto la stringa in ingresso.
+In altre parole, il linguaggio riconosciuto da una MT $M$ è composto da tutte e sole le stringhe che permettono di andare dallo stato iniziale ad uno stato finale. Inoltre, non è richiesto che al termine della computazione la testina si trovi al termine della stringa in ingresso: la MT $M$ può raggiungere uno stato finale anche senza aver completamente letto la stringa in ingresso.
 
 Se x / ∈ L, M pu`o anche non raggiungere mai una configurazione di arresto e continuare la sua
 
