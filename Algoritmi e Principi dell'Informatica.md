@@ -414,13 +414,13 @@ Ci sono però casi in cui questo non è possibile, in quanto non si ha una conos
 
 Gli ==NFSA== (Nondeterministic Finite State Automaton) sono automi a stati finiti che presentano un numero finito di stati. Tali automi sono definiti come i corrispettivi automi deterministici, con l’unica differenza che presentano una funzione di transizione definita nel seguente modo:
 
-							$δ: Q×I →℘(Q)$
-							(in cui $℘(Q)$ rappresenta l'insieme delle parti di Q, i cui elementi sono insiem)
+								$δ: Q×I →℘(Q)$
+	(in cui $℘(Q)$ rappresenta l'insieme delle parti di $Q$, i cui elementi sono insiemi di stati)
 
 Di conseguenza, la chiusura riflessiva e transitiva di tale funzione, si definisce induttivamente nel seguente modo:
 
-							$δ^∗(q,ε) = \left \{q\right \}, ∀q$
-						$δ∗(q,xi) =\bigcup_{q′∈δ^∗(q,x)}^{ } δ(q′,i)$
+								$δ^∗(q,ε) = \left \{q\right \}, ∀q$
+							$δ∗(q,xi) =\bigcup_{q′∈δ^∗(q,x)}^{ } δ(q′,i)$
 
 Nel caso di accettatori, $x∈I^∗$ è accettata da un NFSA $<Q,I,δ,q_0,F >$ se e solo se $δ^∗(q_0,x)∩F= ∅$.
 In altre parole, un NFSA può presentare diverse sequenze di transizioni per ogni dato stato e per ogni data sequenza di ingresso, quindi la chiusura riflessive e transitiva della funzione $δ$ non rappresenta più un singolo cammino coerente con la stringa di ingresso, ma un insieme di cammini possibili. Questo porta anche alla necessità di dover modificare la condizione di accettazione di una determinata stringa in ingresso: intuitivamente, infatti, tale nastro è accettato dall’automa se e solo se almeno una delle possibili sequenze di transizioni conduce a uno stato finale.
@@ -431,9 +431,7 @@ Gli automi non deterministici a stati finiti hanno la stessa potenza di calcolo 
 
 Infatti, dato un NFSA, si può costruire un FSA equivalente che ha come stati gli insiemi formati da stati dell’NFSA. La funzione di transizione è costruita in modo che se un insieme di stati è raggiungibile a partire da uno stato dell’NFSA, allora tale relazione deve essere presente anche nell’FSA sfruttando la costruzione degli stati come insiemi di stati dell’NFSA.
 
-1℘(Q) rappresenta l’insieme delle parti di Q, i cui elementi sono insiemi di stati.
 
-1920 CAPITOLO 3. AUTOMI NON DETERMINISTICI
 
 3.2 Automi a Pila non deterministici
 
