@@ -365,13 +365,13 @@ In altre parole, il linguaggio riconosciuto da una MT $M$ è composto da tutte e
 
 Se $x / ∈ L$, $M$ può anche non raggiungere mai una configurazione di arresto e continuare la sua esecuzione per un tempo indefinito.
 
+
 #### **2.3.2 Macchine di Turing come Trasduttori**
 
-Quando le macchine di Turing vengono impiegate per la traduzione di linguaggi, ovvero per mappare stringhe di $I∗ in stringhe di O∗, il nastro di uscita non viene pi`u ignorato come nel caso degli accettatori.
+Quando le macchine di Turing vengono impiegate per la traduzione di linguaggi, ovvero per mappare stringhe di $I^∗$ in stringhe di $O^∗$, il nastro di uscita non viene più ignorato come nel caso degli accettatori.
+Dunque, una TM utilizzata come trasduttore è una tupla di 9 elementi, esattamente come presentata
 
-Dunque, una TM utilizzata come trasduttore `e una tupla di 9 elementi, esattamente come presentata
-
-nella definizione 2.3.1.18 CAPITOLO 2. AUTOMI DETERMINISTICI
+nella definizione di  CAPITOLO 2. AUTOMI DETERMINISTICI
 
 Definizione 2.3.5. Sia M una MT a k nastri. M definisce una traduzione τ(x) = y, con τM : I∗→O∗
 
