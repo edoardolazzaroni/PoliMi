@@ -694,11 +694,9 @@ Quando si scrive un programma, ci sono diverse proprietà che si vorebbero garan
 ![[Algoritmi e Principi dell'Informatica-1779647450525.webp|396]]
 
 
-- **Teorema** dell'==Halting Problem==: Nessuna MT pu`o calcolare la funzione g : N ×N →{0,1}definita
+- **Teorema** dell'==Halting Problem==: nessuna MT può calcolare la funzione $g : \mathbb{N} ×\mathbb{N} →\left\{0,1\right\}$ definita nel seguente modo:
 
-nel seguente modo:
-
-g(x,y) = if fy(x) = ⊥then1 else0
+						$g(x,y) = if fy(x) = ⊥then1 else0$
 
 La dimostrazione di tale teorema si ottiene tramite la tecnica della diagonale, detta anche metodo
 
