@@ -696,15 +696,9 @@ Quando si scrive un programma, ci sono diverse proprietà che si vorebbero garan
 
 - **Teorema** dell'==Halting Problem==: nessuna MT può calcolare la funzione $g : \mathbb{N} ×\mathbb{N} →\left\{0,1\right\}$ definita nel seguente modo: $g(x,y) =$ if $f_y(x) = ⊥$ then $1$ else $0$
 
-La dimostrazione di tale teorema si ottiene tramite la tecnica della diagonale, detta anche metodo di Cantor: l’obiettivo è quello di mostrare che un’enumerazione di oggetti di cardinalità almeno 2, non è completa, ossia che un oggetto che si vorrebbe trovare all’interno di tale enumerazione in realtà non è presente. L’enumerazione di una successione può essere rappresentata come una tabella con un numero infinito di righe. L’elemento che non compare in tale tabella viene individuato per assurdo considerando inizialmente la diagonale $d$ (dunque $d_i$ è l’elemento che si trova all’$i$-esima riga e all’i-esima colonna) e
+La dimostrazione di tale teorema si ottiene tramite la tecnica della diagonale, detta anche metodo di Cantor: l’obiettivo è quello di mostrare che un’enumerazione di oggetti di cardinalità almeno 2, non è completa, ossia che un oggetto che si vorrebbe trovare all’interno di tale enumerazione in realtà non è presente. L’enumerazione di una successione può essere rappresentata come una tabella con un numero infinito di righe. L’elemento che non compare in tale tabella viene individuato per assurdo considerando inizialmente la diagonale $d$ (dunque $d_i$ è l’elemento che si trova all’$i$-esima riga e all’$i$-esima colonna) e poi componendo una diagonale d′tale che, per ogni $i$, $d_i'$ sia diverso da $d_i$.
 
-poi componendo una diagonale d′tale che, per ogni i, d′
-
-i sia diverso da di.
-
-Teorema 5.5.2. Nessuna TM `e in grado di calcolare la funzione totale k definita nel seguente modo:
-
-k(x) = if fx(x) ̸= ⊥then1 else0
+- **Teorema**: nessuna MT è in grado di calcolare la funzione totale $k$ definita nel seguente modo: $k(x) =$ if $f_x(x) ̸= ⊥then1 else0
 
 Questo problema rappresenta un caso speciale della funzione g(y,x) in quanto k(x) = g(x,x), dunque
 
