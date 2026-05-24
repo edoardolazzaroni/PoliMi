@@ -64,8 +64,8 @@ Dato un insieme di simboli, si possono generare infiniti linguaggi.
 Poichè i linguaggi sono un insieme di stringhe, valgono tutte le **operazioni insiemistiche** come:
 	- Unione ($L_1 ∪L_2$): l’insieme di tutte le stringhe che appartengono o ad $L_1$ o ad $L_2$ o ad entrambi i linguaggi;
 	- Intersezione ($L_1 ∩L_2$): l’insieme di tutte le stringhe che appartengono sia ad $L_1$ che ad $L_2$;
-	- Differenza ($L_1\L_2$): l’insieme di tutte le stringhe che appartengono ad L1 ma non ad L2;
-	- Complementare ($L^C = A^∗\L$): l’insieme di tutte le stringhe che non appartengono al linguaggio $L$;
+	- Differenza ($L_1/L_2$): l’insieme di tutte le stringhe che appartengono ad L1 ma non ad L2;
+	- Complementare ($L^C = A^∗/L$): l’insieme di tutte le stringhe che non appartengono al linguaggio $L$;
 	- Concatenazione ($L_1.L_2$): l’insieme di tutte le stringhe che si ottengono concatenando ad ogni stringa di $L_1$ ogni stringa di $L_2$; formalmente $L_1.L_2 =\left \{xy: x∈L_1, y∈L_2\right \}$;
 	- Potenza $n$-esima ($L^n$): l’insieme di tutte le stringhe che si ottengono concatenando $L$ con se' stesso $n$ volte, utilizzando le regole della concatenazione precedentemente definite;
 	- Chiusura di Kleene: $\left ( L^∗= \bigcup_{n=0}^{∞} L^{n}, L^+ = \bigcup_{n=1}^{∞} L^{n}\right )$.
@@ -329,29 +329,7 @@ La configurazione iniziale $c_0$ di una MT a $k$ nastri è una tupla di $k+3$ el
 
 Ora, data la definizione di configurazione, è necessario anche formalizzare il significato di transizione $⊢$ tra due date configurazioni $c$ e $c′$ (detta anche mossa o passo computazionale):
 
-Definizione 2.3.3. Siano:
-
-c =< q,x ↑iy,α1 ↑A1β1,...,αk ↑Akβk,u ↑o >, con x = xi,y= jy,α1 = α1A1,...,αk = αkAk e
-
-β1 = β1B1,...,βk = βkBk, c′
-
-=<q′,x′↑i′y′,α′
-
-1 ↑A′
-
-1β′
-
-1,...,α′
-
-k↑A′
-
-kβ′
-
-k,u′↑o′>,
-
-δ(q,i,A1,...,Ak) =< p,C1,...,Ck,N,N1,...Nk >, con p ∈Q,N,N1,...,Nk ∈{R,L,S}e C1,...,Ck ∈Γ,
-
-e η(q,i,A1,...,Ak) =<v,M >, con v∈O e M ∈{R,S}.
+- Siano: $c =< q,x ↑iy,α1 ↑A1β1,...,αk ↑Akβk,u ↑o >$, con $x = xi,y= jy,α1 = α1A1,...,αk = αkAk$ e β1 = β1B1,...,βk = βkBk, c′ =<q′,x′↑i′y′,α′1 ↑A′ 1β′1,...,α′k↑A′kβ′k,u′↑o′>, δ(q,i,A1,...,Ak) =< p,C1,...,Ck,N,N1,...Nk >, con p ∈Q,N,N1,...,Nk ∈{R,L,S}e C1,...,Ck ∈Γ, e η(q,i,A1,...,Ak) =<v,M >, con v∈O e M ∈{R,S}.
 
 Allora c⊢c′ se e solo se:
 
