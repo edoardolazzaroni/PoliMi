@@ -496,13 +496,10 @@ Date le precedenti definizioni, si può ora definire il linguaggio generato da u
 
 - Data una grammatica $G$, il linguaggio $L(G)$ generato da $G$ è definito come:
 
-							$L(G) = {x|S ⇒^∗x,x∈V_T∗$
+							$L(G) = \left\{x|S ⇒^∗x,x∈V_T^∗\right\}$
 
-T}
+Quindi il linguaggio generato da una grammatica è costituito da tutte e sole le stringhe di simboli terminali, derivati a partire dall’assioma $S$, applicando un numero qualsiasi di sostituzioni.
 
-Quindi il linguaggio generato da una grammatica `e costituito da tutte e sole le stringhe di simboli
-
-terminali, derivati a partire dall’assioma S, applicando un numero qualsiasi di sostituzioni.
 
 4.2 Classificazione
 
