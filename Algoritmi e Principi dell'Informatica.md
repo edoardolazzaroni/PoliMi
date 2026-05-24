@@ -341,9 +341,9 @@ Ora, data la definizione di configurazione, è necessario anche formalizzare il 
 		(c) $α′_r= α_r,A′_r= A_r,β′_r = C_rβ_r$ ed $N_r = L$;
 	4. Vale anche una delle seguenti condizioni:
 		(a) $u’=u, o’=v$ ed $M=S$;
-		(b) $u’=uv, o=(blank)$ ed M=R
+		(b) $u’=uv, o=(blank)$ ed $M=R$.
 
-Se nei casi 2c e 3c, x= ε oppure α= ε, allora non esiste una configurazione c’ tale che c⊢c′ e la
+Se nei casi *2c* e *3c*, $x= ε$ oppure $α= ε$, allora non esiste una configurazione $c’$ tale che $c⊢c′$ e la
 
 macchina di Turing termina la propria esecuzione. Lo stesso comportamento si ottiene nel caso in cui le
 
