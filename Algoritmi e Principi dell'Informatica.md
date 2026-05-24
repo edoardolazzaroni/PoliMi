@@ -593,31 +593,12 @@ Le espressioni regolari seguono la stessa idea dei sistemi di pattern, ma hanno 
 ## **Computabilità**
 
 
-In questa sezione si cercher di rispondere alla domanda: quali problemi possono essere affrontati e risolti
+In questa sezione si cercherà di rispondere alla domanda: quali problemi possono essere affrontati e risolti mediante gli automi analizzati? Si ricordi che automi e grammatiche, pur essendo modelli matematici, si possono considerare dispositivi meccanici per la risoluzione di problemi e che esistono formalismi che hanno un potere espressivo maggiore di altri, ossia sono in grado di riconoscere una classe di linguaggi che altri formalismi non riescono a riconoscere. Inoltre, si ricordi che, nessun formalismo è più potente delle macchine di Turing, sia dal punto di vista del riconoscimento che della traduzione di linguaggi e, per tanto, sono detti formalismi massimi.
 
-mediante gli automi analizzati? Si ricordi che automi e grammatiche, pur essendo modelli matematici,
 
-si possono considerare dispositivi meccanici per la risoluzione di problemi e che esistono formalismi che
+### **5.1 Formalizzazione dei Problemi**
 
-hanno un potere espressivo maggiore di altri, ossia sono in grado di riconoscere una classe di linguaggi
-
-che altri formalismi non riescono a riconoscere. Inoltre, si ricordi che, nessun formalismo `e pi`u potente
-
-delle macchine di Turing, sia dal punto di vista del riconoscimento che della traduzione di linguaggi e,
-
-per tanto, sono detti formalismi massimi.
-
-5.1 Formalizzazione dei Problemi
-
-Molti problemi possono essere opportunamente descritti come il riconoscimento di un determinato lin-
-
-guaggio o coma la sua traduzione in un altro linguaggio. Ogni problema matematico `e descrivibile
-
-mediante una di queste forme, alla sola condizione che il dominio di tale problema sia un insieme nume-
-
-rabile, in maniera tale che i suoi elementi si possono porre in corrispondenza biunivoca con gli elementi
-
-di N o, se si preferisce, di V∗, in cui V rappresenta un alfabeto. Dunque, il problema di origine si pu`o
+Molti problemi possono essere opportunamente descritti come il riconoscimento di un determinato linguaggio o coma la sua traduzione in un altro linguaggio. Ogni problema matematico è descrivibile mediante una di queste forme, alla sola condizione che il dominio di tale problema sia un insieme numerabile, in maniera tale che i suoi elementi si possono porre in corrispondenza biunivoca con gli elementi di N o, se si preferisce, di V∗, in cui V rappresenta un alfabeto. Dunque, il problema di origine si pu`o
 
 riformulare come il problema di calcolo di una funzione f : N →N. Quanto detto `e in perfetto accordo
 
