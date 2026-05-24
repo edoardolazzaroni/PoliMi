@@ -580,32 +580,13 @@ Le espressioni regolari seguono la stessa idea dei sistemi di pattern, ma hanno 
 
 *Relazione fra grammatiche, linguaggi e automi*:
 
-| Gerarchia | Grammatiche             | Linguaggi                  | Automa minimo |
-| --------- | ----------------------- | -------------------------- | ------------- |
-| 0         | Generali                | Ricorsivamente enumerabili | MT            |
-| 1         | Dipendenti dal contesto | Dipendenti dal contesto    | NTM           |
-| 2         | Non contestuali         |                            |               |
-| 3         |                         |                            |               |
-
-
-
-
-
-Gerarchia Grammatiche Linguaggi Automa minimo
-
-tipo 0 Generali Ricorsivamente enumerabili TM
-
-tipo 1 Dipendenti dal contesto Dipendenti dal contesto LBA*
-
-tipo 2 Non contestuali Non contestuali NPDA
-
-tipo 3 Regolari Regolari FSA
-
-* Gli LBA (Linear Bounded Automata) sono un particolare tipo di macchina di Turing non determi-
-
-nistica in cui la lunghezza del nastro `e funzione lineare della dimensione della stringa in ingresso. Tali
-
-automi non sono stati trattati in questo documento.Capitolo 5
+| Gerarchia | Grammatiche     | Linguaggi                  | Automa minimo |
+| --------- | --------------- | -------------------------- | ------------- |
+| 0         | Generali        | Ricorsivamente enumerabili | MT            |
+| 1         | Contestuali     | Contestuali                | NTM           |
+| 2         | Non contestuali | Non contestuali            | NPDA          |
+| 3         | Regolari        | Regolari                   | FSA           |
+Capitolo 5
 
 Computabilit`a
 
