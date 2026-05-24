@@ -349,13 +349,9 @@ In altre parole, se $δ(q,i,A_1,...,A_k) =<p,C_1,...,C_k,N,N_1,...,N_k>$, la con
 
 Si introduce di seguito il teorema tramite cui si afferma la supremazia delle macchine di Turing nella computazione e nella traduzione.
 
-- La classe di linguaggi riconosciuti dalle Macchine di turing include strettamente la classe dei linguaggi riconosciuti dagli Automi a Pila. Inoltre, le macchine di Turing sono trasduttori
+- La classe di linguaggi riconosciuti dalle Macchine di turing include strettamente la classe dei linguaggi riconosciuti dagli Automi a Pila. Inoltre, le macchine di Turing sono trasduttori più **potenti** rispetto ai trasduttori a pila, per cui tutte le traduzioni effettuate da un PDT possono essere effettuate anche da una MT trasduttrice, ma non viceversa.
 
-pi`u potenti rispetto ai trasduttori a pila, per cui tutte le traduzioni effettuate da un PDT possono essere
-
-effettuate anche da una TM trasduttrice, ma non viceversa.
-
-Le macchine di Turing sono il formalismo pi`u potente di cui siamo a disposizione.
+==Le macchine di Turing sono il formalismo più potente di cui siamo a disposizione==.
 
 2.3.1 Macchine di Turing come Accettatori
 
