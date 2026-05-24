@@ -564,19 +564,14 @@ Gli operatori $|,·,∗$ definiti per le espressioni regolari, hanno un implicit
 
 ### **4.5 Pattern**
 
-- Un sistema di pattern è una tripla <A,V,p>, dove:
+- Un sistema di ==pattern== è una tripla $<A,V,p>$, dove:
+	- $A$ è un alfabeto;
+	- $V$ è un insieme di variabili tale che $A∩V= ∅$;
+	- $p$ è una stringa su $A∪V$ detta pattern.
 
-A `e un alfabeto;
+Il linguaggio generato dal sistema di pattern consiste in tutte le stringhe su $A$ ottenute da $p$ sostituendo ogni variabile in $p$ con una stringa su $A$.
 
-V `e un insieme di variabili tale che A∩V= ∅;
-
-p `e una stringa su A∪V detta pattern.
-
-Il linguaggio generato dal sistema di pattern consiste in tutte le stringhe su Aottenute da psostituendo
-
-ogni variabile in p con una stringa su A.
-
-Ad esempio, il pattern <0,1,v1,v2,v1v10v2 > rappresenta il linguaggio composto dalle stringhe che
+Ad esempio, il pattern $<0,1,v1,v2,v1v10v2 >$ rappresenta il linguaggio composto dalle stringhe che
 
 iniziano con 0 (nel caso in cui v1 = ε) oppure che iniziano con una qualunque stringa sull’alfabeto A(in
 
