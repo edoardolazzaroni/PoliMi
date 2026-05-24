@@ -345,15 +345,7 @@ Ora, data la definizione di configurazione, è necessario anche formalizzare il 
 
 Se nei casi *2c* e *3c*, $x= ε$ oppure $α= ε$, allora non esiste una configurazione $c’$ tale che $c⊢c′$ e la macchina di Turing termina la propria esecuzione. Lo stesso comportamento si ottiene nel caso in cui le funzioni $δ$ ed $η$ non sono definite in $<1,i,A_1,...,A_k >$. In tali casi, $c$ viene anche definita configurazione di arresto.
 
-In altre parole, se $δ(q,i,A_1,...,A_k) =<p,C_1,...,C_k,N,N_1,...,N_k>$, la condizione *1* vincola lo stato
-
-di x′ ad essere quello di arrivo della transizione. Le condizioni di tipo 2 definiscono l’evoluzione del
-
-nastro di ingresso al passaggio da c a c′: se la testina rimane ferma (condizione 2a), le tre parti in cui
-
-la testina divide il nastro saranno identiche in c e c′; se la testina si muove a destra (condizione 2b), la
-
-parte a sinistra della testina conterr`a anche il simbolo corrente di c, il simbolo corrente di c′sar`a il primo
+In altre parole, se $δ(q,i,A_1,...,A_k) =<p,C_1,...,C_k,N,N_1,...,N_k>$, la condizione *1* vincola lo stato di $x′$ ad essere quello di arrivo della transizione. Le condizioni di tipo *2* definiscono l’evoluzione del nastro di ingresso al passaggio da $c$ a $c′$: se la testina rimane ferma (condizione *2a*), le tre parti in cui la testina divide il nastro saranno identiche in $c$ e $c′$; se la testina si muove a destra (condizione *2b*), la parte a sinistra della testina conterrà anche il simbolo corrente di $c$, il simbolo corrente di c′ sarà il primo
 
 simbolo della parte destra in c e la rimanente parte destra di c sar`a la parte destra di c′; infine, se la
 
