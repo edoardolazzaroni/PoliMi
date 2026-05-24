@@ -541,23 +541,14 @@ In generale, l’automa a stati finiti $A$, ottenuto a partire dalla grammatica 
 
 - **Teorema**: dato un NPDA $A$ è possibile costruire una grammatica $G$ non contestuale (di tipo 2) ad esso equivalente, ossia in grado di riconoscere lo stesso linguaggio riconosciuto da $A$, e viceversa; dunque, le grammatiche non contestuali e gli automi a pila non deterministici sono modelli differenti per descrivere la stessa classe di linguaggi.
 
-- **Teorema**: data una TM M utilizzata come accettatore di linguaggi `e possibile costruire una
+- **Teorema**: data una MT $M$ utilizzata come accettatore di linguaggi è possibile costruire una grammatica generale $G$ (di tipo 0) ad essa equivalente, ossia in grado di riconoscere lo stesso linguaggio riconosciuto da $M$, e viceversa. Dunque, le grammatiche non ristrette e le macchine di Turing sono modelli differenti per descrivere la stessa classe di linguaggi.
 
-grammatica generale G (di tipo 0) ad essa equivalente, ossia in grado di riconoscere lo stesso linguaggio
 
-riconosciuto da M, e viceversa.Dunque, le grammatiche non ristrette e le macchine di Turing sono modelli
+### **4.4 Espressioni Regolari**
 
-differenti per descrivere la stessa classe di linguaggi.
+Un’espressione regolare è un’espressione utilizzabile per denotare un linguaggio attraverso la struttura delle stringhe che lo compongono.
 
-4.4 Espressioni Regolari
-
-Un’espressione regolare `e un’espressione utilizzabile per denotare un linguaggio attraverso la struttura
-
-delle stringhe che lo compongono.
-
-Definizione 4.4.1. Dato un alfabeto di simboli terminali denotato con VT, si definiscono su di esso le
-
-espressioni regolari e i corrispondenti linguaggi denotati:
+- Dato un alfabeto di simboli terminali denotato con $V_T$, si definiscono su di esso le espressioni regolari e i corrispondenti linguaggi denotati:
 
 ∅`e un’espressione regolare che denota il linguaggio vuoto;
 
