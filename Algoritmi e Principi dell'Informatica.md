@@ -641,15 +641,11 @@ La tesi di Church non si ferma solo nell’affermazione che nessun formalismo si
 Grazie alla seconda parte della tesi di Church si può affermare che è possibile studiare i limiti del calcolo automatico indipendentemente dalla formalizzazione del problema e del particolare modello computazionale.
 
 
-### **5.3 Enumerazione delle TM**
+### **5.3 Enumerazione delle MT**
 
 Le macchine di Turing possono essere viste come dei calcolatori astratti, specializzati nella risoluzione di un solo problema e non porgrammabili. Ci si pone quindi la domanda: le MT sono in grado di simulare i calcolatori programmabili e di risolvere i problemi da $\mathbb{N}$ a $\mathbb{N}$?
 
-Per poter risondere a tale domanda, si noti innanzitutto che dato un qualsiasi insieme $S$, questo può essere enumerato algoritmicamente se è possibile stabilire una biiezione fra l’insieme $S$ e l’insieme dei numeri naturali $\mathbb{N}$, calcolabile attraverso un algoritmo o da una MT. Alla stessa maniera è possibile enumerare algoritmicamente l’insieme delle MT tramite una biiezione $E : {TM}↔N$. Tale biiezione
-
-`e implementabile da un algoritmo che riceve in ingresso un numero n e ritorna la n-esima macchina
-
-di Turing. Un’enumerazione calcolabile da una TM viene chiamata G¨odelizzazione, mentre il numero
+Per poter risondere a tale domanda, si noti innanzitutto che dato un qualsiasi insieme $S$, questo può essere enumerato algoritmicamente se è possibile stabilire una biiezione fra l’insieme $S$ e l’insieme dei numeri naturali $\mathbb{N}$, calcolabile attraverso un algoritmo o da una MT. Alla stessa maniera è possibile enumerare algoritmicamente l’insieme delle MT tramite una biiezione $E : \left\{MT\right\}↔\mathbb{N}$. Tale biiezione è implementabile da un algoritmo che riceve in ingresso un numero $n$ e ritorna la $n$-esima macchina di Turing. Un’enumerazione calcolabile da una MT viene chiamata G¨odelizzazione, mentre il numero
 
 naturale biiettivamente associato da tale enumerazione ad una TM `e detto numero di G¨odel della TM.5.4. MACCHINE DI TURING UNIVERSALI 27
 
