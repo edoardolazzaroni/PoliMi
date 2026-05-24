@@ -557,19 +557,14 @@ Un’espressione regolare è un’espressione utilizzabile per denotare un lingu
 
 Nessun’altra stringa è un’espressione regolare.
 
-Gli operatori $|,·,∗$ definiti per le espressioni regolari, hanno un implicito ordine di applicazione, se non indicato diversamente dall’uso delle parentesi. In particolare, $*$ ha la precedenza rispetto a $·$, che ha
+Gli operatori $|,·,∗$ definiti per le espressioni regolari, hanno un implicito ordine di applicazione, se non indicato diversamente dall’uso delle parentesi. In particolare, $*$ ha la precedenza rispetto a $·$, che a sua volta la precedenza su $|$.
 
-a sua volta la precedenza su |.
+- **Teorema**: la classe dei linguaggi denotati dalle espressioni regolari coincide con la classe dei linguaggi regolari.
 
-Inoltre, vale anche il seguente teorema:
 
-Teorema 4.4.1. La classe dei linguaggi denotati dalle espressioni regolari coincide con la classe dei
+### **4.5 Pattern**
 
-linguaggi regolari.
-
-4.5 Pattern
-
-Definizione 4.5.1. Un sistema di pattern `e una tripla <A,V,p>, dove:
+- Un sistema di pattern è una tripla <A,V,p>, dove:
 
 A `e un alfabeto;
 
