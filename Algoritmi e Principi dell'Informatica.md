@@ -600,16 +600,11 @@ In questa sezione si cercherà di rispondere alla domanda: quali problemi posson
 
 Molti problemi possono essere opportunamente descritti come il riconoscimento di un determinato linguaggio o coma la sua traduzione in un altro linguaggio. Ogni problema matematico è descrivibile mediante una di queste forme, alla sola condizione che il dominio di tale problema sia un insieme numerabile, in maniera tale che i suoi elementi si possono porre in corrispondenza biunivoca con gli elementi di $\mathbb{N}$ o, se si preferisce, di $V^∗$, in cui $V$ rappresenta un alfabeto. Dunque, il problema di origine si può riformulare come il problema di calcolo di una funzione $f : \mathbb{N} →\mathbb{N}$. Quanto detto è in perfetto accordo con tutti i formalismi matematici esaminati fino ad ora: questi, infatti, sono discreti e hanno un dominio matematico numerabile.
 
-Il riconoscimento di linguaggi e la loro traduzione sono due formulazioni differenti di un problema, che sono facilmente riducibili l’uno all’altro. Infatti, dato il problema di stabilire se una determinata stringa $x$ appartenga al linguaggio $L$, tale problema può anche essere impostato come la traduzione $τ_L(x)$, per cui $τ_L(x) = 1$ se $x∈L$, $τ_L(x) = 0$ altrimenti. Viceversa, data la traduzione $τ : V_1^∗ →V_2^∗2 , si pu`o definire
+Il riconoscimento di linguaggi e la loro traduzione sono due formulazioni differenti di un problema, che sono facilmente riducibili l’uno all’altro. Infatti, dato il problema di stabilire se una determinata stringa $x$ appartenga al linguaggio $L$, tale problema può anche essere impostato come la traduzione $τ_L(x)$, per cui $τ_L(x) = 1$ se $x∈L$, $τ_L(x) = 0$ altrimenti. Viceversa, data la traduzione $τ : V_1^∗ →V_2^∗$ , si può definire il linguaggio seguente:
+			
+			$Lτ = {z |z = x$y, x ∈V∗1 , y= τ(x) ∈V∗2 , $ / ∈(V1 ∪V2)}$
 
-il linguaggio seguente:
-
-Lτ = {z |z = x$y, x ∈V∗
-
-1 , y= τ(x) ∈V∗
-
-2 , $ / ∈(V1 ∪V2)}Ovvero il linguaggio formato da una
-
+Ovvero il linguaggio formato da una
 stringa e la sua traduzione, separati dal simbolo $. Un dispositivo che riconosce il linguaggio Lτ pu`o
 
 essere utilizzato come trasduttore che calcola τ: per ogni x, infatti, `e possibile enumerare tutte le y∈V∗
