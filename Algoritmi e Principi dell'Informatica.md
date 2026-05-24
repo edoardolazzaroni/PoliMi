@@ -501,21 +501,12 @@ Date le precedenti definizioni, si può ora definire il linguaggio generato da u
 Quindi il linguaggio generato da una grammatica è costituito da tutte e sole le stringhe di simboli terminali, derivati a partire dall’assioma $S$, applicando un numero qualsiasi di sostituzioni.
 
 
-4.2 Classificazione
+### **4.2 Classificazione**
 
-Una volta definite cosa siano le grammatiche, `e possibile classificarle in base alle loro propriet`a e in base
+Una volta definite cosa siano le grammatiche, è possibile classificarle in base alle loro proprietà e in base alla forma ammessa per le produzioni. Tale classificazione viene anche detta ==Gerarchia di Chomsky==, tramite cui si dividono le grammatiche in quattro categorie:
 
-alla forma ammessa per le produzioni. Tale classificazione viene anche detta Gerarchia di Chomsky,
-
-tramite cui si dividono le grammatiche in quattro categorie:
-
-Grammatiche di tipo 0 (non ristrette): sono grammatiche definite come nella 4.1.1, ovvero gram-
-
-matiche che non possiedono nessuna restrizione nel tipo di produzione;
-
-Grammatiche di tipo 1 (sensibili al contesto): sono grammatiche a cui si introduce il vincolo per
-
-cui le produzioni possono essere solo nella forma αAβ →αγβ, dove α,β,γ ∈V e A ∈VN, con
+- Tipo 0 (non ristrette): sono grammatiche definite come nella , ovvero grammatiche che non possiedono nessuna restrizione nel tipo di produzione;
+- Tipo 1 (sensibili al contesto): sono grammatiche a cui si introduce il vincolo per cui le produzioni possono essere solo nella forma αAβ →αγβ, dove α,β,γ ∈V e A ∈VN, con
 
 γ ̸= ε; inoltre, la derivazione S →ε`e consentita solo se S non appare a destra in nessuna regola di
 
