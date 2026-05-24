@@ -518,15 +518,9 @@ Una volta definite cosa siano le grammatiche, è possibile classificarle in base
 
 ### **4.3 Grammatiche e Automi**
 
-Studiando le grammatiche e i linguaggi da esse generate, si pu`o osservare una certa corrispondenza con
+Studiando le grammatiche e i linguaggi da esse generate, si può osservare una certa corrispondenza con gli automi analizzati nei capitoli precedenti. Si introducono qui alcuni teoremi che mettono in luce la correlazione esistente fra automi e grammatiche:
 
-gli automi analizzati nei capitoli precedenti. Si introducono qui alcuni teoremi che mettono in luce la
-
-correlazione esistente fra automi e grammatiche.4.4. ESPRESSIONI REGOLARI 23
-
-Teorema 4.3.1. Dato un FSA A, `e possibile costruire una grammatica regolare (di tipo 3) G ad esso
-
-equivalente, ossia in grado di riconoscere lo stesso linguaggio riconosciuto da A, e viceversa. Dunque, le
+- **Teorema**: dato un FSA $A$, è possibile costruire una grammatica regolare (di tipo 3) $G$ ad essoequivalente, ossia in grado di riconoscere lo stesso linguaggio riconosciuto da A, e viceversa. Dunque, le
 
 grammatiche regolari e gli automi a stati finiti sono modelli differenti per descrivere la stessa classe di
 
