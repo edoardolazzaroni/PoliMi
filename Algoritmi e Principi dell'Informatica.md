@@ -482,8 +482,8 @@ Una grammatica formale è un insieme di regole per costruire stringhe appartenen
 Una grammatica non è altro che un meccanismo linguistico, composto dall’oggetto principale, detto anche simbolo iniziale, da un insieme di componenti, a loro volta da sostituire durante il processo di derivazione, detti anche simboli non terminali, un insieme di elementi di base, detti anche simboli elementari, e da un insieme di regole di raffinamento o sostituzioni, chiamate produzioni.
 
 - Una ==grammatica== $G$ è una tupla di 4 elementi $G=<V_T,V_N,P,S >$, dove:
-	- VT è un insieme di simboli terminali (solitamente indicati con lettere minuscole), detto anche alfabeto terminale;
-	- VN è un insieme di simboli non terminali (solitamente indicati con lettere maiuscole), tali che VT ∩VN = ∅, detto anche alfabeto non terminale; V indica VT ∪VN;
+	- $V_T$ è un insieme di simboli terminali (solitamente indicati con lettere minuscole), detto anche **alfabeto terminale**;
+	- $V_N$ è un insieme di simboli non terminali (solitamente indicati con lettere maiuscole), tali che $V_T ∩V_N = ∅$, detto anche **alfabeto non terminale**; $V$ indica $V_T ∪V_N$;
 	- P `e un insieme finito di V+N ×V∗, detto anche insieme delle produzioni di G. Un elemento p=<α,β >∈P si indica con α→β, in cui α `e la parte sinistra di p, mentre β `e la parte destra di p;
 	- S `e un elemento particolare di VN, detto assioma o simbolo iniziale.
 
