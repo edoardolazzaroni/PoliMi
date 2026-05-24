@@ -382,17 +382,13 @@ In altre parole, una stringa $x$ viene tradotta in una stringa $y$ da una MT $M$
 Il modello originario di automa, pensato da Alan Turing (padre fondatore dell’odierna informatica), era una macchina, simile a quelle analizzate nelle sezioni precedenti, con l’unica differenza che presentava un solo nastro infinito (sia a destra che a sinistra), utilizzato come ingresso, uscita e memoria. Formalmente:
 
 - Una ==MT a nastro singolo== è una tupla di 5 elementi $<Q,A,δ,q_0,F >$, dove:
-	- Q `e un insieme finito di stati;
-	- A `e un alfabeto finito caratteristico del nastro;
-	- q0 ∈Q `e lo stato iniziale;
-	- F ⊆Q `e l’insieme di stati finali;
-	- δ: (Q−F) ×A→Q×A×{R,L,S}`e la funzione di transizione (eventualmente parziale).
+	- $Q$ è un insieme finito di stati;
+	- $A$ è un alfabeto finito caratteristico del nastro;
+	- $q_0 ∈Q$ è lo stato iniziale;
+	- $F ⊆Q$ è l’insieme di stati finali;
+	- $δ: (Q−F) ×A→Q×A×{R,L,S}$ è la funzione di transizione (eventualmente parziale).
 
-Si noti che, le macchine di Turing ad 1 nastro sono un modello di automa differente rispetto ad una
-
-macchina di Turing a singolo nastro: nel primo caso, la TM presenta ben tre nastri (uno di ingresso, uno
-
-di uscita e uno di memoria), emntre nel secondo caso, la TM presenta un unico nastro.
+Si noti che, le macchine di Turing ad 1 nastro sono un modello di automa differente rispetto ad una macchina di Turing a singolo nastro: nel primo caso, la TM presenta ben tre nastri (uno di ingresso, uno di uscita e uno di memoria), mentre nel secondo caso, la MT presenta un unico nastro.
 
 Teorema 2.3.2. Le TM multinastro e le TM a nastro singolo sono formalismi equivalenti, ossia accet-
 
