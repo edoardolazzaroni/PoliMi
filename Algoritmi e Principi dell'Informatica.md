@@ -457,13 +457,13 @@ Si noti che i PDA sono automi intrinsecamente non deterministici: infatti, nella
 
 Una ==NTM== (Nondeterministic Turing Machine) è un automa che presenta un numero finito di stati e che opera su un insieme di nastri infiniti a destra. Tali automi sono definiti come i corrispettivi automi deterministici, con l’unica differenza che presentano una funzione di transizione e di accettazione definita nel seguente modo:
 
-				$<δ,η>: (Q−F) ×I×Γ^k →℘(Q×Γ_k ×\left\{R,L,S\right\}k+1 ×\left\{R,S\right\})$
+				$<δ,η>: (Q−F) ×I×Γ^k →℘(Q×Γ^k ×\left\{R,L,S\right\}^{k+1} ×\left\{R,S\right\})$
 
-mentre per una NTM a nastro singolo, la funzione di transizione `e definita nel seguente modo:
+mentre per una NTM a nastro singolo, la funzione di transizione è definita nel seguente modo:
 
-δ: (Q−F) ×A→℘(Q×A×{R,L,S})
+						$δ: (Q−F) ×A→℘(Q×A×\left\{R,L,S\right\})$
 
-Teorema 3.3.1. Le macchine di Turing non deterministiche non sono pi`u potenti delle corrispettive
+- Le macchine di Turing non deterministiche non sono pi`u potenti delle corrispettive
 
 macchine di Turing deterministiche se utilizzate come riconoscitori di linguaggi.
 
