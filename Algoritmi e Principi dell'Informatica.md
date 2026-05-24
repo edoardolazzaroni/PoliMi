@@ -376,25 +376,17 @@ $c_0 =<q_0,↑x,↑Z_0,...,↑Z_0,↑ >⊢∗c_F =<q∈F,x′↑iy, α_1 ↑A_1�
 
 In altre parole, una stringa $x$ viene tradotta in una stringa $y$ da una MT $M$ se esiste un cammino che parte da una configurazione iniziale con $x$ sul nastro di ingresso e termina in una configurazione finale con $y$ sul nastro di uscita.
 
-2.3.3 Altri Modelli di Macchine di Turing
 
-Il modello originario di automa, pensato da Alan Turing (padre fondatore dell’odierna informatica), era
+#### **2.3.3 Altri Modelli di Macchine di Turing**
 
-una macchina, simile a quelle analizzate nelle sezioni precedenti, con l’unica differenza che presentava un
+Il modello originario di automa, pensato da Alan Turing (padre fondatore dell’odierna informatica), era una macchina, simile a quelle analizzate nelle sezioni precedenti, con l’unica differenza che presentava un solo nastro infinito (sia a destra che a sinistra), utilizzato come ingresso, uscita e memoria. Formalmente:
 
-solo nastro infinito (sia a destra che a sinistra), utilizzato come ingresso, uscita e memoria. Formalmente:
-
-Definizione 2.3.6. Una TM a nastro singolo `e una tupla di 5 elementi <Q,A,δ,q0,F >, dove:
-
-Q `e un insieme finito di stati;
-
-A `e un alfabeto finito caratteristico del nastro;
-
-q0 ∈Q `e lo stato iniziale;
-
-F ⊆Q `e l’insieme di stati finali;
-
-δ: (Q−F) ×A→Q×A×{R,L,S}`e la funzione di transizione (eventualmente parziale).
+- Una ==MT a nastro singolo== è una tupla di 5 elementi $<Q,A,δ,q_0,F >$, dove:
+	- Q `e un insieme finito di stati;
+	- A `e un alfabeto finito caratteristico del nastro;
+	- q0 ∈Q `e lo stato iniziale;
+	- F ⊆Q `e l’insieme di stati finali;
+	- δ: (Q−F) ×A→Q×A×{R,L,S}`e la funzione di transizione (eventualmente parziale).
 
 Si noti che, le macchine di Turing ad 1 nastro sono un modello di automa differente rispetto ad una
 
