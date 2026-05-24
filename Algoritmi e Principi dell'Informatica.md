@@ -586,11 +586,14 @@ Le espressioni regolari seguono la stessa idea dei sistemi di pattern, ma hanno 
 | 1         | Contestuali     | Contestuali                | NTM           |
 | 2         | Non contestuali | Non contestuali            | NPDA          |
 | 3         | Regolari        | Regolari                   | FSA           |
-Capitolo 5
 
-Computabilit`a
 
-In questa sezione si cercher`a di rispondere alla domanda: quali problemi possono essere affrontati e risolti
+
+
+## **Computabilità**
+
+
+In questa sezione si cercher di rispondere alla domanda: quali problemi possono essere affrontati e risolti
 
 mediante gli automi analizzati? Si ricordi che automi e grammatiche, pur essendo modelli matematici,
 
