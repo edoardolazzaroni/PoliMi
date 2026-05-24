@@ -353,15 +353,10 @@ Si introduce di seguito il teorema tramite cui si afferma la supremazia delle ma
 
 ==Le macchine di Turing sono il formalismo più potente di cui siamo a disposizione==.
 
-2.3.1 Macchine di Turing come Accettatori
 
-Quando le macchine di Turing vengono impiegate per il riconoscimento di un determinato linguaggio
+#### **2.3.1 Macchine di Turing come Accettatori**
 
-o per definire nuovi linguaggi, il nastro di uscita viene completamente ignorato. Dunque, una TM
-
-utilizzata come accettatore `e una tupla di 7 elementi, ottenuta eliminando dalla definizione 2.3.1 gli
-
-elementi O (l’alfabeto di uscita) ed η (la funzione di uscita). Di conseguenza, anche la definizione 2.3.2
+Quando le macchine di Turing vengono impiegate per il riconoscimento di un determinato linguaggio o per definire nuovi linguaggi, il nastro di uscita viene completamente ignorato. Dunque, una MT utilizzata come accettatore è una tupla di 7 elementi, ottenuta eliminando gli elementi $O$ (l’alfabeto di uscita) ed $η$ (la funzione di uscita). Di conseguenza, anche la definizione 2.3.2
 
 di configurazione viene modificata omettendo la rappresentazione del nastro di uscita.
 
