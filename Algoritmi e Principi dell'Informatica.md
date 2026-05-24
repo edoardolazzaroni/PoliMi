@@ -604,13 +604,7 @@ Il riconoscimento di linguaggi e la loro traduzione sono due formulazioni differ
 
 				$L_τ = \left\{z |z = xSy, x ∈V_1^∗ , y= τ(x) ∈V_2^∗ , S \notin(V_1 ∪V_2)\right\}$
 
-Ovvero il linguaggio formato da una stringa e la sua traduzione, separati dal simbolo $S$. Un dispositivo che riconosce il linguaggio $L_τ$ pu`o
-
-essere utilizzato come trasduttore che calcola τ: per ogni x, infatti, `e possibile enumerare tutte le y∈V∗
-
-2
-
-e verificare se x$y ∈Lτ oppure no. Prima o poi, se la funzione τ(x) ̸= ⊥, verr`a trovata una stringa per
+Ovvero il linguaggio formato da una stringa e la sua traduzione, separati dal simbolo $S$. Un dispositivo che riconosce il linguaggio $L_τ$ può essere utilizzato come trasduttore che calcola $τ$: per ogni $x$, infatti, è possibile enumerare tutte le $y∈V_2^∗$ e verificare se $xSy ∈L_τ$ oppure no. Prima o poi, se la funzione $τ(x)  ⊥$, verr`a trovata una stringa per
 
 cui la macchina risponder`a positivamente.
 
