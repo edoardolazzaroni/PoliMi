@@ -613,23 +613,11 @@ Le macchine di Turing, come visto in precedenza, sono il formalismo più potente
 
 Più formalmente, data una MT $M$, è possibile costruire un programma, scritto in un determinato linguaggio di programmazione (come C, Java ecc...), che simuli il comportamento di $M$, purchè il calcolatore disponga di una quantità di memoria sufficiente durante l’esecuzione. Inoltre, dato un programma scritto in un determinato linguaggio di programmazione, è possibile costruire una MT $M$ che calcoli la stessa funzione calcolata dal programma.
 
-- Tesi di Church (Prima Parte): Non esiste alcun formalismo, per modellare una determinata
+- ==**Tesi di Church**== (**Prima Parte**): Non esiste alcun formalismo, per modellare una determinata computazione meccanica, che sia più potente delle MT e dei formalismi ad essi equivalenti.
 
-computazione meccanica, che sia pi`u potente delle TM e dei formalismi ad essi equivalenti.
+La tesi di Church non è un teorema perchè per sua natura non è dimostrabile, in quanto andrebbe verificato ogni qual volta si introducesse un nuovo formalismo computazionale.
 
-25`
-
-26 CAPITOLO 5. COMPUTABILIT
-
-A
-
-La tesi di Church non `e un teorema perch`e per sua natura non `e dimostrabile, in quanto andrebbe
-
-verificato ogni qual volta si introducesse un nuovo formalismo computazionale.
-
-In base a questo risultato si pu`o affermare che, se si riesce a dimostrare che un determinato problema
-
-`e risolvibile da una TM, allora `e sicuramente possibile risolverlo mediante un modello matematico di
+In base a questo risultato si può affermare che, se si riesce a dimostrare che un determinato problema è risolvibile da una MT, allora è sicuramente possibile risolverlo mediante un modello matematico di
 
 calcolo, che abbia la stessa potenza delle macchine di Turing. Viceversa, se si dimostra che un problema
 
