@@ -372,9 +372,10 @@ Quando le macchine di Turing vengono impiegate per la traduzione di linguaggi, o
 Dunque, una $MT$ utilizzata come trasduttore è una tupla di 9 elementi, esattamente come presentata nella definizione generale di $MT$:
 
 - Sia $M$ una $MT$ a $k$ nastri, definisce una traduzione $τ(x) = y$, con $τ_M : I^∗→O^∗$, se e solo se:
-		$c_0 =<q_0,↑x,↑Z_0,...,↑Z_0,↑ >⊢∗c_F =<q∈F,x′↑iy, α_1 ↑A_1β_1,...,αk↑Akβk, y↑ >$
+		$c_0 =<q_0,↑x,↑Z_0,...,↑Z_0,↑ >⊢∗c_F =<q∈F,x′↑iy, α_1 ↑A_1β_1,...,α_k↑A_kβ_k, y↑(blank)>$.
 
-In altre parole, una stringa xviene tradotta in una stringa y da una TM M se esiste un cammino che
+
+In altre parole, una stringa x viene tradotta in una stringa y da una TM M se esiste un cammino che
 
 parte da una configurazione iniziale con x sul nastro di ingresso e termina in una configurazione finale
 
