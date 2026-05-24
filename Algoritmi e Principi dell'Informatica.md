@@ -400,7 +400,7 @@ ottenuta con il metodo della diagonalizzazione.
 
 
 
-Automi non Deterministici
+##**2.3 Automi non Deterministici**
 
 Tutti modelli analizzati fino ad ora sono deterministici, nel senso che una volta fissato lo stato iniziale e
 
