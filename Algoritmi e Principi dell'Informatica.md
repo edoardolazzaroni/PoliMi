@@ -713,17 +713,10 @@ In definitiva, si è constatato che esistono problemi non risolvibili algoritmic
 
 ### **5.6 Problemi di Decisione**
 
-Un problema di decisione `e una domanda che ha come uniche risposte si o no (0, 1). Questo pu`o anche
+Un problema di decisione è una domanda che ha come uniche risposte sì o no $(0, 1)$. Questo può anche essere espresso come un problema di appartenenza di un determinato elemento ad un certo insieme.
+Più in generale si noti che una qualsiasi proprietà di un determinato elemento di un insieme può essere formalizzata come un suo sottoinsieme (ad esempio, la proprietà di terminazione del calcolo per ogni valore dei dati in ingresso individua un sottoinsieme dell’insieme di tutti i programmi).
 
-essere espresso come un problema di appartenenza di un determinato elemento ad un certo insieme.
-
-Pi`u in generale si noti che una qualsiasi propriet`a di un determinato elemento di un insieme pu`o essere
-
-formalizzata come un suo sottoinsieme (ad esempio, la propriet`a di terminazione del calcolo per ogni
-
-valore dei dati in ingresso individua un sottoinsieme dell’insieme di tutti i programmi).
-
-In questa sezione si prendono in particolare considerazione i sottoinsiemi di N, indicati convenzional-
+In questa sezione si prendono in particolare considerazione i sottoinsiemi di $\mathbb{N}$, indicati convenzional-
 
 mente con S ⊆N. Quindi, formalmente, dato un determinato elemento x∈N e un insieme S, si cerca
 
