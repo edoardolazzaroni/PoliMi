@@ -394,7 +394,7 @@ Si noti che, le macchine di Turing ad 1 nastro sono un modello di automa differe
 
 Ognuno dei modelli di macchine di Turing precedentemente analizzati possono essere dotati di nastri multidimensionali: il modello che se ne ricava è la MT con nastro multimensionale. Un nastro $k$-dimensionale è realizzato in modo che ogni cella sia identificata univocamente da una tupla di $k$ interi positivi. Anche questo modello di macchina di Turing è equivalente agli altri analizzati, in quanto si può stabilire una corrispondenza biiettiva fra $\mathbb{N} −\left \{0\right \}$ e $(\mathbb{N} −\left \{0\right \})^k$, che indicano rispettivamente l’insieme delle posizioni della testina per i nastri lineari e l’insieme delle posizioni della testina per i nastri multidimensionali. Un esempio importante è l’enumerazione delle celle del nastro bidimensionale, che si ottiene tramite la formula:
 
-						$d(x,y) = x+ (x+ y)(x+ y−1)2$
+						$d(x,y) = x+ \frac{(x+ y)(x+ y−1)}{2}$
 
 ottenuta con il metodo della diagonalizzazione.
 
