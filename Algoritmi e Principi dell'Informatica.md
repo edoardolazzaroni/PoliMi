@@ -532,14 +532,14 @@ Dato un FSA $A=< I,δ,q_0,F >$, si può costruire una grammatica $G=< V_N,V_T,P,
 Data una grammatica $G=< V_N,V_T,P,S >$ regolare, si può costruire un FSA $A=< I,δ,q_0,F >$, tale che:
 	- $Q= V_N ∪\left\{q_F\right\}$;
 	- $I= V_T$;
-	- q0 = S;
-	- F= {qF};
-	- ∀A→bC,C ∈δ(A,B);
-	- ∀A→b,qF ∈δ(A,b)
+	- $q_0 = S$;
+	- $F= \left\{q_F\right\}$;
+	- $∀A→bC,C ∈δ(A,B)$;
+	- $∀A→b,q_F ∈δ(A,b)$.
 
-In generale, l’automa a stati finiti A, ottenuto a partire dalla grammatica regolare G, è non deterministico.
+In generale, l’automa a stati finiti $A$, ottenuto a partire dalla grammatica regolare $G$, è non deterministico.
 
-Teorema 4.3.2. Dato un NPDA A `e possibile costruire una grammatica G non contestuale (di tipo 2)
+- Teorema: dato un NPDA A `e possibile costruire una grammatica G non contestuale (di tipo 2)
 
 ad esso equivalente, ossia in grado di riconoscere lo stesso linguaggio riconosciuto da A, e viceversa.
 
