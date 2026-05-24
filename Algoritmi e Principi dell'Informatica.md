@@ -410,15 +410,11 @@ Tutti modelli analizzati fino ad ora sono deterministici, nel senso che una volt
 Ci sono però casi in cui questo non è possibile, in quanto non si ha una conoscenza sufficientemente accurata del comportamento dell’automa per poter prevedere l’esatta evoluzione del modello. In tal caso si dice che l’automa è non deterministico.
 
 
-3.1 Automi a Stati Finiti non deterministici
+### **3.1 Automi a Stati Finiti non deterministici**
 
-Gli NFSA (Nondeterministic Finite State Automaton) sono automi a stati finiti che presentano un
+Gli NFSA (Nondeterministic Finite State Automaton) sono automi a stati finiti che presentano un numero finito di stati. Tali automi sono definiti come i corrispettivi automi deterministici, con l’unica differenza che presentano una funzione di transizione definita nel seguente modo:
 
-numero finito di stati. Tali automi sono definiti come i corrispettivi automi deterministici, con l’unica
-
-differenza che presentano una funzione di transizione definita nel seguente modo:
-
-δ: Q×I →℘(Q) 1
+							$δ: Q×I →℘(Q) 1$
 
 Di conseguenza, la chiusura riflessiva e transitiva di tale funzione, si definisce induttivamente nel
 
