@@ -672,31 +672,17 @@ Si osservi che la funzione $g(y,x)$ è computabile da una macchina di Turing, os
 
 1. Si sceglie un alfabeto finito $A$ per codificare i numeri naturali ed ogni altra informazione richiesta per la computazione;
 2. Si traduce la rappresentazione di $n$ in un’opportuna rappresentazione della coppia $<x,y >$ corrispondente ad $n$. La rappresentazione decimale di $n$ può essere tradotta nelle due rappresentazioni decimali di $x$ ed $y$, separate dal simbolo $;
-3. Si traduce $y$ in un’opportuna codifica della MT $y$-esima $M_y$ nella enumerazione di Godel;
+3. Si traduce $y$ in un’opportuna codifica della MT $y$-esima $M_y$ nella enumerazione di Gödel;
+4. Si simula la computazione di $M_y$ su $x$.
 
-4. Si simula la computazione di My su x.
+- **Teorema**: Per ogni $x$ ed ogni $y$, esiste e si può costruire una macchina di Turing universale in grado di calcolare $g(y,x) = f_y(x)$
 
-Teorema 5.4.1. Per ogni x ed ogni y, esiste e si pu`o costruire una macchina di Turing universale in
+Tramite questo teorema si può affermare che è possibile creare una macchina di Turing che simuli il comportamento degli odierni calcolatori ”general purpose”.`
 
-grado di calcolare g(y,x) = fy(x)
 
-Tramite questo teorema si pu`o affermare che `e possibile creare una macchina di Turing che simuli il
+### **5.5 Problemi Algoritmicamente Irrisolvibili**
 
-comportamento degli odierni calcolatori ”general purpose”.`
-
-28 CAPITOLO 5. COMPUTABILIT
-
-A
-
-5.5 Problemi Algoritmicamente Irrisolvibili
-
-Come si `e visto in precedenza, tutte le funzioni computabili fy : N →N si possono enumerare: questo
-
-significa che la cardinalit`a dell’insieme delle funzioni computabili `e pari ad ℵ0, ovvero alla cardinalit`a dei
-
-numeri naturali N. L’insieme delle funzioni {f : N →N}contiene la classe delle funzioni {f : N →{0,1},
-
-in quanto {0,1}⊆N. Quindi, poich`e |{f : N →N}| ≥ |{f : N →{0,1}}|= ℘(N) = 2ℵ0 , si pu`o
+Come si è visto in precedenza, tutte le funzioni computabili $fy : \mathbb{N} →\mathbb{N}$ si possono enumerare: questo significa che la cardinalità dell’insieme delle funzioni computabili è pari ad $ℵ_0$, ovvero alla cardinalità dei numeri naturali $\mathbb{N}$. L’insieme delle funzioni $\left\{f : \mathbb{N} →\mathbb{N}\right\}$ contiene la classe delle funzioni $\left\{f : \mathbb{N} →\left\{0,1\right\}\right\}$, in quanto $\left\{0,1\right\}⊆\mathbb{N}$. Quindi, poichè $|{f : N →N}| ≥ |{f : N →{0,1}}|= ℘(N) = 2ℵ0$, si può
 
 dedurre che la cardinalit`a della classe delle funzioni da N ad N `e strettamente maggiore della cardinalit`a
 
