@@ -483,31 +483,13 @@ Una grammatica non è altro che un meccanismo linguistico, composto dall’ogget
 
 - Una ==grammatica== $G$ è una tupla di 4 elementi $G=<V_T,V_N,P,S >$, dove:
 	- VT è un insieme di simboli terminali (solitamente indicati con lettere minuscole), detto anche alfabeto terminale;
-VN `e un insieme di simboli non terminali (solitamente indicati con lettere maiuscole), tali che
+	- VN è un insieme di simboli non terminali (solitamente indicati con lettere maiuscole), tali che VT ∩VN = ∅, detto anche alfabeto non terminale; V indica VT ∪VN;
+	- P `e un insieme finito di V+N ×V∗, detto anche insieme delle produzioni di G. Un elemento p=<α,β >∈P si indica con α→β, in cui α `e la parte sinistra di p, mentre β `e la parte destra di p;
+	- S `e un elemento particolare di VN, detto assioma o simbolo iniziale.
 
-VT ∩VN = ∅, detto anche alfabeto non terminale; V indica VT ∪VN;
+Quindi, un elemento che deve essere ancora raffinato è un simbolo non terminale, un elemento di base è un simbolo terminale, le componenti di un oggetto possono essere sia simboli terminali che non terminali, mentre una produzione corrisponde ad una regola di raffinamento.
 
-P `e un insieme finito di V+
-
-N ×V∗, detto anche insieme delle produzioni di G. Un elemento p=<
-
-α,β >∈P si indica con α→β, in cui α `e la parte sinistra di p, mentre β `e la parte destra di p;
-
-S `e un elemento particolare di VN, detto assioma o simbolo iniziale.
-
-Quindi, un elemento che deve essere ancora raffinato `e un simbolo non terminale, un elemento di
-
-base `e un simbolo terminale, le componenti di un oggetto possono essere sia simboli terminali che non
-
-terminali, mentre una produzione corrisponde ad una regola di raffinamento.
-
-Definizione 4.1.2. Data una grammatica G, si definisce su V∗ la relazione binaria di derivazione
-
-immediata, indicata con il simbolo ⇒da αa β. Tale relazione sussiste se e solo se α= α1γα2,β= α1δα2,
-
-con α1,α2,δ∈V∗,γ ∈V+
-
-N,γ →δ∈P.
+- Data una grammatica $G$, si definisce su V∗ la relazione binaria di derivazione immediata, indicata con il simbolo ⇒da αa β. Tale relazione sussiste se e solo se α= α1γα2,β= α1δα2, con α1,α2,δ∈V∗,γ ∈V+N,γ →δ∈P.
 
 Data la definizione di derivazione immediata, si pu`o anche definire la chiusura riflessiva e transitiva,
 
