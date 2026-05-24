@@ -432,7 +432,6 @@ Gli automi non deterministici a stati finiti hanno la stessa potenza di calcolo 
 Infatti, dato un NFSA, si può costruire un FSA equivalente che ha come stati gli insiemi formati da stati dell’NFSA. La funzione di transizione è costruita in modo che se un insieme di stati è raggiungibile a partire da uno stato dell’NFSA, allora tale relazione deve essere presente anche nell’FSA sfruttando la costruzione degli stati come insiemi di stati dell’NFSA.
 
 
-
 ### **3.2 Automi a Pila non deterministici**
 
 Un ==NPDA== (Nondeterministic Push Down Automaton) è un automa che presenta un numero finito di stati e una memoria organizzata su una struttura a pila. Tali automi sono definiti come i corrispettivi automi deterministici, con l’unica differenza che presentano una funzione di transizione definita nel seguente modo:
@@ -450,7 +449,6 @@ Inoltre, la stringa $x∈I^∗$ è accettata dall’automa se e solo se:
 
 
 Si noti che i PDA sono automi intrinsecamente non deterministici: infatti, nella prima definizione di automa a pila si era dovuto aggiungere il vincolo che, se per una determinata condizione era definita una ε-mossa, allora non era definita nessun’altra transizione che partisse da quello stato. Nella definizione appena data, invece, questo vincolo viene rimosso.
-
 
 
 ### **3.3 Macchine di Turing non deterministiche**
@@ -476,25 +474,12 @@ Data una qualsiasi NTM $M$, è sempre possibile costruire una MT deterministica 
 
 Come visto in precedenza, spesso gli automi vengono utilizzati come modelli per il riconoscimento di linguaggi. Gli automi sono quindi uno strumento formale per la descrizione e la definizione di un determinato linguaggio, costituito dall’insieme delle stringhe accettate dall’automa stesso. Un altro formalismo utilizzato per la definizione di linguaggio sono le cosiddette ==grammatiche formali==, che definiscono un linguaggio fornendo il procedimento mediante cui si ottengono le stringhe appartenenti al linguaggio stesso.
 
-4.1 Introduzione
 
-Una grammatica formale `e un insieme di regole per costruire stringhe appartenenti ad un determinato
+### **4.1 Introduzione**
 
-linguaggio, attraverso il meccanismo di riscrittura, che consiste in un insieme di tecniche che determi-
+Una grammatica formale è un insieme di regole per costruire stringhe appartenenti ad un determinato linguaggio, attraverso il meccanismo di riscrittura, che consiste in un insieme di tecniche che determinano come sostituire le parti di una formula con parti più semplificate. In generale, un meccanismo di riscrittura consiste in un insieme di regole linguistiche, di cui una descrive l’oggetto principale come una sequenza di componenti. Ogni componente si può raffinare da elementi via via sempre più dettagliati, fino ad ottenere una sequenza di componenti elementari.
 
-nano come sostituire le parti di una formula con parti pi`u semplificate. In generale, un meccanismo di
-
-riscrittura consiste in un insieme di regole linguistiche, di cui una descrive l’oggetto principale come una
-
-sequenza di componenti. Ogni componente si pu`o raffinare da elementi via via sempre pi`u dettagliati,
-
-fino ad ottenere una sequenza di componenti elementari.
-
-Una grammatica non `e altro che un meccanismo linguistico, composto dall’oggetto principale, detto
-
-anche simbolo iniziale, da un insieme di componenti, a loro volta da sostituire durante il processo di deri-
-
-vazione, detti anche simboli non terminaliun insieme di elementi di base, detti anche simboli elementari,
+Una grammatica non è altro che un meccanismo linguistico, composto dall’oggetto principale, detto anche simbolo iniziale, da un insieme di componenti, a loro volta da sostituire durante il processo di derivazione, detti anche simboli non terminaliun insieme di elementi di base, detti anche simboli elementari,
 
 e da un insieme di regole di raffinamento o sostituzioni, chiamate produzioni.
 
