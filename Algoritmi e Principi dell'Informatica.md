@@ -539,15 +539,9 @@ Data una grammatica $G=< V_N,V_T,P,S >$ regolare, si può costruire un FSA $A=< 
 
 In generale, l’automa a stati finiti $A$, ottenuto a partire dalla grammatica regolare $G$, è non deterministico.
 
-- Teorema: dato un NPDA A `e possibile costruire una grammatica G non contestuale (di tipo 2)
+- **Teorema**: dato un NPDA $A$ è possibile costruire una grammatica $G$ non contestuale (di tipo 2) ad esso equivalente, ossia in grado di riconoscere lo stesso linguaggio riconosciuto da $A$, e viceversa; dunque, le grammatiche non contestuali e gli automi a pila non deterministici sono modelli differenti per descrivere la stessa classe di linguaggi.
 
-ad esso equivalente, ossia in grado di riconoscere lo stesso linguaggio riconosciuto da A, e viceversa.
-
-Dunque, le grammatiche non contestuali e gli automi a pila non deterministici sono modelli differenti
-
-per descrivere la stessa classe di linguaggi.
-
-Teorema 4.3.3. Data una TM M utilizzata come accettatore di linguaggi `e possibile costruire una
+- **Teorema**: data una TM M utilizzata come accettatore di linguaggi `e possibile costruire una
 
 grammatica generale G (di tipo 0) ad essa equivalente, ossia in grado di riconoscere lo stesso linguaggio
 
