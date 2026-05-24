@@ -602,7 +602,7 @@ Molti problemi possono essere opportunamente descritti come il riconoscimento di
 
 Il riconoscimento di linguaggi e la loro traduzione sono due formulazioni differenti di un problema, che sono facilmente riducibili l’uno all’altro. Infatti, dato il problema di stabilire se una determinata stringa $x$ appartenga al linguaggio $L$, tale problema può anche essere impostato come la traduzione $τ_L(x)$, per cui $τ_L(x) = 1$ se $x∈L$, $τ_L(x) = 0$ altrimenti. Viceversa, data la traduzione $τ : V_1^∗ →V_2^∗$ , si può definire il linguaggio seguente:
 
-$L_τ = \left\{z |z = xy, x ∈V∗1 , y= τ(x) ∈V∗2 ,  / ∈(V1 ∪V2)}$
+$L_τ = \left\{z |z = x$y, x ∈V∗1 , y= τ(x) ∈V∗2 ,  / ∈(V1 ∪V2)\right\}$
 
 Ovvero il linguaggio formato da una
 stringa e la sua traduzione, separati dal simbolo $. Un dispositivo che riconosce il linguaggio Lτ pu`o
