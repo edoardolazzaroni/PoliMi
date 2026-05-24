@@ -455,13 +455,9 @@ Si noti che i PDA sono automi intrinsecamente non deterministici: infatti, nella
 
 ### **3.3 Macchine di Turing non deterministiche**
 
-Una ==NTM== (Nondeterministic Turing Machine) è un automa che presenta un numero finito di stati e che opera su un insieme di nastri infiniti a destra. Tali automi sono defiuniti come i corrispettivi automi
+Una ==NTM== (Nondeterministic Turing Machine) è un automa che presenta un numero finito di stati e che opera su un insieme di nastri infiniti a destra. Tali automi sono definiti come i corrispettivi automi deterministici, con l’unica differenza che presentano una funzione di transizione e di accettazione definita nel seguente modo:
 
-deterministici, con l’unica differenza che presentano una funzione di transizione e di accettazione definita
-
-nel seguente modo:
-
-<δ,η>: (Q−F) ×I×Γk →℘(Q×Γk ×{R,L,S}k+1 ×{R,S})
+				$<δ,η>: (Q−F) ×I×Γ^k →℘(Q×Γ_k ×\left\{R,L,S\right\}k+1 ×\left\{R,S\right\})$
 
 mentre per una NTM a nastro singolo, la funzione di transizione `e definita nel seguente modo:
 
