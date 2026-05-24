@@ -343,15 +343,9 @@ Ora, data la definizione di configurazione, è necessario anche formalizzare il 
 		(a) $u’=u, o’=v$ ed $M=S$;
 		(b) $u’=uv, o=(blank)$ ed $M=R$.
 
-Se nei casi *2c* e *3c*, $x= ε$ oppure $α= ε$, allora non esiste una configurazione $c’$ tale che $c⊢c′$ e la
+Se nei casi *2c* e *3c*, $x= ε$ oppure $α= ε$, allora non esiste una configurazione $c’$ tale che $c⊢c′$ e la macchina di Turing termina la propria esecuzione. Lo stesso comportamento si ottiene nel caso in cui le funzioni $δ$ ed $η$ non sono definite in $<1,i,A_1,...,A_k >$. In tali casi, $c$ viene anche definita configurazione di arresto.
 
-macchina di Turing termina la propria esecuzione. Lo stesso comportamento si ottiene nel caso in cui le
-
-funzioni δ ed η non sono definite in <1,i,A1,...,Ak >. In tali casi, c viene anche definita configurazione
-
-di arresto.
-
-In altre parole, se δ(q,i,A1,...,Ak) =<p,C1,...,Ck,N,N1,...,Nk >, la condizione 1 vincola lo stato
+In altre parole, se $δ(q,i,A_1,...,A_k) =<p,C_1,...,C_k,N,N_1,...,N_k>$, la condizione *1* vincola lo stato
 
 di x′ ad essere quello di arrivo della transizione. Le condizioni di tipo 2 definiscono l’evoluzione del
 
