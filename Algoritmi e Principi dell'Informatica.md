@@ -624,36 +624,15 @@ Si introduce ora il concetto di **==algoritmo==**, centrale nell’informatica. 
 Ogni algoritmo ha le seguenti proprietà:
 
 1. Un algoritmo deve contenere una sequenza finita di istruzioni;
-
-2. Ogni istruzione deve essere immediatamente eseguibile da qualche procedimento meccanico di cal-
-
-colo, ossia deve esistere un processore che sia in grado di comprendere univocamente le istruzioni
-
-e di eseguirle producendo risultati precisi ed inequivocabili;
-
-3. Il processore `e dotato di celle di memoria in cui possono essere immagazzinati i riultati intermedi;
-
-4. La computazione `e discreta, ossia l’informazione `e codificata in forma digitale e la computazione
-
-procede attraverso passi discreti;
-
+2. Ogni istruzione deve essere immediatamente eseguibile da qualche procedimento meccanico di calcolo, ossia deve esistere un processore che sia in grado di comprendere univocamente le istruzioni e di eseguirle producendo risultati precisi ed inequivocabili;
+3. Il processore è dotato di celle di memoria in cui possono essere immagazzinati i riultati intermedi;
+4. La computazione è discreta, ossia l’informazione è codificata in forma digitale e la computazione procede attraverso passi discreti;
 5. Gli algorimi vengono eseguiti deterministicamente;
+6. Non esiste un limite finito sui dati di ingresso e di uscita: ogni calcolatore può ricevere in ingresso o emettere in uscita stringhe di lunghezza arbitraria;
+7. Non esiste un limite alla quantità di memoria richiesta per effettuare i calcoli;
+8. Non esiste un limite al numero di passi discreti richiesti per effettuare un calcolo ed è dunque possibile avere computazioni infinite.
 
-6. Non esiste un limite finito sui dati di ingresso e di uscita: ogni calcolatore pu`o ricevere in ingresso
-
-o emettere in uscita stringhe di lunghezza arbitraria;
-
-7. Non esiste un limite alla quantit`a di memoria richiesta per effettuare i calcoli;
-
-8. Non esiste un limite al numero di passi discreti richiesti per effettuare un calcolo ed `e dunque
-
-possibile avere computazioni infinite.
-
-La tesi di Church non si ferma solo nell’affermazione che nessun formalismo sia pi`u espresivo delle
-
-TM, ma afferma anche che nessun algoritmo `e in grado di risolvere un problema che non `e risolvibile da
-
-una TM. Formalmente:
+La tesi di Church non si ferma solo nell’affermazione che nessun formalismo sia più espressivo delle MT, ma afferma anche che nessun algoritmo è in grado di risolvere un problema che non è risolvibile da una M. Formalmente:
 
 Tesi 5.2.2 (Tesi di Church - Seconda Parte). Ogni algoritmo per la soluzione automatica di un problema
 
