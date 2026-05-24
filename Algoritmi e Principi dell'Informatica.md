@@ -647,21 +647,12 @@ Le macchine di Turing possono essere viste come dei calcolatori astratti, specia
 
 Per poter risondere a tale domanda, si noti innanzitutto che dato un qualsiasi insieme $S$, questo può essere enumerato algoritmicamente se è possibile stabilire una biiezione fra l’insieme $S$ e l’insieme dei numeri naturali $\mathbb{N}$, calcolabile attraverso un algoritmo o da una MT. Alla stessa maniera è possibile enumerare algoritmicamente l’insieme delle MT tramite una biiezione $E : \left\{MT\right\}↔\mathbb{N}$. Tale biiezione è implementabile da un algoritmo che riceve in ingresso un numero $n$ e ritorna la $n$-esima macchina di Turing. Un’enumerazione calcolabile da una MT viene chiamata Gödelizzazione, mentre il numero naturale biiettivamente associato da tale enumerazione ad una MT è detto numero di Gödel della MT.
 
-Inoltre, è noto che una MT $M$ può risolvere una funzione $f_M : D→R$, con $D$ ed $R$ opportunamente codificati nell’alfabeto di $M$, dunque si indicher`a con fy la funziuone calcolata dalla y-esima macchina
+Inoltre, è noto che una MT $M$ può risolvere una funzione $f_M : D→R$, con $D$ ed $R$ opportunamente codificati nell’alfabeto di $M$, dunque si indicherà con $f_y$ la funziuone calcolata dalla $y$-esima macchina di Turing, indicata con $M_y = E(y)$.
 
-di Turing, indicata con My = E(y).
 
-5.4 Macchine di Turing Universali
+### **5.4 Macchine di Turing Universali**
 
-Le UTM (Universal Turing Machines) sono TM in grado di modellare dispositivi generali di risoluzione
-
-dei problemi, in cui il problema da risolvere non viene codificato nella struttura del dispositivo (come
-
-avviene per le TM), ma gli viene fornito come input, assieme ai dati con cui operare (esattamente
-
-come gli oderni calcolatori). Le UTM sono quindi MT che calcolano la funzione g(y,x) = fy(x), in
-
-cui y rappresenta la funzione fy, calcolata dalla TM My, ed x rappresenta l’ingresso su cui My opera;
+Le ==UTM== (Universal Turing Machines) sono MT in grado di modellare dispositivi generali di risoluzione dei problemi, in cui il problema da risolvere non viene codificato nella struttura del dispositivo (come avviene per le MT), ma gli viene fornito come input, assieme ai dati con cui operare (esattamente come gli oderni calcolatori). Le UTM sono quindi MT che calcolano la funzione $g(y,x) = f_y(x)$, in cui $y$ rappresenta la funzione f$y, calcolata dalla TM My, ed x rappresenta l’ingresso su cui My opera;
 
 calcolano, dunque, il valore della funzione fy applicata ad x.
 
