@@ -682,25 +682,12 @@ Tramite questo teorema si può affermare che è possibile creare una macchina di
 
 ### **5.5 Problemi Algoritmicamente Irrisolvibili**
 
-Come si è visto in precedenza, tutte le funzioni computabili $fy : \mathbb{N} →\mathbb{N}$ si possono enumerare: questo significa che la cardinalità dell’insieme delle funzioni computabili è pari ad $ℵ_0$, ovvero alla cardinalità dei numeri naturali $\mathbb{N}$. L’insieme delle funzioni $\left\{f : \mathbb{N} →\mathbb{N}\right\}$ contiene la classe delle funzioni $\left\{f : \mathbb{N} →\left\{0,1\right\}\right\}$, in quanto $\left\{0,1\right\}⊆\mathbb{N}$. Quindi, poichè $|\left\{f : \mathbb{N} →\mathbb{N}\right\}| ≥ |\left\{f : \mathbb{N} →\left\{0,1\right\}\right\}|= ℘(\mathbb{N}) = 2^{ℵ_0}$, si può dedurre che la cardinalità della classe delle funzioni da $\mathbb{N}$ ad $\mathbb{N}$ `e strettamente maggiore della cardinalit`a
+Come si è visto in precedenza, tutte le funzioni computabili $fy : \mathbb{N} →\mathbb{N}$ si possono enumerare: questo significa che la cardinalità dell’insieme delle funzioni computabili è pari ad $ℵ_0$, ovvero alla cardinalità dei numeri naturali $\mathbb{N}$. L’insieme delle funzioni $\left\{f : \mathbb{N} →\mathbb{N}\right\}$ contiene la classe delle funzioni $\left\{f : \mathbb{N} →\left\{0,1\right\}\right\}$, in quanto $\left\{0,1\right\}⊆\mathbb{N}$. Quindi, poichè $|\left\{f : \mathbb{N} →\mathbb{N}\right\}| ≥ |\left\{f : \mathbb{N} →\left\{0,1\right\}\right\}|= ℘(\mathbb{N}) = 2^{ℵ_0}$, si può dedurre che la cardinalità della classe delle funzioni da $\mathbb{N}$ ad $\mathbb{N}$ è strettamente maggiore della cardinalità della classe delle funzioni computabili: dunque, gran parte delle funzioni di $\mathbb{N}$ non può essere calcolata.
 
-della classe delle funzioni computabili: dunque, gran parte delle funzioni di N non pu`o essere calcolata.
+Ora, quando si vuole definire una funzione si usa un linguaggio che la esprima, ovvero un sottoinsieme del monoide libero su di un determinato alfabeto finito: dunque, il linguaggio è un insieme numerabile.
+Si ricava quindi che la classe delle funzioni denotabili è a sua volta numerabile.
 
-Ora, quando si vuole definire una funzione si usa un linguaggio che la esprima, ovvero un sottoinsieme
-
-del monoide libero su di un determinato alfabeto finito: dunque, il linguaggio `e un insieme numerabile.
-
-Si ricava quindi che la classe delle funzioni denotabili `e a sua volta numerabile.
-
-Quando si scrive un programma, ci sono diverse propriet`a che si vorebbero garantire. Una di queste `e
-
-la terminazione del programma, ovvero la garanzia che, dato un qualsiasi ingresso conforme al programma
-
-stesso, esso termini la propria computazione e non vada, dunque, in un ciclo infinito. Nella realt`a, per`o,
-
-non `e possibile garantire a priori la terminazione del programma per un generico valore in ingresso,
-
-n`e decidere atgtraverso un algoritmo se ci`o possa avvenire in corrispondenza di uno specifico valore
+Quando si scrive un programma, ci sono diverse proprietà che si vorebbero garantire. Una di queste è la terminazione del programma, ovvero la garanzia che, dato un qualsiasi ingresso conforme al programma stesso, esso termini la propria computazione e non vada, dunque, in un ciclo infinito. Nella realtà, però, non è possibile garantire a priori la terminazione del programma per un generico valore in ingresso, n`e decidere atgtraverso un algoritmo se ci`o possa avvenire in corrispondenza di uno specifico valore
 
 in ingresso. Pi`u in generale, il problema della terminazione del calcolo automatico `e in generale non
 
