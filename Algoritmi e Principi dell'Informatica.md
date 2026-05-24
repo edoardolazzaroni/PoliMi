@@ -611,17 +611,9 @@ Ovvero il linguaggio formato da una stringa e la sua traduzione, separati dal si
 
 Le macchine di Turing, come visto in precedenza, sono il formalismo più potente che si ha a disposizione per il calcolo computazionale: ogni programma eseguibile da un calcolatore moderno può essere eseguito anche da una macchina di Turing. Dunque, le macchine di Turing hanno la stessa espressività dei linguaggi di programmazione ad alto livello, detti anche Turing completi.
 
-Più formalmente, data una MT $M, `e possibile costruire un programma, scritto in un determinato
+Più formalmente, data una MT $M$, è possibile costruire un programma, scritto in un determinato linguaggio di programmazione (come C, Java ecc...), che simuli il comportamento di $M$, purchè il calcolatore disponga di una quantità di memoria sufficiente durante l’esecuzione. Inoltre, dato un programma scritto in un determinato linguaggio di programmazione, è possibile costruire una MT $M$ che calcoli la stessa funzione calcolata dal programma.
 
-linguaggio di programmazione (come C, Java ecc...), che simuli il ocmportamento di M, purch`e il calco-
-
-latore disponga di una quantit`a di memoria sufficiente durante l’esecuzione. Inoltre, dato un programma
-
-scritto in un determinato linguaggio di programmazione, `e possibile coistruire una TM M che calcoli la
-
-stessa funzione calcolata dal programma.
-
-Tesi 5.2.1 (Tesi di Church - Prima Parte). Non esiste alcun formalismo, per modellare una determinata
+- Tesi di Church (Prima Parte): Non esiste alcun formalismo, per modellare una determinata
 
 computazione meccanica, che sia pi`u potente delle TM e dei formalismi ad essi equivalenti.
 
