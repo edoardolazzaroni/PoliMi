@@ -549,12 +549,9 @@ In generale, l’automa a stati finiti $A$, ottenuto a partire dalla grammatica 
 Un’espressione regolare è un’espressione utilizzabile per denotare un linguaggio attraverso la struttura delle stringhe che lo compongono.
 
 - Dato un alfabeto di simboli terminali denotato con $V_T$, si definiscono su di esso le espressioni regolari e i corrispondenti linguaggi denotati:
-
-∅`e un’espressione regolare che denota il linguaggio vuoto;
-
-∀a∈VT,a `e un’espressione regolare che denota il linguaggio formato solo dal simbolo a;
-
-Se R1 ed R2 sono espressioni regolari, anche la loro unione, indicata con R1 + R2 o R1 |R2, `e
+	- $∅$ è un’espressione regolare che denota il linguaggio vuoto;
+	- $∀a∈V_T,a$ è un’espressione regolare che denota il linguaggio formato solo dal simbolo $a$;
+	- Se $R_1$ ed $R_2$ sono espressioni regolari, anche la loro unione, indicata con R1 + R2 o R1 |R2, `e
 
 un’espressione regolare;
 
