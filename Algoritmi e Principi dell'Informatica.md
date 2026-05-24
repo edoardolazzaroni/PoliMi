@@ -682,7 +682,7 @@ Tramite questo teorema si può affermare che è possibile creare una macchina di
 
 ### **5.5 Problemi Algoritmicamente Irrisolvibili**
 
-Come si è visto in precedenza, tutte le funzioni computabili $fy : \mathbb{N} →\mathbb{N}$ si possono enumerare: questo significa che la cardinalità dell’insieme delle funzioni computabili è pari ad $ℵ_0$, ovvero alla cardinalità dei numeri naturali $\mathbb{N}$. L’insieme delle funzioni $\left\{f : \mathbb{N} →\mathbb{N}\right\}$ contiene la classe delle funzioni $\left\{f : \mathbb{N} →\left\{0,1\right\}\right\}$, in quanto $\left\{0,1\right\}⊆\mathbb{N}$. Quindi, poichè $|{f : N →N}| ≥ |{f : N →{0,1}}|= ℘(N) = 2ℵ0$, si può
+Come si è visto in precedenza, tutte le funzioni computabili $fy : \mathbb{N} →\mathbb{N}$ si possono enumerare: questo significa che la cardinalità dell’insieme delle funzioni computabili è pari ad $ℵ_0$, ovvero alla cardinalità dei numeri naturali $\mathbb{N}$. L’insieme delle funzioni $\left\{f : \mathbb{N} →\mathbb{N}\right\}$ contiene la classe delle funzioni $\left\{f : \mathbb{N} →\left\{0,1\right\}\right\}$, in quanto $\left\{0,1\right\}⊆\mathbb{N}$. Quindi, poichè $|{f : \mathbb{N} →\mathbb{N}}| ≥ |\left\{f : \mathbb{N} →{0,1}}|= ℘(\mathbb{N}) = 2^{ℵ_0}$, si può
 
 dedurre che la cardinalit`a della classe delle funzioni da N ad N `e strettamente maggiore della cardinalit`a
 
