@@ -520,25 +520,15 @@ Una volta definite cosa siano le grammatiche, è possibile classificarle in base
 
 Studiando le grammatiche e i linguaggi da esse generate, si può osservare una certa corrispondenza con gli automi analizzati nei capitoli precedenti. Si introducono qui alcuni teoremi che mettono in luce la correlazione esistente fra automi e grammatiche:
 
-- **Teorema**: dato un FSA $A$, è possibile costruire una grammatica regolare (di tipo 3) $G$ ad essoequivalente, ossia in grado di riconoscere lo stesso linguaggio riconosciuto da A, e viceversa. Dunque, le
+- **Teorema**: dato un FSA $A$, è possibile costruire una grammatica regolare (di tipo 3) $G$ ad esso equivalente, ossia in grado di riconoscere lo stesso linguaggio riconosciuto da $A$, e viceversa. Dunque, le grammatiche regolari e gli automi a stati finiti sono modelli differenti per descrivere la stessa classe di linguaggi.
 
-grammatiche regolari e gli automi a stati finiti sono modelli differenti per descrivere la stessa classe di
+Dato un FSA $A=< I,δ,q_0,F >$, si può costruire una grammatica $G=< V_N,V_T,P,S >$ regolare, tale che:
 
-linguaggi.
-
-Dato un FSA A=< I,δ,q0,F >, si pu`o costruire una grammatica G=< VN,VT,P,S > regolare,
-
-tale che:
-
-VN = Q;
-
-VT = I;
-
-S= q0;
-
-∀B →bC ⇐⇒ C ∈δ(B,b);
-
-∀B →ε,B ∈F
+	- VN = Q;
+	- VT = I;
+	- S= q0;
+	- ∀B →bC ⇐⇒ C ∈δ(B,b);
+	- ∀B →ε,B ∈F
 
 Data una grammatica G=< VN,VT,P,S > regolare, si pu`o costruire un FSA A=< I,δ,q0,F >, tale
 
