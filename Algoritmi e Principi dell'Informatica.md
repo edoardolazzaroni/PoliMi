@@ -551,13 +551,8 @@ Un’espressione regolare è un’espressione utilizzabile per denotare un lingu
 - Dato un alfabeto di simboli terminali denotato con $V_T$, si definiscono su di esso le espressioni regolari e i corrispondenti linguaggi denotati:
 	- $∅$ è un’espressione regolare che denota il linguaggio vuoto;
 	- $∀a∈V_T,a$ è un’espressione regolare che denota il linguaggio formato solo dal simbolo $a$;
-	- Se $R_1$ ed $R_2$ sono espressioni regolari, anche la loro unione, indicata con R1 + R2 o R1 |R2, `e
-
-un’espressione regolare;
-
-Se R1 ed R2 sono espressioni regolari, anche la loro concatenazione, indicata con R1·R2, `e
-
-un’espressione regolare;
+	- Se $R_1$ ed $R_2$ sono espressioni regolari, anche la loro unione, indicata con $R_1 + R_2$ o $R_1 | R_2$, è un’espressione regolare;
+	- Se $R_1$ ed $R_2$ sono espressioni regolari, anche la loro concatenazione, indicata con $R_1·R_2$, è un’espressione regolare;
 
 Se R `e un’espressione regolare, anche la stella di Kleene di R, indicata con R∗, `e un’espressione
 
