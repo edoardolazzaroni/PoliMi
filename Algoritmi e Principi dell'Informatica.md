@@ -5,6 +5,7 @@
 
 ## **Linguaggi Formali**
 
+
 ### **1.1 Alfabeti e Stringhe**
 
 Di seguito sono riportate alcune definizioni importanti riguardanti i linguaggi formali:
@@ -71,6 +72,7 @@ Poichè i linguaggi sono un insieme di stringhe, valgono tutte le **operazioni i
 	- Chiusura di Kleene: $\left ( L^∗= \bigcup_{n=0}^{∞} L^{n}, L^+ = \bigcup_{n=1}^{∞} L^{n}\right )$.
 
 Le operazioni su di un determinato linguaggio crea nuove classi di linguaggi con caratteristiche proprie, talvolta interessanti. Un linguaggio diventa di interesse nel momento in cui le stringhe di cui è composto possono essere utilizzate per veicolare informazioni, problemi, soluzioni o per rappresentare programmi, documenti, elementi multimediali o, nel caso più rilevante, per rappresentare computazioni.
+
 
 
 
@@ -400,7 +402,9 @@ ottenuta con il metodo della diagonalizzazione.
 
 
 
-##**2.3 Automi non Deterministici**
+
+## **Automi non Deterministici**
+
 
 Tutti modelli analizzati fino ad ora sono deterministici, nel senso che una volta fissato lo stato iniziale e
 
