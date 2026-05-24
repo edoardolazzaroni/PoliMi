@@ -523,12 +523,11 @@ Studiando le grammatiche e i linguaggi da esse generate, si può osservare una c
 - **Teorema**: dato un FSA $A$, è possibile costruire una grammatica regolare (di tipo 3) $G$ ad esso equivalente, ossia in grado di riconoscere lo stesso linguaggio riconosciuto da $A$, e viceversa. Dunque, le grammatiche regolari e gli automi a stati finiti sono modelli differenti per descrivere la stessa classe di linguaggi.
 
 Dato un FSA $A=< I,δ,q_0,F >$, si può costruire una grammatica $G=< V_N,V_T,P,S >$ regolare, tale che:
-
-	- VN = Q;
-	- VT = I;
+	- $V_N = Q$;
+	- $V_T = $I$;
 	- S= q0;
 	- ∀B →bC ⇐⇒ C ∈δ(B,b);
-	- ∀B →ε,B ∈F
+	- ∀B →ε,B ∈F.
 
 Data una grammatica G=< VN,VT,P,S > regolare, si pu`o costruire un FSA A=< I,δ,q0,F >, tale
 
