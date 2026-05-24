@@ -524,16 +524,13 @@ Studiando le grammatiche e i linguaggi da esse generate, si può osservare una c
 
 Dato un FSA $A=< I,δ,q_0,F >$, si può costruire una grammatica $G=< V_N,V_T,P,S >$ regolare, tale che:
 	- $V_N = Q$;
-	- $V_T = $I$;
-	- S= q0;
-	- ∀B →bC ⇐⇒ C ∈δ(B,b);
-	- ∀B →ε,B ∈F.
+	- $V_T = I$;
+	- $S= q_0$;
+	- $∀B →bC ⇐⇒ C ∈δ(B,b)$;
+	- $∀B →ε,B ∈F$.
 
-Data una grammatica G=< VN,VT,P,S > regolare, si pu`o costruire un FSA A=< I,δ,q0,F >, tale
-
-che:
-
-Q= VN ∪{qF};
+Data una grammatica $G=< V_N,V_T,P,S >$ regolare, si può costruire un FSA $A=< I,δ,q_0,F >$, tale che:
+-Q= VN ∪{qF};
 
 I= VT;
 
