@@ -643,15 +643,9 @@ Grazie alla seconda parte della tesi di Church si può affermare che è possibil
 
 ### **5.3 Enumerazione delle TM**
 
-Le macchine di Turing possono essere viste come dei calcolatori astratti, specializzati nella risoluzione di un solo problema e non porgrammabili. Ci si pone quindi la domanda: le MT sono in grado di simulare i calcolatori programmabili e di risolvere i problemi da N a N?’
+Le macchine di Turing possono essere viste come dei calcolatori astratti, specializzati nella risoluzione di un solo problema e non porgrammabili. Ci si pone quindi la domanda: le MT sono in grado di simulare i calcolatori programmabili e di risolvere i problemi da $\mathbb{N}$ a $\mathbb{N}$?
 
-Per poter risondere a tale domanda, si noti innanzitutto che dato un qualsiasi insieme S, questo pu`o
-
-essere enumerato algoritmicamente se `e possibile stabilire una biiezione fra l’insieme S e l’insieme dei
-
-numeri naturali N, calcolabile attraverso un algoritmo o da una TM. Alla stessa maniera `e possibile
-
-enumerare algoritmicamente l’insieme delle TM tramite una biiezione E : {TM}↔N. Tale biiezione
+Per poter risondere a tale domanda, si noti innanzitutto che dato un qualsiasi insieme $S$, questo può essere enumerato algoritmicamente se è possibile stabilire una biiezione fra l’insieme $S$ e l’insieme dei numeri naturali $\mathbb{N}$, calcolabile attraverso un algoritmo o da una MT. Alla stessa maniera è possibile enumerare algoritmicamente l’insieme delle MT tramite una biiezione $E : {TM}↔N$. Tale biiezione
 
 `e implementabile da un algoritmo che riceve in ingresso un numero n e ritorna la n-esima macchina
 
