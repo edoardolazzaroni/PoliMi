@@ -657,9 +657,9 @@ Le ==UTM== (Universal Turing Machines) sono MT in grado di modellare dispositivi
 Come si può osservare, la UTM così definita non sembra appartenere all’insieme delle macchine di Turing, in quanto la funzione $g(y,x)$ è opera da $\mathbb{N} ×\mathbb{N}$ ad $\mathbb{N}$, anzichè da $\mathbb{N}$ ad $\mathbb{N}$ come tutte le altre MT.
 È però possibile, come già dimostrato in precedenza, definire una biiezione calcolabile algoritmicamente, tramite la funzione:
 
-$d(x,y) = x+ (x+ y)(x+ y−1)2$
+							$d(x,y) = x+ \frac{(x+ y)(x+ y−1)}{2}$
 
-che mette in corrispondenza l’insieme N ×N, composto dalle coppie di numeri naturali, all’insieme N,
+che mette in corrispondenza l’insieme $\mathbb{N} ×\mathbb{N}$, composto dalle coppie di numeri naturali, all’insieme N,
 
 composto da numeri naturali.
 
