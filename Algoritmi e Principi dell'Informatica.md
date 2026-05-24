@@ -687,25 +687,12 @@ Come si è visto in precedenza, tutte le funzioni computabili $fy : \mathbb{N} �
 Ora, quando si vuole definire una funzione si usa un linguaggio che la esprima, ovvero un sottoinsieme del monoide libero su di un determinato alfabeto finito: dunque, il linguaggio è un insieme numerabile.
 Si ricava quindi che la classe delle funzioni denotabili è a sua volta numerabile.
 
-Quando si scrive un programma, ci sono diverse proprietà che si vorebbero garantire. Una di queste è la terminazione del programma, ovvero la garanzia che, dato un qualsiasi ingresso conforme al programma stesso, esso termini la propria computazione e non vada, dunque, in un ciclo infinito. Nella realtà, però, non è possibile garantire a priori la terminazione del programma per un generico valore in ingresso, n`e decidere atgtraverso un algoritmo se ci`o possa avvenire in corrispondenza di uno specifico valore
+Quando si scrive un programma, ci sono diverse proprietà che si vorebbero garantire. Una di queste è la terminazione del programma, ovvero la garanzia che, dato un qualsiasi ingresso conforme al programma stesso, esso termini la propria computazione e non vada, dunque, in un ciclo infinito. Nella realtà, però, non è possibile garantire a priori la terminazione del programma per un generico valore in ingresso, nè decidere attraverso un algoritmo se ciò possa avvenire in corrispondenza di uno specifico valore in ingresso. Più in generale, il problema della terminazione del calcolo automatico è in generale non decidibile, nonostante tale problema sia definibile. Si è quindi constatato che esistono problemi definibili, ma che non possono essere risolti algoritmicamente: dunque, l’insieme dei problemi definibili contiene strettamente l’insieme dei problemi risolvibili, nonostante entrambi siano numerabili e con la stessa cardinalità.
 
-in ingresso. Pi`u in generale, il problema della terminazione del calcolo automatico `e in generale non
+*Gerarchia dei problemi*
 
-decidibile, nonostante tale problema sia definibile. Si `e quindi constatato che esistono problemi definibili,
 
-ma che non possono essere risolti algoritmicamente: dunque, l’insieme dei problemi definibili contiene
 
-strettamente l’insieme dei problemi risolvibili, nonostante entrambi siano numerabili e con la stessa
-
-cardinalit`a.
-
-fy risolvibili
-
-f definibili
-
-f : N →N (problemi totali)
-
-Figura 5.2: Gerarchia dei problemi
 
 Teorema 5.5.1 (Halting Problem). Nessuna TM pu`o calcolare la funzione g : N ×N →{0,1}definita
 
