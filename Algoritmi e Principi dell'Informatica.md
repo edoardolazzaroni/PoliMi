@@ -492,16 +492,11 @@ Quindi, un elemento che deve essere ancora raffinato è un simbolo non terminale
 - Data una grammatica $G$, si definisce su $V^∗$ la relazione binaria di derivazione immediata, indicata con il simbolo $⇒$ da $α$ a $β$. Tale relazione sussiste se e solo se $α= α_1γα_2,β= α_1δα_2$, con $α_1,α_2,δ∈V^∗,γ ∈V_N^+,γ →δ∈P$.
 
 Data la definizione di derivazione immediata, si può anche definire la chiusura riflessiva e transitiva, indicata con il simbolo $⇒^∗$, che opera su una serie di stringhe (di simboli elementari o non elementari), anzichè che su una sola stringa.
+Date le precedenti definizioni, si può ora definire il linguaggio generato da una grammatica, tramite la seguente definizione:
 
-Date le precedenti definizioni, si pu`o ora definire il linguaggio generato da una grammatica, tramite
+- Data una grammatica $G$, il linguaggio $L(G)$ generato da $G$ è definito come:
 
-la seguente definizione:
-
-2122 CAPITOLO 4. GRAMMATICHE
-
-Definizione 4.1.3. Data una grammatica G, il linguaggio L(G) generato da G `e definito come:
-
-L(G) = {x|S ⇒∗x,x∈V∗
+							$L(G) = {x|S ⇒^∗x,x∈V_T∗$
 
 T}
 
