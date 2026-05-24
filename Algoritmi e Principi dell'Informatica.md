@@ -617,23 +617,11 @@ Più formalmente, data una MT $M$, è possibile costruire un programma, scritto 
 
 La tesi di Church non è un teorema perchè per sua natura non è dimostrabile, in quanto andrebbe verificato ogni qual volta si introducesse un nuovo formalismo computazionale.
 
-In base a questo risultato si può affermare che, se si riesce a dimostrare che un determinato problema è risolvibile da una MT, allora è sicuramente possibile risolverlo mediante un modello matematico di
+In base a questo risultato si può affermare che, se si riesce a dimostrare che un determinato problema è risolvibile da una MT, allora è sicuramente possibile risolverlo mediante un modello matematico di calcolo, che abbia la stessa potenza delle macchine di Turing. Viceversa, se si dimostra che un problema non può essere risolto da una MT, allora è verificato che tale problema è irrisolvibile da qualunque modello matematico.
 
-calcolo, che abbia la stessa potenza delle macchine di Turing. Viceversa, se si dimostra che un problema
+Si introduce ora il concetto di **==algoritmo==**, centrale nell’informatica. Per algoritmo si intende la procedura di risoluzione di un problema mediante un dispositivo automatico di calcolo. Gli algoritmi si possono anche intendere come un metodo astratto di descrizione dei programmi eseguibili, ovvero una sequenza di comandi che, una volta eseguiti, portano alla risoluzione del problema.
 
-non pu`o essere risolto da una TM, allora `e verificato che tale problema `e irrisolvibile da qualunque
-
-modello matematico.
-
-Si introduce ora il concetto di algoritmo, centrale nell’informatica. Per algoritmo si intende la pro-
-
-cedura di risoluzione di un problema mediante un dispositivo automatico di calcolo. Gli algoritmi si
-
-possono anche intendere come un metodo astratto di descrizione dei programmi eseguibili, ovvero una
-
-sequenza di comandi che, una volta eseguiti, portano alla risoluzione del problema.
-
-Ogni algoritmo ha le seguneti propriet`a:
+Ogni algoritmo ha le seguenti proprietà:
 
 1. Un algoritmo deve contenere una sequenza finita di istruzioni;
 
