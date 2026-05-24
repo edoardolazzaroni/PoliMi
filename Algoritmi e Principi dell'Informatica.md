@@ -409,6 +409,7 @@ ottenuta con il metodo della diagonalizzazione.
 Tutti modelli analizzati fino ad ora sono deterministici, nel senso che una volta fissato lo stato iniziale e l’ingresso, il comportamento di tale automa è univocamente determinato. In altri termini, per ogni stato e per ogni ingresso è sempre possibile determinare a priori lo stato in cui l’automa termina la propria esecuzione.
 Ci sono però casi in cui questo non è possibile, in quanto non si ha una conoscenza sufficientemente accurata del comportamento dell’automa per poter prevedere l’esatta evoluzione del modello. In tal caso si dice che l’automa è non deterministico.
 
+
 3.1 Automi a Stati Finiti non deterministici
 
 Gli NFSA (Nondeterministic Finite State Automaton) sono automi a stati finiti che presentano un
