@@ -659,17 +659,13 @@ Come si può osservare, la UTM così definita non sembra appartenere all’insie
 
 							$d(x,y) = x+ \frac{(x+ y)(x+ y−1)}{2}$
 
-che mette in corrispondenza l’insieme $\mathbb{N} ×\mathbb{N}$, composto dalle coppie di numeri naturali, all’insieme N,
+che mette in corrispondenza l’insieme $\mathbb{N} ×\mathbb{N}$, composto dalle coppie di numeri naturali, all’insieme $\mathbb{N}$, composto da numeri naturali.
 
-composto da numeri naturali.
+Graficamente, è come visitare le coppie di punti nel piano in un ordine prefissato, dove la posizione di un punto nella visita rappresenta il numero naturale associato alla coppia che identifica le coordinate del punto.
 
-Graficamente, `e come visitare le coppie di punti nel piano in un ordine prefissato, dove la posizione
+*Grafico di biiezione*
 
-di un punto nella visita rappresenta il numero naturale associato alla coppia che identifica le coordinate
-
-del punto.
-
-Figura 5.1: Grafico di biiezione
+![[Algoritmi e Principi dell'Informatica-1779633374904.webp]]
 
 Si osservi che la funzione g(y,x) `e computabile da una macchina di Turing, ossia ∃i∈N : fi = g, ed
 
