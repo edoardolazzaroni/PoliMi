@@ -604,21 +604,14 @@ Il riconoscimento di linguaggi e la loro traduzione sono due formulazioni differ
 
 				$L_τ = \left\{z |z = xSy, x ∈V_1^∗ , y= τ(x) ∈V_2^∗ , S \notin(V_1 ∪V_2)\right\}$
 
-Ovvero il linguaggio formato da una stringa e la sua traduzione, separati dal simbolo $S$. Un dispositivo che riconosce il linguaggio $L_τ$ può essere utilizzato come trasduttore che calcola $τ$: per ogni $x$, infatti, è possibile enumerare tutte le $y∈V_2^∗$ e verificare se $xSy ∈L_τ$ oppure no. Prima o poi, se la funzione $τ(x)  ⊥$, verr`a trovata una stringa per
+Ovvero il linguaggio formato da una stringa e la sua traduzione, separati dal simbolo $S$. Un dispositivo che riconosce il linguaggio $L_τ$ può essere utilizzato come trasduttore che calcola $τ$: per ogni $x$, infatti, è possibile enumerare tutte le $y∈V_2^∗$ e verificare se $xSy ∈L_τ$ oppure no. Prima o poi, se la funzione $τ(x) \ne ⊥$, verrà trovata una stringa per cui la macchina risponderà positivamente.
 
-cui la macchina risponder`a positivamente.
 
-5.2 Tesi di Church
+### **5.2 Tesi di Church**
 
-Le macchine di Turing, come visto in precedenza, sono il formalismo pi`u potente che si ha a disposizione
+Le macchine di Turing, come visto in precedenza, sono il formalismo più potente che si ha a disposizione per il calcolo computazionale: ogni programma eseguibile da un calcolatore moderno può essere eseguito anche da una macchina di Turing. Dunque, le macchine di Turing hanno la stessa espressività dei linguaggi di programmazione ad alto livello, detti anche Turing completi.
 
-per il calcolo computazionale: ogni programma eseguibile da un calcolatore moderno pu`o essere eseguito
-
-anche da una macchina di Turing. Dunque, le macchine di Turing hanno la stessa espressivit`a dei
-
-linguaggi di programmazione ad alto livello, detti anche Turing completi.
-
-Pi`u formalmente, data una TM M, `e possibile costruire un programma, scritto in un determinato
+Più formalmente, data una MT $M, `e possibile costruire un programma, scritto in un determinato
 
 linguaggio di programmazione (come C, Java ecc...), che simuli il ocmportamento di M, purch`e il calco-
 
