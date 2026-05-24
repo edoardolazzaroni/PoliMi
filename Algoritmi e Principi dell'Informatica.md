@@ -720,19 +720,13 @@ In questa sezione si prendono in particolare considerazione i sottoinsiemi di $\
 
 - La funzione caratteristica $c_S : \mathbb{N} →\left\{0,1\right\}$ di un insieme $S$ è definita come segue: $c_S(x) =$ `if` $x∈S$ `then` $1$ `else` $0$
 
-La risolvibilità del problema di appartenenza ad un insieme (detta anche ricorsività dell’insieme) dipende dalla computabilità della funzione caratteristica cS, come definito di seguito:
+La risolvibilità del problema di appartenenza ad un insieme (detta anche ricorsività dell’insieme) dipende dalla computabilità della funzione caratteristica $c_S$, come definito di seguito:
 
-Definizione 5.6.2. Un insieme S `e ricorsivo (o decidibile) se e solo se la sua funzione caratteristica `e
+- Un insieme $S$ è ricorsivo (o decidibile) se e solo se la sua funzione caratteristica è computabile.
 
-computabile.
+Si noti, inoltre, che per ogni insieme $S$, la sua funzione caratteristica $c_S$ è totale: infatti, dato un qualsiasi elemento $x∈\mathbb{N}$, questo necessariamente apparteniene o non appartiene all’insieme.
 
-Si noti, inoltre, che per ogni insieme S, la sua funzione caratteristica cS `e totale: infatti, dato un
-
-qualsiasi elemento x∈N, questo necessariamente apparteniene o non appartiene all’insieme.
-
-Definizione 5.6.3. Un insieme S `e ricorsivamente enumerabile (o semidecidibile) se e solo se `e l’insieme
-
-vuoto oppure `e l’immagine di una funzione totale e computabile gs, ovvero:
+- Un insieme $S$ è ricorsivamente enumerabile (o semidecidibile) se e solo se è l’insieme vuoto oppure è l’immagine di una funzione totale e computabile $g_s$, ovvero:
 
 S= Igs
 
