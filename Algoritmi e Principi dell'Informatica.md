@@ -665,9 +665,10 @@ Graficamente, è come visitare le coppie di punti nel piano in un ordine prefiss
 
 *Grafico di biiezione*
 
-![[Algoritmi e Principi dell'Informatica-1779633374904.webp]]
+![[Algoritmi e Principi dell'Informatica-1779633374904.webp|383]]
 
-Si osservi che la funzione g(y,x) `e computabile da una macchina di Turing, ossia ∃i∈N : fi = g, ed
+
+Si osservi che la funzione $g(y,x)$ è computabile da una macchina di Turing, ossia ∃i∈N : fi = g, ed
 
 `e possibile calcolarla tramite i seguenti passaggi:
 
