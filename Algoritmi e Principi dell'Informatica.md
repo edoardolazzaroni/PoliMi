@@ -338,21 +338,10 @@ Ora, data la definizione di configurazione, è necessario anche formalizzare il 
 	3. Vale anche una delle seguenti condizioni, per $1 ≤r≤k$:
 		(a) $α′_r= α_r,A′_r= C_r,β′_r=β_r$, ed $N_r = S$;
 		(b) $α′_r= α_rC_r,A′_r= B_r,β′_r=β_r$, ed $N_r = R$; se $β_r = ε$, allora $A′_r=(blank)$ e $β′_r= ε$;
-		(c) $α′_r= α_r,A′_r= A_r,β′_r = C_rβ_r$ ed Nr = L;
-
-= βr, ed Nr = R; se βr = ε, allora A′
-
-= e β′
-
-r
-
-= ε;
-
-4. Vale anche una delle seguenti condizioni:
-
-(a) u’=u, o’=v ed M=S;
-
-(b) u’=uv, o= ed M=R
+		(c) $α′_r= α_r,A′_r= A_r,β′_r = C_rβ_r$ ed $N_r = L$;
+	4. Vale anche una delle seguenti condizioni:
+		(a) $u’=u, o’=v$ ed $M=S$;
+		(b) $u’=uv, o=(blank)$ ed M=R
 
 Se nei casi 2c e 3c, x= ε oppure α= ε, allora non esiste una configurazione c’ tale che c⊢c′ e la
 
