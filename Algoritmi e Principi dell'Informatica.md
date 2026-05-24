@@ -441,12 +441,13 @@ Un ==NPDA== (Nondeterministic Push Down Automaton) è un automa che presenta un 
 
 La relazione di transizione fra configurazioni su $Q×I^∗×Γ^∗$ è definita da $< q,x,γ >⊢< q′,x′,γ′>$ se e solo se vale una delle seguenti condizioni:
 
-1. x= ay,x′ = y,γ= Aβ,γ′ = αβ,<q′,α>∈δ(q,a,A);
-2. x= x′,γ= Aβ,γ′= αβ,<q′,α>∈δ(q,ε,A).
+1. $x= ay,x′ = y,γ= Aβ,γ′ = αβ,<q′,α>∈δ(q,a,A)$;
+2. $x= x′,γ= Aβ,γ′= αβ,<q′,α>∈δ(q,ε,A)$.
 
-Inoltre, la stringa x∈I∗ è accettata dall’automa se e solo se:
+Inoltre, la stringa $x∈I^∗$ è accettata dall’automa se e solo se:
 
-						<q0,x,Z0 >⊢∗<q∈F,ε,γ ∈Γ∗>.
+						$<q0,x,Z0 >⊢∗<q∈F,ε,γ ∈Γ∗>.$
+
 
 Si noti che i PDA sono automi intrinsecamente non deterministici: infatti, nella prima definizione di
 
