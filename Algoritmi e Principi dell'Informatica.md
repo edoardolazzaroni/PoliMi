@@ -333,13 +333,10 @@ Ora, data la definizione di configurazione, è necessario anche formalizzare il 
 	1. Vale che $p= q′$;
 	2. Vale anche una delle seguenti condizioni:
 		(a) $x=x’, i=i’, y=y’$ ed $N=S$;
-		(b) $x’=xi, i’=j, y’=y$ ed N=R;
-		(c) x’=x, i’=i, y’=iy ed N=L;
+		(b) $x’=xi, i’=j, y’=y$ ed $N=R$;
+		(c) $x’=x, i’=i, y’=iy$ ed $N=L$;
 	3. Vale anche una delle seguenti condizioni, per $1 ≤r≤k$:
-
-(a) α′
-
-r
+		(a) α′r
 
 (b) α′
 
