@@ -386,21 +386,13 @@ Il modello originario di automa, pensato da Alan Turing (padre fondatore dell’
 	- $A$ è un alfabeto finito caratteristico del nastro;
 	- $q_0 ∈Q$ è lo stato iniziale;
 	- $F ⊆Q$ è l’insieme di stati finali;
-	- $δ: (Q−F) ×A→Q×A×{R,L,S}$ è la funzione di transizione (eventualmente parziale).
+	- $δ: (Q−F) ×A→Q×A×\left \{R,L,S\right \}$ è la funzione di transizione (eventualmente parziale).
 
 Si noti che, le macchine di Turing ad 1 nastro sono un modello di automa differente rispetto ad una macchina di Turing a singolo nastro: nel primo caso, la TM presenta ben tre nastri (uno di ingresso, uno di uscita e uno di memoria), mentre nel secondo caso, la MT presenta un unico nastro.
 
-Teorema 2.3.2. Le TM multinastro e le TM a nastro singolo sono formalismi equivalenti, ossia accet-
+- Le MT multinastro e le MT a nastro singolo sono formalismi equivalenti, ossia accettano la stessa classe di linguaggi e realizzano la stessa classe di traduzioni.
 
-tano la stessa classe di linguaggi e realizzano la stessa classe di traduzioni.
-
-Ognuno dei modelli di macchine di Turing precedentemente analizzati possono essere dotati di nastri
-
-multidimensionali: il modello che se ne ricava `e la TM con nastro multimensionale. Un nastro k-
-
-dimensionale `e realizzato in modo che ogni cella sia identificata univocamente da una tupla di k interi
-
-positivi. Anche questo modello di macchina di Turing `e equivalente agli altri analizzati, in quanto
+Ognuno dei modelli di macchine di Turing precedentemente analizzati possono essere dotati di nastri multidimensionali: il modello che se ne ricava è la MT con nastro multimensionale. Un nastro $k$-dimensionale è realizzato in modo che ogni cella sia identificata univocamente da una tupla di $k$ interi positivi. Anche questo modello di macchina di Turing `e equivalente agli altri analizzati, in quanto
 
 si pu`o stabilire una corrispondenza biiettiva fra N −{0}e (N −{0})k, che indicano rispettivamente
 
