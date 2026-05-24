@@ -484,7 +484,7 @@ Una grammatica non è altro che un meccanismo linguistico, composto dall’ogget
 - Una ==grammatica== $G$ è una tupla di 4 elementi $G=<V_T,V_N,P,S >$, dove:
 	- $V_T$ è un insieme di simboli terminali (solitamente indicati con lettere minuscole), detto anche **alfabeto terminale**;
 	- $V_N$ è un insieme di simboli non terminali (solitamente indicati con lettere maiuscole), tali che $V_T ∩V_N = ∅$, detto anche **alfabeto non terminale**; $V$ indica $V_T ∪V_N$;
-	- P `e un insieme finito di V+N ×V∗, detto anche insieme delle produzioni di G. Un elemento p=<α,β >∈P si indica con α→β, in cui α `e la parte sinistra di p, mentre β `e la parte destra di p;
+	- $P$ è un insieme finito di $V+N ×V^∗$, detto anche **insieme delle produzioni** di G. Un elemento $p=<α,β >∈P$ si indica con $α→β$, in cui $α$ è la parte sinistra di $p$, mentre $β$ è la parte destra di $p;
 	- S `e un elemento particolare di VN, detto assioma o simbolo iniziale.
 
 Quindi, un elemento che deve essere ancora raffinato è un simbolo non terminale, un elemento di base è un simbolo terminale, le componenti di un oggetto possono essere sia simboli terminali che non terminali, mentre una produzione corrisponde ad una regola di raffinamento.
