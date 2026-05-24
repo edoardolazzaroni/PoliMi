@@ -421,8 +421,7 @@ Di conseguenza, la chiusura riflessiva e transitiva di tale funzione, si definis
 							$δ^∗(q,ε) = \left \{q\right \}, ∀q$
 						$δ∗(q,xi) =\bigcup_{q′∈δ^∗(q,x)}^{ } δ(q′,i)$
 
-Nel caso di accettatori, x∈I∗`e accettata da un NFSA <Q,I,δ,q0,F >se e solo se δ∗(q0,x)∩F= ∅.
-
+Nel caso di accettatori, $x∈I^∗$ è accettata da un NFSA $<Q,I,δ,q_0,F >$ se e solo se $δ∗(q0,x)∩F= ∅$.
 In altre parole, un NFSA pu`o presentare diverse sequenze di transizioni per ogni dato stato e per
 
 ogni data sequenza di ingresso, quindi la chiusura riflessive e transitiva della funzione δ non rappresenta
