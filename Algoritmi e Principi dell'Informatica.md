@@ -838,20 +838,11 @@ Dal concetto di interpretazione, si possono definire le seguenti proprietà dell
 - Ogni formula del tipo $F ∧¬F$ è una contraddizione, indicata con $⊥$;
 - Ogni formula del tipo $F ∨¬F$ è detta principio del terzo escluso, indicata con $⊤$.
 
-Un insieme di formule $F$ comporta logicamente una formula $G$ o, equivalentemente, una formula $G$ è una conseguenza logica di un insieme di formule $F$, se ogni modello di $F$ è anche un modello di $G$ e si
-
-scrive con F⊨ G. Dopo aver stabilito una corrispondenza semantica fra due formule logiche, `e possibile
-
-anche stabilire una relazione di equivalenza fra due formule logiche, relazione che vale solamente se la
-
-corrispondenza fra le due formule `e biunivoca, ovvero se vale sia F ⊨ Gche G⊨ F: una tale relazione si
-
-rappresenta con la scrittura F ≡G.
+Un insieme di formule $F$ comporta logicamente una formula $G$ o, equivalentemente, una formula $G$ è una conseguenza logica di un insieme di formule $F$, se ogni modello di $F$ è anche un modello di $G$ e si scrive con $F⊨ G$. Dopo aver stabilito una corrispondenza semantica fra due formule logiche, è possibile anche stabilire una relazione di equivalenza fra due formule logiche, relazione che vale solamente se la corrispondenza fra le due formule è biunivoca, ovvero se vale sia $F ⊨ G$ che $G⊨ F$: una tale relazione si rappresenta con la scrittura $F ≡G$.
 
 Esistono innumerevoli equivalenze notevoli:
 
-F ∧F ≡F
-
+$F ∧F ≡F
 F ∨F ≡F
 
 F ∧G≡G∧F
@@ -880,7 +871,7 @@ F ⇔G≡(F ⇒G) ∧(G⇒F)
 
 F ⇒G≡¬F ∨G
 
-F ⇒G≡¬G⇒¬F
+F ⇒G≡¬G⇒¬F$$
 
 In logica prposizionale `e anche possibile sostituire una sottoformula G di una formula ben formata F
 
