@@ -982,19 +982,11 @@ Dato un alfabeto $I$, una stringa $w∈I^+$ ed un simbolo $a∈I$, $a(x)$ è ver
 ### **6.4 Logica Monadica del Secondo Ordine**
 
 Per riuscire ad ottenere lo stesso potere espressivo degli FSA è necessario permettere alla logica del primo ordine di quantificare sui predicati monadici, ovvero di poter quantificare anche su insiemi di posizioni.
-Si ammettono quindi formule del tipo $∃X(F)$ oppure $∃X(x)4, in cui $X$ ` detta essere una variabile del
+Si ammettono quindi formule del tipo $∃X(F)$ oppure $∃X(x)4, in cui $X$ è detta essere una variabile del secondo ordine, il cui dominio non è più l’insieme dei numeri naturali $\mathbb{N}$, ma l’insieme dei predicati monadici. Per convenzione si utilizzano le lettere maiuscole per indicare le variabili del secondo ordine e lettere minuscole per le variabili del primo ordine.
 
-secondo ordine, il cui dominio non `e pi`u l’insieme dei numeri naturali N, ma l’insieme dei predicati
 
-monadici. Per convenzione si utilizzano le lettere maiuscole per indicare le variabili del secondo ordine e
-
-lettere minuscole per le variabili del primo ordine.
-
-Semantica L’assegnamento delle variabili del secondo ordine, che fanno parte dell’insiemeV2, avviene
-
-attraverso la funzione v2 : V2 →℘([0,...,|w|−1]) tale che:
-
-w,v1,v2 ⊨ X(x) se e solo se v1(x) ∈v2(X);
+**==Semantica==**: l’assegnamento delle variabili del secondo ordine, che fanno parte dell’insieme $V_2$, avviene attraverso la funzione $v_2 : V_2 →℘([0,...,|w|−1])$ tale che:
+- $w,v1,v2 ⊨ X(x) se e solo se v1(x) ∈v2(X);
 
 w,v1,v2 ⊨ ∃X(F) se e solo se w,v1,v′
 
