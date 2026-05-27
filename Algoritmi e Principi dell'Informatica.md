@@ -883,19 +883,11 @@ Ogni simbolo di funzione e relazione ha una **arietà** fissata, che indica il n
 
 Per poter scrivere formule nella logica del primo ordine c’è la necessità di denotare tutti gli oggetti di cui il linguaggio $L$ può parlare, detti termini. Tale denotazione avviene induttivamente come segue:
 - ogni variabile è un termine della formula;
-- se $f$ è un simbolo di funzione $n$-aria e $t_1,t_2,...,t_n$ sono termini, allora $f(t_1,t_2,...,tn) `e un termine.
+- se $f$ è un simbolo di funzione $n$-aria e $t_1,t_2,...,t_n$ sono termini, allora $f(t_1,t_2,...,t_n)$ è un termine.
 
-Gli oggetti appena denotati attraverso i termini, si possono utilizzare all’interno delle formule della
-
-logica del primo ordine, definite anch’esse in maniera induttiva. L’insieme delle formule della logica del
-
-primo ordine `e definito come il pi`u piccolo insieme tale che:
-
-Se p`e un simbolo di relazione n-aria e t1,t2,...,tn sono termini, allora p(t1,t2,...,tn) `e una formula
-
-detta atomica o semplicemente atomo;
-
-Se F e G sono formule e X `e una variabile, allora¬F,F ∨G,F ∧G,F ⇒G,F ⇔G,∃XF,∀XF
+Gli oggetti appena denotati attraverso i termini, si possono utilizzare all’interno delle formule della logica del primo ordine, definite anch’esse in maniera induttiva. L’insieme delle formule della logica del primo ordine è definito come il più piccolo insieme tale che:
+- Se $p$ è un simbolo di relazione $n$-aria e $t_1,t_2,...,t_n$ sono termini, allora $p(t_1,t_2,...,t_n)$ è una formula detta atomica o semplicemente atomo;
+- Se $F$ e $G$ sono formule e $X$ è una variabile, allora¬F,F ∨G,F ∧G,F ⇒G,F ⇔G,∃XF,∀XF
 
 sono formule.
 
