@@ -987,15 +987,9 @@ Si ammettono quindi formule del tipo $∃X(F)$ oppure $∃X(x)4, in cui $X$ è d
 
 **==Semantica==**: l’assegnamento delle variabili del secondo ordine, che fanno parte dell’insieme $V_2$, avviene attraverso la funzione $v_2 : V_2 →℘([0,...,|w|−1])$ tale che:
 - $w,v_1,v_2 ⊨ X(x)$ se e solo se $v_1(x) ∈v_2(X)$;
-- $w,v_1,v_2 ⊨ ∃X(F)$ se e solo se $w,v_1,v_2' ⊨ F$ per qualche $v_2'(Y) = v_2(Y), Y \ne X
+- $w,v_1,v_2 ⊨ ∃X(F)$ se e solo se $w,v_1,v_2' ⊨ F$ per qualche $v_2'(Y) = v_2(Y), Y \ne X$.
 
-Tramite questa logica, si possono scrivere formule che risolvono il problema della rappresentazione
-
-del linguaggio Lp, composto da tutte e sole le stringhe di lunghezza pari con I= {a}, che si pu`o indicare
-
-nel seguente modo: ∃D(∀x(¬D(0) ∧(¬D(x) ⇔D(x+ 1)) ∧a(x) ∧(last(x) ⇒D(x)))), in cui D `e una
-
-variabile del secondo ordine che indica le posizioni dispari.
+Tramite questa logica, si possono scrivere formule che risolvono il problema della rappresentazione del linguaggio $L_p$, composto da tutte e sole le stringhe di lunghezza pari con $I= \left\{a\right\}$, che si può indicare nel seguente modo: $∃D(∀x(¬D(0) ∧(¬D(x) ⇔D(x+ 1)) ∧a(x) ∧(last(x) ⇒D(x))))$, in cui $D$ è una variabile del secondo ordine che indica le posizioni dispari.
 
 Si pu`o dimostrare che, data una qualsiasi formula F appartenente alla logica monadica del secondo
 
