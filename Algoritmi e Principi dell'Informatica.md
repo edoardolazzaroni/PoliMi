@@ -736,9 +736,8 @@ per questo motivo, l’insieme $S$ viene anche detto **semidecidibile**.
 
 
 Quindi, riepilogando, si dice che un insieme $S$ è:
-Ricorsivo (o Decidibile), se e solo se la sua funzione caratteristica cS `e computabile;
-
-Ricorsivamente enumerabile (o Semidecidibile), se e solo se:
+- **RICORSIVO** (o decidibile), se e solo se la sua funzione caratteristica $c_S$ è computabile;
+- RICORSIVAMENTE ENUMERABILE (o semidecidibile), se e solo se:
 
 – S `e l’insieme vuoto;
 
