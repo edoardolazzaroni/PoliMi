@@ -796,7 +796,7 @@ I concetti di logica introdotti di seguito sono utilizzati per definire in manie
 Il calcolo proposizionale, detto anche logica proposizionale, è un modello dichiarativo formale della logica matematica che si basa sul concetto di proposizione, ovvero frasi che possono assumere solamente il valore vero o il valore falso. In generale, ogni linguaggio consiste di una sintassi e di una semantica: la sintassi è l’insieme delle regole attraverso cui è possibile costruire le frasi di cui il linguaggio è composto, mentre la semantica spiega il significato delle varie frasi del linguaggio.
 
 
-==**Sintassi**== In modo formale: la logica proposizionale è composta da un linguaggio $L$, il cui alfabeto è costituito dai seguenti elementi:
+==**Sintassi**==: In modo formale, la logica proposizionale è composta da un linguaggio $L$, il cui alfabeto è costituito dai seguenti elementi:
 	1. Un insieme numerabile (finito o non) di proposizioni (simboli di relazione nullaria), che possono essere simboli, stringhe o frasi;
 	2. Un insieme di connettivi logici: $¬$(NOT), $∧$(AND), $∨$(OR), $⇒$(implicazione) e $⇔$(coimplicazione);
 	3. Un insieme di simboli di punteggiatura: $( e )$
@@ -818,11 +818,9 @@ Una volta introdotte le formule ben formate, è possibile definire le sottoformu
 - Se $G∧H,G∨H,G⇒H,G⇔H ∈Stfm(F)$, allora $H,G∈Stfm(F)$.
 
 
-**==Semantica==**: la semantica, invece, ha lo scopo di assegnare un significato alle formule appena definite, tramite una funzione $I$, detta interpretazione, che mappa ogni proposizione ad un valore di verità (vero o falso): formalmente, $I : \left\{fbf\right\}→\left\{0,1\right\}$. Tale funzione, quindi, non fa altro che assegnare il valore di vero $(1)$ o falso $(0)$ alle lettere proposizionali costanti e valuta il valore di verità di $¬F,F ∧G,F ∨G,F ⇒G,F ⇔G$ sulla base dei valori di verità delle proposizioni $F$ e $G$.
+**==Semantica==**: la semantica, invece, ha lo scopo di assegnare un significato alle formule appena definite, tramite una funzione $I$, detta interpretazione, che mappa ogni proposizione ad un valore di verità (vero o falso): formalmente, $I : \left\{fbf\right\}→\left\{0,1\right\}$. Tale funzione, quindi, non fa altro che assegnare il valore di vero $(1)$ o falso $(0)$ alle lettere proposizionali costanti e valuta il valore di verità di $¬F,F ∧G,F ∨G,F ⇒G,F ⇔G$ sulla base dei valori di verità delle proposizioni $F$ e $G$
 
-Da qui, si introduce il simbolo ⊨, che si utilizza per associare formule ed interpretazioni. Dunque, la
-
-scrittura I ⊨ F, che si legge I rende vera F, vale nei seguenti casi:
+Da qui, si introduce il simbolo $⊨$, che si utilizza per associare formule ed interpretazioni. Dunque, la scrittura $I ⊨ F$, che si legge $I$ rende vera $F, vale nei seguenti casi:
 
 I ⊨ A se e solo se I(A) = T, con A proposizione;
 
