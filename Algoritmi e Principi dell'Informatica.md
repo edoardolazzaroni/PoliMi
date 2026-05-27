@@ -760,11 +760,12 @@ Quindi, dato l’insieme $K= \left\{x|f(x) \ne ⊥ \right\}$questo è semidecidi
 *Gerarchia degli insiemi*
 
 
+
 *Con RE si indicano gli insiemi Ricorsivamente Enumerabili.
+Si noti che tutte le inclusioni sono strette.
 
-Si noti che tutte le inclusioni sono strette.5.7. TEOREMI DI KLEENE E RICE 31
 
-5.7 Teoremi di Kleene e Rice
+**5.7 Teoremi di Kleene e Rice**
 
 Teorema 5.7.1 (Teorema di Kleene del punto fisso). Sia t una qualunque funzione totale e computabile.
 
