@@ -727,13 +727,9 @@ La risolvibilità del problema di appartenenza ad un insieme (detta anche ricors
 Si noti, inoltre, che per ogni insieme $S$, la sua funzione caratteristica $c_S$ è totale: infatti, dato un qualsiasi elemento $x∈\mathbb{N}$, questo necessariamente apparteniene o non appartiene all’insieme.
 
 - Un insieme $S$ è ricorsivamente enumerabile (o semidecidibile) se e solo se è l’insieme vuoto oppure è l’immagine di una funzione totale e computabile $g_s$, ovvero:
-							$S= I_{g_s} = \left\{x|∃y,y∈\N} ∧x= g_s(y)\right\}$
+							$S= I_{g_s} = \left\{x|∃y,y∈\mathbb{N} ∧x= g_s(y)\right\}$
 
-Gli insiemi decidibili devono il loro nome al fatto che il problema di appartenenza pu`o essere risolto
-
-tramite un algoritmo meccanico e che, quindi, una TM che implementi la loro funzione caratteristica
-
-fornisce necessariamente una risposta al quesito se x∈S,∀x∈N. Inoltre, per ogni insieme ricorsivamente
+Gli insiemi decidibili devono il loro nome al fatto che il problema di appartenenza può essere risolto tramite un algoritmo meccanico e che, quindi, una MT che implementi la loro funzione caratteristica fornisce necessariamente una risposta al quesito se $x∈S$,$∀x∈\mathbb{N}$. Inoltre, per ogni insieme ricorsivamente
 
 numerabile S `e possibile costruire una sequenza x0 = gS(0),x1 = gS(1),x2 = gS(2),... tale per cui, se
 
