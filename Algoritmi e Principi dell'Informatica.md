@@ -806,9 +806,11 @@ Una proposizione si dice essere atomica quando non può essere scomposta in part
 
 La sintassi del linguaggio definisce le sequenze ammissibili di simboli sull’alfabeto, le cosiddette formule ben formate *(fbf)*. L’insieme di queste formule ben definite su $L$ è il più piccolo insieme tale che ogni proposizione è una formula e, se $F$ e $G$ sono formule, allora anche $¬F, F∧G, F∨G, F ⇒GF ⇔G$ sono formule. In logica proposizionale si ha che se $A$ è una proposizione, allora $A$ e $¬A$ sono letterali, in cui $A$ è letterale positivo, mentre $¬A$ è detto letterale negativo. Infine, si dice letterale complementare la proposizione $L^-$ definito come $¬A$ se $L= A$, oppure $A$ se $L= ¬A$.
 
-Una volta introdotte le formule ben formate, è possibile definire le sottoformule, ovvero una parte di una *fbf* che è a sua volta una *fbf*. L’insieme *Stfm(F)* delle sottoformule di $F$ è definito come il più
+*Tabella della verità dei connettivi logici*
 
-piccolo insieme di formule tale che:
+![[Algoritmi e Principi dell'Informatica-1779876036792.webp]]
+
+Una volta introdotte le formule ben formate, è possibile definire le sottoformule, ovvero una parte di una *fbf* che è a sua volta una *fbf*. L’insieme *Stfm(F)* delle sottoformule di $F$ è definito come il più piccolo insieme di formule tale che:
 
 F ∈Stfm(F);
 
