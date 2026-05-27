@@ -732,14 +732,10 @@ Si noti, inoltre, che per ogni insieme $S$, la sua funzione caratteristica $c_S$
 Gli insiemi decidibili devono il loro nome al fatto che il problema di appartenenza può essere risolto tramite un algoritmo meccanico e che, quindi, una MT che implementi la loro funzione caratteristica fornisce necessariamente una risposta al quesito se $x∈S$,$∀x∈\mathbb{N}$. Inoltre, per ogni insieme ricorsivamente numerabile $S$ è possibile costruire una sequenza $x_0 = g_S(0),x_1 = g_S(1),x_2 = g_S(2),...$ tale per cui, se $x ∈S$, allora esiste i tale che $x = g_S(i)$. In questo caso, esaminando la sequenza di elementi ${x_i}$ si riuscirà a trovare l’elemento $x$, concludendo che questo appartiene all’insieme $S$. Perciò, se per un qualsiasi $ī$ risultasse che $x \notin\left\{g_S(i) |0 ≤i≤ī\right\}$ non si potrebbe concludere nè che $x∈S$, nè che $x \notin S$:
 per questo motivo, l’insieme $S$ viene anche detto **semidecidibile**.
 
-- **Teorema**: Se $S$ è ricorsivo, è anche ricorsivamente enumerabile. $S$ è ricorsivo se e solo se sia $S$ che = N−S sono ricorsivamente enumerabili.`
+- **Teorema**: Se $S$ è ricorsivo, è anche ricorsivamente enumerabile. $S$ è ricorsivo se e solo se sia $S$ che $S^- = \mathbb{N}−S$ sono ricorsivamente enumerabili.`
 
-30 CAPITOLO 5. COMPUTABILIT
 
-A
-
-Quindi, riepilogando, si dice che un insieme S `e:
-
+Quindi, riepilogando, si dice che un insieme $S$ è:
 Ricorsivo (o Decidibile), se e solo se la sua funzione caratteristica cS `e computabile;
 
 Ricorsivamente enumerabile (o Semidecidibile), se e solo se:
