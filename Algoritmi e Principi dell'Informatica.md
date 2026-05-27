@@ -916,25 +916,16 @@ La relazione di conseguenza logica $⊨$ tra insiemi di formule e formule può e
 
 Come nel caso della logica proposizionale, esistono innumerevoli equivalenze notevoli:
 
-∀X(F) ≡¬(∃X(¬F))
-
-∃X(F) ≡¬(∀X(¬F))
-
-∀X(F) ∧(∀X)G≡∀X(F ∧G)
-
-∃X(F) ∨(∃X)G≡∃X(F ∨G)
-
-(∀X)(∀Y)F ≡(∀Y)(∀X)F
-
-(∃X)(∃Y)F ≡(∃Y)(∃X)F
-
-(∀X(F)) ∧G≡∀X(F ∧G)∗
-
-(∀X(F)) ∨G≡∀X(F ∨G)∗
-
-(∃X(F)) ∧G≡∃X(F ∧G)∗
-
-(∃X(F)) ∨G≡∃X(F ∨G)∗
+$∀X(F) ≡¬(∃X(¬F))$
+$∃X(F) ≡¬(∀X(¬F))$
+$∀X(F) ∧(∀X)G≡∀X(F ∧G)$
+$∃X(F) ∨(∃X)G≡∃X(F ∨G)$
+$(∀X)(∀Y)F ≡(∀Y)(∀X)F$
+$(∃X)(∃Y)F ≡(∃Y)(∃X)F$
+$(∀X(F)) ∧G≡∀X(F ∧G)^∗$
+$(∀X(F)) ∨G≡∀X(F ∨G)^∗$
+$(∃X(F)) ∧G≡∃X(F ∧G)^∗$
+$(∃X(F)) ∨G≡∃X(F ∨G)^∗$
 
 Le equivalenze segnate con * sono valide solo se X non `e libera in G.38 CAPITOLO 6. LOGICA
 
