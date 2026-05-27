@@ -776,17 +776,14 @@ Il teorema di Rice ha un forte impatto pratico negativo, in quanto afferma che i
 
 
 
-Logica
 
-I linguaggi possono essere rappresentati in modi differenti, tramite modelli e astrazioni via via pi`u potenti,
+## **Logica**
 
-tra cui:
 
-Insiemi;
-
-Pattern;
-
-Espressioni Regolari;
+I linguaggi possono essere rappresentati in modi differenti, tramite modelli e astrazioni via via più potenti, tra cui:
+	- Insiemi;
+	- Pattern;
+	- Espressioni Regolari;
 
 Modelli Operazionali (come gli Automi);
 
