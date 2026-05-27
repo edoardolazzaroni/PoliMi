@@ -893,15 +893,12 @@ Gli oggetti appena denotati attraverso i termini, si possono utilizzare all’in
 Nella scrittura di formule appartenenti alla logica del primo ordine, c’è un’osservazione da fare: quando si utilizza il quantificatore $∀$ il connettivo principale utilizzato è $⇒$, mentre nel caso si utilizzi il quantificatore $∃$ allora il connettivo principale è $∧$. Inoltre, se $QX(F)$ rappresenta una formula in cui $Q$ è un quantificatre, allora $F$ si dice **ambito** di $Q$ e che $Q$ è **applicato** ad $F$. Un’occorrenza di una variabile in una formula è legata se e solo se la sua occorrenza è entro l’ambito di un quantificatore che impiega quella variabile, altrimenti è **libera**. Una formula è **chiusa** se e solo se non contiene occorrenze libere di variabili. Le formule chiuse sono quelle per le quali, data un’interpretazione $I$, si può calcolare la veridicità.
 
 
-**==Semantica==**: come per il caso della logica proposizionale, anche la logica del primo ordine ha una semantica basata sul concetto di interpretazione: un’interpretazione $I$ di un alfabeto $A$ è un dominio non vuoto $D$ (indicato anche con $|I|$) e una funzione che che associa ogni costante $c ∈A$ a un oggetto $c_I ∈D$, ogni simbolo $n$-ario di funzione $f ∈A$ a una funzione $f_I : D_n →D$ e ogni simbolo $n$-ario di predicato $p∈A$ a una relazione $p_I ⊆D×D×...×D$ $n$volte. Prima di poter assegnare un significato alle formule, va definito il significato di ogni termine, indicato con $ϕI(t)$ con til termine a cui dare singificato nell’interpretazione $I$.
+**==Semantica==**: come per il caso della logica proposizionale, anche la logica del primo ordine ha una semantica basata sul concetto di interpretazione: un’interpretazione $I$ di un alfabeto $A$ è un dominio non vuoto $D$ (indicato anche con $|I|$) e una funzione che che associa ogni costante $c ∈A$ a un oggetto $c_I ∈D$, ogni simbolo $n$-ario di funzione $f ∈A$ a una funzione $f_I : D^n →D$ e ogni simbolo $n$-ario di predicato $p∈A$ a una relazione $p_I ⊆D×D×...×D$ $n$ volte. Prima di poter assegnare un significato alle formule, va definito il significato di ogni termine, indicato con $ϕ_I(t)$ con til termine a cui dare singificato nell’interpretazione $I$.
 
-ϕ`e induttivamente definito nel seguente modo:
-
-1. cI se t`e una costante c;
-
-2. ϕ(X) se t`e una variabile X;
-
-3. fI(ϕI(t1),...,ϕI(tn)) se t`e nella forma f(t1,...,tn).
+$ϕ$ è induttivamente definito nel seguente modo:
+1. $c_I$ se $t$ è una costante $c$;
+2. $ϕ(X)$ se $t$ è una variabile $X$;
+3. $f_I(ϕI(t1),...,ϕI(tn)) se t`e nella forma f(t1,...,tn).
 
 Ora, sia ϕ una valutazione, X una variabile, I un’interpretazione e cI ∈|I|, allora ϕ[X →cI] `e una
 
