@@ -797,19 +797,12 @@ Il calcolo proposizionale, detto anche logica proposizionale, è un modello dich
 
 - ==**Sintassi**== In modo formale: la logica proposizionale è composta da un linguaggio $L$, il cui alfabeto è costituito dai seguenti elementi:
 	1. Un insieme numerabile (finito o non) di proposizioni (simboli di relazione nullaria), che possono essere simboli, stringhe o frasi;
-	2. Un insieme di connettivi logici: $¬$(NOT), $∧$(AND), $∨$(OR), $⇒(Implicazione) e ⇔(Coimplicazione);
+	2. Un insieme di connettivi logici: $¬$(NOT), $∧$(AND), $∨$(OR), $⇒$(implicazione) e $⇔$(coimplicazione);
+	3. Un insieme di simboli di punteggiatura: $( e )$
 
-3. Un insieme di simboli di punteggiatura: ( e )
+I simboli che compongono l’alfabeto sono privi di significato: assegnarne il significato è compito della semantica.
 
-I simboli che compongono l’alfabeto sono privi di significato: assegnarne il significato `e compito della
-
-semantica.
-
-Una proposizione si dice essere atomica quando non pu`o essere scomposta in parti pi`u piccole. Nel
-
-caso contrario, la proposizione `e composta da due o pi`u proposizioni pi`u piccole legate fra loro trami-
-
-te i connettivi logici appena introdotti. Le parentesi sono utilizzare per modificare la precedenza dei
+Una proposizione si dice essere atomica quando non può essere scomposta in parti più piccole. Nel caso contrario, la proposizione è composta da due o più proposizioni più piccole legate fra loro tramite i connettivi logici appena introdotti. Le parentesi sono utilizzare per modificare la precedenza dei
 
 connettivi, che di base avrebbero il seguente ordine logico:¬,∧,∨,⇒,⇔.
 
