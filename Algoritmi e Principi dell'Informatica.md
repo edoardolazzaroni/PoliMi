@@ -737,15 +737,9 @@ per questo motivo, l’insieme $S$ viene anche detto **semidecidibile**.
 
 Quindi, riepilogando, si dice che un insieme $S$ è:
 - **RICORSIVO** (o decidibile), se e solo se la sua funzione caratteristica $c_S$ è computabile;
-- RICORSIVAMENTE ENUMERABILE (o semidecidibile), se e solo se:
-
-– S `e l’insieme vuoto;
-
-– S `e l’immagine di una funzione gS totale e computabile (detta generatrice);
-
-quindi, S= IgS
-
-= {gS(0),gs(1),gS(2),...}
+- **RICORSIVAMENTE ENUMERABILE** (o semidecidibile), se e solo se:
+		– $S$ è l’insieme vuoto;
+		– $S$ è l’immagine di una funzione $g_S$ totale e computabile (detta generatrice); quindi, $S= I_{g_S} = \left\{g_S(0),g_s(1),g_S(2),...\right\}$
 
 Si consideri ora il seguente teorema:
 
