@@ -898,13 +898,9 @@ Nella scrittura di formule appartenenti alla logica del primo ordine, c’è un�
 $ϕ$ è induttivamente definito nel seguente modo:
 1. $c_I$ se $t$ è una costante $c$;
 2. $ϕ(X)$ se $t$ è una variabile $X$;
-3. $f_I(ϕI(t1),...,ϕI(tn)) se t`e nella forma f(t1,...,tn).
+3. $f_I(ϕ_I(t_1),...,ϕ_I(t_n))$ se $t$ è nella forma $f(t_1,...,t_n)$.
 
-Ora, sia ϕ una valutazione, X una variabile, I un’interpretazione e cI ∈|I|, allora ϕ[X →cI] `e una
-
-valutazione identica a ϕ, eccetto per il fatto che mappa X in cI. Il significato di una formula, quindi,
-
-`e un valore di verit`a che `e definito induttivamente. Dunque la scrittura I ⊨ϕ F, che si legge F `e vero
+Ora, sia $ϕ$ una valutazione, $X$ una variabile, $I$ un’interpretazione e $c_I ∈|I|$, allora $ϕ[X →c_I]$ è una valutazione identica a $ϕ$, eccetto per il fatto che mappa $X$ in $c_I$. Il significato di una formula, quindi,è un valore di verit`a che `e definito induttivamente. Dunque la scrittura I ⊨ϕ F, che si legge F `e vero
 
 rispetto all’interpretazione I e al significato ϕ, vale nei seguenti casi:
 
