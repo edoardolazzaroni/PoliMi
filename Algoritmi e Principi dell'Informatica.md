@@ -935,17 +935,10 @@ Le equivalenze segnate con $*$ sono valide solo se $X$ non è libera in $G$.
 In questa sezione si analizza un frammento della logica monadica del primo ordine, che permette di descrivere certe stringhe su un determinato alfabeto $I$. La logica monadica, come suggerisce il nome, si occupa solamente dei predicati monadici, ovvero di tutti quei predicati che hanno **arietà pari ad uno**.
 
 
-**==Sintassi==** Una generica formula F appartenente alla logica monadica del primo ordine ha una sintassi
-
-molto semplice, articolata nei seguenti casi:
-
-a(x) con a∈I, ovvero un predicato unario per ogni simbolo dell’alfabeto I;
-
-x<y, che costituisce l’unica eccezzione della logica monadica in quanto non `e un operatore unario,
-
-ma binario;
-
-¬F, operatore NOT;
+**==Sintassi==**: una generica formula $F$ appartenente alla logica monadica del primo ordine ha una sintassi molto semplice, articolata nei seguenti casi:
+- $a(x)$ con $a∈I$, ovvero un predicato unario per ogni simbolo dell’alfabeto $I$;
+- $x<y$, che costituisce l’unica eccezzione della logica monadica in quanto non è un operatore unario, ma binario;
+- $¬F$, operatore NOT;
 
 F ∧F, operatore AND;
 
