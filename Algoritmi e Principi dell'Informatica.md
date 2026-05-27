@@ -1060,17 +1060,7 @@ Secondo le definizioni appena enunciate, sia $T_M$ che $S_M$ sono funzioni defin
 
 Una volta analizzata la complessità temporale tramite il formalismo delle macchine di Turing, si sposta l’attenzione sugli altri formalismi analizzati nel capitolo riguardante gli automi, in particolare sugli automi a stati finiti, sugli automi a pila e sulle macchine di Turing a singolo nastro.
 
-Dato un automa a stati finiti $A$, si definisce la complessità temporale $T_A$ come l’intero $i$ tale che $δ_i(q_0,x) = q$ per qualche $q$, se esiste, ovvero il numero di transizioni effettuate per per processare la stringa in ingresso x a partire dallo stato iniziale. Se δ∗(q0,x) `e indefinita, si pone TA = |x|, ovvero
-
-pari alla lunghezza della stringa in ingresso. TA, evidentemente, indica il numero di mosse compiute
-
-da A durante il riconoscimento della stringa x. Dunque, per ogni automa a stati finiti la complessit`a
-
-temporale TA cresce in maniera lineare con il crescere della lunghezza della stringa. Al contrario, la sua
-
-complessit`a spaziale SA non varia mai, in quanto gli FSA sono composti da un numero finito di stati
-
-definiti a priori, indipendentemente dalla lunghezza della stringa letta.
+Dato un automa a stati finiti $A$, si definisce la complessità temporale $T_A$ come l’intero $i$ tale che $δ_i(q_0,x) = q$ per qualche $q$, se esiste, ovvero il numero di transizioni effettuate per per processare la stringa in ingresso $x$ a partire dallo stato iniziale. Se $δ^∗(q_0,x)$ è indefinita, si pone $T_A = |x|$, ovvero pari alla lunghezza della stringa in ingresso. $T_A$, evidentemente, indica il numero di mosse compiute da $A$ durante il riconoscimento della stringa $x$. Dunque, per ogni automa a stati finiti la complessità temporale $T_A$ cresce in maniera lineare con il crescere della lunghezza della stringa. Al contrario, la sua complessità spaziale $S_A$ non varia mai, in quanto gli FSA sono composti da un numero finito di stati definiti a priori, indipendentemente dalla lunghezza della stringa letta.
 
 Dato un automa a pila A, si pu`o analizzare sia la complessit`a temporale in funzione della stringa in
 
