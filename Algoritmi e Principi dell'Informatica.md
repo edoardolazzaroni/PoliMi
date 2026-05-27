@@ -1034,17 +1034,8 @@ Inoltre, a differenza di quanto analizzato per la risolvibilità dei problemi, l
 
 Nel capitolo sugli automi, è stato più volte affermato che le Macchine di Turing sono il formalismo più potente che si ha a disposizione per la risoluzione di prblemi, dunque, risulta ragionevole definire la complessità temporale e spaziale impiegando un tale modello.
 
-- Sia $M$ una MT deterministica a $k$ nastri e sia $x ∈I^∗$. Sia $c_0 ⊢c_1 ⊢.... ⊢c_r$ una **computazione**, ovvero una sequenza di transizioni di $M$ tale che $c_0 =<q_0,↑x,↑Z_0, ...,↑Z_0 >$ e $c_i =<q_i, x_i↑y_i, α_{i_1} ↑β_{i_1}, ..., α_{i_k}↑β_{ik}>$, in cui $c_r$ è una configurazione di arresto, se esiste. Allora, la
-
-43`
-
-44 CAPITOLO 7. COMPLESSIT
-
-A DEL CALCOLO
-
-funzione che rappresenta la complessit`a temporale TM di M `e definita nel seguente modo:
-
-TM = if lacomputazioneterminathenrelse∞.
+- Sia $M$ una MT deterministica a $k$ nastri e sia $x ∈I^∗$. Sia $c_0 ⊢c_1 ⊢.... ⊢c_r$ una **computazione**, ovvero una sequenza di transizioni di $M$ tale che $c_0 =<q_0,↑x,↑Z_0, ...,↑Z_0 >$ e $c_i =<q_i, x_i↑y_i, α_{i1} ↑β_{i1}, ..., α_{ik}↑β_{ik}>$, in cui $c_r$ è una configurazione di arresto, se esiste. Allora, la funzione che rappresenta la complessità temporale $T_M$ di $M$ è definita nel seguente modo:
+						$T_M =$ if lacomputazioneterminathenrelse $∞$.
 
 Informalmente, quindi, la complessit`a temporale viene definita come una funzione che fornisce il
 
