@@ -831,17 +831,12 @@ Da qui, si introduce il simbolo $⊨$, che si utilizza per associare formule ed 
 Dal concetto di interpretazione, si possono definire le seguenti proprietà della semantica delle formule proposizionali:
 - Se $I ⊨ F$, allora si dice che $I$ è un modello di $F$;
 - $F$ si dice valida (o si dice essere una **tautologia**) se e solo se per ogni interpretazione $I$ vale che $I ⊨ F$;
-- $F$ è soddisfacibile se e solo se esiste un’interpretazione $I$ tale che I ⊨ F;
-
-F `e falsificabile se e solo se esiste un’interpretazione I tale che I ⊭ F;
-
-F `e insoddisfacibile se e solo se per ogni interpretazione I vale che I ⊭ F;
-
-F `e contingente se e solo se `e sia soddisfacibile che falsificabile;
-
-Ogni formula del tipo F ∧¬F `e una contraddizione, indicata con ⊥;
-
-Ogni formula del tipo F ∨¬F `e detta principio del terzo escluso, indicata con ⊤
+- $F$ è soddisfacibile se e solo se esiste un’interpretazione $I$ tale che $I ⊨ F$;
+- $F$ è falsificabile se e solo se esiste un’interpretazione $I$ tale che $I ⊭ F$;
+- $F$ è insoddisfacibile se e solo se per ogni interpretazione $I$ vale che $I ⊭ F$;
+- $F$ è contingente se e solo se è sia soddisfacibile che falsificabile;
+- Ogni formula del tipo $F ∧¬F$ è una contraddizione, indicata con $⊥$;
+- Ogni formula del tipo $F ∨¬F$ è detta principio del terzo escluso, indicata con $⊤$
 
 1Le lettere proposizionali costanti sono T (o V ) per rappresentare una proposizione vera, oppure ⊥ (o F ) per
 
