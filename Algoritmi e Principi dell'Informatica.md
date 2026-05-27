@@ -767,13 +767,8 @@ Si noti che tutte le inclusioni sono strette.
 
 ### **5.7 Teoremi di Kleene e Rice**
 
-Teorema 5.7.1 (Teorema di Kleene del punto fisso). Sia t una qualunque funzione totale e computabile.
-
-Allora `e sempre possibile trovare un intero p, tale per cui:
-
-fp = ft(p)
-
-La funzione fp `e detta punto fisso di t, perch`e t trasforma fp in fp stessa.
+- **==Teorema di Kleene del punto fisso==**: Sia $t$ una qualunque funzione totale e computabile. Allora è sempre possibile trovare un intero $p$, tale per cui: $f_p = f_t(p)$
+  La funzione fp `e detta punto fisso di t, perch`e t trasforma fp in fp stessa.
 
 Teorema 5.7.2 (Teorema di Rice). Sia F un insieme generico di funzioni computabili. L’insieme
 
