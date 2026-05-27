@@ -910,13 +910,9 @@ Ora, sia $ϕ$ una valutazione, $X$ una variabile, $I$ un’interpretazione e $c_
 - $I ⊨ϕ ∀X(F)$ se e solo se $I ⊨ϕ[X→c_I ] F$ per ogni $c_I ∈|I|$;
 - $I ⊨ϕ ∃X(F)$ se e solo se $I ⊨ϕ[X→c_I ] F$ per qualche $c_I ∈|I|$.
 
-Se $F$ è una formula chiusa, il suo significato dipende solamente dall’interpretazione $I$, che viene detta modello per $F$ $(I ⊨ F)$ se e solo se per ogni valutazione $ϕ$ si ha che $I ⊨ϕ F$. Inoltre, se $F$ è un insieme di formule, un’interpretazione è modello di $Fse$ e solo se tale interpretazione è modello per ogni $F ∈F$.
+Se $F$ è una formula chiusa, il suo significato dipende solamente dall’interpretazione $I$, che viene detta modello per $F$ $(I ⊨ F)$ se e solo se per ogni valutazione $ϕ$ si ha che $I ⊨ϕ F$. Inoltre, se $F$ è un insieme di formule, un’interpretazione è modello di $F$ se e solo se tale interpretazione è modello per ogni $F ∈F$.
 
-La relazione di conseguenza logica ⊨ tra insiemi di formule e formule pu`o essere estesa anche per la
-
-logica del primo ordine, cos`ı come anche i concetti di validit`a, soddisfacibilit`a, falsificabilit`a, contingenza
-
-e insoddisfacibilit`a, analizzati nello studio della logica proposizionale.
+La relazione di conseguenza logica $⊨$ tra insiemi di formule e formule può essere estesa anche per la logica del primo ordine, così come anche i concetti di validità, soddisfacibilità, falsificabilità, contingenza e insoddisfacibilità, analizzati nello studio della logica proposizionale.
 
 Come nel caso della logica proposizionale, esistono innumerevoli equivalenze notevoli:
 
