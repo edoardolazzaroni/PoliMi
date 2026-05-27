@@ -842,7 +842,7 @@ Un insieme di formule $F$ comporta logicamente una formula $G$ o, equivalentemen
 
 Esistono innumerevoli equivalenze notevoli:
 
-$F ∧F ≡F$$
+$F ∧F ≡F$
 $F ∨F ≡F$
 $F ∧G≡G∧F$
 $F ∨G≡G∨F$
@@ -861,29 +861,7 @@ $F ⇒G≡¬G⇒¬F$
 
 In logica prposizionale è anche possibile sostituire una sottoformula $G$ di una formula ben formata $F$ con una formula $H$: la formula risultate viene indicata con la scrittura $F[G\H]$. Tale sostituzione, però, può avvenire solamente se $G≡H$.
 
-In base a questi concetti si pu`o notare che non tutti i connettivi logici sono strettamente necessa-
-
-ri, in quanto possono essere sostituiti con altri. A questo proposito, un insieme di connettivi `e detto
-
-funzionalmente completo se e solo se qualunque formula proposizionale pu`o essere trasformata in una
-
-formula semanticamente equivalente che contiene solamente i connettivi dell’insieme dato. Sfruttando
-
-tali insiemi, detti minimali, e le equivalenze semantiche, `e possibile definire delle forme normali, che in-
-
-troducono degli schemi sintattici per scrivere formule, che hanno completa generalit`a semantica, ovvero
-
-permettono di formalizzare il significato di qualsiasi formula che si possa scrivere con la completa gene-
-
-ralit`a sintattica della logica proposizionale. In altre parole, per ogni formula ben formata esistono una
-
-o pi`u formule logicamente equivalenti ad essa scritte in una forma normale, utili per la maniplazione di
-
-tali formule. Esistono tre principali forme normali per la logica proposizionale, chiamate forma negativa,
-
-forma congiuntiva e forma disgiuntiva. Una formula `e in forma normale negativa se e solo se `e composta
-
-solamente da letterali, congiunzioni e disgiunzioni; una formula `e in forma normale congiuntiva (detta
+In base a questi concetti si può notare che non tutti i connettivi logici sono strettamente necessari, in quanto possono essere sostituiti con altri. A questo proposito, un insieme di connettivi è detto funzionalmente completo se e solo se qualunque formula proposizionale può essere trasformata in una formula semanticamente equivalente che contiene solamente i connettivi dell’insieme dato. Sfruttando tali insiemi, detti minimali, e le equivalenze semantiche, è possibile definire delle forme normali, che introducono degli schemi sintattici per scrivere formule, che hanno completa generalità semantica, ovvero permettono di formalizzare il significato di qualsiasi formula che si possa scrivere con la completa generalità sintattica della logica proposizionale. In altre parole, per ogni formula ben formata esistono una o più formule logicamente equivalenti ad essa scritte in una forma normale, utili per la manipolazione di tali formule. Esistono tre principali forme normali per la logica proposizionale, chiamate forma negativa, forma congiuntiva e forma disgiuntiva. Una formula è in forma normale negativa se e solo se è composta solamente da letterali, congiunzioni e disgiunzioni; una formula è in forma normale congiuntiva (detta
 
 anche CNF) se e solo se ha la forma C1 ∧C2 ∧...∧Cn, dove Ci `e una disgiunzione di letterali; una formula
 
