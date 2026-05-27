@@ -995,15 +995,12 @@ Si può dimostrare che, data una qualsiasi formula $F$ appartenente alla logica 
 
 *Gerarchia dei linguaggi*
 
+![[Algoritmi e Principi dell'Informatica-1779879393076.webp|546]]
 
 
 ### **6.5 Logica per la descrizione di Proprietà**
 
-Quando si programma una funzione `e importante definire con precisione quale sia il suo funzionamen-
-
-to, senza necessariamente descrivere come funzioni. A tal proposito si `e soliti scrivere le cosiddette
-
-prcondizioni e postcondizioni:
+Quando si programma una funzione è importante definire con precisione quale sia il suo funzionamento, senza necessariamente descrivere come funzioni. A tal proposito si è soliti scrivere le cosiddette precondizioni e postcondizioni:
 
 Precondizione: indica le condizioni che devono valere prima che la funzione venga invocata;
 
