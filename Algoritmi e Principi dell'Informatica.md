@@ -1064,25 +1064,14 @@ Dato un **automa a stati finiti** $A$, si definisce la complessità temporale $T
 
 Dato un **automa a pila** $A$, si può analizzare sia la complessità temporale in funzione della stringa in ingresso $(T_A(x))$, sia in funzione della lunghezza della stringa $(T_A(n))$. Come per gli automi a stati finiti, quando si calcola la complessità temporale in funzione della stringa in ingresso, si contano il numero di passi che portano da una configurazione iniziale ad una configurazione finale. Quando invece si vuole utilizzare come parametro la lunghezza della stringa, la complessità temporale è calcolata come il massimo di tutte le complessità temporali in funzione delle stringhe in ingresso della lunghezza considerata. La complessità spaziale $S_A$, invece, viene associata al numero di celle di memoria della pila che vengono occupate dall’automa per portare a termine la computazione.
 
-La complessità temporale e spaziale per le **macchine di Turing a nastro singolo** sono definite esattamente come per le MT a $k$-nastri. Data una macchina di Turing $M$ a singolo nastro, la complessità spaziale $S_M(x)$, che corrisponde al massimo numero di celle del nastro di memoria occupate da $M$ durante la computazione a fronte della stringa in ingresso $x$, non può mai essere minore di $|x|$, in quanto l’unico nastro presente in $M$ è sia di ingresso, che di memoria, che di uscita. Ciò significa che l’unico7.2. COMPORTAMENTO ASINTOTICO 45
+La complessità temporale e spaziale per le **macchine di Turing a nastro singolo** sono definite esattamente come per le MT a $k$-nastri. Data una macchina di Turing $M$ a singolo nastro, la complessità spaziale $S_M(x)$, che corrisponde al massimo numero di celle del nastro di memoria occupate da $M$ durante la computazione a fronte della stringa in ingresso $x$, non può mai essere minore di $|x|$, in quanto l’unico nastro presente in $M$ è sia di ingresso, che di memoria, che di uscita. Ciò significa che l’unico nastro presente, di cui si deve analizzare l’occupazione, è precaricato con la stringa di ingresso $x$. Per quanto riguarda la complessità spaziale, le MT a singolo nastro sono meno efficienti delle MT multinastro e, in alcuni casi, di altri formalismi analizzati.
 
-nastro presente, di cui si deve analizzare l’occupazione, `e precaricato con la stringa di ingresso x. Per
+In generale, **le macchine di Turing multinastro sono il formalismo più potente ed efficiente per la computazione di problemi**.
 
-quanto riguarda la complessit`a spaziale, le TM a singolo nastro sono meno efficienti delle TM multinastro
 
-e, in alcuni casi, di altri formalismi analizzati.
+### **7.2 Comportamento asintotico**
 
-In generale, le macchine di Turing multinastro sono il formalismo pi`u potente ed efficiente per la
-
-computazione di problemi.
-
-7.2 Comportamento asintotico
-
-Nella maggior parte dei casi si analizza la complessit`a spaziale o temporale di un determinato algoritmo
-
-per valori molto grandi dell’ingresso x, ovvero per x che tende ad infinito. In questi casi si analizza il
-
-comportamento asintotico dell’algoritmo, che fornisce un’approssimazione abbastanza precisa sul dispen-
+Nella maggior parte dei casi si analizza la complessità spaziale o temporale di un determinato algoritmo per valori molto grandi dell’ingresso $x$, ovvero per $x$ che tende ad infinito. In questi casi si analizza ilcomportamento asintotico dell’algoritmo, che fornisce un’approssimazione abbastanza precisa sul dispen-
 
 dio di risorse. La notazione dell’ordine di grandezza di una funzione, nota sotto il nome di notazione
 
