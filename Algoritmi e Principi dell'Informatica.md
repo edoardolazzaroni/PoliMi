@@ -813,11 +813,11 @@ La sintassi del linguaggio definisce le sequenze ammissibili di simboli sull’a
 
 Una volta introdotte le formule ben formate, è possibile definire le sottoformule, ovvero una parte di una *fbf* che è a sua volta una *fbf*. L’insieme $Stfm(F)$ delle sottoformule di $F$ è definito come il più piccolo insieme di formule tale che:
 - $F ∈Stfm(F)$;
-- Se $¬G∈Stfm(F), allora G∈Stfm(F);
+- Se $¬G∈Stfm(F)$, allora $G∈Stfm(F)$;
+- Se $G∧H,G∨H,G⇒H,G⇔H ∈Stfm(F)$, allora $H,G∈Stfm(F)$.
 
-se G∧H,G∨H,G⇒H,G⇔H ∈Stfm(F), allora H,G∈Stfm(F).
 
-Semantica La semantica, invece, ha lo scopo di assegnare un significato alle formule appena definite,
+- Semantica: la semantica, invece, ha lo scopo di assegnare un significato alle formule appena definite,
 
 tramite una funzione I, detta interpretazione, che mappa ogni proposizione ad un valore di verit`a (vero o
 
