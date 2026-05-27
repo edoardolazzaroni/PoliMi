@@ -804,11 +804,9 @@ I simboli che compongono l’alfabeto sono privi di significato: assegnarne il s
 
 Una proposizione si dice essere atomica quando non può essere scomposta in parti più piccole. Nel caso contrario, la proposizione è composta da due o più proposizioni più piccole legate fra loro tramite i connettivi logici appena introdotti. Le parentesi sono utilizzare per modificare la precedenza dei connettivi, che di base avrebbero il seguente ordine logico: $¬,∧,∨,⇒,⇔$ .
 
-La sintassi del linguaggio definisce le sequenze ammissibili di simboli sull’alfabeto, le cosiddette formule ben formate *(fbf)*. L’insieme di queste formule ben definite su $L$ è il più piccolo insieme tale che ogni proposizione è una formula e, se $F$ e $G$ sono formule, allora anche $¬F, F∧G, F∨G, F ⇒GF ⇔G$ sono formule. In logica proposizionale si ha che se $A$ è una proposizione, allora $A$ e $¬A$ sono letterali, in cui $A$ è letterale positivo, mentre $¬A$ è detto letterale negativo. Infine, si dice letterale complementare la proposizioneL definito come¬A se L= A, oppure A se L= ¬A.
+La sintassi del linguaggio definisce le sequenze ammissibili di simboli sull’alfabeto, le cosiddette formule ben formate *(fbf)*. L’insieme di queste formule ben definite su $L$ è il più piccolo insieme tale che ogni proposizione è una formula e, se $F$ e $G$ sono formule, allora anche $¬F, F∧G, F∨G, F ⇒GF ⇔G$ sono formule. In logica proposizionale si ha che se $A$ è una proposizione, allora $A$ e $¬A$ sono letterali, in cui $A$ è letterale positivo, mentre $¬A$ è detto letterale negativo. Infine, si dice letterale complementare la proposizione $L^-$ definito come $¬A$ se $L= A$, oppure $A$ se $L= ¬A$.
 
-Una volta introdotte le formule ben formate, `e possibile definire le sottoformule, ovvero una parte
-
-di una fbf che `e a sua volta una fbf. L’insieme Stfm(F) delle sottoformule di F `e definito come il pi`u
+Una volta introdotte le formule ben formate, è possibile definire le sottoformule, ovvero una parte di una *fbf* che è a sua volta una *fbf*. L’insieme *Stfm(F)* delle sottoformule di $F$ è definito come il più
 
 piccolo insieme di formule tale che:
 
