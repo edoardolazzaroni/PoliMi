@@ -742,25 +742,11 @@ Quindi, riepilogando, si dice che un insieme $S$ è:
 		– $S$ è l’immagine di una funzione $g_S$ totale e computabile (detta generatrice); quindi, $S= I_{g_S} = \left\{g_S(0),g_s(1),g_S(2),...\right\}$
 
 
-- **Teorema**: Per ogni insieme $S$, se $i∈S$ implica che $f_i$ sia totale e se per ogni funzione $f$ totale e computabile, esiste $i∈S |f= f_i$, allora S non `e ricorsivamente enumerabile.
+- **Teorema**: Per ogni insieme $S$, se $i∈S$ implica che $f_i$ sia totale e se per ogni funzione $f$ totale e computabile, esiste $i∈S |f= f_i$, allora $S$ non è ricorsivamente enumerabile.
 
-Informalmente, questo teorema stabilisce che tutte le funzioni totali computabili non sono ricorsi-
+Informalmente, questo teorema stabilisce che tutte le funzioni totali computabili non sono ricorsivamente enumerabili (mentre le funzioni parziali computabili lo sono). Dunque, tale teorema afferma implicitamente che non esiste nessun formalismo ricorsivamente enumerabile in grado di definire tutte e sole le funzioni totali e computabili: infatti, gli FSA sono in grado di definire le funzioni totali, ma non tutte, le MT definiscono tutte le funzioni computabili, ma anche quelle non totali, e un linguaggio di programmazione (come il *C*) è in grado di definire tutti gli algoritmi, ma anche anche quelli che non terminano mai.
 
-vamente enumerabili (mentre le funzioni parziali computabili lo sono). Dunque, tale teorema afferma
-
-implicitamente che non esiste nessun formalismo ricorsivamente enumerabile in grado di definire tutte
-
-e sole le funzioni totali e computabili: infatti, gli FSA sono in grado di definire le funzioni totali, ma
-
-non tutte, le TM definiscono tutte le funzioni computabili, ma anche quelle non totali, e un linguaggio
-
-di programmazione (come il C) `e in grado di definire tutti gli algoritmi, ma anche anche quelli che non
-
-terminano mai.
-
-Si cerca quindi di comprendere se sia possibile eliminare le funzioni non totali: per far ci`o, si prenda
-
-in considerazione una generica funzione parziale, ad esempio, arricchendo N con il valore {⊥}o con
+Si cerca quindi di comprendere se sia possibile eliminare le funzioni non totali: per far ciò, si prenda in considerazione una generica funzione parziale, ad esempio, arricchendo $\mathbb{N}$ con il valore {⊥}o con
 
 qualsiasi altro simbolo che indichi che la funzione non `e definita per certi valori. Tale trasformazione
 
