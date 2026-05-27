@@ -863,21 +863,7 @@ In logica prposizionale è anche possibile sostituire una sottoformula $G$ di un
 
 In base a questi concetti si può notare che non tutti i connettivi logici sono strettamente necessari, in quanto possono essere sostituiti con altri. A questo proposito, un insieme di connettivi è detto funzionalmente completo se e solo se qualunque formula proposizionale può essere trasformata in una formula semanticamente equivalente che contiene solamente i connettivi dell’insieme dato. Sfruttando tali insiemi, detti minimali, e le equivalenze semantiche, è possibile definire delle forme normali, che introducono degli schemi sintattici per scrivere formule, che hanno completa generalità semantica, ovvero permettono di formalizzare il significato di qualsiasi formula che si possa scrivere con la completa generalità sintattica della logica proposizionale. In altre parole, per ogni formula ben formata esistono una o più formule logicamente equivalenti ad essa scritte in una forma normale, utili per la manipolazione di tali formule. Esistono tre principali forme normali per la logica proposizionale, chiamate forma negativa, forma congiuntiva e forma disgiuntiva. Una formula è in forma normale negativa se e solo se è composta solamente da letterali, congiunzioni e disgiunzioni; una formula è in forma normale congiuntiva (detta anche CNF) se e solo se ha la forma $C_1 ∧C_2 ∧...∧C_n$, dove $C_i$ è una disgiunzione di letterali; una formula è in forma normale disgiuntiva (detta anche DFN) se e solo se ha la forma $D_1 ∨D_2 ∨...∨D_n$, dove $D_i$ è una congiunzione di letterali.
 
-A questo punto è possibile completare la definizione della logica proposizionale attraverso i concetti
-
-di assioma e regole di inferenza, che costituiscono un sistema formale assiomatico-deduttivo (in inglese
-
-calculus). Questi elementi definiscono una relazione di derivabilit`a (relazione gi`a analizzata nel contesto
-
-delle grammatiche), detta anche dimostrabilit`a, tra un insieme di formule Fe una formula G. Dunque,
-
-i sistemi formali della logica hanno un compito molto simile a quello assolto dalle grammatiche, ovvero
-
-producono meccanicamente una formula risultante a partire da un insieme iniziale di formule, applicando
-
-assiomi e regole di inferenza. Si scrive, quindi, F⊢G se G pu`o essere ottenuto da F. Idealmente, la
-
-relazione di derivabilit`a dovrebbe essere corretta (cio`e se F⊢Gallora F⊨ G) e completa (cio`e se F⊨ G
+A questo punto è possibile completare la definizione della logica proposizionale attraverso i concetti di assioma e regole di inferenza, che costituiscono un sistema formale assiomatico-deduttivo (in inglese calculus). Questi elementi definiscono una relazione di derivabilità (relazione già analizzata nel contesto delle grammatiche), detta anche dimostrabilità, tra un insieme di formule $F$ e una formula $G$. Dunque, i sistemi formali della logica hanno un compito molto simile a quello assolto dalle grammatiche, ovvero producono meccanicamente una formula risultante a partire da un insieme iniziale di formule, applicando assiomi e regole di inferenza. Si scrive, quindi, $F⊢G$ se $G$ può essere ottenuto da $F$. Idealmente, la relazione di derivabilità dovrebbe essere corretta (cioè se $F⊢G$ allora F⊨ G) e completa (cio`e se F⊨ G
 
 allora F ⊢G). Se una formula F pu`o essere derivata in una teoria Fusando solamente assiomi e regole
 
