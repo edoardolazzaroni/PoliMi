@@ -1002,13 +1002,10 @@ Si può dimostrare che, data una qualsiasi formula $F$ appartenente alla logica 
 
 Quando si programma una funzione è importante definire con precisione quale sia il suo funzionamento, senza necessariamente descrivere come funzioni. A tal proposito si è soliti scrivere le cosiddette precondizioni e postcondizioni:
 
-Precondizione: indica le condizioni che devono valere prima che la funzione venga invocata;
+- **Precondizione**: indica le condizioni che devono valere prima che la funzione venga invocata;
+- **Postcondizione**: indica le condizioni che devono valere al termine dell’esecuzione del programma.
 
-Postcondizione: indica le condizioni che devono valere al termine dell’esecuzione del programma.
-
-Dunque, il programma P deve essere tale per cui se la precondizione Pre vale prima dell’esecuzione
-
-di tale programma, allora la post condizione Postdeve valere dopo l’esecuzione. Tali condizioni possono
+Dunque, il programma $P$ deve essere tale per cui se la precondizione *Pre* vale prima dell’esecuzione di tale programma, allora la post condizione *Post* deve valere dopo l’esecuzione. Tali condizioni possono
 
 essere espresse in linguaggi diversi, ma il pi`u comune `e la logica del primo ordine.Parte II
 
