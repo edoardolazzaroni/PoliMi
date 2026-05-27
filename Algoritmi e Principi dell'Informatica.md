@@ -1029,27 +1029,12 @@ Si osservi inoltre che le due risorse, quella temporale e quella spaziale, seppu
 
 La complessità del calcolo dipende dalla dimensione e, spesso, anche dai particolari valori assunti dai dati in ingresso. Per questo motivo, si rende necessario effettuare un’analisi del caso pessimo, del caso medio e del caso ottimo, in funzione della dimensione dei dati in ingresso. Più formalmente, tali casi rappresentano rispettivamente la scelta di ingressi per cui viene eseguito il massimo numero di istruzioni nel programma, il comportamento del programma in relazione alla possibile distribuzione dei dati e la scelta di input per cui viene eseguito il minor numero di istruzioni.
 
-In generale, il caso ottimo non è di particolare interesse e il caso medio richiede la conoscenza della distribuzione dei dati in ingresso (non sempre nota). Il caso pessimo, invece, `e particolarmente interes-
+In generale, il caso ottimo non è di particolare interesse e il caso medio richiede la conoscenza della distribuzione dei dati in ingresso (non sempre nota). Il caso pessimo, invece, è particolarmente interessante in quanto fornisce i peggiori risultati ottenibili dall’algoritmo in termini di consumo di spazio o tempo; si garantisce quindi che tutte le soluzioni proposte dall’algoritmo abbiano un dispendio di risorse minore rispetto al caso pessimo, indipendentemente dalla tipologia degli ingressi. Dunque, se il caso pessimo è ritenuto accettabile, allora anche tutti gli altri casi lo sono.
+Inoltre, a differenza di quanto analizzato per la risolvibilità dei problemi, la complessità non è collegata solo al problema che si vuole affrontare, ma dipende anche dell’algoritmo che si utilizza per risolverlo.
 
-sante in quanto fornisce i peggiori risultati ottenibili dall’algoritmo in termini di consumo di spazio o
+Nel capitolo sugli automi, è stato più volte affermato che le Macchine di Turing sono il formalismo più potente che si ha a disposizione per la risoluzione di prblemi, dunque, risulta ragionevole definire la complessità temporale e spaziale impiegando un tale modello.
 
-tempo; si garantisce quindi che tutte le soluzioni proposte dall’algoritmo abbiano un dispendio di risorse
-
-minore rispetto al caso pessimo, indipendentemente dalla tipologia degli ingressi. Dunque, se il caso
-
-pessimo `e ritenuto accettabile, allora anche tutti gli altri casi lo sono.
-
-Inoltre, a differenza di quanto analizzato per la risolvibilit`a dei problemi, la complessit`a non `e collegata
-
-solo al problema che si vuole affrontare, ma dipende anche dell’algoritmo che si utilizza per risolverlo.
-
-Nel capitolo sugli automi, `e stato pi`u volte affermato che le Macchine di Turing sono il formalismo
-
-pi`u potente che si ha a disposizione per la risoluzione di prblemi, dunque, risulta ragionevole definire la
-
-complessit`a temporale e spaziale impiegando un tale modello.
-
-Definizione 7.1.1. Sia M una TM deterministica a k nastri e sia x ∈I∗. Sia c0 ⊢c1 ⊢.... ⊢cr una
+- Sia $M$ una M deterministica a k nastri e sia x ∈I∗. Sia c0 ⊢c1 ⊢.... ⊢cr una
 
 computazione, ovvero una sequenza di transizioni di M tale che c0 =<q0,↑x,↑Z0, ...,↑Z0 > e
 
