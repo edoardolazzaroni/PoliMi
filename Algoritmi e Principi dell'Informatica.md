@@ -974,15 +974,9 @@ Dato un alfabeto $I$, una stringa $w∈I^+$ ed un simbolo $a∈I$, $a(x)$ è ver
 - $w,v_1 ⊨ x<y$ se e solo se $v_1(x) <v_1(y)$;
 - $w,v_1 ⊨¬F$ se e solo se $w,v_1 ⊭ F$;
 - $w,v_1 ⊨ F_1 ∧F_2$ se e solo se $w,v_1 ⊨ F_1$ e $w,v_1 ⊨ F_2$;
-- $w,v_1 ⊨ ∀x(F)$ se e solo se $w,v_1' ⊨ F ∀v_1'$ con v′1(y) = v1(y), y̸= x.
+- $w,v_1 ⊨ ∀x(F)$ se e solo se $w,v_1' ⊨ F ∀v_1'$ con $v_1'(y) = v_1(y), y\ne x$.
 
-Propriet`a La logica monadica del primo ordine ha delle importanti propriet`a che consentono di identi-
-
-ficare quali linguaggi `e possibile rappresentare con tale logica. Nello specifico, tutti i linguaggi esprimibili
-
-mediante questa logica sono chiusti rispetto all’unione, all’intersezione e al complemento, Inoltre, si pu`o
-
-dimostrare che non `e possibile esprimere il linguaggio Lp composto da tutte e sole le stringhe di lunghezza
+**Proprietà**: la logica monadica del primo ordine ha delle importanti proprietà che consentono di identificare quali linguaggi è possibile rappresentare con tale logica. Nello specifico, tutti i linguaggi esprimibili mediante questa logica sono chiusti rispetto all’unione, all’intersezione e al complemento, Inoltre, si può dimostrare che non è possibile esprimere il linguaggio Lp composto da tutte e sole le stringhe di lunghezza
 
 pari con I= {a}: quindi, si pu`o osservare come la logica monadica del primo ordine `e strettamente meno
 
