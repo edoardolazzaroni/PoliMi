@@ -741,11 +741,8 @@ Quindi, riepilogando, si dice che un insieme $S$ è:
 		– $S$ è l’insieme vuoto;
 		– $S$ è l’immagine di una funzione $g_S$ totale e computabile (detta generatrice); quindi, $S= I_{g_S} = \left\{g_S(0),g_s(1),g_S(2),...\right\}$
 
-Si consideri ora il seguente teorema:
 
-Teorema 5.6.2. Per ogni insieme S, se i∈S implica che fi sia totale e se per ogni funzione f totale e
-
-computabile, esiste i∈S |f= fi, allora S non `e ricorsivamente enumerabile.
+- **Teorema**: Per ogni insieme $S$, se $i∈S$ implica che $f_i$ sia totale e se per ogni funzione $f$ totale e computabile, esiste $i∈S |f= f_i$, allora S non `e ricorsivamente enumerabile.
 
 Informalmente, questo teorema stabilisce che tutte le funzioni totali computabili non sono ricorsi-
 
