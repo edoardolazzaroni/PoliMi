@@ -748,9 +748,7 @@ Informalmente, questo teorema stabilisce che tutte le funzioni totali computabil
 
 Si cerca quindi di comprendere se sia possibile eliminare le funzioni non totali: per far ciò, si prenda in considerazione una generica funzione parziale, ad esempio, arricchendo $\mathbb{N}$ con il valore $\left\{⊥\right\}$ o con qualsiasi altro simbolo che indichi che la funzione non è definita per certi valori. Tale trasformazione da funzione parziale a totale, però, non può essere applicata perchè nel passaggio è possibile perdere la computabilità della funzione. Questo risultato è enunciato nel seguente teorema:
 
-- **Teorema**: Non esiste una funzione totale e computabile h che sia un’estensione della seguente
-
-funzione: g(x) = if fx(x) ̸= ⊥thenfx(x) + 1 else⊥
+- **Teorema**: Non esiste una funzione totale e computabile $h$ che sia un’estensione della seguente funzione: $g(x) =$ `if` $f_x(x)\ne ⊥$then$f_x(x) + 1$ else$⊥$
 
 Tale teorema, afferma quindi che non `e possibile estendere una funzione parziale ad una totale, in
 
