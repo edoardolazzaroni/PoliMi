@@ -871,9 +871,7 @@ A questo punto è possibile completare la definizione della logica proposizional
 La logica proposizionale appena analizzata ha molte applicazioni, ma il suo potere espressivo è ristretto.
 Per questo motivo, nel 1979 è stata sviluppata la logica del primo ordine, che permette dal punto di vista ontologico di considerare non solo fatti (come avveniva nella logica proposizionale), ma anche proprietà, relazioni e funzioni.
 
-Sintassi In modo formale:
-
-Definizione 6.2.1. La logica del primo ordine `e composta da un linguaggio L, il cui alfabeto `e costituito
+**==Sintassi==**: in modo formale, la logica del primo ordine è composta da un linguaggio L, il cui alfabeto `e costituito
 
 dai seguenti elementi:
 
