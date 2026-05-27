@@ -820,17 +820,12 @@ Una volta introdotte le formule ben formate, è possibile definire le sottoformu
 
 **==Semantica==**: la semantica, invece, ha lo scopo di assegnare un significato alle formule appena definite, tramite una funzione $I$, detta interpretazione, che mappa ogni proposizione ad un valore di verità (vero o falso): formalmente, $I : \left\{fbf\right\}→\left\{0,1\right\}$. Tale funzione, quindi, non fa altro che assegnare il valore di vero $(1)$ o falso $(0)$ alle lettere proposizionali costanti e valuta il valore di verità di $¬F,F ∧G,F ∨G,F ⇒G,F ⇔G$ sulla base dei valori di verità delle proposizioni $F$ e $G$
 
-Da qui, si introduce il simbolo $⊨$, che si utilizza per associare formule ed interpretazioni. Dunque, la scrittura $I ⊨ F$, che si legge $I$ rende vera $F, vale nei seguenti casi:
-
-I ⊨ A se e solo se I(A) = T, con A proposizione;
-
-I ⊨¬F se e solo se I ⊭ F;
-
-I ⊨ F ∧G se e solo se I ⊨ F e I ⊨ G;
-
-I ⊨ F ∨G se e solo se I ⊨ F o I ⊨ G;
-
-I ⊨ F ⇒G se e solo se I ⊭ G o I ⊨ G;
+Da qui, si introduce il simbolo $⊨$, che si utilizza per associare formule ed interpretazioni. Dunque, la scrittura $I ⊨ F$, che si legge $I$ *rende vera* $F$, vale nei seguenti casi:
+- $I ⊨ A$ se e solo se $I(A) = T$, con $A$ proposizione;
+- $I ⊨¬F$ se e solo se $I ⊭ F$;
+- $I ⊨ F ∧G$ se e solo se $I ⊨ F$ e $I ⊨ G$;
+- $I ⊨ F ∨G$ se e solo se $I ⊨ F$ o $I ⊨ G$;
+- $I ⊨ F ⇒G$ se e solo se $I ⊭ G$ o I ⊨ G;
 
 I ⊨ F ⇔G se e solo se I ⊨ F ⇒G e I ⊨ G→F.
 
