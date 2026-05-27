@@ -802,15 +802,9 @@ Il calcolo proposizionale, detto anche logica proposizionale, è un modello dich
 
 I simboli che compongono l’alfabeto sono privi di significato: assegnarne il significato è compito della semantica.
 
-Una proposizione si dice essere atomica quando non può essere scomposta in parti più piccole. Nel caso contrario, la proposizione è composta da due o più proposizioni più piccole legate fra loro tramite i connettivi logici appena introdotti. Le parentesi sono utilizzare per modificare la precedenza dei
+Una proposizione si dice essere atomica quando non può essere scomposta in parti più piccole. Nel caso contrario, la proposizione è composta da due o più proposizioni più piccole legate fra loro tramite i connettivi logici appena introdotti. Le parentesi sono utilizzare per modificare la precedenza dei connettivi, che di base avrebbero il seguente ordine logico: $¬,∧,∨,⇒,⇔$ .
 
-connettivi, che di base avrebbero il seguente ordine logico:¬,∧,∨,⇒,⇔.
-
-La sintassi del linguaggio definisce le sequenze ammissibili di simboli sull’alfabeto, le cosiddette for-
-
-mule ben formate (fbf). L’insieme di queste formule ben definite su L`e il pi`u piccolo insieme tale che
-
-ogni proposizione `e una formula e, se F e Gsono formule, allora anche¬F, F∧G, F∨G, F ⇒GF ⇔G
+La sintassi del linguaggio definisce le sequenze ammissibili di simboli sull’alfabeto, le cosiddette formule ben formate *(fbf)*. L’insieme di queste formule ben definite su $L$ è il più piccolo insieme tale che ogni proposizione è una formula e, se $F$ e $G$ sono formule, allora anche $¬F, F∧G, F∨G, F ⇒GF ⇔G$
 
 3334 CAPITOLO 6. LOGICA
 
