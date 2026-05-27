@@ -817,13 +817,7 @@ Una volta introdotte le formule ben formate, è possibile definire le sottoformu
 - Se $G∧H,G∨H,G⇒H,G⇔H ∈Stfm(F)$, allora $H,G∈Stfm(F)$.
 
 
-- Semantica: la semantica, invece, ha lo scopo di assegnare un significato alle formule appena definite,
-
-tramite una funzione I, detta interpretazione, che mappa ogni proposizione ad un valore di verit`a (vero o
-
-falso): formalmente, I : {fbf}→{0,1}. Tale funzione, quindi, non fa altro che assegnare il valore di vero
-
-(1) o falso (0) alle lettere proposizionali costanti 1 e valuta il valore di verit`a di¬F,F ∧G,F ∨G,F ⇒
+- **==Semantica==**: la semantica, invece, ha lo scopo di assegnare un significato alle formule appena definite, tramite una funzione $I$, detta interpretazione, che mappa ogni proposizione ad un valore di verità (vero o falso): formalmente, $I : \left\{fbf\right\}→\left\{0,1\right\}$. Tale funzione, quindi, non fa altro che assegnare il valore di vero (1) o falso (0) alle lettere proposizionali costanti 1 e valuta il valore di verit`a di¬F,F ∧G,F ∨G,F ⇒
 
 G,F ⇔G sulla base dei valori di verit`a delle proposizioni F e G.
 
