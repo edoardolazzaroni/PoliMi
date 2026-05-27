@@ -842,36 +842,22 @@ Un insieme di formule $F$ comporta logicamente una formula $G$ o, equivalentemen
 
 Esistono innumerevoli equivalenze notevoli:
 
-$F ∧F ≡F
+$F ∧F ≡F$
 F ∨F ≡F
-
 F ∧G≡G∧F
-
 F ∨G≡G∨F
-
 F ∧(G∧H) ≡(F ∧G) ∧H
-
 F ∨(G∨H) ≡(F ∨G) ∨H
-
 (F ∧G) ∨F ≡F
-
 (F ∨G) ∧F ≡F
-
 F ∧(G∨H) ≡(F ∧G) ∨(F ∧H)
-
 F ∨(G∧H) ≡(F ∨G) ∧(F ∨H)
-
 ¬¬F ≡F
-
 ¬(F ∧G) ≡¬F ∧¬G
-
 ¬(F ∨G) ≡¬F ∧¬G
-
 F ⇔G≡(F ⇒G) ∧(G⇒F)
-
 F ⇒G≡¬F ∨G
-
-F ⇒G≡¬G⇒¬F$$
+F ⇒G≡¬G⇒¬F
 
 In logica prposizionale `e anche possibile sostituire una sottoformula G di una formula ben formata F
 
