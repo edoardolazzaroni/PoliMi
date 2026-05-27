@@ -753,11 +753,9 @@ Si cerca quindi di comprendere se sia possibile eliminare le funzioni non totali
 Tale teorema, afferma quindi che non è possibile estendere una funzione parziale ad una totale, in quanto si potrebbe perdere la sua computabilità.
 Vale anche il seguente risultato:
 
-- **Teorema**: Un insieme $S$ è ricorsivamente enumerabile se e solo se $S= Dh$, in cui $h$ è una funzione parziale e computabile $(S= \left\{x|h(x) \ne ⊥\right\})$, oppure se e solo se $S= I_g$, in cui $g$ è una funzione parziale
+- **Teorema**: Un insieme $S$ è ricorsivamente enumerabile se e solo se $S= D_h$, in cui $h$ è una funzione parziale e computabile $(S= \left\{x|h(x) \ne ⊥\right\})$, oppure se e solo se $S= I_g$, in cui $g$ è una funzione parziale e computabile $(S= \left\{x|x= g(y),y∈\mathbb{N}\right\})$.
 
-e computabile (S= {x|x= g(y),y∈N}).
-
-Quindi, dato l’insieme K= {x|f(x) ̸= ⊥}questo `e semidecidibile perch`e K= Dh, con h(x) = fx(x),
+Quindi, dato l’insieme $K= \left{x|f(x) \ne ⊥\right\}$questo `e semidecidibile perch`e K= Dh, con h(x) = fx(x),
 
 ma `e anche indecidibile in quanto la funzione caratteristica dell’insieme K, definita come cK(x) =
 
