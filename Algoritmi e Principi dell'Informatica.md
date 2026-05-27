@@ -836,15 +836,9 @@ Dal concetto di interpretazione, si possono definire le seguenti proprietà dell
 - $F$ è insoddisfacibile se e solo se per ogni interpretazione $I$ vale che $I ⊭ F$;
 - $F$ è contingente se e solo se è sia soddisfacibile che falsificabile;
 - Ogni formula del tipo $F ∧¬F$ è una contraddizione, indicata con $⊥$;
-- Ogni formula del tipo $F ∨¬F$ è detta principio del terzo escluso, indicata con $⊤$
+- Ogni formula del tipo $F ∨¬F$ è detta principio del terzo escluso, indicata con $⊤$.
 
-1Le lettere proposizionali costanti sono T (o V ) per rappresentare una proposizione vera, oppure ⊥ (o F ) per
-
-rappresentare una proposizione falsa6.1. LOGICA PROPOSIZIONALE 35
-
-Un insieme di formule Fcomporta logicamente una formula G o, equivalentemente, una formula G`e
-
-una conseguenza logica di un insieme di formule F, se ogni modello di F`e anche un modello di G e si
+Un insieme di formule $F$ comporta logicamente una formula $G$ o, equivalentemente, una formula $G$ è una conseguenza logica di un insieme di formule $F$, se ogni modello di $F$ è anche un modello di $G$ e si
 
 scrive con F⊨ G. Dopo aver stabilito una corrispondenza semantica fra due formule logiche, `e possibile
 
