@@ -1021,21 +1021,11 @@ Nei capitoli precedenti si è dimostrato come esistano alcuni problemi che, pur 
 
 Il concetto di intrattabilità è strettamente correlato al concetto di complessità del calcolo: più il problema è complesso e meno questo diventa trattabile. Informalmente, la complessità indica una misura del prezzo da pagare per risolvere il problema. Le risorse che si utilizzano per la risoluzione di un problema sono principalmente due: lo **spazio**, ovvero la memoria necessaria all’algoritmo, e il tempo **richiesto** per produrre la soluzione. Si parlerà quindi di complessità **spaziale** e di complessità **temporale**.
 
-Inoltre, la soluzione proposta per un dato problema occupa le risorse in due modi: esiste infatti
+Inoltre, la soluzione proposta per un dato problema occupa le risorse in due modi: esiste infatti una componente costante, che non dipende quindi dai dati di ingresso, e una componente che invece è funzione della dimensione dei dati di ingresso (di più complessa analisi, ma anche più attinente alla realtà).
+Si osservi inoltre che le due risorse, quella temporale e quella spaziale, seppur sembrino indipendenti l’una dall’altra, sono in realtà correlate: alla riduzione di utilizzo di una risorsa aumenta l’altra e viceversa.
 
-una componente costante, che non dipende quindi dai dati di ingresso, e una componente che invece
 
-`e funzione della dimensione dei dati di ingresso (di pi`u complessa analisi, ma anche pi`u attinente alla
-
-realt`a).
-
-Si osservi inoltre che le due risorse, quella temporale e quella spaziale, seppur sembrino indipenden-
-
-ti l’una dall’altra, sono in realt`a correlate: alla riduzione di utilizzo di una risorsa aumenta l’altra e
-
-viceversa.
-
-7.1 Analisi di complessit`a
+### **7.1 Analisi di complessità**
 
 La complessit`a del calcolo dipende dalla dimensione e, spesso, anche dai particolari valori assunti dai
 
