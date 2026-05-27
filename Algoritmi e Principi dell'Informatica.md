@@ -973,15 +973,8 @@ Dato un alfabeto $I$, una stringa $w∈I^+$ ed un simbolo $a∈I$, $a(x)$ è ver
 - $w,v_1 ⊨ a(x)$ se e solo se $w= uav$ e $|u|= v1(x)$;
 - $w,v_1 ⊨ x<y$ se e solo se $v_1(x) <v_1(y)$;
 - $w,v_1 ⊨¬F$ se e solo se $w,v_1 ⊭ F$;
-- $w,v_1 ⊨ F1 ∧F2 se e solo se w,v1 ⊨ F1 e w,v1 ⊨ F2;
-
-w,v1 ⊨ ∀x(F) se e solo se w,v′
-
-1 ⊨ F ∀v′
-
-1 con v′
-
-1(y) = v1(y), y̸= x.
+- $w,v_1 ⊨ F_1 ∧F_2$ se e solo se $w,v_1 ⊨ F_1$ e $w,v_1 ⊨ F_2$;
+- $w,v_1 ⊨ ∀x(F)$ se e solo se $w,v_1' ⊨ F ∀v_1'$ con v′1(y) = v1(y), y̸= x.
 
 Propriet`a La logica monadica del primo ordine ha delle importanti propriet`a che consentono di identi-
 
