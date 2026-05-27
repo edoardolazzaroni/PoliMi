@@ -1058,17 +1058,9 @@ Secondo le definizioni appena enunciate, sia $T_M$ che $S_M$ sono funzioni defin
 	- Caso **ottimo**: $T_M(n) = min_{|x|=n}T_M(x)$;
 	- Caso **medio**: $T_M(n) =\frac{\sum_{|x|=n} T_M(x)}{|I|^n}$.
 
-Una volta analizzata la complessit`a temporale tramite il formalismo delle macchine di Turing, si
+Una volta analizzata la complessità temporale tramite il formalismo delle macchine di Turing, si sposta l’attenzione sugli altri formalismi analizzati nel capitolo riguardante gli automi, in particolare sugli automi a stati finiti, sugli automi a pila e sulle macchine di Turing a singolo nastro.
 
-sposta l’attenzione sugli altri formalismi analizzati nel capitolo riguardante gli automi, in particolare
-
-sugli automi a stati finiti, sugli automi a pila e sulle macchine di turine a singolo nastro.
-
-Dato un automa a stati finiti A, si definisce la complessit`a temporale TA come l’intero i tale che
-
-δi(q0,x) = q per qualche q, se esiste, ovvero il numero di transizioni effettuate per per processare la
-
-stringa in ingresso x a partire dallo stato iniziale. Se δ∗(q0,x) `e indefinita, si pone TA = |x|, ovvero
+Dato un automa a stati finiti $A$, si definisce la complessità temporale $T_A$ come l’intero $i$ tale che $δ_i(q_0,x) = q$ per qualche $q$, se esiste, ovvero il numero di transizioni effettuate per per processare la stringa in ingresso x a partire dallo stato iniziale. Se δ∗(q0,x) `e indefinita, si pone TA = |x|, ovvero
 
 pari alla lunghezza della stringa in ingresso. TA, evidentemente, indica il numero di mosse compiute
 
