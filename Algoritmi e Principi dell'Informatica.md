@@ -1008,13 +1008,14 @@ Quando si programma una funzione è importante definire con precisione quale sia
 Dunque, il programma $P$ deve essere tale per cui se la precondizione *Pre* vale prima dell’esecuzione di tale programma, allora la post condizione *Post* deve valere dopo l’esecuzione. Tali condizioni possono essere espresse in linguaggi diversi, ma il più comune è la logica del primo ordine.
 
 
-Parte II
 
-Algoritmi e Strutture Dati
 
-41Capitolo 7
 
-Complessit`a del Calcolo
+
+# **Parte II: Algoritmi e Strutture Dati**
+
+
+Complessità del Calcolo
 
 Nei capitoli precedenti si `e dimostrato come esistano alcuni problemi che, pur essendo ben definiti,
 
