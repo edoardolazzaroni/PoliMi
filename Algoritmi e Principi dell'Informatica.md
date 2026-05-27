@@ -969,17 +969,11 @@ Una volta introdotti tutti questi concetti della logica monadica del primo ordin
 Dato un alfabeto $I$, una stringa $w∈I^+$ ed un simbolo $a∈I$, $a(x)$ è vero se e solo se l’$x$-esimo simbolo di $w$ è $a$, considerando un’indicizzazione che parte da $0$.
 
 
-**==Semantica==**: la semantica, nella logica monadica del primo ordine, assegna un valore di verità o falsità alle formule, tramite una funzione di assegnamento $v_1 : V_1 →[0,...,|w|−1]$, in cui $w∈I^+$ è una stringa composta a partire dall’alfabeto I, mentre V1 `e l’insieme delle variabili. Tale funzione si comporta nel
-
-seguente modo:
-
-w,v1 ⊨ a(x) se e solo se w= uav e |u|= v1(x);
-
-w,v1 ⊨ x<y se e solo se v1(x) <v1(y);
-
-w,v1 ⊨¬F se e solo se w,v1 ⊭ F;
-
-w,v1 ⊨ F1 ∧F2 se e solo se w,v1 ⊨ F1 e w,v1 ⊨ F2;
+**==Semantica==**: la semantica, nella logica monadica del primo ordine, assegna un valore di verità o falsità alle formule, tramite una funzione di assegnamento $v_1 : V_1 →[0,...,|w|−1]$, in cui $w∈I^+$ è una stringa composta a partire dall’alfabeto $I$, mentre $V_1$ è l’insieme delle variabili. Tale funzione si comporta nel seguente modo:
+- $w,v_1 ⊨ a(x)$ se e solo se $w= uav$ e $|u|= v1(x)$;
+- $w,v_1 ⊨ x<y$ se e solo se $v_1(x) <v_1(y)$;
+- $w,v_1 ⊨¬F$ se e solo se $w,v_1 ⊭ F$;
+- $w,v_1 ⊨ F1 ∧F2 se e solo se w,v1 ⊨ F1 e w,v1 ⊨ F2;
 
 w,v1 ⊨ ∀x(F) se e solo se w,v′
 
