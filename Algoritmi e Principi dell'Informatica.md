@@ -938,29 +938,14 @@ In questa sezione si analizza un frammento della logica monadica del primo ordin
 **==Sintassi==**: una generica formula $F$ appartenente alla logica monadica del primo ordine ha una sintassi molto semplice, articolata nei seguenti casi:
 - $a(x)$ con $a∈I$, ovvero un predicato unario per ogni simbolo dell’alfabeto $I$;
 - $x<y$, che costituisce l’unica eccezzione della logica monadica in quanto non è un operatore unario, ma binario;
-- $¬F$, operatore NOT;
+- $¬F$, operatore *NOT*;
+- $F ∧F$, operatore *AND*;
+- $∀x(F)$, quantifcatore di una formula rispetto ad una variabile;
 
-F ∧F, operatore AND;
+Il dominio delle variabili è $\mathbb{N}$.
+Si può osservare come, rispetto alla logica proposizionale e del primo ordine, la logica monadica non fa uso della maggior parte degli operatori logici, del quantificatore esistenziale, della maggior parte degli operatori matematici, di oggetti o funzioni. Tutti i costrutti non utilizzati da tale logica possono essere derivati dagli operatori che sono stati presentati.
 
-∀x(F), quantifcatore di una formula rispetto ad una variabile;
-
-Il dominio delle variabili `e N.
-
-Si pu`o osservare come, rispetto alla logica proposizionale e del primo ordine, la logica monadica non
-
-fa uso della maggior parte degli operatori logici, del quantificatore esistenziale, della maggior parte degli
-
-operatori matematici, di oggetti o funzioni. Tutti i costrutti non utilizzati da tale logica possono essere
-
-drivati dagli operatori che sono stati presentati.
-
-Le formule scritte in questa logica possono confrontare dei numeri rappresentati dalle variabili, che
-
-rappresentano posizioni all’interno delle stringhe scritte sull’alfabeto di riferimento. Quindi con l’alfabeto
-
-Idi riferimento posso scrivere delle stringhe mediante i predicati unari e, con la logica monadica `e possibile
-
-calcolare la posizione, rappresentata dalle variabili, di determinati caratteri all’interno di tali stringhe
+Le formule scritte in questa logica possono confrontare dei numeri rappresentati dalle variabili, che rappresentano posizioni all’interno delle stringhe scritte sull’alfabeto di riferimento. Quindi con l’alfabeto $I$ di riferimento posso scrivere delle stringhe mediante i predicati unari e, con la logica monadica è possibile calcolare la posizione, rappresentata dalle variabili, di determinati caratteri all’interno di tali stringhe
 
 per poterli confrontare con altre posizioni.
 
