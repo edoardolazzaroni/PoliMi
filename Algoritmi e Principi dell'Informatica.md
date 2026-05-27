@@ -784,22 +784,16 @@ I linguaggi possono essere rappresentati in modi differenti, tramite modelli e a
 	- Insiemi;
 	- Pattern;
 	- Espressioni Regolari;
-
-Modelli Operazionali (come gli Automi);
-
-Modelli Generativi (come le Grammatiche);
-
-Modelli Dichiarativi (come la Logica).
+	- Modelli Operazionali (come gli Automi);
+	- Modelli Generativi (come le Grammatiche);
+	- Modelli Dichiarativi (come la Logica).
 
 I concetti di logica introdotti di seguito sono utilizzati per definire in maniera differente i linguaggi.
 
-6.1 Logica Proposizionale
 
-Il calcolo proposizionale, detto anche logica proposizionale, `e un modello dichiarativo formale della logica
+### **6.1 Logica Proposizionale**
 
-matematica che si basa sul concetto di proposizione, ovvero frasi che possono assumere solamente il valore
-
-vero o il valore falso. In generale, ogni linguaggio consiste di una sintassi e di una semantica: la sintassi
+Il calcolo proposizionale, detto anche logica proposizionale, è un modello dichiarativo formale della logica matematica che si basa sul concetto di proposizione, ovvero frasi che possono assumere solamente il valore vero o il valore falso. In generale, ogni linguaggio consiste di una sintassi e di una semantica: la sintassi
 
 `e l’insieme delle regole attraverso cui `e possibile costruire le frasi di cui il linguaggio `e composto, mentre
 
