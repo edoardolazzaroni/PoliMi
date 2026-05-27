@@ -755,9 +755,7 @@ Vale anche il seguente risultato:
 
 - **Teorema**: Un insieme $S$ è ricorsivamente enumerabile se e solo se $S= D_h$, in cui $h$ è una funzione parziale e computabile $(S= \left\{x|h(x) \ne ⊥\right\})$, oppure se e solo se $S= I_g$, in cui $g$ è una funzione parziale e computabile $(S= \left\{x|x= g(y),y∈\mathbb{N}\right\})$.
 
-Quindi, dato l’insieme $K= \left{x|f(x) \ne ⊥\right\}$questo `e semidecidibile perch`e K= Dh, con h(x) = fx(x),
-
-ma `e anche indecidibile in quanto la funzione caratteristica dell’insieme K, definita come cK(x) =
+Quindi, dato l’insieme $K= \left\{x|f(x) \ne ⊥ \right\}$questo è semidecidibile perchè $K= D_h$, con $h(x) = f_x(x)$, ma  anche indecidibile in quanto la funzione caratteristica dell’insieme K, definita come cK(x) =
 
 if fx(x) ̸= ⊥then 1 else 0, non `e computabile. Si `e appena dimostrato che esistono insiemi che sono
 
