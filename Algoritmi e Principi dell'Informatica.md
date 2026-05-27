@@ -759,7 +759,7 @@ Quindi, dato l’insieme $K= \left\{x|f(x) \ne ⊥ \right\}$questo è semidecidi
 
 *Gerarchia degli insiemi*
 
-
+![[Algoritmi e Principi dell'Informatica-1779875242820.webp|499]]
 
 *Con RE si indicano gli insiemi Ricorsivamente Enumerabili.
 Si noti che tutte le inclusioni sono strette.
