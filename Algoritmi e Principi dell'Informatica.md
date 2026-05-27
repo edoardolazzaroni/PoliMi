@@ -859,9 +859,7 @@ $F ⇔G≡(F ⇒G) ∧(G⇒F)$
 $F ⇒G≡¬F ∨G$
 $F ⇒G≡¬G⇒¬F$
 
-In logica prposizionale è anche possibile sostituire una sottoformula $G$ di una formula ben formata $F$ con una formula $H$: la formula risultate viene indicata con la scrittura F[G\H]. Tale sostituzione, per`o,
-
-pu`o avvenire solamente se G≡H.
+In logica prposizionale è anche possibile sostituire una sottoformula $G$ di una formula ben formata $F$ con una formula $H$: la formula risultate viene indicata con la scrittura $F[G\H]$. Tale sostituzione, però, può avvenire solamente se $G≡H$.
 
 In base a questi concetti si pu`o notare che non tutti i connettivi logici sono strettamente necessa-
 
