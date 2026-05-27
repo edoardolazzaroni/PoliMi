@@ -1015,17 +1015,9 @@ Dunque, il programma $P$ deve essere tale per cui se la precondizione *Pre* vale
 # **Parte II: Algoritmi e Strutture Dati**
 
 
-Complessità del Calcolo
+## **Complessità del Calcolo**
 
-Nei capitoli precedenti si `e dimostrato come esistano alcuni problemi che, pur essendo ben definiti,
-
-non sono risolvibili algoritmicamente, per cui non esiste una TM in grado di risolvere quel determinato
-
-problema. Un’altra difficolt`a da tenere in considerazione quando si manipolano i problemi,risiede nel
-
-tempo di esecuzione, ovvero il tempo impiegato dal programma per fornire una soluzione: se non `e
-
-possibile ottenere una soluzione in un tempo ragionevole, ovviamente, il problema diventa intrattabile,
+Nei capitoli precedenti si è dimostrato come esistano alcuni problemi che, pur essendo ben definiti, non sono risolvibili algoritmicamente, per cui non esiste una MT in grado di risolvere quel determinato problema. Un’altra difficoltà da tenere in considerazione quando si manipolano i problemi, risiede nel tempo di esecuzione, ovvero il tempo impiegato dal programma per fornire una soluzione: se non è possibile ottenere una soluzione in un tempo ragionevole, ovviamente, il problema diventa intrattabile,
 
 nonostante sia teoricamente risolvibile.
 
