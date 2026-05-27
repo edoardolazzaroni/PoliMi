@@ -842,26 +842,24 @@ Un insieme di formule $F$ comporta logicamente una formula $G$ o, equivalentemen
 
 Esistono innumerevoli equivalenze notevoli:
 
-$F ∧F ≡F$
-F ∨F ≡F
-F ∧G≡G∧F
-F ∨G≡G∨F
-F ∧(G∧H) ≡(F ∧G) ∧H
-F ∨(G∨H) ≡(F ∨G) ∨H
-(F ∧G) ∨F ≡F
-(F ∨G) ∧F ≡F
-F ∧(G∨H) ≡(F ∧G) ∨(F ∧H)
-F ∨(G∧H) ≡(F ∨G) ∧(F ∨H)
-¬¬F ≡F
-¬(F ∧G) ≡¬F ∧¬G
-¬(F ∨G) ≡¬F ∧¬G
-F ⇔G≡(F ⇒G) ∧(G⇒F)
-F ⇒G≡¬F ∨G
-F ⇒G≡¬G⇒¬F
+$F ∧F ≡F$$
+$F ∨F ≡F$
+$F ∧G≡G∧F$
+$F ∨G≡G∨F$
+$F ∧(G∧H) ≡(F ∧G) ∧H$
+$F ∨(G∨H) ≡(F ∨G) ∨H$
+$(F ∧G) ∨F ≡F$
+$(F ∨G) ∧F ≡F$
+$F ∧(G∨H) ≡(F ∧G) ∨(F ∧H)$
+$F ∨(G∧H) ≡(F ∨G) ∧(F ∨H)$
+$¬¬F ≡F$
+$¬(F ∧G) ≡¬F ∧¬G$
+$¬(F ∨G) ≡¬F ∧¬G$
+$F ⇔G≡(F ⇒G) ∧(G⇒F)$
+$F ⇒G≡¬F ∨G$
+$F ⇒G≡¬G⇒¬F$
 
-In logica prposizionale `e anche possibile sostituire una sottoformula G di una formula ben formata F
-
-con una formula H: la formula risultate viene indicata con la scrittura F[G\H]. Tale sostituzione, per`o,
+In logica prposizionale è anche possibile sostituire una sottoformula $G$ di una formula ben formata $F$ con una formula $H$: la formula risultate viene indicata con la scrittura F[G\H]. Tale sostituzione, per`o,
 
 pu`o avvenire solamente se G≡H.
 
