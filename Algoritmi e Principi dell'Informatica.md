@@ -768,11 +768,9 @@ Si noti che tutte le inclusioni sono strette.
 ### **5.7 Teoremi di Kleene e Rice**
 
 - **==Teorema di Kleene del punto fisso==**: Sia $t$ una qualunque funzione totale e computabile. Allora è sempre possibile trovare un intero $p$, tale per cui: $f_p = f_t(p)$
-  La funzione fp `e detta punto fisso di t, perch`e t trasforma fp in fp stessa.
+  La funzione $f_p$ è detta punto fisso di $t$, perchè $t$ trasforma $f_p$ in $f_p$ stessa.
 
-Teorema 5.7.2 (Teorema di Rice). Sia F un insieme generico di funzioni computabili. L’insieme
-
-S= {x |fx ∈F}degli indici delle TM che calcolano le funzioni di F, `e ricorsivo se e solo se F= ∅
+- **==Teorema di Rice==**: Sia $F$ un insieme generico di funzioni computabili. L’insieme $S= \left\{x |f_x ∈F\right\}$degli indici delle TM che calcolano le funzioni di F, `e ricorsivo se e solo se F= ∅
 
 oppure F `e l’insieme di tutte le funzioni computabili.
 
