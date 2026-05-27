@@ -966,13 +966,10 @@ $last(x) ≡¬∃y(y>x)$
 
 Le altre costanti $(1, 2, 3, ...)$ possono essere ricavate tramite l’utilizzo del predicato $successor$ (di arietà due) applicata alla costante $0$ tante volte quanto il numero che si vuole ottenere.
 Una volta introdotti tutti questi concetti della logica monadica del primo ordine, si può ora analizzare l’interpretazione di queste formule logiche rispetto a stringhe di un determinato alfabeto di riferimento.
-Dato un alfabeto $I$, una stringa $w∈I^+$ ed un simbolo $a∈I$, $a(x)$ è vero se e solo se l’$x$-esimo simbolo di w `e a, considerando un’indicizzazione che parte da 0.6.4. LOGICA MONADICA DEL SECONDO ORDINE 39
+Dato un alfabeto $I$, una stringa $w∈I^+$ ed un simbolo $a∈I$, $a(x)$ è vero se e solo se l’$x$-esimo simbolo di $w$ è $a$, considerando un’indicizzazione che parte da $0$.
 
-Semantica La semantica, nella logica monadica del primo ordine, assegna un valore di verit`a o falsit`a
 
-alle formule, tramite una funzione di assegnamento v1 : V1 →[0,...,|w|−1], in cui w∈I+ `e una stringa
-
-composta a partire dall’alfabeto I, mentre V1 `e l’insieme delle variabili. Tale funzione si comporta nel
+**==Semantica==**: la semantica, nella logica monadica del primo ordine, assegna un valore di verità o falsità alle formule, tramite una funzione di assegnamento $v_1 : V_1 →[0,...,|w|−1]$, in cui $w∈I^+$ è una stringa composta a partire dall’alfabeto I, mentre V1 `e l’insieme delle variabili. Tale funzione si comporta nel
 
 seguente modo:
 
