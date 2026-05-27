@@ -808,13 +808,12 @@ La sintassi del linguaggio definisce le sequenze ammissibili di simboli sull’a
 
 *Tabella della verità dei connettivi logici*
 
-![[Algoritmi e Principi dell'Informatica-1779876036792.webp]]
+![[Algoritmi e Principi dell'Informatica-1779876036792.webp|408]]
 
-Una volta introdotte le formule ben formate, è possibile definire le sottoformule, ovvero una parte di una *fbf* che è a sua volta una *fbf*. L’insieme *Stfm(F)* delle sottoformule di $F$ è definito come il più piccolo insieme di formule tale che:
 
-F ∈Stfm(F);
-
-Se¬G∈Stfm(F), allora G∈Stfm(F);
+Una volta introdotte le formule ben formate, è possibile definire le sottoformule, ovvero una parte di una *fbf* che è a sua volta una *fbf*. L’insieme $Stfm(F)$ delle sottoformule di $F$ è definito come il più piccolo insieme di formule tale che:
+- $F ∈Stfm(F)$;
+- Se $¬G∈Stfm(F), allora G∈Stfm(F);
 
 se G∧H,G∨H,G⇒H,G⇔H ∈Stfm(F), allora H,G∈Stfm(F).
 
