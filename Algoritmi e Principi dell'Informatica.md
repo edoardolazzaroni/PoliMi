@@ -886,18 +886,10 @@ Per poter scrivere formule nella logica del primo ordine c’è la necessità di
 - se $f$ è un simbolo di funzione $n$-aria e $t_1,t_2,...,t_n$ sono termini, allora $f(t_1,t_2,...,t_n)$ è un termine.
 
 Gli oggetti appena denotati attraverso i termini, si possono utilizzare all’interno delle formule della logica del primo ordine, definite anch’esse in maniera induttiva. L’insieme delle formule della logica del primo ordine è definito come il più piccolo insieme tale che:
-- Se $p$ è un simbolo di relazione $n$-aria e $t_1,t_2,...,t_n$ sono termini, allora $p(t_1,t_2,...,t_n)$ è una formula detta atomica o semplicemente atomo;
-- Se $F$ e $G$ sono formule e $X$ è una variabile, allora¬F,F ∨G,F ∧G,F ⇒G,F ⇔G,∃XF,∀XF
+- Se $p$ è un simbolo di relazione $n$-aria e $t_1,t_2,...,t_n$ sono termini, allora $p(t_1,t_2,...,t_n)$ è una formula detta **atomica** o semplicemente atomo;
+- Se $F$ e $G$ sono formule e $X$ è una variabile, allora $¬F,F ∨G,F ∧G,F ⇒G,F ⇔G,∃XF,∀XF$ sono formule.
 
-sono formule.
-
-Nella scrittura di formule appartenenti alla logica del primo ordine, c’`e un’osservazione da fare:
-
-quando si utilizza il quantificatore ∀il connettivo principale utilizzato `e ⇒, mentre nel caso si utilizzi
-
-il quantificatore ∃allora il connettivo principale `e ∧. Inoltre, se QX(F) rappresenta una formula in
-
-cui Q `e un quantificatre, allora F si dice ambito di Q e che Q `e applicato ad F. Un’occorrenza di una
+Nella scrittura di formule appartenenti alla logica del primo ordine, c’è un’osservazione da fare: quando si utilizza il quantificatore $∀$ il connettivo principale utilizzato è $⇒$, mentre nel caso si utilizzi il quantificatore $∃$ allora il connettivo principale è $∧$. Inoltre, se $QX(F)$ rappresenta una formula in cui $`e un quantificatre, allora F si dice ambito di Q e che Q `e applicato ad F. Un’occorrenza di una
 
 variabile in una formula `e legata se e solo se la sua occorrenza `e entro l’ambito di un quantificatore che
 
