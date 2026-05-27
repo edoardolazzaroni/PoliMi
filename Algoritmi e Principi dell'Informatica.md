@@ -755,19 +755,10 @@ Vale anche il seguente risultato:
 
 - **Teorema**: Un insieme $S$ è ricorsivamente enumerabile se e solo se $S= D_h$, in cui $h$ è una funzione parziale e computabile $(S= \left\{x|h(x) \ne ⊥\right\})$, oppure se e solo se $S= I_g$, in cui $g$ è una funzione parziale e computabile $(S= \left\{x|x= g(y),y∈\mathbb{N}\right\})$.
 
-Quindi, dato l’insieme $K= \left\{x|f(x) \ne ⊥ \right\}$questo è semidecidibile perchè $K= D_h$, con $h(x) = f_x(x)$, ma  anche indecidibile in quanto la funzione caratteristica dell’insieme K, definita come cK(x) =
+Quindi, dato l’insieme $K= \left\{x|f(x) \ne ⊥ \right\}$questo è semidecidibile perchè $K= D_h$, con $h(x) = f_x(x)$, ma è anche indecidibile in quanto la funzione caratteristica dell’insieme $K$, definita come $c_K(x) =$ `if` $f_x(x) \ne ⊥$ `then` $1$ `else` $0$, non è computabile. Si è appena dimostrato che esistono insiemi che sono semidecidibili, ma allo stesso tempo indecidibili.
 
-if fx(x) ̸= ⊥then 1 else 0, non `e computabile. Si `e appena dimostrato che esistono insiemi che sono
+*Gerarchia degli insiemi*
 
-semidecidibili, ma allo stesso tempo indecidibili.
-
-insiemi ricorsivi
-
-insiemi RE*
-
-℘(N)
-
-Figura 5.3: Gerarchia degli insiemi
 
 *Con RE si indicano gli insiemi Ricorsivamente Enumerabili.
 
