@@ -1073,9 +1073,7 @@ In generale, **le macchine di Turing multinastro sono il formalismo più potente
 
 Nella maggior parte dei casi si analizza la complessità spaziale o temporale di un determinato algoritmo per valori molto grandi dell’ingresso $x$, ovvero per $x$ che tende ad infinito. In questi casi si analizza il comportamento asintotico dell’algoritmo, che fornisce un’approssimazione abbastanza precisa sul dispendio di risorse. La notazione dell’ordine di grandezza di una funzione, nota sotto il nome di notazione *theta-grande* $(Θ)$, sottolinea i fattori dominanti che influeanzano la creascita della sua complessità in funzione della dimensione dell’ingresso. Oltre alla notazione *theta-grande*, esistono anche le notazioni *o-grande* $(O)$ e *omega-grande* $(Ω)$, le cui definizioni sono riportate di seguito:
 
-- (Notazione $O$). Siano $g : \mathbb{N} →\mathbb{R}^+$ ed $f : N →R^+$ due funzioni. La funzione $g$ è in $O(f)$ se e solo se esistono due numeri positivi c ed n0 tali che per ogni n ≥n0, g(n) ≤cf(n). Ci`o
-
-significa che O(f) = {g(n) : N →R+ |∃c,n0 >0 ∧∀n≥n0,g(n) ≤cf(n)}
+- (Notazione $O$). Siano $g : \mathbb{N} →\mathbb{R}^+$ ed $f : \mathbb{N} →\mathbb{R}^+$ due funzioni. La funzione $g$ è in $O(f)$ se e solo se esistono due numeri positivi $c$ ed $n_0$ tali che per ogni $n ≥n_0, g(n) ≤c_f(n)$. Ciò significa che $O(f) = {g(n) : \mathbb{N} →\mathbb{R}^+ |∃c,n0 >0 ∧∀n≥n_0,g(n) ≤c_f(n)}$
 
 Inoltre, vale che:
 
