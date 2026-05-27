@@ -1043,7 +1043,7 @@ Analogamente, si può definire la complessità spaziale come una funzione che fo
 
 - Siano $M, x, c_0,...,c_r$ definiti come nella definizione precedente. La funzione che rappresenta la **==complessità spaziale==**  $S_M$ di $M$ è definita nel seguente modo:
 
-$S_M =kj=1maxi∈{0,1,...,r}(|αij|)
+$S_M =\sum_{j=1}maxi∈{0,1,...,r}(|αij|)$
 
 Inoltre, vale che:
 
