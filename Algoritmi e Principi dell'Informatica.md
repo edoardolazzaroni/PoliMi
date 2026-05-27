@@ -986,13 +986,8 @@ Si ammettono quindi formule del tipo $∃X(F)$ oppure $∃X(x)4, in cui $X$ è d
 
 
 **==Semantica==**: l’assegnamento delle variabili del secondo ordine, che fanno parte dell’insieme $V_2$, avviene attraverso la funzione $v_2 : V_2 →℘([0,...,|w|−1])$ tale che:
-- $w,v1,v2 ⊨ X(x) se e solo se v1(x) ∈v2(X);
-
-w,v1,v2 ⊨ ∃X(F) se e solo se w,v1,v′
-
-2 ⊨ F per qualche v′
-
-2(Y) = v2(Y), Y ̸= X
+- $w,v_1,v_2 ⊨ X(x)$ se e solo se $v_1(x) ∈v_2(X)$;
+- $w,v_1,v_2 ⊨ ∃X(F)$ se e solo se $w,v_1,v_2' ⊨ F$ per qualche $v_2'(Y) = v_2(Y), Y \ne X
 
 Tramite questa logica, si possono scrivere formule che risolvono il problema della rappresentazione
 
