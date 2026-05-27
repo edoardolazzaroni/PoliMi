@@ -765,7 +765,7 @@ Quindi, dato l’insieme $K= \left\{x|f(x) \ne ⊥ \right\}$questo è semidecidi
 Si noti che tutte le inclusioni sono strette.
 
 
-**5.7 Teoremi di Kleene e Rice**
+### **5.7 Teoremi di Kleene e Rice**
 
 Teorema 5.7.1 (Teorema di Kleene del punto fisso). Sia t una qualunque funzione totale e computabile.
 
