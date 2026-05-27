@@ -879,19 +879,11 @@ Per questo motivo, nel 1979 è stata sviluppata la logica del primo ordine, che 
 5. Un insieme di quantificatori: $∃$ (esiste) e $∀$ (per ogni);
 6. Un insieme di simboli di punteggiatura: $( , )$ e le virgole.
 
-Ogni simbolo di funzione e relazione ha una arietà fissata, che indica il numero di argomenti associati a quella determinata funzione. Le funzioni nullarie sono dette costanti, mentre i predicati costanti
+Ogni simbolo di funzione e relazione ha una **arietà** fissata, che indica il numero di argomenti associati a quella determinata funzione. Le funzioni nullarie sono dette costanti, mentre i predicati costanti sono detti proposizioni. I simboli dell’alfabeto sono privi di significato: assegnarne uno è compito della semantica.
 
-sono detti proposizioni. I simboli dell’alfabeto sono privi di significato: assegnarne uno `e compito della
-
-semantica.
-
-Per poter scrivere formule nella logica del primo ordine c’`e la necessit`a di denotare tutti gli oggetti
-
-di cui il linguaggio Lpu`o parlare, detti termini. Tale denotazione avviene induttivamente come segue:
-
-ogni variabile `e un termine della formula;
-
-se f `e un simbolo di funzione n-aria e t1,t2,...,tn sono termini, allora f(t1,t2,...,tn) `e un termine.
+Per poter scrivere formule nella logica del primo ordine c’è la necessità di denotare tutti gli oggetti di cui il linguaggio $L$ può parlare, detti termini. Tale denotazione avviene induttivamente come segue:
+- ogni variabile è un termine della formula;
+- se $f$ è un simbolo di funzione $n$-aria e $t_1,t_2,...,t_n$ sono termini, allora $f(t_1,t_2,...,tn) `e un termine.
 
 Gli oggetti appena denotati attraverso i termini, si possono utilizzare all’interno delle formule della
 
