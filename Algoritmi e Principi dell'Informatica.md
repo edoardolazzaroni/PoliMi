@@ -908,7 +908,7 @@ Ora, sia $ϕ$ una valutazione, $X$ una variabile, $I$ un’interpretazione e $c_
 - $I ⊨ϕ (F ⇒G)$ se e solo se $I ⊭ϕ F$ o $I ⊨ϕ G$;
 - $I ⊨ϕ (F ⇔G)$ se e solo se $I ⊨ϕ (F ⇒G)$ e $I ⊨ϕ (G⇒F$);
 - $I ⊨ϕ ∀X(F)$ se e solo se $I ⊨ϕ[X→c_I ] F$ per ogni $c_I ∈|I|$;
-- $I ⊨ϕ ∃X(F)$ se e solo se $I ⊨ϕ[X→c_I ] F$ per qualche $c_I ∈|I|
+- $I ⊨ϕ ∃X(F)$ se e solo se $I ⊨ϕ[X→c_I ] F$ per qualche $c_I ∈|I|$.
 
 Se F `e una formula chiusa, il suo significato dipende solamente dall’interpretazione I, che viene detta
 
