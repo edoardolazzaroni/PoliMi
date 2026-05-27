@@ -1051,16 +1051,9 @@ Analogamente, si può definire la complessità spaziale come una funzione che fo
 
 
 Si noti, inoltre, che la definizione di $S_M(x)$ prende in considerazione solamente i nastri di memoria e ignora sia il nastro di ingresso che il nastro di uscita per il calcolo della complessità.
+Secondo le definizioni appena enunciate, sia $T_M$ che $S_M$ sono funzioni definite su $I^∗$, ma nella pratica la complessità di una soluzione dipende sia dal contenuto dell’ingresso che dalla sua dimensione: a partire da questa osservazione, si erano introdotti i concetti di complessità nel caso pessimo, medio e ottimo, che si possono ridefinire nel seguente modo, alla luce delle definizioni appena date:
 
-Secondo le definizioni 7.1.1 e 7.1.2, sia TM che SM sono funzioni definite su I∗, ma nella pratica la
-
-complessit`a di una soluzione dipende sia dal contenuto dell’ingresso che dalla sua dimensione: a partire
-
-da questa osservazione, si erano introdotti i concetti di complessit`a nel caso pessimo, medio e ottimo,
-
-che si possono ridefinire nel seguente modo, alla luce delle definizioni appena date:
-
-Definizione 7.1.3. Il caso pessimo, ottimo e medio sono cos`ı definiti:
+- Il caso pessimo, ottimo e medio sono cos`ı definiti:
 
 Caso pessimo: TM(n) = max|x|=nTM(x);
 
