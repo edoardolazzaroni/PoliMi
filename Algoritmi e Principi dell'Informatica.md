@@ -770,19 +770,9 @@ Si noti che tutte le inclusioni sono strette.
 - **==Teorema di Kleene del punto fisso==**: Sia $t$ una qualunque funzione totale e computabile. Allora è sempre possibile trovare un intero $p$, tale per cui: $f_p = f_t(p)$
   La funzione $f_p$ è detta punto fisso di $t$, perchè $t$ trasforma $f_p$ in $f_p$ stessa.
 
-- **==Teorema di Rice==**: Sia $F$ un insieme generico di funzioni computabili. L’insieme $S= \left\{x |f_x ∈F\right\}$degli indici delle TM che calcolano le funzioni di F, `e ricorsivo se e solo se F= ∅
+- **==Teorema di Rice==**: Sia $F$ un insieme generico di funzioni computabili. L’insieme $S= \left\{x |f_x ∈F\right\}$degli indici delle MT che calcolano le funzioni di $F$, è ricorsivo se e solo se $F= ∅$ oppure $F$ è l’insieme di tutte le funzioni computabili.
 
-oppure F `e l’insieme di tutte le funzioni computabili.
-
-Il teorema di Rice ha un forte impatto pratico negativo, in quanto afferma che. in tutti i casi non
-
-banali, S non `e decidibile. Non `e quindi possibile stabilire algoritmicamente se un dato algoritmo sia in
-
-grado di risolvere un determinato problema, n`e se due programmi siano equivalenti (ossia se calcolino
-
-la stessa funzione). Il grande impatto pratico del teorema di Rice deriva dal fatto che il concetto di
-
-sottoinsieme F di funzioni computabili `e un’espressione formale del concetto generale di propriet`a di
+Il teorema di Rice ha un forte impatto pratico negativo, in quanto afferma che in tutti i casi non banali, $S$ **non è decidibile**. Non è quindi possibile stabilire algoritmicamente se un dato algoritmo sia in grado di risolvere un determinato problema, nè se due programmi siano equivalenti (ossia se calcolino la stessa funzione). Il grande impatto pratico del teorema di Rice deriva dal fatto che il concetto di sottoinsieme $F$ di funzioni computabili è un’espressione formale del concetto generale di propriet`a di
 
 problemi risolvibili: una propriet`a degli elementi di un insieme `e un sottoinsieme dell’insieme dato e una
 
