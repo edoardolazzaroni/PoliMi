@@ -976,15 +976,13 @@ Dato un alfabeto $I$, una stringa $w∈I^+$ ed un simbolo $a∈I$, $a(x)$ è ver
 - $w,v_1 ⊨ F_1 ∧F_2$ se e solo se $w,v_1 ⊨ F_1$ e $w,v_1 ⊨ F_2$;
 - $w,v_1 ⊨ ∀x(F)$ se e solo se $w,v_1' ⊨ F ∀v_1'$ con $v_1'(y) = v_1(y), y\ne x$.
 
-**Proprietà**: la logica monadica del primo ordine ha delle importanti proprietà che consentono di identificare quali linguaggi è possibile rappresentare con tale logica. Nello specifico, tutti i linguaggi esprimibili mediante questa logica sono chiusti rispetto all’unione, all’intersezione e al complemento, Inoltre, si può dimostrare che non è possibile esprimere il linguaggio $L_p$ composto da tutte e sole le stringhe di lunghezza pari con $I= \left\{a\right\}$: quindi, si può osservare come la logica monadica del primo ordine è strettamente meno espressiva rispetto agli automi a stati finiti, il che significa che data una formula di tale logica, si può sempre costruire un FSA equivalente, ma non il contrario. Infine, i linguaggi definiti da questa logica non sono chiusi rispetto alla stella di Kleene, ed è per questo motivo che tali linguaggi sono anche detti **star-free**, definibili tramite l’unione, l’intersezione, il complemento e la concatenazione di linguaggi finiti.
+**Proprietà**: la logica monadica del primo ordine ha delle importanti proprietà che consentono di identificare quali linguaggi è possibile rappresentare con tale logica. Nello specifico, tutti i linguaggi esprimibili mediante questa logica sono chiusti rispetto all’unione, all’intersezione e al complemento, Inoltre, si può dimostrare che non è possibile esprimere il linguaggio $L_p$ composto da tutte e sole le stringhe di lunghezza pari con $I= \left\{a\right\}$: quindi, si può osservare come la logica monadica del primo ordine è strettamente meno espressiva rispetto agli automi a stati finiti, il che significa che data una formula di tale logica, si può sempre costruire un FSA equivalente, ma non il contrario. Infine, i linguaggi definiti da questa logica non sono chiusi rispetto alla stella di Kleene, ed è per questo motivo che tali linguaggi sono anche detti **star-free** definibili tramite l’unione, l’intersezione, il complemento e la concatenazione di linguaggi finiti.
 
-6.4 Logica Monadica del Secondo Ordine
 
-Per riuscire ad ottenere lo stesso potere espressivo degli FSA `e necessario permettere alla logica del primo
+### **6.4 Logica Monadica del Secondo Ordine**
 
-ordine di quantificare sui predicati monadici, ovvero di poter quantificare anche su insiemi di posizioni.
-
-Si ammettono quindi formule del tipo ∃X(F) oppure ∃X(x), in cui X `e detta essere una variabile del
+Per riuscire ad ottenere lo stesso potere espressivo degli FSA è necessario permettere alla logica del primo ordine di quantificare sui predicati monadici, ovvero di poter quantificare anche su insiemi di posizioni.
+Si ammettono quindi formule del tipo $∃X(F)$ oppure $∃X(x)4, in cui $X$ ` detta essere una variabile del
 
 secondo ordine, il cui dominio non `e pi`u l’insieme dei numeri naturali N, ma l’insieme dei predicati
 
