@@ -1053,15 +1053,10 @@ Analogamente, si può definire la complessità spaziale come una funzione che fo
 Si noti, inoltre, che la definizione di $S_M(x)$ prende in considerazione solamente i nastri di memoria e ignora sia il nastro di ingresso che il nastro di uscita per il calcolo della complessità.
 Secondo le definizioni appena enunciate, sia $T_M$ che $S_M$ sono funzioni definite su $I^∗$, ma nella pratica la complessità di una soluzione dipende sia dal contenuto dell’ingresso che dalla sua dimensione: a partire da questa osservazione, si erano introdotti i concetti di complessità nel caso pessimo, medio e ottimo, che si possono ridefinire nel seguente modo, alla luce delle definizioni appena date:
 
-- Il caso pessimo, ottimo e medio sono cos`ı definiti:
-
-Caso pessimo: TM(n) = max|x|=nTM(x);
-
-Caso ottimo: TM(n) = min|x|=nTM(x);
-
-Caso medio: TM(n) = |x|=nTM(x)
-
-|I|n
+- Il caso pessimo, ottimo e medio sono così definiti:
+	- Caso **pessimo**: $T_M(n) = max_{|x|=n}T_M(x)$;
+	- Caso **ottimo**: $T_M(n) = min_{|x|=nTM(x);
+	- Caso **medio**: TM(n) = |x|=nTM(x)|I|n
 
 Una volta analizzata la complessit`a temporale tramite il formalismo delle macchine di Turing, si
 
