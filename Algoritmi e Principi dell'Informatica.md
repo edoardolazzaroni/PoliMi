@@ -1017,19 +1017,9 @@ Dunque, il programma $P$ deve essere tale per cui se la precondizione *Pre* vale
 
 ## **Complessità del Calcolo**
 
-Nei capitoli precedenti si è dimostrato come esistano alcuni problemi che, pur essendo ben definiti, non sono risolvibili algoritmicamente, per cui non esiste una MT in grado di risolvere quel determinato problema. Un’altra difficoltà da tenere in considerazione quando si manipolano i problemi, risiede nel tempo di esecuzione, ovvero il tempo impiegato dal programma per fornire una soluzione: se non è possibile ottenere una soluzione in un tempo ragionevole, ovviamente, il problema diventa intrattabile,
+Nei capitoli precedenti si è dimostrato come esistano alcuni problemi che, pur essendo ben definiti, non sono risolvibili algoritmicamente, per cui non esiste una MT in grado di risolvere quel determinato problema. Un’altra difficoltà da tenere in considerazione quando si manipolano i problemi, risiede nel tempo di esecuzione, ovvero il tempo impiegato dal programma per fornire una soluzione: se non è possibile ottenere una soluzione in un tempo ragionevole, ovviamente, il problema diventa intrattabile, nonostante sia teoricamente risolvibile.
 
-nonostante sia teoricamente risolvibile.
-
-Il concetto di intrattabilit`a `e strettamente correlato al concetto di complessit`a del calcolo: pi`u il
-
-problema `e complesso e meno questo diventa trattabile. Informalmente, la complessit`a indica una misura
-
-del prezzo da pagare per risolvere il problema. Le risorse che si utilizzano per la risoluzione di un problema
-
-sono principalmente due: lo spazio, ovvero la memoria necessaria all’algoritmo, e il tempo richiesto per
-
-produrre la soluzione. Si parler`a quindi di complessit`a spaziale e di complessit`a temporale.
+Il concetto di intrattabilità è strettamente correlato al concetto di complessità del calcolo: più il problema è complesso e meno questo diventa trattabile. Informalmente, la complessità indica una misura del prezzo da pagare per risolvere il problema. Le risorse che si utilizzano per la risoluzione di un problema sono principalmente due: lo **spazio**, ovvero la memoria necessaria all’algoritmo, e il tempo **richiesto** per produrre la soluzione. Si parlerà quindi di complessità **spaziale** e di complessità **temporale**.
 
 Inoltre, la soluzione proposta per un dato problema occupa le risorse in due modi: esiste infatti
 
