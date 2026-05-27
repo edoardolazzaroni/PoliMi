@@ -866,15 +866,10 @@ In base a questi concetti si può notare che non tutti i connettivi logici sono 
 A questo punto è possibile completare la definizione della logica proposizionale attraverso i concetti di assioma e regole di inferenza, che costituiscono un sistema formale assiomatico-deduttivo (in inglese calculus). Questi elementi definiscono una relazione di derivabilità (relazione già analizzata nel contesto delle grammatiche), detta anche dimostrabilità, tra un insieme di formule $F$ e una formula $G$. Dunque, i sistemi formali della logica hanno un compito molto simile a quello assolto dalle grammatiche, ovvero producono meccanicamente una formula risultante a partire da un insieme iniziale di formule, applicando assiomi e regole di inferenza. Si scrive, quindi, $F⊢G$ se $G$ può essere ottenuto da $F$. Idealmente, la relazione di derivabilità dovrebbe essere corretta (cioè se $F⊢G$ allora $F⊨ G$) e completa (cioè se $F⊨ G$ allora $F ⊢G$). Se una formula $F$ può essere derivata in una teoria $F$ usando solamente assiomi e regole di inferenza di un sistema, allora si dice che $F$ è un teorema.
 
 
-6.2 Logica del Primo Ordine
+### **6.2 Logica del Primo Ordine**
 
-La logica proposizionale appena analizzata ha molte applicazioni, ma il suo potere espressivo `e ristretto.
-
-Per questo motivo, nel 1979 `e stata sviluppata la logica del primo ordine, che permette dal punto di vista
-
-ontologico di considerare non solo fatti (come avveniva nella logica proposizionale), ma anche propriet`a,
-
-relazioni e funzioni.
+La logica proposizionale appena analizzata ha molte applicazioni, ma il suo potere espressivo è ristretto.
+Per questo motivo, nel 1979 è stata sviluppata la logica del primo ordine, che permette dal punto di vista ontologico di considerare non solo fatti (come avveniva nella logica proposizionale), ma anche proprietà, relazioni e funzioni.
 
 Sintassi In modo formale:
 
