@@ -1056,7 +1056,7 @@ Secondo le definizioni appena enunciate, sia $T_M$ che $S_M$ sono funzioni defin
 - Il caso pessimo, ottimo e medio sono così definiti:
 	- Caso **pessimo**: $T_M(n) = max_{|x|=n}T_M(x)$;
 	- Caso **ottimo**: $T_M(n) = min_{|x|=n}T_M(x)$;
-	- Caso **medio**: $T_M(n) =\frac{\sum} |x|=nTM(x)|I|n$.
+	- Caso **medio**: $T_M(n) =\frac{\sum{|x|=n}}} T_M(x){|I|^n}$.
 
 Una volta analizzata la complessit`a temporale tramite il formalismo delle macchine di Turing, si
 
