@@ -1043,15 +1043,11 @@ Analogamente, si può definire la complessità spaziale come una funzione che fo
 
 - Siano $M, x, c_0,...,c_r$ definiti come nella definizione precedente. La funzione che rappresenta la **==complessità spaziale==**  $S_M$ di $M$ è definita nel seguente modo:
 
-$S_M =\sum_{j=1}^k max_{i∈\left\{0,1,...,r}}(|αij|)$
+							$S_M =\sum_{j=1}^k max_{i∈\left\{0,1,...,r\right\}}(|α_{ij}|)$
 
-Inoltre, vale che:
+	Inoltre, vale che:
 
-∀x,
-
-SM
-
-k ≤TM(x)
+$∀x,S_Mk ≤T_M(x)$
 
 Si noti, inoltre, che la definizione di SM(x) prende in considerazione solamente i nastri di memoria e
 
