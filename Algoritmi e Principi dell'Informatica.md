@@ -1037,15 +1037,11 @@ Nel capitolo sugli automi, è stato più volte affermato che le Macchine di Turi
 - Sia $M$ una MT deterministica a $k$ nastri e sia $x ∈I^∗$. Sia $c_0 ⊢c_1 ⊢.... ⊢c_r$ una **computazione**, ovvero una sequenza di transizioni di $M$ tale che $c_0 =<q_0,↑x,↑Z_0, ...,↑Z_0 >$ e $c_i =<q_i, x_i↑y_i, α_{i1} ↑β_{i1}, ..., α_{ik}↑β_{ik}>$, in cui $c_r$ è una configurazione di arresto, se esiste. Allora, la funzione che rappresenta la complessità temporale $T_M$ di $M$ è definita nel seguente modo:
 					$T_M =$ `if la computazione termina then` $r$ `else` $∞$.
 
-Informalmente, quindi, la complessità temporale viene definita come una funzione che fornisce il numero esatto di passi richiesti da una TM per raggiungere la propria configurazione di arresto, se esiste,
+Informalmente, quindi, la complessità temporale viene definita come una funzione che fornisce il numero esatto di passi richiesti da una MT per raggiungere la propria configurazione di arresto, se esiste, a partire dalla configurazione iniziale, per una qualsiasi stringa in ingresso. 
 
-a partire dalla configurazione iniziale, per una qualsiasi stringa in ingresso. analogamente, si pu`o definire
+Analogamente, si può definire la complessità spaziale come una funzione che fornisce il numero massimo di celle del nastro utilizzate.
 
-la complessit`a spaziale come una funzione che fornisce il numero massimo di celle del nastro utilizzate.
-
-Definizione 7.1.2. Siano M, x, c0,...,cr definiti come nella definizione 7.1.1. La funzione che rappre-
-
-senta la complessit`a spaziale SM di M `e definita nel seguente modo:
+- Siano $M, x, c_0,...,c_r$ definiti come nella definizione precedente. La funzione che rappresenta la complessità spaziale $S_M di M `e definita nel seguente modo:
 
 SM =
 
