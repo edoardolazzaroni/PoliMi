@@ -729,9 +729,7 @@ Si noti, inoltre, che per ogni insieme $S$, la sua funzione caratteristica $c_S$
 - Un insieme $S$ è ricorsivamente enumerabile (o semidecidibile) se e solo se è l’insieme vuoto oppure è l’immagine di una funzione totale e computabile $g_s$, ovvero:
 							$S= I_{g_s} = \left\{x|∃y,y∈\mathbb{N} ∧x= g_s(y)\right\}$
 
-Gli insiemi decidibili devono il loro nome al fatto che il problema di appartenenza può essere risolto tramite un algoritmo meccanico e che, quindi, una MT che implementi la loro funzione caratteristica fornisce necessariamente una risposta al quesito se $x∈S$,$∀x∈\mathbb{N}$. Inoltre, per ogni insieme ricorsivamente numerabile $S$ è possibile costruire una sequenza $x_0 = g_S(0),x_1 = g_S(1),x_2 = g_S(2),...$ tale per cui, se $x ∈S$, allora esiste i tale che $x = g_S(i)$. In questo caso, esaminando la sequenza di elementi ${x_i}$ si riuscirà a trovare l’elemento $x$, concludendo che questo appartiene all’insieme $S$. Perciò, se per un qualsiasi $ī$ risultasse che $x / ∈{gS(i) |0 ≤i≤¯
-
-i}non si potrebbe concludere n`e che x∈S, n`e che x / ∈S:
+Gli insiemi decidibili devono il loro nome al fatto che il problema di appartenenza può essere risolto tramite un algoritmo meccanico e che, quindi, una MT che implementi la loro funzione caratteristica fornisce necessariamente una risposta al quesito se $x∈S$,$∀x∈\mathbb{N}$. Inoltre, per ogni insieme ricorsivamente numerabile $S$ è possibile costruire una sequenza $x_0 = g_S(0),x_1 = g_S(1),x_2 = g_S(2),...$ tale per cui, se $x ∈S$, allora esiste i tale che $x = g_S(i)$. In questo caso, esaminando la sequenza di elementi ${x_i}$ si riuscirà a trovare l’elemento $x$, concludendo che questo appartiene all’insieme $S$. Perciò, se per un qualsiasi $ī$ risultasse che $x / ∈{gS(i) |0 ≤i≤¯i}$ non si potrebbe concludere n`e che x∈S, n`e che x / ∈S:
 
 per questo motivo, l’insieme S viene anche detto semidecidibile.
 
