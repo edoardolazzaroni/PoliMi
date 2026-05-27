@@ -1047,11 +1047,10 @@ Analogamente, si può definire la complessità spaziale come una funzione che fo
 
 	Inoltre, vale che:
 
-$∀x,S_Mk ≤T_M(x)$
+								$∀x,\frac{S_M}{k} ≤T_M(x)$
 
-Si noti, inoltre, che la definizione di SM(x) prende in considerazione solamente i nastri di memoria e
 
-ignora sia il nastro di ingresso che il nastro di uscita per il calcolo della complessit`a.
+Si noti, inoltre, che la definizione di $S_M(x)$ prende in considerazione solamente i nastri di memoria e ignora sia il nastro di ingresso che il nastro di uscita per il calcolo della complessità.
 
 Secondo le definizioni 7.1.1 e 7.1.2, sia TM che SM sono funzioni definite su I∗, ma nella pratica la
 
