@@ -871,6 +871,7 @@ A questo punto è possibile completare la definizione della logica proposizional
 La logica proposizionale appena analizzata ha molte applicazioni, ma il suo potere espressivo è ristretto.
 Per questo motivo, nel 1979 è stata sviluppata la logica del primo ordine, che permette dal punto di vista ontologico di considerare non solo fatti (come avveniva nella logica proposizionale), ma anche proprietà, relazioni e funzioni.
 
+
 **==Sintassi==**: in modo formale, la logica del primo ordine è composta da un linguaggio $L$, il cui alfabeto è costituito dai seguenti elementi:
 1. Un insieme numerabile infinito di variabili;
 2. Un insieme di simboli di funzione;
@@ -889,15 +890,8 @@ Gli oggetti appena denotati attraverso i termini, si possono utilizzare all’in
 - Se $p$ è un simbolo di relazione $n$-aria e $t_1,t_2,...,t_n$ sono termini, allora $p(t_1,t_2,...,t_n)$ è una formula detta **atomica** o semplicemente atomo;
 - Se $F$ e $G$ sono formule e $X$ è una variabile, allora $¬F,F ∨G,F ∧G,F ⇒G,F ⇔G,∃XF,∀XF$ sono formule.
 
-Nella scrittura di formule appartenenti alla logica del primo ordine, c’è un’osservazione da fare: quando si utilizza il quantificatore $∀$ il connettivo principale utilizzato è $⇒$, mentre nel caso si utilizzi il quantificatore $∃$ allora il connettivo principale è $∧$. Inoltre, se $QX(F)$ rappresenta una formula in cui $`e un quantificatre, allora F si dice ambito di Q e che Q `e applicato ad F. Un’occorrenza di una
+Nella scrittura di formule appartenenti alla logica del primo ordine, c’è un’osservazione da fare: quando si utilizza il quantificatore $∀$ il connettivo principale utilizzato è $⇒$, mentre nel caso si utilizzi il quantificatore $∃$ allora il connettivo principale è $∧$. Inoltre, se $QX(F)$ rappresenta una formula in cui $Q$ è un quantificatre, allora $F$ si dice **ambito** di $Q$ e che $Q$ è **applicato** ad $F$. Un’occorrenza di una variabile in una formula è legata se e solo se la sua occorrenza è entro l’ambito di un quantificatore che impiega quella variabile, altrimenti è **libera**. Una formula è **chiusa** se e solo se non contiene occorrenze libere di variabili. Le formule chiuse sono quelle per le quali, data un’interpretazione $I$, si può calcolare la veridicità.
 
-variabile in una formula `e legata se e solo se la sua occorrenza `e entro l’ambito di un quantificatore che
-
-impiega quella variabile, altrimenti `e libera. Una formula `e chiusa se e solo se non contiene occorrenze
-
-libere di variabili. Le formule chiuse sono quelle per le quali, data un’interpretazione I, si pu`o calcolare
-
-la veridicit`a.
 
 Semantica Come per il caso della logica proposizionale, anche la logica del primo ordine ha una
 
