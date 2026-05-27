@@ -962,19 +962,11 @@ $successor(x,y) ≡x<y∧∃z(x<z∧z<y)$
 $y= x+ 1 ≡successor(x,y)$
 $y= x+ k(k>1) ≡∃z1,...,zk−1(y= zk−1 + 1 ∧...∧z1 = x+ 1)$
 $y= x−1 ≡successor(y,x)$
-$last(x) ≡¬∃y(y>x)
+$last(x) ≡¬∃y(y>x)$
 
-Le altre costanti (1, 2, 3, ...) possono essere ricavate tramite l’utilizzo del predicato successor (di
-
-ariet`a due) applicata alla costante 0 tante volte quanto il numero che si vuole ottenere.
-
-Una volta introdotti tutti questi concetti della logica monadica del primo ordine, si pu`o ora analizzare
-
-l’interpretazione di queste formule logiche rispetto a stringhe di un determinato alfabeto di riferimento.
-
-Dato un alfabeto I, una stringa w∈I+ ed un simbolo a∈I, a(x) `e vero se e solo se l’x-esimo simbolo
-
-di w `e a, considerando un’indicizzazione che parte da 0.6.4. LOGICA MONADICA DEL SECONDO ORDINE 39
+Le altre costanti $(1, 2, 3, ...)$ possono essere ricavate tramite l’utilizzo del predicato $successor$ (di arietà due) applicata alla costante $0$ tante volte quanto il numero che si vuole ottenere.
+Una volta introdotti tutti questi concetti della logica monadica del primo ordine, si può ora analizzare l’interpretazione di queste formule logiche rispetto a stringhe di un determinato alfabeto di riferimento.
+Dato un alfabeto $I$, una stringa $w∈I^+$ ed un simbolo $a∈I$, $a(x)$ è vero se e solo se l’$x$-esimo simbolo di w `e a, considerando un’indicizzazione che parte da 0.6.4. LOGICA MONADICA DEL SECONDO ORDINE 39
 
 Semantica La semantica, nella logica monadica del primo ordine, assegna un valore di verit`a o falsit`a
 
