@@ -945,37 +945,24 @@ In questa sezione si analizza un frammento della logica monadica del primo ordin
 Il dominio delle variabili è $\mathbb{N}$.
 Si può osservare come, rispetto alla logica proposizionale e del primo ordine, la logica monadica non fa uso della maggior parte degli operatori logici, del quantificatore esistenziale, della maggior parte degli operatori matematici, di oggetti o funzioni. Tutti i costrutti non utilizzati da tale logica possono essere derivati dagli operatori che sono stati presentati.
 
-Le formule scritte in questa logica possono confrontare dei numeri rappresentati dalle variabili, che rappresentano posizioni all’interno delle stringhe scritte sull’alfabeto di riferimento. Quindi con l’alfabeto $I$ di riferimento posso scrivere delle stringhe mediante i predicati unari e, con la logica monadica è possibile calcolare la posizione, rappresentata dalle variabili, di determinati caratteri all’interno di tali stringhe
+Le formule scritte in questa logica possono confrontare dei numeri rappresentati dalle variabili, che rappresentano posizioni all’interno delle stringhe scritte sull’alfabeto di riferimento. Quindi con l’alfabeto $I$ di riferimento posso scrivere delle stringhe mediante i predicati unari e, con la logica monadica è possibile calcolare la posizione, rappresentata dalle variabili, di determinati caratteri all’interno di tali stringhe per poterli confrontare con altre posizioni.
 
-per poterli confrontare con altre posizioni.
+Con gli operatori logici, matematici e i quantificatori utilizzati nella logica monadica del primo ordine, come già detto in precedenza, è possibile derivare tutti gli altri operatori. Nello specifico:
 
-Con gli operatori logici, matematici e i quantificatori utilizzati nella logica monadica del primo ordine,
+$F1 ∨F2 ≡¬(¬F1¬F2)$
+$F1 ⇒F2 ≡¬F1 ∨F2$
+$∃x(F) ≡¬∀x(¬F)$
+$x= y≡¬(x<y) ∧¬(y<x)$
+$x≤y≡¬(y<x)$
 
-come gi`a detto in precedenza, `e possibile derivare tutti gli altri operatori. Nello specifico:
+In realtà si possono anche introdurre alcune abbraviazioni di comodo. Le più utilizzate sono:
 
-F1 ∨F2 ≡¬(¬F1¬F2)
-
-F1 ⇒F2 ≡¬F1 ∨F2
-
-∃x(F) ≡¬∀x(¬F)
-
-x= y≡¬(x<y) ∧¬(y<x)
-
-x≤y≡¬(y<x)
-
-In realt`a si possono anche introdurre alcune abbraviazioni di comodo. Le pi`u utilizzate sono:
-
-x= 0 ≡∀y(¬(y<x))
-
-successor(x,y) ≡x<y∧∃z(x<z∧z<y)
-
-y= x+ 1 ≡successor(x,y)
-
-y= x+ k(k>1) ≡∃z1,...,zk−1(y= zk−1 + 1 ∧...∧z1 = x+ 1)
-
-y= x−1 ≡successor(y,x)
-
-last(x) ≡¬∃y(y>x)
+$x= 0 ≡∀y(¬(y<x))$
+$successor(x,y) ≡x<y∧∃z(x<z∧z<y)$
+$y= x+ 1 ≡successor(x,y)$
+$y= x+ k(k>1) ≡∃z1,...,zk−1(y= zk−1 + 1 ∧...∧z1 = x+ 1)$
+$y= x−1 ≡successor(y,x)$
+$last(x) ≡¬∃y(y>x)
 
 Le altre costanti (1, 2, 3, ...) possono essere ricavate tramite l’utilizzo del predicato successor (di
 
