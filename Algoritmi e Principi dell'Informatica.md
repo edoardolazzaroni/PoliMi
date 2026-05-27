@@ -1027,21 +1027,9 @@ Si osservi inoltre che le due risorse, quella temporale e quella spaziale, seppu
 
 ### **7.1 Analisi di complessità**
 
-La complessit`a del calcolo dipende dalla dimensione e, spesso, anche dai particolari valori assunti dai
+La complessità del calcolo dipende dalla dimensione e, spesso, anche dai particolari valori assunti dai dati in ingresso. Per questo motivo, si rende necessario effettuare un’analisi del caso pessimo, del caso medio e del caso ottimo, in funzione della dimensione dei dati in ingresso. Più formalmente, tali casi rappresentano rispettivamente la scelta di ingressi per cui viene eseguito il massimo numero di istruzioni nel programma, il comportamento del programma in relazione alla possibile distribuzione dei dati e la scelta di input per cui viene eseguito il minor numero di istruzioni.
 
-dati in ingresso. Per questo motivo, si rende necessario effettuare un’analisi del caso pessimo, del caso
-
-medio e del caso ottimo, in funzione della dimensione dei dati in ingresso. Pi`u formalmente, tali casi
-
-rappresentano rispettivamente la scelta di ingressi per cui viene eseguito il massimo numero di istruzioni
-
-nel programma, il comportamento del programma in relazione alla possibile distribuzione dei dati e la
-
-scelta di input per cui viene eseguito il minor numero di istruzioni.
-
-In generale, il caso ottimo non `e di particolare interesse e il caso medio richiede la conoscenza della
-
-distribuzione dei dati in ingresso (non sempre nota). Il caso pessimo, invece, `e particolarmente interes-
+In generale, il caso ottimo non è di particolare interesse e il caso medio richiede la conoscenza della distribuzione dei dati in ingresso (non sempre nota). Il caso pessimo, invece, `e particolarmente interes-
 
 sante in quanto fornisce i peggiori risultati ottenibili dall’algoritmo in termini di consumo di spazio o
 
