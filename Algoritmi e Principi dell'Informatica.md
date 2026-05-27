@@ -871,25 +871,15 @@ A questo punto è possibile completare la definizione della logica proposizional
 La logica proposizionale appena analizzata ha molte applicazioni, ma il suo potere espressivo è ristretto.
 Per questo motivo, nel 1979 è stata sviluppata la logica del primo ordine, che permette dal punto di vista ontologico di considerare non solo fatti (come avveniva nella logica proposizionale), ma anche proprietà, relazioni e funzioni.
 
-**==Sintassi==**: in modo formale, la logica del primo ordine è composta da un linguaggio L, il cui alfabeto `e costituito
-
-dai seguenti elementi:
-
+**==Sintassi==**: in modo formale, la logica del primo ordine è composta da un linguaggio $L$, il cui alfabeto è costituito dai seguenti elementi:
 1. Un insieme numerabile infinito di variabili;
-
 2. Un insieme di simboli di funzione;
-
 3. Un insieme di simboli di predicati (o relazioni);
+4. Un insieme di connettivi logici: $¬$(NOT), $∧$(AND), $∨$(OR), $⇒$ (implicazione) e $⇔$ (coimplicazione);
+5. Un insieme di quantificatori: $∃$ (esiste) e $∀$ (per ogni);
+6. Un insieme di simboli di punteggiatura: $( , )$ e le virgole.
 
-4. Un insieme di connettivi logici:¬(NOT), ∧(AND), ∨(OR), ⇒(Implicazione) e ⇔(Coimplicazione);
-
-5. Un insieme di quantificatori: ∃(Esiste) e ∀(Per ogni);
-
-6. Un insieme di simboli di punteggiatura: ( , ) e le virgole.
-
-Ogni simbolo di funzione e relazione ha una ariet`a fissata, che indica il numero di argomenti associati
-
-a quella determinata funzione. Le funzioni nullarie sono dette costanti, mentre i predicati costanti
+Ogni simbolo di funzione e relazione ha una arietà fissata, che indica il numero di argomenti associati a quella determinata funzione. Le funzioni nullarie sono dette costanti, mentre i predicati costanti
 
 sono detti proposizioni. I simboli dell’alfabeto sono privi di significato: assegnarne uno `e compito della
 
