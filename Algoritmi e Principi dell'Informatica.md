@@ -1071,17 +1071,9 @@ In generale, **le macchine di Turing multinastro sono il formalismo più potente
 
 ### **7.2 Comportamento asintotico**
 
-Nella maggior parte dei casi si analizza la complessità spaziale o temporale di un determinato algoritmo per valori molto grandi dell’ingresso $x$, ovvero per $x$ che tende ad infinito. In questi casi si analizza ilcomportamento asintotico dell’algoritmo, che fornisce un’approssimazione abbastanza precisa sul dispen-
+Nella maggior parte dei casi si analizza la complessità spaziale o temporale di un determinato algoritmo per valori molto grandi dell’ingresso $x$, ovvero per $x$ che tende ad infinito. In questi casi si analizza il comportamento asintotico dell’algoritmo, che fornisce un’approssimazione abbastanza precisa sul dispendio di risorse. La notazione dell’ordine di grandezza di una funzione, nota sotto il nome di notazione *theta-grande* $(Θ)$, sottolinea i fattori dominanti che influeanzano la creascita della sua complessità in funzione della dimensione dell’ingresso. Oltre alla notazione *theta-grande*, esistono anche le notazioni *o-grande* $(O)$ e *omega-grande* $(Ω)$, le cui definizioni sono riportate di seguito:
 
-dio di risorse. La notazione dell’ordine di grandezza di una funzione, nota sotto il nome di notazione
-
-theta-grande (Θ), sottolinea i fattori dominanti che influeanzano la creascita della sua complessit`a in
-
-funzione della dimensione dell’ingresso. Oltre alla notazione theta-grande, esistono anche le notazioni
-
-o-grande (O) e omega-grande (Ω), le cui definizioni sono riportate di seguito:
-
-Definizione 7.2.1 (Notazione O). Siano g : N →R+ ed f : N →R+ due funzioni. La funzione g `e
+.(Notazione O). Siano g : N →R+ ed f : N →R+ due funzioni. La funzione g `e
 
 in O(f) se e solo se esistono due numeri positivi c ed n0 tali che per ogni n ≥n0, g(n) ≤cf(n). Ci`o
 
