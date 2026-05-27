@@ -772,19 +772,9 @@ Si noti che tutte le inclusioni sono strette.
 
 - **==Teorema di Rice==**: Sia $F$ un insieme generico di funzioni computabili. L’insieme $S= \left\{x |f_x ∈F\right\}$degli indici delle MT che calcolano le funzioni di $F$, è ricorsivo se e solo se $F= ∅$ oppure $F$ è l’insieme di tutte le funzioni computabili.
 
-Il teorema di Rice ha un forte impatto pratico negativo, in quanto afferma che in tutti i casi non banali, $S$ **non è decidibile**. Non è quindi possibile stabilire algoritmicamente se un dato algoritmo sia in grado di risolvere un determinato problema, nè se due programmi siano equivalenti (ossia se calcolino la stessa funzione). Il grande impatto pratico del teorema di Rice deriva dal fatto che il concetto di sottoinsieme $F$ di funzioni computabili è un’espressione formale del concetto generale di propriet`a di
+Il teorema di Rice ha un forte impatto pratico negativo, in quanto afferma che in tutti i casi non banali, $S$ **non è decidibile**. Non è quindi possibile stabilire algoritmicamente se un dato algoritmo sia in grado di risolvere un determinato problema, nè se due programmi siano equivalenti (ossia se calcolino la stessa funzione). Il grande impatto pratico del teorema di Rice deriva dal fatto che il concetto di sottoinsieme $F$ di funzioni computabili è un’espressione formale del concetto generale di proprietà di problemi risolvibili: una proprietà degli elementi di un insieme è un sottoinsieme dell’insieme dato e una funzione computabile è una formalizzazione del concetto di problema risolvibile; quindi, il teorema di Rice efferma che non è possibile stabilire se un determinato algoritmo risolve un problema pur risolvibile che goda di una qualsiasi proprietà non banale.
 
-problemi risolvibili: una propriet`a degli elementi di un insieme `e un sottoinsieme dell’insieme dato e una
 
-funzione computabile `e una formalizzazione del concetto di problema risolvibile; quindi, il teorema di
-
-Rice efferma che non `e possibile stabilire se un determinato algoritmo risolve un problema pur risolvibile
-
-che godia di una qualsiasi propriet`a non banale.`
-
-32 CAPITOLO 5. COMPUTABILIT
-
-ACapitolo 6
 
 Logica
 
