@@ -991,19 +991,13 @@ Si ammettono quindi formule del tipo $∃X(F)$ oppure $∃X(x)4, in cui $X$ è d
 
 Tramite questa logica, si possono scrivere formule che risolvono il problema della rappresentazione del linguaggio $L_p$, composto da tutte e sole le stringhe di lunghezza pari con $I= \left\{a\right\}$, che si può indicare nel seguente modo: $∃D(∀x(¬D(0) ∧(¬D(x) ⇔D(x+ 1)) ∧a(x) ∧(last(x) ⇒D(x))))$, in cui $D$ è una variabile del secondo ordine che indica le posizioni dispari.
 
-Si pu`o dimostrare che, data una qualsiasi formula F appartenente alla logica monadica del secondo
+Si può dimostrare che, data una qualsiasi formula $F$ appartenente alla logica monadica del secondo ordine, è possibile costruire un automa a stati finiti che accetta lo stesso linguaggio $L$ definito da $F$ e, viceversa, dato un qualsiasi automa a stati finiti, è possibile enunciare una formula che riconosce lo stesso linguaggio. Di conseguenza, si può affermare che la classe dei linguaggi definibili dalle formule della logica monadica del secondo ordine coincide con i linguaggi regolari.
 
-ordine, `e possibile costruire un automa a stati finiti che accetta lo stesso linguaggio L definito da F
+*Gerarchia dei linguaggi*
 
-e, viceversa, dato un qualsiasi automa a stati finiti, `e possibile enunciare una formula che riconosce lo
 
-stesso linguaggio. Di conseguenza, si pu`o affermare che la classe dei linguaggi definibili dalle formule
 
-della logica monadica del secondo ordine coincide con i linguaggi regolari.40 CAPITOLO 6. LOGICA
-
-Figura 6.1: Gerarchia dei linguaggi
-
-6.5 Logica per la descrizione di Propriet`a
+### **6.5 Logica per la descrizione di Proprietà**
 
 Quando si programma una funzione `e importante definire con precisione quale sia il suo funzionamen-
 
