@@ -927,17 +927,15 @@ $(∀X(F)) ∨G≡∀X(F ∨G)^∗$
 $(∃X(F)) ∧G≡∃X(F ∧G)^∗$
 $(∃X(F)) ∨G≡∃X(F ∨G)^∗$
 
-Le equivalenze segnate con * sono valide solo se X non `e libera in G.38 CAPITOLO 6. LOGICA
+Le equivalenze segnate con $*$ sono valide solo se $X$ non è libera in $G$.
 
-6.3 Logica Monadica del Primo Ordine
 
-In questa sezione si analizza un frammento della logica monadica del primo ordine, che permette di
+### **6.3 Logica Monadica del Primo Ordine**
 
-descrivere certe stringhe su un determinato alfabeto I. La logica monadica, come suggerisce il nome, si
+In questa sezione si analizza un frammento della logica monadica del primo ordine, che permette di descrivere certe stringhe su un determinato alfabeto $I$. La logica monadica, come suggerisce il nome, si occupa solamente dei predicati monadici, ovvero di tutti quei predicati che hanno **arietà pari ad uno**.
 
-occupa solamente dei predicati monadici, ovvero di tutti quei predicati che hanno ariet`a pari ad uno.
 
-Sintassi Una generica formula F appartenente alla logica monadica del primo ordine ha una sintassi
+**==Sintassi==** Una generica formula F appartenente alla logica monadica del primo ordine ha una sintassi
 
 molto semplice, articolata nei seguenti casi:
 
