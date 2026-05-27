@@ -793,23 +793,11 @@ I concetti di logica introdotti di seguito sono utilizzati per definire in manie
 
 ### **6.1 Logica Proposizionale**
 
-Il calcolo proposizionale, detto anche logica proposizionale, è un modello dichiarativo formale della logica matematica che si basa sul concetto di proposizione, ovvero frasi che possono assumere solamente il valore vero o il valore falso. In generale, ogni linguaggio consiste di una sintassi e di una semantica: la sintassi
+Il calcolo proposizionale, detto anche logica proposizionale, è un modello dichiarativo formale della logica matematica che si basa sul concetto di proposizione, ovvero frasi che possono assumere solamente il valore vero o il valore falso. In generale, ogni linguaggio consiste di una sintassi e di una semantica: la sintassi è l’insieme delle regole attraverso cui è possibile costruire le frasi di cui il linguaggio è composto, mentre la semantica spiega il significato delle varie frasi del linguaggio.
 
-`e l’insieme delle regole attraverso cui `e possibile costruire le frasi di cui il linguaggio `e composto, mentre
-
-la semantica spiega il significato delle varie frasi del linguaggio.
-
-Sintassi In modo formale:
-
-Definizione 6.1.1. La logica proprosizionale `e composta da un linguaggio L, il cui alfabeto `e costituito
-
-dai seguenti elementi:
-
-1. Un insieme numerabile (finito o non) di proposizioni (simboli di relazione nullaria), che possono
-
-essere simboli, stringhe o frasi;
-
-2. Un insieme di connettivi logici:¬(NOT), ∧(AND), ∨(OR), ⇒(Implicazione) e ⇔(Coimplicazione);
+- ==**Sintassi**== In modo formale: la logica proposizionale è composta da un linguaggio $L$, il cui alfabeto è costituito dai seguenti elementi:
+	1. Un insieme numerabile (finito o non) di proposizioni (simboli di relazione nullaria), che possono essere simboli, stringhe o frasi;
+	2. Un insieme di connettivi logici: $¬$(NOT), $∧$(AND), $∨$(OR), $⇒(Implicazione) e ⇔(Coimplicazione);
 
 3. Un insieme di simboli di punteggiatura: ( e )
 
