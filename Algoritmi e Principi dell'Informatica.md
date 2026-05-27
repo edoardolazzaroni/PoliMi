@@ -1034,11 +1034,7 @@ Inoltre, a differenza di quanto analizzato per la risolvibilità dei problemi, l
 
 Nel capitolo sugli automi, è stato più volte affermato che le Macchine di Turing sono il formalismo più potente che si ha a disposizione per la risoluzione di prblemi, dunque, risulta ragionevole definire la complessità temporale e spaziale impiegando un tale modello.
 
-- Sia $M$ una M deterministica a k nastri e sia x ∈I∗. Sia c0 ⊢c1 ⊢.... ⊢cr una
-
-computazione, ovvero una sequenza di transizioni di M tale che c0 =<q0,↑x,↑Z0, ...,↑Z0 > e
-
-ci =<qi, xi↑yi, αi1 ↑βi1, ..., αik↑βik >, in cui cr `e una configurazione di arresto, se esiste. Allora, la
+- Sia $M$ una MT deterministica a $k$ nastri e sia $x ∈I^∗$. Sia $c_0 ⊢c_1 ⊢.... ⊢c_r$ una **computazione**, ovvero una sequenza di transizioni di $M$ tale che $c_0 =<q_0,↑x,↑Z_0, ...,↑Z_0 >$ e $c_i =<q_i, x_i↑y_i, α_i1 ↑β_i1, ..., αik↑βik >, in cui cr `e una configurazione di arresto, se esiste. Allora, la
 
 43`
 
