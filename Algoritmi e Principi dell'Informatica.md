@@ -1062,19 +1062,9 @@ Una volta analizzata la complessità temporale tramite il formalismo delle macch
 
 Dato un **automa a stati finiti** $A$, si definisce la complessità temporale $T_A$ come l’intero $i$ tale che $δ_i(q_0,x) = q$ per qualche $q$, se esiste, ovvero il numero di transizioni effettuate per per processare la stringa in ingresso $x$ a partire dallo stato iniziale. Se $δ^∗(q_0,x)$ è indefinita, si pone $T_A = |x|$, ovvero pari alla lunghezza della stringa in ingresso. $T_A$, evidentemente, indica il numero di mosse compiute da $A$ durante il riconoscimento della stringa $x$. Dunque, per ogni automa a stati finiti la complessità temporale $T_A$ cresce in maniera lineare con il crescere della lunghezza della stringa. Al contrario, la sua complessità spaziale $S_A$ non varia mai, in quanto gli FSA sono composti da un numero finito di stati definiti a priori, indipendentemente dalla lunghezza della stringa letta.
 
-Dato un **automa a pila** $A$, si può analizzare sia la complessità temporale in funzione della stringa in ingresso $(T_A(x))$, sia in funzione della lunghezza della stringa $(T_A(n))$. Come per gli automi a stati finiti, quando si calcola la complessità temporale in funzione della stringa in ingresso, si contano il numero di passi che portano da una configurazione iniziale ad una configurazione finale. Quando invece si vuole utilizzare come parametro la lunghezza della stringa, la complessità temporale è calcolata come il massimo di tutte le complessità temporali in funzione delle stringhe in ingresso della lunghezza considerata. La complessità spaziale $S_A$, invece, viene associata al numero di celle di memoria della pila che vengono
+Dato un **automa a pila** $A$, si può analizzare sia la complessità temporale in funzione della stringa in ingresso $(T_A(x))$, sia in funzione della lunghezza della stringa $(T_A(n))$. Come per gli automi a stati finiti, quando si calcola la complessità temporale in funzione della stringa in ingresso, si contano il numero di passi che portano da una configurazione iniziale ad una configurazione finale. Quando invece si vuole utilizzare come parametro la lunghezza della stringa, la complessità temporale è calcolata come il massimo di tutte le complessità temporali in funzione delle stringhe in ingresso della lunghezza considerata. La complessità spaziale $S_A$, invece, viene associata al numero di celle di memoria della pila che vengono occupate dall’automa per portare a termine la computazione.
 
-occupate dall’automa per portare a termine la computazione.
-
-La complessit`a temporale e spaziale per le macchine di Turing a nastro singolo sono definite esat-
-
-tamente come per le TM a k-nastri. Data una macchina di Turing M a singolo nastro, la complessit`a
-
-spaziale SM(x), che corrisponde al massimo numero di celle del nastro di memoria occupate da M du-
-
-rante la computazione a fronte della stringa in ingresso x, non pu`o mai essere minore di |x|, in quanto
-
-l’unico nastro presente in M `e sia di ingresso, che di memoria, che di uscita. Ci`o significa che l’unico7.2. COMPORTAMENTO ASINTOTICO 45
+La complessità temporale e spaziale per le **macchine di Turing a nastro singolo** sono definite esattamente come per le MT a $k$-nastri. Data una macchina di Turing $M$ a singolo nastro, la complessità spaziale $S_M(x)$, che corrisponde al massimo numero di celle del nastro di memoria occupate da $M$ durante la computazione a fronte della stringa in ingresso $x$, non può mai essere minore di $|x|$, in quanto l’unico nastro presente in $M$ è sia di ingresso, che di memoria, che di uscita. Ciò significa che l’unico7.2. COMPORTAMENTO ASINTOTICO 45
 
 nastro presente, di cui si deve analizzare l’occupazione, `e precaricato con la stringa di ingresso x. Per
 
