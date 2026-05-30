@@ -1251,33 +1251,15 @@ che è funzione quadratica di $n$. Dunque, $T(n) = Θ(n^2)$.
 
 L’algoritmo appena analizzato utilizza un approccio di tipo incrementale: dopo aver ordinato il sottoarray $A[1..j-1]$ inserisce l’elemento $A[j]$ nella posizione corretta, ottenendo il sottoarray ordinato $A[1..j]$.
 
-Nel seguito, invece, si analizza un secondo approccio, più efficiente del primo, soprattutto per array di molti elementi: Divide et Impera. Questo criterio si basa sulla suddivisione ricorsiva del problema
+Nel seguito, invece, si analizza un secondo approccio, più efficiente del primo, soprattutto per array di molti elementi: Divide et Impera. Questo criterio si basa sulla suddivisione ricorsiva del problema in sottoproblemi più piccoli, simili a quello originario, ma di dimensione ridotta, per poi risolvere i sottoproblemi di dimensione minima e fondere i risultati ottenuti, per costruire una soluzione generale del problema originario.
 
-in sottoproblemi pi`u piccoli, simili a quello originario, ma di dimensione ridotta, per poi risolvere i
+Il paradigma Divide et Impera, si basa in realtà su tre passaggi:
 
-sottoproblemi di dimensione minima e fondere i risultati ottenuti, per costruire una soluzione generale
+1. Divide: il problema viene suddiviso in un certo numero di sottoproblemi, che sono istanze più piccole del problema originario, fino ad ottenere sottoproblemi minimi, non più divisibili;
+2. Impera: i sottoproblemi di dimensione minima vengono risolti in maniera ricorsiva; se i problemi hanno dimensione sufficientemente piccola vengono risolti direttamente;
+3. Combina: le soluzioni dei sottoproblemi vengono combinate per generare la soluzione del problema generale.
 
-del problema originario.
-
-Il paradigma Divide et Impera, si basa in realt`a su tre passaggi:
-
-1. Divide: il problema viene suddiviso in un certo numero di sottoproblemi, che sono istanze pi`u
-
-piccole del problema originario, fino ad ottenere sottoproblemi minimi, non pi`u divisibili;
-
-2. Impera: i sottoproblemi di dimensione minima vengono risolti in maniera ricorsiva; se i problemi
-
-hanno dimensione sufficientemente piccola vengono risolti direttamente;
-
-3. Combina: le soluzioni dei sottoproblemi vengono combinate per generare la soluzione del problema
-
-generale.
-
-Un tipico algoritmo che segue questo metodo di risoluzione `e il merge sort, che suddivide l’array
-
-originario a met`a e ordina ricorsivamente i due sottoarray ottenuti, chiamando s`e stesso fino ad ottenere
-
-sequenze di dimensione uno, di per s`e gi`a ordinate. A questo punto, le sottosequenze vengono fuse in
+Un tipico algoritmo che segue questo metodo di risoluzione è il **merge sort**, che suddivide l’array originario a metà e ordina ricorsivamente i due sottoarray ottenuti, chiamando sè stesso fino ad ottenere sequenze di dimensione uno, di per s`e gi`a ordinate. A questo punto, le sottosequenze vengono fuse in
 
 modo da ottenere un array ordinato.
 
