@@ -1266,15 +1266,16 @@ Poichè tale procedura viene effettuata per un massimo di $n$ volte, la funsione
 
 *In pseudocodice:*
 
-`merge (A , p , q , r ) :`
-`2 n1 := q - p + 1`
-`3 n2 := r - q`
-`4 L := [1 .. n1 + 1]`
-`5 R := [1 .. n2 + 1]52 CAPITOLO 8. ALGORITMI`
-`6 f o r i := 1 to n1 :`
-`7 L [ i ] := A [ p + i - 1]`
-`8 f o r j := 1 to n2 :`
-`9 R [ j ] := A [ q + j ]`
+`merge(A , p , q , r ) :`
+	`n1 := q - p + 1`
+	`n2 := r - q`
+	`L := [1 .. n1 + 1]`
+	`R := [1 .. n2 + 1]
+	`for i := 1 to n1 :`
+		`L[ 
+		i ] := A [ p + i - 1]`
+`f o r j := 1 to n2 :`
+`R [ j ] := A [ q + j ]`
 `L [n1 + 1] := ∞`
 `L [n2 + 1] := ∞`
 `i := 1`
