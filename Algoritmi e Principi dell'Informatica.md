@@ -1169,15 +1169,9 @@ Una volta analizzato il comportamento della macchina RAM, è possibile studiarne
 
 Tutto ciò conduce al seguente teorema:
 
-- **Teorema**: Una MT multinastro con complessit`a temporale TM pu`o essere simulata da una mac-
+- **Teorema**: Una MT multinastro con complessità temporale $T_M$ può essere simulata da una macchina RAM con complessità temporale $T_R = Θ(T_M)$, secondo il criterio di costo uniforme, oppure $T_R = Θ(T_M·log(T_M))$, secondo il criterio di costo logaritmico.
 
-china RAM con complessit`a temporale TR = Θ(TM), secondo il criterio di costo uniforme, oppure
-
-TR = Θ(TM·log(TM)), secondo il criterio di costo logaritmico.
-
-Ovviamente `e possibile anche simulare una macchina RAM tramite una macchina di Turing, ma tale
-
-costruzione `e molto pi`u complessa e richiede un’analisi approfondita. Si enuncia quindi solo il seguente
+Ovviamente è possibile anche simulare una macchina RAM tramite una macchina di Turing, ma tale costruzione è molto più complessa e richiede un’analisi approfondita. Si enuncia quindi solo il seguente
 
 teorema:
 
