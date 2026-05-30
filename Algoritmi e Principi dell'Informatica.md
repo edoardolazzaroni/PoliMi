@@ -1214,8 +1214,7 @@ Il primo algoritmo analizzato è l’**insertion sort**, che prende in input una
 
 In pseudocodice:
 
-`inse r t i o n S o r t ( A ) :`
-
+insertionSort(A):
 2 f o r j := 2 to A . length :
 
 3 key := A [ j ]
