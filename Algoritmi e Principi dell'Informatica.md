@@ -1137,62 +1137,6 @@ La cella $0$ della memoria è un registro speciale, detto accumulatore, che si u
 
 *Tabella: istruzioni macchina RAM*
 
-SEMANTICA
-
-LOAD= x LOAD x LOAD* x STORE x STORE* x ADD= x ADD x ADD* x SUB= x SUB x SUB* x MULT= x MULT x MULT* x DIV= x DIV x DIV* x READ x READ* x WRITE= x WRITE x WRITE* x JUMP label JGZ label JLZ label JZ label HALT M[0] ←x
-
-M[0] ←M[x]
-
-M[0] ←M[M[x]]
-
-M[x] ←M[0]
-
-M[M[x]] ←M[0]
-
-M[0] ←M[0] + x
-
-M[0] ←M[0]+ M[x]
-
-M[0] ←M[0] + M[M[x]]
-
-M[0] ←M[0] - x
-
-M[0] ←M[0] - M[x]
-
-M[0] ←M[0] - M[M[x]]
-
-M[0] ←M[0] * x
-
-M[0] ←M[0] * M[x]
-
-M[0] ←M[0] * M[M[0]]
-
-M[0] ←M[0] \x
-
-M[0] ←M[0] \M[x]
-
-M[0] ←M[0] \M[M[x]]
-
-M[x] ←input
-
-M[M[x]] ←input
-
-stampa x
-
-stampa M[x]
-
-stampa M[M[x]]
-
-PC ←label
-
-PC ←label if M[0] > 0
-
-PC ←label if M[0] < 0
-
-PC ←label if M[0] = 0
-
-terminazione
-
 di uno dei due operandi delle operazioni aritmetiche binarie che la macchina pu`o effettuare. Un generico
 
 porgramma eseguibile dalla macchina RAM `e composto da istruzioni riportate nella tabella di seguito:
