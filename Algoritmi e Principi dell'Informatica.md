@@ -1240,19 +1240,14 @@ Ovviamente, il caso migliore si verifica quando l’array in input è già ordin
 che è funzione lineare di $n$. Dunque, $T(n) = Θ(n)$.
 
 Al contrario, il caso pessimo si verifica quando l’array in input è ordinato, ma in ordine decrescente.
-In questo caso $t_j= j$  $∀j = 2,3...,n$ e l’espressione di $T(n) assume la forma:
+In questo caso $t_j= j$  $∀j = 2,3...,n$ e l’espressione di $T(n)$ assume la forma:
 
-T(n) = 1
-
-2(c4 + c5 + c6)n2 + (c1 + c2 + c3)n+
+$T(n) = 12(c4 + c5 + c6)n2 + (c1 + c2 + c3)n+12(c4−c5−c6 + c8)n−(c2 + c3 + c4 + c7)$
 
 che `e funzione quadratica di n. Dunque, T(n) = Θ(n2).
 
-1
 
-2(c4−c5−c6 + c8)n−(c2 + c3 + c4 + c7)
-
-8.3 Merge Sort
+**8.3 Merge Sort**
 
 L’algoritmo appena analizzato utilizza un approccio di tipo incrementale: dopo aver ordinato il sottoarray
 
