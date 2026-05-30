@@ -1158,21 +1158,12 @@ Di seguito sono riportati i costi logaritmici delle istruzioni RAM:`
 
 *Tabella: costi logaritmici delle istruzioni macchina RAM*
 
+![[costi logaritmici delle istruzioni macchina RAM.webp|332]]
+
+Dunque, il criterio del costo costante si può applicare solo in situazioni in cui si prevede che ogni valore che comparirà durante l’esecuzione del programma occupi esattamente una cella di memoria, altrimenti si deve necessariamente applicare il criterio del costo logaritmico, che porta ad un calcolo più preciso della complessità.
 
 
-ISTRUZIONE COSTO LOGARITMICO
-
-![[Algoritmi e Principi dell'Informatica-1780153345881.webp]]
-
-Dunque, il criterio del costo costante si pu`o applicare solo in situazioni in cui si prevede che ogni valore
-
-che comparir`a durante l’esecuzione del programma occupi esattamente una cella di memoria, altrimenti
-
-si deve necessariamente applicare il criterio del costo logaritmico, che porta ad un calcolo pi`u preciso
-
-della complessit`a.
-
-7.5 Correlazione temporale fra TM e RAM
+**7.5 Correlazione temporale fra M e RAM**
 
 Una volta analizzato il comportamento della macchina RAM, `e possibile studiarne la correlazione con le
 
