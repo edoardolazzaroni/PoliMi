@@ -1233,9 +1233,7 @@ Ad ogni riga di codice viene associato un costo $c_i$ che va moltiplicato per il
 
 $T(n) = c_1n+ c_2(n−1) + c_3(n−1) + c_4\sum_{j=2}^n t_j + c_5\sum_{j=2}^n(t_j−1) + c_6\sum_{j=2}^n (t_j−1) + c7(n−1)$
 
-Ovviamente, il caso migliore si verifica quando l’array in input `e gi`a ordinato. In questo caso,
-
-tj = 1 ∀j = 2,3...,n e l’espressione di T(n) assume la forma:
+Ovviamente, il caso migliore si verifica quando l’array in input è già ordinato. In questo caso, $t_j = 1$  $∀j = 2,3...,n$ e l’espressione di $T(n)$ assume la forma:
 
 T(n) = (c1 + c2 + c3 + c4 + c7)n−(c2 + c3 + c4 + c7)
 
