@@ -1186,13 +1186,7 @@ In questo capitolo si analizzano a fondo i principali algoritmi di ordinamento e
 
 - Un **==algoritmo==** è una procedura di calcolo ben definita che prende un certo valore, o un insieme di valori, in input e genera un valore, o un insieme di valori, in output. Dunque, un algoritmo è una serie di passi computazionali che trasformano l’input in output.
 
-Un algoritmo può anche essere visto come uno strumento per la risoluzione di un problema compu-
-
-tazionale ben definito: sotto questo sguardo, un algoritmo si definisce corretto se, per ogni istanza di
-
-input, termina con l’output corretto. Se un algoritmo `e corretto, allora risolve quel determinato problema
-
-computazionale. Esistono molti modi per poter specificare un determinato algoritmo: si pu`o utilizzare
+Un algoritmo può anche essere visto come uno strumento per la risoluzione di un problema computazionale ben definito: sotto questo sguardo, un algoritmo si definisce corretto se, per ogni istanza di input, termina con l’output corretto. Se un algoritmo è corretto, allora risolve quel determinato problema computazionale. Esistono molti modi per poter specificare un determinato algoritmo: si può utilizzare
 
 la lingua italiana o inglese, ma anche un linguaggio di programmazione come C, C++, JAVA e Pascal,
 
