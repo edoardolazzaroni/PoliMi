@@ -1201,25 +1201,16 @@ La pseudocodifica può avvenire in molti modi, ma nel seguito si utilizzerano le
 - I dati utilizzati sono tipicamente organizzati in oggetti, formati da attributi, a cui si accede tramite la notazione punto: `oggetto.prop`. Le variabili che rappresentano un determinato oggetto sono trattate come puntatori a tale oggetto. Un puntatore che non fa riferimento ad alcun oggetto è inizializzato con il valore `NIL`;
 - I parametri vengono passati ad una procedura per valore: la procedura chiamata riceve una sua copia dei parametri e, quindi, se a una di queste variabili è assegnato un nuovo valore, la modifica non è visibile dalla procedura chiamante. Nel caso venga passato come argomento un oggetto, viene copiato il puntatore a tale oggetto e quindi le modifiche sono visibili anche dalla procedura chiamante;
 - L’istruzione `return` restituisce immediatamente il controllo al punto in cui la procedura chiamante ha effettuato la chiamata. Le istruzioni return possono anche ritornare un valore al chiamante;
-- Gli operatori booleani `and` e `or` sono cortocircuitati. Ciò significa che nella valutazione dell’espressione `x and y`, si valuta prima se il valore di x sia falso, in quanto, se lo fosse, l’intera espressione sarebbe falsa e non avrebbe quindi alcun senso valutare il valore della variabile y. Al contrario,
+- Gli operatori booleani `and` e `or` sono cortocircuitati. Ciò significa che nella valutazione dell’espressione `x and y`, si valuta prima se il valore di `x` sia falso, in quanto, se lo fosse, l’intera espressione sarebbe falsa e non avrebbe quindi alcun senso valutare il valore della variabile `y`. Al contrario, nella valutazione dell’espressione `x or y`, si verifica innanzitutto se il valore di `x` sia vero, in quanto, se lo fosse, l’intera espressione sarebbe vera e non avrebbe quindi alcun senso valutare il valore della variabile `y`.
 
-nella valutazione dell’espressione x or y, si verifica innanzitutto se il valore di x sia vero, in quan-
+Tramite queste regole è possibile definire un generico algoritmo.
 
-to, se lo fosse, l’intera espressione sarebbe vera e non avrebbe quindi alcun senso valutare il valore
 
-della variabile y.
+### **8.2 Insertion Sort**
 
-Tramite queste regole `e possibile definire un generico algoritmo.
+Una classe di algoritmi molto studiati è quella riguardante l’ordinamento di un vettore, che consiste nella disposizione dei suoi elementi in ordine crescente.
 
-8.2 Insertion Sort
-
-Una classe di algoritmi molto studiati `e quella riguardante l’ordinamento di un vettore, che consiste nella
-
-disposizione dei suoi elementi in ordine crescente.
-
-Il primo algoritmo analizzato `e l’insertion sort, che prende in input una sequenza di n numeri
-
-[a1,a2,...,an] e restituisce in output una permutazione [a′
+Il primo algoritmo analizzato è l’**insertion sort**, che prende in input una sequenza di $n$ numeri [a1,a2,...,an] e restituisce in output una permutazione [a′
 
 1,a′
 
