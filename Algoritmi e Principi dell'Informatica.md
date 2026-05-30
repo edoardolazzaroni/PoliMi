@@ -1074,23 +1074,13 @@ In generale, **le macchine di Turing multinastro sono il formalismo più potente
 Nella maggior parte dei casi si analizza la complessità spaziale o temporale di un determinato algoritmo per valori molto grandi dell’ingresso $x$, ovvero per $x$ che tende ad infinito. In questi casi si analizza il comportamento asintotico dell’algoritmo, che fornisce un’approssimazione abbastanza precisa sul dispendio di risorse. La notazione dell’ordine di grandezza di una funzione, nota sotto il nome di notazione *theta-grande* $(Θ)$, sottolinea i fattori dominanti che influeanzano la creascita della sua complessità in funzione della dimensione dell’ingresso. Oltre alla notazione *theta-grande*, esistono anche le notazioni *o-grande* $(O)$ e *omega-grande* $(Ω)$, le cui definizioni sono riportate di seguito:
 
 - (Notazione $O$): Siano $g : \mathbb{N} →\mathbb{R}^+$ ed $f : \mathbb{N} →\mathbb{R}^+$ due funzioni. La funzione $g$ è in $O(f)$ se e solo se esistono due numeri positivi $c$ ed $n_0$ tali che per ogni $n ≥n_0, g(n) ≤c_f(n)$. Ciò significa che $O(f) = \left\{g(n) : \mathbb{N} →\mathbb{R}^+ |∃c,n_0 >0 ∧∀n≥n_0,g(n) ≤c_f(n)\right\}$.
-Inoltre, vale che:
+	Inoltre, vale che:
 
 						$\lim_{n\to\infty}\frac{f(n)}{g(n)} = 0 ⇒f(n) ∈O(g(n))$
 
-- (Notazione $Ω$): Siano $g : \mathbb{N} →\mathbb{R}^+$ ed $f : \mathbb{N} →\mathbb{R}^+$ due funzioni. La funzione $g$ è in $Ω(f)$ se e solo se esistono due numeri positivi $c$ ed $n_0$ tali che per ogni $n ≥n_0, c_f(n) ≤g(n)$. Ciò significa che $Ω(f) = \left\{g(n) : N →R+ |∃c,n0 >0 ∧∀n≥n0,cf(n) ≤g(n)\right\}$.
-
-Inoltre, vale che:
-
-f(n)
-
-lim
-
-n→∞
-
-= ∞⇒f(n) ∈Ω(g(n))
-
-g(n)
+- (Notazione $Ω$): Siano $g : \mathbb{N} →\mathbb{R}^+$ ed $f : \mathbb{N} →\mathbb{R}^+$ due funzioni. La funzione $g$ è in $Ω(f)$ se e solo se esistono due numeri positivi $c$ ed $n_0$ tali che per ogni $n ≥n_0, c_f(n) ≤g(n)$. Ciò significa che $Ω(f) = \left\{g(n) : \mathbb{N} →\mathbb{R}^+ |∃c,n_0 >0 ∧∀n≥n_0,c_f(n) ≤g(n)\right\}$.
+	Inoltre, vale che:
+$\lim_{n\to\infty}\frac{f(n)}{g(n)} = 0 ⇒f(n) ∈O(g(n))$
 
 La notazione o-grande rappresenta quindi un limite superiore per la funzione data, mentre la no-
 
