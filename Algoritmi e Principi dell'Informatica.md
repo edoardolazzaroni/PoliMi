@@ -1231,7 +1231,7 @@ Si analizza ora il tempo di esecuzione della procedura insertion sort: per ogni 
 
 Ad ogni riga di codice viene associato un costo $c_i$ che va moltiplicato per il numero di volte che tale riga viene eseguita. Il tempo totale di esecuzione si calcola, dunque, sommando i vari contributi di tempo di ogni riga, ottenendo così l’espressione di $T(n)$:
 
-$T(n) = c_1n+ c_2(n−1) + c_3(n−1) + c_4\sum_{j=2}^n tj + c5n(tj−1) + c6j=2n(tj−1) + c7(n−1)j=2$
+$T(n) = c_1n+ c_2(n−1) + c_3(n−1) + c_4\sum_{j=2}^n t_j + c_5\sum_{j=2}^n(t_j−1) + c_6j=2n(tj−1) + c7(n−1)j=2$
 
 Ovviamente, il caso migliore si verifica quando l’array in input `e gi`a ordinato. In questo caso,
 
