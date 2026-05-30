@@ -1080,7 +1080,7 @@ Nella maggior parte dei casi si analizza la complessità spaziale o temporale di
 
 - (Notazione $Ω$): Siano $g : \mathbb{N} →\mathbb{R}^+$ ed $f : \mathbb{N} →\mathbb{R}^+$ due funzioni. La funzione $g$ è in $Ω(f)$ se e solo se esistono due numeri positivi $c$ ed $n_0$ tali che per ogni $n ≥n_0, c_f(n) ≤g(n)$. Ciò significa che $Ω(f) = \left\{g(n) : \mathbb{N} →\mathbb{R}^+ |∃c,n_0 >0 ∧∀n≥n_0,c_f(n) ≤g(n)\right\}$.
 	Inoltre, vale che:
-$\lim_{n\to\infty}\frac{f(n)}{g(n)} = 0 ⇒f(n) ∈O(g(n))$
+$\lim_{n\to\infty}\frac{f(n)}{g(n)} = 0 ⇒f(n) ∈Ω(g(n))g(n)limn→∞= ∞⇒f(n) ∈Ω(g(n))g(n)$
 
 La notazione o-grande rappresenta quindi un limite superiore per la funzione data, mentre la no-
 
