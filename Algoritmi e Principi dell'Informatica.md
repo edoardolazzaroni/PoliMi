@@ -1175,9 +1175,9 @@ Ovviamente è possibile anche simulare una macchina RAM tramite una macchina di 
 
 - **Teorema**: Sia $L$ il linguaggio riconosciuto da una macchina RAM di complessità temporale $T_R$ secondo il criterio del costo logaritmico. Se il programma RAM non utilizza le istruzioni `MULT` e `DIV`, allora $L$ può essere riconosciuto da un’opportuna MT multinastro, in un tempo $T_M = Θ(T_R^2)$.
 
-Si pu`o quindi osservare come il legame tra TM e TR sia di tipo polinomiale, implicazione molto
+Si può quindi osservare come il legame tra $T_M$ e $T_R$ sia di tipo polinomiale, implicazione molto importante perchè suggerisce quale sia la classe di problemi trattabili nella pratica.
 
-importante perch`e suggerisce quale sia la classe di problemi trattabili nella pratica.Capitolo 8
+
 
 Algoritmi
 
