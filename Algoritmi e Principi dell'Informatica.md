@@ -1235,13 +1235,12 @@ $T(n) = c_1n+ c_2(n−1) + c_3(n−1) + c_4\sum_{j=2}^n t_j + c_5\sum_{j=2}^n(t_
 
 Ovviamente, il caso migliore si verifica quando l’array in input è già ordinato. In questo caso, $t_j = 1$  $∀j = 2,3...,n$ e l’espressione di $T(n)$ assume la forma:
 
-T(n) = (c1 + c2 + c3 + c4 + c7)n−(c2 + c3 + c4 + c7)
+				$T(n) = (c_1 + c_2 + c_3 + c_4 + c_7)n−(c_2 + c_3 + c_4 + c_7)$
 
-che `e funzione lineare di n. Dunque, T(n) = Θ(n).
+che è funzione lineare di $n$. Dunque, $T(n) = Θ(n)$.
 
-Al contrario, il caso pessimo si verifica quando l’array in input `e ordinato, ma in ordine decrescente.
-
-In questo caso tj= j ∀j = 2,3...,n e l’espressione di T(n) assume la forma:
+Al contrario, il caso pessimo si verifica quando l’array in input è ordinato, ma in ordine decrescente.
+In questo caso $t_j= j$  $∀j = 2,3...,n$ e l’espressione di $T(n) assume la forma:
 
 T(n) = 1
 
