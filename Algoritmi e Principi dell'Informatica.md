@@ -1294,21 +1294,16 @@ Una volta analizzata la procedura merge, si può introdurre l’algoritmo di ord
 *In pseudocodice:*
 
 `mergeSort (A , p , r ) :`
-`if p < r :`
-`q = ⌊ ( p + r ) / 2 ⌋`
-`mergeSort (A , p , q )`
-`mergeSort (A , q+1 , r )`
-`merge (A , p , q , r )`
+	`if p < r :`
+		`q = ⌊ ( p + r ) / 2 ⌋`
+		`mergeSort (A , p , q )`
+		`mergeSort (A , q+1 , r )`
+		`merge (A , p , q , r )`
 
-L’algoritmo calcola, in riga 2, un indice q, che serve a suddividere l’array A in due sottoarray che
+L’algoritmo calcola, in riga 2, un indice `q`, che serve a suddividere l’array `A` in due sottoarray che contengono rispettivamente ⌈$n/2$⌉elementi ed ⌊$n/2$⌋elementi, su cui richiama ricorsivamente sè stessa.
+Una volta suddiviso l’array `A` in sottoarray di dimensione minima, viene chiamata la procedura `merge`, precedentemente analizzata.
 
-contengono rispettivamente ⌈n/2⌉elementi ed ⌊n/2⌋elementi, su cui richiama ricorsivamente s`e stessa.
-
-Una volta suddiviso l’array A in sottoarray di dimensione minima, viene chiamata la procedura merge,
-
-precedentemente analizzata.
-
-Come si pu`o facilmente osservare, la procedura mergeSort `e definita in maniera ricorsiva, quindi
+Come si può facilmente osservare, la procedura `mergeSort` definita in maniera ricorsiva, quindi
 
 l’analisi delle prestazioni temporali diventa leggermente pi`u complessa: infatti, si deve necessariamente
 
