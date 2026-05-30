@@ -1210,9 +1210,7 @@ Tramite queste regole è possibile definire un generico algoritmo.
 
 Una classe di algoritmi molto studiati è quella riguardante l’ordinamento di un vettore, che consiste nella disposizione dei suoi elementi in ordine crescente.
 
-Il primo algoritmo analizzato è l’**insertion sort**, che prende in input una sequenza di $n$ numeri $[a1,a2,...,an]$ e restituisce in output una permutazione $[a_1',a_2',...,a_n']$ tale che $a_1' ≤a′2 ≤...≤a′n. Questo
-
-algoritmo ordina sul posto 1 gli elementi assumendo che la sequenza da ordinare sia inizialmente partizio-
+Il primo algoritmo analizzato è l’**insertion sort**, che prende in input una sequenza di $n$ numeri $[a1,a2,...,an]$ e restituisce in output una permutazione $[a_1',a_2',...,a_n']$ tale che $a_1' ≤a_2' ≤ ... ≤a_n'$. Questo algoritmo ordina sul posto gli elementi assumendo che la sequenza da ordinare sia inizialmente partizio-
 
 nata in una sottosequenza gi`a ordinata, all’inizio composta da un unico elemento (il primo dell’array), e
 
@@ -1284,9 +1282,7 @@ riga viene eseguita. Il tempo totale di esecuzione si calcola, dunque, sommando 
 
 di ogni riga, ottenendo cos`ı l’espressione di T(n):
 
-1L’algoritmo risistema gli elementi della sequenza all’interno dell’array avendo, in ogni istante, al pi`u un numero finito
-
-di elementi memorizzati all’esterno dell’array: ci`o permette di risparmiare memoria nel calcolatore.8.3. MERGE SORT 51
+8.3. MERGE SORT 51
 
 T(n) = c1n+ c2(n−1) + c3(n−1) + c4
 
