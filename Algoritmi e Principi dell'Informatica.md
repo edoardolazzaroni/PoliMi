@@ -1093,33 +1093,24 @@ Si può dedurre che la funzione $f ∈Θ(g)$ se e solo se $f ∈O(g)$ e $f ∈�
 
 Inoltre, Le notazioni indicate precedentemente godono delle seguenti **proprietà**:
 
-- Transitività:
+- **Transitività**:
+	– se f(n) ∈Θ(g(n)) e g(n) ∈Θ(h(n), allora f(n) ∈Θ(h(n));
+	– se f(n) ∈O(g(n)) e g(n) ∈O(h(n), allora f(n) ∈O(h(n));
+	– se f(n) ∈Ω(g(n)) e g(n) ∈Ω(h(n), allora f(n) ∈Ω(h(n));
 
-– se f(n) ∈Θ(g(n)) e g(n) ∈Θ(h(n), allora f(n) ∈Θ(h(n));
+- Riflessività:
+	– f(n) ∈Θ(f(n));
+	– f(n) ∈O(f(n));
+	– f(n) ∈Ω(f(n));
 
-– se f(n) ∈O(g(n)) e g(n) ∈O(h(n), allora f(n) ∈O(h(n));
+- **Simmetria**: f(n) ∈Θ(g(n)) ⇐⇒ g(n) ∈Θ(f(n));
 
-– se f(n) ∈Ω(g(n)) e g(n) ∈Ω(h(n), allora f(n) ∈Ω(h(n));
+- **Simmetria trasposta**: f(n) ∈O(g(n)) ⇐⇒ g(n) ∈Ω(f(n)).
 
-Riflessivit`a:
+Inoltre, la relazione $Θ$ è una relazione di equivalenza.`
 
-– f(n) ∈Θ(f(n));
 
-– f(n) ∈O(f(n));
-
-– f(n) ∈Ω(f(n));
-
-Simmetria: f(n) ∈Θ(g(n)) ⇐⇒ g(n) ∈Θ(f(n));
-
-Simmetria trasposta: f(n) ∈O(g(n)) ⇐⇒ g(n) ∈Ω(f(n)).
-
-Inoltre, la relazione Θ `e una relazione di equivalenza.`
-
-46 CAPITOLO 7. COMPLESSIT
-
-A DEL CALCOLO
-
-7.3 Accelerazione Lineare
+### **7.3 Accelerazione Lineare**
 
 Si `e precedentemente affermato che la complessit`a della soluzione di un determinato problema pu`o essere
 
