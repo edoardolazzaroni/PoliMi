@@ -1114,11 +1114,9 @@ Inoltre, la relazione $Θ$ è una relazione di equivalenza.`
 
 Si è precedentemente affermato che la complessità della soluzione di un determinato problema può essere migliorata mediante opportune modifiche all’algoritmo risolutivo. A tal proposito si enunciano i seguenti teoremi che pongono alcuni limiti al miglioramento degli algoritmi:
 
-- **Teorema**: Dato $L$ un linguaggio accettato da una MT $M$ multinastro (deterministica o meno) di complessità spaziale $SM(n), allora, per ogni costante c∈R+, L `e accettato anche da un’opportuna TM
+- **Teorema**: Dato $L$ un linguaggio accettato da una MT $M$ multinastro (deterministica o meno) di complessità spaziale $S_M(n)$, allora, per ogni costante $c∈\mathbb{R}^+$, $L$ è accettato anche da un’opportuna MT $M’$ tale che $S_M′(n) <c·S_M(n)$.
 
-M’ tale che SM′(n) <c·SM(n).
-
-Teorema 7.3.2. Dato L un linguaggio accettato da una TM M multinastro (deterministica o meno) di
+- **Teorema**: Dato $L$ un linguaggio accettato da una TM %M multinastro (deterministica o meno) di
 
 complessit`a spaziale SM(n), allora L `e accettato anche da un’opportuna TM M’ multinastro con k = 1
 
