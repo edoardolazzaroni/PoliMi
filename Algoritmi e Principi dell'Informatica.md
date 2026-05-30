@@ -1199,27 +1199,9 @@ La pseudocodifica può avvenire in molti modi, ma nel seguito si utilizzerano le
 - Le assegnazioni di un valore ad una certa variabile avviene con il simbolo `:=`, differente dall’operatore `=`, che invece indica l’eguaglianza di due valori all’interno di un costrutto `if`;
 - Per identificare un elemento appartenente ad un array, si utilizza la notazione con le parentesi quadre, al cui interno si indica l’indice dell’elemento a cui si vuole accedere: `array[i]`; per indicare un intervallo di valori all’interno dell’array si utilizza la seguente sintassi: `array[i..j]`, con cui si indica la sottomatrice composta dagli elementi compresi fra `i` e `j`;
 - I dati utilizzati sono tipicamente organizzati in oggetti, formati da attributi, a cui si accede tramite la notazione punto: `oggetto.prop`. Le variabili che rappresentano un determinato oggetto sono trattate come puntatori a tale oggetto. Un puntatore che non fa riferimento ad alcun oggetto è inizializzato con il valore `NIL`;
-- I parametri vengono passati ad una procedura per valore: la procedura chiamata riceve una sua
-
-copia dei parametri e, quindi, se a una di queste variabili `e assegnato un nuovo valore, la modifica
-
-4950 CAPITOLO 8. ALGORITMI
-
-non `e visibile dalla procedura chiamante. Nel caso venga passato come argomento un oggetto,
-
-viene copiato il puntatore a tale oggetto e quindi le modifiche sono visibili anche dalla procedura
-
-chiamante;
-
-L’istruzione return restituisce immediatamente il controllo al punto in cui la procedura chiamante
-
-ha effettuato la chiamata. Le istruzioni return possono anche ritornare un valore al chiamante;
-
-Gli operatori booleani and e or sono cortocircuitati. Ci`o significa che nella valutazione dell’espres-
-
-sione x and y, si valuta prima se il valore di x sia falso, in quanto, se lo fosse, l’intera espressione
-
-sarebbe falsa e non avrebbe quindi alcun senso valutare il valore della variabile y. Al contrario,
+- I parametri vengono passati ad una procedura per valore: la procedura chiamata riceve una sua copia dei parametri e, quindi, se a una di queste variabili è assegnato un nuovo valore, la modifica non è visibile dalla procedura chiamante. Nel caso venga passato come argomento un oggetto, viene copiato il puntatore a tale oggetto e quindi le modifiche sono visibili anche dalla procedura chiamante;
+- L’istruzione `return` restituisce immediatamente il controllo al punto in cui la procedura chiamante ha effettuato la chiamata. Le istruzioni return possono anche ritornare un valore al chiamante;
+- Gli operatori booleani `and` e `or` sono cortocircuitati. Ciò significa che nella valutazione dell’espressione `x and y`, si valuta prima se il valore di x sia falso, in quanto, se lo fosse, l’intera espressione sarebbe falsa e non avrebbe quindi alcun senso valutare il valore della variabile y. Al contrario,
 
 nella valutazione dell’espressione x or y, si verifica innanzitutto se il valore di x sia vero, in quan-
 
