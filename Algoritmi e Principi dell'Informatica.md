@@ -1244,18 +1244,14 @@ In questo caso $t_j= j$  $∀j = 2,3...,n$ e l’espressione di $T(n)$ assume la
 
 $T(n) = \frac{1}{2}(c_4 + c_5 + c_6)n^2 + (c_1 + c_2 + c_3)n + \frac{1}{2}(c_4−c_5−c_6+c_8)n−(c_2 + c_3 + c_4 + c_7)$
 
-che `e funzione quadratica di n. Dunque, T(n) = Θ(n2).
+che è funzione quadratica di $n$. Dunque, $T(n) = Θ(n^2)$.
 
 
 ### **8.3 Merge Sort**
 
-L’algoritmo appena analizzato utilizza un approccio di tipo incrementale: dopo aver ordinato il sottoarray
+L’algoritmo appena analizzato utilizza un approccio di tipo incrementale: dopo aver ordinato il sottoarray $A[1..j-1]$ inserisce l’elemento $A[j]$ nella posizione corretta, ottenendo il sottoarray ordinato $A[1..j]$.
 
-A[1..j-1] inserisce l’elemento A[j] nella posizione corretta, ottenendo il sottoarray ordinato A[1..j].
-
-Nel seguito, invece, si analizza un secondo approccio, pi`u efficiente del primo, soprattutto per array
-
-di molti elementi: Divide et Impera. Questo criterio si basa sulla suddivisione ricorsiva del problema
+Nel seguito, invece, si analizza un secondo approccio, più efficiente del primo, soprattutto per array di molti elementi: Divide et Impera. Questo criterio si basa sulla suddivisione ricorsiva del problema
 
 in sottoproblemi pi`u piccoli, simili a quello originario, ma di dimensione ridotta, per poi risolvere i
 
