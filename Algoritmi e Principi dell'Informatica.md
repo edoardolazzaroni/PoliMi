@@ -1259,15 +1259,9 @@ Il paradigma Divide et Impera, si basa in realtà su tre passaggi:
 2. Impera: i sottoproblemi di dimensione minima vengono risolti in maniera ricorsiva; se i problemi hanno dimensione sufficientemente piccola vengono risolti direttamente;
 3. Combina: le soluzioni dei sottoproblemi vengono combinate per generare la soluzione del problema generale.
 
-Un tipico algoritmo che segue questo metodo di risoluzione è il **merge sort**, che suddivide l’array originario a metà e ordina ricorsivamente i due sottoarray ottenuti, chiamando sè stesso fino ad ottenere sequenze di dimensione uno, di per s`e gi`a ordinate. A questo punto, le sottosequenze vengono fuse in
+Un tipico algoritmo che segue questo metodo di risoluzione è il **merge sort**, che suddivide l’array originario a metà e ordina ricorsivamente i due sottoarray ottenuti, chiamando sè stesso fino ad ottenere sequenze di dimensione uno, di per sè già ordinate. A questo punto, le sottosequenze vengono fuse in modo da ottenere un array ordinato.
 
-modo da ottenere un array ordinato.
-
-Quest’ultimo passaggio viene effettuato tramite una procedura ausiliaria merge(A,p,q,r), dove A`e
-
-un array, e p,q,r sono tre indici dell’array tali che p≤q<r. La porcedura assume che le sottosequenze
-
-A[p..q] e A[q+1..r] siano ordinate e, quindi, le fonde per formare un unico sottoarray ordinato che
+Quest’ultimo passaggio viene effettuato tramite una procedura ausiliaria `merge(A,p,q,r)`, dove `A` è un array, e `p,q,r` sono tre indici dell’array tali che `p≤q<r`. La porcedura assume che le sottosequenze $A[p..q] e A[q+1..r] siano ordinate e, quindi, le fonde per formare un unico sottoarray ordinato che
 
 sostituisce il sottoarray corrente A[p..r]. La procedura merge(A,p,q,r) impiega un tempo Θ(n) con
 
