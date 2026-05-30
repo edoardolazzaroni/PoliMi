@@ -1135,25 +1135,14 @@ La macchina RAM (o Random Access Memory) è un modello classico ispirata all'arc
 
 Sia i nastri che la memoria sono composti da un numero illimitato di celle, ma al contrario dei nastri di ingresso e uscita che si possono accedere in maniera sequenziale, la memoria è indirizzata e si può accedere a una sua cella attraverso un numero intero $i>0$ che indica l’indirizzo di tale cella di memoria.
 
-La cella $0$ della memoria è un registro speciale, detto accumulatore, che si utilizza per contenere il valore
+La cella $0$ della memoria è un registro speciale, detto accumulatore, che si utilizza per contenere il valore di uno dei due operandi delle operazioni aritmetiche binarie che la macchina può effettuare. Un generico programma eseguibile dalla macchina RAM è composto da istruzioni riportate nella tabella di seguito:
 
 *Tabella: istruzioni macchina RAM*
 
-![[Algoritmi e Principi dell'Informatica-1780152779641.webp]]
+![[Algoritmi e Principi dell'Informatica-1780152779641.webp|260]]
 
-di uno dei due operandi delle operazioni aritmetiche binarie che la macchina pu`o effettuare. Un generico
 
-porgramma eseguibile dalla macchina RAM `e composto da istruzioni riportate nella tabella di seguito:
-
-Una volta introdotte tutte le istruzioni eseguibili dalla macchina RAM, `e possibile ora studiarne la
-
-complessit`a temporale, come fatto per le TM a k-nastri. A differenza delle TM, nelle macchine RAM
-
-l’esecuzione delle diverse operazioni dipende dagli operandi necessari per eseguire tale operazione. Di-
-
-venta quindi necessario analizzare tutte le istruzioni e definire il tempo richiesto per ciascuna di esse e
-
-la quantit`a di memoria allocata. Queste quantit`a possono essere calcolate secondo due criteri, ovvero
+Una volta introdotte tutte le istruzioni eseguibili dalla macchina RAM, è possibile ora studiarne la complessità temporale, come fatto per le MT a $k$-nastri. A differenza delle MT, nelle macchine RAM l’esecuzione delle diverse operazioni dipende dagli operandi necessari per eseguire tale operazione. Diventa quindi necessario analizzare tutte le istruzioni e definire il tempo richiesto per ciascuna di esse e la quantit di memoria allocata. Queste quantit`a possono essere calcolate secondo due criteri, ovvero
 
 tramite il criterio del costo costante e tramite il criterio del costo logaritmico. Il primo si basa sull’as-
 
