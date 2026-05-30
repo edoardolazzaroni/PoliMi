@@ -1210,19 +1210,7 @@ Tramite queste regole è possibile definire un generico algoritmo.
 
 Una classe di algoritmi molto studiati è quella riguardante l’ordinamento di un vettore, che consiste nella disposizione dei suoi elementi in ordine crescente.
 
-Il primo algoritmo analizzato è l’**insertion sort**, che prende in input una sequenza di $n$ numeri [a1,a2,...,an] e restituisce in output una permutazione [a′
-
-1,a′
-
-2,...,a′
-
-n] tale che a′
-
-1 ≤a′
-
-2 ≤...≤a′
-
-n. Questo
+Il primo algoritmo analizzato è l’**insertion sort**, che prende in input una sequenza di $n$ numeri $[a1,a2,...,an]$ e restituisce in output una permutazione $[a_1',a_2',...,a_n']$ tale che $a_1' ≤a′2 ≤...≤a′n. Questo
 
 algoritmo ordina sul posto 1 gli elementi assumendo che la sequenza da ordinare sia inizialmente partizio-
 
