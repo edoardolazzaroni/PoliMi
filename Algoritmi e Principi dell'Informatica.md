@@ -1156,49 +1156,13 @@ La complessità spaziale logaritmica si definisce quindi con la seguente formula
 
 Di seguito sono riportati i costi logaritmici delle istruzioni RAM:`
 
+*Tabella: costi logaritmici delle istruzioni macchina RAM*
 
 
-Tabella 7.2: costi logaritmici delle istruzioni macchina RAM
 
 ISTRUZIONE COSTO LOGARITMICO
 
-LOAD= x LOAD x LOAD* x STORE x STORE* x ADD= x ADD x ADD* x READ x READ* x WRITE= x WRITE x WRITE* x JUMP label 1
-
-JGZ label JLZ label JZ label HALT 1
-
-l(x)
-
-l(x) + l(M[x])
-
-l(x) + l(M[x]) + l(M[M[x]])
-
-l(M[0]) + l(x)
-
-l(M[0]) + l(x) + l(M[x])
-
-l(M[0]) + l(x)
-
-l(M[0]) + l(x) + l(M[x])
-
-l(M[0]) + l(x) + l(M[x]) + l(M[M[x]])
-
-SUB, MULT, DIV definite come ADD.
-
-l(input) + l(x)
-
-l(input) + l(x) + l(M[x])
-
-l(x)
-
-l(x) + l(M[x])
-
-l(x) + l(M[x]) + l(M[M[x]])
-
-l(M[0])
-
-l(M[0])
-
-l(M[0])
+![[Algoritmi e Principi dell'Informatica-1780153345881.webp]]
 
 Dunque, il criterio del costo costante si pu`o applicare solo in situazioni in cui si prevede che ogni valore
 
