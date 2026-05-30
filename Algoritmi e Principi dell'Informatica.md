@@ -1120,13 +1120,9 @@ Si è precedentemente affermato che la complessità della soluzione di un determ
 
 - **Teorema**: Dato $L$ un linguaggio accettato da una MT $M$ multinastro (deterministica o meno) di complessità spaziale $S_M(n)$, allora, per ogni costante $c∈\mathbb{R}^+$, $L$ è accettato anche da un’opportuna MT $M’$ multinastro con $k= 1$ tale che $S_M′(n) <c·S_M(n)$.
 
-In generale, per la complessità temporale non si hanno risultati simili, ma è possibile formulare alcuni teoremi:
+In generale, per la complessità temporale non si hanno risultati simili, ma è possibile formulare il seguente teorema:
 
-Teorema 7.3.4. Dato L un linguaggio accettato da una TM M multinastro (deterministica o meno) di
-
-complessit`a temporale TM(n), allora, per ogni costante c∈R+, L `e accettato anche da un’opportuna TM
-
-M’ con k+1 nastri tale che TM′(n) = max{n+ 1,c·TM(n)}.
+- **Teorema**: Dato $L$ un linguaggio accettato da una MT $M$ multinastro (deterministica o meno) di complessità temporale $T_M(n)$, allora, per ogni costante $c∈\mathbb{R}^+$, $L$ è accettato anche da un’opportuna TM $M’$ con k+1 nastri tale che TM′(n) = max{n+ 1,c·TM(n)}.
 
 I teoremi qui introdotti valgono anche per le moderne macchine di Von Neumann, in quanto possiamo
 
