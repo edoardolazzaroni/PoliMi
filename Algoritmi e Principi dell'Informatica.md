@@ -1094,12 +1094,12 @@ Si può dedurre che la funzione $f ∈Θ(g)$ se e solo se $f ∈O(g)$ e $f ∈�
 Inoltre, Le notazioni indicate precedentemente godono delle seguenti **proprietà**:
 
 - **Transitività**:
-	– se f(n) ∈Θ(g(n)) e g(n) ∈Θ(h(n), allora f(n) ∈Θ(h(n));
-	– se f(n) ∈O(g(n)) e g(n) ∈O(h(n), allora f(n) ∈O(h(n));
-	– se f(n) ∈Ω(g(n)) e g(n) ∈Ω(h(n), allora f(n) ∈Ω(h(n));
+	– se $f(n) ∈Θ(g(n))$ e $g(n) ∈Θ(h(n))$, allora $f(n) ∈Θ(h(n))$;
+	– se $f(n) ∈O(g(n))$ e $g(n) ∈O(h(n))$, allora $f(n) ∈O(h(n))$;
+	– se $f(n) ∈Ω(g(n))$ e $g(n) ∈Ω(h(n))$, allora $f(n) ∈Ω(h(n))$;
 
 - Riflessività:
-	– f(n) ∈Θ(f(n));
+	– $f(n) ∈Θ(f(n));
 	– f(n) ∈O(f(n));
 	– f(n) ∈Ω(f(n));
 
