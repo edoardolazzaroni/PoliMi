@@ -1091,7 +1091,7 @@ La notazione o-grande rappresenta quindi un limite superiore per la funzione dat
 
 Si può dedurre che la funzione $f ∈Θ(g)$ se e solo se $f ∈O(g)$ e $f ∈Ω(g)$.
 
-Inoltre, Le notazioni indicate precedentemente godono delle seguenti **proprietà**:
+Inoltre, le notazioni indicate precedentemente godono delle seguenti **proprietà**:
 
 - **Transitività**:
 	– se $f(n) ∈Θ(g(n))$ e $g(n) ∈Θ(h(n))$, allora $f(n) ∈Θ(h(n))$;
@@ -1099,28 +1099,22 @@ Inoltre, Le notazioni indicate precedentemente godono delle seguenti **propriet�
 	– se $f(n) ∈Ω(g(n))$ e $g(n) ∈Ω(h(n))$, allora $f(n) ∈Ω(h(n))$;
 
 - Riflessività:
-	– $f(n) ∈Θ(f(n));
-	– f(n) ∈O(f(n));
-	– f(n) ∈Ω(f(n));
+	– $f(n) ∈Θ(f(n))$;
+	– $f(n) ∈O(f(n))$;
+	– $f(n) ∈Ω(f(n))$;
 
-- **Simmetria**: f(n) ∈Θ(g(n)) ⇐⇒ g(n) ∈Θ(f(n));
+- **Simmetria**: $f(n) ∈Θ(g(n)) ⇐⇒ g(n) ∈Θ(f(n))$;
 
-- **Simmetria trasposta**: f(n) ∈O(g(n)) ⇐⇒ g(n) ∈Ω(f(n)).
+- **Simmetria trasposta**: $f(n) ∈O(g(n)) ⇐⇒ g(n) ∈Ω(f(n))$.
 
 Inoltre, la relazione $Θ$ è una relazione di equivalenza.`
 
 
 ### **7.3 Accelerazione Lineare**
 
-Si `e precedentemente affermato che la complessit`a della soluzione di un determinato problema pu`o essere
+Si è precedentemente affermato che la complessità della soluzione di un determinato problema può essere migliorata mediante opportune modifiche all’algoritmo risolutivo. A tal proposito si enunciano i seguenti teoremi che pongono alcuni limiti al miglioramento degli algoritmi:
 
-migliorata mediante opportune modifiche all’algoritmo risolutivo. A tal proposito si enunciano i seguenti
-
-teoremi che pongono alcuni limiti al miglioramento degli algoritmi:
-
-Teorema 7.3.1. Dato L un linguaggio accettato da una TM M multinastro (deterministica o meno) di
-
-complessit`a spaziale SM(n), allora, per ogni costante c∈R+, L `e accettato anche da un’opportuna TM
+- **Teorema**: Dato $L$ un linguaggio accettato da una MT $M$ multinastro (deterministica o meno) di complessità spaziale $SM(n), allora, per ogni costante c∈R+, L `e accettato anche da un’opportuna TM
 
 M’ tale che SM′(n) <c·SM(n).
 
