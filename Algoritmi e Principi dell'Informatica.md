@@ -1227,31 +1227,11 @@ All’inizio di ogni iterazione del ciclo `for`, il cui indice è $j$, la sottos
 
 Si analizza ora il tempo di esecuzione della procedura insertion sort: per ogni $j = 2,3,...,n$ in cui $n$ = `A.length`, si indica con $t_j$ il numero di volte che il test del ciclo `while` nella riga 5 viene eseguito per quel determinato valore di $j$.
 
-
-
-
+![[tabella insertion sort.webp|395]]
 
 Ad ogni riga di codice viene associato un costo $c_i$ che va moltiplicato per il numero di volte che tale riga viene eseguita. Il tempo totale di esecuzione si calcola, dunque, sommando i vari contributi di tempo di ogni riga, ottenendo così l’espressione di $T(n)$:
 
-T(n) = c1n+ c2(n−1) + c3(n−1) + c4
-
-n
-
-j=2
-
-tj + c5
-
-n
-
-(tj−1) + c6
-
-j=2
-
-n
-
-(tj−1) + c7(n−1)
-
-j=2
+$T(n) = c1n+ c2(n−1) + c3(n−1) + c4nj=2tj + c5n(tj−1) + c6j=2n(tj−1) + c7(n−1)j=2$
 
 Ovviamente, il caso migliore si verifica quando l’array in input `e gi`a ordinato. In questo caso,
 
