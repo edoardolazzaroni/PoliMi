@@ -1193,7 +1193,7 @@ Un algoritmo può anche essere visto come uno strumento per la risoluzione di un
 
 La pseudocodifica può avvenire in molti modi, ma nel seguito si utilizzerano le convenzioni qui riportate:
 
-- L’indentazione serve ad indicare la struttura a blocchi dello pesudocodice, in modo da comprendere quali istruzioni appartengono, per esempio, ad un ciclo for, a un ciclo while o ad un if-else statement;
+- L’indentazione serve ad indicare la struttura a blocchi dello pesudocodice, in modo da comprendere quali istruzioni appartengono, per esempio, ad un ciclo `for`, a un ciclo `while` o ad un `if-else` statement;
 - Non sono utilizzate le parentesi graffe o parole chiave come begin ed end in quanto appesantiscono la sintassi;
 - I costrutti iterativi while, for, repeat-until e il costrutto condizionale if-else hanno interpretazioni simili a quelle dei comuni linguaggi di programmazione. Il contatore del ciclo mantiene il suo valore dopo la fine del ciclo, quindi il valore che ha provocato la terminazione del ciclo stesso. Inoltre, si utilizza la parola chiave to quando il ciclo for incrementa il valore del suo contatore ad ogni iterazione, mentre si utilizza la parola chiave down to nel caso la variabile venga decrementata;
 - Le assegnazioni di un valore ad una certa variabile avviene con il simbolo :=, differente dall’operatore =, che invece indica l’eguaglianza di due valori all’interno di un costrutto if;
