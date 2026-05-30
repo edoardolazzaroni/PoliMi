@@ -1165,21 +1165,11 @@ Dunque, il criterio del costo costante si può applicare solo in situazioni in c
 
 ### **7.5 Correlazione temporale fra MT e RAM**
 
-Una volta analizzato il comportamento della macchina RAM, è possibile studiarne la correlazione con le MT. Nello specifico, è possibile simulare una MT deterministica a $k$ nastri attraverso una macchina RAM, nel seguente modo: innanzitutto, si considera la memoria della RAM come suddivisa in blocchi, tutti di dimensione $k$, ad eccezione del blocco $0$, che ha dimensione $k+1$, in quanto memorizza lo stato della MT e le posizioni delle $k$ testine. I successivi blocchi vengono impiegati per contenere i valori contenuti nelle successive posizioni di ciascuno dei $k$ nastri di memoria della MT. Dunque, il valore rappresentato nella i-esima cella del j-esimo nastro della TM `e contenuto nella locazione c+ k·j+ iin cui c`e una costante
+Una volta analizzato il comportamento della macchina RAM, è possibile studiarne la correlazione con le MT. Nello specifico, è possibile simulare una MT deterministica a $k$ nastri attraverso una macchina RAM, nel seguente modo: innanzitutto, si considera la memoria della RAM come suddivisa in blocchi, tutti di dimensione $k$, ad eccezione del blocco $0$, che ha dimensione $k+1$, in quanto memorizza lo stato della MT e le posizioni delle $k$ testine. I successivi blocchi vengono impiegati per contenere i valori contenuti nelle successive posizioni di ciascuno dei $k$ nastri di memoria della MT. Dunque, il valore rappresentato nella i-esima cella del j-esimo nastro della MT è contenuto nella locazione $c+ k·j+ i$ in cui $c$ è una costante opportuna della memoria della macchina RAM. Inoltre, per accedere al valore presente sotto la testina di lettura di un determinato nastro è prima necessario eseguire un accesso diretto al blocco $0$, per poter trovare la posizione del nastro stesso. Poi, per eseguire la funzione di transizione $δ(q,i,s_1,...,s_k)$ e la funzione di uscita $η(q,i,s_1,...,s_k)$, si richiedono un numero prefissato di accessi in memoria per ottenere $q,i,s_1,...,s_n$, necessari per l’esecuzione di tali funzioni.
 
-opportuna della memoria della macchina RAM. Inoltre, per accedere al valore presente sotto la testina
+Tutto ciò conduce al seguente teorema:
 
-di lettura di un determinato nastro `e prima necessario eseguire un accesso diretto al blocco 0, per poter
-
-trovare la posizione del nastro stesso. Poi, per eseguire la funzione di transizione δ(q,i,s1,...,sk) e la
-
-funzione di uscita η(q,i,s1,...,sk), si richiedono un numero prefissato di accessi in memoria per ottenere
-
-q,i,s1,...,sn, necessari per l’esecuzione di tali funzioni.
-
-Tutto ci`o conduce al seguente teorema:
-
-Teorema 7.5.1. Una TM multinastro con complessit`a temporale TM pu`o essere simulata da una mac-
+- **Teorema**: Una MT multinastro con complessit`a temporale TM pu`o essere simulata da una mac-
 
 china RAM con complessit`a temporale TR = Θ(TM), secondo il criterio di costo uniforme, oppure
 
