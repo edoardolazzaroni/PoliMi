@@ -1231,13 +1231,7 @@ Si analizza ora il tempo di esecuzione della procedura insertion sort: per ogni 
 
 
 
-Ad ogni riga di codice viene associato un costo $c_i$ che va moltiplicato per il numero di volte che tale
-
-riga viene eseguita. Il tempo totale di esecuzione si calcola, dunque, sommando i vari contributi di tempo
-
-di ogni riga, ottenendo cos`ı l’espressione di T(n):
-
-8.3. MERGE SORT 51
+Ad ogni riga di codice viene associato un costo $c_i$ che va moltiplicato per il numero di volte che tale riga viene eseguita. Il tempo totale di esecuzione si calcola, dunque, sommando i vari contributi di tempo di ogni riga, ottenendo così l’espressione di $T(n)$:
 
 T(n) = c1n+ c2(n−1) + c3(n−1) + c4
 
