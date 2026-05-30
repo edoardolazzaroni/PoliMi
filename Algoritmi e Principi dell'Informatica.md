@@ -1146,7 +1146,7 @@ Una volta introdotte tutte le istruzioni eseguibili dalla macchina RAM, è possi
 
 Si è appena affermato però che nella macchina RAM le istruzioni hanno diversa natura e manipolano dati di diversa dimensione: risulta, dunque, evidente che tale criterio è poco affine alla realtà. Per tener conto della differente velocità di esecuzione e della differente quantità di memoria allocata da ciascuna istruzione, si introduce il secondo criterio (del costo logaritmico), basato sulla supposizione che il tempo richiesto per eseguire un’istruzione sia proporzionale alla lunghezza degli operandi dell’istruzione considerata. Poichè gli operandi sono rappresentati in memoria in codice binario, un generico operando di valore $v$ è rappresentato da $⌊log2(|v|+ 1)⌋$.
 
-Dunque, è possibile definire la funzione $l(i) = if i \ne 0$ then⌊log2(|v|+1)⌋else1 tramite cui calcolare
+Dunque, è possibile definire la funzione $l(i) = if i \ne 0$ `then`$⌊log2(|v|+1)⌋$else1 tramite cui calcolare
 
 la complessit`a temporale logaritmica di ciascuna istruzione precedentemente analizzata nella tabella 7.4.
 
