@@ -1144,15 +1144,11 @@ La cella $0$ della memoria è un registro speciale, detto accumulatore, che si u
 
 Una volta introdotte tutte le istruzioni eseguibili dalla macchina RAM, è possibile ora studiarne la complessità temporale, come fatto per le MT a $k$-nastri. A differenza delle MT, nelle macchine RAM l’esecuzione delle diverse operazioni dipende dagli operandi necessari per eseguire tale operazione. Diventa quindi necessario analizzare tutte le istruzioni e definire il tempo richiesto per ciascuna di esse e la quantità di memoria allocata. Queste quantità possono essere calcolate secondo due criteri, ovvero tramite il criterio del costo costante e tramite il criterio del costo logaritmico. Il primo si basa sull’assunzione che l’esecuzione di ciascuna istruzione richieda un’unità di tempo e che ciascuna allocazione in memoria richieda un’unità di spazio (stessa assunzione fatta per le MT).
 
-Si è appena affermato però che nella macchina RAM le istruzioni hanno diversa natura e manipolano dati di diversa dimensione: risulta, dunque, evidente che tale criterio è poco affine alla realtà. Per tener conto della differente velocità di esecuzione e della differente quantità di memoria allocata da ciascuna istruzione, si introduce il secondo criterio (del costo logaritmico), basato sulla supposizione che il tempo richiesto per eseguire un’istruzione sia proporzionale alla lunghezza degli operandi dell’istruzione considerata. Poichè gli operandi sono rappresentati in memoria in codice binario, un generico operando di valore $v$ è rappresentato da $⌊log2(|v|+ 1)⌋$.
+Si è appena affermato però che nella macchina RAM le istruzioni hanno diversa natura e manipolano dati di diversa dimensione: risulta, dunque, evidente che tale criterio è poco affine alla realtà. Per tener conto della differente velocità di esecuzione e della differente quantità di memoria allocata da ciascuna istruzione, si introduce il secondo criterio (del costo logaritmico), basato sulla supposizione che il tempo richiesto per eseguire un’istruzione sia proporzionale alla lunghezza degli operandi dell’istruzione considerata. Poichè gli operandi sono rappresentati in memoria in codice binario, un generico operando di valore $v$ è rappresentato da $⌊\log_{2}{(|v|+ 1)}⌋$.
 
-Dunque, è possibile definire la funzione $l(i) = if i \ne 0$ `then`$⌊log2(|v|+1)⌋$else1 tramite cui calcolare
+Dunque, è possibile definire la funzione $l(i) = if i \ne 0$ `then`$⌊\log_{2}{(|v|+1)}⌋$ `else` $1$ tramite cui calcolare la complessità temporale logaritmica di ciascuna istruzione precedentemente analizzata nella tabella.
 
-la complessit`a temporale logaritmica di ciascuna istruzione precedentemente analizzata nella tabella 7.4.
-
-Alla stessa maniera, `e possibile calcolare i costi relativi allo spazio, introducendo la variabile m definita
-
-come l’indirizzo pi`u alto della cella di memoria a cui si fa accesso durante l’esecuzione del programma, e
+Alla stessa maniera, è possibile calcolare i costi relativi allo spazio, introducendo la variabile $m$ definita come l’indirizzo pi`u alto della cella di memoria a cui si fa accesso durante l’esecuzione del programma, e
 
 la variabile Mi che rappresenta il valore assoluto pi`u grande immagazzianto in M[i] durante l’esecuzione.
 
