@@ -1139,6 +1139,8 @@ La cella $0$ della memoria è un registro speciale, detto accumulatore, che si u
 
 *Tabella: istruzioni macchina RAM*
 
+![[Algoritmi e Principi dell'Informatica-1780152779641.webp]]
+
 di uno dei due operandi delle operazioni aritmetiche binarie che la macchina pu`o effettuare. Un generico
 
 porgramma eseguibile dalla macchina RAM `e composto da istruzioni riportate nella tabella di seguito:
