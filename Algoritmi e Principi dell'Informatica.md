@@ -1221,17 +1221,11 @@ Il primo algoritmo analizzato è l’**insertion sort**, che prende in input una
 		`while i > 0 and A[i] > key:`
 			`A[i+1] := A[i]`
 			`i := i - 1`
-		`A[i+ 1] = key`
+		`A[i+1] = key`
 
-All’inizio di ogni iterazione del ciclo for, il cui indice `e j, la sottosequenza di elementi A[1..j-1]
+All’inizio di ogni iterazione del ciclo `for`, il cui indice è $j$, la sottosequenza di elementi $A[1..j-1]$ è la parte ordinata dell’array, mentre la sottosequenza $A[j+1..n]$ è costituita da elementi ancora da ordinare.
 
-`e la parte ordinata dell’array, mentre la sottosequenza A[j+1..n] `e costituita da elementi ancora da
-
-ordinare.
-
-Si analizza ora il tempo di esecuzione della procedura insertion sort: per ogni j = 2,3,...,nin cui
-
-n = A.length, si indica con tj il numero di volte che il test del ciclo while nella riga 5 viene eseguito
+Si analizza ora il tempo di esecuzione della procedura insertion sort: per ogni $j = 2,3,...,n$ in cui $n = A.length$, si indica con tj il numero di volte che il test del ciclo while nella riga 5 viene eseguito
 
 per quel determinato valore di j.
 
