@@ -1084,9 +1084,7 @@ Nella maggior parte dei casi si analizza la complessità spaziale o temporale di
 
 La notazione o-grande rappresenta quindi un limite superiore per la funzione data, mentre la notazione theta-grande rappresenta un limite inferiore. Nello specifico è di interesse pratico prendere in considerazione il minimo limite superiore e il massimo limite inferiore.
 
-- (Notazione $Θ$). Siano $g : \mathbb{N} →\mathbb{R}^+$ ed $f : \mathbb{N} →\mathbb{R}^+$ due funzioni. La funzione $g$ è in $Θ(f)$ se e solo se esistono tre numeri positivi $c_1,c_2$ ed $n_0$ tali che per ogni $n ≥n_0, c_1f(n) ≤g(n) ≤
-
-c_2f(n)$. Ci`o significa che Θ(f) = {g: N →R+ |∃c1,c2,n0 >0 ∧n≥n0,c1f(n) ≤g(n) ≤c2f(n)}
+- (Notazione $Θ$). Siano $g : \mathbb{N} →\mathbb{R}^+$ ed $f : \mathbb{N} →\mathbb{R}^+$ due funzioni. La funzione $g$ è in $Θ(f)$ se e solo se esistono tre numeri positivi $c_1,c_2$ ed $n_0$ tali che per ogni $n ≥n_0, c_1f(n) ≤g(n) ≤c_2f(n)$. Ciò significa che $Θ(f) = \left\{g: \mathbbN →R+ |∃c1,c2,n0 >0 ∧n≥n0,c1f(n) ≤g(n) ≤c2f(n)\right\}$.
 
 Inoltre, vale che:
 
