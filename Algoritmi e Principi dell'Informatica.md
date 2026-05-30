@@ -1225,39 +1225,13 @@ Il primo algoritmo analizzato è l’**insertion sort**, che prende in input una
 
 All’inizio di ogni iterazione del ciclo `for`, il cui indice è $j$, la sottosequenza di elementi $A[1..j-1]$ è la parte ordinata dell’array, mentre la sottosequenza $A[j+1..n]$ è costituita da elementi ancora da ordinare.
 
-Si analizza ora il tempo di esecuzione della procedura insertion sort: per ogni $j = 2,3,...,n$ in cui $n = A.length$, si indica con tj il numero di volte che il test del ciclo while nella riga 5 viene eseguito
+Si analizza ora il tempo di esecuzione della procedura insertion sort: per ogni $j = 2,3,...,n$ in cui $n$ = `A.length`, si indica con $t_j$ il numero di volte che il test del ciclo `while` nella riga 5 viene eseguito per quel determinato valore di $j$.
 
-per quel determinato valore di j.
 
-Codice Costo Numero di volte
 
-for j:= 2 to A.length c1 n
 
-key := A[j] c2 n−1
 
-i := j - 1 c3 n−1
-
-while i > 0 and A[i] > key c4
-
-n
-
-j=2 tj
-
-A[i + 1] := A[i] c5
-
-n
-
-j=2 (tj−1)
-
-i := i - 1 c6
-
-n
-
-j=2 (tj−1)
-
-A[i + 1] := key c7 n−1
-
-Ad ogni riga di codice viene associato un costo ci che va moltiplicato per il numero di volte che tale
+Ad ogni riga di codice viene associato un costo $c_i$ che va moltiplicato per il numero di volte che tale
 
 riga viene eseguita. Il tempo totale di esecuzione si calcola, dunque, sommando i vari contributi di tempo
 
