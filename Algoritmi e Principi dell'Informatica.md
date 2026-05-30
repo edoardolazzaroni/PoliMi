@@ -1171,13 +1171,9 @@ Tutto ciò conduce al seguente teorema:
 
 - **Teorema**: Una MT multinastro con complessità temporale $T_M$ può essere simulata da una macchina RAM con complessità temporale $T_R = Θ(T_M)$, secondo il criterio di costo uniforme, oppure $T_R = Θ(T_M·log(T_M))$, secondo il criterio di costo logaritmico.
 
-Ovviamente è possibile anche simulare una macchina RAM tramite una macchina di Turing, ma tale costruzione è molto più complessa e richiede un’analisi approfondita. Si enuncia quindi solo il seguente
+Ovviamente è possibile anche simulare una macchina RAM tramite una macchina di Turing, ma tale costruzione è molto più complessa e richiede un’analisi approfondita. Si enuncia quindi solo il seguente teorema:
 
-teorema:
-
-Teorema 7.5.2. Sia L il linguaggio riconosciuto da una macchina RAM di complessit`a temporale TR
-
-secondo il criterio del costo logaritmico. Se il programma RAM non utilizza le istruzioni MULT e DIV,
+- **Teorema**: Sia $L$ il linguaggio riconosciuto da una macchina RAM di complessità temporale $T_R$ secondo il criterio del costo logaritmico. Se il programma RAM non utilizza le istruzioni MULT e DIV,
 
 allora L pu`o essere riconosciuto da un’opportuna TM multinastro, in un tempo TM = Θ(T2
 
