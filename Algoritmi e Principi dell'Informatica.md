@@ -1087,13 +1087,13 @@ La notazione o-grande rappresenta quindi un limite superiore per la funzione dat
 - (Notazione $Θ$). Siano $g : \mathbb{N} →\mathbb{R}^+$ ed $f : \mathbb{N} →\mathbb{R}^+$ due funzioni. La funzione $g$ è in $Θ(f)$ se e solo se esistono tre numeri positivi $c_1,c_2$ ed $n_0$ tali che per ogni $n ≥n_0, c_1f(n) ≤g(n) ≤c_2f(n)$. Ciò significa che $Θ(f) = \left\{g: \mathbb{N} →\mathbb{R}^+ |∃c_1,c_2,n_0 >0 ∧n≥n_0,c_1f(n) ≤g(n) ≤c_2f(n)\right\}$.
 	Inoltre, vale che:
 
-$\lim_{n\to\infty}\frac{f(n)}{g(n)} = c>0 ⇒f(n) ∈Ω(g(n))f(n)limn→∞= c>0 ⇒f(n) ∈Θ(g(n))g(n)$
+						$\lim_{n\to\infty}\frac{f(n)}{g(n)} = c>0 ⇒f(n) ∈Θ(g(n))$
 
-Dalla definizione 7.2.3, si pu`o dedurre che la funzione f ∈Θ(g) se e solo se f ∈O(g) e f ∈Ω(g).
+Si può dedurre che la funzione $f ∈Θ(g)$ se e solo se $f ∈O(g)$ e $f ∈Ω(g)$.
 
-Inoltre, Le notazioni indicate precedentemente godono delle seguenti propriet`a:
+Inoltre, Le notazioni indicate precedentemente godono delle seguenti **proprietà**:
 
-Transitivit`a:
+- Transitività:
 
 – se f(n) ∈Θ(g(n)) e g(n) ∈Θ(h(n), allora f(n) ∈Θ(h(n));
 
