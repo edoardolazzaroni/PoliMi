@@ -1303,11 +1303,7 @@ Una volta analizzata la procedura merge, si può introdurre l’algoritmo di ord
 L’algoritmo calcola, in riga 2, un indice `q`, che serve a suddividere l’array `A` in due sottoarray che contengono rispettivamente ⌈$n/2$⌉elementi ed ⌊$n/2$⌋elementi, su cui richiama ricorsivamente sè stessa.
 Una volta suddiviso l’array `A` in sottoarray di dimensione minima, viene chiamata la procedura `merge`, precedentemente analizzata.
 
-Come si può facilmente osservare, la procedura `mergeSort` è definita in maniera ricorsiva, quindi l’analisi delle prestazioni temporali diventa leggermente più complessa: infatti, si deve necessariamente far uso di un’equazione di ricorrenza, che esprime il tempo di esecuzione totale di un problema di dimensione $n$, in funzione del tempo di esecuzione per input più piccoli. Se la dimensione del problema diventa sufficientemente piccola, per esempio $n≤c$ per qualche costante $c$, la soluzione del problema è diretta e richiede un tempo di esecuzione costante, indicata con $Θ(1)$. Si suppone, inoltre, che il problema originario venga suddiviso in $a$ sottoproblemi, tutti di dimensione $1/b$ volte la dimensione del problema originario. Dunque, è necessario un tempo T(n/b) per risolvere un sottoproblema di dimensione n/b e
-
-un tempo aT(n/b) per risolverli tutti. Infine, se si impiega un tempo D(n) per suddividere il problema
-
-in a sottoproblemi e un tempo C(n) per fonderne le soluzioni, si ottiene la ricorrenza:
+Come si può facilmente osservare, la procedura `mergeSort` è definita in maniera ricorsiva, quindi l’analisi delle prestazioni temporali diventa leggermente più complessa: infatti, si deve necessariamente far uso di un’equazione di ricorrenza, che esprime il tempo di esecuzione totale di un problema di dimensione $n$, in funzione del tempo di esecuzione per input più piccoli. Se la dimensione del problema diventa sufficientemente piccola, per esempio $n≤c$ per qualche costante $c$, la soluzione del problema è diretta e richiede un tempo di esecuzione costante, indicata con $Θ(1)$. Si suppone, inoltre, che il problema originario venga suddiviso in $a$ sottoproblemi, tutti di dimensione $1/b$ volte la dimensione del problema originario. Dunque, è necessario un tempo $T(n/b)$ per risolvere un sottoproblema di dimensione $n/b$ e un tempo $aT(n/b)$ per risolverli tutti. Infine, se si impiega un tempo $D(n)$ per suddividere il problema in $a$ sottoproblemi e un tempo $C(n)$ per fonderne le soluzioni, si ottiene la ricorrenza:
 
 T(n) = Θ(1) if n≤c
 
