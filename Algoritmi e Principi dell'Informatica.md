@@ -1307,15 +1307,7 @@ Come si può facilmente osservare, la procedura `mergeSort` è definita in manie
 
 					$T(n) = \begin{cases} Θ(1) & \mbox{if n≤c} \\aT(n/b) + D(n) + C(n) & \mbox{else} \end{cases}$
 
-Per trovare ora il tempo di esecuzione $T(n)$ nel caso peggiore si può ragionare come segue. Nel caso in cui i sottoarray abbiano cardinalità uno, la soluzione è diretta, quindi viene impiegato un tempo costante per risolvere il problema, mentre se i sottoarray hanno $n>1$ elementi, si suddivide il tempo di esecuzione impostando $D(n) = Θ(1)$, in quanto si impiega un tempo costante per calcolare il centro di un array,8.4. RISOLUZIONE RICORRENZE 53
-
-C(n) = Θ(n), in quanto si `e gi`a precedentemente dimostrato che la procedura merge impieghi un tempo
-
-lineare per la fusione delle soluzioni, e infine si pone a= b= 2, in quanto si suddivide ricorsivamente il
-
-problema in due sottoproblemi di uguale dimensione 2. Con questo ragionamento, la ricorrenza assume
-
-l’espressione:
+Per trovare ora il tempo di esecuzione $T(n)$ nel caso peggiore si può ragionare come segue. Nel caso in cui i sottoarray abbiano cardinalità uno, la soluzione è diretta, quindi viene impiegato un tempo costante per risolvere il problema, mentre se i sottoarray hanno $n>1$ elementi, si suddivide il tempo di esecuzione impostando $D(n) = Θ(1)$, in quanto si impiega un tempo costante per calcolare il centro di un array, $C(n) = Θ(n)$, in quanto si è già precedentemente dimostrato che la procedura `merge` impieghi un tempo lineare per la fusione delle soluzioni, e infine si pone $a= b= 2$, in quanto si suddivide ricorsivamente il problema in due sottoproblemi di uguale dimensione 2. Con questo ragionamento, la ricorrenza assume l’espressione:
 
 T(n) = Θ(1) if n= 1
 
