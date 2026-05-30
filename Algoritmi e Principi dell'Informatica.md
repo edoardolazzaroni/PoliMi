@@ -1142,27 +1142,9 @@ La cella $0$ della memoria è un registro speciale, detto accumulatore, che si u
 ![[Algoritmi e Principi dell'Informatica-1780152779641.webp|260]]
 
 
-Una volta introdotte tutte le istruzioni eseguibili dalla macchina RAM, è possibile ora studiarne la complessità temporale, come fatto per le MT a $k$-nastri. A differenza delle MT, nelle macchine RAM l’esecuzione delle diverse operazioni dipende dagli operandi necessari per eseguire tale operazione. Diventa quindi necessario analizzare tutte le istruzioni e definire il tempo richiesto per ciascuna di esse e la quantit di memoria allocata. Queste quantit`a possono essere calcolate secondo due criteri, ovvero
+Una volta introdotte tutte le istruzioni eseguibili dalla macchina RAM, è possibile ora studiarne la complessità temporale, come fatto per le MT a $k$-nastri. A differenza delle MT, nelle macchine RAM l’esecuzione delle diverse operazioni dipende dagli operandi necessari per eseguire tale operazione. Diventa quindi necessario analizzare tutte le istruzioni e definire il tempo richiesto per ciascuna di esse e la quantità di memoria allocata. Queste quantità possono essere calcolate secondo due criteri, ovvero tramite il criterio del costo costante e tramite il criterio del costo logaritmico. Il primo si basa sull’assunzione che l’esecuzione di ciascuna istruzione richieda un’unità di tempo e che ciascuna allocazione in memoria richieda un’unità di spazio (stessa assunzione fatta per le MT).
 
-tramite il criterio del costo costante e tramite il criterio del costo logaritmico. Il primo si basa sull’as-
-
-sunzione che l’esecuzione di ciascuna istruzione richieda un’unit`a di tempo e che ciascuna allocazione in
-
-memoria richieda un’unit`a di spazio (stessa assunzione fatta per le TM).
-
-Si `e appena affermato per`o che nella macchina RAM le istruzioni hanno diversa natura e manipolano
-
-dati di diversa dimensione: risulta, dunque, evidente che tale criterio `e poco affine alla realt`a. Per
-
-tener conto della differente velocit`a di esecuzione e della differente quantit`a di memoria allocata da
-
-ciascuna istruzione, si introduce il secondo criterio (del costo logaritmico), basato sulla supposizione che
-
-il tempo richiesto per eseguire un’istruzione sia proporzionale alla lunghezza degli operandi dell’istruzione
-
-considerata. Poich`e gli operandi sono rappresentati in memoria in codice binario, un generico operando
-
-di valore v `e rappresentato da ⌊log2(|v|+ 1)⌋.
+Si è appena affermato però che nella macchina RAM le istruzioni hanno diversa natura e manipolano dati di diversa dimensione: risulta, dunque, evidente che tale criterio è poco affine alla realtà. Per tener conto della differente velocità di esecuzione e della differente quantità di memoria allocata da ciascuna istruzione, si introduce il secondo criterio (del costo logaritmico), basato sulla supposizione che il tempo richiesto per eseguire un’istruzione sia proporzionale alla lunghezza degli operandi dell’istruzione considerata. Poichè gli operandi sono rappresentati in memoria in codice binario, un generico operando di valore $v$ è rappresentato da ⌊log2(|v|+ 1)⌋.
 
 Dunque, `e possibile definire la funzione l(i) = if i̸= 0 then⌊log2(|v|+1)⌋else1 tramite cui calcolare
 
