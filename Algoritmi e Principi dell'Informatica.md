@@ -1118,13 +1118,9 @@ Si è precedentemente affermato che la complessità della soluzione di un determ
 
 - **Teorema**: Dato $L$ un linguaggio accettato da una TM $M$ multinastro (deterministica o meno) di complessità spaziale $S_M(n)$, allora $L$ è accettato anche da un’opportuna MT $M’$ multinastro con $k = 1$ con la medesima complessità spaziale, concatenando i contenuti dei $k$ nastri di $M$.
 
-- **Teorema**: Dato $L$ un linguaggio accettato da una MT $M$ multinastro (deterministica o meno) di complessità spaziale $S_M(n)$, allora, per ogni costante $c∈\mathR+, L `e accettato anche da un’opportuna TM
+- **Teorema**: Dato $L$ un linguaggio accettato da una MT $M$ multinastro (deterministica o meno) di complessità spaziale $S_M(n)$, allora, per ogni costante $c∈\mathbb{R}^+$, $L$ è accettato anche da un’opportuna MT $M’$ multinastro con $k= 1$ tale che $S_M′(n) <c·S_M(n)$.
 
-M’ multinastro con k= 1 tale che SM′(n) <c·SM(n).
-
-In generale, per la complessit`a temporale non si hanno risultati simili, ma `e possibile formulare alcuni
-
-teoremi:
+In generale, per la complessità temporale non si hanno risultati simili, ma è possibile formulare alcuni teoremi:
 
 Teorema 7.3.4. Dato L un linguaggio accettato da una TM M multinastro (deterministica o meno) di
 
