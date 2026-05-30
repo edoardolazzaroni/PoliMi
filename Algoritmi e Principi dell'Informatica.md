@@ -1076,7 +1076,7 @@ Nella maggior parte dei casi si analizza la complessità spaziale o temporale di
 - (Notazione $O$). Siano $g : \mathbb{N} →\mathbb{R}^+$ ed $f : \mathbb{N} →\mathbb{R}^+$ due funzioni. La funzione $g$ è in $O(f)$ se e solo se esistono due numeri positivi $c$ ed $n_0$ tali che per ogni $n ≥n_0, g(n) ≤c_f(n)$. Ciò significa che $O(f) = \left\{g(n) : \mathbb{N} →\mathbb{R}^+ |∃c,n_0 >0 ∧∀n≥n_0,g(n) ≤c_f(n)\right\}$.
 Inoltre, vale che:
 
-f(n)limn→∞g(n) = 0 ⇒f(n) ∈O(g(n))
+					$\lim_{n\to\inft→∞g(n) = 0 ⇒f(n) ∈O(g(n))$
 
 Definizione 7.2.2 (notazione Ω). Siano g : N →R+ ed f : N →R+ due funzioni. La funzione g `e
 
