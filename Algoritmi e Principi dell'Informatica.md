@@ -1272,17 +1272,16 @@ Poichè tale procedura viene effettuata per un massimo di $n$ volte, la funsione
 	`L := [1 .. n1 + 1]`
 	`R := [1 .. n2 + 1]
 	`for i := 1 to n1 :`
-		`L[ 
-		i ] := A [ p + i - 1]`
-`f o r j := 1 to n2 :`
-`R [ j ] := A [ q + j ]`
-`L [n1 + 1] := ∞`
-`L [n2 + 1] := ∞`
-`i := 1`
-`j := 1`
-`f o r k := p to r :`
-`i f L [ i ] <= R [ j ]:`
-`A [ k ] := L [ i ]`
+		`L[i] := A [ p + i - 1]`
+	`for j := 1 to n2 :`
+		`R[j] := A [ q + j ]`
+	`L [n1 + 1] := ∞`
+	`L [n2 + 1] := ∞`
+	`i := 1`
+	`j := 1`
+	`for k := p to r :`
+		`if L[i] <= R [ j ]:`
+			`A[k] := L[i]`
 `i := i + 1`
 `e l s e :`
 `A [ k ] := R [ j ]`
