@@ -1212,14 +1212,13 @@ Una classe di algoritmi molto studiati è quella riguardante l’ordinamento di 
 
 Il primo algoritmo analizzato è l’**insertion sort**, che prende in input una sequenza di $n$ numeri $[a1,a2,...,an]$ e restituisce in output una permutazione $[a_1',a_2',...,a_n']$ tale che $a_1' ≤a_2' ≤ ... ≤a_n'$. Questo algoritmo ordina sul posto (l’algoritmo risistema gli elementi della sequenza all’interno dell’array avendo, in ogni istante, al più un numero finito di elementi memorizzati all’esterno dell’array: ciò permette di risparmiare memoria nel calcolatore) gli elementi assumendo che la sequenza da ordinare sia inizialmente partizionata in una sottosequenza già ordinata, all’inizio composta da un unico elemento (il primo dell’array), e una sottosequenza ancora da ordinare. Ad ogni iterazione viene rimosso un elemento dalla sottosequenza non ordinata e inserita nella posizione corretta all’interno della sottosequenza già ordinata.
 
-In pseudocodice:
+*In pseudocodice:*
 
 `insertionSort(A):`
-`for j := 2 to A . length :`
-`key := A [ j ]`
-`4 i := j - 1`
-
-`5 w h i l e i > 0 and A [ i ] > key :`
+	`for j := 2 to A . length :`
+		`key := A[j]`
+		`i := j - 1`
+			w h i l e i > 0 and A [ i ] > key :`
 
 `6 A [ i + 1] := A [ i ]`
 
