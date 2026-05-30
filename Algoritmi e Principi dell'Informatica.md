@@ -1179,17 +1179,12 @@ Si può quindi osservare come il legame tra $T_M$ e $T_R$ sia di tipo polinomial
 
 
 
-Algoritmi
 
-In questo capitolo si analizzano a fondo i principali algoritmi di ordinamento e i relativi tempi di esecu-
+## **Algoritmi**
 
-zione. Nello specifico, si utilizzer`a come modello di riferimento la macchina RAM con un criterio di costo
+In questo capitolo si analizzano a fondo i principali algoritmi di ordinamento e i relativi tempi di esecuzione. Nello specifico, si utilizzerà  come modello di riferimento la macchina RAM con un criterio di costo costante, come analizzato nei capitoli precedenti. Prima di proseguire nella trattazione è necessario dare una definizione generale di algoritmo:
 
-costante, come analizzato nei capitoli precedenti. Prima di proseguire nella trattazione `e necessario dare
-
-una definizione generale di algoritmo:
-
-Definizione 8.0.1. Un algoritmo `e una procedura di calcolo ben definita che prende un certo valore, o un
+- Un **==algoritmo==** è una procedura di calcolo ben definita che prende un certo valore, o un
 
 insieme di valori, in input e genera un valore, o un insieme di valori, in output. Dunque, un algoritmo
 
