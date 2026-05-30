@@ -1173,11 +1173,7 @@ Tutto ciò conduce al seguente teorema:
 
 Ovviamente è possibile anche simulare una macchina RAM tramite una macchina di Turing, ma tale costruzione è molto più complessa e richiede un’analisi approfondita. Si enuncia quindi solo il seguente teorema:
 
-- **Teorema**: Sia $L$ il linguaggio riconosciuto da una macchina RAM di complessità temporale $T_R$ secondo il criterio del costo logaritmico. Se il programma RAM non utilizza le istruzioni MULT e DIV,
-
-allora L pu`o essere riconosciuto da un’opportuna TM multinastro, in un tempo TM = Θ(T2
-
-R).
+- **Teorema**: Sia $L$ il linguaggio riconosciuto da una macchina RAM di complessità temporale $T_R$ secondo il criterio del costo logaritmico. Se il programma RAM non utilizza le istruzioni `MULT` e `DIV`, allora $L$ può essere riconosciuto da un’opportuna MT multinastro, in un tempo $T_M = Θ(T_R^2)$.
 
 Si pu`o quindi osservare come il legame tra TM e TR sia di tipo polinomiale, implicazione molto
 
