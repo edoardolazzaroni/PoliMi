@@ -1242,7 +1242,7 @@ che è funzione lineare di $n$. Dunque, $T(n) = Θ(n)$.
 Al contrario, il caso pessimo si verifica quando l’array in input è ordinato, ma in ordine decrescente.
 In questo caso $t_j= j$  $∀j = 2,3...,n$ e l’espressione di $T(n)$ assume la forma:
 
-$T(n) = \frac{1}{2}(c_4 + c_5 + c_6)n^2 + (c1 + c2 + c3)n+12(c4−c5−c6 + c8)n−(c2 + c3 + c4 + c7)$
+$T(n) = \frac{1}{2}(c_4 + c_5 + c_6)n^2 + (c_1 + c_2 + c_3)n + \frac{1}{2}(c_4−c_5−c_6+c_8)n−(c_2 + c_3 + c_4 + c_7)$
 
 che `e funzione quadratica di n. Dunque, T(n) = Θ(n2).
 
