@@ -1287,19 +1287,7 @@ Poichè tale procedura viene effettuata per un massimo di $n$ volte, la funsione
 			`A[k] := R[j]`
 			`j := j + 1`
 
-In altri termini, le righe 2 e 3 inizializzano i valori di $n_1$ ed $n_2$, che rappresentano la lunghezza dei due sottoarray `A[p..q]` e `A[q+1..r]`. Nelle due righe successive vengono creati i due sottoarray ausiliari `L` (per Left) ed R (per Right), che contano n+ 1 elementi (per motivi che verranno chiariti a breve). Le
-
-righe dalla 6 alla 9, inizializzano gli array appena creati con i valori contenuti rispettivamente nella prima
-
-e nella seconda met`a dell’array A. Le righe 10 e 11 inizializzano l’ultimo (n+ 1 -esimo) elemento dei due
-
-sottoarray L ed R, con un valore sentinella. Impostando tale valore ad ∞, si `e certi che non possa essere
-
-il valore pi`u piccolo fra i due confrontati: in questo modo, una volta arrivati alla fine di uno dei due
-
-sottoarray, gli elementi dell’altro vengono ricopiati nell’array ”successivo” in quanto necessariamente pi`u
-
-piccoli di ∞. Le ultime righe (dalla 12 alla 20) implementano la logica del confronto e dell’insermento
+In altri termini, le righe 2 e 3 inizializzano i valori di $n_1$ ed $n_2$, che rappresentano la lunghezza dei due sottoarray `A[p..q]` e `A[q+1..r]`. Nelle due righe successive vengono creati i due sottoarray ausiliari `L` (per Left) ed `R` (per Right), che contano $n+ 1$ elementi (per motivi che verranno chiariti a breve). Le righe dalla 6 alla 9, inizializzano gli array appena creati con i valori contenuti rispettivamente nella prima e nella seconda metà dell’array `A`. Le righe 10 e 11 inizializzano l’ultimo ($n+ 1-esimo$) elemento dei due sottoarray `L` ed `R`, con un valore sentinella. Impostando tale valore ad $∞$, si è certi che non possa essere il valore più piccolo fra i due confrontati: in questo modo, una volta arrivati alla fine di uno dei due sottoarray, gli elementi dell’altro vengono ricopiati nell’array ”successivo” in quanto necessariamente più piccoli di $∞$. Le ultime righe (dalla 12 alla 20) implementano la logica del confronto e dell’insermento
 
 dell’elemento correntemente pi`u piccolo nell’array A.
 
