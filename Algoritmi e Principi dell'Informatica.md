@@ -1262,50 +1262,30 @@ Il paradigma Divide et Impera, si basa in realtà su tre passaggi:
 Un tipico algoritmo che segue questo metodo di risoluzione è il **merge sort**, che suddivide l’array originario a metà e ordina ricorsivamente i due sottoarray ottenuti, chiamando sè stesso fino ad ottenere sequenze di dimensione uno, di per sè già ordinate. A questo punto, le sottosequenze vengono fuse in modo da ottenere un array ordinato.
 
 Quest’ultimo passaggio viene effettuato tramite una procedura ausiliaria `merge(A,p,q,r)`, dove `A` è un array, e `p,q,r` sono tre indici dell’array tali che `p≤q<r`. La porcedura assume che le sottosequenze `A[p..q]` e `A[q+1..r]` siano ordinate e, quindi, le fonde per formare un unico sottoarray ordinato che sostituisce il sottoarray corrente `A[p..r]`. La procedura `merge(A,p,q,r)` impiega un tempo $Θ(n)$ con $n = r−p+ 1$ il numero di elementi da fondere. Ad ogni iterazione, la procedura merge confronta gli elementi più piccoli dei due sottoarray, inserendoli nel sottoarray ”successivo” fino a quando uno dei due sottoarray è vuoto: a quel punto, i restanti elementi del sottoarray rimanente vengono copiati per completare l’array ”successivo”. Da un punto di vista computazionale, ogni iterazione della procedura impiega un tempo costante, in quanto deve semplicemente confrontare i due elementi dei due sottoarray.
-
 Poichè tale procedura viene effettuata per un massimo di $n$ volte, la funsione impiega un tempo $Θ(n)$.
 
-In pseudocodice:
+*In pseudocodice:*
 
-1 merge (A , p , q , r ) :
-
-2 n1 := q - p + 1
-
-3 n2 := r - q
-
-4 L := [1 .. n1 + 1]
-
-5 R := [1 .. n2 + 1]52 CAPITOLO 8. ALGORITMI
-
-10 11 12 13 14 15 16 17 18 19 20 6 f o r i := 1 to n1 :
-
-7 L [ i ] := A [ p + i - 1]
-
-8 f o r j := 1 to n2 :
-
-9 R [ j ] := A [ q + j ]
-
-L [n1 + 1] := ∞
-
-L [n2 + 1] := ∞
-
-i := 1
-
-j := 1
-
-f o r k := p to r :
-
-i f L [ i ] <= R [ j ]:
-
-A [ k ] := L [ i ]
-
-i := i + 1
-
-e l s e :
-
-A [ k ] := R [ j ]
-
-j := j + 1
+`merge (A , p , q , r ) :`
+`2 n1 := q - p + 1`
+`3 n2 := r - q`
+`4 L := [1 .. n1 + 1]`
+`5 R := [1 .. n2 + 1]52 CAPITOLO 8. ALGORITMI`
+`6 f o r i := 1 to n1 :`
+`7 L [ i ] := A [ p + i - 1]`
+`8 f o r j := 1 to n2 :`
+`9 R [ j ] := A [ q + j ]`
+`L [n1 + 1] := ∞`
+`L [n2 + 1] := ∞`
+`i := 1`
+`j := 1`
+`f o r k := p to r :`
+`i f L [ i ] <= R [ j ]:`
+`A [ k ] := L [ i ]`
+`i := i + 1`
+`e l s e :`
+`A [ k ] := R [ j ]`
+`j := j + 1`
 
 In altri termini, le righe 2 e 3 inizializzano i valori di n1 ed n2, che rappresentano la lunghezza dei due
 
