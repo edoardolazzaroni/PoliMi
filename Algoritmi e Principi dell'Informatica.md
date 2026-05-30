@@ -1078,11 +1078,7 @@ Inoltre, vale che:
 
 						$\lim_{n\to\infty}\frac{f(n)}{g(n)} = 0 ⇒f(n) ∈O(g(n))$
 
-- (Notazione $Ω$): Siano $g : \mathbb{N} →\mathbb{R}^+$ ed $f : \mathbb{N} →\mathbb{R}^+$ due funzioni. La funzione g `e
-
-in Ω(f) se e solo se esistono due numeri positivi c ed n0 tali che per ogni n ≥n0, cf(n) ≤g(n). Ci`o
-
-significa che Ω(f) = {g(n) : N →R+ |∃c,n0 >0 ∧∀n≥n0,cf(n) ≤g(n)}.
+- (Notazione $Ω$): Siano $g : \mathbb{N} →\mathbb{R}^+$ ed $f : \mathbb{N} →\mathbb{R}^+$ due funzioni. La funzione $g$ è in $Ω(f)$ se e solo se esistono due numeri positivi $c$ ed $n_0$ tali che per ogni $n ≥n_0, c_f(n) ≤g(n)$. Ciò significa che $Ω(f) = \left\{g(n) : N →R+ |∃c,n0 >0 ∧∀n≥n0,cf(n) ≤g(n)\right\}$.
 
 Inoltre, vale che:
 
