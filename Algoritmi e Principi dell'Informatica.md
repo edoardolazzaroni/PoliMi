@@ -1148,17 +1148,10 @@ Si è appena affermato però che nella macchina RAM le istruzioni hanno diversa 
 
 Dunque, è possibile definire la funzione $l(i) = if i \ne 0$ `then`$⌊\log_{2}{(|v|+1)}⌋$ `else` $1$ tramite cui calcolare la complessità temporale logaritmica di ciascuna istruzione precedentemente analizzata nella tabella.
 
-Alla stessa maniera, è possibile calcolare i costi relativi allo spazio, introducendo la variabile $m$ definita come l’indirizzo pi`u alto della cella di memoria a cui si fa accesso durante l’esecuzione del programma, e
+Alla stessa maniera, è possibile calcolare i costi relativi allo spazio, introducendo la variabile $m$ definita come l’indirizzo più alto della cella di memoria a cui si fa accesso durante l’esecuzione del programma, e la variabile $M_i$ che rappresenta il valore assoluto più grande immagazzianto in $M[i]$ durante l’esecuzione.
+La complessità spaziale logaritmica si definisce quindi con la seguente formula:
 
-la variabile Mi che rappresenta il valore assoluto pi`u grande immagazzianto in M[i] durante l’esecuzione.
-
-La complessit`a spaziale logaritmica si definisce quindi con la seguente formula:
-
-m
-
-l(Mi)
-
-i=0
+$\sum_{}m l(Mi)i=0$
 
 Di seguito sono riportati i costi logaritmici delle istruzioni RAM:`
 
