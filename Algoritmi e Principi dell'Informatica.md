@@ -1163,21 +1163,9 @@ Di seguito sono riportati i costi logaritmici delle istruzioni RAM:`
 Dunque, il criterio del costo costante si può applicare solo in situazioni in cui si prevede che ogni valore che comparirà durante l’esecuzione del programma occupi esattamente una cella di memoria, altrimenti si deve necessariamente applicare il criterio del costo logaritmico, che porta ad un calcolo più preciso della complessità.
 
 
-**7.5 Correlazione temporale fra M e RAM**
+### **7.5 Correlazione temporale fra MT e RAM**
 
-Una volta analizzato il comportamento della macchina RAM, `e possibile studiarne la correlazione con le
-
-TM. Nello specifico, `e possibile simulare una TM deterministica a knastri attraverso una macchina RAM,
-
-nel seguente modo: innanzitutto, si considera la memoria della RAM come suddivisa in blocchi, tutti di
-
-dimensione k, ad eccezione del blocco 0, che ha dimensione k+1, in quanto memorizza lo stato della TM
-
-e le posizioni delle k testine. I successivi blocchi vengono impiegati per contenere i valori contenuti nelle
-
-successive posizioni di ciascuno dei k nastri di memoria della TM. Dunque, il valore rappresentato nella
-
-i-esima cella del j-esimo nastro della TM `e contenuto nella locazione c+ k·j+ iin cui c`e una costante
+Una volta analizzato il comportamento della macchina RAM, è possibile studiarne la correlazione con le MT. Nello specifico, è possibile simulare una MT deterministica a $k$ nastri attraverso una macchina RAM, nel seguente modo: innanzitutto, si considera la memoria della RAM come suddivisa in blocchi, tutti di dimensione $k$, ad eccezione del blocco $0$, che ha dimensione $k+1$, in quanto memorizza lo stato della MT e le posizioni delle $k$ testine. I successivi blocchi vengono impiegati per contenere i valori contenuti nelle successive posizioni di ciascuno dei $k$ nastri di memoria della MT. Dunque, il valore rappresentato nella i-esima cella del j-esimo nastro della TM `e contenuto nella locazione c+ k·j+ iin cui c`e una costante
 
 opportuna della memoria della macchina RAM. Inoltre, per accedere al valore presente sotto la testina
 
