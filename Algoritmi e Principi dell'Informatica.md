@@ -1186,27 +1186,16 @@ In questo capitolo si analizzano a fondo i principali algoritmi di ordinamento e
 
 - Un **==algoritmo==** è una procedura di calcolo ben definita che prende un certo valore, o un insieme di valori, in input e genera un valore, o un insieme di valori, in output. Dunque, un algoritmo è una serie di passi computazionali che trasformano l’input in output.
 
-Un algoritmo può anche essere visto come uno strumento per la risoluzione di un problema computazionale ben definito: sotto questo sguardo, un algoritmo si definisce corretto se, per ogni istanza di input, termina con l’output corretto. Se un algoritmo è corretto, allora risolve quel determinato problema computazionale. Esistono molti modi per poter specificare un determinato algoritmo: si può utilizzare
+Un algoritmo può anche essere visto come uno strumento per la risoluzione di un problema computazionale ben definito: sotto questo sguardo, un algoritmo si definisce corretto se, per ogni istanza di input, termina con l’output corretto. Se un algoritmo è corretto, allora risolve quel determinato problema computazionale. Esistono molti modi per poter specificare un determinato algoritmo: si può utilizzare la lingua italiana o inglese, ma anche un linguaggio di programmazione come C, C++, JAVA e Pascal, o ancora tramite uno pseudocodice.
 
-la lingua italiana o inglese, ma anche un linguaggio di programmazione come C, C++, JAVA e Pascal,
 
-o ancora tramite uno pseudocodice.
+### **8.1 Pseudocodifica**
 
-8.1 Pseudocodifica
+La pseudocodifica può avvenire in molti modi, ma nel seguito si utilizzerano le convenzioni qui riportate:
 
-La pseudocodifica pu`o avvenire in molti modi, ma nel seguito si utilizzerano le convenzioni qui riportate:
-
-L’indentazione serve ad indicare la struttura a blocchi dello pesudocodice, in modo da comprendere
-
-quali istruzioni appartengono, per esempio, ad un ciclo for, a un ciclo while o ad un if-else statement.
-
-Non sono utilizzate le parentesi graffe o parole chiave come begin ed end in quanto appesantiscono
-
-la sintassi;
-
-I costrutti iterativi while, for, repeat-until e il costrutto condizionale if-else hanno interpreta-
-
-zioni simili a quelle dei comuni linguaggi di programmazione. Il contatore del ciclo mantiene il suo
+- L’indentazione serve ad indicare la struttura a blocchi dello pesudocodice, in modo da comprendere quali istruzioni appartengono, per esempio, ad un ciclo for, a un ciclo while o ad un if-else statement.
+- Non sono utilizzate le parentesi graffe o parole chiave come begin ed end in quanto appesantiscono la sintassi;
+- I costrutti iterativi while, for, repeat-until e il costrutto condizionale if-else hanno interpretazioni simili a quelle dei comuni linguaggi di programmazione. Il contatore del ciclo mantiene il suo
 
 valore dopo la fine del ciclo, quindi il valore che ha provocato la terminazione del ciclo stesso. Inol-
 
