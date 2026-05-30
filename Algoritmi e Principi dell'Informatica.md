@@ -1127,19 +1127,11 @@ In generale, per la complessità temporale non si hanno risultati simili, ma è 
 I teoremi qui introdotti valgono anche per le moderne macchine di Von Neumann, in quanto possiamo avere speedup lineari arbitrariamente grandi (ovviamente, entro i limiti fisici della termodinamica), aumentando il parallelismo, ma miglioramenti più che lineari si possono ottenere solamente modificando l’algoritmo impiegato.
 
 
-7.4 Macchina RAM
+### **7.4 Macchina RAM**
 
-La macchina RAM (o Random Access Memory) `e un modello classico ispirata all`aarchitettura di Von
+La macchina RAM (o Random Access Memory) è un modello classico ispirata all'architettura di Von Neumann. Tale macchina è costituita da un nastro in ingresso, un nastro in uscita, un programma rappresentato da un numero finito di istruzioni, un contatore che indica l’istruzione corrente da eseguire e una memoria ad accesso diretto.
 
-Neumann. Tale macchina `e costituita da un nastro in ingresso, un nastro in uscita, un programma
-
-rappresentato da un numero finito di istruzioni, un contatore che indica l’istruzione corrente da eseguire
-
-e una memoria ad accesso diretto.
-
-Sia i nastri che la memoria sono composti da un numero illimitato di celle, ma al contrario dei nastri
-
-di ingresso e uscita che si possono accedere in maniera sequenziale, la memoria `e indirizzata e si pu`o
+Sia i nastri che la memoria sono composti da un numero illimitato di celle, ma al contrario dei nastri di ingresso e uscita che si possono accedere in maniera sequenziale, la memoria `e indirizzata e si pu`o
 
 accedere a una sua cella attraverso un numero intero i>0 che indica l’indirizzo di tale cella di memoria.
 
