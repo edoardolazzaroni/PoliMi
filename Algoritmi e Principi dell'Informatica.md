@@ -1280,18 +1280,14 @@ Poichè tale procedura viene effettuata per un massimo di $n$ volte, la funsione
 	`i := 1`
 	`j := 1`
 	`for k := p to r :`
-		`if L[i] <= R [ j ]:`
+		`if L[i] <= R[j]:`
 			`A[k] := L[i]`
-`i := i + 1`
-`e l s e :`
-`A [ k ] := R [ j ]`
-`j := j + 1`
+			`i := i + 1`
+		`else:`
+			`A[k] := R[j]`
+			`j := j + 1`
 
-In altri termini, le righe 2 e 3 inizializzano i valori di n1 ed n2, che rappresentano la lunghezza dei due
-
-sottoarray A[p..q] e A[q+1..r]. Nelle due righe successive vengono creati i due sottoarray ausiliari L
-
-(per Left) ed R (per Right), che contano n+ 1 elementi (per motivi che verranno chiariti a breve). Le
+In altri termini, le righe 2 e 3 inizializzano i valori di $n_1$ ed $n_2$, che rappresentano la lunghezza dei due sottoarray `A[p..q]` e `A[q+1..r]`. Nelle due righe successive vengono creati i due sottoarray ausiliari `L` (per Left) ed R (per Right), che contano n+ 1 elementi (per motivi che verranno chiariti a breve). Le
 
 righe dalla 6 alla 9, inizializzano gli array appena creati con i valori contenuti rispettivamente nella prima
 
