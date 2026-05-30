@@ -1218,13 +1218,10 @@ Il primo algoritmo analizzato è l’**insertion sort**, che prende in input una
 	`for j := 2 to A . length :`
 		`key := A[j]`
 		`i := j - 1`
-			w h i l e i > 0 and A [ i ] > key :`
-
-`6 A [ i + 1] := A [ i ]`
-
-`7 i := i - 1`
-
-`8 A [ i + 1] = key`
+		`while i > 0 and A[i] > key:`
+			`A[i+1] := A[i]`
+			`i := i - 1`
+		`A[i+ 1] = key`
 
 All’inizio di ogni iterazione del ciclo for, il cui indice `e j, la sottosequenza di elementi A[1..j-1]
 
