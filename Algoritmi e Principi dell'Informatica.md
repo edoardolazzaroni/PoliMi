@@ -513,7 +513,7 @@ Una volta definite cosa siano le grammatiche, è possibile classificarle in base
 
 *Gerarchia di Chomsky*:
 
-![[Algoritmi e Principi dell'Informatica-1779628545932.webp|524]]
+![[classificazione grammatiche.webp|524]]
 
 
 ### **4.3 Grammatiche e Automi**
@@ -1131,7 +1131,7 @@ I teoremi qui introdotti valgono anche per le moderne macchine di Von Neumann, i
 
 La macchina RAM (o Random Access Memory) è un modello classico ispirata all'architettura di Von Neumann. Tale macchina è costituita da un nastro in ingresso, un nastro in uscita, un programma rappresentato da un numero finito di istruzioni, un contatore che indica l’istruzione corrente da eseguire e una memoria ad accesso diretto.
 
-![[macchina ram.webp|484]]
+![[macchina RAM.webp|484]]
 
 Sia i nastri che la memoria sono composti da un numero illimitato di celle, ma al contrario dei nastri di ingresso e uscita che si possono accedere in maniera sequenziale, la memoria è indirizzata e si può accedere a una sua cella attraverso un numero intero $i>0$ che indica l’indirizzo di tale cella di memoria.
 
@@ -1139,12 +1139,12 @@ La cella $0$ della memoria è un registro speciale, detto accumulatore, che si u
 
 *Tabella: istruzioni macchina RAM*
 
-![[Algoritmi e Principi dell'Informatica-1780152779641.webp|260]]
+![[istruzioni macchina RAM.webp|260]]
 
 
 Una volta introdotte tutte le istruzioni eseguibili dalla macchina RAM, è possibile ora studiarne la complessità temporale, come fatto per le MT a $k$-nastri. A differenza delle MT, nelle macchine RAM l’esecuzione delle diverse operazioni dipende dagli operandi necessari per eseguire tale operazione. Diventa quindi necessario analizzare tutte le istruzioni e definire il tempo richiesto per ciascuna di esse e la quantità di memoria allocata. Queste quantità possono essere calcolate secondo due criteri, ovvero tramite il criterio del costo costante e tramite il criterio del costo logaritmico. Il primo si basa sull’assunzione che l’esecuzione di ciascuna istruzione richieda un’unità di tempo e che ciascuna allocazione in memoria richieda un’unità di spazio (stessa assunzione fatta per le MT).
 
-Si è appena affermato però che nella macchina RAM le istruzioni hanno diversa natura e manipolano dati di diversa dimensione: risulta, dunque, evidente che tale criterio è poco affine alla realtà. Per tener conto della differente velocità di esecuzione e della differente quantità di memoria allocata da ciascuna istruzione, si introduce il secondo criterio (del costo logaritmico), basato sulla supposizione che il tempo richiesto per eseguire un’istruzione sia proporzionale alla lunghezza degli operandi dell’istruzione considerata. Poichè gli operandi sono rappresentati in memoria in codice binario, un generico operando di valore $v$ è rappresentato da ⌊log2(|v|+ 1)⌋.
+Si è appena affermato però che nella macchina RAM le istruzioni hanno diversa natura e manipolano dati di diversa dimensione: risulta, dunque, evidente che tale criterio è poco affine alla realtà. Per tener conto della differente velocità di esecuzione e della differente quantità di memoria allocata da ciascuna istruzione, si introduce il secondo criterio (del costo logaritmico), basato sulla supposizione che il tempo richiesto per eseguire un’istruzione sia proporzionale alla lunghezza degli operandi dell’istruzione considerata. Poichè gli operandi sono rappresentati in memoria in codice binario, un generico operando di valore $v$ è rappresentato da $⌊log2(|v|+ 1)⌋$.
 
 Dunque, `e possibile definire la funzione l(i) = if i̸= 0 then⌊log2(|v|+1)⌋else1 tramite cui calcolare
 
