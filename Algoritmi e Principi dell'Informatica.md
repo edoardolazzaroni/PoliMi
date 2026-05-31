@@ -1408,25 +1408,10 @@ $T(n) = cn^2 + \frac{3}{16}cn^2+(\frac{3}{16})^2cn^2+...+(\frac{3}{16})^{log_4 n
 	$=\frac{16}{13}cn^2+ Θ(n^{log_4 3})$
 	$= O(n^2)$
 
-Il passaggio segnato con $*$ rappresenta una piccola approssimazione: la $\sum_{i=0}^{log_4 n−1}(\frac{3}{16})^icn^2$ ammette
+Il passaggio segnato con $*$ rappresenta una piccola approssimazione: la $\sum_{i=0}^{log_4 n−1}(\frac{3}{16})^icn^2$ ammette come limite superiore $\sum_{i=0}^∞(\frac{3}{16})^icn^2$, che rappresenta una serie geometrica decrescente infinita. In questo modo è possibile proseguire con agilità i calcoli, ottenendo come ipotesi $T(n) = O(n^2)$, che dovrà essere verificata con il metodo della sostituzione.
 
-come limite superiore∞
 
-i=0
-
-3
-
-16
-
-i
-
-cn2, che rappresenta una serie geometrica decrescente infinita. In questo
-
-modo `e possibile proseguire con agilit`a i calcoli, ottenendo come ipotesi T(n) = O(n2), che dovr`a essere
-
-verificata con il metodo della sostituzione.
-
-8.4.3 Metodo dell’Esperto
+#### **8.4.3 Metodo dell’Esperto**
 
 Il metodo dell’esperto `e impiegato per la risoluzione di ricorrenze del tipo T(n) = aT(n/b) + f(n),
 
