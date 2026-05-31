@@ -1367,23 +1367,14 @@ Ci sono poi casi in cui la soluzione ipotizzata sembra essere corretta, ma i cal
 
 *ESEMPIO*: Si calcoli la ricorrenza $T(n) = T(⌊n/2⌋) + T(⌈n/2⌉) + 1$ supponendo che la soluzione sia $T(n) = O(n)$. Si deve quindi dimostrare che $T(n) ≤cn$ per qualche $c$ arbitraria. Sostituendo l’ipotesi all’interno della ricorrenza si ottiene:
 
-$T(n) ≤ c⌊n/2⌋+ c⌈n/2⌉+ 1
+$T(n) ≤ c⌊n/2⌋+ c⌈n/2⌉+ 1$
+	$= cn+ 1$
 
-= cn+ 1
+che non implica che $T(n) ≤cn$ per qualunque valore di $c$. Sembrerebbe quindi che l’ipotesi fatta sia sbagliata, ma al contrario si può dimostrare che è corretta, formulando un’ipotesi induttiva più forte. Per affrontare tale problema, si sottrae un termine di ordine inferiore dalla precedente ipotesi, ad esempio, un termine costante $d≥0$, ottenendo come nuova ipotesi $T(n) ≤cn−d$, che sostituita alla ricorrenza:
 
-che non implica che T(n) ≤cn per qualunque valore di c. Sembrerebbe quindi che l’ipotesi fatta sia
-
-sbagliata, ma al contrario si pu`o dimostrare che `e corretta, formulando un’ipotesi induttiva pi`u forte. Per8.4. RISOLUZIONE RICORRENZE 55
-
-affrontare tale problema, si sottrae un termine di ordine inferiore dalla precedente ipotesi, ad esempio,
-
-un termine costante d≥0, ottenendo come nuova ipotesi T(n) ≤cn−d, che sostituita alla ricorrenza:
-
-T(n) ≤ (c⌊n/2⌋−d) + (c⌈n/2⌉−d) + 1
-
-= cn−2d+ 1
-
-≤ cn−d
+$T(n) ≤ (c⌊n/2⌋−d) + (c⌈n/2⌉−d) + 1$
+	$= cn−2d+ 1$
+$≤ cn−d$
 
 che diventa valida per ogni d≥1. Come prima, la costante c deve essere scelta arbitrariamente grande
 
