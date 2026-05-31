@@ -1325,27 +1325,13 @@ Il primo livello (in alto) ha un costo totale di $cn$, il secondo livello ha un 
 ### **8.4 Risoluzione Ricorrenze**
 
 Come già detto in precedenza, quando i problemi sono abbastanza grandi da essere risolti ricorsivamente, si ha il cosiddetto caso ricorsivo, tramite cui si divide il problema in problemi più piccoli di uguale natura.
-Una volta che i sottoproblemi diventano sufficientemente piccoli da non richiedere più il passo ricorsivo, si  raggiunto il cosiddetto caso base, da cui inizia la soluzione del problema.
+Una volta che i sottoproblemi diventano sufficientemente piccoli da non richiedere più il passo ricorsivo, si è raggiunto il cosiddetto caso base, da cui inizia la soluzione del problema.
 
-Questo modello di risoluzione del problema viene anche detto Divide et Impera e richiede l’utilizzo
+Questo modello di risoluzione del problema viene anche detto Divide et Impera e richiede l’utilizzo di equazioni di ricorrenza, tramite cui si caratterizzano i tempi di esecuzione degli algoritmi in termini dei loro valori con input più piccoli. Per risolvere tali equazioni, ovvero per trovare i limiti asintotici $Θ$ oppure $O$, esistono tre metodi:
 
-di equazioni di ricorrenza, tramite cui si caratterizzano i tempi di esecuzione degli algoritmi in termini
-
-dei loro valori con input pi`u piccoli. Per risolvere tali equazioni, ovvero per trovare i limiti asintotici Θ
-
-oppure O, esistono tre metodi:
-
-1. Metodo di Sostituzione: si fa un’ipotesi di soluzione e si utilizza l’induzione matematica per
-
-dimostrare che l’ipotesi sia corretta;
-
-2. Metodo dell’Albero di ricorsione: si converte la ricorrenza in una struttura ad albero, i cui nodi
-
-rappresentano i costi ai vari livelli della ricorsione;
-
-3. Metodo dell’Esperto (Master theorem): fornisce i limiti per ricorrenze nella forma
-
-T(n) = aT(n/b) + f(n) con a≥1,b>1 e f(n) data. Una ricorrenza in questa forma caratterizza
+1. Metodo di Sostituzione: si fa un’ipotesi di soluzione e si utilizza l’induzione matematica per dimostrare che l’ipotesi sia corretta;
+2. Metodo dell’Albero di ricorsione: si converte la ricorrenza in una struttura ad albero, i cui nodi rappresentano i costi ai vari livelli della ricorsione;
+3. Metodo dell’Esperto (Master Theorem): fornisce i limiti per ricorrenze nella forma $T(n) = aT(n/b) + f(n) con a≥1,b>1$ e $f(n)$ data. Una ricorrenza in questa forma caratterizza
 
 un algoritmo divide et impera che crea a sottoproblemi di dimensione 1/b, i cui passi divide e
 
