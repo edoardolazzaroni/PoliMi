@@ -1430,9 +1430,7 @@ Per utilizzare il teorema enunciato, bisogna semplicemente determinare in quali 
 
 *ESEMPIO 1*: Si determini la soluzione della ricorrenza $T(n) = 9T(n/3) + n$. In questo caso, si ha che $a= 9,b= 3$ ed $f(n) = n$ e quindi $n^{log_b a} = n^{log_3 (9)} = Θ(n^2)$. Dato che $f(n) = O(n^{log_3 (9)−ε})$, con $ε= 1$ (in quanto $f(n) = n$), si può applicare il caso 1 del teorema dell’esperto e concludere immediatamente che la soluzione della ricorrenza è $T(n) = Θ(n^2)$, in quanto $n^2$ è polinomialmente più grande di $n$.
 
-*ESEMPIO 2*: Si determini la soluzione della ricorrenza $T(n) = 2T(n/2)+n^{log_2 n}$. In questo caso, si ha
-
-che a= 2,b= 2 ed f(n) = nlog2 n e quindi nlogb a = nlog2 (2) = n. Si potrebbe erroneamente pensare di
+*ESEMPIO 2*: Si determini la soluzione della ricorrenza $T(n) = 2T(n/2)+n \ log_2 n$. In questo caso, si ha che $a= 2,b= 2$ ed $f(n) = n \ log_2 n e quindi nlogb a = nlog2 (2) = n. Si potrebbe erroneamente pensare di
 
 essere nel terzo caso del teorema dell’esperto, ma le due funzioni non sono polinomialmente comparabili
 
