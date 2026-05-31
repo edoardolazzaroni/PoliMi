@@ -1394,7 +1394,7 @@ Per comodità, si suppone anche che $n$ sia una potenza di 4, in modo tale che o
 
 *Albero della ricorrenza $T(n) = 3T(n/4) + cn^2$*
 
-
+![[Algoritmi e Principi dell'Informatica-1780225905851.webp|569]]
 
 La parte *(a)* della figura mostra $T(n)$, che viene espanso nella parte *(b)* in un albero equivalente che rappresenta la ricorrenza. Il termine $cn^2$ nella radice di quest’albero rappresenta il costo al livello più alto della ricorsione, mentre i tre sottoalberi rappresentano i costi richiesti dai tre sottoproblemi di dimensione $n/4$. La parte *(c)* mostra l’espansione dei nodi di costo $T(n/4)$ dalla parte *(b)*, in cui ogni nodo figlio ha costo $c(n/4)^2$. Tale processo viene ripetuto più e più volte fino ad ottenere i casi base, rappresentati nella parte *(d)* con $T(1)$.
 
