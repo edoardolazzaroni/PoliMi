@@ -1316,15 +1316,10 @@ Si può osservare come tale algoritmo sia decisamentemigliore rispetto all’`in
 
 Un modo per comprendere meglio come mai la complessità temporale del `mergeSort` sia proprio $Θ(n log_2 n)$, si riscrive la ricorrenza nel seguente modo:
 
-$T(n) = \begin{cases} c & \mbox{if n=1} \\2T(n/2) + Θ(n) + Θ(1) & \mbox{if n>1} \end{cases} T(n) = c if n= 12T(n/2) + cn+ c if n>1$
+					$T(n) = \begin{cases} c & \mbox{if n=1} \\2T(n/2) + cn+ c & \mbox{if n>1} \end{cases}$
 
-in cui la costante c rappresenta sia il tempo richiesto per risolvere i problemi di dimensione 1, sia il
-
-tempo per elemento dell’array dei passi divide e combina. Si pu`o costruire un albero di ricorsione, in cui
-
-ogni ramo rappresenti una met`a dell’array precedente e ogni foglia sia un array di dimensione unitaria.
-
-Il primo livello (in alto) ha un costo totale di cn, il secondo livello ha un costo totale di cn/2+cn/2 = cn
+in cui la costante $c$ rappresenta sia il tempo richiesto per risolvere i problemi di dimensione 1, sia il tempo per elemento dell’array dei passi divide e combina. Si può costruire un albero di ricorsione, in cui ogni ramo rappresenti una metà dell’array precedente e ogni foglia sia un array di dimensione unitaria.
+Il primo livello (in alto) ha un costo totale di $cn$, il secondo livello ha un costo totale di cn/2+cn/2 = cn
 
 e cos`ı via fino all’ultimo livello, con costo totale di n+ n+...+ n (c volte), quindi di cn. In generale, il
 
