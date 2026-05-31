@@ -1498,15 +1498,12 @@ A questo punto, è possibile scrivere l’algoritmo `heapSort`. *In pseudocodice
 
 Questo algoritmo si basa sul fatto che, una volta riordinato l’array in maniera che rappresenti un max-heap, l’elemento più grande dell’array si trova in `A[1]`: questo elemento può quindi essere inserito nella posizione finale corretta scambiandolo con `A[n]`. Se ora si toglie il nodo $n$ dall’heap, diminuendo `A.heapSize`, si nota che i figli della radice restano max-heap, ma la nuova radice potrebbe violare la proprietà del max-heap. Questo problema può essere rimosso chiamando la procedura `maxHeapify(A, 1)`, che lascia un max-heap in `A[1..n-1]`. Questa operazione viene ripetuta fino ad un heap di dimensione 2, già ordinato per definizione.
 
-Come detto in precedenza, la procedura `buildMaxHeap` impiega un tempo di esecuzione lineare $(O(n))$, mentre le $n−1$ chiamate alla procedura `maxHeapify` impiegano ciascuna un tempo $O(log \ n)$. Pertanto il tempo di esecuzione dell’`heapSort` impiega un tempo di esecuzione $T(n) = O(nlogn).
+Come detto in precedenza, la procedura `buildMaxHeap` impiega un tempo di esecuzione lineare $(O(n))$, mentre le $n−1$ chiamate alla procedura `maxHeapify` impiegano ciascuna un tempo $O(log \ n)$. Pertanto il tempo di esecuzione dell’`heapSort` impiega un tempo di esecuzione $T(n) = O(n \ log \ n)$.
 
-8.6 Quick Sort
 
-Quick sort `e un algoritmo di ordinamento divide et impera, il cui tempo di esecuzione nel caso peggiore
+### **8.6 Quick Sort**
 
-`e O(n2). Nonostante un tempo di esecuzione molto lento nel caso peggiore, quick sort `e uno degli
-
-algoritmi pi`u utilizzati perch`e ha un tempo medio atteso Θ(nlog) e i fattori costanti nascosti dalla
+Quick sort è un algoritmo di ordinamento divide et impera, il cui tempo di esecuzione nel caso peggiore è $O(n^2)$. Nonostante un tempo di esecuzione molto lento nel caso peggiore, quick sort è uno degli algoritmi più utilizzati perchè ha un tempo medio atteso $Θ(n \ log)$ e i fattori costanti nascosti dalla
 
 notazione asintotica sono pressoch`e nulli. Inoltre, `e un algoritmo di ordinamento sul posto, che lo rende
 
