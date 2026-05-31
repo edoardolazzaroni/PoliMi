@@ -1336,33 +1336,19 @@ Questo modello di risoluzione del problema viene anche detto Divide et Impera e 
 A volte, le ricorrenze non saranno delle uguaglianze, ma delle disuguaglianze nella forma $T(n) ≤...$, che stabilisce un limite superiore su $T(n)$ (quindi si utilizza la notazione $O$ anzichè $Θ$), oppure nella forma $T(n) ≥...$, che stabilisce invece un limite inferiore su $T(n)$ (quindi si utilizza la notazione $Ω$ anzichè $Θ$).
 
 Inoltre, ci sono casi in cui si trascurano dei dettagli tecnici di poca importanza, come le condizioni al contorno: infatti, poichè il tempo di esecuzione di un algoritmo con un input di dimensione costante è costante, le ricorrenze che ne derivano hanno $T(n) = Θ(1)$, per valori sufficientemente piccoli di $n$.
-Questa decisione risiede nel fatto che, sebbene le condizioni al contorno cambiano la soluzione esatta 2In realt`a, sarebbe pi`u accurato scrivere T (⌊n/2⌋)+T (⌈n/2⌉) in quanto non sempre la dimensione dell’array A `e potenza
+Questa decisione risiede nel fatto che, sebbene le condizioni al contorno cambiano la soluzione esatta della ricorrenza, tuttavia la soluzione non cambia per più di un fattore costante e quindi asintoticamente rimane immutata.
 
-di 2 e, dunque, divisibile ricorsivamente in due met`a. In questo caso `e pi`u agevole, anche nei calcoli, ipotizzare che
 
-i sottoarray da suddividere abbiano un numero pari di elementi. Tale approssimazione, comunque, non influisce sulla
+#### **8.4.1 Metodo di Sostituzione**
 
-complessit`a finale del calcolo.54 CAPITOLO 8. ALGORITMI
-
-della ricorrenza, tuttavia la soluzione non cambia per pi`u di un fattore costante e quindi asintoticamente
-
-rimane immutata.
-
-8.4.1 Metodo di Sostituzione
-
-Uno dei metodi per la risoluzione delle occorrenze e, quindi, per il calcolo del tempo di esecuzione degli
-
-algoritmi, `e il metodo della sostituzione, che richiede due passaggi:
+Uno dei metodi per la risoluzione delle occorrenze e, quindi, per il calcolo del tempo di esecuzione degli algoritmi, è il metodo della sostituzione, che richiede due passaggi:
 
 1. Ipotizzare la forma della soluzione;
-
 2. Utilizzare l’induzione matematica per dimostrare che la soluzione ipotizzata sia corretta.
 
-Questo metodo pu`o essere applicato solamente se si ha un’idea della forma generale della soluzione e si
+Questo metodo può essere applicato solamente se si ha un’idea della forma generale della soluzione e si vuole calcolare il limite superiore o inferiore della ricorrenza che si analizza.
 
-vuole calcolare il limite superiore o inferiore della ricorrenza che si analizza.
-
-ESEMPIO: Si determini il limite superiore della ricorrenza T(n) = 2T(⌊n/2⌋) + n.
+*ESEMPIO*: Si determini il limite superiore della ricorrenza T(n) = 2T(⌊n/2⌋) + n.
 
 Si suppone che la soluzione sia O(nlog2 n). Il metodo di sostituzione consiste nel dimostrare che
 
