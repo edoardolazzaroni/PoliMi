@@ -1309,11 +1309,9 @@ Come si può facilmente osservare, la procedura `mergeSort` è definita in manie
 
 Per trovare ora il tempo di esecuzione $T(n)$ nel caso peggiore si può ragionare come segue. Nel caso in cui i sottoarray abbiano cardinalità uno, la soluzione è diretta, quindi viene impiegato un tempo costante per risolvere il problema, mentre se i sottoarray hanno $n>1$ elementi, si suddivide il tempo di esecuzione impostando $D(n) = Θ(1)$, in quanto si impiega un tempo costante per calcolare il centro di un array, $C(n) = Θ(n)$, in quanto si è già precedentemente dimostrato che la procedura `merge` impieghi un tempo lineare per la fusione delle soluzioni, e infine si pone $a= b= 2$, in quanto si suddivide ricorsivamente il problema in due sottoproblemi di uguale dimensione 2. Con questo ragionamento, la ricorrenza assume l’espressione:
 
-$T(n) = \begin{cases} Θ(1) & \mbox{if n=1} \\aT(n/b) + D(n) + C(n) & \mbox{else} \end{cases} T(n) = Θ(1) if n= 12T(n/2) + Θ(n) + Θ(1) if n>1$
+					$T(n) = \begin{cases} Θ(1) & \mbox{if n=1} \\2T(n/2) + Θ(n) + Θ(1) & \mbox{if n>1} \end{cases}$
 
-Si pu`o facilmente dimostrare (analiticamente oppure tramite il teorema dell’espreto, di cui si discuter`a
-
-successivamente) che tale equazione ha soluzione T(n) = Θ(nlog2 n), che rappresenta il tempo di esecu-
+Si può facilmente dimostrare (analiticamente oppure tramite il teorema dell’espreto, di cui si discuterà successivamente) che tale equazione ha soluzione $T(n) = Θ(nlog_2 n)$, che rappresenta il tempo di esecu-
 
 zione dell’algoritmo mergeSort nel caso pessimo. Si pu`o osservare come tale algoritmo sia decisamente
 
