@@ -1394,11 +1394,11 @@ Per comodità, si suppone anche che $n$ sia una potenza di 4, in modo tale che o
 
 *Albero della ricorrenza $T(n) = 3T(n/4) + cn^2$*
 
-![[Algoritmi e Principi dell'Informatica-1780225905851.webp|569]]
+![[esempio albero di ricorsione.webp|569]]
 
 La parte *(a)* della figura mostra $T(n)$, che viene espanso nella parte *(b)* in un albero equivalente che rappresenta la ricorrenza. Il termine $cn^2$ nella radice di quest’albero rappresenta il costo al livello più alto della ricorsione, mentre i tre sottoalberi rappresentano i costi richiesti dai tre sottoproblemi di dimensione $n/4$. La parte *(c)* mostra l’espansione dei nodi di costo $T(n/4)$ dalla parte *(b)*, in cui ogni nodo figlio ha costo $c(n/4)^2$. Tale processo viene ripetuto più e più volte fino ad ottenere i casi base, rappresentati nella parte *(d)* con $T(1)$.
 
-La dimensione dei sottoproblemi per i nodi alla profondit`a i `e di n/4i, quindi la dimensione del
+La dimensione dei sottoproblemi per i nodi alla profondità $i$ `e di n/4i, quindi la dimensione del
 
 sottoproblema diventa 1 (dimensione delle foglie) quando (n/4)i = 1, ovvero quando i= log4(n): dunque,
 
