@@ -1396,19 +1396,7 @@ Per comodità, si suppone anche che $n$ sia una potenza di 4, in modo tale che o
 
 
 
-La parte *(a)* della figura mostra $T(n)$, che viene espanso nella parte *(b)* in un albero equivalente
-
-che rappresenta la ricorrenza. Il termine cn2 nella radice di quest’albero rappresenta il costo al livello56 CAPITOLO 8. ALGORITMI
-
-16
-
-pi`u alto della ricorsione, mentre i tre sottoalberi rappresentano i costi richiesti dai tre sottoproblemi di
-
-dimensione n/4. La parte (c) mostra l’espansione dei nodi di costo T(n/4) dalla parte (b), in cui ogni
-
-nodo figlio ha costo c(n/4)2. Tale processo viene ripetuto pi`u e pi`u volte fino ad ottenere i casi base,
-
-rappresentati nella parte (d) con T(1).
+La parte *(a)* della figura mostra $T(n)$, che viene espanso nella parte *(b)* in un albero equivalente che rappresenta la ricorrenza. Il termine $cn^2$ nella radice di quest’albero rappresenta il costo al livello più alto della ricorsione, mentre i tre sottoalberi rappresentano i costi richiesti dai tre sottoproblemi di dimensione $n/4$. La parte *(c)* mostra l’espansione dei nodi di costo $T(n/4)$ dalla parte *(b)*, in cui ogni nodo figlio ha costo $c(n/4)^2$. Tale processo viene ripetuto più e più volte fino ad ottenere i casi base, rappresentati nella parte *(d)* con $T(1)$.
 
 La dimensione dei sottoproblemi per i nodi alla profondit`a i `e di n/4i, quindi la dimensione del
 
