@@ -1470,17 +1470,11 @@ Per implementare l’algoritmo heapsort si fa utilizzo del max-heap; per poterne
 		`swap A [ i ] with A [ max ]`
 		`maxHeapify (A , max )`
 
-A ogni passo viene determinato il più grande degli elementi `A[i], A[left(i)]` e `A[right(i)]` e il suo indice viene memorizzato nella variabile `max`. Se `A[i]` è l’elemento più grande, allora il sottoalbero è già un max-heap e la procedura termina la propria esecuzione, altrimenti uno dei due figli contiene
+A ogni passo viene determinato il più grande degli elementi `A[i], A[left(i)]` e `A[right(i)]` e il suo indice viene memorizzato nella variabile `max`. Se `A[i]` è l’elemento più grande, allora il sottoalbero è già un max-heap e la procedura termina la propria esecuzione, altrimenti uno dei due figli contiene l’elemento più grande e `A[i]` viene scambiato con `A[max]` (`swap with`); in questo modo, il nodo di indice `i` e i suoi figli soddisfano la proprietà di max-heap.
 
-l’elemento pi`u grande e A[i] viene scambiato con A[max] (swap with); in questo modo, il nodo di
+Il nodo con indice massimo, però, presenta il valore originale di `A[i]` e, quindi, il sottoalbero di radice max potrebbe violare la proprietà fondamentale: quindi, la procedura viene chiamata ricorsivamente sul sottoalbero, fino a raggiungere le foglie.
 
-indice i e i suoi figli soddisfano la propriet`a di max-heap. Il nodo con indice massimo, per`o, presenta il
-
-valore originale di A[i] e, quindi, il sottoalbero di radice max potrebbe violare la propriet`a fondamentale:
-
-quindi, la procedura viene chiamata ricorsivamente sul sottoalbero, fino a raggiungere le foglie.
-
-Questa procedura viene eseguita in un tempo O(h), con hl’altezza dell’albero. Essendo l’albero quasi
+Questa procedura viene eseguita in un tempo $O(h)$, con $h$ l’altezza dell’albero. Essendo l’albero quasi
 
 completo, h= O(logn), quindi T(n) = O(logn).
 
