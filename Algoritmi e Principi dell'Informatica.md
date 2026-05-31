@@ -1459,15 +1459,15 @@ Per implementare l’algoritmo heapsort si fa utilizzo del max-heap; per poterne
 
 `maxHeapify (A , i ) :`
 	`l := left ( i )`
-`3 r := right ( i )`
-`4 i f l <= A . heapSize and A [ l ] > A [ i ]:`
-`5 max := l`
-`6 e l s e :`
-`7 max := i`
-`8 i f r <= A . heapSize and A [ r ] > A [ max ]:`
-`9 max := r`
-`10 i f max != i :`
-`11 swap A [ i ] with A [ max ]`
+	`r := right ( i )`
+	`if l <= A . heapSize and A [ l ] > A [ i ]:`
+		`max := l`
+	`else :`
+		`max := i`
+	`if r <= A . heapSize and A [ r ] > A [ max ]:`
+		`max := r`
+	`if max != i :`
+		`swap A [ i ] with A [ max ]`
 `12 ma xH ea pi fy (A , max )`
 
 A ogni passo viene determinato il pi`u grande degli elementi A[i], A[left(i)] e A[right(i)] e il
