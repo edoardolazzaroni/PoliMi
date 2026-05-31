@@ -1469,7 +1469,7 @@ log4 n−1
 
 cn2 + Θ(nlog4 3)
 
-Il passaggio segnato con * rappresenta una piccola approssimazione: la log4 n−1
+Il passaggio segnato con $*$ rappresenta una piccola approssimazione: la log4 n−1
 
 i=0
 
