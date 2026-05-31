@@ -1480,14 +1480,14 @@ Ora, tramite la procedura `maxHeapify` è possibile convertire un array `A[1..n]
 
 *In pseudocodice*:
 
-`buil d M a x h e a p ( A ) :`
-`2 A . heapSize := A . length`
-`3 f o r i := ⌊A . length / 2 ⌋ down to 1:`
-`4 ma xH ea pi fy (A , i )`
+`buildMaxheap ( A ) :`
+	`A . heapSize := A . length`
+	`for i := ⌊A . length / 2 ⌋ down to 1:`
+		`4 maxHeapify (A , i )`
 
-Si pu`o dimostrare che tale procedura impiega un tempo di esecuzione T(n) = O(n).
+Si può dimostrare che tale procedura impiega un tempo di esecuzione $T(n) = O(n)$.
 
-A questo punto, `e possibile scrivere l’algoritmo heapSort. In pseudocodice:
+A questo punto, è possibile scrivere l’algoritmo heapSort. In pseudocodice:
 
 1 heapSort ( A ) :
 
