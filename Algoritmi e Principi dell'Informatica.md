@@ -1416,13 +1416,8 @@ Il passaggio segnato con $*$ rappresenta una piccola approssimazione: la $\sum_{
 Il metodo dell’esperto è impiegato per la risoluzione di ricorrenze del tipo $T(n) = aT(n/b) + f(n)$,
 con $a ≥1,b > 1$ costanti ed $f(n)$ una funzione asintoticamante positiva. Una ricorrenza di questo tipo rappresenta il tempo di esecuzione di un algoritmo che divide il problema di dimensione $n$ in $a$ sottoproblemi di dimensione $n/b$, mentre la funzione $f(n)$ rappresenta il costo di divisione del problema e di combinazione delle soluzioni. Il metodo dell’esperto dipende dal seguente teorema:
 
-Teorema 8.4.1 (Master Theorem). Date le costanti a ≥1, b > 1 e la funzione f(n), se la ricorsione
-
-T(n) si presenta nella forma T(n) = aT(n/b) + f(n), allora pu`o essere limitata asintoticamente nei
-
-seguenti modi:
-
-1. Se f(n) = O(nlogb a−ε) per qualche ε>0, allora T(n) = Θ(nlogb a);
+- **Teorema** (**==Master Theorem==**): Date le costanti $a ≥1, b > 1$ e la funzione $f(n)$, se la ricorsione $T(n)$ si presenta nella forma $T(n) = aT(n/b) + f(n)$, allora può essere limitata asintoticamente nei seguenti modi:
+	1. Se $f(n) = O(nlog_b a−ε)$ per qualche $ε>0$, allora $T(n) = Θ(nlogb a);
 
 2. Se f(n) = Θ(nlogb a), allora T(n) = Θ(nlogb alog2(n));
 
