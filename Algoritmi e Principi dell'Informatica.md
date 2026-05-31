@@ -1351,22 +1351,13 @@ Questo metodo può essere applicato solamente se si ha un’idea della forma gen
 *ESEMPIO*: Si determini il limite superiore della ricorrenza $T(n) = 2T(⌊n/2⌋) + n$.
 Si suppone che la soluzione sia $O(n log_2 n)$. Il metodo di sostituzione consiste nel dimostrare che $T(n) ≤cn log_2 n$ per un generico $c>0$. Si verifica, innanzitutto, che questo limite sia valido anche per $⌊n/2⌋$, ovvero che $T(⌊n/2⌋) ≤c⌊n/2⌋log_2(⌊n/2⌋)$. Facendo le opportune sostituzioni si ha:
 
-$T(n) ≤ 2(c⌊n/2⌋log2(⌊n/2⌋)) + n$
-	$≤ cnlog2(n/2) + n$
+$T(n) ≤ 2(c⌊n/2⌋log_2(⌊n/2⌋)) + n$
+	$≤ cnlog_2(n/2) + n$
+	$= cnlog2 n−cn log_2 2 + n$
+	$= cnlog_2 n−cn+ n$
+	$≤ cn log_2 n$
 
-= cnlog2 n−cnlog2 2 + n
-
-= cnlog2 n−cn+ n
-
-≤ cnlog2 n
-
-L’ultimo passaggio `e vero solo per c≥1. A questo punto, l’induzione matematica richiede di dimostrare
-
-che la soluzione vale per le condizioni al contorno. Si suppone, per esempio, che l’unica condizione al
-
-contorno sia T(1) = 1: si deve dimostrare che `e possibile scegliere una costante csufficientemente grande
-
-in modo che il limite T(n) ≤cnlog2 n sia valido anche per le condizioni al contorno. Quindi per n= 1
+L’ultimo passaggio è vero solo per $c≥1$. A questo punto, l’induzione matematica richiede di dimostrare che la soluzione vale per le condizioni al contorno. Si suppone, per esempio, che l’unica condizione al contorno sia $T(1) = 1$: si deve dimostrare che è possibile scegliere una costante $c$ sufficientemente grande in modo che il limite $T(n) ≤cn log_2 n sia valido anche per le condizioni al contorno. Quindi per n= 1
 
 (condizione al contorno), il limite T(n) ≤cnlog2 n diventa T(1) ≤clog2 1 = 0, che per`o `e in contrasto
 
