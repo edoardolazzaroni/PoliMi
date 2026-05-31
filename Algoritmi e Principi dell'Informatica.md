@@ -1453,39 +1453,23 @@ Oltre all’attributo `A.length`, che ne ritorna la lunghezza, l’array `A` pos
 
 Esistono, inoltre, due tipologie di heap binari: max-heap e min-heap. Il primo, più importante, è costruito in modo tale che ogni nodo rispetti la condizione per cui `A[parent(i)] ≥ A[i]`; dunque, il valore di un nodo è al massimo il valore del nodo padre e, di conseguenza, l’elemento più grande di un max-heap è memorizzato alla sua radice. Il secondo, meno utilizzato, è costruito in modo tale che ogni nodo rispetti la condizione per cui `A[parent(i)] ≤ A[i]`.
 
-Per implementare l’algoritmo heapsort si fa utilizzo del max-heap; per poterne mantenere le proprietà si utilizza la procedura di supporto `maxHeapify`, un algoritmo che prende in input un array `A` e un suo indice `i`, e restituisce l’array ordinato in modo tale da rappresentare il max-heap. Quando tale proceduraviene invocata, essa assume che gli alberi binari di radici left(i) e right(i) siano dei max-heap, ma
+Per implementare l’algoritmo heapsort si fa utilizzo del max-heap; per poterne mantenere le proprietà si utilizza la procedura di supporto `maxHeapify`, un algoritmo che prende in input un array `A` e un suo indice `i`, e restituisce l’array ordinato in modo tale da rappresentare il max-heap. Quando tale procedura viene invocata, essa assume che gli alberi binari di radici `left(i)` e `right(i)` siano dei max-heap, ma assume anche che `A[i]` possa essere più piccolo dei suoi figli, violando la proprietà fondamentale. La procedura, quindi, ha il compito di far ’scendere’ il valore `A[i]` in modo tale che il sottoalbero con radice di indice `i` diventi un max-heap.
 
-assume anche che A[i] possa essere pi`u piccolo dei suoi figli, violando la propriet`a fondamentale. La
-
-procedura, quindi, ha il compito di far ’scendere’ il valore A[i] in modo tale che il sottoalbero con radice
-
-di indice i diventi un max-heap.
-
-
-In pseudocodice:
+*In pseudocodice*:
 
 1 ma xH ea pi fy (A , i ) :
 
 2 l := left ( i )
 
 3 r := right ( i )
-
 4 i f l <= A . heapSize and A [ l ] > A [ i ]:
-
 5 max := l
-
 6 e l s e :
-
 7 max := i
-
 8 i f r <= A . heapSize and A [ r ] > A [ max ]:
-
 9 max := r
-
 10 i f max != i :
-
 11 swap A [ i ] with A [ max ]
-
 12 ma xH ea pi fy (A , max )
 
 A ogni passo viene determinato il pi`u grande degli elementi A[i], A[left(i)] e A[right(i)] e il
