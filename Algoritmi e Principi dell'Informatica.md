@@ -1357,15 +1357,9 @@ $T(n) ≤ 2(c⌊n/2⌋log_2(⌊n/2⌋)) + n$
 	$= cnlog_2 n−cn+ n$
 	$≤ cn log_2 n$
 
-L’ultimo passaggio è vero solo per $c≥1$. A questo punto, l’induzione matematica richiede di dimostrare che la soluzione vale per le condizioni al contorno. Si suppone, per esempio, che l’unica condizione al contorno sia $T(1) = 1$: si deve dimostrare che è possibile scegliere una costante $c$ sufficientemente grande in modo che il limite $T(n) ≤cn log_2 n sia valido anche per le condizioni al contorno. Quindi per n= 1
+L’ultimo passaggio è vero solo per $c≥1$. A questo punto, l’induzione matematica richiede di dimostrare che la soluzione vale per le condizioni al contorno. Si suppone, per esempio, che l’unica condizione al contorno sia $T(1) = 1$: si deve dimostrare che è possibile scegliere una costante $c$ sufficientemente grande in modo che il limite $T(n) ≤cn log_2 n$ sia valido anche per le condizioni al contorno. Quindi per $n= 1$ (condizione al contorno), il limite $T(n) ≤cn log_2 n$ diventa $T(1) ≤c log_2 1 = 0$, che però è in contrasto con $T(1) = 1$: il caso base della dimostrazione induttiva non è valido!
 
-(condizione al contorno), il limite T(n) ≤cnlog2 n diventa T(1) ≤clog2 1 = 0, che per`o `e in contrasto
-
-con T(1) = 1: il caso base della dimostrazione induttiva non `e valido!
-
-Questo ostacolo nella dimostrazione pu`o essere facilmente superato sfruttando la notazione asinto-
-
-tica, che richiede di provare che T(n) ≤cnlog2 n sia valida solamente dopo un certo n0 in poi, scelto
+Questo ostacolo nella dimostrazione può essere facilmente superato sfruttando la notazione asintotica, che richiede di provare che $T(n) ≤cn log_2 n$ sia valida solamente dopo un certo $n_0$ in poi, scelto
 
 arbitrariamente: l’idea `e quella di escludere la condizione al contorno dalla dimostrazione induttiva. Si
 
