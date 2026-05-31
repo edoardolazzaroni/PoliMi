@@ -1474,13 +1474,9 @@ A ogni passo viene determinato il più grande degli elementi `A[i], A[left(i)]` 
 
 Il nodo con indice massimo, però, presenta il valore originale di `A[i]` e, quindi, il sottoalbero di radice max potrebbe violare la proprietà fondamentale: quindi, la procedura viene chiamata ricorsivamente sul sottoalbero, fino a raggiungere le foglie.
 
-Questa procedura viene eseguita in un tempo $O(h)$, con $h$ l’altezza dell’albero. Essendo l’albero quasi
+Questa procedura viene eseguita in un tempo $O(h)$, con $h$ l’altezza dell’albero. Essendo l’albero quasi completo, $h= O(log \ n)$, quindi $T(n) = O(log \ n)$.
 
-completo, h= O(logn), quindi T(n) = O(logn).
-
-Ora, tramite la procedura maxHeapify `e possibile convertire un array A[1..n] (con n=A.length)
-
-in un max-heap. Prima di procedere, `e importante osservare come tutti gli elementi A[⌊n/2⌋+ 1 .. n]
+Ora, tramite la procedura `maxHeapify` è possibile convertire un array `A[1..n]` (con `n=A.length`) in un max-heap. Prima di procedere, è importante osservare come tutti gli elementi A[⌊n/2⌋+ 1 .. n]
 
 siano foglie dell’albero e, quindi, ciascuno di essi `e un heap di un solo elemento, che si pu`o utilizzare
 
