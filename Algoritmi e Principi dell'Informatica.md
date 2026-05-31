@@ -1493,22 +1493,10 @@ A questo punto, è possibile scrivere l’algoritmo `heapSort`. *In pseudocodice
 	`buildMaxheap ( A )`
 	`for i := A . length down to 2:`
 		`swap A [1] with A [ i ]`
+		`A . heapSize := A . heapSize - 1`
+		`maxHeapify (A , 1)`
 
-`5 A . heapSize := A . heapSize - 1`
-
-`6 ma xH ea pi fy (A , 1)`
-
-Questo algoritmo si basa sul fatto che, una volta riordinato l’array in maniera che rappresenti un
-
-max-heap, l’elemento pi`u grande dell’array si trova in A[1]: questo elemento pu`o quindi essere inserito
-
-nella posizione finale corretta scambiandolo con A[n]. Se ora si toglie il nodo n dall’heap, diminuendo
-
-A.heapSize, si nota che i figli della radice restano max-heap, ma la nuova radice potrebbe violare la
-
-propriet`a del max-heap. Questo problema pu`o essere rimosso chiamando la procedura maxHeapify(
-
-A, 1), che lascia un max-heap in A[1..n-1]. Questa operazione viene ripetuta fino ad un heap di
+Questo algoritmo si basa sul fatto che, una volta riordinato l’array in maniera che rappresenti un max-heap, l’elemento più grande dell’array si trova in `A[1]`: questo elemento può quindi essere inserito nella posizione finale corretta scambiandolo con `A[n]`. Se ora si toglie il nodo $n$ dall’heap, diminuendo `A.heapSize`, si nota che i figli della radice restano max-heap, ma la nuova radice potrebbe violare la proprietà del max-heap. Questo problema può essere rimosso chiamando la procedura `maxHeapify(A, 1)`, che lascia un max-heap in `A[1..n-1]`. Questa operazione viene ripetuta fino ad un heap di
 
 dimensione 2, gi`a ordinato per definizione.
 
