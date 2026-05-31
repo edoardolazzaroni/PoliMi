@@ -1380,13 +1380,7 @@ che diventa valida per ogni $d≥1$. Come prima, la costante $c$ deve essere sce
 
 Infine, ci sono casi in cui tramite una piccola manipolazione algebrica è possibile rendere una ricorrenza ignota simile ad una più familiare.
 
-*ESEMPIO*: Si calcoli la ricorrenza $T(n) = 2T(⌊\sqrt{n}⌋) + log_2(n)$. Tale ricorrenza sembra molto complessa da risolvere, ma è possibile semplificarla ponendo $m= log_2n$, ottenendo così $T(2m) = 2T(2m/2) + m$. Chiamando $S(m)$ la ricorrenza appena ottenuta, è possibile scrivere S(m) =
-
-2S(m/2) + m, simile alla precedente ricorrenza analizzata T(n) = 2T(⌊n/2⌋) + n; in effetti, la soluzione
-
-della ricorrenza S(m) `e la stessa ottenuta in precedenza. Dunque, la soluzione `e S(m) = mlog2 m e,
-
-ripristinando i termini con la sostituzione m= log2n, si ottiene che T(n) = O(log2n·log2(log2n)).
+*ESEMPIO*: Si calcoli la ricorrenza $T(n) = 2T(⌊\sqrt{n}⌋) + log_2(n)$. Tale ricorrenza sembra molto complessa da risolvere, ma è possibile semplificarla ponendo $m= log_2n$, ottenendo così $T(2m) = 2T(2^{m/2}) + m$. Chiamando $S(m)$ la ricorrenza appena ottenuta, è possibile scrivere $S(m) = 2S(m/2) + m$, simile alla precedente ricorrenza analizzata $T(n) = 2T(⌊n/2⌋) + n$; in effetti, la soluzione della ricorrenza $S(m)$ è la stessa ottenuta in precedenza. Dunque, la soluzione è $S(m) = m log_2 m$ e, ripristinando i termini con la sostituzione $m= log_2n$, si ottiene che $T(n) = O(log_2n·log_2(log_2n))$.
 
 8.4.2 Metodo dell’Albero di Ricorsione
 
