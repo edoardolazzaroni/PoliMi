@@ -1424,21 +1424,11 @@ con $a ≥1,b > 1$ costanti ed $f(n)$ una funzione asintoticamante positiva. Una
 Si osservi che in ciascuno dei tre casi, si confronta la funzione $f(n)$ con la funzione $n^{log_b a}$: intuitivamente, la soluzione della ricorrenza è determinata dalla funzione polinomialmente (*una funzione è polinomialmente più grande rispetto ad un’altra funzione se la prima è asintoticamente più grande della seconda di un fattore $n^ε$ per qualche $ε > 0$)* più grande.
 Se la funzione $n^{log_b a}$ è più grande polinomialmente, come nel primo caso, allora sarà soluzione della ricorrenza, altrimenti la soluzione sarà $f(n)$, come enunciato nel caso tre, in cui si deve anche verificare la condizione di regolarità della funzione. Nel caso due, in cui le due funzioni sono asintoticamente uguali, si moltiplicano entrambi i membri per un fattore logaritmico e la soluzione sarà $T(n) = Θ(n^{log_b a} log_2(n)) = Θ(f(n)log_2(n))$.
 
-I tre casi, sfortunatamente, non coprono tutte le funzioni $f(n)$ possibili, in quanto ci sarà un intervallo fra i casi 1 e 2, in cui la funzione $f(n)$ è minore di $n^{log_b a}$, ma non polinomialmente, mentre ci sar`a anche
+I tre casi, sfortunatamente, non coprono tutte le funzioni $f(n)$ possibili, in quanto ci sarà un intervallo fra i casi 1 e 2, in cui la funzione $f(n)$ è minore di $n^{log_b a}$, ma non polinomialmente, mentre ci sarà anche un intervallo fra i casi 2 e 3, in cui la funzione $f(n)$ è maggiore di $n^{log_b a}$, ma non polinomialmente. In questi casi, il teorema dell’esperto non può essere applicato.
 
-un intervallo fra i casi 2 e 3, in cui la funzione f(n) `e maggiore di nlogb a, ma non polinomialmente. In
+Per utilizzare il teorema enunciato, bisogna semplicemente determinare in quali dei tre casi rientra la funzione $f(n)$ e confrontarla con la funzione $n^{log_b a}$.
 
-questi casi, il teorema dell’esperto non pu`o essere applicato.
-
-Per utilizzare il teorema enunciato, bisogna semplicemente determinare in quali dei tre casi rientra
-
-la funzione f(n) e confrontarla con la funzione nlogb a
-
-.
-
-ESEMPIO: Si determini la soluzione della ricorrenza T(n) = 9T(n/3) + n. In questo caso, si ha che
-
-a= 9,b= 3 ed f(n) = n e quindi nlogb a = nlog3 (9) = Θ(n2). Dato che f(n) = O(nlog3 (9)−ε), con ε= 1
+*ESEMPIO*: Si determini la soluzione della ricorrenza $T(n) = 9T(n/3) + n$. In questo caso, si ha che $a= 9,b= 3$ ed f(n) = n e quindi nlogb a = nlog3 (9) = Θ(n2). Dato che f(n) = O(nlog3 (9)−ε), con ε= 1
 
 (in quanto f(n) = n), si pu`o applicare il caso 1 del teorema dell’esperto e concludere immediatamente
 
