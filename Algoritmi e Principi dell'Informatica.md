@@ -1503,9 +1503,7 @@ Come detto in precedenza, la procedura `buildMaxHeap` impiega un tempo di esecuz
 
 ### **8.6 Quick Sort**
 
-Quick sort è un algoritmo di ordinamento divide et impera, il cui tempo di esecuzione nel caso peggiore è $O(n^2)$. Nonostante un tempo di esecuzione molto lento nel caso peggiore, quick sort è uno degli algoritmi più utilizzati perchè ha un tempo medio atteso $Θ(n \ log)$ e i fattori costanti nascosti dalla
-
-notazione asintotica sono pressoch`e nulli. Inoltre, `e un algoritmo di ordinamento sul posto, che lo rende
+Quick sort è un algoritmo di ordinamento divide et impera, il cui tempo di esecuzione nel caso peggiore è $O(n^2)$. Nonostante un tempo di esecuzione molto lento nel caso peggiore, quick sort è uno degli algoritmi più utilizzati perchè ha un tempo medio atteso $Θ(n \ log \ n)$ e i fattori costanti nascosti dalla notazione asintotica sono pressoch` nulli. Inoltre, `e un algoritmo di ordinamento sul posto, che lo rende
 
 utilizzabile anche in calcolatori con memoria limitata.
 
