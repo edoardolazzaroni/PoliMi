@@ -1408,17 +1408,7 @@ $T(n) = cn^2 + \frac{3}{16}cn^2+(\frac{3}{16})^2cn^2+...+(\frac{3}{16})^{log_4 n
 	$=\frac{16}{13}cn^2+ Θ(n^{log_4 3})$
 	$= O(n^2)$
 
-Il passaggio segnato con $*$ rappresenta una piccola approssimazione: la log4 n−1
-
-i=0
-
-3
-
-16
-
-i
-
-cn2 ammette
+Il passaggio segnato con $*$ rappresenta una piccola approssimazione: la $\sum_{i=0}^{log_4 n−1}(\frac{3}{16})^icn^2$ ammette
 
 come limite superiore∞
 
