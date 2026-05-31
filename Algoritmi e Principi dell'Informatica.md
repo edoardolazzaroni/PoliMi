@@ -1348,7 +1348,7 @@ Uno dei metodi per la risoluzione delle occorrenze e, quindi, per il calcolo del
 
 Questo metodo può essere applicato solamente se si ha un’idea della forma generale della soluzione e si vuole calcolare il limite superiore o inferiore della ricorrenza che si analizza.
 
-*ESEMPIO*: Si determini il limite superiore della ricorrenza $T(n) = 2T(⌊n/2⌋) + n$.
+*==ESEMPIO==*: Si determini il limite superiore della ricorrenza $T(n) = 2T(⌊n/2⌋) + n$.
 Si suppone che la soluzione sia $O(n log_2 n)$. Il metodo di sostituzione consiste nel dimostrare che $T(n) ≤cn log_2 n$ per un generico $c>0$. Si verifica, innanzitutto, che questo limite sia valido anche per $⌊n/2⌋$, ovvero che $T(⌊n/2⌋) ≤c⌊n/2⌋log_2(⌊n/2⌋)$. Facendo le opportune sostituzioni si ha:
 
 $T(n) ≤ 2(c⌊n/2⌋log_2(⌊n/2⌋)) + n$
@@ -1365,7 +1365,7 @@ Non esiste un metodo unico e generale per indovinare la soluzione corretta di un
 
 Ci sono poi casi in cui la soluzione ipotizzata sembra essere corretta, ma i calcoli matematici non soddisfano il passo induttivo: solitamente, il problema risiede nel fatto che l’ipotesi induttiva non è abbastanza forte per dimostrare il limite esatto. In un caso del genere, spesso è necessario semplicemente correggere l’ipotesi sottraendo un termine di ordine inferiore per fare in modo che i calcoli soddisfino i requisiti.
 
-*ESEMPIO*: Si calcoli la ricorrenza $T(n) = T(⌊n/2⌋) + T(⌈n/2⌉) + 1$ supponendo che la soluzione sia $T(n) = O(n)$. Si deve quindi dimostrare che $T(n) ≤cn$ per qualche $c$ arbitraria. Sostituendo l’ipotesi all’interno della ricorrenza si ottiene:
+*==ESEMPIO==*: Si calcoli la ricorrenza $T(n) = T(⌊n/2⌋) + T(⌈n/2⌉) + 1$ supponendo che la soluzione sia $T(n) = O(n)$. Si deve quindi dimostrare che $T(n) ≤cn$ per qualche $c$ arbitraria. Sostituendo l’ipotesi all’interno della ricorrenza si ottiene:
 
 $T(n) ≤ c⌊n/2⌋+ c⌈n/2⌉+ 1$
 	$= cn+ 1$
@@ -1380,7 +1380,7 @@ che diventa valida per ogni $d≥1$. Come prima, la costante $c$ deve essere sce
 
 Infine, ci sono casi in cui tramite una piccola manipolazione algebrica è possibile rendere una ricorrenza ignota simile ad una più familiare.
 
-*ESEMPIO*: Si calcoli la ricorrenza $T(n) = 2T(⌊\sqrt{n}⌋) + log_2(n)$. Tale ricorrenza sembra molto complessa da risolvere, ma è possibile semplificarla ponendo $m= log_2n$, ottenendo così $T(2m) = 2T(2^{m/2}) + m$. Chiamando $S(m)$ la ricorrenza appena ottenuta, è possibile scrivere $S(m) = 2S(m/2) + m$, simile alla precedente ricorrenza analizzata $T(n) = 2T(⌊n/2⌋) + n$; in effetti, la soluzione della ricorrenza $S(m)$ è la stessa ottenuta in precedenza. Dunque, la soluzione è $S(m) = m log_2 m$ e, ripristinando i termini con la sostituzione $m= log_2n$, si ottiene che $T(n) = O(log_2n·log_2(log_2n))$.
+*==ESEMPIO==*: Si calcoli la ricorrenza $T(n) = 2T(⌊\sqrt{n}⌋) + log_2(n)$. Tale ricorrenza sembra molto complessa da risolvere, ma è possibile semplificarla ponendo $m= log_2n$, ottenendo così $T(2m) = 2T(2^{m/2}) + m$. Chiamando $S(m)$ la ricorrenza appena ottenuta, è possibile scrivere $S(m) = 2S(m/2) + m$, simile alla precedente ricorrenza analizzata $T(n) = 2T(⌊n/2⌋) + n$; in effetti, la soluzione della ricorrenza $S(m)$ è la stessa ottenuta in precedenza. Dunque, la soluzione è $S(m) = m log_2 m$ e, ripristinando i termini con la sostituzione $m= log_2n$, si ottiene che $T(n) = O(log_2n·log_2(log_2n))$.
 
 
 #### **8.4.2 Metodo dell’Albero di Ricorsione**
@@ -1389,12 +1389,14 @@ Dato che spesso è complesso fomulare un’ipotesi di soluzione per una data ric
 
 Sommando i costi dei nodi di ogni livello, si ottengono i costi relativi a quel livello e, sommando tali costi, si ottiene il costo generale della ricorrenza, che rappresenta l’ipotesi da verificare con il metodo della sostituzione. Utilizzando questo metodo, si tollera un certo livello di approssimazione, in quanto è interessante analizzare solamente il comportamento asintotico della ricorrenza: si possono quindi eliminare gli operatori ’ceil’ e ’floor’ e fare delle ipotesi blande per semplificare i calcoli.
 
-*ESEMPIO*: Si calcoli la ricorrenza $T(n) = 3T(⌊n/4⌋) + Θ(n^2)$. Come detto, si può approssimare la ricorrenza eliminando l’operatore floor, ottenendo $T(n) = 3T(n/4) + cn^2$, per una data costante $c>0$.
+*==ESEMPIO==*: Si calcoli la ricorrenza $T(n) = 3T(⌊n/4⌋) + Θ(n^2)$. Come detto, si può approssimare la ricorrenza eliminando l’operatore floor, ottenendo $T(n) = 3T(n/4) + cn^2$, per una data costante $c>0$.
 Per comodità, si suppone anche che $n$ sia una potenza di 4, in modo tale che ogni livello dell’albero abbia dimensione intera. Si ottiene così il seguente albero delle ricorrenze:
 
 *Albero della ricorrenza $T(n) = 3T(n/4) + cn^2$*
 
-La parte (a) della figura mostra T(n), che viene espanso nella parte (b) in un albero equivalente
+
+
+La parte *(a)* della figura mostra $T(n)$, che viene espanso nella parte *(b)* in un albero equivalente
 
 che rappresenta la ricorrenza. Il termine cn2 nella radice di quest’albero rappresenta il costo al livello56 CAPITOLO 8. ALGORITMI
 
