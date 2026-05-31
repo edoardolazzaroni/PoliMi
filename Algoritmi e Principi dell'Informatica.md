@@ -1421,7 +1421,7 @@ con $a ≥1,b > 1$ costanti ed $f(n)$ una funzione asintoticamante positiva. Una
 	2. Se $f(n) = Θ(n^{log_b a})$, allora $T(n) = Θ(n^{log_b a}log_2(n))$;
 	3. Se $f(n) = Ω(n^{log_b a+ε})$ per qualche $ε > 0$ e se $af(n/b) ≤cf(n)$ per qualche $c < 1$ e per ogni $n$ sufficientemente grande, allora $T(n) = Θ(f(n))$.
 
-Si osservi che in ciascuno dei tre casi, si confronta la funzione $f(n)$ con la funzione $n^{log_b a}$: intuitivamente, la soluzione della ricorrenza è determinata dalla funzione polinomialmente 3 più gran-
+Si osservi che in ciascuno dei tre casi, si confronta la funzione $f(n)$ con la funzione $n^{log_b a}$: intuitivamente, la soluzione della ricorrenza è determinata dalla funzione polinomialmente (*una funzione è polinomialmente più grande rispetto ad un’altra funzione se la prima è asintoticamente più grande della seconda di un fattore $n^ε$ per qualche $ε > 0$)* più gran-
 
 de. Se la funzione nlogb a `e pi`u grande polinomialmente, come nel caso uno, allora sar`a soluzione
 
