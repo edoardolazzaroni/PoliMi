@@ -1468,13 +1468,9 @@ Per implementare l’algoritmo heapsort si fa utilizzo del max-heap; per poterne
 		`max := r`
 	`if max != i :`
 		`swap A [ i ] with A [ max ]`
-`12 ma xH ea pi fy (A , max )`
+		`maxHeapify (A , max )`
 
-A ogni passo viene determinato il pi`u grande degli elementi A[i], A[left(i)] e A[right(i)] e il
-
-suo indice viene memorizzato nella variabile max. Se A[i] `e l’elemento pi`u grande, allora il sottoalbero
-
-`e gi`a un max-heap e la procedura termina la propria esecuzione, altrimenti uno dei due figli contiene
+A ogni passo viene determinato il più grande degli elementi `A[i], A[left(i)]` e `A[right(i)]` e il suo indice viene memorizzato nella variabile `max`. Se `A[i]` è l’elemento più grande, allora il sottoalbero è già un max-heap e la procedura termina la propria esecuzione, altrimenti uno dei due figli contiene
 
 l’elemento pi`u grande e A[i] viene scambiato con A[max] (swap with); in questo modo, il nodo di
 
