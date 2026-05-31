@@ -1507,17 +1507,11 @@ Quick sort è un algoritmo di ordinamento divide et impera, il cui tempo di esec
 
 L’idea generale di questo algoritmo si basa sui tre tipici passi del metodo divide et impera, per un sottoarray `A[p..r]`:
 
-1. Divide: partiziona l’array `A[p..r]` in due sottoarray `A[p..q-1]` e `A[q+1..r]` (eventualmente vuoti) tali che ogni elemento di `A[p..q-1]` sia minore o uguale di `A[q]` che, a sua volta, `e minore o uguale
+1. Divide: partiziona l’array `A[p..r]` in due sottoarray `A[p..q-1]` e `A[q+1..r]` (eventualmente vuoti) tali che ogni elemento di `A[p..q-1]` sia minore o uguale di `A[q]` che, a sua volta, è minore o uguale di ogni elemento di `A[q+1..r]`;
+2. Impera: ordina i due sottoarray `A[p..q-1]` e `A[q+1..r]` chiamando ricorsivamente sè stesso.
+3. Combina: nessuna operazione di ricombinazione necessaria in quanto l’array `A[p..r]` è già ordinato.
 
-di ogni elemento di A[q+1..r].
-
-2. Impera: ordina i due sottoarray A[p..q-1] e A[q+1..r] chiamando ricorsivamente s`e stesso.
-
-3. Combina: nessuna operazione di ricombinazione necessaria in quanto l’array A[p..r] `e gi`a ordi-
-
-nato.
-
-La procedura quickSort `e implementata tramite il seguente pseudocodice:
+La procedura `quickSort` è implementata tramite il seguente *pseudocodice*:
 
 1 quickSort (A , p , r ) :
 
