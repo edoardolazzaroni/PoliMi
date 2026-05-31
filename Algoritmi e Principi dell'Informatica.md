@@ -1421,15 +1421,8 @@ con $a ≥1,b > 1$ costanti ed $f(n)$ una funzione asintoticamante positiva. Una
 	2. Se $f(n) = Θ(n^{log_b a})$, allora $T(n) = Θ(n^{log_b a}log_2(n))$;
 	3. Se $f(n) = Ω(n^{log_b a+ε})$ per qualche $ε > 0$ e se $af(n/b) ≤cf(n)$ per qualche $c < 1$ e per ogni $n$ sufficientemente grande, allora $T(n) = Θ(f(n))$.
 
-Si osservi che in ciascuno dei tre casi, si confronta la funzione $f(n)$ con la funzione $n^{log_b a}$: intuitivamente, la soluzione della ricorrenza è determinata dalla funzione polinomialmente (*una funzione è polinomialmente più grande rispetto ad un’altra funzione se la prima è asintoticamente più grande della seconda di un fattore $n^ε$ per qualche $ε > 0$)* più gran-
-
-de. Se la funzione nlogb a `e pi`u grande polinomialmente, come nel caso uno, allora sar`a soluzione
-
-della ricorrenza, altrimenti la soluzione sar`a f(n), come enunciato nel caso tre, in cui si deve anche
-
-verificare la condizione di regolarit`a della funzione. Nel caso due, in cui le due funzioni sono asin-
-
-toticamente uguali, si moltiplicano entrambi i membri per un fattore logaritmico e la soluzione sar`a
+Si osservi che in ciascuno dei tre casi, si confronta la funzione $f(n)$ con la funzione $n^{log_b a}$: intuitivamente, la soluzione della ricorrenza è determinata dalla funzione polinomialmente (*una funzione è polinomialmente più grande rispetto ad un’altra funzione se la prima è asintoticamente più grande della seconda di un fattore $n^ε$ per qualche $ε > 0$)* più grande.
+Se la funzione $n^{log_b a}$ è più grande polinomialmente, come nel primo caso, allora sarà soluzione della ricorrenza, altrimenti la soluzione sarà $f(n)$, come enunciato nel caso tre, in cui si deve anche verificare la condizione di regolarità della funzione. Nel caso due, in cui le due funzioni sono asintoticamente uguali, si moltiplicano entrambi i membri per un fattore logaritmico e la soluzione sarà
 
 T(n) = Θ(nlogb alog2(n)) = Θ(f(n)log2(n)).
 
