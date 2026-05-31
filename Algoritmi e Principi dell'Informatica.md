@@ -1335,15 +1335,8 @@ Questo modello di risoluzione del problema viene anche detto Divide et Impera e 
 
 A volte, le ricorrenze non saranno delle uguaglianze, ma delle disuguaglianze nella forma $T(n) ≤...$, che stabilisce un limite superiore su $T(n)$ (quindi si utilizza la notazione $O$ anzichè $Θ$), oppure nella forma $T(n) ≥...$, che stabilisce invece un limite inferiore su $T(n)$ (quindi si utilizza la notazione $Ω$ anzichè $Θ$).
 
-Inoltre, ci sono casi in cui si trascurano dei dettagli tecnici di poca importanza, come le condizioni al
-
-contorno: infatti, poich`e il tempo di esecuzione di un algoritmo con un input di dimensione costante
-
-`e costante, le ricorrenze che ne derivano hanno T(n) = Θ(1), per valori sufficientemente piccoli di n.
-
-Questa decisione risiede nel fatto che, sebbene le condizioni al contorno cambiano la soluzione esatta
-
-2In realt`a, sarebbe pi`u accurato scrivere T (⌊n/2⌋)+T (⌈n/2⌉) in quanto non sempre la dimensione dell’array A `e potenza
+Inoltre, ci sono casi in cui si trascurano dei dettagli tecnici di poca importanza, come le condizioni al contorno: infatti, poichè il tempo di esecuzione di un algoritmo con un input di dimensione costante è costante, le ricorrenze che ne derivano hanno $T(n) = Θ(1)$, per valori sufficientemente piccoli di $n$.
+Questa decisione risiede nel fatto che, sebbene le condizioni al contorno cambiano la soluzione esatta 2In realt`a, sarebbe pi`u accurato scrivere T (⌊n/2⌋)+T (⌈n/2⌉) in quanto non sempre la dimensione dell’array A `e potenza
 
 di 2 e, dunque, divisibile ricorsivamente in due met`a. In questo caso `e pi`u agevole, anche nei calcoli, ipotizzare che
 
