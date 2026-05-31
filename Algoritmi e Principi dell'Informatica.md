@@ -1311,11 +1311,8 @@ Per trovare ora il tempo di esecuzione $T(n)$ nel caso peggiore si può ragionar
 
 					$T(n) = \begin{cases} Θ(1) & \mbox{if n=1} \\2T(n/2) + Θ(n) + Θ(1) & \mbox{if n>1} \end{cases}$
 
-Si può facilmente dimostrare (analiticamente oppure tramite il teorema dell’espreto, di cui si discuterà successivamente) che tale equazione ha soluzione $T(n) = Θ(nlog_2 n)$, che rappresenta il tempo di esecu-
-
-zione dell’algoritmo mergeSort nel caso pessimo. Si pu`o osservare come tale algoritmo sia decisamente
-
-migliore rispetto all’insertionSort, il cui tempo di esecuzione nel caso passimo `e Θ(n2).
+Si può facilmente dimostrare (analiticamente oppure tramite il teorema dell’espreto, di cui si discuterà successivamente) che tale equazione ha soluzione $T(n) = Θ(nlog_2 n)$, che rappresenta il tempo di esecuzione dell’algoritmo `mergeSort` nel caso pessimo. 
+Si può osservare come tale algoritmo sia decisamentemigliore rispetto all’`insertionSort`, il cui tempo di esecuzione nel caso passimo è $Θ(n^2)$.
 
 Un modo per comprendere meglio come mai la complessit`a temporale del mergeSort sia proprio
 
