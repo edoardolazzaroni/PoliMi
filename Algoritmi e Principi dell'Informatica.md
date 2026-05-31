@@ -1389,15 +1389,10 @@ Dato che spesso è complesso fomulare un’ipotesi di soluzione per una data ric
 
 Sommando i costi dei nodi di ogni livello, si ottengono i costi relativi a quel livello e, sommando tali costi, si ottiene il costo generale della ricorrenza, che rappresenta l’ipotesi da verificare con il metodo della sostituzione. Utilizzando questo metodo, si tollera un certo livello di approssimazione, in quanto è interessante analizzare solamente il comportamento asintotico della ricorrenza: si possono quindi eliminare gli operatori ’ceil’ e ’floor’ e fare delle ipotesi blande per semplificare i calcoli.
 
-*ESEMPIO*: Si calcoli la ricorrenza $T(n) = 3T(⌊n/4⌋) + Θ(n^2)$. Come detto, si pu`o approssimare la
+*ESEMPIO*: Si calcoli la ricorrenza $T(n) = 3T(⌊n/4⌋) + Θ(n^2)$. Come detto, si può approssimare la ricorrenza eliminando l’operatore floor, ottenendo $T(n) = 3T(n/4) + cn^2$, per una data costante $c>0$.
+Per comodità, si suppone anche che $n$ sia una potenza di 4, in modo tale che ogni livello dell’albero abbia dimensione intera. Si ottiene così il seguente albero delle ricorrenze:
 
-ricorrenza eliminando l’operatore floor, ottenendo T(n) = 3T(n/4) + cn2, per una data costante c>0.
-
-Per comodit`a, si suppone anche che nsia una potenza di 4, in modo tale che ogni livello dell’albero abbia
-
-dimensione intera. Si ottiene cos`ı il seguente albero delle ricorrenze:
-
-Figura 8.1: Albero della ricorrenza T(n) = 3T(n/4) + cn2
+*Albero della ricorrenza $T(n) = 3T(n/4) + cn^2$*
 
 La parte (a) della figura mostra T(n), che viene espanso nella parte (b) in un albero equivalente
 
