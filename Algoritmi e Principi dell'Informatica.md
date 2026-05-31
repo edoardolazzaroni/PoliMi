@@ -1382,23 +1382,14 @@ Infine, ci sono casi in cui tramite una piccola manipolazione algebrica è possi
 
 *ESEMPIO*: Si calcoli la ricorrenza $T(n) = 2T(⌊\sqrt{n}⌋) + log_2(n)$. Tale ricorrenza sembra molto complessa da risolvere, ma è possibile semplificarla ponendo $m= log_2n$, ottenendo così $T(2m) = 2T(2^{m/2}) + m$. Chiamando $S(m)$ la ricorrenza appena ottenuta, è possibile scrivere $S(m) = 2S(m/2) + m$, simile alla precedente ricorrenza analizzata $T(n) = 2T(⌊n/2⌋) + n$; in effetti, la soluzione della ricorrenza $S(m)$ è la stessa ottenuta in precedenza. Dunque, la soluzione è $S(m) = m log_2 m$ e, ripristinando i termini con la sostituzione $m= log_2n$, si ottiene che $T(n) = O(log_2n·log_2(log_2n))$.
 
-8.4.2 Metodo dell’Albero di Ricorsione
 
-Dato che spesso `e complesso fomulare un’ipotesi di soluzione per una data ricorrenza, `e possibile utiliz-
+#### **8.4.2 Metodo dell’Albero di Ricorsione**
 
-zare il metodo dell’albero di ricorsione, in cui ogni nodo rappresenta il costo di un singolo sottoproblema.
+Dato che spesso è complesso fomulare un’ipotesi di soluzione per una data ricorrenza, è possibile utilizzare il metodo dell’albero di ricorsione, in cui ogni nodo rappresenta il costo di un singolo sottoproblema.
 
-Sommando i costi dei nodi di ogni livello, si ottengono i costi relativi a quel livello e, sommando tali
+Sommando i costi dei nodi di ogni livello, si ottengono i costi relativi a quel livello e, sommando tali costi, si ottiene il costo generale della ricorrenza, che rappresenta l’ipotesi da verificare con il metodo della sostituzione. Utilizzando questo metodo, si tollera un certo livello di approssimazione, in quanto è interessante analizzare solamente il comportamento asintotico della ricorrenza: si possono quindi eliminare gli operatori ’ceil’ e ’floor’ e fare delle ipotesi blande per semplificare i calcoli.
 
-costi, si ottiene il costo generale della ricorrenza, che rappresenta l’ipotesi da verificare con il metodo
-
-della sostituzione. Utilizzando questo metodo, si tollera un certo livello di approssimazione, in quan-
-
-to `e interessante analizzare solamente il comportamento asintotico della ricorrenza: si possono quindi
-
-eliminare gli operatori ’ceil’ e ’floor’ e fare delle ipotesi blande per semplificare i calcoli.
-
-ESEMPIO: Si calcoli la ricorrenza T(n) = 3T(⌊n/4⌋) + Θ(n2). Come detto, si pu`o approssimare la
+*ESEMPIO*: Si calcoli la ricorrenza $T(n) = 3T(⌊n/4⌋) + Θ(n^2)$. Come detto, si pu`o approssimare la
 
 ricorrenza eliminando l’operatore floor, ottenendo T(n) = 3T(n/4) + cn2, per una data costante c>0.
 
