@@ -1413,15 +1413,8 @@ Il passaggio segnato con $*$ rappresenta una piccola approssimazione: la $\sum_{
 
 #### **8.4.3 Metodo dell’Esperto**
 
-Il metodo dell’esperto `e impiegato per la risoluzione di ricorrenze del tipo T(n) = aT(n/b) + f(n),
-
-con a ≥1,b > 1 costanti ed f(n) una funzione asintoticamante positiva. Una ricorrenza di questo
-
-tipo rappresenta il tempo di esecuzione di un algoritmo che divide il problema di dimensione n in a
-
-sottoproblemi di dimensione n/b, mentre la funzione f(n) rappresenta il costo di divisione del problema
-
-e di combinazione delle soluzioni. Il metodo dell’esperto dipende dal seguente teorema:
+Il metodo dell’esperto è impiegato per la risoluzione di ricorrenze del tipo $T(n) = aT(n/b) + f(n)$,
+con $a ≥1,b > 1$ costanti ed $f(n)$ una funzione asintoticamante positiva. Una ricorrenza di questo tipo rappresenta il tempo di esecuzione di un algoritmo che divide il problema di dimensione $n$ in $a$ sottoproblemi di dimensione $n/b$, mentre la funzione $f(n)$ rappresenta il costo di divisione del problema e di combinazione delle soluzioni. Il metodo dell’esperto dipende dal seguente teorema:
 
 Teorema 8.4.1 (Master Theorem). Date le costanti a ≥1, b > 1 e la funzione f(n), se la ricorsione
 
