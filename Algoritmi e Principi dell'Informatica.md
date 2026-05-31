@@ -1419,14 +1419,9 @@ con $a ≥1,b > 1$ costanti ed $f(n)$ una funzione asintoticamante positiva. Una
 - **Teorema** (**==Master Theorem==**): Date le costanti $a ≥1, b > 1$ e la funzione $f(n)$, se la ricorsione $T(n)$ si presenta nella forma $T(n) = aT(n/b) + f(n)$, allora può essere limitata asintoticamente nei seguenti modi:
 	1. Se $f(n) = O(n^{log_b a−ε})$ per qualche $ε>0$, allora $T(n) = Θ(n^{log_b a})$;
 	2. Se $f(n) = Θ(n^{log_b a})$, allora $T(n) = Θ(n^{log_b a}log_2(n))$;
+	3. Se $f(n) = Ω(n^{log_b a+ε})$ per qualche $ε > 0$ e se $af(n/b) ≤cf(n)$ per qualche $c < 1$ e per ogni $n$ sufficientemente grande, allora $T(n) = Θ(f(n))$.
 
-3. Se f(n) = Ω(nlogb a+ε) per qualche ε > 0 e se af(n/b) ≤cf(n) per qualche c < 1 e per ogni n
-
-sufficientemente grande, allora T(n) = Θ(f(n)).
-
-Si osservi che in ciascuno dei tre casi, si confronta la funzione f(n) con la funzione nlogb a: in-
-
-tuitivamente, la soluzione della ricorrenza `e determinata dalla funzione polinomialmente 3 pi`u gran-
+Si osservi che in ciascuno dei tre casi, si confronta la funzione $f(n)$ con la funzione $n^{log_b a}$: intuitivamente, la soluzione della ricorrenza è determinata dalla funzione polinomialmente 3 più gran-
 
 de. Se la funzione nlogb a `e pi`u grande polinomialmente, come nel caso uno, allora sar`a soluzione
 
