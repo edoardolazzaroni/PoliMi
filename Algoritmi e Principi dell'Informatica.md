@@ -1449,15 +1449,9 @@ Un Heap (binario) è una struttura dati ad albero binario quasi completo (un alb
 `right ( i ) :`
 	`return 2i + 1`
 
-Oltre all’attributo A.length, che ne ritorna la lunghezza, l’array A possiede in questo caso anche
+Oltre all’attributo `A.length`, che ne ritorna la lunghezza, l’array `A` possiede in questo caso anche l’attributo `A.heapSize`, che indica il numero degli elementi dell’heap che sono registrati nell’array `A`. In altre parole, anche se l’array contiene $n$ elementi, con `n=A.length`, soltanto gli elementi in `A[1..A.heapSize]`, con `0 ≤A.heapSize ≤A.lengt`, sono elementi validi dell’heap.
 
-l’attributo A.heapSize, che indica il numero degli elementi dell’heap che sono registrati nell’array A. In
-
-altre parole, anche se l’array contiene n elementi, con n=A.length, soltanto gli elementi in A[1..A.
-
-heapSize], con 0 ≤A.heapSize ≤A.length, sono elementi validi dell’heap.
-
-Esistono, inoltre, due tipologie di heap binari: max-heap e min-heap. Il primo, pi`u importante, `e
+Esistono, inoltre, due tipologie di heap binari: max-heap e min-heap. Il primo, più importante, è
 
 costruito in modo tale che ogni nodo rispetti la condizione per cui A[parent(i)] ≥ A[i]; dunque, il
 
