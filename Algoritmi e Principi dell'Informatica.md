@@ -1398,9 +1398,7 @@ Per comodità, si suppone anche che $n$ sia una potenza di 4, in modo tale che o
 
 La parte *(a)* della figura mostra $T(n)$, che viene espanso nella parte *(b)* in un albero equivalente che rappresenta la ricorrenza. Il termine $cn^2$ nella radice di quest’albero rappresenta il costo al livello più alto della ricorsione, mentre i tre sottoalberi rappresentano i costi richiesti dai tre sottoproblemi di dimensione $n/4$. La parte *(c)* mostra l’espansione dei nodi di costo $T(n/4)$ dalla parte *(b)*, in cui ogni nodo figlio ha costo $c(n/4)^2$. Tale processo viene ripetuto più e più volte fino ad ottenere i casi base, rappresentati nella parte *(d)* con $T(1)$.
 
-La dimensione dei sottoproblemi per i nodi alla profondità $i$ è di $n/4^i$, quindi la dimensione del sottoproblema diventa 1 (dimensione delle foglie) quando $(n/4)^i = 1$, ovvero quando $i= log_4(n)$: dunque, l’albero della ricorrenza ha esattamente $log_4n+1$ livelli. Ora, per determinare il costo di ogni livello, basti pensare che ogni nodo dell’albero genera tre sottonodi e che, dunque, il numero di nodi alla profondità i è 3i. Moltiplicando il risultato appena ottenuto con il costo di un singolo nodo, si ottiene che ogni livello
-
-ha un costo di 3ic(n/4i)2 = (3/16)icn2. L’ultimo livello dell’albero conta nlog4 3 nodi, ognuno di costo
+La dimensione dei sottoproblemi per i nodi alla profondità $i$ è di $n/4^i$, quindi la dimensione del sottoproblema diventa 1 (dimensione delle foglie) quando $(n/4)^i = 1$, ovvero quando $i= log_4(n)$: dunque, l’albero della ricorrenza ha esattamente $log_4n+1$ livelli. Ora, per determinare il costo di ogni livello, basti pensare che ogni nodo dell’albero genera tre sottonodi e che, dunque, il numero di nodi alla profondità $i$ è $3i$. Moltiplicando il risultato appena ottenuto con il costo di un singolo nodo, si ottiene che ogni livello ha un costo di $3^ic(n/4^i)^2 = (3/16)^icn^2$. L’ultimo livello dell’albero conta $n^{log_4 3 nodi, ognuno di costo
 
 T(1), per un costo totale di nlog4 3T(1), ovvero Θ(nlog4 3).
 
