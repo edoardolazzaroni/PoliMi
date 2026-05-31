@@ -1401,7 +1401,7 @@ La parte *(a)* della figura mostra $T(n)$, che viene espanso nella parte *(b)* i
 La dimensione dei sottoproblemi per i nodi alla profondità $i$ è di $n/4^i$, quindi la dimensione del sottoproblema diventa 1 (dimensione delle foglie) quando $(n/4)^i = 1$, ovvero quando $i= log_4(n)$: dunque, l’albero della ricorrenza ha esattamente $log_4n+1$ livelli. Ora, per determinare il costo di ogni livello, basti pensare che ogni nodo dell’albero genera tre sottonodi e che, dunque, il numero di nodi alla profondità $i$ è $3i$. Moltiplicando il risultato appena ottenuto con il costo di un singolo nodo, si ottiene che ogni livello ha un costo di $3^ic(n/4^i)^2 = (3/16)^icn^2$. L’ultimo livello dell’albero conta $n^{log_4 3}$ nodi, ognuno di costo $T(1)$, per un costo totale di $n^{log_4 3}T(1)$, ovvero $Θ(n^{log_4 3})$.
 A questo punto, si sommano i contributi di ogni livello, ottenendo:
 
-T(n) = cn2 +
+$T(n) = cn^2 + \frac{3}{16}cn^2+$
 
 =
 
