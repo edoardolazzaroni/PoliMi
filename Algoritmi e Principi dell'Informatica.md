@@ -1458,7 +1458,7 @@ Per implementare l’algoritmo heapsort si fa utilizzo del max-heap; per poterne
 *In pseudocodice*:
 
 `maxHeapify (A , i ) :`
-`2 l := left ( i )`
+	`l := left ( i )`
 `3 r := right ( i )`
 `4 i f l <= A . heapSize and A [ l ] > A [ i ]:`
 `5 max := l`
