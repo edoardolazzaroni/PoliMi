@@ -1422,17 +1422,9 @@ con $a ≥1,b > 1$ costanti ed $f(n)$ una funzione asintoticamante positiva. Una
 	3. Se $f(n) = Ω(n^{log_b a+ε})$ per qualche $ε > 0$ e se $af(n/b) ≤cf(n)$ per qualche $c < 1$ e per ogni $n$ sufficientemente grande, allora $T(n) = Θ(f(n))$.
 
 Si osservi che in ciascuno dei tre casi, si confronta la funzione $f(n)$ con la funzione $n^{log_b a}$: intuitivamente, la soluzione della ricorrenza è determinata dalla funzione polinomialmente (*una funzione è polinomialmente più grande rispetto ad un’altra funzione se la prima è asintoticamente più grande della seconda di un fattore $n^ε$ per qualche $ε > 0$)* più grande.
-Se la funzione $n^{log_b a}$ è più grande polinomialmente, come nel primo caso, allora sarà soluzione della ricorrenza, altrimenti la soluzione sarà $f(n)$, come enunciato nel caso tre, in cui si deve anche verificare la condizione di regolarità della funzione. Nel caso due, in cui le due funzioni sono asintoticamente uguali, si moltiplicano entrambi i membri per un fattore logaritmico e la soluzione sarà
+Se la funzione $n^{log_b a}$ è più grande polinomialmente, come nel primo caso, allora sarà soluzione della ricorrenza, altrimenti la soluzione sarà $f(n)$, come enunciato nel caso tre, in cui si deve anche verificare la condizione di regolarità della funzione. Nel caso due, in cui le due funzioni sono asintoticamente uguali, si moltiplicano entrambi i membri per un fattore logaritmico e la soluzione sarà $T(n) = Θ(n^{log_b a} log_2(n)) = Θ(f(n)log_2(n))$.
 
-T(n) = Θ(nlogb alog2(n)) = Θ(f(n)log2(n)).
-
-3Una funzione `e polinomialmente pi`u grande rispetto ad un’altra funzione se la prima `e asintoticamente pi`u grande della
-
-seconda di un fattore nε per qualche ε > 0.8.5. HEAP SORT 57
-
-I tre casi, sfortunatamente, non coprono tutte le funzioni f(n) possibili, in quanto ci sar`a un intervallo
-
-fra i casi 1 e 2, in cui la funzione f(n) `e minore di nlogb a, ma non polinomialmente, mentre ci sar`a anche
+I tre casi, sfortunatamente, non coprono tutte le funzioni $f(n)$ possibili, in quanto ci sarà un intervallo fra i casi 1 e 2, in cui la funzione $f(n)$ è minore di $n^{log_b a}$, ma non polinomialmente, mentre ci sar`a anche
 
 un intervallo fra i casi 2 e 3, in cui la funzione f(n) `e maggiore di nlogb a, ma non polinomialmente. In
 
