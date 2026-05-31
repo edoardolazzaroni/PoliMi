@@ -1319,19 +1319,13 @@ Un modo per comprendere meglio come mai la complessità temporale del `mergeSort
 					$T(n) = \begin{cases} c & \mbox{if n=1} \\2T(n/2) + cn+ c & \mbox{if n>1} \end{cases}$
 
 in cui la costante $c$ rappresenta sia il tempo richiesto per risolvere i problemi di dimensione 1, sia il tempo per elemento dell’array dei passi divide e combina. Si può costruire un albero di ricorsione, in cui ogni ramo rappresenti una metà dell’array precedente e ogni foglia sia un array di dimensione unitaria.
-Il primo livello (in alto) ha un costo totale di $cn$, il secondo livello ha un costo totale di $cn/2+cn/2 = cn$ e così via fino all’ultimo livello, con costo totale di $n+ n+...+ n$ ($c$ volte), quindi di $cn$. In generale, il livello $i$ ha $2^i$ nodi, ciascuno dei quali ha un costo di $c(n/2^i)$, quindi, il numero totale di livelli dell’albero di ricorsione è $log_2 n+ 1$, con $n$ la dimensione dell’input. Dunque, per calcolare il costo totale, basta
+Il primo livello (in alto) ha un costo totale di $cn$, il secondo livello ha un costo totale di $cn/2+cn/2 = cn$ e così via fino all’ultimo livello, con costo totale di $n+ n+...+ n$ ($c$ volte), quindi di $cn$. In generale, il livello $i$ ha $2^i$ nodi, ciascuno dei quali ha un costo di $c(n/2^i)$, quindi, il numero totale di livelli dell’albero di ricorsione è $log_2 n+ 1$, con $n$ la dimensione dell’input. Dunque, per calcolare il costo totale, basta sommare i costi di tutti i livelli, ottenendo $cn(log_2 n+ 1) = cn(log_2 n) + cn$, ovvero $Θ(n log_2 n)$.
 
-sommare i costi di tutti i livelli, ottenendo cn(log2 n+ 1) = cn(log2 n) + cn, ovvero Θ(nlog2 n).
 
-8.4 Risoluzione Ricorrenze
+### **8.4 Risoluzione Ricorrenze**
 
-Come gi`a detto in precedenza, quando i problemi sono abbastanza grandi da essere risolti ricorsivamente,
-
-si ha il cosiddetto caso ricorsivo, tramite cui si divide il problema in problemi pi`u piccoli di uguale natura.
-
-Una volta che i sottoproblemi diventano sufficientemente piccoli da non richiedere pi`u il passo ricorsivo,
-
-si `e raggiunto il cosiddetto caso base, da cui inizia la soluzione del problema.
+Come già detto in precedenza, quando i problemi sono abbastanza grandi da essere risolti ricorsivamente, si ha il cosiddetto caso ricorsivo, tramite cui si divide il problema in problemi più piccoli di uguale natura.
+Una volta che i sottoproblemi diventano sufficientemente piccoli da non richiedere più il passo ricorsivo, si  raggiunto il cosiddetto caso base, da cui inizia la soluzione del problema.
 
 Questo modello di risoluzione del problema viene anche detto Divide et Impera e richiede l’utilizzo
 
