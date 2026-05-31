@@ -1403,7 +1403,8 @@ A questo punto, si sommano i contributi di ogni livello, ottenendo:
 
 $T(n) = cn^2 + \frac{3}{16}cn^2+(\frac{3}{16})^2cn^2+...+(\frac{3}{16})^{log_4 n-1}cn^2+Θ(n^{log_4 3})$
 	$=\sum_{i=0}^{log_4 n-1}(\frac{3}{16})^icn^2 + Θ(n^{log_4 3})$
-$*< \sum_{i=0}^$
+	$*< \sum_{i=0}^∞(\frac{3}{16})^i cn^2+ Θ(n^{log_4 3})$
+$=$
 
 log4 n−1
 
