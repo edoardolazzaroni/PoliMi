@@ -1348,13 +1348,8 @@ Uno dei metodi per la risoluzione delle occorrenze e, quindi, per il calcolo del
 
 Questo metodo può essere applicato solamente se si ha un’idea della forma generale della soluzione e si vuole calcolare il limite superiore o inferiore della ricorrenza che si analizza.
 
-*ESEMPIO*: Si determini il limite superiore della ricorrenza T(n) = 2T(⌊n/2⌋) + n.
-
-Si suppone che la soluzione sia O(nlog2 n). Il metodo di sostituzione consiste nel dimostrare che
-
-T(n) ≤cnlog2 n per un generico c>0. Si verifica, innanzitutto, che questo limite sia valido anche per
-
-⌊n/2⌋, ovvero che T(⌊n/2⌋) ≤c⌊n/2⌋log2(⌊n/2⌋). Facendo le opportune sostituzioni si ha:
+*ESEMPIO*: Si determini il limite superiore della ricorrenza $T(n) = 2T(⌊n/2⌋) + n$.
+Si suppone che la soluzione sia $O(n log_2 n)$. Il metodo di sostituzione consiste nel dimostrare che $T(n) ≤cn log_2 n$ per un generico $c>0$. Si verifica, innanzitutto, che questo limite sia valido anche per $⌊n/2⌋, ovvero che T(⌊n/2⌋) ≤c⌊n/2⌋log2(⌊n/2⌋). Facendo le opportune sostituzioni si ha:
 
 T(n) ≤ 2(c⌊n/2⌋log2(⌊n/2⌋)) + n
 
