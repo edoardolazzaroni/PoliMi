@@ -1319,13 +1319,7 @@ Un modo per comprendere meglio come mai la complessità temporale del `mergeSort
 					$T(n) = \begin{cases} c & \mbox{if n=1} \\2T(n/2) + cn+ c & \mbox{if n>1} \end{cases}$
 
 in cui la costante $c$ rappresenta sia il tempo richiesto per risolvere i problemi di dimensione 1, sia il tempo per elemento dell’array dei passi divide e combina. Si può costruire un albero di ricorsione, in cui ogni ramo rappresenti una metà dell’array precedente e ogni foglia sia un array di dimensione unitaria.
-Il primo livello (in alto) ha un costo totale di $cn$, il secondo livello ha un costo totale di cn/2+cn/2 = cn
-
-e cos`ı via fino all’ultimo livello, con costo totale di n+ n+...+ n (c volte), quindi di cn. In generale, il
-
-livello iha 2i nodi, ciascuno dei quali ha un costo di c(n/2i), quindi, il numero totale di livelli dell’albero
-
-di ricorsione `e log2 n+ 1, con n la dimensione dell’input. Dunque, per calcolare il costo totale, basta
+Il primo livello (in alto) ha un costo totale di $cn$, il secondo livello ha un costo totale di $cn/2+cn/2 = cn$ e così via fino all’ultimo livello, con costo totale di $n+ n+...+ n$ ($c$ volte), quindi di $cn$. In generale, il livello $i$ ha $2^i$ nodi, ciascuno dei quali ha un costo di $c(n/2^i)$, quindi, il numero totale di livelli dell’albero di ricorsione è $log_2 n+ 1$, con $n$ la dimensione dell’input. Dunque, per calcolare il costo totale, basta
 
 sommare i costi di tutti i livelli, ottenendo cn(log2 n+ 1) = cn(log2 n) + cn, ovvero Θ(nlog2 n).
 
