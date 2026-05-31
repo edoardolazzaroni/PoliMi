@@ -1428,13 +1428,9 @@ I tre casi, sfortunatamente, non coprono tutte le funzioni $f(n)$ possibili, in 
 
 Per utilizzare il teorema enunciato, bisogna semplicemente determinare in quali dei tre casi rientra la funzione $f(n)$ e confrontarla con la funzione $n^{log_b a}$.
 
-*ESEMPIO 1*: Si determini la soluzione della ricorrenza $T(n) = 9T(n/3) + n$. In questo caso, si ha che $a= 9,b= 3$ ed $f(n) = n$ e quindi $n^{log_b a} = n^{log_3 (9)} = Θ(n^2)$. Dato che f(n) = O(nlog3 (9)−ε), con ε= 1
+*ESEMPIO 1*: Si determini la soluzione della ricorrenza $T(n) = 9T(n/3) + n$. In questo caso, si ha che $a= 9,b= 3$ ed $f(n) = n$ e quindi $n^{log_b a} = n^{log_3 (9)} = Θ(n^2)$. Dato che $f(n) = O(n^{log_3 (9)−ε})$, con $ε= 1$ (in quanto $f(n) = n$), si può applicare il caso 1 del teorema dell’esperto e concludere immediatamente che la soluzione della ricorrenza è $T(n) = Θ(n^2)$, in quanto $n^2$ è polinomialmente più grande di $n$.
 
-(in quanto f(n) = n), si pu`o applicare il caso 1 del teorema dell’esperto e concludere immediatamente
-
-che la soluzione della ricorrenza `e T(n) = Θ(n2), in quanto n2 `e polinomialmente pi`u grande di n.
-
-ESEMPIO: Si determini la soluzione della ricorrenza T(n) = 2T(n/2)+nlog2 n. In questo caso, si ha
+*ESEMPIO 2*: Si determini la soluzione della ricorrenza $T(n) = 2T(n/2)+n^{log_2 n}$. In questo caso, si ha
 
 che a= 2,b= 2 ed f(n) = nlog2 n e quindi nlogb a = nlog2 (2) = n. Si potrebbe erroneamente pensare di
 
