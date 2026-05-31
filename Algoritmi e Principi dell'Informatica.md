@@ -1436,11 +1436,11 @@ Per utilizzare il teorema enunciato, bisogna semplicemente determinare in quali 
 
 ### **8.5 Heap Sort**
 
-Analizzando l’algoritmo Merge Sort si è constatato che è efficiente dal punto di vista temporale, ma non dal punto di vista spaziale, in quanto occupa una grande quantità di memoria. A questo proposito, si analizza ora l’algoritmo Heap Sort, che effettua un ordinamento sul posto degli elementi utilizzando
+Analizzando l’algoritmo Merge Sort si è constatato che è efficiente dal punto di vista temporale, ma non dal punto di vista spaziale, in quanto occupa una grande quantità di memoria. A questo proposito, si analizza ora l’algoritmo **Heap Sort**, che effettua un ordinamento sul posto degli elementi utilizzando una struttura dati detta Heap (’mucchio’), per la gestione delle informazioni.
 
-una struttura dati detta Heap (’mucchio’), per la gestione delle informazioni.
+Un Heap (binario) è una struttura dati ad albero binario quasi completo (un albero binario quasi completo è una struttura dati ad albero in cui ogni livello `e completo, eccetto per al pi`u l’ultimo
 
-Un Heap (binario) `e una struttura dati ad albero binario quasi completo 4, in cui ogni nodo rappre-
+livello, che potrebbe essere completo solo fino ad un certo punto da sinistra), in cui ogni nodo rappre-
 
 senta un elemento dell’array da ordinare. Nello specifico, A[1] `e la radice dell’albero, e per ogni elemento
 
@@ -1492,9 +1492,6 @@ procedura, quindi, ha il compito di far ’scendere’ il valore A[i] in modo ta
 
 di indice i diventi un max-heap.
 
-4Un albero binario quasi completo `e una struttura dati ad albero in cui ogni livello `e completo, eccetto per al pi`u l’ultimo
-
-livello, che potrebbe essere completo solo fino ad un certo punto da sinistra58 CAPITOLO 8. ALGORITMI
 
 In pseudocodice:
 
