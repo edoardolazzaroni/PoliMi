@@ -1331,17 +1331,9 @@ Questo modello di risoluzione del problema viene anche detto Divide et Impera e 
 
 1. Metodo di Sostituzione: si fa un’ipotesi di soluzione e si utilizza l’induzione matematica per dimostrare che l’ipotesi sia corretta;
 2. Metodo dell’Albero di ricorsione: si converte la ricorrenza in una struttura ad albero, i cui nodi rappresentano i costi ai vari livelli della ricorsione;
-3. Metodo dell’Esperto (Master Theorem): fornisce i limiti per ricorrenze nella forma $T(n) = aT(n/b) + f(n) con a≥1,b>1$ e $f(n)$ data. Una ricorrenza in questa forma caratterizza
+3. Metodo dell’Esperto (Master Theorem): fornisce i limiti per ricorrenze nella forma $T(n) = aT(n/b) + f(n) con a≥1,b>1$ e $f(n)$ data. Una ricorrenza in questa forma caratterizza un algoritmo divide et impera che crea a sottoproblemi di dimensione $1/b$, i cui passi divide e combina richiedono un tempo $f(n)$.
 
-un algoritmo divide et impera che crea a sottoproblemi di dimensione 1/b, i cui passi divide e
-
-combina richiedono un tempo f(n).
-
-A volte, le ricorrenze non saranno delle uguaglianze, ma delle disuguaglianze nella forma T(n) ≤...,
-
-che stabilisce un limite superiore su T(n) (quindi si utilizza la notazione Oanzich`e Θ), oppure nella forma
-
-T(n) ≥..., che stabilisce invece un limite inferiore su T(n) (quindi si utilizza la notazione Ω anzich`e Θ).
+A volte, le ricorrenze non saranno delle uguaglianze, ma delle disuguaglianze nella forma $T(n) ≤...$, che stabilisce un limite superiore su $T(n)$ (quindi si utilizza la notazione $O$ anzichè $Θ$), oppure nella forma $T(n) ≥...$, che stabilisce invece un limite inferiore su $T(n)$ (quindi si utilizza la notazione $Ω$ anzichè $Θ$).
 
 Inoltre, ci sono casi in cui si trascurano dei dettagli tecnici di poca importanza, come le condizioni al
 
