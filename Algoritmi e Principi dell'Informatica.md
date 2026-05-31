@@ -1428,7 +1428,7 @@ I tre casi, sfortunatamente, non coprono tutte le funzioni $f(n)$ possibili, in 
 
 Per utilizzare il teorema enunciato, bisogna semplicemente determinare in quali dei tre casi rientra la funzione $f(n)$ e confrontarla con la funzione $n^{log_b a}$.
 
-*ESEMPIO*: Si determini la soluzione della ricorrenza $T(n) = 9T(n/3) + n$. In questo caso, si ha che $a= 9,b= 3$ ed f(n) = n e quindi nlogb a = nlog3 (9) = Θ(n2). Dato che f(n) = O(nlog3 (9)−ε), con ε= 1
+*ESEMPIO 1*: Si determini la soluzione della ricorrenza $T(n) = 9T(n/3) + n$. In questo caso, si ha che $a= 9,b= 3$ ed $f(n) = n$ e quindi $n^{log_b a} = n^{log_3 (9)} = Θ(n^2)$. Dato che f(n) = O(nlog3 (9)−ε), con ε= 1
 
 (in quanto f(n) = n), si pu`o applicare il caso 1 del teorema dell’esperto e concludere immediatamente
 
