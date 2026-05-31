@@ -1374,17 +1374,13 @@ che non implica che $T(n) ≤cn$ per qualunque valore di $c$. Sembrerebbe quindi
 
 $T(n) ≤ (c⌊n/2⌋−d) + (c⌈n/2⌉−d) + 1$
 	$= cn−2d+ 1$
-$≤ cn−d$
+	$≤ cn−d$
 
-che diventa valida per ogni d≥1. Come prima, la costante c deve essere scelta arbitrariamente grande
+che diventa valida per ogni $d≥1$. Come prima, la costante $c$ deve essere scelta arbitrariamente grande affinchè siano soddisfatte le condizioni al contorno.
 
-affinch`e siano soddisfatte le condizioni al contorno.
+Infine, ci sono casi in cui tramite una piccola manipolazione algebrica è possibile rendere una ricorrenza ignota simile ad una più familiare.
 
-Infine, ci sono casi in cui tramite una piccola manipolazione algebrica `e possibile rendere una ricor-
-
-renza ignota simile ad una pi`u familiare.
-
-ESEMPIO: Si calcoli la ricorrenza T(n) = 2T(⌊√n⌋) + log2(n). Tale ricorrenza sembra molto com-
+*ESEMPIO*: Si calcoli la ricorrenza $T(n) = 2T(⌊√n⌋) + log_2(n)$. Tale ricorrenza sembra molto com-
 
 plessa da risolvere, ma `e possibile semplificarla ponendo m= log2n, ottenendo cos`ı
 
