@@ -1436,11 +1436,7 @@ Per utilizzare il teorema enunciato, bisogna semplicemente determinare in quali 
 
 ### **8.5 Heap Sort**
 
-Analizzando l’algoritmo Merge Sort si è constatato che è efficiente dal punto di vista temporale, ma non
-
-dal punto di vista spaziale, in quanto occupa una grande quantit`a di memoria. A questo proposito, si
-
-analizza ora l’algoritmo Heap Sort, che effettua un ordinamento sul posto degli elementi utilizzando
+Analizzando l’algoritmo Merge Sort si è constatato che è efficiente dal punto di vista temporale, ma non dal punto di vista spaziale, in quanto occupa una grande quantità di memoria. A questo proposito, si analizza ora l’algoritmo Heap Sort, che effettua un ordinamento sul posto degli elementi utilizzando
 
 una struttura dati detta Heap (’mucchio’), per la gestione delle informazioni.
 
