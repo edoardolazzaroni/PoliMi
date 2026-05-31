@@ -1451,23 +1451,9 @@ Un Heap (binario) è una struttura dati ad albero binario quasi completo (un alb
 
 Oltre all’attributo `A.length`, che ne ritorna la lunghezza, l’array `A` possiede in questo caso anche l’attributo `A.heapSize`, che indica il numero degli elementi dell’heap che sono registrati nell’array `A`. In altre parole, anche se l’array contiene $n$ elementi, con `n=A.length`, soltanto gli elementi in `A[1..A.heapSize]`, con `0 ≤A.heapSize ≤A.lengt`, sono elementi validi dell’heap.
 
-Esistono, inoltre, due tipologie di heap binari: max-heap e min-heap. Il primo, più importante, è
+Esistono, inoltre, due tipologie di heap binari: max-heap e min-heap. Il primo, più importante, è costruito in modo tale che ogni nodo rispetti la condizione per cui `A[parent(i)] ≥ A[i]`; dunque, il valore di un nodo è al massimo il valore del nodo padre e, di conseguenza, l’elemento più grande di un max-heap è memorizzato alla sua radice. Il secondo, meno utilizzato, è costruito in modo tale che ogni nodo rispetti la condizione per cui `A[parent(i)] ≤ A[i]`.
 
-costruito in modo tale che ogni nodo rispetti la condizione per cui A[parent(i)] ≥ A[i]; dunque, il
-
-valore di un nodo `e al massimo il valore del nodo padre e, di conseguenza, l’elemento pi`u grande di un
-
-max-heap `e memorizzato alla sua radice. Il secondo, meno utilizzato, `e costruito in modo tale che ogni
-
-nodo rispetti la condizione per cui A[parent(i)] ≤ A[i].
-
-Per implementare l’algoritmo heapsort si fa utilizzo del max-heap; per poterne mantenere le propriet`a
-
-si utilizza la procedura di supporto maxHeapify, un algoritmo che prende in input un array A e un suo
-
-indice i, e restituisce l’array ordinato in modo tale da rappresentare il max-heap. Quando tale procedura
-
-viene invocata, essa assume che gli alberi binari di radici left(i) e right(i) siano dei max-heap, ma
+Per implementare l’algoritmo heapsort si fa utilizzo del max-heap; per poterne mantenere le proprietà si utilizza la procedura di supporto `maxHeapify`, un algoritmo che prende in input un array `A` e un suo indice `i`, e restituisce l’array ordinato in modo tale da rappresentare il max-heap. Quando tale proceduraviene invocata, essa assume che gli alberi binari di radici left(i) e right(i) siano dei max-heap, ma
 
 assume anche che A[i] possa essere pi`u piccolo dei suoi figli, violando la propriet`a fondamentale. La
 
