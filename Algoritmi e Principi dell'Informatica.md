@@ -1476,23 +1476,14 @@ Il nodo con indice massimo, però, presenta il valore originale di `A[i]` e, qui
 
 Questa procedura viene eseguita in un tempo $O(h)$, con $h$ l’altezza dell’albero. Essendo l’albero quasi completo, $h= O(log \ n)$, quindi $T(n) = O(log \ n)$.
 
-Ora, tramite la procedura `maxHeapify` è possibile convertire un array `A[1..n]` (con `n=A.length`) in un max-heap. Prima di procedere, è importante osservare come tutti gli elementi A[⌊n/2⌋+ 1 .. n]
+Ora, tramite la procedura `maxHeapify` è possibile convertire un array `A[1..n]` (con `n=A.length`) in un max-heap. Prima di procedere, è importante osservare come tutti gli elementi `A[⌊n/2⌋+ 1 .. n]` siano foglie dell’albero e, quindi, ciascuno di essi è un heap di un solo elemento, che si può utilizzare come punto di partenza per la costruzione dell’heap. Si introduce, dunque, la procedura `buildMaxHeap`, che attraversa i nodi restanti dell’albero ed esegue la procedura `maxHeapify` in ciascuno di essi.
 
-siano foglie dell’albero e, quindi, ciascuno di essi `e un heap di un solo elemento, che si pu`o utilizzare
+*In pseudocodice*:
 
-come punto di partenza per la costruzione dell’heap. Si introduce, dunque, la procedura buildMaxHeap,
-
-che attraversa i nodi restanti dell’albero ed esegue la procedura maxHeapify in ciascuno di essi.
-
-In pseudocodice:
-
-1 b u i l d M a x h e a p ( A ) :
-
-2 A . heapSize := A . length
-
-3 f o r i := ⌊A . length / 2 ⌋ down to 1:
-
-4 ma xH ea pi fy (A , i )
+`buil d M a x h e a p ( A ) :`
+`2 A . heapSize := A . length`
+`3 f o r i := ⌊A . length / 2 ⌋ down to 1:`
+`4 ma xH ea pi fy (A , i )`
 
 Si pu`o dimostrare che tale procedura impiega un tempo di esecuzione T(n) = O(n).
 
