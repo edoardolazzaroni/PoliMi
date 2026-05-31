@@ -1380,11 +1380,7 @@ che diventa valida per ogni $d≥1$. Come prima, la costante $c$ deve essere sce
 
 Infine, ci sono casi in cui tramite una piccola manipolazione algebrica è possibile rendere una ricorrenza ignota simile ad una più familiare.
 
-*ESEMPIO*: Si calcoli la ricorrenza $T(n) = 2T(⌊√n⌋) + log_2(n)$. Tale ricorrenza sembra molto com-
-
-plessa da risolvere, ma `e possibile semplificarla ponendo m= log2n, ottenendo cos`ı
-
-T(2m) = 2T(2m/2) + m. Chiamando S(m) la ricorrenza appena ottenuta, `e possibile scrivere S(m) =
+*ESEMPIO*: Si calcoli la ricorrenza $T(n) = 2T(⌊\sqrt{n}⌋) + log_2(n)$. Tale ricorrenza sembra molto complessa da risolvere, ma è possibile semplificarla ponendo $m= log_2n$, ottenendo così $T(2m) = 2T(2m/2) + m$. Chiamando $S(m)$ la ricorrenza appena ottenuta, è possibile scrivere S(m) =
 
 2S(m/2) + m, simile alla precedente ricorrenza analizzata T(n) = 2T(⌊n/2⌋) + n; in effetti, la soluzione
 
