@@ -1361,31 +1361,13 @@ L’ultimo passaggio è vero solo per $c≥1$. A questo punto, l’induzione mat
 
 Questo ostacolo nella dimostrazione può essere facilmente superato sfruttando la notazione asintotica, che richiede di provare che $T(n) ≤cn log_2 n$ sia valida solamente dopo un certo $n_0$ in poi, scelto arbitrariamente: l’idea è quella di escludere la condizione al contorno dalla dimostrazione induttiva. Si osservi che, per $n≥3$, la ricorrenza non dipende direttamente da $T(1)$, quindi si puè sostituire con $T(2)$ e $T(3)$, impiegati come casi base della dimostrazione induttiva. Inoltre, ponendo $n_0 = 2$, se $T(1) = 1$ allora $T(2) = 4$ e $T(3) = 5$. Basta quindi determinare una costante $c$ tale per cui $T(2) = 4 ≤2clog_2(2)$ e $T(3) = 5 ≤3c log_2(3)$: le precedenti condizioni sono soddisfatte solo per $c≥2$.
 
-Non esiste un metodo unico e generale per indovinare la soluzione corretta di una ricorrenza, ma è possibile formulare delle buone ipotesi tramite il metodo dell’albero di ricorsione. Inoltre, se una ricorrenza è simile gi risolta in precedenza, allora `e possibile che anche la soluzione sia analoga. Un
+Non esiste un metodo unico e generale per indovinare la soluzione corretta di una ricorrenza, ma è possibile formulare delle buone ipotesi tramite il metodo dell’albero di ricorsione. Inoltre, se una ricorrenza è simile già risolta in precedenza, allora è possibile che anche la soluzione sia analoga. Un altro metodo per formulare un’ipotesi di soluzione consiste nel dimostrare dei limiti superiori e inferiori molto generali e larghi, per poi ridurre gradualmente il grado di incertezza, aumentando il limite inferiore e diminuendo il limite superiore.
 
-altro metodo per formulare un’ipotesi di soluzione consiste nel dimostrare dei limiti superiori e inferiori
+Ci sono poi casi in cui la soluzione ipotizzata sembra essere corretta, ma i calcoli matematici non soddisfano il passo induttivo: solitamente, il problema risiede nel fatto che l’ipotesi induttiva non è abbastanza forte per dimostrare il limite esatto. In un caso del genere, spesso è necessario semplicemente correggere l’ipotesi sottraendo un termine di ordine inferiore per fare in modo che i calcoli soddisfino i requisiti.
 
-molto generali e larghi, per poi ridurre gradualmente il grado di incertezza, aumentando il limite inferiore
+*ESEMPIO*: Si calcoli la ricorrenza $T(n) = T(⌊n/2⌋) + T(⌈n/2⌉) + 1$ supponendo che la soluzione sia $T(n) = O(n)$. Si deve quindi dimostrare che $T(n) ≤cn$ per qualche $c$ arbitraria. Sostituendo l’ipotesi all’interno della ricorrenza si ottiene:
 
-e diminuendo il limite superiore.
-
-Ci sono poi casi in cui la soluzione ipotizzata sembra essere corretta, ma i calcoli matematici non
-
-soddisfano il passo induttivo: solitamente, il problema risiede nel fatto che l’ipotesi induttiva non `e
-
-abbastanza forte per dimostrare il limite esatto. In un caso del genere, spesso `e necessario semplicemente
-
-correggere l’ipotesi sottraendo un termine di ordine inferiore per fare in modo che i calcoli soddisfino i
-
-requisiti.
-
-ESEMPIO: Si calcoli la ricorrenza T(n) = T(⌊n/2⌋) + T(⌈n/2⌉) + 1 supponendo che la soluzione sia
-
-T(n) = O(n). Si deve quindi dimostrare che T(n) ≤cn per qualche c arbitraria. Sostituendo l’ipotesi
-
-all’interno della ricorrenza si ottiene:
-
-T(n) ≤ c⌊n/2⌋+ c⌈n/2⌉+ 1
+$T(n) ≤ c⌊n/2⌋+ c⌈n/2⌉+ 1
 
 = cn+ 1
 
