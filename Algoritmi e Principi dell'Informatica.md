@@ -1405,70 +1405,8 @@ $T(n) = cn^2 + \frac{3}{16}cn^2+(\frac{3}{16})^2cn^2+...+(\frac{3}{16})^{log_4 n
 	$=\sum_{i=0}^{log_4 n-1}(\frac{3}{16})^icn^2 + Θ(n^{log_4 3})$
 	$*< \sum_{i=0}^∞(\frac{3}{16})^i cn^2+ Θ(n^{log_4 3})$
 	$=\frac{1}{1-(3/16)}cn^2+ Θ(n^{log_4 3})$
-$=\frac{16}{13}$
-log4 n−1
-
-i=0
-
-3
-
-16
-
-cn2 +
-
-i
-
-3
-
-16
-
-i
-
-3
-
-16
-
-2
-
-cn2 +...+
-
-cn2 + Θ(nlog4 3)
-
-∗
-
-<
-
-∞
-
-i=0
-
-3
-
-16
-
-cn2 + Θ(nlog4 3)
-
-1
-
-=
-
-1−(3/16)cn2 + Θ(nlog4 3)
-
-=
-
-cn2 + Θ(nlog4 3)
-
-13
-
-= O(n2).
-
-3
-
-16
-
-log4 n−1
-
-cn2 + Θ(nlog4 3)
+	$=\frac{16}{13}cn^2+ Θ(n^{log_4 3})$
+	$= O(n^2)$
 
 Il passaggio segnato con $*$ rappresenta una piccola approssimazione: la log4 n−1
 
