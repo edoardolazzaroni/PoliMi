@@ -1359,17 +1359,7 @@ $T(n) ≤ 2(c⌊n/2⌋log_2(⌊n/2⌋)) + n$
 
 L’ultimo passaggio è vero solo per $c≥1$. A questo punto, l’induzione matematica richiede di dimostrare che la soluzione vale per le condizioni al contorno. Si suppone, per esempio, che l’unica condizione al contorno sia $T(1) = 1$: si deve dimostrare che è possibile scegliere una costante $c$ sufficientemente grande in modo che il limite $T(n) ≤cn log_2 n$ sia valido anche per le condizioni al contorno. Quindi per $n= 1$ (condizione al contorno), il limite $T(n) ≤cn log_2 n$ diventa $T(1) ≤c log_2 1 = 0$, che però è in contrasto con $T(1) = 1$: il caso base della dimostrazione induttiva non è valido!
 
-Questo ostacolo nella dimostrazione può essere facilmente superato sfruttando la notazione asintotica, che richiede di provare che $T(n) ≤cn log_2 n$ sia valida solamente dopo un certo $n_0$ in poi, scelto
-
-arbitrariamente: l’idea `e quella di escludere la condizione al contorno dalla dimostrazione induttiva. Si
-
-osservi che, per n≥3, la ricorrenza non dipende direttamente da T(1), quindi si pu`o sostituire con T(2)
-
-e T(3), impiegati come casi base della dimostrazione induttiva. Inoltre, ponendo n0 = 2, se T(1) = 1
-
-allora T(2) = 4 e T(3) = 5. Basta quindi determinare una costante c tale per cui T(2) = 4 ≤2clog2(2)
-
-e T(3) = 5 ≤3clog2(3): le precedenti condizioni sono soddisfatte solo per c≥2.
+Questo ostacolo nella dimostrazione può essere facilmente superato sfruttando la notazione asintotica, che richiede di provare che $T(n) ≤cn log_2 n$ sia valida solamente dopo un certo $n_0$ in poi, scelto arbitrariamente: l’idea è quella di escludere la condizione al contorno dalla dimostrazione induttiva. Si osservi che, per $n≥3$, la ricorrenza non dipende direttamente da $T(1)$, quindi si puè sostituire con $T(2)$ e $T(3)$, impiegati come casi base della dimostrazione induttiva. Inoltre, ponendo $n_0 = 2$, se $T(1) = 1$ allora $T(2) = 4$ e $T(3) = 5$. Basta quindi determinare una costante $c$ tale per cui $T(2) = 4 ≤2clog_2(2)$ e $T(3) = 5 ≤3c log_2(3)$: le precedenti condizioni sono soddisfatte solo per c≥2.
 
 Non esiste un metodo unico e generale per indovinare la soluzione corretta di una ricorrenza, ma
 
