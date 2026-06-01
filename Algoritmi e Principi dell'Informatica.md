@@ -1562,27 +1562,11 @@ Il comportamento nel caso medio si verifica quando la subroutine `partition` pro
 Gli algoritmi analizzati fino ad ora, seppur differenti fra loro, condividono un’importante proprietà: l’ordinamento che effettuano è basato soltanto su confronti fra gli elementi di input. Questi algoritmi sono detti di ordinamento per confronti e, dati due elementi $a_i$ e $a_j$, eseguono uno dei test $a_i <a_j,a_i ≤a_j,a_i = a_j,a_i ≥a_j$ o $a_i >a_j$ per determinare il loro ordine relativo.
 
 Gli algoritmi di ordinamento per confronti possono essere visti in termini di alberi di decisione,
-ovvero alberi binari completi che rappresentano i confronti fra gli elementi effettuati da un determinato algoritmo di ordinamento. Ora, l’esecuzione di un algoritmo di ordinamento corrisponde ad indicare su tale albero un cammino semplice che collega la radice dell’albero con una foglia (nello specifico, una delle foglie che rappresentano le permutazioni ordinate dell’array di ingresso). Ogni nodo interno di tale albero rappresenta un confronto: il sottoalbero sinistro corrisponde a confronti del tipo $a_i ≤a_j$, mentre quello destro corrisponde a confronti del tipo $a_i > a_j$. Si noti che sulle foglie sono presenti tutte le possibili
+ovvero alberi binari completi che rappresentano i confronti fra gli elementi effettuati da un determinato algoritmo di ordinamento. Ora, l’esecuzione di un algoritmo di ordinamento corrisponde ad indicare su tale albero un cammino semplice che collega la radice dell’albero con una foglia (nello specifico, una delle foglie che rappresentano le permutazioni ordinate dell’array di ingresso). Ogni nodo interno di tale albero rappresenta un confronto: il sottoalbero sinistro corrisponde a confronti del tipo $a_i ≤a_j$, mentre quello destro corrisponde a confronti del tipo $a_i > a_j$. Si noti che sulle foglie sono presenti tutte le possibili permutazioni della sequenza di input: dunque un albero di decisione può presentare più di $n!$ foglie, in quanto alcune permutazioni potrebbero comparire più volte, ma meno di $2^h$ (con $h$, l’altezza dell’albero).
 
-permutazioni della sequenza di input: dunque un albero di decisione pu`o presentare pi`u di n! foglie, in
+La lunghezza del cammino semplice più lungo dalla radice di un albero di decisione ad una delle sue foglie rappresenta il numero di confronti che un determinato algoritmo di ordinamento deve svolgere nel caso peggiore: questo numero è equivalente all’altezza dell’albero stesso. Si introduce quindi il seguente teorema, che determina un limite inferiore sul tempo di esecuzione degli algoritmi di ordinamento per confronti:
 
-quanto alcune permutazioni potrebbero comparire pi`u volte, ma meno di 2h (con h, l’altezza dell’albero).
-
-La lunghezza del cammino semplice pi`u lungo dalla radice di un albero di decisione ad una delle sue
-
-foglie rappresenta il numero di confronti che un determinato algoritmo di ordinamento deve svolgere nel
-
-caso peggiore: questo numero `e equivalente all’altezza dell’albero stesso. Si introduce quindi il seguente
-
-teorema, che determina un limite inferiore sul tempo di esecuzione degli algoritmi di ordinamento per
-
-confronti:
-
-Teorema 8.7.1. Qualsiasi algoritmo di ordinamento per confronti richiede Ω(nlogn) confronti nel caso
-
-peggiore.
-
-da cui deriva anche:
+- **Teorema**: Qualsiasi algoritmo di ordinamento per confronti richiede $Ω(n \ log \ n)$ confronti nel caso peggiore. da cui deriva anche:
 
 Teorema 8.7.2. Ogni albero di decisione di un algoritmo di ordinamento di n elementi ha altezza
 
