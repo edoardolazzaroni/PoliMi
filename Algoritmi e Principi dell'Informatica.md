@@ -1645,13 +1645,7 @@ Si noti come, in questo caso, l’operazione di `pop` ritorna l’elemento appen
 
 Le **code** sono insiemi dinamici dove l’elemento da rimuovere tramite l’operazione delete è predeterminato. In questa struttura dati, l’elemento cancellato è quello inserito per primo, secondo la politica **FIFO** (First In First Out). Nello specifico, la coda presenta un inizio detto `head` e una fine detta `tail`, e le operazioni di insert e delete prendono rispettivamente il nome di `enqueue` e `dequeue` (anche in questo caso, questa operazione non prende nessun argomento, in quanto l’elemento da eliminare è predeterminato): la prima inserisce in fondo alla fila l’elemento passato come argomento, mentre la seconda operazione elimina il primo elemento della fila.
 
-Questa struttura dati può essere implementata tramite un array di $n$ elementi `Q[1..n]`, che contiene
-
-un massimo di n−1 elementi, per ragioni che verranno chiarite in seguito. L’attributo Q.head punta
-
-all’inizio della coda, mentre l’attributo Q.tail punta alla posizione in cui l’ultimo elemento che dovr`a
-
-essere inserito prender`a posto (ovvero alla posiziove vuota successiva all’ultimo elemento della coda).
+Questa struttura dati può essere implementata tramite un array di $n$ elementi `Q[1..n]`, che contiene un massimo di $n−1$ elementi, per ragioni che verranno chiarite in seguito. L’attributo `Q.head` punta all’inizio della coda, mentre l’attributo `Q.tail` punta alla posizione in cui l’ultimo elemento che dovrà essere inserito prenderà posto (ovvero alla posizione vuota successiva all’ultimo elemento della coda).
 
 Gli elementi della coda, quindi, occupano le posizioni Q.head, Q.head + 1, ..., Q.tail - 1. Alla fine
 
