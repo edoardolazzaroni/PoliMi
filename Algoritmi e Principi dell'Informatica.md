@@ -1617,7 +1617,7 @@ Le tipiche operazioni che si possono svolgere sulle strutture dati sono suddivis
 
 ### **9.1 Stack**
 
-Gli stack sono insiemi dinamici dove l’elemento da rimuovere tramite l’operazione delete è predeterminato. In questa struttura dati, l’elemento cancellato è quello inserito per ultimo, secondo la politica LIFO (Last In, First Out). Nello specifico, le operazioni di insert e delete prendono rispettivamente il nome di `push` e `pop` (euesta operazione non prende nessun argomento, in quanto l’elemento da eliminare è predeterminato): la prima inserisce in cima alla pila l’elemento passato come argomento, mentre la seconda operazione elimina l’unico elemento accessibile dalla pila, ovvero la cima.
+Gli stack sono insiemi dinamici dove l’elemento da rimuovere tramite l’operazione delete è predeterminato. In questa struttura dati, l’elemento cancellato è quello inserito per ultimo, secondo la politica **LIFO** (Last In, First Out). Nello specifico, le operazioni di insert e delete prendono rispettivamente il nome di `push` e `pop` (euesta operazione non prende nessun argomento, in quanto l’elemento da eliminare è predeterminato): la prima inserisce in cima alla pila l’elemento passato come argomento, mentre la seconda operazione elimina l’unico elemento accessibile dalla pila, ovvero la cima.
 
 Questa struttura dati può essere implementata tramite un array con un massimo di $n$ elementi `S[1..n]`, che presenta lo specifico atrtibuto `S.top`, ovvero l’indice tramite cui accedere all’ultimo elemento inserito. L’array è dunque composto dagli elementi `S[1..S.top]`, dove `S[1]` rappresenta l’elemento in fondo alla pila, mentre `S[S.top]` rappresenta l’elemento in cima. Ovviamente, se `S.top = 0`, si dice che la pila è vuota, in quanto non contiene nessun elemento. In questo caso, se si tenta di estrarre un elemento dallo stack, si ottiene un errore di underflow dello stack, mentre se si cerca di inserire un elemento sulla pila piena (che conta quindi $n$ elementi), si ottiene un errore di overflow dello stack.
 
@@ -1643,13 +1643,7 @@ Si noti come, in questo caso, l’operazione di `pop` ritorna l’elemento appen
 
 ### **9.2 Queue**
 
-Le code sono insiemi dinamici dove l’elemento da rimuovere tramite l’operazione delete `e predeter-
-
-minato. In questa struttura dati, l’elemento cancellato `e quello inserito per primo, secondo la politica
-
-FIFO (First In First Out). Nello specifico, la coda presenta un inizio detto head e una fine detta tail,
-
-e le operazioni di insert e delete prendono rispettivamente il nome di enqueue e dequeue 2: la prima
+Le **code** sono insiemi dinamici dove l’elemento da rimuovere tramite l’operazione delete è predeterminato. In questa struttura dati, l’elemento cancellato è quello inserito per primo, secondo la politica **FIFO** (First In First Out). Nello specifico, la coda presenta un inizio detto `head` e una fine detta `tail`, e le operazioni di insert e delete prendono rispettivamente il nome di `enqueue` e `dequeue` 2: la prima
 
 inserisce in fondo alla fila l’elemento passato come argomento, mentre la seconda operazione elimina il
 
