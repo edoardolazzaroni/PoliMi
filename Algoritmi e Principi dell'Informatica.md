@@ -1550,17 +1550,9 @@ Il comportamento nel caso peggiore si verifica quando la subroutine partition pr
 
 				$T(n) = T(n−1) + T(0) + Θ(n) = T(n−1) + Θ(1) + Θ(n)$
 
-Intuitivamente, e si sommano i costi ad ogni livello della ricorsione si ottiene una serie aritmetica, il cui
+Intuitivamente, se si sommano i costi ad ogni livello della ricorsione si ottiene una serie aritmetica, il cui valore è $Θ(n^2)$. Questa situazione si verifica quando l’array di partenza è già completamente ordinato.
 
-valore `e Θ(n2). Questa situazione si verifica quando l’array di partenza `e gi`a completamente ordinato.
-
-Il comportamento nel caso ottimo si verifica quando la subroutine partition produce due sotto-
-
-problemi di dimensione non maggiore di n/2: in questo caso il tempo di esecuzione dell’algoritmo `e
-
-molto pi`u rapido e avviene in un tempo totale T(n) ≤2T(n/2) + Θ(n), che per il secondo caso del
-
-teorema dell’esperto, ha soluzione T(n) = Θ(nlogn). Si noti, inoltre, che nel caso in cui la partizione
+Il comportamento nel caso ottimo si verifica quando la subroutine partition produce due sottoproblemi di dimensione non maggiore di $n/2$: in questo caso il tempo di esecuzione dell’algoritmo è molto più rapido e avviene in un tempo totale $T(n) ≤2T(n/2) + Θ(n)$, che per il secondo caso del teorema dell’esperto, ha soluzione $T(n) = Θ(n \ log \ n)$. Si noti, inoltre, che nel caso in cui la partizione
 
 non fosse perfettamente bilanciata, l’algoritmo riuscirebbe comunque a riordinare l’array in un tempo
 
