@@ -1611,15 +1611,11 @@ Le tipiche operazioni che si possono svolgere sulle strutture dati sono suddivis
 - `delete(S, x)`: è un’operazione di modifica che, dato un puntatore $x$ ad un elemento dell’insieme $S$, rimuove $x$ da $S$;
 - `minimum(S)`: è un’operazione di query che ritorna l’elemento dell’insieme $S$ con la chiave più piccola;
 - `maximum(S)`: è un’operazione di query che ritorna l’elemento dell’insieme $S$ con la chiave più grande;
-- `successor(S, x)`: è un’operazione di query che, dato un elemento $x$ la cui chiave appartiene ad un insieme totalmente ordinato $S$, restituisce un puntatore all’elemento successivo più grande di $S$ oppure `NIL` se x`e il pi`u grande degli elementi.
+- `successor(S, x)`: è un’operazione di query che, dato un elemento $x$ la cui chiave appartiene ad un insieme totalmente ordinato $S$, restituisce un puntatore all’elemento successivo più grande di $S$ oppure `NIL` se $x$ è il più grande degli elementi;
+- `predecessor(S, x)`: è un’operazione di query che, dato un elemento $x$ la cui chiave appartiene ad un insieme totalmente ordinato $S$, restituisce un puntatore all’elemento precedente più piccolo di $S$ oppure `NIL` se $x$ è il più piccolo degli elementi.
 
-predecessor(S, x): `e un’operazione di query che, dato un elemento xla cui chiave appartiene ad
 
-un insieme totalmente ordinato S, restituisce un puntatore all’elemento precedente pi`u piccolo di
-
-S oppure NIL se x`e il pi`u piccolo degli elementi.
-
-9.1 Stack
+### **9.1 Stack**
 
 Gli stack sono insiemi dinamici dove l’elemento da rimuovere tramite l’operazione delete `e predeter-
 
