@@ -1680,7 +1680,7 @@ Questa struttura dati può presentare varie forme: può essere doppiamente conca
 Nel seguito si fa riferimento a liste non ordinate doppiamente concatenate per lo sviluppo degli
 algoritmi che le manipolano.
 
-- **Ricerca**: la prima procedura che sia analizza è `listSearch(L, k)`, che trova il primo elemento con la chiave $k$ nella lista $L$, restituendo un puntatore a tale oggetto. Se nessun oggetto con chiave $k$ è presente nella lista, allora viene restituito il valore `NIL`. *In pseudocodifica*:
+- **==Ricerca==**: la prima procedura che sia analizza è `listSearch(L, k)`, che trova il primo elemento con la chiave $k$ nella lista $L$, restituendo un puntatore a tale oggetto. Se nessun oggetto con chiave $k$ è presente nella lista, allora viene restituito il valore `NIL`. *In pseudocodifica*:
 
 	`listSearch (L , k ) :`
 		`x := L . head`
@@ -1690,21 +1690,14 @@ algoritmi che le manipolano.
 
 Si noti quindi che l’algoritmo listSearch cerca l’elemento di chiave $k$ tramite una ricerca lineare sulla list $L$ di $n$ elementi. Dunque, l’algoritmo impiega un tempo $Θ(n)$ nel caso peggiore, in quanto potrebbe essere necessario scorrere l’intera lista.
 
-- **`Inserimento`**: La seconda procedura analizzata è `listInsert(L, x)` che inserisce l’elemento $x$ di
+- **==Inserimento==**: La seconda procedura analizzata è `listInsert(L, x)` che inserisce l’elemento $x$ di attributo key (già inizializzato) in testa alla lista. *In pseudocodifica*:
 
-attributo key (gi`a inizializzato) in testa alla lista. In pseudocodifica:
-
-1 li st In se rt (L , x ) :
-
-2 x . next := L . head
-
-3 i f L . head != NIL :
-
-4 L . head . prev := x
-
-5 L . head := x
-
-6 x . prev := NIL
+	`listInsert (L , x ) :`
+		`x . next := L . head`
+		`if L . head != NIL :`
+			`L . head . prev := x`
+			`L . head := x`
+			`x . prev := NIL`
 
 Questa procedura impiega un tempo costante Θ(1) per la sua esecuzione.
 
