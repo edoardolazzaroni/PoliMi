@@ -1573,35 +1573,31 @@ Da cui deriva anche:
 - **Teorema**: Ogni albero di decisione di un algoritmo di ordinamento di $n$ elementi ha altezza $Ω(n \ log \ n)$.
 
 Una volta determinato il limite inferiore del tempo di esecuzione degli algoritmi di ordinamento, si introduce qui l’algoritmo counting sort, che riordina un array di dimensione $n$ in un tempo lineare $Θ(n)$.
-Tale algoritmo suppone che ciascuno degli elementi di input sia un numero intero compreso nell’intervallo da $0$ a $k∈\mathbb{N}$ e determina per ciascun di essi il numero di elementi minori; utilizza poi questa informazione per inserire l’elemento corrente direttamente nella giusta posizione nell’array di output. Ad esempio, sel’elemento x`e pi`u grande di 5 altri elementi, allora verr`a inserito nella posizione 6 dell’array di output.
+Tale algoritmo suppone che ciascuno degli elementi di input sia un numero intero compreso nell’intervallo da $0$ a $k∈\mathbb{N}$ e determina per ciascun di essi il numero di elementi minori; utilizza poi questa informazione per inserire l’elemento corrente direttamente nella giusta posizione nell’array di output. Ad esempio, se l’elemento $x$ è più grande di 5 altri elementi, allora verrà inserito nella posizione 6 dell’array di output.
 
-Nel codice di counting sort, si suppone che l’input sia un array A[1..n], con n=A.length. Occorrono
+Nel codice di counting sort, si suppone che l’input sia un array `A[1..n]`, con `n=A.length`. Occorrono altri due array: l’array `B[1..n]`, che contiene l’output ordinato, e l’array `C[0..k]` fornisce la memoria temporanea di lavoro. *In pseudocodice*:
 
-altri due array: l’array B[1..n], che contiene l’output ordinato, e l’array C[0..k] fornisce la memoria
+`countingSort (A , B , k ) :`
 
-temporanea di lavoro. In pseudocodice:
+`C := [0 .. k ]`
 
-1 c o u n t i n g S o r t (A , B , k ) :
+`3 f o r i := 0 to k :`
 
-2 C := [0 .. k ]
+`4 C [ i ] := 0`
 
-3 f o r i := 0 to k :
+`5 f o r j := 1 to A . length :`
 
-4 C [ i ] := 0
+`6 C [ A [ j ]] := C [ A [ ji ]] + 1`
 
-5 f o r j := 1 to A . length :
+`7 f o r i := 1 to k :`
 
-6 C [ A [ j ]] := C [ A [ ji ]] + 1
+`8 C [ i ] := C [ i ] C [ i - 1]`
 
-7 f o r i := 1 to k :
+`9 f o r j := A . length down to 1`
 
-8 C [ i ] := C [ i ] C [ i - 1]
+`10 B [ C [ A [ j ]]] := A [ j ]`
 
-9 f o r j := A . length down to 1
-
-10 B [ C [ A [ j ]]] := A [ j ]
-
-11 C [ A [ j ]] := C [ A [ j ]] - 1
+`11 C [ A [ j ]] := C [ A [ j ]] - 1`
 
 Dopo che il ciclo for in riga 3 inizializza a zero tutti gli elementi dell’array C, ogni elemento dell’input
 
