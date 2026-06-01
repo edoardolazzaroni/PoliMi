@@ -1683,18 +1683,14 @@ algoritmi che le manipolano.
 - **Ricerca**: la prima procedura che sia analizza è `listSearch(L, k)`, che trova il primo elemento con la chiave $k$ nella lista $L$, restituendo un puntatore a tale oggetto. Se nessun oggetto con chiave $k$ è presente nella lista, allora viene restituito il valore `NIL`. *In pseudocodifica*:
 
 	`listSearch (L , k ) :`
-	`2 x := L . head`
-	`3 w h i l e x != NIL and x . key != key :`
-	`4 x := x . next`
-	`5 return x`
+		`x := L . head`
+		`while x != NIL and x . key != key :`
+			`x := x . next`
+		`return x`
 
-Si noti quindi che l’algoritmo listSearch cerca l’elemento di chiave k tramite una ricerca lineare
+Si noti quindi che l’algoritmo listSearch cerca l’elemento di chiave $k$ tramite una ricerca lineare sulla list $L$ di $n$ elementi. Dunque, l’algoritmo impiega un tempo $Θ(n)$ nel caso peggiore, in quanto potrebbe essere necessario scorrere l’intera lista.
 
-sulla list L di n elementi. Dunque, l’algoritmo impiega un tempo Θ(n) nel caso peggiore, in quanto
-
-potrebbe essere necessario scorrere l’intera lista.
-
-Inserimento La seconda procedura analizzata `e listInsert(L, x) che inserisce l’elemento x di
+- **`Inserimento`**: La seconda procedura analizzata è `listInsert(L, x)` che inserisce l’elemento $x$ di
 
 attributo key (gi`a inizializzato) in testa alla lista. In pseudocodifica:
 
