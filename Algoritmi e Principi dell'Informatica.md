@@ -1531,19 +1531,18 @@ Per poter ordinare un intero array `A`, la chiamata iniziale a tale algoritmo è
 	`swap A [ i + 1] with A [ r ]`
 	`return i + 1`
 
-Questo algoritmo riarrangia il sottoarray `A[p..r]` sul posto selezionando un elemento `x = A[r]` come pivot, intorno a cui partizionare l’array. All’inizio di ogni iterazione del ciclo `for` di riga 4, per qualsiasi indice k si individuano quattro regioni:
+Questo algoritmo riarrangia il sottoarray `A[p..r]` sul posto selezionando un elemento `x = A[r]` come pivot, intorno a cui partizionare l’array. All’inizio di ogni iterazione del ciclo `for` di riga 4, per qualsiasi indice $k$ si individuano quattro regioni:
 
-1. Se p≤k≤i, allora A[k] ≤ x;
+1. Se $p≤k≤i$, allora $A[k] ≤ x$;
 
-2. Se i+ 1 ≤k≤j−1, allora A[k] ≥ x;
+2. Se $i+ 1 ≤k≤j−1$, allora $A[k] ≥ x$;
 
-3. Se k= r, allora A[k]=x;
+3. Se $k= r$, allora $A[k]=x$;
 
-4. Gli indici k tali che j ≤k≤r−1 non hanno una particolare relazione con il pivot x.
+4. Gli indici $k$ tali che $j ≤k≤r−1$ non hanno una particolare relazione con il pivot $x$.
 
-Le ultime due righe della procdeura, inveceinseriscono il pivot al suo posto nel mezzo dell’array,
-
-scambiandolo con l’elemento pi`u a sinistra, che `e maggiore di x, e restituisce un nuovo indice di pivot. Il
+Le ultime due righe della procedeura invece inseriscono il pivot al suo posto nel mezzo dell’array,
+scambiandolo con l’elemento più a sinistra, che è maggiore di $x, e restituisce un nuovo indice di pivot. Il
 
 tempo di esecuzione dell’algoritmo partition con input il sottoarray A[p..r] `e Θ(n), con n= r−p+1.
 
