@@ -1734,17 +1734,11 @@ Le operazioni di dizionario sono semplici da implementare in *pseudocodifica* e 
 In alcune implementazioni è possibile memorizzare l’elemento di chiave $k$ direttamente all’interno della tabella, anzichè in un oggetto esterno, risparmiando spazio in memoria.
 
 
-9.4.2 Introduzione alle Tavole di Hash
+#### **9.4.2 Introduzione alle Tavole di Hash**
 
-La difficolt`a nell’implementazione di una tale struttura dati `e evidente: l’insieme universo U, nella
+La difficoltà nell’implementazione di una tale struttura dati è evidente: l’insieme universo $U$, nella maggior parte dei casi, è troppo grande per essere memorizzato in una tavola $T$ di dimensione $|U|$.
 
-maggior parte dei casi, `e troppo grande per essere memorizzato in una tavola T di dimensione |U|.
-
-Inoltre, l’insieme K delle chiavi effettivamente memorizzate `e molto pi`u piccolo dell’inisieme U delle
-
-chiavi disponibili e, dunque, la maggior parte dello spazio allocato per la tavola T non verrebbe mai
-
-utilizzato. A questo proposito si introduce una nuova struttura dati, detta tavola di hash, che utilizza
+Inoltre, l’insieme $K$ delle chiavi effettivamente memorizzate è molto più piccolo dell’insieme $U$ delle chiavi disponibili e, dunque, la maggior parte dello spazio allocato per la tavola $T$ non verrebbe mai  utilizzato. A questo proposito si introduce una nuova struttura dati, detta tavola di hash, che utilizza
 
 una memoria proporzionale al numero delle chiavi effettivamente memorizzate nel dizionario, riducendo
 
