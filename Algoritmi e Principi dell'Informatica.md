@@ -1596,13 +1596,11 @@ Il primo ciclo `for` impiega un tempo di esecuzione $Θ(k)$, il secondo un tempo
 L’algoritmo appena analizzato batte il limite inferiore di tempo $Ω(n \ log \ n)$ per gli algoritmi di ordinamento per confronti perchè non confronta nessun elemento dell’input, ma utilizza il valore di ogni elemento come indice di un array `C` di appoggio.
 
 
-Capitolo 9
 
-Strutture Dati
 
-Gli insiemi manipolati dagli algoritmi, a differenza di quelli matematici, possono essere modificati in-
+## **Strutture Dati**
 
-serendo o rimuovendo elementi. Questi insiemi sono detti dinamici e giocano un ruolo importante in
+Gli insiemi manipolati dagli algoritmi, a differenza di quelli matematici, possono essere modificati inserendo o rimuovendo elementi. Questi insiemi sono detti dinamici e giocano un ruolo importante in
 
 informatica, perch`e modellano le strutture utilizzate per memorizzare in modo ordinato i dati.
 
