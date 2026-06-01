@@ -1591,17 +1591,12 @@ Nel codice di counting sort, si suppone che l’input sia un array `A[1..n]`, co
 
 Dopo che il ciclo `for` in riga 3 inizializza a zero tutti gli elementi dell’array `C`, ogni elemento dell’input viene esaminato con il secondo ciclo `for` (riga 5): se il valore di un elemento è $i$, viene incrementato il valore di `C[i]`. Dunque, dopo la riga 6, l’array `C` contiene il numero di elementi uguagli ad $i$, per ogni $i = 0,1,...,k$. Le righe 7 e 8 determinano, per ogni $i = 0,1,...,k$, quanti elementi di input sono minori o uguali a $i$. Infine, il ciclo `for` di riga 9 inserisce l’elemento corrente nella posizione corretta all’interno dell’array di output `B`.
 
-Il primo ciclo `for` impiega un tempo di esecuzione $Θ(k)$, il secondo un tempo $Θ(n)$, il terzo un tempo $Θ(k)$ e, infine, il ciclo `for` di riga 9 impiega un tempo di esecuzione lineare $Θ(n)$. Dunque, il tempo di
+Il primo ciclo `for` impiega un tempo di esecuzione $Θ(k)$, il secondo un tempo $Θ(n)$, il terzo un tempo $Θ(k)$ e, infine, il ciclo `for` di riga 9 impiega un tempo di esecuzione lineare $Θ(n)$. Dunque, il tempo di esecuzione totale dell’algoritmo `countingSort` è $T(n) = Θ(n+ k)$. Di solito, questa procedura viene utilizzata quando $h= Θ(n)$, facendo si che il tempo totale di esecuzione sia un $Θ(n)$.
 
-esecuzione totale dell’algoritmo countingSort `e T(n) = Θ(n+ k). Di solito, questa procedura viene
+L’algoritmo appena analizzato batte il limite inferiore di tempo $Ω(n \ log \ n)$ per gli algoritmi di ordinamento per confronti perchè non confronta nessun elemento dell’input, ma utilizza il valore di ogni elemento come indice di un array `C` di appoggio.
 
-utilizzata quando h= Θ(n), facendo si che il tempo totale di esecuzione sia un Θ(n).
 
-L’algoritmo appena analizzato batte il limite inferiore di tempo Ω(nlogn) per gli algoritmi di or-
-
-dinamento per confronti perch`e non confronta nessun elemento dell’input, ma utilizza il valore di ogni
-
-elemento come indice di un array C di appoggio.62 CAPITOLO 8. ALGORITMICapitolo 9
+Capitolo 9
 
 Strutture Dati
 
