@@ -1129,7 +1129,7 @@ I teoremi qui introdotti valgono anche per le moderne macchine di Von Neumann, i
 
 ### **7.4 Macchina RAM**
 
-La macchina RAM (o Random Access Memory) è un modello classico ispirata all'architettura di Von Neumann. Tale macchina è costituita da un nastro in ingresso, un nastro in uscita, un programma rappresentato da un numero finito di istruzioni, un contatore che indica l’istruzione corrente da eseguire e una memoria ad accesso diretto.
+La macchina RAM (o Random Access Memory) è un modello classico ispirata all'architettura di [[Von Neumann]]. Tale macchina è costituita da un nastro in ingresso, un nastro in uscita, un programma rappresentato da un numero finito di istruzioni, un contatore che indica l’istruzione corrente da eseguire e una memoria ad accesso diretto.
 
 ![[macchina RAM.webp|484]]
 
