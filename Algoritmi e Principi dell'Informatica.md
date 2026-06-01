@@ -1566,23 +1566,14 @@ ovvero alberi binari completi che rappresentano i confronti fra gli elementi eff
 
 La lunghezza del cammino semplice più lungo dalla radice di un albero di decisione ad una delle sue foglie rappresenta il numero di confronti che un determinato algoritmo di ordinamento deve svolgere nel caso peggiore: questo numero è equivalente all’altezza dell’albero stesso. Si introduce quindi il seguente teorema, che determina un limite inferiore sul tempo di esecuzione degli algoritmi di ordinamento per confronti:
 
-- **Teorema**: Qualsiasi algoritmo di ordinamento per confronti richiede $Ω(n \ log \ n)$ confronti nel caso peggiore. da cui deriva anche:
+- **Teorema**: Qualsiasi algoritmo di ordinamento per confronti richiede $Ω(n \ log \ n)$ confronti nel caso peggiore. 
 
-Teorema 8.7.2. Ogni albero di decisione di un algoritmo di ordinamento di n elementi ha altezza
+Da cui deriva anche:
 
-Ω(nlogn).
+- **Teorema**: Ogni albero di decisione di un algoritmo di ordinamento di $n$ elementi ha altezza $Ω(n \ log \ n)$.
 
-Una volta determinato il limite inferiore del tempo di esecuzione degli algoritmi di ordinamento, si
-
-introduce qui l’algoritmo counting sort, che riordina un array di dimensione nin un tempo lineare Θ(n).
-
-Tale algoritmo suppone che ciascuno degli elementi di input sia un numero intero compreso nell’intervallo8.7. COUNTING SORT 61
-
-da 0 a k∈N e determina per ciascun di essi il numero di elementi minori; utilizza poi questa informazione
-
-per inserire l’elemento corrente direttamente nella giusta posizione nell’array di output. Ad esempio, se
-
-l’elemento x`e pi`u grande di 5 altri elementi, allora verr`a inserito nella posizione 6 dell’array di output.
+Una volta determinato il limite inferiore del tempo di esecuzione degli algoritmi di ordinamento, si introduce qui l’algoritmo counting sort, che riordina un array di dimensione $n$ in un tempo lineare $Θ(n)$.
+Tale algoritmo suppone che ciascuno degli elementi di input sia un numero intero compreso nell’intervallo da $0$ a $k∈\mathbb{N}$ e determina per ciascun di essi il numero di elementi minori; utilizza poi questa informazione per inserire l’elemento corrente direttamente nella giusta posizione nell’array di output. Ad esempio, sel’elemento x`e pi`u grande di 5 altri elementi, allora verr`a inserito nella posizione 6 dell’array di output.
 
 Nel codice di counting sort, si suppone che l’input sia un array A[1..n], con n=A.length. Occorrono
 
