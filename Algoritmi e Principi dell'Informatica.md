@@ -1608,19 +1608,10 @@ Le tipiche operazioni che si possono svolgere sulle strutture dati sono suddivis
 
 - `search(S, k)`: è un’operazione di query che, dato un insieme $S$ e un valore chiave $k$, restituisce `NIL` se tale elemento non appartiene all’insieme;
 - `insert(S, x)`: è un’operazione di modifica che inserisce all’interno dell’insieme $S$ l’elemento puntato da $x$;
-- `delete(S, x)`: è un’operazione di modifica che, dato un puntatore $x$ ad un elemento dell’insieme $S$, rimuove x da S.
-
-minimum(S): `e un’operazione di query che ritorna l’elemento dell’insieme S con la chiave pi`u
-
-piccola.
-
-maximum(S): `e un’operazione di query che ritorna l’elemento dell’insieme Scon la chiave pi`u grande.
-
-successor(S, x): `e un’operazione di query che, dato un elemento x la cui chiave appartiene ad
-
-un insieme totalmente ordinato S, restituisce un puntatore all’elemento successivo pi`u grande di S
-
-oppure NIL se x`e il pi`u grande degli elementi.
+- `delete(S, x)`: è un’operazione di modifica che, dato un puntatore $x$ ad un elemento dell’insieme $S$, rimuove $x$ da $S$;
+- `minimum(S)`: è un’operazione di query che ritorna l’elemento dell’insieme $S$ con la chiave più piccola;
+- `maximum(S)`: è un’operazione di query che ritorna l’elemento dell’insieme $S$ con la chiave più grande;
+- `successor(S, x)`: è un’operazione di query che, dato un elemento $x$ la cui chiave appartiene ad un insieme totalmente ordinato $S$, restituisce un puntatore all’elemento successivo più grande di $S$ oppure `NIL` se x`e il pi`u grande degli elementi.
 
 predecessor(S, x): `e un’operazione di query che, dato un elemento xla cui chiave appartiene ad
 
