@@ -1554,19 +1554,12 @@ Intuitivamente, se si sommano i costi ad ogni livello della ricorsione si ottien
 
 Il comportamento nel caso ottimo si verifica quando la subroutine partition produce due sottoproblemi di dimensione non maggiore di $n/2$: in questo caso il tempo di esecuzione dell’algoritmo è molto più rapido e avviene in un tempo totale $T(n) ≤2T(n/2) + Θ(n)$, che per il secondo caso del teorema dell’esperto, ha soluzione $T(n) = Θ(n \ log \ n)$. Si noti, inoltre, che nel caso in cui la partizione non fosse perfettamente bilanciata, l’algoritmo riuscirebbe comunque a riordinare l’array in un tempo $T(n) = Θ(n \ log \ n)$: questo dimostra che il `quickSort` è un algoritmo molto più vicino al caso ottimo che al caso pessimo, caso che si verifica in una sola istanza del problema (quando, appunto, è ordinato).
 
-Il comportamento nel caso medio si verifica quando la subroutine `partition` produce una combinazione di partizioni ’buone’ e ’cattive’. Si suppone, per semplicità, che le partizioni buone e cattive si alternino all’interno dell’albero di ricorsione e che quelle buone siano tutte nel caso migliore, mentre le quelle cattive siano nel caso pessimo. Si ipotizzi che nella radice dell’albero il costo di ripartizione è $n$ e i sottoarray prodotti hanno dimensione $n−1$ e $0$ (caso pessimo), mentre nel livello successivo il partizionamento del sottoarray $n−1$ produca due array di dimensione $\frac{(n−1)}{2$ e $(n−1)/2−1$ (caso migliore). Il
+Il comportamento nel caso medio si verifica quando la subroutine `partition` produce una combinazione di partizioni ’buone’ e ’cattive’. Si suppone, per semplicità, che le partizioni buone e cattive si alternino all’interno dell’albero di ricorsione e che quelle buone siano tutte nel caso migliore, mentre le quelle cattive siano nel caso pessimo. Si ipotizzi che nella radice dell’albero il costo di ripartizione è $n$ e i sottoarray prodotti hanno dimensione $n−1$ e $0$ (caso pessimo), mentre nel livello successivo il partizionamento del sottoarray $n−1$ produca due array di dimensione $\frac{(n−1)}{2}$ e $\frac{(n−1)}{2−1}$ (caso migliore). Il costo di una divisione cattiva, seguito da una divisione buona è comunque $Θ(n)$, ovvero lo stesso costo di una divisione buona: intuitivamente, quindi, la coppia divisione buona/cattiva impiega lo stesso tempo totale di esecuzione $Θ(n \ log \ n)$, con l’unica differenza che cambiano le costanti moltiplicative, eclissante nella notazione asintotica.
 
-costo di una divisione cattiva, seguito da una divisione buona `e comunque Θ(n), ovvero lo stesso costo di
 
-una divisione buona: intuitivamente, quindi, la coppia divisione buona/cattiva impiega lo stesso tempo
+### **8.7 Counting Sort**
 
-totale di esecuzione Θ(nlogn), con l’unica differenza che cambiano le costanti moltiplicative, eclissante
-
-nella notazione asintotica.
-
-8.7 Counting Sort
-
-Gli algoritmi analizzati fino ad ora, seppur differenti fra loro, condividono un’importante propriet`a:
+Gli algoritmi analizzati fino ad ora, seppur differenti fra loro, condividono un’importante proprietà:
 
 l’ordinamento che effettuano `e basato soltanto su confronti fra gli elementi di input. Questi algoritmi
 
