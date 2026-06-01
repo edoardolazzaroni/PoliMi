@@ -1676,17 +1676,11 @@ Entrambe le procedure vengono eseguite in un tempo costante $Θ(1)$.
 
 Una lista concatenata è una struttura dati i cui oggetti sono disposti in ordine lineare, determinato da un puntatore in ogni oggetto. Una lista doppiamente concatenata è una lista in cui ogni oggetto presenta, oltre ad una chiave `key`, anche un puntatore all’elemento successivo `next` e un puntatore a quello precedente `prev`. Se `x.prev = NIL`, allora l’elemento `x` è il primo elemento della lista e si dice essere la testa (o head) della lista. Se, invece, `x.next = NIL`, allora `x` è l’ultimo elemento della lista e si dice essere la coda (o tail) della lista. Intuitivamente, l’attributo `L.head` punta alla testa della lista, che sarà vuota se `L.head = NIL`.
 
-Questa struttura dati può presentare varie forme: può essere doppiamente concatenata o singolarmente concatenata, oppure può essere circolare o non. Una lista si dice singolarmente concatenata se i suoi oggetti non sono dotati di puntatore all’elemento precedente, mentre si dicono circolari se l’ultimo elemento possiede un puntatore alla testa della lista, che a sua volta possiede un puntatore alla coda se la lista è circolare. Una lista concatenata può anche essere ordinata o non: si dice ordinata quando la disposizione lineare degli elementi corrisponde con la disposizione crescente delle chiavi degli elementi e, in tal caso, la testa della lista conterr`a l’elemento minimo, mentre la coda l’elemento massimo.
-
+Questa struttura dati può presentare varie forme: può essere doppiamente concatenata o singolarmente concatenata, oppure può essere circolare o non. Una lista si dice singolarmente concatenata se i suoi oggetti non sono dotati di puntatore all’elemento precedente, mentre si dicono circolari se l’ultimo elemento possiede un puntatore alla testa della lista, che a sua volta possiede un puntatore alla coda se la lista è circolare. Una lista concatenata può anche essere ordinata o non: si dice ordinata quando la disposizione lineare degli elementi corrisponde con la disposizione crescente delle chiavi degli elementi e, in tal caso, la testa della lista conterrà l’elemento minimo, mentre la coda l’elemento massimo.
 Nel seguito si fa riferimento a liste non ordinate doppiamente concatenate per lo sviluppo degli
-
 algoritmi che le manipolano.
 
-Ricerca La prima procedura che sia analizza `e listSearch(L, k), che trova il primo elemento con la
-
-chiave k nella lista L, restituendo un puntatore a tale oggetto. Se nessun oggetto con chiave k`e presente
-
-nella lista, allora viene restituito il valore NIL. In pseudocodifica:
+- **Ricerca**: la prima procedura che sia analizza è `listSearch(L, k)`, che trova il primo elemento con la chiave $k$ nella lista $L$, restituendo un puntatore a tale oggetto. Se nessun oggetto con chiave $k$ è presente nella lista, allora viene restituito il valore NIL. In pseudocodifica:
 
 1 li st Se ar ch (L , k ) :
 
