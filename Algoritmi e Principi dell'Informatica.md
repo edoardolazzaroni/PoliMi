@@ -1654,27 +1654,20 @@ Come per gli stack, se la coda è vuota, il tentativo di rimuovere un elemento p
 Le operazioni della queue possono essere implementate molto semplicemente in *pseudocodifica* come segue:
 
 `enqueue (Q , x ) :`
-`Q [ Q . tail ] := x`
-`i f Q . tail = Q . length :`
-`4 Q . tail := 1`
-`5 e l s e :`
-`6 Q . tail := Q . tail + 1`
+	`Q [ Q . tail ] := x`
+	`if Q . tail = Q . length :`
+		`Q . tail := 1`
+	`else :`
+		`Q . tail := Q . tail + 1`
 
-9.3. LINKED LIST 65
 
-1 dequeue (Q , x ) :
-
-2 x := Q [ Q . head ]
-
-3 i f Q . head = Q . length :
-
-4 Q . head := 1
-
-5 e l s e :
-
-6 Q . head := Q . head + 1
-
-7 return x
+`dequeue (Q , x ) :`
+	`x := Q [ Q . head ]`
+	`if Q . head = Q . length :`
+		`Q . head := 1`
+	`else :`
+		`Q . head := Q . head + 1`
+	`return x`
 
 Entrambe le procedure vengono eseguite in un tempo costante Θ(1).
 
