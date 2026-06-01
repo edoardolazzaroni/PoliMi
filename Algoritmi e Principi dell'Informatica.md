@@ -1600,9 +1600,7 @@ L’algoritmo appena analizzato batte il limite inferiore di tempo $Ω(n \ log 
 
 ## **Strutture Dati**
 
-Gli insiemi manipolati dagli algoritmi, a differenza di quelli matematici, possono essere modificati inserendo o rimuovendo elementi. Questi insiemi sono detti dinamici e giocano un ruolo importante in
-
-informatica, perch`e modellano le strutture utilizzate per memorizzare in modo ordinato i dati.
+Gli insiemi manipolati dagli algoritmi, a differenza di quelli matematici, possono essere modificati inserendo o rimuovendo elementi. Questi insiemi sono detti dinamici e giocano un ruolo importante in informatica, perchè modellano le strutture utilizzate per memorizzare in modo ordinato i dati.
 
 In una tipica implementazione di un insieme dinamico, ogni elemento `e rappresentato da un oggetto, i
 
