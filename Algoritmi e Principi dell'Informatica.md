@@ -1718,11 +1718,7 @@ Anche questa procedura impiega un tempo di esecuzione $Θ(1)$.
 
 #### **9.4.1 Indirizzamento diretto**
 
-Prima di procedere con l’introduzione alle tavole di hash, `e prima necessario introdurre il concetto di
-
-indirizzamento diretto, una tecnica molto efficiente nel caso in cui l’insieme da cui vengono acquisite le
-
-chiavi, detto insieme universo U= {0,1,2...,m−1}, `e un insieme ragionevolmente piccolo. Si suppone,
+Prima di procedere con l’introduzione alle tavole di hash, è prima necessario introdurre il concetto di indirizzamento diretto, una tecnica molto efficiente nel caso in cui l’insieme da cui vengono acquisite le chiavi, detto insieme universo U= {0,1,2...,m−1}, `e un insieme ragionevolmente piccolo. Si suppone,
 
 inoltre, che due elementi distinti non possano avere chiavi coincidenti. Per rappresentare un tale insieme
 
