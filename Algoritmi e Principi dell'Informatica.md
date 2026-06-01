@@ -1701,21 +1701,18 @@ Si noti quindi che l’algoritmo listSearch cerca l’elemento di chiave $k$ tra
 
 Questa procedura impiega un tempo costante $Θ(1)$ per la sua esecuzione.
 
-- **==Rimozione==**: l’ultima procedura analizzata per le linked list è `listDelete(L, x)`, che rimuove l’elemento $x$ dalla lista $L$; per poter eliminare tale elemento è prima necessario chiamare la funzione `listSearch` per ottenere il puntatore all’elemento desiderato. In pseudocodifica:66 CAPITOLO 9. STRUTTURE DATI
+- **==Rimozione==**: l’ultima procedura analizzata per le linked list è `listDelete(L, x)`, che rimuove l’elemento $x$ dalla lista $L$; per poter eliminare tale elemento è prima necessario chiamare la funzione `listSearch` per ottenere il puntatore all’elemento desiderato. *In pseudocodifica*:
 
-1 li st De le te (L , x ) :
+	`listDelete (L , x ) :`
+		`if x . prev != NIL :`
+			`x . prev . next := x . next`
+		`else :`
 
-2 i f x . prev != NIL :
+`5 L . head := x . next`
 
-3 x . prev . next := x . next
+`6 i f x . next != NIL :`
 
-4 e l s e :
-
-5 L . head := x . next
-
-6 i f x . next != NIL :
-
-7 x . next . prev := x . prev
+`7 x . next . prev := x . prev`
 
 Anche questa procedura impiega un tempo di esecuzione Θ(1).
 
