@@ -1559,27 +1559,10 @@ Il comportamento nel caso medio si verifica quando la subroutine `partition` pro
 
 ### **8.7 Counting Sort**
 
-Gli algoritmi analizzati fino ad ora, seppur differenti fra loro, condividono un’importante proprietà:
-
-l’ordinamento che effettuano `e basato soltanto su confronti fra gli elementi di input. Questi algoritmi
-
-sono detti di ordinamento per confronti e, dati due elementi ai e aj, eseguono uno dei test ai <aj,ai ≤
-
-aj,ai = aj,ai ≥aj o ai >aj per determinare il loro ordine relativo.
+Gli algoritmi analizzati fino ad ora, seppur differenti fra loro, condividono un’importante proprietà: l’ordinamento che effettuano è basato soltanto su confronti fra gli elementi di input. Questi algoritmi sono detti di ordinamento per confronti e, dati due elementi $a_i$ e $a_j$, eseguono uno dei test $a_i <a_j,a_i ≤a_j,a_i = a_j,a_i ≥a_j$ o $a_i >a_j$ per determinare il loro ordine relativo.
 
 Gli algoritmi di ordinamento per confronti possono essere visti in termini di alberi di decisione,
-
-ovvero alberi binari completi che rappresentano i confronti fra gli elementi effettuati da un determinato
-
-algoritmo di ordinamento. Ora, l’esecuzione di un algoritmo di ordinamento corrisponde ad indicare su
-
-tale albero un cammino semplice che collega la radice dell’albero con una foglia (nello specifico, una delle
-
-foglie che rappresentano le permutazioni ordinate dell’array di ingresso). Ogni nodo interno di tale albero
-
-rappresenta un confronto: il sottoalbero sinistro corrisponde a confronti del tipo ai ≤aj, mentre quello
-
-destro corrisponde a confronti del tipo ai > aj. Si noti che sulle foglie sono presenti tutte le possibili
+ovvero alberi binari completi che rappresentano i confronti fra gli elementi effettuati da un determinato algoritmo di ordinamento. Ora, l’esecuzione di un algoritmo di ordinamento corrisponde ad indicare su tale albero un cammino semplice che collega la radice dell’albero con una foglia (nello specifico, una delle foglie che rappresentano le permutazioni ordinate dell’array di ingresso). Ogni nodo interno di tale albero rappresenta un confronto: il sottoalbero sinistro corrisponde a confronti del tipo $a_i ≤a_j$, mentre quello destro corrisponde a confronti del tipo $a_i > a_j$. Si noti che sulle foglie sono presenti tutte le possibili
 
 permutazioni della sequenza di input: dunque un albero di decisione pu`o presentare pi`u di n! foglie, in
 
