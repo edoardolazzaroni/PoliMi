@@ -1680,17 +1680,13 @@ Questa struttura dati può presentare varie forme: può essere doppiamente conca
 Nel seguito si fa riferimento a liste non ordinate doppiamente concatenate per lo sviluppo degli
 algoritmi che le manipolano.
 
-- **Ricerca**: la prima procedura che sia analizza è `listSearch(L, k)`, che trova il primo elemento con la chiave $k$ nella lista $L$, restituendo un puntatore a tale oggetto. Se nessun oggetto con chiave $k$ è presente nella lista, allora viene restituito il valore NIL. In pseudocodifica:
+- **Ricerca**: la prima procedura che sia analizza è `listSearch(L, k)`, che trova il primo elemento con la chiave $k$ nella lista $L$, restituendo un puntatore a tale oggetto. Se nessun oggetto con chiave $k$ è presente nella lista, allora viene restituito il valore `NIL`. *In pseudocodifica*:
 
-1 li st Se ar ch (L , k ) :
-
-2 x := L . head
-
-3 w h i l e x != NIL and x . key != key :
-
-4 x := x . next
-
-5 return x
+	`listSearch (L , k ) :`
+	`2 x := L . head`
+	`3 w h i l e x != NIL and x . key != key :`
+	`4 x := x . next`
+	`5 return x`
 
 Si noti quindi che l’algoritmo listSearch cerca l’elemento di chiave k tramite una ricerca lineare
 
