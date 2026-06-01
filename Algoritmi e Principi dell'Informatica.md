@@ -1744,9 +1744,10 @@ Quando l’insieme $K$ delle chiavi memorizzate in un dizionario è molto più p
 
 						$h(k) : U →\left\{0,1,...,m−1\right\}, m<<|U|$
 
-Si dice che h(k) `e il valore hash della chiave k.9.4. HASH TABLE 67
+Si dice che $h(k)$ è il valore hash della chiave $k$.
 
-9.4.3 Hashing Concatenato
+
+#### **9.4.3 Hashing Concatenato**
 
 Il problema principale con la tecnica di indirizzamento appena analizzata `e che, riducendo l’intervallo
 
