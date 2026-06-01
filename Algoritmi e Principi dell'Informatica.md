@@ -1718,31 +1718,21 @@ Anche questa procedura impiega un tempo di esecuzione $Θ(1)$.
 
 #### **9.4.1 Indirizzamento diretto**
 
-Prima di procedere con l’introduzione alle tavole di hash, è prima necessario introdurre il concetto di indirizzamento diretto, una tecnica molto efficiente nel caso in cui l’insieme da cui vengono acquisite le chiavi, detto insieme universo U= {0,1,2...,m−1}, `e un insieme ragionevolmente piccolo. Si suppone,
+Prima di procedere con l’introduzione alle tavole di hash, è prima necessario introdurre il concetto di indirizzamento diretto, una tecnica molto efficiente nel caso in cui l’insieme da cui vengono acquisite le chiavi, detto insieme universo $U= {0,1,2...,m−1}$, è un insieme ragionevolmente piccolo. Si suppone, inoltre, che due elementi distinti non possano avere chiavi coincidenti. Per rappresentare un tale insieme dinamico si utilizza un array, oppure una tavola ad indirizzamento diretto, indicata con $T[0..m−1]$, dove ogni cella $k$ di tale tabella punta all’elemento dell’insieme di chiave $k$. Se la $k$-esima cella non contiene nessun elemento, viene inizializzata con il valore `NIL`.
 
-inoltre, che due elementi distinti non possano avere chiavi coincidenti. Per rappresentare un tale insieme
+Le operazioni di dizionario sono semplici da implementare in *pseudocodifica* e impiegano tutte un tempo costante $O(1)$ (nel caso peggiore):
 
-dinamico si utilizza un array, oppure una tavola ad indirizzamento diretto, indicata con T[0..m−1], dove
+`1 d i r e c t A d d r e s s S e a r c h (T , 2 return T [ k ]`
 
-ogni cella k di tale tabella punta all’elemento dell’insieme di chiave k. Se la k-esima cella non contiene
+`k ) :`
 
-nessun elemento, viene inizializzata con il valore NIL.
+`1 d i r e c t A d d r e s s I n s e r t (T , 2 T [ x . key ] := x`
 
-Le operazioni di dizionario sono semplici da implementare in pseudocodifica e impiegano tutte un
+`x ) :`
 
-tempo costante O(1) (nel caso peggiore):
+`1 d i r e c t A d d r e s s D e l e t e (T , 2 T [ x . key ] := NIL`
 
-1 d i r e c t A d d r e s s S e a r c h (T , 2 return T [ k ]
-
-k ) :
-
-1 d i r e c t A d d r e s s I n s e r t (T , 2 T [ x . key ] := x
-
-x ) :
-
-1 d i r e c t A d d r e s s D e l e t e (T , 2 T [ x . key ] := NIL
-
-x ) :
+`x ) :`
 
 In alcune implementazioni `e possibile memorizzare l’elemento di chiave k direttamente all’interno
 
