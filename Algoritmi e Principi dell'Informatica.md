@@ -1707,18 +1707,16 @@ Questa procedura impiega un tempo costante $Θ(1)$ per la sua esecuzione.
 		`if x . prev != NIL :`
 			`x . prev . next := x . next`
 		`else :`
+			`L . head := x . next`
+		`if x . next != NIL :`
+			`x . next . prev := x . prev`
 
-`5 L . head := x . next`
+Anche questa procedura impiega un tempo di esecuzione $Θ(1)$.
 
-`6 i f x . next != NIL :`
 
-`7 x . next . prev := x . prev`
+### **9.4 Hash Table**
 
-Anche questa procedura impiega un tempo di esecuzione Θ(1).
-
-9.4 Hash Table
-
-9.4.1 Indirizzamento diretto
+#### **9.4.1 Indirizzamento diretto**
 
 Prima di procedere con l’introduzione alle tavole di hash, `e prima necessario introdurre il concetto di
 
