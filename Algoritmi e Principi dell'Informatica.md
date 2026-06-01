@@ -1740,11 +1740,9 @@ La difficoltà nell’implementazione di una tale struttura dati è evidente: l�
 
 Inoltre, l’insieme $K$ delle chiavi effettivamente memorizzate è molto più piccolo dell’insieme $U$ delle chiavi disponibili e, dunque, la maggior parte dello spazio allocato per la tavola $T$ non verrebbe mai utilizzato. A questo proposito si introduce una nuova struttura dati, detta **tavola di hash**, che utilizza una memoria proporzionale al numero delle chiavi effettivamente memorizzate nel dizionario, riducendo lo spreco di memoria.
 
-Quando l’insieme $K$ delle chiavi memorizzate in un dizionario è molto più piccolo dell’universo $U$ di tutte le chiavi possibili, utilizzando una tavola di hash si può ridurre lo spazio richiesto fino a $Θ(|K|)$, riducendo però l’efficienza temporale a $O(1)$ nel caso medio (anzichè pessimo). Nella tabella di hash, l’elemento di chiave $k$ non viene memorizzato direttamente nella cella $k$, ma viene utilizzata una cosiddetta funzione di hash h(k) che calcola l’indice k della cella. La funzione di hash h(k) associa ad ogni
+Quando l’insieme $K$ delle chiavi memorizzate in un dizionario è molto più piccolo dell’universo $U$ di tutte le chiavi possibili, utilizzando una tavola di hash si può ridurre lo spazio richiesto fino a $Θ(|K|)$, riducendo però l’efficienza temporale a $O(1)$ nel caso medio (anzichè pessimo). Nella tabella di hash, l’elemento di chiave $k$ non viene memorizzato direttamente nella cella $k$, ma viene utilizzata una cosiddetta funzione di `hash` $h(k)$ che calcola l’indice $k$ della cella. La funzione di `hash` $h(k)$ associa ad ogni chiave dell’universo $U$ una specifica chiave della tavola di hash $T[0..m−1]$. Formalmente:
 
-chiave dell’universo U una specifica chiave della tavola di hash T[0..m−1]. Formalmente:
-
-h(k) : U →{0,1,...,m−1}, m<<|U|
+						$h(k) : U →\left\{0,1,...,m−1\right\}, m<<|U|$
 
 Si dice che h(k) `e il valore hash della chiave k.9.4. HASH TABLE 67
 
