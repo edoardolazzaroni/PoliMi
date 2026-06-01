@@ -1604,21 +1604,11 @@ Gli insiemi manipolati dagli algoritmi, a differenza di quelli matematici, posso
 
 In una tipica implementazione di un insieme dinamico, ogni elemento è rappresentato da un oggetto, i cui attributi possono essere esaminati e manipolati a piacimento dagli algoritmi. In molte strutture dati, l’oggetto dispone di una chiave identificativa (spesso univoca, ma non necessariamente) e ovviamente di dati satelliti che si vogliono memorizzare ordinatamente in memoria. Oltre a questi due attributi, l’oggetto può anche contenere altri dati specifici per una determinata struttura dati, in modo da rendere più semplice e veloce la loro manipolazione.
 
-Le tipiche operazioni che si possono svolgere sulle strutture dati sono suddivise in due categorie: le **query** (interrogazioni), che hanno il solo scopo di estrapolare informazioni dall’insieme dinamico, e le operazioni di modifica, che hanno il compito di modificare l’insieme. Di seguito sono elencate le istruzioni
+Le tipiche operazioni che si possono svolgere sulle strutture dati sono suddivise in due categorie: le **query** (interrogazioni), che hanno il solo scopo di estrapolare informazioni dall’insieme dinamico, e le operazioni di **modifica**, che hanno il compito di modificare l’insieme. Di seguito sono elencate le istruzioni più comuni:
 
-pi`u comuni:
-
-search(S, k): `e un’operazione di query che, dato un insieme S e un valore chiave k, restituisce
-
-NIL se tale elemento non appartiene all’insieme.
-
-insert(S, x): `e un’operazione di modifica che inserisce all’interno dell’insieme S l’elemento
-
-puntato da x.
-
-delete(S, x): `e un’operazione di modifica che, dato un puntatore x ad un elemento dell’insieme
-
-S, rimuove x da S.
+- `search(S, k)`: è un’operazione di query che, dato un insieme $S$ e un valore chiave $k$, restituisce `NIL` se tale elemento non appartiene all’insieme;
+- `insert(S, x)`: è un’operazione di modifica che inserisce all’interno dell’insieme $S$ l’elemento puntato da $x$;
+- `delete(S, x)`: è un’operazione di modifica che, dato un puntatore $x$ ad un elemento dell’insieme $S$, rimuove x da S.
 
 minimum(S): `e un’operazione di query che ritorna l’elemento dell’insieme S con la chiave pi`u
 
