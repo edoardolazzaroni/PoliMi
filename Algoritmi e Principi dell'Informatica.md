@@ -1578,30 +1578,18 @@ Tale algoritmo suppone che ciascuno degli elementi di input sia un numero intero
 Nel codice di counting sort, si suppone che l’input sia un array `A[1..n]`, con `n=A.length`. Occorrono altri due array: l’array `B[1..n]`, che contiene l’output ordinato, e l’array `C[0..k]` fornisce la memoria temporanea di lavoro. *In pseudocodice*:
 
 `countingSort (A , B , k ) :`
+	`C := [0 .. k ]`
+	`for i := 0 to k :`
+		`C [ i ] := 0`
+	`for j := 1 to A . length :`
+		`C [ A [ j ]] := C [ A [ ji ]] + 1`
+	`for i := 1 to k :`
+		`C [ i ] := C [ i ] C [ i - 1]`
+	`for j := A . length down to 1`
+		`B [ C [ A [ j ]]] := A [ j ]`
+		`C [ A [ j ]] := C [ A [ j ]] - 1`
 
-`C := [0 .. k ]`
-
-`3 f o r i := 0 to k :`
-
-`4 C [ i ] := 0`
-
-`5 f o r j := 1 to A . length :`
-
-`6 C [ A [ j ]] := C [ A [ ji ]] + 1`
-
-`7 f o r i := 1 to k :`
-
-`8 C [ i ] := C [ i ] C [ i - 1]`
-
-`9 f o r j := A . length down to 1`
-
-`10 B [ C [ A [ j ]]] := A [ j ]`
-
-`11 C [ A [ j ]] := C [ A [ j ]] - 1`
-
-Dopo che il ciclo for in riga 3 inizializza a zero tutti gli elementi dell’array C, ogni elemento dell’input
-
-viene esaminato con il secondo ciclo for (in riga 5): se il valore di un elemento `e i, viene incrementato
+Dopo che il ciclo `for` in riga 3 inizializza a zero tutti gli elementi dell’array `C`, ogni elemento dell’input viene esaminato con il secondo ciclo `for` (in riga 5): se il valore di un elemento `e i, viene incrementato
 
 il valore di C[i]. Dunque, dopo la riga 6, l’array C contiene il numero di elementi uguagli ad i, per ogni
 
