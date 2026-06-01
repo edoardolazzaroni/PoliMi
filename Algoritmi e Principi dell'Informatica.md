@@ -1617,17 +1617,9 @@ Le tipiche operazioni che si possono svolgere sulle strutture dati sono suddivis
 
 ### **9.1 Stack**
 
-Gli stack sono insiemi dinamici dove l’elemento da rimuovere tramite l’operazione delete `e predeter-
+Gli stack sono insiemi dinamici dove l’elemento da rimuovere tramite l’operazione delete è predeterminato. In questa struttura dati, l’elemento cancellato è quello inserito per ultimo, secondo la politica LIFO (Last In, First Out). Nello specifico, le operazioni di insert e delete prendono rispettivamente il nome di `push` e `pop` (euesta operazione non prende nessun argomento, in quanto l’elemento da eliminare è predeterminato): la prima inserisce in cima alla pila l’elemento passato come argomento, mentre la seconda operazione elimina l’unico elemento accessibile dalla pila, ovvero la cima.
 
-minato. In questa struttura dati, l’elemento cancellato `e quello inserito per ultimo, secondo la politica
 
-LIFO (Last In, First Out). Nello specifico, le operazioni di insert e delete prendono rispettivamente
-
-il nome di push e pop 1: la prima inserisce in cima alla pila l’elemento passato come argomento, mentre
-
-la seconda operazione elimina l’unico elemento accessibile dalla pila, ovvero la cima.
-
-1Questa operazione non prende nessun argomento, in quanto l’elemento da eliminare `e predeterminato
 
 6364 CAPITOLO 9. STRUTTURE DATI
 
