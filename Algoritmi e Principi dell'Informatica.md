@@ -1738,21 +1738,9 @@ In alcune implementazioni è possibile memorizzare l’elemento di chiave $k$ di
 
 La difficoltà nell’implementazione di una tale struttura dati è evidente: l’insieme universo $U$, nella maggior parte dei casi, è troppo grande per essere memorizzato in una tavola $T$ di dimensione $|U|$.
 
-Inoltre, l’insieme $K$ delle chiavi effettivamente memorizzate è molto più piccolo dell’insieme $U$ delle chiavi disponibili e, dunque, la maggior parte dello spazio allocato per la tavola $T$ non verrebbe mai  utilizzato. A questo proposito si introduce una nuova struttura dati, detta tavola di hash, che utilizza
+Inoltre, l’insieme $K$ delle chiavi effettivamente memorizzate è molto più piccolo dell’insieme $U$ delle chiavi disponibili e, dunque, la maggior parte dello spazio allocato per la tavola $T$ non verrebbe mai utilizzato. A questo proposito si introduce una nuova struttura dati, detta **tavola di hash**, che utilizza una memoria proporzionale al numero delle chiavi effettivamente memorizzate nel dizionario, riducendo lo spreco di memoria.
 
-una memoria proporzionale al numero delle chiavi effettivamente memorizzate nel dizionario, riducendo
-
-lo spreco di memoria.
-
-Quando l’insieme K delle chiavi memorizzate in un dizionario `e molto pi`u piccolo dell’universo U di
-
-tutte le chiavi possibili, utilizzando una tavola di hash si pu`o ridurre lo spazio richiesto fino a Θ(|K|),
-
-rdiucendo per`o l’efficienza temporale a O(1) nel caso medio (anzich`e pessimo). Nella tabella di hash,
-
-l’elemento di chiave k non viene memorizzato direttamente nella cella k, ma viene utilizzata una cosid-
-
-detta funzione di hash h(k) che calcola l’indice k della cella. La funzione di hash h(k) associa ad ogni
+Quando l’insieme $K$ delle chiavi memorizzate in un dizionario è molto più piccolo dell’universo $U$ di tutte le chiavi possibili, utilizzando una tavola di hash si può ridurre lo spazio richiesto fino a $Θ(|K|)$, riducendo però l’efficienza temporale a $O(1)$ nel caso medio (anzichè pessimo). Nella tabella di hash, l’elemento di chiave $k$ non viene memorizzato direttamente nella cella $k$, ma viene utilizzata una cosiddetta funzione di hash h(k) che calcola l’indice k della cella. La funzione di hash h(k) associa ad ogni
 
 chiave dell’universo U una specifica chiave della tavola di hash T[0..m−1]. Formalmente:
 
