@@ -1669,19 +1669,12 @@ Le operazioni della queue possono essere implementate molto semplicemente in *ps
 		`Q . head := Q . head + 1`
 	`return x`
 
-Entrambe le procedure vengono eseguite in un tempo costante Θ(1).
+Entrambe le procedure vengono eseguite in un tempo costante $Θ(1)$.
 
-9.3 Linked List
 
-Una lista concatenata `e una struttura dati i cui oggetti sono disposti in ordine lineare, determinato
+### **9.3 Linked List**
 
-da un puntatore in ogni oggetto. Una lista doppiamente concatenata `e una lista in cui ogni oggetto
-
-presenta, oltre ad una chiave key, anche un puntatore all’elemento successivo next e un puntatore a
-
-quello precedente prev. Se x.prev = NIL, allora l’elemento x `e il primo elemento della lista e si dice
-
-essere la testa (o head) della lista. Se, invece, x.next = NIL, allora x`e l’ultimo elemento della lista e si
+Una lista concatenata è una struttura dati i cui oggetti sono disposti in ordine lineare, determinato da un puntatore in ogni oggetto. Una lista doppiamente concatenata è una lista in cui ogni oggetto presenta, oltre ad una chiave `key`, anche un puntatore all’elemento successivo `next` e un puntatore a quello precedente `prev`. Se `x.prev = NIL`, allora l’elemento `x` è il primo elemento della lista e si dice essere la testa (o head) della lista. Se, invece, x.next = NIL, allora x`e l’ultimo elemento della lista e si
 
 dice essere la coda (o tail) della lista. Intuitivamente, l’attributo L.head punta alla testa della lista, che
 
