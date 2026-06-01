@@ -1519,29 +1519,24 @@ La procedura `quickSort` è implementata tramite il seguente *pseudocodice*:
 		`quickSort (A , p , q -1)`
 		`quicksort (A , q +1 , p )`
 
-Per pter ordinare un intero array A, la chiamata iniziale a tale algoritmo `e quickSort(A, 1, A.
+Per poter ordinare un intero array `A`, la chiamata iniziale a tale algoritmo è `quickSort(A, 1, A.length)`. Si noti che all’interno di tale algoritmo viene chiamata la sottoprocedura `partition`, definita come segue in *pseudocodifica*:
 
-length). Si noti che all’interno di tale algoritmo viene chiamata la sottoprocedura partition, definita
+`partition (A , p , r ) :`
+`x := A [ r ]`
 
-come segue in pseudocodifica:
+`3 i := p - 1`
 
-1 partition (A , p , r ) :
+`4 f o r j := p to r - 1:`
 
-2 x := A [ r ]
+`5 i f A [ j ] <= x :`
 
-3 i := p - 1
+`6 i := i + 1`
 
-4 f o r j := p to r - 1:
+`7 swap A [ i ] with A [ j ]`
 
-5 i f A [ j ] <= x :
+`8 swap A [ i + 1] with A [ r ]`
 
-6 i := i + 1
-
-7 swap A [ i ] with A [ j ]
-
-8 swap A [ i + 1] with A [ r ]
-
-9 return i + 1
+`9 return i + 1`
 
 Questo algoritmo riarrangia il sottoarray A[p..r] sul posto selezionando un elemento x = A[r] come
 
