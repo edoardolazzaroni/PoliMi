@@ -1690,22 +1690,18 @@ algoritmi che le manipolano.
 
 Si noti quindi che l’algoritmo listSearch cerca l’elemento di chiave $k$ tramite una ricerca lineare sulla list $L$ di $n$ elementi. Dunque, l’algoritmo impiega un tempo $Θ(n)$ nel caso peggiore, in quanto potrebbe essere necessario scorrere l’intera lista.
 
-- **==Inserimento==**: La seconda procedura analizzata è `listInsert(L, x)` che inserisce l’elemento $x$ di attributo key (già inizializzato) in testa alla lista. *In pseudocodifica*:
+- **==Inserimento==**: la seconda procedura analizzata è `listInsert(L, x)` che inserisce l’elemento $x$ di attributo key (già inizializzato) in testa alla lista. *In pseudocodifica*:
 
 	`listInsert (L , x ) :`
 		`x . next := L . head`
 		`if L . head != NIL :`
 			`L . head . prev := x`
-			`L . head := x`
-			`x . prev := NIL`
+		`L . head := x`
+		`x . prev := NIL`
 
-Questa procedura impiega un tempo costante Θ(1) per la sua esecuzione.
+Questa procedura impiega un tempo costante $Θ(1)$ per la sua esecuzione.
 
-Rimozione L’ultima procedura analizzata per le linked list `e listDelete(L, x), che rimuove l’e-
-
-lemento x dalla lista L. Per poter eliminare tale elemento `e prima necessario chiamare la funzione
-
-listSearch per ottenere il puntatore all’elemento desiderato. In pseudocodifica:66 CAPITOLO 9. STRUTTURE DATI
+- **==Rimozione==**: l’ultima procedura analizzata per le linked list è `listDelete(L, x)`, che rimuove l’elemento $x$ dalla lista $L$; per poter eliminare tale elemento è prima necessario chiamare la funzione `listSearch` per ottenere il puntatore all’elemento desiderato. In pseudocodifica:66 CAPITOLO 9. STRUTTURE DATI
 
 1 li st De le te (L , x ) :
 
