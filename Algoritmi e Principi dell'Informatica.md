@@ -1522,27 +1522,16 @@ La procedura `quickSort` è implementata tramite il seguente *pseudocodice*:
 Per poter ordinare un intero array `A`, la chiamata iniziale a tale algoritmo è `quickSort(A, 1, A.length)`. Si noti che all’interno di tale algoritmo viene chiamata la sottoprocedura `partition`, definita come segue in *pseudocodifica*:
 
 `partition (A , p , r ) :`
-`x := A [ r ]`
+	`x := A [ r ]`
+	`i := p - 1`
+	`for j := p to r - 1:`
+		`if A [ j ] <= x :`
+			`i := i + 1`
+			`swap A [ i ] with A [ j ]`
+	`swap A [ i + 1] with A [ r ]`
+	`return i + 1`
 
-`3 i := p - 1`
-
-`4 f o r j := p to r - 1:`
-
-`5 i f A [ j ] <= x :`
-
-`6 i := i + 1`
-
-`7 swap A [ i ] with A [ j ]`
-
-`8 swap A [ i + 1] with A [ r ]`
-
-`9 return i + 1`
-
-Questo algoritmo riarrangia il sottoarray A[p..r] sul posto selezionando un elemento x = A[r] come
-
-pivot, intorno a cui partizionare l’array. All’inizio di ogni iterazione del ciclo for di riga 4, per qualsiasi
-
-indice k si individuano quattro regioni:
+Questo algoritmo riarrangia il sottoarray `A[p..r]` sul posto selezionando un elemento `x = A[r]` come pivot, intorno a cui partizionare l’array. All’inizio di ogni iterazione del ciclo `for` di riga 4, per qualsiasi indice k si individuano quattro regioni:
 
 1. Se p≤k≤i, allora A[k] ≤ x;
 
