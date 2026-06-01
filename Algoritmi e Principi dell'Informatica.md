@@ -1648,32 +1648,17 @@ Le **code** sono insiemi dinamici dove l’elemento da rimuovere tramite l’ope
 Questa struttura dati può essere implementata tramite un array di $n$ elementi `Q[1..n]`, che contiene un massimo di $n−1$ elementi, per ragioni che verranno chiarite in seguito. L’attributo `Q.head` punta all’inizio della coda, mentre l’attributo `Q.tail` punta alla posizione in cui l’ultimo elemento che dovrà essere inserito prenderà posto (ovvero alla posizione vuota successiva all’ultimo elemento della coda).
 
 Gli elementi della coda, quindi, occupano le posizioni `Q.head, Q.head + 1, ..., Q.tail - 1`. Alla fine dell’array la posizione $1$ della queue segue immediatamete la posizione $n$ secondo un ordine circolare.
+Se `Q.head = Q.tail` allora la coda è vuota. All’inizio le posizioni `Q.head` e `Q.tail` combaciano e sono entrambe inizializzate al valore $1$.
 
-Se Q.head = Q.tail allora la coda `e vuota. All’inizio le posizioni Q.head e Q.tail combaciano e sono
+Come per gli stack, se la coda è vuota, il tentativo di rimuovere un elemento provoca un errore di underflow, mentre se `Q.head = Q.tail + 1` la coda è piena e il tentativo di inserire un nuovo elemento provoca un errore di overflow.
+Le operazioni della queue possono essere implementate molto semplicemente in *pseudocodifica* come segue:
 
-entrambe inizializzate al valore 1.
-
-Come per gli stack, se la coda `e vuota, il tentativo di rimuovere un elemento provoca un errore di
-
-underflow, mentre se Q.head = Q.tail + 1 la coda `e piena e il tentativo di inserire un nuovo elemento
-
-provoca un errore di overflow.
-
-Le operazioni della queue possono essere implementate molto semplicemente in pseudocodifica come
-
-segue:
-
-1 enqueue (Q , x ) :
-
-2 Q [ Q . tail ] := x
-
-3 i f Q . tail = Q . length :
-
-4 Q . tail := 1
-
-5 e l s e :
-
-6 Q . tail := Q . tail + 1
+`enqueue (Q , x ) :`
+`Q [ Q . tail ] := x`
+`i f Q . tail = Q . length :`
+`4 Q . tail := 1`
+`5 e l s e :`
+`6 Q . tail := Q . tail + 1`
 
 9.3. LINKED LIST 65
 
