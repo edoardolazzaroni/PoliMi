@@ -1552,21 +1552,9 @@ Il comportamento nel caso peggiore si verifica quando la subroutine partition pr
 
 Intuitivamente, se si sommano i costi ad ogni livello della ricorsione si ottiene una serie aritmetica, il cui valore è $Θ(n^2)$. Questa situazione si verifica quando l’array di partenza è già completamente ordinato.
 
-Il comportamento nel caso ottimo si verifica quando la subroutine partition produce due sottoproblemi di dimensione non maggiore di $n/2$: in questo caso il tempo di esecuzione dell’algoritmo è molto più rapido e avviene in un tempo totale $T(n) ≤2T(n/2) + Θ(n)$, che per il secondo caso del teorema dell’esperto, ha soluzione $T(n) = Θ(n \ log \ n)$. Si noti, inoltre, che nel caso in cui la partizione
+Il comportamento nel caso ottimo si verifica quando la subroutine partition produce due sottoproblemi di dimensione non maggiore di $n/2$: in questo caso il tempo di esecuzione dell’algoritmo è molto più rapido e avviene in un tempo totale $T(n) ≤2T(n/2) + Θ(n)$, che per il secondo caso del teorema dell’esperto, ha soluzione $T(n) = Θ(n \ log \ n)$. Si noti, inoltre, che nel caso in cui la partizione non fosse perfettamente bilanciata, l’algoritmo riuscirebbe comunque a riordinare l’array in un tempo $T(n) = Θ(n \ log \ n)$: questo dimostra che il `quickSort` è un algoritmo molto più vicino al caso ottimo che al caso pessimo, caso che si verifica in una sola istanza del problema (quando, appunto, è ordinato).
 
-non fosse perfettamente bilanciata, l’algoritmo riuscirebbe comunque a riordinare l’array in un tempo
-
-T(n) = Θ(nlogn): questo dimostra che il quickSort `e un algoritmo molto pi`u vicino al caso ottimo che
-
-al caso pessimo, caso che si verifica in una sola istanza del problema (quando, appunto, `e ordinato).
-
-Il comportamento nel caso medio si verifica quando la subroutine partition produce una combina-
-
-zione di partizioni ’buone’ e ’cattive’. Si suppone, per semplicit`a, che le partizioni buone e cattive si
-
-alternino all’interno dell’albero di ricorsione e che quelle buone siano tutte nel caso migliore, mentre le
-
-quelle cattive siano nel caso pessimo. Si ipotizzi che nella radice dell’albero il costo di ripartizione `e ne i
+Il comportamento nel caso medio si verifica quando la subroutine `partition` produce una combinazione di partizioni ’buone’ e ’cattive’. Si suppone, per semplicità, che le partizioni buone e cattive si alternino all’interno dell’albero di ricorsione e che quelle buone siano tutte nel caso migliore, mentre le quelle cattive siano nel caso pessimo. Si ipotizzi che nella radice dell’albero il costo di ripartizione è ne i
 
 sottoarray prodotti hanno dimensione n−1 e 0 (caso pessimo), mentre nel livello successivo il prtiziona-
 
