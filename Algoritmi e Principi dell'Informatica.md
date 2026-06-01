@@ -1647,9 +1647,7 @@ Le **code** sono insiemi dinamici dove l’elemento da rimuovere tramite l’ope
 
 Questa struttura dati può essere implementata tramite un array di $n$ elementi `Q[1..n]`, che contiene un massimo di $n−1$ elementi, per ragioni che verranno chiarite in seguito. L’attributo `Q.head` punta all’inizio della coda, mentre l’attributo `Q.tail` punta alla posizione in cui l’ultimo elemento che dovrà essere inserito prenderà posto (ovvero alla posizione vuota successiva all’ultimo elemento della coda).
 
-Gli elementi della coda, quindi, occupano le posizioni Q.head, Q.head + 1, ..., Q.tail - 1. Alla fine
-
-dell’array la posizione 1 della queue segue immediatamete la posizione n secondo un ordine circolare.
+Gli elementi della coda, quindi, occupano le posizioni `Q.head, Q.head + 1, ..., Q.tail - 1`. Alla fine dell’array la posizione $1$ della queue segue immediatamete la posizione $n$ secondo un ordine circolare.
 
 Se Q.head = Q.tail allora la coda `e vuota. All’inizio le posizioni Q.head e Q.tail combaciano e sono
 
