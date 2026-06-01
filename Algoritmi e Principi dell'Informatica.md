@@ -1544,19 +1544,11 @@ Questo algoritmo riarrangia il sottoarray `A[p..r]` sul posto selezionando un el
 Le ultime due righe della procedeura invece inseriscono il pivot al suo posto nel mezzo dell’array,
 scambiandolo con l’elemento più a sinistra, che è maggiore di $x$, e restituisce un nuovo indice di pivot. Il tempo di esecuzione dell’algoritmo partition con input il sottoarray `A[p..r]` è $Θ(n)$, con $n= r−p+1$.
 
-Il tempo di esecuzione dell’algoritmo `quickSort` dipende solamente da come viene partizionato l’array (in maniera bilanciata o meno) che, a sua volta, dipende da quali elementi vengono utilizzati per il partizionamento. Se il partizionamento è bilanciato, l’algoritmo ha un tempo di esecuzione $Θ(n \ log \ n)$, mentre nel caso peggiore, quando il partizionamento è sbilanciato, l’algoritmo converge ad una soluzione
+Il tempo di esecuzione dell’algoritmo `quickSort` dipende solamente da come viene partizionato l’array (in maniera bilanciata o meno) che, a sua volta, dipende da quali elementi vengono utilizzati per il partizionamento. Se il partizionamento è bilanciato, l’algoritmo ha un tempo di esecuzione $Θ(n \ log \ n)$, mentre nel caso peggiore, quando il partizionamento è sbilanciato, l’algoritmo converge ad una soluzione in un tempo $Θ(n^2)$.
 
-in un tempo Θ(n2).
+Il comportamento nel caso peggiore si verifica quando la subroutine partition produce un sottoproblema con $n−1$ elementi e uno vuoto. Per calcolare il tempo di esecuzione, si suppone che questo sbilanciamento si verifichi per ogni chiamata ricorsiva. Il partizionamento costa un tempo di esecuzione $Θ(n)$ e, dato che uno dei due array è vuoto e l'altro conta $n−1$ elementi, si ha un tempo totale:
 
-Il comportamento nel caso peggiore si verifica quando la subroutine partition produce un sotto-
-
-problema con n−1 elementi e uno vuoto. Per calcolare il tempo di esecuzione, si suppone che questo60 CAPITOLO 8. ALGORITMI
-
-sbilanciamento si verifichi per ogni chiamata ricorsiva. Il partizionamento costa un tempo di esecuzione
-
-Θ(n) e, dato che uno dei due array `e vuoto e l`aaltro conta n−1 elementi, si ha un tempo totale:
-
-T(n) = T(n−1) + T(0) + Θ(n) = T(n−1) + Θ(1) + Θ(n)
+				$T(n) = T(n−1) + T(0) + Θ(n) = T(n−1) + Θ(1) + Θ(n)$
 
 Intuitivamente, e si sommano i costi ad ogni livello della ricorsione si ottiene una serie aritmetica, il cui
 
