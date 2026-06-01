@@ -1722,16 +1722,12 @@ Prima di procedere con l’introduzione alle tavole di hash, è prima necessario
 
 Le operazioni di dizionario sono semplici da implementare in *pseudocodifica* e impiegano tutte un tempo costante $O(1)$ (nel caso peggiore):
 
-`1 d i r e c t A d d r e s s S e a r c h (T , 2 return T [ k ]`
-
-`k ) :`
+`1 directAddressSearch (T ,k ) :
+`return T [ k ]`
 
 `1 d i r e c t A d d r e s s I n s e r t (T , 2 T [ x . key ] := x`
-
 `x ) :`
-
 `1 d i r e c t A d d r e s s D e l e t e (T , 2 T [ x . key ] := NIL`
-
 `x ) :`
 
 In alcune implementazioni `e possibile memorizzare l’elemento di chiave k direttamente all’interno
