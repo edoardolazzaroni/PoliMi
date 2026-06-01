@@ -1513,15 +1513,11 @@ L’idea generale di questo algoritmo si basa sui tre tipici passi del metodo di
 
 La procedura `quickSort` è implementata tramite il seguente *pseudocodice*:
 
-1 quickSort (A , p , r ) :
-
-2 i f p < r :
-
-3 q = partition (A , p , r )
-
-4 quickSort (A , p , q -1)
-
-5 quicksort (A , q +1 , p )
+`quickSort (A , p , r ) :`
+	`if p < r :`
+		`q = partition (A , p , r )`
+		`quickSort (A , p , q -1)`
+		`quicksort (A , q +1 , p )`
 
 Per pter ordinare un intero array A, la chiamata iniziale a tale algoritmo `e quickSort(A, 1, A.
 
