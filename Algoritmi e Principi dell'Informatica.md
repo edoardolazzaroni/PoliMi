@@ -1627,22 +1627,18 @@ Le operazioni dello stack possono essere implementate molto semplicemente in *ps
 	`if S . top = S . length :`
 		`error " overflow "`
 	`else :`
+		`S.top := S . top + 1`
+		`S [S.top] := x`
 
-`5 S . top := S . top + 1`
 
-`6 S [ S . top ] := x`
+`pop ( S ) :`
+	`if iS.top = 0:`
+		`error " underflow "`
+	`else :`
 
-1 pop ( S ) :
+`S. top := S . top - 1`
 
-2 i f iS . top = 0:
-
-3 error " underflow "
-
-4 e l s e :
-
-5 S . top := S . top - 1
-
-6 return S [ S . top + 1]
+`6 return S [ S . top + 1]`
 
 Si noti come, in questo caso, l’operazione di pop ritorna l’elemento appena eliminato dallo stack.
 
