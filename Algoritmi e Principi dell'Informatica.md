@@ -1542,17 +1542,9 @@ Questo algoritmo riarrangia il sottoarray `A[p..r]` sul posto selezionando un el
 4. Gli indici $k$ tali che $j ≤k≤r−1$ non hanno una particolare relazione con il pivot $x$.
 
 Le ultime due righe della procedeura invece inseriscono il pivot al suo posto nel mezzo dell’array,
-scambiandolo con l’elemento più a sinistra, che è maggiore di $x, e restituisce un nuovo indice di pivot. Il
+scambiandolo con l’elemento più a sinistra, che è maggiore di $x$, e restituisce un nuovo indice di pivot. Il tempo di esecuzione dell’algoritmo partition con input il sottoarray `A[p..r]` è $Θ(n)$, con $n= r−p+1$.
 
-tempo di esecuzione dell’algoritmo partition con input il sottoarray A[p..r] `e Θ(n), con n= r−p+1.
-
-Il tempo di esecuzione dell’algoritmo quickSort dipende solamente da come viene partizionato l’array
-
-(in maniera bilanciata o meno) che, a sua volta, dipende da quali elementi vengono utilizzati per il
-
-partizionamento. Se il partizionamento `e bilanciato, l’algoritmo ha un tempo di esecuzione Θ(nlogn),
-
-mentre nel caso peggiore, quando il partizionamento `e sbilanciato, l’algoritmo converge ad una solzuione
+Il tempo di esecuzione dell’algoritmo `quickSort` dipende solamente da come viene partizionato l’array (in maniera bilanciata o meno) che, a sua volta, dipende da quali elementi vengono utilizzati per il partizionamento. Se il partizionamento è bilanciato, l’algoritmo ha un tempo di esecuzione $Θ(n \ log \ n)$, mentre nel caso peggiore, quando il partizionamento è sbilanciato, l’algoritmo converge ad una soluzione
 
 in un tempo Θ(n2).
 
