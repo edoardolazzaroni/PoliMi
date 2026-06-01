@@ -1727,12 +1727,12 @@ Le operazioni di dizionario sono semplici da implementare in *pseudocodifica* e 
 
 `directAddressInsert (T ,x ) :`
 	`T [ x . key ] := x`
-`1 d i r e c t A d d r e s s D e l e t e (T , 2 T [ x . key ] := NIL`
-`x ) :`
 
-In alcune implementazioni `e possibile memorizzare l’elemento di chiave k direttamente all’interno
+`directAddressDelete (T ,x ) :`
+	` T [ x . key ] := NIL`
 
-della tabella, anzich`e in un oggetto esterno, risparmiando spazio in memoria.
+In alcune implementazioni è possibile memorizzare l’elemento di chiave $k$ direttamente all’interno della tabella, anzichè in un oggetto esterno, risparmiando spazio in memoria.
+
 
 9.4.2 Introduzione alle Tavole di Hash
 
