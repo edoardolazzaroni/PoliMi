@@ -1635,16 +1635,13 @@ Le operazioni dello stack possono essere implementate molto semplicemente in *ps
 	`if iS.top = 0:`
 		`error " underflow "`
 	`else :`
+		`S.top := S . top - 1`
+		`return S [ S . top + 1]`
 
-`S. top := S . top - 1`
+Si noti come, in questo caso, l’operazione di `pop` ritorna l’elemento appena eliminato dallo stack. Entrambe le procedure vengono eseguite in tempo costante $Θ(1)$.
 
-`6 return S [ S . top + 1]`
 
-Si noti come, in questo caso, l’operazione di pop ritorna l’elemento appena eliminato dallo stack.
-
-Entrambe le procedure vengono eseguite in tempo costante Θ(1).
-
-9.2 Queue
+### **9.2 Queue**
 
 Le code sono insiemi dinamici dove l’elemento da rimuovere tramite l’operazione delete `e predeter-
 
