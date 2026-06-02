@@ -1747,7 +1747,7 @@ Quando l’insieme $K$ delle chiavi memorizzate in un dizionario è molto più p
 Si dice che $h(k)$ è il valore hash della chiave $k$.
 
 
-#### **9.4.3 Hashing Concatenato**
+9.4.3 Hashing Concatenato
 
 Il problema principale con la tecnica di indirizzamento appena analizzata `e che, riducendo l’intervallo
 
