@@ -1932,19 +1932,7 @@ La procedura per trovare il successore è simmetrica alla procedura appena anali
 	`else :`
 		`y . right := z`
 
-La procedura appena vista inizia dalla radice dell’albero e il puntatore $x$ traccia un cammino semplice in discesa cercando un `NIL` da sostituire con l’elemento di input $z$. La procedura mantiene anche un puntatore $y$ detto inseguitore che punta sempre al padre di $x$. Le righe 4-9 del ciclo `while` spostano questi
-
-due puntatori verso il basso, andando a sinistra o a destra a seconda dell’esito del confronto fra z.key e
-
-x.key, finch`e a x non viene assegnato il valore NIL. A questo punto si rende necessario il puntatore y
-
-perch`e, quando si arriva a trovare il valore NIL da sostituire con il nodo z, la ricerca `e andata un passo9.5. ALBERI BINARI 73
-
-oltre il nodo che deve essere modificato. Le righe successive inseriscono il nodo passato come argomento
-
-all’interno dell’albero binario di ricerca. In generale, questo algoritmo viene eseguito in un tempo O(h),
-
-in un albero di altezza h.
+La procedura appena vista inizia dalla radice dell’albero e il puntatore $x$ traccia un cammino semplice in discesa cercando un `NIL` da sostituire con l’elemento di input $z$. La procedura mantiene anche un puntatore $y$ detto inseguitore che punta sempre al padre di $x$. Le righe 4-9 del ciclo `while` spostano questi due puntatori verso il basso, andando a sinistra o a destra a seconda dell’esito del confronto fra $z.key$ e $x.key$, finchè a $x$ non viene assegnato il valore `NIL`. A questo punto si rende necessario il puntatore $y$ perchè, quando si arriva a trovare il valore `NIL` da sostituire con il nodo $z$, la ricerca è andata un passo oltre il nodo che deve essere modificato. Le righe successive inseriscono il nodo passato come argomento all’interno dell’albero binario di ricerca. In generale, questo algoritmo viene eseguito in un tempo $O(h)$, in un albero di altezza $h$.
 
 Cancellazione suddivide in tre casi:
 
