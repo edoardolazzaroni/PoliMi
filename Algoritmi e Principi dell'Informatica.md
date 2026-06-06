@@ -2114,8 +2114,8 @@ Una volta introdotta questa procedura, è possibile analizzare l’algoritmo di 
 		`if x = x . parent . left :`
 			`w := x . parent . right`
 			`if w . color = RED :`
-				`w . color := BLACK // caso 1`
-				`x . parent . color := RED`
+				`w . color := BLACK`                                                                                // caso 1
+				`x . parent . color := RED`                    
 				`leftRotate (T , x . parent )`
 				`w := x . parent . right`
 			`if w . left . color = BLACK and w . roght . colr = BLACK :`
@@ -2133,10 +2133,8 @@ Una volta introdotta questa procedura, è possibile analizzare l’algoritmo di 
 				`leftRotate (T , x . parent )`
 				`x := T . root`
 		`else :`
-
-`come righe 4 -23 con " left " e " right " scambiati`
-
-`26 x . color := BLACK`
+			`// come righe 4-23 con "left" e "right" scambiati //`
+	`x . color := BLACK`
 
 
 
