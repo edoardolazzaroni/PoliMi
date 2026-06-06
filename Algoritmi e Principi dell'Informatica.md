@@ -2125,8 +2125,12 @@ Una volta introdotta questa procedura, è possibile analizzare l’algoritmo di 
 			`if w . right . color = BLACK :`
 				`w . left . color = BLACK`
 				`w . color = RED`
-
-`rightRotate (T , w ) 18 w := x . parent . right 19 w . color := x . parent . color 20 x . parent . color := BLACK 21 w . right . color := BLACK 22 le ft Ro ta te (T , x . parent ) // caso 3`
+				`rightRotate (T , w )`
+				`w := x . parent . right`
+				`w . color := x . parent . color`
+				`x . parent . color := BLACK`
+				`w . right . color := BLACK`
+				`leftRotate (T , x . parent )`
 
 `// caso 3`
 
