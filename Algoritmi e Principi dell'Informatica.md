@@ -1751,17 +1751,9 @@ Si dice che $h(k)$ è il valore hash della chiave $k$.
 
 Il problema principale con la tecnica di indirizzamento appena analizzata è che, riducendo l’intervallo degli indici da $|U|$ ad $m << |U|$, è molto probabile che due chiavi vengano mappate nella stessa cella: in tal caso si dice che avviene una collisione. Per evitare un evento simile è possibile, in prima analisi, implementare una funzione di hash totalmente deterministica il più randomica possibile, in modo da minimizzare le collisioni. Si dimostra però che un evento di collisione è impossibile da evitare in quanto $|U|>m$ e quindi, dopo l’$m$-esima chiamata alla funzione di hash, avverà sicuramente una collisione.
 
-Si rende necessario, dunque, implementare un meccanismo che gestisca tali eventi. Nello specifico, la tecnica più utilizzata è il concatenamento (o chaining), tramite cui, tutti gli elementi associati ad una
+Si rende necessario, dunque, implementare un meccanismo che gestisca tali eventi. Nello specifico, la tecnica più utilizzata è il concatenamento (o chaining), tramite cui, tutti gli elementi associati ad una stessa cella $k$ sono posti in una lista concatenata. La cella $k$, in questo caso, punta al nodo di testa della lista che contiene gli elementi mappati in tale cella, oppure ha valore `NIL`, nel caso in cui la cella non contenga nessun elemento.
 
-stessa cella k sono posti in una lista concatenata. La cella k, in questo caso, punta al nodo di testa della
-
-lista che contiene gli elementi mappati in tale cella, oppure ha valore NIL, nel caso in cui la cella non
-
-contenga nessun elemento.
-
-Le operazioni di dizionario su una tavola di hash T sono facili da implementare in pseudocodifica nel
-
-caso di gestione delle collisioni tramite concatenamento:
+Le operazioni di dizionario su una tavola di hash $T$ sono facili da implementare in pseudocodifica nel caso di gestione delle collisioni tramite concatenamento:
 
 1 c h a i n e d H a s h I n s e r t (T , x ) :
 
