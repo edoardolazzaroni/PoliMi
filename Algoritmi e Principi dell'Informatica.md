@@ -1981,26 +1981,13 @@ Nello specifico, la riga 7 trova il nodo $y$, successore di $z$: poichè $z$ ha 
 Gli alberi rosso nero sono strutture dati ad albero di ricerca binaria con un bit aggiuntivo di memoria per ogni nodo, che rappresenta il colore di tale nodo. Questa struttura dati garantisce che nessun cammino semplice dalla radice dell’albero fino ad una sua qualsiasi foglia sia più lungo del doppio di qualsiasi altro cammino: si dice, quindi, che l’albero è approssimativamente bilanciato. Ogni nodo dell’albero contiene ora gli attributi `key, left, right, parent` e `color`. Se un nodo non contiene riferimenti a figli o al nodo padre, il corrispondente attributo viene inizializzato con il valore `NIL`. In questo caso, i puntatori a `NIL` vengono trattati come puntatori a nodi (vuoti) esterni dell’albero, mentre i nodi che contengono informazioni sono trattati come nodi interni all’albero: dunque, tutte le foglie dell’albero sono nodi che non contengono nessuna informazione. In realtà, per semplificare le condizioni al contorno nello pseudocodice, si è soliti utilizzare un unico nodo sentinella inizializzato a `NIL`, in modo che per ogni albero $T$, le sue foglie puntano al nodo `T.nil` di color nero.
 
 I nodi dell’albero rosso nero vengono colorati tramite le seguenti regole:
+1. Ogni nodo è rosso o nero;
+2. La radice è nera;
+3. Ogni foglia (vuota - `NIL`) è nera;
+4. Se un nodo è rosso, allora entrambi i suoi figli sono neri;
+5. Per ogni nodo, tutti i cammini semplici, che vanno dal nodo alle sue foglie discendenti, contengono lo stesso numero di nodi neri.
 
-1. Ogni nodo `e rosso o nero;
-
-2. La radice `e nera;
-
-3. Ogni foglia (vuota - NIL) `e nera;
-
-4. Se un nodo `e rosso, allora entrambi i suoi figli sono neri;
-
-5. Per ogni nodo, tutti i cammini semplici, che vanno dal nodo alle sue foglie discendenti, contengono
-
-lo stesso numero di nodi neri.
-
-Si definisce a questo proposito, altezza nera di un nodo x, indicato con bh(x), il numero di nodi neri
-
-lungo un cammino semplice che inizia dal nodo x(non incluso). Per la propriet`a degli alberi rosso nero,
-
-il concetto di altezza nera `e ben definito in quanto tutti i cammini semplici che scendono dal nodo hanno
-
-lo stesso numero di nodi neri. In generale:
+Si definisce a questo proposito, altezza nera di un nodo $x$, indicato con $bh(x)$, il numero di nodi neri lungo un cammino semplice che inizia dal nodo $x$ (non incluso). Per la proprietà degli alberi rosso nero, il concetto di altezza nera è ben definito in quanto tutti i cammini semplici che scendono dal nodo hanno lo stesso numero di nodi neri. In generale:
 
 Teorema 9.6.1. L’altezza massima di un albero rosso nero con n nodi `e 2 log2(n+ 1).
 
