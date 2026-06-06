@@ -1918,7 +1918,6 @@ NIL, sempre per la propriet`a fondamentale degli alberi binari di ricerca. In ps
 
 4 return x
 
-3consultare appendice A per approfondire la definizione di struttura dati ad albero.72 CAPITOLO 9. STRUTTURE DATI
 
 La procedura per trovare l’elemento massimo, invece, `e simmetrica alla procedura appena analizzata.
 
