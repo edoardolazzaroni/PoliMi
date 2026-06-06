@@ -2044,9 +2044,9 @@ Dunque, tramite questa procedura, il nodo $z$ viene inserito nella posizione cor
 			`y := z . parent . parent . right`
 			`if y . color = RED :`
 				`z . parent . color := BLACK`
-				`y . color := BLACK` // caso 1`
-
-`8 z . parent . parent . color := RED 9 z := z . parent . parent // caso 1`
+				`y . color := BLACK`                                                                                // caso 1
+				`z . parent . parent . color := RED` //caso
+				`z := z . parent . parent`                                                                    // caso 1
 
 `// caso 1`
 
