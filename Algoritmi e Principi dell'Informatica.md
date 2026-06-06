@@ -1768,17 +1768,8 @@ In cui le procedure `listInsert`, `listSearch` e `listDelete`, sono le stesse an
 
 Si passa ora all’analisi del tempo di esecuzione di tali procedure: nel caso peggiore, l’inserimento in lista di un nodo è $O(1)$, la ricerca avviene in tempo proporzionale alla lunghezza della lista, quindi $O(n)$, mentre l’eliminazione di un nodo dalla lista avviene, sempre nel caso peggiore, in tempo $O(1)$ se la lista è doppiamente concatenata.
 
-Si noti che la funzione chainedHashDelete prende come input un elemento x, non la sua chiave k,
+Si noti che la funzione `chainedHashDelete` prende come input un elemento $x$, non la sua chiave $k$, quindi non occorre cercare prima l’elemento $x$. Se la tavola di hash supporta la cancellazione, allora le sue liste dovrebbero essere doppiamente concatenate in modo che la cancellazione di un elemento sia più rapida. Se le liste fossero singolarmente concatenate, per cancellare l’elemento $x$, si dovrebbe prima trovare $x$ nella lista $T[h(x.key)]$  in modo da poter aggiornare l’attributo `next` dell’elemento precedente in lista, assegnandogli il valore `NIL`.
 
-quindi non occorre cercare prima l’elemento x. Se la tavola di hash supporta la cancellazione, allora
-
-le sue liste dovrebbero essere doppiamente concatenate in modo che la cancellazione di un elemento sia
-
-pi`u rapida. Se le liste fossero singolarmente concatenate, per cancellare l’elemento x, si dovrebbe prima
-
-trovare x nella lista T[h(x.key)] in modo da poter aggiornare l’attributo next dell’elemento precedente
-
-in lista, assegnandogli il valore NIL.
 
 9.4.4 Analisi della Funzione di Hash
 
