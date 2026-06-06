@@ -2125,12 +2125,12 @@ Una volta introdotta questa procedura, è possibile analizzare l’algoritmo di 
 				`if w . right . color = BLACK :`
 					`w . left . color = BLACK`                                                           // caso 3
 					`w . color = RED`                                                                             // caso 3
-					`rightRotate (T , w )`                                                                  
-					`w := x . parent . right`
-				`w . color := x . parent . color`
-				`x . parent . color := BLACK`
-				`w . right . color := BLACK`
-				`leftRotate (T , x . parent )`
+					`rightRotate (T , w )`                                                                   // caso 3
+					`w := x . parent . right`                                                             // caso 3
+				`w . color := x . parent . color`                                                     // caso 4
+				`x . parent . color := BLACK`                                                             // caso 4
+				`w . right . color := BLACK`                                                               // caso 4
+				`leftRotate (T , x . parent )`                                                           // caso 4
 				`x := T . root`
 		`else :`
 			`// come righe 4-23 con "left" e "right" scambiati //`
