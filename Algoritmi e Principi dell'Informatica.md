@@ -1834,17 +1834,7 @@ Questa procedura prende in input una tavola di hash $T$ e una chiave $k$ da inse
 Questa procedura, come la precedente, prende in input una tavola di hash $T$ e una chiave $k$ da ricercare in tabella, e ritorna l’indice della cella in cui è stato trovato l’elemento, oppure `NIL` se non è presente nessuna cella che contiene l’elemento oppure se nella sequenza di ricerca si trova una cella libera (per le ragioni precedentemente analizzate).
 
 
-- **RIMOZIONE**: La procedura di cancellazione di una chiave dalla tavola di hash ad indirizzamento aperto è un’operazione molto complessa, in quanto non è possibile semplicemente cancellare il contenuto della cella $i$, assegnandone il valore `NIL`, in quanto sarebbe impossibile ricercare qualsiasi elemento in tabella per come è stata definita la procedura di ricerca. Dunque, si rende necessario marcare la cella il cui contenuto è stato eliminato con il valore speciale DELETED, anzich`e NIL.
-
-E per questo motivo che in
-
-riga 5 della procedura di inserimento viene anche verificato se la cella ispezionata contanga il valore
-
-DELETED. Si noti inoltre che, utilizzando questa nuova notazione, il tempo di esecuzione della procedura70 CAPITOLO 9. STRUTTURE DATI
-
-di ricerca non dipende pi`u dal fattore di carico α. Per questo motivo, nella pratica si preferisce spesso
-
-utilizzare il metodo della concatenazione quando `e necessario che la tabella di hash supporti l’operazione
+- **RIMOZIONE**: La procedura di cancellazione di una chiave dalla tavola di hash ad indirizzamento aperto è un’operazione molto complessa, in quanto non è possibile semplicemente cancellare il contenuto della cella $i$, assegnandone il valore `NIL`, in quanto sarebbe impossibile ricercare qualsiasi elemento in tabella per come è stata definita la procedura di ricerca. Dunque, si rende necessario marcare la cella il cui contenuto è stato eliminato con il valore speciale `DELETED`, anzichè `NIL`. È per questo motivo che in riga 5 della procedura di inserimento viene anche verificato se la cella ispezionata contanga il valore `DELETED`. Si noti inoltre che, utilizzando questa nuova notazione, il tempo di esecuzione della procedura di ricerca non dipende più dal fattore di carico $α$. Per questo motivo, nella pratica si preferisce spesso utilizzare il metodo della concatenazione quando `e necessario che la tabella di hash supporti l’operazione
 
 di cancellazione delle chiavi.
 
