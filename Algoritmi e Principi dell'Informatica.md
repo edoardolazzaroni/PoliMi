@@ -2093,18 +2093,12 @@ Una volta introdotta questa procedura, è possibile analizzare l’algoritmo di 
 		`RBTransplant (T , z , z . left )`
 	`else :`
 		`y := treeMinimum ( z . right )`
-
-`yOrig i n a l C o l o r := y . color`
-
-`13 x := y . right`
-
-`14 i f y . parent = z :`
-
-`15 x . parent := y`
-
-`16 e l s e :`
-
-`17 18 R B T r a n s p l a n t (T , y . right := z . right`
+		`yOriginalColor := y . color`
+		`x := y . right`
+		`if y . parent = z :`
+			`x . parent := y`
+		`else :`
+			`RBTransplant (T , y . right := z . right`
 
 `y , y . right )`
 
