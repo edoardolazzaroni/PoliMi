@@ -2108,6 +2108,7 @@ Una volta introdotta questa procedura, è possibile analizzare l’algoritmo di 
 	`if yOriginalColor = BLACK :`
 		`RBDeleteFixup (T , x )`
 
+
 1 R B D e l e t e F i x u p (T , x ) :
 
 2 w h i l e x != T . root and x . color = BLACK :
@@ -2160,7 +2161,9 @@ Una volta introdotta questa procedura, è possibile analizzare l’algoritmo di 
 
 26 x . color := BLACK
 
-9.7 Grafi
+
+
+### **9.7 Grafi**
 
 Un grafo G `e una coppia (V,E), in cui V `e l’insieme finito dei vertici del grafo, mentre E `e l’insieme
 
