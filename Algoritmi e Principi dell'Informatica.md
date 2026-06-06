@@ -1866,7 +1866,7 @@ Tale proprietà permette di elencare ordinatamente tutte le chiavi di un albero 
 
 Per attraversare un albero binario di ricerca costituito da $n$ nodi, è necessario un tempo $Θ(n)$, in quanto, dopo la chiamata iniziale, la procedura viene chiamata ricorsivamente esattamente due volte per ogni nodo dell’albero.
 
-- **RICERCA**: un’altra tipica operazione svolta su un albero binario di ricerca è quella di cercare una chiave memorizzata nell’albero: oltre all’operazione `search`, gli alberi binari supportano anche query come `minimum, maximum, successor` e `predecessor`.
+- **==RICERCA==**: un’altra tipica operazione svolta su un albero binario di ricerca è quella di cercare una chiave memorizzata nell’albero: oltre all’operazione `search`, gli alberi binari supportano anche query come `minimum, maximum, successor` e `predecessor`.
 	Dato un puntatore alla radice dell’albero e una chiave $k$ da cercare, la procedura `treeSearch` restituisce il puntatore al nodo di chiave $k$, se esiste, oppure `NIL`, se la chiave non è presente nell’albero. *In pseudocodifica*:
 
 `treeSearch (x , k ) :`
@@ -1880,7 +1880,7 @@ Per attraversare un albero binario di ricerca costituito da $n$ nodi, è necessa
 Questo algoritmo inizia la sua ricerca dalla radice dell’albero e ad ogni iterazione confronta il valore $k$ passato come argomento con $x.key$. Se le due chiavi sono uguali la ricerca termina e viene restituito il puntatore al nodo, mentre se la chiave è minore della chiave corrente analizzata, per la proprietà fondamentale degli alberi binari, si chiama ricorsivamente la procedura sul sottoalbero sinistro, altrimenti sul sottoalbero destro. Il tempo di esecuzione di tale algoritmo è $O(h)$, dove $h$ rappresenta l’altezza dell’albero.
 
 
-- **MINIMO e MASSIMO**: un elemento con chiave minima in un albero binario di ricerca può sempre essere trovato seguendo, a partire dalla radice, i puntatori left, fino a quando non viene incontrato un valore `NIL`, sempre per la proprietà fondamentale degli alberi binari di ricerca. *In pseudocodifica*:
+- ==**MINIMO e MASSIMO**==: un elemento con chiave minima in un albero binario di ricerca può sempre essere trovato seguendo, a partire dalla radice, i puntatori left, fino a quando non viene incontrato un valore `NIL`, sempre per la proprietà fondamentale degli alberi binari di ricerca. *In pseudocodifica*:
 
 `treeMinimum ( x ) :`
 	`while x . left != NIL :`
@@ -1897,7 +1897,7 @@ La procedura per trovare l’elemento massimo, invece, è simmetrica alla proced
 Entrambe queste procedure vengono eseguite in un tempo $O(h)$, in un albero di altezza $h$.
 
 
-- **SUCCESSORE e PREDECESSORE**: dato un nodo in un albero binario di ricerca, spesso è necessario trovare il suo successore, nell’ordine stabilito da un attraversamento simmetrico. Il successore di un nodo $x$ è il nodo con la più piccola chiave maggiore di $x.key$. La struttura di un albero binario consente di trovare tale nodo senza il bisogno di confrontare le chiavi. *In pseudocodifica*:
+- ==**SUCCESSORE e PREDECESSORE**==: dato un nodo in un albero binario di ricerca, spesso è necessario trovare il suo successore, nell’ordine stabilito da un attraversamento simmetrico. Il successore di un nodo $x$ è il nodo con la più piccola chiave maggiore di $x.key$. La struttura di un albero binario consente di trovare tale nodo senza il bisogno di confrontare le chiavi. *In pseudocodifica*:
 
 `treeSuccessor ( x ) :`
 	`if x . right != NIL :`
@@ -1913,7 +1913,7 @@ Questa operazione è svolta in un tempo $O(h)$, con $h$ l’altezza dell’alber
 La procedura per trovare il successore è simmetrica alla procedura appena analizzata e viene svolta nello stesso tempo.
 
 
-- **INSERIMENTO**: per inserire un nuovo valore $v$ all’interno dell’albero binario di ricerca $T$, si utilizza la seguente procedura, che riceve in input un nodo $z$, tale per cui $z.key= v$:
+- **==INSERIMENTO==**: per inserire un nuovo valore $v$ all’interno dell’albero binario di ricerca $T$, si utilizza la seguente procedura, che riceve in input un nodo $z$, tale per cui $z.key= v$:
 
 `treeInsert (T , z ) :`
 	`y := NIL`
@@ -1935,7 +1935,7 @@ La procedura per trovare il successore è simmetrica alla procedura appena anali
 La procedura appena vista inizia dalla radice dell’albero e il puntatore $x$ traccia un cammino semplice in discesa cercando un `NIL` da sostituire con l’elemento di input $z$. La procedura mantiene anche un puntatore $y$ detto inseguitore che punta sempre al padre di $x$. Le righe 4-9 del ciclo `while` spostano questi due puntatori verso il basso, andando a sinistra o a destra a seconda dell’esito del confronto fra $z.key$ e $x.key$, finchè a $x$ non viene assegnato il valore `NIL`. A questo punto si rende necessario il puntatore $y$ perchè, quando si arriva a trovare il valore `NIL` da sostituire con il nodo $z$, la ricerca è andata un passo oltre il nodo che deve essere modificato. Le righe successive inseriscono il nodo passato come argomento all’interno dell’albero binario di ricerca. In generale, questo algoritmo viene eseguito in un tempo $O(h)$, in un albero di altezza $h$.
 
 
-- **CANCELLAZIONE**: la procedura per la cancellazione di un nodo $z$ da un albero binario di ricerca si suddivide in tre casi:
+- **==CANCELLAZIONE==**: la procedura per la cancellazione di un nodo $z$ da un albero binario di ricerca si suddivide in tre casi:
 
 1. Se il nodo $z$ non ha figli, si modifica il nodo $z.parent$ in modo che non punti più a $z$, ma a `NIL`
 2. Se il nodo $z$ ha un solo figlio, si eleva il figlio di tale nodo in modo che occupi la posizione di $z$ nell’albero, modificando il padre di $z$ affinchè punti al figlio di $z$;
@@ -1993,7 +1993,7 @@ Si definisce a questo proposito, altezza nera di un nodo $x$, indicato con $bh(x
 
 La conseguenza immediata di questo teorema è che le operazioni sugli insiemi dinamici possono tutte essere implementate in un tempo $O(log_2 \ n)$ negli alberi rosso neri, perchè possono essere eseguite nel tempo $O(h)$ in un albero binario di ricerca di altezza $h$ e qualsiasi albero rosso nero di $n$ nodi è un albero binario di ricerca di altezza $O(log_2 \ n)$.
 
-- **ROTAZIONE**: le operazioni di `treeInsert` e `treeDelete` sugli alberi rosso nero potrebbero violare le proprietà della struttura, proprio perchè modificano l’albero. Si rende quindi necessario ricalcolare i colori di qualche nodo dell’albero e anche la struttura dei puntatori, dopo la chiamata a una delle due procedure. La struttura dei puntatori viene modificata tramite una rotazione, ovvero un’operazione locale che preserva le proprietà degli alberi binari di ricerca. Quando si esegue una rotazione sinistra in un nodo $x$, supponendo che il nodo $y= x.right$ sia diverso da `NIL`, si fa ”perno” sul collegamento tra $x$ e $y$: il nodo $y$ diventa la nuova radice del sottoalbero, con $x$ come figlio sinistro di $y$ e il figlio sinistro di $y$ come figlio destro di $x$. *In pseudocodifica*:
+- **==ROTAZIONE==**: le operazioni di `treeInsert` e `treeDelete` sugli alberi rosso nero potrebbero violare le proprietà della struttura, proprio perchè modificano l’albero. Si rende quindi necessario ricalcolare i colori di qualche nodo dell’albero e anche la struttura dei puntatori, dopo la chiamata a una delle due procedure. La struttura dei puntatori viene modificata tramite una rotazione, ovvero un’operazione locale che preserva le proprietà degli alberi binari di ricerca. Quando si esegue una rotazione sinistra in un nodo $x$, supponendo che il nodo $y= x.right$ sia diverso da `NIL`, si fa ”perno” sul collegamento tra $x$ e $y$: il nodo $y$ diventa la nuova radice del sottoalbero, con $x$ come figlio sinistro di $y$ e il figlio sinistro di $y$ come figlio destro di $x$. *In pseudocodifica*:
 
 `leftRotate (T , x ) :`
 	`y := x . right`
@@ -2013,7 +2013,7 @@ La conseguenza immediata di questo teorema è che le operazioni sugli insiemi di
 Il codice per la procedura `rightRotate` è simmetrico a quello appena analizzato. Entrambe le procedure vengono eseguite nel tempo $O(1)$.
 
 
-- **INSERIMENTO**: l’inserimento di un nodo in un albero rosso nero viene eseguito tramite una versione leggermente modificata della procedura di inserimento analizzata per gli alberi binari di ricerca. Inoltre, per poter preservare le condizioni degli alberi rosso neri, è necessario utilizzare una seconda procedura che ricolora i nodi dell’albero in seguito alla chiamata della procedura di inserimento. *In pseudocodifica*:
+- **==INSERIMENTO==**: l’inserimento di un nodo in un albero rosso nero viene eseguito tramite una versione leggermente modificata della procedura di inserimento analizzata per gli alberi binari di ricerca. Inoltre, per poter preservare le condizioni degli alberi rosso neri, è necessario utilizzare una seconda procedura che ricolora i nodi dell’albero in seguito alla chiamata della procedura di inserimento. *In pseudocodifica*:
 
 `RBInsert (T , z ) :`
 	`y := T . nil`
@@ -2069,7 +2069,7 @@ Dunque, nel caso ci fossero violazioni delle proprietà degli alberi rosso nero,
 - **Caso 3**: Lo zio $y$ di $z$ è nero e $z$ è figlio sinistro: nel caso 3 (righe 14-16), lo zio di $z$ è sempre nero, ma il nodo $z$ è figlio sinistro anzichè destro. In questo caso si applicano alcune modifiche sui colori e alcune rotazioni aggiuntive a destra per poter preservare le proprietà degli alberi rosso nero.
 
 
-- **RIMOZIONE**: la procedura di rimozione di un determinato nodo dall’albero rosso nero si basa sulla subroutine `transplant`, che deve essere opportunamente modificata in modo da adattarsi alla struttura degli alberi rosso nero. *In pseudocodifica*:
+- **==RIMOZIONE==**: la procedura di rimozione di un determinato nodo dall’albero rosso nero si basa sulla subroutine `transplant`, che deve essere opportunamente modificata in modo da adattarsi alla struttura degli alberi rosso nero. *In pseudocodifica*:
 
 `RBTransplant (T , u , v ) :`
 	`if u . parent = T . nil :`
