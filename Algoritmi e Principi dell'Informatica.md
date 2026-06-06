@@ -1962,26 +1962,15 @@ Una volta introdotto questo algoritmo, è possibile ora analizzare la procedura 
 		`transplant (T , z , z . left )`
 	`else :`
 		`y := treeMinimum ( z . right )`
+		`if y . parent != z :`
+			`transplant (T , y , y . right )`
+			`y . right := z . right`
+			`y . right . parent := y`
+		`transplant (T , z , y )`
+		`y . left := z . left`
+		`y . left . parent := y`
 
-`8 i f y . parent != z :`
-
-`9 tr an sp la nt (T , y , y . right )`
-
-`10 y . right := z . right`
-
-`11 y . right . parent := y`
-
-`12 tr an sp la nt (T , z , y )`
-
-`13 y . left := z . left`
-
-`14 y . left . parent := y`
-
-Questa procedura gestisce i tre casi analizzati precedentemente. Le righe 2-3 gestiscono il caso in cui
-
-il nodo z non ha figlio sinistro, le righe 4-5 gestiscono il caso in cui il nodo z ha un figlio sinistro, ma non
-
-un figlio destro, mentre le restanti righe gestiscono il caso in cui il nodo ha sia figlio destro che sinistro.
+Questa procedura gestisce i tre casi analizzati precedentemente. Le righe 2-3 gestiscono il caso in cui il nodo $z$ non ha figlio sinistro, le righe 4-5 gestiscono il caso in cui il nodo $z$ ha un figlio sinistro, ma non un figlio destro, mentre le restanti righe gestiscono il caso in cui il nodo ha sia figlio destro che sinistro.
 
 Nello specifico, la riga 7 trova il nodo y, successore di z: poich`e z ha un sottoalbero destro non vuoto, il
 
