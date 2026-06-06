@@ -1856,23 +1856,16 @@ Un albero binario di ricerca è una struttura dati ad albero che supporta molte 
 
 Le chiavi dell’albero binario di ricerca sono memorizzate in maniera da rispettare sempre la proprietà fondamentale per cui se $x$ è un nodo in un albero binario di ricerca ed $y$ è il nodo nel sottoalbero sinistro di $x$, allora $y.key ≤x.key$, mentre se $y$ è un nodo nel sottoalbero destro di $x$, allora $y.key ≥x.key$.
 
-Tale propriet`a permette di elencare ordinatamente tutte le chiavi di un albero binario di ricerca con
+Tale proprietà permette di elencare ordinatamente tutte le chiavi di un albero binario di ricerca con un semplice algoritmo ricorsivo di attraversamento simmetrico di un albero, tramite cui la chiave della radice di un sottoalbero viene stampata nel mezzo tra la stampa dei valori nel sottoalbero sinistro e la stampa dei valori nel sottoalbero destro. *In pseudocodice*:
 
-un semplice algoritmo ricorsivo di attraversamento simmetrico di un albero, tramite cui la chiave della
+`inorderTreeWalk ( x ) :`
+	`if x != NIL :`
 
-radice di un sottoalbero viene stampata nel mezzo tra la stampa dei valori nel sottoalbero sinistro e la
+`inorderTreeWal k ( x . left )`
 
-stampa dei valori nel sottoalbero destro. In pseudocodice:
+`4 p r i n t x . key`
 
-1 i n o r d e r T r e e W a l k ( x ) :
-
-2 i f x != NIL :
-
-3 i n o r d e r T r e e W a l k ( x . left )
-
-4 p r i n t x . key
-
-5 i n o r d e r T r e e W a l k ( x . right )
+`5 i n o r d e r T r e e W a l k ( x . right )`
 
 Per attraversare un albero binario di ricerca costituito da n nodi, `e necessario un tempo Θ(n), in
 
