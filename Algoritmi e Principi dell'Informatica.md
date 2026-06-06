@@ -1762,22 +1762,11 @@ Le operazioni di dizionario su una tavola di hash $T$ sono facili da implementar
 	`listSearch ( T [ h ( x . key ) ] , x )`
 
 `chainedHashDelete (T , x ) :`
+	`listDelete ( T [ h ( x . key ) ])`
 
-`2 li st De le te ( T [ h ( x . key ) ])`
+In cui le procedure `listInsert`, `listSearch` e `listDelete`, sono le stesse analizzate nella sezione delle liste concatenate e hanno il compito, rispettivamente, di inserire in testa alla lista un nodo, cercare un nodo nella lista ed eliminare un nodo dalla lista.
 
-In cui le procedure listInsert, listSearch e listDelete, sono le stesse analizzate nella sezione
-
-delle liste concatenate e hanno il compito, rispettivamente, di inserire in testa alla lista un nodo, cercare
-
-un nodo nella lista ed eliminare un nodo dalla lista.
-
-Si passa ora all’analisi del tempo di esecuzione di tali procedure: nel caso peggiore, l’inserimento in
-
-lista di un nodo `e O(1), la ricerca avviene in tempo proporzionale alla lunghezza della lista, quindi O(n),
-
-mentre l’eliminazione di un nodo dalla lista avviene, sempre nel caso peggiore, in tempo O(1) se la lista
-
-`e doppiamente concatenata.
+Si passa ora all’analisi del tempo di esecuzione di tali procedure: nel caso peggiore, l’inserimento in lista di un nodo è $O(1)$, la ricerca avviene in tempo proporzionale alla lunghezza della lista, quindi $O(n)$, mentre l’eliminazione di un nodo dalla lista avviene, sempre nel caso peggiore, in tempo $O(1)$ se la lista è doppiamente concatenata.
 
 Si noti che la funzione chainedHashDelete prende come input un elemento x, non la sua chiave k,
 
