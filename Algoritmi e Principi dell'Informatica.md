@@ -2066,15 +2066,10 @@ Dunque, nel caso ci fossero violazioni delle proprietà degli alberi rosso nero,
 
 - **Caso 2**: Lo zio $y$ di $z$ è nero e $z$ è figlio destro: nel caso 2 (righe 12-13), lo zio di $z$ è di colore nero e il nodo $z$ è figlio destro. In questo caso è necessaria una semplice rotazione a sinistra per riportarsi immediatamente al caso 3. Una rotazione del genere non influisce nè sull’altezza dell’albero nè sulla proprietà 5.
 
-Caso 3 Lo zio y di z `e nero e z `e figlio sinistro: nel caso 3 (righe 14-16), lo zio di z `e sempre nero, ma
+- **Caso 3**: Lo zio $y$ di $z$ è nero e $z$ è figlio sinistro: nel caso 3 (righe 14-16), lo zio di $z$ è sempre nero, ma il nodo $z$ è figlio sinistro anzichè destro. In questo caso si applicano alcune modifiche sui colori e alcune rotazioni aggiuntive a destra per poter preservare le proprietà degli alberi rosso nero.
 
-il nodo z `e figlio sinistro anzich`e destro. In questo caso si applicano alcune modifiche sui colori e
 
-alcune rotazioni aggiuntive a destra per poter preservare le propriet`a degli alberi rosso nero.
-
-Rimozione La procedura di rimozione di un determinato nodo dall’albero rosso nero si basa sulla
-
-subroutine transplant, che deve essere opportunamente modificata in modo da adattarsi alla struttura
+- **RIMOZIONE**: la procedura di rimozione di un determinato nodo dall’albero rosso nero si basa sulla subroutine transplant, che deve essere opportunamente modificata in modo da adattarsi alla struttura
 
 degli alberi rosso nero. In pseudocodifica:
 
