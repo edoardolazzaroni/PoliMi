@@ -2119,18 +2119,14 @@ Una volta introdotta questa procedura, è possibile analizzare l’algoritmo di 
 			`leftRotate (T , x . parent )`
 			`w := x . parent . right`
 		`if w . left . color = BLACK and w . roght . colr = BLACK :`
+			`w . color := RED`
+			`x := x . parent`
+		`else :`
+			`if w . right . color = BLACK :`
+				`w . left . color = BLACK`
+				`w . color = RED`
 
-`11 w . color := RED // caso 2`
-
-`12 x := x . parent // caso 2`
-
-`13 e l s e :`
-
-`14 i f w . right . color = BLACK :`
-
-`15 w . left . color = BLACK 16 w . color = RED // caso 3`
-
-`17 r i g h t R o t a t e (T , w ) 18 w := x . parent . right 19 w . color := x . parent . color 20 x . parent . color := BLACK 21 w . right . color := BLACK 22 le ft Ro ta te (T , x . parent ) // caso 3`
+`rightRotate (T , w ) 18 w := x . parent . right 19 w . color := x . parent . color 20 x . parent . color := BLACK 21 w . right . color := BLACK 22 le ft Ro ta te (T , x . parent ) // caso 3`
 
 `// caso 3`
 
