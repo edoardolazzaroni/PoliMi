@@ -1908,15 +1908,10 @@ Entrambe queste procedure vengono eseguite in un tempo $O(h)$, in un albero di a
 		`y := y . parent`
 	`return y`
 
-Se il sottoalbero destro del nodo $x$ non è vuoto, allora il successore di $x$ è proprio il nodo più a sinistra nel sottoalbero destro, che viene trovato chiamando la procedura precedentemente analizzata '/Applications/DockDoor Pro.app'treeMinimum. Altrimenti, se il sottoalbero destro del nodo x`e vuoto e x ha un successore y, allora y `e
+Se il sottoalbero destro del nodo $x$ non è vuoto, allora il successore di $x$ è proprio il nodo più a sinistra nel sottoalbero destro, che viene trovato chiamando la procedura precedentemente analizzata `treeMinimum`. Altrimenti, se il sottoalbero destro del nodo $x$ è vuoto e $x$ ha un successore $y$, allora $y$ è l’antenato più prossimo di $x$ il cui figlio sinistro è anche antenato di $x$. Per trovare il nodo $y$, è necessario risalire l’albero partendo da $x$, fino a quando non si trova un nodo che è figlio sinistro di suo padre.
+Questa operazione è svolta in un tempo $O(h)$, con $h$ l’altezza dell’albero.
 
-l’antenato pi`u prossimo di xil cui figlio sinistro `e anche antenato di x. Per trovare il nodo y, `e necessario
-
-risalire l’albero partendo da x, fino a quando non si trova un nodo che `e figlio sinistro di suo padre.
-
-Questa operazione `e svolta in un tempo O(h), con h l’altezza dell’albero.
-
-La procedura per trovare il successore `e simmetrica alla procedura appena anlizzata e viene svolta
+La procedura per trovare il successore è simmetrica alla procedura appena anlizzata e viene svolta
 
 nello stesso tempo.
 
