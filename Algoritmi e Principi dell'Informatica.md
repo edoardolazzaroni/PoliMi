@@ -2049,16 +2049,16 @@ Dunque, tramite questa procedura, il nodo $z$ viene inserito nella posizione cor
 				`z := z . parent . parent`                                                                    // caso 1
 			`else :`
 				`if z = z . parent . right :`
-					`z := z . parent // caso 2`
-					`leftRotate (T , z )`
-				`z . parent . color := BLACK`
-				`z . parent . parent . color := RED`                                            // v
-				`rightRotate (T , z . parent . parent )`                                       // caso 2
+					`z := z . parent // caso 2`                                                         // caso 2
+					`leftRotate (T , z )`                                                                     // caso 2
+				`z . parent . color := BLACK`                                                             // caso 3
+				`z . parent . parent . color := RED`                                               // caso 3
+				`rightRotate (T , z . parent . parent )`                                       // caso 3
 		`else :`
 			`// come righe 4-16 con "left" e "right" scambiati //`
 	`T . root . color := BLACK`
 
-Una volta chiamata la funzione di inserimento, sicuramente la propriet`a 1 (ogni nodo `e rosso o nero)
+Una volta chiamata la funzione di inserimento, sicuramente la proprietà 1 (ogni nodo `e rosso o nero)
 
 e la propriet`a 3 (ogni foglia `e nera) sono rispettate in quanto i figli del nodo rosso appena inserito
 
