@@ -1845,17 +1845,7 @@ Nell’analisi delle tabelle hash con indirizzamento aperto si ipotizza hashing 
 
 - **Ispezione Quadratica**: data la funzione di hash ausiliaria $h′ : U →\left\{0,1,...,m−1\right\}$, il metodo di ispezione qudratica utilizza la funzione di hash $h(k,i) = (h′(k) + c_1i+ c_2i^2) \ mod \ m$ per $i = 0,1,...,m−1$, con $c_1,c_2 \ne 0$ costanti ausiliarie. Data la chiave $k$, la prima cella esaminata è $T[h′(k)]$, mentre le successive posizioni esaminate sono distanti dalle precedenti di quantità che dipendono in modo quadratico dal numero d’ordine di ispezione $i$. Questa tecnica funziona meglio della precedente, ma i valori $c_1,c_2$ ed $m$ non possono essere scelti in maniera arbitraria, ma devono essere tali per cui si possa percorrere l’intera tabella. Inolte, se due chiavi hanno la stessa posizione iniziale di ispezione, allora le due sequenze di ispezione saranno identiche portando al cosiddetto addensamento secondario.
 
-Doppio Hashing Date la funzioni di hash ausiliarie h1 ed h2, il metodo di ispezione lineare utilizza
-
-la funzione di hash
-
-h(k,1) = (h1(k) + ih2(k)) modm
-
-per i= 0,1,...,m−1. Il doppio hashing `e il metodo migliore disponibile per l’indirizzamento aperto, in
-
-quanto le permutazioni prodotte hanno molte caratteristiche comuni con le permutazioni casuali. Data
-
-la chiave k, la prima cella esaminata `e T[h1(k)], mentre le successive posizioni sono distanziate dalle
+- **Doppio Hashing Date**: le funzioni di hash ausiliarie $h_1$ ed $h_2$, il metodo di ispezione lineare utilizza la funzione di hash $h(k,1) = (h1(k) + ih2(k)) \ mod \ m$ per $i= 0,1,...,m−1$. Il doppio hashing è il metodo migliore disponibile per l’indirizzamento aperto, in quanto le permutazioni prodotte hanno molte caratteristiche comuni con le permutazioni casuali. Data la chiave k, la prima cella esaminata `e T[h1(k)], mentre le successive posizioni sono distanziate dalle
 
 precedenti di quantit`a h2(k) mod m. Differentemente dai precedenti, il metodo del doppio hashing
 
