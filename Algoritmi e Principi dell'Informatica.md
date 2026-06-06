@@ -1843,17 +1843,7 @@ Nell’analisi delle tabelle hash con indirizzamento aperto si ipotizza hashing 
 
 - **Ispezione Lineare**: data una funzione di hash ordinaria $h′: U →\left\{0,1,...,m−1\right\}$, detta funzione di hash ausiliaria, il metodo di ispezione lineare utilizza la funzione di hash $h(k,i) = (h′(k) + i) \ mod \ m$ per $i = 0,1,...,m−1$. Data la chiave $k$, la prima cella esaminata è $T[h′(k)]$, che è la cella data dalla funzione di hash ausiliaria, la seconda cella è $T[h′(k) + 1]$ e così via fino alla cella $T[m−1]$. Poi, l’ispezione riprende dalle celle $T[0],T[1],...,T[h′(k)−1]$. Poichè la prima cella ispezionata determina l’intera sequenza di ispezioni, ci sono soltanto $m$ sequenze di ispezione distinte. Questa tecnica è facile da implementare ma presenta un problema noto come addensamento primario: si formano lunghe file di celle occupate che aumentano il tempo medio di ricerca. Tale fenomeno si presenta perchè una cella vuota preceduta da $i$ celle piene ha probabilità $(i+ 1)/m$ di essere la prossima ad essere occupata e le lunghe file di celle occupate tendono, dunque, a diventare sempre più lunghe.
 
-- **Ispezione Quadratica**: data la funzione di hash ausiliaria $h′ : U →\left\{0,1,...,m−1\right\}$, il metodo di ispezione qudratica utilizza la funzione di hash $h(k,i) = (h′(k) + c_1i+ c_2i^2) \ mod \ m$ per $i = 0,1,...,m−1, con c1,c2 \ne 0$ costanti ausiliarie. Data la chiave k, la prima cella esaminata `e
-
-T[h′(k)], mentre le successive posizioni esaminate sono distanti dalle precedenti di quantit`a che dipendono
-
-in modo quadratico dal numero d’ordine di ispezione i. Questa tecnica funziona meglio della precedente,
-
-ma i valori c1,c2 ed m non possono essere scelti in maniera arbitraria, ma devono essere tali per cui
-
-si possa percorrere l’intera tabella. Inolte, se due chiavi hanno la stessa posizione iniziale di ispezione,
-
-allora le due sequenze di ispezione saranno identiche portando al cosiddetto addensamento secondario.
+- **Ispezione Quadratica**: data la funzione di hash ausiliaria $h′ : U →\left\{0,1,...,m−1\right\}$, il metodo di ispezione qudratica utilizza la funzione di hash $h(k,i) = (h′(k) + c_1i+ c_2i^2) \ mod \ m$ per $i = 0,1,...,m−1$, con $c_1,c_2 \ne 0$ costanti ausiliarie. Data la chiave $k$, la prima cella esaminata è $T[h′(k)]$, mentre le successive posizioni esaminate sono distanti dalle precedenti di quantità che dipendono in modo quadratico dal numero d’ordine di ispezione $i$. Questa tecnica funziona meglio della precedente, ma i valori $c_1,c_2$ ed $m$ non possono essere scelti in maniera arbitraria, ma devono essere tali per cui si possa percorrere l’intera tabella. Inolte, se due chiavi hanno la stessa posizione iniziale di ispezione, allora le due sequenze di ispezione saranno identiche portando al cosiddetto addensamento secondario.
 
 Doppio Hashing Date la funzioni di hash ausiliarie h1 ed h2, il metodo di ispezione lineare utilizza
 
