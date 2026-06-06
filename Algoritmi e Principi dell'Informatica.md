@@ -1846,15 +1846,7 @@ Nell’analisi delle tabelle hash con indirizzamento aperto si ipotizza hashing 
 - **Ispezione Quadratica**: data la funzione di hash ausiliaria $h′ : U →\left\{0,1,...,m−1\right\}$, il metodo di ispezione qudratica utilizza la funzione di hash $h(k,i) = (h′(k) + c_1i+ c_2i^2) \ mod \ m$ per $i = 0,1,...,m−1$, con $c_1,c_2 \ne 0$ costanti ausiliarie. Data la chiave $k$, la prima cella esaminata è $T[h′(k)]$, mentre le successive posizioni esaminate sono distanti dalle precedenti di quantità che dipendono in modo quadratico dal numero d’ordine di ispezione $i$. Questa tecnica funziona meglio della precedente, ma i valori $c_1,c_2$ ed $m$ non possono essere scelti in maniera arbitraria, ma devono essere tali per cui si possa percorrere l’intera tabella. Inolte, se due chiavi hanno la stessa posizione iniziale di ispezione, allora le due sequenze di ispezione saranno identiche portando al cosiddetto addensamento secondario.
 
 - **Doppio Hashing Date**: le funzioni di hash ausiliarie $h_1$ ed $h_2$, il metodo di ispezione lineare utilizza la funzione di hash $h(k,1) = (h_1(k) + ih_2(k)) \ mod \ m$ per $i= 0,1,...,m−1$. Il doppio hashing è il metodo migliore disponibile per l’indirizzamento aperto, in quanto le permutazioni prodotte hanno molte caratteristiche comuni con le permutazioni casuali. Data la chiave $k$, la prima cella esaminata è $T[h_1(k)]$, mentre le successive posizioni sono distanziate dalle precedenti di quantità $h_2(k) \ mod \ m$. Differentemente dai precedenti, il metodo del doppio hashing produce sequenze che dipendono in due modi dalla chiave $k$, in quanto possono variare sia la posizione iniziale della sequenza di ispezione, sia la distanza fra due posizioni successive. 
-	Inoltre, il valore h2(k) deve essere relativamente primo con la dimensione mdella tavola hash perch`e
-
-venga ispezionata l’intera tabella. Un modo pratico per garantire tale condizione `e scegliere m potenza
-
-di due e definire h2 in modo che produca sempre un numero dispari. Un altro modo `e scegliere mprimo
-
-e definire h2 in modo che generi sempre un numero intero positivo minore di m. In questo contesto,
-
-il doppio hashing `e migliore delle precedenti tecniche in quanto utilizza Θ(m2) sequenze di ispezione,
+	Inoltre, il valore $h_2(k)$ deve essere relativamente primo con la dimensione $m$ della tavola hash perchè venga ispezionata l’intera tabella. Un modo pratico per garantire tale condizione è scegliere $m$ potenza di due e definire $h_2$ in modo che produca sempre un numero dispari. Un altro modo è scegliere $m$ primo e definire $h_2$ in modo che generi sempre un numero intero positivo minore di $m$. In questo contesto, il doppio hashing è migliore delle precedenti tecniche in quanto utilizza $Θ(m_2)$ sequenze di ispezione,
 
 anzich`e Θ(m), perch`e ogni possibile coppia di h1,h2 produce una distinta sequenza di ispezione.9.5. ALBERI BINARI 71
 
