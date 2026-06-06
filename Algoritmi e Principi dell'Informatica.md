@@ -1989,13 +1989,9 @@ I nodi dell’albero rosso nero vengono colorati tramite le seguenti regole:
 
 Si definisce a questo proposito, altezza nera di un nodo $x$, indicato con $bh(x)$, il numero di nodi neri lungo un cammino semplice che inizia dal nodo $x$ (non incluso). Per la proprietà degli alberi rosso nero, il concetto di altezza nera è ben definito in quanto tutti i cammini semplici che scendono dal nodo hanno lo stesso numero di nodi neri. In generale:
 
-Teorema 9.6.1. L’altezza massima di un albero rosso nero con n nodi `e 2 log2(n+ 1).
+- **Teorema**: l’altezza massima di un albero rosso nero con $n$ nodi è $2 \ log_2(n+ 1)$.
 
-La conseguenza immediata di questo teorema `e che le operazioni sugli insiemi dinamici possono tutte
-
-essere implementate in un tempo O(log2 n) negli alberi rosso neri, perch`e possono essere eseguite nel
-
-tempo O(h) in un albero binario di ricerca di altezza he qualsiasi albero rosso nero di nnodi `e un albero
+La conseguenza immediata di questo teorema è che le operazioni sugli insiemi dinamici possono tutte essere implementate in un tempo $O(log_2 \ n)$ negli alberi rosso neri, perchè possono essere eseguite nel tempo $O(h)$ in un albero binario di ricerca di altezza he qualsiasi albero rosso nero di nnodi `e un albero
 
 binario di ricerca di altezza O(log2 n).
 
