@@ -2113,28 +2113,28 @@ Una volta introdotta questa procedura, è possibile analizzare l’algoritmo di 
 	`while x != T . root and x . color = BLACK :`
 		`if x = x . parent . left :`
 			`w := x . parent . right`
-		`if w . color = RED :`
-			`w . color := BLACK // caso 1`
-			`x . parent . color := RED`
-			`leftRotate (T , x . parent )`
-			`w := x . parent . right`
-		`if w . left . color = BLACK and w . roght . colr = BLACK :`
-			`w . color := RED`
-			`x := x . parent`
-		`else :`
-			`if w . right . color = BLACK :`
-				`w . left . color = BLACK`
-				`w . color = RED`
-				`rightRotate (T , w )`
+			`if w . color = RED :`
+				`w . color := BLACK // caso 1`
+				`x . parent . color := RED`
+				`leftRotate (T , x . parent )`
 				`w := x . parent . right`
-			`w . color := x . parent . color`
-			`x . parent . color := BLACK`
-			`w . right . color := BLACK`
-			`leftRotate (T , x . parent )`
-			`x := T . root`
+			`if w . left . color = BLACK and w . roght . colr = BLACK :`
+				`w . color := RED`
+				`x := x . parent`
+			`else :`
+				`if w . right . color = BLACK :`
+					`w . left . color = BLACK`
+					`w . color = RED`
+					`rightRotate (T , w )`
+					`w := x . parent . right`
+				`w . color := x . parent . color`
+				`x . parent . color := BLACK`
+				`w . right . color := BLACK`
+				`leftRotate (T , x . parent )`
+				`x := T . root`
 		`else :`
 
-`25 come righe 4 -23 con " left " e " right " scambiati`
+`come righe 4 -23 con " left " e " right " scambiati`
 
 `26 x . color := BLACK`
 
