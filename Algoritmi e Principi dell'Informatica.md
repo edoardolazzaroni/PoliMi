@@ -1972,16 +1972,7 @@ Una volta introdotto questo algoritmo, è possibile ora analizzare la procedura 
 
 Questa procedura gestisce i tre casi analizzati precedentemente. Le righe 2-3 gestiscono il caso in cui il nodo $z$ non ha figlio sinistro, le righe 4-5 gestiscono il caso in cui il nodo $z$ ha un figlio sinistro, ma non un figlio destro, mentre le restanti righe gestiscono il caso in cui il nodo ha sia figlio destro che sinistro.
 
-Nello specifico, la riga 7 trova il nodo y, successore di z: poich`e z ha un sottoalbero destro non vuoto, il
-
-suo successore deve essere il nodo di quel sottoalbero con la chiave pi`u piccola (per questo motivo viene
-
-invocata la procedura treeMinimum). Come gi`a detto, y non ha figlio sinistro, quindi bisogna staccare
-
-y dalla sua posizione corrente e metterlo al posto di z. Se y `e figlio destro di z, le ultime tre righe
-
-sostituiscono z con y, per poi sostituire il figlio sinistro di y con il figlio sinistro di z. Se y non `e figlio
-
+Nello specifico, la riga 7 trova il nodo $y$, successore di $z$: poichè $z$ ha un sottoalbero destro non vuoto, il suo successore deve essere il nodo di quel sottoalbero con la chiave più piccola (per questo motivo viene invocata la procedura `treeMinimum`). Come già detto, $y$ non ha figlio sinistro, quindi bisogna staccare $y$ dalla sua posizione corrente e metterlo al posto di $z$. Se $y$ è figlio destro di $z$, le ultime tre righe sostituiscono $z$ con $y$, per poi sostituire il figlio sinistro di $y$ con il figlio sinistro di $z$. Se $y$ non è figlio
 sinistro di z, le righe 9-11 sostituiscono y con il figlio destro di y e cambiano il figlio destro di z nel figlio
 
 destro di y. Tale procedura richiede un tempo di esecuzione nell’ordine di O(h), in un albero binario di
