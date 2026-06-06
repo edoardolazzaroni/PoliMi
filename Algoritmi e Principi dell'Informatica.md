@@ -1951,38 +1951,34 @@ Per poter spostare i sottoalberi all’interno dell’albero binario di ricerca 
 	`else :`
 		`u . parent . right := v`
 	`if v != NIL :`
+		`v . parent := u . parent`
 
-`v . parent := u . parent`
+Una volta introdotto questo algoritmo, è possibile ora analizzare la procedura di eliminazione:
 
-Una volta introdotto questo algoritmo, `e possibile ora analizzare la procedura di eliminazione:
+`treeDelete (T , z ) :`
+	`if z . left = NIL :`
+		`transplant (T , z , 4 e l s e i f z . right = NIL :`
+		`transplant (T , z , z . right )`
 
-1 tr ee De le te (T , z ) :
+`z . left )`
 
-2 i f z . left = NIL :
+`6 e l s e :`
 
-3 tr an sp la nt (T , z , 4 e l s e i f z . right = NIL :
+`7 y := t r e e M i n i m u m ( z . right )`
 
-5 tr an sp la nt (T , z , z . right )
+`8 i f y . parent != z :`
 
-z . left )
+`9 tr an sp la nt (T , y , y . right )`
 
-6 e l s e :
+`10 y . right := z . right`
 
-7 y := t r e e M i n i m u m ( z . right )
+`11 y . right . parent := y`
 
-8 i f y . parent != z :
+`12 tr an sp la nt (T , z , y )`
 
-9 tr an sp la nt (T , y , y . right )
+`13 y . left := z . left`
 
-10 y . right := z . right
-
-11 y . right . parent := y
-
-12 tr an sp la nt (T , z , y )
-
-13 y . left := z . left
-
-14 y . left . parent := y
+`14 y . left . parent := y`
 
 Questa procedura gestisce i tre casi analizzati precedentemente. Le righe 2-3 gestiscono il caso in cui
 
