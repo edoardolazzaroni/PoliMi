@@ -1818,6 +1818,7 @@ Un altro metodo per evitare le collisioni è tramite l’indirizzamento aperto, 
 
 Questa procedura prende in input una tavola di hash $T$ e una chiave $k$ da inserire in tabella, e ritorna l’indice della cella in cui è stato inserito l’elemento, oppure `error` di overflow se non è presente nessuna cella libera. Si noti nella condizione in riga 5, che viene verificato se la cella $T[k]$ contiene il valore `DELETED`: questo valore speciale verrà ripreso e analizzato più avanti assieme alla procedura di eliminazione delle chiavi dalla tabella.
 
+
 - **RICERCA**: per la ricerca di una determinata chiave $k$ esamina la stessa sequenza di celle che ha esaminato l’algoritmo di inserimento quando ha inserito l’elemento di chiave $k$. Dunque, la procedura di ricerca potrebbe terminare la propria esecuzione senza successo quando trova una cella vuota, in quanto la chiave $k$ sarebbe stata inserita in quella posizione (si presuppone che le chiavi non possano essere eliminate dalla tavola). *In pseudocodifica*:
 
 `hashSearch (T , k ) :`
@@ -1830,21 +1831,10 @@ Questa procedura prende in input una tavola di hash $T$ e una chiave $k$ da inse
 	`until T [ j ] = NIL or i = m`
 	`return NIL`
 
-Questa procedura, come la precedente, prende in input una tavola di hash $T$ e una chiave $k$ da ricercare in tabella, e ritorna l’indice della cella in cui è stato trovato l’elemento, oppure `NIL` se non è presente nessuna cella che contiene l’elemento oppure se nella sequenza di ricerca si trova una cella libera
+Questa procedura, come la precedente, prende in input una tavola di hash $T$ e una chiave $k$ da ricercare in tabella, e ritorna l’indice della cella in cui è stato trovato l’elemento, oppure `NIL` se non è presente nessuna cella che contiene l’elemento oppure se nella sequenza di ricerca si trova una cella libera (per le ragioni precedentemente analizzate).
 
-(per le ragioni precedentemente analizzate).
 
-Rimozione La procedura di cancellazione di una chiave dalla tavola di hash ad indirizzamento aperto
-
-`e un’operazione molto complessa, in quanto non `e possibile semplicemente cancellare il contenuto della
-
-cella i, assegnandone il valore NIL, in quanto sarebbe impossibile ricercare qualsiasi elemento in tabella
-
-per come `e stata definita la procedura di ricerca. Dunque, si rende necessario marcare la cella il cui
-
-`
-
-contenuto `e stato eliminato con il valore speciale DELETED, anzich`e NIL.
+- **RIMOZIONE**: La procedura di cancellazione di una chiave dalla tavola di hash ad indirizzamento aperto è un’operazione molto complessa, in quanto non è possibile semplicemente cancellare il contenuto della cella $i$, assegnandone il valore `NIL`, in quanto sarebbe impossibile ricercare qualsiasi elemento in tabella per come è stata definita la procedura di ricerca. Dunque, si rende necessario marcare la cella il cui contenuto è stato eliminato con il valore speciale DELETED, anzich`e NIL.
 
 E per questo motivo che in
 
