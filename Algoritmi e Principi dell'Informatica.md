@@ -1799,13 +1799,9 @@ La maggior parte delle funzioni di hashing suppone che l’universo delle chiavi
 
 Un altro metodo per evitare le collisioni è tramite l’indirizzamento aperto, in cui tutti gli elementi sono memorizzati nella tavola hash, ovvero ogni cella contiene un elemento dell’insieme dinamico o la costante `NIL` se non contiene nessun elemento. Quando si cerca un elemento, si esamina sistematicamente la tabella fino a quando non si trova l’elemento desiderato, oppure finchè non ci sono più elementi da controllare (l’elemento non è nell’array). Nell’indirizzamento aperto, a differenza degli altri metodi, la tavola hash può riempirsi fino a quando non può più fisicamente contenere altri elementi. Una conseguenza di questo design è che il fattore di carico $α$ non supera mai il valore $1$. Il vantaggio di questo metodo sta nel fatto che elimina completamente l’utilizzo dei puntatori, in quanto calcola la sequenza delle celle da esaminare, e libera quindi una notevole quantità di memoria, utilizzata per incrementare la capacità della tabella, riducendo il rischio di collisioni.
 
-- **INSERIMENTO**: per effettuare un insierimento mediante il metodo dell’indirizzamento aperto, si esamina in successione le posizioni della tavola hash fino a che non si trova una cella libera in cui inserire la chiave. L’efficienza di questo metodo consiste nel calcolare una nuova sequenza di accesso alla tabella in base alla chiave dell’oggetto da inserire, anzichè seguire sempre lo stesso cammino di accessi, che impiegherebbe un tempo di esecuzione $Θ(n)$. Per determinare quali celle esaminare durante la fase di ispezione, si estende la funzione di hash in modo da includere l’ordine di ispezione (a partire da 0), come
-
-secondo input. Formalmente, la funzione di hash modificata `e definita come segue:
-
-h(k,i) : U ×{0,1,...,m−1}→{0,1,...,m−1}
-
-Si richiede, inoltre, che per ogni chiave k la sequenza di ispezione <h(k,0),h(k,1),...,h(k,m−1) > sia
+- **INSERIMENTO**: per effettuare un insierimento mediante il metodo dell’indirizzamento aperto, si esamina in successione le posizioni della tavola hash fino a che non si trova una cella libera in cui inserire la chiave. L’efficienza di questo metodo consiste nel calcolare una nuova sequenza di accesso alla tabella in base alla chiave dell’oggetto da inserire, anzichè seguire sempre lo stesso cammino di accessi, che impiegherebbe un tempo di esecuzione $Θ(n)$. Per determinare quali celle esaminare durante la fase di ispezione, si estende la funzione di hash in modo da includere l’ordine di ispezione (a partire da $0$), come secondo input. Formalmente, la funzione di hash modificata è definita come segue:
+					$h(k,i) : U ×\left\{0,1,...,m−1\right\}→\left\{0,1,...,m−1\right\}$
+					Si richiede, inoltre, che per ogni chiave k la sequenza di ispezione <h(k,0),h(k,1),...,h(k,m−1) > sia
 
 una permutazione della sequenza <0,1,...,m−1 >, in modo tale che ogni cella della tavola possa essere
 
