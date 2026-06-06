@@ -1927,20 +1927,12 @@ La procedura per trovare il successore è simmetrica alla procedura appena anali
 	`z . parent := y`
 	`if y = NIL :`
 		`T . root = z`
+	`else if z . key < y . key :`
+		`y . left := z`
+	`else :`
+		`y . right := z`
 
-`else if z . key < y . key :`
-
-`14 y . left := z`
-
-`15 e l s e :`
-
-`16 y . right := z`
-
-La procedura appena vista inizia dalla radice dell’albero e il puntatore xtraccia un cammino semplice
-
-in discesa cercando un NIL da sostituire con l’elemento di input z. La procedura mantiene anche un
-
-puntatore ydetto inseguitore che punta sempre al padre di x. Le righe 4-9 del ciclo while spostano questi
+La procedura appena vista inizia dalla radice dell’albero e il puntatore $x$ traccia un cammino semplice in discesa cercando un `NIL` da sostituire con l’elemento di input $z$. La procedura mantiene anche un puntatore $y$ detto inseguitore che punta sempre al padre di $x$. Le righe 4-9 del ciclo `while` spostano questi
 
 due puntatori verso il basso, andando a sinistra o a destra a seconda dell’esito del confronto fra z.key e
 
