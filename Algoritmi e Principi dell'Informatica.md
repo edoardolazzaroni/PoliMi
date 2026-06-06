@@ -1801,33 +1801,29 @@ Un altro metodo per evitare le collisioni è tramite l’indirizzamento aperto, 
 
 - **INSERIMENTO**: per effettuare un insierimento mediante il metodo dell’indirizzamento aperto, si esamina in successione le posizioni della tavola hash fino a che non si trova una cella libera in cui inserire la chiave. L’efficienza di questo metodo consiste nel calcolare una nuova sequenza di accesso alla tabella in base alla chiave dell’oggetto da inserire, anzichè seguire sempre lo stesso cammino di accessi, che impiegherebbe un tempo di esecuzione $Θ(n)$. Per determinare quali celle esaminare durante la fase di ispezione, si estende la funzione di hash in modo da includere l’ordine di ispezione (a partire da $0$), come secondo input. Formalmente, la funzione di hash modificata è definita come segue:
 					$h(k,i) : U ×\left\{0,1,...,m−1\right\}→\left\{0,1,...,m−1\right\}$
-					Si richiede, inoltre, che per ogni chiave k la sequenza di ispezione <h(k,0),h(k,1),...,h(k,m−1) > sia
+	
+	Si richiede, inoltre, che per ogni chiave $k$ la sequenza di ispezione $<h(k,0),h(k,1),...,h(k,m−1) >$ sia una permutazione della sequenza $<0,1,...,m−1 >$, in modo tale che ogni cella della tavola possa essere considerata come possibile cella in cui inserire una nuova chiave. In pseudocodifica:
 
-una permutazione della sequenza <0,1,...,m−1 >, in modo tale che ogni cella della tavola possa essere
+`hashInsert (T , k ) :`
+`i := 0`
 
-considerata come possibile cella in cui inserire una nuova chiave. In pseudocodifica:
+`3 repeat`
 
-1 ha sh In se rt (T , k ) :
+`4 j := h (k , i )`
 
-2 i := 0
+`5 i f T [ j ] = NIL or T [ j ] = DELETED :`
 
-3 repeat
+`6 T [ j ] := k`
 
-4 j := h (k , i )
+`7 return j`
 
-5 i f T [ j ] = NIL or T [ j ] = DELETED :
+`8 e l s e :`
 
-6 T [ j ] := k
+`9 i := i + 1`
 
-7 return j
+`10 u n t i l i = m`
 
-8 e l s e :
-
-9 i := i + 1
-
-10 u n t i l i = m
-
-11 error " hash table overflow "
+`11 error " hash table overflow "`
 
 Questa procedura prende in input una tavola di hash T e una chiave k da inserire in tabella, e
 
