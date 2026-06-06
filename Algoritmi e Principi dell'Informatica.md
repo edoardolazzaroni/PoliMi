@@ -2120,7 +2120,7 @@ Una volta introdotta questa procedura, è possibile analizzare l’algoritmo di 
 				`w := x . parent . right`                                                                      // caso 1
 			`if w . left . color = BLACK and w . roght . colr = BLACK :`
 				`w . color := RED`                                                                                   // caso 2
-				`x := x . parent`             
+				`x := x . parent`                                                                                     // caso 2
 			`else :`
 				`if w . right . color = BLACK :`
 					`w . left . color = BLACK`
