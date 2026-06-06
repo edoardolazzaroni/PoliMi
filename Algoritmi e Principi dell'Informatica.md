@@ -2116,7 +2116,7 @@ Una volta introdotta questa procedura, è possibile analizzare l’algoritmo di 
 
 17 18 R B T r a n s p l a n t (T , y . right := z . right
 
-y , y . right )9.7. GRAFI 77
+y , y . right )
 
 19 20 21 22 23 24 25 i f y . right . parent := y
 
