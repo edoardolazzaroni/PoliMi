@@ -1797,15 +1797,7 @@ La maggior parte delle funzioni di hashing suppone che l’universo delle chiavi
 
 #### **9.4.6 Indirizzamento Aperto**
 
-Un altro metodo per evitare le collisioni è tramite l’indirizzamento aperto, in cui tutti gli elementi sono memorizzati nella tavola hash, ovvero ogni cella contiene un elemento dell’insieme dinamico o la costante `NIL se non contiene nessun elemento. Quando si cerca un elemento, si esamina sistematicamente la tabella
-
-fino a quando non si trova l’elemento desiderato, oppure finch`e non ci sono pi`u elementi da controllare
-
-(l’elemento non `e nell’array). Nell’indirizzamento aperto, a differenza degli altri metodi, la tavola hash
-
-pu`o riempirsi fino a quando non pu`o pi`u fisicamente contenere altri elementi. Una conseguenza di questo
-
-design `e che il fattore di carico αnon supera mai il valore 1. Il vantaggio di questo metodo sta nel fatto
+Un altro metodo per evitare le collisioni è tramite l’indirizzamento aperto, in cui tutti gli elementi sono memorizzati nella tavola hash, ovvero ogni cella contiene un elemento dell’insieme dinamico o la costante `NIL` se non contiene nessun elemento. Quando si cerca un elemento, si esamina sistematicamente la tabella fino a quando non si trova l’elemento desiderato, oppure finchè non ci sono più elementi da controllare (l’elemento non è nell’array). Nell’indirizzamento aperto, a differenza degli altri metodi, la tavola hash può riempirsi fino a quando non può più fisicamente contenere altri elementi. Una conseguenza di questo design è che il fattore di carico $α$ non supera mai il valore $1$. Il vantaggio di questo metodo sta nel fatto
 
 che elimina completamente l’utilizzo dei puntatori, in quanto calcola la sequenza delle celle da esaminare,
 
