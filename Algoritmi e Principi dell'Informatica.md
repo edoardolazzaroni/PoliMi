@@ -2023,26 +2023,16 @@ Il codice per la procedura `rightRotate` è simmetrico a quello appena analizzat
 		`if z . key < x . key :`
 			`x := x . left`
 		`else :`
-
-`9x := x . right`
-
-`10 z . parent := y`
-
-`11 i f y = T . nil :`
-
-`12 T . root := z`
-
-`13 e l s e i f z . key < y . key :`
-
-`14 y . left := z`
-
-`15 e l s e :`
-
-`16 y . right := z`
-
-`17 z . left := T . nil`
-
-`18 z . right := T . nil`
+			`x := x . right`
+	`z . parent := y`
+	`if y = T . nil :`
+		`T . root := z`
+	`else if z . key < y . key :`
+		`y . left := z`
+	`else :`
+		`y . right := z`
+	`z . left := T . nil`
+	`z . right := T . nil`
 
 `19 z . color = RED`
 
