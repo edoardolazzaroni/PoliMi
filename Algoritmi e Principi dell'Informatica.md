@@ -2052,12 +2052,11 @@ Dunque, tramite questa procedura, il nodo $z$ viene inserito nella posizione cor
 					`z := z . parent // caso 2`
 					`leftRotate (T , z )`
 				`z . parent . color := BLACK`
-				`z . parent . parent . color := RED`
-				`rightRotate (T , z . parent . parent ) // caso 2`
-			`else :`
-				`//come righe 4 -16 con "left" e "right" scambiati//`
-
-`19 T . root . color := BLACK`
+				`z . parent . parent . color := RED`                                            // v
+				`rightRotate (T , z . parent . parent )`                                       // caso 2
+		`else :`
+			`// come righe 4-16 con "left" e "right" scambiati //`
+	`T . root . color := BLACK`
 
 Una volta chiamata la funzione di inserimento, sicuramente la propriet`a 1 (ogni nodo `e rosso o nero)
 
