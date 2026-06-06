@@ -1897,27 +1897,23 @@ La procedura per trovare l’elemento massimo, invece, è simmetrica alla proced
 Entrambe queste procedure vengono eseguite in un tempo $O(h)$, in un albero di altezza $h$.
 
 
-- **SUCCESSORE e PREDECESSORE**: dato un nodo in un albero binario di ricerca, spesso è necessario trovare il suo successore, nell’ordine stabilito da un attraversamento simmetrico. Il successore di un nodo $x$ è il
+- **SUCCESSORE e PREDECESSORE**: dato un nodo in un albero binario di ricerca, spesso è necessario trovare il suo successore, nell’ordine stabilito da un attraversamento simmetrico. Il successore di un nodo $x$ è il nodo con la più piccola chiave maggiore di $x.key$. La struttura di un albero binario consente di trovare tale nodo senza il bisogno di confrontare le chiavi. *In pseudocodifica*:
 
-nodo con la pi`u piccola chiave maggiore di x.key. La struttura di un albero binario consente di trovare
+`treeSu c c e s s o r ( x ) :`
 
-tale nodo senza il bisogno di confrontare le chiavi. In pseudocodifica:
+`2 i f x . right != NIL :`
 
-1 t r e e S u c c e s s o r ( x ) :
+`3 return t r e e M i n i m u m ( x . right )`
 
-2 i f x . right != NIL :
+`4 y := x . parent`
 
-3 return t r e e M i n i m u m ( x . right )
+`5 w h i l e y != NIL and x = y . right :`
 
-4 y := x . parent
+`6 x := y`
 
-5 w h i l e y != NIL and x = y . right :
+`7 y := y . parent`
 
-6 x := y
-
-7 y := y . parent
-
-8 return y
+`8 return y`
 
 Se il sottoalbero destro del nodo x non `e vuoto, allora il successore di x `e proprio il nodo pi`u a
 
