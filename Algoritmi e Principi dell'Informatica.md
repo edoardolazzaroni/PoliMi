@@ -1995,33 +1995,26 @@ La conseguenza immediata di questo teorema è che le operazioni sugli insiemi di
 
 - **ROTAZIONE**: le operazioni di `treeInsert` e `treeDelete` sugli alberi rosso nero potrebbero violare le proprietà della struttura, proprio perchè modificano l’albero. Si rende quindi necessario ricalcolare i colori di qualche nodo dell’albero e anche la struttura dei puntatori, dopo la chiamata a una delle due procedure. La struttura dei puntatori viene modificata tramite una rotazione, ovvero un’operazione locale che preserva le proprietà degli alberi binari di ricerca. Quando si esegue una rotazione sinistra in un nodo $x$, supponendo che il nodo $y= x.right$ sia diverso da `NIL`, si fa ”perno” sul collegamento tra $x$ e $y$: il nodo $y$ diventa la nuova radice del sottoalbero, con $x$ come figlio sinistro di $y$ e il figlio sinistro di $y$ come figlio destro di $x$. *In pseudocodifica*:
 
-1 le ft Ro ta te (T , x ) :
+`leftRotate (T , x ) :`
+	`y := x . right`
+	`x . right := y . left`
+	`if y . left != T . nil :`
+		`y . left . parent := x`
+	`y . parent := x . parent`
+	`if x . parent = T . nil :`
+		`T . root := y`
 
-2 y := x . right
+`else if x = x . parent . left :`
 
-3 x . right := y . left
+`10 x . parent . left := y`
 
-4 i f y . left != T . nil :
+`11 e l s e :`
 
-5 y . left . parent := x
+`12 x . parent . right := y`
 
-6 y . parent := x . parent
+`13 y . left := x`
 
-7 i f x . parent = T . nil :
-
-8 T . root := y
-
-9 e l s e i f x = x . parent . left :
-
-10 x . parent . left := y
-
-11 e l s e :
-
-12 x . parent . right := y
-
-13 y . left := x
-
-14 x . parent := y9.6. ALBERI RED BLACK 75
+`14 x . parent := y`
 
 Il codice per la procedura rightRotate `e simmetrico a quello appena analizzato. Entrambe le
 
