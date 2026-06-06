@@ -1978,23 +1978,7 @@ Nello specifico, la riga 7 trova il nodo $y$, successore di $z$: poichè $z$ ha 
 
 ### **9.6 Alberi Red Black**
 
-Gli alberi rosso nero sono strutture dati ad albero di ricerca binaria con un bit aggiuntivo di memoria per ogni nodo, che rappresenta il colore di tale nodo. Questa struttura dati, garantisce che nessun cammino semplice dalla radice dell’albero fino ad una sua qualsiasi foglia si più lungo del doppio di qualsiasi
-
-altro cammino: si dice, quindi, che l’albero `e approssimativamente bilanciato. Ogni nodo dell’albero
-
-contiene ora gli attributi key, left, right, parent e color. Se un nodo non contiene riferimenti a
-
-figli o al nodo padre, il corrispondente attributo viene inizializzato con il valore NIL. In questo caso,
-
-i puntatori a NIL vengono trattati come puntatori a nodi (vuoti) esterni dell’albero, mentre i nodi che
-
-contengono informazioni sono trattati come nodi interni all’albero: dunque, tutte le foglie dell’albero
-
-sono nodi che non contengono nessuna informazione. In realt`a, per semplificare le condizioni al contorno
-
-nello pseudocodice, si `e soliti utilizzare un unico nodo sentinella inizializzato a NIL, in modo che per ogni
-
-albero T, le sue foglie puntano al nodo T.nil di color nero.
+Gli alberi rosso nero sono strutture dati ad albero di ricerca binaria con un bit aggiuntivo di memoria per ogni nodo, che rappresenta il colore di tale nodo. Questa struttura dati garantisce che nessun cammino semplice dalla radice dell’albero fino ad una sua qualsiasi foglia sia più lungo del doppio di qualsiasi altro cammino: si dice, quindi, che l’albero è approssimativamente bilanciato. Ogni nodo dell’albero contiene ora gli attributi `key, left, right, parent` e `color`. Se un nodo non contiene riferimenti a figli o al nodo padre, il corrispondente attributo viene inizializzato con il valore `NIL`. In questo caso, i puntatori a `NIL` vengono trattati come puntatori a nodi (vuoti) esterni dell’albero, mentre i nodi che contengono informazioni sono trattati come nodi interni all’albero: dunque, tutte le foglie dell’albero sono nodi che non contengono nessuna informazione. In realtà, per semplificare le condizioni al contorno nello pseudocodice, si è soliti utilizzare un unico nodo sentinella inizializzato a `NIL`, in modo che per ogni albero $T$, le sue foglie puntano al nodo `T.nil` di color nero.
 
 I nodi dell’albero rosso nero vengono colorati tramite le seguenti regole:
 
