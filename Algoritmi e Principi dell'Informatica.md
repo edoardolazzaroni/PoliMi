@@ -1939,19 +1939,9 @@ La procedura appena vista inizia dalla radice dell’albero e il puntatore $x$ t
 
 1. Se il nodo $z$ non ha figli, si modifica il nodo $z.parent$ in modo che non punti più a $z$, ma a `NIL`
 2. Se il nodo $z$ ha un solo figlio, si eleva il figlio di tale nodo in modo che occupi la posizione di $z$ nell’albero, modificando il padre di $z$ affinchè punti al figlio di $z$;
-3. Se il nodo $z$ ha due figli, si trova prima di tutto il successore $y$ di $z$, che deve necessariamente trovarsi nel sottoalbero destro di $z$, per poi fare in modo che $y$ assuma la posizione di znell’albero. La parte
+3. Se il nodo $z$ ha due figli, si trova prima di tutto il successore $y$ di $z$, che deve necessariamente trovarsi nel sottoalbero destro di $z$, per poi fare in modo che $y$ assuma la posizione di $z$ nell’albero. La parte restante del sottoalbero destro originale diventa il nuovo sottoalbero destro di $y$ e il sottoalbero sinistro di $z$ diventa il nuovo sottoalbero sinistro di $y$.
 
-restante del sottoalbero destro originale diventa il nuovo sottoalbero destro di y e il sottoalbero
-
-sinistro di z diventa il nuovo sottoalbero sinistro di y.
-
-Per poter spostare i sottoalberi all’interno dell’albero binario di ricerca si deve prima definire una
-
-procedura che sostituisca il sottoalbero figlio di suo padre con un altro sottoalbero. Questa procedura
-
-sosituisce il sottoalbero con radice nel nodo u con il sottoalbero con radice nel nodo v, in modo che il
-
-padre del nodo u diventa il padre del nodo v. In pseudocodifica:
+Per poter spostare i sottoalberi all’interno dell’albero binario di ricerca si deve prima definire una procedura che sostituisca il sottoalbero figlio di suo padre con un altro sottoalbero. Questa procedura sostituisce il sottoalbero con radice nel nodo $u$ con il sottoalbero con radice nel nodo $v$, in modo che il padre del nodo $u$ diventa il padre del nodo $v$. *In pseudocodifica*:
 
 1 tr an sp la nt (T , u , v ) :
 
