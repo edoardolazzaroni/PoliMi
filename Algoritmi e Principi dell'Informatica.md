@@ -1839,17 +1839,9 @@ Questa procedura, come la precedente, prende in input una tavola di hash $T$ e u
 
 #### **9.4.7 Hashing Uniforme**
 
-Nell’analisi delle tabelle hash con indirizzamento aperto si ipotizza hashing uniforme: si suppone, infatti, che ogni chiave abbia la stessa probabilità di avere come sequenza di ispezione una delle $m!$ permutazioni di $<0,1,...,m−1 >$. L’hashing uniforme estende il concetto di hashing uniforme semplice, impiegato più volte precedentemente, al caso in cui la funzione di hash produce, non un singolo numero, ma un’intera sequenza di ispezione. Nella pratica non è possibile ottenere una funzione di hash uniforme, ma si utilizzano delle approssimazioni accettabili. Si esaminano nel seguito tre tecniche utilizzate per calcolare le sequenze di ispezione richieste nell’indirizzamento aperto: ispezione lineare, ispezione quadratica e
+Nell’analisi delle tabelle hash con indirizzamento aperto si ipotizza hashing uniforme: si suppone, infatti, che ogni chiave abbia la stessa probabilità di avere come sequenza di ispezione una delle $m!$ permutazioni di $<0,1,...,m−1 >$. L’hashing uniforme estende il concetto di hashing uniforme semplice, impiegato più volte precedentemente, al caso in cui la funzione di hash produce, non un singolo numero, ma un’intera sequenza di ispezione. Nella pratica non è possibile ottenere una funzione di hash uniforme, ma si utilizzano delle approssimazioni accettabili. Si esaminano nel seguito tre tecniche utilizzate per calcolare le sequenze di ispezione richieste nell’indirizzamento aperto: ispezione lineare, ispezione quadratica e doppio hashing. Tali tecniche grantiscono che la sequenza $< h(k,0),h(k,1),...,h(k,m−1) >$ sia una permutazione di $< 0,1,...,m−1 >$ per ogni chiave $k$, ma nessuna di loro può garantire l’ipotesi di hashing uniforme, in quanto nessuna di esse è in grado di generare più di $m^2$ sequenze di ispezioni differenti (invece delle $m!$ sequenze richieste).
 
-doppio hashing. Tali tecniche grantiscono che la sequenza < h(k,0),h(k,1),...,h(k,m−1) > sia una
-
-permutazione di < 0,1,...,m−1 > per ogni chiave k, ma nessuna di loro pu`o garantire l’ipotesi di
-
-hashing uniforme, in quanto nessuna di esse `e in grado di generare pi`u di m2 sequenze di ispezioni
-
-differenti (invece delle m! sequenze richieste).
-
-Ispezione Lineare Data una funzione di hash ordinaria h′: U →{0,1,...,m−1}, detta funzione di
+- Ispezione Lineare Data una funzione di hash ordinaria h′: U →{0,1,...,m−1}, detta funzione di
 
 hash ausiliaria, il metodo di ispezione lineare utilizza la funzione di hash
 
