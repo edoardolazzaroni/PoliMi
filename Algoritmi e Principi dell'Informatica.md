@@ -1792,13 +1792,7 @@ La maggior parte delle funzioni di hashing suppone che l’universo delle chiavi
 - **Metodo della Moltiplicazione**: il metodo della moltiplicazione per la creazione di funzioni di hash consiste in due passi. Nel primo passaggio si moltiplica la chiave $k$ per una costante $A$, tale che $0 <A<1$, per poi estrarre la parte frazionaria del numero appena ottenuto. Nel secondo passaggio si moltiplica questo valore per $m$ e si prende la parte intera inferiore del risultato. Formalmente, la funzione di hash è così definita: $h(k) = ⌊m(k·A \ mod \ 1)⌋$
 	
 	dove $k·A \ mod \ 1$ rappresenta la parte frazionaria di $kA$, ovvero $kA−⌊kA⌋$.
-	Il vantaggio principale di questo metodo è che il valore di $m$ non è critico. Tipicamente si sceglie un valore di $m$ tale per cui sia una potenza di $2$, in modo da rendere più semplice implementare tale funzione in un calcolatore reale. Si supponga, infatti, che la dimensione di una parola nel calcolatore sia $w$ bit e che il numero $k$ sia contenuto in una sola parola. Si scelga poi un valore di $A$ che sia una frazione nella forma $s/2^w$, con $s$ intero nell’intervallo $0 < s < 2^w$. A questo punto, si moltiplica $k$ per $s= A·2^w$: il risultato sarà un numero di $2^w$ bit $r_12^w+ r_0$, in cui r1 rappresenta la parte pi`u significativa
-
-del prodotto ed r0 la parte meno significativa. Il valore hash desiderato di p bit `e formato dai p bit pi`u
-
-significativi di r0. Sebbene queste operazioni funzionino con qualsiasi valore della costante A, la scelta
-
-spesso adoperata `e A≈(√5−1)/2 ≈0.6180339887...
+	Il vantaggio principale di questo metodo è che il valore di $m$ non è critico. Tipicamente si sceglie un valore di $m$ tale per cui sia una potenza di $2$, in modo da rendere più semplice implementare tale funzione in un calcolatore reale. Si supponga, infatti, che la dimensione di una parola nel calcolatore sia $w$ bit e che il numero $k$ sia contenuto in una sola parola. Si scelga poi un valore di $A$ che sia una frazione nella forma $s/2^w$, con $s$ intero nell’intervallo $0 < s < 2^w$. A questo punto, si moltiplica $k$ per $s= A·2^w$: il risultato sarà un numero di $2^w$ bit $r_12^w+ r_0$, in cui $r_1$ rappresenta la parte più significativa del prodotto ed $r_0$ la parte meno significativa. Il valore hash desiderato di $p$ bit è formato dai $p$ bit più significativi di $r_0$. Sebbene queste operazioni funzionino con qualsiasi valore della costante $A$, la scelta spesso adoperata è $A≈(√5−1)/2 ≈0.6180339887...$
 
 9.4.6 Indirizzamento Aperto
 
