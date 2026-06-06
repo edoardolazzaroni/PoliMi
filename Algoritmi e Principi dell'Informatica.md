@@ -2058,15 +2058,11 @@ Dunque, tramite questa procedura, il nodo $z$ viene inserito nella posizione cor
 			`// come righe 4-16 con "left" e "right" scambiati //`
 	`T . root . color := BLACK`
 
-Una volta chiamata la funzione di inserimento, sicuramente la proprietà 1 (ogni nodo è rosso o nero) e la proprietà 3 (ogni foglia è nera) sono rispettate in quanto i figli del nodo rosso appena inserito sono `T.nil`. Anche la proprietà 5 (per ogni nodo, tutti i cammini semplici che vanno dal nodo alle sue foglie discendenti contengono lo stesso numero di nodi neri) è rispettata proprio perchè il nodo inserito nell’albero è di color rosso. Le uniche due proprietà che potrebbero non essere rispettate sono la 2 (la radice è nera) e la 4 (se un nodo è rosso, allora entrambi i suoi figli sono neri). Entrambe le possibili violazioni sono dovute al fatto che il nodo inserito viene colorato di rosso: infatti, se l’albero è vuoto, il nodo viene inserito alla radice violando la proprietà 2, mentre se il padre del nodo inserito è rosso, viene violata la propriet`a 4.
+Una volta chiamata la funzione di inserimento, sicuramente la proprietà 1 (ogni nodo è rosso o nero) e la proprietà 3 (ogni foglia è nera) sono rispettate in quanto i figli del nodo rosso appena inserito sono `T.nil`. Anche la proprietà 5 (per ogni nodo, tutti i cammini semplici che vanno dal nodo alle sue foglie discendenti contengono lo stesso numero di nodi neri) è rispettata proprio perchè il nodo inserito nell’albero è di color rosso. Le uniche due proprietà che potrebbero non essere rispettate sono la 2 (la radice è nera) e la 4 (se un nodo è rosso, allora entrambi i suoi figli sono neri). Entrambe le possibili violazioni sono dovute al fatto che il nodo inserito viene colorato di rosso: infatti, se l’albero è vuoto, il nodo viene inserito alla radice violando la proprietà 2, mentre se il padre del nodo inserito è rosso, viene violata la proprietà 4.
 
-Dunque, nel caso ci fossero violazioni delle propriet`a degli alberi rosso nero, ce ne sarebbe solo una
+Dunque, nel caso ci fossero violazioni delle proprietà degli alberi rosso nero, ce ne sarebbe solo una e riguarderebbe le due proprietà di cui si è appena discusso. Esistono 3 casi possibili, segnati anche all’interno dello pseudocodice nei commenti, per la ricolorazione dei nodi:
 
-e riguarderebbe le due propriet`a di cui si `e appena discusso. Esistono 3 casi possibili, segnati anche
-
-all’interno dello pseudocodice nei commenti, per la ricolorazione dei nodi:
-
-Caso 1 Lo zio y di z `e rosso: il caso 1 (righe 6-9) viene eseguito quando z.parent e y sono entrambi rossi.
+- **Caso 1**: Lo zio $y$ di $z$ è rosso: il caso 1 (righe 6-9) viene eseguito quando z.parent e y sono entrambi rossi.
 
 Poich`e z.parent.parent`e nero, `e possibile colorare di nero z.parent e y risolvendo il problema per
 
