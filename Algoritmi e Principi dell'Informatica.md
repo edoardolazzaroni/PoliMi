@@ -2100,20 +2100,13 @@ Una volta introdotta questa procedura, è possibile analizzare l’algoritmo di 
 		`else :`
 			`RBTransplant (T , y , y . right)`
 			`y . right := z . right`
-
-`19 20 21 22 23 24 25 i f y . right . parent := y`
-
-`R B T r a n s p l a n t (T , z , y )`
-
-`y . left := z . left`
-
-`y . left . parent := y`
-
-`y . color := z . color`
-
-`y O r i g i n a l C o l o r = BLACK :`
-
-`R B D e l e t e F i x u p (T , x )`
+			`y . right . parent := y`
+		`RBTransplant (T , z , y )`
+		`y . left := z . left`
+		`y . left . parent := y`
+		`y . color := z . color`
+	`if yOriginalColor = BLACK :`
+		`RBDeleteFixup (T , x )`
 
 1 R B D e l e t e F i x u p (T , x ) :
 
