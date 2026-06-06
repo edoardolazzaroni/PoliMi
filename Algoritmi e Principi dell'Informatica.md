@@ -1991,7 +1991,7 @@ Si definisce a questo proposito, altezza nera di un nodo $x$, indicato con $bh(x
 
 - **Teorema**: l’altezza massima di un albero rosso nero con $n$ nodi è $2 \ log_2(n+ 1)$.
 
-La conseguenza immediata di questo teorema è che le operazioni sugli insiemi dinamici possono tutte essere implementate in un tempo $O(log_2 \ n)$ negli alberi rosso neri, perchè possono essere eseguite nel tempo $O(h)$ in un albero binario di ricerca di altezza he qualsiasi albero rosso nero di nnodi `e un albero
+La conseguenza immediata di questo teorema è che le operazioni sugli insiemi dinamici possono tutte essere implementate in un tempo $O(log_2 \ n)$ negli alberi rosso neri, perchè possono essere eseguite nel tempo $O(h)$ in un albero binario di ricerca di altezza he qualsiasi albero rosso nero di $n$ nodi `e un albero
 
 binario di ricerca di altezza O(log2 n).
 
