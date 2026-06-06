@@ -1882,26 +1882,18 @@ Questo algoritmo inizia la sua ricerca dalla radice dell’albero e ad ogni iter
 
 - **MINIMO e MASSIMO**: un elemento con chiave minima in un albero binario di ricerca può sempre essere trovato seguendo, a partire dalla radice, i puntatori left, fino a quando non viene incontrato un valore `NIL`, sempre per la proprietà fondamentale degli alberi binari di ricerca. *In pseudocodifica*:
 
-`treeMinimu m ( x ) :`
-
-`2 w h i l e x . left != NIL :`
-
-`3 x := x . left`
-
-`4 return x`
+`treeMinimum ( x ) :`
+	`while x . left != NIL :`
+		`x := x . left`
+	`return x`
 
 
-La procedura per trovare l’elemento massimo, invece, `e simmetrica alla procedura appena analizzata.
+La procedura per trovare l’elemento massimo, invece, è simmetrica alla procedura appena analizzata. *In pseudocodifica*:
 
-In pseudocodifica:
-
-1 t r e e M a x i m u m ( x ) :
-
-2 w h i l e x . right != NIL :
-
-3 x := x . right
-
-4 return x
+`treeMaximum ( x ) :`
+	`while x . right != NIL :`
+		`x := x . right`
+	`return x`
 
 Entrambe queste procedure vengono eseguite in un tempo O(h), in un albero di altezza h.
 
