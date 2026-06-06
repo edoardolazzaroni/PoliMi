@@ -2045,12 +2045,11 @@ Dunque, tramite questa procedura, il nodo $z$ viene inserito nella posizione cor
 			`if y . color = RED :`
 				`z . parent . color := BLACK`
 				`y . color := BLACK`                                                                                // caso 1
-				`z . parent . parent . color := RED` //caso
+				`z . parent . parent . color := RED`                                                // caso 1
 				`z := z . parent . parent`                                                                    // caso 1
 
-`// caso 1`
 
-`// caso 1`
+
 
 `10 e l s e :`
 
