@@ -1937,15 +1937,9 @@ La procedura appena vista inizia dalla radice dell’albero e il puntatore $x$ t
 
 - **CANCELLAZIONE**: la procedura per la cancellazione di un nodo $z$ da un albero binario di ricerca si suddivide in tre casi:
 
-1. se il nodo z non ha figli, si modifica il nodo z.parent in modo che non punti pi`u a z, ma a NIL;
-
-2. Se il nodo z ha un solo figlio, si eleva il figlio di tale nodo in modo che occupi la posizione di z
-
-nell’albero, modificando il padre di z affinch`e punti al figlio di z;
-
-3. Se il nodo zha due figli, si trova prima di tutto il successore ydi z, che deve necessariamente trovarsi
-
-nel sottoalbero destro di z, per poi fare in modo che yassuma la posizione di znell’albero. La parte
+1. Se il nodo $z$ non ha figli, si modifica il nodo $z.parent$ in modo che non punti più a $z$, ma a `NIL`
+2. Se il nodo $z$ ha un solo figlio, si eleva il figlio di tale nodo in modo che occupi la posizione di $z$ nell’albero, modificando il padre di $z$ affinchè punti al figlio di $z$;
+3. Se il nodo $z$ ha due figli, si trova prima di tutto il successore $y$ di $z$, che deve necessariamente trovarsi nel sottoalbero destro di $z$, per poi fare in modo che $y$ assuma la posizione di znell’albero. La parte
 
 restante del sottoalbero destro originale diventa il nuovo sottoalbero destro di y e il sottoalbero
 
