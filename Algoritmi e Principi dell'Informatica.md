@@ -1910,46 +1910,42 @@ Entrambe queste procedure vengono eseguite in un tempo $O(h)$, in un albero di a
 
 Se il sottoalbero destro del nodo $x$ non è vuoto, allora il successore di $x$ è proprio il nodo più a sinistra nel sottoalbero destro, che viene trovato chiamando la procedura precedentemente analizzata `treeMinimum`. Altrimenti, se il sottoalbero destro del nodo $x$ è vuoto e $x$ ha un successore $y$, allora $y$ è l’antenato più prossimo di $x$ il cui figlio sinistro è anche antenato di $x$. Per trovare il nodo $y$, è necessario risalire l’albero partendo da $x$, fino a quando non si trova un nodo che è figlio sinistro di suo padre.
 Questa operazione è svolta in un tempo $O(h)$, con $h$ l’altezza dell’albero.
+La procedura per trovare il successore è simmetrica alla procedura appena analizzata e viene svolta nello stesso tempo.
 
-La procedura per trovare il successore è simmetrica alla procedura appena anlizzata e viene svolta
 
-nello stesso tempo.
+- **INSERIMENTO**: per inserire un nuovo valore $v$ all’interno dell’albero binario di ricerca $T$, si utilizza la seguente procedura, che riceve in input un nodo $z$, tale per cui $z.key= v$:
 
-Inserimento Per inserire un nuovo valore v all’interno dell’albero binario di ricerca T, si utilizza la
+`1 treeInsert (T , z ) :`
 
-seguente procedura, che riceve in input un nodo z, tale per cui z.key= v:
+`2 y := NIL`
 
-1 tr ee In se rt (T , z ) :
+`3 x := T . root`
 
-2 y := NIL
+`4 w h i l e x != NIL :`
 
-3 x := T . root
+`5 y := x`
 
-4 w h i l e x != NIL :
+`6 i f z . key < x . key :`
 
-5 y := x
+`7 x := x . left`
 
-6 i f z . key < x . key :
+`8 e l s e :`
 
-7 x := x . left
+`9 x := z . right`
 
-8 e l s e :
+`10 z . parent := y`
 
-9 x := z . right
+`11 i f y = NIL :`
 
-10 z . parent := y
+`12 T . root = z`
 
-11 i f y = NIL :
+`13 e l s e i f z . key < y . key :`
 
-12 T . root = z
+`14 y . left := z`
 
-13 e l s e i f z . key < y . key :
+`15 e l s e :`
 
-14 y . left := z
-
-15 e l s e :
-
-16 y . right := z
+`16 y . right := z`
 
 La procedura appena vista inizia dalla radice dell’albero e il puntatore xtraccia un cammino semplice
 
