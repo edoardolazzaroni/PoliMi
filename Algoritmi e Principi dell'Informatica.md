@@ -1816,17 +1816,9 @@ Un altro metodo per evitare le collisioni è tramite l’indirizzamento aperto, 
 	`until i = m`
 	`error " hash table overflow "`
 
-Questa procedura prende in input una tavola di hash T e una chiave k da inserire in tabella, e
+Questa procedura prende in input una tavola di hash $T$ e una chiave $k$ da inserire in tabella, e ritorna l’indice della cella in cui è stato inserito l’elemento, oppure `error` di overflow se non è presente nessuna cella libera. Si noti nella condizione in riga 5, che viene verificato se la cella $T[k]$ contiene il valore `DELETED`: questo valore speciale verrà ripreso e analizzato più avanti assieme alla procedura di eliminazione delle chiavi dalla tabella.
 
-ritorna l’indice della cella in cui `e stato inserito l’elemento, oppure error di overflow se non `e presente
-
-nessuna cella libera. Si noti nella condizione in riga 5, che viene verificato se la cella T[k] contiene il
-
-valore DELETED: questo valore speciale verr`a ripreso e analizzato pi`u avanti assieme alla procedura di
-
-eliminazione delle chiavi dalla tabella.
-
-Ricerca Per la ricerca di una determinata chiave kesamina la stessa sequenza di celle che ha esaminato
+- Ricerca Per la ricerca di una determinata chiave kesamina la stessa sequenza di celle che ha esaminato
 
 l’algoritmo di inserimento quando ha inserito l’elemento di chiave k. Dunque, la procedura di ricerca
 
