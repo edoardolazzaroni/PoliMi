@@ -2080,15 +2080,7 @@ Dunque, nel caso ci fossero violazioni delle proprietà degli alberi rosso nero,
 		`u . parent . right := v`
 	`v . parent := u . parent`
 
-Una volta introdotta questa procedura, `e possibile analizzare l’algoritmo di rimozione, simile a quella
-
-analizzata per gli alberi di ricerca binaria, con l’unica differenza che si tiene traccia del nodo y, che
-
-potrebbe violare le propriet`a degli alberi rosso nero. Per evitare tali violazioni, si utilizza una seconda
-
-procedura di supporto che ha il compito di ricalcolare i colori dell’albero, in modo da rispettare le sue
-
-propriet`a. In pseudocodifica:
+Una volta introdotta questa procedura, è possibile analizzare l’algoritmo di rimozione, simile a quella analizzata per gli alberi di ricerca binaria, con l’unica differenza che si tiene traccia del nodo $y$, che potrebbe violare le proprietà degli alberi rosso nero. Per evitare tali violazioni, si utilizza una seconda procedura di supporto che ha il compito di ricalcolare i colori dell’albero, in modo da rispettare le sue proprietà. *In pseudocodifica*:
 
 1 RBDelete (T , z ) :
 
