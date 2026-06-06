@@ -1957,13 +1957,11 @@ Una volta introdotto questo algoritmo, è possibile ora analizzare la procedura 
 
 `treeDelete (T , z ) :`
 	`if z . left = NIL :`
-		`transplant (T , z , 4 e l s e i f z . right = NIL :`
 		`transplant (T , z , z . right )`
-		`z . left )`
-
-`else :`
-
-`7 y := t r e e M i n i m u m ( z . right )`
+	`else if z . right = NIL :`
+		`transplant (T , z , z . left )`
+	`else :`
+		`y := treeMinimum ( z . right )`
 
 `8 i f y . parent != z :`
 
