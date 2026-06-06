@@ -1852,17 +1852,9 @@ Nell’analisi delle tabelle hash con indirizzamento aperto si ipotizza hashing 
 
 ### **9.5 Alberi Binari**
 
-Un albero binario di ricerca è una struttura dati ad albero che supporta molte operazioni degli insiemi dinamici, come `search. delete, insert, minimum, maximum, successor` e `predecessor`. Tali alberi sono rappresentati da strutture concatenate in cui ogni nodo è un oggetto, che oltre ad avere una chiave e i dati satellite, contengono anche gli attributi `left, right` e `parent`, che puntano rispettivamente al figlio sinistro, al figlio destro e al padre. Se manca un figlio o un padre, i corrispondenti attributi sono
+Un albero binario di ricerca è una struttura dati ad albero che supporta molte operazioni degli insiemi dinamici, come `search. delete, insert, minimum, maximum, successor` e `predecessor`. Tali alberi sono rappresentati da strutture concatenate in cui ogni nodo è un oggetto, che oltre ad avere una chiave e i dati satellite, contengono anche gli attributi `left, right` e `parent`, che puntano rispettivamente al figlio sinistro, al figlio destro e al padre. Se manca un figlio o un padre, i corrispondenti attributi sono inizializzati a `NIL`. Il nodo radice, detto anche root, è l’unico nodo nell’albero il cui attributo padre è inizializzato con `NIL`.
 
-inizializzati a NIL. Il nodo radice, detto anche root, `e l’unico nodo nell’albero il cui attributo padre `e
-
-inizializzato con NIL.
-
-Le chiavi dell’albero binario di ricerca sono memorizzate in maniera da rispettare sempre la propriet`a
-
-fondamentale per cui se x`e un nodo in un albero binario di ricerca ed y`e il nodo nel sottoalbero sinistro
-
-di x, allora y.key ≤x.key, mentre se y `e un nodo nel sottoalbero destro di x, allora y.key ≥x.key.
+Le chiavi dell’albero binario di ricerca sono memorizzate in maniera da rispettare sempre la proprietà fondamentale per cui se $x$ è un nodo in un albero binario di ricerca ed $y$ è il nodo nel sottoalbero sinistro di $x$, allora $y.key ≤x.key$, mentre se $y$ è un nodo nel sottoalbero destro di $x$, allora $y.key ≥x.key$.
 
 Tale propriet`a permette di elencare ordinatamente tutte le chiavi di un albero binario di ricerca con
 
