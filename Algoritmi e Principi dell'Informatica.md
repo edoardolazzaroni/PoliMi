@@ -1747,23 +1747,11 @@ Quando l’insieme $K$ delle chiavi memorizzate in un dizionario è molto più p
 Si dice che $h(k)$ è il valore hash della chiave $k$.
 
 
-#**9.4.3 Hashing Concatenato**
+#### **9.4.3 Hashing Concatenato**
 
-Il problema principale con la tecnica di indirizzamento appena analizzata è che, riducendo l’intervallo
+Il problema principale con la tecnica di indirizzamento appena analizzata è che, riducendo l’intervallo degli indici da $|U|$ ad $m << |U|$, è molto probabile che due chiavi vengano mappate nella stessa cella: in tal caso si dice che avviene una collisione. Per evitare un evento simile è possibile, in prima analisi, implementare una funzione di hash totalmente deterministica il più randomica possibile, in modo da minimizzare le collisioni. Si dimostra però che un evento di collisione è impossibile da evitare in quanto $|U|>m$ e quindi, dopo l’$m$-esima chiamata alla funzione di hash, avverà sicuramente una collisione.
 
-degli indici da |U|ad m << |U|, `e molto probabile che due chiavi vengano mappate nella stessa cella:
-
-in tal caso si dice che avviene una collisione. Per evitare un evento simile `e possibile, in prima analisi,
-
-implementare una funzione di hash totalmente deterministica il pi`u randomica possibile, in modo da
-
-minimizzare le collisioni. Si dimostra per`o che un evento di collisione `e impossibile da evitare in quanto
-
-|U|>m e quindi, dopo l’m-esima chiamata alla funzione di hash, avver`a sicuramente una collisione.
-
-Si rende necessario, dunque, implementare un meccanismo che gestisca tali eventi. Nello specifico, la
-
-tecnica pi`u utilizzata `e il concatenamento (o chaining), tramite cui, tutti gli elementi associati ad una
+Si rende necessario, dunque, implementare un meccanismo che gestisca tali eventi. Nello specifico, la tecnica più utilizzata è il concatenamento (o chaining), tramite cui, tutti gli elementi associati ad una
 
 stessa cella k sono posti in una lista concatenata. La cella k, in questo caso, punta al nodo di testa della
 
