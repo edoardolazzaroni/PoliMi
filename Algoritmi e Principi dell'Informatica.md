@@ -1802,7 +1802,7 @@ Un altro metodo per evitare le collisioni è tramite l’indirizzamento aperto, 
 - **INSERIMENTO**: per effettuare un insierimento mediante il metodo dell’indirizzamento aperto, si esamina in successione le posizioni della tavola hash fino a che non si trova una cella libera in cui inserire la chiave. L’efficienza di questo metodo consiste nel calcolare una nuova sequenza di accesso alla tabella in base alla chiave dell’oggetto da inserire, anzichè seguire sempre lo stesso cammino di accessi, che impiegherebbe un tempo di esecuzione $Θ(n)$. Per determinare quali celle esaminare durante la fase di ispezione, si estende la funzione di hash in modo da includere l’ordine di ispezione (a partire da $0$), come secondo input. Formalmente, la funzione di hash modificata è definita come segue:
 					$h(k,i) : U ×\left\{0,1,...,m−1\right\}→\left\{0,1,...,m−1\right\}$
 	
-	Si richiede, inoltre, che per ogni chiave $k$ la sequenza di ispezione $<h(k,0),h(k,1),...,h(k,m−1) >$ sia una permutazione della sequenza $<0,1,...,m−1 >$, in modo tale che ogni cella della tavola possa essere considerata come possibile cella in cui inserire una nuova chiave. In pseudocodifica:
+	Si richiede, inoltre, che per ogni chiave $k$ la sequenza di ispezione $<h(k,0),h(k,1),...,h(k,m−1) >$ sia una permutazione della sequenza $<0,1,...,m−1 >$, in modo tale che ogni cella della tavola possa essere considerata come possibile cella in cui inserire una nuova chiave. *In pseudocodifica*:
 
 `hashInsert (T , k ) :`
 	`i := 0`
@@ -1818,33 +1818,21 @@ Un altro metodo per evitare le collisioni è tramite l’indirizzamento aperto, 
 
 Questa procedura prende in input una tavola di hash $T$ e una chiave $k$ da inserire in tabella, e ritorna l’indice della cella in cui è stato inserito l’elemento, oppure `error` di overflow se non è presente nessuna cella libera. Si noti nella condizione in riga 5, che viene verificato se la cella $T[k]$ contiene il valore `DELETED`: questo valore speciale verrà ripreso e analizzato più avanti assieme alla procedura di eliminazione delle chiavi dalla tabella.
 
-- Ricerca Per la ricerca di una determinata chiave kesamina la stessa sequenza di celle che ha esaminato
+- **RICERCA**: per la ricerca di una determinata chiave $k$ esamina la stessa sequenza di celle che ha esaminato l’algoritmo di inserimento quando ha inserito l’elemento di chiave $k$. Dunque, la procedura di ricerca potrebbe terminare la propria esecuzione senza successo quando trova una cella vuota, in quanto la chiave $k$ sarebbe stata inserita in quella posizione (si presuppone che le chiavi non possano essere eliminate dalla tavola). *In pseudocodifica*:
 
-l’algoritmo di inserimento quando ha inserito l’elemento di chiave k. Dunque, la procedura di ricerca
+`hashSearch (T , k ) :`
+	`i := 0`
+	`repeat`
+		`j := h (k , i )`
+		`if T [ j ] = k :`
 
-potrebbe terminare la propria esecuzione senza successo quando trova una cella vuota, in quanto la chiave
+`6 return j`
 
-ksarebbe stata inserita in quella posizione (si presuppone che le chiavi non possano essere eliminate dalla
+`7 i := i + 1`
 
-tavola). In pseudocodifica:
+`8 u n t i l T [ j ] = NIL or i = m`
 
-1 ha sh Se ar ch (T , k ) :
-
-2 i := 0
-
-3 repeat
-
-4 j := h (k , i )
-
-5 i f T [ j ] = k :
-
-6 return j
-
-7 i := i + 1
-
-8 u n t i l T [ j ] = NIL or i = m
-
-9 return NIL
+`9 return NIL`
 
 Questa procedura, come la precedente, prende in input una tavola di hash T e una chiave k da
 
