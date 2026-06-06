@@ -1775,13 +1775,7 @@ Si noti che la funzione `chainedHashDelete` prende come input un elemento $x$, n
 
 Data una tavola di hash $T$, che conta $m$ celle in cui sono memorizzati $n$ elementi, si definisce il fattore di carico $α$ della tavola $T$ come il rapporto $n/m$, ossia il numero medio di elementi memorizzati in una lista.
 
-Il caso peggiore nell’hashing si verifica quando tutte le $n$ chiavi sono associate alla stessa cella, creando una lista di lunghezza $n$. Il tempo di esecuzione della ricerca diventa quindi $Θ(n)$ a cui si aggiunge il tempo di esecuzione della funzione di hashing. Ovviamente, un caso del genere è molto improbabile nel caso in cui la funzione di hash sia ben progettata. Per il momento si suppone che ogni elemento ha uguale probabilità di essere mappato in una qualsiasi delle $m$ celle, indipendentemente dalle celle in cui sono stati mappati gli altri elementi. Tale ipotesi viene definita hashing uniforme semplice. Per ogni $j = 0,1,...,m−1$, si indica con $n_j$ la lunghezza della lista $T[j]$, ottenendo quindi il numero di elementi totali memorizzati in tabella è $n= n_0 +n_1 +...+n_m−1$. Il valore atteso di ogni nj sar`a E[nj] = α= n/m,
-
-quindi il tempo medio per la ricerca di un elemento di chiave k non presente nella lista (caso pessimo)
-
-`e Θ(1 + α), che si dimostra essere anche il tempo di ricerca dello stesso elemento, questa volta presente
-
-tabella. Nella pratica, se il numero di celle nella tavola di hash `e almeno proporzionale al numero di
+Il caso peggiore nell’hashing si verifica quando tutte le $n$ chiavi sono associate alla stessa cella, creando una lista di lunghezza $n$. Il tempo di esecuzione della ricerca diventa quindi $Θ(n)$ a cui si aggiunge il tempo di esecuzione della funzione di hashing. Ovviamente, un caso del genere è molto improbabile nel caso in cui la funzione di hash sia ben progettata. Per il momento si suppone che ogni elemento ha uguale probabilità di essere mappato in una qualsiasi delle $m$ celle, indipendentemente dalle celle in cui sono stati mappati gli altri elementi. Tale ipotesi viene definita hashing uniforme semplice. Per ogni $j = 0,1,...,m−1$, si indica con $n_j$ la lunghezza della lista $T[j]$, ottenendo quindi il numero di elementi totali memorizzati in tabella è $n= n_0 +n_1 +...+n_{m−1}$. Il valore atteso di ogni $n_j$ sarà $E[nj] = α= n/m$, quindi il tempo medio per la ricerca di un elemento di chiave $k$ non presente nella lista (caso pessimo) è $Θ(1 + α)$, che si dimostra essere anche il tempo di ricerca dello stesso elemento, questa volta presente in tabella. Nella pratica, se il numero di celle nella tavola di hash `e almeno proporzionale al numero di
 
 elementi della tavola, si ottiene che n= O(m) e quindi α= n/m= O(m)/m= O(1). Pertanto, la ricerca
 
