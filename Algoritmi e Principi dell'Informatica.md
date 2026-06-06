@@ -1787,21 +1787,9 @@ La maggior parte delle funzioni di hashing suppone che l’universo delle chiavi
 - **Metodo della Divisione**: quando si applica il metodo della divisione per creare una funzione di hash, una chiave $k$ viene associata a una delle $m$ celle prendeno il resto della divisione fra $k$ ed $m$. Formalmente, la funzione di hash è così definita: $h(k) = k \ mod \ m$
 	
 	Il vantaggio principale di questo metodo è che si può implementare molto rapidamente e richiede un tempo di esecuzione costante.
-	Quando si utilizza il metodo della divisione, si cerca di evitare alcuni valori di $m$. Nello specifico si evitano le potenze di $2$, in quanto se $m = 2^p$, allora $h(k)$ rappresenta proprio i $p$ bit meno significativi di $k$: infatti, sarebbe più corretto far dipendere la funzione di hash da tutti i bit della chiave. Inoltre, si evita di scegliere $m+ 2^p−1$ quando $k$ è una stringa di caratteri interpretata in base $2^p$, in quanto
+	Quando si utilizza il metodo della divisione, si cerca di evitare alcuni valori di $m$. Nello specifico si evitano le potenze di $2$, in quanto se $m = 2^p$, allora $h(k)$ rappresenta proprio i $p$ bit meno significativi di $k$: infatti, sarebbe più corretto far dipendere la funzione di hash da tutti i bit della chiave. Inoltre, si evita di scegliere $m+ 2^p−1$ quando $k$ è una stringa di caratteri interpretata in base $2^p$, in quanto la permutazione dei caratteri di $k$ non cambia il suo valore di hash. Una buona scelta di $m$, invece, potrebbe essere un numero primo non troppo vicino a una potenza esatta di $2$.
 
-la permutazione dei caratteri di k non cambia il suo valore di hash. Una buona scelta di m, invece,
-
-potrebbe essere un numero primo non troppo vicino a una potenza esatta di 2.
-
-Metodo della Moltiplicazione Il metodo della moltiplicazione per la creazione di funzioni di hash
-
-consiste in due passi. Nel primo passaggio si moltiplica la chiave kper una costante A, tale che 0 <A<1,
-
-per poi estrarre la parte frazionaria del numero appena ottenuto. Nel secondo passaggio si moltiplica
-
-questo valore per m e si prende la parte intera inferiore del risultato. Formalmente, la funzione di hash
-
-`e cos`ı definita:
+- **Metodo della Moltiplicazione**: il metodo della moltiplicazione per la creazione di funzioni di hash consiste in due passi. Nel primo passaggio si moltiplica la chiave $k$ per una costante $A$, tale che $0 <A<1$, per poi estrarre la parte frazionaria del numero appena ottenuto. Nel secondo passaggio si moltiplica questo valore per $m$ e si prende la parte intera inferiore del risultato. Formalmente, la funzione di hash è così definita:
 
 h(k) = ⌊m(k·Amod1)⌋
 
