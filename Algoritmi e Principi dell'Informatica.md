@@ -1771,15 +1771,11 @@ Si passa ora all’analisi del tempo di esecuzione di tali procedure: nel caso p
 Si noti che la funzione `chainedHashDelete` prende come input un elemento $x$, non la sua chiave $k$, quindi non occorre cercare prima l’elemento $x$. Se la tavola di hash supporta la cancellazione, allora le sue liste dovrebbero essere doppiamente concatenate in modo che la cancellazione di un elemento sia più rapida. Se le liste fossero singolarmente concatenate, per cancellare l’elemento $x$, si dovrebbe prima trovare $x$ nella lista $T[h(x.key)]$  in modo da poter aggiornare l’attributo `next` dell’elemento precedente in lista, assegnandogli il valore `NIL`.
 
 
-9.4.4 Analisi della Funzione di Hash
+#### **9.4.4 Analisi della Funzione di Hash**
 
-Data una tavola di hash T, che conta mcelle in cui sono memorizzati nelementi, si definisce il fattore di
+Data una tavola di hash $T$, che conta $m$ celle in cui sono memorizzati $n$ elementi, si definisce il fattore di carico $α$ della tavola $T$ come il rapporto $n/m$, ossia il numero medio di elementi memorizzati in una lista.
 
-carico αdella tavola T come il rapporto n/m, ossia il numero medio di elementi memorizzati in una lista.
-
-Il caso peggiore nell’hashing si verifica quando tutte le n chiavi sono associate alla stessa cella, creando
-
-una lista di lunghezza n. Il tempo di esecuzione della ricerca diventa quindi Θ(n) a cui si aggiunge il
+Il caso peggiore nell’hashing si verifica quando tutte le $n$ chiavi sono associate alla stessa cella, creando una lista di lunghezza $n$. Il tempo di esecuzione della ricerca diventa quindi $Θ(n)$ a cui si aggiunge il
 
 tempo di esecuzione della funzione di hashing. Ovviamente, un caso del genere `e molto improbabile nel
 
