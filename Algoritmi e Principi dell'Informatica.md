@@ -1805,25 +1805,16 @@ Un altro metodo per evitare le collisioni è tramite l’indirizzamento aperto, 
 	Si richiede, inoltre, che per ogni chiave $k$ la sequenza di ispezione $<h(k,0),h(k,1),...,h(k,m−1) >$ sia una permutazione della sequenza $<0,1,...,m−1 >$, in modo tale che ogni cella della tavola possa essere considerata come possibile cella in cui inserire una nuova chiave. In pseudocodifica:
 
 `hashInsert (T , k ) :`
-`i := 0`
-
-`3 repeat`
-
-`4 j := h (k , i )`
-
-`5 i f T [ j ] = NIL or T [ j ] = DELETED :`
-
-`6 T [ j ] := k`
-
-`7 return j`
-
-`8 e l s e :`
-
-`9 i := i + 1`
-
-`10 u n t i l i = m`
-
-`11 error " hash table overflow "`
+	`i := 0`
+	`repeat`
+		`j := h (k , i )`
+		`if T [ j ] = NIL or T [ j ] = DELETED :`
+			`T [ j ] := k`
+			`return j`
+		`else :`
+			`i := i + 1`
+	`until i = m`
+	`error " hash table overflow "`
 
 Questa procedura prende in input una tavola di hash T e una chiave k da inserire in tabella, e
 
