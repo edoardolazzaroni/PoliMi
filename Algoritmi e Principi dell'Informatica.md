@@ -1780,25 +1780,9 @@ Il caso peggiore nell’hashing si verifica quando tutte le $n$ chiavi sono asso
 
 #### **9.4.5 Funzione di Hash**
 
-Per progettare una buona tabella di hash è necessario implementare una funzione di hash che sia altamente efficiente. A questo proposito si introducono tre possibili schemi di implementazione: hashing per divisione (uristico), hashing per moltiplicazione (euristico) e hashing universale (aleatorio, non analizzato
+Per progettare una buona tabella di hash è necessario implementare una funzione di hash che sia altamente efficiente. A questo proposito si introducono tre possibili schemi di implementazione: hashing per **divisione** (uristico), hashing per **moltiplicazione** (euristico) e hashing **universale** (aleatorio, non analizzato in questa sezione). In generale, una buona funzione di hashing deve soddisfare approssimativamente la condizione di hashing uniforme semplice: ogni chiave deve avere la stessa probabilità di essere mappata in una qualsiasi cella della tabella. Di solito non è possibile verificare questa condizione, in quanto non è nota la distribuzione delle probabilità secondo cui vengono estratte le chiavi. Quindi, nella pratica, spesso si utilizzano delle tecniche euristiche per la realizzazione di tali funzioni.
 
-in questa sezione). In generale, una buona funzione di hashing deve soddisfare approssimativamente la
-
-condizione di hashing uniforme semplice: ogni chiave deve avere la stessa probabilit`a di essere mappata
-
-in una qualsiasi cella della tabella. Di solito non `e possibile verificare questa condizione, in quanto non
-
-`e nota la distribuzione delle probabilit`a secondo cui vengono estratte le chiavi. Quindi, nella pratica,
-
-spesso si utilizzano delle tecniche euristiche per la realizzazione di tali funzioni.
-
-La maggior parte delle funzioni di hashing suppone che l’universo delle chiavi sia l’insieme dei numeri
-
-naturali N e quindi, se nella struttura dati progettata, la chiave non `e un numero naturale ma, ad
-
-esempio, una stringa, `e necessario studiare un metodo di conversione: nei calcolatori questo metodo `e
-
-tipicamente gi`a implementato, in quanto ogni informazione analogica viene convertita in una stringa
+La maggior parte delle funzioni di hashing suppone che l’universo delle chiavi sia l’insieme dei numeri naturali $\mathbb{N}$ e quindi, se nella struttura dati progettata, la chiave non è un numero naturale ma, ad esempio, una stringa, è necessario studiare un metodo di conversione: nei calcolatori questo metodo è tipicamente già implementato, in quanto ogni informazione analogica viene convertita in una stringa
 
 binaria di bit (appartenente ad N). Nello studio dei tre metodi di hashing si suppone che le chiavi siano
 
