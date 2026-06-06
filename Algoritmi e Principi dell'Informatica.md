@@ -1867,11 +1867,7 @@ Tale proprietà permette di elencare ordinatamente tutte le chiavi di un albero 
 Per attraversare un albero binario di ricerca costituito da $n$ nodi, è necessario un tempo $Θ(n)$, in quanto, dopo la chiamata iniziale, la procedura viene chiamata ricorsivamente esattamente due volte per ogni nodo dell’albero.
 
 - **RICERCA**: un’altra tipica operazione svolta su un albero binario di ricerca è quella di cercare una chiave memorizzata nell’albero: oltre all’operazione `search`, gli alberi binari supportano anche query come `minimum, maximum, successor` e `predecessor`.
-	Dato un puntatore alla radice dell’albero e una chiave k da cercare, la procedura treeSearch resti-
-
-tuisce il puntatore al nodo di chiave k, se esiste, oppure NIL, se la chiave non `e presente nell’albero. In
-
-pseudocodifica:
+	Dato un puntatore alla radice dell’albero e una chiave $k$ da cercare, la procedura `treeSearch` restituisce il puntatore al nodo di chiave $k$, se esiste, oppure `NIL`, se la chiave non è presente nell’albero. *In pseudocodifica*:
 
 1 tr ee Se ar ch (x , k ) :
 
