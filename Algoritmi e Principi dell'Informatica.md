@@ -1860,18 +1860,11 @@ Tale proprietà permette di elencare ordinatamente tutte le chiavi di un albero 
 
 `inorderTreeWalk ( x ) :`
 	`if x != NIL :`
+		`inorderTreeWalk ( x . left )`
+		`print x . key`
+		`inorderTreeWalk ( x . right )`
 
-`inorderTreeWal k ( x . left )`
-
-`4 p r i n t x . key`
-
-`5 i n o r d e r T r e e W a l k ( x . right )`
-
-Per attraversare un albero binario di ricerca costituito da n nodi, `e necessario un tempo Θ(n), in
-
-quanto, dopo la chiamata iniziale, la procedura viene chiamata ricorsivamente esattamente due volte per
-
-ogni nodo dell’albero.
+Per attraversare un albero binario di ricerca costituito da $n$ nodi, è necessario un tempo $Θ(n)$, in quanto, dopo la chiamata iniziale, la procedura viene chiamata ricorsivamente esattamente due volte per ogni nodo dell’albero.
 
 Ricerca Un’altra tipica operazione svolta su un albero binario di ricerca `e quella di cercare una chiave
 
