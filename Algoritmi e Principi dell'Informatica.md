@@ -1873,22 +1873,11 @@ Per attraversare un albero binario di ricerca costituito da $n$ nodi, è necessa
 	`if x = NIL or k = x . key :`
 		`return x`
 	`if k < x . key :`
-`return treeSearch ( x . left ,
-`else :`
+		`return treeSearch ( x . left , k )`
+	`else :`
+		`return treeSearch ( x . right , k )`
 
-`7 return tr ee Se ar ch ( x . right , k )`
-
-`k )`
-
-Questo algoritmo inizia la sua ricerca dalla radice dell’albero e ad ogni iterazione confronta il valore
-
-k passato come argomento con x.key. Se le due chiavi sono uguali la ricerca termina e viene restituito
-
-il puntatore al nodo, mentre se la chiave `e minore della chiave corrente analizzata, per la propriet`a
-
-fondamentale degli alberi binari, si chiama ricorsivamente la procedura sul sottoalbero sinistro, altrimenti
-
-sul sottoalbero destro. Il tempo di esecuzione di tale algoritmo `e O(h), dove h rappresenta l’altezza
+Questo algoritmo inizia la sua ricerca dalla radice dell’albero e ad ogni iterazione confronta il valore $k$ passato come argomento con $x.key$. Se le due chiavi sono uguali la ricerca termina e viene restituito il puntatore al nodo, mentre se la chiave è minore della chiave corrente analizzata, per la proprietà fondamentale degli alberi binari, si chiama ricorsivamente la procedura sul sottoalbero sinistro, altrimenti sul sottoalbero destro. Il tempo di esecuzione di tale algoritmo è $O(h)$, dove h rappresenta l’altezza
 
 dell’albero.
 
