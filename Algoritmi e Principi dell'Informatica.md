@@ -2038,43 +2038,40 @@ Il codice per la procedura `rightRotate` è simmetrico a quello appena analizzat
 
 Dunque, tramite questa procedura, il nodo $z$ viene inserito nella posizione corretta all’interno dell’albero rosso nero, inizializzando gli attributi `left` e `right` a `NIL` (per rispettare la struttura dell’albero) e il suo colore a rosso. Dato che l’inserimento di questo nodo potrebbe aver causato la violazione delle proprietà fondamentali degli alberi rosso neri, viene chiamata la procedura di ripristino `RBFixup`, implementata con la seguente *pseudocodifica*:
 
-1 R B I n s e r t F i x u p (T , z ) :
+`RBInsertFixup (T , z ) :`
+	`while z . parent . color = RED :`
+		`if z . parent = z . parent . parent . left :`
+			`y := z . parent . parent . right`
 
-2 w h i l e z . parent . color = RED :
+`if y . color = RED :`
 
-3 i f z . parent = z . parent . parent . left :
+`6 z . parent . color := BLACK 7 y . color := BLACK // caso 1`
 
-4 y := z . parent . parent . right
+`8 z . parent . parent . color := RED 9 z := z . parent . parent // caso 1`
 
-5 i f y . color = RED :
+`// caso 1`
 
-6 z . parent . color := BLACK 7 y . color := BLACK // caso 1
+`// caso 1`
 
-8 z . parent . parent . color := RED 9 z := z . parent . parent // caso 1
+`10 e l s e :`
 
-// caso 1
+`11 i f z = z . parent . right :`
 
-// caso 1
+`12 z := z . parent // caso 2`
 
-10 e l s e :
+`13 le ft Ro ta te (T , z ) 14 z . parent . color := BLACK 15 z . parent . parent . color := RED 16 r i g h t R o t a t e (T , z . parent . parent ) // caso 2`
 
-11 i f z = z . parent . right :
+`// caso 3`
 
-12 z := z . parent // caso 2
+`// caso 3`
 
-13 le ft Ro ta te (T , z ) 14 z . parent . color := BLACK 15 z . parent . parent . color := RED 16 r i g h t R o t a t e (T , z . parent . parent ) // caso 2
+`// caso 3`
 
-// caso 3
+`17 e l s e :`
 
-// caso 3
+`18 come righe 4 -16 con " left " e " right " scambiati`
 
-// caso 3
-
-17 e l s e :
-
-18 come righe 4 -16 con " left " e " right " scambiati
-
-19 T . root . color := BLACK
+`19 T . root . color := BLACK`
 
 Una volta chiamata la funzione di inserimento, sicuramente la propriet`a 1 (ogni nodo `e rosso o nero)
 
