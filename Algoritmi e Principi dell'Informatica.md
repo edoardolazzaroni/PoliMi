@@ -2140,15 +2140,10 @@ Una volta introdotta questa procedura, è possibile analizzare l’algoritmo di 
 
 ### **9.7 Grafi**
 
-Un grafo $G$ è una coppia $(V,E)$, in cui $V$ è l’insieme finito dei vertici del grafo, mentre $E$ è l’insieme degli archi di $G$. Un arco è una relazione binaria su $V$ che collega due vertici detti adiacenti: se un arco e connette due vertici ue v, allora pu`o essere rappresentato come la coppia (u,v) dei vertici che connette.
+Un grafo $G$ è una coppia $(V,E)$, in cui $V$ è l’insieme finito dei vertici del grafo, mentre $E$ è l’insieme degli archi di $G$. Un arco è una relazione binaria su $V$ che collega due vertici detti adiacenti: se un arco $e$ connette due vertici $u$ e $v$, allora può essere rappresentato come la coppia $(u,v)$ dei vertici che connette.
+Da questo si ottiene che l’insieme $E ⊆V^2$ e quindi che $0 ≤|E|≤|V|^2$.
 
-Da questo si ottiene che l’insieme E ⊆V2 e quindi che 0 ≤|E|≤|V|2
-
-.
-
-Esistono due tipologie di grafi, ovvero i grafi orientati e non orientati. Un grafo si dice non orientato
-
-quando la coppia (u,v) `e la stessa di (v,u) e non c’`e quindi la nozione di direzione da un nodo all’altro.
+Esistono due tipologie di grafi, ovvero i grafi **orientati** e **non orientati**. Un grafo si dice non orientato quando la coppia $(u,v)$ è la stessa di $(v,u)$ e non c’è quindi la nozione di direzione da un nodo all’altro.
 
 D’altra parte, in un grafo orientato, la coppia (u,v) `e differente dall’arco (v,u), in quanto si tiene conto
 
