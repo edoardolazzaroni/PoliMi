@@ -2084,26 +2084,17 @@ Una volta introdotta questa procedura, è possibile analizzare l’algoritmo di 
 
 `RBDelete (T , z ) :`
 	`y := z`
+	`yOriginalColor := y . color`
+	`if z . left = T . nil :`
+		`x := z . right`
+		`RBTransplant (T , z , z . right )`
+	`else if z . right = T . nil`
+		`x := z . left`
+		`RBTransplant (T , z , z . left )`
+	`else :`
+		`y := treeMinimum ( z . right )`
 
 `yOrig i n a l C o l o r := y . color`
-
-`4 i f z . left = T . nil :`
-
-`5 x := z . right`
-
-`6 R B T r a n s p l a n t (T , z , z . right )`
-
-`7 e l s e i f z . right = T . nil`
-
-`8 x := z . left`
-
-`9 R B T r a n s p l a n t (T , z , z . left )`
-
-`10 e l s e :`
-
-`11 y := t r e e M i n i m u m ( z . right )`
-
-`12 y O r i g i n a l C o l o r := y . color`
 
 `13 x := y . right`
 
