@@ -1825,20 +1825,12 @@ Questa procedura prende in input una tavola di hash $T$ e una chiave $k$ da inse
 	`repeat`
 		`j := h (k , i )`
 		`if T [ j ] = k :`
+			`return j`
+		`i := i + 1`
+	`until T [ j ] = NIL or i = m`
+	`return NIL`
 
-`6 return j`
-
-`7 i := i + 1`
-
-`8 u n t i l T [ j ] = NIL or i = m`
-
-`9 return NIL`
-
-Questa procedura, come la precedente, prende in input una tavola di hash T e una chiave k da
-
-ricercare in tabella, e ritorna l’indice della cella in cui `e stato trovato l’elemento, oppure NIL se non `e
-
-presente nessuna cella che contiene l’elemento oppure se nella sequenza di ricerca si trova una cella libera
+Questa procedura, come la precedente, prende in input una tavola di hash $T$ e una chiave $k$ da ricercare in tabella, e ritorna l’indice della cella in cui è stato trovato l’elemento, oppure `NIL` se non è presente nessuna cella che contiene l’elemento oppure se nella sequenza di ricerca si trova una cella libera
 
 (per le ragioni precedentemente analizzate).
 
