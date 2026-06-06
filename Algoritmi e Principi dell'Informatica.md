@@ -1915,31 +1915,20 @@ La procedura per trovare il successore è simmetrica alla procedura appena anali
 
 - **INSERIMENTO**: per inserire un nuovo valore $v$ all’interno dell’albero binario di ricerca $T$, si utilizza la seguente procedura, che riceve in input un nodo $z$, tale per cui $z.key= v$:
 
-`1 treeInsert (T , z ) :`
+`treeInsert (T , z ) :`
+	`y := NIL`
+	`x := T . root`
+	`while x != NIL :`
+		`y := x`
+		`if z . key < x . key :`
+			`x := x . left`
+		`else :`
+			`x := z . right`
+	`z . parent := y`
+	`if y = NIL :`
+		`T . root = z`
 
-`2 y := NIL`
-
-`3 x := T . root`
-
-`4 w h i l e x != NIL :`
-
-`5 y := x`
-
-`6 i f z . key < x . key :`
-
-`7 x := x . left`
-
-`8 e l s e :`
-
-`9 x := z . right`
-
-`10 z . parent := y`
-
-`11 i f y = NIL :`
-
-`12 T . root = z`
-
-`13 e l s e i f z . key < y . key :`
+`else if z . key < y . key :`
 
 `14 y . left := z`
 
