@@ -2064,13 +2064,7 @@ Dunque, nel caso ci fossero violazioni delle proprietà degli alberi rosso nero,
 
 - **Caso 1**: Lo zio $y$ di $z$ è rosso: il caso 1 (righe 6-9) viene eseguito quando `z.parent` e $y$ sono entrambi rossi. Poichè `z.parent.parent` è nero, è possibile colorare di nero `z.parent` e $y$ risolvendo il problema per cui $z$ e `z.parent` sono entrambi rossi. Si ricolora poi di rosso `z.parent.parent` per conservare la proprietà 5 e si ripete il ciclo `while` con `z.parent.parent` come nuovo nodo $z$.
 
-Caso 2 Lo zio y di z `e nero e z `e figlio destro: nel caso 2 (righe 12-13), lo zio di z `e di colore nero e il
-
-nodo z `e figlio destro. In questo caso `e necessaria una semplice rotazione a sinistra per riportarsi
-
-immediatamente al caso 3. Una rotazione del genere non influisce n`e sull’altezza dell’albero n`e
-
-sulla propriet`a 5.
+- **Caso 2**: Lo zio $y$ di $z$ è nero e $z$ è figlio destro: nel caso 2 (righe 12-13), lo zio di $z$ è di colore nero e il nodo $z$ è figlio destro. In questo caso è necessaria una semplice rotazione a sinistra per riportarsi immediatamente al caso 3. Una rotazione del genere non influisce nè sull’altezza dell’albero nè sulla proprietà 5.
 
 Caso 3 Lo zio y di z `e nero e z `e figlio sinistro: nel caso 3 (righe 14-16), lo zio di z `e sempre nero, ma
 
