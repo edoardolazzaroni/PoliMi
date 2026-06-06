@@ -1899,27 +1899,16 @@ Entrambe queste procedure vengono eseguite in un tempo $O(h)$, in un albero di a
 
 - **SUCCESSORE e PREDECESSORE**: dato un nodo in un albero binario di ricerca, spesso è necessario trovare il suo successore, nell’ordine stabilito da un attraversamento simmetrico. Il successore di un nodo $x$ è il nodo con la più piccola chiave maggiore di $x.key$. La struttura di un albero binario consente di trovare tale nodo senza il bisogno di confrontare le chiavi. *In pseudocodifica*:
 
-`treeSu c c e s s o r ( x ) :`
+`treeSuccessor ( x ) :`
+	`if x . right != NIL :`
+		`return treeMinimum ( x . right )`
+	`y := x . parent`
+	`while y != NIL and x = y . right :`
+		`x := y`
+		`y := y . parent`
+	`return y`
 
-`2 i f x . right != NIL :`
-
-`3 return t r e e M i n i m u m ( x . right )`
-
-`4 y := x . parent`
-
-`5 w h i l e y != NIL and x = y . right :`
-
-`6 x := y`
-
-`7 y := y . parent`
-
-`8 return y`
-
-Se il sottoalbero destro del nodo x non `e vuoto, allora il successore di x `e proprio il nodo pi`u a
-
-sinistra nel sottoalbero destro, che viene trovato chiamando la procedura precedentemente analizzata
-
-treeMinimum. Altrimenti, se il sottoalbero destro del nodo x`e vuoto e x ha un successore y, allora y `e
+Se il sottoalbero destro del nodo $x$ non è vuoto, allora il successore di $x$ è proprio il nodo più a sinistra nel sottoalbero destro, che viene trovato chiamando la procedura precedentemente analizzata '/Applications/DockDoor Pro.app'treeMinimum. Altrimenti, se il sottoalbero destro del nodo x`e vuoto e x ha un successore y, allora y `e
 
 l’antenato pi`u prossimo di xil cui figlio sinistro `e anche antenato di x. Per trovare il nodo y, `e necessario
 
