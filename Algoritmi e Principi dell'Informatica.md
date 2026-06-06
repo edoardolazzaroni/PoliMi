@@ -1782,17 +1782,9 @@ Il caso peggiore nell’hashing si verifica quando tutte le $n$ chiavi sono asso
 
 Per progettare una buona tabella di hash è necessario implementare una funzione di hash che sia altamente efficiente. A questo proposito si introducono tre possibili schemi di implementazione: hashing per **divisione** (uristico), hashing per **moltiplicazione** (euristico) e hashing **universale** (aleatorio, non analizzato in questa sezione). In generale, una buona funzione di hashing deve soddisfare approssimativamente la condizione di hashing uniforme semplice: ogni chiave deve avere la stessa probabilità di essere mappata in una qualsiasi cella della tabella. Di solito non è possibile verificare questa condizione, in quanto non è nota la distribuzione delle probabilità secondo cui vengono estratte le chiavi. Quindi, nella pratica, spesso si utilizzano delle tecniche euristiche per la realizzazione di tali funzioni.
 
-La maggior parte delle funzioni di hashing suppone che l’universo delle chiavi sia l’insieme dei numeri naturali $\mathbb{N}$ e quindi, se nella struttura dati progettata, la chiave non è un numero naturale ma, ad esempio, una stringa, è necessario studiare un metodo di conversione: nei calcolatori questo metodo è tipicamente già implementato, in quanto ogni informazione analogica viene convertita in una stringa
+La maggior parte delle funzioni di hashing suppone che l’universo delle chiavi sia l’insieme dei numeri naturali $\mathbb{N}$ e quindi, se nella struttura dati progettata, la chiave non è un numero naturale ma, ad esempio, una stringa, è necessario studiare un metodo di conversione: nei calcolatori questo metodo è tipicamente già implementato, in quanto ogni informazione analogica viene convertita in una stringa binaria di bit (appartenente ad $\mathbb{N}$). Nello studio dei tre metodi di hashing si suppone che le chiavi siano numeri naturali.
 
-binaria di bit (appartenente ad N). Nello studio dei tre metodi di hashing si suppone che le chiavi siano
-
-numeri naturali.
-
-Metodo della Divisione Quando si applica il metodo della divisione per creare una funzione di hash,
-
-una chiave kviene associata a una delle mcelle prendeno il resto della divisione fra ked m. Formalmente,
-
-la funzione di hash `e cos`ı definita:
+- **Metodo della Divisione**: quando si applica il metodo della divisione per creare una funzione di hash, una chiave $k$ viene associata a una delle $m$ celle prendeno il resto della divisione fra $k$ ed $m$. Formalmente, la funzione di hash  cos`ı definita:
 
 h(k) = kmodm
 
