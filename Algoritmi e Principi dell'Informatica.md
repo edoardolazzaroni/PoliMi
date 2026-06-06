@@ -2015,45 +2015,38 @@ Il codice per la procedura `rightRotate` è simmetrico a quello appena analizzat
 
 - **INSERIMENTO**: l’inserimento di un nodo in un albero rosso nero viene eseguito tramite una versione leggermente modificata della procedura di inserimento analizzata per gli alberi binari di ricerca. Inoltre, per poter preservare le condizioni degli alberi rosso neri, è necessario utilizzare una seconda procedura che ricolora i nodi dell’albero in seguito alla chiamata della procedura di inserimento. *In pseudocodifica*:
 
-1 RBInsert (T , z ) :
+`RBInsert (T , z ) :`
+	`y := T . nil`
+	`x := T . root`
+	`while x != T . nil :`
+		`y := x`
+		`if z . key < x . key :`
+			`x := x . left`
+		`else :`
 
-2 y := T . nil
+`9x := x . right`
 
-3 x := T . root
+`10 z . parent := y`
 
-4 w h i l e x != T . nil :
+`11 i f y = T . nil :`
 
-5 y := x
+`12 T . root := z`
 
-6 i f z . key < x . key :
+`13 e l s e i f z . key < y . key :`
 
-7 x := x . left
+`14 y . left := z`
 
-8 e l s e :
+`15 e l s e :`
 
-9 x := x . right
+`16 y . right := z`
 
-10 z . parent := y
+`17 z . left := T . nil`
 
-11 i f y = T . nil :
+`18 z . right := T . nil`
 
-12 T . root := z
+`19 z . color = RED`
 
-13 e l s e i f z . key < y . key :
-
-14 y . left := z
-
-15 e l s e :
-
-16 y . right := z
-
-17 z . left := T . nil
-
-18 z . right := T . nil
-
-19 z . color = RED
-
-20 RBFixup (T , z )
+`20 RBFixup (T , z )`
 
 Dunque, tramite questa procedura, il nodo z viene inserito nella posizione corretta all’interno dell’al-
 
