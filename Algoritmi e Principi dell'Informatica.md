@@ -1852,13 +1852,7 @@ Nell’analisi delle tabelle hash con indirizzamento aperto si ipotizza hashing 
 
 ### **9.5 Alberi Binari**
 
-Un albero binario di ricerca è una struttura dati ad albero che supporta molte operazioni degli insiemi dinamici, come search. delete, insert, minimum, maximum, successor e predecessor. Tali alberi
-
-sono rappresentati da strutture concatenate in cui ogni nodo `e un oggetto, che oltre ad avere una chiave
-
-e i dati satellite, contengono anche gli attributi left, right e parent, che puntano rispettivamente al
-
-figlio sinistro, al figlio destro e al padre. Se manca un figlio o un padre, i corrispondenti attributi sono
+Un albero binario di ricerca è una struttura dati ad albero che supporta molte operazioni degli insiemi dinamici, come `search. delete, insert, minimum, maximum, successor` e `predecessor`. Tali alberi sono rappresentati da strutture concatenate in cui ogni nodo è un oggetto, che oltre ad avere una chiave e i dati satellite, contengono anche gli attributi `left, right` e `parent`, che puntano rispettivamente al figlio sinistro, al figlio destro e al padre. Se manca un figlio o un padre, i corrispondenti attributi sono
 
 inizializzati a NIL. Il nodo radice, detto anche root, `e l’unico nodo nell’albero il cui attributo padre `e
 
