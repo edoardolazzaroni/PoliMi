@@ -1784,15 +1784,10 @@ Per progettare una buona tabella di hash è necessario implementare una funzione
 
 La maggior parte delle funzioni di hashing suppone che l’universo delle chiavi sia l’insieme dei numeri naturali $\mathbb{N}$ e quindi, se nella struttura dati progettata, la chiave non è un numero naturale ma, ad esempio, una stringa, è necessario studiare un metodo di conversione: nei calcolatori questo metodo è tipicamente già implementato, in quanto ogni informazione analogica viene convertita in una stringa binaria di bit (appartenente ad $\mathbb{N}$). Nello studio dei tre metodi di hashing si suppone che le chiavi siano numeri naturali.
 
-- **Metodo della Divisione**: quando si applica il metodo della divisione per creare una funzione di hash, una chiave $k$ viene associata a una delle $m$ celle prendeno il resto della divisione fra $k$ ed $m$. Formalmente, la funzione di hash  cos`ı definita:
-
-h(k) = kmodm
-
-Il vantaggio principale di questo metodo `e che si pu`o implementare molto rapidamente e richiede un
-
-tempo di esecuzione costante.
-
-Quando si utilizza il metodo della divisione, si cerca di evitare alcuni valori di m. Nello specifico si
+- **Metodo della Divisione**: quando si applica il metodo della divisione per creare una funzione di hash, una chiave $k$ viene associata a una delle $m$ celle prendeno il resto della divisione fra $k$ ed $m$. Formalmente, la funzione di hash è così definita: $h(k) = k \ mod \ m$
+	
+	Il vantaggio principale di questo metodo è che si può implementare molto rapidamente e richiede un tempo di esecuzione costante.
+	Quando si utilizza il metodo della divisione, si cerca di evitare alcuni valori di m. Nello specifico si
 
 evitano le potenze di 2, in quanto se m = 2p, allora h(k) rappresenta proprio i p bit meno significativi
 
