@@ -1834,25 +1834,12 @@ Questa procedura prende in input una tavola di hash $T$ e una chiave $k$ da inse
 Questa procedura, come la precedente, prende in input una tavola di hash $T$ e una chiave $k$ da ricercare in tabella, e ritorna l’indice della cella in cui è stato trovato l’elemento, oppure `NIL` se non è presente nessuna cella che contiene l’elemento oppure se nella sequenza di ricerca si trova una cella libera (per le ragioni precedentemente analizzate).
 
 
-- **RIMOZIONE**: La procedura di cancellazione di una chiave dalla tavola di hash ad indirizzamento aperto è un’operazione molto complessa, in quanto non è possibile semplicemente cancellare il contenuto della cella $i$, assegnandone il valore `NIL`, in quanto sarebbe impossibile ricercare qualsiasi elemento in tabella per come è stata definita la procedura di ricerca. Dunque, si rende necessario marcare la cella il cui contenuto è stato eliminato con il valore speciale `DELETED`, anzichè `NIL`. È per questo motivo che in riga 5 della procedura di inserimento viene anche verificato se la cella ispezionata contanga il valore `DELETED`. Si noti inoltre che, utilizzando questa nuova notazione, il tempo di esecuzione della procedura di ricerca non dipende più dal fattore di carico $α$. Per questo motivo, nella pratica si preferisce spesso utilizzare il metodo della concatenazione quando `e necessario che la tabella di hash supporti l’operazione
+- **RIMOZIONE**: La procedura di cancellazione di una chiave dalla tavola di hash ad indirizzamento aperto è un’operazione molto complessa, in quanto non è possibile semplicemente cancellare il contenuto della cella $i$, assegnandone il valore `NIL`, in quanto sarebbe impossibile ricercare qualsiasi elemento in tabella per come è stata definita la procedura di ricerca. Dunque, si rende necessario marcare la cella il cui contenuto è stato eliminato con il valore speciale `DELETED`, anzichè `NIL`. È per questo motivo che in riga 5 della procedura di inserimento viene anche verificato se la cella ispezionata contanga il valore `DELETED`. Si noti inoltre che, utilizzando questa nuova notazione, il tempo di esecuzione della procedura di ricerca non dipende più dal fattore di carico $α$. Per questo motivo, nella pratica si preferisce spesso utilizzare il metodo della concatenazione quando è necessario che la tabella di hash supporti l’operazione di cancellazione delle chiavi.
 
-di cancellazione delle chiavi.
 
-9.4.7 Hashing Uniforme
+#### **9.4.7 Hashing Uniforme**
 
-Nell’analisi delle tabelle hash con indirizzamento aperto si ipotizza hashing uniforme: si suppone, infatti,
-
-che ogni chiave abbia la stessa probabilit`a di avere come sequenza di ispezione una delle m! permutazioni
-
-di <0,1,...,m−1 >. L’hashing uniforme estende il concetto di hashing uniforme semplice, impiegato pi`u
-
-volte precedentemente, al caso in cui la funzione di hash produce, non un singolo numero, ma un’intera
-
-sequenza di ispezione. Nella pratica non `e possibile ottenere una funzione di hash uniforme, ma si
-
-utilizzano delle approssimazioni accettabili. Si esaminano nel seguito tre tecniche utilizzate per calcolare
-
-le sequenze di ispezione richieste nell’indirizzamento aperto: ispezione lineare, ispezione quadratica e
+Nell’analisi delle tabelle hash con indirizzamento aperto si ipotizza hashing uniforme: si suppone, infatti, che ogni chiave abbia la stessa probabilità di avere come sequenza di ispezione una delle $m!$ permutazioni di $<0,1,...,m−1 >$. L’hashing uniforme estende il concetto di hashing uniforme semplice, impiegato più volte precedentemente, al caso in cui la funzione di hash produce, non un singolo numero, ma un’intera sequenza di ispezione. Nella pratica non è possibile ottenere una funzione di hash uniforme, ma si utilizzano delle approssimazioni accettabili. Si esaminano nel seguito tre tecniche utilizzate per calcolare le sequenze di ispezione richieste nell’indirizzamento aperto: ispezione lineare, ispezione quadratica e
 
 doppio hashing. Tali tecniche grantiscono che la sequenza < h(k,0),h(k,1),...,h(k,m−1) > sia una
 
