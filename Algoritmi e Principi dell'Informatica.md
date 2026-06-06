@@ -2053,17 +2053,9 @@ Dunque, tramite questa procedura, il nodo $z$ viene inserito nella posizione cor
 					`leftRotate (T , z )`
 				`z . parent . color := BLACK`
 				`z . parent . parent . color := RED`
-				`rightR o t a t e (T , z . parent . parent ) // caso 2`
-
-`// caso 3`
-
-`// caso 3`
-
-`// caso 3`
-
-`17 e l s e :`
-
-`18 come righe 4 -16 con " left " e " right " scambiati`
+				`rightRotate (T , z . parent . parent ) // caso 2`
+			`else :`
+				`//come righe 4 -16 con "left" e "right" scambiati//`
 
 `19 T . root . color := BLACK`
 
