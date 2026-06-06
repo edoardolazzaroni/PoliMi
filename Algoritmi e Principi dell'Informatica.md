@@ -1787,13 +1787,7 @@ La maggior parte delle funzioni di hashing suppone che l’universo delle chiavi
 - **Metodo della Divisione**: quando si applica il metodo della divisione per creare una funzione di hash, una chiave $k$ viene associata a una delle $m$ celle prendeno il resto della divisione fra $k$ ed $m$. Formalmente, la funzione di hash è così definita: $h(k) = k \ mod \ m$
 	
 	Il vantaggio principale di questo metodo è che si può implementare molto rapidamente e richiede un tempo di esecuzione costante.
-	Quando si utilizza il metodo della divisione, si cerca di evitare alcuni valori di m. Nello specifico si
-
-evitano le potenze di 2, in quanto se m = 2p, allora h(k) rappresenta proprio i p bit meno significativi
-
-di k: infatti, sarebbe pi`u corretto far dipendere la funzione di hash da tutti i bit della chiave. Inoltre,
-
-si evita di scegliere m+ 2p−1 quando k `e una stringa di caratteri interpretata in base 2p, in quanto
+	Quando si utilizza il metodo della divisione, si cerca di evitare alcuni valori di $m$. Nello specifico si evitano le potenze di $2$, in quanto se $m = 2^p$, allora $h(k)$ rappresenta proprio i $p$ bit meno significativi di $k$: infatti, sarebbe più corretto far dipendere la funzione di hash da tutti i bit della chiave. Inoltre, si evita di scegliere $m+ 2^p−1$ quando $k$ è una stringa di caratteri interpretata in base $2^p$, in quanto
 
 la permutazione dei caratteri di k non cambia il suo valore di hash. Una buona scelta di m, invece,
 
