@@ -1993,17 +1993,7 @@ Si definisce a questo proposito, altezza nera di un nodo $x$, indicato con $bh(x
 
 La conseguenza immediata di questo teorema è che le operazioni sugli insiemi dinamici possono tutte essere implementate in un tempo $O(log_2 \ n)$ negli alberi rosso neri, perchè possono essere eseguite nel tempo $O(h)$ in un albero binario di ricerca di altezza $h$ e qualsiasi albero rosso nero di $n$ nodi è un albero binario di ricerca di altezza $O(log_2 \ n)$.
 
-- **ROTAZIONE**: le operazioni di `treeInsert` e `treeDelete` sugli alberi rosso nero potrebbero violare le proprietà della struttura, proprio perchè modificano l’albero. Si rende quindi necessario ricalcolare i colori di qualche nodo dell’albero e anche la struttura dei puntatori, dopo la chiamata a una delle due
-
-procedure. La struttura dei puntatori viene modificata tramite una rotazione, ovvero un’operazione
-
-locale che preserva le propriet`a degli alberi binari di ricerca. Quando si esegue una rotazione sinistra in
-
-un nodo x, supponendo che il nodo y= x.right sia diverso da NIL, si fa ”perno” sul collegamento tra x
-
-e y: il nodo ydiventa la nuova radice del sottoalbero, con x come figlio sinistro di y e il figlio sinistro di
-
-y come figlio destro di x. In pseudocodifica:
+- **ROTAZIONE**: le operazioni di `treeInsert` e `treeDelete` sugli alberi rosso nero potrebbero violare le proprietà della struttura, proprio perchè modificano l’albero. Si rende quindi necessario ricalcolare i colori di qualche nodo dell’albero e anche la struttura dei puntatori, dopo la chiamata a una delle due procedure. La struttura dei puntatori viene modificata tramite una rotazione, ovvero un’operazione locale che preserva le proprietà degli alberi binari di ricerca. Quando si esegue una rotazione sinistra in un nodo $x$, supponendo che il nodo $y= x.right$ sia diverso da `NIL`, si fa ”perno” sul collegamento tra $x$ e $y$: il nodo $y$ diventa la nuova radice del sottoalbero, con $x$ come figlio sinistro di $y$ e il figlio sinistro di $y$ come figlio destro di $x$. *In pseudocodifica*:
 
 1 le ft Ro ta te (T , x ) :
 
