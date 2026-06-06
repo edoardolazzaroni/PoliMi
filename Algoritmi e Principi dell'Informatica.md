@@ -2113,17 +2113,12 @@ Una volta introdotta questa procedura, è possibile analizzare l’algoritmo di 
 	`while x != T . root and x . color = BLACK :`
 		`if x = x . parent . left :`
 			`w := x . parent . right`
-`if w . color = RED :`
-
-`6 w . color := BLACK // caso 1`
-
-`7 x . parent . color := RED 8 le ft Ro ta te (T , x . parent ) 9 w := x . parent . right // caso 1`
-
-`// caso 1`
-
-`// caso 1`
-
-`10 i f w . left . color = BLACK and w . roght . colr = BLACK :`
+		`if w . color = RED :`
+			`w . color := BLACK // caso 1`
+			`x . parent . color := RED`
+			`leftRotate (T , x . parent )`
+			`w := x . parent . right`
+		`if w . left . color = BLACK and w . roght . colr = BLACK :`
 
 `11 w . color := RED // caso 2`
 
