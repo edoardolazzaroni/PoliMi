@@ -1755,17 +1755,17 @@ Si rende necessario, dunque, implementare un meccanismo che gestisca tali eventi
 
 Le operazioni di dizionario su una tavola di hash $T$ sono facili da implementare in pseudocodifica nel caso di gestione delle collisioni tramite concatenamento:
 
-1 c h a i n e d H a s h I n s e r t (T , x ) :
+`chainedHas h I n s e r t (T , x ) :`
 
-2 li st In se rt ( T [ h ( x . key ) ] , x )
+`2 li st In se rt ( T [ h ( x . key ) ] , x )`
 
-1 c h a i n e d H a s h S e a r c h (T , x ) :
+`1 c h a i n e d H a s h S e a r c h (T , x ) :`
 
-2 li st Se ar ch ( T [ h ( x . key ) ] , x )
+`2 li st Se ar ch ( T [ h ( x . key ) ] , x )`
 
-1 c h a i n e d H a s h D e l e t e (T , x ) :
+`1 c h a i n e d H a s h D e l e t e (T , x ) :`
 
-2 li st De le te ( T [ h ( x . key ) ])
+`2 li st De le te ( T [ h ( x . key ) ])`
 
 In cui le procedure listInsert, listSearch e listDelete, sono le stesse analizzate nella sezione
 
