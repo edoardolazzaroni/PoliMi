@@ -2048,12 +2048,12 @@ Dunque, tramite questa procedura, il nodo $z$ viene inserito nella posizione cor
 				`z . parent . parent . color := RED`                                                // caso 1
 				`z := z . parent . parent`                                                                    // caso 1
 			`else :`
-
-`11 i f z = z . parent . right :`
-
-`12 z := z . parent // caso 2`
-
-`13 le ft Ro ta te (T , z ) 14 z . parent . color := BLACK 15 z . parent . parent . color := RED 16 r i g h t R o t a t e (T , z . parent . parent ) // caso 2`
+				`if z = z . parent . right :`
+					`z := z . parent // caso 2`
+					`leftRotate (T , z )`
+				`z . parent . color := BLACK`
+				`z . parent . parent . color := RED`
+				`rightR o t a t e (T , z . parent . parent ) // caso 2`
 
 `// caso 3`
 
