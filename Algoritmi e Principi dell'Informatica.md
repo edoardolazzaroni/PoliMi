@@ -1991,15 +1991,9 @@ Si definisce a questo proposito, altezza nera di un nodo $x$, indicato con $bh(x
 
 - **Teorema**: l’altezza massima di un albero rosso nero con $n$ nodi è $2 \ log_2(n+ 1)$.
 
-La conseguenza immediata di questo teorema è che le operazioni sugli insiemi dinamici possono tutte essere implementate in un tempo $O(log_2 \ n)$ negli alberi rosso neri, perchè possono essere eseguite nel tempo $O(h)$ in un albero binario di ricerca di altezza he qualsiasi albero rosso nero di $n$ nodi `e un albero
+La conseguenza immediata di questo teorema è che le operazioni sugli insiemi dinamici possono tutte essere implementate in un tempo $O(log_2 \ n)$ negli alberi rosso neri, perchè possono essere eseguite nel tempo $O(h)$ in un albero binario di ricerca di altezza $h$ e qualsiasi albero rosso nero di $n$ nodi è un albero binario di ricerca di altezza $O(log_2 \ n)$.
 
-binario di ricerca di altezza O(log2 n).
-
-Rotazione Le operazioni di treeInsert e treeDelete sugli alberi rosso nero, potrebbero violare le
-
-propriet`a della struttura, proprio perch`e modificano l’albero. Si rende quindi necessario ricalcolare i
-
-colori di qualche nodo dell’albero e anche la struttura dei puntatori, dopo la chiamata a una delle due
+- **ROTAZIONE**: le operazioni di `treeInsert` e `treeDelete` sugli alberi rosso nero potrebbero violare le proprietà della struttura, proprio perchè modificano l’albero. Si rende quindi necessario ricalcolare i colori di qualche nodo dell’albero e anche la struttura dei puntatori, dopo la chiamata a una delle due
 
 procedure. La struttura dei puntatori viene modificata tramite una rotazione, ovvero un’operazione
 
