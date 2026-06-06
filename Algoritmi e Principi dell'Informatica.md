@@ -2042,10 +2042,9 @@ Dunque, tramite questa procedura, il nodo $z$ viene inserito nella posizione cor
 	`while z . parent . color = RED :`
 		`if z . parent = z . parent . parent . left :`
 			`y := z . parent . parent . right`
-
-`if y . color = RED :`
-
-`6 z . parent . color := BLACK 7 y . color := BLACK // caso 1`
+			`if y . color = RED :`
+				`z . parent . color := BLACK`
+				`y . color := BLACK` // caso 1`
 
 `8 z . parent . parent . color := RED 9 z := z . parent . parent // caso 1`
 
