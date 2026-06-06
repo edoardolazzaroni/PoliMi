@@ -1877,23 +1877,18 @@ Per attraversare un albero binario di ricerca costituito da $n$ nodi, è necessa
 	`else :`
 		`return treeSearch ( x . right , k )`
 
-Questo algoritmo inizia la sua ricerca dalla radice dell’albero e ad ogni iterazione confronta il valore $k$ passato come argomento con $x.key$. Se le due chiavi sono uguali la ricerca termina e viene restituito il puntatore al nodo, mentre se la chiave è minore della chiave corrente analizzata, per la proprietà fondamentale degli alberi binari, si chiama ricorsivamente la procedura sul sottoalbero sinistro, altrimenti sul sottoalbero destro. Il tempo di esecuzione di tale algoritmo è $O(h)$, dove h rappresenta l’altezza
+Questo algoritmo inizia la sua ricerca dalla radice dell’albero e ad ogni iterazione confronta il valore $k$ passato come argomento con $x.key$. Se le due chiavi sono uguali la ricerca termina e viene restituito il puntatore al nodo, mentre se la chiave è minore della chiave corrente analizzata, per la proprietà fondamentale degli alberi binari, si chiama ricorsivamente la procedura sul sottoalbero sinistro, altrimenti sul sottoalbero destro. Il tempo di esecuzione di tale algoritmo è $O(h)$, dove $h$ rappresenta l’altezza dell’albero.
 
-dell’albero.
 
-Minimo e Massimo Un elemento con chiave minima in un albero binario di ricerca pu`o sempre essere
+- **MINIMO e MASSIMO**: un elemento con chiave minima in un albero binario di ricerca può sempre essere trovato seguendo, a partire dalla radice, i puntatori left, fino a quando non viene incontrato un valore `NIL`, sempre per la proprietà fondamentale degli alberi binari di ricerca. *In pseudocodifica*:
 
-trovato seguendo, a partire dalla radice, i puntatori left, fino a quando non viene incontrato un valore
+`treeMinimu m ( x ) :`
 
-NIL, sempre per la propriet`a fondamentale degli alberi binari di ricerca. In pseudocodifica:
+`2 w h i l e x . left != NIL :`
 
-1 t r e e M i n i m u m ( x ) :
+`3 x := x . left`
 
-2 w h i l e x . left != NIL :
-
-3 x := x . left
-
-4 return x
+`4 return x`
 
 
 La procedura per trovare l’elemento massimo, invece, `e simmetrica alla procedura appena analizzata.
