@@ -2033,20 +2033,10 @@ Il codice per la procedura `rightRotate` è simmetrico a quello appena analizzat
 		`y . right := z`
 	`z . left := T . nil`
 	`z . right := T . nil`
+	`z . color = RED`
+	`RBFixup (T , z )`
 
-`19 z . color = RED`
-
-`20 RBFixup (T , z )`
-
-Dunque, tramite questa procedura, il nodo z viene inserito nella posizione corretta all’interno dell’al-
-
-bero rosso nero, inizializzando gli attributi left eright a NIL (per rispettare la struttura dell’albero)
-
-e il suo colore a rosso. Dato che l’inserimento di questo nodo potrebbe aver causato la violazione del-
-
-le propriet`a fondamentali degli alberi rosso neri, viene chiamata la procedura di ripristino RBFixup,
-
-implementata con la seguente pseudocodifica:
+Dunque, tramite questa procedura, il nodo $z$ viene inserito nella posizione corretta all’interno dell’albero rosso nero, inizializzando gli attributi `left` e `right` a `NIL` (per rispettare la struttura dell’albero) e il suo colore a rosso. Dato che l’inserimento di questo nodo potrebbe aver causato la violazione delle proprietà fondamentali degli alberi rosso neri, viene chiamata la procedura di ripristino `RBFixup`, implementata con la seguente *pseudocodifica*:
 
 1 R B I n s e r t F i x u p (T , z ) :
 
