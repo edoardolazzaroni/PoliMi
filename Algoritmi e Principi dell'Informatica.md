@@ -2082,55 +2082,54 @@ Dunque, nel caso ci fossero violazioni delle proprietà degli alberi rosso nero,
 
 Una volta introdotta questa procedura, è possibile analizzare l’algoritmo di rimozione, simile a quella analizzata per gli alberi di ricerca binaria, con l’unica differenza che si tiene traccia del nodo $y$, che potrebbe violare le proprietà degli alberi rosso nero. Per evitare tali violazioni, si utilizza una seconda procedura di supporto che ha il compito di ricalcolare i colori dell’albero, in modo da rispettare le sue proprietà. *In pseudocodifica*:
 
-1 RBDelete (T , z ) :
+`RBDelete (T , z ) :`
+	`y := z`
 
-2 y := z
+`yOrig i n a l C o l o r := y . color`
 
-3 y O r i g i n a l C o l o r := y . color
+`4 i f z . left = T . nil :`
 
-4 i f z . left = T . nil :
+`5 x := z . right`
 
-5 x := z . right
+`6 R B T r a n s p l a n t (T , z , z . right )`
 
-6 R B T r a n s p l a n t (T , z , z . right )
+`7 e l s e i f z . right = T . nil`
 
-7 e l s e i f z . right = T . nil
+`8 x := z . left`
 
-8 x := z . left
+`9 R B T r a n s p l a n t (T , z , z . left )`
 
-9 R B T r a n s p l a n t (T , z , z . left )
+`10 e l s e :`
 
-10 e l s e :
+`11 y := t r e e M i n i m u m ( z . right )`
 
-11 y := t r e e M i n i m u m ( z . right )
+`12 y O r i g i n a l C o l o r := y . color`
 
-12 y O r i g i n a l C o l o r := y . color
+`13 x := y . right`
 
-13 x := y . right
+`14 i f y . parent = z :`
 
-14 i f y . parent = z :
+`15 x . parent := y`
 
-15 x . parent := y
+`16 e l s e :`
 
-16 e l s e :
+`17 18 R B T r a n s p l a n t (T , y . right := z . right`
 
-17 18 R B T r a n s p l a n t (T , y . right := z . right
+`y , y . right )`
 
-y , y . right )
+`19 20 21 22 23 24 25 i f y . right . parent := y`
 
-19 20 21 22 23 24 25 i f y . right . parent := y
+`R B T r a n s p l a n t (T , z , y )`
 
-R B T r a n s p l a n t (T , z , y )
+`y . left := z . left`
 
-y . left := z . left
+`y . left . parent := y`
 
-y . left . parent := y
+`y . color := z . color`
 
-y . color := z . color
+`y O r i g i n a l C o l o r = BLACK :`
 
-y O r i g i n a l C o l o r = BLACK :
-
-R B D e l e t e F i x u p (T , x )
+`R B D e l e t e F i x u p (T , x )`
 
 1 R B D e l e t e F i x u p (T , x ) :
 
