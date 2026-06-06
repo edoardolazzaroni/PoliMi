@@ -2062,13 +2062,7 @@ Una volta chiamata la funzione di inserimento, sicuramente la proprietà 1 (ogni
 
 Dunque, nel caso ci fossero violazioni delle proprietà degli alberi rosso nero, ce ne sarebbe solo una e riguarderebbe le due proprietà di cui si è appena discusso. Esistono 3 casi possibili, segnati anche all’interno dello pseudocodice nei commenti, per la ricolorazione dei nodi:
 
-- **Caso 1**: Lo zio $y$ di $z$ è rosso: il caso 1 (righe 6-9) viene eseguito quando z.parent e y sono entrambi rossi.
-
-Poich`e z.parent.parent`e nero, `e possibile colorare di nero z.parent e y risolvendo il problema per
-
-cui z e z.parent sono entrambi rossi. Si ricolora poi di rosso z.parent.parent per conservare la
-
-propriet`a 5 e si ripete il ciclo while con z.parent.parent come nuovo nodo z.
+- **Caso 1**: Lo zio $y$ di $z$ è rosso: il caso 1 (righe 6-9) viene eseguito quando `z.parent` e $y$ sono entrambi rossi. Poichè `z.parent.parent` è nero, è possibile colorare di nero `z.parent` e $y$ risolvendo il problema per cui $z$ e `z.parent` sono entrambi rossi. Si ricolora poi di rosso `z.parent.parent` per conservare la proprietà 5 e si ripete il ciclo `while` con `z.parent.parent` come nuovo nodo $z$.
 
 Caso 2 Lo zio y di z `e nero e z `e figlio destro: nel caso 2 (righe 12-13), lo zio di z `e di colore nero e il
 
