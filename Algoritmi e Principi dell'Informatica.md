@@ -1841,9 +1841,7 @@ Questa procedura, come la precedente, prende in input una tavola di hash $T$ e u
 
 Nell’analisi delle tabelle hash con indirizzamento aperto si ipotizza hashing uniforme: si suppone, infatti, che ogni chiave abbia la stessa probabilità di avere come sequenza di ispezione una delle $m!$ permutazioni di $<0,1,...,m−1 >$. L’hashing uniforme estende il concetto di hashing uniforme semplice, impiegato più volte precedentemente, al caso in cui la funzione di hash produce, non un singolo numero, ma un’intera sequenza di ispezione. Nella pratica non è possibile ottenere una funzione di hash uniforme, ma si utilizzano delle approssimazioni accettabili. Si esaminano nel seguito tre tecniche utilizzate per calcolare le sequenze di ispezione richieste nell’indirizzamento aperto: ispezione lineare, ispezione quadratica e doppio hashing. Tali tecniche grantiscono che la sequenza $< h(k,0),h(k,1),...,h(k,m−1) >$ sia una permutazione di $< 0,1,...,m−1 >$ per ogni chiave $k$, ma nessuna di loro può garantire l’ipotesi di hashing uniforme, in quanto nessuna di esse è in grado di generare più di $m^2$ sequenze di ispezioni differenti (invece delle $m!$ sequenze richieste).
 
-- **Ispezione Lineare**: data una funzione di hash ordinaria $h′: U →\left\{0,1,...,m−1\right\}$, detta funzione di hash ausiliaria, il metodo di ispezione lineare utilizza la funzione di hash $h(k,i) = (h′(k) + i) \ mod \ m$
-
-per i = 0,1,...,m−1. Data la chiave k, la prima cella esaminata `e T[h′(k)], che `e la cella data dalla
+- **Ispezione Lineare**: data una funzione di hash ordinaria $h′: U →\left\{0,1,...,m−1\right\}$, detta funzione di hash ausiliaria, il metodo di ispezione lineare utilizza la funzione di hash $h(k,i) = (h′(k) + i) \ mod \ m$ per $i = 0,1,...,m−1$. Data la chiave $k$, la prima cella esaminata `e T[h′(k)], che `e la cella data dalla
 
 funzione di hash ausiliaria, la seconda cella `e T[h′(k) + 1] e cos`ı via fino alla cella T[m−1]. Poi,
 
