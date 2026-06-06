@@ -2144,10 +2144,8 @@ Un grafo $G$ è una coppia $(V,E)$, in cui $V$ è l’insieme finito dei vertici
 Da questo si ottiene che l’insieme $E ⊆V^2$ e quindi che $0 ≤|E|≤|V|^2$.
 
 Esistono due tipologie di grafi, ovvero i grafi **orientati** e **non orientati**. Un grafo si dice non orientato quando la coppia $(u,v)$ è la stessa di $(v,u)$ e non c’è quindi la nozione di direzione da un nodo all’altro.
+D’altra parte, in un grafo orientato, la coppia $(u,v)$ è differente dall’arco $(v,u)$, in quanto si tiene conto della direzione di attraversamento.
 
-D’altra parte, in un grafo orientato, la coppia (u,v) `e differente dall’arco (v,u), in quanto si tiene conto
-
-della direzione di attraversamento.
 
 9.7.1 Rappresentazione
 
