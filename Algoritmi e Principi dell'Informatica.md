@@ -2003,24 +2003,17 @@ La conseguenza immediata di questo teorema è che le operazioni sugli insiemi di
 	`y . parent := x . parent`
 	`if x . parent = T . nil :`
 		`T . root := y`
+	`else if x = x . parent . left :`
+		`x . parent . left := y`
+	`else :`
+		`x . parent . right := y`
+	`y . left := x`
+	`x . parent := y`
 
-`else if x = x . parent . left :`
+Il codice per la procedura `rightRotate` è simmetrico a quello appena analizzato. Entrambe le procedure vengono eseguite nel tempo $O(1)$.
 
-`10 x . parent . left := y`
 
-`11 e l s e :`
-
-`12 x . parent . right := y`
-
-`13 y . left := x`
-
-`14 x . parent := y`
-
-Il codice per la procedura rightRotate `e simmetrico a quello appena analizzato. Entrambe le
-
-procedure vengono eseguite nel tempo O(1).
-
-Inserimento L’inserimento di un nodo in un albero rosso nero viene eseguito tramite una versione
+- **INSERIMENTO**: l’inserimento di un nodo in un albero rosso nero viene eseguito tramite una versione
 
 leggermente modificata della procedura di inserimento analizzata per gli alberi binari di ricerca. Inoltre,
 
