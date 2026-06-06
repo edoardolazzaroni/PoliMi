@@ -2123,9 +2123,9 @@ Una volta introdotta questa procedura, è possibile analizzare l’algoritmo di 
 				`x := x . parent`                                                                                     // caso 2
 			`else :`
 				`if w . right . color = BLACK :`
-					`w . left . color = BLACK`
-					`w . color = RED`
-					`rightRotate (T , w )`
+					`w . left . color = BLACK`                                                           // caso 3
+					`w . color = RED`                                                                             // caso 3
+					`rightRotate (T , w )`                                                                  
 					`w := x . parent . right`
 				`w . color := x . parent . color`
 				`x . parent . color := BLACK`
