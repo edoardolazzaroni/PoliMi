@@ -1943,23 +1943,16 @@ La procedura appena vista inizia dalla radice dell’albero e il puntatore $x$ t
 
 Per poter spostare i sottoalberi all’interno dell’albero binario di ricerca si deve prima definire una procedura che sostituisca il sottoalbero figlio di suo padre con un altro sottoalbero. Questa procedura sostituisce il sottoalbero con radice nel nodo $u$ con il sottoalbero con radice nel nodo $v$, in modo che il padre del nodo $u$ diventa il padre del nodo $v$. *In pseudocodifica*:
 
-1 tr an sp la nt (T , u , v ) :
+`transplant (T , u , v ) :`
+	`if u . parent = NIL :`
+		`T . root := v`
+	`else if u = u . parent . left :`
+		`u . parent . left := v`
+	`else :`
+		`u . parent . right := v`
+	`if v != NIL :`
 
-2 i f u . parent = NIL :
-
-3 T . root := v
-
-4 e l s e i f u = u . parent . left :
-
-5 u . parent . left := v
-
-6 e l s e :
-
-7 u . parent . right := v
-
-8 i f v != NIL :
-
-9 v . parent := u . parent
+`v . parent := u . parent`
 
 Una volta introdotto questo algoritmo, `e possibile ora analizzare la procedura di eliminazione:
 
