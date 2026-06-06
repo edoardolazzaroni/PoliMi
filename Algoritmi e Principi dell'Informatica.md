@@ -1887,7 +1887,6 @@ Questo algoritmo inizia la sua ricerca dalla radice dell’albero e ad ogni iter
 		`x := x . left`
 	`return x`
 
-
 La procedura per trovare l’elemento massimo, invece, è simmetrica alla procedura appena analizzata. *In pseudocodifica*:
 
 `treeMaximum ( x ) :`
@@ -1895,11 +1894,10 @@ La procedura per trovare l’elemento massimo, invece, è simmetrica alla proced
 		`x := x . right`
 	`return x`
 
-Entrambe queste procedure vengono eseguite in un tempo O(h), in un albero di altezza h.
+Entrambe queste procedure vengono eseguite in un tempo $O(h)$, in un albero di altezza $h$.
 
-Successore e Predecessore Dato un nodo in un albero binario di ricerca, spesso `e necessario trovare
 
-il suo successore, nell’ordine stabilito da un attraversamento simmetrico. Il successore di un nodo x`e il
+- **SUCCESSORE e PREDECESSORE**: dato un nodo in un albero binario di ricerca, spesso è necessario trovare il suo successore, nell’ordine stabilito da un attraversamento simmetrico. Il successore di un nodo $x$ è il
 
 nodo con la pi`u piccola chiave maggiore di x.key. La struttura di un albero binario consente di trovare
 
