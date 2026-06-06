@@ -2109,57 +2109,53 @@ Una volta introdotta questa procedura, è possibile analizzare l’algoritmo di 
 		`RBDeleteFixup (T , x )`
 
 
-1 R B D e l e t e F i x u p (T , x ) :
+`RBDeleteFixup (T , x ) :`
+	`while x != T . root and x . color = BLACK :`
+		`if x = x . parent . left :`
+			`w := x . parent . right`
+`if w . color = RED :`
 
-2 w h i l e x != T . root and x . color = BLACK :
+`6 w . color := BLACK // caso 1`
 
-3 i f x = x . parent . left :
+`7 x . parent . color := RED 8 le ft Ro ta te (T , x . parent ) 9 w := x . parent . right // caso 1`
 
-4 w := x . parent . right
+`// caso 1`
 
-5 i f w . color = RED :
+`// caso 1`
 
-6 w . color := BLACK // caso 1
+`10 i f w . left . color = BLACK and w . roght . colr = BLACK :`
 
-7 x . parent . color := RED 8 le ft Ro ta te (T , x . parent ) 9 w := x . parent . right // caso 1
+`11 w . color := RED // caso 2`
 
-// caso 1
+`12 x := x . parent // caso 2`
 
-// caso 1
+`13 e l s e :`
 
-10 i f w . left . color = BLACK and w . roght . colr = BLACK :
+`14 i f w . right . color = BLACK :`
 
-11 w . color := RED // caso 2
+`15 w . left . color = BLACK 16 w . color = RED // caso 3`
 
-12 x := x . parent // caso 2
+`17 r i g h t R o t a t e (T , w ) 18 w := x . parent . right 19 w . color := x . parent . color 20 x . parent . color := BLACK 21 w . right . color := BLACK 22 le ft Ro ta te (T , x . parent ) // caso 3`
 
-13 e l s e :
+`// caso 3`
 
-14 i f w . right . color = BLACK :
+`// caso 3`
 
-15 w . left . color = BLACK 16 w . color = RED // caso 3
+`// caso 4`
 
-17 r i g h t R o t a t e (T , w ) 18 w := x . parent . right 19 w . color := x . parent . color 20 x . parent . color := BLACK 21 w . right . color := BLACK 22 le ft Ro ta te (T , x . parent ) // caso 3
+`// caso 4`
 
-// caso 3
+`// caso 4`
 
-// caso 3
+`// caso 4`
 
-// caso 4
+`23 x := T . root // caso 4`
 
-// caso 4
+`24 e l s e :`
 
-// caso 4
+`25 come righe 4 -23 con " left " e " right " scambiati`
 
-// caso 4
-
-23 x := T . root // caso 4
-
-24 e l s e :
-
-25 come righe 4 -23 con " left " e " right " scambiati
-
-26 x . color := BLACK
+`26 x . color := BLACK`
 
 
 
