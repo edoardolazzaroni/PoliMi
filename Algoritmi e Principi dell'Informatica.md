@@ -2013,13 +2013,7 @@ La conseguenza immediata di questo teorema è che le operazioni sugli insiemi di
 Il codice per la procedura `rightRotate` è simmetrico a quello appena analizzato. Entrambe le procedure vengono eseguite nel tempo $O(1)$.
 
 
-- **INSERIMENTO**: l’inserimento di un nodo in un albero rosso nero viene eseguito tramite una versione
-
-leggermente modificata della procedura di inserimento analizzata per gli alberi binari di ricerca. Inoltre,
-
-per poter preservare le condizioni degli alberi rosso neri, `e necessario utilizzare una seconda procedura
-
-che ricolora i nodi dell’albero in seguito alla chiamata della procedura di inserimento. In pseudocodifica:
+- **INSERIMENTO**: l’inserimento di un nodo in un albero rosso nero viene eseguito tramite una versione leggermente modificata della procedura di inserimento analizzata per gli alberi binari di ricerca. Inoltre, per poter preservare le condizioni degli alberi rosso neri, è necessario utilizzare una seconda procedura che ricolora i nodi dell’albero in seguito alla chiamata della procedura di inserimento. *In pseudocodifica*:
 
 1 RBInsert (T , z ) :
 
