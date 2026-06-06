@@ -2098,9 +2098,8 @@ Una volta introdotta questa procedura, è possibile analizzare l’algoritmo di 
 		`if y . parent = z :`
 			`x . parent := y`
 		`else :`
-			`RBTransplant (T , y . right := z . right`
-
-`y , y . right )`
+			`RBTransplant (T , y , y . right)`
+			`y . right := z . right`
 
 `19 20 21 22 23 24 25 i f y . right . parent := y`
 
