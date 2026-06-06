@@ -2069,25 +2069,16 @@ Dunque, nel caso ci fossero violazioni delle proprietà degli alberi rosso nero,
 - **Caso 3**: Lo zio $y$ di $z$ è nero e $z$ è figlio sinistro: nel caso 3 (righe 14-16), lo zio di $z$ è sempre nero, ma il nodo $z$ è figlio sinistro anzichè destro. In questo caso si applicano alcune modifiche sui colori e alcune rotazioni aggiuntive a destra per poter preservare le proprietà degli alberi rosso nero.
 
 
-- **RIMOZIONE**: la procedura di rimozione di un determinato nodo dall’albero rosso nero si basa sulla subroutine transplant, che deve essere opportunamente modificata in modo da adattarsi alla struttura
+- **RIMOZIONE**: la procedura di rimozione di un determinato nodo dall’albero rosso nero si basa sulla subroutine `transplant`, che deve essere opportunamente modificata in modo da adattarsi alla struttura degli alberi rosso nero. *In pseudocodifica*:
 
-degli alberi rosso nero. In pseudocodifica:
-
-1 R B T r a n s p l a n t (T , u , v ) :
-
-2 i f u . parent = T . nil :
-
-3 T . root := v
-
-4 e l s e i f u = u . parent . left :
-
-5 u . parent . left := v
-
-6 e l s e :
-
-7 u . parent . right := v
-
-8 v . parent := u . parent
+`RBTransplant (T , u , v ) :`
+	`if u . parent = T . nil :`
+		`T . root := v`
+	`else if u = u . parent . left :`
+		`u . parent . left := v`
+	`else :`
+		`u . parent . right := v`
+	`v . parent := u . parent`
 
 Una volta introdotta questa procedura, `e possibile analizzare l’algoritmo di rimozione, simile a quella
 
