@@ -119,8 +119,8 @@ Il complemento a due è un sistema binario, ma il primo bit (quello a sinistra,
 	- Implementazione hardware della sottrazione è semplificata
 	
 - Numero minimo di bit necessario per rappresentare in binario complemento a 2 un dato valore:
-	- $N\geq0$: $bit=[log2(N+1)]+1$
-	- $N<0$: $bit=[log2(|N|)]+1$
+	- $N\geq0$: $bit=[log_2(N+1)]+1$
+	- $N<0$: $bit=[log_2(|N|)]+1$
 
 - Confronto con le altre rappresentazioni:
 		![[image-4.png|484x285]]
