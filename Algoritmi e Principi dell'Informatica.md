@@ -2153,15 +2153,9 @@ Esistono due metodi principali per la rappresentazione dei grafi: la prima consi
 
 - **Rappresentazione con liste di adiacenza**: tale rappresentazione di un grafo $G = (E,V)$ consiste in un array $Adj$ di $|V|$ liste concatenate, una per ogni vertice $V$. Per ogni $u ∈V$, la lista di adiacenza $Adj[u]$ include tutti i vertici adiacenti a $u$ in $G$. Poichè le liste di adiacenza rappresentano gli archi di un grafo, nello pseudocodice si tratta l’array $Adj$ come un attributo del grafo $G$.
 	Inoltre, se $G$ è un grafo orientato, la somma delle lunghezze di tutte le liste di adiacenza è esattamente $|E|$, perchè un arco nella forma $(u,v)$ è rappresentato inserendo $v$ in $G.Adj[u]$. Al contrario, se $G$ è un grafo non orientato, la somma delle lunghezze di tutte le liste di adiacenza è $2|E|$, perchè se $(u,v)$ rappresenta un arco non orientato, allora $u$ appare nella lista di adiacenza di $v$ e viceversa. Per i grafi orientati e non, la rappresentazione con liste di adiacenza ha la proprietà di occupare una quantità di memoria $Θ(V + E)$.
-	Lo svantaggio principale di questo metodo di rappresentazione risiede nel fatto che il metodo di ricerca
+	Lo svantaggio principale di questo metodo di rappresentazione risiede nel fatto che il metodo di ricerca è abbastanza inefficiente: infatti, per poter determinare se un determinato arco $(u,v)$ è presente nel grafo, è necessario cercare $v$ nella lista di adiacenza $G.Adj[u]$, operazione che richiede un tempo lineare.
 
-`e abbastanza inefficiente: infatti, per poter determinare se un determinato arco (u,v) `e presente nel grafo,
-
-`e necessario cercare v nella lista di adiacenza G.Adj[u], operazione che richiede un tempo lineare.
-
-Rappresentazione con matrice di adiacenza Tale rappresentazione di un grafo G= (E,V) consiste
-
-in una matrice A= (aij) di dimensione |V|×|V|tale per cui:
+- **Rappresentazione con matrice di adiacenza**: tale rappresentazione di un grafo $G= (E,V)$ consiste in una matrice $A= (a_{ij})$ di dimensione $|V|×|V|$tale per cui:
 
 ai,j=
 
