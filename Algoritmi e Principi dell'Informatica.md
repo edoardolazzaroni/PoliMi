@@ -1073,7 +1073,6 @@ In generale, **le macchine di Turing multinastro sono il formalismo più potente
 
 Nella maggior parte dei casi si analizza la complessità spaziale o temporale di un determinato algoritmo per valori molto grandi dell’ingresso $x$, ovvero per $x$ che tende ad infinito. In questi casi si analizza il comportamento asintotico dell’algoritmo, che fornisce un’approssimazione abbastanza precisa sul dispendio di risorse. La notazione dell’ordine di grandezza di una funzione, nota sotto il nome di notazione *theta-grande* $(Θ)$, sottolinea i fattori dominanti che influeanzano la creascita della sua complessità in funzione della dimensione dell’ingresso. Oltre alla notazione *theta-grande*, esistono anche le notazioni *o-grande* $(O)$ e *omega-grande* $(Ω)$, le cui definizioni sono riportate di seguito:
 
-magda vieni qui e 
 - (Notazione $O$): Siano $g : \mathbb{N} →\mathbb{R}^+$ ed $f : \mathbb{N} →\mathbb{R}^+$ due funzioni. La funzione $g$ è in $O(f)$ se e solo se esistono due numeri positivi $c$ ed $n_0$ tali che per ogni $n ≥n_0, g(n) ≤c_f(n)$. Ciò significa che $O(f) = \left\{g(n) : \mathbb{N} →\mathbb{R}^+ |∃c,n_0 >0 ∧∀n≥n_0,g(n) ≤c_f(n)\right\}$.
 	Inoltre, vale che:
 
@@ -1185,7 +1184,7 @@ Si può quindi osservare come il legame tra $T_M$ e $T_R$ sia di tipo polinomial
 
 In questo capitolo si analizzano a fondo i principali algoritmi di ordinamento e i relativi tempi di esecuzione. Nello specifico, si utilizzerà  come modello di riferimento la macchina RAM con un criterio di costo costante, come analizzato nei capitoli precedenti. Prima di proseguire nella trattazione è necessario dare una definizione generale di algoritmo:
 
-- Un **==algoritmo==** è una procedura di calcolo ben definita che prende un certo valore, o un insieme di valori, in input e genera un valore, o un insieme di valori, in output. Dunque, un algoritmo è una serie di passi computazionali che trasformano l’input in output.
+- Un **algoritmo** è una procedura di calcolo ben definita che prende un certo valore, o un insieme di valori, in input e genera un valore, o un insieme di valori, in output. Dunque, un algoritmo è una serie di passi computazionali che trasformano l’input in output.
 
 Un algoritmo può anche essere visto come uno strumento per la risoluzione di un problema computazionale ben definito: sotto questo sguardo, un algoritmo si definisce corretto se, per ogni istanza di input, termina con l’output corretto. Se un algoritmo è corretto, allora risolve quel determinato problema computazionale. Esistono molti modi per poter specificare un determinato algoritmo: si può utilizzare la lingua italiana o inglese, ma anche un linguaggio di programmazione come C, C++, JAVA e Pascal, o ancora tramite uno pseudocodice.
 
@@ -1212,7 +1211,6 @@ Tramite queste regole è possibile definire un generico algoritmo.
 Una classe di algoritmi molto studiati è quella riguardante l’ordinamento di un vettore, che consiste nella disposizione dei suoi elementi in ordine crescente.
 
 Il primo algoritmo analizzato è l’**insertion sort**, che prende in input una sequenza di $n$ numeri $[a1,a2,...,an]$ e restituisce in output una permutazione $[a_1',a_2',...,a_n']$ tale che $a_1' ≤a_2' ≤ ... ≤a_n'$. Questo algoritmo ordina sul posto (l’algoritmo risistema gli elementi della sequenza all’interno dell’array avendo, in ogni istante, al più un numero finito di elementi memorizzati all’esterno dell’array: ciò permette di risparmiare memoria nel calcolatore) gli elementi assumendo che la sequenza da ordinare sia inizialmente partizionata in una sottosequenza già ordinata, all’inizio composta da un unico elemento (il primo dell’array), e una sottosequenza ancora da ordinare. Ad ogni iterazione viene rimosso un elemento dalla sottosequenza non ordinata e inserita nella posizione corretta all’interno della sottosequenza già ordinata.
-
 *In pseudocodice:*
 
 `insertionSort(A):`
@@ -1349,7 +1347,7 @@ Uno dei metodi per la risoluzione delle occorrenze e, quindi, per il calcolo del
 
 Questo metodo può essere applicato solamente se si ha un’idea della forma generale della soluzione e si vuole calcolare il limite superiore o inferiore della ricorrenza che si analizza.
 
-*==ESEMPIO==*: Si determini il limite superiore della ricorrenza $T(n) = 2T(⌊n/2⌋) + n$.
+*ESEMPIO*: Si determini il limite superiore della ricorrenza $T(n) = 2T(⌊n/2⌋) + n$.
 Si suppone che la soluzione sia $O(n log_2 n)$. Il metodo di sostituzione consiste nel dimostrare che $T(n) ≤cn log_2 n$ per un generico $c>0$. Si verifica, innanzitutto, che questo limite sia valido anche per $⌊n/2⌋$, ovvero che $T(⌊n/2⌋) ≤c⌊n/2⌋log_2(⌊n/2⌋)$. Facendo le opportune sostituzioni si ha:
 
 $T(n) ≤ 2(c⌊n/2⌋log_2(⌊n/2⌋)) + n$
@@ -1381,7 +1379,7 @@ che diventa valida per ogni $d≥1$. Come prima, la costante $c$ deve essere sce
 
 Infine, ci sono casi in cui tramite una piccola manipolazione algebrica è possibile rendere una ricorrenza ignota simile ad una più familiare.
 
-*==ESEMPIO==*: Si calcoli la ricorrenza $T(n) = 2T(⌊\sqrt{n}⌋) + log_2(n)$. Tale ricorrenza sembra molto complessa da risolvere, ma è possibile semplificarla ponendo $m= log_2n$, ottenendo così $T(2m) = 2T(2^{m/2}) + m$. Chiamando $S(m)$ la ricorrenza appena ottenuta, è possibile scrivere $S(m) = 2S(m/2) + m$, simile alla precedente ricorrenza analizzata $T(n) = 2T(⌊n/2⌋) + n$; in effetti, la soluzione della ricorrenza $S(m)$ è la stessa ottenuta in precedenza. Dunque, la soluzione è $S(m) = m log_2 m$ e, ripristinando i termini con la sostituzione $m= log_2n$, si ottiene che $T(n) = O(log_2n·log_2(log_2n))$.
+*ESEMPIO*: Si calcoli la ricorrenza $T(n) = 2T(⌊\sqrt{n}⌋) + log_2(n)$. Tale ricorrenza sembra molto complessa da risolvere, ma è possibile semplificarla ponendo $m= log_2n$, ottenendo così $T(2m) = 2T(2^{m/2}) + m$. Chiamando $S(m)$ la ricorrenza appena ottenuta, è possibile scrivere $S(m) = 2S(m/2) + m$, simile alla precedente ricorrenza analizzata $T(n) = 2T(⌊n/2⌋) + n$; in effetti, la soluzione della ricorrenza $S(m)$ è la stessa ottenuta in precedenza. Dunque, la soluzione è $S(m) = m log_2 m$ e, ripristinando i termini con la sostituzione $m= log_2n$, si ottiene che $T(n) = O(log_2n·log_2(log_2n))$.
 
 
 #### **8.4.2 Metodo dell’Albero di Ricorsione**
