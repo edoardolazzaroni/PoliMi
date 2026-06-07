@@ -2159,19 +2159,9 @@ Esistono due metodi principali per la rappresentazione dei grafi: la prima consi
 
 							$a_{i,j}=\begin{cases} 1 &\mbox{if (i,j) ∈E} \\0 &\mbox{else}\end{cases}$
 
-Per poter procedere con tale rappresentazione, `e prima necessario che i vertici siano numerati in
-
-maniera arbitraria da 1 a |V|. Si noti che, la matrice di adiacenza Aper un grafo non orientato `e uguale
-
-alla sua trasposta AT, per la propriet`a principale dei grafi non orientati, per cui (u,v) = (v,u).
-
-Lo svantaggio maggiore nell’impiego di una matrice di adiacenza `e l’utilizzo intensivo di memoria,
-
-nell’ordine di Θ(|V|2). Nonostante questo, per grafi di dimensione relativamente piccole, si preferisce
-
-utilizzare questo metodo a quello precedente, per la sua semplicit`a di utilizzo. In generale conviene
-
-utilizzare il metodo delle liste di adiacenza quando |E|̸= Θ(|V|2), cio`e quando il grafo `e sparso (ovvero
+	Per poter procedere con tale rappresentazione, è prima necessario che i vertici siano numerati in maniera arbitraria da $1$ a $|V|$. Si noti che, la matrice di adiacenza $A$ per un grafo non orientato è uguale alla sua trasposta $A^T$, per la proprietà principale dei grafi non orientati, per cui $(u,v) = (v,u)$.
+	Lo svantaggio maggiore nell’impiego di una matrice di adiacenza è l’utilizzo intensivo di memoria, nell’ordine di $Θ(|V|^2)$. Nonostante questo, per grafi di dimensione relativamente piccole, si preferisce utilizzare questo metodo a quello precedente, per la sua semplicità di utilizzo.
+	In generale conviene utilizzare il metodo delle liste di adiacenza quando $|E| \ne Θ(|V|2), cio`e quando il grafo `e sparso (ovvero
 
 quando il numero di nodi connessi non `e molto grande), mentre se il grafo `e completo (ovvero quando
 
