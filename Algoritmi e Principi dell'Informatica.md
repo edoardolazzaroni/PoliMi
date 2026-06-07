@@ -694,7 +694,7 @@ Quando si scrive un programma, ci sono diverse proprietà che si vorebbero garan
 ![[Algoritmi e Principi dell'Informatica-1779647450525.webp|396]]
 
 
-- **Teorema** dell'==Halting Problem==: nessuna MT può calcolare la funzione $g : \mathbb{N} ×\mathbb{N} →\left\{0,1\right\}$ definita nel seguente modo: $g(x,y) =$ `if` $f_y(x) = ⊥$ `then` $1$ `else` $0$
+- **Teorema** dell'Halting Problem: nessuna MT può calcolare la funzione $g : \mathbb{N} ×\mathbb{N} →\left\{0,1\right\}$ definita nel seguente modo: $g(x,y) =$ `if` $f_y(x) = ⊥$ `then` $1$ `else` $0$
 
 La dimostrazione di tale teorema si ottiene tramite la tecnica della diagonale, detta anche metodo di Cantor: l’obiettivo è quello di mostrare che un’enumerazione di oggetti di cardinalità almeno 2, non è completa, ossia che un oggetto che si vorrebbe trovare all’interno di tale enumerazione in realtà non è presente. L’enumerazione di una successione può essere rappresentata come una tabella con un numero infinito di righe. L’elemento che non compare in tale tabella viene individuato per assurdo considerando inizialmente la diagonale $d$ (dunque $d_i$ è l’elemento che si trova all’$i$-esima riga e all’$i$-esima colonna) e poi componendo una diagonale d′tale che, per ogni $i$, $d_i'$ sia diverso da $d_i$.
 
@@ -767,10 +767,10 @@ Si noti che tutte le inclusioni sono strette.
 
 ### **5.7 Teoremi di Kleene e Rice**
 
-- **==Teorema di Kleene del punto fisso==**: Sia $t$ una qualunque funzione totale e computabile. Allora è sempre possibile trovare un intero $p$, tale per cui: $f_p = f_t(p)$
+- **Teorema di Kleene del punto fisso**: Sia $t$ una qualunque funzione totale e computabile. Allora è sempre possibile trovare un intero $p$, tale per cui: $f_p = f_t(p)$
   La funzione $f_p$ è detta punto fisso di $t$, perchè $t$ trasforma $f_p$ in $f_p$ stessa.
 
-- **==Teorema di Rice==**: Sia $F$ un insieme generico di funzioni computabili. L’insieme $S= \left\{x |f_x ∈F\right\}$degli indici delle MT che calcolano le funzioni di $F$, è ricorsivo se e solo se $F= ∅$ oppure $F$ è l’insieme di tutte le funzioni computabili.
+- **Teorema di Rice**: Sia $F$ un insieme generico di funzioni computabili. L’insieme $S= \left\{x |f_x ∈F\right\}$degli indici delle MT che calcolano le funzioni di $F$, è ricorsivo se e solo se $F= ∅$ oppure $F$ è l’insieme di tutte le funzioni computabili.
 
 Il teorema di Rice ha un forte impatto pratico negativo, in quanto afferma che in tutti i casi non banali, $S$ **non è decidibile**. Non è quindi possibile stabilire algoritmicamente se un dato algoritmo sia in grado di risolvere un determinato problema, nè se due programmi siano equivalenti (ossia se calcolino la stessa funzione). Il grande impatto pratico del teorema di Rice deriva dal fatto che il concetto di sottoinsieme $F$ di funzioni computabili è un’espressione formale del concetto generale di proprietà di problemi risolvibili: una proprietà degli elementi di un insieme è un sottoinsieme dell’insieme dato e una funzione computabile è una formalizzazione del concetto di problema risolvibile; quindi, il teorema di Rice efferma che non è possibile stabilire se un determinato algoritmo risolve un problema pur risolvibile che goda di una qualsiasi proprietà non banale.
 
@@ -796,7 +796,7 @@ I concetti di logica introdotti di seguito sono utilizzati per definire in manie
 Il calcolo proposizionale, detto anche logica proposizionale, è un modello dichiarativo formale della logica matematica che si basa sul concetto di proposizione, ovvero frasi che possono assumere solamente il valore vero o il valore falso. In generale, ogni linguaggio consiste di una sintassi e di una semantica: la sintassi è l’insieme delle regole attraverso cui è possibile costruire le frasi di cui il linguaggio è composto, mentre la semantica spiega il significato delle varie frasi del linguaggio.
 
 
-==**Sintassi**==: In modo formale, la logica proposizionale è composta da un linguaggio $L$, il cui alfabeto è costituito dai seguenti elementi:
+**Sintassi**: In modo formale, la logica proposizionale è composta da un linguaggio $L$, il cui alfabeto è costituito dai seguenti elementi:
 	1. Un insieme numerabile (finito o non) di proposizioni (simboli di relazione nullaria), che possono essere simboli, stringhe o frasi;
 	2. Un insieme di connettivi logici: $¬$(NOT), $∧$(AND), $∨$(OR), $⇒$(implicazione) e $⇔$(coimplicazione);
 	3. Un insieme di simboli di punteggiatura: $( e )$
@@ -818,7 +818,7 @@ Una volta introdotte le formule ben formate, è possibile definire le sottoformu
 - Se $G∧H,G∨H,G⇒H,G⇔H ∈Stfm(F)$, allora $H,G∈Stfm(F)$.
 
 
-**==Semantica==**: la semantica, invece, ha lo scopo di assegnare un significato alle formule appena definite, tramite una funzione $I$, detta interpretazione, che mappa ogni proposizione ad un valore di verità (vero o falso): formalmente, $I : \left\{fbf\right\}→\left\{0,1\right\}$. Tale funzione, quindi, non fa altro che assegnare il valore di vero $(1)$ o falso $(0)$ alle lettere proposizionali costanti e valuta il valore di verità di $¬F,F ∧G,F ∨G,F ⇒G,F ⇔G$ sulla base dei valori di verità delle proposizioni $F$ e $G$
+**Semantica**: la semantica, invece, ha lo scopo di assegnare un significato alle formule appena definite, tramite una funzione $I$, detta interpretazione, che mappa ogni proposizione ad un valore di verità (vero o falso): formalmente, $I : \left\{fbf\right\}→\left\{0,1\right\}$. Tale funzione, quindi, non fa altro che assegnare il valore di vero $(1)$ o falso $(0)$ alle lettere proposizionali costanti e valuta il valore di verità di $¬F,F ∧G,F ∨G,F ⇒G,F ⇔G$ sulla base dei valori di verità delle proposizioni $F$ e $G$
 
 Da qui, si introduce il simbolo $⊨$, che si utilizza per associare formule ed interpretazioni. Dunque, la scrittura $I ⊨ F$, che si legge $I$ *rende vera* $F$, vale nei seguenti casi:
 - $I ⊨ A$ se e solo se $I(A) = T$, con $A$ proposizione;
@@ -859,7 +859,7 @@ $F ⇔G≡(F ⇒G) ∧(G⇒F)$
 $F ⇒G≡¬F ∨G$
 $F ⇒G≡¬G⇒¬F$
 
-In logica prposizionale è anche possibile sostituire una sottoformula $G$ di una formula ben formata $F$ con una formula $H$: la formula risultate viene indicata con la scrittura $F[G\H]$. Tale sostituzione, però, può avvenire solamente se $G≡H$.
+In logica prposizionale è anche possibile sostituire una sottoformula $G$ di una formula ben formata $F$ con una formula $H$: la formula risultate viene indicata con la scrittura $F[G/H]$. Tale sostituzione, però, può avvenire solamente se $G≡H$.
 
 In base a questi concetti si può notare che non tutti i connettivi logici sono strettamente necessari, in quanto possono essere sostituiti con altri. A questo proposito, un insieme di connettivi è detto funzionalmente completo se e solo se qualunque formula proposizionale può essere trasformata in una formula semanticamente equivalente che contiene solamente i connettivi dell’insieme dato. Sfruttando tali insiemi, detti minimali, e le equivalenze semantiche, è possibile definire delle forme normali, che introducono degli schemi sintattici per scrivere formule, che hanno completa generalità semantica, ovvero permettono di formalizzare il significato di qualsiasi formula che si possa scrivere con la completa generalità sintattica della logica proposizionale. In altre parole, per ogni formula ben formata esistono una o più formule logicamente equivalenti ad essa scritte in una forma normale, utili per la manipolazione di tali formule. Esistono tre principali forme normali per la logica proposizionale, chiamate forma negativa, forma congiuntiva e forma disgiuntiva. Una formula è in forma normale negativa se e solo se è composta solamente da letterali, congiunzioni e disgiunzioni; una formula è in forma normale congiuntiva (detta anche CNF) se e solo se ha la forma $C_1 ∧C_2 ∧...∧C_n$, dove $C_i$ è una disgiunzione di letterali; una formula è in forma normale disgiuntiva (detta anche DFN) se e solo se ha la forma $D_1 ∨D_2 ∨...∨D_n$, dove $D_i$ è una congiunzione di letterali.
 
@@ -872,7 +872,7 @@ La logica proposizionale appena analizzata ha molte applicazioni, ma il suo pote
 Per questo motivo, nel 1979 è stata sviluppata la logica del primo ordine, che permette dal punto di vista ontologico di considerare non solo fatti (come avveniva nella logica proposizionale), ma anche proprietà, relazioni e funzioni.
 
 
-**==Sintassi==**: in modo formale, la logica del primo ordine è composta da un linguaggio $L$, il cui alfabeto è costituito dai seguenti elementi:
+**Sintassi**: in modo formale, la logica del primo ordine è composta da un linguaggio $L$, il cui alfabeto è costituito dai seguenti elementi:
 1. Un insieme numerabile infinito di variabili;
 2. Un insieme di simboli di funzione;
 3. Un insieme di simboli di predicati (o relazioni);
@@ -893,7 +893,7 @@ Gli oggetti appena denotati attraverso i termini, si possono utilizzare all’in
 Nella scrittura di formule appartenenti alla logica del primo ordine, c’è un’osservazione da fare: quando si utilizza il quantificatore $∀$ il connettivo principale utilizzato è $⇒$, mentre nel caso si utilizzi il quantificatore $∃$ allora il connettivo principale è $∧$. Inoltre, se $QX(F)$ rappresenta una formula in cui $Q$ è un quantificatre, allora $F$ si dice **ambito** di $Q$ e che $Q$ è **applicato** ad $F$. Un’occorrenza di una variabile in una formula è legata se e solo se la sua occorrenza è entro l’ambito di un quantificatore che impiega quella variabile, altrimenti è **libera**. Una formula è **chiusa** se e solo se non contiene occorrenze libere di variabili. Le formule chiuse sono quelle per le quali, data un’interpretazione $I$, si può calcolare la veridicità.
 
 
-**==Semantica==**: come per il caso della logica proposizionale, anche la logica del primo ordine ha una semantica basata sul concetto di interpretazione: un’interpretazione $I$ di un alfabeto $A$ è un dominio non vuoto $D$ (indicato anche con $|I|$) e una funzione che che associa ogni costante $c ∈A$ a un oggetto $c_I ∈D$, ogni simbolo $n$-ario di funzione $f ∈A$ a una funzione $f_I : D^n →D$ e ogni simbolo $n$-ario di predicato $p∈A$ a una relazione $p_I ⊆D×D×...×D$ $n$ volte. Prima di poter assegnare un significato alle formule, va definito il significato di ogni termine, indicato con $ϕ_I(t)$ con til termine a cui dare singificato nell’interpretazione $I$.
+**Semantica**: come per il caso della logica proposizionale, anche la logica del primo ordine ha una semantica basata sul concetto di interpretazione: un’interpretazione $I$ di un alfabeto $A$ è un dominio non vuoto $D$ (indicato anche con $|I|$) e una funzione che che associa ogni costante $c ∈A$ a un oggetto $c_I ∈D$, ogni simbolo $n$-ario di funzione $f ∈A$ a una funzione $f_I : D^n →D$ e ogni simbolo $n$-ario di predicato $p∈A$ a una relazione $p_I ⊆D×D×...×D$ $n$ volte. Prima di poter assegnare un significato alle formule, va definito il significato di ogni termine, indicato con $ϕ_I(t)$ con til termine a cui dare singificato nell’interpretazione $I$.
 
 $ϕ$ è induttivamente definito nel seguente modo:
 1. $c_I$ se $t$ è una costante $c$;
@@ -935,7 +935,7 @@ Le equivalenze segnate con $*$ sono valide solo se $X$ non è libera in $G$.
 In questa sezione si analizza un frammento della logica monadica del primo ordine, che permette di descrivere certe stringhe su un determinato alfabeto $I$. La logica monadica, come suggerisce il nome, si occupa solamente dei predicati monadici, ovvero di tutti quei predicati che hanno **arietà pari ad uno**.
 
 
-**==Sintassi==**: una generica formula $F$ appartenente alla logica monadica del primo ordine ha una sintassi molto semplice, articolata nei seguenti casi:
+**Sintassi**: una generica formula $F$ appartenente alla logica monadica del primo ordine ha una sintassi molto semplice, articolata nei seguenti casi:
 - $a(x)$ con $a∈I$, ovvero un predicato unario per ogni simbolo dell’alfabeto $I$;
 - $x<y$, che costituisce l’unica eccezzione della logica monadica in quanto non è un operatore unario, ma binario;
 - $¬F$, operatore *NOT*;
