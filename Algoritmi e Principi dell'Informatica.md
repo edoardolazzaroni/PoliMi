@@ -434,7 +434,7 @@ Infatti, dato un NFSA, si può costruire un FSA equivalente che ha come stati gl
 
 ### **3.2 Automi a Pila non deterministici**
 
-Un ==NPDA== (Nondeterministic Push Down Automaton) è un automa che presenta un numero finito di stati e una memoria organizzata su una struttura a pila. Tali automi sono definiti come i corrispettivi automi deterministici, con l’unica differenza che presentano una funzione di transizione definita nel seguente modo:
+Un NPDA (Nondeterministic Push Down Automaton) è un automa che presenta un numero finito di stati e una memoria organizzata su una struttura a pila. Tali automi sono definiti come i corrispettivi automi deterministici, con l’unica differenza che presentano una funzione di transizione definita nel seguente modo:
 
 						$δ: Q×(I∪\left\{ε\right\}) ×Γ →℘_F(Q×Γ^∗)$
 
@@ -453,7 +453,7 @@ Si noti che i PDA sono automi intrinsecamente non deterministici: infatti, nella
 
 ### **3.3 Macchine di Turing non deterministiche**
 
-Una ==NTM== (Nondeterministic Turing Machine) è un automa che presenta un numero finito di stati e che opera su un insieme di nastri infiniti a destra. Tali automi sono definiti come i corrispettivi automi deterministici, con l’unica differenza che presentano una funzione di transizione e di accettazione definita nel seguente modo:
+Una <mark class="hltr-yellow">NTM</mark> (Nondeterministic Turing Machine) è un automa che presenta un numero finito di stati e che opera su un insieme di nastri infiniti a destra. Tali automi sono definiti come i corrispettivi automi deterministici, con l’unica differenza che presentano una funzione di transizione e di accettazione definita nel seguente modo:
 
 				$<δ,η>: (Q−F) ×I×Γ^k →℘(Q×Γ^k ×\left\{R,L,S\right\}^{k+1} ×\left\{R,S\right\})$
 
@@ -472,7 +472,7 @@ Data una qualsiasi NTM $M$, è sempre possibile costruire una MT deterministica 
 ## **Grammatiche**
 
 
-Come visto in precedenza, spesso gli automi vengono utilizzati come modelli per il riconoscimento di linguaggi. Gli automi sono quindi uno strumento formale per la descrizione e la definizione di un determinato linguaggio, costituito dall’insieme delle stringhe accettate dall’automa stesso. Un altro formalismo utilizzato per la definizione di linguaggio sono le cosiddette ==grammatiche formali==, che definiscono un linguaggio fornendo il procedimento mediante cui si ottengono le stringhe appartenenti al linguaggio stesso.
+Come visto in precedenza, spesso gli automi vengono utilizzati come modelli per il riconoscimento di linguaggi. Gli automi sono quindi uno strumento formale per la descrizione e la definizione di un determinato linguaggio, costituito dall’insieme delle stringhe accettate dall’automa stesso. Un altro formalismo utilizzato per la definizione di linguaggio sono le cosiddette grammatiche formali, che definiscono un linguaggio fornendo il procedimento mediante cui si ottengono le stringhe appartenenti al linguaggio stesso.
 
 
 ### **4.1 Introduzione**
@@ -481,7 +481,7 @@ Una grammatica formale è un insieme di regole per costruire stringhe appartenen
 
 Una grammatica non è altro che un meccanismo linguistico, composto dall’oggetto principale, detto anche simbolo iniziale, da un insieme di componenti, a loro volta da sostituire durante il processo di derivazione, detti anche simboli non terminali, un insieme di elementi di base, detti anche simboli elementari, e da un insieme di regole di raffinamento o sostituzioni, chiamate produzioni.
 
-- Una ==grammatica== $G$ è una tupla di 4 elementi $G=<V_T,V_N,P,S >$, dove:
+- Una <mark class="hltr-yellow">grammatica</mark> $G$ è una tupla di 4 elementi $G=<V_T,V_N,P,S >$, dove:
 	- $V_T$ è un insieme di simboli terminali (solitamente indicati con lettere minuscole), detto anche **alfabeto terminale**;
 	- $V_N$ è un insieme di simboli non terminali (solitamente indicati con lettere maiuscole), tali che $V_T ∩V_N = ∅$, detto anche **alfabeto non terminale**; $V$ indica $V_T ∪V_N$;
 	- $P$ è un insieme finito di $V_N^+ ×V^∗$, detto anche **insieme delle produzioni** di G. Un elemento $p=<α,β >∈P$ si indica con $α→β$, in cui $α$ è la parte sinistra di $p$, mentre $β$ è la parte destra di $p$;
@@ -503,7 +503,7 @@ Quindi il linguaggio generato da una grammatica è costituito da tutte e sole le
 
 ### **4.2 Classificazione**
 
-Una volta definite cosa siano le grammatiche, è possibile classificarle in base alle loro proprietà e in base alla forma ammessa per le produzioni. Tale classificazione viene anche detta ==Gerarchia di Chomsky==, tramite cui si dividono le grammatiche in quattro categorie:
+Una volta definite cosa siano le grammatiche, è possibile classificarle in base alle loro proprietà e in base alla forma ammessa per le produzioni. Tale classificazione viene anche detta <mark class="hltr-yellow">Gerarchia di Chomsky</mark>, tramite cui si dividono le grammatiche in quattro categorie:
 
 - Tipo 0 (NON RISTRETTE): sono grammatiche definite come nella definizione generale, ovvero grammatiche che non possiedono nessuna restrizione nel tipo di produzione;
 - Tipo 1 (CONTESTUALI): sono grammatiche a cui si introduce il vincolo per cui le produzioni possono essere solo nella forma $αAβ →αγβ$, dove $α,β,γ ∈V$ e $A ∈V_N$, con $γ ̸= ε$; inoltre, la derivazione $S →ε$ è consentita solo se $S$ non appare a destra in nessuna regola di derivazione;
