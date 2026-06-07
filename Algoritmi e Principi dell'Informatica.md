@@ -1364,7 +1364,7 @@ Non esiste un metodo unico e generale per indovinare la soluzione corretta di un
 
 Ci sono poi casi in cui la soluzione ipotizzata sembra essere corretta, ma i calcoli matematici non soddisfano il passo induttivo: solitamente, il problema risiede nel fatto che l’ipotesi induttiva non è abbastanza forte per dimostrare il limite esatto. In un caso del genere, spesso è necessario semplicemente correggere l’ipotesi sottraendo un termine di ordine inferiore per fare in modo che i calcoli soddisfino i requisiti.
 
-*==ESEMPIO==*: Si calcoli la ricorrenza $T(n) = T(⌊n/2⌋) + T(⌈n/2⌉) + 1$ supponendo che la soluzione sia $T(n) = O(n)$. Si deve quindi dimostrare che $T(n) ≤cn$ per qualche $c$ arbitraria. Sostituendo l’ipotesi all’interno della ricorrenza si ottiene:
+*ESEMPIO*: Si calcoli la ricorrenza $T(n) = T(⌊n/2⌋) + T(⌈n/2⌉) + 1$ supponendo che la soluzione sia $T(n) = O(n)$. Si deve quindi dimostrare che $T(n) ≤cn$ per qualche $c$ arbitraria. Sostituendo l’ipotesi all’interno della ricorrenza si ottiene:
 
 $T(n) ≤ c⌊n/2⌋+ c⌈n/2⌉+ 1$
 	$= cn+ 1$
@@ -1388,7 +1388,7 @@ Dato che spesso è complesso fomulare un’ipotesi di soluzione per una data ric
 
 Sommando i costi dei nodi di ogni livello, si ottengono i costi relativi a quel livello e, sommando tali costi, si ottiene il costo generale della ricorrenza, che rappresenta l’ipotesi da verificare con il metodo della sostituzione. Utilizzando questo metodo, si tollera un certo livello di approssimazione, in quanto è interessante analizzare solamente il comportamento asintotico della ricorrenza: si possono quindi eliminare gli operatori ’ceil’ e ’floor’ e fare delle ipotesi blande per semplificare i calcoli.
 
-*==ESEMPIO==*: Si calcoli la ricorrenza $T(n) = 3T(⌊n/4⌋) + Θ(n^2)$. Come detto, si può approssimare la ricorrenza eliminando l’operatore floor, ottenendo $T(n) = 3T(n/4) + cn^2$, per una data costante $c>0$.
+*ESEMPIO*: Si calcoli la ricorrenza $T(n) = 3T(⌊n/4⌋) + Θ(n^2)$. Come detto, si può approssimare la ricorrenza eliminando l’operatore floor, ottenendo $T(n) = 3T(n/4) + cn^2$, per una data costante $c>0$.
 Per comodità, si suppone anche che $n$ sia una potenza di 4, in modo tale che ogni livello dell’albero abbia dimensione intera. Si ottiene così il seguente albero delle ricorrenze:
 
 *Albero della ricorrenza $T(n) = 3T(n/4) + cn^2$*
@@ -1415,7 +1415,7 @@ Il passaggio segnato con $*$ rappresenta una piccola approssimazione: la $\sum_{
 Il metodo dell’esperto è impiegato per la risoluzione di ricorrenze del tipo $T(n) = aT(n/b) + f(n)$,
 con $a ≥1,b > 1$ costanti ed $f(n)$ una funzione asintoticamante positiva. Una ricorrenza di questo tipo rappresenta il tempo di esecuzione di un algoritmo che divide il problema di dimensione $n$ in $a$ sottoproblemi di dimensione $n/b$, mentre la funzione $f(n)$ rappresenta il costo di divisione del problema e di combinazione delle soluzioni. Il metodo dell’esperto dipende dal seguente teorema:
 
-- **Teorema** (**==Master Theorem==**): Date le costanti $a ≥1, b > 1$ e la funzione $f(n)$, se la ricorsione $T(n)$ si presenta nella forma $T(n) = aT(n/b) + f(n)$, allora può essere limitata asintoticamente nei seguenti modi:
+- **Teorema** (**Master Theorem**): Date le costanti $a ≥1, b > 1$ e la funzione $f(n)$, se la ricorsione $T(n)$ si presenta nella forma $T(n) = aT(n/b) + f(n)$, allora può essere limitata asintoticamente nei seguenti modi:
 	1. Se $f(n) = O(n^{log_b a−ε})$ per qualche $ε>0$, allora $T(n) = Θ(n^{log_b a})$;
 	2. Se $f(n) = Θ(n^{log_b a})$, allora $T(n) = Θ(n^{log_b a}log_2(n))$;
 	3. Se $f(n) = Ω(n^{log_b a+ε})$ per qualche $ε > 0$ e se $af(n/b) ≤cf(n)$ per qualche $c < 1$ e per ogni $n$ sufficientemente grande, allora $T(n) = Θ(f(n))$.
@@ -1689,7 +1689,7 @@ algoritmi che le manipolano.
 
 Si noti quindi che l’algoritmo listSearch cerca l’elemento di chiave $k$ tramite una ricerca lineare sulla list $L$ di $n$ elementi. Dunque, l’algoritmo impiega un tempo $Θ(n)$ nel caso peggiore, in quanto potrebbe essere necessario scorrere l’intera lista.
 
-- **==Inserimento==**: la seconda procedura analizzata è `listInsert(L, x)` che inserisce l’elemento $x$ di attributo key (già inizializzato) in testa alla lista. *In pseudocodifica*:
+- **Inserimento**: la seconda procedura analizzata è `listInsert(L, x)` che inserisce l’elemento $x$ di attributo key (già inizializzato) in testa alla lista. *In pseudocodifica*:
 
 	`listInsert (L , x ) :`
 		`x . next := L . head`
@@ -1700,7 +1700,7 @@ Si noti quindi che l’algoritmo listSearch cerca l’elemento di chiave $k$ tra
 
 Questa procedura impiega un tempo costante $Θ(1)$ per la sua esecuzione.
 
-- **==Rimozione==**: l’ultima procedura analizzata per le linked list è `listDelete(L, x)`, che rimuove l’elemento $x$ dalla lista $L$; per poter eliminare tale elemento è prima necessario chiamare la funzione `listSearch` per ottenere il puntatore all’elemento desiderato. *In pseudocodifica*:
+- **Rimozione**: l’ultima procedura analizzata per le linked list è `listDelete(L, x)`, che rimuove l’elemento $x$ dalla lista $L$; per poter eliminare tale elemento è prima necessario chiamare la funzione `listSearch` per ottenere il puntatore all’elemento desiderato. *In pseudocodifica*:
 
 	`listDelete (L , x ) :`
 		`if x . prev != NIL :`
@@ -1865,7 +1865,7 @@ Tale proprietà permette di elencare ordinatamente tutte le chiavi di un albero 
 
 Per attraversare un albero binario di ricerca costituito da $n$ nodi, è necessario un tempo $Θ(n)$, in quanto, dopo la chiamata iniziale, la procedura viene chiamata ricorsivamente esattamente due volte per ogni nodo dell’albero.
 
-- **==RICERCA==**: un’altra tipica operazione svolta su un albero binario di ricerca è quella di cercare una chiave memorizzata nell’albero: oltre all’operazione `search`, gli alberi binari supportano anche query come `minimum, maximum, successor` e `predecessor`.
+- **RICERCA**: un’altra tipica operazione svolta su un albero binario di ricerca è quella di cercare una chiave memorizzata nell’albero: oltre all’operazione `search`, gli alberi binari supportano anche query come `minimum, maximum, successor` e `predecessor`.
 	Dato un puntatore alla radice dell’albero e una chiave $k$ da cercare, la procedura `treeSearch` restituisce il puntatore al nodo di chiave $k$, se esiste, oppure `NIL`, se la chiave non è presente nell’albero. *In pseudocodifica*:
 
 `treeSearch (x , k ) :`
@@ -1879,7 +1879,7 @@ Per attraversare un albero binario di ricerca costituito da $n$ nodi, è necessa
 Questo algoritmo inizia la sua ricerca dalla radice dell’albero e ad ogni iterazione confronta il valore $k$ passato come argomento con $x.key$. Se le due chiavi sono uguali la ricerca termina e viene restituito il puntatore al nodo, mentre se la chiave è minore della chiave corrente analizzata, per la proprietà fondamentale degli alberi binari, si chiama ricorsivamente la procedura sul sottoalbero sinistro, altrimenti sul sottoalbero destro. Il tempo di esecuzione di tale algoritmo è $O(h)$, dove $h$ rappresenta l’altezza dell’albero.
 
 
-- ==**MINIMO e MASSIMO**==: un elemento con chiave minima in un albero binario di ricerca può sempre essere trovato seguendo, a partire dalla radice, i puntatori left, fino a quando non viene incontrato un valore `NIL`, sempre per la proprietà fondamentale degli alberi binari di ricerca. *In pseudocodifica*:
+- **MINIMO e MASSIMO**: un elemento con chiave minima in un albero binario di ricerca può sempre essere trovato seguendo, a partire dalla radice, i puntatori left, fino a quando non viene incontrato un valore `NIL`, sempre per la proprietà fondamentale degli alberi binari di ricerca. *In pseudocodifica*:
 
 `treeMinimum ( x ) :`
 	`while x . left != NIL :`
