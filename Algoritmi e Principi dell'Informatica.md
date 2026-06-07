@@ -2168,41 +2168,37 @@ Esistono due metodi principali per la rappresentazione dei grafi: la prima consi
 
 La visita in ampiezza (o breadth-first search) è l’algoritmo più semplice di ricerca nei grafi. Dato un grafo $G$ e un vertice distinto $s$, detto sorgente, la visita in ampiezza ispeziona sistematicamente gli archi di $G$ per scoprire tutti i vertici che sono raggiungibili da $s$, calcolando la distanza da $s$ a ciascun vertice raggiungibile. L’algoritmo è così chiamato perchè espande la frontiera fra i vertici scoperti e quelli ancora da scoprire in maniera uniforme lungo l’ampiezza della frontiera: l’algoritmo, infatti, scopre tutti i vertici che si trovano a distanza $k$ da $s$, prima di scoprire tutti i ivertici che si trovano a distanza $k+ 1$.
 
-Per tenere traccia del lavoro, la visita colora i vertici di bianco, grigio oppure nero. Inizialmente, tutti i vertici sono di colore bianco e possono diventare grigi e poi neri. Un vertice viene scoperto quando viene incontrato per la prima volta durante la visita, cessando di essere bianco. Tutti i vertici adiacenti ai vertici neri sono di colore grigio, il che significa che sono stati scoperti dall’algoritmo. I vertici grigi, invece, potrebbero presentare alcuni vertici adiacenti bianchi, che rappresentano la frontiera da scoprire: tali vertici sono tenuti in memoria in una coda (gestita dalla politica FIFO) e, ad ogni iterazione, si elimina dalla coda un elemento $u$, visitando i vertici a lui adiacenti che sono ancora bianchi. Si noti che, se `u.dist``e la distanza del vertice u da s, allora la distanza dei nodi bianchi adiacenti ad u`e u.dist+ 1.
+Per tenere traccia del lavoro, la visita colora i vertici di bianco, grigio oppure nero. Inizialmente, tutti i vertici sono di colore bianco e possono diventare grigi e poi neri. Un vertice viene scoperto quando viene incontrato per la prima volta durante la visita, cessando di essere bianco. Tutti i vertici adiacenti ai vertici neri sono di colore grigio, il che significa che sono stati scoperti dall’algoritmo. I vertici grigi, invece, potrebbero presentare alcuni vertici adiacenti bianchi, che rappresentano la frontiera da scoprire: tali vertici sono tenuti in memoria in una coda (gestita dalla politica FIFO) e, ad ogni iterazione, si elimina dalla coda un elemento $u$, visitando i vertici a lui adiacenti che sono ancora bianchi. Si noti che, se `u.dist` è la distanza del vertice $u$ da $s$, allora la distanza dei nodi bianchi adiacenti ad $u$ è `u.dist+ 1`.
+*In pseudocodifica*:
 
-In pseudocodifica:
+`breadthFirstSearch (G , s ) :`
+	`for each u in G . V - { s }:`
+		`u . color := WHITE`
+		`u . dist := ∞`
 
-1 b r e a d t h F i r s t S e a r c h (G , s ) :
+`5 s . color := GRAY`
 
-2 f o r each u in G . V - { s }:
+`6 s . dist := 0`
 
-3 u . color := WHITE
+`7 Q := ∅`
 
-4 u . dist := ∞
+`8 enqueue (Q , s )`
 
-5 s . color := GRAY
+`9 w h i l e Q != ∅:`
 
-6 s . dist := 0
+`10 u := dequeue ( Q )`
 
-7 Q := ∅
+`11 f o r each v in u . Adj :`
 
-8 enqueue (Q , s )
+`12 i f v . color = WHITE :`
 
-9 w h i l e Q != ∅:
+`13 v . color := GRAY`
 
-10 u := dequeue ( Q )
+`14 v . dist := u . dist + 1`
 
-11 f o r each v in u . Adj :
+`15 enqueue (q , v )`
 
-12 i f v . color = WHITE :
-
-13 v . color := GRAY
-
-14 v . dist := u . dist + 1
-
-15 enqueue (q , v )
-
-16 u . color := BLACK9.7. GRAFI 79
+`16 u . color := BLACK`
 
 Informalmente, le righe 2-4 inizializzano ogni vertice, colorandolo di bianco, eccetto il vertice s che
 
