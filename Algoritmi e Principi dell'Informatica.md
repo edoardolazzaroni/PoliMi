@@ -2196,35 +2196,12 @@ Dato un grafo $G= (V,E)$, il tempo di esecuzione dell’algoritmo BFS è $O(|E|+
 
 #### **9.7.3 Visita in Profondità**
 
-La visita in profondità (o depth-first search) è un algoritmo che adotta una strategia differente rispetto al precedente: consiste, infatti, nel visitare il grafo sempre più in profondità se possibile. Nella visita in profondit`a, gli archi vengono ispezionati a partire dall’ultimo vertice v scoperto, che ha ancora archi non
+La visita in profondità (o depth-first search) è un algoritmo che adotta una strategia differente rispetto al precedente: consiste, infatti, nel visitare il grafo sempre più in profondità se possibile. Nella visita in profondità, gli archi vengono ispezionati a partire dall’ultimo vertice $v$ scoperto, che ha ancora archi non ispezionati nella sua lista di adiacenza. Questo processo continua fino a quando non sono stati scoperti tutti i vertici che sono raggiungibili dal vertice $v$ da cui inizia la ricerca. Se rimane ancora qualche vertice da ispezionare, allora se ne sceglie uno nuovo come sorgente e si reitera il processo.
 
-ispezionati nella sua lista di adiacenza. Questo processo continua fino a quando non sono stati scoperti
-
-tutti i vertici che sono raggiungibili dal vertice vda cui inizia la ricerca. Se rimane ancora qualche vertice
-
-da ispezionare, allora se ne sceglie uno nuovo come sorgente e si reitera il processo.
-
-Dunque, si pu`o affermare che se l’algoritmo BFS si basa sulla strategia di visitare i vertici secondo
-
-una politica LIFO, l’algoritmo DFS si basa su una politica di tipo FIFO: una volta inserito un nodo in
-
-cima alla pila, si visitano tutti i vertici adiacenti relativi a quel nodo, prima di procedere alla visita dei
-
-vertici adiacenti del successivo.
+Dunque, si può affermare che se l’algoritmo BFS si basa sulla strategia di visitare i vertici secondo una politica LIFO, l’algoritmo DFS si basa su una politica di tipo FIFO: una volta inserito un nodo in cima alla pila, si visitano tutti i vertici adiacenti relativi a quel nodo, prima di procedere alla visita dei vertici adiacenti del successivo.
 
 Come per il precedente algoritmo, anche in questo caso i vertici vengono colorati durante la loro
-
-visita, per indicarne lo stato. Inizialmente tutti i vertici sono colorati di bianco e nel momento in cui un
-
-determinato vertice viene visitato per la prima volta, questo viene colorato di grigio. Infine, un vertice
-
-`e colorato di nero nel momento in vui sono ispezionati tutti i suoi vertici adiacenti. Oltre alla lista
-
-di adiacenza e al colore, i vertici all’interno di un grafo visitato in profondit`a, contengono anche due
-
-informazioni temporali: la prima, memorizzata in v.d, registra il momento in cui il vertice viene scoperto
-
-e colorato di grigio, mentre le seconda, memorizzata in v.f, registra il momento in cui la visita completa
+visita, per indicarne lo stato. Inizialmente tutti i vertici sono colorati di bianco e nel momento in cui un determinato vertice viene visitato per la prima volta, questo viene colorato di grigio. Infine, un vertice è colorato di nero nel momento in cui sono ispezionati tutti i suoi vertici adiacenti. Oltre alla lista di adiacenza e al colore, i vertici all’interno di un grafo visitato in profondità, contengono anche due informazioni temporali: la prima, memorizzata in `v.d`, registra il momento in cui il vertice viene scoperto e colorato di grigio, mentre le seconda, memorizzata in `v.f`, registra il momento in cui la visita completa
 
 l’ispezione della lista di adiacenza di v e viene colorato di nero. Quindi, un vertice v `e bianco prima del
 
