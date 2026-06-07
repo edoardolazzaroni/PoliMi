@@ -2175,30 +2175,18 @@ Per tenere traccia del lavoro, la visita colora i vertici di bianco, grigio oppu
 	`for each u in G . V - { s }:`
 		`u . color := WHITE`
 		`u . dist := ∞`
-
-`5 s . color := GRAY`
-
-`6 s . dist := 0`
-
-`7 Q := ∅`
-
-`8 enqueue (Q , s )`
-
-`9 w h i l e Q != ∅:`
-
-`10 u := dequeue ( Q )`
-
-`11 f o r each v in u . Adj :`
-
-`12 i f v . color = WHITE :`
-
-`13 v . color := GRAY`
-
-`14 v . dist := u . dist + 1`
-
-`15 enqueue (q , v )`
-
-`16 u . color := BLACK`
+	`s . color := GRAY`
+	`s . dist := 0`
+	`Q := ∅`
+	`enqueue (Q , s )`
+	`while Q != ∅:`
+		`u := dequeue ( Q )`
+		`for each v in u . Adj :`
+			`if v . color = WHITE :`
+				`v . color := GRAY`
+				`v . dist := u . dist + 1`
+				`enqueue (q , v )`
+		`u . color := BLACK`
 
 Informalmente, le righe 2-4 inizializzano ogni vertice, colorandolo di bianco, eccetto il vertice s che
 
