@@ -2218,29 +2218,18 @@ variabile globale `time`,tramite cui si memorizzano le informazioni temporali pr
 
 Le righe successive servono ad ispezionare in profondità tutti i vertici che hanno colore bianco, tramite la procedura di supporto `DFSVisit`, introdotta di seguito:
 
-1 DFSVisit (G , u ) :
+`DFSVisit (G , u ) :`
+	`time := time + 1`
+	`u . d := time`
+	`u . color := GREY`
+	`for each v in G . Adj [ u ]:`
+		`if v . color = WHITE :`
+			`DFSVisit (G , v )`
+	`u . color := BLACK`
+	`time := time + 1`
+	`u . f := time`
 
-2 time := time + 1
-
-3 u . d := time
-
-4 u . color := GREY
-
-5 f o r each v in G . Adj [ u ]:
-
-6 i f v . color = WHITE :
-
-7 DFSVisit (G , v )
-
-8 u . color := BLACK
-
-9 time := time + 1
-
-10 u . f := time
-
-In ogni chiamata della procedura DFSVisit, il vertice upassato come argomento `e inizialmente bianco,
-
-quindi gli si assegna subito il colore grigio dopo aver assegnato al vertice il tempo di scoperta (u.d) il
+In ogni chiamata della procedura `DFSVisit`, il vertice $u$ passato come argomento è inizialmente bianco, quindi gli si assegna subito il colore grigio dopo aver assegnato al vertice il tempo di scoperta $(u.d)$ il
 
 tempo incrementato di una unit`a (righe 2-4). Subito dopo, il ciclo for di righe 5-7 esplora tutti i vertici
 
