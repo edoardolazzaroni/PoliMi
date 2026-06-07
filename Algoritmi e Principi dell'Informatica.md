@@ -2147,17 +2147,11 @@ Esistono due tipologie di grafi, ovvero i grafi **orientati** e **non orientati*
 D’altra parte, in un grafo orientato, la coppia $(u,v)$ è differente dall’arco $(v,u)$, in quanto si tiene conto della direzione di attraversamento.
 
 
-9.7.1 Rappresentazione
+#### **9.7.1 Rappresentazione**
 
-Esistono due metodi principali per la rappresentazione dei grafi: la prima consiste in una collezione di
+Esistono due metodi principali per la rappresentazione dei grafi: la prima consiste in una collezione di liste di adiacenza, mentre la seconda in una matrice di adiacenza. Entrambi i metodi possono essere applicati sia ai grafi orientati che non orientati.
 
-liste di adiacenza, mentre la seconda in una matrice di adiacenza. Entrambi i metodi possono essere
-
-applicati sia ai grafi orientati che non orientati.
-
-Rappresentazione con liste di adiacenza Tale rappresentazione di un grafo G = (E,V) consiste
-
-in un array Adj di |V|liste concatenate, una per ogni vertice V. Per ogni u ∈V, la lista di adicenza
+- **Rappresentazione con liste di adiacenza**: tale rappresentazione di un grafo $G = (E,V)$ consiste in un array $Adj$ di $|V|$ liste concatenate, una per ogni vertice V. Per ogni u ∈V, la lista di adicenza
 
 Adj[u] include tutti i vertici adiacenti a u in G. Poich`e le liste di adiacenza rappresentano gli archi di
 
