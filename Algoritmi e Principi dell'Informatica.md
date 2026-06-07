@@ -123,7 +123,7 @@ Tramite questa definizione, si può affermare che una generica stringa $x$ appar
 
 Gli FST (Finate State Trasducer) sono trasduttori che presentano un numero finito di stati . Formalmente:
 
-- Un ==FST== è una tupla di 7 elementi $<Q,I,δ,q_0,F,O,η>$, dove:
+- Un FST è una tupla di 7 elementi $<Q,I,δ,q_0,F,O,η>$, dove:
 	- $Q$ è un insieme finito di stati;
 	- $I$ è l’alfabeto di ingresso;
 	- $δ: Q×I →Q$ è la funzione di transizione (eventualmente parziale);
@@ -178,7 +178,7 @@ I teoremi sono basati sul fatto che un determinato FSA può presentare cicli nel
 
 Si enuncia quindi il seguente teorema noto con il nome di Pumping Lemma:
 
-- ==Teorema del Pumping Lemma==: sia $A$ un automa a stati finiti. Se $x∈L$ e $|x| ≤ |Q|$, allora esistono uno stato $q∈Q$ e una stringa $w∈I^+$ tali che:
+- **Teorema del Pumping Lemma**: sia $A$ un automa a stati finiti. Se $x∈L$ e $|x| ≤ |Q|$, allora esistono uno stato $q∈Q$ e una stringa $w∈I^+$ tali che:
 	- $x= ywz$
 	- $δ^∗(q,w) = q$
 
@@ -201,7 +201,7 @@ I PDA (Push Down Automaton) sono automi che presentano un numero finito di stati
 
 Questi particolari tipi di automi hanno la possibilità di utilizzare il simbolo in cima alla pila per decidere quale transizione effettuare e la possibilità di manipolare la pila, rimuovendone il simbolo alla cima, oppure aggiungendo un nuovo simbolo. Formalmente:
 
-- Un ==PDA== è una tupla di 7 elementi $<Q,I,δ,Γ,q_0,Z_0,F >$, dove:
+- Un <mark class="hltr-orange">PDA</mark> è una tupla di 7 elementi $<Q,I,δ,Γ,q_0,Z_0,F >$, dove:
 	- $Q$ è un insieme finito di stati;
 	- $I$ è l’alfabeto di ingresso;
 	- $Γ$ è l’alfabeto della pila, tale per cui $Γ ∩I= ∅$;
@@ -252,7 +252,7 @@ Un tale automa legge sempre per intero la stringa in ingresso prima di terminare
 
 I PDT (Push Down Trasducer) sono trasduttori che presentano un numero finiti di stati e una memoria organizzata su una struttura a pila. Formalmente:
 
-- Un ==PDT== è una tupla di 9 elementi $<Q,I,δ,Γ,q_0,Z_0,F,O,η>$, dove:
+- Un <mark class="hltr-orange">PDT</mark> è una tupla di 9 elementi $<Q,I,δ,Γ,q_0,Z_0,F,O,η>$, dove:
 	- $Q$ è un insieme finito di stati;
 	- $I$ è l’alfabeto di ingresso;
 	- $Γ$ è l’alfabeto della pila, tale per cui $Γ ∩I= ∅$;
