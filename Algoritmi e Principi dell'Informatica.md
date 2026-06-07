@@ -2157,7 +2157,7 @@ Esistono due metodi principali per la rappresentazione dei grafi: la prima consi
 
 - **Rappresentazione con matrice di adiacenza**: tale rappresentazione di un grafo $G= (E,V)$ consiste in una matrice $A= (a_{ij})$ di dimensione $|V|×|V|$ tale per cui:
 
-$ai,j=\begin{cases} 1 & \mbox{if (i,j) ∈E} \\0 else$
+							$a_{i,j}=\begin{cases} 1 &\mbox{if (i,j) ∈E} \\0 &\mbox{else}\end{cases}$
 
 Per poter procedere con tale rappresentazione, `e prima necessario che i vertici siano numerati in
 
