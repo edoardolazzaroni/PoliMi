@@ -2208,22 +2208,15 @@ Si introduce di seguito la procedura in *pseudocodifica* che realizza la strateg
 `depthFirstSearch ( G ) :`
 	`for each u in G . V :`
 		`u . color := WHITE`
-
-`4 time := 0`
-
-`5 f o r each u in G . V :`
-
-`6 i f u . color = WHITE :`
-
-`7 DFSVisit (G , u )`
+	`time := 0`
+	`for each u in G . V :`
+		`if u . color = WHITE :`
+			`DFSVisit (G , u )`
 
 La procedura imposta, in righe 2-3, il colore di tutti i vertici di bianco, per poi inizializzare una
+variabile globale `time`,tramite cui si memorizzano le informazioni temporali precedentemente discusse.
 
-variabile globale time,tramite cui si memorizzano le informazioni temporali precedentemente discusse.
-
-Le righe successive servono ad ispezionare in profondit`a tutti i vertici che hanno colore bianco, tramite
-
-la procedura di supporto DFSVisit, introdotta di seguito.
+Le righe successive servono ad ispezionare in profondità tutti i vertici che hanno colore bianco, tramite la procedura di supporto `DFSVisit`, introdotta di seguito:
 
 1 DFSVisit (G , u ) :
 
@@ -2243,7 +2236,7 @@ la procedura di supporto DFSVisit, introdotta di seguito.
 
 9 time := time + 1
 
-10 u . f := time80 CAPITOLO 9. STRUTTURE DATI
+10 u . f := time
 
 In ogni chiamata della procedura DFSVisit, il vertice upassato come argomento `e inizialmente bianco,
 
