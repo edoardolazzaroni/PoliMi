@@ -36,11 +36,11 @@ Per poter proseguire con il trattato, è prima necessario introdurre alcuni conc
 
 Nel contesto dei linguaggi, l’operatore $◦$ rappresenta la concatenazione di stringhe.
 
-- Un ==monoide== è un semigruppo in cui è definito un elemento unitario $u∈S$, tale che $∀x,∃u (x◦u= x)$.
+- Un **monoide** è un semigruppo in cui è definito un elemento unitario $u∈S$, tale che $∀x,∃u (x◦u= x)$.
 
 Nel contesto dei linguaggi, l’elemento unitario $u$ rappresenta la stringa vuota $ε$: infatti, la concatenazione di una generica stringa $x$ con la stringa vuota $ε$ produce come risultato nuovamente la stringa originaria $x$.
 
-- Un ==gruppo== è un monoide in cui è definito un elemento inverso $x−1$ unico per ogni elemento x dell’insieme S, tale che $∀x(x◦x−1 = u)$.
+- Un **gruppo** è un monoide in cui è definito un elemento inverso $x−1$ unico per ogni elemento x dell’insieme S, tale che $∀x(x◦x−1 = u)$.
 
 Si possono quindi definire gli **Operatori di Kleene**:
 
@@ -58,7 +58,7 @@ Ad esempio, dato l’insieme di simboli $S= \left \{a,b,c\right \}$, $S^+ = \lef
 
 Data la definizione della stella di Kleene, si può ora dare la definizione di linguaggio:
 
-- Un ==linguaggio== L su un alfabeto V è un sottoinsieme di $V^∗$.
+- Un **linguaggi** $L$ su un alfabeto $V$ è un sottoinsieme di $V^∗$.
 
 Dato un insieme di simboli, si possono generare infiniti linguaggi.
 
@@ -81,9 +81,9 @@ Le operazioni su di un determinato linguaggio crea nuove classi di linguaggi con
 
 In questo capitolo verrà introdotto il concetto di automa e se ne analizzeranno le varie classi esistenti, differenziandole in base alla loro espressività nella rappresentazione di linguaggi via via sempre più complessi. Si inizierà con lo studio degli automi determinstici per passare gradualmente a quelli non deterministici, analzzandone le differenze e le caratteristiche più importanti. Di seguito sono date le definizioni di automa, accettatore e trasduttore:
 
-- Gli ==automi== sono sistemi dinamici discreti e tempo invarianti. Lo stato di un automa viene modificato a fronte di un simbolo di ingresso. Ogni automa presenta uno stato iniziale, da cui ha inizio la sua esecuzione, e uno o più stati finali in cui la sua esecuzione ha termine.
-- Gli ==accettatori== sono automi che indicano se una determinata sequenza di simboli appartiene ad un linguaggio.
-- I ==trasduttori== sono automi che mappano una determinata sequenza di simboli appartenenti ad un linguaggio in una sequenza di simboli appartenenti ad un linguaggio differente. Un trasduttore lavora quindi su due nastri infiniti: il primo nastro in ingresso di sola lettura, il secondo nastro in uscita di sola scrittura.
+- Gli **automi** sono sistemi dinamici discreti e tempo invarianti. Lo stato di un automa viene modificato a fronte di un simbolo di ingresso. Ogni automa presenta uno stato iniziale, da cui ha inizio la sua esecuzione, e uno o più stati finali in cui la sua esecuzione ha termine.
+- Gli **accettatori** sono automi che indicano se una determinata sequenza di simboli appartiene ad un linguaggio.
+- I **trasduttori** sono automi che mappano una determinata sequenza di simboli appartenenti ad un linguaggio in una sequenza di simboli appartenenti ad un linguaggio differente. Un trasduttore lavora quindi su due nastri infiniti: il primo nastro in ingresso di sola lettura, il secondo nastro in uscita di sola scrittura.
 
 Un automa è rappresentato graficamente come un inisieme di circonferenze denominate (che rappresentano gli stati dell’automa), ognuna delle quali è connessa ad altri stati tramite frecce. Su tali frecce è segnata la condizione da soddisfare per intraprendere quel passaggio di stato e come viene modificato lo stato durante il passaggio. Lo stato iniziale si riconosce per via di una freccia entrante nel nodo, mentre gli stati finali sono rappresentati da circonferenze con bordo doppio.
 
@@ -100,7 +100,7 @@ Un automa è rappresentato graficamente come un inisieme di circonferenze denomi
 
 Gli FSA (Finite State Automaton) sono automi che presentano un numero finito di stati. Formalmente:
 
-- Un ==FSA== è una tupla di 5 elementi $<Q,A,δ,q_0,F >$, dove:
+- Un <mark class="hltr-orange">FSA</mark> è una tupla di 5 elementi $<Q,A,δ,q_0,F >$, dove:
 	- $Q$ è un insieme finito di stati;
 	- $A:=$ {$a_0,a_1,a_2,...,a_n$} è l’alfabeto di ingresso;
 	- $δ: Q×A→Q$: è la funzione di transizione (eventualmente parziale);
@@ -123,7 +123,7 @@ Tramite questa definizione, si può affermare che una generica stringa $x$ appar
 
 Gli FST (Finate State Trasducer) sono trasduttori che presentano un numero finito di stati . Formalmente:
 
-- Un FST è una tupla di 7 elementi $<Q,I,δ,q_0,F,O,η>$, dove:
+- Un <mark class="hltr-orange">FST</mark> è una tupla di 7 elementi $<Q,I,δ,q_0,F,O,η>$, dove:
 	- $Q$ è un insieme finito di stati;
 	- $I$ è l’alfabeto di ingresso;
 	- $δ: Q×I →Q$ è la funzione di transizione (eventualmente parziale);
