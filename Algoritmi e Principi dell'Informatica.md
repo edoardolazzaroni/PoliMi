@@ -2151,15 +2151,8 @@ D’altra parte, in un grafo orientato, la coppia $(u,v)$ è differente dall’a
 
 Esistono due metodi principali per la rappresentazione dei grafi: la prima consiste in una collezione di liste di adiacenza, mentre la seconda in una matrice di adiacenza. Entrambi i metodi possono essere applicati sia ai grafi orientati che non orientati.
 
-- **Rappresentazione con liste di adiacenza**: tale rappresentazione di un grafo $G = (E,V)$ consiste in un array $Adj$ di $|V|$ liste concatenate, una per ogni vertice V. Per ogni u ∈V, la lista di adicenza
-
-Adj[u] include tutti i vertici adiacenti a u in G. Poich`e le liste di adiacenza rappresentano gli archi di
-
-un grafo, nello pseudocodice si tratta l’array Adj come un attributo del grafo G.78 CAPITOLO 9. STRUTTURE DATI
-
-Inoltre, Se G`e un grafo orientato, la somma delle lunghezze di tutte le liste di adiacenza `e esattamente
-
-|E|, perch`e un arco nella forma (u,v) `e rappresentato inserendo v in G.Adj[u]. Al contrario, se G `e un
+- **Rappresentazione con liste di adiacenza**: tale rappresentazione di un grafo $G = (E,V)$ consiste in un array $Adj$ di $|V|$ liste concatenate, una per ogni vertice $V$. Per ogni $u ∈V$, la lista di adiacenza $Adj[u]$ include tutti i vertici adiacenti a $u$ in $G$. Poichè le liste di adiacenza rappresentano gli archi di un grafo, nello pseudocodice si tratta l’array $Adj$ come un attributo del grafo $G$.
+	Inoltre, se $G$ è un grafo orientato, la somma delle lunghezze di tutte le liste di adiacenza è esattamente $|E|$, perchè un arco nella forma (u,v) `e rappresentato inserendo v in G.Adj[u]. Al contrario, se G `e un
 
 grafo non orientato, la somma delle lunghezze di tutte le liste di adiacenza `e 2|E|, perch`e se (u,v)
 
