@@ -1896,7 +1896,7 @@ La procedura per trovare l’elemento massimo, invece, è simmetrica alla proced
 Entrambe queste procedure vengono eseguite in un tempo $O(h)$, in un albero di altezza $h$.
 
 
-- ==**SUCCESSORE e PREDECESSORE**==: dato un nodo in un albero binario di ricerca, spesso è necessario trovare il suo successore, nell’ordine stabilito da un attraversamento simmetrico. Il successore di un nodo $x$ è il nodo con la più piccola chiave maggiore di $x.key$. La struttura di un albero binario consente di trovare tale nodo senza il bisogno di confrontare le chiavi. *In pseudocodifica*:
+- **SUCCESSORE e PREDECESSORE**: dato un nodo in un albero binario di ricerca, spesso è necessario trovare il suo successore, nell’ordine stabilito da un attraversamento simmetrico. Il successore di un nodo $x$ è il nodo con la più piccola chiave maggiore di $x.key$. La struttura di un albero binario consente di trovare tale nodo senza il bisogno di confrontare le chiavi. *In pseudocodifica*:
 
 `treeSuccessor ( x ) :`
 	`if x . right != NIL :`
@@ -1912,7 +1912,7 @@ Questa operazione è svolta in un tempo $O(h)$, con $h$ l’altezza dell’alber
 La procedura per trovare il successore è simmetrica alla procedura appena analizzata e viene svolta nello stesso tempo.
 
 
-- **==INSERIMENTO==**: per inserire un nuovo valore $v$ all’interno dell’albero binario di ricerca $T$, si utilizza la seguente procedura, che riceve in input un nodo $z$, tale per cui $z.key= v$:
+- **INSERIMENTO**: per inserire un nuovo valore $v$ all’interno dell’albero binario di ricerca $T$, si utilizza la seguente procedura, che riceve in input un nodo $z$, tale per cui $z.key= v$:
 
 `treeInsert (T , z ) :`
 	`y := NIL`
@@ -1934,7 +1934,7 @@ La procedura per trovare il successore è simmetrica alla procedura appena anali
 La procedura appena vista inizia dalla radice dell’albero e il puntatore $x$ traccia un cammino semplice in discesa cercando un `NIL` da sostituire con l’elemento di input $z$. La procedura mantiene anche un puntatore $y$ detto inseguitore che punta sempre al padre di $x$. Le righe 4-9 del ciclo `while` spostano questi due puntatori verso il basso, andando a sinistra o a destra a seconda dell’esito del confronto fra $z.key$ e $x.key$, finchè a $x$ non viene assegnato il valore `NIL`. A questo punto si rende necessario il puntatore $y$ perchè, quando si arriva a trovare il valore `NIL` da sostituire con il nodo $z$, la ricerca è andata un passo oltre il nodo che deve essere modificato. Le righe successive inseriscono il nodo passato come argomento all’interno dell’albero binario di ricerca. In generale, questo algoritmo viene eseguito in un tempo $O(h)$, in un albero di altezza $h$.
 
 
-- **==CANCELLAZIONE==**: la procedura per la cancellazione di un nodo $z$ da un albero binario di ricerca si suddivide in tre casi:
+- **CANCELLAZIONE**: la procedura per la cancellazione di un nodo $z$ da un albero binario di ricerca si suddivide in tre casi:
 
 1. Se il nodo $z$ non ha figli, si modifica il nodo $z.parent$ in modo che non punti più a $z$, ma a `NIL`
 2. Se il nodo $z$ ha un solo figlio, si eleva il figlio di tale nodo in modo che occupi la posizione di $z$ nell’albero, modificando il padre di $z$ affinchè punti al figlio di $z$;
@@ -1992,7 +1992,7 @@ Si definisce a questo proposito, altezza nera di un nodo $x$, indicato con $bh(x
 
 La conseguenza immediata di questo teorema è che le operazioni sugli insiemi dinamici possono tutte essere implementate in un tempo $O(log_2 \ n)$ negli alberi rosso neri, perchè possono essere eseguite nel tempo $O(h)$ in un albero binario di ricerca di altezza $h$ e qualsiasi albero rosso nero di $n$ nodi è un albero binario di ricerca di altezza $O(log_2 \ n)$.
 
-- **==ROTAZIONE==**: le operazioni di `treeInsert` e `treeDelete` sugli alberi rosso nero potrebbero violare le proprietà della struttura, proprio perchè modificano l’albero. Si rende quindi necessario ricalcolare i colori di qualche nodo dell’albero e anche la struttura dei puntatori, dopo la chiamata a una delle due procedure. La struttura dei puntatori viene modificata tramite una rotazione, ovvero un’operazione locale che preserva le proprietà degli alberi binari di ricerca. Quando si esegue una rotazione sinistra in un nodo $x$, supponendo che il nodo $y= x.right$ sia diverso da `NIL`, si fa ”perno” sul collegamento tra $x$ e $y$: il nodo $y$ diventa la nuova radice del sottoalbero, con $x$ come figlio sinistro di $y$ e il figlio sinistro di $y$ come figlio destro di $x$. *In pseudocodifica*:
+- **ROTAZIONE**: le operazioni di `treeInsert` e `treeDelete` sugli alberi rosso nero potrebbero violare le proprietà della struttura, proprio perchè modificano l’albero. Si rende quindi necessario ricalcolare i colori di qualche nodo dell’albero e anche la struttura dei puntatori, dopo la chiamata a una delle due procedure. La struttura dei puntatori viene modificata tramite una rotazione, ovvero un’operazione locale che preserva le proprietà degli alberi binari di ricerca. Quando si esegue una rotazione sinistra in un nodo $x$, supponendo che il nodo $y= x.right$ sia diverso da `NIL`, si fa ”perno” sul collegamento tra $x$ e $y$: il nodo $y$ diventa la nuova radice del sottoalbero, con $x$ come figlio sinistro di $y$ e il figlio sinistro di $y$ come figlio destro di $x$. *In pseudocodifica*:
 
 `leftRotate (T , x ) :`
 	`y := x . right`
@@ -2068,7 +2068,7 @@ Dunque, nel caso ci fossero violazioni delle proprietà degli alberi rosso nero,
 - **Caso 3**: Lo zio $y$ di $z$ è nero e $z$ è figlio sinistro: nel caso 3 (righe 14-16), lo zio di $z$ è sempre nero, ma il nodo $z$ è figlio sinistro anzichè destro. In questo caso si applicano alcune modifiche sui colori e alcune rotazioni aggiuntive a destra per poter preservare le proprietà degli alberi rosso nero.
 
 
-- **==RIMOZIONE==**: la procedura di rimozione di un determinato nodo dall’albero rosso nero si basa sulla subroutine `transplant`, che deve essere opportunamente modificata in modo da adattarsi alla struttura degli alberi rosso nero. *In pseudocodifica*:
+- **RIMOZIONE**: la procedura di rimozione di un determinato nodo dall’albero rosso nero si basa sulla subroutine `transplant`, che deve essere opportunamente modificata in modo da adattarsi alla struttura degli alberi rosso nero. *In pseudocodifica*:
 
 `RBTransplant (T , u , v ) :`
 	`if u . parent = T . nil :`
