@@ -969,14 +969,14 @@ Una volta introdotti tutti questi concetti della logica monadica del primo ordin
 Dato un alfabeto $I$, una stringa $w∈I^+$ ed un simbolo $a∈I$, $a(x)$ è vero se e solo se l’$x$-esimo simbolo di $w$ è $a$, considerando un’indicizzazione che parte da $0$.
 
 
-**==Semantica==**: la semantica, nella logica monadica del primo ordine, assegna un valore di verità o falsità alle formule, tramite una funzione di assegnamento $v_1 : V_1 →[0,...,|w|−1]$, in cui $w∈I^+$ è una stringa composta a partire dall’alfabeto $I$, mentre $V_1$ è l’insieme delle variabili. Tale funzione si comporta nel seguente modo:
+**Semantica**: la semantica, nella logica monadica del primo ordine, assegna un valore di verità o falsità alle formule, tramite una funzione di assegnamento $v_1 : V_1 →[0,...,|w|−1]$, in cui $w∈I^+$ è una stringa composta a partire dall’alfabeto $I$, mentre $V_1$ è l’insieme delle variabili. Tale funzione si comporta nel seguente modo:
 - $w,v_1 ⊨ a(x)$ se e solo se $w= uav$ e $|u|= v1(x)$;
 - $w,v_1 ⊨ x<y$ se e solo se $v_1(x) <v_1(y)$;
 - $w,v_1 ⊨¬F$ se e solo se $w,v_1 ⊭ F$;
 - $w,v_1 ⊨ F_1 ∧F_2$ se e solo se $w,v_1 ⊨ F_1$ e $w,v_1 ⊨ F_2$;
 - $w,v_1 ⊨ ∀x(F)$ se e solo se $w,v_1' ⊨ F ∀v_1'$ con $v_1'(y) = v_1(y), y\ne x$.
 
-**Proprietà**: la logica monadica del primo ordine ha delle importanti proprietà che consentono di identificare quali linguaggi è possibile rappresentare con tale logica. Nello specifico, tutti i linguaggi esprimibili mediante questa logica sono chiusti rispetto all’unione, all’intersezione e al complemento, Inoltre, si può dimostrare che non è possibile esprimere il linguaggio $L_p$ composto da tutte e sole le stringhe di lunghezza pari con $I= \left\{a\right\}$: quindi, si può osservare come la logica monadica del primo ordine è strettamente meno espressiva rispetto agli automi a stati finiti, il che significa che data una formula di tale logica, si può sempre costruire un FSA equivalente, ma non il contrario. Infine, i linguaggi definiti da questa logica non sono chiusi rispetto alla stella di Kleene, ed è per questo motivo che tali linguaggi sono anche detti **star-free** definibili tramite l’unione, l’intersezione, il complemento e la concatenazione di linguaggi finiti.
+**Proprietà**: la logica monadica del primo ordine ha delle importanti proprietà che consentono di identificare quali linguaggi è possibile rappresentare con tale logica. Nello specifico, tutti i linguaggi esprimibili mediante questa logica sono chiusti rispetto all’unione, all’intersezione e al complemento, Inoltre, si può dimostrare che non è possibile esprimere il linguaggio $L_p$ composto da tutte e sole le stringhe di lunghezza pari con $I= \left\{a\right\}$: quindi, si può osservare come la logica monadica del primo ordine è strettamente meno espressiva rispetto agli automi a stati finiti, il che significa che data una formula di tale logica, si può sempre costruire un FSA equivalente, ma non il contrario. Infine, i linguaggi definiti da questa logica non sono chiusi rispetto alla stella di <mark class="hltr-yellow">Kleene</mark>, ed è per questo motivo che tali linguaggi sono anche detti **star-free** definibili tramite l’unione, l’intersezione, il complemento e la concatenazione di linguaggi finiti.
 
 
 ### **6.4 Logica Monadica del Secondo Ordine**
