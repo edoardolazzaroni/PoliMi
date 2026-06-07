@@ -2245,25 +2245,24 @@ La visita in profondità può essere utilizzata per eseguire l’ordinamento top
 		`u . color := WHITE`
 	`for each u in G . V :`
 		`if u . color = WHITE :`
-			`topologicalSortVisit` 
-			`(L , 8 return L`
-`u )`
+			`topologicalSortVisit (L , u )`
+	`return L`
 
-1 t o p o l o g i c a l S o r t V i s i t (L , u ) :
+`topologicalSortVisit (L , u ) :`
 
-2 u . color := GRAY
+`2 u . color := GRAY`
 
-3 f o r each v in G . Adj [ u ]
+`3 f o r each v in G . Adj [ u ]`
 
-4 i f v . color = WHITE :
+`4 i f v . color = WHITE :`
 
-5 t o p o l o g i c a l S o r t V i s i t (L , 6 x . key := u
+`5 t o p o l o g i c a l S o r t V i s i t (L , 6 x . key := u`
 
-7 li st In se rt (L , x )
+`7 li st In se rt (L , x )`
 
-8 u . color := BLACK
+`8 u . color := BLACK`
 
-v )
+`v )`
 
 L’idea di questo algoritmo `e quella di visitare il dag con l’algoritmo di vista DFS e, quando un vertice
 
