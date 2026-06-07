@@ -2229,25 +2229,12 @@ Le righe successive servono ad ispezionare in profondità tutti i vertici che ha
 	`time := time + 1`
 	`u . f := time`
 
-In ogni chiamata della procedura `DFSVisit`, il vertice $u$ passato come argomento è inizialmente bianco, quindi gli si assegna subito il colore grigio dopo aver assegnato al vertice il tempo di scoperta $(u.d)$ il
+In ogni chiamata della procedura `DFSVisit`, il vertice $u$ passato come argomento è inizialmente bianco, quindi gli si assegna subito il colore grigio dopo aver assegnato al vertice il tempo di scoperta $(u.d)$ il tempo incrementato di una unità (righe 2-4). Subito dopo, il ciclo `for` di righe 5-7 esplora tutti i vertici $v$ di colore bianco adiacenti ad $u$ e chiama ricorsivamente la procedura in modo da visitare il vertice $v$ e i vertici a lui adiacenti, sempre se di colore bianco. Dopo aver terminato la visita in profondità di tutti i vertici a partire dal vertice sorgente $u$, il colore di tale vertice viene cambiato in nero e si assegna al tempo di fine esplorazione `u.f` il valore temporale, dopo averlo nuovamente incrementato di una unità (righe 8-10).
 
-tempo incrementato di una unit`a (righe 2-4). Subito dopo, il ciclo for di righe 5-7 esplora tutti i vertici
+Anche in questo caso, come per il procedimento precedente, il tempo medio di esecuzione dell’algoritmo di ispezione in profondità è $Θ(|V|+ |E|)$.
 
-v di colore bianco adiacenti ad ue chiama ricorsivamente la procedura in modo da visitare il vertice v e
 
-i vertici a lui adiacenti, sempre se di colore bianco. Dopo aver terminato la visita in profondit`a di tutti
-
-i vertici a partire dal vertice sorgente u, il colore di tale vertice viene cambiato in nero e si assegna al
-
-tempo di fine esplorazione u.f il valore temporale, dopo averlo nuovamente incrementato di una unit`a
-
-(righe 8-10).
-
-Anche in questo caso, come per il procedimento precedente, il tempo medio di esecuzione dell’algo-
-
-ritmo di ispezione in profondit`a `e Θ(|V|+ |E|).
-
-9.7.4 Ordinamento Topologico
+#### 9.7.4 Ordinamento Topologico
 
 La visita in profondit`a pu`o essere utilizzata per eseguire l’ordinamento topologico di un determinato
 
