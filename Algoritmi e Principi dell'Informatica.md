@@ -2201,29 +2201,21 @@ La visita in profondità (o depth-first search) è un algoritmo che adotta una s
 Dunque, si può affermare che se l’algoritmo BFS si basa sulla strategia di visitare i vertici secondo una politica LIFO, l’algoritmo DFS si basa su una politica di tipo FIFO: una volta inserito un nodo in cima alla pila, si visitano tutti i vertici adiacenti relativi a quel nodo, prima di procedere alla visita dei vertici adiacenti del successivo.
 
 Come per il precedente algoritmo, anche in questo caso i vertici vengono colorati durante la loro
-visita, per indicarne lo stato. Inizialmente tutti i vertici sono colorati di bianco e nel momento in cui un determinato vertice viene visitato per la prima volta, questo viene colorato di grigio. Infine, un vertice è colorato di nero nel momento in cui sono ispezionati tutti i suoi vertici adiacenti. Oltre alla lista di adiacenza e al colore, i vertici all’interno di un grafo visitato in profondità, contengono anche due informazioni temporali: la prima, memorizzata in `v.d`, registra il momento in cui il vertice viene scoperto e colorato di grigio, mentre le seconda, memorizzata in `v.f`, registra il momento in cui la visita completa
+visita, per indicarne lo stato. Inizialmente tutti i vertici sono colorati di bianco e nel momento in cui un determinato vertice viene visitato per la prima volta, questo viene colorato di grigio. Infine, un vertice è colorato di nero nel momento in cui sono ispezionati tutti i suoi vertici adiacenti. Oltre alla lista di adiacenza e al colore, i vertici all’interno di un grafo visitato in profondità, contengono anche due informazioni temporali: la prima, memorizzata in `v.d`, registra il momento in cui il vertice viene scoperto e colorato di grigio, mentre le seconda, memorizzata in `v.f`, registra il momento in cui la visita completa l’ispezione della lista di adiacenza di $v$ e viene colorato di nero. Quindi, un vertice $v$ è bianco prima del tempo `v.d`, grigio fra il tempo `v.d` e `v.f`, nero successivamente. Queste informazioni aggiuntive servono per agevolare la scrittura di procedure e sono utilizzate anche da parte di algoritmi più avanzati.
 
-l’ispezione della lista di adiacenza di v e viene colorato di nero. Quindi, un vertice v `e bianco prima del
+Si introduce di seguito la procedura in *pseudocodifica* che realizza la strategia di visita in profondità:
 
-tempo v.d, grigio fra il tempo v.d e v.f, nero successivamente. Queste informazioni aggiuntive servono
+`depthFirstSearch ( G ) :`
+	`for each u in G . V :`
+		`u . color := WHITE`
 
-per agevolare la scrittura di procedure e sono utilizzate anche da parte di algoritmi pi`u avanzati.
+`4 time := 0`
 
-Si introduce di seguito la procedura in pseudocodifica che realizza la strategia di visita in profondit`a:
+`5 f o r each u in G . V :`
 
-1 d e p t h F i r s t S e a r c h ( G ) :
+`6 i f u . color = WHITE :`
 
-2 f o r each u in G . V :
-
-3 u . color := WHITE
-
-4 time := 0
-
-5 f o r each u in G . V :
-
-6 i f u . color = WHITE :
-
-7 DFSVisit (G , u )
+`7 DFSVisit (G , u )`
 
 La procedura imposta, in righe 2-3, il colore di tutti i vertici di bianco, per poi inizializzare una
 
