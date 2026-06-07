@@ -4,6 +4,7 @@ dati (osservazioni, fatti, entità fisiche o concettuali) che rappresentano una
 
 **CALCOLATORE** = strumento elettronico che elabora informazione, che esegue un algoritmo (o un insieme di algoritmi) ed utilizza elementi di memoria per immagazzinare le informazioni che sta elaborando. [[macchina di von neumann.png|]]
 ![[macchina di von neumann.png|514]]
+
 # Algoritmi
 
 - ALGORITMO = sequenza finita di passi non ambigui e comprensibili da un esecutore per permettere di risolvere un problema;
