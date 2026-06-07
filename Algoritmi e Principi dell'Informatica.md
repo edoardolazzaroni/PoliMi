@@ -564,7 +564,7 @@ Gli operatori $|,·,∗$ definiti per le espressioni regolari, hanno un implicit
 
 ### **4.5 Pattern**
 
-- Un sistema di ==pattern== è una tripla $<A,V,p>$, dove:
+- Un sistema di pattern è una tripla $<A,V,p>$, dove:
 	- $A$ è un alfabeto;
 	- $V$ è un insieme di variabili tale che $A∩V= ∅$;
 	- $p$ è una stringa su $A∪V$ detta pattern.
@@ -613,13 +613,13 @@ Le macchine di Turing, come visto in precedenza, sono il formalismo più potente
 
 Più formalmente, data una MT $M$, è possibile costruire un programma, scritto in un determinato linguaggio di programmazione (come C, Java ecc...), che simuli il comportamento di $M$, purchè il calcolatore disponga di una quantità di memoria sufficiente durante l’esecuzione. Inoltre, dato un programma scritto in un determinato linguaggio di programmazione, è possibile costruire una MT $M$ che calcoli la stessa funzione calcolata dal programma.
 
-- ==**Tesi di Church**== (**Prima Parte**): Non esiste alcun formalismo, per modellare una determinata computazione meccanica, che sia più potente delle MT e dei formalismi ad essi equivalenti.
+- **Tesi di Church** (**Prima Parte**): Non esiste alcun formalismo, per modellare una determinata computazione meccanica, che sia più potente delle MT e dei formalismi ad essi equivalenti.
 
 La tesi di Church non è un teorema perchè per sua natura non è dimostrabile, in quanto andrebbe verificato ogni qual volta si introducesse un nuovo formalismo computazionale.
 
 In base a questo risultato si può affermare che, se si riesce a dimostrare che un determinato problema è risolvibile da una MT, allora è sicuramente possibile risolverlo mediante un modello matematico di calcolo, che abbia la stessa potenza delle macchine di Turing. Viceversa, se si dimostra che un problema non può essere risolto da una MT, allora è verificato che tale problema è irrisolvibile da qualunque modello matematico.
 
-Si introduce ora il concetto di **==algoritmo==**, centrale nell’informatica. Per algoritmo si intende la procedura di risoluzione di un problema mediante un dispositivo automatico di calcolo. Gli algoritmi si possono anche intendere come un metodo astratto di descrizione dei programmi eseguibili, ovvero una sequenza di comandi che, una volta eseguiti, portano alla risoluzione del problema.
+Si introduce ora il concetto di **algoritmo**, centrale nell’informatica. Per algoritmo si intende la procedura di risoluzione di un problema mediante un dispositivo automatico di calcolo. Gli algoritmi si possono anche intendere come un metodo astratto di descrizione dei programmi eseguibili, ovvero una sequenza di comandi che, una volta eseguiti, portano alla risoluzione del problema.
 
 Ogni algoritmo ha le seguenti proprietà:
 
@@ -634,7 +634,7 @@ Ogni algoritmo ha le seguenti proprietà:
 
 La tesi di Church non si ferma solo nell’affermazione che nessun formalismo sia più espressivo delle MT, ma afferma anche che nessun algoritmo è in grado di risolvere un problema che non è risolvibile da una MT. Formalmente:
 
-- **==Tesi di Church==** (**Seconda Parte**): Ogni algoritmo per la soluzione automatica di un problema può essere codificato in termini di una MT (o di un formalismo a potenza equivalente).
+- **Tesi di Church** (**Seconda Parte**): Ogni algoritmo per la soluzione automatica di un problema può essere codificato in termini di una MT (o di un formalismo a potenza equivalente).
 
 - **Teorema**: Ogni funzione (o problema), per cui esiste una MT che la calcoli (o risolva), si dice computabile o calcolabile (o risolvibile). Un problema risolvibile la cui risposta sia booleana ed esistente per ogni valore del dominio di definizione (ossia è formalizzato da una funzione calcolabile e totale) si dice decidibile.
 
@@ -652,7 +652,7 @@ Inoltre, è noto che una MT $M$ può risolvere una funzione $f_M : D→R$, con $
 
 ### **5.4 Macchine di Turing Universali**
 
-Le ==UTM== (Universal Turing Machines) sono MT in grado di modellare dispositivi generali di risoluzione dei problemi, in cui il problema da risolvere non viene codificato nella struttura del dispositivo (come avviene per le MT), ma gli viene fornito come input, assieme ai dati con cui operare (esattamente come gli oderni calcolatori). Le UTM sono quindi MT che calcolano la funzione $g(y,x) = f_y(x)$, in cui $y$ rappresenta la funzione $f_y$, calcolata dalla MT $M_y$, ed $x$ rappresenta l’ingresso su cui $M_y$ opera; calcolano, dunque, il valore della funzione $f_y$ applicata ad $x$.
+Le <mark class="hltr-yellow">UTM</mark> (Universal Turing Machines) sono MT in grado di modellare dispositivi generali di risoluzione dei problemi, in cui il problema da risolvere non viene codificato nella struttura del dispositivo (come avviene per le MT), ma gli viene fornito come input, assieme ai dati con cui operare (esattamente come gli oderni calcolatori). Le UTM sono quindi MT che calcolano la funzione $g(y,x) = f_y(x)$, in cui $y$ rappresenta la funzione $f_y$, calcolata dalla MT $M_y$, ed $x$ rappresenta l’ingresso su cui $M_y$ opera; calcolano, dunque, il valore della funzione $f_y$ applicata ad $x$.
 
 Come si può osservare, la UTM così definita non sembra appartenere all’insieme delle macchine di Turing, in quanto la funzione $g(y,x)$ è opera da $\mathbb{N} ×\mathbb{N}$ ad $\mathbb{N}$, anzichè da $\mathbb{N}$ ad $\mathbb{N}$ come tutte le altre MT.
 È però possibile, come già dimostrato in precedenza, definire una biiezione calcolabile algoritmicamente, tramite la funzione:
@@ -694,7 +694,7 @@ Quando si scrive un programma, ci sono diverse proprietà che si vorebbero garan
 ![[Algoritmi e Principi dell'Informatica-1779647450525.webp|396]]
 
 
-- **Teorema** dell'Halting Problem: nessuna MT può calcolare la funzione $g : \mathbb{N} ×\mathbb{N} →\left\{0,1\right\}$ definita nel seguente modo: $g(x,y) =$ `if` $f_y(x) = ⊥$ `then` $1$ `else` $0$
+- **Teorema dell'Halting Problem**: nessuna MT può calcolare la funzione $g : \mathbb{N} ×\mathbb{N} →\left\{0,1\right\}$ definita nel seguente modo: $g(x,y) =$ `if` $f_y(x) = ⊥$ `then` $1$ `else` $0$
 
 La dimostrazione di tale teorema si ottiene tramite la tecnica della diagonale, detta anche metodo di Cantor: l’obiettivo è quello di mostrare che un’enumerazione di oggetti di cardinalità almeno 2, non è completa, ossia che un oggetto che si vorrebbe trovare all’interno di tale enumerazione in realtà non è presente. L’enumerazione di una successione può essere rappresentata come una tabella con un numero infinito di righe. L’elemento che non compare in tale tabella viene individuato per assurdo considerando inizialmente la diagonale $d$ (dunque $d_i$ è l’elemento che si trova all’$i$-esima riga e all’$i$-esima colonna) e poi componendo una diagonale d′tale che, per ogni $i$, $d_i'$ sia diverso da $d_i$.
 
