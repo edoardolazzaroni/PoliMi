@@ -306,7 +306,7 @@ I PDA non sono aperti rispetto ad alcun’altra operazione, quindi un automa a p
 
 Le MT (Turing Machine) sono automi che presentano un numero finito di stati e che operano su un insieme di nastri infiniti a destra: un nastro di ingresso, un nastro di uscita e uno o più nastri di memoria. Ogni nastro è composto da celle inizializzate dal simbolo di blank (tramite cui si indica che la cella è vuota) che può essere sovrascritto con un qualsiasi simbolo dell’alfabeto in ingresso. Il dispositivo di controllo può muovere le testine di lettura dei nastri in maniera indipendente l’una dall’altra, spostandole a destra (R) o a sinistra (L) di una cella, oppure lasciandole ferme (S) nella posizione in cui si trovano. L’unica eccezione è costituita dal nastro di uscita che può essere spostato solamente a destra. In alternativa, l’automa può anche non effettuare alcuna operazione, fermandosi definitivamente. Formalmente:
 
-- Una ==MT== a $k$ nastri è una tupla di 9 elementi $<Q,I,Γ,O,δ,η,q_0,Z_0,F >$, dove:
+- Una <mark class="hltr-orange">MT</mark> a $k$ nastri è una tupla di 9 elementi $<Q,I,Γ,O,δ,η,q_0,Z_0,F >$, dove:
 	- $Q$ è un insieme finito di stati;
 	- $I$ è l’alfabeto di ingresso;
 	- $Γ$ è l’alfabeto di memoria;
@@ -353,7 +353,7 @@ Si introduce di seguito il teorema tramite cui si afferma la supremazia delle ma
 
 - La classe di linguaggi riconosciuti dalle Macchine di turing include strettamente la classe dei linguaggi riconosciuti dagli Automi a Pila. Inoltre, le macchine di Turing sono trasduttori più **potenti** rispetto ai trasduttori a pila, per cui tutte le traduzioni effettuate da un PDT possono essere effettuate anche da una MT trasduttrice, ma non viceversa.
 
-==Le macchine di Turing sono il formalismo più potente di cui siamo a disposizione==.
+<mark class="hltr-red">Le macchine di Turing sono il formalismo più potente di cui siamo a disposizione</mark>.
 
 
 #### **2.3.1 Macchine di Turing come Accettatori**
@@ -383,7 +383,7 @@ In altre parole, una stringa $x$ viene tradotta in una stringa $y$ da una MT $M$
 
 Il modello originario di automa, pensato da Alan Turing (padre fondatore dell’odierna informatica), era una macchina, simile a quelle analizzate nelle sezioni precedenti, con l’unica differenza che presentava un solo nastro infinito (sia a destra che a sinistra), utilizzato come ingresso, uscita e memoria. Formalmente:
 
-- Una ==MT a nastro singolo== è una tupla di 5 elementi $<Q,A,δ,q_0,F >$, dove:
+- Una <mark class="hltr-yellow">MT a nastro singolo</mark> è una tupla di 5 elementi $<Q,A,δ,q_0,F >$, dove:
 	- $Q$ è un insieme finito di stati;
 	- $A$ è un alfabeto finito caratteristico del nastro;
 	- $q_0 ∈Q$ è lo stato iniziale;
@@ -412,7 +412,7 @@ Ci sono però casi in cui questo non è possibile, in quanto non si ha una conos
 
 ### **3.1 Automi a Stati Finiti non deterministici**
 
-Gli ==NFSA== (Nondeterministic Finite State Automaton) sono automi a stati finiti che presentano un numero finito di stati. Tali automi sono definiti come i corrispettivi automi deterministici, con l’unica differenza che presentano una funzione di transizione definita nel seguente modo:
+Gli <mark class="hltr-yellow">NFSA</mark> (Nondeterministic Finite State Automaton) sono automi a stati finiti che presentano un numero finito di stati. Tali automi sono definiti come i corrispettivi automi deterministici, con l’unica differenza che presentano una funzione di transizione definita nel seguente modo:
 
 								$δ: Q×I →℘(Q)$
 	(in cui $℘(Q)$ rappresenta l'insieme delle parti di $Q$, i cui elementi sono insiemi di stati)
@@ -434,7 +434,7 @@ Infatti, dato un NFSA, si può costruire un FSA equivalente che ha come stati gl
 
 ### **3.2 Automi a Pila non deterministici**
 
-Un NPDA (Nondeterministic Push Down Automaton) è un automa che presenta un numero finito di stati e una memoria organizzata su una struttura a pila. Tali automi sono definiti come i corrispettivi automi deterministici, con l’unica differenza che presentano una funzione di transizione definita nel seguente modo:
+Un <mark class="hltr-yellow">NPDA</mark> (Nondeterministic Push Down Automaton) è un automa che presenta un numero finito di stati e una memoria organizzata su una struttura a pila. Tali automi sono definiti come i corrispettivi automi deterministici, con l’unica differenza che presentano una funzione di transizione definita nel seguente modo:
 
 						$δ: Q×(I∪\left\{ε\right\}) ×Γ →℘_F(Q×Γ^∗)$
 
