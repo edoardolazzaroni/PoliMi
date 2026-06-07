@@ -2252,15 +2252,11 @@ La visita in profondità può essere utilizzata per eseguire l’ordinamento top
 	`u . color := GRAY`
 	`for each v in G . Adj [ u ]`
 		`if v . color = WHITE :`
-			`topologicalSortVisit (L , v )x . key := u`
+			`topologicalSortVisit (L , v )`
+	`x . key := u`
 	`listInsert (L , x )`
+	`u . color := BLACK`
 
-`8 u . color := BLACK`
+L’idea di questo algoritmo è quella di visitare il dag con l’algoritmo di vista DFS e, quando un vertice viene colorato di nero, lo si inserisce in testa alla lista $L$ che rappresenta tutti i nodi ordinati. Una volta completata la visita di ogni vertice, la lista ottenuta rappresenta l’ordinamento topologico del grafo.
 
-L’idea di questo algoritmo `e quella di visitare il dag con l’algoritmo di vista DFS e, quando un vertice
-
-viene colorato di nero, lo si inserisce in testa alla lista Lche rappresenta tutti i nodi ordinati. Una volta
-
-completata la visita di ogni vertice, la lista ottenuta rappresenta l’ordinamento topologico del grafo.
-
-Anche in questo caso, l’algoritmo impiega un tempo di esecuzione medio Θ(|V|+ |E|).
+Anche in questo caso, l’algoritmo impiega un tempo di esecuzione medio $Θ(|V|+ |E|)$.
