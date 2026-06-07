@@ -2188,23 +2188,8 @@ Per tenere traccia del lavoro, la visita colora i vertici di bianco, grigio oppu
 				`enqueue (q , v )`
 		`u . color := BLACK`
 
-Informalmente, le righe 2-4 inizializzano ogni vertice, colorandolo di bianco, eccetto il vertice s che
-
-in riga 5 viene colorato di grigio, in quanto `e il vertice sorgente gi`a visitato ad inizio ricerca, e a cui
-
-viene assegnata la distanza 0. Le righe 7 e 8 inizializzano la coda Q inserendo il solo vertice s. Il ciclo
-
-while di riga 10-16 viene reiterato fin tanto che ci sono ancora vertici grigi, la cui frontiera protrebbe
-
-ancora presentare vertici di colore bianco. La riga 10 determina il vertice grigio u che si trova in testa
-
-alla coda, rimuovendolo dalla coda stessa (dequeue), in modo da poter accedere ai suoi vertici adiacenti.
-
-Il ciclo for, di righe 11-15, esamina ciascun vertice v della lista di adiacenza di u: se questo vertice `e
-
-bianco, allora non `e ancora stato scoperto e, quindi, l’algoritmo lo colora di grigio e lo inserisce nella
-
-coda dopo avergli assegnato il valore di distanza u.dist+ 1. Dopo aver esaminato ogni vertice nella lista
+Informalmente, le righe 2-4 inizializzano ogni vertice, colorandolo di bianco, eccetto il vertice $s$ che in riga 5 viene colorato di grigio, in quanto è il vertice sorgente già visitato ad inizio ricerca, e a cui viene assegnata la distanza $0$. Le righe 7 e 8 inizializzano la coda $Q$ inserendo il solo vertice $s$. Il ciclo `while` di riga 10-16 viene reiterato fin tanto che ci sono ancora vertici grigi, la cui frontiera protrebbe ancora presentare vertici di colore bianco. La riga 10 determina il vertice grigio $u$ che si trova in testa alla coda, rimuovendolo dalla coda stessa (`dequeue`), in modo da poter accedere ai suoi vertici adiacenti.
+Il ciclo for, di righe 11-15, esamina ciascun vertice $v$ della lista di adiacenza di $u$: se questo vertice è bianco, allora non è ancora stato scoperto e, quindi, l’algoritmo lo colora di grigio e lo inserisce nella coda dopo avergli assegnato il valore di distanza u.dist+ 1. Dopo aver esaminato ogni vertice nella lista
 
 di adiacenza di u, tale vertice viene colorato di nero in riga 16.
 
