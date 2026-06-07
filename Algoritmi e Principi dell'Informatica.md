@@ -2161,19 +2161,12 @@ Esistono due metodi principali per la rappresentazione dei grafi: la prima consi
 
 	Per poter procedere con tale rappresentazione, è prima necessario che i vertici siano numerati in maniera arbitraria da $1$ a $|V|$. Si noti che, la matrice di adiacenza $A$ per un grafo non orientato è uguale alla sua trasposta $A^T$, per la proprietà principale dei grafi non orientati, per cui $(u,v) = (v,u)$.
 	Lo svantaggio maggiore nell’impiego di una matrice di adiacenza è l’utilizzo intensivo di memoria, nell’ordine di $Θ(|V|^2)$. Nonostante questo, per grafi di dimensione relativamente piccole, si preferisce utilizzare questo metodo a quello precedente, per la sua semplicità di utilizzo.
-	In generale conviene utilizzare il metodo delle liste di adiacenza quando $|E| \ne Θ(|V|2), cio`e quando il grafo `e sparso (ovvero
+	In generale conviene utilizzare il metodo delle liste di adiacenza quando $|E| \ne Θ(|V|^2)$, cioè quando il grafo è sparso (ovvero quando il numero di nodi connessi non è molto grande), mentre se il grafo è completo (ovvero quando ogni nodo è connesso con i restanti), conviene utilizzare una matrice di adiacenza.
 
-quando il numero di nodi connessi non `e molto grande), mentre se il grafo `e completo (ovvero quando
 
-ogni nodo `e connesso con i restanti), conviene utilizzare una matrice di adiacenza.
+#### **9.7.2 Visita in Ampiezza**
 
-9.7.2 Visita in Ampiezza
-
-La visita in ampiezza (o breadth-first search) `e l’algoritmo pi`u semplice di ricerca nei grafi. Dato un
-
-grafo G`e un vertice distinto s, detto sorgente, la visita in ampiezza ispeziona sistematicamente gli archi
-
-di G per scoprire tutti i vertici che sono raggiungibili da s, calcolando la distanza da s a ciascun vertice
+La visita in ampiezza (o breadth-first search) è l’algoritmo più semplice di ricerca nei grafi. Dato un grafo $G$ e un vertice distinto $s$, detto sorgente, la visita in ampiezza ispeziona sistematicamente gli archi di G per scoprire tutti i vertici che sono raggiungibili da s, calcolando la distanza da s a ciascun vertice
 
 raggiungibile. L’algoritmo `e cos`ı chiamato perch`e espande la frontiera fra i vertici scoperti e quelli ancora
 
