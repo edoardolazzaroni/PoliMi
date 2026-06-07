@@ -2239,21 +2239,15 @@ Anche in questo caso, come per il procedimento precedente, il tempo medio di ese
 La visita in profondità può essere utilizzata per eseguire l’ordinamento topologico di un determinato grafo orientato aciclico (detto anche DAG - Directed Acyclic Graph). Un ordinamento topologico di un dag $G = (V,E)$ è un ordinamento lineare di tutti i suoi vertici, tale che se $G$ contiene un arco $(u,v)$, allora $u$ appare prima di $v$ nell’ordinamento. Un ordinamento topologico di un grafo può essere visto come un ordinamento dei suoi vertici lungo una linea orizzontale in modo che tutti gli archi orientati siano diretti da sinistra verso destra: intuitivamente, questo tipo di ordinamento, serve a rappresentare la precedenza di determinati eventi.
 *In pseudocodifica*:
 
-1 t o p o l o g i c a l S o r t ( G ) :
-
-2 L := ∅
-
-3 f o r each u in G . V :
-
-4 u . color := WHITE
-
-5 f o r each u in G . V :
-
-6 i f u . color = WHITE :
-
-7 t o p o l o g i c a l S o r t V i s i t (L , 8 return L
-
-u )
+`topologicalSort ( G ) :`
+	`L := ∅`
+	`for each u in G . V :`
+		`u . color := WHITE`
+	`for each u in G . V :`
+		`if u . color = WHITE :`
+			`topologicalSortVisit` 
+			`(L , 8 return L`
+`u )`
 
 1 t o p o l o g i c a l S o r t V i s i t (L , u ) :
 
