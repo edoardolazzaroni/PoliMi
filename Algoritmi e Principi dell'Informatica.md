@@ -1992,7 +1992,7 @@ Si definisce a questo proposito, altezza nera di un nodo $x$, indicato con $bh(x
 
 La conseguenza immediata di questo teorema è che le operazioni sugli insiemi dinamici possono tutte essere implementate in un tempo $O(log_2 \ n)$ negli alberi rosso neri, perchè possono essere eseguite nel tempo $O(h)$ in un albero binario di ricerca di altezza $h$ e qualsiasi albero rosso nero di $n$ nodi è un albero binario di ricerca di altezza $O(log_2 \ n)$.
 
-- **ROTAZIONE**: le operazioni di `treeInsert` e `treeDelete` sugli alberi rosso nero potrebbero violare le proprietà della struttura, proprio perchè modificano l’albero. Si rende quindi necessario ricalcolare i colori di qualche nodo dell’albero e anche la struttura dei puntatori, dopo la chiamata a una delle due procedure. La struttura dei puntatori viene modificata tramite una rotazione, ovvero un’operazione locale che preserva le proprietà degli alberi binari di ricerca. Quando si esegue una rotazione sinistra in un nodo $x$, supponendo che il nodo $y= x.right$ sia diverso da `NIL`, si fa ”perno” sul collegamento tra $x$ e $y$: il nodo $y$ diventa la nuova radice del sottoalbero, con $x$ come figlio sinistro di $y$ e il figlio sinistro di $y$ come figlio destro di $x$. *In pseudocodifica*:
+- **<mark class="hltr-orange">ROTAZIONE</mark>**: le operazioni di `treeInsert` e `treeDelete` sugli alberi rosso nero potrebbero violare le proprietà della struttura, proprio perchè modificano l’albero. Si rende quindi necessario ricalcolare i colori di qualche nodo dell’albero e anche la struttura dei puntatori, dopo la chiamata a una delle due procedure. La struttura dei puntatori viene modificata tramite una rotazione, ovvero un’operazione locale che preserva le proprietà degli alberi binari di ricerca. Quando si esegue una rotazione sinistra in un nodo $x$, supponendo che il nodo $y= x.right$ sia diverso da `NIL`, si fa ”perno” sul collegamento tra $x$ e $y$: il nodo $y$ diventa la nuova radice del sottoalbero, con $x$ come figlio sinistro di $y$ e il figlio sinistro di $y$ come figlio destro di $x$. *In pseudocodifica*:
 
 `leftRotate (T , x ) :`
 	`y := x . right`
@@ -2012,7 +2012,7 @@ La conseguenza immediata di questo teorema è che le operazioni sugli insiemi di
 Il codice per la procedura `rightRotate` è simmetrico a quello appena analizzato. Entrambe le procedure vengono eseguite nel tempo $O(1)$.
 
 
-- **==INSERIMENTO==**: l’inserimento di un nodo in un albero rosso nero viene eseguito tramite una versione leggermente modificata della procedura di inserimento analizzata per gli alberi binari di ricerca. Inoltre, per poter preservare le condizioni degli alberi rosso neri, è necessario utilizzare una seconda procedura che ricolora i nodi dell’albero in seguito alla chiamata della procedura di inserimento. *In pseudocodifica*:
+- **<mark class="hltr-orange">INSERIMENTO</mark>**: l’inserimento di un nodo in un albero rosso nero viene eseguito tramite una versione leggermente modificata della procedura di inserimento analizzata per gli alberi binari di ricerca. Inoltre, per poter preservare le condizioni degli alberi rosso neri, è necessario utilizzare una seconda procedura che ricolora i nodi dell’albero in seguito alla chiamata della procedura di inserimento. *In pseudocodifica*:
 
 `RBInsert (T , z ) :`
 	`y := T . nil`
