@@ -985,7 +985,7 @@ Per riuscire ad ottenere lo stesso potere espressivo degli FSA è necessario per
 Si ammettono quindi formule del tipo $∃X(F)$ oppure $∃X(x)4, in cui $X$ è detta essere una variabile del secondo ordine, il cui dominio non è più l’insieme dei numeri naturali $\mathbb{N}$, ma l’insieme dei predicati monadici. Per convenzione si utilizzano le lettere maiuscole per indicare le variabili del secondo ordine e lettere minuscole per le variabili del primo ordine.
 
 
-**==Semantica==**: l’assegnamento delle variabili del secondo ordine, che fanno parte dell’insieme $V_2$, avviene attraverso la funzione $v_2 : V_2 →℘([0,...,|w|−1])$ tale che:
+**Semantica**: l’assegnamento delle variabili del secondo ordine, che fanno parte dell’insieme $V_2$, avviene attraverso la funzione $v_2 : V_2 →℘([0,...,|w|−1])$ tale che:
 - $w,v_1,v_2 ⊨ X(x)$ se e solo se $v_1(x) ∈v_2(X)$;
 - $w,v_1,v_2 ⊨ ∃X(F)$ se e solo se $w,v_1,v_2' ⊨ F$ per qualche $v_2'(Y) = v_2(Y), Y \ne X$.
 
@@ -1034,14 +1034,14 @@ Inoltre, a differenza di quanto analizzato per la risolvibilità dei problemi, l
 
 Nel capitolo sugli automi, è stato più volte affermato che le Macchine di Turing sono il formalismo più potente che si ha a disposizione per la risoluzione di prblemi, dunque, risulta ragionevole definire la complessità temporale e spaziale impiegando un tale modello.
 
-- Sia $M$ una MT deterministica a $k$ nastri e sia $x ∈I^∗$. Sia $c_0 ⊢c_1 ⊢.... ⊢c_r$ una **computazione**, ovvero una sequenza di transizioni di $M$ tale che $c_0 =<q_0,↑x,↑Z_0, ...,↑Z_0 >$ e $c_i =<q_i, x_i↑y_i, α_{i1} ↑β_{i1}, ..., α_{ik}↑β_{ik}>$, in cui $c_r$ è una configurazione di arresto, se esiste. Allora, la funzione che rappresenta la **==complessità temporale==**  $T_M$ di $M$ è definita nel seguente modo:
+- Sia $M$ una MT deterministica a $k$ nastri e sia $x ∈I^∗$. Sia $c_0 ⊢c_1 ⊢.... ⊢c_r$ una **computazione**, ovvero una sequenza di transizioni di $M$ tale che $c_0 =<q_0,↑x,↑Z_0, ...,↑Z_0 >$ e $c_i =<q_i, x_i↑y_i, α_{i1} ↑β_{i1}, ..., α_{ik}↑β_{ik}>$, in cui $c_r$ è una configurazione di arresto, se esiste. Allora, la funzione che rappresenta la **complessità temporale**  $T_M$ di $M$ è definita nel seguente modo:
 					$T_M =$ `if la computazione termina then` $r$ `else` $∞$.
 
 Informalmente, quindi, la complessità temporale viene definita come una funzione che fornisce il numero esatto di passi richiesti da una MT per raggiungere la propria configurazione di arresto, se esiste, a partire dalla configurazione iniziale, per una qualsiasi stringa in ingresso. 
 
 Analogamente, si può definire la complessità spaziale come una funzione che fornisce il numero massimo di celle del nastro utilizzate.
 
-- Siano $M, x, c_0,...,c_r$ definiti come nella definizione precedente. La funzione che rappresenta la **==complessità spaziale==**  $S_M$ di $M$ è definita nel seguente modo:
+- Siano $M, x, c_0,...,c_r$ definiti come nella definizione precedente. La funzione che rappresenta la **complessità spaziale**  $S_M$ di $M$ è definita nel seguente modo:
 
 							$S_M =\sum_{j=1}^k max_{i∈\left\{0,1,...,r\right\}}(|α_{ij}|)$
 
