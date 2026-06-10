@@ -1224,7 +1224,7 @@ All’inizio di ogni iterazione del ciclo `for`, il cui indice è $j$, la sottos
 
 Si analizza ora il tempo di esecuzione della procedura insertion sort: per ogni $j = 2,3,...,n$ in cui $n$ = `A.length`, si indica con $t_j$ il numero di volte che il test del ciclo `while` nella riga 5 viene eseguito per quel determinato valore di $j$.
 
-![[tabella insertion sort.webp|511]]
+![[tabella insertion sort.webp|506]]
 
 Ad ogni riga di codice viene associato un costo $c_i$ che va moltiplicato per il numero di volte che tale riga viene eseguita. Il tempo totale di esecuzione si calcola, dunque, sommando i vari contributi di tempo di ogni riga, ottenendo così l’espressione di $T(n)$:
 
@@ -1248,9 +1248,9 @@ che è funzione quadratica di $n$. Dunque, $T(n) = Θ(n^2)$.
 
 L’algoritmo appena analizzato utilizza un approccio di tipo incrementale: dopo aver ordinato il sottoarray $A[1..j-1]$ inserisce l’elemento $A[j]$ nella posizione corretta, ottenendo il sottoarray ordinato $A[1..j]$.
 
-Nel seguito, invece, si analizza un secondo approccio, più efficiente del primo, soprattutto per array di molti elementi: Divide et Impera. Questo criterio si basa sulla suddivisione ricorsiva del problema in sottoproblemi più piccoli, simili a quello originario, ma di dimensione ridotta, per poi risolvere i sottoproblemi di dimensione minima e fondere i risultati ottenuti, per costruire una soluzione generale del problema originario.
+Nel seguito, invece, si analizza un secondo approccio, più efficiente del primo, soprattutto per array di molti elementi: *Divide* *et* *Impera*. Questo criterio si basa sulla suddivisione ricorsiva del problema in sottoproblemi più piccoli, simili a quello originario, ma di dimensione ridotta, per poi risolvere i sottoproblemi di dimensione minima e fondere i risultati ottenuti, per costruire una soluzione generale del problema originario.
 
-Il paradigma Divide et Impera, si basa in realtà su tre passaggi:
+Il paradigma *Divide* *et* *Impera*, si basa in realtà su tre passaggi:
 
 1. Divide: il problema viene suddiviso in un certo numero di sottoproblemi, che sono istanze più piccole del problema originario, fino ad ottenere sottoproblemi minimi, non più divisibili;
 2. Impera: i sottoproblemi di dimensione minima vengono risolti in maniera ricorsiva; se i problemi hanno dimensione sufficientemente piccola vengono risolti direttamente;
