@@ -798,7 +798,7 @@ Il calcolo proposizionale, detto anche logica proposizionale, è un modello dich
 
 **Sintassi**: In modo formale, la logica proposizionale è composta da un linguaggio $L$, il cui alfabeto è costituito dai seguenti elementi:
 	1. Un insieme numerabile (finito o non) di proposizioni (simboli di relazione nullaria), che possono essere simboli, stringhe o frasi;
-	2. Un insieme di connettivi logici: $¬$(NOT), $∧$(AND), $∨$(OR), $⇒$(implicazione) e $⇔$(coimplicazione);
+	2. Un insieme di connettivi logici: $¬$ (NOT), $∧$ (AND), $∨$ (OR), $⇒$ (implicazione) e $⇔$ (coimplicazione);
 	3. Un insieme di simboli di punteggiatura: $( e )$
 
 I simboli che compongono l’alfabeto sono privi di significato: assegnarne il significato è compito della semantica.
