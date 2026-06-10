@@ -1131,7 +1131,7 @@ I teoremi qui introdotti valgono anche per le moderne macchine di Von Neumann, i
 
 La macchina RAM (o Random Access Memory) è un modello classico ispirata all'architettura di Von Neumann. Tale macchina è costituita da un nastro in ingresso, un nastro in uscita, un programma rappresentato da un numero finito di istruzioni, un contatore che indica l’istruzione corrente da eseguire e una memoria ad accesso diretto.
 
-![[macchina RAM.webp|484]]
+![[macchina RAM.webp|596]]
 
 Sia i nastri che la memoria sono composti da un numero illimitato di celle, ma al contrario dei nastri di ingresso e uscita che si possono accedere in maniera sequenziale, la memoria è indirizzata e si può accedere a una sua cella attraverso un numero intero $i>0$ che indica l’indirizzo di tale cella di memoria.
 
@@ -1139,7 +1139,7 @@ La cella $0$ della memoria è un registro speciale, detto accumulatore, che si u
 
 *Tabella: istruzioni macchina RAM*
 
-![[istruzioni macchina RAM.webp|260]]
+![[istruzioni macchina RAM.webp|326]]
 
 
 Una volta introdotte tutte le istruzioni eseguibili dalla macchina RAM, è possibile ora studiarne la complessità temporale, come fatto per le MT a $k$-nastri. A differenza delle MT, nelle macchine RAM l’esecuzione delle diverse operazioni dipende dagli operandi necessari per eseguire tale operazione. Diventa quindi necessario analizzare tutte le istruzioni e definire il tempo richiesto per ciascuna di esse e la quantità di memoria allocata. Queste quantità possono essere calcolate secondo due criteri, ovvero tramite il criterio del costo costante e tramite il criterio del costo logaritmico. Il primo si basa sull’assunzione che l’esecuzione di ciascuna istruzione richieda un’unità di tempo e che ciascuna allocazione in memoria richieda un’unità di spazio (stessa assunzione fatta per le MT).
@@ -1154,11 +1154,9 @@ La complessità spaziale logaritmica si definisce quindi con la seguente formula
 								$\sum_{i=0}^m l(M_i)$
 
 
-Di seguito sono riportati i costi logaritmici delle istruzioni RAM:`
-
 *Tabella: costi logaritmici delle istruzioni macchina RAM*
 
-![[costi logaritmici delle istruzioni macchina RAM.webp|332]]
+![[costi logaritmici delle istruzioni macchina RAM.webp|391]]
 
 Dunque, il criterio del costo costante si può applicare solo in situazioni in cui si prevede che ogni valore che comparirà durante l’esecuzione del programma occupi esattamente una cella di memoria, altrimenti si deve necessariamente applicare il criterio del costo logaritmico, che porta ad un calcolo più preciso della complessità.
 
