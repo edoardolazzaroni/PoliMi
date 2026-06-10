@@ -353,7 +353,7 @@ Si introduce di seguito il teorema tramite cui si afferma la supremazia delle ma
 
 - La classe di linguaggi riconosciuti dalle Macchine di turing include strettamente la classe dei linguaggi riconosciuti dagli Automi a Pila. Inoltre, le macchine di Turing sono trasduttori più **potenti** rispetto ai trasduttori a pila, per cui tutte le traduzioni effettuate da un PDT possono essere effettuate anche da una MT trasduttrice, ma non viceversa.
 
-Le macchine di Turing sono il formalismo più potente di cui siamo a disposizione.
+<mark class="hltr-blue">Le macchine di Turing sono il formalismo più potente di cui siamo a disposizione.</mark>
 
 
 #### **2.3.1 Macchine di Turing come Accettatori**
