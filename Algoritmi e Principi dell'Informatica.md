@@ -304,7 +304,7 @@ I PDA non sono aperti rispetto ad alcun’altra operazione, quindi un automa a p
 
 ### **2.3 Macchine di Turing**
 
-Le MT (Macchi) sono automi che presentano un numero finito di stati e che operano su un insieme di nastri infiniti a destra: un nastro di ingresso, un nastro di uscita e uno o più nastri di memoria. Ogni nastro è composto da celle inizializzate dal simbolo di blank (tramite cui si indica che la cella è vuota) che può essere sovrascritto con un qualsiasi simbolo dell’alfabeto in ingresso. Il dispositivo di controllo può muovere le testine di lettura dei nastri in maniera indipendente l’una dall’altra, spostandole a destra ($R$) o a sinistra ($L$) di una cella, oppure lasciandole ferme ($S$) nella posizione in cui si trovano. L’unica eccezione è costituita dal nastro di uscita che può essere spostato solamente a destra. In alternativa, l’automa può anche non effettuare alcuna operazione, fermandosi definitivamente. Formalmente:
+Le MT (Macchina di Turing) sono automi che presentano un numero finito di stati e che operano su un insieme di nastri infiniti a destra: un nastro di ingresso, un nastro di uscita e uno o più nastri di memoria. Ogni nastro è composto da celle inizializzate dal simbolo di $blank$ (tramite cui si indica che la cella è vuota) che può essere sovrascritto con un qualsiasi simbolo dell’alfabeto in ingresso. Il dispositivo di controllo può muovere le testine di lettura dei nastri in maniera indipendente l’una dall’altra, spostandole a destra ($R$) o a sinistra ($L$) di una cella, oppure lasciandole ferme ($S$) nella posizione in cui si trovano. L’unica eccezione è costituita dal nastro di uscita che può essere spostato solamente a destra. In alternativa, l’automa può anche non effettuare alcuna operazione, fermandosi definitivamente. Formalmente:
 
 - Una <mark class="hltr-orange">MT</mark> a $k$ nastri è una tupla di 9 elementi $<Q,I,Γ,O,δ,η,q_0,Z_0,F >$, dove:
 	- $Q$ è un insieme finito di stati;
@@ -353,7 +353,7 @@ Si introduce di seguito il teorema tramite cui si afferma la supremazia delle ma
 
 - La classe di linguaggi riconosciuti dalle Macchine di turing include strettamente la classe dei linguaggi riconosciuti dagli Automi a Pila. Inoltre, le macchine di Turing sono trasduttori più **potenti** rispetto ai trasduttori a pila, per cui tutte le traduzioni effettuate da un PDT possono essere effettuate anche da una MT trasduttrice, ma non viceversa.
 
-<mark class="hltr-red">Le macchine di Turing sono il formalismo più potente di cui siamo a disposizione</mark>.
+Le macchine di Turing sono il formalismo più potente di cui siamo a disposizione.
 
 
 #### **2.3.1 Macchine di Turing come Accettatori**
