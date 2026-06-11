@@ -1124,7 +1124,7 @@ In generale, per la complessità temporale non si hanno risultati simili, ma è 
 
 - **Teorema**: Dato $L$ un linguaggio accettato da una MT $M$ multinastro (deterministica o meno) di complessità temporale $T_M(n)$, allora, per ogni costante $c∈\mathbb{R}^+$, $L$ è accettato anche da un’opportuna MT $M’$ con $k+1$ nastri tale che $T_M′(n) = max\left\{n+ 1,c·T_M(n)\right\}$.
 
-I teoremi qui introdotti valgono anche per le moderne macchine di Von Neumann, in quanto possiamo avere speedup lineari arbitrariamente grandi (ovviamente, entro i limiti fisici della termodinamica), aumentando il parallelismo, ma miglioramenti più che lineari si possono ottenere solamente modificando l’algoritmo impiegato.
+I teoremi qui introdotti valgono anche per le moderne macchine di [[macchina di von neumann.png]], in quanto possiamo avere speedup lineari arbitrariamente grandi (ovviamente, entro i limiti fisici della termodinamica), aumentando il parallelismo, ma miglioramenti più che lineari si possono ottenere solamente modificando l’algoritmo impiegato.
 
 
 ### **7.4 Macchina RAM**
