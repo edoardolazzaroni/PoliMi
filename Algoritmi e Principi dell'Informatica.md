@@ -827,7 +827,7 @@ Da qui, si introduce il simbolo $⊨$, che si utilizza per associare formule ed 
 - $I ⊨ F ∨G$ se e solo se $I ⊨ F$ o $I ⊨ G$;
 - $I ⊨ F ⇒G$ se e solo se $I ⊭ G$ o $I ⊨ G$;
 - $I ⊨ F ⇔G$ se e solo se $I ⊨ F ⇒G$ e $I ⊨ G→F$.
-
+Dal concetto di interpretazione, si possono definire le seguenti
 Dal concetto di interpretazione, si possono definire le seguenti proprietà della semantica delle formule proposizionali:
 - Se $I ⊨ F$, allora si dice che $I$ è un modello di $F$;
 - $F$ si dice valida (o si dice essere una **tautologia**) se e solo se per ogni interpretazione $I$ vale che $I ⊨ F$;
