@@ -1,14 +1,15 @@
 ___
 
 
-- ## Impegni del giorno:
+
+- ## Impegni del giorno 📋 :
 
 - [ ] Preparare template di Obsidian
 - [ ] Guardare orari delle lezioni
 - [ ] Fare checklist per domani
 
 
-- ## Orario delle lezioni  :
+- ## Orario delle lezioni 🏫 :
 
 |          | LUNEDÌ | MARTEDÌ | MERCOLEDÌ | GIOVEDÌ | VENERDÌ |
 | -------- | ------ | ------- | --------- | ------- | ------- |
@@ -24,4 +25,6 @@ ___
 | 17.15/18 |        |         |           |         |         |
 | 18.15/19 |        |         |           |         |         |
 
+
 - ## Obiettivi ✅ :
+	- 
