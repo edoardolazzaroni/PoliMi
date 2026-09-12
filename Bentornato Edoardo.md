@@ -1,8 +1,6 @@
 
 ___
 
-> [!success]
-> Ora è tutta in discesa
 
 
 - ## Impegni del giorno 📋 :
