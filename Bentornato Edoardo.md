@@ -27,6 +27,5 @@ ___
 
 
 - ## Obiettivi ✅ :
-		- 
 		- Studiare almeno 6 ore al giorno
 		- 
