@@ -3,6 +3,7 @@ ___
 
 - ## Impegni del giorno:
 
+
 - [ ] Preparare template di Obsidian
 - [ ] Guardare orari delle lezioni
 - [ ] 
