@@ -9,7 +9,7 @@ ___
 - [ ] Fare checklist per domani
 
 
-- ## Orario delle lezioni 🏫 : 
+- ## Orario delle lezioni 🏫 : [[(Every M) GAL (B.3.4)]]
 
 
 - ## Obiettivi ✅ :
