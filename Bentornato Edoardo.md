@@ -14,8 +14,8 @@ ___
 - ## Link utili 🔗:
 	
 	https://www.polimi.it
-	https://webeep.polimi.it/my/courses.php
-	ook.cloud.microsoft/mail/#
+	(https://webeep.polimi.it/my/courses.php
+	https://outlook.cloud.microsoft/mail/#
 
 - ## Orario delle lezioni 🏫 :
 
