@@ -5,6 +5,7 @@
 - [ ] Guardare orari delle lezioni
 - [ ] 
 
+
 - ## Orario delle lezioni:
 
 |          | LUNEDÌ | MARTEDÌ | MERCOLEDÌ | GIOVEDÌ | VENERDÌ |
