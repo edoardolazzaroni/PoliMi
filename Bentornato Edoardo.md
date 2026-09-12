@@ -11,7 +11,7 @@ ___
 - [x] Guardare orari delle lezioni
 - [x] Fare checklist per domani
 
-- ## Link utili:
+- ## Link utili :
 	
 	https://www.polimi.it
 	https://webeep.polimi.it/my/courses.php
