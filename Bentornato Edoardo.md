@@ -13,6 +13,8 @@ ___
 
 - ## Link utili:
 	
+	https://www.polimi.it
+	https://webeep.polimi.it/my/courses.php
 
 - ## Orario delle lezioni 🏫 :
 
