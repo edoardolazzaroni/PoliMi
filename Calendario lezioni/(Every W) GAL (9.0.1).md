@@ -8,5 +8,4 @@ daysOfWeek:
   - W
 startRecur: 2026-09-16
 endRecur: 2026-12-24
-mode: true
 ---
