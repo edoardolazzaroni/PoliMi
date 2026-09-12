@@ -9,7 +9,7 @@ ___
 - [ ] Fare checklist per domani
 
 
-- ## Orario delle lezioni 🏫 :[[calendar-default.base]]]
+- ## Orario delle lezioni 🏫 :[[]
 
 
 - ## Obiettivi ✅ :
