@@ -9,7 +9,7 @@ ___
 - [ ] Fare checklist per domani
 
 
-- ## Orario delle lezioni 🏫 :[[]
+- ## Orario delle lezioni 🏫 : 
 
 
 - ## Obiettivi ✅ :
