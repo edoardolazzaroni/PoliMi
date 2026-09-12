@@ -13,9 +13,9 @@ ___
 
 - ## Link utili 🔗:
 	
-	[Polimi.it](https://www.polimi.it)
-	[WeBeep](https://webeep.polimi.it/my/courses.php)
-	https://outlook.cloud.microsoft/mail/
+	[<font color="#0070c0">Polimi.it</font>](https://www.polimi.it)
+	[<font color="#76923c">WeBeep</font>](https://webeep.polimi.it/my/courses.php)
+	[<font color="#00b0f0">Outlook</font>](https://outlook.cloud.microsoft/mail/)
 
 - ## Orario delle lezioni 🏫 :
 
