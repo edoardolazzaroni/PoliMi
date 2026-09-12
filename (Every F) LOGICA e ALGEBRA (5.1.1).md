@@ -1,5 +1,5 @@
 ---
-title: LOGICA e ALGEBRA
+title: LOGICA e ALGEBRA (5.1.1)
 allDay: false
 startTime: 14:15
 endTime: 16:00
