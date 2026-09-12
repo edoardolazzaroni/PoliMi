@@ -1,7 +1,7 @@
 
 ___
 
-- 
+[[]]
 
 - ## Impegni del giorno 📋 :
 
