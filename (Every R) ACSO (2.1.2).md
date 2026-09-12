@@ -6,5 +6,5 @@ endTime: 17:00
 type: recurring
 daysOfWeek: [R]
 startRecur: 2026-09-17
-endRecur: 2026-12-17
+endRecur: 2026-12-18
 ---
