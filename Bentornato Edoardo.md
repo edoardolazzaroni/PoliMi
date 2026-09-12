@@ -11,6 +11,8 @@ ___
 - [x] Guardare orari delle lezioni
 - [x] Fare checklist per domani
 
+- ## Link utili:
+	
 
 - ## Orario delle lezioni 🏫 :
 
