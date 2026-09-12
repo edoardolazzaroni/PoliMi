@@ -1,13 +1,13 @@
 
 ___
 
-[[]]
+
 
 - ## Impegni del giorno 📋 :
 
-- [ ] Preparare template di Obsidian
-- [ ] Guardare orari delle lezioni
-- [ ] Fare checklist per domani
+- [x] Preparare template di Obsidian
+- [x] Guardare orari delle lezioni
+- [x] Fare checklist per domani
 
 
 - ## Orario delle lezioni 🏫 :
