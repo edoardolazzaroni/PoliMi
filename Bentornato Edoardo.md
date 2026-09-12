@@ -1,6 +1,8 @@
 
 ___
 
+> [!quote] Per aspera ad astra.
+> 
 
 
 - ## Impegni del giorno 📋 :
