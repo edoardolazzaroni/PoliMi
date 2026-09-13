@@ -10,10 +10,11 @@ ___
 
 - [x] Guardare orari delle lezioni
 - [ ] Preparare template di Obsidian
-- [ ] Fare checklist per domani
 - [ ] Caricare tavoletta grafica
 - [ ] Caricare cuffie
 - [ ] Preparare zaino uni
+- [ ] Leggere almeno un capitolo
+- [ ] Fare checklist per domani
 
 
 - ## Link utili 🔗:
@@ -28,3 +29,5 @@ ___
 - ## Obiettivi ✅ :
 		- Studiare almeno 6 ore al giorno
 		- Ricominciare palestra (2/3 volte a settimana)
+		- Finire un libro al mese
+		- Ridurre l'utilizzo di Instagram a massimo 30 min al giorno
