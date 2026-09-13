@@ -7,9 +7,9 @@ ___
 
 - ## Impegni del giorno 📋 :
 
-- [x] Preparare template di Obsidian
+- [ ] Preparare template di Obsidian
 - [x] Guardare orari delle lezioni
-- [x] Fare checklist per domani
+- [ ] Fare checklist per domani
 
 - ## Link utili 🔗:
 	
