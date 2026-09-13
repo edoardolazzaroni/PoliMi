@@ -5,6 +5,7 @@ ___
 > 
 
 
+
 - ## Impegni del giorno 📋 :
 
 - [x] Guardare orari delle lezioni
@@ -19,7 +20,7 @@ ___
 
 - ## Orario delle lezioni 🏫 :
 
-[[]]
+
 - ## Obiettivi ✅ :
 		- Studiare almeno 6 ore al giorno
 		- 
