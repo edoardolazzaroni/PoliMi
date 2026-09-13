@@ -24,9 +24,6 @@ ___
 	[<font color="#000000">GitHub</font>](https://github.com)
 	[<font color="#ff0000">Palestra Giuriati</font>](https://ecomm.sportrick.com/sportpolimi)
 
-- ## Orario settimanale 🏫 :
-
-
 
 - ## Obiettivi ✅ :
 		- Studiare almeno 6 ore al giorno
