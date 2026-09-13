@@ -22,6 +22,7 @@ ___
 	[<font color="#76923c">WeBeep</font>](https://webeep.polimi.it/my/courses.php)
 	[<font color="#00b0f0">Outlook</font>](https://outlook.cloud.microsoft/mail/)
 	[<font color="#ff0000">Palestra Giuriati</font>](https://ecomm.sportrick.com/sportpolimi)
+	
 
 - ## Orario settimanale 🏫 :
 
