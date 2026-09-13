@@ -12,6 +12,7 @@ ___
 - [ ] Preparare template di Obsidian
 - [ ] Fare checklist per domani
 - [ ] Caricare tavoletta grafica
+- [ ] Caricare cuffie
 - [ ] Preparare zaino uni
 
 
@@ -28,4 +29,4 @@ ___
 
 - ## Obiettivi ✅ :
 		- Studiare almeno 6 ore al giorno
-		- 
+		- Ricominciare palestra (2/3 volte a settimana)
