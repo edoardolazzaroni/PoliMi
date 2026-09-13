@@ -19,8 +19,7 @@ ___
 
 - ## Orario delle lezioni 🏫 :
 
-
-
+[[]]
 - ## Obiettivi ✅ :
 		- Studiare almeno 6 ore al giorno
 		- 
