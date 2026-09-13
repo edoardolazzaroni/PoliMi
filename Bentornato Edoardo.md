@@ -11,6 +11,8 @@ ___
 - [x] Guardare orari delle lezioni
 - [ ] Preparare template di Obsidian
 - [ ] Fare checklist per domani
+- [ ] Caricare tavoletta grafica
+- [ ] Preparare zaino uni
 
 
 - ## Link utili 🔗:
