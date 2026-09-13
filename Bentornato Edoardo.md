@@ -4,7 +4,7 @@ ___
 > [!quote] Per aspera ad astra.
 > 
 
-
+![[100_0103.jpg|248]]
 
 - ## Impegni del giorno 📋 :
 
