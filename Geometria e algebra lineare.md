@@ -43,3 +43,5 @@ La somma $\mathbf{v}+(-\mathbf{w})$ si scrive semplicemente $\mathbf{v}-\mathbf{
 
 
 
+Le proprietà appena enunciate possono essere dimostrate geometricamente, in base alla definizione di somma.
+Per esempio, la prorietà commutativa dipende dal fatto che in un parallelogramma i lati opposti sono uguali e par
