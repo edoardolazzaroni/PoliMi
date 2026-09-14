@@ -8,5 +8,8 @@ Il concetto di vettore, fondamentale sia in matematica che nelle applicazioni (f
 ### **1.1 Operazioni fondamentali sui vettori**
 
 Un vettore nel piano o nello spazio è individuato assegnando:
-	a) un numero reale non negativo che esprime la sua lunghezza o modulo o intensit
-g
+	a) un numero reale non negativo che esprime la sua **lunghezza** o **modulo** o intensità;
+	b) una **direzione**, individuata da una retta (rette *parallele* individuano la stessa direzione);
+	c) un **verso**.
+
+Geometricamente, 
