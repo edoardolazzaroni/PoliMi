@@ -7,10 +7,10 @@ Il concetto di vettore, fondamentale sia in matematica che nelle applicazioni (f
 
 ### **1.1 Operazioni fondamentali sui vettori**
 
-Un vettore nel piano o nello spazio è individuato assegnando:
+- Un vettore nel piano o nello spazio è individuato assegnando:
 	a) un numero reale non negativo che esprime la sua **lunghezza** o **modulo** o intensità;
 	b) una **direzione**, individuata da una retta (rette *parallele* individuano la stessa direzione);
 	c) un **verso**.
 
 Geometricamente, possiamo pensare ai vettori come a segmenti orientati, con la precisazione che due segmenti orientati che possano ottenersi l'uno dall'altro per traslazione sono lo stesso vettore.
-Se nello spazio
+Se nello spazio è fissato un sistema di riferimento cartesiano di cui $O$ è l'origine, possiamo anche vedere i vettori come fre
