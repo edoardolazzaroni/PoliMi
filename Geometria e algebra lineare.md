@@ -12,4 +12,5 @@ Un vettore nel piano o nello spazio è individuato assegnando:
 	b) una **direzione**, individuata da una retta (rette *parallele* individuano la stessa direzione);
 	c) un **verso**.
 
-Geometricamente, 
+Geometricamente, possiamo pensare ai vettori come a segmenti orientati, con la precisazione che due segmenti orientati che possano ottenersi l'uno dall'altro per traslazione sono lo stesso vettore.
+Se nello spazio
