@@ -60,4 +60,5 @@ Con un ragionamento geometrico analogo si può dimostrare la proprietà associat
 	- $1\cdot\mathbf{v}=\mathbf{v}$
 	- $s(t\mathbf{v})=(st)\mathbf{v}$
 	- $t(\mathbf{v}+\mathbf{w})=t\mathbf{v}+t\mathbf{w}$
-	- $(s+t)(\mathbf{v}+\mathbf{w})=t\mathbf{v}+t\mathbf{w}$
+	- $(s+t)\mathbf{v}=s\mathbf{v}+t\mathbf{v}$
+	[con $s,t$]
