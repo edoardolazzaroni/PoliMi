@@ -70,4 +70,5 @@ Per esempio, per provare la terza, si consideri la figura successiva: i triangol
 
 - **VERSORI**: un vettore di modulo unitario si chiama versore. Dato un vettore $\mathbf{v}$ (non nullo), indichiamo con:
 									$vers(\mathbf{v})=\frac{\mathbf{v}}{\left | \mathbf{v} \right |}$
-	il versore ottenuto da $\mathbf{v}$ di
+	il versore ottenuto da $\mathbf{v}$ dividentolo per il suo modulo, ossia <u>normalizzandolo</u>.
+
