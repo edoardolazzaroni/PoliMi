@@ -56,4 +56,8 @@ Con un ragionamento geometrico analogo si può dimostrare la proprietà associat
 
 
 
-La moltiplicazione di un vettore per uno scalare soddisfa le seguenti proprietà
+**PROPRIETÀ**:
+	- <mark class="hltr-yellow">Associativa</mark>: $1\cdot\mathbf{v}=\mathbf{v}$
+	- <mark class="hltr-yellow">Commutativa</mark>: $\mathbf{u}+\mathbf{v}=\mathbf{v}+\mathbf{u}$
+	- <mark class="hltr-yellow">Vettore nullo</mark> ($\mathbf{0}$): $\mathbf{v}+\mathbf{0}=\mathbf{v}$
+	- <mark class="hltr-yellow">Vettore opposto</mark> ($-\mathbf{v}$): $\mathbf{v}+(-\mathbf{v})=0$
