@@ -34,10 +34,10 @@ Sui vettori si possono definire varie operazioni: cominciamo ad introdurre le du
 
 
 **PROPRIETÀ**:
-	- <mark class="hltr-yellow">Associativa</mark>: $(\mathbf{u}+\mathbf{v})+\mathbf{w}=\mathbf{u}+(\mathbf{v}+\mathbf{w})$
-	- <mark class="hltr-yellow">Commutativa</mark>: $\mathbf{u}+\mathbf{v}=\mathbf{v}+\mathbf{u}$
-	- <mark class="hltr-yellow">Vettore nullo</mark> ($\mathbf{0}$): $\mathbf{v}+\mathbf{0}=\mathbf{v}$
-	- <mark class="hltr-yellow">Vettore opposto</mark> ($-\mathbf{v}$): $\mathbf{v}+(-\mathbf{v})=0$
+	a. <mark class="hltr-yellow">Associativa</mark>: $(\mathbf{u}+\mathbf{v})+\mathbf{w}=\mathbf{u}+(\mathbf{v}+\mathbf{w})$
+	b. <mark class="hltr-yellow">Commutativa</mark>: $\mathbf{u}+\mathbf{v}=\mathbf{v}+\mathbf{u}$
+	c. <mark class="hltr-yellow">Vettore nullo</mark> ($\mathbf{0}$): $\mathbf{v}+\mathbf{0}=\mathbf{v}$
+	d. <mark class="hltr-yellow">Vettore opposto</mark> ($-\mathbf{v}$): $\mathbf{v}+(-\mathbf{v})=0$
 
 La somma $\mathbf{v}+(-\mathbf{w})$ si scrive semplicemente $\mathbf{v}-\mathbf{w}$, definendo in tal modo la <u>differenza tra due vettori</u>.
 
@@ -57,9 +57,9 @@ Con un ragionamento geometrico analogo si può dimostrare la proprietà associat
 
 
 **PROPRIETÀ**:
-	- $1\cdot\mathbf{v}=\mathbf{v}$
-	- $s(t\mathbf{v})=(st)\mathbf{v}$
-	- $t(\mathbf{v}+\mathbf{w})=t\mathbf{v}+t\mathbf{w}$
-	- $(s+t)\mathbf{v}=s\mathbf{v}+t\mathbf{v}$
+	a) $1\cdot\mathbf{v}=\mathbf{v}$
+	b) $s(t\mathbf{v})=(st)\mathbf{v}$
+	c) $t(\mathbf{v}+\mathbf{w})=t\mathbf{v}+t\mathbf{w}$
+	d) $(s+t)\mathbf{v}=s\mathbf{v}+t\mathbf{v}$
 	(con $s,t\in\mathbb{R}$)
 
