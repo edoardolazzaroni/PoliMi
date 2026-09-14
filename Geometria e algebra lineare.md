@@ -64,4 +64,4 @@ Con un ragionamento geometrico analogo si può dimostrare la proprietà associat
 	(con $s,t\in\mathbb{R}$)
 
 Anche queste proprietà hanno una dimostrazione geometrica.
-Per esempio, per prova
+Per esempio, per provare la terza, si consideri la figura successiva: i triangoli $OAB$, $OCD$ sono simili per il Teorema di Talete, perchè $AB$ e $CD$ sono paralleli ()
