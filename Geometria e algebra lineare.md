@@ -52,4 +52,4 @@ e quindi $\mathbf{v}+\mathbf{w}=\mathbf{w}+\mathbf{v}$.
 
 Con un ragionamento geometrico analogo si può dimostrare la proprietà associativa. Le proprietà del vettore nullo e dell'opposto sono immediate.
 
-- 
+- **Moltiplicazione di un vettore per uno scalare**. Se $\mathbf{v}$ è un vettore e $t$ è uno scalare (cioè un numero reale) il prodotto di 
