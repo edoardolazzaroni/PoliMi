@@ -34,4 +34,6 @@ Sui vettori si possono definire varie operazioni: cominciamo ad introdurre le du
 
 Proprietà:
 - Associativa: $(\mathbf{u}+\mathbf{v})+\mathbf{w}=\mathbf{u}+(\mathbf{v}+\mathbf{w})$
-- Commutativa: $\mathbf{u}+\mathbf{v}\mathbf{}+\mathbf{w}$
+- Commutativa: $\mathbf{u}+\mathbf{v}=\mathbf{v}+\mathbf{u}$
+- Vettore nullo ($\mathbf{0}$): $\mathbf{v}+\mathbf{0}=\mathbf{v}$
+- 
