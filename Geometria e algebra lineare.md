@@ -77,4 +77,4 @@ Per esempio, per provare la terza, si consideri la figura successiva: i triangol
 
 ### **1.2 Vettori nel piano**
 
-Se introduciamo un siste
+Se introduciamo un sistema di riferimento cartesiano ortogonale nel piano, questo si può identificare con l'insieme $\mathbb{R}^2$ delle coppie ordinate di numeri reali. All'origine $O$ si pu
