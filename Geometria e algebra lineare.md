@@ -57,7 +57,7 @@ Con un ragionamento geometrico analogo si può dimostrare la proprietà associat
 
 
 **PROPRIETÀ**:
-	- <mark class="hltr-yellow">Associativa</mark>: $1\cdot\mathbf{v}=\mathbf{v}$
-	- <mark class="hltr-yellow">Commutativa</mark>: $\mathbf{u}+\mathbf{v}=\mathbf{v}+\mathbf{u}$
+	- $1\cdot\mathbf{v}=\mathbf{v}$
+	- $s(t\mathbf{v})=(st)\mathbf{v}$
 	- <mark class="hltr-yellow">Vettore nullo</mark> ($\mathbf{0}$): $\mathbf{v}+\mathbf{0}=\mathbf{v}$
 	- <mark class="hltr-yellow">Vettore opposto</mark> ($-\mathbf{v}$): $\mathbf{v}+(-\mathbf{v})=0$
