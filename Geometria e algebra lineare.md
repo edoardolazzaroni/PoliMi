@@ -75,4 +75,6 @@ Per esempio, per provare la terza, si consideri la figura successiva: i triangol
 È utile ora passare dal punto di vista della geometria elementare a quello della geometria analitica, ossia introdurre un sistema di riferimento cartesiano. Questo renderà possibili calcoli analitici coi vettori e costituirà il punto di partenza per le generalizzazioni successive.
 
 
-###
+### **1.2 Vettori nel piano**
+
+Se introduciamo un siste
