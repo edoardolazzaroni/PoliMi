@@ -8,13 +8,13 @@ ___
 
 - ## Impegni del giorno 📋 :
 
-- [x] Guardare orari delle lezioni
 - [ ] Preparare template di Obsidian
 - [ ] Caricare cuffie
-- [ ] Preparare zaino uni
 - [ ] Leggere almeno un capitolo
-- [x] Caricare tavoletta grafica
 - [ ] Fare checklist per domani
+- [x] Preparare zaino uni
+- [x] Guardare orari delle lezioni
+- [x] Caricare tavoletta grafica
 
 
 - ## Link utili 🔗:
