@@ -26,4 +26,6 @@ Sottolineiamo però che $\overrightarrow{OA}$ e $\overrightarrow{PQ}$ sono due r
 - Il modulo di un vettore **v** sarà indicato con $\left | \mathbf{v} \right |$.
 - Il vettore di modulo $0$ si chiama **vettore nullo** e sarà indicato con $\mathbf{0}$.
 
-Sui vettori si possono definire varie operazioni: cominciamo ad introdurre le due fondamentali, ovvero la SOMMA di VETTORI ed il PRODOTTO SCALARE 
+Sui vettori si possono definire varie operazioni: cominciamo ad introdurre le due fondamentali, ovvero la SOMMA di VETTORI ed il PRODOTTO di un VETTORE per uno SCALARE;
+
+- Somma di vettori: dati due vettori $\mathbf{v} = $
