@@ -10,10 +10,10 @@ ___
 
 - [x] Guardare orari delle lezioni
 - [ ] Preparare template di Obsidian
-- [ ] Caricare tavoletta grafica
 - [ ] Caricare cuffie
 - [ ] Preparare zaino uni
 - [ ] Leggere almeno un capitolo
+- [x] Caricare tavoletta grafica
 - [ ] Fare checklist per domani
 
 
