@@ -32,8 +32,8 @@ Sui vettori si possono definire varie operazioni: cominciamo ad introdurre le du
 	Si noti che il segmento orientato associato a $\mathbf{v}+\mathbf{w}$ è contenuto nel piano dei segmenti orientati associati a $\mathbf{v}$ e $\mathbf{w}$.
 
 
-Proprietà:
-- Associativa: $(\mathbf{u}+\mathbf{v})+\mathbf{w}=\mathbf{u}+(\mathbf{v}+\mathbf{w})$
-- Commutativa: $\mathbf{u}+\mathbf{v}=\mathbf{v}+\mathbf{u}$
-- Vettore nullo ($\mathbf{0}$): $\mathbf{v}+\mathbf{0}=\mathbf{v}$
+**PROPRIETÀ**:
+- <mark class="hltr-yellow">Associativa</mark>: $(\mathbf{u}+\mathbf{v})+\mathbf{w}=\mathbf{u}+(\mathbf{v}+\mathbf{w})$
+- <mark class="hltr-yellow">Commutativa</mark>: $\mathbf{u}+\mathbf{v}=\mathbf{v}+\mathbf{u}$
+- <mark class="hltr-yellow">Vettore nullo</mark> ($\mathbf{0}$): $\mathbf{v}+\mathbf{0}=\mathbf{v}$
 - 
