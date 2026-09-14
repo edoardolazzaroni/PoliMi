@@ -48,4 +48,8 @@ Per esempio, la prorietà commutativa dipende dal fatto che in un parallelogramm
 						$\mathbf{v}+\mathbf{w}=\overrightarrow{OA}+\overrightarrow{AC}=\overrightarrow{OC}$
 						$\mathbf{w}+\mathbf{v}=\overrightarrow{OB}+\overrightarrow{BC}=\overrightarrow{OC}$
 
-e quindi $\mathbf{v}+\mathbf{w}=\mathbf{w}+\mathbf{v}$
+e quindi $\mathbf{v}+\mathbf{w}=\mathbf{w}+\mathbf{v}$.
+
+Con un ragionamento geometrico analogo si può dimostrare la proprietà associativa. Le proprietà del vettore nullo e dell'opposto sono immediate.
+
+- 
