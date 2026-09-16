@@ -158,4 +158,6 @@ dove $\alpha$ è l'angolo che essi formano $(0\le >\alpha \le \pi)$.
 		d) Si noti poi che $\mathbf{v}\cdot\mathbf{v}=|\mathbf{v}|^2$
 	e) Infine, $\mathbf{v}$ è **perpendicolare** a $\mathbf{w}$ se e solo se $\mathbf{v}\cdot\mathbf{w}=0$
 
-Tutte queste proprietà seguono dalla definizione di prodotto scalare.
+*Tutte queste proprietà seguono dalla definizione di prodotto scalare.*
+
+- **PROIEZIONI**. La proiezione di un vetto
