@@ -148,4 +148,4 @@ Da queste considerazioni segue che **nello spazio non vi possono essere più di 
 - **PRODOTTO SCALARE**. Dati due vettori $\mathbf{v}$ e $\mathbf{w}$ nel piano o nello spazio, il loro <u>prodotto scalare o interno</u>, denotato con $\mathbf{v}\cdot\mathbf{w}$ o con $\langle \mathbf{v},\mathbf{w} \rangle$, è assegnato, per definizione, dalla formula seguente:
 								$\mathbf{v}\cdot\mathbf{w}=|\mathbf{v}|\cdot|\mathbf{w}|\cdot\cos\alpha$ 
 
-dove $\alpha$ è l'angolo che essi formano $(0<=\alpha)$ 
+dove $\alpha$ è l'angolo che essi formano $(0\le >\alpha \le \pi)$. Si n
