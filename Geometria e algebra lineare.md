@@ -97,4 +97,4 @@ Inoltre ogni altro vettore $\mathbf{v}=(x,y)$ si può esprimere nella forma $\ma
 
 ### **1.3 Vettori nello spazio**
 
-Se introduciamo un sistema di riferimento cartesiano ortogonale nello spazio tridimensionale, 
+Se introduciamo un sistema di riferimento cartesiano ortogonale nello spazio tridimensionale, con origine nel punto $O$ di riferimento, questo si può identificare con l'insieme $\mathbb{R}^3$ delle terne ordinate $(x,$
