@@ -175,5 +175,6 @@ Le ultime due formule trovate risultano molto comode per il calcolo effettivo de
 
 - **PRODOTTO VETTORIALE NELLO SPAZIO**. Dati due vettori $\mathbf{v}$ e $\mathbf{w}$, il loro <u>prodotto vettoriale</u>, denotato con $\mathbf{v}\times\mathbf{w}$, è il vettore caratterizzato dalle seguenti proprietà:
 		1. La lunghezza di $\mathbf{v}\times\mathbf{w}$ è data da $|\mathbf{v}\times\mathbf{w}|=|\mathbf{v}|\cdot|\mathbf{w}|\cdot\sin\alpha$, 
-			dove $\alpha$ è l'angolo che essi formano $(0\le >\alpha \le \pi)$.
-		2. 
+			dove $\alpha$ è l'angolo che essi formano $(0\le \alpha \le \pi)$;
+		2. $\mathbf{v}\times\mathbf{w}$ è perpendicolare al piano di $\mathbf{v}$ e $\mathbf{w}$;
+		3. $v$
