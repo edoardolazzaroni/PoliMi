@@ -109,4 +109,4 @@ Il vettore $\mathbf{v}=\overrightarrow{PQ}$ ha componenti scalari $x=(a-a'), y= 
 La lunghezza di $\mathbf{v}$ coincide con la lunghezza di $\overrightarrow{PQ}$, ossia $|\mathbf{v}|=\sqrt{x^2+y^2+z^2}$
 
 I vettori $\mathbf{i}=(1,0,0)$, $\mathbf{j}=(0,1,0)$, $\mathbf{k}=(0,0,1)$ sono <u>versori</u>, mutualmente ortogonali, diretti nel verso positivo dei tre assi, rispettivamente. Ogni altro vettore $\mathbf{v}=(x,y,z)$ si può scrivere nella forma $\mathbf{v}=x\mathbf{i}+y\mathbf{j}+z\mathbf{k}$.
-$\mathbf{i}$, $\mathbf{$
+$\mathbf{i}$, $\mathbf{j}$, $\mathbf{k}$ si dicono <u>versori fondamentali</u> nello spazio. Le operazioni di somma di vettori e prodotto per uno scalare si possono eseguire componente per componente, come nel 
