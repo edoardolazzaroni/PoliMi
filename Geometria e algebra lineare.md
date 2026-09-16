@@ -152,8 +152,8 @@ dove $\alpha$ è l'angolo che essi formano $(0\le >\alpha \le \pi)$.
 *Si noti che il prodotto di due vettori è un numero reale (non un vettore).*
 
 **PROPRIETÀ**:
-	a) <mark class="hltr-yellow">Commutativa</mark>: $(\mathbf{u}+\mathbf{v})+\mathbf{w}=\mathbf{u}+(\mathbf{v}+\mathbf{w})$
-	b) <mark class="hltr-yellow">Distributiva</mark>: $\mathbf{u}+\mathbf{v}=\mathbf{v}+\mathbf{u}$
+	a) <mark class="hltr-yellow">Commutativa</mark>: $\mathbf{v}\cdot\mathbf{w}=\mathbf{w}\cdot\mathbf{v}$
+	b) <mark class="hltr-yellow">Distributiva</mark>: $\mathbf{u}\cdot(\mathbf{v}+\mathbf{}+\mathbf{u}$
 	c) 
 	d) 
 	e) 
