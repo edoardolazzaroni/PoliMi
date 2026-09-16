@@ -160,4 +160,6 @@ dove $\alpha$ è l'angolo che essi formano $(0\le >\alpha \le \pi)$.
 
 *Tutte queste proprietà seguono dalla definizione di prodotto scalare.*
 
-- **PROIEZIONI**. La proiezione di un vettore $\mathbf{v}$ su una retta $r$, orientata, si chiama COMPONENTE VETTORIALE di $\mathbf{v}$ rispetto all'asse $r$ ed è data dal vettore $(\mathbf{v}\cdot r)$
+- **PROIEZIONI**. La proiezione di un vettore $\mathbf{v}$ su una retta $r$, orientata, si chiama **componente vettoriale** di $\mathbf{v}$ rispetto all'asse $r$ ed è data dal vettore $(\mathbf{v}\cdot\mathbf{r})\mathbf{r}$, dove $\mathbf{r}$ è il <u>VERSORE</u> lungo la retta.
+
+Infatti
