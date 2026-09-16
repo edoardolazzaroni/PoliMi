@@ -111,4 +111,6 @@ La lunghezza di $\mathbf{v}$ coincide con la lunghezza di $\overrightarrow{PQ}$,
 I vettori $\mathbf{i}=(1,0,0)$, $\mathbf{j}=(0,1,0)$, $\mathbf{k}=(0,0,1)$ sono <u>versori</u>, mutualmente ortogonali, diretti nel verso positivo dei tre assi, rispettivamente. Ogni altro vettore $\mathbf{v}=(x,y,z)$ si può scrivere nella forma $\mathbf{v}=x\mathbf{i}+y\mathbf{j}+z\mathbf{k}$.
 $\mathbf{i}$, $\mathbf{j}$, $\mathbf{k}$ si dicono <u>versori fondamentali</u> nello spazio. Le operazioni di somma di vettori e prodotto per uno scalare si possono eseguire componente per componente, come nel caso piano:
 
-					$(x_1,y_1,z_1)+(x_2+y_2+z_2)=(x_1+x_2,y_1+y_2,z_1+z_2)$
+					$(x_1,y_1,z_1)+(x_2+y_2+z_2)=(x_1+x_2,y_1+y_2,z_1+z_2);$
+								$t(x_1,y_1,z_1)=(tx_1,ty_1,tz_1)$
+
