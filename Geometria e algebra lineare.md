@@ -145,4 +145,4 @@ Da queste considerazioni segue che **nello spazio non vi possono essere più di 
 
 ### **1.5 Prodotto scalare e vettoriale**
 
-- **PRODOTTO SCALARE**. Dati due vettori $\mathbf{v}$ e $\mathbf{w}$ nel piano o nello spazio, il loro prodotto scalare o interno
+- **PRODOTTO SCALARE**. Dati due vettori $\mathbf{v}$ e $\mathbf{w}$ nel piano o nello spazio, il loro <u>prodotto scalare o interno</u>, denotato con $\mathbf{v}\cdot\mathbf{w}$ o con $$
