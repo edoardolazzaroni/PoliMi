@@ -95,3 +95,6 @@ I vettori $\mathbf{i}=(1,0)$ e $\mathbf{j}=(0,1)$ sono diretti come gli assi coo
 Inoltre ogni altro vettore $\mathbf{v}=(x,y)$ si può esprimere nella forma $\mathbf{v}=x\mathbf{i}+y\mathbf{j}$; $\mathbf{i}$ e $\mathbf{j}$ si dicono **VERSORI FONDAMENTALI** nel piano.
 
 
+### **1.3 Vettori nello spazio**
+
+Se introduciamo un sistema di riferimento cartesiano ortogonale nello spazio tridimensionale, 
