@@ -86,7 +86,7 @@ Due punti $P=(a,b)$ e $Q=(c,d)$, nell'ordine, individuano il vettore di componen
 
 
 
-Se consideriamo due vettori $\mathbf{u}=(x_1, y_1)$ e $\mathbf{v}=(x_2, y_2)$ si verifica immediatamente che $u \pm v=(x_y$.
+Se consideriamo due vettori $\mathbf{u}=(x_1, y_1)$ e $\mathbf{v}=(x_2, y_2)$ si verifica immediatamente che $u \pm v=(x_1 \pm x_2, y_1 \pm y_2)$, e che se $t \in \mathbb{R}->$
 
 
 
