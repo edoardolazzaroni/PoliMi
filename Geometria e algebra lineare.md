@@ -164,4 +164,4 @@ dove $\alpha$ è l'angolo che essi formano $(0\le >\alpha \le \pi)$.
 
 Infatti, $\mathbf{v}\cdot\mathbf{r}=|\mathbf{v}|\cdot|\mathbf{r}|\cdot\cos\alpha=|\mathbf{v}|\cdot\cos\alpha$ e quindi $|\mathbf{v}\cdot\mathbf{r}|$ dà la lunghezza del vettore proiezione; il segno di $\mathbf{v}\cdot\mathbf{r}$ $(>0$ se $\alpha<\frac{\pi}{2}$, $<0$ se $\alpha >\frac{\pi}{2})$ determina il verso.
 
-Nel piano, 
+Nel piano, i versori $\mathbf{i}$ e $\mathbf{j}$
