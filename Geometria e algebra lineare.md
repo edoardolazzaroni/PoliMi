@@ -86,6 +86,6 @@ Due punti $P=(a,b)$ e $Q=(c,d)$, nell'ordine, individuano il vettore di componen
 
 
 
-Se consideriamo 
+Se consideriamo due vettori $\mathbf{u}=(x_1, y_1)$ e $\mathbf{v}=(x_2, y_2)$
 
 
