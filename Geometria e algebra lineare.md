@@ -114,3 +114,7 @@ $\mathbf{i}$, $\mathbf{j}$, $\mathbf{k}$ si dicono <u>versori fondamentali</u> n
 					$(x_1,y_1,z_1)+(x_2+y_2+z_2)=(x_1+x_2,y_1+y_2,z_1+z_2);$
 								$t(x_1,y_1,z_1)=(tx_1,ty_1,tz_1)$
 
+
+### **1.4 Combinazioni lineari di vettori. Vettori linearmente indipendenti**
+
+Consideriamo $k$ vettori $\mathbf{v_1,v_2,$
