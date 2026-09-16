@@ -82,6 +82,10 @@ Viceversa, ad ogni vettore $\mathbf{v}$ è associata un'unica freccia che ha com
 e i numeri $x$ e $y$ si dicono <u>componenti scalari</u> di $\mathbf{v}$.
 Si noti che $\mathbf{v}=$ lunghezza di $\overrightarrow{OA}=\sqrt{x^2+y^2}$ (Teorema di Pitagora).
 
-Due punti $P=(a,b)$ e $Q=
+Due punti $P=(a,b)$ e $Q=(c,d)$, nell'ordine, individuano il vettore di componenti scalari $x=c-a, y=d-b$, cioè: $\overrightarrow{PQ}=(c-a, d-b)$
+
+
+
+Se consideriamo 
 
 
