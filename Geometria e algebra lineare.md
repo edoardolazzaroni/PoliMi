@@ -117,4 +117,4 @@ $\mathbf{i}$, $\mathbf{j}$, $\mathbf{k}$ si dicono <u>versori fondamentali</u> n
 
 ### **1.4 Combinazioni lineari di vettori. Vettori linearmente indipendenti**
 
-Consideriamo $k$ vettori $\mathbf{v_1,v_2,$
+Consideriamo $k$ vettori $\mathbf{v_1,...,v_k}$ (nel piano e nello spazio) e $k$ scalari $a$
