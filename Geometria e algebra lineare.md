@@ -209,3 +209,6 @@ sfruttando le formule precedenti del prodotto scalare e vettoriale, abbiamo:
 			
 e dunque i tre vettori <u>sono indipendenti se e solo se quest'ultima espressione è diversa da 0</u>.
 
+
+
+# Capitolo II: Geometria lineare nello spazio 
