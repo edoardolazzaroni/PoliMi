@@ -201,4 +201,5 @@ Se il prodotto misto è nullo allora $\mathbf{u}$ è perpendicolare a $\mathbf{v
 
 ossia se e solo se $\mathbf{u}, \mathbf{v}, \mathbf{w}$ sono <u>linearmente dipendenti</u>.
 
-Questo fatto ci fornisce un metodo analitico per verificare se tre vettori (nello spazio) siano indipendenti oppure no, mediante un calcolo puramente meccanico. 
+Questo fatto ci fornisce un metodo analitico per verificare se tre vettori (nello spazio) siano indipendenti oppure no, mediante un calcolo puramente meccanico. Infatti, siano:
+$\mathbf{u}=(u_1,$
