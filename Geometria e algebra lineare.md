@@ -293,3 +293,6 @@ L'equazione cartesiana del piano si ottiene passando dai vettori alle coordinate
 					$a(x-x_0)+b(y-y_0)+c(z-z_0)=0$
 
 ossia dove $\begin{cases} ax+by+cz=d \\ d=\mathbf{n}\cdot\mathbf{p}_0=ax_0+by_0+cz_0 \end{cases}$
+
+Facciamo qualche osservazione:
+- Se $a^2+b^2+c^2=1$, cioè $\mathbf{n}$ è un versore, allora 
