@@ -342,3 +342,5 @@ ossia, ricordando che abbiamo posto $d=ax_0+by_0+cz_0$:
 							$\delta=\frac{|ax_1+by_1+cz_1-d|}{\sqrt{a^2+b^2+c^2}}$
 
 
+
+# Capitolo III: Spazi vettoriali
