@@ -329,3 +329,4 @@ In alternativa, si possono scrivere le equazioni parametriche della retta col se
 
 - **Distanza di un punto da piano**
 
+Si voglia calcolare la distanza $\delta$ di un punto $P_1(x_1,y_1,z_1)$ dal piano passante per $P_0=(x_0,y_0,z$
