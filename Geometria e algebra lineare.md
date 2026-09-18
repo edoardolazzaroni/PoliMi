@@ -231,4 +231,5 @@ Mediante il calcolo vettoriale introdotto nei paragrafi precedenti è facile scr
 							$\mathbf{p}=\mathbf{p}_0+t\mathbf{v}, t\in\mathbb{R}$
 	che prende il nome di <u>equazione parametrica della retta</u>;
 	$t$ è una "coordinata" sulla retta, corrispondente alla scelta di $P_0$ come origine.
-	Le equazioni parametriche scalari si ricavano scrivendo componente per componente:
+	Le <u>equazioni parametriche scalari</u> si ricavano scrivendo componente per componente:
+							$\begin$
