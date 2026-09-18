@@ -67,7 +67,7 @@ Per esempio, per provare la terza, si consideri la figura successiva: i triangol
 
 
 
-- **VERSORI**: un vettore di modulo unitario si chiama versore. Dato un vettore $\mathbf{v}$ (non nullo), indichiamo con:
+- **VERSORE**: un vettore di modulo unitario si chiama <u>versore</u>. Dato un vettore $\mathbf{v}$ (non nullo), indichiamo con:
 									$vers(\mathbf{v})=\frac{\mathbf{v}}{\left | \mathbf{v} \right |}$
 	il versore ottenuto da $\mathbf{v}$ dividentolo per il suo modulo, ossia <u>normalizzandolo</u>.
 
@@ -248,4 +248,4 @@ Mediante il calcolo vettoriale introdotto nei paragrafi precedenti è facile scr
 	
 							$x=x_0 \quad \frac{y-y_0}{b}=\frac{z-z_0}{c}$
 	
-	Nel caso in cui $a^2+b^2+c^2=1$, cioè nel caso in cui $\mathbf{v}$ è un *versore*, i numeri $a,b,c$ prendono il nome di coseni direttori della retta, in quan
+	Nel caso in cui $a^2+b^2+c^2=1$, cioè nel caso in cui $\mathbf{v}$ è un *versore*, i numeri $a,b,c$ prendono il nome di <u>coseni direttori della retta</u>, in quanto rappresentano i coseni degli angoli che la retta forma con ciascuno degli assi coordinati.
