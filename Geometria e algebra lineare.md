@@ -299,4 +299,5 @@ Facciamo qualche osservazione:
 - Se $d=0$, il piano passa per l'origine $O=(0,0,0)$;
 - Se uno dei coefficienti $a,b,c$ è nullo, il piano è parallelo ad uno degli assi coordinati. Per esempio, se $c=0$ il piano è parallelo all'asse $z$, e quindi è perpendicolare al piano $(x,y)$;
 	Si noti che l'equazione $ax+by=d$, che nel piano rappresenta una retta, nello spazio rappresenta un piano perpendicolare al piano $(x,y)$.
-- Se due coefficienti sono nulli, allora il piano è parallelo ad uno dei piani coordinati. Per esempio, se $a=b=0$, il piano ha equazione 
+- Se due coefficienti sono nulli, allora il piano è parallelo ad uno dei piani coordinati. Per esempio, se $a=b=0$, il piano ha equazione $z=k$ ed è parallelo al piano $(x,y)$;
+- Se $d\ne0$, si può dividere l'equazione cartesiana precedente per $d$, ottenendo così:
