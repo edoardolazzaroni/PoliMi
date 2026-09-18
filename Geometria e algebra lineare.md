@@ -230,21 +230,24 @@ Cominciamo col primo caso. Consideriamo un punto $P_0(x_0,y_0,z_0)$ ed un vettor
 
 Dalla figura si vede che un generico punto $P(x,y,z)$ appartentente alla retta si trova aggiungendo al vettore posizione $\mathbf{p}_0=\overrightarrow{OP_0}$ un opportuno multiplo $t\mathbf{v}$ di $\mathbf{v}$.
 Abbiamo quindi per il vettore posizione $\mathbf{p}=\overrightarrow{OP}$ del generico punto sulla retta:
+
 							$\mathbf{p}=\mathbf{p}_0+t\mathbf{v}, t\in\mathbb{R}$
 
 che prende il nome di <u>equazione parametrica vettoriale della retta</u>;
 $t$ è una "coordinata" sulla retta, corrispondente alla scelta di $P_0$ come origine.
 Le <u>equazioni parametriche scalari</u> si ricavano scrivendo componente per componente:
+
 							$\begin{cases} x=x_0+ta\\ y=y_0+tb \\ z=z_0+tc \end{cases}\quad t\in\mathbb{R}$ 
 
 Il significato delle equazioni parametriche (sia la prima che la seconda) è il seguente: al variare del parametro $t$ in $\mathbb{R}$, il punto $(x,y,z)$ si muove sulla retta, descrivendo tale linea.
 
 Se $a\ne0, b\ne0, c\ne0$, si può eliminare $t$ nelle equazioni scalari, ottenendo:	
-			$\frac{x-x_0}{a}=t,\frac{y-y_0}{b}=t, \frac{z-z_0}{c}=t$, ossia $\frac{x-x_0}{a}=\frac{y-y_0}{b}=\frac{z-z_0}{c}$
-	
+
+$\frac{x-x_0}{a}=t,\frac{y-y_0}{b}=t, \frac{z-z_0}{c}=t$,ossia $\frac{x-x_0}{a}=\frac{y-y_0}{b}=\frac{z-z_0}{c}$
+
 che sono le <u>equazioni cartesiane</u> della retta.
-	Se uno o due tra i parametri $a,b,c$ è nullo, si ottiene per esempio:
-	
-							$x=x_0 \quad \frac{y-y_0}{b}=\frac{z-z_0}{c}$
-	
-	Nel caso in cui $a^2+b^2+c^2=1$, cioè nel caso in cui $\mathbf{v}$ è un *versore*, i numeri $a,b,c$ prendono il nome di <u>coseni direttori della retta</u>, in quanto rappresentano i coseni degli angoli che la retta forma con ciascuno degli assi coordinati.
+Se uno o due tra i parametri $a,b,c$ è nullo, si ottiene per esempio:
+
+						$x=x_0 \quad \frac{y-y_0}{b}=\frac{z-z_0}{c}$
+
+Nel caso in cui $a^2+b^2+c^2=1$, cioè nel caso in cui $\mathbf{v}$ è un *versore*, i numeri $a,b,c$ prendono il nome di <u>coseni direttori della retta</u>, in quanto rappresentano i coseni degli angoli che la retta forma con ciascuno degli assi coordinati.
