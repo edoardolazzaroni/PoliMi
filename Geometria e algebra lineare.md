@@ -230,4 +230,5 @@ Mediante il calcolo vettoriale introdotto nei paragrafi precedenti è facile scr
 	Abbiamo quindi per il vettore posizione $\mathbf{p}=\overrightarrow{OP}$ del generico punto sulla retta:
 							$\mathbf{p}=\mathbf{p}_0+t\mathbf{v}, t\in\mathbb{R}$
 	che prende il nome di <u>equazione parametrica della retta</u>;
-	$t$ è una 
+	$t$ è una "coordinata" sulla retta, corrispondente alla scelta di $P_0$ come origine.
+	Le equazioni parametriche scalari si ricavano scrivendo componente per componente:
