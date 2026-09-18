@@ -277,4 +277,9 @@ c) Prima di vedere come si scrive l'equazione di una retta come intersezione di 
 ### 2.2 **Equazione del piano**
 
 Un piano è individuato da:
-	a)un punto ed un vettore ortogonale al piano stesso;
+	a) un punto ed un vettore ortogonale al piano stesso;
+	b) tre punti;
+	c) due rette incidenti.
+
+
+a) Cominciamo col primo caso. Consideriamo un punto 
