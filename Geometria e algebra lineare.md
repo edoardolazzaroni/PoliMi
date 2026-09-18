@@ -321,4 +321,7 @@ Essi si intersecano lungo una retta rappresentata dal sistema:
 
 $\begin{cases} ax+by+cz=d\\ a'x+b'y+c'z=d' \end{cases}$
 
-Un vettore direzionale della retta deve essere ortogonale ad entrambi i vettori $\mathbf{n}=(a,b,c)$ e $\mathbf{n}'=(a',b',c')$; si può perciò scegliere come vettore direzionale della retta $\mathbf{v}=\mathbf{n}\times\mathbf{n}'=(a$
+Un vettore direzionale della retta deve essere ortogonale ad entrambi i vettori $\mathbf{n}=(a,b,c)$ e $\mathbf{n}'=(a',b',c')$; si può perciò scegliere come vettore direzionale della retta:
+					$\mathbf{v}=\mathbf{n}\times\mathbf{n}'=(bc'-b'c,a'c-ac',ab'-a'b)$
+
+In alternativa, si possono scrivere le e
