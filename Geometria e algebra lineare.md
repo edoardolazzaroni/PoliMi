@@ -257,3 +257,5 @@ Nel secondo caso si vuole scrivere l'equazione della retta passante per i punti 
 Le equazioni parametriche della retta risultano allora
 
 							$\begin{cases} x=x_0+t(x_1-x_0)\\ y=y_0+t(y_1-y_0) \\ z=z_0+t(z_1-z_0) \end{cases}$
+
+- **Condizioni di parallelismo ed ortogonalità tra rette**. Due rette sono parallele
