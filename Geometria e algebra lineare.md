@@ -318,4 +318,7 @@ Sono **ortogonali** se lo sono i loro vettori normali: $(a',b',c')\cdot(a,b,c)=a
 Possiamo ora trattare il caso rimasto in sospeso nella discussione dei modi di scrivere l'equazione di una retta.
 c) Siano $ax+by+cz=d$ e $a'x+b'y+c'z=d'$ le equazioni di due piani non paralleli.
 Essi si intersecano lungo una retta rappresentata dal sistema:
+
 $\begin{cases} ax+by+cz=d\\ a'x+b'y+c'z=d' \end{cases}$
+
+Un vettore direzionale della retta deve essere ortogonale ad entrambi i vettori $\mathbf{n}=(a,b,c)$ e $\$
