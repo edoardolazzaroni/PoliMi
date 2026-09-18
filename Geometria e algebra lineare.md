@@ -259,10 +259,11 @@ Le equazioni parametriche della retta risultano allora
 							$\begin{cases} x=x_0+t(x_1-x_0)\\ y=y_0+t(y_1-y_0) \\ z=z_0+t(z_1-z_0) \end{cases}$
 
 
-- **Condizioni di parallelismo ed ortogonalità tra rette**. Due rette sono parallele se i loro vettori direzionali sono paralleli (linearmente indipendenti). Precisamente, le due rette
+- **Condizioni di parallelismo ed ortogonalità tra rette**.
+
+Due rette sono **parallele** se i loro vettori direzionali sono paralleli (linearmente indipendenti). Precisamente, le due rette
 
 $\begin{cases} x=x_0+ta\\ y=y_0+tb \\ z=z_0+tc \end{cases}\quad$ e $\quad\begin{cases} x=x_1+ta' \\ y=y_1+tb' \\ z=z_1+tc' \end{cases}$
 
 sono parallele se $\exists\lambda\ne0$ t.c. $(a',b',c')=\lambda(a,b,c)$.
-
-Le due rette sono ortogonali 
+Le due rette sono **ortogonali** se lo sono i loro vettori direzionali, cioè se $(a',b',c')\cdot(a,b,c)=\lambda(a,b,c)$
