@@ -354,5 +354,7 @@ Introduciamo quindi la definizione di *spazio vettoriale* astratto, e definiremo
 
 Nei primi capitoli abbiamo visto come i vettori nel piano e nello spazio si possano identificare, previa la scelta di un sistema di riferimento cartesiano, con coppie o terne ordinate di numeri reali. Una volta fatta questa identificazione, è possibile eseguire le operazioni fondamentali sui vettori (somma o prodotto per uno scalare) operando direttamente su queste coppie/terne:
 
-					$(v_1,v_2)+(u_1,u_2)=(v_1+u_1,v_2+u_2)$
-				$\lambda$	
+						$(v_1,v_2)+(u_1,u_2)=(v_1+u_1,v_2+u_2)$
+								$\lambda(v_1,v_2)=(\lambda v_1,\lambda v_2)$
+
+Questi fatti suggeriscono la possibilità di considerare le $n$-uple
