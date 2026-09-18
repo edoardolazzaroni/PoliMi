@@ -226,4 +226,5 @@ Mediante il calcolo vettoriale introdotto nei paragrafi precedenti è facile scr
 
 
 
-	Dalla figura si vede che un generico punto $P(x,y,z)$ appartentente alla retta si trova aggiungendo al vettore posizione $\mathbf{p}_0=\overharrow{OP_0}$ 
+	Dalla figura si vede che un generico punto $P(x,y,z)$ appartentente alla retta si trova aggiungendo al vettore posizione $\mathbf{p}_0=\overrightarrow{OP_0}$ un opportuno multiplo $t\mathbf{v}$ di $\mathbf{v}$.
+	Abbiamo quindi per il vettore posizione
