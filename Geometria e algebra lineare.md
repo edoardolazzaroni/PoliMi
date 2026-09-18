@@ -309,4 +309,6 @@ Facciamo qualche osservazione:
 
 Due piani sono **paralleli** se lo sono i lori vettori ortogonali. Precisamente, i piani
 
-$ax+by+cz=$
+$ax+by+cz=d, \quad a'x+b'y+c'z=d'$
+
+sono paralleli se $\exists \lambda \ne 0$ t.c.
