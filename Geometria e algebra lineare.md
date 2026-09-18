@@ -226,4 +226,4 @@ Mediante il calcolo vettoriale introdotto nei paragrafi precedenti è facile scr
 
 
 
-	Dalla figura si vede che un generico punto $P(x,y,z)$
+	Dalla figura si vede che un generico punto $P(x,y,z)$ appartentente alla retta si trova aggiungendo al vettore posizione $\mathbf{p}_0=\overharrow{OP_0}$ 
