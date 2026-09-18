@@ -311,4 +311,7 @@ Due piani sono **paralleli** se lo sono i lori vettori ortogonali. Precisamente,
 
 $ax+by+cz=d, \quad a'x+b'y+c'z=d'$
 
-sono paralleli se $\exists \lambda \ne 0$ t.c.
+sono paralleli se $\exists \lambda \ne 0$ t.c. $(a',b',c')=\lambda(a,b,c)$
+Sono **ortogonali** se lo sono i loro vettori normali: $(a',b',c')\cdot(a,b,c)=aa'+bb'+cc'\equiv0$.
+
+Possiamo ora trattare il caso ri
