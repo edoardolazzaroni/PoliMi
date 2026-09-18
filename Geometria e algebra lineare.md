@@ -301,3 +301,5 @@ Facciamo qualche osservazione:
 	Si noti che l'equazione $ax+by=d$, che nel piano rappresenta una retta, nello spazio rappresenta un piano perpendicolare al piano $(x,y)$.
 - Se due coefficienti sono nulli, allora il piano è parallelo ad uno dei piani coordinati. Per esempio, se $a=b=0$, il piano ha equazione $z=k$ ed è parallelo al piano $(x,y)$;
 - Se $d\ne0$, si può dividere l'equazione cartesiana precedente per $d$, ottenendo così:
+								$\frac{x}{\alpha}+\frac{y}{\beta}+\frac{z}{\gamma}=1$
+	In tal caso 
