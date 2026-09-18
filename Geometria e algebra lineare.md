@@ -213,3 +213,4 @@ e dunque i tre vettori <u>sono indipendenti se e solo se quest'ultima espression
 
 # Capitolo II: Geometria lineare nello spazio
 
+Mediante il calcolo vettoriale introdotto nei paragrafi precedenti è facile scrivere, in un dato sise
