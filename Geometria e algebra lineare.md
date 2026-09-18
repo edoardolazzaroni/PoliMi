@@ -349,7 +349,7 @@ ossia, ricordando che abbiamo posto $d=ax_0+by_0+cz_0$:
 Iniziamo ora lo studio dei primi elementi di algebra lineare: si tratta di una disciplina che viene utilizzata sia in altri rami della matematica (geometria, analisi, ...) che nelle discipline applicative vere e proprie. L'idea centrale è quella di *linearità*.
 Introduciamo quindi la definizione di *spazio vettoriale* astratto, e definiremo le *trasformazioni lineari* tra spazi vettoriali; studieremo quindi il *calcolo matriciale*, strumento basilare per lo studio di queste trasformazioni. Infine applicheremo questi concetti allo studio dei *sistemi lineari* ed al problema della *diagonalizzazione* di una trasformazione.
 
+
 ### 3.1 **Vettori $n$-dimensionali: lo spazio $\mathbb{R}^n$, spazi vettoriali astratti**
 
-
-Nel primo caputolo
+Nei primi capitoli abbiamo visto come i vettori nel piano e nello spazio si possano identificare, 
