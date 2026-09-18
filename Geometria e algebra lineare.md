@@ -302,4 +302,7 @@ Facciamo qualche osservazione:
 - Se due coefficienti sono nulli, allora il piano è parallelo ad uno dei piani coordinati. Per esempio, se $a=b=0$, il piano ha equazione $z=k$ ed è parallelo al piano $(x,y)$;
 - Se $d\ne0$, si può dividere l'equazione cartesiana precedente per $d$, ottenendo così:
 								$\frac{x}{\alpha}+\frac{y}{\beta}+\frac{z}{\gamma}=1$
-	In tal caso 
+	In tal caso $\alpha, \beta, \gamma$ rappresentano le intercette del piano con gli assi coordinati.
+
+
+- **Condizioni di parallelismo ed ortogonalità tra rette**.
