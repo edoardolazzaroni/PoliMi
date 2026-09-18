@@ -347,3 +347,4 @@ ossia, ricordando che abbiamo posto $d=ax_0+by_0+cz_0$:
 
 
 Iniziamo ora lo studio dei primi elementi di algebra lineare: si tratta di una disciplina che viene utilizzata sia in altri rami della matematica (geometria, analisi, ...) che nelle discipline applicative vere e proprie. L'idea centrale è quella di *linearità*.
+Introduciamo quindi la definizione di spazio vettoriale astratto, e definiremo le trasformazioni lineari tra spazi vettoriali; studieremo quindi il calcolo matriciale, strumento basila
