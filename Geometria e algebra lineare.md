@@ -333,4 +333,6 @@ Si voglia calcolare la distanza $\delta$ di un punto $P_1(x_1,y_1,z_1)$ dal pian
 
 
 
-Se si introduce il versore $\mathbf{N}=\frac{1}{\sqrt{a^2+b^2+c^2}}(a,b,c)$, la lunghezza della proiezione è il modulo del prodotto scalare tr
+Se si introduce il versore $\mathbf{N}=\frac{1}{\sqrt{a^2+b^2+c^2}}(a,b,c)$, la lunghezza della proiezione è il modulo del prodotto scalare tra $\mathbf{N}$ ed il vettore $\overrightarrow{P_0P_1}$, cioè:
+
+$\delta=|\mathbf{N}\cdot\overrightarrow{P_0P_1}|=$
