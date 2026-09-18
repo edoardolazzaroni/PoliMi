@@ -234,4 +234,6 @@ Mediante il calcolo vettoriale introdotto nei paragrafi precedenti è facile scr
 	Le <u>equazioni parametriche scalari</u> si ricavano scrivendo componente per componente:
 							$\begin{cases} x=x_0+ta\\ y=y_0+tb \\ z=z_0+tc \end{cases}\quad t\in\mathbb{R}$ 
 
-	Il significato delle equazioni parametriche (sia la prima che la seconda) è che 
+	Il significato delle equazioni parametriche (sia la prima che la seconda) è il seguente: al variare del parametro $t$ in $\mathbb{R}$, il punto $(x,y,z)$ si muove sulla retta, descrivendo tale linea.
+
+	Se $a$
