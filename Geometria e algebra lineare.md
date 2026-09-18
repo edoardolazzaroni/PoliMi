@@ -373,4 +373,7 @@ Si noti il diverso punto di vista che stiamo adottando rispetto a prima: lì, do
 
 Le operazioni di somma di due vettori e di prodotto per uno scalare godono delle stesse proprietà formali che abbiamo evidenziato [[#1.1 **Operazioni fondamentali sui vettori**|precedentemente]].
 
-L'insieme dei vettori del piano e dello spazio possono essere identificati, rispettivamente, con $\mathbb{R}^2$ e $\mathbb{R}^3$
+L'insieme dei vettori del piano e dello spazio possono essere identificati, rispettivamente, con $\mathbb{R}^2$ e $\mathbb{R}^3$.
+
+#### 3.1.2 **Spazi vettoriali astratti**
+
