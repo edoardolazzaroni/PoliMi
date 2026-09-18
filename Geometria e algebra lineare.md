@@ -115,7 +115,7 @@ $\mathbf{i}$, $\mathbf{j}$, $\mathbf{k}$ si dicono **VERSORI FONDAMENTALI NELLO 
 								$t(x_1,y_1,z_1)=(tx_1,ty_1,tz_1)$
 
 
-### **1.4 Combinazioni lineari di vettori. Vettori linearmente indipendenti**
+### 1.4 **Combinazioni lineari di vettori. Vettori linearmente indipendenti**
 
 Consideriamo $k$ vettori $\mathbf{v_1,...,v_k}$ (nel piano e nello spazio) e $k$ scalari $\alpha_1,...,\alpha_k$.
 Il vettore $\mathbf{w}=\alpha_1 \mathbf{v_1}+ ... +\alpha_k \mathbf{v_k}$ si chiama **COMBINAZIONE LINEARE** dei vettori $\mathbf{v_1,...,v_k}$ con coefficienti $\alpha_1,...,\alpha_k$.
@@ -143,7 +143,7 @@ Dunque, abbiamo provato che si ha $\mathbf{v}=\alpha_1 \mathbf{v_1}+\alpha_2 \ma
 Da queste considerazioni segue che **nello spazio non vi possono essere più di tre vettori linearmente indipendenti, nel piano non più di due**.
 
 
-### **1.5 Prodotto scalare e vettoriale**
+### 1.5 **Prodotto scalare e vettoriale**
 
 - **PRODOTTO SCALARE**. Dati due vettori $\mathbf{v}$ e $\mathbf{w}$ nel piano o nello spazio, il loro <u>prodotto scalare o interno</u>, denotato con $\mathbf{v}\cdot\mathbf{w}$ o con $\langle \mathbf{v},\mathbf{w} \rangle$, è assegnato, per definizione, dalla formula seguente:
 								$\mathbf{v}\cdot\mathbf{w}=|\mathbf{v}|\cdot|\mathbf{w}|\cdot\cos\alpha$ 
@@ -216,7 +216,7 @@ e dunque i tre vettori <u>sono indipendenti se e solo se quest'ultima espression
 
 Mediante il calcolo vettoriale introdotto nei paragrafi precedenti è facile scrivere, in un dato sistema di riferimento, vari tipi di equazioni per rette e piani.
 
-### **Equazione della retta**
+### 2.1 **Equazione della retta**
 
 Una retta nello spazio è individuata da:
 	a) un punto e un vettore direzionale;
@@ -274,4 +274,4 @@ Si noti che per essere ortogonali non è necessario che le due rette siano **inc
 c) Prima di vedere come si scrive l'equazione di una retta come intersezione di due piani, vediamo come si scrive l'equazione di un piano.
 
 
-### Equazione del piano
+### 2.2 **Equazione del piano**
