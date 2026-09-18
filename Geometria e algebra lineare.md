@@ -244,4 +244,5 @@ Mediante il calcolo vettoriale introdotto nei paragrafi precedenti è facile scr
 	$\frac{x-x_0}{a}=t,\frac{y-y_0}{b}=t, \frac{z-z_0}{c}=t$, ossia $\frac{x-x_0}{a}=\frac{y-y_0}{b}=\frac{z-z_0}{c}$
 	
 	che sono le <u>equazioni cartesiane</u> della retta.
-	Se uno o due tra i parametri 
+	Se uno o due tra i parametri $a,b,c$ è nullo, si ottiene per esempio:
+							$x=x_0 \quad \frac{y-y_0}{b}=\frac{z-z_0}{c}$
