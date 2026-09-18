@@ -292,4 +292,4 @@ Dalla figura si vede che se $P=(x,y,z)$ è il generico punto del piano, allora i
 L'equazione cartesiana del piano si ottiene passando dai vettori alle coordinate, cioè:
 					$a(x-x_0)+b(y-y_0)+c(z-z_0)=0$
 
-ossia dove $\begin{cases} $
+ossia dove $\begin{cases} ax+by+cz=d \\ d=\mathbf{n}\cdot\mathbf{p}_0=ax_0+by_0+cz_0 \end{cases}$
