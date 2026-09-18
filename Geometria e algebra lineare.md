@@ -232,4 +232,4 @@ Mediante il calcolo vettoriale introdotto nei paragrafi precedenti è facile scr
 	che prende il nome di <u>equazione parametrica della retta</u>;
 	$t$ è una "coordinata" sulla retta, corrispondente alla scelta di $P_0$ come origine.
 	Le <u>equazioni parametriche scalari</u> si ricavano scrivendo componente per componente:
-							$\begin{cases} x=x_0+ta\\ y=y_0+tb &\mbox{t\in\mathbb{R}}\\ z=z_0+tc \end{cases}$ 
+							$\begin{cases} x=x_0+ta &\mbox{}\\ y=y_0+tb &\mbox{t\in\mathbb{R}}\\ z=z_0+tc &\mbox{}\end{cases}$ 
