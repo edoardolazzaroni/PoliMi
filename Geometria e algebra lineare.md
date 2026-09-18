@@ -282,4 +282,5 @@ Un piano è individuato da:
 	c) due rette incidenti.
 
 
-a) Cominciamo col primo caso. Consideriamo un punto $P_0(x_0,y_0,z_0)$ ed un vettore $\mathbf{n}=(a,b,c)$ non nullo; ci proponiamo di determinare l'equaz
+a) Cominciamo col primo caso. Consideriamo un punto $P_0(x_0,y_0,z_0)$ ed un vettore $\mathbf{n}=(a,b,c)$ non nullo; ci proponiamo di determinare l'equazione del piano passante per $P_0 \perp \mathbf{n}$.
+
