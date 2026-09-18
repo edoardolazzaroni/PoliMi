@@ -261,4 +261,6 @@ Le equazioni parametriche della retta risultano allora
 
 - **Condizioni di parallelismo ed ortogonalità tra rette**. Due rette sono parallele se i loro vettori direzionali sono paralleli (linearmente indipendenti). Precisamente, le due rette
 
-$\begin{cases} x=x_0+ta\\ y=y_0+tb \\ z=z_0+tc \end{cases}\quad$ e $\begin{cases} x=x_1+ta' \\ y=y_1+tb' \\ z=z_1+tc' \end{cases}$
+$\begin{cases} x=x_0+ta\\ y=y_0+tb \\ z=z_0+tc \end{cases}\quad$ e $\quad\begin{cases} x=x_1+ta' \\ y=y_1+tb' \\ z=z_1+tc' \end{cases}$
+
+sono parallele se $\exists\lamda\ne0$
