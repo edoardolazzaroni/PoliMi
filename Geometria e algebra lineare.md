@@ -346,4 +346,4 @@ ossia, ricordando che abbiamo posto $d=ax_0+by_0+cz_0$:
 # Capitolo III: Spazi vettoriali
 
 
-Iniziamo ora lo studio dei primi elementi di algebra lineare: si tratta di una disciplina che viene utilizzata sia in altri rami della m
+Iniziamo ora lo studio dei primi elementi di algebra lineare: si tratta di una disciplina che viene utilizzata sia in altri rami della matematica (geometria, analisi, ...) che nelle discipline applicative vere e proprie. L'idea centrale è quella di *linearità*.
