@@ -229,7 +229,9 @@ Mediante il calcolo vettoriale introdotto nei paragrafi precedenti è facile scr
 	Dalla figura si vede che un generico punto $P(x,y,z)$ appartentente alla retta si trova aggiungendo al vettore posizione $\mathbf{p}_0=\overrightarrow{OP_0}$ un opportuno multiplo $t\mathbf{v}$ di $\mathbf{v}$.
 	Abbiamo quindi per il vettore posizione $\mathbf{p}=\overrightarrow{OP}$ del generico punto sulla retta:
 							$\mathbf{p}=\mathbf{p}_0+t\mathbf{v}, t\in\mathbb{R}$
-	che prende il nome di <u>equazione parametrica della retta</u>;
+	che prende il nome di <u>equazione parametrica vettoriale della retta</u>;
 	$t$ è una "coordinata" sulla retta, corrispondente alla scelta di $P_0$ come origine.
 	Le <u>equazioni parametriche scalari</u> si ricavano scrivendo componente per componente:
 							$\begin{cases} x=x_0+ta\\ y=y_0+tb \\ z=z_0+tc \end{cases}\quad t\in\mathbb{R}$ 
+
+	Il significato delle equazioni parametriche (sia la prima che la seconda) è che 
