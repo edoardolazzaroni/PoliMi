@@ -248,4 +248,4 @@ Mediante il calcolo vettoriale introdotto nei paragrafi precedenti è facile scr
 	
 							$x=x_0 \quad \frac{y-y_0}{b}=\frac{z-z_0}{c}$
 	
-	Nel caso in cui 
+	Nel caso in cui $a^2+b^2+c^2=1$, cioè nel caso in cui $\mathbf{v}$ è un *versore*, i numeri $a,b,c$ prendono il nome di coseni direttori della retta, in quan
