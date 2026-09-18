@@ -357,4 +357,7 @@ Nei primi capitoli abbiamo visto come i vettori nel piano e nello spazio si poss
 						$(v_1,v_2)+(u_1,u_2)=(v_1+u_1,v_2+u_2)$
 								$\lambda(v_1,v_2)=(\lambda v_1,\lambda v_2)$
 
-Questi fatti suggeriscono la possibilità di considerare le $n$-uple
+Questi fatti suggeriscono la possibilità di considerare le $n$-uple ordinate di numeri reali come vettori di uno spazio astratto a $n$ dimensioni.
+
+#### 3.1.1 **Lo spazio $\mathbb{R}^n$**
+
