@@ -245,4 +245,7 @@ Mediante il calcolo vettoriale introdotto nei paragrafi precedenti è facile scr
 	
 	che sono le <u>equazioni cartesiane</u> della retta.
 	Se uno o due tra i parametri $a,b,c$ è nullo, si ottiene per esempio:
+	
 							$x=x_0 \quad \frac{y-y_0}{b}=\frac{z-z_0}{c}$
+	
+	Nel caso in cui 
