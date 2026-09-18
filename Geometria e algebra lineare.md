@@ -236,4 +236,5 @@ Mediante il calcolo vettoriale introdotto nei paragrafi precedenti è facile scr
 
 	Il significato delle equazioni parametriche (sia la prima che la seconda) è il seguente: al variare del parametro $t$ in $\mathbb{R}$, il punto $(x,y,z)$ si muove sulla retta, descrivendo tale linea.
 
-	Se $a$
+	Se $a\ne0, b\ne0, c\ne0$, si può eliminare $t$ nelle equazioni scalari, ottenendo:
+	$\frac{x-x_0$
