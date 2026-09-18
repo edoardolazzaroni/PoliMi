@@ -222,4 +222,4 @@ Mediante il calcolo vettoriale introdotto nei paragrafi precedenti è facile scr
 		a) un punto e un vettore direzionale;
 		b) due punti;
 		c) intersezione di due piani non paralleli.
-	Comi
+	Cominciamo col primo caso. Consideriamo un punto $P_0(x_0,y_0,z_0)$ ed un vettore $\mathbf{v}=(a,b,c)$ non nullo;
