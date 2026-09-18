@@ -337,4 +337,4 @@ Se si introduce il versore $\mathbf{N}=\frac{1}{\sqrt{a^2+b^2+c^2}}(a,b,c)$, la 
 
 $\delta=|\mathbf{N}\cdot\overrightarrow{P_0P_1}|=\frac{|a(x_1-x_0)+b(y_1-y_0)+c(z_1-z_0)|}{\sqrt{a^2+b^2+c^2}}$
 
-ossia, 
+ossia, ricordando che abbiamo posto $d=ax_0+by_0+cz_0$:
