@@ -240,7 +240,8 @@ Mediante il calcolo vettoriale introdotto nei paragrafi precedenti è facile scr
 	Il significato delle equazioni parametriche (sia la prima che la seconda) è il seguente: al variare del parametro $t$ in $\mathbb{R}$, il punto $(x,y,z)$ si muove sulla retta, descrivendo tale linea.
 
 	Se $a\ne0, b\ne0, c\ne0$, si può eliminare $t$ nelle equazioni scalari, ottenendo:
+	
 	$\frac{x-x_0}{a}=t,\frac{y-y_0}{b}=t, \frac{z-z_0}{c}=t$, ossia $\frac{x-x_0}{a}=\frac{y-y_0}{b}=\frac{z-z_0}{c}$
 	
 	che sono le <u>equazioni cartesiane</u> della retta.
-	Se uno o 
+	Se uno o due tra i parametri 
