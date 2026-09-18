@@ -365,4 +365,5 @@ Consideriamo dunque l'insieme $\mathbb{R}^n$ di tutte le $n$-uple ordinate di nu
 Potremo indicare un elemento di $\mathbb{R}^n$ con $\mathbf{x},\mathbf{y},\cdots \ .$
 Se, per esempio, $\mathbf{x}=(x_1,x_2,\cdots,x_n)$, diremo che $x_i$ sono le **componenti del vettore** $\mathbf{x}$.
 È possibile definire in modo naturale la somma di due vettori e la moltiplicazione per uno scalare:
-$\mathbf{x}=(x_1,x_2,\cdots,x_n)$
+$(x_1,x_2,\cdots,x_n)+(y_1,y_2,\cdots,y_n)=(x_1+y_1,x_2+y_2,\cdots,x_n+y_n)$
+$\lambda(x_1,x_2,\c)=(\lambda v_1,\lambda v_2)$
