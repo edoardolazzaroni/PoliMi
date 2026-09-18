@@ -222,4 +222,8 @@ Mediante il calcolo vettoriale introdotto nei paragrafi precedenti è facile scr
 		a) un punto e un vettore direzionale;
 		b) due punti;
 		c) intersezione di due piani non paralleli.
-	Cominciamo col primo caso. Consideriamo un punto $P_0(x_0,y_0,z_0)$ ed un vettore $\mathbf{v}=(a,b,c)$ non nullo;
+	Cominciamo col primo caso. Consideriamo un punto $P_0(x_0,y_0,z_0)$ ed un vettore $\mathbf{v}=(a,b,c)$ non nullo; ci proponiamo di scrivere l'equazione della retta passante per $P_0$, parallela a $\mathbf{v}$.
+
+
+
+	Dalla figura si vede che un generico punto $P(x,y,z)$
