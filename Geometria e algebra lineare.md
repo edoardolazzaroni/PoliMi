@@ -288,3 +288,6 @@ a) Cominciamo col primo caso. Consideriamo un punto $P_0(x_0,y_0,z_0)$ ed un vet
 
 Dalla figura si vede che se $P=(x,y,z)$ è il generico punto del piano, allora il vettore $\overrightarrow{P_0P}$ è parallelo al piano e quindi $\perp \mathbf{n}$. Si ottiene allora l'equazione vettoriale:
 							$\mathbf{n}\cdot\overrightarrow{P_0P}=0$
+
+L'equazione cartesiana del piano si ottiene passando dai vettori alle coordinate, cioè:
+$a(x-x_0)+b(y-y_0)+c(z-z_0)=0$
