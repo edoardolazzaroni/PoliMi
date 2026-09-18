@@ -324,4 +324,8 @@ $\begin{cases} ax+by+cz=d\\ a'x+b'y+c'z=d' \end{cases}$
 Un vettore direzionale della retta deve essere ortogonale ad entrambi i vettori $\mathbf{n}=(a,b,c)$ e $\mathbf{n}'=(a',b',c')$; si può perciò scegliere come vettore direzionale della retta:
 					$\mathbf{v}=\mathbf{n}\times\mathbf{n}'=(bc'-b'c,a'c-ac',ab'-a'b)$
 
-In alternativa, si possono scrivere le equazioni parametriche della retta col seguente procedimento: si considera il sistema nelle tre incognite $(x,y,z)$, che definisce la retta; se in tale sistema 
+In alternativa, si possono scrivere le equazioni parametriche della retta col seguente procedimento: si considera il sistema nelle tre incognite $(x,y,z)$, che definisce la retta; se in tale sistema si riescono ad esprimere due variabili in funzione della terza, si può assumere la terza variabile come parametro.
+
+
+- **Distanza di un punto da piano**
+
