@@ -361,3 +361,4 @@ Questi fatti suggeriscono la possibilità di considerare le $n$-uple ordinate di
 
 #### 3.1.1 **Lo spazio $\mathbb{R}^n$**
 
+Consideriamo dunque l'insime $\mathbb{R}^n$ di tutte le $n$-uple ordinate di numeri reali: $\mathbb{R}^n={x_1$
