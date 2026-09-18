@@ -270,4 +270,8 @@ Le due rette sono **ortogonali** se lo sono i loro vettori direzionali, cioè se
 
 Si noti che per essere ortogonali non è necessario che le due rette siano **incidenti** (cioè si intersechino in un punto).
 
-Prima di vedere come si scrive l'equazione i
+
+c) Prima di vedere come si scrive l'equazione di una retta come intersezione di due piani, vediamo come si scrive l'equazione di un piano.
+
+
+### Equazione del piano
