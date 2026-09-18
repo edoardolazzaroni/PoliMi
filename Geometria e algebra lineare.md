@@ -368,4 +368,4 @@ Se, per esempio, $\mathbf{x}=(x_1,x_2,\cdots,x_n)$, diremo che $x_i$ sono le **c
 				$(x_1,x_2,\cdots,x_n)+(y_1,y_2,\cdots,y_n)=(x_1+y_1,x_2+y_2,\cdots,x_n+y_n)$
 							$\lambda(x_1,x_2,\cdots,x_n)=(\lambda v_1,\lambda x_2,\cdots,\lambda x_n)$
 
-Si noti il diverso punto di vista che stiamo adottando, rispetto al paragrafo precedente:
+Si noti il diverso punto di vista che stiamo adottando rispetto a prima: lì, dopo aver definito la somma di due vettori nel piano per via geometrica (regola del parallelogramma), si dimostrava che la somma si poteva calcolare, 
