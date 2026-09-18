@@ -217,5 +217,9 @@ e dunque i tre vettori <u>sono indipendenti se e solo se quest'ultima espression
 Mediante il calcolo vettoriale introdotto nei paragrafi precedenti è facile scrivere, in un dato sistema di riferimento, vari tipi di equazioni per rette e piani.
 
 - **Equazione della retta**
+
 	Una retta nello spazio è individuata da:
-	a=
+		a) un punto e un vettore direzionale;
+		b) due punti;
+		c) intersezione di due piani non paralleli.
+	Comi
