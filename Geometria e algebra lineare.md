@@ -259,7 +259,7 @@ Le equazioni parametriche della retta risultano allora
 							$\begin{cases} x=x_0+t(x_1-x_0)\\ y=y_0+t(y_1-y_0) \\ z=z_0+t(z_1-z_0) \end{cases}$
 
 
-- **Condizioni di parallelismo ed ortogonalità tra rette**.
+- **Condizioni di parallelismo ed ortogonalità tra rette**
 
 Due rette sono **parallele** se i loro vettori direzionali sono paralleli (linearmente indipendenti). Precisamente, le due rette
 
@@ -305,4 +305,8 @@ Facciamo qualche osservazione:
 	In tal caso $\alpha, \beta, \gamma$ rappresentano le intercette del piano con gli assi coordinati.
 
 
-- **Condizioni di parallelismo ed ortogonalità tra rette**.
+- **Condizioni di parallelismo ed ortogonalità tra piani**
+
+Due piani sono **paralleli** se lo sono i lori vettori ortogonali. Precisamente, i piani
+
+$ax+by+cz=$
