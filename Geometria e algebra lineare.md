@@ -393,4 +393,4 @@ Naturalmente, l'insieme dei vettori nel piano, nello spazio, lo spazio $\mathbb{
 
 - **DEFINIZIONE (3)**. Sia $V$ uno spazio vettoriale e $V_1$ un sottoinsieme di $V$. Se $V_1$, caratterizzato dalle stesse operazioni definite in $V$, risulta essere anch'esso uno spazio vettoriale, diremo che $V_1$ è un **SOTTOSPAZIO VETTORIALE** di $V$.
 
-- <u>Criterio di riconoscimento dei sottospazi</u>. Per verificare che $V_1$ di 
+- <u>Criterio di riconoscimento dei sottospazi</u>. Per verificare che un sottoinsieme $V_1$ di $V$ è un sottospazio non è necessario verificare che le operazioni abbiano le proprietà richieste (associativa, ...): se queste proprietà valgono in tutto $V$, a magg
