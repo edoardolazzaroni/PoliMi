@@ -418,4 +418,6 @@ In uno spazio vettoriale qualunque si può definire la nozione di <u>combinazion
 	
 	Può accadere però che non esista alcun $n$ per cui $V$ ha una base di $n$ vettori; in tal caso si dice che $V$ ha <u>dimensione infinita</u>. Quindi, o $V$ ha dimensione infinita, oppure la sua dimensione è un numero $n$ univocamente determinato.
 	La scomposizione di un vettore $\mathbf{v}$ come combinazione lineare dei vettori di una base è unica; infatti se:
-	$$
+						$\mathbf{v}=\sum_{i=1}^n v_i\mathbf{e}_i \quad$ e $\quad \mathbf{v}=\sum_{i=1}^n w_i\mathbf{e}_i$
+	
+	si ha, sottraendo, $\mathbf{0}=\mathbf{v}=\sum_{i=1}^n v_i\mathbf{e}_i$
