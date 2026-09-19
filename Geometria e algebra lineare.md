@@ -422,5 +422,7 @@ In uno spazio vettoriale qualunque si può definire la nozione di <u>combinazion
 	
 	si ha, sottraendo, $\mathbf{0}=\mathbf{v}=\sum_{i=1}^n (v_i-w_i)\mathbf{e}_i$ che implica, per l'indipendenza dei vettori $\mathbf{e}_i$, $v_i=w_i \quad \forall i=1,2,\cdots,n$.
 	
-	I coefficienti $v_1,v_2,\cdots,v_n$ si chiamano **componenti scalari** di $\mathbf{v}$ rispetto alla base $\mathbf{e}_1, \mathbf{e}_2,\cdots,\mathbf{e}_n$. Se la base si ritiene fissata si può individuare il vettore $\mathbf{v}$ scrivendo:
-	$\mathbf{v}=(v_1,v_2,\cdots,v_n) \quad$ o $\quad \mathbf{v}=\begin{pmatrix} v_1 \\ v_2 \\ \vdots \\ v_n \end{pmatrix}$
+I coefficienti $v_1,v_2,\cdots,v_n$ si chiamano **componenti scalari** di $\mathbf{v}$ rispetto alla base $\mathbf{e}_1, \mathbf{e}_2,\cdots,\mathbf{e}_n$. Se la base si ritiene fissata si può individuare il vettore $\mathbf{v}$ scrivendo:
+						$\mathbf{v}=(v_1,v_2,\cdots,v_n) \quad$ o $\quad \mathbf{v}=\begin{pmatrix} v_1 \\ v_2 \\ \vdots \\ v_n \end{pmatrix}$
+
+Chiameremo il primo <u>vettore riga</u> ed il secondo <u>vettore colonna</u>.
