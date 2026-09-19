@@ -417,4 +417,5 @@ In uno spazio vettoriale qualunque si può definire la nozione di <u>combinazion
 	Si dimostra che, se $V$ ha una base di $n$ vettori, ogni altra base di $V$ è costituita da $n$ vettori. Diremo allora che $V$ ha **dimensione** $n$.
 	
 	Può accadere però che non esista alcun $n$ per cui $V$ ha una base di $n$ vettori; in tal caso si dice che $V$ ha <u>dimensione infinita</u>. Quindi, o $V$ ha dimensione infinita, oppure la sua dimensione è un numero $n$ univocamente determinato.
-	La scomposizione di un vettore $\mathbf{v}$ come combinazione lineare dei vettori di una base è <u>unica</u>; infatti se 
+	La scomposizione di un vettore $\mathbf{v}$ come combinazione lineare dei vettori di una base è unica; infatti se:
+	$$
