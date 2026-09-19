@@ -389,4 +389,4 @@ Generalizzando ancora, si può dare una definizione astratta di spazio vettorial
 	Le operazioni di somma e prodotto così definite devono possedere tutte le proprietà che abbiamo elencato per le operazioni sui vettori di $\mathbb{R}^n$.
 	Gli elementi di $V$ si chiamano <u>vettori</u>, gli elementi di $\mathbb{K}$ si chiamano <u>scalari</u>.
 
-Naturalmente, l'insieme dei vettori nel piano, nello spazio 
+Naturalmente, l'insieme dei vettori nel piano, nello spazio, lo spazio $\mathbb{R}^n$, sono esempi di spazi vettoriali sul campo $\mathbb{R}$. L'esempio più naturale di spazio vettoriale sul campo $\mathbb{C}$, invece, è lo spazio $\mathbb{C}^n$ delle $n$-uple 
