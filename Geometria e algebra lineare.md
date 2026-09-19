@@ -406,4 +406,6 @@ In uno spazio vettoriale qualunque si può definire la nozione di <u>combinazion
 - Si dice che $n$ vettori $\mathbf{v}_1, \mathbf{v}_2,\cdots,\mathbf{v}_n$ sono linearmente dipendenti se esiste una loro combinazione lineare, a coefficienti non tutti nulli, che dà il vettore nullo; viceversa, si dice che sono indipendenti se l'identità:
 							$\alpha_1\mathbf{v}_1+ \alpha_2\mathbf{v}_2,\cdots,\alpha_n\mathbf{v}_n =\mathbf{0}$
 
-(implica $\alpha_i \$)
+(implica $\alpha_i =0$ per $i=1,2,\cdots,n$).
+
+- **DEFINIZIONE (4)**. Sia $V$ uno spazio vettoriale, e supponiamo che esistano $n$ vettori 
