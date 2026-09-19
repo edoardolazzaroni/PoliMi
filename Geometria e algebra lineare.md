@@ -390,3 +390,5 @@ Generalizzando ancora, si può dare una definizione astratta di spazio vettorial
 	Gli elementi di $V$ si chiamano <u>vettori</u>, gli elementi di $\mathbb{K}$ si chiamano <u>scalari</u>.
 
 Naturalmente, l'insieme dei vettori nel piano, nello spazio, lo spazio $\mathbb{R}^n$, sono esempi di spazi vettoriali sul campo $\mathbb{R}$. L'esempio più naturale di spazio vettoriale sul campo $\mathbb{C}$, invece, è lo spazio $\mathbb{C}^n$ delle $n$-uple ordinate di numeri complessi: due $n$-uple di numeri complessi si possono sommare tra loro componente per componente, così come una $n$-upla si può moltiplicare per un numero complesso.
+
+- **DEFINIZIONE (3)**. Sia $V$ uno spazio vettoriale e $V_1$ un sottoinsieme di $V$. Se $V_1$,
