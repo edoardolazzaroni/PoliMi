@@ -384,4 +384,5 @@ Generalizzando ancora, si può dare una definizione astratta di spazio vettorial
 - **DEFINIZIONE (2)**. Si dice **SPAZIO VETTORIALE** su un campo numerico $\mathbb{K}$ (che per noi sarà $\mathbb{R}$ o $\mathbb{C}$) un insieme $V$ di elementi per i quali sono definite:
 	
 	- un'operazione di <mark class="hltr-yellow">somma</mark> che associa ad ogni coppia di elementi di $V$ un altro ed unico elemento di $V$;
-	- un'operazione di pr
+	- un'operazione di <mark class="hltr-yellow">prodotto</mark> che associa ad ogni coppia formata da un elemento di $V$ e da un numero appartenente a $\mathbb{K}$ un altro ed unico elemento di $V$;
+	- 
