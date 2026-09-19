@@ -414,3 +414,4 @@ In uno spazio vettoriale qualunque si può definire la nozione di <u>combinazion
 								$\mathbf{v}=\sum_{i=1}^n v_i\mathbf{e}_i$
 	
 	Allora si dice che $\mathbf{e}_1, \mathbf{e}_2,\cdots,\mathbf{e}_n$ costituiscono una **BASE** di $V$.
+	Si dimostra che, se $V$ ha una base di $n$ vettori, ogni altra base di $V$ è costituita da $n$ vettori. Diremo allora che $V$ ha dimensione $n$.
