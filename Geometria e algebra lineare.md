@@ -379,4 +379,6 @@ L'insieme dei vettori del piano e dello spazio possono essere identificati, risp
 
 #### 3.1.2 **Spazi vettoriali astratti**
 
-Generalizzando ancora, 
+Generalizzando ancora, si può dare una definizione astratta di spazio vettoriale, che si rivela utile in matematica perchè consente di trattare unitariamente molte situazioni diverse.
+
+Definizione 
