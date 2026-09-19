@@ -410,4 +410,4 @@ In uno spazio vettoriale qualunque si può definire la nozione di <u>combinazion
 
 - **DEFINIZIONE (4)**. Sia $V$ uno spazio vettoriale, e supponiamo che esistano $n$ vettori $\mathbf{e}_1, \mathbf{e}_2,\cdots,\mathbf{e}_n$ tali che:
 	1. $\mathbf{e}_1, \mathbf{e}_2,\cdots,\mathbf{e}_n$ sono linearmente indipendenti;
-	2. ogni altro vettore di
+	2. ogni altro vettore di $V$ può scriversi come combinazione lineare di questi, ossia: per ogni $\mathbf{v}\in\mathbf{V}$ esistono $n$ coefficienti reali $v_1,v_2,\cdots,v_n$ tali che
