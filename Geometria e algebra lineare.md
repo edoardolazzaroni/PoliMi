@@ -420,4 +420,4 @@ In uno spazio vettoriale qualunque si può definire la nozione di <u>combinazion
 	La scomposizione di un vettore $\mathbf{v}$ come combinazione lineare dei vettori di una base è unica; infatti se:
 						$\mathbf{v}=\sum_{i=1}^n v_i\mathbf{e}_i \quad$ e $\quad \mathbf{v}=\sum_{i=1}^n w_i\mathbf{e}_i$
 	
-	si ha, sottraendo, $\mathbf{0}=\mathbf{v}=\sum_{i=1}^n v_i\mathbf{e}_i$
+	si ha, sottraendo, $\mathbf{0}=\mathbf{v}=\sum_{i=1}^n (v_i-w_i)\mathbf{e}_i$ che implica, per l'indipendenza dei vettori $\mathbf{e}_i$, $v_i=w_i \forall i=1,2,\c$ 
