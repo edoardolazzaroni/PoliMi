@@ -385,4 +385,5 @@ Generalizzando ancora, si può dare una definizione astratta di spazio vettorial
 	
 	- un'operazione di <mark class="hltr-yellow">somma</mark> che associa ad ogni coppia di elementi di $V$ un altro ed unico elemento di $V$;
 	- un'operazione di <mark class="hltr-yellow">prodotto</mark> che associa ad ogni coppia formata da un elemento di $V$ e da un numero appartenente a $\mathbb{K}$ un altro ed unico elemento di $V$;
-	- 
+	
+	Le operazioni di somma e prodotto così definite devono possedere tutte le proprietà che abbiamo elencato per le operazioni sui vettori
