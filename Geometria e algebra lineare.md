@@ -401,4 +401,6 @@ Naturalmente, l'insieme dei vettori nel piano, nello spazio, lo spazio $\mathbb{
 In uno spazio vettoriale qualunque si può definire la nozione di <u>combinazione lineare di vettori</u>, e quella di <u>indipendenza lineare</u> in modo del tutto analogo a quanto visto per i vettori nel piano o nello spazio.
 
 - Si dice **combinazione lineare** di $n$ vettori $\mathbf{v}_1, \mathbf{v}_2,\cdots,\mathbf{v}_n$ ogni vettore del tipo:
-		$\alpha_1\mathbf{v}_1+ \alpha_2\mathbf{v}_2,\cdots,\alpha_\mathbf{v}_n$
+							$\alpha_1\mathbf{v}_1+ \alpha_2\mathbf{v}_2,\cdots,\alpha_n\mathbf{v}_n$
+
+Con $\alpha_i \in \mathbb{R}$. Si dice che $n$ vettori $\mathbf{v}_1, \mathbf{v}_2,\cdots,\mathbf{v}_n$ sono linearmente 
