@@ -381,4 +381,4 @@ L'insieme dei vettori del piano e dello spazio possono essere identificati, risp
 
 Generalizzando ancora, si può dare una definizione astratta di spazio vettoriale, che si rivela utile in matematica perchè consente di trattare unitariamente molte situazioni diverse.
 
-- **DEFINIZIONE (2)**. 
+- **DEFINIZIONE (2)**. Si dice **spazio vettoriale** su un campo numerico $\mathbb{K}$ 
