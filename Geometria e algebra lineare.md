@@ -392,4 +392,5 @@ Generalizzando ancora, si può dare una definizione astratta di spazio vettorial
 Naturalmente, l'insieme dei vettori nel piano, nello spazio, lo spazio $\mathbb{R}^n$, sono esempi di spazi vettoriali sul campo $\mathbb{R}$. L'esempio più naturale di spazio vettoriale sul campo $\mathbb{C}$, invece, è lo spazio $\mathbb{C}^n$ delle $n$-uple ordinate di numeri complessi: due $n$-uple di numeri complessi si possono sommare tra loro componente per componente, così come una $n$-upla si può moltiplicare per un numero complesso.
 
 - **DEFINIZIONE (3)**. Sia $V$ uno spazio vettoriale e $V_1$ un sottoinsieme di $V$. Se $V_1$, caratterizzato dalle stesse operazioni definite in $V$, risulta essere anch'esso uno spazio vettoriale, diremo che $V_1$ è un **SOTTOSPAZIO VETTORIALE** di $V$.
-- 
+
+- <u>Criterio di riconoscimento dei sottospazi</u>. Per verificare che $V_1$ di 
