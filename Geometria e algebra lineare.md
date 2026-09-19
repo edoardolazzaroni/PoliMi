@@ -120,7 +120,7 @@ $\mathbf{i}$, $\mathbf{j}$, $\mathbf{k}$ si dicono **VERSORI FONDAMENTALI NELLO 
 Consideriamo $k$ vettori $\mathbf{v_1,...,v_k}$ (nel piano e nello spazio) e $k$ scalari $\alpha_1,...,\alpha_k$.
 Il vettore $\mathbf{w}=\alpha_1 \mathbf{v_1}+ ... +\alpha_k \mathbf{v_k}$ si chiama **COMBINAZIONE LINEARE** dei vettori $\mathbf{v_1,...,v_k}$ con coefficienti $\alpha_1,...,\alpha_k$.
 
-- **Definizione (1).** I vettori di $\mathbf{v_1,...,v_k}$ si dicono <u>LINEARMENTE INDIPENDENTI</u> se almeno uno di essi si può esprimere come combinazione lineare degli altri; in caso contrario si dicono **LINEARMENTE INDIPENDENTI**.
+- **DEFINIZIONE (1).** I vettori di $\mathbf{v_1,...,v_k}$ si dicono <u>LINEARMENTE INDIPENDENTI</u> se almeno uno di essi si può esprimere come combinazione lineare degli altri; in caso contrario si dicono **LINEARMENTE INDIPENDENTI**.
 	 
 	- Equivalentemente, $\mathbf{v_1,...,v_k}$ sono <mark class="hltr-yellow">indipendenti</mark> se $\alpha_1 \mathbf{v_1}+ ... +\alpha_k \mathbf{v_k}=\mathbf{0}$ implica $\alpha_1,...,\alpha_k=0$.
 	
@@ -381,4 +381,4 @@ L'insieme dei vettori del piano e dello spazio possono essere identificati, risp
 
 Generalizzando ancora, si può dare una definizione astratta di spazio vettoriale, che si rivela utile in matematica perchè consente di trattare unitariamente molte situazioni diverse.
 
-Definizione 
+- **DEFINIZIONE (2)**. 
