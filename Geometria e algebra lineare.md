@@ -359,6 +359,7 @@ Nei primi capitoli abbiamo visto come i vettori nel piano e nello spazio si poss
 
 Questi fatti suggeriscono la possibilità di considerare le $n$-uple ordinate di numeri reali come vettori di uno spazio astratto a $n$ dimensioni.
 
+
 #### 3.1.1 **Lo spazio $\mathbb{R}^n$**
 
 Consideriamo dunque l'insieme $\mathbb{R}^n$ di tutte le $n$-uple ordinate di numeri reali: $\mathbb{R}^n=\left\{(x_1, x_2, \cdots,x_n):x_i\in\mathbb{R}\right\}$ (ricordiamo che il simbolo $\mathbb{R}^n$ è un'abbreviazione del prodotto cartesiano $\mathbb{R}\times\mathbb{R}\times\cdots\mathbb{R}$ $n$ volte).
@@ -375,5 +376,7 @@ Le operazioni di somma di due vettori e di prodotto per uno scalare godono delle
 
 L'insieme dei vettori del piano e dello spazio possono essere identificati, rispettivamente, con $\mathbb{R}^2$ e $\mathbb{R}^3$.
 
+
 #### 3.1.2 **Spazi vettoriali astratti**
 
+Generalizzando ancora, 
