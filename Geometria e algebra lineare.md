@@ -408,4 +408,6 @@ In uno spazio vettoriale qualunque si può definire la nozione di <u>combinazion
 
 (implica $\alpha_i =0$ per $i=1,2,\cdots,n$).
 
-- **DEFINIZIONE (4)**. Sia $V$ uno spazio vettoriale, e supponiamo che esistano $n$ vettori 
+- **DEFINIZIONE (4)**. Sia $V$ uno spazio vettoriale, e supponiamo che esistano $n$ vettori $\mathbf{e}_1, \mathbf{e}_2,\cdots,\mathbf{e}_n$ tali che:
+	1. $\mathbf{e}_1, \mathbf{e}_2,\cdots,\mathbf{e}_n$ sono linearmente indipendenti;
+	2. ogni altro vettore di
