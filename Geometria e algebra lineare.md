@@ -464,4 +464,4 @@ Analogamente, si dirà che in $\mathbb{R}^n$:
 
 Accade spesso di voler sostituire un vettore $\mathbf{v}$ con il corrispondente $vers(\mathbf{v})$; questa operazione si dice **normalizzazione del vettore** $\mathbf{v}$ e $vers(\mathbf{v})$ prende il nome di vettore normalizzato.
 
-- #Teorema(1). 
+- #TEOREMA(1). 
