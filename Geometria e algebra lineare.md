@@ -462,4 +462,6 @@ Analogamente, si dirà che in $\mathbb{R}^n$:
 	Un vettore di modulo unitario si dice versore. Dato un vettore $\mathbf{v}$ non nullo, si definisce
 								$vers(\mathbf{v})=\frac{\mathbf{v}}{|\mathbf{v}|}$.
 
-Accade spesso di voler sostituire un vettore $\mathbf{v}$ con il corrispondente $vers(\mathbf{v})$;
+Accade spesso di voler sostituire un vettore $\mathbf{v}$ con il corrispondente $vers(\mathbf{v})$; questa operazione si dice **normalizzazione del vettore** $\mathbf{v}$ e $vers(\mathbf{v})$ prende il nome di vettore normalizzato.
+
+#Teorema ()
