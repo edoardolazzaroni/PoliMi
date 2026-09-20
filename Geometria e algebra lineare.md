@@ -454,11 +454,12 @@ Mentre il secondo è un'operazione tipica di $\mathbb{R}^3$, il prodotto scalare
 
 Questo prodotto scalare ha le [[#1.5 **Prodotto scalare e vettoriale**|stesse proprietà formali]] che aveva nel caso di $\mathbb{R}^2$ o $\mathbb{R}^3$.
 Analogamente, si dirà che in $\mathbb{R}^n$:
+
 - Due vettori $\mathbf{u}, \mathbf{v}$ sono <mark class="hltr-yellow">ortogonali</mark> se $\mathbf{u}\cdot\mathbf{v}=\mathbf{0}$;
 - Due vettori $\mathbf{u}, \mathbf{v}$ sono <mark class="hltr-yellow">paralleli</mark> se $\mathbf{u}=\lambda\mathbf{v} \quad (\lambda \in \mathbb{R})$;
 - Definiamo modulo o norma di un vettore $\mathbf{v}$ il numero $|\mathbf{v}|=\sqrt{\mathbf{v}\cdot\mathbf{v}}=(\sum_{i=1}^n {v^2}_i)^\frac{1}{2}$
 	
 	Un vettore di modulo unitario si dice versore. Dato un vettore $\mathbf{v}$ non nullo, si definisce
-								vers $(\mathbf{v})=\frac{\mathbf{v}}{|\mathbf{v}|}$.
+								$vers(\mathbf{v})=\frac{\mathbf{v}}{|\mathbf{v}|}$.
 
-Accade spess
+Accade spesso di voler sostituire un vettore $\mathbf{v}$ con il corrispondente $vers(\mathbf{v})$;
