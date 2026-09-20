@@ -466,4 +466,5 @@ Accade spesso di voler sostituire un vettore $\mathbf{v}$ con il corrispondente 
 
 - #TEOREMA(1). Il modulo di un vettore soddisfa le proprietà seguenti $\forall \mathbf{u}, \mathbf{v} \in \mathbb{R}^n, \lambda \in \mathbb{R}$:
 	1. Positività: $|\mathbf{v}|\ge0$ e $|\mathbf{v}|=0 \leftrightarrow \mathbf{v}=0$
-	2. O
+	2. Omogeneità: $|\lambda\mathbf{v}|=|\lambda||\mathbf{v}|$
+	3. Disuguaglianza triangolare: $|\mathbf{u}+\mathbf{v}|\ge0$
