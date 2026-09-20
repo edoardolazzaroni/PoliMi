@@ -430,3 +430,5 @@ Chiameremo il primo <u>vettore riga</u> ed il secondo <u>vettore colonna</u>.
 
 
 #### 3.1.4 **Spazi di funzioni**
+
+Una classe di spazi vettoriali particolarmente importanti nello studio dell'analisi matematica è quella degli <u>spazi di funzioni</u>: sia $I$
