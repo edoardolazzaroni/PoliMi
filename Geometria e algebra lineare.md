@@ -469,4 +469,5 @@ Accade spesso di voler sostituire un vettore $\mathbf{v}$ con il corrispondente 
 	2. Omogeneità: $|\lambda\mathbf{v}|=|\lambda||\mathbf{v}|$
 	3. Disuguaglianza triangolare: $|\mathbf{u}+\mathbf{v}|\le|\mathbf{u}|+|\mathbf{v}|$
 	4. Disuguaglianza di Cauchy-Schwarz: $|\mathbf{u}\cdot\mathbf{v}|\le|\mathbf{u}||\mathbf{v}|$
-	5. 
+	
+	*Dimostrazione*:
