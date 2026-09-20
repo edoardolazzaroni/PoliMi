@@ -447,4 +447,4 @@ Un analogo ragionamento mostra che l'insieme di tutte le funzioni derivabili in 
 
 ### 3.2 **Prodotto scalare in $\mathbb{R}^n$*
 
-Torniamo ora ad occuparci spe
+Torniamo ora ad occuparci specificamente dello spazio $\mathbb{R}^n$. Tra i vettori del piano e dello spazio, abbiamo visto che sono definite oltre alle due operazioni caratteristiche di ogni spazio vettoriale, altre due operazioni: il prodotto scalare e, per vettori dello spazi
