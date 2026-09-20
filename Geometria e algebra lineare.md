@@ -436,4 +436,4 @@ Tra queste funzioni si possono definire un'operazione di somma ed una di prodott
 							$(f+g)(x)=f(x)+g(x)$
 								$(\lambda f)(x)=\lambda f(x)$.
 
-È immediato verificare che, munito di queste operazioni, $\mathcal{F}_I$ risulta essere uno spazio vettoriale su $\mathbb{R}$
+È immediato verificare che, munito di queste operazioni, $\mathcal{F}_I$ risulta essere uno spazio vettoriale su $\mathbb{R}$. Inoltre questo spazio ha dimensione infinita (tranne nel caso in cui l'intervallo $I$ sia ridotto ad un solo punto), in quanto non esiste un numero finito di funzioni $f_i \ : \ $
