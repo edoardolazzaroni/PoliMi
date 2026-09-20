@@ -438,4 +438,5 @@ Tra queste funzioni si possono definire un'operazione di somma ed una di prodott
 
 È immediato verificare che, munito di queste operazioni, $\mathcal{F}_I$ risulta essere uno spazio vettoriale su $\mathbb{R}$. Inoltre questo spazio ha dimensione infinita (tranne nel caso in cui l'intervallo $I$ sia ridotto ad un solo punto), in quanto non esiste un numero finito di funzioni $f_i \ : \ I\rightarrow\mathbb{R}, \ i=1,2,\cdots,n$ tali che ogni altra funzione non si possa esprimere come loro combinazione lineare.
 
-Spesso è più interessante considerare, anzichè tu
+Spesso è più interessante considerare, anzichè l'insieme di tutte le funzioni possibili, l'insieme delle funzioni con qualche proprietà importante (funzioni continue, integrabili, ...).
+Ad esempio, indicheremo con $C(I)$ l'insieme di tutte le funzioni $f$
