@@ -440,4 +440,4 @@ Tra queste funzioni si possono definire un'operazione di somma ed una di prodott
 
 Spesso è più interessante considerare, anzichè l'insieme di tutte le funzioni possibili, l'insieme delle funzioni con qualche proprietà importante (funzioni continue, integrabili, ...).
 Ad esempio, indicheremo con $C(I)$ l'insieme di tutte le funzioni $f \ : \ I\rightarrow\mathbb{R}$ continue in $I$.
-Poichè ogni combinazione lineare di funzioni continue è ancora una funzione continua, in base al criterio di riconoscimento di sottospazi vettoriali
+Poichè ogni combinazione lineare di funzioni continue è ancora una funzione continua, in base al criterio di riconoscimento di sottospazi vettoriali [[#3.1.2 **Spazi vettoriali astratti**|precedentemente]]
