@@ -442,3 +442,9 @@ Spesso è più interessante considerare, anzichè l'insieme di tutte le funzioni
 Ad esempio, indicheremo con $C(I)$ l'insieme di tutte le funzioni $f \ : \ I\rightarrow\mathbb{R}$ continue in $I$.
 Poichè ogni combinazione lineare di funzioni continue è ancora una funzione continua, in base al [[#3.1.2 **Spazi vettoriali astratti**|criterio di riconoscimento di sottospazi vettoriali]] possiamo concludere che $C(I)$ è un sottospazio di $\mathcal{F}_I$, ed in particolare esso è a sua volta uno spazio vettoriale.
 Un analogo ragionamento mostra che l'insieme di tutte le funzioni derivabili in $(a,b)$ e l'insieme di tutte le funzioni integrabili in $[a,b]$ risultano essere spazi vettoriali.
+
+
+
+### 3.2 **Prodotto scalare in $\mathbb{R}^n$*
+
+Torniamo ora ad occuparci spe
