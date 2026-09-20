@@ -452,4 +452,4 @@ Mentre il secondo è un'operazione tipica di $\mathbb{R}^3$, il prodotto scalare
 
 						$(x_1,x_2,\cdots,x_n)\cdot(y_1,y_2,\cdots,y_n)=\sum_{i=1}^n x_iy_i$
 
-Questo prodotto scalare ha le stesse proprietà formali ch
+Questo prodotto scalare ha le stesse proprietà formali che aveva nel caso di $\mathbb{R}^2$ o $\mathbb{R}^3$.
