@@ -391,7 +391,7 @@ Generalizzando ancora, si può dare una definizione astratta di spazio vettorial
 
 Naturalmente, l'insieme dei vettori nel piano, nello spazio, lo spazio $\mathbb{R}^n$, sono esempi di spazi vettoriali sul campo $\mathbb{R}$. L'esempio più naturale di spazio vettoriale sul campo $\mathbb{C}$, invece, è lo spazio $\mathbb{C}^n$ delle $n$-uple ordinate di numeri complessi: due $n$-uple di numeri complessi si possono sommare tra loro componente per componente, così come una $n$-upla si può moltiplicare per un numero complesso.
 
-- **DEFINIZIONE (3)**. Sia $V$ uno spazio vettoriale e $V_1$ un sottoinsieme di $V$. Se $V_1$, caratterizzato dalle stesse operazioni definite in $V$, risulta essere anch'esso uno spazio vettoriale, diremo che $V_1$ è un **SOTTOSPAZIO VETTORIALE** di $V$.
+- #DEFINIZIONE(3). Sia $V$ uno spazio vettoriale e $V_1$ un sottoinsieme di $V$. Se $V_1$, caratterizzato dalle stesse operazioni definite in $V$, risulta essere anch'esso uno spazio vettoriale, diremo che $V_1$ è un **SOTTOSPAZIO VETTORIALE** di $V$.
 
 - <u>Criterio di riconoscimento dei sottospazi</u>. Per verificare che un sottoinsieme $V_1$ di $V$ è un sottospazio non è necessario verificare che le operazioni abbiano le proprietà richieste (associativa, ...): se queste proprietà valgono in tutto $V$, a maggior ragione varranno in $V_1$. Invece, occorre verificare che eseguendo tali operazioni su elementi di $V_1$ non si esce da $V_1$, ovvero che: $\forall \ \mathbf{v}_1,\mathbf{v}_2 \in V_1, \ \lambda \in \mathbb{R} \quad$ si ha che $\quad \mathbf{v}_1+\mathbf{v}_2\in V_1$ e $\lambda \mathbf{v}_1\in V_1$.
 
@@ -464,4 +464,4 @@ Analogamente, si dirà che in $\mathbb{R}^n$:
 
 Accade spesso di voler sostituire un vettore $\mathbf{v}$ con il corrispondente $vers(\mathbf{v})$; questa operazione si dice **normalizzazione del vettore** $\mathbf{v}$ e $vers(\mathbf{v})$ prende il nome di vettore normalizzato.
 
-#Teorema ()
+#Teorema(1). 
