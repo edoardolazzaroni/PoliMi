@@ -427,3 +427,6 @@ I coefficienti $v_1,v_2,\cdots,v_n$ si chiamano **componenti scalari** di $\math
 						$\mathbf{v}=(v_1,v_2,\cdots,v_n) \quad$ o $\quad \mathbf{v}=\begin{pmatrix} v_1 \\ v_2 \\ \vdots \\ v_n \end{pmatrix}$
 
 Chiameremo il primo <u>vettore riga</u> ed il secondo <u>vettore colonna</u>.
+
+
+#### 3.1.4 **Spazi di funzioni**
