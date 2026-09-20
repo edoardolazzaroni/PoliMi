@@ -120,7 +120,7 @@ $\mathbf{i}$, $\mathbf{j}$, $\mathbf{k}$ si dicono **VERSORI FONDAMENTALI NELLO 
 Consideriamo $k$ vettori $\mathbf{v_1,...,v_k}$ (nel piano e nello spazio) e $k$ scalari $\alpha_1,...,\alpha_k$.
 Il vettore $\mathbf{w}=\alpha_1 \mathbf{v_1}+ ... +\alpha_k \mathbf{v_k}$ si chiama **COMBINAZIONE LINEARE** dei vettori $\mathbf{v_1,...,v_k}$ con coefficienti $\alpha_1,...,\alpha_k$.
 
-- **DEFINIZIONE (1).** I vettori di $\mathbf{v_1,...,v_k}$ si dicono **LINEARMENTE DIPENDENTI** se almeno uno di essi si può esprimere come combinazione lineare degli altri; in caso contrario si dicono **LINEARMENTE INDIPENDENTI**.
+- #DEFINIZIONE(1). I vettori di $\mathbf{v_1,...,v_k}$ si dicono **LINEARMENTE DIPENDENTI** se almeno uno di essi si può esprimere come combinazione lineare degli altri; in caso contrario si dicono **LINEARMENTE INDIPENDENTI**.
 	 
 	- Equivalentemente, $\mathbf{v_1,...,v_k}$ sono <mark class="hltr-yellow">indipendenti</mark> se $\alpha_1 \mathbf{v_1}+ ... +\alpha_k \mathbf{v_k}=\mathbf{0}$ implica $\alpha_1,...,\alpha_k=0$.
 	
@@ -381,7 +381,7 @@ L'insieme dei vettori del piano e dello spazio possono essere identificati, risp
 
 Generalizzando ancora, si può dare una definizione astratta di spazio vettoriale, che si rivela utile in matematica perchè consente di trattare unitariamente molte situazioni diverse.
 
-- #DEFINIZIONE(2)**. Si dice **SPAZIO VETTORIALE** su un campo numerico $\mathbb{K}$ (che per noi sarà $\mathbb{R}$ o $\mathbb{C}$) un insieme $V$ di elementi per i quali sono definite:
+- #DEFINIZIONE(2). Si dice **SPAZIO VETTORIALE** su un campo numerico $\mathbb{K}$ (che per noi sarà $\mathbb{R}$ o $\mathbb{C}$) un insieme $V$ di elementi per i quali sono definite:
 	
 	- un'operazione di <mark class="hltr-yellow">somma</mark> che associa ad ogni coppia di elementi di $V$ un altro ed unico elemento di $V$;
 	- un'operazione di <mark class="hltr-yellow">prodotto</mark> che associa ad ogni coppia formata da un elemento di $V$ e da un numero appartenente a $\mathbb{K}$ un altro ed unico elemento di $V$;
@@ -464,4 +464,4 @@ Analogamente, si dirà che in $\mathbb{R}^n$:
 
 Accade spesso di voler sostituire un vettore $\mathbf{v}$ con il corrispondente $vers(\mathbf{v})$; questa operazione si dice **normalizzazione del vettore** $\mathbf{v}$ e $vers(\mathbf{v})$ prende il nome di vettore normalizzato.
 
-- #TEOREMA(1). 
+- #TEOREMA(1). Il modulo di un vettore soddisfa le proprietà se
