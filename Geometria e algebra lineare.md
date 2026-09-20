@@ -465,5 +465,5 @@ Analogamente, si dirà che in $\mathbb{R}^n$:
 Accade spesso di voler sostituire un vettore $\mathbf{v}$ con il corrispondente $vers(\mathbf{v})$; questa operazione si dice **normalizzazione del vettore** $\mathbf{v}$ e $vers(\mathbf{v})$ prende il nome di vettore normalizzato.
 
 - #TEOREMA(1). Il modulo di un vettore soddisfa le proprietà seguenti $\forall \mathbf{u}, \mathbf{v} \in \mathbb{R}^n, \lambda \in \mathbb{R}$:
-	1. Positività: $|\mathbf{v}|$
-	2. 
+	1. Positività: $|\mathbf{v}|\ge0$ e $|\mathbf{v}|=0 \leftrightarrow \mathbf{v}=0$
+	2. O
