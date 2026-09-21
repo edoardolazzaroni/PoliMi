@@ -496,4 +496,4 @@ Tali proprietà seguono immediatamente dalle proprietà del modulo.
 
 Facciamo ora un altro salto di astrazione, e consideriamo la possibilità di introdurre, in certi spazi vettoriali diversi da $\mathbb{R}^n$, un'operazione che goda delle stesse proprietà formali del prodotto scalare.
 
-- #DEFINIZIONE (5)
+- #DEFINIZIONE(5). Sia $V$ uno spazio vettoriale su $\mathbb{R}$, e supponiamo che sia definita un'operazione che ad ogni coppia di vettori $$
