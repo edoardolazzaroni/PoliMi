@@ -584,5 +584,8 @@ Si può dimostrare che <mark class="hltr-yellow">uno spazio vettoriale di dimens
 	Il lettore verifichi che $\mathbf{u}_{3}$ è ortogonale a $\mathbf{u}_{1},\mathbf{u}_{2}$ ed ha modulo unitario, perciò $\mathbf{u}_{1},\mathbf{u}_{2},\mathbf{u}_{3}$ sono una base ortonormale di $\mathbb{R}^3$, i cui primi due elementi sono una base ortonormale di $V$.
 	
 	Più in generale, l'*algoritmo iterativo* di ortonormalizzazione di un sistema $\mathbf{v}_{1},\mathbf{v}_{2},\cdots,\mathbf{v}_{n}$ di vettori linearmente indipendenti è il seguente:
-	$\mathbf{u}_{1}=vers(\mathbf{v}_{1})$
-	$\mathbf{u}_{k}=vers(\mathbf{v}_{k}-\sum_{j=1}^{k-1} (\mathbf{u}_{j}\cdot\mathbf{v}_{k}))$
+	
+		$\mathbf{u}_{1}=vers(\mathbf{v}_{1})$
+		$\mathbf{u}_{k}=vers(\mathbf{v}_{k}-\sum_{j=1}^{k-1} (\mathbf{u}_{j}\cdot\mathbf{v}_{k})\mathbf{u}_{j}) \quad$ per $k=2,3,\cdots,n$.
+	
+	Lo
