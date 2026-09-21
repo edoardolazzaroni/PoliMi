@@ -592,3 +592,4 @@ Si può dimostrare che <mark class="hltr-yellow">uno spazio vettoriale di dimens
 
 
 - #TEOREMA(3). **Proiezione ed elemento di minima distanza**
+	Sia $V$ uno spazio vettoriale di 
