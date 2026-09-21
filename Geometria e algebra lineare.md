@@ -588,4 +588,4 @@ Si può dimostrare che <mark class="hltr-yellow">uno spazio vettoriale di dimens
 		$\mathbf{u}_{1}=vers(\mathbf{v}_{1})$
 		$\mathbf{u}_{k}=vers(\mathbf{v}_{k}-\sum_{j=1}^{k-1} (\mathbf{u}_{j}\cdot\mathbf{v}_{k})\mathbf{u}_{j}) \quad$ per $k=2,3,\cdots,n$.
 	
-	Lo
+	Lo studente è invitato a dimostrare che i vettori $\mathbf{u}_{1},\mathbf{u}_{2},\cdots,\mathbf{u}_{n}$ così costruiti sono effettivamente ortonormali. Si noti che il sistema di vettori ortonormali $\mathbf{u}_{1},\mathbf{u}_{2},\cdots,\mathbf{u}_{n}$ non dipende solo dal sistema 
