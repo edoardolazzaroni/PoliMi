@@ -510,4 +510,5 @@ Continua a valere il teorema precedente: in altre parole, dagli assiomi di prodo
 						${V_{1}}^{\perp}=\left\{\mathbf{v}\in V:\mathbf{v}\cdot\mathbf{u}=0 \quad \forall\mathbf{u}\in V_{1} \right\}$
 	
 	In altre parole, ${V_{1}}^{\perp}$ è <mark class="hltr-yellow">l'insieme dei vettori che sono ortogonali</mark> a tutti i vettori di $V_{1}$.
-	Si verifica facilmente che tale insieme è un sottospazio di $V$, che
+	Si verifica facilmente che tale insieme è un sottospazio di $V$, che prende il nome di <u>complemento ortogonale</u> di $V_{1}$.
+	Più in generale, due sottospazi $U$ e $W$ di $V$ si dicono ortogonali se ogni ve
