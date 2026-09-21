@@ -522,4 +522,4 @@ Fissata una base $\mathbf{e}_1, \mathbf{e}_2,\cdots,\mathbf{e}_n$ calcoliamo il 
 
 $\mathbf{u}=\sum_{i=1}^n u_i\mathbf{e}_i$ e $\mathbf{v}=\sum_{j=1}^n v_j\mathbf{e}_j$
 
-Applicando le proprietà del prodotto scalare si ha $\mathbf{u}\cdot\mathbf{w}=$
+Applicando le proprietà del prodotto scalare si ha $\mathbf{u}\cdot\mathbf{w}=(\sum_{i=1}^n u_i\mathbf{e}_i)\cdot(\sum_{j=1}^n v_j\mathbf{e}_j)=\sum_{i,j=1}^n u_{i}v_j\mathbf{e}_i\mathbf{e}_j$
