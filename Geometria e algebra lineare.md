@@ -608,6 +608,8 @@ Si può dimostrare che <mark class="hltr-yellow">uno spazio vettoriale di dimens
 	che rappresenta la proiezione di $\mathbf{v}$ su $V_{1}$. Poniamo anche $\mathbf{w}=\mathbf{v}-\mathbf{u}$.
 	Dalle definizioni segue subito che $\mathbf{u}\in V_{1}$ e $\mathbf{v}=\mathbf{u}+\mathbf{w}$; proviamo che $\mathbf{w}\in {V_{1}}^\perp$.
 	È sufficiente dimostrare l'ortogonalità di $\mathbf{w}$ a ciascun elemento $\mathbf{e}_{j}$ della base di $V_{1}$, in quanto l'ortogonalità a qualunque vettore di $V_{1}$ seguirà per linearità. Si ha:
+	
 		$\mathbf{w}\cdot\mathbf{e}_{j}=(\mathbf{v}-\mathbf{u})\cdot\mathbf{e}_{j}=\mathbf{v}\cdot\mathbf{e}_{j}-(\sum_{i=1}^n (\mathbf{v}\cdot\mathbf{e}_{i})\mathbf{e}_{i})\cdot\mathbf{e}_{j}=\mathbf{v}\cdot\mathbf{e}_{j}-\sum_{i=1}^n (\mathbf{v}\cdot\mathbf{e}_{i})(\mathbf{e}_{i}\cdot\mathbf{e}_{j})$
 		
-	essendo $\mathbf{e}_{i}\cdot\mathbf{e}_{j}=0$ per $i\ne j$ e $\mathbf{e}_{i}\cdot\mathbf{e}_{i}=1,$
+	essendo $\mathbf{e}_{i}\cdot\mathbf{e}_{j}=0$ per $i\ne j$ e $\mathbf{e}_{i}\cdot\mathbf{e}_{i}=1, \quad =\mathbf{v}\cdot\mathbf{e}_{j}-(\mathbf{v}\cdot\mathbf{e}_{j})=0$,
+	dunqu
