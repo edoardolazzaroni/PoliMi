@@ -476,4 +476,4 @@ Accade spesso di voler sostituire un vettore $\mathbf{v}$ con il corrispondente 
 	Ricordando che $\mathbf{u}\cdot\mathbf{u}$, $\mathbf{u}\cdot\mathbf{v}$, $\mathbf{v}\cdot\mathbf{v}$ sono tre costanti, mentre $t$ è generico, si può rileggere la precedente disuguaglianza dicendo che il trinomio di secondo grado in $t$ non è mai negativo.
 	CIò è possibile solo se il suo discriminante non è positivo, ovvero $(\mathbf{u}\cdot\mathbf{v})^2-(\mathbf{u}\cdot\mathbf{u})(\mathbf{v}\cdot\mathbf{v})\le 0$, cioè: $|\mathbf{u}\cdot\mathbf{v}|\le\sqrt{(\mathbf{u}\cdot\mathbf{u})(\mathbf{v}\cdot\mathbf{v})}=|\mathbf{u}|\cdot|\mathbf{v}|$, come volevasi dimostrare.
 	
-	*(2)* La Disuguaglianza triangolare segue dalle relazioni: $|\mathbf{u}\cdot\mathbf{v}|^2=()$
+	*(2)* La Disuguaglianza triangolare segue dalle relazioni: $|\mathbf{u}\cdot\mathbf{v}|^2=(\mathbf{u}+\mathbf{v})\cdot(\mathbf{u}+\mathbf{v})=\mathbf{u}\cdot\mathbf{u}+2(\mathbf{u}\cdot\mathbf{v})+t^2\mathbf{v}\cdot\mathbf{v}$
