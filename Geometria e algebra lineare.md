@@ -496,6 +496,7 @@ Tali proprietà seguono immediatamente dalle proprietà del modulo.
 
 Facciamo ora un altro salto di astrazione, e consideriamo la possibilità di introdurre, in certi spazi vettoriali diversi da $\mathbb{R}^n$, un'operazione che goda delle stesse proprietà formali del prodotto scalare.
 
-- #DEFINIZIONE(5). Sia $V$ uno spazio vettoriale su $\mathbb{R}$, e supponiamo che sia definita un'operazione che ad ogni coppia di vettori $\mathbf{u},\mathbf{v}\in V$ associa uno scalare $\mathbf{u}\cdot\mathbf{v}$, in modo che siano soddisfatte le [[#3.2 **Prodotto scalare in $ mathbb{R} n$**|quattro proprietà del prodotto scalare]]. Diremo allora che l'operazione $\cdot$ è un prodotto scalare, o prodotto interno, in $V$, e che $V$ è uno spazio vettoriale con prodotto scalare.
-	- Due vettori $\mathbf{u},\mathbf{v}\in V$ si diranno ortogonali se $\mathbf{u}\cdot\mathbf{v}=0$;
-	- Si definisce modulo (o norma) del vettore $\mathbf{v}$ il numero:
+- #DEFINIZIONE(5). Sia $V$ uno spazio vettoriale su $\mathbb{R}$, e supponiamo che sia definita un'operazione che ad ogni coppia di vettori $\mathbf{u},\mathbf{v}\in V$ associa uno scalare $\mathbf{u}\cdot\mathbf{v}$, in modo che siano soddisfatte le [[#3.2 **Prodotto scalare in $ mathbb{R} n$**|quattro proprietà del prodotto scalare]]. Diremo allora che l'operazione $\cdot$ è un **prodotto scalare**, o \mathbf{u},\mathbf{v}\in V, in $V$, e che $V$ è uno spazio vettoriale con prodotto scalare.
+	- Due vettori $\mathbf{u},\mathbf{v}\in V$ si diranno <u>ortogonali</u> se $\mathbf{u}\cdot\mathbf{v}=0$;
+	- Si definisce <u>modulo</u> (o norma) del vettore $\mathbf{v}$ il numero $|\mathbf{v}|=\sqrt{\mathbf{v}\cdot\mathbf{v}}$;
+	- Si deginisce la <u>distanza tra due vettori</u> come: 
