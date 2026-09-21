@@ -606,4 +606,4 @@ Si può dimostrare che <mark class="hltr-yellow">uno spazio vettoriale di dimens
 								$\mathbf{u}=|^2=\sum_{i=1}^n (\mathbf{v}\cdot\mathbf{e}_{i})e_{i}$
 		
 	che rappresenta la proiezione di $\mathbf{v}$ su $V_{1}$. Poniamo anche $\mathbf{w}=\mathbf{v}-\mathbf{u}$.
-	Dalle definizioni segue subito che $\mathbf{u}\in V_{1}$ e $\mathbf{v}=\mathbf{u}+\mathbf{w}$; proviam
+	Dalle definizioni segue subito che $\mathbf{u}\in V_{1}$ e $\mathbf{v}=\mathbf{u}+\mathbf{w}$; proviamo che $\mathbf{w}\in {V_{1}}^\perp$. È sufficiente dimostrare l'ortogonalità 
