@@ -600,4 +600,6 @@ Si può dimostrare che <mark class="hltr-yellow">uno spazio vettoriale di dimens
 	Si noti che in questo enunciato lo spazio ambiente $V$ può anche avere dimensione infinita, mentre $V_{1}$ per ipotesi ha dimensione finita.
 	
 	*Dimostrazione*:
-	Poichè $V_{1}$ è uno spazio vettoriale di dimensione finita con prodotto interno, per il [[#teorema|teorema]] esiste una base ortonormale 
+	Poichè $V_{1}$ è uno spazio vettoriale di dimensione finita con prodotto interno, per il [[#teorema|teorema]] esiste una base ortonormale $\mathbf{e}_{1},\mathbf{e}_{2},\cdots,\mathbf{e}_{n}$ di $V_{1}$. Utilizzando questa base definiamo il vettore
+	
+	$\math$
