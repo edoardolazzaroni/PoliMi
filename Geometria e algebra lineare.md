@@ -569,5 +569,5 @@ Si può dimostrare che <mark class="hltr-yellow">uno spazio vettoriale di dimens
 					$\mathbf{v}_{2}-(\mathbf{v}_{2}\cdot\mathbf{u}_{1})\mathbf{u}_{1}=(0,1,-1)-\left( \frac{1}{2},0,-\frac{1}{2} \right)=\left( -\frac{1}{2},1,-\frac{1}{2} \right)$
 	
 	4) Normalizziamo quest'ultimo vettore, definendo:
-	$\mathbf{u}_{2}=\frac{\left( \frac{1}{2},1,-\frac{1} \right)}$
+	$\mathbf{u}_{2}=\frac{\left( \frac{1}{2},1,-\frac{1}{2} \right)}{\sqrt{\frac{1}{4}+1+\frac{1}{4}}}=\sqrt{\frac{2}{3}}\left( -\frac{1}{2},1 \right)$
 	5) 
