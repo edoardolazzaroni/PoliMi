@@ -548,3 +548,5 @@ che è una sorta di Teorema di Pitagora in forma astratta.
 Per esempio, in $\mathbb{R}^n$ la base canonica è anche una base ortonormale rispetto al prodotto scalare euclideo.
 
 Si può dimostrare che <mark class="hltr-yellow">uno spazio vettoriale di dimensione finita e dotato di prodotto scalare ha sempre una base ortonormale</mark>:
+
+- #TEOREMA(2). Procedimento di ortonormalizzazione di Gram-Schmidt
