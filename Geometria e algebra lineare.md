@@ -471,3 +471,4 @@ Accade spesso di voler sostituire un vettore $\mathbf{v}$ con il corrispondente 
 	4. Disuguaglianza di Cauchy-Schwarz: $|\mathbf{u}\cdot\mathbf{v}|\le|\mathbf{u}||\mathbf{v}|$
 	
 	*Dimostrazione*:
+	Le prime due proprietà sono immediate. Per provare la 
