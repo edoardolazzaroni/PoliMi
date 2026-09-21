@@ -622,3 +622,7 @@ Si può dimostrare che <mark class="hltr-yellow">uno spazio vettoriale di dimens
 				$|\mathbf{v}-\mathbf{u}_{1}|^2=|\mathbf{w}+(\mathbf{u}-\mathbf{u}_{1})|^2=|\mathbf{w}|^2+|\mathbf{u}-\mathbf{u}_{1}|^2\ge|\mathbf{w}|^2=|\mathbf{v}-\mathbf{u}|^2$
 	
 	quindi la distanza di $\mathbf{v}$ da $\mathbf{u}$ è minore della distanza da $\mathbf{v}$ da qualunque altro elemento di $\mathbf{u}_{1}$ di $V_{1}$ (come volevasi dimostrare).
+
+
+#### 3.3.2 **Somma diretta di sottospazi ortogonali**
+
