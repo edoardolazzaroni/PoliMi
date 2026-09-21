@@ -494,4 +494,6 @@ Tali proprietà seguono immediatamente dalle proprietà del modulo.
 
 ### 3.3 **Spazi vettoriali con prodotto scalare**
 
-Facciamo ora un altro salto di astrazione, e consideriamo le
+Facciamo ora un altro salto di astrazione, e consideriamo la possibilità di introdurre, in certi spazi vettoriali diversi da $\mathbb{R}^n$, un'operazione che goda delle stesse proprietà formali del prodotto scalare.
+
+- #DEFINIZIONE (5)
