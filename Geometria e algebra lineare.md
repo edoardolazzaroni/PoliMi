@@ -552,10 +552,12 @@ Si può dimostrare che <mark class="hltr-yellow">uno spazio vettoriale di dimens
 - #TEOREMA(2). **Procedimento di ortonormalizzazione di Gram-Schmidt**
 	
 	Sia $V$ uno spazio vettoriale di dimensione finita $n$, dotato di prodotto interno. Allora:
+	
 	1. $V$ ha una base ortonormale;
 	2. In particolare, se $V_{1}$ è un sottospazio di $V$ di dimensione $m<n$, si può costruire una base ortonormale di $V$ del tipo $\mathbf{u}_1, \mathbf{u}_2,\cdots,\mathbf{u}_n$ dove i primi $m$ vettori $\mathbf{u}_1, \mathbf{u}_2,\cdots,\mathbf{u}_m$ sono una base ortonormale di $V_{1}$ e gli ultimi $n-m$ vettori $\mathbf{u}_{m+1}, \mathbf{u}_2,\cdots,\mathbf{u}_n$ sono una base ortonormale di ${V_{1}}^{\perp}$.
 	
 	Invece di presentare la dimostrazione astratta, illustriamo con un *esempio numerico* il procedimento di ortonormalizzazione.
 	Consideriamo in $\mathbb{R}^3$ i due vettori indipendenti $\mathbf{v}_{1}=(1,0,-1)$ e $\mathbf{v}_{2}=(0,1,-1)$;
-	detto $V$ il sottospazio vettoriale di $\mathbb{R}^3$ generato da $\mathbf{v}_{1},\mathbf{v}_{2}$ (che come si verifica non è altro che il piano passante per l'origine di )
+	detto $V$ il sottospazio vettoriale di $\mathbb{R}^3$ generato da $\mathbf{v}_{1},\mathbf{v}_{2}$ (che come si verifica non è altro che il piano passante per l'origine di equazione $x+y+z=0$), proponiamoci di costruire una base ortonormale di $V$, ossia di ortonormalizzare la base $\mathbf{v}_{1},\mathbf{v}_{2}$. I passi sono i seguenti:
 	
+	1) 
