@@ -553,4 +553,5 @@ Si può dimostrare che <mark class="hltr-yellow">uno spazio vettoriale di dimens
 	
 	Sia $V$ uno spazio vettoriale di dimensione finita $n$, dotato di prodotto interno. Allora:
 	1. $V$ ha una base ortonormale;
-	2. In particolare, se $V_{1}$ è un sottospazio di $V$ di dimensione $m<n$, si può costruire una base ortonormale di $V$ del tipo $\mathbf{u}_1, \mathbf{u}_2,\cdots,\mathbf{u}_n$ dove i primi $m$ vettori $\mathbf{u}_1, \mathbf{u}_2,\cdots,\mathbf{u}_m$ sono una base ortonormale di $V_{1}$ e gli ultimi $n-m$ vettori $\mathbf{u}_{m+1, \mathbf{u}_2,\cdots,\mathbf{u}_n$
+	2. In particolare, se $V_{1}$ è un sottospazio di $V$ di dimensione $m<n$, si può costruire una base ortonormale di $V$ del tipo $\mathbf{u}_1, \mathbf{u}_2,\cdots,\mathbf{u}_n$ dove i primi $m$ vettori $\mathbf{u}_1, \mathbf{u}_2,\cdots,\mathbf{u}_m$ sono una base ortonormale di $V_{1}$ e gli ultimi $n-m$ vettori $\mathbf{u}_{m+1}, \mathbf{u}_2,\cdots,\mathbf{u}_n$ sono una base ortonormale di ${V_{1}}^{\perp}$.
+	Invece di presentare la 
