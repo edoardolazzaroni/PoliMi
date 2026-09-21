@@ -594,5 +594,5 @@ Si può dimostrare che <mark class="hltr-yellow">uno spazio vettoriale di dimens
 - #TEOREMA(3). **Proiezione ed elemento di minima distanza**
 	
 	Sia $V$ uno spazio dotato di prodotto scalare, $V_{1}$ un sottospazio di $V$ di dimensione finita e $\mathbf{v}$ un elemento di $V$ che non appartiene a $V_{1}$; allora esistono e sono univocamente determinati due vettori $\mathbf{u},\mathbf{w}$ tali che:
-				$\mathbf{v}=\mathbf{u}+\mathbf{w} \quad$, con $\mathbf{u}\in V_{1}$ e $\mathbf{w}\in {V_{1}}^\perp$
-	
+							$\mathbf{v}=\mathbf{u}+\mathbf{w} \quad$, con $\mathbf{u}\in V_{1}$ e $\mathbf{w}\in {V_{1}}^\perp$
+	Il vettore $\mathbf{u}$ si dirà proiezione ortogonale di $\mathbf{v}$ su $V_{1}$ e, tra i vettori di $V_{1}$, è quello di minima distanza da $\mathbf{}$
