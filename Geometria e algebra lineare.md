@@ -471,5 +471,7 @@ Accade spesso di voler sostituire un vettore $\mathbf{v}$ con il corrispondente 
 	4. Disuguaglianza di Cauchy-Schwarz: $|\mathbf{u}\cdot\mathbf{v}|\le|\mathbf{u}||\mathbf{v}|$
 	
 	*Dimostrazione*:
+	
 	Le prime due proprietà sono immediate. Per provare la Disuguaglianza di Cauchy-Schwarz, consideriamo il vettore $\mathbf{u}+t\mathbf{v}$, con $t\in\mathbb{R}$ qualunque. Per le proprietà del prodotto scalare si ha: $0\le(\mathbf{u}+t\mathbf{v})\cdot(\mathbf{u}+t\mathbf{v})=\mathbf{u}\cdot\mathbf{u}+2t\mathbf{u}\cdot\mathbf{v}+t^2\mathbf{v}\cdot\mathbf{v}$.
-	Ricordando che $\mathbf{u}\cdot\mathbf{u}$, $\mathbf{u}\cdot\mathbf{v}$, $\mathbf{v}\cdot\mathbf{v}$ son
+	Ricordando che $\mathbf{u}\cdot\mathbf{u}$, $\mathbf{u}\cdot\mathbf{v}$, $\mathbf{v}\cdot\mathbf{v}$ sono tre costanti, mentre $t$ è generico, si può rileggere la precedente disuguaglianza dicendo che il trinomio di secondo grado in $t$ non è mai negativo.
+	CIò è possibile solo se il suo discriminante non è positivo, ovvero $$
