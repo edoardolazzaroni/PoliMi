@@ -578,4 +578,5 @@ Si può dimostrare che <mark class="hltr-yellow">uno spazio vettoriale di dimens
 	
 	2) Sottraiamo a $\mathbf{v}_{3}$ la sua proiezione su $V$, ossia calcoliamo:
 	$\mathbf{v}_{3}'=\mathbf{v}_{3}-{(\mathbf{v}_{3}\cdot\mathbf{u}_{1})\mathbf{u}_{1}+(\mathbf{v}_{3}\cdot\mathbf{u}_{2})\mathbf{u}_{2}}=(0,0,1)-\left\{ -\frac{1}{\sqrt{2}}\left( \frac{1}{\sqrt{2}},0,-\frac{1}{\sqrt{2}}\right)-\frac{1}{\sqrt{6}}(-\frac{1}{\sqrt{6}},\sqrt{\frac{2}{3}},-\frac{1}{\sqrt{6}}) \right\}=\left( \frac{1}{3},\frac{1}{3},\frac{1}{3} \right)$
-	3) Normalizziamo $\mathbf{v}_{3}'$
+	3) Normalizziamo $\mathbf{v}_{3}'$, ottenendo:
+	$\mathbf{u}_{3}=\frac{\left( \frac{1}{3},\frac{1}{3},\frac{1}{3} \right)}{\sqrt{\frac{1}{3}}}=$
