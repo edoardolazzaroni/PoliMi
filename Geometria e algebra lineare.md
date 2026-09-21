@@ -514,3 +514,8 @@ Continua a valere il teorema precedente: in altre parole, dagli assiomi di prodo
 	Più in generale, <u>due sottospazi</u> $U$ e $W$ di $V$ si dicono ortogonali se ogni vettore di $U$ è ortogonale ad ogni vettore di $W$:
 							$\mathbf{u}\cdot\mathbf{w}=0 \quad \forall \mathbf{u}\in U, \mathbf{w}\in W$
 
+
+#### 3.3.1 **Basi ortonormali**
+
+Consideriamo uno spazio vettoriale di dimensione finita, dotato di prodotto scalare.
+Fissata una base 
