@@ -540,4 +540,4 @@ ovvero: il prodotto scalare di ottiene dalle componenti dei due vettori con la s
 							$|\mathbf{u}|^2=\mathbf{u}\cdot\mathbf{u}=\sum_{i=1}^n {u_{i}}^2$
 
 ovvero anche il modulo di un vettore si calcola mediante le sue componenti con la stessa formula che vale nel caso euclideo.
-L'ultim
+L'ultima proprietà si può esprimere anche nel seguente modo: se $\mathbf{v}_1, \mathbf{v}_2,\cdots,\mathbf{v}_n$ sono 
