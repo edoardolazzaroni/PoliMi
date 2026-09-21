@@ -479,4 +479,7 @@ Accade spesso di voler sostituire un vettore $\mathbf{v}$ con il corrispondente 
 	*(2)* La Disuguaglianza triangolare segue dalle relazioni: $|\mathbf{u}\cdot\mathbf{v}|^2=(\mathbf{u}+\mathbf{v})\cdot(\mathbf{u}+\mathbf{v})=\mathbf{u}\cdot\mathbf{u}+2(\mathbf{u}\cdot\mathbf{v})+\mathbf{v}\cdot\mathbf{v}\le|\mathbf{u}|^2+2|\mathbf{u}||\mathbf{v}|+|\mathbf{v}|^2=(|\mathbf{u}|+|\mathbf{v}|)^2$, come volevasi dimostrare.
 
 La nozione di modulo consente di definire la **distanza tra due vettori**:
-$d()$
+
+								$d(\mathbf{v},\mathbf{w})=|\mathbf{v}-\mathbf{w}|$
+
+le cui proprietà sono le seguenti:
