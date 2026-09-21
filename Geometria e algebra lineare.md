@@ -520,4 +520,6 @@ Continua a valere il teorema precedente: in altre parole, dagli assiomi di prodo
 Consideriamo uno spazio vettoriale di dimensione finita, dotato di prodotto scalare.
 Fissata una base $\mathbf{e}_1, \mathbf{e}_2,\cdots,\mathbf{e}_n$ calcoliamo il prodotto scalare di due vettori
 
-$\mathbf{u}=\sum_{i=1}^n v_i\mathbf{e}_i$
+$\mathbf{u}=\sum_{i=1}^n u_i\mathbf{e}_i$ e $\mathbf{v}=\sum_{j=1}^n v_j\mathbf{e}_j$
+
+Applicando le proprietà del prodotto scalare si ha $\mathbf{u}\cdot\mathbf{w}=$
