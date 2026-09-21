@@ -490,3 +490,8 @@ le cui proprietà sono le seguenti:
 
 Tali proprietà seguono immediatamente dalle proprietà del modulo.
 
+
+
+### 3.3 **Spazi vettoriali con prodotto scalare**
+
+Facciamo ora un altro salto di astrazione, e consideriamo le
