@@ -543,3 +543,6 @@ ovvero anche il modulo di un vettore si calcola mediante le sue componenti con l
 L'ultima proprietà si può esprimere anche nel seguente modo: se $\mathbf{v}_1, \mathbf{v}_2,\cdots,\mathbf{v}_n$ sono vettori a due a due ortogonali (di modulo qualsiasi), si ha:
 
 $|\sum_{i=1}^n v_i|^2=\sum_{i=1}^n |v_i|^2$
+
+che è una sorta di Teorema di Pitagora in forma astratta.
+Per esempio, in $$
