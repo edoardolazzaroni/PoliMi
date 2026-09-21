@@ -612,4 +612,5 @@ Si può dimostrare che <mark class="hltr-yellow">uno spazio vettoriale di dimens
 		$\mathbf{w}\cdot\mathbf{e}_{j}=(\mathbf{v}-\mathbf{u})\cdot\mathbf{e}_{j}=\mathbf{v}\cdot\mathbf{e}_{j}-(\sum_{i=1}^n (\mathbf{v}\cdot\mathbf{e}_{i})\mathbf{e}_{i})\cdot\mathbf{e}_{j}=\mathbf{v}\cdot\mathbf{e}_{j}-\sum_{i=1}^n (\mathbf{v}\cdot\mathbf{e}_{i})(\mathbf{e}_{i}\cdot\mathbf{e}_{j})$
 		
 	essendo $\mathbf{e}_{i}\cdot\mathbf{e}_{j}=0$ per $i\ne j$ e $\mathbf{e}_{i}\cdot\mathbf{e}_{i}=1, \quad =\mathbf{v}\cdot\mathbf{e}_{j}-(\mathbf{v}\cdot\mathbf{e}_{j})=0$,
-	dunqu
+	
+	dunque $\mathbf{w}\in {V_{1}}^\perp$. Per mostrare che $\mathbf{u}$ è l'elemento di $V_{1}$ di minima distanza d
