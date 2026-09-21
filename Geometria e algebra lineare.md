@@ -617,4 +617,5 @@ Si può dimostrare che <mark class="hltr-yellow">uno spazio vettoriale di dimens
 	
 								$\mathbf{v}-\mathbf{u}_{1}=\mathbf{w}+(\mathbf{u}-\mathbf{u}_{1})$
 	
-	con $(\mathbf{u}-\mathbf{u}_{1})\in V_{1}$ e $\ma$
+	con $(\mathbf{u}-\mathbf{u}_{1})\in V_{1}$ e $\mathbf{w}\in V_{1}^\perp$, per il Teorema di Pitagora si ha:
+	$$
