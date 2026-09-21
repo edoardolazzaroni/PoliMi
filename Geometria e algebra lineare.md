@@ -599,3 +599,5 @@ Si può dimostrare che <mark class="hltr-yellow">uno spazio vettoriale di dimens
 	
 	Si noti che in questo enunciato lo spazio ambiente $V$ può anche avere dimensione infinita, mentre $V_{1}$ per ipotesi ha dimensione finita.
 	
+	*Dimostrazione*:
+	Poichè $V_{1}$ è uno spazio vettoriale di dimensione finita con prodotto intern
