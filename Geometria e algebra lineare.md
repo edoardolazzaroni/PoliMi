@@ -518,4 +518,6 @@ Continua a valere il teorema precedente: in altre parole, dagli assiomi di prodo
 #### 3.3.1 **Basi ortonormali**
 
 Consideriamo uno spazio vettoriale di dimensione finita, dotato di prodotto scalare.
-Fissata una base 
+Fissata una base $\mathbf{e}_1, \mathbf{e}_2,\cdots,\mathbf{e}_n$ calcoliamo il prodotto scalare di due vettori
+
+$\mathbf{u}=\sum_{i=1}^n v_i\mathbf{e}_i$
