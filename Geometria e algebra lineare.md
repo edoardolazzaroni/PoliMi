@@ -483,4 +483,5 @@ La nozione di modulo consente di definire la **distanza tra due vettori**:
 								$d(\mathbf{v},\mathbf{w})=|\mathbf{v}-\mathbf{w}|$
 
 le cui proprietà sono le seguenti:
-	a. $d(\mathbf{v},\mathbf{w})\ge 0$ e $d(\mathbf{v},\mathbf{w})=0$ sse $$
+	a. Positività ed annullamento: $d(\mathbf{v},\mathbf{w})\ge 0$ e $d(\mathbf{v},\mathbf{w})=0$ sse $\mathbf{v}=\mathbf{w}$;
+	b. Simmetria: $d(\mathbf{v},\mathbf{w})=d(\mathbf{w},\mathbf{v})$
