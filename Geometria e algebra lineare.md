@@ -574,4 +574,6 @@ Si può dimostrare che <mark class="hltr-yellow">uno spazio vettoriale di dimens
 		Il lettore verifichi che $\mathbf{u}_{1},\mathbf{u}_{2}$ costituiscono effettivamente una base ortonormale di $V$.
 		Se ora volessimo costruire una base ortonormale di $\mathbb{R}^3$ che abbia come primi elementi $\mathbf{u}_{1},\mathbf{u}_{2}$, dovremmo iterare il procedimento come segue:
 	
-	1) Scegliamo un vettore 
+	1) Scegliamo un vettore di $\mathbb{R}^3$ indipendente da $\mathbf{u}_{1},\mathbf{u}_{2}$, per esempio $\mathbf{v}_{3}=(0,0,1)$;
+	
+	2) Sottraiamo a 
