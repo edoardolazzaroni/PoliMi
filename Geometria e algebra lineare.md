@@ -602,4 +602,4 @@ Si può dimostrare che <mark class="hltr-yellow">uno spazio vettoriale di dimens
 	*Dimostrazione*:
 	Poichè $V_{1}$ è uno spazio vettoriale di dimensione finita con prodotto interno, per il [[#teorema|teorema]] esiste una base ortonormale $\mathbf{e}_{1},\mathbf{e}_{2},\cdots,\mathbf{e}_{n}$ di $V_{1}$. Utilizzando questa base definiamo il vettore
 	
-	$\math$
+	$\mathbf{u}=|^2=\sum_{i=1}^n (\mathbf{v}){u_{i}}^2$
