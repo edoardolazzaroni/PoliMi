@@ -545,4 +545,6 @@ L'ultima proprietà si può esprimere anche nel seguente modo: se $\mathbf{v}_1,
 $|\sum_{i=1}^n v_i|^2=\sum_{i=1}^n |v_i|^2$
 
 che è una sorta di Teorema di Pitagora in forma astratta.
-Per esempio, in $$
+Per esempio, in $\mathbb{R}^n$ la base canonica è anche una base ortonormale rispetto al prodotto scalare euclideo.
+
+Si può dimostrare che uno spazio vettoriale di dimensione finita e dotato di prodotto scalare ha sempre una base ortonormale:
