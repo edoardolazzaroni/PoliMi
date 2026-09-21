@@ -502,4 +502,7 @@ Facciamo ora un altro salto di astrazione, e consideriamo la possibilità di int
 	- Si deginisce la <u>distanza tra due vettori</u> come: $d(\mathbf{u},\mathbf{v})=|\mathbf{u}-\mathbf{v}|$.
 
 Si noti che la definizione di modulo ha senso grazie alla quarta proprietà del prodotto scalare, che garantisce che il radicando non sia negativo.
-Continua a valere il teorema precedente: in altre parole, dagli assiomi di prodotto scalare discendono le proprietà del modulo enunciate dal teorema stesso, 
+Continua a valere il teorema precedente: in altre parole, dagli assiomi di prodotto scalare discendono le proprietà del modulo enunciate dal teorema stesso, analogamente dalle proprietà del modulo discendono le proprietà della distanza tra due vettori.
+
+
+- Complemento ortogonale:
