@@ -566,5 +566,6 @@ Si può dimostrare che <mark class="hltr-yellow">uno spazio vettoriale di dimens
 						$(\mathbf{v}_{2}\cdot\mathbf{u}_{1})\mathbf{u}_{1}=\frac{1}{\sqrt{2}}\left( \frac{1}{\sqrt{2}},0,-\frac{1}{\sqrt{2}} \right)=\left( \frac{1}{2},0,-\frac{1}{2} \right)$
 	
 	3) Sottraiamo a $\mathbf{v}_{2}$ la sua componente nella direzione di $\mathbf{u}_{1}$, ottenendo così un vettore ortogonale a $\mathbf{u}_{1}$ e che insieme ad esso genera $V$:
-	$\mathbf{v}_{2}-(\mathbf{v}_{2}\cdot\mathbf{u}_{1})\mathbf{u}_{1}=(0,1,-1)-\left( \frac{1}{2},0,-\frac{1}{2} \right)$
+					$\mathbf{v}_{2}-(\mathbf{v}_{2}\cdot\mathbf{u}_{1})\mathbf{u}_{1}=(0,1,-1)-\left( \frac{1}{2},0,-\frac{1}{2} \right)=\left( -\frac{1}{2},1,-\frac{1}{2} \right)$
+	
 	4) 
