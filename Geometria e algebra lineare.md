@@ -549,4 +549,7 @@ Per esempio, in $\mathbb{R}^n$ la base canonica è anche una base ortonormale ri
 
 Si può dimostrare che <mark class="hltr-yellow">uno spazio vettoriale di dimensione finita e dotato di prodotto scalare ha sempre una base ortonormale</mark>:
 
-- #TEOREMA(2). Procedimento di ortonormalizzazione di Gram-Schmidt
+- #TEOREMA(2). **Procedimento di ortonormalizzazione di Gram-Schmidt**
+	
+	Sia $V$ uno spazio vettoriale di dimensione finita $n$, dotato di prodotto interno. Allora:
+	1. $V$ ha un
