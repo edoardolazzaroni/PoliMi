@@ -572,6 +572,6 @@ Si può dimostrare che <mark class="hltr-yellow">uno spazio vettoriale di dimens
 					$\mathbf{u}_{2}=\frac{\left( \frac{1}{2},1,-\frac{1}{2} \right)}{\sqrt{\frac{1}{4}+1+\frac{1}{4}}}=\sqrt{\frac{2}{3}}\left( -\frac{1}{2},1,-\frac{1}{2} \right)=\left( -\frac{1}{\sqrt{6}},\sqrt{\frac{2}{3}},-\frac{1}{\sqrt{6}} \right)$
 		
 		Il lettore verifichi che $\mathbf{u}_{1},\mathbf{u}_{2}$ costituiscono effettivamente una base ortonormale di $V$.
-		Se ora volessimo costruire una base ortonormale di $\ma$
+		Se ora volessimo costruire una base ortonormale di $\mathbb{R}^3$ che abbia come primi elementi $\mathbf{u}_{1},\mathbf{u}_{2}$, dovremmo iterare il procedimento come segue:
 	
-	5) 
+	1) Scegliamo un vettore 
