@@ -614,4 +614,7 @@ Si può dimostrare che <mark class="hltr-yellow">uno spazio vettoriale di dimens
 	essendo $\mathbf{e}_{i}\cdot\mathbf{e}_{j}=0$ per $i\ne j$ e $\mathbf{e}_{i}\cdot\mathbf{e}_{i}=1, \quad =\mathbf{v}\cdot\mathbf{e}_{j}-(\mathbf{v}\cdot\mathbf{e}_{j})=0$,
 	
 	dunque $\mathbf{w}\in {V_{1}}^\perp$. Per mostrare che $\mathbf{u}$ è l'elemento di $V_{1}$ di minima distanza da $\mathbf{v}$, sia $\mathbf{u}_{1}$ un altro generico elemento di $V_{1}$. Essendo:
-	$\mathbf{v}-\mathbf{u}_{1}=\mathbf$
+	
+								$\mathbf{v}-\mathbf{u}_{1}=\mathbf{w}+(\mathbf{u}-\mathbf{u}_{1})$
+	
+	con $(\mathbf{u}-\mathbf{u}_{1})\in V_{1}$ e $\ma$
