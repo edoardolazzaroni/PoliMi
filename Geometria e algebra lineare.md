@@ -557,5 +557,5 @@ Si può dimostrare che <mark class="hltr-yellow">uno spazio vettoriale di dimens
 	
 	Invece di presentare la dimostrazione astratta, illustriamo con un *esempio numerico* il procedimento di ortonormalizzazione.
 	Consideriamo in $\mathbb{R}^3$ i due vettori indipendenti $\mathbf{v}_{1}=(1,0,-1)$ e $\mathbf{v}_{2}=(0,1,-1)$;
-	detto 
+	detto $V$ il sottospazio vettoriale di $\mathbb{R}^3$ generato da $\mathbf{v}_{1},\mathbf{v}_{2}$ (che come si verifica non è altro che il piano passante per l'origine di )
 	
