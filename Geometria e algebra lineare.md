@@ -585,4 +585,4 @@ Si può dimostrare che <mark class="hltr-yellow">uno spazio vettoriale di dimens
 	
 	Più in generale, l'*algoritmo iterativo* di ortonormalizzazione di un sistema $\mathbf{v}_{1},\mathbf{v}_{2},\cdots,\mathbf{v}_{n}$ di vettori linearmente indipendenti è il seguente:
 	$\mathbf{u}_{1}=vers(\mathbf{v}_{1})$
-	$\mathbf{u}_{k}=vers(\mathbf{v}_{k})$
+	$\mathbf{u}_{k}=vers(\mathbf{v}_{k}-\sum_{j=1}^{k-1} (\mathbf{u}_{j}\cdot\mathbf{v}_{k}))$
