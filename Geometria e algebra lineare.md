@@ -529,4 +529,6 @@ $\mathbf{u}\cdot\mathbf{w}=(\sum_{i=1}^n u_i\mathbf{e}_i)\cdot(\sum_{j=1}^n v_j\
 È sufficiente quindi conoscere gli $n^2$ prodotti scalare $\mathbf{e}_i\cdot\mathbf{e}_j$ per poter calcolare il prodotto scalare di due vettori qualsiasi. Il calcolo risulta particolarmente comodo quando gli $n$ vettori della base risultano **ortonormali**, ossia:
 
 1) Sono a due a due ortogonali: $\mathbf{e}_i\cdot\mathbf{e}_j=0$ per $i\ne j$;
-2) Ogni vettore ha modulo unitario: $|\mathbf{e}_i|^2=\mathbf{e}_i$ per $\mathbf{e}_j=1 \quad i=1,\cdots,n$;
+2) Ogni vettore ha modulo unitario: $|\mathbf{e}_i|^2=\mathbf{e}_i\cdot\mathbf{e}_j=1$ per $i=1,\cdots,n$;
+
+Una tale base si dice base ortonormale, e gioca un 
