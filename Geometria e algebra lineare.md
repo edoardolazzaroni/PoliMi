@@ -562,3 +562,5 @@ Si può dimostrare che <mark class="hltr-yellow">uno spazio vettoriale di dimens
 	
 	1) Normalizziamo $\mathbf{v}_{1}$, definendo: $\mathbf{u}_{1}=\frac{\mathbf{v}_{1}}{|\mathbf{v}_{1}|}=\left( \frac{1}{\sqrt{2}},0,\frac{-1}{\sqrt{2}} \right)$;
 	2) Calcoliamo la componente di $\mathbf{v}_{2}$ nella direzione di $\mathbf{u}_{1}$, data da:
+	$(\mathbf{v}_{2}\cdot\mathbf{u}_{1})\mathbf{u}_{1}=\frac{1}{\sqrt{}}$
+	3) 
