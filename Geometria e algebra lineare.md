@@ -690,4 +690,9 @@ dove $l:\ V_{1}\rightarrow V_{2}$ è lineare e $\mathbf{b}\in V_{2}$ è un eleme
 
 
 
-# Capitolo IV: Matrici e trasfor
+# Capitolo IV: Matrici e trasformazioni lineari
+
+
+### 4.1 **L'algebra delle matrici**
+
+Si può d
