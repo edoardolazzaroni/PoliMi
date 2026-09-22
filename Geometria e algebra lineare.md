@@ -647,4 +647,5 @@ Naturalmente non è detto che risulti $U+W=V$. Quando questo accade, la circosta
 
 								$V=U\oplus W$
 	
-	Se ogni vettore $\mathbf{v}\in V$ si può scrivere come 
+	Se ogni vettore $\mathbf{v}\in V$ si può scrivere univocamente nella forma $\mathbf{v}=\mathbf{u}+\mathbf{w}$, con $\mathbf{u}\in U,\mathbf{w}\in W$.
+
