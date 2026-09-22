@@ -674,4 +674,5 @@ Tra queste funzioni, particolare importanza hanno quelle che godono di una speci
 	1. <mark class="hltr-yellow">Additività</mark>: $f(\mathbf{v}_{1}+\mathbf{v}_{2})=f(\mathbf{v}_{1})+f(\mathbf{v}_{2})$
 	2. <mark class="hltr-yellow">Omogeneità</mark>: $f(\alpha\mathbf{v}_{1})=\alpha f({\mathbf{v}_{1}})$
 	
-	Tali proprietà si possono riassumere nell'unica formula: $$
+	Tali proprietà si possono riassumere nell'unica formula:
+	$f(\alpha_{1}\mathbf{v}_{1}+\alpha_{2}\mathbf{v}_{2})=\alpha_{1}f(\mathbf{v}_{1})+\alpha_{2}f(\mathbf{v}_{2})$
