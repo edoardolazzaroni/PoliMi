@@ -654,4 +654,5 @@ Naturalmente non è detto che risulti $U+W=V$. Quando questo accade, la circosta
 	*Dimostrazione*:
 	
 	Facciamo vedere che, se $V=U\oplus W$, allora $W=U^\perp$.
-	Ovviamente si ha $W\subseteq U^\perp$, perchè $W$ è ortogonale a $U$. Viceversa, sia 
+	Ovviamente si ha $W\subseteq U^\perp$, perchè $W$ è ortogonale a $U$. Viceversa, sia $\mathbf{v}\in U^\perp$ e, in base alla definizione precedente, scriviamolo nella forma $\mathbf{v}=\mathbf{u}+\mathbf{w}$.
+	Facendo prodotto scalare con $\$
