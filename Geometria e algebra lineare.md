@@ -650,4 +650,7 @@ Naturalmente non è detto che risulti $U+W=V$. Quando questo accade, la circosta
 	Se ogni vettore $\mathbf{v}\in V$ si può scrivere univocamente nella forma $\mathbf{v}=\mathbf{u}+\mathbf{w}$, con $\mathbf{u}\in U,\mathbf{w}\in W$.
 
 - #PROPOSIZIONE(2). Se $V=U\oplus W$, i due sottospazi $U,W$ sono uno il complemento ortogonale dell'altro.
-	Dimosy
+	
+	*Dimostrazione*:
+	
+	Facciamo vedere che, se $V=U\oplus W$, allora $W=U^\perp$. Ovviamente si ha $W\$
