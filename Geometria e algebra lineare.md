@@ -672,4 +672,6 @@ Tra queste funzioni, particolare importanza hanno quelle che godono di una speci
 - #DEFINIZIONE(7). Siano $V_{1},V_{2}$ due spazi vettoriali su un campo $\mathbb{K}$ (ovvero $\mathbb{R}$ o $\mathbb{C}$), e sia $f:\ V_{1}\rightarrow V_{2}$. Si dirà che $f$ è una funzione lineare se, $\forall \ \alpha \in\mathbb{K}, \ \forall\ \mathbf{v}_{1},\mathbf{v}_{2}\in V_{1}$, si ha:
 	
 	1. <mark class="hltr-yellow">Additività</mark>: $f(\mathbf{v}_{1}+\mathbf{v}_{2})=f(\mathbf{v}_{1})+f(\mathbf{v}_{2})$
-	2. Omogeneità: $f(\alpha\mathbf{v}_{1})=\alpha f({\mathbf{v}_{1}})$
+	2. <mark class="hltr-yellow">Omogeneità</mark>: $f(\alpha\mathbf{v}_{1})=\alpha f({\mathbf{v}_{1}})$
+	
+	Tali proprietà si possono riassumere nell'unica formula: $$
