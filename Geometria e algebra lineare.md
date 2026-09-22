@@ -658,4 +658,6 @@ Naturalmente non è detto che risulti $U+W=V$. Quando questo accade, la circosta
 	Facendo prodotto scalare con $\mathbf{u}$ si ottiene $\mathbf{v}\cdot\mathbf{u}=\mathbf{u}\cdot\mathbf{u}+\mathbf{w}\cdot\mathbf{u}$.
 	
 	Ma $\mathbf{v}\cdot\mathbf{u}=0$ essendo $\mathbf{v}$ ortogonale a $U$ e $\mathbf{w}\cdot\mathbf{u}=0$ perchè $W$ e $U$ sono ortogonali.
-	Si deduce che $\mathbf{u}\cdot\mathbf{u}=|\mathbf{u}|^2=0$ che implica $\mathbf{u}=\mathbf{0}$; ma allora $\mathbf{v}\cdot\mathbf{u}$
+	Si deduce che $\mathbf{u}\cdot\mathbf{u}=|\mathbf{u}|^2=0$ che implica $\mathbf{u}=\mathbf{0}$; ma allora $\mathbf{v}=\mathbf{w}\in W$ e perciò $U^\perp\subseteq W$.
+	
+	Nella definizione precedente 
