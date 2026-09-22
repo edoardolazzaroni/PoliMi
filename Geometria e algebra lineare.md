@@ -706,5 +706,6 @@ $\mathbf{A}=\begin{pmatrix}a_{11}&a_{12}&\cdots&a_{1n}\\ \vdots&\vdots&\ &\vdots
 
 Si noti il significato del doppio indice: $a_{ij}$ si legge "elemento di posto $i,j$".
 Il primo dei due indici rappresenta il numero della riga, il secondo quello della colonna, motivo per cui essi costituiscono una sorta di coordinate dell'elemento nella matrice.
+Scriveremo sinteticamente $\mathbf{A}=(a_{ij})$, $\mathbf{B}=(b_{ij})$ indicando a parte il tipo di matrice o il campo di variabilità degli indici: $i=1,\cdots,m;j=1,\cdots,n$.
+Se $m=n$, la matrice si dice **quadrata** (di ordine $m$).
 
-Scriveremo sinteticamente $\mathbf{A}=(a_{ij})$, $\mathbf{B}=(b_{ij})$ indicando a parte il tipo di matrice o il campo di variabilità degli indici: 
