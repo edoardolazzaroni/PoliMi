@@ -655,4 +655,6 @@ Naturalmente non è detto che risulti $U+W=V$. Quando questo accade, la circosta
 	
 	Facciamo vedere che, se $V=U\oplus W$, allora $W=U^\perp$.
 	Ovviamente si ha $W\subseteq U^\perp$, perchè $W$ è ortogonale a $U$. Viceversa, sia $\mathbf{v}\in U^\perp$ e, in base alla definizione precedente, scriviamolo nella forma $\mathbf{v}=\mathbf{u}+\mathbf{w}$.
-	Facendo prodotto scalare con $\mathbf{u}$ si ottiene $\mathbf{v}\cdot\mathbf{u}=\mathbf{u}\cdot\mathbf{u}+\mathbf{w}\cdot\mathbf{}$
+	Facendo prodotto scalare con $\mathbf{u}$ si ottiene $\mathbf{v}\cdot\mathbf{u}=\mathbf{u}\cdot\mathbf{u}+\mathbf{w}\cdot\mathbf{u}$.
+	
+	Ma $\mathbf{v}\cdot\mathbf{u}=0$ essendo $\mathbf{v}$ ortogonale a $U$ e $\mathbf{w}\cdot\mathbf{u}=0$ perchè 
