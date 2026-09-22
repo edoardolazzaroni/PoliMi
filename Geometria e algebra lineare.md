@@ -680,4 +680,5 @@ Tra queste funzioni, particolare importanza hanno quelle che godono di una speci
 	
 	Sinonimi spesso usati di funzione lineare sono **applicazione lineare**, trasformazione lineare.
 
-Il concetto di linearità è fondamentale in matematica e nelle applicazioni. Vedremo nel prossimo capitolo che il calcolo matriciale permette di descrivere completamente le applicazioni lineari tra spazi vettoriali di dimensione finita.
+Il concetto di linearità è fondamentale in matematica e nelle applicazioni. Vedremo nel prossimo capitolo che il <u>calcolo matriciale</u> permette di descrivere completamente le applicazioni lineari tra spazi vettoriali di dimensione finita.
+Segnaliam
