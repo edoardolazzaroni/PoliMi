@@ -637,4 +637,5 @@ Vale il seguente risultato:
 
 					$dim(U+W)=dim U+ dim W - dim (U\cap W)$
 
-Supponiamo ora che $V$ sia uno spazio vettoriale dotato di prodotto scalare. Se i sottospazi $U$ e
+Supponiamo ora che $V$ sia uno spazio vettoriale dotato di prodotto scalare. Se i sottospazi $U$ e $W$ sono ortogonali, si ha evidentemente $U\cap W=\left\{\mathbf{0}\right\}$, per cui:
+
