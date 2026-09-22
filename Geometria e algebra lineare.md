@@ -627,5 +627,8 @@ Si può dimostrare che <mark class="hltr-yellow">uno spazio vettoriale di dimens
 #### 3.3.2 **Somma diretta di sottospazi ortogonali**
 
 Sia $V$ uno spazio vettoriale qualsiasi. Dati due sottospazi $U$ e $W$ qualunque, se ne possono formare altri due particolarmente significativi:
-- $V \cap W$, ovvero l'**intersezione**
-- $V+W=\left\{\mathbf{v}+\mathbf{w}:\mathbf{v}\in V, \mathbf{w}\in W\right\}$, che coincide con il sottospazio generato da $V\cup W$
+
+- $V \cap W$, ovvero l'**intersezione**;
+- $V+W=\left\{\mathbf{v}+\mathbf{w}:\mathbf{v}\in V, \mathbf{w}\in W\right\}$, che coincide con il sottospazio generato da $V\cup W$.
+
+Vale il seguente risultato: 
