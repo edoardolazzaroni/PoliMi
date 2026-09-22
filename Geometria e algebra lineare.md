@@ -632,3 +632,5 @@ Sia $V$ uno spazio vettoriale qualsiasi. Dati due sottospazi $U$ e $W$ qualunque
 - $V+W=\left\{\mathbf{v}+\mathbf{w}:\mathbf{v}\in V, \mathbf{w}\in W\right\}$, che coincide con il sottospazio generato da $V\cup W$.
 
 Vale il seguente risultato: 
+
+- #PROPOSIZIONE(1). Dati due sottospazi $U$ e 
