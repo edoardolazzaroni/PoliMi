@@ -633,4 +633,5 @@ Sia $V$ uno spazio vettoriale qualsiasi. Dati due sottospazi $U$ e $W$ qualunque
 
 Vale il seguente risultato: 
 
-- #PROPOSIZIONE(1). Dati due sottospazi $U$ e 
+- #PROPOSIZIONE(1). Dati due sottospazi $U$ e $W$ di $V$, vale la formula:
+$dim(U+W)=dim U+ dim W - dim (U\cap W)$
