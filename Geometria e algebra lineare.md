@@ -684,5 +684,7 @@ Il concetto di linearità è fondamentale in matematica e nelle applicazioni. Ve
 
 Segnaliamo anche un tipo di funzione tra spazi vettoriali che è in stretta relazione con le applicazioni lineare: si dice trasformazione affine (o lineare affine), tra due spazi vettoriali $V_{1},V_{2}$, una trasformazione del tipo$f:\ V_{1}\rightarrow V_{2}$, che abbia la forma $f(\mathbf{v})=l(\mathbf{v})+\mathbf{b}$,
 dove $l:\ V_{1}\rightarrow V_{2}$ è lineare e $\mathbf{b}\in V_{2}$ è un elemento fissato.
-*Ad esempio*, 
-$f:\ \mathbb{R}\rightarrow\mathbb{R}$
+	*Ad esempio*, 
+	$f:\ \mathbb{R}\rightarrow\mathbb{R}$, $f(x)=ax+b$
+	con $a,b\in\mathbb{R}$ fissati non è lineare ma affine.
+
