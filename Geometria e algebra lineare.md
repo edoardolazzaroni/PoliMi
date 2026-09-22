@@ -709,4 +709,4 @@ Il primo dei due indici rappresenta il numero della riga, il secondo quello dell
 Scriveremo sinteticamente $\mathbf{A}=(a_{ij})$, $\mathbf{B}=(b_{ij})$ indicando a parte il tipo di matrice o il campo di variabilità degli indici: $i=1,\cdots,m;j=1,\cdots,n$.
 
 - Se $m=n$, la matrice si dice **quadrata** (di ordine $m$).
-- Due matrici dello steso tipo $(m,n)$ si dicono **uguali** se sono uguali i rispettivi elementi, ovvero: $\mathbf{A}=(a_{ij})$
+- Due matrici dello steso tipo $(m,n)$ si dicono **uguali** se sono uguali i rispettivi elementi, ovvero se $\mathbf{A}=(a_{ij}),\mathbf{B}=(b_{ij})$ allora $\mathbf{A}=\mathbf{B} $
