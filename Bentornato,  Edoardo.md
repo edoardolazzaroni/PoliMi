@@ -65,6 +65,7 @@ cellStyleRules:
 
 
 - ## Obiettivi ✅ :
+	
 		- Studiare almeno 6 ore al giorno
 		- Ricominciare palestra (2/3 volte a settimana)
 		- Finire un libro al mese
