@@ -49,7 +49,7 @@ cellStyleRules:
 - [ ] Preparare template di Obsidian
 - [ ] Caricare cuffie
 - [ ] Leggere almeno un capitolo
-- [ ] Fare checklist per domani
+- [x] Fare checklist per domani
 - [x] Preparare zaino uni
 - [x] Guardare orari delle lezioni
 - [x] Caricare tavoletta grafica

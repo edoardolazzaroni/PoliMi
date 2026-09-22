@@ -666,4 +666,4 @@ Naturalmente non è detto che risulti $U+W=V$. Quando questo accade, la circosta
 #### 3.3.3 **Il concetto di linearità**
 
 Nel secondo capitolo abbiamo introdotto il concetto generale di funzione tra due insiemi, come legge che associa univocamente ad un dato "ingresso" una certa "uscita".
-Ci occupiamo ora del caso in cui gli insiemi in questione siano due spazi vettoriali $V_{1},V_{2}$; una funzione $f$ di dominio $V_{1}$ e codominio $V_{2}$, $f:\quad V_{1}\rightarrow V_{2}$
+Ci occupiamo ora del caso in cui gli insiemi in questione siano due spazi vettoriali $V_{1},V_{2}$; una funzione $f$ di dominio $V_{1}$ e codominio $V_{2}$, $f:\quad V_{1}\rightarrow V_{2}$ sarà dunque una legge che ad ogni vettore di $V_{1}$ associa uno ed un sol vettore di $V_{2}$
