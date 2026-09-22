@@ -688,3 +688,6 @@ dove $l:\ V_{1}\rightarrow V_{2}$ è lineare e $\mathbf{b}\in V_{2}$ è un eleme
 	$f:\ \mathbb{R}\rightarrow\mathbb{R}$, $f(x)=ax+b$
 	con $a,b\in\mathbb{R}$ fissati non è lineare ma affine.
 
+
+
+# Capitolo IV: Matrici e trasfor
