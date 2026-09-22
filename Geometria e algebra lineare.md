@@ -698,4 +698,4 @@ dove $l:\ V_{1}\rightarrow V_{2}$ è lineare e $\mathbf{b}\in V_{2}$ è un eleme
 Si può dire informalmente che una <u>matrice</u> è una tabella a doppia entrata; ne sono *esempi* la tavola pitagorica, l'orario ferroviario, le tabelle delle distanze chilometriche, *ecc*.
 Possiamo dare la seguente definizione:
 
-- #
+- #DEFINIZIONE(8). Si dice **matrice** di tipo $(m,n)$ su un insieme numerico $\mathcal{A}$, un insieme di $m\cdot n$ numeri appartenenti 
