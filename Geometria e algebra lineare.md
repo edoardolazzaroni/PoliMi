@@ -641,4 +641,6 @@ Supponiamo ora che $V$ sia uno spazio vettoriale dotato di prodotto scalare. Se 
 
 						$dim(U+W)=dim U + dim W$
 
-Naturalmente non è detto che risulti $U+W=V$: quanto questo accade, la circostanza merita una definizione ed una
+Naturalmente non è detto che risulti $U+W=V$. Quando questo accade, la circostanza merita una definizione ed una notazione speciale:
+
+- #DEFINIZIONE(6). Si dice che 
