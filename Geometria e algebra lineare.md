@@ -705,4 +705,6 @@ La generica matrice $\mathbf{A}$ di tipo $(m,n)$ si può scrivere nella forma:
 $\mathbf{A}=\begin{pmatrix}a_{11}&a_{12}&\cdots&a_{1n}\\ \vdots&\vdots&\ &\vdots \\ a_{m1}&a_{m2}& \cdots &a_{mn}\end{pmatrix}$
 
 Si noti il significato del doppio indice: $a_{ij}$ si legge "elemento di posto $i,j$".
-Il primo dei due indici rappresenta il numero della riga, il secondo quello della colonna, motivo per cui essi costituiscono una sorta di coordinatr 
+Il primo dei due indici rappresenta il numero della riga, il secondo quello della colonna, motivo per cui essi costituiscono una sorta di coordinate dell'elemento nella matrice.
+
+Scriveremo sinteticamente $\mathbf{A}=(a_{ij})$, $\mathbf{B}=(b_{ij})$ indicando a parte il tipo di matrice o il campo di variabilità degli indici: 
