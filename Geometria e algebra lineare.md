@@ -664,3 +664,5 @@ Naturalmente non è detto che risulti $U+W=V$. Quando questo accade, la circosta
 
 
 #### 3.3.3 **Il concetto di linearità**
+
+Nel secondo capitolo abbiamo introdotto il concetto generale di funzione tra due insiemi, come legge che associa univocamente ad un dato 
