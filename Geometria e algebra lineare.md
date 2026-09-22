@@ -626,3 +626,4 @@ Si può dimostrare che <mark class="hltr-yellow">uno spazio vettoriale di dimens
 
 #### 3.3.2 **Somma diretta di sottospazi ortogonali**
 
+Sia $V$ uno spazio vettoriale qualsiasi. Dati due sottospazi $U$ e $W$ qualunque, se me posso
