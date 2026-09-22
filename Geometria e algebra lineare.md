@@ -701,4 +701,4 @@ Possiamo dare la seguente definizione:
 - #DEFINIZIONE(8). Si dice **matrice** di tipo $(m,n)$ su un insieme numerico $\mathcal{A}$, un insieme di $m\cdot n$ numeri appartenenti ad $\mathcal{A}$, disposti in una tabella di $m$ <u>righe</u> ed $n$ <u>colonne</u>.
 
 La generica matrice $\mathbf{A}$ di tipo $(m,n)$ si può scrivere nella forma:
-$\mathbf{A}=(\begin{matrix}a_{11}&a_{12}&\cdots&a_{1n}\\ \vdots&\vdots&\ &\vdots \\ a_{m_{1}}&a_{m_{2}}& \cdots &am_{})$
+$\mathbf{A}=\begin{pmatrix}a_{11}&a_{12}&\cdots&a_{1n}\\ \vdots&\vdots&\ &\vdots \\ a_{m_{1}}&a_{m_{2}}& \cdots &a_{mn}\end{pmatrix}$
