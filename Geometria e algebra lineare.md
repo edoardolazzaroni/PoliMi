@@ -676,4 +676,5 @@ Tra queste funzioni, particolare importanza hanno quelle che godono di una speci
 	
 	Tali proprietà si possono riassumere nell'unica formula:
 	
-	$f(\alpha_{1}\mathbf{v}_{1}+\alpha_{2}\mathbf{v}_{2})=\alpha_{1}f(\mathbf{v}_{1})+\alpha_{2}f(\mathbf{v}_{2})$, $\quad \forall \ \alpha_{1},\alpha_{2}\in\mathbb{K}, \mathbf{v}_{1},$
+	$f(\alpha_{1}\mathbf{v}_{1}+\alpha_{2}\mathbf{v}_{2})=\alpha_{1}f(\mathbf{v}_{1})+\alpha_{2}f(\mathbf{v}_{2})$, $\quad \forall \ \alpha_{1},\alpha_{2}\in\mathbb{K},\quad \mathbf{v}_{1},\mathbf{v}_{2}\in V_{1}$
+	Sinonimi spesso usati di funzione lineare sono applicazione lineare, trasformaz
