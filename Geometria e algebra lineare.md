@@ -695,4 +695,4 @@ dove $l:\ V_{1}\rightarrow V_{2}$ è lineare e $\mathbf{b}\in V_{2}$ è un eleme
 
 ### 4.1 **L'algebra delle matrici**
 
-Si può d
+Si può dire informalmente che una <u>matrice</u> è una tabella a doppia entrata; ne sono esempi la tavola pitagorica, l'orario ferroviario, le tabelle delle distanze chilometrice, 
