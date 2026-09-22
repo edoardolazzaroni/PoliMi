@@ -633,5 +633,8 @@ Sia $V$ uno spazio vettoriale qualsiasi. Dati due sottospazi $U$ e $W$ qualunque
 
 Vale il seguente risultato: 
 
-- #PROPOSIZIONE(1). Dati due sottospazi $U$ e $W$ di $V$, vale la formula:
-$dim(U+W)=dim U+ dim W - dim (U\cap W)$
+- #PROPOSIZIONE(1). Dati due sottospazi $U$ e $W$ di $V$, vale la **formula**:
+
+					$dim(U+W)=dim U+ dim W - dim (U\cap W)$
+
+Supponiamo ora che $V$ sia uno spazio vettoriale dotato di prodotto scalare. Se i sottospazi $U$ e
