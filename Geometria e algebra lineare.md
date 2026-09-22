@@ -643,5 +643,8 @@ Supponiamo ora che $V$ sia uno spazio vettoriale dotato di prodotto scalare. Se 
 
 Naturalmente non è detto che risulti $U+W=V$. Quando questo accade, la circostanza merita una definizione ed una notazione speciale:
 
-- #DEFINIZIONE(6). Si dice che $V$ è somma diretta dei sottospazi ortogonali $U$ e $W$ e si scrive:
-$V=U\oplus$
+- #DEFINIZIONE(6). Si dice che $V$ è **somma diretta** dei sottospazi ortogonali $U$ e $W$ e si scrive:
+
+								$V=U\oplus W$
+	
+	Se ogni vettore $\mathbf{v}\in V$ si può scrivere come 
