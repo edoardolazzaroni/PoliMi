@@ -669,7 +669,7 @@ Nel secondo capitolo abbiamo introdotto il concetto generale di funzione tra due
 Ci occupiamo ora del caso in cui gli insiemi in questione siano due spazi vettoriali $V_{1},V_{2}$; una funzione $f$ di dominio $V_{1}$ e codominio $V_{2}$, $\ f:\ V_{1}\rightarrow V_{2}$ sarà dunque una legge che ad ogni vettore di $V_{1}$ associa uno ed un sol vettore di $V_{2}$.
 Tra queste funzioni, particolare importanza hanno quelle che godono di una speciale proprietà, detta <u>linearità</u>:
 
-- #DEFINIZIONE(7). Siano $V_{1},V_{2}$ due spazi vettoriali su un campo $\mathbb{K}$ (ovvero $\mathbb{R}$ o $\mathbb{C}$), e sia $f:\ V_{1}\rightarrow V_{2}$. Si dirà che $f$ è una funzione lineare se, $\forall \ \alpha \in\mathbb{K}, \ \forall\ \mathbf{v}_{1},\mathbf{v}_{2}\in V_{1}$, si ha:
+- #DEFINIZIONE(7). Siano $V_{1},V_{2}$ due spazi vettoriali su un campo $\mathbb{K}$ (ovvero $\mathbb{R}$ o $\mathbb{C}$), e sia $f:\ V_{1}\rightarrow V_{2}$. Si dirà che $f$ è una **funzione lineare** se, $\forall \ \alpha \in\mathbb{K}, \ \forall\ \mathbf{v}_{1},\mathbf{v}_{2}\in V_{1}$, si ha:
 	
 	1. <mark class="hltr-yellow">Additività</mark>: $f(\mathbf{v}_{1}+\mathbf{v}_{2})=f(\mathbf{v}_{1})+f(\mathbf{v}_{2})$
 	2. <mark class="hltr-yellow">Omogeneità</mark>: $f(\alpha\mathbf{v}_{1})=\alpha f({\mathbf{v}_{1}})$
@@ -677,4 +677,7 @@ Tra queste funzioni, particolare importanza hanno quelle che godono di una speci
 	Tali proprietà si possono riassumere nell'unica formula:
 	
 	$f(\alpha_{1}\mathbf{v}_{1}+\alpha_{2}\mathbf{v}_{2})=\alpha_{1}f(\mathbf{v}_{1})+\alpha_{2}f(\mathbf{v}_{2})$, $\quad \forall \ \alpha_{1},\alpha_{2}\in\mathbb{K},\quad \mathbf{v}_{1},\mathbf{v}_{2}\in V_{1}$
-	Sinonimi spesso usati di funzione lineare sono applicazione lineare, trasformaz
+	
+	Sinonimi spesso usati di funzione lineare sono **applicazione lineare**, trasformazione lineare.
+
+Il concetto di linearità è fondamentale in
