@@ -764,4 +764,7 @@ Possiamo anche definire un prodotto tra matrici, che però non è valido per ogn
 	
 	- Il prodotto righe per colonne è però <mark class="hltr-yellow">associativo</mark>; più precisamente, date tre matrici $\mathbf{A}$ di tipo $(m,n)$, $\mathbf{B}$ di tipo $(n,p)$ e $\mathbf{C}$ di tipo $(p,r)$ i due prodotti $\mathbf{A}(\mathbf{B}\mathbf{C})$ e $(\mathbf{A}\mathbf{B})\mathbf{C}$ sono ben definiti ed uguali.
 		
-		In particolare, se $\mathbf{A}$ è una matrice quadrata ha senso definire $\mathbf{A}^n=\mathbf{A}\cdot\mathbf{A}\cdot\cdots\cdot\mathbf{A}$
+		In particolare, se $\mathbf{A}$ è una matrice quadrata ha senso definire $\mathbf{A}^n=\mathbf{A}\cdot\mathbf{A}\cdot\cdots\cdot\mathbf{A}$.
+	
+	- Per le matrici vale anche la proprietà <mark class="hltr-yellow">distributiva</mark>: $\mathbf{A}(\mathbf{B}+\mathbf{C})=\mathbf{A}\mathbf{B}+\mathbf{A}\mathbf{C}$
+	- 
