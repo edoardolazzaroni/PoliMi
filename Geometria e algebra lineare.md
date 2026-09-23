@@ -725,12 +725,14 @@ Scriveremo sinteticamente $\mathbf{A}=(a_{ij})$, $\mathbf{B}=(b_{ij})$ indicando
 	$3\cdot\begin{pmatrix}1&3&1\\0&-1&5\\0&0&3\end{pmatrix}=\begin{pmatrix}3&9&3\\0&-3&15\\0&0&9\end{pmatrix}$
 
 
-Si verifica facilmente che l'insieme $\mathbf{M}(m,n)$ di tute le matrici su $\mathbb{R}$ di tipo $(m,n)$ è uno spazio vettoriale. In particolare, l'elemento $\mathbf{0}$ è la matrice che ha tutti gli elementi nulli, e la matrice opposta di $\mathbf{A}$, detta $-\mathbf{A}$, è la matrice che ha per elementi gli opposti degli elementi di $\mathbf{A}$.
-La dimensione dello spazio vettoriale è $n\cdot m$ e la base canonica è costituita dalle matrici $n\times m$ aventi tutti gli elementi nulli, tranne uno uguale ad 1.
+Si verifica facilmente che l'insieme $\mathbf{M}(m,n)$ di tute le matrici su $\mathbb{R}$ di tipo $(m,n)$ è uno spazio vettoriale. In particolare, l'elemento $\mathbf{0}$ è la matrice che ha tutti gli elementi nulli, e la matrice **opposta** di $\mathbf{A}$, detta $-\mathbf{A}$, è la matrice che ha per elementi gli opposti degli elementi di $\mathbf{A}$.
+La dimensione dello spazio vettoriale è $n\cdot m$ e la <u>base canonica</u> è costituita dalle matrici $n\times m$ aventi tutti gli elementi nulli, tranne uno uguale ad 1.
 In particolare,
 
 - $\mathbf{M}(1,n)$ si identifica con $\mathbb{R}^n$, pensato come spazio di vettori riga;
 - $\mathbf{M}(n,1)$ si identifica con $\mathbb{R}^n$, pensato come spazio di vettori colonna.
 
 I vettori di $\mathbb{R}^n$ sono quindi particolari matrici.
-Le righe di una matrice $\mathbf{A}$ di tipo $(m,n)$ possono essere viste come vettori riga di $\mathbb{R}^n$, cioè $\mathbf{a}_{i}=(a_{i_{1}})$
+
+Le righe di una matrice $\mathbf{A}$ di tipo $(m,n)$ possono essere viste come vettori riga di $\mathbb{R}^n$, cioè $\mathbf{a}_{i}=(a_{i1},a_{i2},\cdots,a_{in})\quad i=1,2,\cdots,m$
+e viceversa 
