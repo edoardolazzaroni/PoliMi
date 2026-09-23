@@ -754,3 +754,5 @@ Possiamo anche definire un prodotto tra matrici, che però non è valido per ogn
 	$c_{12}=1\cdot\ 3+2\cdot 8+3\cdot 1=22$
 	$c_{21}=4\cdot\ 1+5\cdot(-7)+6\cdot 0=-31$
 	$c_{22}=4\cdot\ 3+5\cdot 8+6\cdot 1=58$
+	
+	Due matrici $\mathbf{A}$ e $\mathbf{B}$ tali che il numero delle colonne della prima coincide col numero di righe della seconda si dicono conformabili. Di conseguenza il prodotto di matrici si può effettuare solo t
