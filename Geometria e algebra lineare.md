@@ -732,4 +732,5 @@ In particolare,
 - $\mathbf{M}(1,n)$ si identifica con $\mathbb{R}^n$, pensato come spazio di vettori riga;
 - $\mathbf{M}(n,1)$ si identifica con $\mathbb{R}^n$, pensato come spazio di vettori colonna.
 
-I vettori di 
+I vettori di $\mathbb{R}^n$ sono quindi particolari matrici.
+Le righe di una matrice $\mathbf{A}$ di tipo $(m,n)$ possono essere viste come vettori riga di $\mathbb{R}^n$, cioè $\mathbf{a}_{i}=(a_{i_{1}})$
