@@ -735,4 +735,5 @@ In particolare,
 I vettori di $\mathbb{R}^n$ sono quindi particolari matrici.
 
 Le righe di una matrice $\mathbf{A}$ di tipo $(m,n)$ possono essere viste come vettori riga di $\mathbb{R}^n$, cioè $\mathbf{a}_{i}=(a_{i1},a_{i2},\cdots,a_{in})\quad i=1,2,\cdots,m$
-e viceversa le colonne possono essere viste come vettori colonna di $\mathbb{R}^m$, cioè $a^j=$
+e viceversa le colonne possono essere viste come vettori colonna di $\mathbb{R}^m$, cioè $a^j=\begin{pmatrix}a_{1j}\\a_{2j}\\ \vdots \\a_{mj}\end{pmatrix}$
+quindi la matrice $$
