@@ -761,4 +761,5 @@ Possiamo anche definire un prodotto tra matrici, che però non è valido per ogn
 		
 		Se però $\mathbf{A}$ e $\mathbf{B}$ sono <u>quadrate</u> dello stesso ordine, entrambi i prodotti $\mathbf{A}\mathbf{B}$ e $\mathbf{B}\mathbf{A}$ sono ben definiti, ma non sono in generale uguali: $\mathbf{A}\mathbf{B}\ne\mathbf{B}\mathbf{A}$.
 		Si è quindi costretti a specificare se la moltiplicazione avviene a destra $(\mathbf{A}\mathbf{B})$ o viceversa a sinistra $(\mathbf{B}\mathbf{A})$.
-		
+	
+	- Il prodotto righe per colonne è però <mark class="hltr-yellow">associativo</mark>; più precisamente, date tre matrici $\mathbf{A}$ di tipo $(m,n)$
