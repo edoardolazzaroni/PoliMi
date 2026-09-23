@@ -760,4 +760,5 @@ Possiamo anche definire un prodotto tra matrici, che però non è valido per ogn
 	- Se $\mathbf{A}$ è una matrice $(m,n)$ e $\mathbf{B}$ è una matrice $(n,p)$, con $m\ne p$, è definito il prodotto $\mathbf{A}\mathbf{B}$ ma non il prodotto $\mathbf{B}\mathbf{A}$, per cui in generale <u>il prodotto non è commutativo</u>.
 		
 		Se però $\mathbf{A}$ e $\mathbf{B}$ sono <u>quadrate</u> dello stesso ordine, entrambi i prodotti $\mathbf{A}\mathbf{B}$ e $\mathbf{B}\mathbf{A}$ sono ben definiti, ma non sono in generale uguali: $\mathbf{A}\mathbf{B}\ne\mathbf{B}\mathbf{A}$.
-		Si è quindi costrei
+		Si è quindi costretti a specificare se la moltiplicazione avviene a destra $(\mathbf{A}\mathbf{B})$ o viceversa a sinistra $(\mathbf{B}\mathbf{A})$.
+		
