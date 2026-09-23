@@ -757,4 +757,6 @@ Possiamo anche definire un prodotto tra matrici, che però non è valido per ogn
 	
 	Due matrici $\mathbf{A}$ e $\mathbf{B}$ tali che il numero delle colonne della prima coincide col numero di righe della seconda si dicono conformabili. Di conseguenza i<mark class="hltr-yellow">l prodotto di matrici si può effettuare solo tra matrici conformabili</mark>; si chiama anche <u>prodotto righe per colonne</u> per il medesimo motivo.
 	
-	- Se $\mathbf{A}$ è una matrice $(m,n)$ e $\mathbf{B}$ è una matrice $(n,p)$, con $m\ne p$, è definito il prodotto $\mathbf{A}\mathbf{B}$ ma non il prodotto $\mathbf{B}\mathbf{A}$, per cui in generale il prodotto non è commutativo.
+	- Se $\mathbf{A}$ è una matrice $(m,n)$ e $\mathbf{B}$ è una matrice $(n,p)$, con $m\ne p$, è definito il prodotto $\mathbf{A}\mathbf{B}$ ma non il prodotto $\mathbf{B}\mathbf{A}$, per cui in generale <u>il prodotto non è commutativo</u>.
+		
+		Se però $\mathbf{A}$ e $\mathbf{B}$ sono quadrate dello stesso ordine, entrambi i prodotti $\mathbf{A}\mathbf{B}$ e $\mathbf{A}$
