@@ -47,7 +47,7 @@ cellStyleRules:
 - ## Impegni del giorno 📋 :
 
 - [ ] Preparare template di Obsidian
-- [ ] Caricare cuffie
+- [x] Caricare cuffie
 - [ ] Leggere almeno un capitolo
 - [x] Fare checklist per domani
 - [x] Preparare zaino uni
