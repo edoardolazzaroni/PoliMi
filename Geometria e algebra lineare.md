@@ -722,5 +722,6 @@ Scriveremo sinteticamente $\mathbf{A}=(a_{ij})$, $\mathbf{B}=(b_{ij})$ indicando
 	
 	*Per esempio*,
 	
-	$3\cdot\begin{pmatrix}1&3&1\\0&-1&5\\0&0&3\end{pmatrix}=\begin{pmatrix}3&9&$
-- 
+	$3\cdot\begin{pmatrix}1&3&1\\0&-1&5\\0&0&3\end{pmatrix}=\begin{pmatrix}3&9&3\\0&-3&15\\0&0&9\end{pmatrix}$
+
+Si verifica facilmente che l'insieme $\mathbf{M}$
