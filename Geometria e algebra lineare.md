@@ -752,4 +752,5 @@ Possiamo anche definire un prodotto tra matrici, che però non è valido per ogn
 	infatti:
 	$c_{11}=1\cdot\ 1+2\cdot(-7)+3\cdot 0=-13$
 	$c_{12}=1\cdot\ 3+2\cdot 8+3\cdot 1=22$
-	$c_{21}=1\cdot\ 1+2\cdot(-7)+3\cdot 0=-13$
+	$c_{21}=4\cdot\ 1+5\cdot(-7)+6\cdot 0=-31$
+	$c_{22}=4\cdot\ 3+5\cdot 8+6\cdot 1=58$
