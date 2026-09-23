@@ -767,4 +767,4 @@ Possiamo anche definire un prodotto tra matrici, che però non è valido per ogn
 		In particolare, se $\mathbf{A}$ è una matrice quadrata ha senso definire $\mathbf{A}^n=\mathbf{A}\cdot\mathbf{A}\cdot\cdots\cdot\mathbf{A}$.
 	
 	- Per le matrici vale anche la proprietà <mark class="hltr-yellow">distributiva</mark>: $\mathbf{A}(\mathbf{B}+\mathbf{C})=\mathbf{A}\mathbf{B}+\mathbf{A}\mathbf{C}$
-	- 
+		quando ciò ha senso, ovvero se $\mathbf{A}$ è di tipo $(n,m)$ e $\mathbf{B},\mathbf{C}$ sono di tipo 
