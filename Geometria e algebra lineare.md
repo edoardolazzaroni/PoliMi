@@ -746,4 +746,6 @@ Possiamo anche definire un prodotto tra matrici, che però non è valido per ogn
 				$c_{ij}=\mathbf{a}_{i}\cdot\mathbf{b}^j=\sum_{k=1}^n a_{ik}b_{kj},\quad$ dove $i=1,2,\cdots,m$ e $j=1,2,\cdots,p$
 	
 	*Per esempio*,
-	$\begin{pmatrix}1&2&3\\4&5&6\end{pmatrix}\cdot\begin$
+	
+	$\begin{pmatrix}1&2&3\\4&5&6\end{pmatrix}\cdot\begin{pmatrix}1&3\\-7&8\\0&1\end{pmatrix}=\begin{pmatrix}-13&22\\-31&58\end{pmatrix}$
+	
