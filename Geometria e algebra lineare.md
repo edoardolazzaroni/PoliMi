@@ -742,4 +742,4 @@ Possiamo anche definire un prodotto tra matrici, che però non è valido per ogn
 
 - #DEFINIZIONE(9). **Prodotto di matrici**
 	
-	Date due matrici $\mathbf{A}=(a)$
+	Date due matrici $\mathbf{A}=(a_{ik})$ e $\mathbf{B}=(b_{ks})$ di tipo $(m,n)$ e $(n,p)$, indicheremo con $\mathbf{A}\cdot\mathbf{B}$, o più semplicemente con $\mathbf{A}\mathbf{B}$
