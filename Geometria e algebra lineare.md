@@ -716,6 +716,6 @@ Scriveremo sinteticamente $\mathbf{A}=(a_{ij})$, $\mathbf{B}=(b_{ij})$ indicando
 	
 	*Per esempio*,
 	
-	$\begin{pmatrix}7&11&17\\21&-5&-9\end{pmatrix}}$
+	$\begin{pmatrix}7 & 11 &17 \\ 21 & -5 & -9 \end{pmatrix}+\begin{pmatrix}4&-10&3\\7&81&32\end$
 
 - 
