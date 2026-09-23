@@ -726,4 +726,7 @@ Scriveremo sinteticamente $\mathbf{A}=(a_{ij})$, $\mathbf{B}=(b_{ij})$ indicando
 
 
 Si verifica facilmente che l'insieme $\mathbf{M}(m,n)$ di tute le matrici su $\mathbb{R}$ di tipo $(m,n)$ è uno spazio vettoriale. In particolare, l'elemento $\mathbf{0}$ è la matrice che ha tutti gli elementi nulli, e la matrice opposta di $\mathbf{A}$, detta $-\mathbf{A}$, è la matrice che ha per elementi gli opposti degli elementi di $\mathbf{A}$.
-La di
+La dimensione dello spazio vettoriale è $n\cdot m$ e la base canonica è costituita dalle matrici $n\times m$ aventi tutti gli elementi nulli, tranne uno uguale ad 1.
+In particolare,
+
+- $\mathbf{M}$
