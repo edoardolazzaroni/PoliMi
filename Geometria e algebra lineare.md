@@ -750,4 +750,6 @@ Possiamo anche definire un prodotto tra matrici, che però non è valido per ogn
 	$\begin{pmatrix}1&2&3\\4&5&6\end{pmatrix}\cdot\begin{pmatrix}1&3\\-7&8\\0&1\end{pmatrix}=\begin{pmatrix}-13&22\\-31&58\end{pmatrix}$
 	
 	infatti:
-	$c_{11}=1\cdot\+2\cdot(-)$
+	$c_{11}=1\cdot\ 1+2\cdot(-7)+3\cdot 0=-13$
+	$c_{12}=1\cdot\ 3+2\cdot 8+3\cdot 1=22$
+	$c_{21}=1\cdot\ 1+2\cdot(-7)+3\cdot 0=-13$
