@@ -738,4 +738,8 @@ Le righe di una matrice $\mathbf{A}$ di tipo $(m,n)$ possono essere viste come v
 e viceversa le colonne possono essere viste come vettori colonna di $\mathbb{R}^m$, cioè $a^j=\begin{pmatrix}a_{1j}\\a_{2j}\\ \vdots \\a_{mj}\end{pmatrix}$
 quindi la matrice $\mathbf{A}$ si può scrivere nei modi seguenti: $\mathbf{A}=\begin{pmatrix}\mathbf{a}_{1}\\ \mathbf{a}_{2}\\ \vdots \\ \mathbf{a}_{m}\end{pmatrix}=(\mathbf{a}^1|\mathbf{a}^2|\cdots|\mathbf{a}^n)$
 
-Possiamo anche definire un prodotto tra matrici, che però non è valido per ogni coppia di quest'ultime come si vede nella seguente definizion
+Possiamo anche definire un prodotto tra matrici, che però non è valido per ogni coppia di quest'ultime come si vede nella seguente definizione:
+
+- #DEFINIZIONE(9). **Prodotto di matrici**
+	
+	Date due matrici $\mathbf{A}=(a)$
