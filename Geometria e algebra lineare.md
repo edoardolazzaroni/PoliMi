@@ -729,4 +729,7 @@ Si verifica facilmente che l'insieme $\mathbf{M}(m,n)$ di tute le matrici su $\m
 La dimensione dello spazio vettoriale è $n\cdot m$ e la base canonica è costituita dalle matrici $n\times m$ aventi tutti gli elementi nulli, tranne uno uguale ad 1.
 In particolare,
 
-- $\mathbf{M}$
+- $\mathbf{M}(1,n)$ si identifica con $\mathbb{R}^n$, pensato come spazio di vettori riga;
+- $\mathbf{M}(n,1)$ si identifica con $\mathbb{R}^n$, pensato come spazio di vettori colonna.
+
+I vettori di 
