@@ -718,4 +718,4 @@ Scriveremo sinteticamente $\mathbf{A}=(a_{ij})$, $\mathbf{B}=(b_{ij})$ indicando
 	
 	$\begin{pmatrix}7 & 11 &17 \\ 21 & -5 & -9 \end{pmatrix}+\begin{pmatrix}4&-10&3\\7&81&32\end{pmatrix}=\begin{pmatrix}11&1&20\\28&76&23\end{pmatrix}$
 
-- Con le matrici si possono effettuare altre operazioni
+- Con le matrici si possono effettuare altre operazioni, ad esempio si piuò **moltiplicare** una matrice per un numero: se $t$ è un numero e $\mathbf{A}=a_{ik}$, alora
