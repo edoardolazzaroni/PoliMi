@@ -772,4 +772,6 @@ Possiamo anche definire un prodotto tra matrici, che però non è valido per ogn
 		Analogamente $(\mathbf{B}+\mathbf{C})\mathbf{A}=\mathbf{B}\mathbf{A}+\mathbf{C}\mathbf{A}$, se $\mathbf{B},\mathbf{C}$ sono di tipo $(n,m)$ e $\mathbf{A}$ è di tipo $(m,r)$.
 
 
-È importante sottolineare che tra le matrici quadrate di ordine $n$ ne esiste una, che indichiamo con $\mathbf{I}_{n}$, tale che per ogni altra matrice $\mathbf{A}$ dello stesso ordine si ha: $\mathbf{A}\mathbf{I}_{n}=$
+- È importante sottolineare che tra le matrici quadrate di ordine $n$ ne esiste una, che indichiamo con $\mathbf{I}_{n}$, tale che per ogni altra matrice $\mathbf{A}$ dello stesso ordine si ha: $\mathbf{A}\mathbf{I}_{n}=\mathbf{I}_{n}\mathbf{A}$
+	
+	Tale matrice si chiama **matrice identità** ed ha la forma 
