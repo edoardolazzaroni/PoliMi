@@ -796,4 +796,5 @@ Una matrice quadrata del tipo $U=\begin{pmatrix}d_{1}&*&*&*&*\\0&d_{2}&*&*&*\\0&
 dove gli asterischi indicano elementi qualsiasi, si chiama **triangolare alta**; analogamente, si dice **triangolare bassa** se tutti gli elemeneti sopra la diagonale principale sono nulli.
 Una matrice quadrata si dice **diagonale** se sono nulli tutti i suoi elementi fuori dalla diagonale principale.
 
-È facile controllare che: il prodotto di matrici quadrate dello stesso ordine triangolari alte/basse è ancora triangolare alta/bassa. Evidentemente, se 
+È facile controllare che: il prodotto di matrici quadrate dello stesso ordine triangolari alte/basse è ancora triangolare alta/bassa. Evidentemente, se $\mathbf{A}$ è triangolare e simmetrica allora deve essere diagonale; se $\mathbf{A}$ è triangolare sia alta che bassa allora è diagonale.
+
