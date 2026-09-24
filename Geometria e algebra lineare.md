@@ -865,4 +865,7 @@ ossia la matrice rappresentativa di $L_{2}\circ L_{1}$ è il prodotto righe per 
 $L_{2}(L_{1}\mathbf{x})=\mathbf{B}\cdot(\mathbf{Ax})=(\mathbf{BA})\mathbf{x}\quad$,ossia $\mathbf{BA}$ rappresenta $L_{2}\circ L_{1}$.
 
 
-Notiamo infine che una **trasformazione affine** tra due spazi vettoriali (vedi paragrafo [[#### 3.3.3 **Il concetto di linearità**]], cioò del tipo
+Notiamo infine che una **trasformazione affine** tra due spazi vettoriali ([[#### 3.3.3 **Il concetto di linearità**|vedi paragrafo 3.3.3]]), cioò del tipo:
+
+$f:V_{n}\rightarrow V_{m}$
+$f(\mathbf{v})=l(\mathbf{v})+\mathbf{u}$
