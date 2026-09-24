@@ -949,6 +949,6 @@ $\begin{align}\det\mathbf{A}&=1\cdot\begin{vmatrix}2&5&1\\0&3&0\\-1&-2&1\end{vma
 	d. Il determinante è una funzione lineare di ciascuna sua riga/colonna, ossia:
 		d1:$\quad\det\begin{pmatrix}a_{1}+b_{1}\\ a_{2}\\ \cdots \\a_{n}\end{pmatrix}=\det\begin{pmatrix}a_{1}\\ a_{2}\\ \cdots \\a_{n}\end{pmatrix}+\det\begin{pmatrix}b_{1}\\ a_{2}\\ \cdots \\a_{n}\end{pmatrix}$
 		d2: $\det\begin{pmatrix}\lambda a_{1}\\ a_{2}\\ \cdots \\a_{n}\end{pmatrix}=\lambda\det\begin{pmatrix}a_{1}\\ a_{2}\\ \cdots \\a_{n}\end{pmatrix}$
-		()
+		(gli $a_{i}$ sono i vettori riga che costituiscono la matrice);
 	
-	e.
+	e. Se ad una riga/colonna si aggiunge una qualunque combinazione lineare delle altre righe/colonne, il determinante 
