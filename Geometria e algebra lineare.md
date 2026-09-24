@@ -815,4 +815,7 @@ Inoltre, in questa trasformazione
 
 Infine, considerazioni analoghe valgono se al campo reale sostituiamo il campo complesso $\mathbb{C}$: una matrice di tipo $(m,n)$ a elementi complessi realizza una trasformazione lineare di $\mathbb{C}^n$ in $\mathbb{C}^m$.
 
-Il prossimo importante teorema afferma, in sostanza, che tutte le trasformazioni lineari da $\mathbb{R}^n$ a $\mathbb{R}^m$ (o da $\mathbb{C}^n$ a $\mathbb{C}^m$)
+Il prossimo importante teorema afferma, in sostanza, che tutte le trasformazioni lineari da $\mathbb{R}^n$ a $\mathbb{R}^m$ (o da $\mathbb{C}^n$ a $\mathbb{C}^m$) sono di questo tipo; anzi, tutte le trasformazioni lineari tra due spazi vettoriali qualsiasi, di dimensione finita, si possono rappresentare a questo modo:
+
+- #TEOREMA(4). **Teorema di Rappresentazione**
+	
