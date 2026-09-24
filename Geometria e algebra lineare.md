@@ -866,6 +866,8 @@ Il prossimo importante teorema afferma, in sostanza, che tutte le trasformazioni
 
 
 - Notiamo infine che una **trasformazione affine** tra due spazi vettoriali ([[#### 3.3.3 **Il concetto di linearità**|vedi paragrafo 3.3.3]]), cioò del tipo:
-
-$f:V_{n}\rightarrow V_{m}$
-$f(\mathbf{v})=l(\mathbf{v})+\mathbf{u}$
+	
+	$f:V_{n}\rightarrow V_{m}$
+	$f(\mathbf{v})=l(\mathbf{v})+\mathbf{u}$
+	
+	con $l:V_{n}\rightarrow V_{m}$ lineare e $\mathbf{u}\in V_{m}$ vettore fissato, 
