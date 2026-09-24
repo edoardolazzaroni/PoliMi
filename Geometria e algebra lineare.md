@@ -790,6 +790,9 @@ Possiamo anche definire un prodotto tra matrici, che però non è valido per ogn
 		*Esempio*: $\begin{pmatrix}1&2&-1\\2&0&3\\-1&3&4\end{pmatrix}$ è una matrice simmetrica.
 
 
+
 Una matrice quadrata del tipo $U=\begin{pmatrix}d_{1}&*&*&*&*\\0&d_{2}&*&*&*\\0&0&d_{3}&*&*\\ \vdots&\vdots&\vdots&\ddots&\vdots\\ 0&0&0&\cdots&d_{n}\end{pmatrix}$
-dove gli asterischi indicano elementi qualsiasi, si chiama **triangolare alta**.
-Analogamente, si dice t
+
+dove gli asterischi indicano elementi qualsiasi, si chiama **triangolare alta**; analogamente, si dice **triangolare bassa** se tutti gli elemeneti sopra la diagonale principale sono nulli.
+
+Una matrice quadrata si dice diagonale se sono nulli tutti i su
