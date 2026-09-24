@@ -915,4 +915,7 @@ D'altra parte, noi siamo interessato soprattutto al calcolo dei determinanti per
 						
 						$\det\mathbf{A}=a_{1k}A_{1k}+a_{2k}A_{2k}+\cdots a_{nk}A_{nk}$
 
-Il determinante viene così definito in modo iterativo: 
+
+Segue quindi il prossimo Teorema:
+
+- #TEOREMA ()
