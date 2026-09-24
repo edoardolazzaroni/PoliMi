@@ -784,4 +784,5 @@ Possiamo anche definire un prodotto tra matrici, che però non è valido per ogn
 	
 	In simboli, se $\mathbf{A}=(a_{ij})$, $\mathbf{A}^\top$ avrà $a_{ji}$ come elemento di posto $ij$. Si osservi la seguente <mark class="hltr-yellow">proprietà</mark>: $(\mathbf{A}\mathbf{B})^\top=\mathbf{B}^\top\mathbf{A}^\top\quad$ (se $\mathbf{A}$ è di tipo $(n,m)$ e $\mathbf{B}$ di tipo $(m,r)$).
 	
-	Se $\mathbf{A}=\mathbf{A}^\top$ (e quindi $$)
+	Se $\mathbf{A}=\mathbf{A}^\top$ (e quindi $m=n$), tale matrice si dice essere **simmetrica**.
+	Cioò significa che per ogni coppia di indici $i,j$ risulta $a_{ij}=a_{ji}$, ovvero la matrice è una tabella simmetrica
