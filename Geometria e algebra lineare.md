@@ -794,5 +794,6 @@ Possiamo anche definire un prodotto tra matrici, che però non è valido per ogn
 Una matrice quadrata del tipo $U=\begin{pmatrix}d_{1}&*&*&*&*\\0&d_{2}&*&*&*\\0&0&d_{3}&*&*\\ \vdots&\vdots&\vdots&\ddots&\vdots\\ 0&0&0&\cdots&d_{n}\end{pmatrix}$
 
 dove gli asterischi indicano elementi qualsiasi, si chiama **triangolare alta**; analogamente, si dice **triangolare bassa** se tutti gli elemeneti sopra la diagonale principale sono nulli.
+Una matrice quadrata si dice **diagonale** se sono nulli tutti i suoi elementi fuori dalla diagonale principale.
 
-Una matrice quadrata si dice diagonale se sono nulli tutti i su
+È facile controllare che: il prodotto di matrici quadrate dello stesso ordine triangolari alte/basse è ancora triangolare alta/bassa. Evidentemente, se 
