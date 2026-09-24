@@ -776,4 +776,4 @@ Possiamo anche definire un prodotto tra matrici, che però non è valido per ogn
 	
 	Tale matrice si chiama **matrice identità** ed ha la forma: $\mathbf{I}_{n}=\begin{pmatrix}1&0&0&\cdots& 0\\0&1&0&\cdots&0\\ \vdots&\vdots&\vdots&\ddots &\vdots\\ 0&0&0&\cdots&1\end{pmatrix}$
 
-- Si chiama **matrice trasposta** di una matrice $\mathbf{A}$ di tipo $()$
+- Si chiama **matrice trasposta** di una matrice $\mathbf{A}$ di tipo $(m,n)$ e la si indica con il simbolo $\mathbf{A}^\top$, la matrice di tipo $(n,m)$ che si ottiene da $\mathbf{A}$ scambiando le righe con 
