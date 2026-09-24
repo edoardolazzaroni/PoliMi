@@ -17,7 +17,7 @@ titleStyle:
   fontSize: 15px
   fontWeight: normal
 dataSource:
-  type: PAGE
+  type: ALL_TASK
   value: ""
   dateField:
     formatType: moment
