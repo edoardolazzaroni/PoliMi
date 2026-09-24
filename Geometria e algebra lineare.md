@@ -814,3 +814,5 @@ Inoltre, in questa trasformazione
 								$\mathbf{A}(\lambda\mathbf{x})=\lambda\mathbf{A}\mathbf{x}$
 
 Infine, considerazioni analoghe valgono se al campo reale sostituiamo il campo complesso $\mathbb{C}$: una matrice di tipo $(m,n)$ a elementi complessi realizza una trasformazione lineare di $\mathbb{C}^n$ in $\mathbb{C}^m$.
+
+Il prossimo importante teorema afferma, in sostanza, che tutte le trasformazioni lineari da $\mathbb{R}^n$ a $\mathbb{R}^m$ (o da $\mathbb{C}^n$ a $\mathbb{C}^m$)
