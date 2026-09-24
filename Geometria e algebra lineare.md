@@ -802,4 +802,4 @@ Una matrice quadrata si dice **diagonale** se sono nulli tutti i suoi elementi f
 
 ### 4.2 **Rappresentazione matriciale delle trasformazioni lineari**
 
-Abbiamo visto 
+Una matrice $\mathbf{A}$, quadrata di ordine $n$, trasforma un vettore di $\mathbb{R}^n$ in un altro vettore di $\mathbb{R}^n$ m
