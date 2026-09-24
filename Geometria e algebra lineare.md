@@ -843,4 +843,5 @@ Il prossimo importante teorema afferma, in sostanza, che tutte le trasformazioni
 	che, raggruppate in forma matriciale, danno: $\begin{pmatrix}y_{1}\\y_{2}\\ \vdots \\ y_{m}\end{pmatrix}=\mathbf{A}\begin{pmatrix} x_{1}\\x_{2}\\ \vdots \\ x_{n}\end{pmatrix}$
 	
 	La matrice $\mathbf{A}$ rappresenta dunque $\mathcal{L}$ nel senso precisato nell'enunciato del teorema.
-	Tale matrice è unica, come conseguenza del fatto che ogni vettore $\mathcal{L}$
+	Tale matrice è unica, come conseguenza del fatto che ogni vettore $\mathcal{L}(\mathbf{u}_{i}),i=1,2,\cdots,n$ si può esprimere in un unico modo come combinazione lineare dei vettori $\mathbf{v}_{1},\mathbf{v}_{2},\cdots,\mathbf{v}_{m}$.
+	
