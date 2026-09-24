@@ -862,7 +862,7 @@ $\mathbf{C}=\mathbf{B}\mathbf{A}$
 
 ossia la matrice rappresentativa di $L_{2}\circ L_{1}$ è il prodotto righe per colonne delle matrici $\mathbf{B},\mathbf{A}$ che rappresentano $L_{2}\circ L_{1}$, rispettivamente. Si verifica immediatamente scrivendo il vettore $\mathbf{x}$ come $n$-upla rispetto alla base fissata:
 
-$L_{2}(L_{1}\mathbf{x})=\mathbf{B}\cdot(\mathbf{Ax})=(\mathbf{BA})\mathbf{x}$
+$L_{2}(L_{1}\mathbf{x})=\mathbf{B}\cdot(\mathbf{Ax})=(\mathbf{BA})\mathbf{x}\quad$,ossia $\mathbf{BA}$ rappresenta $L_{2}\circ L_{1}$.
 
-ossia $\mathbf{BA}$ rappresenta $L_{2}\circ L_{1}$.
 
+Notiamo infine che una **trasformazione affine** tra due spazi vettoriali, cioò del tipo
