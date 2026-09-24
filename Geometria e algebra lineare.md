@@ -880,4 +880,6 @@ Il prossimo importante teorema afferma, in sostanza, che tutte le trasformazioni
 
 ### 4.3 **Determinante**
 
-Uno dei concetti
+Uno dei concetti centrali associati ad una <u>matrice quadrata</u> è quello di **determinante**, la cui definizione generale tuttavia non è elementare.
+
+D'altra parte, noi siamo interessato soprattutto al calcolo dei determinanti.
