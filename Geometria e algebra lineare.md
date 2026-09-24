@@ -929,6 +929,9 @@ Segue quindi il prossimo Teorema:
 	
 	Se avessimo scelto un'altra colonna/riga il risultato non sarebbe cambiato.
 
+
 Si voglia ora calcolare il determinante della seguente matrice:
 
-$\mathbf{A}=\begin{pmatrix}\end{pma}$
+$\mathbf{A}=\begin{pmatrix}1&2&3&4\\0&2&5&1\\2&0&3&0\\0&-1&-2&1\end{pmatrix}$
+
+Applicando il teorema, considera
