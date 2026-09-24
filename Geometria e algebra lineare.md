@@ -802,4 +802,6 @@ Una matrice quadrata si dice **diagonale** se sono nulli tutti i suoi elementi f
 
 ### 4.2 **Rappresentazione matriciale delle trasformazioni lineari**
 
-Una matrice $\mathbf{A}$, quadrata di ordine $n$, trasforma un vettore di $\mathbb{R}^n$ in un altro vettore di $\mathbb{R}^n$ mediante il prodotto righe per colonne (se pensiamo sempre i vettori come colonne): $\mathbf{x}\in\mathbb{R}^n$ è trasformato nel vettore $\mathbf{A}\mathbf{x}\in\mathbb{R}$
+Una matrice $\mathbf{A}$, quadrata di ordine $n$, trasforma un vettore di $\mathbb{R}^n$ in un altro vettore di $\mathbb{R}^n$ mediante il prodotto righe per colonne (se pensiamo sempre i vettori come colonne): $\mathbf{x}\in\mathbb{R}^n$ è trasformato nel vettore $\mathbf{A}\mathbf{x}\in\mathbb{R}^n$
+
+Analogamente, una matrice $\mathbf{A}$ di tipo $(m,n)$ trasforma un vettore $\mathbf{x}\in\mathbb{R}^n$ nel vettore $\mathbf{A}\mathbf{x}\in\mathbb{}$
