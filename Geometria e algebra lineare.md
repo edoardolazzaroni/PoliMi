@@ -819,3 +819,4 @@ Il prossimo importante teorema afferma, in sostanza, che tutte le trasformazioni
 
 - #TEOREMA(4). **Teorema di Rappresentazione**
 	
+	Siano $V_n,V_{m}$ due spazi vettoriali sul campo $\mathbb{K}$ di dimensione $n,m$ rispettivamente,
