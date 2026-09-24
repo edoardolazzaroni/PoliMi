@@ -870,4 +870,7 @@ Il prossimo importante teorema afferma, in sostanza, che tutte le trasformazioni
 	$f:V_{n}\rightarrow V_{m}$
 	$f(\mathbf{v})=l(\mathbf{v})+\mathbf{u}$
 	
-	con $l:V_{n}\rightarrow V_{m}$ lineare e $\mathbf{u}\in V_{m}$ vettore fissato, 
+	con $l:V_{n}\rightarrow V_{m}$ lineare e $\mathbf{u}\in V_{m}$ vettore fissato, si rappresenterà rispetto alle basi fissate in $V_{n},V_{m}$ nella forma matriciale:
+	
+	$L(\mathbf{x})=\mathbf{Ax}+\mathbf{b}$
+	dove $\mathbf{A}$ è un'opportuna matrice $(m,n)$
