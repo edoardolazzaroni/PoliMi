@@ -907,4 +907,5 @@ D'altra parte, noi siamo interessato soprattutto al calcolo dei determinanti per
 		Per esempio, sia $\mathbf{A}=\begin{pmatrix}8&2&-1\\4&3&-5\\-6&0&4\end{pmatrix}$; consideriamo l'elemento $a_{13}=-1$. Si ha:
 		$M_{13}=\det\begin{pmatrix}4&3\\-6&0\end{pmatrix}=18$, $A_{13}=(-1)^{1+3}M_{13}=18$
 	
-	1. Si chiama determinante della matrice quadrata $\mathbf{A}$ la somma dei prodotti degli elementi di una qualunque linea (riga o colonna) per i loro complementi algebrici. In formule, $\forall k,1\le k\le n$
+	3. Si chiama determinante della matrice quadrata $\mathbf{A}$ la somma dei prodotti degli elementi di una qualunque linea (riga o colonna) per i loro complementi algebrici. In formule, $\forall k,1\le k\le n$, si ha (fissando la riga $k$):
+		$\det\mathbf{A}=a_{k1}A_{k1}+$
