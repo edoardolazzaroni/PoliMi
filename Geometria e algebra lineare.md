@@ -988,4 +988,4 @@ Poichè l'area del parallelogramma è nulla se e solo se i due vettori che lo ge
 
 Se ora $\mathbf{u}=(z_{1},z_{2},z_{3})$ è un terzo vettore, ricaviamo la seguente formula per il prodotto misto $\mathbf{u}\cdot\mathbf{v}\times\mathbf{w}$:
 
-$\mathbf{u}\cdot\mathbf{v}\times\mathbf{w}=z_{1}\begin{vmatrix}x_{2}&x_{3}\\ y_{2}&y_{3}\end{vmatrix}$
+$\mathbf{u}\cdot\mathbf{v}\times\mathbf{w}=z_{1}\begin{vmatrix}x_{2}&x_{3}\\ y_{2}&y_{3}\end{vmatrix}-z_{2}\begin{vmatrix}x_{1}&x_{3}\\ y_{1}&y_{3}\end{vmatrix}+z_{3}\begin{vmatrix}x_{1}&x_{2}\\ y_{1}&y_{2}\end{vmatrix}=\begin{vmatrix}z_{1}&z_{2}&z_{3}\\ x_{1}&x_{2}y_{3}\end{vmatrix}$
