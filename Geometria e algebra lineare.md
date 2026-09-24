@@ -922,4 +922,6 @@ Segue quindi il prossimo Teorema:
 	Il risultato che si ottiene calcolando il determinante di una matrice come nell'ultima definizione (c) non dipende dalla particolare riga o colonna scelta.
 	
 	*Per esempio*,
-	calcoliamo il determinante della matrice $\mathbf$
+	
+	calcoliamo il determinante della matrice $\mathbf{A}$ (*ultimo esempio*):
+	$\det\mathbf{A}=-6\cdot$
