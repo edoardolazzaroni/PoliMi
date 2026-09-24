@@ -990,4 +990,5 @@ Se ora $\mathbf{u}=(z_{1},z_{2},z_{3})$ è un terzo vettore, ricaviamo la seguen
 
 $\mathbf{u}\cdot\mathbf{v}\times\mathbf{w}=z_{1}\begin{vmatrix}x_{2}&x_{3}\\ y_{2}&y_{3}\end{vmatrix}-z_{2}\begin{vmatrix}x_{1}&x_{3}\\ y_{1}&y_{3}\end{vmatrix}+z_{3}\begin{vmatrix}x_{1}&x_{2}\\ y_{1}&y_{2}\end{vmatrix}=\begin{vmatrix}z_{1}&z_{2}&z_{3}\\ x_{1}&x_{2}&x_{3}\\y_{1}&y_{2}&y_{3}\end{vmatrix}$
 
-Ricordando il [[### 1.5 **Prodotto scalare e vettoriale**|significato geometrico del prodotto misto]] si ricava che il modulo del determinante rappresenta il volume del parallelepipedo co
+Ricordando il [[### 1.5 **Prodotto scalare e vettoriale**|significato geometrico del prodotto misto]] si ricava che il modulo del determinante rappresenta il volume del parallelepipedo costruito sui vettori $\mathbf{u},\mathbf{v}$ e $\mathbf{w}$.
+Poichè a sua volta il volume del parallelepipedo è nullo se e solo se i tre vettori sono complanari, si ha anche che il 
