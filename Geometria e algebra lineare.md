@@ -903,4 +903,5 @@ D'altra parte, noi siamo interessato soprattutto al calcolo dei determinanti per
 		$(-1)^{i+j}=1\quad$ se $\quad i+j$ è pari
 		$(-1)^{i+j}=-1\quad$ se $\quad i+j$ è dispari
 		
-		Per esempio, se $\mathbf{A}=\begin{pmatrix}8&2&-1\\4&3&-5\\-6\end{pmatrix}$
+		Per esempio, sia $\mathbf{A}=\begin{pmatrix}8&2&-1\\4&3&-5\\-6&0&4\end{pmatrix}$; consideriamo l'elemento $a_{13}=-1$. Si ha:
+		$M_{13}=\det\begi$
