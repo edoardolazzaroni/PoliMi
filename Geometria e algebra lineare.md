@@ -919,9 +919,12 @@ Segue quindi il prossimo Teorema:
 
 - #TEOREMA(5). **Teorema di Laplace**
 	
-	Il risultato che si ottiene calcolando il determinante di una matrice come nell'ultima definizione (c) non dipende dalla particolare riga o colonna scelta.
+	Il risultato che si ottiene calcolando il determinante di una matrice come nell'ultima definizione (c) <u>non dipende dalla particolare riga o colonna scelta</u>.
 	
 	*Per esempio*,
 	
 	calcoliamo il determinante della matrice $\mathbf{A}$ (*ultimo esempio*):
-	$\det\mathbf{A}=-6\cdot\begin{vmatrix}2&-1\\3&-5\end{vmatrix}-0\cdot\begin{vmatrix}8&-1\\4&-5\end{vmatrix}+4\cdot\begin{vmatrix}8&2\\4&3\end{vmatrix}}$
+	
+	$\det\mathbf{A}=-6\cdot\begin{vmatrix}2&-1\\3&-5\end{vmatrix}-0\cdot\begin{vmatrix}8&-1\\4&-5\end{vmatrix}+4\cdot\begin{vmatrix}8&2\\4&3\end{vmatrix}=58$
+	
+	Se avessimo scelto un'altra colonna/riga il risultato non sarebbe cambiato.
