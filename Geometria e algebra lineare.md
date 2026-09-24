@@ -780,4 +780,6 @@ Possiamo anche definire un prodotto tra matrici, che però non è valido per ogn
 	
 	*Per esempio*,
 	
-	$\mathbf{A}=\begin{pmatrix}7&10&3\\-5&4&2\end{pmatrix}$
+	$\mathbf{A}=\begin{pmatrix}7&10&3\\-5&4&2\end{pmatrix},\quad \mathbf{A}^\top=\begin{pmatrix}7&-5\\10&4\\3&2\end{pmatrix}$
+	
+	In simboli, se 2
