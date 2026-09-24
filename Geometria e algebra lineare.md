@@ -808,4 +808,4 @@ Inoltre, in questa trasformazione
 
 						$L:\mathbb{R}^n\rightarrow\mathbb{R}^m \quad \quad L:\mathbf{x}\mapsto\mathbf{A}\mathbf{x}$
 
-è lineare. 
+è lineare. Si verifica subito infatti, dalla definizione di prodotto righe per colonne, che $\forall \ \mathbf{x},\mathbf{y}\in\mathbb{R}^n,\lambda\in\mathbb{R}$
