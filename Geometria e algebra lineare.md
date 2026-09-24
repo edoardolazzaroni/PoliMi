@@ -828,4 +828,5 @@ Il prossimo importante teorema afferma, in sostanza, che tutte le trasformazioni
 	Nel seguito parleremo di matrici a elementi reali e di trasformazioni lineari di $\mathbb{R}^n$ in $\mathbb{R}^m$, che perrò varrà pari pari sostituendo $\mathbb{C}$ ad $\mathbb{R}$.
 	
 	*Dimostrazione*:
-	Ess
+	
+	Essendo $\mathcal{L}(\mathbf{u}_{1})\in V_{m}$, si può scrivere $\mathcal{L}(\mathbf{u}_{1})=a_{11}\mathbf{v}_{1}+\dots$
