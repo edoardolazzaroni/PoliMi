@@ -981,4 +981,6 @@ $\mathbf{v}\times\mathbf{w}=\begin{vmatrix}x_{2}&x_{3}\\ y_{2}&y_{3}\end{vmatrix
 
 Se $x_{3}=y_{3}=0$, si riduce a: $\mathbf{v}\times\mathbf{w}=\begin{vmatrix}x_{1}&x_{2}\\ y_{1}&y_{2}\end{vmatrix}\mathbf{k}$
 
-e quindi $|\mathbf{v}\times\mathbf{w}|=|\det\begin{vmatrix}x_{1}&x_{2}\\ y_{1}&y_{2}\end{vmatrix}|$
+e quindi $|\mathbf{v}\times\mathbf{w}|=|\det\begin{pmatrix}x_{1}&x_{2}\\ y_{1}&y_{2}\end{pmatrix}|$
+
+Ricordando il significato del modulo di prodotto vettoriale 
