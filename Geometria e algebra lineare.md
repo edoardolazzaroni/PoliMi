@@ -877,4 +877,6 @@ Il prossimo importante teorema afferma, in sostanza, che tutte le trasformazioni
 	dove $\mathbf{A}$ è un'opportuna matrice $(m,n)$ e $\mathbf{b}\in\mathbb{R}^m$ il vettore che rappresenta $\mathbf{u}$ rispetto alla base scelta in $V_{m}$.
 
 
-### 4.2 **Rappresentazione matriciale delle trasformazioni lineari**
+
+### 4.3 **Determinante**
+
