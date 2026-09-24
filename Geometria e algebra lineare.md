@@ -774,5 +774,6 @@ Possiamo anche definire un prodotto tra matrici, che però non è valido per ogn
 
 - È importante sottolineare che tra le matrici quadrate di ordine $n$ ne esiste una, che indichiamo con $\mathbf{I}_{n}$, tale che per ogni altra matrice $\mathbf{A}$ dello stesso ordine si ha: $\mathbf{A}\mathbf{I}_{n}=\mathbf{I}_{n}\mathbf{A}$
 	
-	Tale matrice si chiama **matrice identità** ed ha la forma: $\mathbf{I}_{n}=\begin{pmatrix}1&0&0&\cdots& 0\\0&1&0&\cdots&0\\ \vdots&\vdots&\vdots&\ &\vdots\\ 0&0&0&\cdots&1\end{pmatrix}$
-	
+	Tale matrice si chiama **matrice identità** ed ha la forma: $\mathbf{I}_{n}=\begin{pmatrix}1&0&0&\cdots& 0\\0&1&0&\cdots&0\\ \vdots&\vdots&\vdots&\ddots &\vdots\\ 0&0&0&\cdots&1\end{pmatrix}$
+
+- Si chiama **matrice trasposta** di una matrice $\mathbf{A}$ di tipo $()$
