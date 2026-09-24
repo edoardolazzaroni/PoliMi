@@ -897,4 +897,5 @@ D'altra parte, noi siamo interessato soprattutto al calcolo dei determinanti per
 	
 	Conviene introdurre alcune definizioni:
 	1) Si chiama <u>minore complementare</u> di un elemento $a_{ij}$ e lo si indica con $M_{ij}$, il determinante della matrice ottenuta cancellando la riga $i$ e la colonna $j$ dalla matrice $\mathbf{A}$;
-	2) Si chiama complemento algebrico di un elemento $a_{ij}$ il numero 
+	2) Si chiama <u>complemento algebrico</u> di un elemento $a_{ij}$ il numero $A_{ij}=(-1)^{i+j}M_{ij}$
+Notiamo che 
