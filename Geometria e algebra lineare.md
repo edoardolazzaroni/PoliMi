@@ -899,7 +899,7 @@ D'altra parte, noi siamo interessato soprattutto al calcolo dei determinanti per
 	
 	a) Si chiama <u>minore complementare</u> di un elemento $a_{ij}$ e lo si indica con $M_{ij}$, il determinante della matrice ottenuta cancellando la riga $i$ e la colonna $j$ dalla matrice $\mathbf{A}$;
 	
-	c) Si chiama <u>complemento algebrico</u> di un elemento $a_{ij}$ il numero $A_{ij}=(-1)^{i+j}M_{ij}$
+	b) Si chiama <u>complemento algebrico</u> di un elemento $a_{ij}$ il numero $A_{ij}=(-1)^{i+j}M_{ij}$
 		Notiamo che:
 		$(-1)^{i+j}=1\quad$ se $\quad i+j$ è pari
 		$(-1)^{i+j}=-1\quad$ se $\quad i+j$ è dispari
@@ -919,4 +919,7 @@ Segue quindi il prossimo Teorema:
 
 - #TEOREMA(5). **Teorema di Laplace**
 	
-	Il risultato che si ottiene calcolando il determinante di una matrice come nel
+	Il risultato che si ottiene calcolando il determinante di una matrice come nell'ultima definizione (c) non dipende dalla particolare riga o colonna scelta.
+	
+	*Per esempio*,
+	calcoliamo il determinante della matrice $\mathbf$
