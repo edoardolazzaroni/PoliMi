@@ -983,4 +983,4 @@ Se $x_{3}=y_{3}=0$, si riduce a: $\mathbf{v}\times\mathbf{w}=\begin{vmatrix}x_{1
 
 e quindi $|\mathbf{v}\times\mathbf{w}|=|\det\begin{pmatrix}x_{1}&x_{2}\\ y_{1}&y_{2}\end{pmatrix}|$
 
-Ricordando il significato del modulo di prodotto vettoriale 
+Ricordando il [[### 1.5 **Prodotto scalare e vettoriale**|significato del modulo di prodotto vettoriale]] si ricava che il 
