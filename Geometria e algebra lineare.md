@@ -924,4 +924,4 @@ Segue quindi il prossimo Teorema:
 	*Per esempio*,
 	
 	calcoliamo il determinante della matrice $\mathbf{A}$ (*ultimo esempio*):
-	$\det\mathbf{A}=-6\cdot$
+	$\det\mathbf{A}=-6\cdot\begin{vmatrix}2&-1\\3&-5\end{vmatrix}-0\cdot\begin{vmatrix}\end{\begin{vmatrix}ri\end{vmatrix}}$
