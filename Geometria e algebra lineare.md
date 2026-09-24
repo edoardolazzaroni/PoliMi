@@ -824,4 +824,4 @@ Il prossimo importante teorema afferma, in sostanza, che tutte le trasformazioni
 	
 								$\begin{pmatrix}y_{1}\\y_{2}\\ \vdots \\y_{m}\end{pmatrix}=\mathbf{A}\begin{pmatrix}x_{1}\\x_{2}\\ \vdots \\x_{n}\end{pmatrix}$
 	
-	Si noti che, qualunque sia lo spazio vettoriale $V_{n}$ e fissata una base nel medesimo spazio, ogni vettore è individuato dalla $n$-upla delle sue componenti rispetto a questa base, cioè da un elemento di $\mathbb{K}^n$. Il teorema afferma quindi l'esistenza di una matrice che rappresenta la trasformazione lineare, nel senso che, fissata una base nello spazio di partenza ed una 
+	Si noti che, qualunque sia lo spazio vettoriale $V_{n}$ e fissata una base nel medesimo spazio, ogni vettore è individuato dalla $n$-upla delle sue componenti rispetto a questa base, cioè da un elemento di $\mathbb{K}^n$. Il teorema afferma quindi l'esistenza di una matrice che rappresenta la trasformazione lineare, nel senso che, fissata una base nello spazio di partenza ed una nello spazio di arrivo, il vettore delle componenti 
