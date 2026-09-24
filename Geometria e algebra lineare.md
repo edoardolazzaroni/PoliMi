@@ -841,5 +841,6 @@ Il prossimo importante teorema afferma, in sostanza, che tutte le trasformazioni
 							$y_{i}=\sum_{j=1}^n a_{ij}x_{j} \quad\quad i=1,2,\cdots,m$
 	
 	che, raggruppate in forma matriciale, danno: $\begin{pmatrix}y_{1}\\y_{2}\\ \vdots \\ y_{m}\end{pmatrix}=\mathbf{A}\begin{pmatrix} x_{1}\\x_{2}\\ \vdots \\ x_{n}\end{pmatrix}$
-	La matrice $\ma$
 	
+	La matrice $\mathbf{A}$ rappresenta dunque $\mathcal{L}$ nel senso precisato nell'enunciato del teorema.
+	Tale matrice è unica, come conseguenza del fatto che ogni vettore $\mathcal{L}$
