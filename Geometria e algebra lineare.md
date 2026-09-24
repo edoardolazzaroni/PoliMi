@@ -912,5 +912,7 @@ D'altra parte, noi siamo interessato soprattutto al calcolo dei determinanti per
 						$\det\mathbf{A}=a_{k1}A_{k1}+a_{k2}A_{k2}+\cdots a_{kn}A_{kn}$
 		
 		oppure, fissando la colonna $k$:
+						
 						$\det\mathbf{A}=a_{1k}A_{1k}+a_{2k}A_{2k}+\cdots a_{nk}A_{nk}$
-	Il determinante viene cos
+
+Il determinante viene così definito in modo iterativo: 
