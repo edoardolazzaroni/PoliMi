@@ -769,5 +769,6 @@ Possiamo anche definire un prodotto tra matrici, che però non è valido per ogn
 	- Per le matrici vale anche la proprietà <mark class="hltr-yellow">distributiva</mark>: $\mathbf{A}(\mathbf{B}+\mathbf{C})=\mathbf{A}\mathbf{B}+\mathbf{A}\mathbf{C}$
 		
 		quando ciò ha senso, ovvero se $\mathbf{A}$ è di tipo $(n,m)$ e $\mathbf{B},\mathbf{C}$ sono di tipo $(m,r)$.
-		Analogamente $(\mathbf{B}+\mathbf{C})\mathbf{A}=\mathbf{B}\mathbf{A}+\mathbf{C}\mathbf{A}$, se $\mathbf{B},\mathbf{C}$ sono di tipo $(n,m)$ e $\mathbf{A}$ è di tipo 
-	
+		Analogamente $(\mathbf{B}+\mathbf{C})\mathbf{A}=\mathbf{B}\mathbf{A}+\mathbf{C}\mathbf{A}$, se $\mathbf{B},\mathbf{C}$ sono di tipo $(n,m)$ e $\mathbf{A}$ è di tipo $(m,r)$.
+
+È importante sottolineare che tra le matrici quadrate di ordine $n$ ne esiste 
