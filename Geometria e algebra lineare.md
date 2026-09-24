@@ -782,4 +782,4 @@ Possiamo anche definire un prodotto tra matrici, che però non è valido per ogn
 	
 	$\mathbf{A}=\begin{pmatrix}7&10&3\\-5&4&2\end{pmatrix},\quad \mathbf{A}^\top=\begin{pmatrix}7&-5\\10&4\\3&2\end{pmatrix}$
 	
-	In simboli, se $\mathbf{A}=(a_{ij})$, $\mathbf{A}^\top$ avrà $a_{ji}$ come elemento di posto $ij$. Si osser
+	In simboli, se $\mathbf{A}=(a_{ij})$, $\mathbf{A}^\top$ avrà $a_{ji}$ come elemento di posto $ij$. Si osservi la seguente <mark class="hltr-yellow">proprietà</mark>: $(\mathbf{A}\mathbf{B})^\top=\mathbf{B}^\top\mathbf{A}^\top$ (se $$)
