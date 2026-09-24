@@ -995,4 +995,5 @@ Poichè a sua volta il volume del parallelepipedo è nullo se e solo se i tre ve
 
 Otteniamo quindi nel caso particolare $n=2,3$ un comodo criterio di dipendenza o indipendenza lineare, mediante il calcolo del determinante.
 
-L'ultima formula permette anche di dimostrare facilmente la proprietà di invarianza ciclica del prodotto misto:
+L'ultima formula permette anche di dimostrare facilmente la <mark class="hltr-yellow">proprietà di invarianza ciclica</mark> del prodotto misto: $\mathbf{u}\cdot\mathbf{v}\times\mathbf{w}=\mathbf{w}\cdot\mathbf{u}\times\mathbf{v}=\mathbf{v}\cdot\mathbf{w}\times\mathbf{u}$
+	Infatti
