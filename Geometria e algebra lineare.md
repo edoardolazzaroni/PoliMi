@@ -886,5 +886,9 @@ D'altra parte, noi siamo interessato soprattutto al calcolo dei determinanti per
 - Per $n=1$, cioè per una matrice costituita da un solo elemento $a_{11}$, il determinante è per definizione l'elemento stesso.
 
 - Per $n=2$, ovvero una matrice quadrata di ordine 2, del tipo: $\mathbf{M}=\begin{pmatrix}a_{11}&a_{12}\\a_{21}&a_{22}\end{pmatrix}$ il determinante, indicato con $\det\mathbf{M}$ oppure con $|\mathbf{M}|$ è assegnato dalla formula:
-$\det\mathbf{M}=a_{11}\cdot a$
+
+							$\det\mathbf{M}=a_{11}\cdot a_{22}-a_{12}\cdot a_{21}$
+	
+	Per esempio,
+	$\mathbf{M}=\begin{pmatrix}\end{\begin{pmatrix}ri\end{pmatrix}}$
 - 
