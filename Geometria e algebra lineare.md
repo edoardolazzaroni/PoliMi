@@ -858,4 +858,6 @@ $(L_{2}\circ L_{1}):\mathbf{x}\mapsto L_{2}(L_{1}\mathbf{x})$
 
 È immediato verificare che $L_{2}\circ L_{1}$ è anch'essa una trasformazione lineare; per il Teorema di Rappresentazione, esisterà una matrice $\mathbf{C}$, di tipo $(s,n)$, che rappresenta tale trasformazione rispetto alle stesse basi. Essa è così definita:
 
-$\mathbf{C}=\mathbf{A}\mathbf{B}$
+$\mathbf{C}=\mathbf{B}\mathbf{A}$
+
+ossia la matrice rappresentativa di $L_{2}\circ L_{1}$ è il prodotto righe per colonne delle matrici $\mathbf{B},\mathbf{A}$ che rappresentano $L_{2}\circ L_{1}$, rispettivamen
