@@ -896,4 +896,5 @@ D'altra parte, noi siamo interessato soprattutto al calcolo dei determinanti per
 - Sia data ora la matrice quadrata di ordine $n$: $\quad\mathbf{A}=\begin{pmatrix}a_{11}&a_{12}&\cdots&a_{1n}\\a_{21}&a_{22}&\cdots&a_{2n}\\ \vdots \\a_{n1}&a_{n2}&\cdots&a_{nn}\end{pmatrix}$
 	
 	Conviene introdurre alcune definizioni:
-	1) Si chiama <u>minore complementare</u> di un elemento $a_{ij}$ e lo si indica con 
+	1) Si chiama <u>minore complementare</u> di un elemento $a_{ij}$ e lo si indica con $M_{ij}$, il determinante della matrice ottenuta cancellando la riga $i$ e la colonna $j$ dalla matrice $\mathbf{A}$;
+	2) Si chiama complemento algebrico di un elemento $a_{ij}$ il numero 
