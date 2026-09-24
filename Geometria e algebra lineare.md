@@ -819,4 +819,5 @@ Il prossimo importante teorema afferma, in sostanza, che tutte le trasformazioni
 
 - #TEOREMA(4). **Teorema di Rappresentazione**
 	
-	Siano $V_n,V_{m}$ due spazi vettoriali sul campo $\mathbb{K}$ di dimensione $n,m$ rispettivamente, e sia $\mathcal{L}:V_{n}\rightarrow V_{m}$ una trasfor
+	Siano $V_n,V_{m}$ due spazi vettoriali sul campo $\mathbb{K}$ di dimensione $n,m$ rispettivamente, e sia $\mathcal{L}:V_{n}\rightarrow V_{m}$ una trasformazione lineare.
+	Fissate due basi $\mathbf{u}_{1},\mathbf{u}_{2},\cdots,\mathbf{u}_{n}$ e $\mathbf{v}_{1},\mathbf{v}_{2},\cdots,\mathbf{v}_{m}$ in $V_{n}$ e 
