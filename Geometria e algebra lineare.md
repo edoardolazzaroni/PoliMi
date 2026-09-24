@@ -936,4 +936,4 @@ $\mathbf{A}=\begin{pmatrix}1&2&3&4\\0&2&5&1\\2&0&3&0\\0&-1&-2&1\end{pmatrix}$
 
 Applicando il teorema, considerando la prima colonna, si ha:
 
-$\begin{align}\det\mathbf{A}=1\cdot\begin{vmatrix}2&5&1\\0&3&0\\-1&-2&1\end{vmatrix}-0\cdot\begin{vmatrix}2&3&4\\0&3&0\\-1&-2&1\end{vmatrix}+2\cdot\begin{vmatrix}2&3&4\\2&5&1\\-1&-2&1\end{vmatrix}-0\cdot\begin{vmatrix}2&3&4\\2&5&1\\0&3&0\end{vmatrix}=\\ 2\cdot\begin{vmatrix}3&0\\-2&1\end{vmatrix}-1\cdot\begin{vmatrix}5&1\\3&0\end{vmatrix}+2\cdot 1left\{} \end{align}$
+$\begin{align}\det\mathbf{A}=1\cdot\begin{vmatrix}2&5&1\\0&3&0\\-1&-2&1\end{vmatrix}-0\cdot\begin{vmatrix}2&3&4\\0&3&0\\-1&-2&1\end{vmatrix}+2\cdot\begin{vmatrix}2&3&4\\2&5&1\\-1&-2&1\end{vmatrix}-0\cdot\begin{vmatrix}2&3&4\\2&5&1\\0&3&0\end{vmatrix}=\\ 2\cdot\begin{vmatrix}3&0\\-2&1\end{vmatrix}-1\cdot\begin{vmatrix}5&1\\3&0\end{vmatrix}+2\cdot\left\{2\begin{vmatrix}5&1\\-2&1\end{vmatrix}-2\cdot\begin{vmatrix}3&4\\-2&1\end{vmatrix}\right\} \end{align}$
