@@ -897,8 +897,8 @@ D'altra parte, noi siamo interessato soprattutto al calcolo dei determinanti per
 	
 	Conviene introdurre alcune definizioni:
 	
-	1. Si chiama <u>minore complementare</u> di un elemento $a_{ij}$ e lo si indica con $M_{ij}$, il determinante della matrice ottenuta cancellando la riga $i$ e la colonna $j$ dalla matrice $\mathbf{A}$;
-	2. Si chiama <u>complemento algebrico</u> di un elemento $a_{ij}$ il numero $A_{ij}=(-1)^{i+j}M_{ij}$
+	a) Si chiama <u>minore complementare</u> di un elemento $a_{ij}$ e lo si indica con $M_{ij}$, il determinante della matrice ottenuta cancellando la riga $i$ e la colonna $j$ dalla matrice $\mathbf{A}$;
+	1.c) Si chiama <u>complemento algebrico</u> di un elemento $a_{ij}$ il numero $A_{ij}=(-1)^{i+j}M_{ij}$
 		
 		Notiamo che:
 		$(-1)^{i+j}=1\quad$ se $\quad i+j$ è pari
@@ -907,7 +907,7 @@ D'altra parte, noi siamo interessato soprattutto al calcolo dei determinanti per
 		Per esempio, sia $\mathbf{A}=\begin{pmatrix}8&2&-1\\4&3&-5\\-6&0&4\end{pmatrix}$; consideriamo l'elemento $a_{13}=-1$. Si ha:
 		$M_{13}=\det\begin{pmatrix}4&3\\-6&0\end{pmatrix}=18$, $A_{13}=(-1)^{1+3}M_{13}=18$
 	
-	1. Si chiama determinante della matrice quadrata $\mathbf{A}$ la somma dei prodotti degli elementi di una qualunque linea (riga o colonna) per i loro complementi algebrici. In formule, $\forall k,1\le k\le n$, si ha fissando la riga $k$:
+	c) Si chiama determinante della matrice quadrata $\mathbf{A}$ la somma dei prodotti degli elementi di una qualunque linea (riga o colonna) per i loro complementi algebrici. In formule, $\forall k,1\le k\le n$, si ha fissando la riga $k$:
 		
 						$\det\mathbf{A}=a_{k1}A_{k1}+a_{k2}A_{k2}+\cdots a_{kn}A_{kn}$
 		
@@ -918,4 +918,5 @@ D'altra parte, noi siamo interessato soprattutto al calcolo dei determinanti per
 
 Segue quindi il prossimo Teorema:
 
-- #TEOREMA ()
+- #TEOREMA(5). **Teorema di Laplace**
+	Il risultato che si ottiene calcolando il determinante di una matrice come nel
