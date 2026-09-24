@@ -893,4 +893,4 @@ D'altra parte, noi siamo interessato soprattutto al calcolo dei determinanti per
 	
 					$\mathbf{M}=\begin{pmatrix}1&-3\\2&-4\end{pmatrix}\quad\rightarrow\quad \det\mathbf{M}=1\cdot(-4)-2\cdot(-3)=2$
 
-- Sia data ora la matrice quadrata di ordine $n$: $\mathbf{A}=\$
+- Sia data ora la matrice quadrata di ordine $n$: $\mathbf{A}=\begin{pmatrix}a_{11}&a_{12}&\cdots&a_{1n}\\a_{21}&a_{22}&\cdots&a_{2n}\\ \vdots\end{pmatrix}$
