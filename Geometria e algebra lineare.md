@@ -836,4 +836,4 @@ Il prossimo importante teorema afferma, in sostanza, che tutte le trasformazioni
 	e sia $\mathbf{x}=x_{1}\mathbf{u}_{1}+x_{2}\mathbf{u}_{2}+\cdots+x_{n}\mathbf{u}_{n}$.
 	
 	Si ha, per la linearità di $\mathcal{L}$ e le equazioni precedenti:
-	$\mathcal{L}(x)=\mathcal{L}$
+	$\mathcal{L}(x)=\mathcal{L}\left( \sum_{j=1}^n x_{j}\mathbf{u}_{j}\right)=\sum_{j=1}^n x_{j}\mathcal{L}(\mathbf{u}_{j})$
