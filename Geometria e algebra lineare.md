@@ -849,3 +849,4 @@ Il prossimo importante teorema afferma, in sostanza, che tutte le trasformazioni
 	
 	1. Il teorema di rappresentazione chiarisce il motivo per cui il prodotto di matrici è stato definito proprio in quel modo ("righe per colonne"). Infatti, è quello il tipo di prodotto adatto a rappresentare le trasformazioni lineari;
 	2. Quest'ultima osservazione è anche alla base dell'utilità del calcolo matriciale in fisica.
+
