@@ -979,4 +979,6 @@ Il prodotto vettoriale dei due vettori di $\mathbb{R}^3$: $\mathbf{v}=(x_{1},x_{
 
 $\mathbf{v}\times\mathbf{w}=\begin{vmatrix}x_{2}&x_{3}\\ y_{2}&y_{3}\end{vmatrix}\mathbf{i}-\begin{vmatrix}x_{1}&x_{3}\\ y_{1}&y_{3}\end{vmatrix}\mathbf{j}+\begin{vmatrix}x_{1}&x_{2}\\ y_{1}&y_{2}\end{vmatrix}\mathbf{k}$
 
-Se $x_{3}=y_{3}=0$
+Se $x_{3}=y_{3}=0$, si riduce a: $\mathbf{v}\times\mathbf{w}=\begin{vmatrix}x_{1}&x_{2}\\ y_{1}&y_{2}\end{vmatrix}\mathbf{k}$
+
+e quindi $|\mathbf{v}\times\mathbf{w}|=|\det\begin{vmatrix}x_{1}&x_{2}\\ y_{1}&y_{2}\end{vmatrix}|$
