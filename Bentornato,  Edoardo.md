@@ -17,11 +17,12 @@ titleStyle:
   fontSize: 15px
   fontWeight: normal
 dataSource:
-  type: ALL_TASK
+  type: PAGE
   value: ""
   dateField:
     formatType: moment
     type: FILE_MTIME
+  filters: []
 fillTheScreen: false
 enableMainContainerShadow: false
 cellStyleRules:
