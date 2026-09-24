@@ -837,4 +837,5 @@ Il prossimo importante teorema afferma, in sostanza, che tutte le trasformazioni
 	
 	Si ha, per la linearità di $\mathcal{L}$ e le equazioni precedenti:
 	$\mathcal{L}(x)=\mathcal{L}\left( \sum_{j=1}^n x_{j}\mathbf{u}_{j}\right)=\sum_{j=1}^n x_{j}\mathcal{L}(\mathbf{u}_{j})=\sum_{j=1}^n x_{j}\sum_{i=1}^m a_{ij}\mathbf{v}_{i}=\sum_{j=1}^n\sum_{i=1}^m a_{ij}x_{j}\mathbf{v}_{i}=\sum_{i=1}^m\left( \sum_{j=1}^n a_{ij}x_{j} \right)\mathbf{v}_{i}$
-	
+	Si vede quindi che le componenti scalari di $\mathcal{L}(x)$ rispetto alla base $\mathbf{v}_{1},\mathbf{v}_{2},\cdots,\mathbf{v}_{m}$ sono date dalla formula:
+	$y_{i}=\sum_{j=1}^n a_{ij}$
