@@ -993,4 +993,6 @@ $\mathbf{u}\cdot\mathbf{v}\times\mathbf{w}=z_{1}\begin{vmatrix}x_{2}&x_{3}\\ y_{
 Ricordando il [[### 1.5 **Prodotto scalare e vettoriale**|significato geometrico del prodotto misto]] si ricava che il modulo del determinante rappresenta il volume del parallelepipedo costruito sui vettori $\mathbf{u},\mathbf{v}$ e $\mathbf{w}$.
 Poichè a sua volta il volume del parallelepipedo è nullo se e solo se i tre vettori sono complanari, si ha anche che il determinante $3\times 3$ è <u>nullo</u> se e solo se le sue righe/colonne sono tre vettori complanari, cioè <mark class="hltr-yellow">linearmente dipendenti</mark>.
 
-Otteniamo qu
+Otteniamo quindi nel caso particolare $n=2,3$ un comodo criterio di dipendenza o indipendenza lineare, mediante il calcolo del determinante.
+
+L'ultima formula permette anche di dimostrare facilmente la proprietà di invarianza ciclica del prodotto misto:
