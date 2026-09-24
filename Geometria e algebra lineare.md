@@ -840,5 +840,6 @@ Il prossimo importante teorema afferma, in sostanza, che tutte le trasformazioni
 	Si vede quindi che le componenti scalari di $\mathcal{L}(x)$ rispetto alla base $\mathbf{v}_{1},\mathbf{v}_{2},\cdots,\mathbf{v}_{m}$ sono date dalla formula:
 							$y_{i}=\sum_{j=1}^n a_{ij}x_{j} \quad\quad i=1,2,\cdots,m$
 	
-	che, raggruppate in forma matriciale, danno: $\begin{pmat}$
+	che, raggruppate in forma matriciale, danno: $\begin{pmatrix}y_{1}\\y_{2}\\ \vdots \\ y_{m}\end{pmatrix}=\mathbf{A}\begin{pmatrix} x_{1}\\x_{2}\\ \vdots \\ x_{n}\end{pmatrix}$
+	La matrice $\ma$
 	
