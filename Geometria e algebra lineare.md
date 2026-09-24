@@ -806,4 +806,6 @@ Una matrice $\mathbf{A}$, quadrata di ordine $n$, trasforma un vettore di $\math
 Analogamente, una matrice $\mathbf{A}$ di tipo $(m,n)$ trasforma un vettore $\mathbf{x}\in\mathbb{R}^n$ nel vettore $\mathbf{A}\mathbf{x}\in\mathbb{R}^m$
 Inoltre, in questa trasformazione
 
-$L:\mathbb{R}^n\rightarrow\mathbb{R}^m \quad \quad L:\mathbb{x}\rightarrow$
+						$L:\mathbb{R}^n\rightarrow\mathbb{R}^m \quad \quad L:\mathbf{x}\mapsto\mathbf{A}\mathbf{x}$
+
+è lineare. 
