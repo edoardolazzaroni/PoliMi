@@ -830,4 +830,6 @@ Il prossimo importante teorema afferma, in sostanza, che tutte le trasformazioni
 	*Dimostrazione*:
 	
 	Essendo $\mathcal{L}(\mathbf{u}_{1})\in V_{m}$, si può scrivere $\mathcal{L}(\mathbf{u}_{1})=a_{11}\mathbf{v}_{1}+\cdots+a_{m1}\mathbf{v}_{m}$
-	Analogamente abbiamo $\mathcal{L}(\mathbf{u}_{2})=a_{12}\mathbf{v}_{1}+\cdots+a_{m_{2}}\mathbf{v}_{m}\quad\cdots\quad$ 
+	Analogamente abbiamo $\mathcal{L}(\mathbf{u}_{2})=a_{12}\mathbf{v}_{1}+\cdots+a_{m_{2}}\mathbf{v}_{m}\quad\cdots\quad\mathcal{L}(\mathbf{u}_{n})=a_{1n}\mathbf{v}_{1}+\cdots+a_{mn}\mathbf{v}_{m}$
+	
+	per opportuni coefficenti $a_{ij}\in\mathbb{R}$. Poniamo ora $\mathbf{A}=(a_{ij})$
