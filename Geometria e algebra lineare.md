@@ -884,4 +884,4 @@ Uno dei concetti centrali associati ad una <u>matrice quadrata</u> è quello di 
 D'altra parte, noi siamo interessato soprattutto al calcolo dei determinanti perciò, adottanto un atteggiamento "ricorsivo", definiremo esplicitamente il determinante per matrici di ordine $n=1$ e $n=2$, indicando poi come si ottenga il determinante di una matrice di ordine $n$.
 
 - Per $n=1$, cioè per una matrice costituita da un solo elemento $a_{11}$, il determinante è per definizione l'elemento stesso.
-- Per $n=2$, ovvero una matrice quadrata di ordine 2, del tipo: $\mathbf{M}=\begin{pmatrix}\$
+- Per $n=2$, ovvero una matrice quadrata di ordine 2, del tipo: $\mathbf{M}=\begin{pmatrix}a_{11}&a_{12}\\a_{21}&a_{22}\end{pmatrix}$ il determinante, indicato con $\det\mathbf{M}$ oppure con $|\m|$
