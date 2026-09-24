@@ -776,6 +776,7 @@ Possiamo anche definire un prodotto tra matrici, che però non è valido per ogn
 	
 	Tale matrice si chiama **matrice identità** ed ha la forma: $\mathbf{I}_{n}=\begin{pmatrix}1&0&0&\cdots& 0\\0&1&0&\cdots&0\\ \vdots&\vdots&\vdots&\ddots &\vdots\\ 0&0&0&\cdots&1\end{pmatrix}$
 
+
 - Si chiama **matrice trasposta** di una matrice $\mathbf{A}$ di tipo $(m,n)$ e la si indica con il simbolo $\mathbf{A}^\top$, la matrice di tipo $(n,m)$ che si ottiene da $\mathbf{A}$ scambiando le righe con le colonne.
 	
 	*Per esempio*,
@@ -788,4 +789,5 @@ Possiamo anche definire un prodotto tra matrici, che però non è valido per ogn
 	Cioò significa che per ogni coppia di indici $i,j$ risulta $a_{ij}=a_{ji}$, ovvero la matrice è una tabella <u>simmetrica rispetto alla diagonale principale</u>.
 		*Esempio*: $\begin{pmatrix}1&2&-1\\2&0&3\\-1&3&4\end{pmatrix}$ è una matrice simmetrica.
 
-Una matr
+
+Una matrice quadrata del tipo $U=\begin{pmatrix}d_{1}&*&*&*&*\\0&d_{2}&]\end{pmatrix}$
