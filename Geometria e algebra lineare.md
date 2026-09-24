@@ -941,3 +941,5 @@ $\begin{align}\det\mathbf{A}&=1\cdot\begin{vmatrix}2&5&1\\0&3&0\\-1&-2&1\end{vma
 
 - #TEOREMA(6). **Proprietà elementari del determinante**
 	
+	Sia $\mathbf{A}$ una matrice $(n,n)$.
+	a. Se $\mathbf{A}$ ha una riga o una colonna di soli zeri, 
