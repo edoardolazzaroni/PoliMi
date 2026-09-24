@@ -958,4 +958,8 @@ $\begin{align}\det\mathbf{A}&=1\cdot\begin{vmatrix}2&5&1\\0&3&0\\-1&-2&1\end{vma
 	
 	*Dimostrazione sul libro*
 
-Un'altra importante proprietà del determinante è la
+Un'altra importante proprietà del determinante è la seguente:
+
+- #TEOREMA(7). **Teorema di Binet**
+	
+	Se $\mathbf{A}$ e $\mathbf{B}$ sono matrici quadrate dello stesso ordine, $\det\mathbf{AB}=\det\mathbf{}$
