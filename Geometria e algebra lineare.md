@@ -973,3 +973,5 @@ Un'altra importante proprietà del determinante è la seguente:
 	Questa somma può essere ottenuta col seguente procedimento, noto come Regola di Sarrus:
 
 
+#### 4.3.1 **Prodotto vettoriale misto. Significato geometrico del determinante**
+
