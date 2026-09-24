@@ -947,5 +947,5 @@ $\begin{align}\det\mathbf{A}&=1\cdot\begin{vmatrix}2&5&1\\0&3&0\\-1&-2&1\end{vma
 	b. Scambiando due righe o due colonne, il determinante cambia di segno;
 	c. Se $\mathbf{A}$ ha due righe o due colonne uguali, $\det\mathbf{A}=0$;
 	d. Il determinante è una funzione lineare di ciascuna sua riga/colonna, ossia:
-	$\det\begin{pmatrix}a_{1}+b_{1&}\end{pmatrix}$
+	$\det\begin{pmatrix}a_{1}+b_{1}\\ a_{2}\\ \vdots \\a_{n}\end{pmatrix}=\det\begin{pmatrix}a_{1}\\ a_{2}\\ \vdots \\a_{n}\end{pmatrix}$
 	e.
