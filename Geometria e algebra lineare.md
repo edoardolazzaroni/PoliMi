@@ -997,4 +997,4 @@ Otteniamo quindi nel caso particolare $n=2,3$ un comodo criterio di dipendenza o
 
 - L'ultima formula permette anche di dimostrare facilmente la <mark class="hltr-yellow">proprietà di invarianza ciclica</mark> del prodotto misto: $\mathbf{u}\cdot\mathbf{v}\times\mathbf{w}=\mathbf{w}\cdot\mathbf{u}\times\mathbf{v}=\mathbf{v}\cdot\mathbf{w}\times\mathbf{u}$
 	
-	Infatti, ricordando che il segno del determinante cambia scambiando due righe della matrice, si ha per esempio: $\begin{vmatrix}\end{vmatrix}$
+	Infatti, ricordando che il segno del determinante cambia scambiando due righe della matrice, si ha per esempio: $\begin{vmatrix}\mathbf{u}\\ \mathbf{v}\\ \mathbf{w}\end{vmatrix}=-\begin{vmatrix}\mathbf{v}\\ \mathbf{u}\\ \mathbf{w}\end{vmatrix}=\begin{vmatrix}\mathbf{u}\\ \mathbf{v}\\ \mathbf{{w}}\end{vmatrix}$
