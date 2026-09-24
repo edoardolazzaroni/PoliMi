@@ -851,21 +851,21 @@ Il prossimo importante teorema afferma, in sostanza, che tutte le trasformazioni
 	2. Quest'ultima osservazione è anche alla base dell'utilità del calcolo matriciale in fisica.
 
 
-Siano ora $L_{1}:\mathbb{R}^n\rightarrow \mathbb{R}^m$ e $L_{2}:\mathbb{R}^m\rightarrow \mathbb{R}^s$ due trasformazioni lineari, rappresentate rispettivamente da una matrice $\mathbf{A}$ di tipo $(m,n)$ e da una matrice $\mathbf{B}$ di tipo $(s,m)$, ottenute fissando una volta per tutte una base in $\mathbb{R}^n, \mathbb{R}^m, \mathbb{R}^s$ (è necessario che la base considerata in $\mathbb{R}^m$ sia la stessa per $L_{1}$ e $L_{2}$). Consideriamo la trasformazione composta,
+- Siano ora $L_{1}:\mathbb{R}^n\rightarrow \mathbb{R}^m$ e $L_{2}:\mathbb{R}^m\rightarrow \mathbb{R}^s$ due trasformazioni lineari, rappresentate rispettivamente da una matrice $\mathbf{A}$ di tipo $(m,n)$ e da una matrice $\mathbf{B}$ di tipo $(s,m)$, ottenute fissando una volta per tutte una base in $\mathbb{R}^n, \mathbb{R}^m, \mathbb{R}^s$ (è necessario che la base considerata in $\mathbb{R}^m$ sia la stessa per $L_{1}$ e $L_{2}$). Consideriamo la trasformazione composta,
+	
+	$L_{2}\circ L_{1}:\mathbb{R}^n\rightarrow\mathbb{R}^s$
+	$(L_{2}\circ L_{1}):\mathbf{x}\mapsto L_{2}(L_{1}\mathbf{x})$
+	
+	È immediato verificare che $L_{2}\circ L_{1}$ è anch'essa una trasformazione lineare; per il Teorema di Rappresentazione, esisterà una matrice $\mathbf{C}$, di tipo $(s,n)$, che rappresenta tale trasformazione rispetto alle stesse basi. Essa è così definita:
+	
+	$\mathbf{C}=\mathbf{B}\mathbf{A}$
+	
+	ossia la matrice rappresentativa di $L_{2}\circ L_{1}$ è il prodotto righe per colonne delle matrici $\mathbf{B},\mathbf{A}$ che rappresentano $L_{2}\circ L_{1}$, rispettivamente. Si verifica immediatamente scrivendo il vettore $\mathbf{x}$ come $n$-upla rispetto alla base fissata:
+	
+	$L_{2}(L_{1}\mathbf{x})=\mathbf{B}\cdot(\mathbf{Ax})=(\mathbf{BA})\mathbf{x}\quad$,ossia $\mathbf{BA}$ rappresenta $L_{2}\circ L_{1}$.
 
-$L_{2}\circ L_{1}:\mathbb{R}^n\rightarrow\mathbb{R}^s$
-$(L_{2}\circ L_{1}):\mathbf{x}\mapsto L_{2}(L_{1}\mathbf{x})$
 
-È immediato verificare che $L_{2}\circ L_{1}$ è anch'essa una trasformazione lineare; per il Teorema di Rappresentazione, esisterà una matrice $\mathbf{C}$, di tipo $(s,n)$, che rappresenta tale trasformazione rispetto alle stesse basi. Essa è così definita:
-
-$\mathbf{C}=\mathbf{B}\mathbf{A}$
-
-ossia la matrice rappresentativa di $L_{2}\circ L_{1}$ è il prodotto righe per colonne delle matrici $\mathbf{B},\mathbf{A}$ che rappresentano $L_{2}\circ L_{1}$, rispettivamente. Si verifica immediatamente scrivendo il vettore $\mathbf{x}$ come $n$-upla rispetto alla base fissata:
-
-$L_{2}(L_{1}\mathbf{x})=\mathbf{B}\cdot(\mathbf{Ax})=(\mathbf{BA})\mathbf{x}\quad$,ossia $\mathbf{BA}$ rappresenta $L_{2}\circ L_{1}$.
-
-
-Notiamo infine che una **trasformazione affine** tra due spazi vettoriali ([[#### 3.3.3 **Il concetto di linearità**|vedi paragrafo 3.3.3]]), cioò del tipo:
+- Notiamo infine che una **trasformazione affine** tra due spazi vettoriali ([[#### 3.3.3 **Il concetto di linearità**|vedi paragrafo 3.3.3]]), cioò del tipo:
 
 $f:V_{n}\rightarrow V_{m}$
 $f(\mathbf{v})=l(\mathbf{v})+\mathbf{u}$
