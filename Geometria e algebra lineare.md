@@ -824,4 +824,4 @@ Il prossimo importante teorema afferma, in sostanza, che tutte le trasformazioni
 	
 								$\begin{pmatrix}y_{1}\\y_{2}\\ \vdots \\y_{m}\end{pmatrix}=\mathbf{A}\begin{pmatrix}x_{1}\\x_{2}\\ \vdots \\x_{n}\end{pmatrix}$
 	
-	Si noti che, 
+	Si noti che, qualunque sia lo spazio vettoriale $V_{n}$ e fissata una base nel medesimo spazio, ogni vettore è individu
