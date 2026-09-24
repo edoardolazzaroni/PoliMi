@@ -786,6 +786,6 @@ Possiamo anche definire un prodotto tra matrici, che però non è valido per ogn
 	
 	Se $\mathbf{A}=\mathbf{A}^\top$ (e quindi $m=n$), tale matrice si dice essere **simmetrica**.
 	Cioò significa che per ogni coppia di indici $i,j$ risulta $a_{ij}=a_{ji}$, ovvero la matrice è una tabella <u>simmetrica rispetto alla diagonale principale</u>.
-		*Esempio*: $\begin{pmatrix}1&2&-1\\2&0&3\\\end{pmatrix}$
-		
+		*Esempio*: $\begin{pmatrix}1&2&-1\\2&0&3\\-1&3&4\end{pmatrix}$ è una matrice simmetrica.
 
+Una matr
