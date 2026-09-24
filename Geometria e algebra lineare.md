@@ -861,3 +861,8 @@ $(L_{2}\circ L_{1}):\mathbf{x}\mapsto L_{2}(L_{1}\mathbf{x})$
 $\mathbf{C}=\mathbf{B}\mathbf{A}$
 
 ossia la matrice rappresentativa di $L_{2}\circ L_{1}$ è il prodotto righe per colonne delle matrici $\mathbf{B},\mathbf{A}$ che rappresentano $L_{2}\circ L_{1}$, rispettivamente. Si verifica immediatamente scrivendo il vettore $\mathbf{x}$ come $n$-upla rispetto alla base fissata:
+
+$L_{2}(L_{1}\mathbf{x})=\mathbf{B}\cdot(\mathbf{Ax})=(\mathbf{BA})\mathbf{x}$
+
+ossia $\mathbf{BA}$ rappresenta $L_{2}\circ L_{1}$.
+
