@@ -873,4 +873,8 @@ Il prossimo importante teorema afferma, in sostanza, che tutte le trasformazioni
 	con $l:V_{n}\rightarrow V_{m}$ lineare e $\mathbf{u}\in V_{m}$ vettore fissato, si rappresenterà rispetto alle basi fissate in $V_{n},V_{m}$ nella forma matriciale:
 	
 	$L(\mathbf{x})=\mathbf{Ax}+\mathbf{b}$
-	dove $\mathbf{A}$ è un'opportuna matrice $(m,n)$
+	
+	dove $\mathbf{A}$ è un'opportuna matrice $(m,n)$ e $\mathbf{b}\in\mathbb{R}^m$ il vettore che rappresenta $\mathbf{u}$ rispetto alla base scelta in $V_{m}$.
+
+
+### 4.2 **Rappresentazione matriciale delle trasformazioni lineari**
