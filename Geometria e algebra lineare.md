@@ -984,11 +984,13 @@ Se $x_{3}=y_{3}=0$, si riduce a: $\mathbf{v}\times\mathbf{w}=\begin{vmatrix}x_{1
 e quindi $|\mathbf{v}\times\mathbf{w}|=|\det\begin{pmatrix}x_{1}&x_{2}\\ y_{1}&y_{2}\end{pmatrix}|$
 
 Ricordando il [[### 1.5 **Prodotto scalare e vettoriale**|significato del modulo di prodotto vettoriale]] si ricava che il modulo del determinante $\begin{vmatrix}x_{1}&x_{2}\\ y_{1}&y_{2}\end{vmatrix}$ coincide con l'area del parallelogramma costruito sui vettori piani $(x_{1},x_{2}),(y_{1},y_{2})$.
-Poichè l'area del parallelogramma è nulla se e solo se i due vettori che lo generano sono paralleli, si ha anche che il determinante $2\times 2$ è nullo se e solo se le sue righe/colonne sono due vettori paralleli, cioè <mark class="hltr-yellow">linearmente dipendenti</mark>.
+Poichè l'area del parallelogramma è nulla se e solo se i due vettori che lo generano sono paralleli, si ha anche che il determinante $2\times 2$ è <u>nullo</u> se e solo se le sue righe/colonne sono due vettori paralleli, cioè <mark class="hltr-yellow">linearmente dipendenti</mark>.
 
 Se ora $\mathbf{u}=(z_{1},z_{2},z_{3})$ è un terzo vettore, ricaviamo la seguente formula per il prodotto misto $\mathbf{u}\cdot\mathbf{v}\times\mathbf{w}$:
 
 $\mathbf{u}\cdot\mathbf{v}\times\mathbf{w}=z_{1}\begin{vmatrix}x_{2}&x_{3}\\ y_{2}&y_{3}\end{vmatrix}-z_{2}\begin{vmatrix}x_{1}&x_{3}\\ y_{1}&y_{3}\end{vmatrix}+z_{3}\begin{vmatrix}x_{1}&x_{2}\\ y_{1}&y_{2}\end{vmatrix}=\begin{vmatrix}z_{1}&z_{2}&z_{3}\\ x_{1}&x_{2}&x_{3}\\y_{1}&y_{2}&y_{3}\end{vmatrix}$
 
 Ricordando il [[### 1.5 **Prodotto scalare e vettoriale**|significato geometrico del prodotto misto]] si ricava che il modulo del determinante rappresenta il volume del parallelepipedo costruito sui vettori $\mathbf{u},\mathbf{v}$ e $\mathbf{w}$.
-Poichè a sua volta il volume del parallelepipedo è nullo se e solo se i tre vettori sono complanari, si ha anche che il 
+Poichè a sua volta il volume del parallelepipedo è nullo se e solo se i tre vettori sono complanari, si ha anche che il determinante $3\times 3$ è <u>nullo</u> se e solo se le sue righe/colonne sono tre vettori complanari, cioè <mark class="hltr-yellow">linearmente dipendenti</mark>.
+
+Otteniamo qu
