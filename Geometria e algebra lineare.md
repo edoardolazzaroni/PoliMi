@@ -928,3 +928,7 @@ Segue quindi il prossimo Teorema:
 	$\det\mathbf{A}=-6\cdot\begin{vmatrix}2&-1\\3&-5\end{vmatrix}-0\cdot\begin{vmatrix}8&-1\\4&-5\end{vmatrix}+4\cdot\begin{vmatrix}8&2\\4&3\end{vmatrix}=58$
 	
 	Se avessimo scelto un'altra colonna/riga il risultato non sarebbe cambiato.
+
+Si voglia ora calcolare il determinante della seguente matrice:
+
+$\mathbf{A}=\begin{pmatrix}\end{pma}$
