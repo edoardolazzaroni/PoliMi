@@ -968,4 +968,5 @@ Un'altra importante proprietà del determinante è la seguente:
 
 - **Regola di Sarrus** per i determinanti del terzo ordine:
 	
-	calcoliamo il determinante della matrice $\mathbf{M}=\begin{pmatrix}a_{11}&a_{12}&a_{13}\\a_{21}&a_{22}&a_{23}\\a_{31}&a_{32}&a_{33}\end{pmatrix}$
+	calcoliamo il determinante della matrice $\mathbf{M}=\begin{pmatrix}a_{11}&a_{12}&a_{13}\\a_{21}&a_{22}&a_{23}\\a_{31}&a_{32}&a_{33}\end{pmatrix}$ mediante il Teorema di Laplace, sviluppando secondo gli elementi della prima riga. Si ha:
+	$\det\mathbf{M}=a_{11}\begin{vmatrix}\end{\begin{vmatrix}ri\end{vmatrix}}$
