@@ -1133,4 +1133,4 @@ Nelle applicazioni dell'algebra lineare si ha a che fare con sistemi di molte eq
 
 #### 5.1.2 **Sistemi di $n$ equazioni in $n$ incognite, non omogenei**
 
-Consideriamo un sistema generale di $n$ equazioni in $n$ incognite: ${\begin{cases}a_{11}x_{1}+a_{12}x_{2}+\cdots+\end{cases}}$
+Consideriamo un sistema generale di $n$ equazioni in $n$ incognite: ${\begin{cases}a_{11}x_{1}+a_{12}x_{2}+\cdots+a_{1n}x_{n}=b_{1}\\a_{21}x_{2}+a_{22}x_{2}+\cdots+a_{2n}x_{n}=b_{2}\\ \vdots \\a_{n1}x_{1}+a_{n2}x_{2}+\cdots\end{cases}}$
