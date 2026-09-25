@@ -1011,4 +1011,8 @@ Questo risultato è valido in realtà per $n$ qualsiasi, e può essere anzi ulte
 	
 	Ricordiamo che $r$ vettori di $\mathbb{R}^n$ con $r>n$ sono sempre linearmente dipendenti.
 
-Introduciamo ora il concetto di rango o caratteristica di una m
+Introduciamo ora il concetto di **rango** o **caratteristica** di una matrice:
+
+- #DEFINIZIONE(10). **Caratteristica di una matrice**
+	
+	Dati una matrice $\mathbf{A}$ di $m$ righe e $n$ colonne,
