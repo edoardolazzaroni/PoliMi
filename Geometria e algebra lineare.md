@@ -1205,4 +1205,9 @@ Cosa succede invece al sistema non omogeneo se $\det\mathbf{A}= 0$? A questo ris
 	$\mathbf{A}(\mathbf{x}_{0}+\mathbf{x}_{1})=\mathbf{A}\mathbf{x}_{1}+\mathbf{A}\mathbf{x}_{0}=\mathbf{b}+\mathbf{0}=\mathbf{b}$
 	Se $\det\mathbf{A}= 0$, sappiamo che il sistema omogeneo ha sempre infinite soluzioni. Ne concludiamo che:
 	Se $\det\mathbf{A}= 0$ e il sistema non omogeneo $\mathbf{A}\mathbf{x}=\mathbf{b}$ ha una soluzione, allora ne ha infinite.
-	In altre parole, quando $\det\mathbf{A}= 0$, per il sistema non omogeneo viene necessariamente a cadere o l'esistenza o l'unicità della soluzione: il sistema è impossibile o indet
+	In altre parole, quando $\det\mathbf{A}= 0$, per il sistema non omogeneo viene necessariamente a cadere o l'esistenza o l'unicità della soluzione: <u>il sistema è impossibile o indeterminato</u>.
+	Vedremo in seguito come si può prevedere se accade l'una o l'altra cosa.
+
+
+
+### 5.2 **Immagine e nucleo di una trasformazione li**
