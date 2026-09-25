@@ -1059,4 +1059,6 @@ dove $\mathbf{I}_{n}$ è la [[### 4.1 **L'algebra delle matrici**|matrice identi
 La condizione che garantisce l'esistenza della matrice inversa, analoga alla condizione $a\ne 0$ per l'esistenza del reciproco di un numero, è che sia $\det\mathbf{A}\ne 0$.
 Il seguente Teorema precisa questa affermazione, e indica un modo per calcolare $\mathbf{A}^{-1}$:
 
-- #TEOREMA(9). Condizione necessaria è sufficiente affinchè esista 
+- #TEOREMA(9). Condizione necessaria è sufficiente affinchè esista la matrice inversa $\mathbf{A}^{-1}$ è che $\mathbf{A}$ sia non singolare, cioà che $\det\mathbf{A}\ne 0$. In tal caso vale la formula:
+	
+	$\mathbf{A}^{-1}=\frac{1}{\det\mathbf{A}^{-1}}$
