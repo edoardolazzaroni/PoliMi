@@ -1248,4 +1248,7 @@ Da questo teorema segue immediatamente che <mark class="hltr-yellow">le matrici 
 	
 	Anche $Ker (\mathcal{L})$ è uno spazio vettoriale.
 
-Vale l'importante formula che lega l
+
+Vale l'importante formula che lega le dimensioni di immagine e nucleo per una generica trasformazione lineare $\mathcal{L}$:
+
+- #TEOREMA(13). Se $\mathcal{L}:\mathbb{R}^n$
