@@ -1218,4 +1218,6 @@ Per affrontare lo studio dei sistemi lineari di $n$ equazioni in $m$ incognite �
 
 - #DEFINIZIONE(11). **Immagine**
 	
-	Se $\mathcal{L}$ è lineare da $\mathbb{R}^n$ a $\mathbb{R}^m$, si chiama **immagine** ([[#### 3.3.3 **Il concetto di linearità**|caso particolare della definizione data nel capitolo 3.3]]) di $\mathcal{L}$ l'insieme dei vettori di $\mathbb{R}^m$ che sono i trasformati di qualche vettore 
+	Se $\mathcal{L}$ è lineare da $\mathbb{R}^n$ a $\mathbb{R}^m$, si chiama **immagine** ([[#### 3.3.3 **Il concetto di linearità**|caso particolare della definizione data nel capitolo 3.3]]) di $\mathcal{L}$ l'insieme dei vettori di $\mathbb{R}^m$ che sono i trasformati di qualche vettore di $\mathbb{R}^n$. Tale insieme si indica con:
+									$\mathrm{Im}(\mathcal{L})$
+	Se $\mathbf{y}\in \mathrm{Im}({\mathcal{L}}$
