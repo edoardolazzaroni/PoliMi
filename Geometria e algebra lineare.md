@@ -1098,4 +1098,5 @@ Per **sistema lineare** si intende un sistema di equazioni algebriche di primo g
 
 Generalmente si scrivono al primo membro dell'equazione le incognite, moltiplicate per i loro coefficienti; al secondo membro i termini noti: se questi sono tutti nulli il sistema si dice **omogeneo**.
 
-In questo paragrafo ci occuperemo di sistemi nei quali il numero delle equazioni uguaglia 
+In questo paragrafo ci occuperemo di sistemi nei quali il numero delle equazioni uguaglia quello delle incognite. Per questi sistemi i coefficienti delle incognite si possono ordinare in una matrice quadrata.
+Nell'esempio precedente avremo quindi:
