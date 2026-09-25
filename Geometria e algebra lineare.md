@@ -1159,4 +1159,6 @@ $\mathbf{B}_{i}={\begin{pmatrix}a_{11}&a_{12}&\cdots&b_{1}&\cdots&a_{1n}\\a_{21}
 
 Infatti, ricordando [[#4.5 **Matrice inversa**|l'espressione della matrice inversa]], si ha:
 
-$x_{i}=(\mathbf{A}^{-1}b)_{i}=\frac{1}{\det\mathbf{}}$
+$x_{i}=(\mathbf{A}^{-1}b)_{i}=\frac{1}{\det\mathbf{A}}\sum_{j=1}^n A_{ji}b_{j}=\frac{1}{\det\mathbf{A}}\cdot\det\mathbf{B}_{i}$
+
+come si vede calcolando il determinante di $\mathbf{B}_{i}$ RIS
