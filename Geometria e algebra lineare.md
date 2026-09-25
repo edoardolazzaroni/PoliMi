@@ -1239,3 +1239,7 @@ Le proprietà principali sono espresse dal seguente Teorema:
 
 Da questo teorema segue immediatamente che <mark class="hltr-yellow">le matrici che rappresentano (rispetto a basi diverse) la stessa trasformazione lineare hanno lo stesso rango</mark>.
 
+
+- #DEFINIZIONE(12). **Nucleo**
+	
+	Il nucleo di un'applicazione lineare $\mathcal{L}$ si indica con il simbolo $Ker (\$
