@@ -1210,4 +1210,6 @@ Cosa succede invece al sistema non omogeneo se $\det\mathbf{A}= 0$? A questo ris
 
 
 
-### 5.2 **Immagine e nucleo di una trasformazione li**
+### 5.2 **Immagine e nucleo di una trasformazione lineare da $\mathbb{R}^n$ a $\mathbb{R}^m$**
+
+Per affrontare lo studio dei sistemi lineari di $n$ equazioni in $m$ incognite è utile pria studia
