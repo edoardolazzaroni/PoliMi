@@ -1258,4 +1258,4 @@ Vale l'importante formula che lega le dimensioni di immagine e nucleo per una ge
 	*Dimostrazione sul libro*.
 
 
-*Esempio*: Sia $\mathcal{L}$ la t
+*Esempio*: Sia $\mathcal{L}$ la trasformazione lineare da $\mathbb{R}^3$ in $\mathbb{R}^3$ che, rispetto alle basi canoniche, è rappresentata dalla matrice $\mathbf{A}={\begin{pmatrix}1&-1&0\\-2&3&1\\-1&\end{pmatrix}}$
