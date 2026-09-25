@@ -1157,4 +1157,6 @@ dove a numeratore compare il determinante della matrice $\mathbf{B}_{i}$ che si 
 
 $\mathbf{B}_{i}={\begin{pmatrix}a_{11}&a_{12}&\cdots&b_{1}&\cdots&a_{1n}\\a_{21}&a_{22}&\cdots&b_{2}&\cdots&a_{2n}\\ \vdots & \vdots & & \vdots & &\vdots\\a_{n1}&a_{n2}&\cdots&b_{n}&\cdots&a_{nn}\end{pmatrix}}$
 
-Infatti, ricordando 
+Infatti, ricordando [[#4.5 **Matrice inversa**|l'espressione della matrice inversa]], si ha:
+
+$x_{i}=(\mathbf{A}^{-1}b)_{i}=\frac{1}{\det\mathbf{}}$
