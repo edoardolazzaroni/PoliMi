@@ -1169,6 +1169,9 @@ Abbiamo così dimostrato un importante risultato:
 	Consideriamo il sistema di $n$ equazioni in $n$ incognite $\mathbf{A}\mathbf{x}=\mathbf{b}$
 	(con $\mathbf{A}$ matrice $(n,n)$, $b\in\mathbb{R}^n$ assegnato e $\mathbf{x}\in\mathbb{R}^n$ incognito). Se $\det\mathbf{A}\ne 0$, il sistema è determinato, ossia ha una ed una sola soluzione.
 
+
 *Esempio*:
 
-Consideriamo il sistema ${\begin{cases}2x+y+3z=12\\4y-z=7\\5x+8z=24\end{cases}}\rightarrow{\begin{pmatrix}\2&1&3\\0&4&-1\\540\end{pmatrix}}$
+Consideriamo il sistema ${\begin{cases}2x+y+3z=12\\4y-z=7\\5x+8z=24\end{cases}}\quad\rightarrow\quad\mathbf{A}={\begin{pmatrix}2&1&3\\0&4&-1\\5&0&8\end{pmatrix}}$
+
+Poichè $|\mathbf{A}|=-1$, il sistema ammette soluzione unica
