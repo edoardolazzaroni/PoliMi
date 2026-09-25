@@ -1298,4 +1298,5 @@ dal quale abbiamo omesso la terza equazione, in quanto dipendente dalle prime du
 - #DEFINIZIONE(15). Se $\mathcal{L}$ è sia iniettiva che suriettiva, si dice che $\mathcal{L}$ è **biiettiva**; la corrispondenza stabilita da $\mathcal{L}$ è **biunivoca**.
 	
 	In tal caso l'equazione $\mathcal{L}(\mathbf{x})=\mathbf{b}$ ha una ed una sola soluzione $\mathbf{x}$, indipendentemente da $\mathbf{b}$.
-	Interessante è se $n=m$: in tal caso implica
+	Interessante è se $n=m$: in tal caso il Teorema (13) implica che
+	$\dim Ker(\mathcal{L})=0\$
