@@ -1078,4 +1078,5 @@ Vale anche la seguente:
 	*Dimostrazione*:
 	Per il Teorema di Binet, se $\det\mathbf{A}\ne 0$ e $\det\mathbf{B}\ne 0$ si ha: $\det(\mathbf{AB})=\det\mathbf{A}\cdot\det\mathbf{B}\ne 0$
 	Quindi $\mathbf{AB}$ è non singolare. Notiamo che $(\mathbf{B}^{-1}\cdot\mathbf{A}^{-1})\cdot(\mathbf{AB})=\mathbf{B}^{-1}(\mathbf{A}^{-1}\mathbf{A})\mathbf{B}=\mathbf{B}^{-1}\mathbf{I}\mathbf{B}=\mathbf{B}^{-1}\mathbf{B}=\mathbf{I}$
-	Analogamente si verifica che $(\mathbf{AB})\cdot(\mathbf{B}^{-1})$
+	Analogamente si verifica che $(\mathbf{AB})\cdot(\mathbf{B}^{-1}\mathbf{A}^{-1})=\mathbf{I}$, dunque effettivamente $\mathbf{B}^{-1}\cdot\mathbf{A}^{-1}$ è la matrice inversa di $\mathbf{AB}$.
+
