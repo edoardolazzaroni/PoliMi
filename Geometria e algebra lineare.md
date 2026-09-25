@@ -1222,4 +1222,9 @@ Per affrontare lo studio dei sistemi lineari di $n$ equazioni in $m$ incognite √
 										$\mathrm{Im}(\mathcal{L})$
 	
 	Se $\mathbf{y}\in \mathrm{Im}({\mathcal{L}})$ deve essere $\mathbf{y}={\mathcal{L}}(\mathbf{x})$ per qualche $\mathbf{x}\in\mathbb{R}^n$.
-	Le propriet
+
+Le propriet√† principali sono espresse dal seguente Teorema:
+
+- #TEOREMA(12).
+	
+	1) L'insieme 
