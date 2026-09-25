@@ -1105,4 +1105,4 @@ In questo paragrafo ci occuperemo di sistemi nei quali il numero delle equazioni
 Le righe rappresentano i coefficienti delle incognite nella $1^a,2^a$ e $3^a$ equazione, mentre le colonne rappresentano i coefficienti di $x,y$ e $z$.
 
 Dato un sistema di $n$ equazioni in $n$ incognite (detto anche "sistema $n\times n$"), il nostro scopo è quello di determinare le eventuali <u>soluzioni</u>.
-Per soluzione si intende
+Per soluzione si intende una $n$-upla di numeri che, sostituiti ordinata,ent
