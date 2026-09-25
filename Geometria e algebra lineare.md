@@ -1050,4 +1050,6 @@ Se $a$ è un numero non nullo, esiste un unico $a^{-1}=\frac{1}{a}$ (il reciproc
 
 							$a\cdot a^{-1}=a^{-1}\cdot a=1$
 
-Se $\mathbf{A}$ è una matrice quadrata $(n,n)$
+Se $\mathbf{A}$ è una matrice quadrata $(n,n)$, chiameremo **matrice inversa** di $\mathbf{A}$ la matrice (<u>se esiste</u>) $\mathbf{A}^{-1}$ tale che:
+
+$\mathbf{A}\cdot\mathbf{A}^{-1}=\mathbf{A}^{-1}\cdot\mathbf{A}=$
