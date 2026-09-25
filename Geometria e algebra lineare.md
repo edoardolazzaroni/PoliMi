@@ -1124,4 +1124,6 @@ L'applicazione congiunta (e ripetuta) delle due operazioni precedenti permette a
 *Esempio*: si vuole risolvere il sistema $3\times 3$: $\quad{\begin{cases}x+y-z=0\\y+z=2\\3x+z=-1\end{cases}}$
 Dalla seconda ricaviamo la $z$ e la sostituiamo nelle altre due: $\quad{\begin{cases}z=2-y\\ x+y-(2-y)=0\\3x+(2-y)=-1\end{cases}}$
 Le ultime due equazioni sono ora un sistema nelle due incognite $(x,y)$: $\quad{\begin{cases} x+2y=0\\3x-y=-3\end{cases}}$
-Sommando alla prima equazione il doppio della seconda si ha: $\quad{\begin{cases} 7x=-4\\x+2y=-3\end{cases}}$
+Sommando alla prima equazione il doppio della seconda si ha: $\quad{\begin{cases} 7x=-4\\x+2y=2\end{cases}}$
+
+Dalla prima si ricava $x=-\frac{4}{7}$, che sostituità nella seconda dà $y=\frac{9}{7}$; ricordando infine la prima equazione $$
