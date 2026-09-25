@@ -1022,5 +1022,6 @@ Introduciamo ora il concetto di **rango** o **caratteristica** di una matrice:
 
 Per la determinazione del rango risulta utile la seguente proprozione:
 
-- #PROPOSIZIONE(3). Proposizione di Kronecker
-	Condizione necessaria e sufficienti affinchè 
+- #PROPOSIZIONE(3). **Proposizione di Kronecker**
+	
+	Condizione necessaria e sufficiente affinchè una matrice abbia rango $k$ è che esista un minore di ordine $k\ne 0$ e siano nulli tutti i minori di ordine $k+
