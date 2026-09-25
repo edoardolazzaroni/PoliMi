@@ -1144,4 +1144,5 @@ Introducendo i vettori colonna $\mathbf{x}={\begin{pmatrix}x_{1}\\x_{2}\\ \vdots
 il sistema precedente si può porre nella forma matriciale $\mathbf{A}\mathbf{x}=\mathbf{b}$
 
 Per risolvere il sistema ricorriamo all'analogia con l'equazione scalare $ax=b$: se $a\ne 0$, l'unica soluzione è $x=\frac{b}{a}$; l'analogo della condizione $a\ne 0$ è ora $\det\mathbf{A}\ne 0$.
-Infatti, per il Teorema sulla matrice inversa, se $\det\mathbf{A}\ne 0 \rightarrow\exists\mathbf{A}^{-1}$; moltiplicandolo a sinistra per $\mathbf{A}^{-1}$ entrambi i membri si trova: $\mathbf{A}^{-1}(\mathbf{A}\mathbf{x})=\mathbf{A}$
+Infatti, per il Teorema sulla matrice inversa, se $\det\mathbf{A}\ne 0 \rightarrow\exists\mathbf{A}^{-1}$; moltiplicandolo a sinistra per $\mathbf{A}^{-1}$ entrambi i membri si trova: $\mathbf{A}^{-1}(\mathbf{A}\mathbf{x})=\mathbf{A}^{-1}\cdot\mathbf{b}$
+ed utilizzando la proprietà associativa per il prodotto tra matrici si ricava: $(\mathbf{A}\cdots\mathbf{A}^{-1})\mathbf{x}=\mathbf{A}^{-1}$
