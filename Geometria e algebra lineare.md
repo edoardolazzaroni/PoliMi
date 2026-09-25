@@ -1202,6 +1202,7 @@ perciò in questo caso le soluzioni del sistema omogeneo sono infinite. Riassume
 Cosa succede invece al sistema non omogeneo se $\det\mathbf{A}= 0$? A questo risponderemo successivamente col Teorema di Rouchè-Capelli. Possiamo fin d'ora fare però la seguente **osservazione**:
 	Supponiamo che $\mathbf{x}_{0}$ sia una soluzione del sistema omogeneo, ossia $\mathbf{A}\mathbf{x}_{0}=0$, e $\mathbf{x}_{1}$ sia una soluzione del sistema non omogeneo, $\mathbf{A}\mathbf{x}_{1}=\mathbf{b}$.
 	Allora anche $\mathbf{x}_{0}+\mathbf{x}_{1}$ è soluzione del sistema non omogeneo, infatti:
+	
 	$\mathbf{A}(\mathbf{x}_{0}+\mathbf{x}_{1})=\mathbf{A}\mathbf{x}_{1}+\mathbf{A}\mathbf{x}_{0}=\mathbf{b}+\mathbf{0}=\mathbf{b}$
 	Se $\det\mathbf{A}= 0$, sappiamo che il sistema omogeneo ha sempre infinite soluzioni. Ne concludiamo che:
 	Se $\det\mathbf{A}= 0$ e il sistema non omogeneo $\mathbf{A}\mathbf{x}=\mathbf{b}$ ha una soluzione, allora ne ha infinite.
@@ -1212,4 +1213,8 @@ Cosa succede invece al sistema non omogeneo se $\det\mathbf{A}= 0$? A questo ris
 
 ### 5.2 **Immagine e nucleo di una trasformazione lineare da $\mathbb{R}^n$ a $\mathbb{R}^m$**
 
-Per affrontare lo studio dei sistemi lineari di $n$ equazioni in $m$ incognite è utile pria studia
+Per affrontare lo studio dei sistemi lineari di $n$ equazioni in $m$ incognite è utile prima studiare qualche altra proprietà delle trasformazioni lineari.
+
+- #DEFINIZIONE(11). **Immagine**
+	
+	Se $\mathcal{L}$ è lineare
