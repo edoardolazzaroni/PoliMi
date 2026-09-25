@@ -435,6 +435,7 @@ Chiameremo il primo <u>vettore riga</u> ed il secondo <u>vettore colonna</u>.
 
 Una classe di spazi vettoriali particolarmente importanti nello studio dell'analisi matematica è quella degli <u>spazi di funzioni</u>: sia $I\subset\mathbb{R}$ un intervallo e indichiamo con $\mathcal{F}_I$ l'insieme di tutte le funzioni $f \ : \ I\rightarrow\mathbb{R}$.
 Tra queste funzioni si possono definire un'operazione di somma ed una di prodotto per uno scalare, ponendo per $f,g \ : \ I\rightarrow\mathbb{R}$ e $\lambda \in \mathbb{R}$:
+
 							$(f+g)(x)=f(x)+g(x)$
 								$(\lambda f)(x)=\lambda f(x)$.
 
@@ -1217,4 +1218,4 @@ Per affrontare lo studio dei sistemi lineari di $n$ equazioni in $m$ incognite �
 
 - #DEFINIZIONE(11). **Immagine**
 	
-	Se $\mathcal{L}$ è lineare da $\mathbb{R}^n$ a $\mathbb{R}^m$, si chiama immagine (caso particolare della definizione data nel capitolo 2)
+	Se $\mathcal{L}$ è lineare da $\mathbb{R}^n$ a $\mathbb{R}^m$, si chiama immagine ([[]]caso particolare della definizione data nel capitolo 2)
