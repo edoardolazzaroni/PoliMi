@@ -1032,4 +1032,5 @@ Applichiamo il metodo indicato nella proposizione di Kronecker alla matrice $\ma
 
 Consideriamo una matrice estratta da $\mathbf{A}$ di ordine $1$ con $\det \ne 0$, ovvero $\mathbf{A}^*=(1)$
 
-"Orliamo" tale matrice in tutti i modi possibili, finchè si ottenga una matrice del secondo ordine con $\det \ne 0$: $\mathbf{A}^{* *}=\begin{pmatrix}\end{\begin{pmatrix}\end{pmatrix}}$
+"Orliamo" tale matrice in tutti i modi possibili, finchè si ottenga una matrice del secondo ordine con $\det \ne 0$: $\mathbf{A}^{* *}=\begin{pmatrix}1&2\\2&0\end{pmatrix}\quad \det\mathbf{A}^{* *}=-4$
+Ripetendo il ragionamento, "orlando" cioè in tutti i modi possibili 
