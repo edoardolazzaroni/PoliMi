@@ -1251,4 +1251,5 @@ Da questo teorema segue immediatamente che <mark class="hltr-yellow">le matrici 
 
 Vale l'importante formula che lega le dimensioni di immagine e nucleo per una generica trasformazione lineare $\mathcal{L}$:
 
-- #TEOREMA(13). Se $\mathcal{L}:\mathbb{R}^n$
+- #TEOREMA(13). Se $\mathcal{L}:\mathbb{R}^n\rightarrow\mathbb{R}^m$ è una trasformazione lineare, allora:
+	$\dim Ker(\mathcal{L})+\dim \mathrm{Im}(\)$
