@@ -1329,4 +1329,5 @@ Sia $\mathbf{A}$ la matrice $(m,n)$ dei coefficienti del sistema. Pensando di fi
 	*Dimostrazione*:
 	
 	Per quanto premesso all'enunciato del teorema, il sistema è risolubile se e solo se $\mathbf{b}\in \mathrm{Im}(L)$. Indicando con $(\mathbf{a}_1,\mathbf{a}_{2},\cdots,\mathbf{a}_{n})$ le colonne di $\mathbf{A}$ e con $\mathbf{e}_{j}$ i vettori della base canonica di $\mathbb{R}^n$, si ha $\mathbf{A}\mathbf{e}_{j}=\mathbf{a}_{j}$
-	cioè le colonne della matric
+	cioè le colonne della matrice $\mathbf{A}$ sono i trasformati dei vettori della base canonica in $\mathbb{R}^n$.
+	Di conseguenza, ogni elemento di $\mathrm{Im}(L)$ è combinazione lineare delle colonne di $\mathbf{A}$, perchè ogni vettore 
