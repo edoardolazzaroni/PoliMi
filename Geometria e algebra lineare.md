@@ -1331,4 +1331,7 @@ Sia $\mathbf{A}$ la matrice $(m,n)$ dei coefficienti del sistema. Pensando di fi
 	Per quanto premesso all'enunciato del teorema, il sistema è risolubile se e solo se $\mathbf{b}\in \mathrm{Im}(L)$. Indicando con $(\mathbf{a}_1,\mathbf{a}_{2},\cdots,\mathbf{a}_{n})$ le colonne di $\mathbf{A}$ e con $\mathbf{e}_{j}$ i vettori della base canonica di $\mathbb{R}^n$, si ha $\mathbf{A}\mathbf{e}_{j}=\mathbf{a}_{j}$
 	cioè le colonne della matrice $\mathbf{A}$ sono i trasformati dei vettori della base canonica in $\mathbb{R}^n$.
 	Di conseguenza, ogni elemento di $\mathrm{Im}(L)$ è combinazione lineare delle colonne di $\mathbf{A}$, perchè ogni vettore $\mathbf{x}=\sum x_{j}\mathbf{e}_{j}\in\mathbb{R}^n$ si ha:
-	$\mathbf{A}\mathbf{x}=\sum x_{j}\mathbf{A}\mathbf{e}_{j}=\sum x_{j}$
+	
+	$\mathbf{A}\mathbf{x}=\sum x_{j}\mathbf{A}\mathbf{e}_{j}=\sum x_{j}\mathbf{a}_{j}$
+	
+	Dunque il sistema è solubile se e solo se $\mathbf{b}$ è combinazione lineare delle colonne di $\mathbf{A}$, ossia, ricordando che $\dim \mathrm{Im}{L}=rk{\mathbf{A}}$
