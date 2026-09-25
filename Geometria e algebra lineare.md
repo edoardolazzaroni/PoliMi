@@ -1302,4 +1302,8 @@ dal quale abbiamo omesso la terza equazione, in quanto dipendente dalle prime du
 	
 					$\dim Ker(\mathcal{L})=0\iff\dim \mathrm{Im}(\mathcal{L})=n$
 	
-	e perciò, per trasformazioni lineari $\mathcal{L}$ da $\mathbb{R}^n$ a $\mathbb{R}^m$
+	e perciò, per trasformazioni lineari $\mathcal{L}$ da $\mathbb{R}^n$ a $\mathbb{R}^n$, iniettività equivaale a suriettività (e quindi biunivocità).
+
+Detto altrimenti:
+
+- #PROPOSIZIONE(5). Se $\mathcal{L}$ è una 
