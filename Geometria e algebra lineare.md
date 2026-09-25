@@ -1076,4 +1076,5 @@ Vale anche la seguente:
 	Se $\mathbf{A},\mathbf{B}$ sono due matrici quadrate non singolari, anche il prodotto $\mathbf{AB}$ è non singolare, e vale: $(\mathbf{AB})^{-1}=\mathbf{B}^{-1}\cdot\mathbf{A}^{-1}$
 	
 	*Dimostrazione*:
-	Per il Teorema di Binet, se $\det\mathbf{A}\ne 0$ e $\det\mathbf{B}\ne 0$ si ha:
+	Per il Teorema di Binet, se $\det\mathbf{A}\ne 0$ e $\det\mathbf{B}\ne 0$ si ha: $\det(\mathbf{AB})=\det\mathbf{A}\cdot\det\mathbf{B}\ne 0$
+	Quindi $\mathbf{AB}$ è non singolare. N
