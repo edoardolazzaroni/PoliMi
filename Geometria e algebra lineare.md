@@ -1243,4 +1243,4 @@ Da questo teorema segue immediatamente che <mark class="hltr-yellow">le matrici 
 - #DEFINIZIONE(12). **Nucleo**
 	
 	Il nucleo di un'applicazione lineare $\mathcal{L}$ si indica con il simbolo $Ker (\mathcal{L})$ ed è l'insieme dei vettori di $\mathbb{R}^n$ che hanno come immagine il vettore nullo di $\mathbb{R}^m$. In simboli:
-	$Ker(\mathcal{})$
+	$Ker(\mathcal{L})=\left\{\mathbf{x}\in\mathbb{R}^n|\mathcal{L}(\mathbf{x})=\mathbf{0} \in \mathbb\right\}$
