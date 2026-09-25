@@ -1004,4 +1004,4 @@ Otteniamo quindi nel caso particolare $n=2,3$ un comodo criterio di dipendenza o
 
 ### 4.4 **Caratteristica di una matrice**
 
-Abbiamo visto che, se le righe/colonne di $\mathbf{A}$ sono vettori linearmente dipendenti, allora $\det\mathbf{A}=0$
+Abbiamo visto che, se le righe/colonne di $\mathbf{A}$ sono vettori linearmente dipendenti, allora $\det\mathbf{A}=0$ (Teorema 6). Inoltre, abbiamo dimostrato che se $n=2,3$
