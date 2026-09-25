@@ -1034,4 +1034,7 @@ Consideriamo una matrice estratta da $\mathbf{A}$ di ordine $1$ con $\det \ne 0$
 
 "Orliamo" tale matrice in tutti i modi possibili, finchè si ottenga una matrice del secondo ordine con $\det \ne 0$: $\mathbf{A}^{* *}=\begin{pmatrix}1&2\\2&0\end{pmatrix}\quad \det\mathbf{A}^{* *}=-4$
 Ripetendo il ragionamento, "orlando" cioè in tutti i modi possibili la $\mathbf{A}^{* *}$:
-$\mathbf{A}_{1}^{* *}=\begin{pmatrix}1&2&3\\2&0&3\\\end{pmatrix}$
+
+$\mathbf{A}_{1}^{* *}=\begin{pmatrix}1&2&3\\2&0&3\\2&4&6\end{pmatrix}\quad\mathbf{A}_{2}^{* *}=\begin{pmatrix}1&2&4\\2&0&5\\2&4&8\end{pmatrix}$
+
+si ottengono due matrici i cui det
