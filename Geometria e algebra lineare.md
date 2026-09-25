@@ -1270,4 +1270,6 @@ Per determinare $\mathrm{Im}(\mathcal{L})$ calcoliamo:
 
 $\mathbf{A}{\begin{pmatrix}x_{1}\\x_{2}\\ x_{3}\end{pmatrix}}={\begin{pmatrix}1&-1&0\\-2&3&1\\-1&2&1\end{pmatrix}}{\begin{pmatrix}x_{1}\\x_{2}\\ x_{3}\end{pmatrix}}={\begin{pmatrix}x_{1}-x_{2}\\-2x_{1}+3x_{2}+x_{3}\\-x_{1}+2x_{2}+x_{3}\end{pmatrix}}={\begin{pmatrix}y_{1}\\ y_{2}\\ y_{3}\end{pmatrix}}$
 
-Poichè 
+Poichè $y_{3}=y_{2}+y_{1}$, $\mathrm{Im}(\mathcal{L})$ coincide col piano di equazione $y_{1}+y_{2}-y_{3}=0$
+
+Detto altrimenti, il generico elemento di $\mathrm{Im}(\mathcal{L})$ è del tipo: 
