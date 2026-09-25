@@ -1139,4 +1139,8 @@ ${\begin{cases}a_{11}x_{1}+a_{12}x_{2}+\cdots+a_{1n}x_{n}=b_{1}\\a_{21}x_{2}+a_{
 
 La matrice $\mathbf{A}$ dei coefficienti è: $\quad\mathbf{A}={\begin{pmatrix}a_{11}&a_{12}&\cdots&a_{1n}\\a_{21}&a_{22}&\cdots&a_{2n}\\ \vdots \\a_{n1}&a_{n2}&\cdots&a_{nn}\end{pmatrix}}$
 
-Introducendo i vettori colonna $\mathbf{x}={\begin{pmatrix}x_{1}\\x_{2}\\ \vdots \\ x_{n}\end{pmatrix}}$ (delle incognite) e $\mathbf{x}={\begin{pmatrix}x_{1}\\x_{2}\\ \vdots \\ x_{n}\end{pmatrix}}$
+Introducendo i vettori colonna $\mathbf{x}={\begin{pmatrix}x_{1}\\x_{2}\\ \vdots \\ x_{n}\end{pmatrix}}$ (delle incognite) e $\mathbf{b}={\begin{pmatrix}b_{1}\\b_{2}\\ \vdots \\ b_{n}\end{pmatrix}}$ (termini noti),
+
+il sistema precedente si può porre nella forma matriciale $\mathbf{A}\mathbf{x}=\mathbf{b}$
+
+Per risolvere il sistema ricorriamo all'analogia co
