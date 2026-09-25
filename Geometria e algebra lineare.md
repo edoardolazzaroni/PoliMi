@@ -1092,4 +1092,5 @@ Vale anche la seguente:
 ### 5.1 **Generalità. Metodo di Cramer**
 
 Applichiamo i concetti introdotti nel [[#Capitolo IV Matrici e trasformazioni lineari|capitolo IV]] allo studio dei sistemi lineari.
-Per sistema lineare si intende un sistema di equazioni algebriche di primo grado, il cui num
+Per **sistema lineare** si intende un sistema di equazioni algebriche di primo grado, il cui numero e numero di incognite possono variare.
+*Per esempio*, $\begin{cases}$
