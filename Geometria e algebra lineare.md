@@ -1189,4 +1189,8 @@ Interpretiamo ora il Teorema di Cramer per i sistemi omogenei $\mathbf{A}\mathbf
 In questo caso, se $\det\mathbf{A}\ne 0$, l'unica soluzione è $\mathbf{x}=\mathbf{0}$ (infatti $\mathbf{A}^-1\cdot\mathbf{0}=\mathbf{0}$).
 Viceversa, supponiamo che sia $\det\mathbf{A}=0$. Ciò significa, per il [[#4.4 **Caratteristica di una matrice**|Teorema (8)]], che le colonne di $\mathbf{A}$ $(\mathbf{a}_1,\mathbf{a}_{2},\cdots,\mathbf{a}_{n})$ sono vettori linearmente dipendenti, ossia esistono numeri $x_{1},x_{2},\cdots,x_{n}$, non tutti nulli, tali che: $x_{1}\mathbf{a}_1+x_{2}\mathbf{a}_{2}+\cdots+x_{n}\mathbf{a}_{n}=0$.
 
-Dunque, detto $\mathbf{x}$ il vettore $(x_{1},x_{2},\cdots,x_{n})$, si ha $\mathbf{A}\mathbf{x}=(\mathbf{a}_{1}|\mathbf{a}_{2}|\cdots|\mathbf{a}_{n})\end{\begin{pmatrix}\end{pmatrix}}$
+Dunque, detto $\mathbf{x}$ il vettore $(x_{1},x_{2},\cdots,x_{n})$, si ha:
+
+$\mathbf{A}\mathbf{x}=(\mathbf{a}_{1}|\mathbf{a}_{2}|\cdots|\mathbf{a}_{n}){\begin{pmatrix}x_{1}\\x_{2}\\ \vdots \\x_{n}\end{pmatrix}}=x_{1}\mathbf{a}_1+x_{2}\mathbf{a}_{2}+\cdots+x_{n}\mathbf{a}_{n}=0$
+
+ossia: il sistema $\mathbf{A}\mathbf{x}=\mathbf{0}$ i
