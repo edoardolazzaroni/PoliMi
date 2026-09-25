@@ -211,6 +211,7 @@ e dunque i tre vettori <u>sono indipendenti se e solo se quest'ultima espression
 
 
 
+
 # Capitolo II: Geometria lineare nello spazio
 
 
@@ -340,6 +341,7 @@ $\delta=|\mathbf{N}\cdot\overrightarrow{P_0P_1}|=\frac{|a(x_1-x_0)+b(y_1-y_0)+c(
 ossia, ricordando che abbiamo posto $d=ax_0+by_0+cz_0$:
 
 							$\delta=\frac{|ax_1+by_1+cz_1-d|}{\sqrt{a^2+b^2+c^2}}$
+
 
 
 
@@ -687,6 +689,7 @@ dove $l:\ V_{1}\rightarrow V_{2}$ è lineare e $\mathbf{b}\in V_{2}$ è un eleme
 	*Ad esempio*, 
 	$f:\ \mathbb{R}\rightarrow\mathbb{R}$, $f(x)=ax+b$
 	con $a,b\in\mathbb{R}$ fissati non è lineare ma affine.
+
 
 
 
@@ -1080,3 +1083,7 @@ Vale anche la seguente:
 	Quindi $\mathbf{AB}$ è non singolare. Notiamo che $(\mathbf{B}^{-1}\cdot\mathbf{A}^{-1})\cdot(\mathbf{AB})=\mathbf{B}^{-1}(\mathbf{A}^{-1}\mathbf{A})\mathbf{B}=\mathbf{B}^{-1}\mathbf{I}\mathbf{B}=\mathbf{B}^{-1}\mathbf{B}=\mathbf{I}$
 	Analogamente si verifica che $(\mathbf{AB})\cdot(\mathbf{B}^{-1}\mathbf{A}^{-1})=\mathbf{I}$, dunque effettivamente $\mathbf{B}^{-1}\cdot\mathbf{A}^{-1}$ è la matrice inversa di $\mathbf{AB}$.
 
+
+
+
+# Capitolo V: Sistemi lineari
