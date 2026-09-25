@@ -1279,4 +1279,7 @@ Per determinare il nucleo ($Ker (\mathcal{L})$), occorre risolvere il sistema om
 
 ${\begin{cases}x_{1}-x_{2}=0\\-2x_{1}+3x_{2}+x_{3}=0\end{cases}}$
 
-dal quale abbiamo omesso la terza equazione, in quanto dipendente dalle prime due. Si trova subito $x_{2}=x_{1}$ e $x_{3}=-x_{1}$, per cui il generico vettore del nucleo è della forma $\lambda$
+dal quale abbiamo omesso la terza equazione, in quanto dipendente dalle prime due. Si trova subito $x_{2}=x_{1}$ e $x_{3}=-x_{1}$, per cui il generico vettore del nucleo è della forma $\lambda{\begin{pmatrix}1\\1\\-1\end{pmatrix}}$, $\lambda\in\mathbb{R}$.
+
+
+#### 5.1.1 **Tecniche elementari di soluzione**
