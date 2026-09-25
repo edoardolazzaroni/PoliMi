@@ -1230,4 +1230,9 @@ Le proprietà principali sono espresse dal seguente Teorema:
 	
 	1) L'insieme $\mathrm{Im}(\mathcal{L})$ è un sottospazio vettoriale di $\mathbb{R}^m$;
 	2) Fissate le basi in $\mathbb{R}^n$ e $\mathbb{R}^m$, sia $\mathbf{A}$ una matrice di tipo $(m,n)$ che rappresenta $\mathcal{L}$. Allora:
-		$dim \mathrm{Im}{\mathcal{L}}=rk(\mathbf{A})$
+		
+									$\dim \ \mathrm{Im}{\mathcal{L}}=rk(\mathbf{A})$
+		
+		(dove $rk$ indica il rango della matrice).
+	
+	*Dimostrazione sul libro*.
