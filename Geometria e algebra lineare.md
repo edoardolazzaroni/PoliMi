@@ -1291,4 +1291,6 @@ dal quale abbiamo omesso la terza equazione, in quanto dipendente dalle prime du
 - #DEFINIZIONE(14). Se $Ker(\mathcal{L})=\left\{\mathbf{0}\right\}$, si dice che $\mathcal{L}$ è **iniettiva**.
 	
 	Ciò significa che l'equazione $\mathcal{L}(\mathbf{x})=\mathbf{0}$ ha solo la soluzione nulla.
-	Per la linearità di $\mathcal{L}$, questo è equivalente ad affermare che l'equazione $\mathcal{L}(\mathbf{x})=\mathbf{b}$ ha al più (massimo) una soluzione $\mathbf{x}$, indipendentemente da $\mathbf{b}$ (infatti se $\mathbf{x}_{1},\mathbf{x}_{2}$ sono due soluzioni di $\mathcal{L}(\mathbf{x})=\mathbf{b}$, per linearità $\mathcal{L}(\mathbf{x})=\mathbf{b}$)
+	Per la linearità di $\mathcal{L}$, questo è equivalente ad affermare che l'equazione $\mathcal{L}(\mathbf{x})=\mathbf{b}$ ha al più (massimo) una soluzione $\mathbf{x}$, indipendentemente da $\mathbf{b}$ (infatti se $\mathbf{x}_{1},\mathbf{x}_{2}$ sono due soluzioni di $\mathcal{L}(\mathbf{x})=\mathbf{b}$, per linearità $\mathcal{L}(\mathbf{\mathbf{x}_{1}-\mathbf{x}_{2}})=\mathbf{b}-\mathbf{b}=\mathbf{0}$, dunque $\mathbf{x}_{1}=\mathbf{x}_{2}$).
+
+- #DEFINIZIONE(15). Se $\mathcal{L}$ è sia inie
