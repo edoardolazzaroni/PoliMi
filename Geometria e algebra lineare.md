@@ -1137,4 +1137,6 @@ Consideriamo un sistema generale di $n$ equazioni in $n$ incognite:
 
 ${\begin{cases}a_{11}x_{1}+a_{12}x_{2}+\cdots+a_{1n}x_{n}=b_{1}\\a_{21}x_{2}+a_{22}x_{2}+\cdots+a_{2n}x_{n}=b_{2}\\ \vdots \\a_{n1}x_{1}+a_{n2}x_{2}+\cdots+a_{nn}x_{n}=b_{n}\end{cases}}$
 
-La matrice $\mathbf{A}$ dei coefficienti è: $\quad\mathbf{A}={\begin{pmatrix}a_{11}&a_{12}&\cdots&a_{1n}\\a_{21}&a_{22}&\cdots&a_{2n}\\ \vdots \\a_{n1}&a_{n2}&\cdots\end{pmatrix}}$
+La matrice $\mathbf{A}$ dei coefficienti è: $\quad\mathbf{A}={\begin{pmatrix}a_{11}&a_{12}&\cdots&a_{1n}\\a_{21}&a_{22}&\cdots&a_{2n}\\ \vdots \\a_{n1}&a_{n2}&\cdots&a_{nn}\end{pmatrix}}$
+
+Introducendo i vettori colonna $\mathbf{x}={\begin{pmatrix}x_{1}\\x_{2}\\ \vdots \\ x_{n}\end{pmatrix}}$ (delle incognite) e $\mathbf{x}={\begin{pmatrix}x_{1}\\x_{2}\\ \vdots \\ x_{n}\end{pmatrix}}$
