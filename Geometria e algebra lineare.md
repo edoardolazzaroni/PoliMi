@@ -1217,4 +1217,4 @@ Per affrontare lo studio dei sistemi lineari di $n$ equazioni in $m$ incognite �
 
 - #DEFINIZIONE(11). **Immagine**
 	
-	Se $\mathcal{L}$ è lineare
+	Se $\mathcal{L}$ è lineare da $\mathbb{R}^n$ a $\mathbb{R}^m$, si chiama immagine (caso particolare della definizione data nel capitolo 2)
