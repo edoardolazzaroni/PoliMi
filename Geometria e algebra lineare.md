@@ -1185,4 +1185,5 @@ $z=-{\begin{vmatrix}2&1&12\\0&4&-7\\5&0&34\end{vmatrix}}=3$
 
 #### 5.1.3 **Sistemi omogenei di $n$ equazioni in $n$ incognite**
 
-Interpretiamo ora il Teorema di Cramer per i sistemi omogenei
+Interpretiamo ora il Teorema di Cramer per i sistemi omogenei $\mathbf{A}\mathbf{x}=\mathbf{b}$
+In questo caso, se $\det\mathbf{A}\ne 0$, l'unica soluzione è $\mathbf{x}=\mathbf{0}$ (infatti $\mathbf{A}^-1\cdot\mathbf{0}=\mathbf{0}$)
