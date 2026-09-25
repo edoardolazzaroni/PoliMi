@@ -1187,4 +1187,6 @@ $z=-{\begin{vmatrix}2&1&12\\0&4&-7\\5&0&34\end{vmatrix}}=3$
 
 Interpretiamo ora il Teorema di Cramer per i sistemi omogenei $\mathbf{A}\mathbf{x}=\mathbf{b}$
 In questo caso, se $\det\mathbf{A}\ne 0$, l'unica soluzione è $\mathbf{x}=\mathbf{0}$ (infatti $\mathbf{A}^-1\cdot\mathbf{0}=\mathbf{0}$).
-Viceversa, supponiamo che sia $\det\mathbf{A}=0$. Ciò significa, per il [[#4.4 **Caratteristica di una matrice**|Teorema (8)]], che le colonne di $\mathbf{A}$ $(\mathbf{a}_1,\mathbf{a}_{2},\cdots,\mathbf{a}_{n})$ sono vettori linearmente dipendenti, ossia esistono numeri $x_{1},x_{2},\cdots,x_{n}$, non tutti nu
+Viceversa, supponiamo che sia $\det\mathbf{A}=0$. Ciò significa, per il [[#4.4 **Caratteristica di una matrice**|Teorema (8)]], che le colonne di $\mathbf{A}$ $(\mathbf{a}_1,\mathbf{a}_{2},\cdots,\mathbf{a}_{n})$ sono vettori linearmente dipendenti, ossia esistono numeri $x_{1},x_{2},\cdots,x_{n}$, non tutti nulli, tali che: $x_{1}\mathbf{a}_1+x_{2}\mathbf{a}_{2}+\cdots+x_{n}\mathbf{a}_{n}=0$.
+
+Dunque, detto $$
