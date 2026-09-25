@@ -1200,4 +1200,6 @@ perciò in questo caso le soluzioni del sistema omogeneo sono infinite. Riassume
 - #TEOREMA(11). Il sistema omogeneo di $n$ equazioni in $n$ incognite $\mathbf{A}\mathbf{x}=\mathbf{0}$ ha solo la soluzione banale $(\mathbf{x}=\mathbf{0})$ se e solo se $\det\mathbf{A}\ne 0$; ha almeno una soluzione non banale (ed i questo caso infinite) se e solo se $\det\mathbf{A}= 0$.
 
 Cosa succede invece al sistema non omogeneo se $\det\mathbf{A}= 0$? A questo risponderemo successivamente col Teorema di Rouchè-Capelli. Possiamo fin d'ora fare però la seguente **osservazione**:
-	Supponiamo che $\mathbf{x}_{0}$ sia una soluzione del sistema omogeneo, ossia $\mathbf{A}\mathbf{x}_{0}=0$, e $\mathbf{x}_{1}$ sia una soluzione del sist
+	Supponiamo che $\mathbf{x}_{0}$ sia una soluzione del sistema omogeneo, ossia $\mathbf{A}\mathbf{x}_{0}=0$, e $\mathbf{x}_{1}$ sia una soluzione del sistema non omogeneo, $\mathbf{A}\mathbf{x}_{1}=\mathbf{b}$.
+	Allora anche $\mathbf{x}_{0}+\mathbf{x}_{1}$ è soluzione del sistema non omogeneo, infatti:
+	$\mathbf{A}(\mathbf{x}_{0}+\mathbf{x}_{1})=\mathbf{A}\mathbf{x}_{0}$
