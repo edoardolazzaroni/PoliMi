@@ -1323,3 +1323,4 @@ Sia $\mathbf{A}$ la matrice $(m,n)$ dei coefficienti del sistema. Pensando di fi
 
 - #TEOREMA(14). **Teorema di Rouchè-Capelli**
 	
+	Sia $\mathbf{A}$ la matrice dei coefficienti del sistema appena considerato e $\mathbf{B}=(\mathbf{A}|\mathbf{b})$ la matrice completa, ottenuta orlando la matrice $\mathbf{A}$ con la colonna dei termini noti. Allora il sistema
