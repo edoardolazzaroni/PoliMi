@@ -1275,4 +1275,6 @@ Poichè $y_{3}=y_{2}+y_{1}$, $\mathrm{Im}(\mathcal{L})$ coincide col piano di eq
 Detto altrimenti, il generico elemento di $\mathrm{Im}(\mathcal{L})$ è del tipo: ${\begin{pmatrix}y_{1}\\ y_{2}\\ y_{1}+y_{2}\end{pmatrix}}$ ossia $y_{1}{\begin{pmatrix}1\\0\\1\end{pmatrix}}+y_{2}{\begin{pmatrix}0\\1\\1\end{pmatrix}}$
 pertanto una base di $\mathrm{Im}(\mathcal{L})$ è costituita dai due vettori ${\begin{pmatrix}1\\0\\1\end{pmatrix}}$ e ${\begin{pmatrix}0\\1\\1\end{pmatrix}}$.
 
-Per determinare il nucleo 
+Per determinare il nucleo ($Ker (\mathcal{L})$), occorre risolvere il sistema omogeneo:
+
+${\begin{cases}x_{1}-x_{2}=0\\-2x_{1}+3x_{2}+x_{3}\end{cases}}$
