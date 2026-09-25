@@ -1100,5 +1100,8 @@ Generalmente si scrivono al primo membro dell'equazione le incognite, moltiplica
 
 In questo paragrafo ci occuperemo di sistemi nei quali il numero delle equazioni uguaglia quello delle incognite. Per questi sistemi i coefficienti delle incognite si possono ordinare in una matrice quadrata.
 
-*Dall'esempio precedente* avremo quindi: $\begin{pmatrix}&7&-2&1\\0,1&-3&4\\ &1&1&1\end{pmatrix}$
-Le righe rappresentano i coefficienti delle incognite della $1^a,2^a$ e $3^a$ equazione, mentre le colonne 
+*Dall'esempio precedente* avremo quindi: $\begin{pmatrix}7&-2&1\\0,1&-3&4\\1&1&1\end{pmatrix}$
+
+Le righe rappresentano i coefficienti delle incognite nella $1^a,2^a$ e $3^a$ equazione, mentre le colonne rappresentano i coefficienti di $x,y$ e $z$.
+
+Dato un sistema di $n$ equazioni 
