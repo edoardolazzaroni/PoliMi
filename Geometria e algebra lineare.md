@@ -1131,4 +1131,6 @@ Dalla prima si ricava $x=-\frac{4}{7}$, che sostituità nella seconda dà $y=\fr
 Nelle applicazioni dell'algebra lineare si ha a che fare con sistemi di molte equazioni ed incognite, per i quali non è pensabile la soluzione manuale; si capisce così l'importanza di avere a disposizione una teoria che permetta di rispondere a domande riguardo l'esistenza e l'unicità delle soluzioni, in particolare che permetta di stabilire la solubilità di un dato sistema a priori.
 
 
-#### 5.1.2 **Sistemi di $n$ equazioni in $n$ incognite,**
+#### 5.1.2 **Sistemi di $n$ equazioni in $n$ incognite, non omogenei**
+
+Consideriamo un sistema generale di $n$ equazioni in $n$ incognite: ${\begin{cases}a_{11}x_{1}+a_{12}x_{2}+\cdots+\end{cases}}$
