@@ -1143,4 +1143,5 @@ Introducendo i vettori colonna $\mathbf{x}={\begin{pmatrix}x_{1}\\x_{2}\\ \vdots
 
 il sistema precedente si può porre nella forma matriciale $\mathbf{A}\mathbf{x}=\mathbf{b}$
 
-Per risolvere il sistema ricorriamo all'analogia con l'equazione scalare $ax=b$: se $a\ne 0$, l'unica soluzione è $x=\frac{b}{a}$; l'analogo 
+Per risolvere il sistema ricorriamo all'analogia con l'equazione scalare $ax=b$: se $a\ne 0$, l'unica soluzione è $x=\frac{b}{a}$; l'analogo della condizione $a\ne 0$ è ora $\det\mathbf{A}\ne 0$.
+Infatti, per il Teorema sulla matrice inversa, se $\det\mathbf{A}\ne 0 \rightarrow$
