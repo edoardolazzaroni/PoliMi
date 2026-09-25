@@ -1007,4 +1007,4 @@ Otteniamo quindi nel caso particolare $n=2,3$ un comodo criterio di dipendenza o
 Abbiamo visto che, se le righe/colonne di $\mathbf{A}$ sono vettori linearmente dipendenti, allora $\det\mathbf{A}=0$ (Teorema 6). Inoltre, abbiamo dimostrato che se $n=2,3$ vale anche il viceversa (per via del significato geometrico del determinante): esso si annulla se e solo se le righe della matrice sono linearmente dipendenti.
 Questo risultato è valido in realtà per $n$ qualsiasi, e può essere anzi ulteriormente generalizzato allo studio di un qualsiasi numero $r$ di vettori di $\mathbb{R}^n$ (con $r\le n$):
 
-- #TEOREMA(8). Siano $\mathbf{a}_{1},\mathbf{a}_{2},\cdots,\mathbf{a}_{r}$ $r$ vettori riga di $\mathbb{R}^n \ (r<n)$, e sia $\mathbf{A}$ la matrice $r,n$
+- #TEOREMA(8). Siano $\mathbf{a}_{1},\mathbf{a}_{2},\cdots,\mathbf{a}_{r}$ $r$ vettori riga di $\mathbb{R}^n \ (r<n)$, e sia $\mathbf{A}$ la matrice $(r,n)$ che ha per righe questi vettori. Allora i vettori $\mathbf{a}_{1},\mathbf{a}_{2},\cdots,\mathbf{a}_{r}$ sono linearmente dipendenti se e solo se ogni matrice $(r,r)$ estratta da $\mathbf{A}$ ha determinante nullo; sono indipendn
