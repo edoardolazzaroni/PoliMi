@@ -1306,4 +1306,5 @@ dal quale abbiamo omesso la terza equazione, in quanto dipendente dalle prime du
 
 Detto altrimenti:
 
-- #PROPOSIZIONE(5). Se $\mathcal{L}$ è una trasformazione lineare da $\mathbb{R}^n$ a $\mathbb{R}^n$, per l'equazione $\mathcal{L}(\mathbf{x})=\mathbf{b}$ si può affermare che c'è esistenza di soluzione ($\forall \mathbf{b}$)
+- #PROPOSIZIONE(5). Se $\mathcal{L}$ è una trasformazione lineare da $\mathbb{R}^n$ a $\mathbb{R}^n$, per l'equazione $\mathcal{L}(\mathbf{x})=\mathbf{b}$ si può affermare che c'è esistenza di soluzione $(\forall \ \mathbf{b})$ se e solo se c'è unicità di soluzione.
+
