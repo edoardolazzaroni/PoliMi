@@ -1114,4 +1114,4 @@ Una domanda naturale a questo punto è la seguente: un sistema lineare ha sempre
 
 #### 5.1.1 **Tecniche elementari di soluzione**
 
-Ricordiamo che due sistemi si dicono 
+Ricordiamo che due sistemi si dicono <u>equivalenti</u> se hanno le stesse soluzioni. Le operazioni che permettono di passare da un sistema ad un altro equivalente al primo s
