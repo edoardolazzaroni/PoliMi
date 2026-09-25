@@ -1018,4 +1018,9 @@ Introduciamo ora il concetto di **rango** o **caratteristica** di una matrice:
 	Dati una matrice $\mathbf{A}$ di $m$ righe e $n$ colonne (con $m$ non necessariamente uguale ad $n$) ed un intero $k\le min(m,n)$, si dice **minore** di ordine $k$ estratto dalla matrice $\mathbf{A}$ il determinante di una qualsiasi matrice di ordine $k$ ottenuta con gli elementi comuni a $k$ righe e $k$ colonne di $\mathbf{A}$. Si definisce **caratteristica** o **rango** di $\mathbf{A}$ l'intero $r\ge 0$ tale che: esiste un minore estratto da $\mathbf{A}$ di ordine $r\ne 0$ ed ogni minore estratto da $\mathbf{A}$ di ordine $r+1$ è nullo.
 	Segue immediatamente che:
 	
-	<mark class="hltr-yellow">Il rango di una matrice rappresenta il numero massimo di righe/colonne linearmente indipendenti.</mark>
+	<mark class="hltr-yellow">Il rango di una matrice rappresenta il numero massimo di righe/colonne linearmente indipendenti</mark>.
+
+Per la determinazione del rango risulta utile la seguente proprozione:
+
+- #PROPOSIZIONE(3). Proposizione di Kronecker
+	Condizione necessaria e sufficienti affinchè 
