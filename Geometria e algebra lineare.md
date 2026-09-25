@@ -1063,4 +1063,5 @@ Il seguente Teorema precisa questa affermazione, e indica un modo per calcolare 
 	
 	$\mathbf{A}^{-1}=\frac{1}{\det\mathbf{A}}=\cdot\begin{pmatrix}A_{11}&A_{12}&\cdots&A_{1n}\\A_{21}&A_{22}&\cdots&A_{2n}\\ \vdots & \vdots &  & \vdots\\A_{n1}&A_{n2}&\cdots&A_{nn}\end{pmatrix}^\top$
 	
-	dove $\top$ indica "trasposta" e gli $A_{ij}$ sono i complementi algebri
+	dove $\top$ indica "trasposta" e gli $A_{ij}$ sono i complementi algebrici degli elementi $a_{ij}$ della matrice $\mathbf{A}$. Infine, $\det{\mathbf{A}^{-1}}=\frac{1}{\det\mathbf{A}}$.
+	Dimostrazione sul libro
