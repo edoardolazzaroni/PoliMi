@@ -1119,4 +1119,6 @@ Ricordiamo che due sistemi si dicono <u>equivalenti</u> se hanno le stesse soluz
 1. Sostituire ad un'equazione un'altra ad essa equivalente (ossia ottenuta dalla prima sommando membro a membro la stessa quantità, o moltiplicando ambo i membri per una stessa quantità non nulla);
 2. Sommare o sottrarre membro a membro due equazioni del sistema e sostituire una delle due con quella così ottenuta.
 
-L'applicazione congiunta (e ripetuta) delle due operazioni precedenti permette altre tipiche operazioni, come quella di ricavare una 
+L'applicazione congiunta (e ripetuta) delle due operazioni precedenti permette altre tipiche operazioni, come quella di ricavare una variabile in funzione delle altre da un'equazione e sostituirla in tutte le altre equazioni.
+
+*Esempio*: si vuole risolvere il sistema $3\times$
