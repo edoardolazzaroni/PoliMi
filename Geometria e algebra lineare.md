@@ -1087,3 +1087,8 @@ Vale anche la seguente:
 
 
 # Capitolo V: Sistemi lineari
+
+
+### 5.1 **Generalità. Metodo di Cramer**
+
+Applichiamo i concetti introdotti nel 
