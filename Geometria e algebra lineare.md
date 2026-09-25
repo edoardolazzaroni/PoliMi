@@ -1266,4 +1266,4 @@ ${\begin{vmatrix}1&-1\\-2&3\end{vmatrix}}=1\ne 0$.
 
 Dunque $\dim \mathrm{Im}(\mathcal{L})=2$ e $\dim Ker(\mathcal{L})=n-rk=2-1=1$.
 
-Per determinare $\mathrm{Im}(\mathcal{L})$ calcoliamo $\mathbf{A}{\begin{pmatrix}\end{pmatrix}}$
+Per determinare $\mathrm{Im}(\mathcal{L})$ calcoliamo $\mathbf{A}{\begin{pmatrix}x_{1}\\x_{2}\\ x_{3}\end{pmatrix}}={\begin{pmatrix}1&-1&0\\-2&3&1\\-1&2&1\end{pmatrix}}{\begin{pmatrix}x_{1}\\x_{2}\\ x_{3}\end{pmatrix}}={\begin{pmatrix}\end{pmatrix}}$
