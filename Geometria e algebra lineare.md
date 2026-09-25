@@ -1039,4 +1039,6 @@ $\mathbf{A}_{1}^{* *}=\begin{pmatrix}1&2&3\\2&0&3\\2&4&6\end{pmatrix}\quad\mathb
 
 si ottengono due matrici i cui determinanti sono nulli. Il rango è dunque $2$ in accordo al Teorema precedente.
 
-Per la determinazione del rango di $\mathbf{A}$ seguendo la definizione avremmo dovuto calcolare quattro determinanti del terzo ordine, mentre col metodo della Proposizione di Kronecker i determinanti $3\time d$
+Per la determinazione del rango di $\mathbf{A}$ seguendo la definizione avremmo dovuto calcolare quattro determinanti del terzo ordine, mentre col metodo della Proposizione di Kronecker i determinanti $3\times 3$ da calcolare si sono ridotti a due.
+Ovviamente i vantaggi risultano evidenti quanto più grandi sono le dimensioni della matrice.
+
