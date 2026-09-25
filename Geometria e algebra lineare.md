@@ -1094,9 +1094,10 @@ Vale anche la seguente:
 Applichiamo i concetti introdotti nel [[#Capitolo IV Matrici e trasformazioni lineari|capitolo IV]] allo studio dei sistemi lineari.
 Per **sistema lineare** si intende un sistema di equazioni algebriche di primo grado, il cui numero e numero di incognite possono variare.
 
-*Ad esempio*, $\begin{cases}7x-2y+z=8\\0,1x-3y+4z=\sqrt{2}\end{cases}\quad$ (2 equazioni, 4 incognite)
+*Ad esempio*, $\begin{cases}7x-2y+z=8\\0,1x-3y+4z=\sqrt{2}\\ x+y+z=0\end{cases}\quad$ (3 equazioni, 3 incognite)
 
 Generalmente si scrivono al primo membro dell'equazione le incognite, moltiplicate per i loro coefficienti; al secondo membro i termini noti: se questi sono tutti nulli il sistema si dice **omogeneo**.
 
 In questo paragrafo ci occuperemo di sistemi nei quali il numero delle equazioni uguaglia quello delle incognite. Per questi sistemi i coefficienti delle incognite si possono ordinare in una matrice quadrata.
-Nell'esempio precedente avremo quindi:
+
+*Dall'esempio precedente* avremo quindi: $\begin{pmatrix} &\end{pmatrix}$
