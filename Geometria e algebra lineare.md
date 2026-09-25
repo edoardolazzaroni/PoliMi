@@ -1299,4 +1299,7 @@ dal quale abbiamo omesso la terza equazione, in quanto dipendente dalle prime du
 	
 	In tal caso l'equazione $\mathcal{L}(\mathbf{x})=\mathbf{b}$ ha una ed una sola soluzione $\mathbf{x}$, indipendentemente da $\mathbf{b}$.
 	Interessante è se $n=m$: in tal caso il Teorema (13) implica che
-	$\dim Ker(\mathcal{L})=0\$
+	
+					$\dim Ker(\mathcal{L})=0\iff\dim \mathrm{Im}(\mathcal{L})=n$
+	
+	e perciò, per trasformazioni lineari $\mathcal{L}$ da $\mathbb{R}^n$ a $\mathbb{R}^m$
