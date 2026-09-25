@@ -1147,3 +1147,6 @@ Per risolvere il sistema ricorriamo all'analogia con l'equazione scalare $ax=b$:
 Infatti, per il Teorema sulla matrice inversa, se $\det\mathbf{A}\ne 0 \rightarrow\exists\mathbf{A}^{-1}$; moltiplicandolo a sinistra per $\mathbf{A}^{-1}$ entrambi i membri si trova: $\mathbf{A}^{-1}(\mathbf{A}\mathbf{x})=\mathbf{A}^{-1}\cdot\mathbf{b}$
 ed utilizzando la proprietà associativa per il prodotto tra matrici si ricava: $(\mathbf{A}\cdot\mathbf{A}^{-1})\mathbf{x}=\mathbf{A}^{-1}\mathbf{b}$
 ed infine, poichè $\mathbf{A}^{-1}\cdot\mathbf{A}=\mathbf{I}_{n}$ e $\mathbf{I}_{n}\cdot\mathbf{x}=\mathbf{x}$, si ottiene la formula per il vettore soluzione del problema:
+								$\mathbf{x}=\mathbf{A}^{-1}\cdot\mathbf{b}$
+
+Si osserva che, sviluppando i calcoli, le componenti $x_{i}\ (i=1,2,\cdots,n)$
