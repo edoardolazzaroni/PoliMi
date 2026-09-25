@@ -1107,4 +1107,5 @@ Le righe rappresentano i coefficienti delle incognite nella $1^a,2^a$ e $3^a$ eq
 Dato un sistema di $n$ equazioni in $n$ incognite (detto anche "sistema $n\times n$"), il nostro scopo è quello di determinare le eventuali <u>soluzioni</u>.
 Per soluzione si intende una $n$-upla di numeri che, sostituiti ordinatamente alle incognite, soddisfino simultaneamente tutte le equazioni del sistema.
 
-*Per esempio*, la coppia di soluzioni $x=1,y=-2$ 
+*Per esempio*, la coppia di numeri $x=1,y=-2$ è soluzione del sistema $\begin{cases}2x-3y=8\\x+7y=-13\end{cases}$
+
