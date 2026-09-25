@@ -1071,5 +1071,6 @@ Il seguente Teorema precisa questa affermazione, e indica un modo per calcolare 
 In base a questo teorema, una matrice non singolare ($\det\ne 0$) viene anche detta **invertibile**.
 Vale anche la seguente:
 
-- #PROPOSIZIONE(4). Prodotto di matrici invertibili
+- #PROPOSIZIONE(4). **Prodotto di matrici invertibili**
 	
+	Se $\mathbf{A},\mathbf{B}$ sono due matrici quadrate non singolari, anche il prodotto $\mathbf{AB}$ è non singolare, e vale: $(\mathbf{AB})^{-1$
