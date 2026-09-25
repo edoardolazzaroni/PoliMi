@@ -1288,4 +1288,5 @@ dal quale abbiamo omesso la terza equazione, in quanto dipendente dalle prime du
 	
 	Ciò significa che l'equazione $\mathcal{L}(\mathbf{x})=\mathbf{b}$ ha almeno una soluzione $\mathbf{x}$, indipendentemente da $\mathbf{b}$.
 
-- #DEFINIZIONE(14). Se $Ker(\mathcal{L})=\left{\right\}$
+- #DEFINIZIONE(14). Se $Ker(\mathcal{L})=\left\{\mathbf{0}\right\}$, si dice che $\mathcal{L}$ è **iniettiva**.
+	Ciò significa che l'equazione $\mathcal{L}(\mathbf{x})=\mathbf{0}$ ha solo la soluzione nu
