@@ -1114,4 +1114,7 @@ Una domanda naturale a questo punto è la seguente: un sistema lineare ha sempre
 
 #### 5.1.1 **Tecniche elementari di soluzione**
 
-Ricordiamo che due sistemi si dicono <u>equivalenti</u> se hanno le stesse soluzioni. Le operazioni che permettono di passare da un sistema ad un altro equivalente al primo s
+Ricordiamo che due sistemi si dicono <u>equivalenti</u> se hanno le stesse soluzioni. Le operazioni che permettono di passare da un sistema ad un altro equivalente al primo sono le seguenti:
+
+1. Sostituire ad un'equazione un'altra ad essa equivalente (ossia ottenuta dalla prima sommando membro a membro la stessa quantità, o moltiplicando ambo i membri per una stessa quantità non nulla);
+2. Sommare o sottrarre membro a membro 
