@@ -1244,7 +1244,7 @@ Da questo teorema segue immediatamente che <mark class="hltr-yellow">le matrici 
 	
 	Il nucleo di un'applicazione lineare $\mathcal{L}$ si indica con il simbolo $Ker (\mathcal{L})$ ed è l'insieme dei vettori di $\mathbb{R}^n$ che hanno come immagine il vettore nullo di $\mathbb{R}^m$. In simboli:
 	
-							$Ker(\mathcal{L})=\left\{\mathbf{x}\in\mathbb{R}^n \ | \ \mathcal{L}(\mathbf{x})=\mathbf{0} \in \mathbb{R}^m\right\}$
+						$Ker(\mathcal{L})=\left\{\mathbf{x}\in\mathbb{R}^n \ | \ \mathcal{L}(\mathbf{x})=\mathbf{0} \in \mathbb{R}^m\right\}$
 	
 	Anche $Ker (\mathcal{L})$ è uno spazio vettoriale.
 
@@ -1252,4 +1252,8 @@ Da questo teorema segue immediatamente che <mark class="hltr-yellow">le matrici 
 Vale l'importante formula che lega le dimensioni di immagine e nucleo per una generica trasformazione lineare $\mathcal{L}$:
 
 - #TEOREMA(13). Se $\mathcal{L}:\mathbb{R}^n\rightarrow\mathbb{R}^m$ è una trasformazione lineare, allora:
-	$\dim Ker(\mathcal{L})+\dim \mathrm{Im}(\)$
+	
+							$\dim Ker(\mathcal{L})+\dim \mathrm{Im}(\mathcal{L})=n$
+	
+	*Dimostrazione sul libro*.
+
