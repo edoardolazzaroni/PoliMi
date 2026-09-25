@@ -1277,4 +1277,6 @@ pertanto una base di $\mathrm{Im}(\mathcal{L})$ è costituita dai due vettori ${
 
 Per determinare il nucleo ($Ker (\mathcal{L})$), occorre risolvere il sistema omogeneo:
 
-${\begin{cases}x_{1}-x_{2}=0\\-2x_{1}+3x_{2}+x_{3}\end{cases}}$
+${\begin{cases}x_{1}-x_{2}=0\\-2x_{1}+3x_{2}+x_{3}=0\end{cases}}$
+
+dal quale abbiamo omesso la terza equazione, in quanto dipendente dalle prime due. Si trova subito $x_{2}=x_{1}$ e $x_{3}=-x_{1}$, per cui il generico vettore del nucleo è della forma $\lambda$
