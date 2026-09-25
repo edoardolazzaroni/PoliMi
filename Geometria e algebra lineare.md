@@ -1046,4 +1046,8 @@ Ovviamente i vantaggi risultano evidenti quanto più grandi sono le dimensioni d
 
 ### 4.5 **Matrice inversa**
 
-Se $a$ è un numero non nullo, esiste un unico $a^{-1}=\frac{1}{a}$ 
+Se $a$ è un numero non nullo, esiste un unico $a^{-1}=\frac{1}{a}$ (il reciproco di $a$) tale che:
+
+							$a\cdot a^{-1}=a^{-1}\cdot a=1$
+
+Se $\mathbf{A}$ è una matrice quadrata $(n,n)$
