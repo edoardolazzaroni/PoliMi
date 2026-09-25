@@ -1126,4 +1126,4 @@ Dalla seconda ricaviamo la $z$ e la sostituiamo nelle altre due: $\quad{\begin{c
 Le ultime due equazioni sono ora un sistema nelle due incognite $(x,y)$: $\quad{\begin{cases} x+2y=0\\3x-y=-3\end{cases}}$
 Sommando alla prima equazione il doppio della seconda si ha: $\quad{\begin{cases} 7x=-4\\x+2y=2\end{cases}}$
 
-Dalla prima si ricava $x=-\frac{4}{7}$, che sostituità nella seconda dà $y=\frac{9}{7}$; ricordando infine la prima equazione $$
+Dalla prima si ricava $x=-\frac{4}{7}$, che sostituità nella seconda dà $y=\frac{9}{7}$; ricordando infine la prima equazione del secondo sistema $(z=2-y)$, otteniamo $z=\frac{5}{7}$. Il sistema è quindi determinato, e la soluzione è il vettore $(x,y,z)=\left( -\frac{4}{7},\frac{9}{7} \right)$
