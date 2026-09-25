@@ -1260,6 +1260,10 @@ Vale l'importante formula che lega le dimensioni di immagine e nucleo per una ge
 
 *Esempio*: Sia $\mathcal{L}$ la trasformazione lineare da $\mathbb{R}^3$ in $\mathbb{R}^3$ che, rispetto alle basi canoniche, è rappresentata dalla matrice $\mathbf{A}={\begin{pmatrix}1&-1&0\\-2&3&1\\-1&2&1\end{pmatrix}}$
 
-Il rango di $\mathbf{A}$ è $rk=2$, essendo la terza colonna (o riga) somma delle altre due e ${\begin{vmatrix}1&-1\\-2&3\end{vmatrix}}=1\ne 0$.
+Il rango di $\mathbf{A}$ è $rk=2$, essendo la terza colonna (o riga) somma delle altre due e 
 
-Dunque $\dim \mathrm{Im}(\mathcal{L})=2$ e $\dim Ker(\mathcal{L})=n-rk=2$
+${\begin{vmatrix}1&-1\\-2&3\end{vmatrix}}=1\ne 0$.
+
+Dunque $\dim \mathrm{Im}(\mathcal{L})=2$ e $\dim Ker(\mathcal{L})=n-rk=2-1=1$.
+
+Per determinare $\mathrm{Im}(\mathcal{L})$ calcoliamo $\mathbf{A}{\begin{pmatrix}\end{pmatrix}}$
