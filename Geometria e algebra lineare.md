@@ -1285,4 +1285,5 @@ dal quale abbiamo omesso la terza equazione, in quanto dipendente dalle prime du
 #### 5.2.1 **Trasformazioni iniettive e suriettive**
 
 - #DEFINIZIONE(13). Se $\mathrm{Im}(\mathcal{L})=\mathbb{R}^m$, si dice che $\mathcal{L}$ è **suriettiva**.
-- 
+	
+	Ciò significa che l'equazione $\mathcal{L}(\mathbf{x})=\mathbf{b}$ ha almeno una soluzione $\mathbf$
