@@ -1315,4 +1315,4 @@ Sempre dal Teorema (13), infine, si legge che se $n\ne m$ la trasformazione line
 
 ### 5.3 **Sistemi generali. Teorema di Rouchè-Capelli**
 
-Consideriamo ora il sistema
+Consideriamo ora il sistema $$
