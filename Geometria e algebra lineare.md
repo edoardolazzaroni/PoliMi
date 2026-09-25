@@ -1334,4 +1334,6 @@ Sia $\mathbf{A}$ la matrice $(m,n)$ dei coefficienti del sistema. Pensando di fi
 	
 	$\mathbf{A}\mathbf{x}=\sum x_{j}\mathbf{A}\mathbf{e}_{j}=\sum x_{j}\mathbf{a}_{j}$
 	
-	Dunque il sistema è solubile se e solo se $\mathbf{b}$ è combinazione lineare delle colonne di $\mathbf{A}$, ossia, ricordando che $\dim \mathrm{Im}{L}=rk{\mathbf{A}}$
+	Dunque il sistema è solubile se e solo se $\mathbf{b}$ è combinazione lineare delle colonne di $\mathbf{A}$, ossia, ricordando che $\dim \mathrm{Im}(L)=rk(\mathbf{A})$, se e solo se $rk(\mathbf{A}|\mathbf{b})=rk(\mathbf{A})$
+	
+	Osserviamo che, se il sistema omogeneo
