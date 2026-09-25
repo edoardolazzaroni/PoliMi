@@ -1286,7 +1286,7 @@ dal quale abbiamo omesso la terza equazione, in quanto dipendente dalle prime du
 
 - #DEFINIZIONE(13). Se $\mathrm{Im}(\mathcal{L})=\mathbb{R}^m$, si dice che $\mathcal{L}$ è **suriettiva**.
 	
-	Ciò significa che l'equazione $\mathcal{L}(\mathbf{x})=\mathbf{b}$ ha almeno una soluzione $\mathbf{x}$, indipendentemente da $\mathbf{b}$.
+	Ciò significa che l'equazione $\mathcal{L}(\mathbf{x})=\mathbf{b}$ ha <u>almeno una soluzione</u> $\mathbf{x}$, indipendentemente da $\mathbf{b}$.
 
 
 - #DEFINIZIONE(14). Se $Ker(\mathcal{L})=\left\{\mathbf{0}\right\}$, si dice che $\mathcal{L}$ è **iniettiva**.
@@ -1297,4 +1297,5 @@ dal quale abbiamo omesso la terza equazione, in quanto dipendente dalle prime du
 
 - #DEFINIZIONE(15). Se $\mathcal{L}$ è sia iniettiva che suriettiva, si dice che $\mathcal{L}$ è **biiettiva**; la corrispondenza stabilita da $\mathcal{L}$ è **biunivoca**.
 	
-	In tal caso l'equazione $\mathcal{L}(\mathbf{x})=\mathbf{b}$ ha una ed una sola 
+	In tal caso l'equazione $\mathcal{L}(\mathbf{x})=\mathbf{b}$ ha una ed una sola soluzione $\mathbf{x}$, indipendentemente da $\mathbf{b}$.
+	Interessante è se $n=m$: in tal caso implica
