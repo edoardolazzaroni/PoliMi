@@ -1197,4 +1197,4 @@ ossia: il sistema $\mathbf{A}\mathbf{x}=\mathbf{0}$ in questo caso ammette almen
 Si noti che se $\mathbf{A}\mathbf{x}=\mathbf{0}$, si ha anche, $\forall\lambda\in\mathbb{R}$, $\mathbf{A}(\lambda\mathbf{x})=\lambda\mathbf{A}\mathbf{x}=\mathbf{0}$
 perciò in questo caso le soluzioni del sistema omogeneo sono infinite. Riassumendo, abbiamo dimostrato il seguente Teorema:
 
-- #TEOREMA(11). Il sistema omogeneo di $n$ equazioni in $n$ inco
+- #TEOREMA(11). Il sistema omogeneo di $n$ equazioni in $n$ incognite $\mathbf{A}\mathbf{x}=\mathbf{0}$ ha solo la soluzione banale $(\mathbf{x}=\mathbf{0})$ se e solo se $\det\mathbf{A}\ne 0$; ha almeno una soluzione non banale (ed i qu)
