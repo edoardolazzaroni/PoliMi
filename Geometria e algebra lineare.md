@@ -1052,6 +1052,8 @@ Se $a$ è un numero non nullo, esiste un unico $a^{-1}=\frac{1}{a}$ (il reciproc
 
 Se $\mathbf{A}$ è una matrice quadrata $(n,n)$, chiameremo **matrice inversa** di $\mathbf{A}$ la matrice (<u>se esiste</u>) $\mathbf{A}^{-1}$ tale che:
 
-					$\mathbf{A}\cdot\mathbf{A}^{-1}=\mathbf{A}^{-1}\cdot\mathbf{A}=\mathbf{I}_{n}$
-dove $\mathbf{I}_{n}$ è la [[### 4.1 **L'algebra delle matrici**|matrice identità]]
+							$\mathbf{A}\cdot\mathbf{A}^{-1}=\mathbf{A}^{-1}\cdot\mathbf{A}=\mathbf{I}_{n}$
 
+dove $\mathbf{I}_{n}$ è la [[### 4.1 **L'algebra delle matrici**|matrice identità]].
+
+La condizione che garantisce l'esistenza della matrice inversa, analoga alla condizione $a\ne 0$ per l'esistenza del reciproco di un numero, è che sia $\det$
