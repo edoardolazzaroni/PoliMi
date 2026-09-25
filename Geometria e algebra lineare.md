@@ -1257,3 +1257,5 @@ Vale l'importante formula che lega le dimensioni di immagine e nucleo per una ge
 	
 	*Dimostrazione sul libro*.
 
+
+*Esempio*: Sia $\mathcal{L}$ la t
