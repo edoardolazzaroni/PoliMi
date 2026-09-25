@@ -1164,5 +1164,7 @@ $x_{i}=(\mathbf{A}^{-1}b)_{i}=\frac{1}{\det\mathbf{A}}\sum_{j=1}^n A_{ji}b_{j}=\
 come si vede calcolando il determinante di $\mathbf{B}_{i}$ rispetto alla $i$-esima colonna.
 Abbiamo così dimostrato un importante risultato:
 
-- #TEOREMA(10). Teorema di Cramer
-	Consideriamo il sistema di $n$ equazioni in $n$ incognite $\mathbf{A}\mathbf{x}_{0}\math$
+- #TEOREMA(10). **Teorema di Cramer**
+	
+	Consideriamo il sistema di $n$ equazioni in $n$ incognite $\mathbf{A}\mathbf{x}=\mathbf{b}$
+	(con $\mathbf{A}$ matrice $(n,n)$, $b\in\mathbb{R}^n$ assegnato e $\mathbf{A}$)
