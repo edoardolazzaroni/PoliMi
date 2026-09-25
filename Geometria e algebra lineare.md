@@ -1024,4 +1024,7 @@ Per la determinazione del rango risulta utile la seguente proprozione:
 
 - #PROPOSIZIONE(3). **Proposizione di Kronecker**
 	
-	Condizione necessaria e sufficiente affinchè una matrice abbia rango $k$ è che esista un minore di ordine $k\ne 0$ e siano nulli tutti i minori di ordine $k+
+	Condizione necessaria e sufficiente affinchè una matrice abbia rango $k$ è che esista un minore di ordine $k\ne 0$ e siano nulli tutti i minori di ordine $k+1$ ottenuti da quello orlandolo con una qualunque altra riga o colonna.
+
+*Esempio*:
+Applichiamo il metodo indicato nella proposizione di Kronecker alla matrice $\mathbf{A}=\begin{po}$
