@@ -1193,4 +1193,4 @@ Dunque, detto $\mathbf{x}$ il vettore $(x_{1},x_{2},\cdots,x_{n})$, si ha:
 
 $\mathbf{A}\mathbf{x}=(\mathbf{a}_{1}|\mathbf{a}_{2}|\cdots|\mathbf{a}_{n}){\begin{pmatrix}x_{1}\\x_{2}\\ \vdots \\x_{n}\end{pmatrix}}=x_{1}\mathbf{a}_1+x_{2}\mathbf{a}_{2}+\cdots+x_{n}\mathbf{a}_{n}=0$
 
-ossia: il sistema $\mathbf{A}\mathbf{x}=\mathbf{0}$ i
+ossia: il sistema $\mathbf{A}\mathbf{x}=\mathbf{0}$ in questo caso ammette almeno una soluzione $\mathbf{x}$ non banale (ovvero $\mathbf{x}\ne\mathbf{0}$). Si noti che se $\mathbf{A}\mathbf{x}=\mathbf{0}$, si ha anche, $\forall\lambda\in\ma$
