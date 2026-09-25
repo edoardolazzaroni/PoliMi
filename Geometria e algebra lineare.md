@@ -1093,4 +1093,4 @@ Vale anche la seguente:
 
 Applichiamo i concetti introdotti nel [[#Capitolo IV Matrici e trasformazioni lineari|capitolo IV]] allo studio dei sistemi lineari.
 Per **sistema lineare** si intende un sistema di equazioni algebriche di primo grado, il cui numero e numero di incognite possono variare.
-*Per esempio*, $\begin{cases}$
+*Per esempio*, $\begin{cases}2x+y-3z+4w=-1\\-x-y+7z-6w=0\end{cases}$
