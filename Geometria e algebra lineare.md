@@ -1171,4 +1171,4 @@ Abbiamo così dimostrato un importante risultato:
 
 *Esempio*:
 
-Consideriamo il sistema ${\begin{cases}2x+y+3z=12\\4y-z=7\\5x+\end{cases}}$
+Consideriamo il sistema ${\begin{cases}2x+y+3z=12\\4y-z=7\\5x+8z=24\end{cases}}\rightarrow{\begin{pmatrix}\2&1&3\\0&4&-1\\540\end{pmatrix}}$
