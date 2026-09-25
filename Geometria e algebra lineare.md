@@ -1204,4 +1204,5 @@ Cosa succede invece al sistema non omogeneo se $\det\mathbf{A}= 0$? A questo ris
 	Allora anche $\mathbf{x}_{0}+\mathbf{x}_{1}$ è soluzione del sistema non omogeneo, infatti:
 	$\mathbf{A}(\mathbf{x}_{0}+\mathbf{x}_{1})=\mathbf{A}\mathbf{x}_{1}+\mathbf{A}\mathbf{x}_{0}=\mathbf{b}+\mathbf{0}=\mathbf{b}$
 	Se $\det\mathbf{A}= 0$, sappiamo che il sistema omogeneo ha sempre infinite soluzioni. Ne concludiamo che:
-	Se $\det\mathbf{A}= 0$ e il sistema non omog
+	Se $\det\mathbf{A}= 0$ e il sistema non omogeneo $\mathbf{A}\mathbf{x}=\mathbf{b}$ ha una soluzione, allora ne ha infinite.
+	In altre parole, quando $\det\mathbf{A}= 0$, per il sistema non omogeneo viene necessariamente a cadere o l'esistenza o l'unicità della soluzione: il sistema è impossibile o indet
