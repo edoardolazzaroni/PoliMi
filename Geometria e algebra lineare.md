@@ -1236,3 +1236,6 @@ Le proprietà principali sono espresse dal seguente Teorema:
 		(dove $rk$ indica il rango della matrice).
 	
 	*Dimostrazione sul libro*.
+
+Da questo teorema segue immediatamente che <mark class="hltr-yellow">le matrici che rappresentano (rispetto a basi diverse) la stessa trasformazione lineare hanno lo stesso rango</mark>.
+
