@@ -1008,4 +1008,7 @@ Abbiamo visto che, se le righe/colonne di $\mathbf{A}$ sono vettori linearmente 
 Questo risultato è valido in realtà per $n$ qualsiasi, e può essere anzi ulteriormente generalizzato allo studio di un qualsiasi numero $r$ di vettori di $\mathbb{R}^n$ (con $r\le n$):
 
 - #TEOREMA(8). Siano $\mathbf{a}_{1},\mathbf{a}_{2},\cdots,\mathbf{a}_{r}$ $r$ vettori riga di $\mathbb{R}^n \ (r<n)$, e sia $\mathbf{A}$ la matrice $(r,n)$ che ha per righe questi vettori. Allora i vettori $\mathbf{a}_{1},\mathbf{a}_{2},\cdots,\mathbf{a}_{r}$ sono linearmente dipendenti se e solo se ogni matrice $(r,r)$ estratta da $\mathbf{A}$ ha determinante nullo; sono indipendenti se e solo se esiste almeno una matrice $(r,r)$ estratta da $\mathbf{A}$ con determinante diverso da $0$. Inoltre: $n$ vettori di $\mathbb{R}^n$ sono linearmente dipendenti/indipendenti se e solo se la matrice $(n,n)$ che si ottinee accostandoli ha determinante uguale a $0$/diverso da $0$.
-	Ricord
+	
+	Ricordiamo che $r$ vettori di $\mathbb{R}^n$ con $r>n$ sono sempre linearmente dipendenti.
+
+Introduciamo ora il concetto di rango o caratteristica di una m
