@@ -1153,4 +1153,6 @@ Si osserva che, sviluppando i calcoli, le componenti $x_{i}\ (i=1,2,\cdots,n)$ d
 
 								$x_{i}=\frac{|\mathbf{B}_{i}|}{|\mathbf{A}|}$
 
-dove a numeratore compare il determinante della matrice $\mathbf{B}_{i}$ 
+dove a numeratore compare il determinante della matrice $\mathbf{B}_{i}$ che si ottiene dalla matrice $\mathbf{A}$ sostituendo, alla colonna $i$-esima, la colonna dei termini noti $\mathbf{b}$:
+
+$\mathbf{B}_{i}{\begin{pmatrix}a_{11}&a_{12}&\cdots&a_{1n}\\a_{21}&a_{22}&\cdots&a_{2n}\\ \vdots \\a_{n1}&a_{n2}&\cdots&a_{nn}\end{pmatrix}}$
