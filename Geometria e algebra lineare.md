@@ -1111,3 +1111,7 @@ Per soluzione si intende una $n$-upla di numeri che, sostituiti ordinatamente al
 
 Una domanda naturale a questo punto è la seguente: un sistema lineare ha sempre soluzioni? Ed eventualmente, quante?
 
+
+#### 5.1.1 **Tecniche elementari di soluzione**
+
+Ricordiamo che due sistemi si dicono 
