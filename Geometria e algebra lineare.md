@@ -1096,4 +1096,6 @@ Per **sistema lineare** si intende un sistema di equazioni algebriche di primo g
 
 *Ad esempio*, $\begin{cases}2x+y-3z+4w=-1\\-x-y+7z-6w=0\end{cases}\quad$ (2 equazioni, 4 incognite)
 
-Generalmente si scrivono al primo membro dell'equazione le incognite, moltiplicate per i loro coefficienti; al se
+Generalmente si scrivono al primo membro dell'equazione le incognite, moltiplicate per i loro coefficienti; al secondo membro i termini noti: se questi sono tutti nulli il sistema si dice **omogeneo**.
+
+In questo paragrafo ci occuperemo di sistemi nei quali il numero delle equazioni uguaglia 
