@@ -1061,4 +1061,4 @@ Il seguente Teorema precisa questa affermazione, e indica un modo per calcolare 
 
 - #TEOREMA(9). Condizione necessaria è sufficiente affinchè esista la matrice inversa $\mathbf{A}^{-1}$ è che $\mathbf{A}$ sia non singolare, cioà che $\det\mathbf{A}\ne 0$. In tal caso vale la formula:
 	
-	$\mathbf{A}^{-1}=\frac{1}{\det\mathbf{A}^{-1}}$
+	$\mathbf{A}^{-1}=\frac{1}{\det\mathbf{A}}=\cdot\begin{pmatrix}A_{11}&A_{12}&\cdots&A_{1n}\\A_{21}&A_{22}&\\end{pmatrix}$
