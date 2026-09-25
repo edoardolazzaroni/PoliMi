@@ -1028,7 +1028,7 @@ Per la determinazione del rango risulta utile la seguente proprozione:
 
 
 *Esempio*:
-Applichiamo il metodo indicato nella proposizione di Kronecker alla matrice $\mathbf{A}=\begin{pmatrix}1&2&3&4\\2&0&3&5\\2&4&6&8\end{pmatrix}$
+Applichiamo il metodo indicato nella Proposizione di Kronecker alla matrice $\mathbf{A}=\begin{pmatrix}1&2&3&4\\2&0&3&5\\2&4&6&8\end{pmatrix}$
 
 Consideriamo una matrice estratta da $\mathbf{A}$ di ordine $1$ con $\det \ne 0$, ovvero $\mathbf{A}^*=(1)$
 
@@ -1037,6 +1037,6 @@ Ripetendo il ragionamento, "orlando" cioè in tutti i modi possibili la $\mathbf
 
 $\mathbf{A}_{1}^{* *}=\begin{pmatrix}1&2&3\\2&0&3\\2&4&6\end{pmatrix}\quad\mathbf{A}_{2}^{* *}=\begin{pmatrix}1&2&4\\2&0&5\\2&4&8\end{pmatrix}$
 
-si ottengono due matrici i cui determinanti sono nulli. Il rango è dunque $2$ in accordo al teorema precedente.
+si ottengono due matrici i cui determinanti sono nulli. Il rango è dunque $2$ in accordo al Teorema precedente.
 
-Per la determinazione del rango di $\mathbf{A}$ seguendo la definizione avremmo dovuto calcolare quattro determinanti del terzo ordine, mentre col metodo del
+Per la determinazione del rango di $\mathbf{A}$ seguendo la definizione avremmo dovuto calcolare quattro determinanti del terzo ordine, mentre col metodo della Proposizione di Kronecker i determinanti $3\time d$
