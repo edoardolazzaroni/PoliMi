@@ -1149,4 +1149,8 @@ ed utilizzando la proprietà associativa per il prodotto tra matrici si ricava: 
 ed infine, poichè $\mathbf{A}^{-1}\cdot\mathbf{A}=\mathbf{I}_{n}$ e $\mathbf{I}_{n}\cdot\mathbf{x}=\mathbf{x}$, si ottiene la formula per il vettore soluzione del problema:
 								$\mathbf{x}=\mathbf{A}^{-1}\cdot\mathbf{b}$
 
-Si osserva che, sviluppando i calcoli, le componenti $x_{i}\ (i=1,2,\cdots,n)$
+Si osserva che, sviluppando i calcoli, le componenti $x_{i}\ (i=1,2,\cdots,n)$ di $\mathbf{x}$ si ottengono:
+
+								$x_{i}=\frac{|\mathbf{B}_{i}|}{|\mathbf{A}|}$
+
+dove a numeratore compare il determinante della matrice $\mathbf{B}_{i}$ 
