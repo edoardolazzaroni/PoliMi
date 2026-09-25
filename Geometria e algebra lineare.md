@@ -1315,4 +1315,4 @@ Sempre dal Teorema (13), infine, si legge che se $n\ne m$ la trasformazione line
 
 ### 5.3 **Sistemi generali. Teorema di Rouchè-Capelli**
 
-Consideriamo ora il sistema $$
+Consideriamo ora il sistema ${\begin{cases}a_{11}x_{1}+a_{12}x_{2}+\cdots+a_{1n}x_{n}=b_{1}\\a_{21}x_{1}+a_{22}x_{2}+\cdots+a_{2n}x\end{cases}}$
