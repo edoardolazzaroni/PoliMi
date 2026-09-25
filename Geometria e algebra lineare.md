@@ -1223,8 +1223,10 @@ Per affrontare lo studio dei sistemi lineari di $n$ equazioni in $m$ incognite �
 	
 	Se $\mathbf{y}\in \mathrm{Im}({\mathcal{L}})$ deve essere $\mathbf{y}={\mathcal{L}}(\mathbf{x})$ per qualche $\mathbf{x}\in\mathbb{R}^n$.
 
+
 Le proprietà principali sono espresse dal seguente Teorema:
 
 - #TEOREMA(12).
 	
-	1) L'insieme 
+	1) L'insieme $\mathrm{Im}(\mathcal{L})$ è un sottospazio vettoriale di $\mathbb{R}^m$;
+	2) Fissate le basi in $\mathbb{R}^n$ e $\mathbb{R}^m$, sia $\mathbf{A}$ una matrice di t
