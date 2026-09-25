@@ -1176,4 +1176,6 @@ Consideriamo il sistema ${\begin{cases}2x+y+3z=12\\4y-z=7\\5x+8z=24\end{cases}}\
 
 Poichè $|\mathbf{A}|=-1$, il sistema ammette soluzione unica; dall'espressione $x_{i}=\frac{|\mathbf{B}_{i}|}{|\mathbf{A}|}$ abbiamo:
 
-$x=-{\begin{vmatrix}12&1&3\\-7&4&-1\\\end{vmatrix}}$
+$x=-{\begin{vmatrix}12&1&3\\-7&4&-1\\34&0&8\end{vmatrix}}=2$
+$y=-{\begin{vmatrix}2&12&3\\0&-7&-1\\5&34&8\end{vmatrix}}=-1$
+$z=-{\begin{vmatrix}2&1&12\\0&4&-1\\34&0&8\end{vmatrix}}=2$
