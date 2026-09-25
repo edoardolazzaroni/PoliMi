@@ -1037,4 +1037,6 @@ Ripetendo il ragionamento, "orlando" cioè in tutti i modi possibili la $\mathbf
 
 $\mathbf{A}_{1}^{* *}=\begin{pmatrix}1&2&3\\2&0&3\\2&4&6\end{pmatrix}\quad\mathbf{A}_{2}^{* *}=\begin{pmatrix}1&2&4\\2&0&5\\2&4&8\end{pmatrix}$
 
-si ottengono due matrici i cui det
+si ottengono due matrici i cui determinanti sono nulli. Il rango è dunque $2$ in accordo al teorema precedente.
+
+Per la determinazione del rango di $\mathbf{A}$ seguendo la definizione avremmo dovuto calcolare quattro determinanti del terzo ordine, mentre col metodo del
