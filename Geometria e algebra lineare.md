@@ -1155,4 +1155,6 @@ Si osserva che, sviluppando i calcoli, le componenti $x_{i}\ (i=1,2,\cdots,n)$ d
 
 dove a numeratore compare il determinante della matrice $\mathbf{B}_{i}$ che si ottiene dalla matrice $\mathbf{A}$ sostituendo, alla colonna $i$-esima, la colonna dei termini noti $\mathbf{b}$:
 
-$\mathbf{B}_{i}={\begin{pmatrix}a_{11}&a_{12}&\cdots&b_{1}&\cdots&a_{1n}\\a_{21}&a_{22}&\cdots&b_{2}&\cdots&a_{2n}\\ \vdots & \vdots & & \vd\\a_{n1}&a_{n2}&\cdots&a_{nn}\end{pmatrix}}$
+$\mathbf{B}_{i}={\begin{pmatrix}a_{11}&a_{12}&\cdots&b_{1}&\cdots&a_{1n}\\a_{21}&a_{22}&\cdots&b_{2}&\cdots&a_{2n}\\ \vdots & \vdots & & \vdots & &\vdots\\a_{n1}&a_{n2}&\cdots&b_{n}&\cdots&a_{nn}\end{pmatrix}}$
+
+Infatti, ricordando 
