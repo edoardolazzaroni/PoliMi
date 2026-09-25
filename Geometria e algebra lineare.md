@@ -1030,4 +1030,6 @@ Per la determinazione del rango risulta utile la seguente proprozione:
 *Esempio*:
 Applichiamo il metodo indicato nella proposizione di Kronecker alla matrice $\mathbf{A}=\begin{pmatrix}1&2&3&4\\2&0&3&5\\2&4&6&8\end{pmatrix}$
 
-Consideriamo una matrice estratta da $\mathbf{A}$ di ordine 
+Consideriamo una matrice estratta da $\mathbf{A}$ di ordine $1$ con $\det \ne 0$, ovvero $\mathbf{A}^*=(1)$
+
+"Orliamo" tale matrice in tutti 
