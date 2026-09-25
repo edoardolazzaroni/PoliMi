@@ -1121,4 +1121,5 @@ Ricordiamo che due sistemi si dicono <u>equivalenti</u> se hanno le stesse soluz
 
 L'applicazione congiunta (e ripetuta) delle due operazioni precedenti permette altre tipiche operazioni, come quella di ricavare una variabile in funzione delle altre da un'equazione e sostituirla in tutte le altre equazioni.
 
-*Esempio*: si vuole risolvere il sistema $3\times$
+*Esempio*: si vuole risolvere il sistema $3\times 3$: $\quad{\begin{cases}x+y-z=0\\y+z=2\\3x+z=-1\end{cases}}$
+Dalla seconda ricaviamo
