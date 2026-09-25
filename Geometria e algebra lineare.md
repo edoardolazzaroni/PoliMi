@@ -1015,4 +1015,4 @@ Introduciamo ora il concetto di **rango** o **caratteristica** di una matrice:
 
 - #DEFINIZIONE(10). **Caratteristica di una matrice**
 	
-	Dati una matrice $\mathbf{A}$ di $m$ righe e $n$ colonne (con $m$ non necessariamente uguale ad $n$) ed un intero $k\le min(m,n)$, si dice **minore** di ordine $k$ estratto dalla matrice $\mathbf{A}$ il determinante di una qualsiasi matrice di ordine $k$ ottenuta con gli elementi comuni a $k$ righe e $k$ colonne di $\mathbf{A}$. Si definisce caratteristica 
+	Dati una matrice $\mathbf{A}$ di $m$ righe e $n$ colonne (con $m$ non necessariamente uguale ad $n$) ed un intero $k\le min(m,n)$, si dice **minore** di ordine $k$ estratto dalla matrice $\mathbf{A}$ il determinante di una qualsiasi matrice di ordine $k$ ottenuta con gli elementi comuni a $k$ righe e $k$ colonne di $\mathbf{A}$. Si definisce **caratteristica** o **rango** di $\mathbf{A}$ l'intero $r\ge 0$ tale che: esiste un minore estratto da $\mathbf{A}$ di ordine $r\ne 0$ ed ogni minore estratto da $\mathbf{A}$ di ordine $r+1$ 
