@@ -1382,5 +1382,5 @@ Notiamo anche che nella teoria esposta in questo paragrafo rientra il particolar
 
 I risultati di questo paragrafo riguardanti le soluzioni dei sistemi lineari si possono riformulare in termini di relazioni tra particolari sottospazi associati alle righe o colonne della matrice del sistema. Possiamo associare ad una matrice $\mathbf{A}$ di ordine $m\times n$ i seguenti sottospazi:
 
-- Lo spazio generato dalle colonne di $\mathbf{A}$, indicato con $R(\mathbf{A})$, sottospazio di $\mathbb{R}^n$;
-- 
+- Lo spazio generato dalle colonne di $\mathbf{A}$, indicato con $R(\mathbf{A})$, sottospazio di $\mathbb{R}^m$;
+- $Ker(\mathbf{A})$, sottospazio di $\mathbb{R}^n$
