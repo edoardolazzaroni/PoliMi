@@ -1404,4 +1404,5 @@ Il seguente teorema permette di rileggere in termini di relazioni tra tali sotto
 	$\mathbf{y}^\top\mathbf{b}=\mathbf{y}^\top(\mathbf{A}\mathbf{x})=(\mathbf{A}^\top\mathbf{y})^\top\mathbf{x}=\mathbf{0}^\top\mathbf{x}=0$
 	
 	Pertanto $R(\mathbf{A})$ e $Ker(\mathbf{A}^\top)$ sono ortogonali. Per mostrare che $R(\mathbf{A})\oplus Ker(\mathbf{A}^\top)=\mathbb{R}^m$ basta far vedere che qualunque vettore ortogonale a $R(\mathbf{A})$ appartiene a $Ker(\mathbf{A}^\top)$.
-	Sia dunque $\mathbf{y}\in R(\mathbf{A})$
+	Sia dunque $\mathbf{y}\in R(\mathbf{A})^\top$. Allora qualunque sia $\mathbf{x}\in\mathbb{R}^n$,
+	$(\mathbf{A}^\top\mathbf{t})^\top\mathbf{x}=\mathbf{y}^\top(\mathbf{A}\mathbf{x})=\mathbf{}$
