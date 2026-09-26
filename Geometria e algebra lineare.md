@@ -32,7 +32,7 @@ Sui vettori si possono definire varie operazioni: cominciamo ad introdurre le du
 	Si noti che il segmento orientato associato a $\mathbf{v}+\mathbf{w}$ è contenuto nel piano dei segmenti orientati associati a $\mathbf{v}$ e $\mathbf{w}$.
 
 ![[Geometria e Algebra Lineare-1790433438119.webp|494]]
-#Figura(2) *Somma di due vettori*
+###### #Figura(2) *Somma di due vettori*
 
 
 **PROPRIETÀ**:
@@ -44,7 +44,7 @@ Sui vettori si possono definire varie operazioni: cominciamo ad introdurre le du
 La somma $\mathbf{v}+(-\mathbf{w})$ si scrive semplicemente $\mathbf{v}-\mathbf{w}$, definendo in tal modo la <u>differenza tra due vettori</u>.
 
 ![[Geometria e Algebra Lineare-1790433651481.webp|420]]
-#Figura(3) *Differenza tra vettori*
+###### #Figura(3) *Differenza tra vettori*
 
 
 Le proprietà appena enunciate possono essere dimostrate geometricamente, in base alla definizione di somma.
@@ -59,7 +59,7 @@ Con un ragionamento geometrico analogo si può dimostrare la proprietà associat
 - **Moltiplicazione di un vettore per uno scalare**. Se $\mathbf{v}$ è un vettore e $t$ è uno scalare (cioè un numero reale) il prodotto di $t$ per $\mathbf{v}$, indicato con $t\mathbf{v}$, è definito come il vettore che ha lunghezza $\left|t\right|\cdot\left|\mathbf{v}\right|$, ha la direzione di $\mathbf{v}$ e lo stesso verso se $t>0$, verso opposto se $t<0$.
 
 ![[Geometria e Algebra Lineare-1790433882898.webp|561]]
-#Figura(4) *Moltiplicazione di $\mathbf{v}$ per $3$ e $-2$*
+###### #Figura(4) *Moltiplicazione di $\mathbf{v}$ per $3$ e $-2$*
 
 
 **PROPRIETÀ**:
@@ -71,8 +71,8 @@ Con un ragionamento geometrico analogo si può dimostrare la proprietà associat
 
 Anche queste proprietà hanno una dimostrazione geometrica.
 Per esempio, per provare la terza, si consideri la figura successiva: i triangoli $OAB$, $OCD$ sono simili per il Teorema di Talete, perchè $AB$ e $CD$ sono paralleli (rappresentando i vettori $\mathbf{w}$ e $t\mathbf{w}$). Ne segue che $OD:OB=OC:OA=t$. Ma $\overrightarrow{OD}=t\mathbf{v}+t\mathbf{w}$, $\overrightarrow{OB}=\mathbf{v}+\mathbf{w}$, perciò $t\mathbf{v}+t\mathbf{w}=t(\mathbf{v}+\mathbf{w})$.
-![[Geometria e Algebra Lineare-1790434023090.webp]]
-#Figura(5) *La proprietà $t(\mathbf{v}+\mathbf{w})=t\mathbf{v}+t\mathbf{w}$.*
+![[Geometria e Algebra Lineare-1790434023090.webp|388]]
+###### #Figura(5) *La proprietà $t(\mathbf{v}+\mathbf{w})=t\mathbf{v}+t\mathbf{w}$.*
 
 
 - **VERSORE**: un vettore di modulo unitario si chiama <u>versore</u>. Dato un vettore $\mathbf{v}$ (non nullo), indichiamo con:
@@ -92,8 +92,7 @@ Si noti che $\mathbf{v}=$ lunghezza di $\overrightarrow{OA}=\sqrt{x^2+y^2}$ (Teo
 Due punti $P=(a,b)$ e $Q=(c,d)$, nell'ordine, individuano il vettore di componenti scalari $x=c-a, y=d-b$, cioè: $\overrightarrow{PQ}=(c-a, d-b)$.
 
 ![[Geometria e Algebra Lineare-1790434118867.webp|576]]
-##### #Figura(6) *Le frecce $\overrightarrow{PO}$ e $\overrightarrow{OA}$ rappresentano lo stesso vettore, le cui componenti scalari sono $x=c-a,\ y=d-b$.*
-
+###### #Figura(6) *Le frecce $\overrightarrow{PO}$ e $\overrightarrow{OA}$ rappresentano lo stesso vettore, le cui componenti scalari sono $x=c-a,\ y=d-b$.*
 
 Se consideriamo due vettori $\mathbf{u}=(x_1, y_1)$ e $\mathbf{v}=(x_2, y_2)$ si verifica immediatamente che $u \pm v=(x_1 \pm x_2, y_1 \pm y_2)$, e che se $t \in \mathbb{R}\rightarrow t\mathbf{u}=(t x_1,t y_1)$.
 
