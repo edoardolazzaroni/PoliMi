@@ -1380,4 +1380,7 @@ Supponendo verificata l'ipotesi $rk(\mathbf{A}|\mathbf{b})=rk(\mathbf{A})=r$ si 
 
 Notiamo anche che nella teoria esposta in questo paragrafo rientra il particolare caso dei sistemi non omogenei di $n$ equazioni in $n$ incognite, con determinante nullo, caso che era stato lasciato sospeso [[#5.1.3 **Sistemi omogenei di $n$ equazioni in $n$ incognite**|nel paragrafo 5.1.3]].
 
-I risultati di questo paragrafo riguardanti le soluzioni dei sistemi lineari si possono riformulare in termini di relazioni tra particolari sottospazi associati alle righe o colonne della matrice del sistema. Possiamo associare ad una matrice $\mathbf{A}$ 
+I risultati di questo paragrafo riguardanti le soluzioni dei sistemi lineari si possono riformulare in termini di relazioni tra particolari sottospazi associati alle righe o colonne della matrice del sistema. Possiamo associare ad una matrice $\mathbf{A}$ di ordine $m\times n$ i seguenti sottospazi:
+
+- Lo spazio generato dalle colonne di $\mathbf{A}$, indicato con $R(\mathbf{A})$, sottospazio di $\mathbb{R}^n$;
+- 
