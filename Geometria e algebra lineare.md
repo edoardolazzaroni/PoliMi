@@ -1462,4 +1462,4 @@ Una conseguenza di queste affermazioni è:
 	È poi facile convincersi, dal secondo punto del Teorema, che tale soluzione è quella di minimo modulo tra tutte le possibili soluzioni del sistema.
 
 *Esempio*:
-Consideriamo il sistema di quattro equazioni in tre incognite $$
+Consideriamo il sistema di quattro equazioni in tre incognite: ${\begin{cases}\end{cases}}$
