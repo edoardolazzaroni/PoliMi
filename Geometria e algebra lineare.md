@@ -59,7 +59,7 @@ Con un ragionamento geometrico analogo si può dimostrare la proprietà associat
 - **Moltiplicazione di un vettore per uno scalare**. Se $\mathbf{v}$ è un vettore e $t$ è uno scalare (cioè un numero reale) il prodotto di $t$ per $\mathbf{v}$, indicato con $t\mathbf{v}$, è definito come il vettore che ha lunghezza $\left|t\right|\cdot\left|\mathbf{v}\right|$, ha la direzione di $\mathbf{v}$ e lo stesso verso se $t>0$, verso opposto se $t<0$.
 
 ![[Geometria e Algebra Lineare-1790433882898.webp|561]]
-###### #Figura(4) *Moltiplicazione di $\mathbf{v}$ per $3$ e $-2$*
+###### #Figura(4) *Moltiplicazione di $\mathbf{v}$ per $3$ e $-2$.*
 
 
 **PROPRIETÀ**:
@@ -97,7 +97,7 @@ Due punti $P=(a,b)$ e $Q=(c,d)$, nell'ordine, individuano il vettore di componen
 Se consideriamo due vettori $\mathbf{u}=(x_1, y_1)$ e $\mathbf{v}=(x_2, y_2)$ si verifica immediatamente che $u \pm v=(x_1 \pm x_2, y_1 \pm y_2)$, e che se $t \in \mathbb{R}\rightarrow t\mathbf{u}=(t x_1,t y_1)$.
 
 ![[Geometria e Algebra Lineare-1790434380380.webp]]
-###### #Figura(7) *Somma e prodotto per uno scalare, componente per componente*
+###### #Figura(7) *Somma e prodotto per uno scalare, componente per componente.*
 
 
 Le formule precedenti sono fondamentali in quanto permettono di eseguire le operazioni sui vettori per via analitica, senza necessità di costruzioni geometriche.
@@ -111,13 +111,13 @@ Se introduciamo un sistema di riferimento cartesiano ortogonale nello spazio tri
 Di solito si sceglie una terna di assi ortogonali con un'orientazione destrorsa (con ciò si intende che se indice e medio della mano destra puntano rispettivamente nel verso positivo degli assi $x$ e $y$, il pollice punta nel verso positivo dell'asse $z$).
 
 ![[Geometria e Algebra Lineare-1790434560467.webp|493]]
-###### #Figura(8) *Sistema di riferimento destrorso in $\mathbb{R}^3$*
+###### #Figura(8) *Sistema di riferimento destrorso in $\mathbb{R}^3$.*
 
 
 La formula della distanza tra due punti $P=(a,b,c)$ e $Q = (a',b',c')$ si estende subito nel caso bidimensionale: $\overline{PQ}=\sqrt{(a-a')^2 +(b-b')^2 + (c-c')^2}$, diagonale del parallelepipedo indicato in figura.
 
 ![[Geometria e Algebra Lineare-1790434670224.webp]]
-###### #Figura(9) *Distanza tra due punti nello spazio*
+###### #Figura(9) *Distanza tra due punti nello spazio.*
 
 
 Il vettore $\mathbf{v}=\overrightarrow{PQ}$ ha componenti scalari $x=(a-a'), y= (b-b'), z=(c-c')$ e coincide con il vettore $\overrightarrow{OA}$, <u>vettore posizione</u> del punto $A(x,y,z)$. Si può scrivere allora $\mathbf{v}=(x,y,z)$ invede ci $\mathbf{v}=\overrightarrow{OA}$.
@@ -160,6 +160,8 @@ Analogamente, data una qualunque coppia di vettori nel piano linearmente indipen
 Dimostriamo, per esempio, quest'ultima affermazione. Siano $\mathbf{v_1}=\overrightarrow{OA}$, $\mathbf{v_2}=\overrightarrow{OB}$, $\mathbf{v}=\overrightarrow{OC}$.
 Tracciando da $C$ le rette parallele ad $OA$ e $OB$, risultano individuati su tali rette due vettori, rispettivamente paralleli a $\mathbf{v_1,v_2}$, la cui somma dà $\mathbf{v}$ (per la regola del parallelogramma). Ma essendo paralleli a $\mathbf{v_1,v_2}$, tali vettori sono del tipo $\alpha_1 \mathbf{v_1},\alpha_2 \mathbf{v_2}$, per opportuni $\alpha_1,\alpha_2$.
 Dunque, abbiamo provato che si ha $\mathbf{v}=\alpha_1 \mathbf{v_1}+\alpha_2 \mathbf{v_2}$.
+
+
 
 Da queste considerazioni segue che **nello spazio non vi possono essere più di tre vettori linearmente indipendenti, nel piano non più di due**.
 
