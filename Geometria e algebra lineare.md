@@ -1507,4 +1507,5 @@ Abbiamo già visto che in tal caso il sistema può non essere risolubile oppure 
 Illustriamo il metodo di eliminazione mediante un *esempio*:
 
 Sia da risolvere il sistema: ${\begin{cases}2x+y+z=1\\4x+y=-2\\-2x+2y+z=-5\end{cases}}$
+
 Si comincia col determinare 
