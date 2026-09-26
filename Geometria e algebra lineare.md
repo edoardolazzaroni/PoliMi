@@ -1473,4 +1473,6 @@ Essendo $\det{\begin{pmatrix}1&2\\1&-2\end{pmatrix}}=-4\ne 0$, $rk(\mathbf{A})=r
 1. Isoliamo il minore $\begin{vmatrix}1&2\\1&-2\end{vmatrix}$ corrispondente alle prime due righe e due colonne di $\mathbf{A}$;
 2. Eliminiamo la terza e la quarta equazione del sistema;
 3. Portiamo a secondo membro i termini contenenti $z$;
-4. Si ottiene il sistema 
+4. Si ottiene il sistema di due equazioni in due incognite: ${\begin{cases}x+2y=1-3z\\x-2y=z\end{cases}}$
+
+Sottraendo la seconda equazione dalla prima si ottiene: ${\begin{cases}x+2y=1-3z\\x-2y=z\end{cases}}$
