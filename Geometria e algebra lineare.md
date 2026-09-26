@@ -1463,4 +1463,6 @@ Una conseguenza di queste affermazioni è:
 
 *Esempio*:
 Consideriamo il sistema di quattro equazioni in tre incognite: ${\begin{cases}x+2y+3z=1\\x-2y-z=0\\2x+8y+10z=3\\2x+2z=1\end{cases}}$
-Si ha: $\mathbf{A}={\begin{pmatrix}1&2&3\\1&-2&-1\\2&8&10\\2&0&2\end{pmatrix}},\quad\mathbf{B}={\begin{pmatrix}1&2&3&1\\1&-2\end{pmatrix}}$
+Si ha: $\mathbf{A}={\begin{pmatrix}1&2&3\\1&-2&-1\\2&8&10\\2&0&2\end{pmatrix}},\quad\mathbf{B}={\begin{pmatrix}1&2&3&1\\1&-2&-1&0\\2&8&10&3\\2&0&2&1\end{pmatrix}}$
+
+In entrambe le matrici la terza riga si ottiene moltiplicando la prima per ££
