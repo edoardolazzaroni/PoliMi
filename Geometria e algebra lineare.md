@@ -72,7 +72,8 @@ Con un ragionamento geometrico analogo si può dimostrare la proprietà associat
 Anche queste proprietà hanno una dimostrazione geometrica.
 Per esempio, per provare la terza, si consideri la figura successiva: i triangoli $OAB$, $OCD$ sono simili per il Teorema di Talete, perchè $AB$ e $CD$ sono paralleli (rappresentando i vettori $\mathbf{w}$ e $t\mathbf{w}$). Ne segue che $OD:OB=OC:OA=t$. Ma $\overrightarrow{OD}=t\mathbf{v}+t\mathbf{w}$, $\overrightarrow{OB}=\mathbf{v}+\mathbf{w}$, perciò $t\mathbf{v}+t\mathbf{w}=t(\mathbf{v}+\mathbf{w})$.
 ![[Geometria e Algebra Lineare-1790434023090.webp]]
-#Figura(5) *La proprietà $t(\mathbf{})$*
+#Figura(5) *La proprietà $t(\mathbf{v}+\mathbf{w})=t\mathbf{v}+t\mathbf{w}$.*
+
 
 - **VERSORE**: un vettore di modulo unitario si chiama <u>versore</u>. Dato un vettore $\mathbf{v}$ (non nullo), indichiamo con:
 									$vers(\mathbf{v})=\frac{\mathbf{v}}{\left | \mathbf{v} \right |}$
