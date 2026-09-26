@@ -1414,4 +1414,7 @@ Il seguente teorema permette di rileggere in termini di relazioni tra tali sotto
 
 Interpretiamo il Teorema in termini di soluzione del sistema $\mathbf{A}\mathbf{x}=\mathbf{b}$.
 Il primo punto equivale ad affermare che il sistema è risolubile se e solo se $\mathbf{b}$ è ortogonale al nucleo di $\mathbf{A}^\top$ (versione del Teorema di Rouchè-Capelli).
-Il secondo punto equivale ad affermare che ogni soluz
+Il secondo punto equivale ad affermare che ogni soluzione si ottiene aggiungendo ad una soluzione particolare un elemento del nucleo di $\mathbf{A}$.
+Una conseguenza di queste affermazioni è:
+
+- #COROLLARIO(1). 
