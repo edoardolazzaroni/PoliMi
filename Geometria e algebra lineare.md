@@ -1349,4 +1349,7 @@ Abbiamo così dimostrato il seguente:
 Supponiamo ora che il sistema non omogeneo sia <u>risolubile</u>, ovvero supponiamo sia soddisfatta l'ipotesi del Teorema di Rouchè-Capelli, e chiediamoci: quante sono le sue soluzioni?
 
 - #TEOREMA(16). Se il sistema precedentemente considerato ammette una soluzione $\mathbf{x}_{1}$, le soluzioni del sistema sono tutte e sole le $n$-uple del tipo $\mathbf{x}_{1}+\mathbf{x}_{0}$
-	al variare di $\mathbf{x}_{0}$ in $Ker(L)$ (ossia al variare di $\mathbf{x}_{0}$ tra le soluzioni )
+	
+	al variare di $\mathbf{x}_{0}$ in $Ker(L)$. (ossia al variare di $\mathbf{x}_{0}$ tra le soluzioni del sistema omogeneo).
+	Pertanto il sistema non omogeneo ha $\infty^{n-r}$ soluzioni, dove $(r=rk(\mathbf{A}))$.
+	
