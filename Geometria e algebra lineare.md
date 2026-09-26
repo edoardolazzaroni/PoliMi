@@ -186,8 +186,8 @@ dove $\alpha$ è l'angolo che essi formano $(0\le \alpha \le \pi)$.
 
 - **PROIEZIONI**. La proiezione di un vettore $\mathbf{v}$ su una retta $r$, orientata, si chiama **componente vettoriale** di $\mathbf{v}$ rispetto all'asse $r$ ed è data dal vettore $(\mathbf{v}\cdot\mathbf{r})\mathbf{r}$, dove $\mathbf{r}$ è il <u>VERSORE</u> lungo la retta.
 
-![[Geometria e Algebra Lineare-1790435142121.webp]]
-###### #Figura(13) *Proiezione di $\mathbf{v}$ sulla retta $$.*
+![[Geometria e Algebra Lineare-1790435142121.webp|551]]
+###### #Figura(13) *Proiezione di $\mathbf{v}$ sulla retta $r$.*
 
 
 Infatti, $\mathbf{v}\cdot\mathbf{r}=|\mathbf{v}|\cdot|\mathbf{r}|\cdot\cos\alpha=|\mathbf{v}|\cdot\cos\alpha$ e quindi $|\mathbf{v}\cdot\mathbf{r}|$ dà la lunghezza del vettore proiezione; il segno di $\mathbf{v}\cdot\mathbf{r}$ $(>0$ se $\alpha<\frac{\pi}{2}$, $<0$ se $\alpha >\frac{\pi}{2})$ determina il verso.
