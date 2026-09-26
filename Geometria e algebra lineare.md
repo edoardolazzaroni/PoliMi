@@ -1467,4 +1467,5 @@ Consideriamo il sistema di quattro equazioni in tre incognite: ${\begin{cases}x+
 Si ha: $\mathbf{A}={\begin{pmatrix}1&2&3\\1&-2&-1\\2&8&10\\2&0&2\end{pmatrix}},\quad\mathbf{B}={\begin{pmatrix}1&2&3&1\\1&-2&-1&0\\2&8&10&3\\2&0&2&1\end{pmatrix}}$
 
 In entrambe le matrici la terza riga si ottiene moltiplicando la prima per $3$ e sottraendo la seconda, mentre la quarta riga è la somma delle prime due. Quindi $rk(\mathbf{A})\le 2,rk(\mathbf{B})\le 2$.
-Essendo $\det$
+
+Essendo $\det{\begin{pmatrix}1&2\\1&-2\end{pmatrix}}=-4\ne 0$, $rk(\mathbf{A})=rk(\mathbf{B})=2$. In base al Teorema di Rouch
