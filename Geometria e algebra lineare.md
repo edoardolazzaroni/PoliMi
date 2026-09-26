@@ -1395,4 +1395,8 @@ Il seguente teorema permette di rileggere in termini di relazioni tra tali sotto
 - #TEOREMA(17). Si ha:
 	
 	1. $R(\mathbf{A})=[Ker(\mathbf{A}^\top)]^\perp$ ovvero: $\quad R(\mathbf{A})\oplus Ker(\mathbf{A}^\top)=\mathbb{R}^m$
-	2. $R(\mathbf{A}^\top)=[Ker(\mathbf{A})]^\perp$ ovvero: $\quad R(\mathbf{A}^\top)\oplus$
+	2. $R(\mathbf{A}^\top)=[Ker(\mathbf{A})]^\perp$ ovvero: $\quad R(\mathbf{A}^\top)\oplus Ker(\mathbf{A})=\mathbb{R}^n$
+	
+	*Dimostrazione*:
+	
+	Siano $\mathbf{b}\in R(\mathbf{A})$ e $\mathbf{y}\in Ker(\mathbf{A}^\top)$. Allora $\mathbf{b}=\mathbf{A}\mathbf{A}$
