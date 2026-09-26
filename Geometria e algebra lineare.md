@@ -1359,4 +1359,6 @@ Supponiamo ora che il sistema non omogeneo sia <u>risolubile</u>, ovvero supponi
 	
 	perciò ogni $n$-upla del tipo $\mathbf{x}_{1}+\mathbf{x}_{0}$ è soluzione del sistema.
 	Viceversa, sia $\mathbf{x}_{2}$ una soluzione del sistema, e definiamo $\mathbf{x}_{0}=\mathbf{x}_{2}-\mathbf{x}_{1}$. Risulta:
-	$L(\mathbf{x}_{0})=L(\mathbf{x}_{2}-\mathbf{x}_{1})=L(\mathbf{x}_{2})$
+	$L(\mathbf{x}_{0})=L(\mathbf{x}_{2}-\mathbf{x}_{1})=L(\mathbf{x}_{2})-L(\mathbf{x}_{1})=\mathbf{b}-\mathbf{b}=0$,
+	
+	perciò $\mathbf{x}_{0}\in Ker(L)$. Dunque $\mathbf{x}_{2}=\mathbf{x}_{1}+\mathbf{x}_{0}$ con $\mathbf{x}_{0}\in Ker(L)$, ossia ogni soluzione d
