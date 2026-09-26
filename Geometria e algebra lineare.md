@@ -44,7 +44,8 @@ Sui vettori si possono definire varie operazioni: cominciamo ad introdurre le du
 La somma $\mathbf{v}+(-\mathbf{w})$ si scrive semplicemente $\mathbf{v}-\mathbf{w}$, definendo in tal modo la <u>differenza tra due vettori</u>.
 
 ![[Geometria e Algebra Lineare-1790433651481.webp|420]]
-#Figura(1) *Vettori come frecce uscendi da $O$. $\overrightarrow{OA}$ e $\overrightarrow{PQ}$ rappresentano lo stesso vettore applicato in due punti diversi dello spazio*
+#Figura(3) *Differenza tra vettori*
+
 
 Le proprietà appena enunciate possono essere dimostrate geometricamente, in base alla definizione di somma.
 Per esempio, la prorietà commutativa dipende dal fatto che in un parallelogramma i lati opposti sono uguali e paralleli; da questo discende che $\mathbf{v}=\overrightarrow{OA}=\overrightarrow{BC}$, $\mathbf{w}=\overrightarrow{OB}=\overrightarrow{AC}$, perciò:
