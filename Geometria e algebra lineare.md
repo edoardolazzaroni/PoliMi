@@ -1393,4 +1393,4 @@ e che $\dim Ker(\mathbf{A})=n-r, \dim Ker (\mathbf{A}^\top)=m-r$
 Il seguente teorema permette di rileggere in termini di relazioni tra tali sottospazi la teoria finora svolta:
 
 - #TEOREMA(17). Si ha:
-	1. $R(\mathbf{A})=[Ker(\mathbf{A}^\top)]^pop$
+	1. $R(\mathbf{A})=[Ker(\mathbf{A}^\top)]^\perp$ ovvero: $R(\mathbf{A})\oplus Ker(\mathbf{A}^\top)=\ma$
