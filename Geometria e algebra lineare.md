@@ -1490,5 +1490,7 @@ Le soluzioni sono $\infty^1$, ovvero dipendono da un parametro arbitrario: $z$.
 
 Presentiamo ora un metodo per risolvere i sistemi lineari, che è alternativo rispetto a quello basato sul Teorema di Cramer incontrato in precedenza e si presta meglio ad essere tradotto in un effettivo algoritmo risolutivo.
 
-Cominciamo con un sistema di $n$ equazioni in $n$ incognite: $\mathbf{A}\mathbf{x}=\mathbf{b}$;
+Cominciamo con un sistema di $n$ equazioni in $n$ incognite: $\mathbf{A}\mathbf{x}=\mathbf{b}$
 L'idea molto semplice è quella di procedere con una serie di operazioni elementari sulle equazioni del sistema, ossia sulle righe della matrice completa, in modo da ottenere ogni volta un sistema equivalente (cioè con le stesse soluzioni) cercando di ridursi alla fine ad un sistema $\mathbf{A}^*\mathbf{x}=\mathbf{b}^*$ del tipo <u>triangolare</u> seguente:
+
+${\begin{cases}d_{1}x_{1}+a_{12}^*x_{2}\end{cases}}$
