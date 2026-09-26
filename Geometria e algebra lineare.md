@@ -1363,4 +1363,6 @@ Supponiamo ora che il sistema non omogeneo sia <u>risolubile</u>, ovvero supponi
 	
 	perciò $\mathbf{x}_{0}\in Ker(L)$. Dunque $\mathbf{x}_{2}=\mathbf{x}_{1}+\mathbf{x}_{0}$ con $\mathbf{x}_{0}\in Ker(L)$, ossia ogni soluzione del sistema si può scrivere a questo modo. Poichè $\mathbf{x}_{0}$ dipende da $n-r$ parametri arbitrari e $\mathbf{x}_{1}$ è fissato, anche la generica soluzione del sistema non omogeneo dipende da $n-r$.
 
-Abbiamo fin qui chiarito le condizioni che permettono di de
+
+Abbiamo fin qui chiarito le condizioni che permettono di decidere se il sistema è risolubile o no, e in caso affermativo abbiamo "contato" le soluzioni.
+Illustriamo ora il metodo con cui si possono effettivamente determinare.
