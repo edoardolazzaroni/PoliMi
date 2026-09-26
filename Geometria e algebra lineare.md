@@ -1400,4 +1400,7 @@ Il seguente teorema permette di rileggere in termini di relazioni tra tali sotto
 	*Dimostrazione*:
 	
 	Siano $\mathbf{b}\in R(\mathbf{A})$ e $\mathbf{y}\in Ker(\mathbf{A}^\top)$. Allora $\mathbf{b}=\mathbf{A}\mathbf{x}$, per qualche $\mathbf{x}\in \mathbb{R}^n$. Si ha:
-	$\mathbf{y}^\top\mathbf{b}=\mathbf{y}^\top(\mathbf{A}\mathbf{x})=(\mathbf{A})$
+	
+	$\mathbf{y}^\top\mathbf{b}=\mathbf{y}^\top(\mathbf{A}\mathbf{x})=(\mathbf{A}^\top\mathbf{y})^\top\mathbf{x}=\mathbf{0}^\top\mathbf{x}=0$
+	
+	Pertanto $R(\mathbf{A})$ e $Ker(\mathbf{A}^\top)$ sono ortogonali. Per mostrare che $$
