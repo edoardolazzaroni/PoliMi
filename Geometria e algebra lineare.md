@@ -1378,4 +1378,6 @@ Supponendo verificata l'ipotesi $rk(\mathbf{A}|\mathbf{b})=rk(\mathbf{A})=r$ si 
 - Si noti che l'unico caso in cui il sistema è determinato è quando $r=n$ ($n=$ numero di incognite che compaiono nel sistema, $r=rk(\mathbf{A})$ ed uguaglia il numero di incognite che si riescono a ricavare).
 - Se $r<n$, se il sistema è risolubile è sempre indeterminato, con $\infty^{n-r}$ soluzioni.
 
-Notiamo anche che nella teoria esposta in questo paragrafo rientra il particolare caso dei sistemi non omogenei di $n$ equazioni in $n$ incognite, con determinante nullo, caso che era stato lasciato sospeso 
+Notiamo anche che nella teoria esposta in questo paragrafo rientra il particolare caso dei sistemi non omogenei di $n$ equazioni in $n$ incognite, con determinante nullo, caso che era stato lasciato sospeso [[#5.1.3 **Sistemi omogenei di $n$ equazioni in $n$ incognite**|nel paragrafo 5.1.3]].
+
+I risultati di questo paragrado
