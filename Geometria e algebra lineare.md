@@ -1353,3 +1353,6 @@ Supponiamo ora che il sistema non omogeneo sia <u>risolubile</u>, ovvero supponi
 	al variare di $\mathbf{x}_{0}$ in $Ker(L)$. (ossia al variare di $\mathbf{x}_{0}$ tra le soluzioni del sistema omogeneo).
 	Pertanto il sistema non omogeneo ha $\infty^{n-r}$ soluzioni, dove $(r=rk(\mathbf{A}))$.
 	
+	*Dimostrazione*:
+	
+	Se $L(\mathbf{x}_{1})=\mathbf{b}$ e $\mathbf{x}_{0}\in Ker(L)$, $L(\mathbf{x}_{1}+\mathbf{x}_{1})$
