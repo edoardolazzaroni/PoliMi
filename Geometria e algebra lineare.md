@@ -207,7 +207,8 @@ Le ultime due formule trovate risultano molto comode per il calcolo effettivo de
 		2. $\mathbf{v}\times\mathbf{w}$ è perpendicolare al piano di $\mathbf{v}$ e $\mathbf{w}$;
 		3. $\mathbf{v}$, $\mathbf{w}$ e $\mathbf{v}\times\mathbf{w}$, nell'ordine, formano una terna destrorsa di vettori.
 
-![[Geometria e Algebra Lineare-1790435297190.webp]]
+![[Geometria e Algebra Lineare-1790435297190.webp|386]]
+###### #Figura(14) *Prodotto vettoriale.*
 
 **PROPRIETÀ**:
 	a) <mark class="hltr-yellow">Anticommutativa</mark>: $\mathbf{v}\times\mathbf{w}=-\mathbf{w}\times\mathbf{v}$
