@@ -1367,5 +1367,7 @@ Supponiamo ora che il sistema non omogeneo sia <u>risolubile</u>, ovvero supponi
 Abbiamo fin qui chiarito le condizioni che permettono di decidere se il sistema è risolubile o no, e in caso affermativo abbiamo "contato" le soluzioni.
 Illustriamo ora il metodo con cui si possono effettivamente determinare.
 
-Supponendo verificata l'ipotesi $rk(\mathbf{A}|\mathbf{b})=rk(\mathbf{A})=r$ si può eseguire il seguente **schema risolutivo**:
+Supponendo verificata l'ipotesi $rk(\mathbf{A}|\mathbf{b})=rk(\mathbf{A})=r$ si può eseguire questo **schema risolutivo**:
 
+1) Si isola un minore di ordine $r$ estratto dalla matrice $\mathbf{A}$, non singolare;
+2) Del sistema si considerano solo le $r$ equazioni corrispondenti alle $r$ righe del minore;
