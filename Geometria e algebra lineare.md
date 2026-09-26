@@ -1336,4 +1336,4 @@ Sia $\mathbf{A}$ la matrice $(m,n)$ dei coefficienti del sistema. Pensando di fi
 	
 	Dunque il sistema è solubile se e solo se $\mathbf{b}$ è combinazione lineare delle colonne di $\mathbf{A}$, ossia, ricordando che $\dim \mathrm{Im}(L)=rk(\mathbf{A})$, se e solo se $rk(\mathbf{A}|\mathbf{b})=rk(\mathbf{A})$
 	
-	Osserviamo che, se il sistema omogeneo
+	Osserviamo che, se il sistema omogeneo $(\mathbf{b}=\mathbf{0})$, la condizione $rk(\mathbf{A})=rk(\mathbf{B})$ è sem
