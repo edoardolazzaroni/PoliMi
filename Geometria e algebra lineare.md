@@ -1482,5 +1482,8 @@ In conclusione le soluzioni sono assegnate dalla formula $x=\frac{1}{2}-z$ e $y=
 (con $z$ arbitrario).
 Detto altrimenti, le soluzioni sono tutti i vettori del tipo $\left( \frac{1}{2}-z,\frac{1-4z}{4},z \right)$
 (con $z\in\mathbb{R}$ arbitrario).
- Le soluzioni sono $\infty^1$, ovvero dipendono da un parametro arbitrario: $z$.
+Le soluzioni sono $\infty^1$, ovvero dipendono da un parametro arbitrario: $z$.
 
+
+
+### 5.4 **Metodo di eliminazione di Gauss**
