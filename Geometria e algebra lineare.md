@@ -1500,4 +1500,5 @@ i coefficienti sulla diagonale principale $d_{1},d_{2},\cdots,d_{n}$ alla fine d
 Se i pivoti sono tutti diversi da zero, il sistema ha una ed una sola soluzione, facilmente calcolabile con un procedimento di sostituzione "all'indietro": dall'ultima equazione si ricava $x_{n}=b_{n}^*d_{n}^{-1}$; sostituendo nella penultima trovo: $x_{n-1}=(-a_{n-1,n}^*b_{n}^*+b_{n-1}*)d_{n-1}$
 e così via fino a determinare $x_{1}$.
 
-Se qualche pivot è nullo la matrice $\mathbf{A}^*$
+Se qualche pivot è nullo la matrice $\mathbf{A}^*$ è singolare (e quindi anche $\mathbf{A}$).
+Abbiamo già visto che in tal caso il sistema può non essere risolubile oppure ammettere infinite soluzioni. Esamineremo più avanti come si sviluppa il metodo 
