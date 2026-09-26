@@ -1488,4 +1488,6 @@ Le soluzioni sono $\infty^1$, ovvero dipendono da un parametro arbitrario: $z$.
 
 ### 5.4 **Metodo di eliminazione di Gauss**
 
-Presentiamo or
+Presentiamo ora un metodo per risolvere i sistemi lineari, che è alternativo rispetto a quello basato sul Teorema di Cramer incontrato in precedenza e si presta meglio ad essere tradotto in un effettivo algoritmo risolutivo.
+
+Cominciamo con un sistema di $n$
