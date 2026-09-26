@@ -228,7 +228,7 @@ Le ultime due formule trovate risultano molto comode per il calcolo effettivo de
 Geometricamente, il valore assoluto del prodotto misto rappresenta il volume del parallelepipedo costruito sui vettori $\mathbf{u}$, $\mathbf{v}$ e $\mathbf{w}$,
 
 ![[Geometria e Algebra Lineare-1790435527270.webp|338]]
-###### #Figura(16) *$|\mathbf{u}\cdot(\mathbf{v}\times\mathbf{w})|=$ volume del parallelepipedo*
+###### #Figura(16) *$\quad|\mathbf{u}\cdot(\mathbf{v}\times\mathbf{w})|=$ volume del parallelepipedo*
 
 
 infatti si ha $volume = altezza \cdot area \ di  \ base$.
