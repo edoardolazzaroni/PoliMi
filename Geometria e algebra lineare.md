@@ -1475,4 +1475,5 @@ Essendo $\det{\begin{pmatrix}1&2\\1&-2\end{pmatrix}}=-4\ne 0$, $rk(\mathbf{A})=r
 3. Portiamo a secondo membro i termini contenenti $z$;
 4. Si ottiene il sistema di due equazioni in due incognite: ${\begin{cases}x+2y=1-3z\\x-2y=z\end{cases}}$
 
-Sottraendo la seconda equazione dalla prima si ottiene: ${\begin{cases}x+2y=1-3z\\x-2y=z\end{cases}}$
+Sottraendo la seconda equazione dalla prima si ottiene: ${\begin{cases}x+2y=1-3z\\4y=1-4z\end{cases}}$
+da cui $y=\frac{1-4z}{4},x=1-3z-2\left( \frac{1-4z}{4} \right)=\frac{1}{2}=$
