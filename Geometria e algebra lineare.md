@@ -1388,4 +1388,6 @@ I risultati di questo paragrafo riguardanti le soluzioni dei sistemi lineari si 
 - $Ker(\mathbf{A})^\top$, sottospazio di $\mathbb{R}^m$.
 
 Sappiamo che $\dim R(\mathbf{A})=\dim R(\mathbf{A}^\top)=r$
-e che $\dim Ker(\mathbf{A})=n-r, \dim Ker ($
+e che $\dim Ker(\mathbf{A})=n-r, \dim Ker (\mathbf{A}^\top)=m-r$
+
+Il seguente teorema permette di rileggere in termini di relazioni tra tali sottospazi la teoria fin'ora svolta
