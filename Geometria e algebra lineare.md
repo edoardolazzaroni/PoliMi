@@ -58,7 +58,8 @@ Con un ragionamento geometrico analogo si può dimostrare la proprietà associat
 
 - **Moltiplicazione di un vettore per uno scalare**. Se $\mathbf{v}$ è un vettore e $t$ è uno scalare (cioè un numero reale) il prodotto di $t$ per $\mathbf{v}$, indicato con $t\mathbf{v}$, è definito come il vettore che ha lunghezza $\left|t\right|\cdot\left|\mathbf{v}\right|$, ha la direzione di $\mathbf{v}$ e lo stesso verso se $t>0$, verso opposto se $t<0$.
 
-
+![[Geometria e Algebra Lineare-1790433882898.webp|561]]
+#Figura(4) *Vettori come frecce uscendi da $O$. $\overrightarrow{OA}$ e $\overrightarrow{PQ}$ rappresentano lo stesso vettore applicato in due punti diversi dello spazio*
 
 **PROPRIETÀ**:
 	a) $1\cdot\mathbf{v}=\mathbf{v}$
