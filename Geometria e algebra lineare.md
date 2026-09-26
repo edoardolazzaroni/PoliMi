@@ -91,8 +91,8 @@ Si noti che $\mathbf{v}=$ lunghezza di $\overrightarrow{OA}=\sqrt{x^2+y^2}$ (Teo
 
 Due punti $P=(a,b)$ e $Q=(c,d)$, nell'ordine, individuano il vettore di componenti scalari $x=c-a, y=d-b$, cioè: $\overrightarrow{PQ}=(c-a, d-b)$.
 
-![[Geometria e Algebra Lineare-1790434118867.webp]]
-#Figura(6) *Vettori come frecce uscendi da $O$. $\overrightarrow{PO}$ e $\overrightarrow{OA}$ rappresentano lo stesso vettore, le cui componenti scalari sono $x=c-a,\ y=d-b$*
+![[Geometria e Algebra Lineare-1790434118867.webp|576]]
+##### #Figura(6) *Le frecce $\overrightarrow{PO}$ e $\overrightarrow{OA}$ rappresentano lo stesso vettore, le cui componenti scalari sono $x=c-a,\ y=d-b$.*
 
 
 Se consideriamo due vettori $\mathbf{u}=(x_1, y_1)$ e $\mathbf{v}=(x_2, y_2)$ si verifica immediatamente che $u \pm v=(x_1 \pm x_2, y_1 \pm y_2)$, e che se $t \in \mathbb{R}\rightarrow t\mathbf{u}=(t x_1,t y_1)$.
