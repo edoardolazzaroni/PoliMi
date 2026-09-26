@@ -1420,4 +1420,7 @@ Una conseguenza di queste affermazioni è:
 - #TEOREMA(18), #COROLLARIO(1). La matrice $\mathbf{A}$ (come trasformazione lineare) realizza una corrispondenza biunivoca tra $R(\mathbf{A}^\top)$ e $R(\mathbf{A})$, ossia tra lo spazio delle sue righe e quello delle sue colonne.
 	
 	In altri termini, il corollario afferma che, per ogni elemento $\mathbf{b}$ nello spazio delle colonne di $\mathbf{A}$ esiste un'unica soluzione $\mathbf{x}$ appartenente allo spazio delle righe di $\mathbf{A}$ del sistema $\mathbf{A}\mathbf{x}=\mathbf{b}$.
-	È poi facile convincersi, dal secondo punto del Teorema, che tale soluzione è quella di minimo modulo tra tutte le possibili soluzioni del sistema.Esempi
+	È poi facile convincersi, dal secondo punto del Teorema, che tale soluzione è quella di minimo modulo tra tutte le possibili soluzioni del sistema.
+
+*Esempio*:
+Consideriamo il sistema di quattro equazioni in tre incognite $$
