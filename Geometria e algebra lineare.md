@@ -1409,4 +1409,7 @@ Il seguente teorema permette di rileggere in termini di relazioni tra tali sotto
 	$(\mathbf{A}^\top\mathbf{t})^\top\mathbf{x}=\mathbf{y}^\top(\mathbf{A}\mathbf{x})=\mathbf{0}^\top\mathbf{x}=0$
 	
 	che implica $\mathbf{A}^\top\mathbf{y}=\mathbf{0}$ e cioè $\mathbf{y}\in Ker(\mathbf{A}^\top)$.
-	Il punto
+	Il secondo punto del teorema si dimostra in modo analogo scambiando $\mathbf{A}$ con $\mathbf{A}^\top$.
+
+
+Interpretiamo il Teorema in termini di soluzione del sistema $\mathbf{A}\mathbf{x}=\mathbf{b}$. Il primo punto equivale
