@@ -1468,4 +1468,5 @@ Si ha: $\mathbf{A}={\begin{pmatrix}1&2&3\\1&-2&-1\\2&8&10\\2&0&2\end{pmatrix}},\
 
 In entrambe le matrici la terza riga si ottiene moltiplicando la prima per $3$ e sottraendo la seconda, mentre la quarta riga è la somma delle prime due. Quindi $rk(\mathbf{A})\le 2,rk(\mathbf{B})\le 2$.
 
-Essendo $\det{\begin{pmatrix}1&2\\1&-2\end{pmatrix}}=-4\ne 0$, $rk(\mathbf{A})=rk(\mathbf{B})=2$. In base al Teorema di Rouch
+Essendo $\det{\begin{pmatrix}1&2\\1&-2\end{pmatrix}}=-4\ne 0$, $rk(\mathbf{A})=rk(\mathbf{B})=2$. In base al Teorema di Rouchè-Capelli il sistema è quindi risolubile. Per determinare le soluzioni usiamo la procedura indicata sopra:
+1. Isoliamo il minore $\begin{vmatrix}1&2\\1&-2\end{vmatrix}$
