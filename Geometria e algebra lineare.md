@@ -1370,4 +1370,5 @@ Illustriamo ora il metodo con cui si possono effettivamente determinare.
 Supponendo verificata l'ipotesi $rk(\mathbf{A}|\mathbf{b})=rk(\mathbf{A})=r$ si può eseguire questo **schema risolutivo**:
 
 1) Si isola un minore di ordine $r$ estratto dalla matrice $\mathbf{A}$, non singolare;
-2) Del sistema si considerano solo le $r$ equazioni corrispondenti alle $r$ righe del minore;
+2) Del sistema si considerano solo le $r$ equazioni corrispondenti alle $r$ righe del minore; le alte $m-r$ equazioni vengono eliminate: infatti, queste sono automaticamente soddisfatte quando lo sono le prime $r$;
+3) Al primo membro si mantengono le $r$ incognite i cui coefficienti costituiscono le $r$ 
