@@ -1399,4 +1399,5 @@ Il seguente teorema permette di rileggere in termini di relazioni tra tali sotto
 	
 	*Dimostrazione*:
 	
-	Siano $\mathbf{b}\in R(\mathbf{A})$ e $\mathbf{y}\in Ker(\mathbf{A}^\top)$. Allora $\mathbf{b}=\mathbf{A}\mathbf{A}$
+	Siano $\mathbf{b}\in R(\mathbf{A})$ e $\mathbf{y}\in Ker(\mathbf{A}^\top)$. Allora $\mathbf{b}=\mathbf{A}\mathbf{x}$, per qualche $\mathbf{x}\in \mathbb{R}^n$. Si ha:
+	$\mathbf{y}^\top\mathbf{b}=\mathbf{y}^\top(\mathbf{A}\mathbf{x})=(\mathbf{A})$
