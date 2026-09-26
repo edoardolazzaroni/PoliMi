@@ -1343,4 +1343,4 @@ Sia $\mathbf{A}$ la matrice $(m,n)$ dei coefficienti del sistema. Pensando di fi
 
 Abbiamo così dimostrato il seguente:
 
-- #TEOREMA(15). Le soluzioni del sistema omogeneo formano uno spazio vettoriale di dimensione $n-rk(\mathbf{A})$. Si dice anche che il sistema ha $\infty^{}$
+- #TEOREMA(15). Le soluzioni del sistema omogeneo formano uno spazio vettoriale di dimensione $n-r$$\quad(r=rk(\mathbf{A}))$. Si dice anche che il sistema ha $\infty^{n-r}$ soluzioni, per indicare che le soluzioni sono infinite e dipendono da $n-r$ parametri arb
