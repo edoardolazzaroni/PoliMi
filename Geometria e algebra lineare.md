@@ -1461,8 +1461,10 @@ Una conseguenza di queste affermazioni è:
 	In altri termini, il corollario afferma che, per ogni elemento $\mathbf{b}$ nello spazio delle colonne di $\mathbf{A}$ esiste un'unica soluzione $\mathbf{x}$ appartenente allo spazio delle righe di $\mathbf{A}$ del sistema $\mathbf{A}\mathbf{x}=\mathbf{b}$.
 	È poi facile convincersi, dal secondo punto del Teorema, che tale soluzione è quella di minimo modulo tra tutte le possibili soluzioni del sistema.
 
+
 *Esempio*:
 Consideriamo il sistema di quattro equazioni in tre incognite: ${\begin{cases}x+2y+3z=1\\x-2y-z=0\\2x+8y+10z=3\\2x+2z=1\end{cases}}$
 Si ha: $\mathbf{A}={\begin{pmatrix}1&2&3\\1&-2&-1\\2&8&10\\2&0&2\end{pmatrix}},\quad\mathbf{B}={\begin{pmatrix}1&2&3&1\\1&-2&-1&0\\2&8&10&3\\2&0&2&1\end{pmatrix}}$
 
-In entrambe le matrici la terza riga si ottiene moltiplicando la prima per ££
+In entrambe le matrici la terza riga si ottiene moltiplicando la prima per $3$ e sottraendo la seconda, mentre la quarta riga è la somma delle prime due. Quindi $rk(\mathbf{A})\le 2,rk(\mathbf{B})\le 2$.
+Essendo $\det$
