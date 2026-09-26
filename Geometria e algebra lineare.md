@@ -1462,4 +1462,5 @@ Una conseguenza di queste affermazioni è:
 	È poi facile convincersi, dal secondo punto del Teorema, che tale soluzione è quella di minimo modulo tra tutte le possibili soluzioni del sistema.
 
 *Esempio*:
-Consideriamo il sistema di quattro equazioni in tre incognite: ${\begin{cases}\end{cases}}$
+Consideriamo il sistema di quattro equazioni in tre incognite: ${\begin{cases}x+2y+3z=1\\x-2y-z=0\\2x+8y+10z=3\\2x+2z=1\end{cases}}$
+Si ha: $\mathbf{A}=\end{\begin{pmatrix}\end{pmatrix}}$
