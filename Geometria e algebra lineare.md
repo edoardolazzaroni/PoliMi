@@ -1490,4 +1490,6 @@ Le soluzioni sono $\infty^1$, ovvero dipendono da un parametro arbitrario: $z$.
 
 Presentiamo ora un metodo per risolvere i sistemi lineari, che è alternativo rispetto a quello basato sul Teorema di Cramer incontrato in precedenza e si presta meglio ad essere tradotto in un effettivo algoritmo risolutivo.
 
-Cominciamo con un sistema di $n$
+Cominciamo con un sistema di $n$ equazioni in $n$ incognite: $\mathbf{A}\mathbf{x}=\mathbf{b}$
+
+L'idea molto semplice è quella di procedere con una serie di operazioni elementari sulle equazioni del sistema, ossia sulle righe della matrice completa, in modo da ottenere ogni volta un sist
