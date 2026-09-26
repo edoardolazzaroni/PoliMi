@@ -1384,4 +1384,7 @@ I risultati di questo paragrafo riguardanti le soluzioni dei sistemi lineari si 
 
 - Lo spazio generato dalle colonne di $\mathbf{A}$, indicato con $R(\mathbf{A})$, sottospazio di $\mathbb{R}^m$;
 - $Ker(\mathbf{A})$, sottospazio di $\mathbb{R}^n$;
-- Lo spazio generato dalle righe di $\mathbf{A}$, ossia $R(\mathbf{A})^\top$
+- Lo spazio generato dalle righe di $\mathbf{A}$, ossia $R(\mathbf{A})^\top$, sottospazio di $\mathbb{R}^n$;
+- $Ker(\mathbf{A})^\top$, sottospazio di $\mathbb{R}^m$.
+
+Sappiamo che $\dim Ker$
