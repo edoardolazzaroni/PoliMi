@@ -1367,9 +1367,11 @@ Supponiamo ora che il sistema non omogeneo sia <u>risolubile</u>, ovvero supponi
 Abbiamo fin qui chiarito le condizioni che permettono di decidere se il sistema è risolubile o no, e in caso affermativo abbiamo "contato" le soluzioni.
 Illustriamo ora il metodo con cui si possono effettivamente determinare.
 
-Supponendo verificata l'ipotesi $rk(\mathbf{A}|\mathbf{b})=rk(\mathbf{A})=r$ si può eseguire questo **schema risolutivo**:
+Supponendo verificata l'ipotesi $rk(\mathbf{A}|\mathbf{b})=rk(\mathbf{A})=r$ si può eseguire questo **schema risolutivo**
+	1) Si isola un minore di ordine $r$ estratto dalla matrice $\mathbf{A}$, non singolare;
+	2) Del sistema si considerano solo le $r$ equazioni corrispondenti alle $r$ righe del minore; le alte $m-r$ equazioni vengono eliminate: infatti, queste sono automaticamente soddisfatte quando lo sono le prime $r$;
+	3) Al primo membro si mantengono le $r$ incognite i cui coefficienti costituiscono le $r$ colonne del minore; i termini contenenti le altre $n-r$ incognite si trasportano al secondo membro;
+	4) Si ottiene un sistema di $r$ equazioni ed $r$ incognite, al quale si può applicare il metodo di Cramer (o qualunque altro);
+	5) Le soluzioni trovate dipendono dalle $n-r$ incognite portare al secondo membro, che possono assumere valori arbitrari.
 
-1) Si isola un minore di ordine $r$ estratto dalla matrice $\mathbf{A}$, non singolare;
-2) Del sistema si considerano solo le $r$ equazioni corrispondenti alle $r$ righe del minore; le alte $m-r$ equazioni vengono eliminate: infatti, queste sono automaticamente soddisfatte quando lo sono le prime $r$;
-3) Al primo membro si mantengono le $r$ incognite i cui coefficienti costituiscono le $r$ colonne del minore; i termini contenenti le altre $n-r$ incognite si trasportano al secondo membro;
-4) Si ottiene un sistema di $r$ equazioni ed $r$ incognite, al quale si può applicare il metodo di Cramer (o qualun)
+Si noti che 
