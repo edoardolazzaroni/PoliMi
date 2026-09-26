@@ -1343,9 +1343,9 @@ Sia $\mathbf{A}$ la matrice $(m,n)$ dei coefficienti del sistema. Pensando di fi
 
 Abbiamo così dimostrato il seguente:
 
-- #TEOREMA(15). Le soluzioni del sistema omogeneo formano uno spazio vettoriale di dimensione $n-r$$\quad(r=rk(\mathbf{A}))$. Si dice anche che il sistema ha $\infty^{n-r}$ soluzioni, per indicare che le soluzioni sono infinite e dipendono da $n-r$ parametri arbitrari.
+- #TEOREMA(15). Le soluzioni del sistema omogeneo formano uno spazio vettoriale di dimensione $n-r$$\quad(r=rk(\mathbf{A}))$. Si dice anche che il sistema ha $\infty^{n-r}$ soluzioni, per indicare che le soluzioni sono **infinite** e dipendono da $n-r$ parametri arbitrari.
 
 
-Supponiamo ora che il sistema non omogeneo sia risolubile, ovvero supponiamo sia soddisfatta l'ipotesi del Teorema di Rouchè-Capelli, e chiediamoci: quante sono le sue soluzioni?
+Supponiamo ora che il sistema non omogeneo sia <u>risolubile</u>, ovvero supponiamo sia soddisfatta l'ipotesi del Teorema di Rouchè-Capelli, e chiediamoci: quante sono le sue soluzioni?
 
-- #TEOREMA (16)
+- #TEOREMA(16). Se il sistema precedentemente considerato ammette una soluzione $\mathbf{x}_{1}$, le soluzioni del sistema 
