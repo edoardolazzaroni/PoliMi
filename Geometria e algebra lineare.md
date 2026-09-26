@@ -1417,4 +1417,4 @@ Il primo punto equivale ad affermare che il sistema è risolubile se e solo se $
 Il secondo punto equivale ad affermare che ogni soluzione si ottiene aggiungendo ad una soluzione particolare un elemento del nucleo di $\mathbf{A}$.
 Una conseguenza di queste affermazioni è:
 
-- #COROLLARIO(1). 
+- #TEOREMA(18), #COROLLARIO(1). La matrice $\mathbf{A}$ (come trasformazione lineare) realizza una corrispondenza biunivoca tra $R(\mathbf{A}^\top)$ e $R(\mathbf{A})$, ossia tra lo spazio delle sue 
