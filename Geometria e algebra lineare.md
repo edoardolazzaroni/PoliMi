@@ -1503,6 +1503,8 @@ e così via fino a determinare $x_{1}$.
 Se qualche pivot è nullo la matrice $\mathbf{A}^*$ è singolare (e quindi anche $\mathbf{A}$).
 Abbiamo già visto che in tal caso il sistema può non essere risolubile oppure ammettere infinite soluzioni. Esamineremo più avanti come si sviluppa il metodo in questi casi ritrovando i risultati teorici delle sezioni precedenti.
 
+
 Illustriamo il metodo di eliminazione mediante un *esempio*:
 
-Sia da risolvere il sistema: ${\begin{cases}2x+y+z=1\\3x+y=\end{cases}}$
+Sia da risolvere il sistema: ${\begin{cases}2x+y+z=1\\4x+y=-2\\-2x+2y+z=-5\end{cases}}$
+Si comincia col determinare 
