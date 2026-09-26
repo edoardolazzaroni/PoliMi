@@ -1336,4 +1336,6 @@ Sia $\mathbf{A}$ la matrice $(m,n)$ dei coefficienti del sistema. Pensando di fi
 	
 	Dunque il sistema è solubile se e solo se $\mathbf{b}$ è combinazione lineare delle colonne di $\mathbf{A}$, ossia, ricordando che $\dim \mathrm{Im}(L)=rk(\mathbf{A})$, se e solo se $rk(\mathbf{A}|\mathbf{b})=rk(\mathbf{A})$
 	
-	Osserviamo che, se il sistema omogeneo $(\mathbf{b}=\mathbf{0})$, la condizione $rk(\mathbf{A})=rk(\mathbf{B})$ è sempre soddisfatta. In questo caso l'insieme delle soluzioni del sistema è lo spazio $Ker(L)$. Sempre per il Teorema (13) avremo che $$
+	Osserviamo che, se il sistema omogeneo $(\mathbf{b}=\mathbf{0})$, la condizione $rk(\mathbf{A})=rk(\mathbf{B})$ è sempre soddisfatta. In questo caso l'insieme delle soluzioni del sistema è lo spazio $Ker(L)$. Sempre per il Teorema (13) avremo che $\dim Ker(L)+\dim \mathrm{Im}(L)=n$
+	
+	Inoltre $\dim \mathrm{Im}(L)=rk(\mathbf{A})$; perciò $\dim Ker (L)=n-$
