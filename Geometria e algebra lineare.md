@@ -96,6 +96,8 @@ Due punti $P=(a,b)$ e $Q=(c,d)$, nell'ordine, individuano il vettore di componen
 
 Se consideriamo due vettori $\mathbf{u}=(x_1, y_1)$ e $\mathbf{v}=(x_2, y_2)$ si verifica immediatamente che $u \pm v=(x_1 \pm x_2, y_1 \pm y_2)$, e che se $t \in \mathbb{R}\rightarrow t\mathbf{u}=(t x_1,t y_1)$.
 
+![[Geometria e Algebra Lineare-1790434380380.webp]]
+###### #Figura(7) *Somma e prodotto per uno scalare, componene*
 
 
 Le formule precedenti sono fondamentali in quanto permettono di eseguire le operazioni sui vettori per via analitica, senza necessità di costruzioni geometriche.
