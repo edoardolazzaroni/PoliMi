@@ -1371,4 +1371,5 @@ Supponendo verificata l'ipotesi $rk(\mathbf{A}|\mathbf{b})=rk(\mathbf{A})=r$ si 
 
 1) Si isola un minore di ordine $r$ estratto dalla matrice $\mathbf{A}$, non singolare;
 2) Del sistema si considerano solo le $r$ equazioni corrispondenti alle $r$ righe del minore; le alte $m-r$ equazioni vengono eliminate: infatti, queste sono automaticamente soddisfatte quando lo sono le prime $r$;
-3) Al primo membro si mantengono le $r$ incognite i cui coefficienti costituiscono le $r$ 
+3) Al primo membro si mantengono le $r$ incognite i cui coefficienti costituiscono le $r$ colonne del minore; i termini contenenti le altre $n-r$ incognite si trasportano al secondo membro;
+4) Si ottiene un sistema di $r$ equazioni ed $r$ incognite, al quale si può applicare il metodo di Cramer (o qualun)
