@@ -16,7 +16,7 @@ Geometricamente, possiamo pensare ai vettori come a segmenti orientati, con la p
 Se nello spazio è fissato un sistema di riferimento cartesiano di cui $O$ è l'origine, possiamo anche vedere i vettori come frecce uscenti da $O$.
 
 ![[Screenshot 2026-09-16 alle 15.03.01.png|565]]
-#Figura(1) *Vettori come frecce uscendi da $O$. $\overrightarrow{OA}$ e $\overrightarrow{PQ}$ rappresentano lo stesso vettore applicato in due punti diversi dello spazio*
+###### #Figura(1) *Vettori come frecce uscendi da $O$. $\overrightarrow{OA}$ e $\overrightarrow{PQ}$ rappresentano lo stesso vettore applicato in due punti diversi dello spazio.*
 
 
 La direzione ed il verso del vettore sono allora quelli indicati dalla freccia corrispondente mentre il suo modulo coincide con la lunghezza della freccia. Per indicare un vettore potremo usare una lettera in grassetto (come **v, w**,...) oppure il simbolo $\overrightarrow{OA}$ se $A$ è la punta della freccia. Si dice anche che $\overrightarrow{OA}$ è il vettore posizione del punto A.
@@ -31,8 +31,8 @@ Sui vettori si possono definire varie operazioni: cominciamo ad introdurre le du
 - **Somma di vettori**. Dati due vettori $\mathbf{v}=\overrightarrow{OA}$ e $\mathbf{w}=\overrightarrow{OB}$, la loro somma è definita al seguente modo: si applica $\mathbf{w}$ in $A$, cioè si scrive $\mathbf{v}=\overrightarrow{AC}$ con $C$ opportuno; allora $\mathbf{v}+\mathbf{w}=\overrightarrow{OC}$. Ne segue che $\mathbf{v}+\mathbf{w}$ si può ottenere con la ben nota regola del parallelogramma: il vettore $\mathbf{v}+\mathbf{w}$ è la diagonale del parallelogramma costruito su $\mathbf{v}$ e $\mathbf{w}$, come in figura.
 	Si noti che il segmento orientato associato a $\mathbf{v}+\mathbf{w}$ è contenuto nel piano dei segmenti orientati associati a $\mathbf{v}$ e $\mathbf{w}$.
 
-![[Geometria e Algebra Lineare-1790433438119.webp|494]]
-###### #Figura(2) *Somma di due vettori*
+![[Geometria e Algebra Lineare-1790433438119.webp|518]]
+###### #Figura(2) *Somma di due vettori.*
 
 
 **PROPRIETÀ**:
@@ -43,8 +43,8 @@ Sui vettori si possono definire varie operazioni: cominciamo ad introdurre le du
 
 La somma $\mathbf{v}+(-\mathbf{w})$ si scrive semplicemente $\mathbf{v}-\mathbf{w}$, definendo in tal modo la <u>differenza tra due vettori</u>.
 
-![[Geometria e Algebra Lineare-1790433651481.webp|420]]
-###### #Figura(3) *Differenza tra vettori*
+![[Geometria e Algebra Lineare-1790433651481.webp|372]]
+###### #Figura(3) *Differenza tra vettori.*
 
 
 Le proprietà appena enunciate possono essere dimostrate geometricamente, in base alla definizione di somma.
