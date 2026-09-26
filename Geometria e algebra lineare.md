@@ -1374,5 +1374,7 @@ Supponendo verificata l'ipotesi $rk(\mathbf{A}|\mathbf{b})=rk(\mathbf{A})=r$ si 
 	4) Si ottiene un sistema di $r$ equazioni ed $r$ incognite, al quale si può applicare il metodo di Cramer (o qualunque altro);
 	5) Le soluzioni trovate dipendono dalle $n-r$ incognite portare al secondo membro, che possono assumere valori arbitrari.
 
+
 - Si noti che l'unico caso in cui il sistema è determinato è quando $r=n$ ($n=$ numero di incognite che compaiono nel sistema, $r=rk(\mathbf{A})$ ed uguaglia il numero di incognite che si riescono a ricavare).
-- Se $r<n$, se il sistema è risolubile è sempre indeterminato, con 
+- Se $r<n$, se il sistema è risolubile è sempre indeterminato, con $\infty^{n-r}$ soluzioni.
+
