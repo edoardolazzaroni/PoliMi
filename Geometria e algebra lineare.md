@@ -1496,3 +1496,5 @@ L'idea molto semplice è quella di procedere con una serie di operazioni element
 ${\begin{cases}d_{1}x_{1}+a_{12}^*x_{2}+a_{13}^*x_{3}+\cdots+a_{1n}^*x_{n}=b_{1}^*\\d_{2}x_{2}+a_{23}^*x_{3}+\cdots+a_{2n}^*x_{n}=b_{2}^*\\ \vdots \\d_{n-1}x_{n-1}+a_{n-1,n}^*x_{n}=b_{n-1}^*\\d_{n}x_{n}=b_{n}^*\end{cases}}$
 
 i coefficienti sulla diagonale principale $d_{1},d_{2},\cdots,d_{n}$ alla fine del processo prendono il nome di **elementi pivotali** o **pivot**. Si noti che $\det\mathbf {A}^*=d_{1}d_{2}\cdots d_{n}$.
+
+Se i pivoti sono tutti diversi da zero, il sistema ha una ed una sola soluzione, facilmente calcolabile con un procedimento di sostituzione "all'indietro": dall'ultima equazione si ricava 
