@@ -1361,4 +1361,6 @@ Supponiamo ora che il sistema non omogeneo sia <u>risolubile</u>, ovvero supponi
 	Viceversa, sia $\mathbf{x}_{2}$ una soluzione del sistema, e definiamo $\mathbf{x}_{0}=\mathbf{x}_{2}-\mathbf{x}_{1}$. Risulta:
 	$L(\mathbf{x}_{0})=L(\mathbf{x}_{2}-\mathbf{x}_{1})=L(\mathbf{x}_{2})-L(\mathbf{x}_{1})=\mathbf{b}-\mathbf{b}=0$,
 	
-	perciò $\mathbf{x}_{0}\in Ker(L)$. Dunque $\mathbf{x}_{2}=\mathbf{x}_{1}+\mathbf{x}_{0}$ con $\mathbf{x}_{0}\in Ker(L)$, ossia ogni soluzione d
+	perciò $\mathbf{x}_{0}\in Ker(L)$. Dunque $\mathbf{x}_{2}=\mathbf{x}_{1}+\mathbf{x}_{0}$ con $\mathbf{x}_{0}\in Ker(L)$, ossia ogni soluzione del sistema si può scrivere a questo modo. Poichè $\mathbf{x}_{0}$ dipende da $n-r$ parametri arbitrari e $\mathbf{x}_{1}$ è fissato, anche la generica soluzione del sistema non omogeneo dipende da $n-r$.
+
+Abbiamo fin qui chiarito le condizioni che permettono di de
