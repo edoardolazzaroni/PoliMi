@@ -8,3 +8,5 @@ views:
       - file.name
       - file.backlinks
       - file.ctime
+      - file.folder
+      - file.links
