@@ -6,7 +6,6 @@ views:
         - file.inFolder("PoliMi/copilot/skills")
     order:
       - file.name
+      - file.ext
+      - file.embeds
       - file.backlinks
-      - file.ctime
-      - file.folder
-      - file.links
