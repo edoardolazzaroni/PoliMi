@@ -636,7 +636,7 @@ La tesi di Church non si ferma solo nell’affermazione che nessun formalismo si
 
 - **Tesi di Church** (**Seconda Parte**): Ogni algoritmo per la soluzione automatica di un problema può essere codificato in termini di una MT (o di un formalismo a potenza equivalente).
 
-- **Teorema**: Ogni funzione (o problema), per cui esiste una MT che la calcoli (o risolva), si dice computabile o calcolabile (o risolvibile). Un problema risolvibile la cui risposta sia booleana ed esistente per ogni valore del dominio di definizione (ossia è formalizzato da una funzione calcolabile e totale) si dice decidibile.
+- #TEOREMA(10). Ogni funzione (o problema), per cui esiste una MT che la calcoli (o risolva), si dice computabile o calcolabile (o risolvibile). Un problema risolvibile la cui risposta sia booleana ed esistente per ogni valore del dominio di definizione (ossia è formalizzato da una funzione calcolabile e totale) si dice decidibile.
 
 Grazie alla seconda parte della tesi di Church si può affermare che è possibile studiare i limiti del calcolo automatico indipendentemente dalla formalizzazione del problema e del particolare modello computazionale.
 
@@ -675,7 +675,7 @@ Si osservi che la funzione $g(y,x)$ è computabile da una macchina di Turing, os
 3. Si traduce $y$ in un’opportuna codifica della MT $y$-esima $M_y$ nella enumerazione di Gödel;
 4. Si simula la computazione di $M_y$ su $x$.
 
-- **Teorema**: Per ogni $x$ ed ogni $y$, esiste e si può costruire una macchina di Turing universale in grado di calcolare $g(y,x) = f_y(x)$
+- #TEOREMA(11). Per ogni $x$ ed ogni $y$, esiste e si può costruire una macchina di Turing universale in grado di calcolare $g(y,x) = f_y(x)$
 
 Tramite questo teorema si può affermare che è possibile creare una macchina di Turing che simuli il comportamento degli odierni calcolatori ”general purpose”.`
 
@@ -694,7 +694,7 @@ Quando si scrive un programma, ci sono diverse proprietà che si vorebbero garan
 ![[Algoritmi e Principi dell'Informatica-1779647450525.webp|396]]
 
 
-- **Teorema dell'Halting Problem**: nessuna MT può calcolare la funzione $g : \mathbb{N} ×\mathbb{N} →\left\{0,1\right\}$ definita nel seguente modo: $g(x,y) =$ `if` $f_y(x) = ⊥$ `then` $1$ `else` $0$
+- #TEOREMA(12) **Halting Problem**: nessuna MT può calcolare la funzione $g : \mathbb{N} ×\mathbb{N} →\left\{0,1\right\}$ definita nel seguente modo: $g(x,y) =$ `if` $f_y(x) = ⊥$ `then` $1$ `else` $0$
 
 La dimostrazione di tale teorema si ottiene tramite la tecnica della diagonale, detta anche metodo di Cantor: l’obiettivo è quello di mostrare che un’enumerazione di oggetti di cardinalità almeno 2, non è completa, ossia che un oggetto che si vorrebbe trovare all’interno di tale enumerazione in realtà non è presente. L’enumerazione di una successione può essere rappresentata come una tabella con un numero infinito di righe. L’elemento che non compare in tale tabella viene individuato per assurdo considerando inizialmente la diagonale $d$ (dunque $d_i$ è l’elemento che si trova all’$i$-esima riga e all’$i$-esima colonna) e poi componendo una diagonale d′tale che, per ogni $i$, $d_i'$ sia diverso da $d_i$.
 
