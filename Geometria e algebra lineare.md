@@ -1513,4 +1513,6 @@ Si comincia col determinare un sistema equivalente (stesse soluzioni) eliminando
 1) Si sottrae dalla seconda eq. la prima moltiplicata per $2$;
 2) Si somma alla terza eq. la prima, ottenendo così il sistema: ${\begin{cases}2x+y+z=1\\-y-2z=-4\\3y+2z=-4\end{cases}}$
 	evidentemente il primo pivot è $d_{1}=2$;
-3) Si ignora la prima equazione 
+3) Si ignora la prima equazione e si elimina l'incognita $y$ dalla terza equazione, ottenendo così: ${\begin{cases}2x+y+z=1\\-y-2z=-4\\-4z=-16\end{cases}}$
+	gli altri pivot
+4) 
