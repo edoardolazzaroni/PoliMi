@@ -1171,7 +1171,7 @@ Tutto ciò conduce al seguente teorema:
 
 Ovviamente è possibile anche simulare una macchina RAM tramite una macchina di Turing, ma tale costruzione è molto più complessa e richiede un’analisi approfondita. Si enuncia quindi solo il seguente teorema:
 
-- **Teorema**: Sia $L$ il linguaggio riconosciuto da una macchina RAM di complessità temporale $T_R$ secondo il criterio del costo logaritmico. Se il programma RAM non utilizza le istruzioni `MULT` e `DIV`, allora $L$ può essere riconosciuto da un’opportuna MT multinastro, in un tempo $T_M = Θ(T_R^2)$.
+- #TEOREMA(26). Sia $L$ il linguaggio riconosciuto da una macchina RAM di complessità temporale $T_R$ secondo il criterio del costo logaritmico. Se il programma RAM non utilizza le istruzioni `MULT` e `DIV`, allora $L$ può essere riconosciuto da un’opportuna MT multinastro, in un tempo $T_M = Θ(T_R^2)$.
 
 Si può quindi osservare come il legame tra $T_M$ e $T_R$ sia di tipo polinomiale, implicazione molto importante perchè suggerisce quale sia la classe di problemi trattabili nella pratica.
 
@@ -1308,7 +1308,7 @@ Per trovare ora il tempo di esecuzione $T(n)$ nel caso peggiore si può ragionar
 
 					$T(n) = \begin{cases} Θ(1) & \mbox{if n=1} \\2T(n/2) + Θ(n) + Θ(1) & \mbox{if n>1} \end{cases}$
 
-Si può facilmente dimostrare (analiticamente oppure tramite il teorema dell’espreto, di cui si discuterà successivamente) che tale equazione ha soluzione $T(n) = Θ(n log_2 n)$, che rappresenta il tempo di esecuzione dell’algoritmo `mergeSort` nel caso pessimo. 
+Si può facilmente dimostrare (analiticamente oppure tramite il Teorema dell’espreto, di cui si discuterà successivamente) che tale equazione ha soluzione $T(n) = Θ(n log_2 n)$, che rappresenta il tempo di esecuzione dell’algoritmo `mergeSort` nel caso pessimo. 
 Si può osservare come tale algoritmo sia decisamentemigliore rispetto all’`insertionSort`, il cui tempo di esecuzione nel caso passimo è $Θ(n^2)$.
 
 Un modo per comprendere meglio come mai la complessità temporale del `mergeSort` sia proprio $Θ(n log_2 n)$, si riscrive la ricorrenza nel seguente modo:
@@ -1413,7 +1413,7 @@ Il passaggio segnato con $*$ rappresenta una piccola approssimazione: la $\sum_{
 Il metodo dell’esperto è impiegato per la risoluzione di ricorrenze del tipo $T(n) = aT(n/b) + f(n)$,
 con $a ≥1,b > 1$ costanti ed $f(n)$ una funzione asintoticamante positiva. Una ricorrenza di questo tipo rappresenta il tempo di esecuzione di un algoritmo che divide il problema di dimensione $n$ in $a$ sottoproblemi di dimensione $n/b$, mentre la funzione $f(n)$ rappresenta il costo di divisione del problema e di combinazione delle soluzioni. Il metodo dell’esperto dipende dal seguente teorema:
 
-- **Teorema** (**Master Theorem**): Date le costanti $a ≥1, b > 1$ e la funzione $f(n)$, se la ricorsione $T(n)$ si presenta nella forma $T(n) = aT(n/b) + f(n)$, allora può essere limitata asintoticamente nei seguenti modi:
+- #TEOREMA(26) **Master Theorem**. Date le costanti $a ≥1, b > 1$ e la funzione $f(n)$, se la ricorsione $T(n)$ si presenta nella forma $T(n) = aT(n/b) + f(n)$, allora può essere limitata asintoticamente nei seguenti modi:
 	1. Se $f(n) = O(n^{log_b a−ε})$ per qualche $ε>0$, allora $T(n) = Θ(n^{log_b a})$;
 	2. Se $f(n) = Θ(n^{log_b a})$, allora $T(n) = Θ(n^{log_b a}log_2(n))$;
 	3. Se $f(n) = Ω(n^{log_b a+ε})$ per qualche $ε > 0$ e se $af(n/b) ≤cf(n)$ per qualche $c < 1$ e per ogni $n$ sufficientemente grande, allora $T(n) = Θ(f(n))$.
@@ -1421,11 +1421,11 @@ con $a ≥1,b > 1$ costanti ed $f(n)$ una funzione asintoticamante positiva. Una
 Si osservi che in ciascuno dei tre casi, si confronta la funzione $f(n)$ con la funzione $n^{log_b a}$: intuitivamente, la soluzione della ricorrenza è determinata dalla funzione polinomialmente (*una funzione è polinomialmente più grande rispetto ad un’altra funzione se la prima è asintoticamente più grande della seconda di un fattore $n^ε$ per qualche $ε > 0$)* più grande.
 Se la funzione $n^{log_b a}$ è più grande polinomialmente, come nel primo caso, allora sarà soluzione della ricorrenza, altrimenti la soluzione sarà $f(n)$, come enunciato nel caso tre, in cui si deve anche verificare la condizione di regolarità della funzione. Nel caso due, in cui le due funzioni sono asintoticamente uguali, si moltiplicano entrambi i membri per un fattore logaritmico e la soluzione sarà $T(n) = Θ(n^{log_b a} log_2(n)) = Θ(f(n)log_2(n))$.
 
-I tre casi, sfortunatamente, non coprono tutte le funzioni $f(n)$ possibili, in quanto ci sarà un intervallo fra i casi 1 e 2, in cui la funzione $f(n)$ è minore di $n^{log_b a}$, ma non polinomialmente, mentre ci sarà anche un intervallo fra i casi 2 e 3, in cui la funzione $f(n)$ è maggiore di $n^{log_b a}$, ma non polinomialmente. In questi casi, il teorema dell’esperto non può essere applicato.
+I tre casi, sfortunatamente, non coprono tutte le funzioni $f(n)$ possibili, in quanto ci sarà un intervallo fra i casi 1 e 2, in cui la funzione $f(n)$ è minore di $n^{log_b a}$, ma non polinomialmente, mentre ci sarà anche un intervallo fra i casi 2 e 3, in cui la funzione $f(n)$ è maggiore di $n^{log_b a}$, ma non polinomialmente. In questi casi, il Teorema dell’Esperto non può essere applicato.
 
-Per utilizzare il teorema enunciato, bisogna semplicemente determinare in quali dei tre casi rientra la funzione $f(n)$ e confrontarla con la funzione $n^{log_b a}$.
+Per utilizzare il Teorema enunciato, bisogna semplicemente determinare in quali dei tre casi rientra la funzione $f(n)$ e confrontarla con la funzione $n^{log_b a}$.
 
-*ESEMPIO 1*: Si determini la soluzione della ricorrenza $T(n) = 9T(n/3) + n$. In questo caso, si ha che $a= 9,b= 3$ ed $f(n) = n$ e quindi $n^{log_b a} = n^{log_3 (9)} = Θ(n^2)$. Dato che $f(n) = O(n^{log_3 (9)−ε})$, con $ε= 1$ (in quanto $f(n) = n$), si può applicare il caso 1 del teorema dell’esperto e concludere immediatamente che la soluzione della ricorrenza è $T(n) = Θ(n^2)$, in quanto $n^2$ è polinomialmente più grande di $n$.
+*ESEMPIO 1*: Si determini la soluzione della ricorrenza $T(n) = 9T(n/3) + n$. In questo caso, si ha che $a= 9,b= 3$ ed $f(n) = n$ e quindi $n^{log_b a} = n^{log_3 (9)} = Θ(n^2)$. Dato che $f(n) = O(n^{log_3 (9)−ε})$, con $ε= 1$ (in quanto $f(n) = n$), si può applicare il caso 1 del Teorema dell’Esperto e concludere immediatamente che la soluzione della ricorrenza è $T(n) = Θ(n^2)$, in quanto $n^2$ è polinomialmente più grande di $n$.
 
 *ESEMPIO 2*: Si determini la soluzione della ricorrenza $T(n) = 2T(n/2)+n \ log_2 n$. In questo caso, si ha che $a= 2,b= 2$ ed $f(n) = n^{log_2 n}$ e quindi $n^{log_b a} = n^{log_2 (2)} = n$. Si potrebbe erroneamente pensare di essere nel terzo caso del teorema dell’esperto, ma le due funzioni non sono polinomialmente comparabili quindi non si può applicare il teorema. La ricorrenza, dunque, deve necessariamente essere risolta con l’utilizzo dei metodi precedentemente analizzati.
 
