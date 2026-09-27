@@ -1508,4 +1508,7 @@ Illustriamo il metodo di eliminazione mediante un *esempio*:
 
 Sia da risolvere il sistema: ${\begin{cases}2x+y+z=1\\4x+y=-2\\-2x+2y+z=-5\end{cases}}$
 
-Si comincia col determinare un sistema equivalente (stesse soluzioni) eliminando l'incognita $x$ nella seconda e nella terza equazione, mediant
+Si comincia col determinare un sistema equivalente (stesse soluzioni) eliminando l'incognita $x$ nella seconda e nella terza equazione, mediante le seguenti operazioni:
+
+1) Si sottrae dalla seconda eq. la prima moltiplicata per $2$. In simboli: $2^a$ equazione 
+2) 
