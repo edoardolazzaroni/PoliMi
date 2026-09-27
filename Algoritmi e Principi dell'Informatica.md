@@ -172,13 +172,13 @@ Gli automi appena analizzati sono molto semplici e hanno delle evidenti limitazi
 
 - #TEOREMA(1): dato un automa a stati finiti $A=< Q,I,δ,q_0,F >$, dove $Q$ ha cardinalità $n$, il linguaggio riconosciuto da $A$ non è vuoto se e solo se $A$ accetta una stringa $x$ con $— x —  ¡n$. 
 
-- **Secondo Teorema**: dato un automa a stati finiti $A=< Q,I,δ,q_0,F >$, dove $Q$ ha cardinalità $n$, il linguaggio riconosciuto da $A$ è infinito se e solo se $A$ accetta una stringa $x$ con $n≤ |x| <2n$.
+- #TEOREMA(2): dato un automa a stati finiti $A=< Q,I,δ,q_0,F >$, dove $Q$ ha cardinalità $n$, il linguaggio riconosciuto da $A$ è infinito se e solo se $A$ accetta una stringa $x$ con $n≤ |x| <2n$.
 
 I teoremi sono basati sul fatto che un determinato FSA può presentare cicli nella sua rappresentazione grafica. Nel caso in cui l’automa non presenta alcun ciclo nella sua rappresentazione grafica, il linguaggio è **sicuramente finito**, in quanto la stringa in ingresso può far passare l’automa una sola volta in ciascuno dei suoi stati: di conseguenza, la stringa può essere lunga al più come il numero di stati dell’automa meno uno.
 
 Si enuncia quindi il seguente teorema noto con il nome di Pumping Lemma:
 
-- **Teorema del Pumping Lemma**: sia $A$ un automa a stati finiti. Se $x∈L$ e $|x| ≤ |Q|$, allora esistono uno stato $q∈Q$ e una stringa $w∈I^+$ tali che:
+- #TEOREMA(3) **Pumping Lemma**. Sia $A$ un automa a stati finiti. Se $x∈L$ e $|x| ≤ |Q|$, allora esistono uno stato $q∈Q$ e una stringa $w∈I^+$ tali che:
 	- $x= ywz$
 	- $δ^∗(q,w) = q$
 
