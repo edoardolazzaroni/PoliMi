@@ -90,5 +90,5 @@ Altri impegni:
 		- Iniziare a lavorare ad Hært
 
 
-
+Per utilizzare agenti AI e modificare le skills, aprire la cartella [[skills]]
 Questo vault è gestito e sincronizzato mediante [[publish-your-obsidian-notes-with-linked-blog-starter|Github]].
