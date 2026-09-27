@@ -56,9 +56,10 @@ cellStyleRules:
 
 Altri impegni:
 
-- [ ] Caricare cuffie
 - [ ] Leggere almeno un capitolo
 - [ ] Caricare tavoletta grafica
+- [ ] Sistemare stanza
+- [x] Caricare cuffie
 - [x] Preparare template di Obsidian
 - [x] Fare checklist per domani
 - [x] Preparare zaino uni
