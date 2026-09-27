@@ -170,9 +170,9 @@ Gli Automi a Stati Finiti sono chiusi rispetto alle sequenti operazioni:
 
 Gli automi appena analizzati sono molto semplici e hanno delle evidenti limitazioni, che li rendono inefficaci nella risoluzione di alcuni problemi. Dallo studio di questi automi si possono ricavare alcuni teoremi dimostrabili, utili per mettere in luce tali limitazioni:
 
-- #TEOREMA(1): dato un automa a stati finiti $A=< Q,I,δ,q_0,F >$, dove $Q$ ha cardinalità $n$, il linguaggio riconosciuto da $A$ non è vuoto se e solo se $A$ accetta una stringa $x$ con $— x —  ¡n$. 
+- #TEOREMA(1). Dato un automa a stati finiti $A=< Q,I,δ,q_0,F >$, dove $Q$ ha cardinalità $n$, il linguaggio riconosciuto da $A$ non è vuoto se e solo se $A$ accetta una stringa $x$ con $— x —  ¡n$. 
 
-- #TEOREMA(2): dato un automa a stati finiti $A=< Q,I,δ,q_0,F >$, dove $Q$ ha cardinalità $n$, il linguaggio riconosciuto da $A$ è infinito se e solo se $A$ accetta una stringa $x$ con $n≤ |x| <2n$.
+- #TEOREMA(2). Dato un automa a stati finiti $A=< Q,I,δ,q_0,F >$, dove $Q$ ha cardinalità $n$, il linguaggio riconosciuto da $A$ è infinito se e solo se $A$ accetta una stringa $x$ con $n≤ |x| <2n$.
 
 I teoremi sono basati sul fatto che un determinato FSA può presentare cicli nella sua rappresentazione grafica. Nel caso in cui l’automa non presenta alcun ciclo nella sua rappresentazione grafica, il linguaggio è **sicuramente finito**, in quanto la stringa in ingresso può far passare l’automa una sola volta in ciascuno dei suoi stati: di conseguenza, la stringa può essere lunga al più come il numero di stati dell’automa meno uno.
 
@@ -699,12 +699,12 @@ Quando si scrive un programma, ci sono diverse proprietà che si vorebbero garan
 La dimostrazione di tale teorema si ottiene tramite la tecnica della diagonale, detta anche metodo di Cantor: l’obiettivo è quello di mostrare che un’enumerazione di oggetti di cardinalità almeno 2, non è completa, ossia che un oggetto che si vorrebbe trovare all’interno di tale enumerazione in realtà non è presente. L’enumerazione di una successione può essere rappresentata come una tabella con un numero infinito di righe. L’elemento che non compare in tale tabella viene individuato per assurdo considerando inizialmente la diagonale $d$ (dunque $d_i$ è l’elemento che si trova all’$i$-esima riga e all’$i$-esima colonna) e poi componendo una diagonale d′tale che, per ogni $i$, $d_i'$ sia diverso da $d_i$.
 
 
-- **Teorema**: nessuna MT è in grado di calcolare la funzione totale $k$ definita nel seguente modo: $k(x) =$ `if` $f_x(x) \ne ⊥$ `then` $1$ `else` $0$
+- #TEOREMA(13). Nessuna MT è in grado di calcolare la funzione totale $k$ definita nel seguente modo: $k(x) =$ `if` $f_x(x) \ne ⊥$ `then` $1$ `else` $0$
 
 Questo problema rappresenta un caso speciale della funzione $g(y,x)$ in quanto $k(x) = g(x,x)$, dunque la calcolabilitò della funzione $k$ è direttamente correlata alla calcolabilità della funzione $g$. Si noti che, in generale, se un problema è irrisolvibile, può accadere che un suo caso particolare sia risolvibile, mentre una sua generalizzazione è necessariamente irrisolvibile. Al contrario, se un problema è risolvibile, può accadere che una sua generalizzazione diventi irrisolvibile, mentre un suo caso particolare rimane sicuramente risolvibile.
 
 
-- **Teorema**: nessuna MT è in grado di calcolare la funzione $k$ definita nel seguente modo: $k(y) =$ `if` $f_y(x) \ne⊥$ `then` $1$ `else` $0$
+- #TEOREMA(14). Nessuna MT è in grado di calcolare la funzione $k$ definita nel seguente modo: $k(y) =$ `if` $f_y(x) \ne⊥$ `then` $1$ `else` $0$
 
 Da un punto di vista pratico questo problema è interessante perchè qualifica tutti i possibili dati in ingresso. Afferma, infatti, l’irrisolvibilità del problema di decidere se un certo programma termini la propria esecuzione per qualsiasi dato in ingresso o se, al contrario, per qualche dato il programma andrebbe in loop. Nel caso precedente, invece, si era interessati al problema di sapere se un certo programma con certi dati avrebbe terminato o meno la propria esecuzione.
 
@@ -732,7 +732,7 @@ Si noti, inoltre, che per ogni insieme $S$, la sua funzione caratteristica $c_S$
 Gli insiemi decidibili devono il loro nome al fatto che il problema di appartenenza può essere risolto tramite un algoritmo meccanico e che, quindi, una MT che implementi la loro funzione caratteristica fornisce necessariamente una risposta al quesito se $x∈S$,$∀x∈\mathbb{N}$. Inoltre, per ogni insieme ricorsivamente numerabile $S$ è possibile costruire una sequenza $x_0 = g_S(0),x_1 = g_S(1),x_2 = g_S(2),...$ tale per cui, se $x ∈S$, allora esiste i tale che $x = g_S(i)$. In questo caso, esaminando la sequenza di elementi ${x_i}$ si riuscirà a trovare l’elemento $x$, concludendo che questo appartiene all’insieme $S$. Perciò, se per un qualsiasi $ī$ risultasse che $x \notin\left\{g_S(i) |0 ≤i≤ī\right\}$ non si potrebbe concludere nè che $x∈S$, nè che $x \notin S$:
 per questo motivo, l’insieme $S$ viene anche detto **semidecidibile**.
 
-- **Teorema**: Se $S$ è ricorsivo, è anche ricorsivamente enumerabile. $S$ è ricorsivo se e solo se sia $S$ che $S^- = \mathbb{N}−S$ sono ricorsivamente enumerabili.`
+- #TEOREMA(15). Se $S$ è ricorsivo, è anche ricorsivamente enumerabile. $S$ è ricorsivo se e solo se sia $S$ che $S^- = \mathbb{N}−S$ sono ricorsivamente enumerabili.`
 
 
 Quindi, riepilogando, si dice che un insieme $S$ è:
