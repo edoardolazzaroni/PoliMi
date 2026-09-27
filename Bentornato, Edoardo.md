@@ -4,6 +4,9 @@ ___
 > [!quote] Per aspera ad astra.
 > 
 
+> [!tip]
+> Per aspera ad astra.
+
 
 ```contributionGraph
 title: Contributions
