@@ -47,7 +47,7 @@ cellStyleRules:
 
 - ## Impegni del giorno 📋 :
 
-[[kanban-default.base]]
+[[kanban-default.base|Kanban (elenco tasks)]]
  [[Finire capitolo 5 di GAL]]
  [[Guardare esercitazione GAL]]
 
