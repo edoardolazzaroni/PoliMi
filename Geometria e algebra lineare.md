@@ -1522,4 +1522,4 @@ Si comincia col determinare un sistema equivalente (stesse soluzioni) eliminando
 	La soluzione è ora immediata: $z=4,y=-4,x=\frac{1}{2}$.
 
 
-Si capisce facilmente come il metodo sia generalizzabile ad un sistema di $n$ equazioni in $n$ incognite, dove possiamo sempre supporre 
+Si capisce facilmente come il metodo sia generalizzabile ad un sistema di $n$ equazioni in $n$ incognite, dove possiamo sempre supporre $d_{1}=a_{11}\ne 0$. Il primo passo consiste nell'aggiungere alle altre equazioni opportuni multipli della prima, in modo da azzerare tutti i coefficienti
