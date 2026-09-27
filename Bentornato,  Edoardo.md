@@ -47,7 +47,7 @@ cellStyleRules:
 
 - ## Impegni del giorno 📋 :
 
-Finire capitolo 5 di GAL
+- [[Finire capitolo 5 di GAL]]
 - [ ] Caricare cuffie
 - [ ] Leggere almeno un capitolo
 - [x] Preparare template di Obsidian
