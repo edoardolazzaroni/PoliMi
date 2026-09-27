@@ -89,4 +89,4 @@ Altri impegni:
 		- Iniziare a lavorare ad Hært
 
 
-Questo vault è gestito mediante [[publish-your-obsidian-notes-with-linked-blog-starter|Github]].
+Questo vault è gestito e sincronizzato mediante [[publish-your-obsidian-notes-with-linked-blog-starter|Github]].
