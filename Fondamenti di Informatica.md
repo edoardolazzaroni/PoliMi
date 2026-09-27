@@ -139,4 +139,5 @@ Il complemento a due è un sistema binario, ma il primo bit (quello a sinistra,
 				- Nelle operazioni su numeri C2 l’overflow non ha alcuna relazione con il riporto, cioè si può avere overflow senza riporto perduto (due addendi positivi e risultato negativo) e viceversa.
 
 
-Per quanto concerne lo studio del li
+
+Per quanto concerne lo studio del linguaggio C(89), utilizzato per la risoluzione degli esercizi, fare affidamento al [[Fondamenti di C.pdf|pdf]].
