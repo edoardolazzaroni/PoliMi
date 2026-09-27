@@ -94,9 +94,4 @@ Altri impegni:
 Calendario integrato in Obsidian, impegni conservati nella cartella [[Calendario lezioni]].
 Per utilizzare agenti AI e riguardare le conversazioni precedenti, aprire la cartella per modificare le skills, aprire la cartella.
 
-````dataviewjs
-list
-from "skills"
-````
-
 Questo vault è gestito e sincronizzato mediante [[publish-your-obsidian-notes-with-linked-blog-starter|Github]].
