@@ -1,3 +1,5 @@
+formulas:
+  Senza titolo: ""
 views:
   - type: table
     name: Tabella
@@ -5,7 +7,8 @@ views:
       and:
         - file.inFolder("PoliMi/copilot/skills")
     order:
-      - file.name
-      - file.ext
-      - file.embeds
-      - file.backlinks
+      - file.basename
+      - file.mtime
+    sort:
+      - property: file.backlinks
+        direction: ASC
