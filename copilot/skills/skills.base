@@ -8,7 +8,9 @@ views:
         - file.inFolder("PoliMi/copilot/skills")
     order:
       - file.basename
-      - file.mtime
+      - file.ctime
+      - file.embeds
+      - description
     sort:
       - property: file.backlinks
         direction: ASC
