@@ -9,4 +9,4 @@
 [[PoliMi/copilot/skills/obsidian-bases/SKILL|obsidian-bases]] [[PoliMi/copilot/skills/obsidian-bases/references/EXAMPLES|EXAMPLES]] [[FUNCTIONS_REFERENCE]]
 [[PoliMi/copilot/skills/obsidian-cli/SKILL|obsidian-cli]]
 [[PoliMi/copilot/skills/obsidian-markdown/SKILL|obsidian-markdown]] [[PROPERTIES]] [[EMBEDS]] [[CALLOUTS]]
-[[PoliMi/copilot/skills/openartifacts-publish/SKILL|SKILL]] [[research-memo]]
+[[PoliMi/copilot/skills/openartifacts-publish/SKILL|openartifacts-publish]] [[research-memo]]
