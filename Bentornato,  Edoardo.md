@@ -58,8 +58,11 @@ cellStyleRules:
 - [x] Guardare orari delle lezioni
 - [x] Caricare tavoletta grafica
 
-- ## Repository dei corsi:
+- ## Repository dei corsi 📚:
+	
 	[[Geometria e Algebra Lineare]]
+	[[Fondamenti di Informatica]]
+	[[Algoritmi e Principi dell'Informatica]]
 
 - ## Link utili 🔗:
 	
