@@ -94,6 +94,34 @@ Altri impegni:
 Calendario integrato in Obsidian, impegni conservati nella cartella [[Calendario lezioni]].
 Per utilizzare agenti AI e riguardare le conversazioni precedenti, aprire la cartella per modificare le skills, aprire la cartella [[skills.base]].
 
-
+```folder-overview
+id: 9056c8b2-a111-4ac6-9b3f-5dbc5e874cdc
+folderPath: ""
+title: "{{folderName}} overview"
+showTitle: false
+depth: 3
+style: list
+includeTypes:
+  - folder
+  - markdown
+disableFileTag: false
+sortBy: name
+sortByAsc: true
+showEmptyFolders: false
+onlyIncludeSubfolders: false
+storeFolderCondition: true
+showFolderNotes: false
+disableCollapseIcon: true
+alwaysCollapse: false
+autoSync: true
+allowDragAndDrop: true
+hideLinkList: true
+hideFolderOverview: false
+useActualLinks: false
+fmtpIntegration: false
+titleSize: 1
+isInCallout: false
+useWikilinks: true
+```
 
 Questo vault è gestito e sincronizzato mediante [[publish-your-obsidian-notes-with-linked-blog-starter|Github]].
