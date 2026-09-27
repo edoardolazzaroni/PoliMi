@@ -1511,4 +1511,4 @@ Sia da risolvere il sistema: ${\begin{cases}2x+y+z=1\\4x+y=-2\\-2x+2y+z=-5\end{c
 Si comincia col determinare un sistema equivalente (stesse soluzioni) eliminando l'incognita $x$ nella seconda e nella terza equazione, mediante le seguenti operazioni:
 
 1) Si sottrae dalla seconda eq. la prima moltiplicata per $2$;
-2) SI somma alla terza eq. la prima, ottenendo così il sistema:
+2) SI somma alla terza eq. la prima, ottenendo così il sistema: ${\begin{cases}2x+y+z=1\\-y=-2\\-2x+2y+z=-5\end{cases}}$
