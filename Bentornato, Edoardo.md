@@ -45,6 +45,8 @@ cellStyleRules:
 
 ```
 
+Questo vault è gestito mediante 
+
 - ## Impegni del giorno 📋 :
 
 [[kanban-default.base|Kanban (elenco tasks)]]:
