@@ -58,11 +58,13 @@ cellStyleRules:
 - [x] Guardare orari delle lezioni
 - [x] Caricare tavoletta grafica
 
+
 - ## Repository dei corsi 📚:
 	
 	[[Geometria e Algebra Lineare]]
 	[[Fondamenti di Informatica]]
 	[[Algoritmi e Principi dell'Informatica]]
+
 
 - ## Link utili 🔗:
 	
@@ -77,5 +79,6 @@ cellStyleRules:
 	
 		- Studiare almeno 6 ore al giorno
 		- Ricominciare palestra (2/3 volte a settimana)
-		- Finire un libro al mese
+		- Finire Power
 		- Ridurre l'utilizzo di Instagram a massimo 30 min al giorno
+		- Iniziare a lavorare ad 
