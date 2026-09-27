@@ -351,7 +351,7 @@ In altre parole, se $δ(q,i,A_1,...,A_k) =<p,C_1,...,C_k,N,N_1,...,N_k>$, la con
 
 Si introduce di seguito il teorema tramite cui si afferma la supremazia delle macchine di Turing nella computazione e nella traduzione.
 
-- La classe di linguaggi riconosciuti dalle Macchine di turing include strettamente la classe dei linguaggi riconosciuti dagli Automi a Pila. Inoltre, le macchine di Turing sono trasduttori più **potenti** rispetto ai trasduttori a pila, per cui tutte le traduzioni effettuate da un PDT possono essere effettuate anche da una MT trasduttrice, ma non viceversa.
+- #TEOREMA(4). La classe di linguaggi riconosciuti dalle Macchine di turing include strettamente la classe dei linguaggi riconosciuti dagli Automi a Pila. Inoltre, le macchine di Turing sono trasduttori più **potenti** rispetto ai trasduttori a pila, per cui tutte le traduzioni effettuate da un PDT possono essere effettuate anche da una MT trasduttrice, ma non viceversa.
 
 <mark class="hltr-blue">Le macchine di Turing sono il formalismo più potente di cui siamo a disposizione.</mark>
 
@@ -427,7 +427,7 @@ In altre parole, un NFSA può presentare diverse sequenze di transizioni per ogn
 
 Gli automi non deterministici a stati finiti hanno la stessa potenza di calcolo dei corrispettivi automi deterministici, ma sono spesso più convenienti da utilizzare. Da qui il seguente teorema:
 
-- **Teorema**: per ogni NFSA $A$, può essere costruito un FSA $A_D$ deterministico che accetti lo stesso linguaggio.
+- #TEOREMA(5): per ogni NFSA $A$, può essere costruito un FSA $A_D$ deterministico che accetti lo stesso linguaggio.
 
 Infatti, dato un NFSA, si può costruire un FSA equivalente che ha come stati gli insiemi formati da stati dell’NFSA. La funzione di transizione è costruita in modo che se un insieme di stati è raggiungibile a partire da uno stato dell’NFSA, allora tale relazione deve essere presente anche nell’FSA sfruttando la costruzione degli stati come insiemi di stati dell’NFSA.
 
@@ -462,7 +462,7 @@ mentre per una NTM a nastro singolo, la funzione di transizione è definita nel 
 						$δ: (Q−F) ×A→℘(Q×A×\left\{R,L,S\right\})$
 
 
-- **Teorema**: le macchine di Turing non deterministiche non sono più potenti delle corrispettive macchine di Turing deterministiche se utilizzate come riconoscitori di linguaggi.
+- #TEOREMA(6). Le macchine di Turing non deterministiche non sono più potenti delle corrispettive macchine di Turing deterministiche se utilizzate come riconoscitori di linguaggi.
 
 Data una qualsiasi NTM $M$, è sempre possibile costruire una MT deterministica $M’$ che riconosce lo stesso linguaggio di M. Se si considera una computazione di M su una stringa in ingresso, questa è ben definita da un albero di configurazioni, in cui è inserita ogni configurazione raggiungibile dallo stato iniziale. Una stringa viene accettata solo se esiste almeno un cammino all’interno della struttura ad albero che si conclude in una configurazione finale. $M’$ potrà simulare il comportamento della MT $M$, ricostruendo in maniera sequenziale tutte le possibili computazioni di $M$. Si noti però che quando una stringa non viene accettata, la macchina di Turing $M$ potrebbe entrare in un ciclo infinito, senza mai terminare la propria esecuzione: per questo motivo, l’albero delle computazioni potrebbe presentare rami infiniti. La MT $M’$, che simula $M$, deve quindi evitare di visitare l’albero delle computazioni ’in profondità’ (ovvero tramite un algoritmo di depth first search), ossia seguendo un percorso fino al suo termine, prima di passare ad un ramo successivo, in quanto alcuni rami sono, appunto, infiniti. Conviene quindi visitare l’albero delle computazioni ’in ampiezza’ (ovvero tramite un algoritmo di breadth first search), ossia seguendo tutti i nodi dei rami sullo stesso livello. In questo modo, se esiste un cammino dell’albero di $M$ che porti all’accettazione della stringa, M’ riuscirà a trovarlo in un tempo finito, terminando la propria esecuzione. Altrimenti, se tutti i cammini di $M$ terminano in stati non finali, $M’$ terminerà la propria esecuzione senza aver trovato nessun nodo di accettazione e rifiuterà la stringa in ingresso.
 
