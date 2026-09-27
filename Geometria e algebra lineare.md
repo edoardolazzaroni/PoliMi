@@ -1523,5 +1523,6 @@ Si comincia col determinare un sistema equivalente (stesse soluzioni) eliminando
 
 
 Si capisce facilmente come il metodo sia generalizzabile ad un sistema di $n$ equazioni in $n$ incognite, dove possiamo sempre supporre $d_{1}=a_{11}\ne 0$. Il primo passo consiste nell'aggiungere alle altre equazioni opportuni multipli della prima, in modo da azzerare tutti i coefficienti sotto il primo pivot $d_{1}$. Nel secondo si ignora la prima equazione e si aggiungono alle altre opportuni multipli della seconda, in modo da azzerare tutti i coefficienti sotto il secondo pivot $d_{2}$.
+Se ad ogni passo si produce un pivot non nullo, l'azzeramento dei coefficienti sotto ogni pivot è sempre possibile e si procede così fino alla forma triangolare alta finale. Una sostituzione all'indietro fornisce immediatamente la soluzione.
 
-Se ad ogni passo si produce un piv
+Vediamo ora come inm 
