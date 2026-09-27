@@ -1114,15 +1114,15 @@ Inoltre, la relazione $Θ$ è una relazione di equivalenza.`
 
 Si è precedentemente affermato che la complessità della soluzione di un determinato problema può essere migliorata mediante opportune modifiche all’algoritmo risolutivo. A tal proposito si enunciano i seguenti teoremi che pongono alcuni limiti al miglioramento degli algoritmi:
 
--  Dato $L$ un linguaggio accettato da una MT $M$ multinastro (deterministica o meno) di complessità spaziale $S_M(n)$, allora, per ogni costante $c∈\mathbb{R}^+$, $L$ è accettato anche da un’opportuna MT $M’$ tale che $S_M′(n) <c·S_M(n)$.
+- #TEOREMA(21). Dato $L$ un linguaggio accettato da una MT $M$ multinastro (deterministica o meno) di complessità spaziale $S_M(n)$, allora, per ogni costante $c∈\mathbb{R}^+$, $L$ è accettato anche da un’opportuna MT $M’$ tale che $S_M′(n) <c·S_M(n)$.
 
-- **Teorema**: Dato $L$ un linguaggio accettato da una TM $M$ multinastro (deterministica o meno) di complessità spaziale $S_M(n)$, allora $L$ è accettato anche da un’opportuna MT $M’$ multinastro con $k = 1$ con la medesima complessità spaziale, concatenando i contenuti dei $k$ nastri di $M$.
+- #TEOREMA(22). Dato $L$ un linguaggio accettato da una TM $M$ multinastro (deterministica o meno) di complessità spaziale $S_M(n)$, allora $L$ è accettato anche da un’opportuna MT $M’$ multinastro con $k = 1$ con la medesima complessità spaziale, concatenando i contenuti dei $k$ nastri di $M$.
 
-- **Teorema**: Dato $L$ un linguaggio accettato da una MT $M$ multinastro (deterministica o meno) di complessità spaziale $S_M(n)$, allora, per ogni costante $c∈\mathbb{R}^+$, $L$ è accettato anche da un’opportuna MT $M’$ multinastro con $k= 1$ tale che $S_M′(n) <c·S_M(n)$.
+- #TEOREMA(23). Dato $L$ un linguaggio accettato da una MT $M$ multinastro (deterministica o meno) di complessità spaziale $S_M(n)$, allora, per ogni costante $c∈\mathbb{R}^+$, $L$ è accettato anche da un’opportuna MT $M’$ multinastro con $k= 1$ tale che $S_M′(n) <c·S_M(n)$.
 
 In generale, per la complessità temporale non si hanno risultati simili, ma è possibile formulare il seguente teorema:
 
-- **Teorema**: Dato $L$ un linguaggio accettato da una MT $M$ multinastro (deterministica o meno) di complessità temporale $T_M(n)$, allora, per ogni costante $c∈\mathbb{R}^+$, $L$ è accettato anche da un’opportuna MT $M’$ con $k+1$ nastri tale che $T_M′(n) = max\left\{n+ 1,c·T_M(n)\right\}$.
+- #TEOREMA(24). Dato $L$ un linguaggio accettato da una MT $M$ multinastro (deterministica o meno) di complessità temporale $T_M(n)$, allora, per ogni costante $c∈\mathbb{R}^+$, $L$ è accettato anche da un’opportuna MT $M’$ con $k+1$ nastri tale che $T_M′(n) = max\left\{n+ 1,c·T_M(n)\right\}$.
 
 I teoremi qui introdotti valgono anche per le moderne macchine di [[macchina di von neumann.png]], in quanto possiamo avere speedup lineari arbitrariamente grandi (ovviamente, entro i limiti fisici della termodinamica), aumentando il parallelismo, ma miglioramenti più che lineari si possono ottenere solamente modificando l’algoritmo impiegato.
 
@@ -1167,7 +1167,7 @@ Una volta analizzato il comportamento della macchina RAM, è possibile studiarne
 
 Tutto ciò conduce al seguente teorema:
 
-- **Teorema**: Una MT multinastro con complessità temporale $T_M$ può essere simulata da una macchina RAM con complessità temporale $T_R = Θ(T_M)$, secondo il criterio di costo uniforme, oppure $T_R = Θ(T_M·log(T_M))$, secondo il criterio di costo logaritmico.
+- #TEOREMA(25). Una MT multinastro con complessità temporale $T_M$ può essere simulata da una macchina RAM con complessità temporale $T_R = Θ(T_M)$, secondo il criterio di costo uniforme, oppure $T_R = Θ(T_M·log(T_M))$, secondo il criterio di costo logaritmico.
 
 Ovviamente è possibile anche simulare una macchina RAM tramite una macchina di Turing, ma tale costruzione è molto più complessa e richiede un’analisi approfondita. Si enuncia quindi solo il seguente teorema:
 
