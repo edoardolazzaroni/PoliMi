@@ -1,7 +1,0 @@
-views:
-  - type: table
-    name: Tabella
-    filters:
-      and:
-        - file.inFolder("PoliMi/copilot/skills")
-    sort: []
