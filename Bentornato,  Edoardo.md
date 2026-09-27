@@ -58,6 +58,8 @@ cellStyleRules:
 - [x] Guardare orari delle lezioni
 - [x] Caricare tavoletta grafica
 
+- ## Repository dei corsi:
+	[[Geometria e Algebra Lineare]]
 
 - ## Link utili 🔗:
 	
