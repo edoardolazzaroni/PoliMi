@@ -53,7 +53,7 @@ cellStyleRules:
  [[Guardare esercitazione GAL]]
 
 Altri impegni:
-- [ ] Smett
+ 
 - [ ] Caricare cuffie
 - [ ] Leggere almeno un capitolo
 - [x] Preparare template di Obsidian
