@@ -4,3 +4,7 @@ views:
     filters:
       and:
         - file.inFolder("PoliMi/copilot/skills")
+    order:
+      - file.name
+      - file.backlinks
+      - file.ctime
