@@ -92,6 +92,6 @@ Altri impegni:
 
 
 Calendario integrato in Obsidian, impegni conservati nella cartella [[Calendario lezioni]].
-Integrazione con Copilot (harness Opencode)
+Integrazione con Copilot (harness Opencode), dotato di [[Skills]].
 
 Questo vault è gestito e sincronizzato mediante [[publish-your-obsidian-notes-with-linked-blog-starter|Github]].
