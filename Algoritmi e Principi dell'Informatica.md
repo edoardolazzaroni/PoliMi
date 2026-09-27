@@ -1427,7 +1427,7 @@ Per utilizzare il Teorema enunciato, bisogna semplicemente determinare in quali 
 
 *ESEMPIO 1*: Si determini la soluzione della ricorrenza $T(n) = 9T(n/3) + n$. In questo caso, si ha che $a= 9,b= 3$ ed $f(n) = n$ e quindi $n^{log_b a} = n^{log_3 (9)} = Θ(n^2)$. Dato che $f(n) = O(n^{log_3 (9)−ε})$, con $ε= 1$ (in quanto $f(n) = n$), si può applicare il caso 1 del Teorema dell’Esperto e concludere immediatamente che la soluzione della ricorrenza è $T(n) = Θ(n^2)$, in quanto $n^2$ è polinomialmente più grande di $n$.
 
-*ESEMPIO 2*: Si determini la soluzione della ricorrenza $T(n) = 2T(n/2)+n \ log_2 n$. In questo caso, si ha che $a= 2,b= 2$ ed $f(n) = n^{log_2 n}$ e quindi $n^{log_b a} = n^{log_2 (2)} = n$. Si potrebbe erroneamente pensare di essere nel terzo caso del teorema dell’esperto, ma le due funzioni non sono polinomialmente comparabili quindi non si può applicare il teorema. La ricorrenza, dunque, deve necessariamente essere risolta con l’utilizzo dei metodi precedentemente analizzati.
+*ESEMPIO 2*: Si determini la soluzione della ricorrenza $T(n) = 2T(n/2)+n \ log_2 n$. In questo caso, si ha che $a= 2,b= 2$ ed $f(n) = n^{log_2 n}$ e quindi $n^{log_b a} = n^{log_2 (2)} = n$. Si potrebbe erroneamente pensare di essere nel terzo caso del Teorema dell’Esperto, ma le due funzioni non sono polinomialmente comparabili quindi non si può applicare il teorema. La ricorrenza, dunque, deve necessariamente essere risolta con l’utilizzo dei metodi precedentemente analizzati.
 
 
 
@@ -1549,7 +1549,7 @@ Il comportamento nel caso peggiore si verifica quando la subroutine partition pr
 
 Intuitivamente, se si sommano i costi ad ogni livello della ricorsione si ottiene una serie aritmetica, il cui valore è $Θ(n^2)$. Questa situazione si verifica quando l’array di partenza è già completamente ordinato.
 
-Il comportamento nel caso ottimo si verifica quando la subroutine partition produce due sottoproblemi di dimensione non maggiore di $n/2$: in questo caso il tempo di esecuzione dell’algoritmo è molto più rapido e avviene in un tempo totale $T(n) ≤2T(n/2) + Θ(n)$, che per il secondo caso del teorema dell’esperto, ha soluzione $T(n) = Θ(n \ log \ n)$. Si noti, inoltre, che nel caso in cui la partizione non fosse perfettamente bilanciata, l’algoritmo riuscirebbe comunque a riordinare l’array in un tempo $T(n) = Θ(n \ log \ n)$: questo dimostra che il `quickSort` è un algoritmo molto più vicino al caso ottimo che al caso pessimo, caso che si verifica in una sola istanza del problema (quando, appunto, è ordinato).
+Il comportamento nel caso ottimo si verifica quando la subroutine partition produce due sottoproblemi di dimensione non maggiore di $n/2$: in questo caso il tempo di esecuzione dell’algoritmo è molto più rapido e avviene in un tempo totale $T(n) ≤2T(n/2) + Θ(n)$, che per il secondo caso del Teorema dell’Esperto, ha soluzione $T(n) = Θ(n \ log \ n)$. Si noti, inoltre, che nel caso in cui la partizione non fosse perfettamente bilanciata, l’algoritmo riuscirebbe comunque a riordinare l’array in un tempo $T(n) = Θ(n \ log \ n)$: questo dimostra che il `quickSort` è un algoritmo molto più vicino al caso ottimo che al caso pessimo, caso che si verifica in una sola istanza del problema (quando, appunto, è ordinato).
 
 Il comportamento nel caso medio si verifica quando la subroutine `partition` produce una combinazione di partizioni ’buone’ e ’cattive’. Si suppone, per semplicità, che le partizioni buone e cattive si alternino all’interno dell’albero di ricorsione e che quelle buone siano tutte nel caso migliore, mentre le quelle cattive siano nel caso pessimo. Si ipotizzi che nella radice dell’albero il costo di ripartizione è $n$ e i sottoarray prodotti hanno dimensione $n−1$ e $0$ (caso pessimo), mentre nel livello successivo il partizionamento del sottoarray $n−1$ produca due array di dimensione $\frac{(n−1)}{2}$ e $\frac{(n−1)}{2−1}$ (caso migliore). Il costo di una divisione cattiva, seguito da una divisione buona è comunque $Θ(n)$, ovvero lo stesso costo di una divisione buona: intuitivamente, quindi, la coppia divisione buona/cattiva impiega lo stesso tempo totale di esecuzione $Θ(n \ log \ n)$, con l’unica differenza che cambiano le costanti moltiplicative, eclissante nella notazione asintotica.
 
@@ -1563,11 +1563,11 @@ ovvero alberi binari completi che rappresentano i confronti fra gli elementi eff
 
 La lunghezza del cammino semplice più lungo dalla radice di un albero di decisione ad una delle sue foglie rappresenta il numero di confronti che un determinato algoritmo di ordinamento deve svolgere nel caso peggiore: questo numero è equivalente all’altezza dell’albero stesso. Si introduce quindi il seguente teorema, che determina un limite inferiore sul tempo di esecuzione degli algoritmi di ordinamento per confronti:
 
-- **Teorema**: Qualsiasi algoritmo di ordinamento per confronti richiede $Ω(n \ log \ n)$ confronti nel caso peggiore. 
+- #TEOREMA(27). Qualsiasi algoritmo di ordinamento per confronti richiede $Ω(n \ log \ n)$ confronti nel caso peggiore. 
 
 Da cui deriva anche:
 
-- **Teorema**: Ogni albero di decisione di un algoritmo di ordinamento di $n$ elementi ha altezza $Ω(n \ log \ n)$.
+- #TEOREMA(28). Ogni albero di decisione di un algoritmo di ordinamento di $n$ elementi ha altezza $Ω(n \ log \ n)$.
 
 Una volta determinato il limite inferiore del tempo di esecuzione degli algoritmi di ordinamento, si introduce qui l’algoritmo counting sort, che riordina un array di dimensione $n$ in un tempo lineare $Θ(n)$.
 Tale algoritmo suppone che ciascuno degli elementi di input sia un numero intero compreso nell’intervallo da $0$ a $k∈\mathbb{N}$ e determina per ciascun di essi il numero di elementi minori; utilizza poi questa informazione per inserire l’elemento corrente direttamente nella giusta posizione nell’array di output. Ad esempio, se l’elemento $x$ è più grande di 5 altri elementi, allora verrà inserito nella posizione 6 dell’array di output.
@@ -1986,7 +1986,7 @@ I nodi dell’albero rosso nero vengono colorati tramite le seguenti regole:
 
 Si definisce a questo proposito, altezza nera di un nodo $x$, indicato con $bh(x)$, il numero di nodi neri lungo un cammino semplice che inizia dal nodo $x$ (non incluso). Per la proprietà degli alberi rosso nero, il concetto di altezza nera è ben definito in quanto tutti i cammini semplici che scendono dal nodo hanno lo stesso numero di nodi neri. In generale:
 
-- **Teorema**: l’altezza massima di un albero rosso nero con $n$ nodi è $2 \ log_2(n+ 1)$.
+- #TEOREMA(30). L’altezza massima di un albero rosso nero con $n$ nodi è $2 \ log_2(n+ 1)$.
 
 La conseguenza immediata di questo teorema è che le operazioni sugli insiemi dinamici possono tutte essere implementate in un tempo $O(log_2 \ n)$ negli alberi rosso neri, perchè possono essere eseguite nel tempo $O(h)$ in un albero binario di ricerca di altezza $h$ e qualsiasi albero rosso nero di $n$ nodi è un albero binario di ricerca di altezza $O(log_2 \ n)$.
 
