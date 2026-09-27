@@ -1530,4 +1530,4 @@ Vediamo ora come in generale si traduce l'idea precedente in un algoritmo.
 
 #### 5.4.1 **Sistemi $n\times n$. Il caso dei pivot tutti diversi da zero. Fattorizzazione LU di una matrice quadrata**
 
-Introduciamo anzitutto qualche notazione matriciale che ci servirà a rappresentare le 
+Introduciamo anzitutto qualche notazione matriciale che ci servirà a rappresentare le operazioni elementari che trasformano il sistema in uno ad esso equivalente.
