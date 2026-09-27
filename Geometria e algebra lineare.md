@@ -1518,4 +1518,8 @@ Si comincia col determinare un sistema equivalente (stesse soluzioni) eliminando
 	${\begin{cases}2x+y+z=1\\-y-2z=-4\\-4z=-16\end{cases}}$
 	
 	gli altri pivot sono $d_{2}=-1,d_{3}=-4$.
-	La soluzione è ora immediata: 
+	
+	La soluzione è ora immediata: $z=4,y=-4,x=\frac{1}{2}$.
+
+
+Si capisce facilmente come il metodo sia generalizzabile ad un sistema di $n$ equazioni in $n$ incognite, dove possiamo sempre supporre 
