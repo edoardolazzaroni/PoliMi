@@ -91,5 +91,5 @@ Altri impegni:
 
 
 Calendario integrato in Obsidian, impegni conservati nella cartella [[Calendario lezioni]]
-Per utilizzare agenti AI e riguardare le conversazioni precedenti, aprire la cartella {{copilot}}  #copilot-conversation; [[copilot]] per modificare le skills, aprire la cartella [[PoliMi/copilot/skills/obsidian-bases/SKILL|SKILL]].
+Per utilizzare agenti AI e riguardare le conversazioni precedenti, aprire la cartella #copilot-conversation; [[copilot]] per modificare le skills, aprire la cartella [[PoliMi/copilot/skills/obsidian-bases/SKILL|SKILL]].
 Questo vault è gestito e sincronizzato mediante [[publish-your-obsidian-notes-with-linked-blog-starter|Github]].
