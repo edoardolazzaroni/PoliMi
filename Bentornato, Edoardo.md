@@ -96,7 +96,7 @@ Per utilizzare agenti AI e riguardare le conversazioni precedenti, aprire la car
 
 ````dataviewjs
 list
-from "skills"
+from "PoliMi"
 ````
 
 Questo vault è gestito e sincronizzato mediante [[publish-your-obsidian-notes-with-linked-blog-starter|Github]].
