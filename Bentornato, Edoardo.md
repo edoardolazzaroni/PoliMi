@@ -45,7 +45,6 @@ cellStyleRules:
 
 ```
 
-Questo vault è gestito mediante 
 
 - ## Impegni del giorno 📋 :
 
@@ -88,3 +87,6 @@ Altri impegni:
 		- Finire Power
 		- Ridurre l'utilizzo di Instagram a massimo 30 min al giorno
 		- Iniziare a lavorare ad Hært
+
+
+Questo vault è gestito mediante [[publish-your-obsidian-notes-with-linked-blog-starter|Github]].
