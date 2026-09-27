@@ -742,18 +742,18 @@ Quindi, riepilogando, si dice che un insieme $S$ è:
 		– $S$ è l’immagine di una funzione $g_S$ totale e computabile (detta generatrice); quindi, $S= I_{g_S} = \left\{g_S(0),g_s(1),g_S(2),...\right\}$
 
 
-- **Teorema**: Per ogni insieme $S$, se $i∈S$ implica che $f_i$ sia totale e se per ogni funzione $f$ totale e computabile, esiste $i∈S |f= f_i$, allora $S$ non è ricorsivamente enumerabile.
+- #TEOREMA(16). Per ogni insieme $S$, se $i∈S$ implica che $f_i$ sia totale e se per ogni funzione $f$ totale e computabile, esiste $i∈S |f= f_i$, allora $S$ non è ricorsivamente enumerabile.
 
 Informalmente, questo teorema stabilisce che tutte le funzioni totali computabili non sono ricorsivamente enumerabili (mentre le funzioni parziali computabili lo sono). Dunque, tale teorema afferma implicitamente che non esiste nessun formalismo ricorsivamente enumerabile in grado di definire tutte e sole le funzioni totali e computabili: infatti, gli FSA sono in grado di definire le funzioni totali, ma non tutte, le MT definiscono tutte le funzioni computabili, ma anche quelle non totali, e un linguaggio di programmazione (come il *C*) è in grado di definire tutti gli algoritmi, ma anche anche quelli che non terminano mai.
 
 Si cerca quindi di comprendere se sia possibile eliminare le funzioni non totali: per far ciò, si prenda in considerazione una generica funzione parziale, ad esempio, arricchendo $\mathbb{N}$ con il valore $\left\{⊥\right\}$ o con qualsiasi altro simbolo che indichi che la funzione non è definita per certi valori. Tale trasformazione da funzione parziale a totale, però, non può essere applicata perchè nel passaggio è possibile perdere la computabilità della funzione. Questo risultato è enunciato nel seguente teorema:
 
-- **Teorema**: Non esiste una funzione totale e computabile $h$ che sia un’estensione della seguente funzione: $g(x) =$ `if` $f_x(x)\ne ⊥$`then`$f_x(x) + 1$ `else`$⊥$
+- #TEOREMA(17). Non esiste una funzione totale e computabile $h$ che sia un’estensione della seguente funzione: $g(x) =$ `if` $f_x(x)\ne ⊥$`then`$f_x(x) + 1$ `else`$⊥$
 
 Tale teorema, afferma quindi che non è possibile estendere una funzione parziale ad una totale, in quanto si potrebbe perdere la sua computabilità.
 Vale anche il seguente risultato:
 
-- **Teorema**: Un insieme $S$ è ricorsivamente enumerabile se e solo se $S= D_h$, in cui $h$ è una funzione parziale e computabile $(S= \left\{x|h(x) \ne ⊥\right\})$, oppure se e solo se $S= I_g$, in cui $g$ è una funzione parziale e computabile $(S= \left\{x|x= g(y),y∈\mathbb{N}\right\})$.
+- #TEOREMA(18). Un insieme $S$ è ricorsivamente enumerabile se e solo se $S= D_h$, in cui $h$ è una funzione parziale e computabile $(S= \left\{x|h(x) \ne ⊥\right\})$, oppure se e solo se $S= I_g$, in cui $g$ è una funzione parziale e computabile $(S= \left\{x|x= g(y),y∈\mathbb{N}\right\})$.
 
 Quindi, dato l’insieme $K= \left\{x|f(x) \ne ⊥ \right\}$questo è semidecidibile perchè $K= D_h$, con $h(x) = f_x(x)$, ma è anche indecidibile in quanto la funzione caratteristica dell’insieme $K$, definita come $c_K(x) =$ `if` $f_x(x) \ne ⊥$ `then` $1$ `else` $0$, non è computabile. Si è appena dimostrato che esistono insiemi che sono semidecidibili, ma allo stesso tempo indecidibili.
 
@@ -767,7 +767,7 @@ Si noti che tutte le inclusioni sono strette.
 
 ### **5.7 Teoremi di Kleene e Rice**
 
-- **Teorema di Kleene del punto fisso**: Sia $t$ una qualunque funzione totale e computabile. Allora è sempre possibile trovare un intero $p$, tale per cui: $f_p = f_t(p)$
+-  di Kleene del punto fisso**: Sia $t$ una qualunque funzione totale e computabile. Allora è sempre possibile trovare un intero $p$, tale per cui: $f_p = f_t(p)$
   La funzione $f_p$ è detta punto fisso di $t$, perchè $t$ trasforma $f_p$ in $f_p$ stessa.
 
 - **Teorema di Rice**: Sia $F$ un insieme generico di funzioni computabili. L’insieme $S= \left\{x |f_x ∈F\right\}$degli indici delle MT che calcolano le funzioni di $F$, è ricorsivo se e solo se $F= ∅$ oppure $F$ è l’insieme di tutte le funzioni computabili.
