@@ -47,10 +47,13 @@ cellStyleRules:
 
 - ## Impegni del giorno 📋 :
 
-[[kanban-default.base|Kanban (elenco tasks)]]
+[[kanban-default.base|Kanban (elenco tasks)]]:
+
  [[Finire capitolo 5 di GAL]]
  [[Guardare esercitazione GAL]]
 
+Altri impegni:
+- [ ] Smett
 - [ ] Caricare cuffie
 - [ ] Leggere almeno un capitolo
 - [x] Preparare template di Obsidian
