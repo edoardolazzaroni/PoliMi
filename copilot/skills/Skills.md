@@ -1,4 +1,4 @@
-<p align="right">#INDEX of all Copilot skills w examples/references</p>
+<p align="center">#INDEX of all Copilot skills w examples/references</p>
 
 [[PoliMi/copilot/skills/copilot-fetch-x/SKILL|copilot-fetch-x]]
 [[PoliMi/copilot/skills/copilot-read-pdf/SKILL|copilot-read-pdf]]
@@ -8,3 +8,4 @@
 [[PoliMi/copilot/skills/json-canvas/SKILL|json-canvas]] [[PoliMi/copilot/skills/json-canvas/references/EXAMPLES|EXAMPLES]]
 [[PoliMi/copilot/skills/obsidian-bases/SKILL|obsidian-bases]] [[PoliMi/copilot/skills/obsidian-bases/references/EXAMPLES|EXAMPLES]] [[FUNCTIONS_REFERENCE]]
 [[PoliMi/copilot/skills/obsidian-cli/SKILL|obsidian-cli]]
+[[PoliMi/copilot/skills/obsidian-markdown/SKILL|obsidian-markdown]] [[markdown]]
