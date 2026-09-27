@@ -48,7 +48,7 @@ cellStyleRules:
 - ## Impegni del giorno 📋 :
 
  [[Finire capitolo 5 di GAL]]
- [[Finire]]
+ [[Guardare esercitazione GAL]]
 
 - [ ] Caricare cuffie
 - [ ] Leggere almeno un capitolo
