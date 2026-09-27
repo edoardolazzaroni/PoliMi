@@ -92,6 +92,6 @@ Altri impegni:
 
 
 Calendario integrato in Obsidian, impegni conservati nella cartella [[Calendario lezioni]].
-Per utilizzare agenti AI e riguardare le conversazioni precedenti, aprire la cartella per modificare 
+Integrazione con Copilot (harness Opencode)
 
 Questo vault è gestito e sincronizzato mediante [[publish-your-obsidian-notes-with-linked-blog-starter|Github]].
