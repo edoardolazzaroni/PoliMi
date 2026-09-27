@@ -47,6 +47,7 @@ cellStyleRules:
 
 - ## Impegni del giorno 📋 :
 
+[[kanban-default.base]]
  [[Finire capitolo 5 di GAL]]
  [[Guardare esercitazione GAL]]
 
@@ -81,4 +82,4 @@ cellStyleRules:
 		- Ricominciare palestra (2/3 volte a settimana)
 		- Finire Power
 		- Ridurre l'utilizzo di Instagram a massimo 30 min al giorno
-		- Iniziare a lavorare ad 
+		- Iniziare a lavorare ad Hært
