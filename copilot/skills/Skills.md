@@ -1,4 +1,4 @@
-<p align="center">#INDEX of all Copilot skills w examples/references</p>
+#INDEX of all Copilot skills w examples/references
 
 [[PoliMi/copilot/skills/copilot-fetch-x/SKILL|copilot-fetch-x]]
 [[PoliMi/copilot/skills/copilot-read-pdf/SKILL|copilot-read-pdf]]

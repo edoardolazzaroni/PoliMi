@@ -1,3 +1,5 @@
+#INDEX of all scheduled lessons/exams
+
 [[(Every M) GAL (B.3.4)]]
 [[(Every M) Fondamenti di Elettronica (9.1.2)]]
 [[(Every T) ACSO (B.3.4)]]
