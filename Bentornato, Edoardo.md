@@ -1,10 +1,8 @@
 
 ___
 
-> [!quote] Per aspera ad astra.
-> 
 
-> [!tip]
+> [!hint]
 > Per aspera ad astra.
 
 
