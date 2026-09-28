@@ -1559,4 +1559,6 @@ ${\begin{pmatrix}2&-1&1\\4&1&0\\1&-3&5\end{pmatrix}}{\begin{pmatrix}x\\y \\  z\e
 
 La prima operazione (si sottrae dalla seconda eq. la prima moltiplicata per $2$) può essere realizzata mediante premoltiplicazione della matrice dei coefficienti e del vettore dei termini noti per la matrice elementare:
 
-$\mathbf{E}_{21}(-2)={\begin{pmatrix}1&0&0 \\  -2&1&0 \\  \end{pmatrix}}$
+$\mathbf{E}_{21}(-2)={\begin{pmatrix}1&0&0 \\  -2&1&0 \\  0&0&1\end{pmatrix}}$
+
+Analogamente, la seconda e terza operazione (si somma alla terza eq. la prima, si ignora la prima equazione e si elimina l'incognita $y$ dalla terza equazione). si r
