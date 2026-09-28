@@ -1616,4 +1616,5 @@ Nel primo caso (a) la difficoltà è più seria: la matrice $\mathbf{A}$ è <u>s
 
 Nel secondo caso (b) la difficoltà si supera facilmente scambiando le righe $k$ e $l$ ed il procedimento di eliminazione può continuare. Se proseguendo non ci si trova mai nel primo caso (a), l'eliminazione si può portare a termine.
 Per quanto riguarda la fattorizzazione, lo scambio di due righe $k$ e $l$ si effettua premoltiplicando per la matrice di permutazione $\mathbf{P}_{kl}$ ottenuta dalla matrice identità scambiando quelle due righe. Nella fattorizzazione intervengono allora le matrici di permutazione $\mathbf{P}_{kl}^{-1}=\mathbf{P}_{lk}$ che non mantengono la forma triangolare delle $\mathbf{E}_{ij}(q)$. Il prodotto di tali matrici non è triangolare bassa. La fattorizzazione può tuttavia essere quasi del tutto recuperata utilizzando la seguente osservazione.
-Esaminiamo la lista di scambi tra righe necessari per portare a termine l'eliminazione ed eseguiamole prima di incominciarla. In altri termini, rimpi
+Esaminiamo la lista di scambi tra righe necessari per portare a termine l'eliminazione ed eseguiamole prima di incominciarla. In altri termini, rimpiazziamo la matrice originale $\mathbf{A}$ con una matrice $\mathbf{PA}$, dove $\mathbf{P}$ realizza tutte le permutazioni richieste di righe.
+$\mathbf{P}$ è il prodotto di matrici $\mathbf{P}$
