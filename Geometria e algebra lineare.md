@@ -1583,4 +1583,4 @@ Possiamo quindi scrivere: $\mathbf{A}=\mathbf{L}\mathbf{U}:{\begin{pmatrix}2&1&1
 
 La matrice $\mathbf{A}$ è stata quindi fattorizzata nel prodotto di due matrici triangolari. Le due matrici $\mathbf{L}$ ed $\mathbf{U}$ sono univocamente determinate. Infatti se $\mathbf{A}=\mathbf{L}\mathbf{U}=\mathbf{L}'\mathbf{U}'$, con $\mathbf{L}'$ ed $\mathbf{U}'$ rispettivamente triangolare bassa ed alta, si ha anche: $(\mathbf{L}')^{-1}\mathbf{L}=\mathbf{U}'\mathbf{U}^{-1}$.
 
-Ora $(\mathbf{L}')^{-1}$ ed $(\mathbf{L}')^{-1}$
+Ora $(\mathbf{L}')^{-1}$ ed $(\mathbf{L}')^{-1}\mathbf{L}$ sono triangolari basse mentre $\mathbf{U}^{-1}$ ed $\mathbf{U}'\mathbf{U}^{-1}$ sono triangola
