@@ -1733,4 +1733,6 @@ Si noti che dal [[#4.3 **Determinante**|Teorema di Binet]] segue che <u>due matr
 Diamo ora una definizione generale:
 
 - #DEFINIZIONE(16). Diremo che una matrice quadrata $\mathbf{A}$ a elementi in $\mathbb{K}$ (dove $\mathbb{K}=\mathbb{R} \ o \ \mathbb{C}$) è **diagonalizzabile** (su $\mathbb{K}$) se esistono due matrici $\mathbf{\Lambda}$ e $\mathbf{S}$ (a elementi in $\mathbb{K}$), $\mathbf{\Lambda}$ diagonale e $\mathbf{S}$ non singolare, tali che: $\quad \mathbf{A}=\mathbf{S}\mathbf{\Lambda}\mathbf{S}^{-1}$.
-	La matrice $\mathbf{S}$ si dice matrice di pas
+	La matrice $\mathbf{S}$ si dice <u>matrice di passaggio</u>.
+
+In questo caso esiste una base di $\mathbb{K}^n$ in cui la trasformazione che rispetto alla base canonica si rappresentava con la matrice $\mathbf{A}$, si rappresenta invece con una 
