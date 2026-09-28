@@ -1719,4 +1719,6 @@ e perciò la trasformazione $\mathcal{L}$ nella nuova base è rappresentata dall
 
 								$\mathbf{\tilde{A}}=\mathbf{S}^{-1}\mathbf{A}\mathbf{S}$
 
-Si dice che due matrici $\mathbf{A},\mathbf{\tilde{A}}$ legate da quest'ultima relazione 
+Si dice che due matrici $\mathbf{A},\mathbf{\tilde{A}}$ legate da quest'ultima relazione (con $\mathbf{S}$ ovviamente matrice invertibile) sono **SIMILI**, o **EQUIVALENTI**.
+
+Si noti che dal [[]]
