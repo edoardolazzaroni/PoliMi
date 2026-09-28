@@ -1725,4 +1725,8 @@ Si noti che dal [[#4.3 **Determinante**|Teorema di Binet]] segue che <u>due matr
 
 È utile evidenziare anche un'altra proprietà legata a questa:
 
-- #PROPOSIZIONE (9)
+- #PROPOSIZIONE(9). **Due matrici simili hanno la stessa caratteristica**.
+	
+	*Dimostrazione* su libro.
+
+Diamo ora una definizione generale.
