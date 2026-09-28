@@ -1648,4 +1648,9 @@ Essendoci solo zeri nell'ultima riga, il processo di eliminazione è finito. La 
 
 
 Come prima, a partire da $\mathbf{U}$ possiamo ricostruire la matrice $\mathbf{A}$ premoltiplicando $\mathbf{U}$ per le inverse delle matrici elementari $\mathbf{E}_{ij}(q)$. Il prodotto $\mathbf{L}$ di queste ultime è una matrice quadrata e triangolare bassa di ordine $m$, il numero di righe di $\mathbf{A}$.
-Essendo $\mathbf{L}$ invertibile, $\mathbf{A}=\mathbf{U}\mathbf{U}$
+Essendo $\mathbf{L}$ invertibile, $\mathbf{A}=\mathbf{L}\mathbf{U}$ ha lo stesso rango di $\mathbf{U}$.
+Nel caso siano necessari scambi di righe nulla cambia rispetto al caso di una matrice quadrata, con l'introduzione della matrice di permutazione $\mathbf{P}$.
+
+Riassumiamo le conclusioni:
+
+- #PROPOSIZIONE (8)
