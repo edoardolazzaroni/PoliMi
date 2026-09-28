@@ -1735,4 +1735,7 @@ Diamo ora una definizione generale:
 - #DEFINIZIONE(16). Diremo che una matrice quadrata $\mathbf{A}$ a elementi in $\mathbb{K}$ (dove $\mathbb{K}=\mathbb{R} \ o \ \mathbb{C}$) è **diagonalizzabile** (su $\mathbb{K}$) se esistono due matrici $\mathbf{\Lambda}$ e $\mathbf{S}$ (a elementi in $\mathbb{K}$), $\mathbf{\Lambda}$ diagonale e $\mathbf{S}$ non singolare, tali che: $\quad \mathbf{A}=\mathbf{S}\mathbf{\Lambda}\mathbf{S}^{-1}$.
 	La matrice $\mathbf{S}$ si dice <u>matrice di passaggio</u>.
 
-In questo caso esiste una base di $\mathbb{K}^n$ in cui la trasformazione che rispetto alla base canonica si rappresentava con la matrice $\mathbf{A}$, si rappresenta invece con una 
+In questo caso esiste una base di $\mathbb{K}^n$ in cui la trasformazione che rispetto alla base canonica si rappresentava con la matrice $\mathbf{A}$, si rappresenta invece con una matrice diagonale.
+Nella nuova base, quindi, la trasformazione è più semplice da studiare, quanto ha forma diagonale.
+
+Il problema che ci poniamo è quindi: data una matrice, decidere se essa è diagonalizzabile, e in caso affermativo determinare la matrice diagonale e la matrice di passaggio. Questo p
