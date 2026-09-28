@@ -1738,4 +1738,5 @@ Diamo ora una definizione generale:
 In questo caso esiste una base di $\mathbb{K}^n$ in cui la trasformazione che rispetto alla base canonica si rappresentava con la matrice $\mathbf{A}$, si rappresenta invece con una matrice diagonale.
 Nella nuova base, quindi, la trasformazione è più semplice da studiare, quanto ha forma diagonale.
 
-Il problema che ci poniamo è quindi: data una matrice, decidere se essa è diagonalizzabile, e in caso affermativo determinare la matrice diagonale e la matrice di passaggio. Questo p
+Il problema che ci poniamo è quindi: data una matrice, decidere se essa è diagonalizzabile, e in caso affermativo determinare la matrice diagonale e la matrice di passaggio. Questo problema è legato ad un altro, che ora introdurremo, quello della ricerca di **autovalori** e **autovettori** della matrice.
+Notiamo esplicitamente quanto segue: poichè i numeri reali sono particolari 
