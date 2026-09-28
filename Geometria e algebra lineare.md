@@ -1739,4 +1739,4 @@ In questo caso esiste una base di $\mathbb{K}^n$ in cui la trasformazione che ri
 Nella nuova base, quindi, la trasformazione è più semplice da studiare, quanto ha forma diagonale.
 
 Il problema che ci poniamo è quindi: data una matrice, decidere se essa è diagonalizzabile, e in caso affermativo determinare la matrice diagonale e la matrice di passaggio. Questo problema è legato ad un altro, che ora introdurremo, quello della ricerca di **autovalori** e **autovettori** della matrice.
-Notiamo esplicitamente quanto segue: poichè i numeri reali sono particolari 
+Notiamo esplicitamente quanto segue: poichè i numeri reali sono particolari numeri complessi, una matrice $(n,n)$ a elementi reali può vedersi sia come trasformazione lineare di $\mathbb{R}^n$ in sè che come trasformazione lineare di $\mathbb{C}^n$ in sè; 
