@@ -1571,4 +1571,8 @@ che è triangolare bassa. Poniamo poi: $\mathbf{U}=\mathbf{E}_{32}(3)\mathbf{E}_
 
 che è triangolare alta ed ha sulla diagonale principale i pivot. Abbiamo dunque $\mathbf{A}=\mathbf{L}\mathbf{U}$
 dove $\mathbf{L}=\mathbf{E}_{21}(-2)^{-1}\mathbf{E}_{31}(1)^{-1}\mathbf{E}_{32}(3)^{-1}$.
-Si può controllare facilmente che le inverse 
+
+Si può controllare facilmente che le inverse $\mathbf{E}_{ij}(q)$ si ottengono semplicemente sostituendo $-q$ a $q$, cioè:
+
+$\mathbf{E}_{ij}(q)^{-1}=\mathbf{E}_{ij}(-q)$
+
