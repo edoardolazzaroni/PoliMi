@@ -1656,4 +1656,6 @@ Riassumiamo le conclusioni:
 - #PROPOSIZIONE(8). Sia $\mathbf{A}$ una matrice $m\times n$. Esistono una matrice di permutazione $\mathbf{P}$, una matrice quadrata $\mathbf{L}$ di ordine $m$, triangolare bassa, ed una matrice $\mathbf{U}$ di ordine $m\times n$, trapezoidale alta, tali che $\mathbf{PA}=\mathbf{LU}$
 	Inoltre, $rk(\mathbf{U})=rk(\mathbf{A})$.
 
-Il sistema $\mathbf{A}\mathbf{x}=\mathbf{b}$
+Il sistema $\mathbf{A}\mathbf{x}=\mathbf{b}$ è equivalente al sistema trapezoidale $\mathbf{U}\mathbf{x}=\mathbf{L}^{-1}\mathbf{P}\mathbf{b}$.
+
+Una volta arrivati alla forma trapezoidale ($\mathbf{U}\mathbf{x}=\mathbf{L}^{-1}\mathbf{P}\mathbf{b}$)
