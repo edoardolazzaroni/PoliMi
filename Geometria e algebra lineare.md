@@ -1712,4 +1712,4 @@ Infatti, se la matrice $\mathbf{S}=(s_{ij})$ ha per colonne le rappresentazioni 
 
 									$\mathbf{x}=\sum_{j=1}^n \tilde{x}_{j}\mathbf{\tilde{e}}_{j}$
 
-ricaviamo: $x_{i}=\sum_{j=1}^n \tilde{x}_{j}(\mathb)$
+ricaviamo: $x_{i}=\sum_{j=1}^n \tilde{x}_{j}(\mathbf{\tilde{e}}_{j})_{i}=\sum_{j=1}^n \tilde{x}_{j}s_{ij}$, ossia $\mathbf{x}=\mathbf{S}^{-1}\mathbf{x}$
