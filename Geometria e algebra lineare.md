@@ -1600,5 +1600,6 @@ Riassumiamo generalizzando ad una matrice quadrata di ordine $n$:
 
 Di conseguenza:
 
-- #PROPOSIZIONE(6), #COROLLARIO(2). Nelle ipotesi della Proposizione precedente il sistema (di $n$ equazioni in $n$ incognite) $\mathbf{A}\mathbf{x}=\mathbf{b}$
-	è equivalente al sistema triangolare alto $\mathbf{U}\mathbf{x}=\mathbf{L}^$
+- #PROPOSIZIONE(6), #COROLLARIO(2). Nelle ipotesi della Proposizione precedente il sistema (di $n$ equazioni in $n$ incognite) $\mathbf{A}\mathbf{x}=\mathbf{b}$ è equivalente al sistema triangolare alto $\mathbf{U}\mathbf{x}=\mathbf{L}^{-1}\mathbf{b}$ ed ha <u>esattamente una soluzione</u>.
+
+Infatti, essendo $\mathbf{U}\mathbf{x}=\mathbf{L}^{-1}\mathbf{b}$ triangolare e con elementi $1$ sulla diagonale, 
