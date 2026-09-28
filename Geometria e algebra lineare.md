@@ -1619,4 +1619,6 @@ Per quanto riguarda la fattorizzazione, lo scambio di due righe $k$ e $l$ si eff
 Esaminiamo la lista di scambi tra righe necessari per portare a termine l'eliminazione ed eseguiamole prima di incominciarla. In altri termini, rimpiazziamo la matrice originale $\mathbf{A}$ con una matrice $\mathbf{PA}$, dove $\mathbf{P}$ realizza tutte le permutazioni richieste di righe.
 $\mathbf{P}$ è il prodotto di matrici $\mathbf{P}_{kl}$ e contiene esattamente un $1$ in ogni riga. La matrice $\mathbf{PA}$ ammette la fattorizzazione $\mathbf{LU}$ con pivot tutti diversi da zero.
 
-- #PROPOSIZIONE(7). Se $\mathbf{A}$ è non singolare esiste
+- #PROPOSIZIONE(7). Se $\mathbf{A}$ è <u>non singolare</u> esiste una matrice di permutazione $\mathbf{P}$ tale che la matrice $\mathbf{PA}$ ammette la fattorizzazione $\mathbf{PA}=\mathbf{LU}$ (con tutti i pivot diversi da zero).
+
+- #
