@@ -1653,4 +1653,4 @@ Nel caso siano necessari scambi di righe nulla cambia rispetto al caso di una ma
 
 Riassumiamo le conclusioni:
 
-- #PROPOSIZIONE (8)
+- #PROPOSIZIONE(8). Sia $\mathbf{A}$ una matrice $m\times n$. Esistono una matrice di permutazione $\mathbf{P}$, una matrice quadrata $\mathbf{L}$ di ordine $m$, triangolare bassa, ed una matrice $\mathbf{U}$ di ordine $m\times n$, trapezoidale alta, tali che
