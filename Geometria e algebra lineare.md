@@ -1646,4 +1646,5 @@ Si ottiene così la matrice: $\mathbf{U}={\begin{pmatrix}1&3&3&2&0 \\  0&0&3&-3&
 Si considera ora la terza colonna dove si riconosce che il nuovo pivot è $8$.
 Essendoci solo zeri nell'ultima riga, il processo di eliminazione è finito. La forma finale di $\mathbf{U}$ è triangolare alta (in questo caso detta anche <u>trapezoidale alta</u>) con pivot uguali a $1$ (prima riga), $3$ (seconda riga) e $8$ (terza riga) non nulli.
 
-Come prima, a partire da 
+
+Come prima, a partire da $\mathbf{U}$ possiamo ricostruire la matrice $\mathbf{A}$ premoltiplicando $\mathbf{U}$ per le inverse delle matrici elementari $\mathbf{E}_{ij}(q)$. Il prodotto ele
