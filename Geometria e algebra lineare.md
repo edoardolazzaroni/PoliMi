@@ -1664,4 +1664,7 @@ Tornando all'esempio, poichè vi sono tre pivot non nulli, $rk(\mathbf{A})=3$.
 Una prima conclusione è che il sistema omogeneo finale: ${\begin{cases}x_{1}+3x_{2}+3x_{3}+2x_{4}=0 \\  3x_{3}-3x_{4}-6x_{5}=0 \\  8x_{4}+10x_{5}=0 \\  0=0\end{cases}}$
 equivale al sistema triangolare: ${\begin{cases}x_{1}+3x_{3}+2x_{4}=-3x_{2} \\  3x_{3}-3x_{4}=6x_{5} \\  8x_{4}=-10x_{5}\end{cases}}$
 
-ottenuto
+ottenuto lasciando a primo membro le variabili corrispondendi ai pivot non nulli.
+Si vede che esistono $\infty^2$ soluzioni, essendo $x_{2},x_{5}$ variabili libere.
+
+La risolubilità del sistema non omogeneo si legge dalle righe di zeri. Per s
