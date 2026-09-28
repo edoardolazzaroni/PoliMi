@@ -1630,4 +1630,6 @@ Esaminiamo ora il caso di un sistema generale di $m$ equazioni in $n$ incognite 
 Il metodo di eliminazione di Gauss si può applicare anche in questo caso.
 Quando però tutto viene riletto in termini di fattorizzazione della matrice $\mathbf{A}$, si presenta qualche differenza.
 
-Ci serviamo di un *esempio* di $4$ eq. in $5$
+Ci serviamo di un *esempio* di $4$ eq. in $5$ incognite, ma lavorando direttamrnte sulla matrice dei coefficienti del sistema, che supponiamo sia:
+
+$\mathbf{A}={\begin{pmatrix}1&3&3&2&0 \\  2&6&9&1&-6 \\  -1&-3&3&0&-2 \\  \end{pmatrix}}$
