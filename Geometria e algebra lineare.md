@@ -1681,3 +1681,4 @@ che evidentemente non ha soluzione. Ciò riflette il fatto che il vettore $\math
 
 ### 6.1 **Matrici diagonalizzabili**
 
+Consideriamo una trasformazione $\mathcal{L}$ da $
