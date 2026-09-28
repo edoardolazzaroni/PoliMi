@@ -1581,4 +1581,6 @@ Perciò: $\mathbf{L}={\begin{pmatrix}1&0&0 \\  2&1&0 \\  0&0&1\end{pmatrix}}{\be
 che è triangolare bassa, ha gli elementi della diagonale principale tutti uguali a $1$, gli altri elementi $q_{ij}$ sono gli opposti degli elementi $i,j$ che compaiono nelle matrici $\mathbf{E}_{ij}(q)$ utilizzate per costuire $\mathbf{L}$.
 Possiamo quindi scrivere: $\mathbf{A}=\mathbf{L}\mathbf{U}:{\begin{pmatrix}2&1&1\\4&1&0\\-2&2&1\end{pmatrix}}={\begin{pmatrix}1&0&0 \\  2&1&0 \\  -1&-3&1\end{pmatrix}}{\begin{pmatrix}2&1&1 \\  0&-1&-2 \\  0&0&-4\end{pmatrix}}$
 
-La matrice $\mathbf{A}$ è stata quindi fattorizzata nel prodotto di due matrici triangolari. Le due matrici $\mathbf{L}$ ed $\mathbf{U}$ sono univocamente determinate. Infatti se $\mathbf{A}=\mathbf{L}\mathbf{U}=\mathbf{L}'\mathbf{U}'$, con $\mathbf{L}'$ ed $\mathbf{U}'$ rispettivamente triangolare bassa ed alta, si ha anche: $()$
+La matrice $\mathbf{A}$ è stata quindi fattorizzata nel prodotto di due matrici triangolari. Le due matrici $\mathbf{L}$ ed $\mathbf{U}$ sono univocamente determinate. Infatti se $\mathbf{A}=\mathbf{L}\mathbf{U}=\mathbf{L}'\mathbf{U}'$, con $\mathbf{L}'$ ed $\mathbf{U}'$ rispettivamente triangolare bassa ed alta, si ha anche: $(\mathbf{L}')^{-1}\mathbf{L}=\mathbf{U}'\mathbf{U}^{-1}$.
+
+Ora $(\mathbf{L}')^{-1}$ ed $(\mathbf{L}')^{-1}$
