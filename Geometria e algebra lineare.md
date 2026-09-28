@@ -1543,4 +1543,4 @@ Introduciamo anzitutto qualche notazione matriciale che ci servirà a rappresent
 	$\mathbf{A}\mathbf{P}_{jk}={\begin{pmatrix}3&1&5\\4&1&0\\-2&2&1\end{pmatrix}}\begin{pmatrix}0&0&1\\0&1&0\\1&0&0\end{pmatrix}={\begin{pmatrix}5&1&3\\0&1&4\\1&2&-2\end{pmatrix}}$
 
 
-- **Matrici elementari**: introduciamo ora delle matrici che servono invece a rappresentare l'operazione di sommare o sottrarre ad un'equazione un multiplo di un'altra equazione. Indichiamo con $\mathbf{E}_{ij}(q)$ la matrice costruita sostituendo nella matrice identità lo zero 
+- **Matrici elementari**: introduciamo ora delle matrici che servono invece a rappresentare l'operazione di sommare o sottrarre ad un'equazione un multiplo di un'altra equazione. Indichiamo con $\mathbf{E}_{ij}(q)$ la matrice costruita sostituendo nella matrice identità lo zero in posizione $ij,i>j$, con il numero $q$. Pre/post moltiplicando una matrice $\mathbf{A}$ per $\mathbf{E}_{ij}(q)$ si aggiunge alla riga/colonna $i$ il multiplo $q$
