@@ -1681,4 +1681,4 @@ che evidentemente non ha soluzione. Ciò riflette il fatto che il vettore $\math
 
 ### 6.1 **Matrici diagonalizzabili**
 
-Consideriamo una trasformazione $\mathcal{L}$ da $
+Consideriamo una trasformazione $\mathcal{L}$ da $\mathbb{R}^n$ a $\mathbb{R}^n$. La rappresentazione di $\mathcal{L}$ per mezzo di una matrice $\mathbf{A}$ (in questo caso quadrata di ordine $n$) dipende dalla scelta della base in $\mathbb{R}^n$.
