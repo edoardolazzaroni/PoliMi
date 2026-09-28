@@ -1702,4 +1702,4 @@ La matrice $\mathbf{S}=(\mathbf{\tilde{e}}^1|\mathbf{\tilde{e}}^{2}|\cdots|\math
 
 Poichè i vettori $\mathbf{\tilde{e}}^i$ sono indipendenti, $\det\mathbf{S}\ne 0$, quindi $\mathbf{S}$ è invertibile, e possiamo anche scrivere:
 $\mathbf{e}^i=\mathbf{S}^{-1}\mathbf{\tilde{e}}^i$
-Se qu
+Se quindi un vettore di $\mathbb{R}^n$ ha, rispetto alla base canonica, le coordinate $\mathbf{x}=(x_{1},x_{2},\cdots,x_{n})$, nella nuova base avrà coordinate $\mathbf{\tilde{x}}$
