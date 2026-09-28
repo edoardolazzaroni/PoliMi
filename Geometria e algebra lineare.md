@@ -1532,4 +1532,7 @@ Vediamo ora come in generale si traduce l'idea precedente in un algoritmo.
 
 Introduciamo anzitutto qualche notazione matriciale che ci servirà a rappresentare le operazioni elementari che trasformano il sistema in uno ad esso equivalente.
 
-- **Matrici di permutazione**: prendiamo la matrice identità di ordine $n$ e scambiamo le due righe $j$ e $k$: indichiamo la nuova matrice con $\mathbf{P}_{jk}$. Sia ora $\mathbf{A}$ una matrice di ordine $n\times n$: allora la 
+- **Matrici di permutazione**: prendiamo la matrice identità di ordine $n$ e scambiamo le due righe $j$ e $k$: indichiamo la nuova matrice con $\mathbf{P}_{jk}$. Sia ora $\mathbf{A}$ una matrice di ordine $n\times n$: allora la matrice $\mathbf{P}_{jk}\mathbf{A}$ si ottiene da $\mathbf{A}$ scambiando le righe $j$ e $k$.
+	
+	*Esempio*:
+	se $\mathbf{A}=\end$
