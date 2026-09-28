@@ -1740,4 +1740,7 @@ Nella nuova base, quindi, la trasformazione è più semplice da studiare, quanto
 
 Il problema che ci poniamo è quindi: data una matrice, decidere se essa è diagonalizzabile, e in caso affermativo determinare la matrice diagonale e la matrice di passaggio. Questo problema è legato ad un altro, che ora introdurremo, quello della ricerca di **autovalori** e **autovettori** della matrice.
 Notiamo esplicitamente quanto segue: poichè i numeri reali sono particolari numeri complessi, una matrice $(n,n)$ a elementi reali può vedersi sia come trasformazione lineare di $\mathbb{R}^n$ in sè che come trasformazione lineare di $\mathbb{C}^n$ in sè; in entrambi i casi ci si può chiedere se la matrice $\mathbf{A}$ è diagonalizzabile.
-Ora può accadere, come vedremo, che $\mathbf{A}$ sia diagonalizzabile su $$
+Ora può accadere, come vedremo, che $\mathbf{A}$ sia diagonalizzabile su $\mathbb{C}$ ma non su $\mathbb{R}$. Per una matrice a elementi reali, dunque, le due nozioni di diagonalizzabilità vanno distinte.
+
+
+### 6.2 **Autovalori ed autovettori di una matrice**
