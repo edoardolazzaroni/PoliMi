@@ -1614,4 +1614,4 @@ Vi sono due possibilità:
 
 Nel primo caso (a) la difficoltà è più seria: la matrice $\mathbf{A}$ è <u>singolare</u>. Le incognite rimaste nelle ultime $n-k+1$ equazioni sono meno di $n-k+1$ e quindi o il sistema ha infinite soluzioni oppure non ne ha alcuna. Completeremo l'analisi di questo caso considerando direttamente sistemi generali di $m$ equazioni in $n$ incognite.
 
-Nel secondo caso (b) la difficoltà si supera facilmente scambiando le righe $k$ e $l$ ed il procedimento di eliminazione può continuare. Se proseguendo
+Nel secondo caso (b) la difficoltà si supera facilmente scambiando le righe $k$ e $l$ ed il procedimento di eliminazione può continuare. Se proseguendo non ci si trova mai nel primo caso (a), l'eliminazione si può portare a termine. Per quanto riguarda la fattorizzazione, lo scambio di due righe $k$ e $l$ si effettua premoltip
