@@ -1658,6 +1658,7 @@ Riassumiamo le conclusioni:
 
 Il sistema $\mathbf{A}\mathbf{x}=\mathbf{b}$ è equivalente al sistema trapezoidale $\mathbf{U}\mathbf{x}=\mathbf{L}^{-1}\mathbf{P}\mathbf{b}$.
 
+
 Una volta arrivati a tale forma trapezoidale ($\mathbf{U}\mathbf{x}=\mathbf{L}^{-1}\mathbf{P}\mathbf{b}$) è immediato trarre conclusioni sulla risolubilità o meno del sistema.
 Tornando all'esempio, poichè vi sono tre pivot non nulli, $rk(\mathbf{A})=3$.
 
@@ -1668,4 +1669,6 @@ ottenuto lasciando a primo membro le variabili corrispondendi ai pivot non nulli
 Si vede che esistono $\infty^2$ soluzioni, essendo $x_{2},x_{5}$ variabili libere.
 La risolubilità del sistema non omogeneo si legge dalle righe di zeri.
 
-Per *esempio*, se $\mathbf{b}={\begin{pmatrix}2 \\  0 \\  -1 \\  2\end{pmatrix}}$, il sistema trapezoidale finale è: ${\begin{cases}x_{1}+3x_{2}+3x_{3}+2x_{4}=2 \\  3x_{3}-3x_{4}-6x_{5}=0 \\  8x_{4}+10x_{5}=0 \\  0=0\end{cases}}$
+Per *esempio*, se $\mathbf{b}={\begin{pmatrix}2 \\  0 \\  -1 \\  2\end{pmatrix}}$, il sistema trapezoidale finale è: ${\begin{cases}x_{1}+3x_{2}+3x_{3}+2x_{4}=2 \\  3x_{3}-3x_{4}-6x_{5}=-4 \\  8x_{4}+10x_{5}=9 \\  0=\frac{28}{3}\end{cases}}$
+
+che evidentemente non ha soluzione. Ciò riflette il fatto che il vettore 
