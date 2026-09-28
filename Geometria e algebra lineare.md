@@ -1639,4 +1639,4 @@ Il primo pivot è $a_{11}=1\ne 0$, per cui le consuete operazioni elementari per
 ${\begin{pmatrix}1&3&3&2&0 \\  0&0&3&-3&-6 \\  0&0&6&2&-2 \\  0&0&4&-4&-8\end{pmatrix}}$
 
 Il secondo pivot è $0$, gli elementi sottostanti sono nulli e lo scambio di righe non può produrre un pivot $\ne 0$.
-Per procedere oltre con l'eliminazione si va al primo elemento non nullo in seconda riga, nelle colonne successive; nell'esempio è 
+Per procedere oltre con l'eliminazione si va al primo elemento non nullo in seconda riga, nelle colonne successive; nell'esempio è $3$ in terza colonna. Annulliamo gli elementi sotto il $3$ con le operazioni: $3^a \ riga-(2\times 2^a \ riga)$
