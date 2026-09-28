@@ -1,7 +1,5 @@
 #INDEX of all Copilot skills w examples/references
 
-[[PoliMi/copilot/skills/copilot-fetch-x/SKILL|copilot-fetch-x]]
-[[PoliMi/copilot/skills/copilot-read-pdf/SKILL|copilot-read-pdf]]
 [[PoliMi/copilot/skills/copilot-web-fetch/SKILL|copilot-web-fetch]]
 [[PoliMi/copilot/skills/copilot-web-search/SKILL|copilot-web-search]]
 [[PoliMi/copilot/skills/copilot-youtube-transcript/SKILL|copilot-youtube-transcript/]]
