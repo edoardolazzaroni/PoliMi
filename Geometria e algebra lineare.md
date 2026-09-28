@@ -1660,4 +1660,8 @@ Il sistema $\mathbf{A}\mathbf{x}=\mathbf{b}$ è equivalente al sistema trapezoid
 
 Una volta arrivati a tale forma trapezoidale ($\mathbf{U}\mathbf{x}=\mathbf{L}^{-1}\mathbf{P}\mathbf{b}$) è immediato trarre conclusioni sulla risolubilità o meno del sistema.
 Tornando all'esempio, poichè vi sono tre pivot non nulli, $rk(\mathbf{A})=3$.
-Una prima conclusione è che il sistema omogeneo finale: ${\begin{cases}x_{1}+3x_{2}+3x_{3}+2x_{4}=0 \\  3x_{3}-3x_{4}-6x_{5}=0 \\  8x_{4}+\end{cases}}$
+
+Una prima conclusione è che il sistema omogeneo finale: ${\begin{cases}x_{1}+3x_{2}+3x_{3}+2x_{4}=0 \\  3x_{3}-3x_{4}-6x_{5}=0 \\  8x_{4}+10x_{5}=0 \\  0=0\end{cases}}$
+equivale al sistema triangolare: ${\begin{cases}x_{1}+3x_{3}+2x_{4}=-3x_{2} \\  3x_{3}-3x_{4}=6x_{5} \\  8x_{4}=-10x_{5}\end{cases}}$
+
+ottenuto
