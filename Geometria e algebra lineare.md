@@ -1624,4 +1624,7 @@ $\mathbf{P}$ è il prodotto di matrici $\mathbf{P}_{kl}$ e contiene esattamente 
 - #PROPOSIZIONE(7), #COROLLARIO(3). Nelle ipotesi della Proposizione precedente il sistema (di $n$ equazioni in $n$ incognite) $\mathbf{A}\mathbf{x}=\mathbf{b}$ è equivalente al sistema triangolare alto $\mathbf{U}\mathbf{x}=\mathbf{L}^{-1}\mathbf{P}\mathbf{b}$ ed ha <u>esattamente una soluzione</u>.
 
 
-#### 5.4.3 **Sistemi lineari di $$**
+#### 5.4.3 **Sistemi lineari di $m$ equazioni in $n$ incognite. Fattorizzazione di una matrice rettangolare**
+
+Esaminiamo ora il caso di un sistema generale di $m$ equazioni in $n$ incognite $\mathbf{A}\mathbf{x}=\mathbf{b}$, con $m\ne n$.
+Il metodo di eliminazione di
