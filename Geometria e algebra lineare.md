@@ -1606,3 +1606,6 @@ Di conseguenza:
 
 
 #### 5.4.2 **Sistemi $n\times n$. Pivot non tutti diversi da zero**
+
+Esaminiamo ora il caso in cui, durante il processo di eliminazione, i primi $k-1$ pivot siano non nulli, mentre $d_{k}=0$. Controlliamo gli elementi della colonna $k$-esima, sotto $d_{k}$.
+Vi sono due possibilità:
