@@ -53,7 +53,9 @@ cellStyleRules:
 
  [[Finire capitolo 5 di GAL]]
  [[guardare esercitazione GAL-2]]
+ [[finire capitolo 6 GAL]]
  [[riguardare appunti esercitazioni analisi 1]]
+
 
 Altri impegni:
 
