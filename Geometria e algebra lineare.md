@@ -1692,4 +1692,5 @@ ciò significa che la trasformazione $\mathbf{y}=\mathcal{L}(\mathbf{x})$ rispet
 
 ${\begin{cases}y_{1}=c_{1}x_{1} \\  y_{2}=c_{2}x_{2} \\  y_{3}=c_{3}x_{3}\end{cases}}$
 
-Si tratta di un'espressione particolarmente semplice, in cui ogni variabile $y_{i}$ dipende solo dalla variabile $x_{i}$, anzichè da tutte e tre ("separazione di variabili")
+Si tratta di un'espressione particolarmente semplice, in cui ogni variabile $y_{i}$ dipende solo dalla variabile $x_{i}$, anzichè da tutte e tre ("separazione di variabili").
+Geometricamente significa che abbiamo scelto un opportuno sistema di riferimento in $\mathbb{R}^3$ (non necessariamente ortogonale), rispetto al quale la trasformazione agisce come una dilatazione di un certo coefficiente $c_{i}$ su ciascun asse.
