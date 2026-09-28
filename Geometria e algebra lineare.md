@@ -1627,4 +1627,7 @@ $\mathbf{P}$ è il prodotto di matrici $\mathbf{P}_{kl}$ e contiene esattamente 
 #### 5.4.3 **Sistemi lineari di $m$ equazioni in $n$ incognite. Fattorizzazione di una matrice rettangolare**
 
 Esaminiamo ora il caso di un sistema generale di $m$ equazioni in $n$ incognite $\mathbf{A}\mathbf{x}=\mathbf{b}$, con $m\ne n$.
-Il metodo di eliminazione di
+Il metodo di eliminazione di Gauss si può applicare anche in questo caso.
+Quando però tutto viene riletto in termini di fattorizzazione della matrice $\mathbf{A}$, si presenta qualche differenza.
+
+Ci serviamo di un *esempio* di $4$ eq. in $5$
