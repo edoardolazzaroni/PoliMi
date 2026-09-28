@@ -1700,4 +1700,6 @@ Cominceremo ad esaminare come cambia la rappresentazione di $\mathcal{L}$ cambia
 Supponiamo che $\mathbb{R}^n$ sia riferito alla base canonica $\mathbf{e}^1,\mathbf{e}^{2},\cdots,\mathbf{e}^{n}$. Scegliamo ora $n$ vettori linearmente indipendenti $\mathbf{\tilde{e}}^1,\mathbf{\tilde{e}}^{2},\cdots,\mathbf{\tilde{e}}^{n}$ ed assumiamoli come nuova base.
 La matrice $\mathbf{S}=(\mathbf{\tilde{e}}^1|\mathbf{\tilde{e}}^{2}|\cdots|\mathbf{\tilde{e}}^{n})$ ottenuta accostando i vettori (colonna) $\mathbf{\tilde{e}}^1,\mathbf{\tilde{e}}^{2},\cdots,\mathbf{\tilde{e}}^{n}$ rappresenta, nella base canonica, la trasformazione che fa passare da una base all'altra. Infatti, come si verifica subito: $\mathbf{S}\mathbf{e}^i=\mathbf{\tilde{e}}^i\quad (i=1,2,\cdots,n)$
 
-Poichè i vettori $\mathbf{\tilde{e}}^i$ sono indipendenti, $\det\mathbf{S}\ne 0$, quindi $\mathbf{S}$ è invertibile, 
+Poichè i vettori $\mathbf{\tilde{e}}^i$ sono indipendenti, $\det\mathbf{S}\ne 0$, quindi $\mathbf{S}$ è invertibile, e possiamo anche scrivere:
+$\mathbf{e}^i=\mathbf{S}^{-1}\mathbf{\tilde{e}}^i$
+Se qu
