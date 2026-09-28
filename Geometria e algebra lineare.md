@@ -1658,4 +1658,5 @@ Riassumiamo le conclusioni:
 
 Il sistema $\mathbf{A}\mathbf{x}=\mathbf{b}$ è equivalente al sistema trapezoidale $\mathbf{U}\mathbf{x}=\mathbf{L}^{-1}\mathbf{P}\mathbf{b}$.
 
-Una volta arrivati alla forma trapezoidale ($\mathbf{U}\mathbf{x}=\mathbf{L}^{-1}\mathbf{P}\mathbf{b}$)
+Una volta arrivati a tale forma trapezoidale ($\mathbf{U}\mathbf{x}=\mathbf{L}^{-1}\mathbf{P}\mathbf{b}$) è immediato trarre conclusioni sulla risolubilità o meno del sistema.
+Tornando all'esempio, poichè vi sono tre pivot non nulli, $rk(\mathbf{A})=$
