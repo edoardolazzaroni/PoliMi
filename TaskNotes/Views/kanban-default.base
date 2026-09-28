@@ -52,15 +52,14 @@ views:
       - status
       - priority
       - due
-      - scheduled
-      - projects
-      - contexts
       - file.tags
       - blockedBy
-      - file.name
       - recurrence
       - complete_instances
       - file.tasks
+      - contexts
+      - projects
+      - scheduled
     sort:
       - property: tasknotes_manual_order
         direction: DESC
