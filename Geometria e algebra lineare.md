@@ -1576,3 +1576,4 @@ Si può controllare facilmente che le inverse $\mathbf{E}_{ij}(q)$ si ottengono 
 
 $\mathbf{E}_{ij}(q)^{-1}=\mathbf{E}_{ij}(-q)$
 
+Perciò: $\mathbf{L}={\begin{pmatrix}1&0&0 \\  2&1&0 \\  0&0&1\end{pmatrix}}{\begin{pmatrix}1&0&0 \\  0&1&0 \\  -1&0&1\end{pmatrix}}$
