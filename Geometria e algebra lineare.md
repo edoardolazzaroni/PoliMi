@@ -1609,3 +1609,7 @@ Di conseguenza:
 
 Esaminiamo ora il caso in cui, durante il processo di eliminazione, i primi $k-1$ pivot siano non nulli, mentre $d_{k}=0$. Controlliamo gli elementi della colonna $k$-esima, sotto $d_{k}$.
 Vi sono due possibilità:
+	a. Tutti questi elementi sono nulli;
+	b. Ne esiste uno non nullo, diciamo l'elemento $a_{lk}$.
+
+Nel primo caso (a) la difficoltà è più seria: la matric
