@@ -1729,4 +1729,7 @@ Si noti che dal [[#4.3 **Determinante**|Teorema di Binet]] segue che <u>due matr
 	
 	*Dimostrazione* su libro.
 
-Diamo ora una definizione generale.
+
+Diamo ora una definizione generale:
+
+- #DEFINIZIONE(16). Diremo che una matrice quadrata $\mathbf{A}$ a elementi in $\mathbb{K}$ (dove $\mathbb{K}=\mathbb{R}$)
