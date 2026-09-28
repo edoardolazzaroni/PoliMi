@@ -1567,4 +1567,6 @@ $\mathbf{E}_{31}(1)={\begin{pmatrix}1&0&0 \\  0&1&0 \\  1&0&1\end{pmatrix}}$ e $
 
 $\mathbf{E}_{32}(3)\mathbf{E}_{31}(1)\mathbf{E}_{21}(-2)={\begin{pmatrix}1&0&0 \\  -2&1&0 \\  -5&3&1\end{pmatrix}}$
 
-che è triangolare bassa. Poniamo poi: $\mathbf{E}mathbf_{32}(3)\mathbf{E}_{31}(1)\mathbf{E}_{21}(-2)={\begin{pmatrix}1&0&0 \\  -2&1&0 \\  -5&3&1\end{pmatrix}}$
+che è triangolare bassa. Poniamo poi: $\mathbf{U}=\mathbf{E}_{32}(3)\mathbf{E}_{31}(1)\mathbf{E}_{21}(-2)\mathbf{A}={\begin{pmatrix}2&1&1 \\  0&1-&-2 \\  0&0&-4\end{pmatrix}}$
+
+che è triangolare alta ed ha sulla diagonale principale i pivot. Abbiamo dunque. 
