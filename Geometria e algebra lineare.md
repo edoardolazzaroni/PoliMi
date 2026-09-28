@@ -1698,4 +1698,4 @@ Rispetto a questa base i calcoli risultano più semplici, e le proprietà della 
 
 Cominceremo ad esaminare come cambia la rappresentazione di $\mathcal{L}$ cambiando la base in $\mathbb{R}^n$.
 Supponiamo che $\mathbb{R}^n$ sia riferito alla base canonica $\mathbf{e}^1,\mathbf{e}^{2},\cdots,\mathbf{e}^{n}$. Scegliamo ora $n$ vettori linearmente indipendenti $\mathbf{\tilde{e}}^1,\mathbf{\tilde{e}}^{2},\cdots,\mathbf{\tilde{e}}^{n}$ ed assumiamoli come nuova base.
-La matrice $\mathbf{S}=(\mathbf{\tilde{e}}^1|\mathbf{\tilde{e}}^{2}|\cdots|\mathbf{\tilde{e}}^{n})$ ottenuta accostando i vettori (colonna) $\mathbf{\tilde{e}}^1,\mathbf{\tilde{e}}^{2},\cdots,\mathbf{\tilde{e}}^{n}$ rappresenta, nella base canonica, la trasformazione che
+La matrice $\mathbf{S}=(\mathbf{\tilde{e}}^1|\mathbf{\tilde{e}}^{2}|\cdots|\mathbf{\tilde{e}}^{n})$ ottenuta accostando i vettori (colonna) $\mathbf{\tilde{e}}^1,\mathbf{\tilde{e}}^{2},\cdots,\mathbf{\tilde{e}}^{n}$ rappresenta, nella base canonica, la trasformazione che fa passare da una base all'altra. Infatti, come si verifica subito: $\mathbf{S}\mathbf{e}^i=\mathbf{\tilde{e}}^i\quad (i=1,2,\cdots,n)$
