@@ -1600,4 +1600,5 @@ Riassumiamo generalizzando ad una matrice quadrata di ordine $n$:
 
 Di conseguenza:
 
-- #PROPOSIZIONE(6), #COROLLARIO(2). Nelle ipotesi 
+- #PROPOSIZIONE(6), #COROLLARIO(2). Nelle ipotesi della Proposizione precedente il sistema (di $n$ equazioni in $n$ incognite) $\mathbf{A}\mathbf{x}=\mathbf{b}$
+	è equivalente al sistema triangolare alto $\mathbf{U}\mathbf{x}=\mathbf{L}^$
