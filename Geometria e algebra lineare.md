@@ -1678,3 +1678,6 @@ che evidentemente non ha soluzione. Ciò riflette il fatto che il vettore $\math
 
 # Capitolo VI: Autovettori ed autovalori. Diagonalizzazione
 
+
+### 6.1 **Matrici diagonalizzabili**
+
