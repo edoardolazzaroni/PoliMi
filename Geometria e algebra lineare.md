@@ -1682,4 +1682,8 @@ che evidentemente non ha soluzione. Ciò riflette il fatto che il vettore $\math
 ### 6.1 **Matrici diagonalizzabili**
 
 Consideriamo una trasformazione $\mathcal{L}$ da $\mathbb{R}^n$ a $\mathbb{R}^n$. La rappresentazione di $\mathcal{L}$ per mezzo di una matrice $\mathbf{A}$ (in questo caso quadrata di ordine $n$) dipende dalla scelta della base in $\mathbb{R}^n$.
-È chiaro che se si potesse scegliere una base rispetto alla quale $\mathcal{L}$ fose rappresentata da una matrice di forma speciale, per esempio diagonale, si avrebbe un grande vantaggio, almeno sul piano dell'esecuzione dei calcoli.
+È chiaro che se si potesse scegliere una base rispetto alla quale $\mathcal{L}$ fose rappresentata da una matrice di forma speciale, per esempio **diagonale**, si avrebbe un grande vantaggio, almeno sul piano dell'esecuzione dei calcoli.
+
+Supponiamo, *per esempio*, che una trasformazione $\mathcal{L}:\mathbb{R}^2\rightarrow\mathbb{R}^3$, rispetto ad una opportuna base, si possa rappresentare mediante la matrice diagonale:
+
+$\end$
