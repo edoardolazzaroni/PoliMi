@@ -1593,4 +1593,7 @@ Riassumiamo generalizzando ad una matrice quadrata di ordine $n$:
 - #PROPOSIZIONE(6). Se nel processo di eliminazione di Gauss tutti i pivot sono $\ne 0$, la matrice $\mathbf{A}$ ammette la fattorizzazione $\mathbf{A}=\mathbf{L}\mathbf{U}$
 	
 	dove $\mathbf{L},\mathbf{U}$ sono univocamente determinate dalle seguenti proprietà:
-	a) 
+	
+	a) $\mathbf{L}$ è triangolare bassa con elementi sulla diagonale principale tutti uguali ad $1$; gli altri elementi non nulli sono i $q_{ij}$ descritti in precedenza;
+	
+	b) $\mathbf{U}$ è la matrice che si ottiene al termine 
