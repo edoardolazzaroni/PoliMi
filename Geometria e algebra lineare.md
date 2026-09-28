@@ -1671,4 +1671,5 @@ La risolubilità del sistema non omogeneo si legge dalle righe di zeri.
 
 Per *esempio*, se $\mathbf{b}={\begin{pmatrix}2 \\  0 \\  -1 \\  2\end{pmatrix}}$, il sistema trapezoidale finale è: ${\begin{cases}x_{1}+3x_{2}+3x_{3}+2x_{4}=2 \\  3x_{3}-3x_{4}-6x_{5}=-4 \\  8x_{4}+10x_{5}=9 \\  0=\frac{28}{3}\end{cases}}$
 
-che evidentemente non ha soluzione. Ciò riflette il fatto che il vettore 
+che evidentemente non ha soluzione. Ciò riflette il fatto che il vettore $\mathbf{L}^{-1}\mathbf{P}$ non appartiene allo spazio generato dalle colonne di $\mathbf{U}$ ([[#5.3 **Sistemi generali. Teorema di Rouchè-Capelli**|Teorema di Rouchè-Capelli)]]).
+
