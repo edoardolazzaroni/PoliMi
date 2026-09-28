@@ -1585,4 +1585,8 @@ La matrice $\mathbf{A}$ è stata quindi fattorizzata nel prodotto di due matrici
 
 Ora $(\mathbf{L}')^{-1}$ ed $(\mathbf{L}')^{-1}\mathbf{L}$ sono triangolari basse mentre $\mathbf{U}^{-1}$ ed $\mathbf{U}'\mathbf{U}^{-1}$ sono triangolari alte, con elementi uguali ad $1$ sulla diagonale principale. Ne segue che entrambi i membri sono matrici diagonali. Ma allora deve essere:
 
-$(\mathbf{L}')^{-1}\mathbf{L}=\mathbf{U}'\mathbf{U}^{-1}=$
+$(\mathbf{L}')^{-1}\mathbf{L}=\mathbf{U}'\mathbf{U}^{-1}=\mathbf{I}\rightarrow \mathbf{L}=\mathbf{L}', \mathbf{U}=\mathbf{U}'$.
+
+Riassumiamo generalizzando ad una matrice quadrata di ordine $n$:
+
+- #PROPOSIZIONE 
