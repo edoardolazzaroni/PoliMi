@@ -1563,4 +1563,4 @@ $\mathbf{E}_{21}(-2)={\begin{pmatrix}1&0&0 \\  -2&1&0 \\  0&0&1\end{pmatrix}}$
 
 Analogamente, la seconda e terza operazione (si somma alla terza eq. la prima, si ignora la prima equazione e si elimina l'incognita $y$ dalla terza equazione) si realizzano premoltiplicando rispettivamente per le matrici:
 
-$\mathbf{E}_{31}(1)={\begin{pmatrix}1&0&0 \\  0&1&0 \\  1&0&1\end{pmatrix}}$ e $$
+$\mathbf{E}_{31}(1)={\begin{pmatrix}1&0&0 \\  0&1&0 \\  1&0&1\end{pmatrix}}$ e $\mathbf{E}_{32}(3)={\begin{pmatrix}1&0&0 \\  0&1&0 \\  0&3&1\end{pmatrix}}$, ottenendo così: $\mathbf{E}_{32}(3)\mathbf{E}_{31}(1)\mathbf{E}_{21}(3)$
