@@ -1702,19 +1702,21 @@ La matrice $\mathbf{S}=(\mathbf{\tilde{e}}^1|\mathbf{\tilde{e}}^{2}|\cdots|\math
 
 Poichè i vettori $\mathbf{\tilde{e}}^i$ sono indipendenti, $\det\mathbf{S}\ne 0$, quindi $\mathbf{S}$ è invertibile, e possiamo anche scrivere:
 
-									$\mathbf{e}^i=\mathbf{S}^{-1}\mathbf{\tilde{e}}^i$
+								$\mathbf{e}^i=\mathbf{S}^{-1}\mathbf{\tilde{e}}^i$
 
 Se quindi un vettore di $\mathbb{R}^n$ ha, rispetto alla base canonica, le coordinate $\mathbf{x}=(x_{1},x_{2},\cdots,x_{n})$, nella nuova base avrà coordinate $\mathbf{\tilde{x}}=(\tilde{x}_{1},\tilde{x}_{2},\cdots,\tilde{x}_{n})$ date da:
 
-									$\mathbf{\tilde{x}}=\mathbf{S}^{-1}\mathbf{x}$
+								$\mathbf{\tilde{x}}=\mathbf{S}^{-1}\mathbf{x}$
 
 Infatti, se la matrice $\mathbf{S}=(s_{ij})$ ha per colonne le rappresentazioni dei vettori $\mathbf{\tilde{e}}^i$ nella base di $\mathbf{e}_{i}$, significa che $s_{ij}=(\mathbf{\tilde{e}}_{j})_{i}$, quindi da:
 
-									$\mathbf{x}=\sum_{j=1}^n \tilde{x}_{j}\mathbf{\tilde{e}}_{j}$
+								$\mathbf{x}=\sum_{j=1}^n \tilde{x}_{j}\mathbf{\tilde{e}}_{j}$
 
 ricaviamo: $x_{i}=\sum_{j=1}^n \tilde{x}_{j}(\mathbf{\tilde{e}}_{j})_{i}=\sum_{j=1}^n \tilde{x}_{j}s_{ij}$, ossia $\mathbf{x}=\mathbf{S}\mathbf{\tilde{x}}$.
 
 Allora, se $\mathbf{y}=\mathbf{A}\mathbf{x}$ nella base canonica, risulta: $\mathbf{\tilde{y}}=\mathbf{S}^{-1}\mathbf{y}=\mathbf{S}^{-1}\mathbf{A}\mathbf{x}=\mathbf{S}^{-1}\mathbf{A}\mathbf{S}\mathbf{\tilde{x}}$
 e perciò la trasformazione $\mathcal{L}$ nella nuova base è rappresentata dalla matrice:
 
-$$
+								$\mathbf{\tilde{A}}=\mathbf{S}^{-1}\mathbf{A}\mathbf{S}$
+
+Si dice che due matrici $\mathbf{A},\mathbf{\tilde{A}}$ legate da quest'ultima relazione 
