@@ -1721,4 +1721,4 @@ e perciò la trasformazione $\mathcal{L}$ nella nuova base è rappresentata dall
 
 Si dice che due matrici $\mathbf{A},\mathbf{\tilde{A}}$ legate da quest'ultima relazione (con $\mathbf{S}$ ovviamente matrice invertibile) sono **SIMILI**, o **EQUIVALENTI**.
 
-Si noti che dal [[#4.3 **Determinante**|Teorema di Binet]] segue che <u>due matrici simili hanno lo stesso determinante</u>. Infatti, se $\mathbf{\tilde{A}}=\mathbf{S}^{-1}\mathbf{A}\mathbf{S}$, 
+Si noti che dal [[#4.3 **Determinante**|Teorema di Binet]] segue che <u>due matrici simili hanno lo stesso determinante</u>. Infatti, se $\mathbf{\tilde{A}}=\mathbf{S}^{-1}\mathbf{A}\mathbf{S}$ si ha: $|\mathbf{\tilde{A}}|=|\mathbf{S}^{-1}\mathbf{A}\mathbf{S}|=|\mathbf{S}^{-1}|\mathbf{A}||\mathbf{S}|=\frac{1}{||}$
