@@ -1690,4 +1690,6 @@ $\mathbf{A}={\begin{pmatrix}c_{1}&0&0 \\  0&c_{2}&0 \\  0&0&c_{3}\end{pmatrix}}$
 
 ciò significa che la trasformazione $\mathbf{y}=\mathcal{L}(\mathbf{x})$ rispetto a questa base si scrive così:
 
-${\begin{cases}y_{1}=c_{1}x_{1} \\  y_{2}=c_{2}x_{2}\end{cases}}$
+${\begin{cases}y_{1}=c_{1}x_{1} \\  y_{2}=c_{2}x_{2} \\  y_{3}=c_{3}x_{3}\end{cases}}$
+
+Si tratta di un'espressione particolarmente semplice, in cui ogni variabile $y_{i}$ dipende solo dalla variabile $x_{i}$, anzichè da tutte e tre ("separazione di variabili")
