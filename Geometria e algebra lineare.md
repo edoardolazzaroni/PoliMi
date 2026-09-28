@@ -1708,4 +1708,7 @@ Se quindi un vettore di $\mathbb{R}^n$ ha, rispetto alla base canonica, le coord
 
 									$\mathbf{\tilde{x}}=\mathbf{S}^{-1}\mathbf{x}$
 
-Infatti, se la matrice $\mathbf{S}=(s_{ij})$ ha per colonne le rappresentazioni dei vettori $\mathbf{\tilde{e}}^i$ nella base di $\mathbf{e}_{i}$, significa che $s_{ij}=(\mathbf{\tilde{e}}_{j})_{i}, qu$
+Infatti, se la matrice $\mathbf{S}=(s_{ij})$ ha per colonne le rappresentazioni dei vettori $\mathbf{\tilde{e}}^i$ nella base di $\mathbf{e}_{i}$, significa che $s_{ij}=(\mathbf{\tilde{e}}_{j})_{i}$, quindi da:
+
+									$\mathbf{x}=\sum_{j=1}^n \tilde{x}_{j}\mathbf{\tilde{e}}_{j}$
+
