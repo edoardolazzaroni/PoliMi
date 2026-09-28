@@ -1706,4 +1706,6 @@ Poichè i vettori $\mathbf{\tilde{e}}^i$ sono indipendenti, $\det\mathbf{S}\ne 0
 
 Se quindi un vettore di $\mathbb{R}^n$ ha, rispetto alla base canonica, le coordinate $\mathbf{x}=(x_{1},x_{2},\cdots,x_{n})$, nella nuova base avrà coordinate $\mathbf{\tilde{x}}=(\tilde{x}_{1},\tilde{x}_{2},\cdots,\tilde{x}_{n})$ date da:
 
-$\mathbf{\tilde{x}}$
+									$\mathbf{\tilde{x}}=\mathbf{S}^{-1}\mathbf{x}$
+
+Infatti, se la matrice $\mathbf{S}=(s_{ij})$ ha per colonne le rappresentazioni dei vettori 
