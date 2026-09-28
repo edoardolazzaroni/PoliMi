@@ -1641,4 +1641,7 @@ ${\begin{pmatrix}1&3&3&2&0 \\  0&0&3&-3&-6 \\  0&0&6&2&-2 \\  0&0&4&-4&-8\end{pm
 Il secondo pivot è $0$, gli elementi sottostanti sono nulli e lo scambio di righe non può produrre un pivot $\ne 0$.
 Per procedere oltre con l'eliminazione si va al primo elemento non nullo in seconda riga, nelle colonne successive; nell'esempio è $3$ in terza colonna. Annulliamo gli elementi sotto il $3$ con le operazioni: $3^a \ riga-(2\times 2^a \ riga)$ e $4^a \ riga-\left( \frac{4}{3}\times 2^a \ riga \right)$.
 
-Si ottiene così la matrice: $\mathbf{U}_{0}{\begin{pmatrix}1&3&3&2&0 \\  0&0&3&-3&-6 \\  0&0&0&8&10 \\  0&0&4&-4&-8\end{pmatrix}}$
+Si ottiene così la matrice: $\mathbf{U}={\begin{pmatrix}1&3&3&2&0 \\  0&0&3&-3&-6 \\  0&0&0&8&10 \\  0&0&0&0&0\end{pmatrix}}$
+
+Si considera ora la terza colonna dove si riconosce che il nuovo pivot è $8$.
+Essendoci solo zeri nell'ultima riga, il processo di eliminazione è finito. La forma finale di $$
