@@ -1596,4 +1596,8 @@ Riassumiamo generalizzando ad una matrice quadrata di ordine $n$:
 	
 	a) $\mathbf{L}$ è triangolare bassa con elementi sulla diagonale principale tutti uguali ad $1$; gli altri elementi non nulli sono i $q_{ij}$ descritti in precedenza;
 	
-	b) $\mathbf{U}$ è la matrice che si ottiene al termine 
+	b) $\mathbf{U}$ è la matrice che si ottiene al termine del processo di eliminazione, è triangolare alta e gli elementi sulla diagonale principale sono i pivot.
+
+Di conseguenza:
+
+- #PROPOSIZIONE(6), #COROLLARIO(2). Nelle ipotesi 
