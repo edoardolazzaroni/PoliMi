@@ -1673,3 +1673,8 @@ Per *esempio*, se $\mathbf{b}={\begin{pmatrix}2 \\  0 \\  -1 \\  2\end{pmatrix}}
 
 che evidentemente non ha soluzione. Ciò riflette il fatto che il vettore $\mathbf{L}^{-1}\mathbf{P}$ non appartiene allo spazio generato dalle colonne di $\mathbf{U}$ ([[#5.3 **Sistemi generali. Teorema di Rouchè-Capelli**|Teorema di Rouchè-Capelli)]]).
 
+
+
+
+# Capitolo VI: Autovettori ed autovalori. Diagonalizzazione
+
