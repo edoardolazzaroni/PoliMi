@@ -1549,4 +1549,5 @@ Introduciamo anzitutto qualche notazione matriciale che ci servirà a rappresent
 	
 	$\mathbf{E}_{31}(-2)\mathbf{A}={\begin{pmatrix}1&0&0\\0&1&0\\-2&0&1\end{pmatrix}}{\begin{pmatrix}2&-1&1\\4&1&0\\1&-3&5\end{pmatrix}}={\begin{pmatrix}2&-1&1\\4&1&0\\-3&-1&3\end{pmatrix}}$
 	
-	e si vede che la terza riga della matrice prodotto è ottenuta sommando alla terza riga di $\mathbf{A}$ la prima riga mo
+	e si vede che la terza riga della matrice prodotto è ottenuta sommando alla terza riga di $\mathbf{A}$ la prima riga moltiplicata per $-2$.
+	Queste matrici si chiamano <u>matrici elementari</u>, sono triangolari basse e hanno $1$ sulla diagonale principale.
