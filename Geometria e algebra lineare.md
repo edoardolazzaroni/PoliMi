@@ -1688,4 +1688,6 @@ Supponiamo, *per esempio*, che una trasformazione $\mathcal{L}:\mathbb{R}^2\righ
 
 $\mathbf{A}={\begin{pmatrix}c_{1}&0&0 \\  0&c_{2}&0 \\  0&0&c_{3}\end{pmatrix}}$
 
-ciò significa che la 
+ciò significa che la trasformazione $\mathbf{y}=\mathcal{L}(\mathbf{x})$ rispetto a questa base si scrive così:
+
+${\begin{cases}y_{1}=c_{1}x_{1} \\  y_{2}=c_{2}x_{2}\end{cases}}$
