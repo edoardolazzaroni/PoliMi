@@ -1546,4 +1546,7 @@ Introduciamo anzitutto qualche notazione matriciale che ci servirà a rappresent
 - **Matrici elementari**: introduciamo ora delle matrici che servono invece a rappresentare l'operazione di sommare o sottrarre ad un'equazione un multiplo di un'altra equazione. Indichiamo con $\mathbf{E}_{ij}(q)$ la matrice costruita sostituendo nella matrice identità lo zero in posizione $ij,i>j$, con il numero $q$. Pre/post moltiplicando una matrice $\mathbf{A}$ per $\mathbf{E}_{ij}(q)$ si aggiunge alla riga/colonna $i$ il multiplo $q$ della riga $j$.
 	
 	*Esempio*:
-	$\mathbf{E}_{31}(-2)\mathbf{A}={\begin{pmatrix}1&0&0\\0&1&0\\-2&0&1\end{pmatrix}}{\begin{pmatrix}2&-1&1\\4&1&0\\1&-3&5\end{pmatrix}}={\begin{pmatrix}\end{pmatrix}}$
+	
+	$\mathbf{E}_{31}(-2)\mathbf{A}={\begin{pmatrix}1&0&0\\0&1&0\\-2&0&1\end{pmatrix}}{\begin{pmatrix}2&-1&1\\4&1&0\\1&-3&5\end{pmatrix}}={\begin{pmatrix}2&-1&1\\4&1&0\\-3&-1&3\end{pmatrix}}$
+	
+	e si vede che la terza riga della matrice prodotto è ottenuta sommando alla terza riga di $\mathbf{A}$ la prima riga mo
