@@ -1535,4 +1535,5 @@ Introduciamo anzitutto qualche notazione matriciale che ci servirà a rappresent
 - **Matrici di permutazione**: prendiamo la matrice identità di ordine $n$ e scambiamo le due righe $j$ e $k$: indichiamo la nuova matrice con $\mathbf{P}_{jk}$. Sia ora $\mathbf{A}$ una matrice di ordine $n\times n$: allora la matrice $\mathbf{P}_{jk}\mathbf{A}$ si ottiene da $\mathbf{A}$ scambiando le righe $j$ e $k$.
 	
 	*Esempio*:
-	se $\mathbf{A}=\end$
+	se $\mathbf{A}={\begin{pmatrix}3&1&5\\$&1&0\\-2&2&1\end{pmatrix}}, \mathbf{P}_{jk}=$
+	
