@@ -1536,4 +1536,5 @@ Introduciamo anzitutto qualche notazione matriciale che ci servirà a rappresent
 	
 	*Esempio*:
 	
-	se $\mathbf{A}={\begin{pmatrix}3&1&5\\$&1&0\\-2&2&1\end{pmatrix}}, \mathbf{P}_{jk}=\begin{pmatrix}0&0&1\\0&1&0\\1&0&0\end{pmatrix}\rightarrow\mathbf{P}_{13}\mathbf{A}=\begin{pmatrix}0&0&1\\0&1&0\\1&0&0\end{pmatrix}{\begin{pmatrix}3&1&5\\$&1&0\\-2&2&1\end{pmatrix}}={\begin{pmatrix}\end{pmatrix}}$
+	se $\mathbf{A}={\begin{pmatrix}3&1&5\\4&1&0\\-2&2&1\end{pmatrix}}, \mathbf{P}_{jk}=\begin{pmatrix}0&0&1\\0&1&0\\1&0&0\end{pmatrix}\rightarrow\mathbf{P}_{13}\mathbf{A}=\begin{pmatrix}0&0&1\\0&1&0\\1&0&0\end{pmatrix}{\begin{pmatrix}3&1&5\\4&1&0\\-2&2&1\end{pmatrix}}={\begin{pmatrix}-2&2&1\\4&1&0\\3&1&5\end{pmatrix}}$
+	La prima e la terza riga sono scambiate. Se pos
