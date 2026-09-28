@@ -1732,4 +1732,4 @@ Si noti che dal [[#4.3 **Determinante**|Teorema di Binet]] segue che <u>due matr
 
 Diamo ora una definizione generale:
 
-- #DEFINIZIONE(16). Diremo che una matrice quadrata $\mathbf{A}$ a elementi in $\mathbb{K}$ (dove $\mathbb{K}=\mathbb{R}$)
+- #DEFINIZIONE(16). Diremo che una matrice quadrata $\mathbf{A}$ a elementi in $\mathbb{K}$ (dove $\mathbb{K}=\mathbb{R} \ o \ \mathbb{C}$) è **diagonalizzabile** (su $\mathbb{K}$) se esistono due matrici 
