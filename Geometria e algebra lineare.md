@@ -1666,5 +1666,6 @@ equivale al sistema triangolare: ${\begin{cases}x_{1}+3x_{3}+2x_{4}=-3x_{2} \\  
 
 ottenuto lasciando a primo membro le variabili corrispondendi ai pivot non nulli.
 Si vede che esistono $\infty^2$ soluzioni, essendo $x_{2},x_{5}$ variabili libere.
+La risolubilità del sistema non omogeneo si legge dalle righe di zeri.
 
-La risolubilità del sistema non omogeneo si legge dalle righe di zeri. Per s
+Per *esempio*, se $\mathbf{b}={\begin{pmatrix}2 \\  0 \\  -1 \\  2\end{pmatrix}}$, il sistema trapezoidale finale è: ${\begin{cases}x_{1}+3x_{2}+3x_{3}+2x_{4}=2 \\  3x_{3}-3x_{4}-6x_{5}=0 \\  8x_{4}+10x_{5}=0 \\  0=0\end{cases}}$
