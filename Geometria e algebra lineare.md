@@ -1696,4 +1696,5 @@ Si tratta di un'espressione particolarmente semplice, in cui ogni variabile $y_{
 Geometricamente significa che abbiamo scelto un opportuno sistema di riferimento in $\mathbb{R}^3$ (non necessariamente ortogonale), rispetto al quale la trasformazione agisce come una dilatazione di un certo coefficiente $c_{i}$ su ciascun asse.
 Rispetto a questa base i calcoli risultano più semplici, e le proprietà della trasformazione appaiono in modo più trasparente. Diremo in questo caso che **la trasformazione ha forma diagonale**.
 
-Cominceremo ad esaminare come cambia la rappresentazione 
+Cominceremo ad esaminare come cambia la rappresentazione di $\mathcal{L}$ cambiando la base in $\mathbb{R}^n$.
+Supponiamo che $\mathbb{R}^n$ sia riferito alla base canonica $$
