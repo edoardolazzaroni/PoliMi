@@ -1636,3 +1636,6 @@ $\mathbf{A}={\begin{pmatrix}1&3&3&2&0 \\  2&6&9&1&-6 \\  -1&-3&3&0&-2 \\  -1&-3&
 
 Il primo pivot è $a_{11}=1\ne 0$, per cui le consuete operazioni elementari permettono di produrre zeri nella prima colonna sotto quel pivot; si ottiene:
 
+${\begin{pmatrix}1&3&3&2&0 \\  0&0&3&-3&-6 \\  0&0&6&2&-2 \\  0&0&4&-4&-8\end{pmatrix}}$
+
+Il secondo pivot è $0$, gli elementi sottostant
