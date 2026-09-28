@@ -1589,4 +1589,5 @@ $(\mathbf{L}')^{-1}\mathbf{L}=\mathbf{U}'\mathbf{U}^{-1}=\mathbf{I}\rightarrow \
 
 Riassumiamo generalizzando ad una matrice quadrata di ordine $n$:
 
-- #PROPOSIZIONE 
+- #PROPOSIZIONE(6). Se nel processo di eliminazione di Gauss tutti i pivot sono $\ne 0$, la matrice $\mathbf{A}$ ammette la fattorizzazione $\mathbf{A}=\mathbf{L}\mathbf{U}$
+	dove $\mathbf{L},\mathbf{U}$ sono 
