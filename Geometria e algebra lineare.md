@@ -1697,4 +1697,4 @@ Geometricamente significa che abbiamo scelto un opportuno sistema di riferimento
 Rispetto a questa base i calcoli risultano più semplici, e le proprietà della trasformazione appaiono in modo più trasparente. Diremo in questo caso che **la trasformazione ha forma diagonale**.
 
 Cominceremo ad esaminare come cambia la rappresentazione di $\mathcal{L}$ cambiando la base in $\mathbb{R}^n$.
-Supponiamo che $\mathbb{R}^n$ sia riferito alla base canonica $\mathbf{e}^1,\mathbf{e}^{2},\cdots,\mathbf{e}^{n}$. Scegliamo ora $n$ vettori linearmente indipendenti 
+Supponiamo che $\mathbb{R}^n$ sia riferito alla base canonica $\mathbf{e}^1,\mathbf{e}^{2},\cdots,\mathbf{e}^{n}$. Scegliamo ora $n$ vettori linearmente indipendenti $\mathbf{\breve{e}}^1,\mathbf{e}^{2},\cdots,\mathbf{e}^{n}$
