@@ -1632,4 +1632,7 @@ Quando però tutto viene riletto in termini di fattorizzazione della matrice $\m
 
 Ci serviamo di un *esempio* di $4$ eq. in $5$ incognite, ma lavorando direttamrnte sulla matrice dei coefficienti del sistema, che supponiamo sia:
 
-$\mathbf{A}={\begin{pmatrix}1&3&3&2&0 \\  2&6&9&1&-6 \\  -1&-3&3&0&-2 \\  \end{pmatrix}}$
+$\mathbf{A}={\begin{pmatrix}1&3&3&2&0 \\  2&6&9&1&-6 \\  -1&-3&3&0&-2 \\  -1&-3&1&-6&-8\end{pmatrix}}$
+
+Il primo pivot è $a_{11}=1\ne 0$, per cui le consuete operazioni elementari permettono di produrre zeri nella prima colonna sotto quel pivot; si ottiene:
+
