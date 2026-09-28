@@ -1552,4 +1552,9 @@ Introduciamo anzitutto qualche notazione matriciale che ci servirà a rappresent
 	e si vede che la terza riga della matrice prodotto è ottenuta sommando alla terza riga di $\mathbf{A}$ la prima riga moltiplicata per $-2$.
 	Queste matrici si chiamano <u>matrici elementari</u>, sono triangolari basse e hanno $1$ sulla diagonale principale.
 
+
 Rileggiamo ora il [[#5.4 **Metodo di eliminazione di Gauss**|metodo di eliminazione]] in termini matriciali. Usiamo ancora il sistema:
+
+${\begin{pmatrix}2&-1&1\\4&1&0\\1&-3&5\end{pmatrix}}{\begin{pmatrix}x\\y \\  z\end{pmatrix}}={\begin{pmatrix}1 \\  -2 \\  -5\end{pmatrix}}$
+
+La prima operazione $$
