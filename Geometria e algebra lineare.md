@@ -1686,4 +1686,6 @@ Consideriamo una trasformazione $\mathcal{L}$ da $\mathbb{R}^n$ a $\mathbb{R}^n$
 
 Supponiamo, *per esempio*, che una trasformazione $\mathcal{L}:\mathbb{R}^2\rightarrow\mathbb{R}^3$, rispetto ad una opportuna base, si possa rappresentare mediante la matrice diagonale:
 
-$\end$
+$\mathbf{A}={\begin{pmatrix}c_{1}&0&0 \\  0&c_{2}&0 \\  0&0&c_{3}\end{pmatrix}}$
+
+ciò significa che la 
