@@ -1743,4 +1743,6 @@ Notiamo esplicitamente quanto segue: poichè i numeri reali sono particolari num
 Ora può accadere, come vedremo, che $\mathbf{A}$ sia diagonalizzabile su $\mathbb{C}$ ma non su $\mathbb{R}$. Per una matrice a elementi reali, dunque, le due nozioni di diagonalizzabilità vanno distinte.
 
 
+
 ### 6.2 **Autovalori ed autovettori di una matrice**
+
