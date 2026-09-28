@@ -1557,4 +1557,6 @@ Rileggiamo ora il [[#5.4 **Metodo di eliminazione di Gauss**|metodo di eliminazi
 
 ${\begin{pmatrix}2&-1&1\\4&1&0\\1&-3&5\end{pmatrix}}{\begin{pmatrix}x\\y \\  z\end{pmatrix}}={\begin{pmatrix}1 \\  -2 \\  -5\end{pmatrix}}$
 
-La prima operazione (si sottrae dalla seconda eq. la prima moltiplicata per $2$) può essere realizzata mediante premoltiplicazione della ma
+La prima operazione (si sottrae dalla seconda eq. la prima moltiplicata per $2$) può essere realizzata mediante premoltiplicazione della matrice dei coefficienti e del vettore dei termini noti per la matrice elementare:
+
+$\mathbf{E}_{21}(-2)={\begin{pmatrix}1&0&0 \\  -2&1&0 \\  \end{pmatrix}}$
