@@ -1786,4 +1786,6 @@ $Tr(\mathbf{A})=a_{11}+a_{22}+\cdots+a_{nn}$
 Alcune osservazioni sono opportune.
 Si noti innanzitutto che, poichè matrici simili hanno lo stesso polinomio caratteristico, avranno pure gli strssi autovalori: dunque essi dipendono solo dalla trasformazione lineare, e non dall particolare matrice rappresentativa (o base scelta).
 Nella definizione di autovalore, anche se la matrice $\mathbf{A}$ è reale e la pensiamo come rappresentativa di una trasformazione di $\mathbb{R}^n$ in $\mathbb{R}^n$ , gli autovalori possono essere complessi.
-In altre parole, i problemi di diagonalizzazio
+In altre parole, i problemi della diagonalizzazione e della ricerca di autovalori e autovettori hanno la loro impostazione naturale nel campo complesso.
+
+Notiamo che, mentre un autovettore corrisponde sempre ad un unico autovalore (perchè l'identità)
