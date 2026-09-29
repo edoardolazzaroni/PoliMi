@@ -1747,3 +1747,4 @@ Ora può accadere, come vedremo, che $\mathbf{A}$ sia diagonalizzabile su $\math
 
 ### 6.2 **Autovalori ed autovettori di una matrice**
 
+Chiedi
