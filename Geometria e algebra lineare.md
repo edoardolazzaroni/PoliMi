@@ -1763,6 +1763,10 @@ L'ultima equazione è un'equazione algebrica in $\lambda$, di grado $n$, detta *
 Questo polinomio dipende solo dalla trasformazione lineare, e non dal riferimento in cui questa è descritta; in altri termini, non varia se si sostituisce alla matrice $\mathbf{A}$ un'altra matrice ad essa equivalente. Infatti si può scrivere: $\mathbf{S}^{-1}\mathbf{A}\mathbf{S}-\lambda\mathbf{I}=\mathbf{S}^{-1}(\mathbf{A}-\lambda)\mathbf{S}$
 e quindi, usando le proprietà del determinante:
 
-$|\mathbf{S}^{-1}\mathbf{A}\mathbf{S}-\lambda\mathbf{I}|=|\mathbf{S}^{-1}(\mathbf{A}-\lambda)\mathbf{S}|=\frac{1}{|\mathbf{S}|}\mathbf{A}-\lambda\mathbf{I}|\mathbf{S}|=\mathbf{D}(\lambda)$
+					$|\mathbf{S}^{-1}\mathbf{A}\mathbf{S}-\lambda\mathbf{I}|=|\mathbf{S}^{-1}(\mathbf{A}-\lambda)\mathbf{S}|=\frac{1}{|\mathbf{S}|}\mathbf{A}-\lambda\mathbf{I}|\mathbf{S}|=\mathbf{D}(\lambda)$
 
-È utile fis
+È utile fissare il risultato appena ottenuto:
+
+- #PROPOSIZIONE(10). Due matrici $n\times n$ simili hanno lo stesso polinomio caratteristico.
+
+Una prima conseguenza di questa proprietà è la seguente. Si 
