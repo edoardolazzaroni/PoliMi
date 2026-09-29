@@ -1772,4 +1772,8 @@ e quindi, usando le proprietà del determinante:
 
 Una prima conseguenza di questa proprietà è la seguente. Si può osservare facilmente che nella scrittura esplicita del polinomio $\det({\mathbf{A}-\lambda\mathbf{I}})$, il termine contenente la potenza $\lambda^{n-1}$ è $(-\lambda)^{n-1}(a_{11}+a_{22}+\cdots+a_{nn})$.
 
-La somma degli elementi sulla diagonale principale di una matrice quadrata è dett
+La somma degli elementi sulla diagonale principale di una matrice quadrata è detta **traccia** della matrice:
+
+$Tr(\mathbf{A})=a_{11}+a_{22}+\cdots+a_{nn}$
+
+Possiamo quindi affermare che due matrici simili hanno la stessa traccia, oltre che lo stesso determinante e la s
