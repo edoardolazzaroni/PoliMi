@@ -1810,3 +1810,4 @@ Se $\lambda=-1$ il sistema diventa:
 
 ${\begin{cases}x+y+z=0 \\  x+2y=0 \\  x+2z=0\end{cases}}\quad$ cioè $\quad{\begin{cases}y=-\frac{x}{2} \\ z=-\frac{x}{2} \end{cases}}$
 
+quindi le soluzioni sono del tipo ${\begin{cases}x=c \\  y=-\frac{c}{2} \\  z=-\frac{c}{2}\end{cases}}\quad$ e si hanno ancora $\infty^1$ autovettori paralleli tra loro
