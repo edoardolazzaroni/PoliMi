@@ -1779,4 +1779,4 @@ $Tr(\mathbf{A})=a_{11}+a_{22}+\cdots+a_{nn}$
 <mark class="hltr-yellow">Possiamo quindi affermare che due matrici simili hanno la stessa traccia, oltre che lo stesso determinante e la stessa caratteristica</mark>.
 
 - #DEFINIZIONE(17). **Autovalori e autovettori**
-	Chiameremo autovalore della matrice $\mathbf{A}$ (o della trasformazione che la matrice $\mathbf{A}$ rappresenta) qualsiasi numero $\lambda\in\mathbb{C}$ soddisfi l'equazione caratteristica; chiameremo autovettore (corrispondente all'autovalore $\lambda$)
+	Chiameremo autovalore della matrice $\mathbf{A}$ (o della trasformazione che la matrice $\mathbf{A}$ rappresenta) qualsiasi numero $\lambda\in\mathbb{C}$ soddisfi l'equazione caratteristica; chiameremo autovettore (corrispondente all'autovalore $\lambda$) ogni vettore $\mathbf{v}\ne 0 \ (\mathbf{v}\in\mathbb{K}^n)$ che risolva l'equazione $\mathbf{A}\mathbf{v}=\lambda\mathbf{v}$
