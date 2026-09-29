@@ -1802,4 +1802,5 @@ Se $\lambda=1$ tale sistema diventa:
 
 ${\begin{cases}-x+y+z=0 \\  x=0 \\  x=0\end{cases}}\quad$ ossia $\quad{\begin{cases}y+z=0 \\  x=0\end{cases}}$
 
-e perciò abbiamo $\infty^1$ soluzioni date da ${\begin{cases}x=0 \\  y=-c \\  \end{cases}}$
+e perciò abbiamo $\infty^1$ soluzioni date da ${\begin{cases}x=0 \\  y=-c \\  z=c\end{cases}}\quad$ (con $c$ parametro arbitrario).
+Queste soluzioni rappresentano $\infty^1$ vettori, tutti paralleli tra di loro. Uno qualsiasi di essi 
