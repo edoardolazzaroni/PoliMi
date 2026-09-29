@@ -1825,4 +1825,4 @@ Si ha: $\det(\mathbf{A}-\lambda\mathbf{I}_{2})={\begin{vmatrix}-\lambda&1 \\  -1
 
 Questo spinge a vedere $\mathbf{A}$ come trasformazione lineare di $\mathbb{C}^2$ in sè. Gli autovettori corrispondenti a $\lambda=i$ si trovano risolvendo il sistema:
 
-$(\mathbf{A}-i\mathbf{I}_{2})\mathbf{x}=$
+$(\mathbf{A}-i\mathbf{I}_{2})\mathbf{x}=0\quad$ cioè $\quad{\begin{cases}-ix+y=0 \\  -x-iy=0\end{cases}}\quad$ ossia $\quad y=ix$
