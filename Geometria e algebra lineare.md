@@ -1814,4 +1814,6 @@ quindi le soluzioni sono del tipo ${\begin{cases}x=c \\  y=-\frac{c}{2} \\  z=-\
 
 Se $\lambda=2$ il sistema diventa:
 
-${\begin{cases}x+y+z=0 \\  x+2y=0 \\  x+2z=0\end{cases}}\quad$
+${\begin{cases}-2x+y+z=0 \\  x-y=0 \\  x-z=0\end{cases}}\quad$ ossia $\quad{\begin{cases}y=x \\ z=x \end{cases}}$
+
+quindi le soluzioni sono del tipo ${\begin{cases}x=c \\  y=c \\  z=c\end{cases}}\quad$ e si hanno ancora $\infty$
