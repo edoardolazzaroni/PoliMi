@@ -1794,4 +1794,4 @@ Se la matrice $\mathbf{A}$ è reale, il polinomio caratteristico è a coefficien
 
 *Esempio*: Trovare autovalori e autovettori della matrice $\mathbf{A}={\begin{pmatrix}0&1&1 \\  1&1&0 \\  1&0&1\end{pmatrix}}$
 
-Calcoliamo $\det(\mathbf{A}-\lambda\mathbf{I}_{3})=\end{\begin{vmatrix}\end{vmatrix}}$
+Calcoliamo $\det(\mathbf{A}-\lambda\mathbf{I}_{3})={\begin{vmatrix}-\lambda&1&1 \\  1&1-\lambda&0 \\  1&0&1-\lambda\end{vmatrix}}= (\det 3^a riga)=(\lambda-1)$
