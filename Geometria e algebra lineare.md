@@ -1831,4 +1831,8 @@ Si hanno dunque gli $\infty^1$ autovettori del tipo ${\begin{pmatrix}c \\  ic\en
 in particolare, uno di essi è ${\begin{pmatrix}1 \\  i\end{pmatrix}}$.
 
 Con calcoli analoghi si vede che gli autovettori relativi a $\lambda=-i$ sono del tipo ${\begin{pmatrix}c \\  -ic\end{pmatrix}}$, al variare di $c\in\mathbb{C}$;
-in particolare, uno di essi è ${\begin{pmatrix}1 \\  -i\end{pmatrix}}$. In questo caso non esistono vettori $\mathbf{v}\in\mathbb{R}^2$ t
+in particolare, uno di essi è ${\begin{pmatrix}1 \\  -i\end{pmatrix}}$. In questo caso non esistono vettori $\mathbf{v}\in\mathbb{R}^2$ tali che $\mathbf{A}\mathbf{v}=\lambda\mathbf{v}$.
+
+
+
+### 6.3 **Condizioni di diagonalizzabilità**
