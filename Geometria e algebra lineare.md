@@ -1757,4 +1757,6 @@ In questa equazione il vettore $\mathbf{v}$ (come lo scalare $\lambda$) è incog
 								$D(\lambda)=|\mathbf{A}-\lambda\mathbf{I}_{n}|=0$
 
 *Per esempio*, 
-per $n=2$, se $\mathbf{A}={\begin{pmatrix}a_{11}&a_{12}\\a_{21}&a_{22}\end{pmatrix}} \quad \rightarrow \quad {\begin{vmatrix}a_{11}-\lambda &\end{vmatrix}}$
+per $n=2$, se $\mathbf{A}={\begin{pmatrix}a_{11}&a_{12}\\a_{21}&a_{22}\end{pmatrix}} \quad \rightarrow \quad {\begin{vmatrix}a_{11}-\lambda &a_{12} \\  a_{21}&a_{22}-\lambda \end{vmatrix}}=\lambda^2-(a_{11}+a_{22})\lambda+a_{11}a_{22}-a_{12}a_{21}=0$
+
+L'equazione 
