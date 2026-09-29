@@ -1836,3 +1836,6 @@ in particolare, uno di essi è ${\begin{pmatrix}1 \\  -i\end{pmatrix}}$. In ques
 
 
 ### 6.3 **Condizioni di diagonalizzabilità**
+
+La relazione tra il problema della diagonalizzabilità di una matrice e quello della ricerca dei suoi autovalori e autovettori è espressa dal seguente:
+
