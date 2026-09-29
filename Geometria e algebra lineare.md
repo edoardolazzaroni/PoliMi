@@ -1749,4 +1749,4 @@ Ora può accadere, come vedremo, che $\mathbf{A}$ sia diagonalizzabile su $\math
 
 Chiediamoci se esistono vettori (non nulli) di $\mathbb{K}^n$ che vengono trasformati da $\mathbf{A}$ in vettori paralleli.
 Se $\mathbf{v}\in\mathbb{K}^n$ è un tale vettore, dovrà risultare $\mathbf{A}\mathbf{v}=\lambda\mathbf{v}$ per qualche $\lambda \in\mathbb{K}^n$.
-In altre parole, 
+In altre parole, ci stiamo chiedendo se esistono particolari vettori sui quali la trasformazione agisce come se fosse di tipo diagonale. In tal caso, preso un qualsiasi vettore $t\mathbf{v}$ parallelo a $\mathbf{v} (t\in\$
