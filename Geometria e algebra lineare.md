@@ -1754,4 +1754,7 @@ In altre parole, ci stiamo chiedendo se esistono particolari vettori sui quali l
 Scrivendo $\mathbf{I}_{n}\mathbf{v}$ al posto di $\mathbf{v}$ possiamo riscrivere l'ultima equazione nella forma: $(\mathbf{A}-\lambda\mathbf{I}_{n})\mathbf{v}=\mathbf{0}$.
 In questa equazione il vettore $\mathbf{v}$ (come lo scalare $\lambda$) è incognito: le componenti del vettore soddisfano perciò un sistema lineare omogeneo $n\times n$. Sappiamo che, perchè esistano vettori $\mathbf{v}$ (non nulli) che risolvono tale equazione, dovrà essere:
 
-$D(\lambda)$
+								$D(\lambda)=|\mathbf{A}-\lambda\mathbf{I}_{n}|=0$
+
+*Per esempio*, 
+per $n=2$, se $\mathbf{A}={\begin{pmatrix}\end{pmatrix}}$
