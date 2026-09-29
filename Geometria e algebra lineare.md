@@ -1798,9 +1798,14 @@ Calcoliamo: $\det(\mathbf{A}-\lambda\mathbf{I}_{3})={\begin{vmatrix}-\lambda&1&1
 Gli autovalori (valori di $\lambda$ che annullano il determinante di $\mathbf{A}-\lambda\mathbf{I}_{3}$) sono: $\lambda_{1}=1\quad\lambda_{2}=-1\quad\lambda_{3}=2$
 
 Gli autovettori corrispondenti si trovano risolvendo il sistema omogeneo $(\mathbf{A}-\lambda\mathbf{I}_{3})\mathbf{x}=0$.
+
 Se $\lambda=1$ tale sistema diventa:
 
 ${\begin{cases}-x+y+z=0 \\  x=0 \\  x=0\end{cases}}\quad$ ossia $\quad{\begin{cases}y+z=0 \\  x=0\end{cases}}$
 
 e perciò abbiamo $\infty^1$ soluzioni date da ${\begin{cases}x=0 \\  y=-c \\  z=c\end{cases}}\quad$ (con $c$ parametro arbitrario).
-Queste soluzioni rappresentano $\infty^1$ vettori, tutti paralleli tra di loro. Uno qualsiasi di essi si otterrà dando a $c$ un particolare valore, per esempio $c=1$. Il vettore ${\begin{pmatrix}0 \\  -1 \\  1\end{pmatrix}}$ è perciò un autovettore de
+Queste soluzioni rappresentano $\infty^1$ vettori, tutti paralleli tra di loro. Uno qualsiasi di essi si otterrà dando a $c$ un particolare valore, per esempio $c=1$. Il vettore ${\begin{pmatrix}0 \\  -1 \\  1\end{pmatrix}}$ è perciò un autovettore della matrice $\mathbf{A}$ corrispondente all'autovalore $1$.
+
+Se $\lambda=-1$ il sistema diventa:
+
+${\begin{cases}-x+y+z=0 \\  x=0 \\  x=0\end{cases}}\quad$
