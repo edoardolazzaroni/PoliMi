@@ -1788,4 +1788,4 @@ Si noti innanzitutto che, poichè matrici simili hanno lo stesso polinomio carat
 Nella definizione di autovalore, anche se la matrice $\mathbf{A}$ è reale e la pensiamo come rappresentativa di una trasformazione di $\mathbb{R}^n$ in $\mathbb{R}^n$ , gli autovalori possono essere complessi.
 In altre parole, i problemi della diagonalizzazione e della ricerca di autovalori e autovettori hanno la loro impostazione naturale nel campo complesso.
 
-Notiamo che, mentre un autovettore corrisponde sempre ad un unico autovalore (perchè l'identità)
+Notiamo che, mentre un autovettore corrisponde sempre ad un unico autovalore (perchè l'identità $\mathbf{A}\mathbf{v}=\lambda\mathbf{v}$ determina univocamente $\lambda$), ad un autovalore corrispondono sempre infiniti autovettori, in quanto se $\mathbf{A}\mathbf{v}=\lambda\mathbf{v}$, è anche $\mathbf{A}(c\mathbf{v})=\lambda\mathbf{v}$
