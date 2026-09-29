@@ -1751,4 +1751,5 @@ Chiediamoci se esistono vettori (non nulli) di $\mathbb{K}^n$ che vengono trasfo
 Se $\mathbf{v}\in\mathbb{K}^n$ è un tale vettore, dovrà risultare $\mathbf{A}\mathbf{v}=\lambda\mathbf{v}$ per qualche $\lambda \in\mathbb{K}^n$.
 In altre parole, ci stiamo chiedendo se esistono particolari vettori sui quali la trasformazione agisce come se fosse di tipo diagonale. In tal caso, preso un qualsiasi vettore $t\mathbf{v}$ parallelo a $\mathbf{v} \ (t\in\mathbb{K})$ si avrà anche, per linearità: $\mathbf{A}(t\mathbf{v})=t\mathbf{A}\mathbf{v}=(t\lambda)\mathbf{v}$ e quindi, in questo caso, possiamo affermare che la direzione di $\mathbb{K}^n$ individuata dal vettore $\mathbf{v}$ è trasformata in se stessa.
 
-Scrivendo $\mathbf{I}_{n}\mathbf{v}$ al posto di $\mathbf{v}$ possiamo riscrivere l'ultima equazione
+Scrivendo $\mathbf{I}_{n}\mathbf{v}$ al posto di $\mathbf{v}$ possiamo riscrivere l'ultima equazione nella forma: $(\mathbf{A}-\lambda\mathbf{I}_{n})\mathbf{v}=\mathbf{0}$.
+In questa equazione il vettore $\mathbf{v}$ (come lo scalare $\lambda$) è incognito: le componenti del vettore soddisfano 
