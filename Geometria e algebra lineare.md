@@ -1797,4 +1797,6 @@ Se la matrice $\mathbf{A}$ è reale, il polinomio caratteristico è a coefficien
 Calcoliamo: $\det(\mathbf{A}-\lambda\mathbf{I}_{3})={\begin{vmatrix}-\lambda&1&1 \\  1&1-\lambda&0 \\  1&0&1-\lambda\end{vmatrix}}= (\det 3^a riga)=(\lambda-1)+(a-\lambda)(-\lambda+\lambda^2-1)=(1-\lambda)(\lambda^2-\lambda-2)=(1-\lambda)(\lambda+1)(\lambda-2)$
 Gli autovalori (valori di $\lambda$ che annullano il determinante di $\mathbf{A}-\lambda\mathbf{I}_{3}$) sono: $\lambda_{1}=1\quad\lambda_{2}=-1\quad\lambda_{3}=2$
 
-Gli autovettori corrispondenti si trovano risolvendo il sistema omogeneo $$
+Gli autovettori corrispondenti si trovano risolvendo il sistema omogeneo $(\mathbf{A}-\lambda\mathbf{I}_{3})\mathbf{x}=0$.
+Se $\lambda=1$ tale sistema diventa:
+${\begin{cases}-x+y+z=0 \\  x=0 \\  x=0\end{cases}}$
