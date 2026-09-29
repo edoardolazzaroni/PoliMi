@@ -1819,7 +1819,10 @@ ${\begin{cases}-2x+y+z=0 \\  x-y=0 \\  x-z=0\end{cases}}\quad$ ossia $\quad{\beg
 quindi le soluzioni sono del tipo ${\begin{cases}x=c \\  y=c \\  z=c\end{cases}}\quad$ e si hanno ancora $\infty^1$ autovettori paralleli tra loro; uno di essi è (per $c=1$): ${\begin{pmatrix}1 \\  1 \\  1\end{pmatrix}}$.
 
 
-Esempio: Trovare autovalori e autovettori della matrice $\mathbf{A}={\begin{pmatrix}0&1 \\  -1&0\end{pmatrix}}$
+*Esempio*: Trovare autovalori e autovettori della matrice $\mathbf{A}={\begin{pmatrix}0&1 \\  -1&0\end{pmatrix}}$
 
 Si ha: $\det(\mathbf{A}-\lambda\mathbf{I}_{2})={\begin{vmatrix}-\lambda&1 \\  -1&-\lambda\end{vmatrix}}=\lambda^2+1=0\longrightarrow\lambda=\pm i\quad$ (autovalori complessi coniugati)
-Questo spinge a vedere $\mathbf{A}$ come trasformazione lineare di $\$
+
+Questo spinge a vedere $\mathbf{A}$ come trasformazione lineare di $\mathbb{C}^2$ in sè. Gli autovettori corrispondenti a $\lambda=i$ si trovano risolvendo il sistema:
+
+$(\mathbf{A}-i\mathbf{I}_{2})\mathbf{x}=$
