@@ -1816,4 +1816,7 @@ Se $\lambda=2$ il sistema diventa:
 
 ${\begin{cases}-2x+y+z=0 \\  x-y=0 \\  x-z=0\end{cases}}\quad$ ossia $\quad{\begin{cases}y=x \\ z=x \end{cases}}$
 
-quindi le soluzioni sono del tipo ${\begin{cases}x=c \\  y=c \\  z=c\end{cases}}\quad$ e si hanno ancora $\infty$
+quindi le soluzioni sono del tipo ${\begin{cases}x=c \\  y=c \\  z=c\end{cases}}\quad$ e si hanno ancora $\infty^1$ autovettori paralleli tra loro; uno di essi è (per $c=1$): ${\begin{pmatrix}1 \\  1 \\  1\end{pmatrix}}$.
+
+
+Esempio: Trovare autovalori e autovettori della matrice $$
