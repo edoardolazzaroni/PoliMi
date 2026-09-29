@@ -1827,5 +1827,7 @@ Questo spinge a vedere $\mathbf{A}$ come trasformazione lineare di $\mathbb{C}^2
 
 $(\mathbf{A}-i\mathbf{I}_{2})\mathbf{x}=0\quad$ cioè $\quad{\begin{cases}-ix+y=0 \\  -x-iy=0\end{cases}}\quad$ ossia $\quad y=ix$
 
-Si hanno dunque gli $\infty^1$ autovettori del tipo ${\begin{pmatrix}c \\  ic\end{pmatrix}}$, al variare di $c\in\mathbb{C}$.
-In particolare, uno di essi è ${\begin{pmatrix}1 \\  ic\end{pmatrix}}$
+Si hanno dunque gli $\infty^1$ autovettori del tipo ${\begin{pmatrix}c \\  ic\end{pmatrix}}$, al variare di $c\in\mathbb{C}$;
+in particolare, uno di essi è ${\begin{pmatrix}1 \\  i\end{pmatrix}}$.
+
+Con calcoli analoghi si vede che gli autovettori relativi a $\lambda=-i$ sono del tipo ${\begin{pmatrix}c \\  -ic\end{pmatrix}}$
