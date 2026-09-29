@@ -1769,4 +1769,4 @@ e quindi, usando le proprietà del determinante:
 
 - #PROPOSIZIONE(10). Due matrici $n\times n$ simili hanno lo stesso polinomio caratteristico.
 
-Una prima conseguenza di questa proprietà è la seguente. Si 
+Una prima conseguenza di questa proprietà è la seguente. Si può osservare facilmente che nella scrittura esplicita del polinomio $\det({\mathbf{A}-\lambda\mathbf{I}})$, il termine contenente la potenza $\lambda^{n-1}$ è:
