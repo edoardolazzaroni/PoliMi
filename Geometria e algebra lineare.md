@@ -1782,3 +1782,6 @@ $Tr(\mathbf{A})=a_{11}+a_{22}+\cdots+a_{nn}$
 	
 	Chiameremo **autovalore** della matrice $\mathbf{A}$ (o della trasformazione che la matrice $\mathbf{A}$ rappresenta) qualsiasi numero $\lambda\in\mathbb{C}$ soddisfi l'equazione caratteristica; chiameremo **autovettore** (corrispondente all'autovalore $\lambda$) ogni vettore $\mathbf{v}\ne 0 \ (\mathbf{v}\in\mathbb{K}^n)$ che risolva l'equazione $\mathbf{A}\mathbf{v}=\lambda\mathbf{v}$.
 
+
+Alcune osservazioni sono opportune.
+Si noti innanzitutto che, poichè matri
