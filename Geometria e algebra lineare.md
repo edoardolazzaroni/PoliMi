@@ -1799,4 +1799,7 @@ Gli autovalori (valori di $\lambda$ che annullano il determinante di $\mathbf{A}
 
 Gli autovettori corrispondenti si trovano risolvendo il sistema omogeneo $(\mathbf{A}-\lambda\mathbf{I}_{3})\mathbf{x}=0$.
 Se $\lambda=1$ tale sistema diventa:
-${\begin{cases}-x+y+z=0 \\  x=0 \\  x=0\end{cases}}$
+
+${\begin{cases}-x+y+z=0 \\  x=0 \\  x=0\end{cases}}\quad$ ossia $\quad{\begin{cases}y+z=0 \\  x=0\end{cases}}$
+
+e perciò abbiamo $\infty^1$ soluzioni date da ${\begin{cases}x=0 \\  y=-c \\  \end{cases}}$
