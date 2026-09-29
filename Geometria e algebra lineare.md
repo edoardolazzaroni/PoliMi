@@ -1760,4 +1760,4 @@ In questa equazione il vettore $\mathbf{v}$ (come lo scalare $\lambda$) è incog
 per $n=2$, se $\mathbf{A}={\begin{pmatrix}a_{11}&a_{12}\\a_{21}&a_{22}\end{pmatrix}} \quad \rightarrow \quad {\begin{vmatrix}a_{11}-\lambda &a_{12} \\  a_{21}&a_{22}-\lambda \end{vmatrix}}=\lambda^2-(a_{11}+a_{22})\lambda+a_{11}a_{22}-a_{12}a_{21}=0$
 
 L'ultima equazione è un'equazione algebrica in $\lambda$, di grado $n$, detta **equazione caratteristica della matrice** $\mathbf{A}$; il polinomio $D(\lambda)$ è detto **polinomio caratteristico della matrice** $\mathbf{A}$.
-Questo polinomio dipende solo dalla trasformazione lineare, e non dal riferimento in cui questa è descritta; in altri termini, non varia se si sostituisce alla matrice $$
+Questo polinomio dipende solo dalla trasformazione lineare, e non dal riferimento in cui questa è descritta; in altri termini, non varia se si sostituisce alla matrice $\mathbf{A}$ un'altra matrice ad essa equivalente. Infatti si può scrivere: $\mathbf{S}^{-1}\mathbf{A}\mathbf{S}-\lambda\mathbf{I}=$
