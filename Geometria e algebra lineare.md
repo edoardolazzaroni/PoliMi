@@ -1747,4 +1747,5 @@ Ora può accadere, come vedremo, che $\mathbf{A}$ sia diagonalizzabile su $\math
 
 ### 6.2 **Autovalori ed autovettori di una matrice**
 
-Chiedi
+Chiediamoci se esistono vettori (non nulli) di $\mathbb{K}^n$ che vengono trasformati da $\mathbf{A}$ in vettori paralleli.
+Se $\mathbf{v}\in\mathbb{K}n$ è un tale vettore, dovrà risulta
