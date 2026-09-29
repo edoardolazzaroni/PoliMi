@@ -1776,4 +1776,7 @@ La somma degli elementi sulla diagonale principale di una matrice quadrata è de
 
 $Tr(\mathbf{A})=a_{11}+a_{22}+\cdots+a_{nn}$
 
-Possiamo quindi affermare che due matrici simili hanno la stessa traccia, oltre che lo stesso determinante e la s
+<mark class="hltr-yellow">Possiamo quindi affermare che due matrici simili hanno la stessa traccia, oltre che lo stesso determinante e la stessa caratteristica</mark>.
+
+- #DEFINIZIONE(17). **Autovalori e autovettori**
+	Chiameremo autovalore della matrice $\mathbf{A}$
