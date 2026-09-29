@@ -1792,4 +1792,6 @@ Notiamo che, mentre un autovettore corrisponde sempre ad un unico autovalore (pe
 Se la matrice $\mathbf{A}$ è reale, il polinomio caratteristico è a coefficienti reali per cui gli autovalori sono reali oppure a coppie complessi coniugati. Gli autovettori possono essere scelti in modo che agli autovalori reali corrispondano autovettori reali e ad autovalori complessi coniugati corrispondano autovettori complessi coniugati.
 
 
-*Esempio*: Trovare autovalori e auvo
+*Esempio*: Trovare autovalori e autovettori della matrice $\mathbf{A}={\begin{pmatrix}0&1&1 \\  1&1&0 \\  1&0&1\end{pmatrix}}$
+
+Calcoliamo $\det(\mathbf{A}-\lambda\mathbf{I}_{3})=\end{\begin{vmatrix}\end{vmatrix}}$
