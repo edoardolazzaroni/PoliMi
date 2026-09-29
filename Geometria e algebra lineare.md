@@ -1821,4 +1821,5 @@ quindi le soluzioni sono del tipo ${\begin{cases}x=c \\  y=c \\  z=c\end{cases}}
 
 Esempio: Trovare autovalori e autovettori della matrice $\mathbf{A}={\begin{pmatrix}0&1 \\  -1&0\end{pmatrix}}$
 
-Si ha: $\det(\mathbf{A}-\lambda\mathbf{I}_{2})={\begin{vmatrix}-\lambda&1 \\  -1&-\lambda\end{vmatrix}}=\lambda^2+1=0\longrightarrow\lambda=$
+Si ha: $\det(\mathbf{A}-\lambda\mathbf{I}_{2})={\begin{vmatrix}-\lambda&1 \\  -1&-\lambda\end{vmatrix}}=\lambda^2+1=0\longrightarrow\lambda=\pm i\quad$ (autovalori complessi coniugati)
+Questo spinge a vedere $\mathbf{A}$ come trasformazione lineare di $\$
