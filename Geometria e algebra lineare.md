@@ -1808,4 +1808,5 @@ Queste soluzioni rappresentano $\infty^1$ vettori, tutti paralleli tra di loro. 
 
 Se $\lambda=-1$ il sistema diventa:
 
-${\begin{cases}-x+y+z=0 \\  x=0 \\  x=0\end{cases}}\quad$
+${\begin{cases}x+y+z=0 \\  x+2y=0 \\  x+2z=0\end{cases}}\quad$ cioè $\quad{\begin{cases}y=-\frac{x}{2} \\ z=-\frac{x}{2} \end{cases}}$
+
