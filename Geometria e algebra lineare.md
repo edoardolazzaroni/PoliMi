@@ -1848,4 +1848,5 @@ La relazione tra il problema della diagonalizzabilità di una matrice e quello d
 	*Dimostrazione*:
 	
 	Supponiamo che $\mathbf{A}$ sia diagonalizzabile su $\mathbb{K}$, ossia valga $\mathbf{A}=\mathbf{S}\mathbf{\Lambda}\mathbf{S}^{-1}$, con $\mathbf{S},\mathbf{\Lambda}$ matrici a elementi in $\mathbb{K}$, $\mathbf{S}$ non singolare e $\mathbf{\Lambda}$ diagonale. Perciò $\mathbf{A}\mathbf{S}=\mathbf{S}\mathbf{\Lambda}$.
-	Chiamando $\lambda_{1},\lambda_{2},\cdots,\lambda_{n}$ gli elementi della diagonale di $\mathbf{\Lambda}$ e $\mathbf{h}_{1},\mathbf{h}_{2},\cdots,\mathbf{h}_{n}$ le colonne di $\mathbf{S}$m l'equazione $\mathbf{A}\mathbf{S}=\mathbf{S}\mathbf{\Lambda}$ si riscrive $\mathbf{A}\mathbf{h}_{i}=\mathbf{S}\mathbf{\Lambda}$
+	Chiamando $\lambda_{1},\lambda_{2},\cdots,\lambda_{n}$ gli elementi della diagonale di $\mathbf{\Lambda}$ e $\mathbf{h}_{1},\mathbf{h}_{2},\cdots,\mathbf{h}_{n}$ le colonne di $\mathbf{S}$m l'equazione $\mathbf{A}\mathbf{S}=\mathbf{S}\mathbf{\Lambda}$ si riscrive $\mathbf{A}\mathbf{h}_{i}=\lambda_{i}\mathbf{h}_{i} \ (i=1,2,\cdots,n)$.
+	Questo prova che gli $\mathbf{h}_{i}$ 
