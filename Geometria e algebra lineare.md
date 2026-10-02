@@ -1882,4 +1882,5 @@ Abbiamo così diagonalizzato la matrice $\mathbf{A}$.
 L'ipotesi del Teorema precedente non è sempre di verifica agevole, specialmente se le dimensioni della matrice non sono piccole. Vediamo quindi di comprendere più in dettaglio quali sono le situazioni in cui una matrice è o non è diagonalizzabile. Diamo anzitutto qualche definizione:
 
 - #DEFINIZIONE(18). **Molteplicità algebrica**
-	Si dice che un autovalore $\lambda_{0}$
+	
+	Si dice che un autovalore $\lambda_{0}$ ha **molteplicità algebrica** $m$ se $\lambda_{0}$ è una radice del polinomio caratteristico $D(\lambda)$ di molteplicità $m$, cioè se $D(\lambda)$ è divisibile per
