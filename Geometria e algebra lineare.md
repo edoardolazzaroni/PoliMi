@@ -1843,4 +1843,8 @@ La relazione tra il problema della diagonalizzabilità di una matrice e quello d
 	
 								$\mathbf{A}=\mathbf{S}\mathbf{\Lambda}\mathbf{S}^{-1}$
 	
-	dove $\mathbf{\Lambda}=diag(\lambda_{1},\lambda_{2},\cdots,\lambda_{n})$ e $\mathbf{S}=(\mathbf{h}_{1}|\mathbf{h}_{2}|\cdots|\mathbf{h}_{n})$
+	dove $\mathbf{\Lambda}=diag(\lambda_{1},\lambda_{2},\cdots,\lambda_{n})$ e $\mathbf{S}=(\mathbf{h}_{1}|\mathbf{h}_{2}|\cdots|\mathbf{h}_{n})$.
+	
+	*Dimostrazione*:
+	
+	Supponiamo che $\mathbf{A}$ sia diagonalizzabile su $\mathbb{K}$, ossia valga $\mathbf{A}=\mathbf{S}\mathbf{\Lambda}\mathbf{S}^{-1}$, con $\mathbf{S},\mathbf{\Lambda}$ matrici a elementi in $\m$
