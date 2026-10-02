@@ -1862,4 +1862,5 @@ Per quanto visto, i passi da seguire sono i seguenti:
 	${\begin{vmatrix}1-\lambda &1 \\  0 & 2-\lambda\end{vmatrix}}=(1-\lambda)(2-\lambda)=0 \ \rightarrow \ \lambda=1,\lambda=2$
 
 1) Determiniamo gli autovettori relativi agli autovalori trovati. Ciò significa risolvere, per ciascun autovalore, il sistema omogeneo:
-	${\begin{pmatrix}1-\lambda&1 \\  0&2-\l\end{pmatrix}}$
+	${\begin{pmatrix}1-\lambda &1 \\  0&2-\lambda \end{pmatrix}}{\begin{pmatrix}x \\  y\end{pmatrix}}=0$
+	Per $\lambda=1$
