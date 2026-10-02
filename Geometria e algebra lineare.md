@@ -1901,4 +1901,6 @@ Valgono inoltre i seguenti fatti:
 	b) La molteplicità geometrica di un autovalore non supera la sua molteplicità algebrica: $d_{j}\le m_{j}$.
 
 
-- #DEFINIZIONE 
+- #DEFINIZIONE(20). Un autovalore $\lambda_{j}$ si dice **regolare** se $d_{j}= m_{j}$.
+
+Se un autovalore è semplice, cioè ha molteplicità algebrica $1$, anche $d$
