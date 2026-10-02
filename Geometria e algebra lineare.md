@@ -1847,4 +1847,5 @@ La relazione tra il problema della diagonalizzabilità di una matrice e quello d
 	
 	*Dimostrazione*:
 	
-	Supponiamo che $\mathbf{A}$ sia diagonalizzabile su $\mathbb{K}$, ossia valga $\mathbf{A}=\mathbf{S}\mathbf{\Lambda}\mathbf{S}^{-1}$, con $\mathbf{S},\mathbf{\Lambda}$ matrici a elementi in $\m$
+	Supponiamo che $\mathbf{A}$ sia diagonalizzabile su $\mathbb{K}$, ossia valga $\mathbf{A}=\mathbf{S}\mathbf{\Lambda}\mathbf{S}^{-1}$, con $\mathbf{S},\mathbf{\Lambda}$ matrici a elementi in $\mathbb{K}$, $\mathbf{S}$ non singolare e $\mathbf{\Lambda}$ diagonale. Perciò $\mathbf{A}\mathbf{S}=\mathbf{S}\mathbf{\Lambda}$.
+	Chiamando 
