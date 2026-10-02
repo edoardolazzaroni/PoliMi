@@ -1456,7 +1456,7 @@ Il primo punto equivale ad affermare che il sistema è risolubile se e solo se $
 Il secondo punto equivale ad affermare che ogni soluzione si ottiene aggiungendo ad una soluzione particolare un elemento del nucleo di $\mathbf{A}$.
 Una conseguenza di queste affermazioni è:
 
-- #TEOREMA(18), #COROLLARIO(1). La matrice $\mathbf{A}$ (come trasformazione lineare) realizza una corrispondenza biunivoca tra $R(\mathbf{A}^\top)$ e $R(\mathbf{A})$, ossia tra lo spazio delle sue righe e quello delle sue colonne.
+- #TEOREMA(17), #COROLLARIO(1). La matrice $\mathbf{A}$ (come trasformazione lineare) realizza una corrispondenza biunivoca tra $R(\mathbf{A}^\top)$ e $R(\mathbf{A})$, ossia tra lo spazio delle sue righe e quello delle sue colonne.
 	
 	In altri termini, il corollario afferma che, per ogni elemento $\mathbf{b}$ nello spazio delle colonne di $\mathbf{A}$ esiste un'unica soluzione $\mathbf{x}$ appartenente allo spazio delle righe di $\mathbf{A}$ del sistema $\mathbf{A}\mathbf{x}=\mathbf{b}$.
 	È poi facile convincersi, dal secondo punto del Teorema, che tale soluzione è quella di minimo modulo tra tutte le possibili soluzioni del sistema.
@@ -1839,4 +1839,4 @@ in particolare, uno di essi è ${\begin{pmatrix}1 \\  -i\end{pmatrix}}$. In ques
 
 La relazione tra il problema della diagonalizzabilità di una matrice e quello della ricerca dei suoi autovalori e autovettori è espressa dal seguente:
 
-- #TEOREMA(21). La matrice $\mathbf{A}$ è diagonalizzabile su $\mathbb{K}$ se e solo se $\mathbb{K}^n$ possiede una base di autovettori di $\mathbf{A}$
+- #TEOREMA(18). La matrice $\mathbf{A}$ è diagonalizzabile su $\mathbb{K}$ se e solo se $\mathbb{K}^n$ possiede una base di autovettori di $\mathbf{A}$. In tal caso, 
