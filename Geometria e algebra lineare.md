@@ -1857,7 +1857,7 @@ La relazione tra il problema della diagonalizzabilità di una matrice e quello d
 *Esempio*: Studiamo la diagonalizzabilità o meno della matrice $\mathbf{A}={\begin{pmatrix}1&1 \\  0&2\end{pmatrix}}$
 Per quanto visto, i passi da seguire sono i seguenti:
 
-1. Determiniamo gli autovalori risolvendo l'equazione caratteristica:
+1) Determiniamo gli autovalori risolvendo l'equazione caratteristica:
 	
 	${\begin{vmatrix}1-\lambda &1 \\  0 & 2-\lambda\end{vmatrix}}=(1-\lambda)(2-\lambda)=0 \ \rightarrow \ \lambda=1,\lambda=2$
 
@@ -1880,3 +1880,6 @@ Abbiamo così diagonalizzato la matrice $\mathbf{A}$.
 
 
 L'ipotesi del Teorema precedente non è sempre di verifica agevole, specialmente se le dimensioni della matrice non sono piccole. Vediamo quindi di comprendere più in dettaglio quali sono le situazioni in cui una matrice è o non è diagonalizzabile. Diamo anzitutto qualche definizione:
+
+- #DEFINIZIONE(18). **Molteplicità algebrica**
+	Si dice che un autovalore $\lambda_{0}$
