@@ -1858,6 +1858,8 @@ La relazione tra il problema della diagonalizzabilità di una matrice e quello d
 Per quanto visto, i passi da seguire sono i seguenti:
 
 1. Determiniamo gli autovalori risolvendo l'equazione caratteristica:
-	${\begin{vmatrix}1-\lambda\ 1 \\  0\ 2-\lambda\end{vmatrix}}=(1-\lambda)(2-\lambda)=0 \ \rightarrow \ \lambda=1,\lambda=2$
+	
+	${\begin{vmatrix}1-\lambda &1 \\  0 & 2-\lambda\end{vmatrix}}=(1-\lambda)(2-\lambda)=0 \ \rightarrow \ \lambda=1,\lambda=2$
 
-2. 
+1. Determiniamo gli autovettori relativi agli autovalori trovati. Ciò significa risolvere, per ciascun autovalore, il sistema omogeneo:
+
