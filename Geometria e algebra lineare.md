@@ -1839,4 +1839,7 @@ in particolare, uno di essi è ${\begin{pmatrix}1 \\  -i\end{pmatrix}}$. In ques
 
 La relazione tra il problema della diagonalizzabilità di una matrice e quello della ricerca dei suoi autovalori e autovettori è espressa dal seguente:
 
-- #TEOREMA(18). La matrice $\mathbf{A}$ è diagonalizzabile su $\mathbb{K}$ se e solo se $\mathbb{K}^n$ possiede una base di autovettori di $\mathbf{A}$. In tal caso, detti $\mathbf{h}_{1},\mathbf{h}_{2},\cdots,\mathbf{h}_{n}$ gli autovettori di tale base, e $\lambda_{1},\lambda_{2},\cdots,\lambda_{n}$
+- #TEOREMA(18). La matrice $\mathbf{A}$ è diagonalizzabile su $\mathbb{K}$ se e solo se $\mathbb{K}^n$ possiede una base di autovettori di $\mathbf{A}$. In tal caso, detti $\mathbf{h}_{1},\mathbf{h}_{2},\cdots,\mathbf{h}_{n}$ gli autovettori di tale base, e $\lambda_{1},\lambda_{2},\cdots,\lambda_{n}$ gli autovalori corrispondenti ($\lambda_{i}\in\mathbb{K}$, non necessariamente distinti), risulta:
+	
+								$\mathbf{A}=\mathbf{S}\mathbf{\Lambda}\mathbf{S}^{-1}$
+	dove $\mathbf{\Lambd}$
