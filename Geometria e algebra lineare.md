@@ -1890,4 +1890,10 @@ L'ipotesi del Teorema precedente non è sempre di verifica agevole, specialmente
 
 - #DEFINIZIONE(19). **Autospazio, molteplicità geometrica**
 	
-	Lo spazio vettoriale $Ker(\mathbf{A}-\lambda_{j}\mathbf{I})$ viene detto **autospazio** associato all'autovalore $\lambda_{j}$ e la sua dimensione $d_{j}$ è d
+	Lo spazio vettoriale $Ker(\mathbf{A}-\lambda_{j}\mathbf{I})$ viene detto **autospazio** associato all'autovalore $\lambda_{j}$ e la sua dimensione $d_{j}$ è detta **molteplicità geometrica** dell'autovalore $\lambda_{j}$.
+
+
+Valgono inoltre i seguenti fatti:
+
+- #TEOREMA(19).
+	a) Autovettori relativ
