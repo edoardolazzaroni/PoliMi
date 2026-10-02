@@ -1869,4 +1869,7 @@ Per quanto visto, i passi da seguire sono i seguenti:
 	Per $\lambda=2$: $\quad{\begin{cases}-x+y=0 \\  0=0\end{cases}}\quad$ perciò gli autovalori sono $(x,x)$; uno di essi è $(1,1)$.
 
 1) Osserviamo ora che i due autovettori $(1,0),(1,1)$ sono indipendenti, perciò formano una base di $\mathbb{R}^2$. Pertanto $\mathbf{A}$ è diagonalizzabile, con:
-	$\$
+	
+	$\mathbf{\Lambda}={\begin{pmatrix}1&0 \\  0&2\end{pmatrix}},\quad\mathbf{S}={\begin{pmatrix}1&1 \\  0&1\end{pmatrix}}$
+	
+	calcolando anche $$
