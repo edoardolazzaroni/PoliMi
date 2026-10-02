@@ -1872,4 +1872,6 @@ Per quanto visto, i passi da seguire sono i seguenti:
 	
 	$\mathbf{\Lambda}={\begin{pmatrix}1&0 \\  0&2\end{pmatrix}},\quad\mathbf{S}={\begin{pmatrix}1&1 \\  0&1\end{pmatrix}}$
 	
-	calcolando anche $$
+	calcolando anche $\mathbf{S}^{-1}={\begin{pmatrix}1&-1 \\  0&1\end{pmatrix}}$ si può scrivere la relazione $\mathbf{A}=\mathbf{S}\mathbf{\Lambda}\mathbf{S}^{-1}$:
+	
+	${\begin{pmatrix}1&1 \\  0&2\end{pmatrix}}={\begin{pmatrix}1&1 \\  0&1\end{pmatrix}}$
