@@ -1883,4 +1883,6 @@ L'ipotesi del Teorema precedente non è sempre di verifica agevole, specialmente
 
 - #DEFINIZIONE(18). **Molteplicità algebrica**
 	
-	Si dice che un autovalore $\lambda_{0}$ ha **molteplicità algebrica** $m$ se $\lambda_{0}$ è una radice del polinomio caratteristico $D(\lambda)$ di molteplicità $m$, cioè se $D(\lambda)$ è divisibile per
+	Si dice che un autovalore $\lambda_{0}$ ha **molteplicità algebrica** $m$ se $\lambda_{0}$ è una radice del polinomio caratteristico $D(\lambda)$ di molteplicità $m$, cioè se $D(\lambda)$ è divisibile per $(\lambda-\lambda_{0})^m$ ma non per $(\lambda-\lambda_{0})^{m+1}$.
+	
+	Siano 
