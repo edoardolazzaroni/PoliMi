@@ -1855,5 +1855,7 @@ La relazione tra il problema della diagonalizzabilità di una matrice e quello d
 
 
 *Esempio*: Studiamo la diagonalizzabilità o meno della matrice $\mathbf{A}={\begin{pmatrix}1&1 \\  0&2\end{pmatrix}}$
-
-Per
+Per quanto visto, i passi da seguire sono i seguenti:
+1. Determiniamo gli autovalori risolvendo l'equazione caratteristica:
+	${\begin{vmatrix}1-\lambda\1 \\  0\\end{vmatrix}}$
+2. 
