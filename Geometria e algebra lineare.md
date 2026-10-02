@@ -1888,4 +1888,6 @@ L'ipotesi del Teorema precedente non è sempre di verifica agevole, specialmente
 	Siano $\lambda_{1},\lambda_{2},\cdots,\lambda_{k} \ (k\le n)$ gli autovalori distinti di $\mathbf{A}$ (reali o complessi), di molteplicità $m_{1},m_{2},\cdots,m_{k}$, rispettivamente. Per il Teorema Fondamentale dell'Algebra, $\sum_{i=1}^k m_{i}=n$.
 	L'insieme degli autovettori corrispondenti all'autovalore $\lambda_{j}$ non è altro che il nucleo della trasformazione $\mathbf{A}-\lambda_{j}\mathbf{I}$. Più precisamente, poichè per definizione gli autovettori devono essere non nulli, diciamo che l'insieme degli autovettori corrispondenti all'autovalore $\lambda_{j}$, con l'aggiunta del vettore $\mathbf{0}$, coincide con il nucleo della trasformazione $\mathbf{A}-\lambda_{j}\mathbf{I}$.
 
-- #DEFINIZIONE(19). A
+- #DEFINIZIONE(19). **Autospazio, molteplicità geometrica**
+	
+	Lo spazio vettoriale $Ker(\mathbf{A}-\lambda_{j}\mathbf{I})$ viene detto **autospazio** associato all'autovalore $\lambda_{j}$ e la sua dimensione $d_{j}$ è d
