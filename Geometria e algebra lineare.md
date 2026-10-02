@@ -1903,4 +1903,5 @@ Valgono inoltre i seguenti fatti:
 
 - #DEFINIZIONE(20). Un autovalore $\lambda_{j}$ si dice **regolare** se $d_{j}= m_{j}$.
 
-Se un autovalore è **semplice**, cioè ha molteplicità algebrica $1$, anche $d_{j}$ dovrà essere uguale a $1$, perciò <mark class="hltr-yellow">un autovalore semplice è sempre regolare</mark>. La distinzione tra autovalori regolari o meno ha quindi senso per gli autovalori
+Se un autovalore è **semplice**, cioè ha molteplicità algebrica $1$, anche $d_{j}$ dovrà essere uguale a $1$, perciò <mark class="hltr-yellow">un autovalore semplice è sempre regolare</mark>. La distinzione tra autovalori regolari o meno ha quindi senso per gli autovalori di molteplicità algebrica $>1$.
+Arriviamo così al seguente:
