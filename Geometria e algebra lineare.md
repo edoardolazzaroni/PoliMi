@@ -1857,18 +1857,18 @@ La relazione tra il problema della diagonalizzabilità di una matrice e quello d
 *Esempio*: Studiamo la diagonalizzabilità o meno della matrice $\mathbf{A}={\begin{pmatrix}1&1 \\  0&2\end{pmatrix}}$
 Per quanto visto, i passi da seguire sono i seguenti:
 
-1) Determiniamo gli autovalori risolvendo l'equazione caratteristica:
+1. Determiniamo gli autovalori risolvendo l'equazione caratteristica:
 	
 	${\begin{vmatrix}1-\lambda &1 \\  0 & 2-\lambda\end{vmatrix}}=(1-\lambda)(2-\lambda)=0 \ \rightarrow \ \lambda=1,\lambda=2$
 
-1) Determiniamo gli autovettori relativi agli autovalori trovati. Ciò significa risolvere, per ciascun autovalore, il sistema omogeneo:
+2) Determiniamo gli autovettori relativi agli autovalori trovati. Ciò significa risolvere, per ciascun autovalore, il sistema omogeneo:
 	
 	${\begin{pmatrix}1-\lambda &1 \\  0&2-\lambda \end{pmatrix}}{\begin{pmatrix}x \\  y\end{pmatrix}}=0$
 	
 	Per $\lambda=1$: $\quad{\begin{cases}y=0 \\  y=0\end{cases}}\quad$ perciò gli autovettori sono $(x,0)$; uno di essi è $(1,0)$.
 	Per $\lambda=2$: $\quad{\begin{cases}-x+y=0 \\  0=0\end{cases}}\quad$ perciò gli autovalori sono $(x,x)$; uno di essi è $(1,1)$.
 
-1) Osserviamo ora che i due autovettori $(1,0),(1,1)$ sono indipendenti, perciò formano una base di $\mathbb{R}^2$. Pertanto $\mathbf{A}$ è diagonalizzabile, con:
+3) Osserviamo ora che i due autovettori $(1,0),(1,1)$ sono indipendenti, perciò formano una base di $\mathbb{R}^2$. Pertanto $\mathbf{A}$ è diagonalizzabile, con:
 	
 	$\mathbf{\Lambda}={\begin{pmatrix}1&0 \\  0&2\end{pmatrix}},\quad\mathbf{S}={\begin{pmatrix}1&1 \\  0&1\end{pmatrix}}$
 	
@@ -1879,4 +1879,4 @@ Per quanto visto, i passi da seguire sono i seguenti:
 Abbiamo così diagonalizzato la matrice $\mathbf{A}$.
 
 
-L'ipotesi del Teorema precedente non è sempre di verifica agevole, specialmente se le di
+L'ipotesi del Teorema precedente non è sempre di verifica agevole, specialmente se le dimensioni della matrice non sono piccole. Vediamo quindi di comprendere più in dettaglio quali sono le situazioni in cui una matrice è o non è diagonalizzabile. Diamo anzitutto qualche definizione:
