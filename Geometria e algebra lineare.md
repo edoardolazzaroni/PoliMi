@@ -1885,4 +1885,5 @@ L'ipotesi del Teorema precedente non è sempre di verifica agevole, specialmente
 	
 	Si dice che un autovalore $\lambda_{0}$ ha **molteplicità algebrica** $m$ se $\lambda_{0}$ è una radice del polinomio caratteristico $D(\lambda)$ di molteplicità $m$, cioè se $D(\lambda)$ è divisibile per $(\lambda-\lambda_{0})^m$ ma non per $(\lambda-\lambda_{0})^{m+1}$.
 	
-	Siano $\lambda_{1},\lambda_{2},\cdots,\lambda_{k} \ (k\le n)$ gli autovalori distinti di $\mathbf{A}$ (reali o complessi), di molteplicità $m_{1},m_{2},\cdots,m_{k}$
+	Siano $\lambda_{1},\lambda_{2},\cdots,\lambda_{k} \ (k\le n)$ gli autovalori distinti di $\mathbf{A}$ (reali o complessi), di molteplicità $m_{1},m_{2},\cdots,m_{k}$, rispettivamente. Per il Teorema Fondamentale dell'Algebra, $\sum_{i=1}^k m_{i}=n$.
+	L'insieme degli autovettori corrispondenti all'autovalore 
