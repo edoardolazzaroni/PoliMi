@@ -1896,4 +1896,9 @@ L'ipotesi del Teorema precedente non è sempre di verifica agevole, specialmente
 Valgono inoltre i seguenti fatti:
 
 - #TEOREMA(19).
-	a) Autovettori relativ
+	
+	a) Autovettori relativi ad autovalori distinti sono linearmente indipendenti;
+	b) La molteplicità geometrica di un autovalore non supera la sua molteplicità algebrica: $d_{j}\le m_{j}$.
+
+
+- #DEFINIZIONE 
