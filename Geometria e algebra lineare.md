@@ -1865,4 +1865,5 @@ Per quanto visto, i passi da seguire sono i seguenti:
 	
 	${\begin{pmatrix}1-\lambda &1 \\  0&2-\lambda \end{pmatrix}}{\begin{pmatrix}x \\  y\end{pmatrix}}=0$
 	
-	Per $\lambda=1$: ${\begin{cases}y=0 \\  y=0\end{cases}}\quad$ perciò gli autovettori sono $(x,0)$; uno di essi è $(1,0)$
+	Per $\lambda=1$: $\quad{\begin{cases}y=0 \\  y=0\end{cases}}\quad$ perciò gli autovettori sono $(x,0)$; uno di essi è $(1,0)$.
+	Per $\lambda=2$: $\quad{\begin{cases}-x+y=0 \\  0=0\end{cases}}\quad$ perciò gli autovalori sono $(x,x)$; uno di essi è $(1,1)$
