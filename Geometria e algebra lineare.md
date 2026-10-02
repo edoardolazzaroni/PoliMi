@@ -1874,4 +1874,9 @@ Per quanto visto, i passi da seguire sono i seguenti:
 	
 	calcolando anche $\mathbf{S}^{-1}={\begin{pmatrix}1&-1 \\  0&1\end{pmatrix}}$ si può scrivere la relazione $\mathbf{A}=\mathbf{S}\mathbf{\Lambda}\mathbf{S}^{-1}$:
 	
-	${\begin{pmatrix}1&1 \\  0&2\end{pmatrix}}={\begin{pmatrix}1&1 \\  0&1\end{pmatrix}}$
+	${\begin{pmatrix}1&1 \\  0&2\end{pmatrix}}={\begin{pmatrix}1&1 \\  0&1\end{pmatrix}}{\begin{pmatrix}1&0 \\  0&2\end{pmatrix}}{\begin{pmatrix}1&-1 \\  0&1\end{pmatrix}}$
+
+Abbiamo così diagonalizzato la matrice $\mathbf{A}$.
+
+
+L'ipotesi del Teorema precedente non è sempre di verifica agevole, specialmente se le di
