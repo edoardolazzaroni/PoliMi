@@ -1920,4 +1920,7 @@ Arriviamo così al seguente:
 Dal Teorema precedente segue in particolare che se una matrice reale ha tutti gli autovalori reali e semplici, è diagonalizzabile su $\mathbb{R}$; se ha tutti gli autovalori semplici (ma non tutti reali) è diagonalizzabile su $\mathbb{C}$. Infatti gli autovalori semplici sono automaticamente regolari.
 
 
-*Esempio*: Sia $\mathbf{A}={\begin{pmatrix}0&1 \\  -1&\end{pmatrix}}$
+*Esempio*: Sia $\mathbf{A}={\begin{pmatrix}0&1 \\  -1&0\end{pmatrix}}$ e chiediamoci se la matrice è diagonalizzabile.
+
+L'equazione caratteristica è: $\lambda^2+1=0,\lambda=\pm i$
+quini no
