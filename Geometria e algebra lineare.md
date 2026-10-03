@@ -1929,4 +1929,6 @@ Dal Teorema precedente segue in particolare che se una matrice reale ha tutti gl
 
 *Esempio* (3): Sia $\mathbf{A}={\begin{pmatrix}2&0&3 \\  0&2&1 \\  0&0&1\end{pmatrix}}$
 	Equazione caratteristica: $(2-\lambda)^2(1-\lambda)=0$, perciò $\lambda=1$ autovalore semplice (quindi regolare), $\lambda=2$ autovalore doppio. L'autospazio relativo a $\lambda=2$ si determina risolvendo il sistema:
-	${\begin{pmatrix}0&0&3 \\  0&0&1 \\  0&0&-1\end{pmatrix}}{\begin{pmatrix}x \\  y \\  z\end{pmatrix}}$
+	
+	${\begin{pmatrix}0&0&3 \\  0&0&1 \\  0&0&-1\end{pmatrix}}{\begin{pmatrix}x \\  y \\  z\end{pmatrix}}=0$
+	che dà $z=0$; perciò l'
