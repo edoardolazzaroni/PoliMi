@@ -2102,4 +2102,6 @@ Precisamente:
 
 #### 7.1.2 **Le coniche come luoghi geometrici piani e le loro equazioni canoniche**
 
-Senza 
+Senza fare uso di costruzioni tridimensionali, le coniche possono anche essere definite direttamente come opportuni luoghi geometrici, nel piano, nei modi seguenti.
+
+- **Ellisse**. Siano
