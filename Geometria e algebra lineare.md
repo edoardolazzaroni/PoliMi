@@ -2037,4 +2037,5 @@ Ricordiamo esplicitamente come si costruiscono le matrici $\mathbf{M}$ e $\mathb
 *Esempio* (2): Diagonalizziamo la matrice $\mathbf{A}={\begin{pmatrix}1&1 \\  1&1\end{pmatrix}}$
 	Gli autovalori sono dati da $\lambda^2-2\lambda=0$, cioè $\lambda=0,\lambda=2$.
 	Gli autovettori relativi a $\lambda=0$ sono dati da $x+y=0$, cioè sono del tipo $(x,-x)$, per esempio $(1,-1)$.
-	Gli autovettori relativi a $\lambda=2$ sono dati da 
+	Gli autovettori relativi a $\lambda=2$ sono dati da $-x+y=0$, per esempio $(1,1)$.
+	Possiamo quindi scrivere: $\mathbf{A}={\begin{pmatrix}1&1 \\  -1&1\end{pmatrix}}{\begin{pmatrix}0&0 \\  0&2\end{pmatrix}}\end{\begin{pmatrix}\end{pmatrix}}$
