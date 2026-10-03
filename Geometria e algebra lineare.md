@@ -1987,4 +1987,7 @@ Inoltre, se $\mathbf{A},\mathbf{B}$ sono due matrici $(n,n)$, vale la proprietà
 		
 			$(\mathbf{A}\mathbf{B})\cdot(\mathbf{A}\mathbf{B})^\top=(\mathbf{A}\mathbf{B})\cdot(\mathbf{B}^\top\mathbf{A}^\top)=\mathbf{A}(\mathbf{B}\mathbf{B}^\top)\mathbf{A}^\top=\mathbf{A}\mathbf{I}_{n}\mathbf{A}^\top=\mathbf{A}\mathbf{A}^\top=\mathbf{I}_{n}$
 	
-	Analogamente si prva 
+	Analogamente si prova che $(\mathbf{A}\mathbf{B})^\top\cdot(\mathbf{A}\mathbf{B})=\mathbf{I}_{n}$, perciò $\mathbf{A}\mathbf{B}$ è ortogonale.
+	
+	
+	d. Con le notazioni del prodotto righe per colonne, il prodotto scalare $\mathbf{x}$
