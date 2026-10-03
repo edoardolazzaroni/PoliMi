@@ -2106,4 +2106,8 @@ Senza fare uso di costruzioni tridimensionali, le coniche possono anche essere d
 
 - #DEFINIZIONE(22). **Ellisse**
 	
-	Siano $F_{1},F_{2}$ due punti nel piano, eventualmente coincidenti, e $d$ un numero reale maggiore della distanza $\overline{F_{1}F_{2}}$. Si chiama **ellisse** di **fuochi** $F_{1},F_{2}$ l'insieme dei punti $P$ del piano tali che $\overline{PF_{1}}+\overline{PF_{2}}=d$, ossia tali che la somma delle loro distanze 
+	Siano $F_{1},F_{2}$ due punti nel piano, eventualmente coincidenti, e $d$ un numero reale maggiore della distanza $\overline{F_{1}F_{2}}$. Si chiama **ellisse** di **fuochi** $F_{1},F_{2}$ l'insieme dei punti $P$ del piano tali che $\overline{PF_{1}}+\overline{PF_{2}}=d$, ossia tali che la somma delle loro distanze dai $2$ fuochi è costante.
+
+
+
+Se in particolare $F_{1}\equiv F_{2}$, l'ellisse è la circonferenza di diame
