@@ -2035,4 +2035,6 @@ Ricordiamo esplicitamente come si costruiscono le matrici $\mathbf{M}$ e $\mathb
 	Basta ora normalizzare i due autovettori per averne due ortonormali; la matrice che ha questi come colonne è quindi una matrice ortogonale, che diagonalizza $\mathbf{A}$.
 
 *Esempio* (2): Diagonalizziamo la matrice $\mathbf{A}={\begin{pmatrix}1&1 \\  1&1\end{pmatrix}}$
-	Gli autovalori sono dati da $\lambda^2-2\lambda=0$, cioè $\lambda=0,\lambda=2$. Gli autovettori relati
+	Gli autovalori sono dati da $\lambda^2-2\lambda=0$, cioè $\lambda=0,\lambda=2$.
+	Gli autovettori relativi a $\lambda=0$ sono dati da $x+y=0$, cioè sono del tipo $(x,-x)$, per esempio $(1,-1)$.
+	Gli autovettori relativi a $\lambda=2$ sono dati da 
