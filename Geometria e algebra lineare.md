@@ -2040,4 +2040,6 @@ Ricordiamo esplicitamente come si costruiscono le matrici $\mathbf{M}$ e $\mathb
 	Gli autovettori relativi a $\lambda=0$ sono dati da $x+y=0$, cioè sono del tipo $(x,-x)$, per esempio $(1,-1)$.
 	Gli autovettori relativi a $\lambda=2$ sono dati da $-x+y=0$, per esempio $(1,1)$.
 	Possiamo quindi scrivere: $\mathbf{A}={\begin{pmatrix}1&1 \\  -1&1\end{pmatrix}}{\begin{pmatrix}0&0 \\  0&2\end{pmatrix}}{\begin{pmatrix}1&1 \\  -1&1\end{pmatrix}}^{-1}$
-	Si noti che i due autovettori scelti sono ortogonali ma non sono nroamli
+	Si noti che i due autovettori scelti sono ortogonali ma non sono normalizzati, quindi la matrice $\mathbf{S}$ qui utilizzata non è ortogonale.
+	Normalizzando gli autovettori, otteniamo una matrice di passaggio ortogonale:
+	$\mathbf{S}={\begin{pmatrix}\end{pmatrix}}$
