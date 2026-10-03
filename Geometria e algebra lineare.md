@@ -2006,5 +2006,10 @@ Quest'ultimo fatto ci sarà utile nelle applicazioni geometriche della diagonali
 Possiamo ora enunciare l'importante:
 
 - #TEOREMA(22). Sia $\mathbf{A}$ una matrice reale e simmetrica. Allora $\mathbf{A}$ è diagonalizzabile, con una matrice di passaggio ortogonale, ossia:
-	$\mathbf{A}=\mathbf{M}\mathbf{\Delta}\mathbf{M}^\top$
-	con $\mathbf{\Delta}$ diagonale e $\mathbf{M}$ ortogonale. In particolare, ciò significa 
+		
+								$\mathbf{A}=\mathbf{M}\mathbf{\Delta}\mathbf{M}^\top$
+	
+	con $\mathbf{\Delta}$ diagonale e $\mathbf{M}$ ortogonale. In particolare, ciò significa che $\mathbb{R}^n$ possiede una base ortonormale di autovettori di $\mathbf{A}$.
+
+Ricordiamo esplicitamente come si costruiscono le matrici $\mathbf{M}$ e $\mathbf{\Delta}$:
+1. 
