@@ -1906,4 +1906,7 @@ Valgono inoltre i seguenti fatti:
 Se un autovalore è **semplice**, cioè ha molteplicità algebrica $1$, anche $d_{j}$ dovrà essere uguale a $1$, perciò <mark class="hltr-yellow">un autovalore semplice è sempre regolare</mark>. La distinzione tra autovalori regolari o meno ha quindi senso per gli autovalori di molteplicità algebrica $>1$.
 Arriviamo così al seguente:
 
-- #TEOREMA(20). La matrice $\mathbf{A}$ a elementi in $\mathbb{K}$ è diagonalizzabile su $\mathbb{K}$ se e solo se i suoi autovalori son
+- #TEOREMA(20). La matrice $\mathbf{A}$ a elementi in $\mathbb{K}$ è diagonalizzabile su $\mathbb{K}$ se e solo se i suoi autovalori sono tutti regolari. (Se $\mathbb{K}=\mathbb{R}$: "se e solo se i suoi autovalori sono tutti reali e regolari").
+	
+	*Dimostrazione*:
+	Infatti,se l
