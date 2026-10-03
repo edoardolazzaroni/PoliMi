@@ -1914,4 +1914,5 @@ Arriviamo così al seguente:
 	
 									$\sum_{j=1}^k d_{j}$
 	
-	D'altro canto $d_{j}<m_{j}$ e $\sum_{j=1}^k m_{j}=n$; per
+	D'altro canto $d_{j}<m_{j}$ e $\sum_{j=1}^k m_{j}=n$; perciò l'unica possibilità per avere $n$ autovettori reali e indipendenti è che sia $d_{j}=m_{j} \quad \forall j$, quindi gli autovalori sono regolari.
+	Viceversa, supponiamo 
