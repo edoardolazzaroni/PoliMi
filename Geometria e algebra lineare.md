@@ -1976,4 +1976,4 @@ Inoltre, se $\mathbf{A},\mathbf{B}$ sono due matrici $(n,n)$, vale la proprietà
 	$\mathbf{a}_{i}'\cdot\mathbf{a}_{j}'=\sum_{k=1}^n a_{ki}a_{kj}={\begin{cases}1 & \mbox{se }i=j\\  0& \mbox{se }i\ne j\end{cases}}\quad$
 	
 	e quindi anche le colonne di $\mathbf{A}$ sono ortonormali.
-	Riperco
+	Ripercorrendo i passaggi all'inverso si vede che se, viceversa, le righe (rispettivamente, le colonne) di $\mathbf{A}$ sono una base ortonormale di $\mathbb{R}^n$, allora $\mathbf{A}\cdot\mathbf{A}^\top=\mathbf{I}_{n}$ (rispettivamente, )
