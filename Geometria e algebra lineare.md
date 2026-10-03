@@ -2104,4 +2104,6 @@ Precisamente:
 
 Senza fare uso di costruzioni tridimensionali, le coniche possono anche essere definite direttamente come opportuni luoghi geometrici, nel piano, nei modi seguenti.
 
-- **Ellisse**. Siano
+- #DEFINIZIONE(22). **Ellisse**
+	
+	Siano $F_{1},F_{2}$ due punti nel piano, eventualmente coincidenti, e $d$ un numero reale maggiore della distanza $$
