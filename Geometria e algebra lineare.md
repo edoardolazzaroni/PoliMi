@@ -1925,6 +1925,7 @@ Dal Teorema precedente segue in particolare che se una matrice reale ha tutti gl
 
 *Esempio* (2): Sia $\mathbf{A}={\begin{pmatrix}1&1 \\  0&1\end{pmatrix}}$
 	Equazione caratteristica: $(\lambda-1)^2=0\rightarrow\lambda=1$ autovalore doppio.
-	Cercando gli autovettori si trova ${\begin{pmatrix}x \\  0\end{pmatrix}}$ pertanto l'autospazio relativo a $\lambda=1$ ha dimensione $1$, l'autovalore non è regolare, e la matrice non è diagonalizzabile.
+	Cercando gli autovettori si trova ${\begin{pmatrix}x \\  0\end{pmatrix}}$ pertanto l'autospazio relativo a $\lambda=1$ ha $\dim=1$, l'autovalore non è regolare, e la matrice non è diagonalizzabile.
 
-*Esempio* (3): 
+*Esempio* (3): Sia $\mathbf{A}={\begin{pmatrix}2&0&3 \\  0&2&1 \\  0&0&1\end{pmatrix}}$
+	Equazione caratteristica: $(2-\lambda)$
