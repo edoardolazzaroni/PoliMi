@@ -2075,4 +2075,4 @@ $\mathbf{R}_{x}(\alpha)={\begin{pmatrix}1&0&0 \\  0&\cos\alpha&\sin\alpha \\  0&
 # Capitolo VII: Coniche
 
 
-Nei cait
+Nei capitoli precedenti abbiamo introdotto alcuni concetti e strumenti fondamentali dell'algebra lineare e abbiamo sviluppato i primi elementi della geometria analitica dello spazio limitandoci alla geometria degli enti lineari (rette e pi)
