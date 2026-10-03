@@ -2087,4 +2087,4 @@ Le coniche sono, dopo la circonferenza, le prime curve piane che storicamente so
 
 #### 7.1.1 **Le coniche come sezioni di un cono**
 
-Un primo modo
+Un primo modo per definire le coniche utilizza il punto di vista della geometria elementare dello spazio. Consideriamo anzitutto un cono a due falde, ovvero la superficie, nello spazio, così definita: si considera una retta $a$, detta asse del
