@@ -2055,4 +2055,6 @@ Soffermiamoci ora sul caso tridimensionale; dal punto di vista geometrico una ro
 Dal punto di vista algebrico una rotazione è individuata da una matrice $(3,3)$ ortogonale. [[#6.3.1 **Matrici reali simmetriche. Matrici ortogonali**|Le condizioni di ortogonalità]] implicano $6$ relazioni indipendenti tra i $9$ coefficienti della matrice, e quindi i parametri indipendenti che individuano la matrice sono $3$.
 Chiediamoci come si legge, dalla matrice, l'informazione geometrica su quale sia l'asse e l'angolo di rotazione. A questo risponde il prossimo:
 
-- #TEOREMA (23). Teorema di 
+- #TEOREMA (23). **Teorema di Eulero**
+	
+	Una matrice $\mathbf{M}$ ortogonale $(3,3)$ avente $\det=1$ ha sempre un autovalore uguale ad $1$ con un autovettore reale, e due autovalori complessi coniugati di modulo unitario, $e^{}$
