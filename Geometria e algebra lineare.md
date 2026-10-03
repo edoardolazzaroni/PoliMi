@@ -2057,4 +2057,5 @@ Chiediamoci come si legge, dalla matrice, l'informazione geometrica su quale sia
 
 - #TEOREMA (23). **Teorema di Eulero**
 	
-	Una matrice $\mathbf{M}$ ortogonale $(3,3)$ avente $\det=1$ ha sempre un autovalore uguale ad $1$ con un autovettore reale, e due autovalori complessi coniugati di modulo unitario, $e^{}$
+	Una matrice $\mathbf{M}$ ortogonale $(3,3)$ avente $\det=1$ ha sempre un autovalore uguale ad $1$ con un autovettore reale, e due autovalori complessi coniugati di modulo unitario, $e^{i\alpha},e^{-i\alpha}$, per qualche $\alpha$.
+	Il versore $\mathbf{n}$ dell'autovettore reale indica l'asse di rotazione, mentre il numero $\alpha$ indica l'angolo.
