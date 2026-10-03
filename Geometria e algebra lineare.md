@@ -1917,4 +1917,4 @@ Arriviamo così al seguente:
 	D'altro canto $d_{j}<m_{j}$ e $\sum_{j=1}^k m_{j}=n$; perciò l'unica possibilità per avere $n$ autovettori reali e indipendenti è che sia $d_{j}=m_{j} \quad \forall j$, quindi gli autovalori sono regolari.
 	Viceversa, supponiamo ora che gli autovalori $\lambda_{1},\lambda_{2},\cdots,\lambda_{k}$ siano tutti regolari, quindi ogni autospazio fornisce $m_{j}$ autovettori indipendenti tra loro (e indipendenti da quelli degli altri autospazi). In conclusione, il numero totale di autovettori indipendenti è $\sum_{j=1}^k m_{j}=n$, dunque $\mathbb{K}^n$ ha una base di autovettori di $\mathbf{A}$.
 
-Dal Teorema precedente segue in particolare 
+Dal Teorema precedente segue in particolare che se una matrice reale ha tutti gli autovalori reali e semplici, è diagonalizzabile su $\mathbb{R}$; se ha tutti gli autovalori semplici (ma non tutti reali) è diagonalizzabile su $\mathbb{C}$. Infatti gli autovalori semplici sono automaticamente regolari.
