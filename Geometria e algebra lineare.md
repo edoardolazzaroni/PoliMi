@@ -1923,4 +1923,4 @@ Dal Teorema precedente segue in particolare che se una matrice reale ha tutti gl
 *Esempio*: Sia $\mathbf{A}={\begin{pmatrix}0&1 \\  -1&0\end{pmatrix}}$ e chiediamoci se la matrice è diagonalizzabile.
 
 L'equazione caratteristica è: $\lambda^2+1=0,\lambda=\pm i$
-quini no
+quindi non esistono autovalori reali. Pertanto $\mathbf{A}$ non è diagonalizzabile su $\mathbb{R}$. D'altro canto gli autovalori, in $\mathbb{C}$, sono semplici, quindi la matrice è
