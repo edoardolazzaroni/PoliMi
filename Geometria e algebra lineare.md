@@ -2005,4 +2005,6 @@ Quest'ultimo fatto ci sarà utile nelle applicazioni geometriche della diagonali
 
 Possiamo ora enunciare l'importante:
 
-- #TEOREMA(22). Sia $\mathbf{A}$ una matrice reale e simmetrica. Allora $$
+- #TEOREMA(22). Sia $\mathbf{A}$ una matrice reale e simmetrica. Allora $\mathbf{A}$ è diagonalizzabile, con una matrice di passaggio ortogonale, ossia:
+	$\mathbf{A}=\mathbf{M}\mathbf{\Delta}\mathbf{M}^\top$
+	con $\mathbf{\Delta}$ diagonale e $\mathbf{M}$ ortogonale. In particolare, ciò significa 
