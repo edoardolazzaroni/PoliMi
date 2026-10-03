@@ -2034,4 +2034,5 @@ Ricordiamo esplicitamente come si costruiscono le matrici $\mathbf{M}$ e $\mathb
 	Ne segue che $\lambda_1\mathbf{v}_1\cdot\mathbf{v}_2=\lambda_2\mathbf{v}_1\cdot\mathbf{v}_2$, ed essendo $\lambda_1\ne\lambda_2$ dev'essere $\mathbf{v}_1\cdot\mathbf{v}_2=0$.
 	Basta ora normalizzare i due autovettori per averne due ortonormali; la matrice che ha questi come colonne è quindi una matrice ortogonale, che diagonalizza $\mathbf{A}$.
 
-*Esempio* (2): Di
+*Esempio* (2): Diagonalizziamo la matrice $\mathbf{A}={\begin{pmatrix}1&1 \\  1&1\end{pmatrix}}$
+	Gli autovalori sono dati da $\lambda^2-2\lambda=0$, cioè $\lambda=0,\lambda=2$. Gli autovettori relati
