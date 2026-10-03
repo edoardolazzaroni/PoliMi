@@ -1943,3 +1943,4 @@ Dal Teorema precedente segue in particolare che se una matrice reale ha tutti gl
 - **Osservazione**: Nel caso di autovalori non regolari non è possibile trovare una matrice equivalente a quella data, che sia diagonale. È tuttavia possibile ridurre la matrice ad una forma "canonica" più semplice, detta **forma di Jordan**.
 
 
+#### 6.3.1 **Matrici reali simmetriche. Matrici ortogon**
