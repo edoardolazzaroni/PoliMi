@@ -87,11 +87,11 @@ In questo capitolo verrà introdotto il concetto di automa e se ne analizzeranno
 
 Un automa è rappresentato graficamente come un insieme di circonferenze denominate (che rappresentano gli stati dell’automa), ognuna delle quali è connessa ad altri stati tramite frecce. Su tali frecce è segnata la condizione da soddisfare per intraprendere quel passaggio di stato e come viene modificato lo stato durante il passaggio. Lo stato iniziale si riconosce per via di una freccia entrante nel nodo, mentre gli stati finali sono rappresentati da circonferenze con bordo doppio.
 
-*Esempio di rappresentazione di un automa a stati finiti:*
+###### #Figura(1) *Esempio di rappresentazione di un automa a stati finiti:*
 
 ![[Screenshot 2026-05-23 alle 16.07.21.png|363]]
 
-*Esempio di rappresentazione di una macchina di Turing:*
+###### #Figura(2) *Esempio di rappresentazione di una macchina di Turing:*
 
 ![[Screenshot 2026-05-23 alle 21.02.24.png|574]]
 
@@ -511,7 +511,7 @@ Una volta definite cosa siano le grammatiche, è possibile classificarle in base
 - Tipo 3 (REGOLARI): sono grammatiche a cui si introduce il vincolo per cui ad ogni produzione $α →β ∈P$ si verifica che $|α | = 1$ (quindi $α ∈V_N$) e che $β$ sia in una sola delle seguenti forme: $aB, Ba, a$ oppure $ε$, con $a ∈V_T$ e $B ∈V_N$; inoltre, la derivazione $S →ε$ è consentita solo se $S$ non appare a destra in nessuna regola di derivazione.
 
 
-*Gerarchia di Chomsky*:
+###### #Figura(3) *Gerarchia di Chomsky*:
 
 ![[classificazione grammatiche.webp|524]]
 
@@ -663,7 +663,7 @@ che mette in corrispondenza l’insieme $\mathbb{N} ×\mathbb{N}$, composto dall
 
 Graficamente, è come visitare le coppie di punti nel piano in un ordine prefissato, dove la posizione di un punto nella visita rappresenta il numero naturale associato alla coppia che identifica le coordinate del punto.
 
-*Grafico di biiezione*
+###### #Figura(4) *Grafico di biiezione*
 
 ![[Algoritmi e Principi dell'Informatica-1779633374904.webp|383]]
 
