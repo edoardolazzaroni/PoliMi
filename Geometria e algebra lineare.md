@@ -2025,5 +2025,6 @@ Ricordiamo esplicitamente come si costruiscono le matrici $\mathbf{M}$ e $\mathb
 	
 	$\lambda=\frac{(a+c)\pm\sqrt{(a+c)^2-4(ac-b^2)}}{2}=\frac{(a+c)\pm\sqrt{(a-c)^2}+4b^2}{2}$
 	Come si vede, il discriminante è sempre $\ge0$, il che implica autovalori reali. In particolare, il discriminante si annulla se e solo se $a=c$ e $b=0$
-	ossia se e solo se $\mathbf{A}$ è già una matrice diagonale.
-	Altrimenti si hanno $2$ autovalori reali e distinti, quindi semplici, quindi regolari, e perciò la matrice è diago
+	ossia se e solo se $\mathbf{A}$ è già una matrice diagonale. Altrimenti si hanno $2$ autovalori reali e distinti, quindi semplici, quindi regolari, e perciò la matrice è diagonalizzabile.
+	Mostriamo che è possibile diagonalizzarla con una matrice ortogonale.
+	Siano $\lambda_1,\lambda_2$ i due autovalori, e $\mathbf{v}_1,\mathbf{v}_2$ due autovettori corrispondenti, rispettivamente. 
