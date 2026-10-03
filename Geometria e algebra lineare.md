@@ -1931,4 +1931,6 @@ Dal Teorema precedente segue in particolare che se una matrice reale ha tutti gl
 	Equazione caratteristica: $(2-\lambda)^2(1-\lambda)=0$, perciò $\lambda=1$ autovalore semplice (quindi regolare), $\lambda=2$ autovalore doppio. L'autospazio relativo a $\lambda=2$ si determina risolvendo il sistema:
 	
 	${\begin{pmatrix}0&0&3 \\  0&0&1 \\  0&0&-1\end{pmatrix}}{\begin{pmatrix}x \\  y \\  z\end{pmatrix}}=0$
-	che dà $z=0$; perciò l'
+	che dà $z=0$; perciò l'autospazio consiste dei vettori $(x,y,0)$, e ha quindi $\dim=2$.
+	$\lambda=2$ è regolare, e la matrice è diagonalizzabile.
+	Per diagonalizzarla effettivamente, 
