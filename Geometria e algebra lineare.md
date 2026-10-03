@@ -2015,4 +2015,5 @@ Possiamo ora enunciare l'importante:
 Ricordiamo esplicitamente come si costruiscono le matrici $\mathbf{M}$ e $\mathbf{\Delta}$:
 
 1. Si calcolano gli autovalori di $\mathbf{A}$, $\lambda_{1},\lambda_{2},\cdots,\lambda_{n}$ e $n$ autovettori corrispondenti; questi risultano a due a due ortogonali;
-2. Si normalizzano gli $n$ autovettori, ottenendo $$
+2. Si normalizzano gli $n$ autovettori, ottenendo $\mathbf{h}_{1},\cdots,\mathbf{h}_{n}$ vettori colonna ortonormali;
+3. Si ha allora $\mathbf{M}=(\mathbf{h}_{1}|\mathbf{h}_{2}|\cdots|\mathbf{h}_{n})$ e $\mathbf{\Delta}=diag(\lambda)$
