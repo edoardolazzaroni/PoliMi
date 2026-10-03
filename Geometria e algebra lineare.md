@@ -2063,3 +2063,8 @@ Chiediamoci come si legge, dalla matrice, l'informazione geometrica su quale sia
 							$Tr \mathbf{M}=1+2\cos\alpha$
 	
 	dove $Tr\mathbf{M}$ (traccia di $\mathbf{M}$) indica la somma degli elementi di $\mathbf{M}$ posti sulla diagonale principale.
+
+
+*Esempio*: Le rotazioni di angolo $\alpha$ attorno agli assi $x,y,z$ sono date rispettivamente dalle matrici:
+
+$\mathbf{R}_{x}(\alpha)={\begin{pmatrix}\end{pmatrix}}$
