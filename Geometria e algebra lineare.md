@@ -2031,4 +2031,7 @@ Ricordiamo esplicitamente come si costruiscono le matrici $\mathbf{M}$ e $\mathb
 	$\mathbf{v}_1\cdot(\mathbf{A}\mathbf{v}_2)=\lambda_2\mathbf{v}_1\cdot\mathbf{v}_2$ e $\mathbf{v}_2\cdot(\mathbf{A}\mathbf{v}_1)=\lambda_1\mathbf{v}_1\cdot\mathbf{v}_2$
 	D'altro canto la simmetria della matrice $\mathbf{A}$ implica che $\mathbf{v}_1\cdot(\mathbf{A}\mathbf{v}_2)=\mathbf{v}_2\cdot(\mathbf{A}\mathbf{v}_1)$, infatti:
 	$\mathbf{v}_1\cdot(\mathbf{A}\mathbf{v}_2)=\sum_{i=1}^2 v_1^i \sum_{j=1}^2 a_{ji}v_2^j=\sum_{j=1}^2 v_2^j \sum_{i=1}^2 a_{ji}v_1^i=\mathbf{v}_2\cdot(\mathbf{A}\mathbf{v}_1)$
-	Ne segue che $\lambda_1\mathbf{v}_1\cdot\mathbf{v}_2=\lambda_2\mathbf{v}_1\cdot\mathbf{v}_2$, ed essendo $\lambda_1\ne\lambda_2$ dev'essere $\mathbf{v}_1\cdot\mathbf{$
+	Ne segue che $\lambda_1\mathbf{v}_1\cdot\mathbf{v}_2=\lambda_2\mathbf{v}_1\cdot\mathbf{v}_2$, ed essendo $\lambda_1\ne\lambda_2$ dev'essere $\mathbf{v}_1\cdot\mathbf{v}_2=0$.
+	Basta ora normalizzare i due autovettori per averne due ortonormali; la matrice che ha questi come colonne è quindi una matrice ortogonale, che diagonalizza $\mathbf{A}$.
+
+*Esempio* (2): Di
