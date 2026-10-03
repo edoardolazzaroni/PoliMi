@@ -2000,4 +2000,4 @@ Se $n=2,3$ la conservazione del prodotto scalare ha il significato geometrico di
 Precisamente, si osserva che le trasformazioni lineari che rappresentano una rotazione rispetto all'origine senza alcuna riflessione sono rappresentate da matrici ortogonali aventi $\det=1$; queste matrici si chiamano ortogonali speciali, o comunemente **matrici di rotazione**.
 Invece, le trasformazioni lineari che rappresentano una rotazione rispetto all'origine accompagnata da una riflessione sono rappresentate da matrici ortogonali aventi $\det=-1$.
 
-Per le matrici ortogonali $n\times n$ adotteremo la stessa terminologia, continuando a pensare come "rotazioni in $\mathbb{R}^n$" le trasformazi
+Si noti che in base al punto (a) del Teorema precedente, scambiando tra loto due colonne/righe di una matrice ortogonale $n\times n$ 
