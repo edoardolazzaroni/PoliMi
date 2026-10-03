@@ -1909,4 +1909,5 @@ Arriviamo così al seguente:
 - #TEOREMA(20). La matrice $\mathbf{A}$ a elementi in $\mathbb{K}$ è diagonalizzabile su $\mathbb{K}$ se e solo se i suoi autovalori sono tutti regolari. (Se $\mathbb{K}=\mathbb{R}$: "se e solo se i suoi autovalori sono tutti reali e regolari").
 	
 	*Dimostrazione*:
-	Infatti,se l
+	
+	Infatti, se la matrice è diagonalizzabile, $\mathbb{K}^n$ ha una base di autovettori di $\mathbf{A}$. Ora, se $\lambda_{1},\lambda_{2},\cdots,\lambda_{n}$ sono gli autovalori distinti di 
