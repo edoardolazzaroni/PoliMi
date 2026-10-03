@@ -1390,7 +1390,7 @@ Sommando i costi dei nodi di ogni livello, si ottengono i costi relativi a quel 
 *ESEMPIO*: Si calcoli la ricorrenza $T(n) = 3T(⌊n/4⌋) + Θ(n^2)$. Come detto, si può approssimare la ricorrenza eliminando l’operatore floor, ottenendo $T(n) = 3T(n/4) + cn^2$, per una data costante $c>0$.
 Per comodità, si suppone anche che $n$ sia una potenza di 4, in modo tale che ogni livello dell’albero abbia dimensione intera. Si ottiene così il seguente albero delle ricorrenze:
 
-###### #Figura(1) *Albero della ricorrenza $T(n) = 3T(n/4) + cn^2$*
+###### #Figura(13) *Albero della ricorrenza $T(n) = 3T(n/4) + cn^2$*
 
 ![[esempio albero di ricorsione.webp|569]]
 
