@@ -1963,3 +1963,6 @@ Inoltre, se $\mathbf{A},\mathbf{B}$ sono due matrici $(n,n)$, vale la proprietà
 	b. Il determinante di una matrice ortogonale vale $1$ o $-1$.
 	c. Il prodotto di due matrici ortogonali è ortogonale.
 	d. La trasformazione lineare rappresentata da una matrice ortogonale conserva il modulo dei vettori: $|\mathbf{A}\mathbf{x}|=|\mathbf{x}|\quad\mathbf{x}\in\mathbb{R}^n$, e conserva il loro prodotto scalare: $\mathbf{A}\mathbf{x}\cdot\mathbf{A}\mathbf{y}=\mathbf{x}\cdot\mathbf{y}$.
+	
+	*Dimostrazioni*:
+	
