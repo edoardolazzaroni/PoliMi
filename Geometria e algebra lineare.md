@@ -1933,4 +1933,5 @@ Dal Teorema precedente segue in particolare che se una matrice reale ha tutti gl
 	${\begin{pmatrix}0&0&3 \\  0&0&1 \\  0&0&-1\end{pmatrix}}{\begin{pmatrix}x \\  y \\  z\end{pmatrix}}=0$
 	che dà $z=0$; perciò l'autospazio consiste dei vettori $(x,y,0)$, e ha quindi $\dim=2$.
 	$\lambda=2$ è regolare, e la matrice è diagonalizzabile.
-	Per diagonalizzarla effettivamente, occorre calcolare anche un autovettore relativo a $\lambda=1$. Si trova, per esempio, $(-3,0,1)$. Quindi si può porre 
+	Per diagonalizzarla effettivamente, occorre calcolare anche un autovettore relativo a $\lambda=1$. Si trova, per esempio, $(-3,0,1)$. Quindi si può porre $\mathbf{A}=\mathbf{S}\mathbf{\Lambda}\mathbf{S}^{-1}$ con:
+	$\mathbf{\Lambda}=\begin{pmatrix}1&0&0\\0&2&0\\0&0&2\end{pmatrix}$
