@@ -1910,4 +1910,4 @@ Arriviamo così al seguente:
 	
 	*Dimostrazione*:
 	
-	Infatti, se la matrice è diagonalizzabile, $\mathbb{K}^n$ ha una base di autovettori di $\mathbf{A}$. Ora, se $\lambda_{1},\lambda_{2},\cdots,\lambda_{n}$ sono gli autovalori distinti di 
+	Infatti, se la matrice è diagonalizzabile, $\mathbb{K}^n$ ha una base di autovettori di $\mathbf{A}$. Ora, se $\lambda_{1},\lambda_{2},\cdots,\lambda_{n}$ sono gli autovalori distinti di $\mathbf{A}$ (se $\mathbb{K}=\mathbb{R}$ reali perchè $\mathbf{A}$ è diagonalizzabile), ciascun autospazio fornisce $d_{j}$ autovettori indipendenti tra loro (per definizione di molteplic)
