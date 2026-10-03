@@ -1998,4 +1998,6 @@ Inoltre, se $\mathbf{A},\mathbf{B}$ sono due matrici $(n,n)$, vale la proprietà
 
 Se $n=2,3$ la conservazione del prodotto scalare ha il significato geometrico di conservazione degli angoli e delle lunghezze. Geometricamente, le trasformazioni lineari che conservano gli angoli e lunghezze sono le rotazioni rispetto all'origine, eventualmente accompagnate da una riflessione (rispetto ad una retta, nel piano; rispetto a un piano, nello spazio), ad eccezione delle traslazioni in quanto non sono trasformazioni lineari.
 Precisamente, si osserva che le trasformazioni lineari che rappresentano una rotazione rispetto all'origine senza alcuna riflessione sono rappresentate da matrici ortogonali aventi $\det=1$; queste matrici si chiamano ortogonali speciali, o comunemente **matrici di rotazione**.
-Invece, le trasformazioni lineari che rappresentano una rotazione rispetto all'origine accompagnata da una riflessione sono rappresentatr d
+Invece, le trasformazioni lineari che rappresentano una rotazione rispetto all'origine accompagnata da una riflessione sono rappresentate da matrici ortogonali aventi $\det=-1$.
+
+Per le matrici ortogonali $n\times n$ adotteremo la stessa terminologia, continuando a pensare come "rotazioni in $\mathbb{R}^n$" le trasformazi
