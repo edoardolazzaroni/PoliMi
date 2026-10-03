@@ -2061,4 +2061,5 @@ Chiediamoci come si legge, dalla matrice, l'informazione geometrica su quale sia
 	Il versore $\mathbf{n}$ dell'autovettore reale indica l'asse di rotazione, mentre il numero $\alpha$ indica l'angolo. l'angolo $\alpha$ si può anche calcolare direttamente dalla relazione:
 		
 							$Tr \mathbf{M}=1+2\cos\alpha$
-	dove $Tr\mathbf{M}$
+	
+	dove $Tr\mathbf{M}$ (traccia di $\mathbf{M}$) indica la somma degli elementi di $\mathbf{M}$ posti sulla diagonale principale.
