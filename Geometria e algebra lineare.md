@@ -2042,4 +2042,5 @@ Ricordiamo esplicitamente come si costruiscono le matrici $\mathbf{M}$ e $\mathb
 	Possiamo quindi scrivere: $\mathbf{A}={\begin{pmatrix}1&1 \\  -1&1\end{pmatrix}}{\begin{pmatrix}0&0 \\  0&2\end{pmatrix}}{\begin{pmatrix}1&1 \\  -1&1\end{pmatrix}}^{-1}$
 	Si noti che i due autovettori scelti sono ortogonali ma non sono normalizzati, quindi la matrice $\mathbf{S}$ qui utilizzata non è ortogonale.
 	Normalizzando gli autovettori, otteniamo una matrice di passaggio ortogonale:
-	$\mathbf{S}={\begin{pmatrix}\end{pmatrix}}$
+	$\mathbf{S}={\begin{pmatrix}\frac{1}{\sqrt{2}}&\frac{1}{\sqrt{2}} \\  -\frac{1}{\sqrt{2}}&\frac{1}{\sqrt{2}}\end{pmatrix}}$
+	che in questo caso 
