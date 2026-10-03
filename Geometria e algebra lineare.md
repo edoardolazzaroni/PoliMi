@@ -334,7 +334,7 @@ L'equazione cartesiana del piano si ottiene passando dai vettori alle coordinate
 
 ossia dove $\begin{cases} ax+by+cz=d \\ d=\mathbf{n}\cdot\mathbf{p}_0=ax_0+by_0+cz_0 \end{cases}$
 
-Facciamo qualche osservazione:
+Facciamo qualche **osservazione**:
 - Se $a^2+b^2+c^2=1$, cioè $\mathbf{n}$ è un versore, allora $a,b,c$ sono i <u>coseni direttori</u> del piano;
 - Se $d=0$, il piano passa per l'origine $O=(0,0,0)$;
 - Se uno dei coefficienti $a,b,c$ è nullo, il piano è parallelo ad uno degli assi coordinati. Per esempio, se $c=0$ il piano è parallelo all'asse $z$, e quindi è perpendicolare al piano $(x,y)$;
@@ -1939,4 +1939,4 @@ Dal Teorema precedente segue in particolare che se una matrice reale ha tutti gl
 	Si noti che le ultime due colonne della matrice $\mathbf{S}$ sono una base dell'autospazio relativo all'autovalore $\lambda=2$.
 
 
-- **Osservazione**: Nel caso di autovalori non regolari non è possibile trovare una matrice equivalente a quella data, che sia diagonale. È tuttavia possibile ridurre la matrice 
+- **Osservazione**: Nel caso di autovalori non regolari non è possibile trovare una matrice equivalente a quella data, che sia diagonale. È tuttavia possibile ridurre la matrice ad una forma "canonica" più semplice, detta **forma di Jordan**, ma la discussione di tale
