@@ -1996,4 +1996,5 @@ Inoltre, se $\mathbf{A},\mathbf{B}$ sono due matrici $(n,n)$, vale la proprietà
 						$|\mathbf{A}\mathbf{x}|^2=(\mathbf{A}\mathbf{x})^\top(\mathbf{A}\mathbf{x})=\mathbf{x}^\top\mathbf{x}=|\mathbf{x}|^2$
 
 
-Se $n=2,3$ la conservazione del prodotto scalare ha il significato geometrico di conservazione degli angoli e delle lunghezze. Geometricamente, le trasformazioni lineari che conservano gli angoli e lunghezze sono le rotazioni rispetto all'origine, e
+Se $n=2,3$ la conservazione del prodotto scalare ha il significato geometrico di conservazione degli angoli e delle lunghezze. Geometricamente, le trasformazioni lineari che conservano gli angoli e lunghezze sono le rotazioni rispetto all'origine, eventualmente accompagnate da una riflessione (rispetto ad una retta, nel piano; rispetto a un piano, nello spazio), ad eccezione delle traslazioni in quanto non sono trasformazioni lineari.
+Precisamente, si osserva 
