@@ -2020,4 +2020,5 @@ Ricordiamo esplicitamente come si costruiscono le matrici $\mathbf{M}$ e $\mathb
 4. Nel caso risultasse $\det\mathbf{M}=-1$, per ottenere una matrice $\mathbf{M}$ di rotazione è sufficiente scambiare tra loro (ad esempio) i primi due autovettori e i primi due autovalori, ossia porre: $\mathbf{M}=(\mathbf{h}_{2}|\mathbf{h}_{1}|\cdots|\mathbf{h}_{n})$ e $\mathbf{\Delta}=diag(\lambda_{2},\lambda_{1},\cdots,\lambda_{n})$.
 
 
-*Esempio* (1): Dimostriamo il teorema per 
+*Esempio* (1): Dimostriamo il Teorema per $n=2$. La generica matrice di tipo $(2,2)$ è: $\mathbf{A}={\begin{pmatrix}a&b \\  c&d\end{pmatrix}}$
+	I suoi autovalori sono dati da $\end$
