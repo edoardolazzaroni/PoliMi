@@ -2106,4 +2106,4 @@ Senza fare uso di costruzioni tridimensionali, le coniche possono anche essere d
 
 - #DEFINIZIONE(22). **Ellisse**
 	
-	Siano $F_{1},F_{2}$ due punti nel piano, eventualmente coincidenti, e $d$ un numero reale maggiore della distanza $\over{F_{1}F_{2}}$
+	Siano $F_{1},F_{2}$ due punti nel piano, eventualmente coincidenti, e $d$ un numero reale maggiore della distanza $\bar{F_{1}F_{2}}$
