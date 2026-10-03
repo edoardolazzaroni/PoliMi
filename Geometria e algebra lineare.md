@@ -2024,5 +2024,4 @@ Ricordiamo esplicitamente come si costruiscono le matrici $\mathbf{M}$ e $\mathb
 	I suoi autovalori sono dati da ${\begin{vmatrix}a-\lambda &b \\  b&c-\lambda\end{vmatrix}}=\lambda^2-(a+c)\lambda+ac-b^2=0$
 	
 	$\lambda=\frac{(a+c)\pm\sqrt{(a+c)^2-4(ac-b^2)}}{2}=\frac{(a+c)\pm\sqrt{(a-c)^2}+4b^2}{2}$
-	
-	Come si vede
+	Come si vede, il discriminante è sempre $\ge0$, il che implica autovalori reali. In particolare, il discriminante si annulla se e solo se $a=c$
