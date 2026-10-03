@@ -1953,7 +1953,7 @@ Una classe particolare di matrici reali che, come vedremo, risultano <mark class
 	
 	ossia se $\mathbf{A}$ è una matrice non singolare la cui inversa coincide con la trasposta.
 
-Ricordiamo che la trasposta $\mathbf{A}^\top$ di una matrice $\mathbf{A}$ è quella che si ottiene scambiando le righe con le colonne. Perciò se $\mathbf{A}=(a_{ij})$, $\mathbf{A}^\top=(a_{ji})$.
+[[#4.1 **L'algebra delle matrici**|Ricordiamo]] che la trasposta $\mathbf{A}^\top$ di una matrice $\mathbf{A}$ è quella che si ottiene scambiando le righe con le colonne. Perciò se $\mathbf{A}=(a_{ij})$, $\mathbf{A}^\top=(a_{ji})$.
 Inoltre, se $\mathbf{A},\mathbf{B}$ sono due matrici $(n,n)$, vale la proprietà $(\mathbf{A}\mathbf{B})^\top=\mathbf{B}^\top\mathbf{A}^\top$.
 
 
@@ -1966,3 +1966,4 @@ Inoltre, se $\mathbf{A},\mathbf{B}$ sono due matrici $(n,n)$, vale la proprietà
 	
 	*Dimostrazioni*:
 	
+	a.
