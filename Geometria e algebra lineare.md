@@ -2027,4 +2027,5 @@ Ricordiamo esplicitamente come si costruiscono le matrici $\mathbf{M}$ e $\mathb
 	Come si vede, il discriminante è sempre $\ge0$, il che implica autovalori reali. In particolare, il discriminante si annulla se e solo se $a=c$ e $b=0$
 	ossia se e solo se $\mathbf{A}$ è già una matrice diagonale. Altrimenti si hanno $2$ autovalori reali e distinti, quindi semplici, quindi regolari, e perciò la matrice è diagonalizzabile.
 	Mostriamo che è possibile diagonalizzarla con una matrice ortogonale.
-	Siano $\lambda_1,\lambda_2$ i due autovalori, e $\mathbf{v}_1,\mathbf{v}_2$ due autovettori corrispondenti, rispettivamente. 
+	Siano $\lambda_1,\lambda_2$ i due autovalori, e $\mathbf{v}_1,\mathbf{v}_2$ due autovettori corrispondenti, rispettivamente. Mostriamo che $\mathbf{v}_1$ e $\mathbf{v}_2$ sono ortogonali. Infatti:
+	$\mathbf{v}_1\cdot(\mathbf{A}\mathbf{v}_2)=\lambda_2\mathbf{v}_1\cdot\mathbf{v}_2$ e 
