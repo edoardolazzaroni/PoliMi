@@ -1959,3 +1959,6 @@ Inoltre, se $\mathbf{A},\mathbf{B}$ sono due matrici $(n,n)$, vale la proprietà
 
 - #TEOREMA (21). **Proprietà delle matrici ortogonali**
 	
+	a. $\mathbf{A}$ è una matrice ortogonale di tipo $(n,n)$ se e solo se le sue righe sono una base ortonormale di $\mathbb{R}^n$; lo stesso vale per le colonne.
+	b. Il determinante di una matrice ortogonale vale $1$ o $-1$.
+	
