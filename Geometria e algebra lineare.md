@@ -2068,3 +2068,11 @@ Chiediamoci come si legge, dalla matrice, l'informazione geometrica su quale sia
 *Esempio*: Le rotazioni di angolo $\alpha$ attorno agli assi $x,y,z$ sono date rispettivamente dalle matrici:
 
 $\mathbf{R}_{x}(\alpha)={\begin{pmatrix}1&0&0 \\  0&\cos\alpha&\sin\alpha \\  0&-\sin\alpha&\cos\alpha\end{pmatrix}}\quad\mathbf{R}_{y}(\alpha)={\begin{pmatrix}\cos\alpha&0&\sin\alpha \\  0&1&0 \\  -\sin\alpha&0&\cos\alpha\end{pmatrix}}\quad\mathbf{R}_{z}(\alpha)={\begin{pmatrix}\cos\alpha&\sin\alpha&0 \\  -\sin\alpha&\cos\alpha&0 \\  0&0&1\end{pmatrix}}$
+
+
+
+
+# Capitolo VII: Coniche
+
+
+Nei cait
