@@ -1966,4 +1966,4 @@ Inoltre, se $\mathbf{A},\mathbf{B}$ sono due matrici $(n,n)$, vale la proprietà
 	
 	*Dimostrazioni*:
 	
-	a. 
+	a. Poniamo $\mathbf{A}={\begin{pmatrix}\mathbf{a}_{1} \\  \mathbf{a}_{2} \\  \cdots \\  \mathbf{A}\end{pmatrix}}$
