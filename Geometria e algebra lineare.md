@@ -2079,4 +2079,4 @@ Nei capitoli precedenti abbiamo introdotto alcuni concetti e strumenti fondament
 Dal punto di vista algebrico, i più semplici oggetti geometrici curvi che è naturale considerare sono quelli descritti da equazioni algebriche di secondo grado in due variabili (che rappresenteranno particolari curve nel piano) o in tre variabili (che rappresenteranno superfici nello spazio): queste curve e superfici prendono il nome di **coniche** e **quadriche**, rispettivamente.
 Come vedremo, nello studio delle proprietà di questi oggetti, l'algebra lineare studiata in precedenza risulta essere uno strumento molto potente.
 
-Le coniche sono, dopo la ci
+Le coniche sono, dopo la circonferenza, le prime curve piane che storicamente sono state studiate: nella matematica greca erano studiate coi metodi della geometria euclidea, del piano e dello spazio.
