@@ -2011,5 +2011,8 @@ Possiamo ora enunciare l'importante:
 	
 	con $\mathbf{\Delta}$ diagonale e $\mathbf{M}$ ortogonale. In particolare, ciò significa che $\mathbb{R}^n$ possiede una base ortonormale di autovettori di $\mathbf{A}$.
 
+
 Ricordiamo esplicitamente come si costruiscono le matrici $\mathbf{M}$ e $\mathbf{\Delta}$:
-1. 
+
+1. Si calcolano gli autovalori di $\mathbf{A}$, $\lambda_{1},\lambda_{2},\cdots,\lambda_{n}$ e $n$ autovettori corrispondenti; questi risultano a due a due ortogonali;
+2. Si normalizzano gli $n$ autovettori, ottenendo $$
