@@ -2030,5 +2030,5 @@ Ricordiamo esplicitamente come si costruiscono le matrici $\mathbf{M}$ e $\mathb
 	Siano $\lambda_1,\lambda_2$ i due autovalori, e $\mathbf{v}_1,\mathbf{v}_2$ due autovettori corrispondenti, rispettivamente. Mostriamo che $\mathbf{v}_1$ e $\mathbf{v}_2$ sono ortogonali. Infatti:
 	$\mathbf{v}_1\cdot(\mathbf{A}\mathbf{v}_2)=\lambda_2\mathbf{v}_1\cdot\mathbf{v}_2$ e $\mathbf{v}_2\cdot(\mathbf{A}\mathbf{v}_1)=\lambda_1\mathbf{v}_1\cdot\mathbf{v}_2$
 	D'altro canto la simmetria della matrice $\mathbf{A}$ implica che $\mathbf{v}_1\cdot(\mathbf{A}\mathbf{v}_2)=\mathbf{v}_2\cdot(\mathbf{A}\mathbf{v}_1)$, infatti:
-	$\mathbf{v}_1\cdot(\mathbf{A}\mathbf{v}_2)=\sum_{i=1}^2 v_1^i \sum_{j=1}^2 a_{ji}v_2^j=\sum_{j=1}^2 v_2^j \sum_{i=1}^2 a_$
-	
+	$\mathbf{v}_1\cdot(\mathbf{A}\mathbf{v}_2)=\sum_{i=1}^2 v_1^i \sum_{j=1}^2 a_{ji}v_2^j=\sum_{j=1}^2 v_2^j \sum_{i=1}^2 a_{ji}v_1^i=\mathbf{v}_2\cdot(\mathbf{A}\mathbf{v}_1)$
+	Ne segue che $\lambda_1\mathbf{v}_1\cdot\mat$	
