@@ -2043,4 +2043,6 @@ Ricordiamo esplicitamente come si costruiscono le matrici $\mathbf{M}$ e $\mathb
 	Si noti che i due autovettori scelti sono ortogonali ma non sono normalizzati, quindi la matrice $\mathbf{S}$ qui utilizzata non è ortogonale.
 	Normalizzando gli autovettori, otteniamo una matrice di passaggio ortogonale:
 	$\mathbf{S}={\begin{pmatrix}\frac{1}{\sqrt{2}}&\frac{1}{\sqrt{2}} \\  -\frac{1}{\sqrt{2}}&\frac{1}{\sqrt{2}}\end{pmatrix}}$
-	che in questo caso 
+	che in questo caso rappresenta una rotazione di $-\frac{\pi}{4}$ nel piano.
+	La sua inversa è la matrice trasposta, perciò possiamo scrivere:
+	$\mathbf{A}={\begin{pmatrix}\frac{1}{\sqrt{2}}&\frac{1}{\sqrt{2}} \\  -\frac{1}{\sqrt{2}}&\frac{1}{\sqrt{2}}\end{pmatrix}}$
