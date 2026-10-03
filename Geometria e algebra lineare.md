@@ -1945,4 +1945,6 @@ Dal Teorema precedente segue in particolare che se una matrice reale ha tutti gl
 
 #### 6.3.1 **Matrici reali simmetriche. Matrici ortogonali**
 
-Una classe particolare di matrici reali che, come vedremo, risultano sempre diagonalizzabili, è quella delle matrici simmetriche. Per discutere 
+Una classe particolare di matrici reali che, come vedremo, risultano <mark class="hltr-yellow">sempre diagonalizzabili</mark>, è quella delle **matrici simmetriche**. Per discutere questo risultato dobbiamo prima introdurre un'altra classe di matrici che giocano un ruolo importante, quello delle **matrici ortogonali**.
+
+- #DEFINIZIONE(21). 
