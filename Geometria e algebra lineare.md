@@ -2000,4 +2000,9 @@ Se $n=2,3$ la conservazione del prodotto scalare ha il significato geometrico di
 Precisamente, si osserva che le trasformazioni lineari che rappresentano una rotazione rispetto all'origine senza alcuna riflessione sono rappresentate da matrici ortogonali aventi $\det=1$; queste matrici si chiamano ortogonali speciali, o comunemente **matrici di rotazione**.
 Invece, le trasformazioni lineari che rappresentano una rotazione rispetto all'origine accompagnata da una riflessione sono rappresentate da matrici ortogonali aventi $\det=-1$.
 
-Si noti che in base al punto (a) del Teorema precedente, scambiando tra loto due colonne/righe di una matrice ortogonale $n\times n$ si ottiene una matrice ancora ortogonale, che però avrà determinante di segno opposto. In particolare, data una matrice ortogonale con $\det=-1$, è sufficiente scambiare tra loro due righe/colonne per ottenere una matrice di rotazione
+Si noti che in base al punto (a) del Teorema precedente, scambiando tra loto due colonne/righe di una matrice ortogonale $n\times n$ si ottiene una matrice ancora ortogonale, che però avrà determinante di segno opposto. In particolare, data una matrice ortogonale con $\det=-1$, è sufficiente scambiare tra loro due righe/colonne per ottenere una matrice di rotazione.
+Quest'ultimo fatto ci sarà utile nelle applicazioni geometriche della diagonalizzazione, che vedremo nel prossimo capitolo.
+
+Possiamo ora enunciare l'importante:
+
+- #TEOREMA(22). Sia $\mathbf{A}$ una matrice reale e simmetrica. Allora $$
