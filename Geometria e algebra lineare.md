@@ -2048,3 +2048,6 @@ Ricordiamo esplicitamente come si costruiscono le matrici $\mathbf{M}$ e $\mathb
 	$\mathbf{A}={\begin{pmatrix}\frac{1}{\sqrt{2}}&\frac{1}{\sqrt{2}} \\  -\frac{1}{\sqrt{2}}&\frac{1}{\sqrt{2}}\end{pmatrix}}{\begin{pmatrix}0&0 \\  0&2\end{pmatrix}}{\begin{pmatrix}\frac{1}{\sqrt{2}}&-\frac{1}{\sqrt{2}} \\  \frac{1}{\sqrt{2}}&\frac{1}{\sqrt{2}}\end{pmatrix}}$
 
 
+#### 6.3.2 **Rotazioni dello spazio**
+
+Abbiamo visto che una matrice ortogonale $(2,2)$ o $(3,3)$ rappresenta geometricamente una rotazione nel piano o nello spazio, eventualmente accompagnata da una 
