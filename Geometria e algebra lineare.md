@@ -2096,4 +2096,10 @@ Precisamente:
 
 - Se il piano è meno inclinato delle generatrici (rispetto all'orizzontale), allora interseca una sola delle due falde del cono, e taglia su di esse una curva (limitata) detta **ellisse**. Se il piano è orizzontale, l'ellisse è una **circonferenza**.
 - Se il piano è parallelo ad una generatrice, interseca una sola delle due falde del cono, e taglia su di esse una curva (illimitata) detta **parabola**.
-- Se il piano è più inclinato delle generatrici, interseca entrambe le falde del cono, e taglia su di esse una curva, illimitat
+- Se il piano è più inclinato delle generatrici, interseca entrambe le falde del cono, e taglia su di esse una curva, illimitata e spezzata in due rami, detta **iperbole**.
+
+
+
+#### 7.1.2 **Le coniche come luoghi geometrici piani e le loro equazioni canoniche**
+
+Senza 
