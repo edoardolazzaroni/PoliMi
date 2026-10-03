@@ -2045,4 +2045,6 @@ Ricordiamo esplicitamente come si costruiscono le matrici $\mathbf{M}$ e $\mathb
 	$\mathbf{S}={\begin{pmatrix}\frac{1}{\sqrt{2}}&\frac{1}{\sqrt{2}} \\  -\frac{1}{\sqrt{2}}&\frac{1}{\sqrt{2}}\end{pmatrix}}$
 	che in questo caso rappresenta una rotazione di $-\frac{\pi}{4}$ nel piano.
 	La sua inversa è la matrice trasposta, perciò possiamo scrivere:
-	$\mathbf{A}={\begin{pmatrix}\frac{1}{\sqrt{2}}&\frac{1}{\sqrt{2}} \\  -\frac{1}{\sqrt{2}}&\frac{1}{\sqrt{2}}\end{pmatrix}}$
+	$\mathbf{A}={\begin{pmatrix}\frac{1}{\sqrt{2}}&\frac{1}{\sqrt{2}} \\  -\frac{1}{\sqrt{2}}&\frac{1}{\sqrt{2}}\end{pmatrix}}{\begin{pmatrix}0&0 \\  0&2\end{pmatrix}}{\begin{pmatrix}\frac{1}{\sqrt{2}}&-\frac{1}{\sqrt{2}} \\  \frac{1}{\sqrt{2}}&\frac{1}{\sqrt{2}}\end{pmatrix}}$
+
+
