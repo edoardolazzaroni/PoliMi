@@ -2110,4 +2110,5 @@ Senza fare uso di costruzioni tridimensionali, le coniche possono anche essere d
 
 
 
-Se in particolare $F_{1}\equiv F_{2}$, l'ellisse è la circonferenza di diame
+Se in particolare $F_{1}\equiv F_{2}$, l'ellisse è la circonferenza di diametro $d$ e centro $F_{1}$.
+Scegliamo un sistema di riferimento cartesiano in cui sia $F_{1}\equiv(c,0);F_{2}\equiv(-c,0)$
