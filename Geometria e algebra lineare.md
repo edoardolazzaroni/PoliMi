@@ -1936,4 +1936,7 @@ Dal Teorema precedente segue in particolare che se una matrice reale ha tutti gl
 	Per diagonalizzarla effettivamente, occorre calcolare anche un autovettore relativo a $\lambda=1$. Si trova, per esempio, $(-3,0,1)$. Quindi si può porre $\mathbf{A}=\mathbf{S}\mathbf{\Lambda}\mathbf{S}^{-1}$ con:
 	
 	$\mathbf{\Lambda}=\begin{pmatrix}1&0&0\\0&2&0\\0&0&2\end{pmatrix},\quad\mathbf{S}=\begin{pmatrix}-3&1&0\\0&0&1\\1&0&0\end{pmatrix},\quad\mathbf{S}^{-1}=\begin{pmatrix}0&0&1\\1&0&3\\0&1&0\end{pmatrix}$
-	Si noti che le ultime due colonne della matrice $\mathbf{S}$ sono una base dell'autospazio relativo all'
+	Si noti che le ultime due colonne della matrice $\mathbf{S}$ sono una base dell'autospazio relativo all'autovalore $\lambda=2$.
+
+
+- **Osservazione**: Nel caso di autovalori non regolari non è possibile trovare una matrice equivalente a quella data, che sia diagonale. È tuttavia possibile ridurre la matrice 
