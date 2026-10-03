@@ -1979,4 +1979,5 @@ Inoltre, se $\mathbf{A},\mathbf{B}$ sono due matrici $(n,n)$, vale la proprietà
 	Ripercorrendo i passaggi all'inverso si vede che se, viceversa, le righe (rispettivamente, le colonne) di $\mathbf{A}$ sono una base ortonormale di $\mathbb{R}^n$, allora $\mathbf{A}\cdot\mathbf{A}^\top=\mathbf{I}_{n}$ (rispettivamente, $\mathbf{A}^\top\cdot\mathbf{A}=\mathbf{I}_{n}$).
 	
 	
-	b. Dalla relazione $\mathbf{A}^\top\cdot\mathbf{A}=\mathbf{I}_{n}$, per il [[#4.3 **Determinante**|Teorema di Binet]] si ha 
+	b. Dalla relazione $\mathbf{A}^\top\cdot\mathbf{A}=\mathbf{I}_{n}$, per il [[#4.3 **Determinante**|Teorema di Binet]] si ha $\det(\mathbf{A}^\top)\cdot\det(\mathbf{A})=1$.
+	Ricordando che $\det(\mathbf{A}^\top)=\det(\mathbf{A})$ si ha $$
