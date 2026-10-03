@@ -689,7 +689,7 @@ Si ricava quindi che la classe delle funzioni denotabili è a sua volta numerabi
 
 Quando si scrive un programma, ci sono diverse proprietà che si vorebbero garantire. Una di queste è la terminazione del programma, ovvero la garanzia che, dato un qualsiasi ingresso conforme al programma stesso, esso termini la propria computazione e non vada, dunque, in un ciclo infinito. Nella realtà, però, non è possibile garantire a priori la terminazione del programma per un generico valore in ingresso, nè decidere attraverso un algoritmo se ciò possa avvenire in corrispondenza di uno specifico valore in ingresso. Più in generale, il problema della terminazione del calcolo automatico è in generale non decidibile, nonostante tale problema sia definibile. Si è quindi constatato che esistono problemi definibili, ma che non possono essere risolti algoritmicamente: dunque, l’insieme dei problemi definibili contiene strettamente l’insieme dei problemi risolvibili, nonostante entrambi siano numerabili e con la stessa cardinalità.
 
-*Gerarchia dei problemi*
+###### #Figura(5) *Gerarchia dei problemi*
 
 ![[Algoritmi e Principi dell'Informatica-1779647450525.webp|396]]
 
@@ -757,7 +757,7 @@ Vale anche il seguente risultato:
 
 Quindi, dato l’insieme $K= \left\{x|f(x) \ne ⊥ \right\}$questo è semidecidibile perchè $K= D_h$, con $h(x) = f_x(x)$, ma è anche indecidibile in quanto la funzione caratteristica dell’insieme $K$, definita come $c_K(x) =$ `if` $f_x(x) \ne ⊥$ `then` $1$ `else` $0$, non è computabile. Si è appena dimostrato che esistono insiemi che sono semidecidibili, ma allo stesso tempo indecidibili.
 
-*Gerarchia degli insiemi*
+###### #Figura(6) *Gerarchia degli insiemi*
 
 ![[Algoritmi e Principi dell'Informatica-1779875242820.webp|499]]
 
@@ -807,7 +807,7 @@ Una proposizione si dice essere atomica quando non può essere scomposta in part
 
 La sintassi del linguaggio definisce le sequenze ammissibili di simboli sull’alfabeto, le cosiddette formule ben formate *(fbf)*. L’insieme di queste formule ben definite su $L$ è il più piccolo insieme tale che ogni proposizione è una formula e, se $F$ e $G$ sono formule, allora anche $¬F, F∧G, F∨G, F ⇒GF ⇔G$ sono formule. In logica proposizionale si ha che se $A$ è una proposizione, allora $A$ e $¬A$ sono letterali, in cui $A$ è letterale positivo, mentre $¬A$ è detto letterale negativo. Infine, si dice letterale complementare la proposizione $L^-$ definito come $¬A$ se $L= A$, oppure $A$ se $L= ¬A$.
 
-*Tabella della verità dei connettivi logici*
+###### #Figura(7) *Tabella della verità dei connettivi logici*
 
 ![[Algoritmi e Principi dell'Informatica-1779876036792.webp|408]]
 
@@ -993,8 +993,7 @@ Tramite questa logica, si possono scrivere formule che risolvono il problema del
 
 Si può dimostrare che, data una qualsiasi formula $F$ appartenente alla logica monadica del secondo ordine, è possibile costruire un automa a stati finiti che accetta lo stesso linguaggio $L$ definito da $F$ e, viceversa, dato un qualsiasi automa a stati finiti, è possibile enunciare una formula che riconosce lo stesso linguaggio. Di conseguenza, si può affermare che la classe dei linguaggi definibili dalle formule della logica monadica del secondo ordine coincide con i linguaggi regolari.
 
-*Gerarchia dei linguaggi*
-
+###### #Figura(8) *Gerarchia dei linguaggi*
 ![[Algoritmi e Principi dell'Informatica-1779879393076.webp|546]]
 
 
