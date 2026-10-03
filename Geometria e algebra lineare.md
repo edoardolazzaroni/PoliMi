@@ -2082,6 +2082,9 @@ Come vedremo, nello studio delle proprietà di questi oggetti, l'algebra lineare
 Le coniche sono, dopo la circonferenza, le prime curve piane che storicamente sono state studiate: nella matematica greca erano studiate coi metodi della geometria euclidea, del piano e dello spazio. Noi discuteremo brevemente le coniche dal punto di vista della geometria elementare, per poi concentrarci sul punto di vista della geometria analitica.
 
 
-
 ### 7.1 **Le coniche dal punto di vista elementare e le loro equazioni canoniche**
 
+
+#### 7.1.1 **Le coniche come sezioni di un cono**
+
+Un primo modo
