@@ -2017,4 +2017,7 @@ Ricordiamo esplicitamente come si costruiscono le matrici $\mathbf{M}$ e $\mathb
 1. Si calcolano gli autovalori di $\mathbf{A}$, $\lambda_{1},\lambda_{2},\cdots,\lambda_{n}$ e $n$ autovettori corrispondenti; questi risultano a due a due ortogonali;
 2. Si normalizzano gli $n$ autovettori, ottenendo $\mathbf{h}_{1},\cdots,\mathbf{h}_{n}$ vettori colonna ortonormali;
 3. Si ha allora $\mathbf{M}=(\mathbf{h}_{1}|\mathbf{h}_{2}|\cdots|\mathbf{h}_{n})$ e $\mathbf{\Delta}=diag(\lambda_{1},\lambda_{2},\cdots,\lambda_{n})$.
-4. Nel caso risultasse $\det\mathbf{M}=-1$, per ottenere una matrice $\mathbf{M}$ di rotazione è sufficiente scambiare tra loro (ad esempio) i primi due autovettori e i primi due autovalori, ossia porre
+4. Nel caso risultasse $\det\mathbf{M}=-1$, per ottenere una matrice $\mathbf{M}$ di rotazione è sufficiente scambiare tra loro (ad esempio) i primi due autovettori e i primi due autovalori, ossia porre: $\mathbf{M}=(\mathbf{h}_{2}|\mathbf{h}_{1}|\cdots|\mathbf{h}_{n})$ e $\mathbf{\Delta}=diag(\lambda_{2},\lambda_{1},\cdots,\lambda_{n})$.
+
+
+*Esempio* (1): Dimostriamo il teorema per 
