@@ -1962,4 +1962,4 @@ Inoltre, se $\mathbf{A},\mathbf{B}$ sono due matrici $(n,n)$, vale la proprietà
 	a. $\mathbf{A}$ è una matrice ortogonale di tipo $(n,n)$ se e solo se le sue righe sono una base ortonormale di $\mathbb{R}^n$; lo stesso vale per le colonne.
 	b. Il determinante di una matrice ortogonale vale $1$ o $-1$.
 	c. Il prodotto di due matrici ortogonali è ortogonale.
-	d. La trasformazione lineare rappresentata da una matrice ortogonale conserva il modulo dei vettori: $|\mathbf{A}\mathbf{x}|=|\mathbf{x}|\ \mathbf{x}\in\$
+	d. La trasformazione lineare rappresentata da una matrice ortogonale conserva il modulo dei vettori: $|\mathbf{A}\mathbf{x}|=|\mathbf{x}|\quad\mathbf{x}\in\mathbb{R}^n$, e conserva il loro prodotto scalare: $\mathbf{A}\mathbf{x}\cdot\mathbf{A}\mathbf{y}=\mathbf{x}\cdot\mathbf{y}$.
