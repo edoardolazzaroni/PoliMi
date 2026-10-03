@@ -1970,4 +1970,6 @@ Inoltre, se $\mathbf{A},\mathbf{B}$ sono due matrici $(n,n)$, vale la proprietà
 	
 	$\sum_{k=1}^n a_{ik}a_{jk}={\begin{cases}1 & \mbox{se }i=j\\  0& \mbox{se }i\ne j\end{cases}}\quad$ ossia $\quad\mathbf{a}_{i}\cdot\mathbf{a}_{j}={\begin{cases}1 & \mbox{se }i=j\\  0& \mbox{se }i\ne j\end{cases}}$
 	
-	il che significa che i vettori riga di $\mathbf{A}$ sono ortonormali (e quindi sono una base, essendo in numero $n$). Analogamente, ponendo $\mathbf{A}=(\mathbf{a}_{1}'|\mathbf{a}_{2}'|\cdots|)$
+	il che significa che i vettori riga di $\mathbf{A}$ sono ortonormali (e quindi sono una base, essendo in numero $n$).
+	Analogamente, ponendo $\mathbf{A}=(\mathbf{a}_{1}'|\mathbf{a}_{2}'|\cdots|a_{n}')$ la relazione $\mathbf{A}^\top\cdot\mathbf{A}=\mathbf{I}_{n}$ dà:
+	$\mathbf{a}_{i}'\cdot\sum_{k=1}^n a_{ik}a_{jk}={\begin{cases}1 & \mbox{se }i=j\\  0& \mbox{se }i\ne j\end{cases}}\quad$
