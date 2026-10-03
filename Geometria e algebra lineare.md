@@ -1980,4 +1980,7 @@ Inoltre, se $\mathbf{A},\mathbf{B}$ sono due matrici $(n,n)$, vale la proprietà
 	
 	
 	b. Dalla relazione $\mathbf{A}^\top\cdot\mathbf{A}=\mathbf{I}_{n}$, per il [[#4.3 **Determinante**|Teorema di Binet]] si ha $\det(\mathbf{A}^\top)\cdot\det(\mathbf{A})=1$.
-	Ricordando che $\det(\mathbf{A}^\top)=\det(\mathbf{A})$ si ha $$
+	Ricordando che $\det(\mathbf{A}^\top)=\det(\mathbf{A})\iff\det^2(\mathbf{A})=1,\det(\mathbf{A})=\pm 1$.
+	
+	
+	c. Siano $\mathbf{A},\mathbf{B}$ ortogonali. Allora: $$
