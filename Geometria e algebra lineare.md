@@ -2021,4 +2021,5 @@ Ricordiamo esplicitamente come si costruiscono le matrici $\mathbf{M}$ e $\mathb
 
 
 *Esempio* (1): Dimostriamo il Teorema per $n=2$. La generica matrice di tipo $(2,2)$ è: $\mathbf{A}={\begin{pmatrix}a&b \\  c&d\end{pmatrix}}$
-	I suoi autovalori sono dati da $\end$
+	I suoi autovalori sono dati da ${\begin{vmatrix}a-\lambda &b \\  b&c-\lambda\end{vmatrix}}=\lambda^2-(a+c)\lambda+ac-b^2=0$
+	$\lambda=\frac{(a+c)}$
