@@ -2050,4 +2050,5 @@ Ricordiamo esplicitamente come si costruiscono le matrici $\mathbf{M}$ e $\mathb
 
 #### 6.3.2 **Rotazioni dello spazio**
 
-Abbiamo visto che una matrice ortogonale $(2,2)$ o $(3,3)$ rappresenta geometricamente una rotazione nel piano o nello spazio, eventualmente accompagnata da una 
+Abbiamo visto che una matrice ortogonale $(2,2)$ o $(3,3)$ rappresenta geometricamente una rotazione nel piano o nello spazio, eventualmente accompagnata da una riflessione.
+Soffermiamoci ora sul caso tridimensionale; dal punto di vista geometrico una rotazione nello spazio (senza riflessione) è determinata da un asse di rotazione,  
