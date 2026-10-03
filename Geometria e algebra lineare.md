@@ -2093,5 +2093,7 @@ Un primo modo per definire le coniche utilizza il punto di vista della geometria
 
 Si dice **sezione conica** (o semplicemente **conica**) qualsiasi curva si ottenga intersecando un cono a due falde con un piano qualsiasi dello spazio, non passante per il vertice $V$.
 Precisamente:
-Se il piano è meno inclinato delle generatrici (rispetto all'orizzontale), allora interseca una sola delle due falde del cono, e taglia su di esse una curva (limitata) detta **ellisse**. Se il piano è orizzontale, l'ellisse è una circonferenza.
-Se il piano è parallelo ad una generatrice, interseca una sola delle due falde del cono, e taglia su di esse una curva (o)
+
+- Se il piano è meno inclinato delle generatrici (rispetto all'orizzontale), allora interseca una sola delle due falde del cono, e taglia su di esse una curva (limitata) detta **ellisse**. Se il piano è orizzontale, l'ellisse è una **circonferenza**.
+- Se il piano è parallelo ad una generatrice, interseca una sola delle due falde del cono, e taglia su di esse una curva (illimitata) detta **parabola**.
+- Se il piano è più inclinato delle generatrici, interseca entrambe le falde del cono, e taglia su di esse una curva, illimitat
