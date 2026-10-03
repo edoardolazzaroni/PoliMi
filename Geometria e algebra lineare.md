@@ -1948,4 +1948,9 @@ Dal Teorema precedente segue in particolare che se una matrice reale ha tutti gl
 Una classe particolare di matrici reali che, come vedremo, risultano <mark class="hltr-yellow">sempre diagonalizzabili</mark>, è quella delle **matrici simmetriche**. Per discutere questo risultato dobbiamo prima introdurre un'altra classe di matrici che giocano un ruolo importante, quello delle **matrici ortogonali**.
 
 - #DEFINIZIONE(21). Una matrice $\mathbf{A}$ reale di tipo $(n,n)$ si dice **ortogonale** se:
-	$\mathbf{A}\cdot\mathbf{A}^\top=\mathbf{A}^\top\mathbf{A}$
+	
+							$\mathbf{A}\cdot\mathbf{A}^\top=\mathbf{A}^\top\cdot\mathbf{A}=\mathbf{I}$
+	
+	ossia se $\mathbf{A}$ è una matrice non singolare la cui inversa coincide con la trasposta.
+
+Ricordiamo che la traspost
