@@ -1967,4 +1967,7 @@ Inoltre, se $\mathbf{A},\mathbf{B}$ sono due matrici $(n,n)$, vale la proprietà
 	*Dimostrazioni*:
 	
 	a. Poniamo $\mathbf{A}={\begin{pmatrix}\mathbf{a}_{1} \\  \mathbf{a}_{2} \\  \cdots \\  \mathbf{a}_{n}\end{pmatrix}}$; la relazione $\mathbf{A}\cdot\mathbf{A}^\top=\mathbf{I}_{n}$ dà, ragionando sugli elementi:
-	$\sum_{k=1}^n a_{ik}a_{jk}={\begin{cases}1 & \mbox{se }n\mbox{ pari}\\  0\end{cases}}$
+	
+	$\sum_{k=1}^n a_{ik}a_{jk}={\begin{cases}1 & \mbox{se }i=j\\  0& \mbox{se }i\ne j\end{cases}}$ 
+	
+	ossia $\mathbf{a}_{i}\cdot$
