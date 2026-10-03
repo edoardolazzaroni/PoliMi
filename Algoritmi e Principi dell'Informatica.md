@@ -1130,13 +1130,14 @@ I teoremi qui introdotti valgono anche per le moderne macchine di [[macchina di 
 
 La macchina RAM (o Random Access Memory) è un modello classico ispirata all'architettura di Von Neumann. Tale macchina è costituita da un nastro in ingresso, un nastro in uscita, un programma rappresentato da un numero finito di istruzioni, un contatore che indica l’istruzione corrente da eseguire e una memoria ad accesso diretto.
 
+###### #Figura(9) *Macchina RAM*
 ![[macchina RAM.webp|596]]
 
 Sia i nastri che la memoria sono composti da un numero illimitato di celle, ma al contrario dei nastri di ingresso e uscita che si possono accedere in maniera sequenziale, la memoria è indirizzata e si può accedere a una sua cella attraverso un numero intero $i>0$ che indica l’indirizzo di tale cella di memoria.
 
 La cella $0$ della memoria è un registro speciale, detto accumulatore, che si utilizza per contenere il valore di uno dei due operandi delle operazioni aritmetiche binarie che la macchina può effettuare. Un generico programma eseguibile dalla macchina RAM è composto da istruzioni riportate nella tabella di seguito:
 
-*Tabella: istruzioni macchina RAM*
+###### #Figura(10) *Tabella: istruzioni macchina RAM*
 
 ![[istruzioni macchina RAM.webp|326]]
 
@@ -1153,7 +1154,7 @@ La complessità spaziale logaritmica si definisce quindi con la seguente formula
 								$\sum_{i=0}^m l(M_i)$
 
 
-*Tabella: costi logaritmici delle istruzioni macchina RAM*
+###### #Figura(11) *Tabella: costi logaritmici delle istruzioni macchina RAM*
 
 ![[costi logaritmici delle istruzioni macchina RAM.webp|391]]
 
@@ -1223,6 +1224,7 @@ All’inizio di ogni iterazione del ciclo `for`, il cui indice è $j$, la sottos
 
 Si analizza ora il tempo di esecuzione della procedura insertion sort: per ogni $j = 2,3,...,n$ in cui $n$ = `A.length`, si indica con $t_j$ il numero di volte che il test del ciclo `while` nella riga 5 viene eseguito per quel determinato valore di $j$.
 
+###### #Figura(12)
 ![[tabella insertion sort.webp|506]]
 
 Ad ogni riga di codice viene associato un costo $c_i$ che va moltiplicato per il numero di volte che tale riga viene eseguita. Il tempo totale di esecuzione si calcola, dunque, sommando i vari contributi di tempo di ogni riga, ottenendo così l’espressione di $T(n)$:
@@ -1388,7 +1390,7 @@ Sommando i costi dei nodi di ogni livello, si ottengono i costi relativi a quel 
 *ESEMPIO*: Si calcoli la ricorrenza $T(n) = 3T(⌊n/4⌋) + Θ(n^2)$. Come detto, si può approssimare la ricorrenza eliminando l’operatore floor, ottenendo $T(n) = 3T(n/4) + cn^2$, per una data costante $c>0$.
 Per comodità, si suppone anche che $n$ sia una potenza di 4, in modo tale che ogni livello dell’albero abbia dimensione intera. Si ottiene così il seguente albero delle ricorrenze:
 
-*Albero della ricorrenza $T(n) = 3T(n/4) + cn^2$*
+###### #Figura(1) *Albero della ricorrenza $T(n) = 3T(n/4) + cn^2$*
 
 ![[esempio albero di ricorsione.webp|569]]
 
