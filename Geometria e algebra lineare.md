@@ -1926,4 +1926,5 @@ L'equazione caratteristica è: $\lambda^2+1=0,\lambda=\pm i$
 quindi non esistono autovalori reali. Pertanto $\mathbf{A}$ non è diagonalizzabile su $\mathbb{R}$. D'altro canto gli autovalori, in $\mathbb{C}$, sono semplici, quindi la matrice è diagonalizzabile su $\mathbb{C}$.
 
 *Esempio*: Sia $\mathbf{A}={\begin{pmatrix}1&1 \\  0&1\end{pmatrix}}$
-Equazione caratteristica: $(\lambda-1)^2=0\$
+Equazione caratteristica: $(\lambda-1)^2=0\rightarrow\lambda=1$ autovalore doppio.
+Cercando gli autovettori si trova ${\begin{pmatrix}x \\  0\end{pmatrix}}$ pertanto l'autospazio relativo a $\lambda=1$ ha dimensione $1$, l'au
