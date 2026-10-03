@@ -2076,4 +2076,4 @@ $\mathbf{R}_{x}(\alpha)={\begin{pmatrix}1&0&0 \\  0&\cos\alpha&\sin\alpha \\  0&
 
 
 Nei capitoli precedenti abbiamo introdotto alcuni concetti e strumenti fondamentali dell'algebra lineare e abbiamo sviluppato i primi elementi della geometria analitica dello spazio limitandoci alla geometria degli enti lineari (rette e piani). Naturalmente, molti degli aspetti più interessanti e utili della geometria riguardano gli oggetti geometrici curvi: linee del piano e superfici nello spazio.
-Dal punto di vista algebrico, i più semplici oggetti geometrici curvi che è naturale considerare sono quelli descritti da equazioni algebriche di secondo grado in due variabili (che rappresenteranno particolari curve nel piano) o in tre variabili 
+Dal punto di vista algebrico, i più semplici oggetti geometrici curvi che è naturale considerare sono quelli descritti da equazioni algebriche di secondo grado in due variabili (che rappresenteranno particolari curve nel piano) o in tre variabili (che rappresenteranno superfici nello spazio). Queste curve e superfici prendono il nome di **coniche** e **quadriche**, rispettivamente
