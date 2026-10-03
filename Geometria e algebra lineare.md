@@ -1990,4 +1990,4 @@ Inoltre, se $\mathbf{A},\mathbf{B}$ sono due matrici $(n,n)$, vale la proprietà
 	Analogamente si prova che $(\mathbf{A}\mathbf{B})^\top\cdot(\mathbf{A}\mathbf{B})=\mathbf{I}_{n}$, perciò $\mathbf{A}\mathbf{B}$ è ortogonale.
 	
 	
-	d. Con le notazioni del prodotto righe per colonne, il prodotto scalare $\mathbf{x}$
+	d. Con le notazioni del prodotto righe per colonne, il prodotto scalare $\mathbf{x}\cdot\mathbf{y}$ è $\mathbf{x}^\top\mathbf{y}$, quello dei trasformati è $(\mathbf{A}\mathbf{x})^\top\cdot(\mathbf{A}\mathbf{y})=\mathbf{x}^\top\mathbf{A}^\top\mathbf{A}\mathbf{y}=\mathbf{x}^\top$
