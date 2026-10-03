@@ -1928,4 +1928,5 @@ Dal Teorema precedente segue in particolare che se una matrice reale ha tutti gl
 	Cercando gli autovettori si trova ${\begin{pmatrix}x \\  0\end{pmatrix}}$ pertanto l'autospazio relativo a $\lambda=1$ ha $\dim=1$, l'autovalore non è regolare, e la matrice non è diagonalizzabile.
 
 *Esempio* (3): Sia $\mathbf{A}={\begin{pmatrix}2&0&3 \\  0&2&1 \\  0&0&1\end{pmatrix}}$
-	Equazione caratteristica: $(2-\lambda)^2(1-\lambda)=0$, perciò $\lambda=1$ autovalore semplice (quindi regolare), $\lambda=2$ autovalore doppio. L'autospazio relativo a $\lambda=2$ si determina risolvendo il
+	Equazione caratteristica: $(2-\lambda)^2(1-\lambda)=0$, perciò $\lambda=1$ autovalore semplice (quindi regolare), $\lambda=2$ autovalore doppio. L'autospazio relativo a $\lambda=2$ si determina risolvendo il sistema:
+	${\begin{pmatrix}0&0&3 \\  0&0&1 \\  0&0&-1\end{pmatrix}}{\begin{pmatrix}x \\  y \\  z\end{pmatrix}}$
