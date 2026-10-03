@@ -1983,4 +1983,4 @@ Inoltre, se $\mathbf{A},\mathbf{B}$ sono due matrici $(n,n)$, vale la proprietà
 	Ricordando che $\det(\mathbf{A}^\top)=\det(\mathbf{A})\iff\det^2(\mathbf{A})=1,\det(\mathbf{A})=\pm 1$.
 	
 	
-	c. Siano $\mathbf{A},\mathbf{B}$ ortogonali. Allora: $$
+	c. Siano $\mathbf{A},\mathbf{B}$ ortogonali. Allora: $(\mathbf{A}\mathbf{B})\cdot(\mathbf{A}\mathbf{B})^\top=(\mathbf{A}\mathbf{B})\cdot(\mathbf{B}^\top\mathbf{A}^\top)=\mathbf{A}(\mathbf{B}\mathbf{B}^\top)\mathbf{A}^\top=\mathbf{A}\mathbf{}$
