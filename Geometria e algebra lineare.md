@@ -1940,4 +1940,6 @@ Dal Teorema precedente segue in particolare che se una matrice reale ha tutti gl
 	Si noti che le ultime due colonne della matrice $\mathbf{S}$ sono una base dell'autospazio relativo all'autovalore $\lambda=2$.
 
 
-- **Osservazione**: Nel caso di autovalori non regolari non è possibile trovare una matrice equivalente a quella data, che sia diagonale. È tuttavia possibile ridurre la matrice ad una forma "canonica" più semplice, detta **forma di Jordan**, ma la discussione di tale
+- **Osservazione**: Nel caso di autovalori non regolari non è possibile trovare una matrice equivalente a quella data, che sia diagonale. È tuttavia possibile ridurre la matrice ad una forma "canonica" più semplice, detta **forma di Jordan**.
+
+
