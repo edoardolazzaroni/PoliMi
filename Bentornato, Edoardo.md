@@ -94,6 +94,7 @@ Altri impegni:
 		- Iniziare a lavorare ad Hært
 
 
+
 Calendario integrato in Obsidian, impegni conservati nella cartella [[Calendario Lezioni Index]].
 Integrazione con Copilot (harness Opencode), dotato di [[Copilot Skills Index]].
 
