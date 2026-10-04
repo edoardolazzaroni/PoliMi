@@ -2123,4 +2123,9 @@ Una curva avente tale equazione ma con $b>a$ rappresenta invece un'ellisse avent
 
 $F_{1}\equiv(0,c);F_{2}\equiv(0;-c),\quad$ con $c=\sqrt{b^2-a^2},d=2b$
 
-I fuochi dell'ellisse stanno quindi sempre sull'asse maggiore. I punti $(\pm a,0),(0,\pm b)$ si dicono **vertici** dell'ellisse. Se $a=b$ l'ellisse è la circo
+I fuochi dell'ellisse stanno quindi sempre sull'asse maggiore. I punti $(\pm a,0),(0,\pm b)$ si dicono **vertici** dell'ellisse. Se $a=b$ l'ellisse è la <u>circonferenza</u> di centro $0$ (origine) e raggio $R=a=b$.
+
+
+
+- #DEFINIZIONE(23). **Parabola**
+	Sia $F$ un punto del piano e $r$ una r
