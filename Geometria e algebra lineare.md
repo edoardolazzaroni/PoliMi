@@ -2154,4 +2154,8 @@ rappresenta invece la parabola di fuoco $F\equiv(0,a)$ e direttrice la retta: $y
 
 
 
-Se scegliamo un riferimento in cui i fuochi sono i punti $F_{1}\equiv(c,0);F_{2}\equiv(-c,0)$ per un certo $c>0$ imponendo la relazione
+Se scegliamo un riferimento in cui i fuochi sono i punti $F_{1}\equiv(c,0);F_{2}\equiv(-c,0)$ per un certo $c>0$ imponendo la relazione $|\overline{PF_{1}}-\overline{PF_{2}}|=d$ (con $2c>d$) si ottiene un'equazione del tipo:
+	
+								$\frac{x^2}{a^2}-\frac{y^2}{b^2}=1$
+
+detta equazione canonica dell'
