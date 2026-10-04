@@ -353,7 +353,9 @@ Facciamo qualche **osservazione**:
 								$\frac{x}{\alpha}+\frac{y}{\beta}+\frac{z}{\gamma}=1$
 	In tal caso $\alpha, \beta, \gamma$ rappresentano le intercette del piano con gli assi coordinati.
 
-![[Geometria e Algebra Lineare-1791120841013.webp]]
+![[Geometria e Algebra Lineare-1791120841013.webp|510]]
+###### #Figura(20)
+
 
 - **Condizioni di parallelismo ed ortogonalità tra piani**
 
