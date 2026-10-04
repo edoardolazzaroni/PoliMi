@@ -2118,4 +2118,5 @@ Scegliamo un sistema di riferimento cartesiano in cui sia $F_{1}\equiv(c,0);F_{2
 								$\frac{x^2}{a^2}+\frac{y^2}{b^2}=1\quad$
 
 con $a,b>0$ e $a>b$ detta <u>equazione canonica dell'ellisse</u>.
-I numeri $a,b$ sono detti semiassi dell'ellisse e sono legati ai fuochi dalla relazione $c=\sqrt{}$
+I numeri $a,b$ sono detti semiassi dell'ellisse e sono legati ai fuochi dalla relazione $c=\sqrt{b^2-a^2}$, mentre $d=2a$.
+Una curva avente tale equazione ma con $b>a$ rappresenta invece un'ellisse avente i fuochi sull'asse $$
