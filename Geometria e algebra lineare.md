@@ -331,7 +331,7 @@ Un piano è individuato da:
 
 a) Cominciamo col primo caso. Consideriamo un punto $P_0(x_0,y_0,z_0)$ ed un vettore $\mathbf{n}=(a,b,c)$ non nullo; ci proponiamo di determinare l'equazione del piano passante per $P_0 \perp \mathbf{n}$.
 
-![[Geometria e Algebra Lineare-1791120747253.webp|520]]
+![[Geometria e Algebra Lineare-1791120747253.webp|414]]
 ###### #Figura(19)
 
 
@@ -353,6 +353,7 @@ Facciamo qualche **osservazione**:
 								$\frac{x}{\alpha}+\frac{y}{\beta}+\frac{z}{\gamma}=1$
 	In tal caso $\alpha, \beta, \gamma$ rappresentano le intercette del piano con gli assi coordinati.
 
+![[Geometria e Algebra Lineare-1791120841013.webp]]
 
 - **Condizioni di parallelismo ed ortogonalità tra piani**
 
