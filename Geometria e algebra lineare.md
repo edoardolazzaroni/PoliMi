@@ -2143,4 +2143,9 @@ L'equazione:
 	
 								$x^2=4ay$
 
-rappresenta invece la parabola di fuoco $$
+rappresenta invece la parabola di fuoco $F\equiv(0,a)$ e direttrice la retta: $y=-a$.
+
+
+
+- #DEFINIZIONE(24). **Iperbole**
+	Siano $F_{1},F_{2}$ due punti nel piano e $d$ un numero reale positivo minore della distanza $\$
