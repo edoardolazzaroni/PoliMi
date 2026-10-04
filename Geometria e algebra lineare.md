@@ -2135,7 +2135,12 @@ I fuochi dell'ellisse stanno quindi sempre sull'asse maggiore. I punti $(\pm a,0
 
 
 Se scegliamo un riferimento in cui il fuoco della parabola è $F\equiv(a,0)$ e la direttrice è la retta: $x=-a$, uguagliando le distanze di $P(x,y)$ dal fuoco e dalla direttrice si ottiene l'equazione:
+	
+								$y^2=4ax$
 
-$y^2=4ax$
+detta <u>equazione canonica della parabola</u>.
+L'equazione:
+	
+								$x^2=4ay$
 
-detta equazione canonica della parabola,
+rappresenta invece la parabola di fuoco $$
