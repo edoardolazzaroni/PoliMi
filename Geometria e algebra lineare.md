@@ -2163,3 +2163,5 @@ I punti $(\pm a,0)$ sono detti **vertici** dell'iperbole, le rette $y=\pm\frac{b
 L'analoga equazione:
 	
 								$\frac{x^2}{a^2}-\frac{y^2}{b^2}=-1$
+
+con $a,b>0$ rappresenta un'iperbole avente fuochi sull'asse $y$, $F_{1}\equiv(0,c),F_{2}\equiv(0,-c)$, vertici $(0,\pm b)$
