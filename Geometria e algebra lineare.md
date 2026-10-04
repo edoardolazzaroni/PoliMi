@@ -2178,4 +2178,5 @@ Concludiamo questa prima panoramica sulle coniche ricordando che si può dimostr
 
 ### 7.2 **L'equazione generale delle coniche. Riduzione a forma canonica**
 
-La forma canonica delle coniche è quella che l'equazione di una curva di questo tipo assume 
+La forma canonica delle coniche è quella che l'equazione di una curva di questo tipo assume in un sistema di riferimento opportuno, ossia scelto appositamente affinchè l'equazione della conica sia la più semplice possibile.
+Chiediamoci ora: se cambiamo sistema di riferimento, come cambia l'equazione? Prima di rispondere alla domanda è opportuno 
