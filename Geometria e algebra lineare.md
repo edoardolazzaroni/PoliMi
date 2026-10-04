@@ -2164,4 +2164,8 @@ L'analoga equazione:
 	
 								$\frac{x^2}{a^2}-\frac{y^2}{b^2}=-1$
 
-con $a,b>0$ rappresenta un'iperbole avente fuochi sull'asse $y$, $F_{1}\equiv(0,c),F_{2}\equiv(0,-c)$, vertici $(0,\pm b)$
+con $a,b>0$ rappresenta un'iperbole avente fuochi sull'asse $y$, $F_{1}\equiv(0,c),F_{2}\equiv(0,-c)$, vertici $(0,\pm b)$ e gli stessi asintoti.
+Se in particolare $a=b$, l'iperbole si dice **equilatera**: in questo gli asintoti sono le rette $y=\pm x$, ortogonali tra loro.
+
+
+Concludiamo questa prima panoramica 
