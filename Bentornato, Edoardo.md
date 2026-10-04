@@ -52,8 +52,8 @@ cellStyleRules:
 [[kanban-default.base|Kanban (elenco tasks)]]:
 
  [[Finire capitolo 5 di GAL]]
- [[guardare esercitazione GAL-2]]
  [[finire capitolo 6 GAL]]
+ [[guardare esercitazione GAL-2]]
  [[riguardare appunti esercitazioni analisi 1]]
 
 
