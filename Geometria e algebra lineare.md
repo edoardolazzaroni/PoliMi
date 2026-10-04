@@ -2168,4 +2168,4 @@ con $a,b>0$ rappresenta un'iperbole avente fuochi sull'asse $y$, $F_{1}\equiv(0,
 Se in particolare $a=b$, l'iperbole si dice **equilatera**: in questo gli asintoti sono le rette $y=\pm x$, ortogonali tra loro.
 
 
-Concludiamo questa prima panoramica 
+Concludiamo questa prima panoramica sulle coniche ricordando che si può dimostrare che una curva è un'ellisse/parabola/iperbole rispetto alla prima definizione (ossia come opportuna sezione di un cono) se e solo se lo è rispetto alla seconda definizione (ossia come luogo geometrico definito mediam)
