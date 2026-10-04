@@ -2128,4 +2128,6 @@ I fuochi dell'ellisse stanno quindi sempre sull'asse maggiore. I punti $(\pm a,0
 
 
 - #DEFINIZIONE(23). **Parabola**
-	Sia $F$ un punto del piano e $r$ una r
+	
+	Sia $F$ un punto del piano e $r$ una retta non passante per $F$. Si dice parabola di fuoco $F$ e direttrice $r$ il luogo dei punti equidistanti da $F$ e $r$.
+	In altre parole: per ogni punto $P$ della parabola, detta $H$ la sua proiezione su $r$,
