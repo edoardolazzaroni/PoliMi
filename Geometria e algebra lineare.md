@@ -2148,4 +2148,6 @@ rappresenta invece la parabola di fuoco $F\equiv(0,a)$ e direttrice la retta: $y
 
 
 - #DEFINIZIONE(24). **Iperbole**
-	Siano $F_{1},F_{2}$ due punti nel piano e $d$ un numero reale positivo minore della distanza $\overline{F_{1}F_{2}}$. Si chiama **iperbole** di **fuochi** $F_{1},F_{2}$ il luogo dei punti $P$ del piano tali che $|\overline{PF_{1}}|$
+	
+	Siano $F_{1},F_{2}$ due punti nel piano e $d$ un numero reale positivo minore della distanza $\overline{F_{1}F_{2}}$. Si chiama **iperbole** di **fuochi** $F_{1},F_{2}$ il luogo dei punti $P$ del piano tali che $|\overline{PF_{1}}-\overline{PF_{2}}|=d$, ossia tali che il modulo della differenza delle loro distanze dai due fuochi sia costante.
+	La relazione precedente equivale 
