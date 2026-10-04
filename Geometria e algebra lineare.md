@@ -2158,4 +2158,5 @@ Se scegliamo un riferimento in cui i fuochi sono i punti $F_{1}\equiv(c,0);F_{2}
 	
 								$\frac{x^2}{a^2}-\frac{y^2}{b^2}=1$
 
-detta equazione canonica dell'
+detta <u>equazione canonica dell'iperbole</u>, dove i coefficienti $a,b$ sono legati ai fuochi dalla relazione $c=\sqrt{a^2+b^2}$.
+I punti $(\pm a,0)$ sono detti **vertici** dell'iperbole, 
