@@ -2238,3 +2238,4 @@ Anche l'operazione di moltiplicare ambo i membri dell'equazione per una costante
 
 Si può dimostrare ad esempio la seguente:
 
+- #PROPOSIZIONE(12). Se $f(x,y)=0$ è un'equazione algebrica di grado $n$ in $x,y$ (ossia $f$ è un polinomio di grado $n$), eseguendo sulle variabili $(x,y)$ una rototraslazione si ottiem
