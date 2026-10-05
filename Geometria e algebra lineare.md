@@ -356,6 +356,9 @@ Le due rette sono **ortogonali** se lo sono i loro vettori direzionali, cioè se
 Si noti che per essere ortogonali non è necessario che le due rette siano **incidenti** (cioè si intersechino in un punto).
 
 
+*Esempio*: Si voglia calcolare l
+
+
 c) Prima di vedere come si scrive l'equazione di una retta come intersezione di due piani, vediamo come si scrive l'equazione di un piano.
 
 
