@@ -441,7 +441,9 @@ $(\mathbf{p}-\mathbf{p}_{0})\cdot(\mathbf{v}\times\mathbf{w})=0$
 
 I vettori $(1,-1,0),(2,1,3)$ evidentemente non sono paralleli, perciò le rette sono complanari se e solo se sono incidenti. Stabiliamo se lo sono cercando se esistono valori dei parametri $t,u$ per cui si abbia:
 
-$(4,-2,2)+t(1,-1,0)=(1,1,2)+$
+$(4,-2,2)+t(1,-1,0)=(1,1,2)+u(2,1,3)\rightarrow{\begin{cases}t-2u=-3 \\  -t-u=3 \\  3u=0\end{cases}}$
+
+che dà 
 
 
 - **Condizioni di parallelismo ed ortogonalità tra piani**
