@@ -437,7 +437,9 @@ $(\mathbf{p}-\mathbf{p}_{0})\cdot(\mathbf{v}\times\mathbf{w})=0$
 
 
 
-*Esempio* (3): Stabilire se le seguenti rette $P=(4,-2,2)+t(1,-1,0)$ e $P=(1,)$
+*Esempio* (3): Stabilire se le seguenti rette $P=(4,-2,2)+t(1,-1,0)$ e $P=(1,1,2)+t(2,1,3)$ sono complanari o sghembe e, nel primo caso, scrivere l'equazione del piano che le contiene.
+
+I vettori $(1,-1,0),(2,1,3)$ evidentemente non sono paralleli, perciò le rette sono complaana
 
 
 - **Condizioni di parallelismo ed ortogonalità tra piani**
