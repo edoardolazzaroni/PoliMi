@@ -479,7 +479,9 @@ In alternativa, si possono scrivere le equazioni parametriche della retta col se
 
 *Esempio*: Scriviamo le equazioni parametriche della retta intersezione dei piani: ${\begin{cases}x+y+z=1 \\  x-2y-z=2\end{cases}}$
 
-Ricaviamo: ${\begin{cases}x+y=1-z \\  x-2y=2+z\end{cases}}\rightarrow{\begin{cases}y=\frac{} \\  x-2y-z=2\end{cases}}$
+Ricaviamo: ${\begin{cases}x+y=1-z \\  x-2y=2+z\end{cases}}\rightarrow{\begin{cases}y=\frac{-1-2z}{3} \\  x=\frac{4-z}{3}\end{cases}}$
+
+da cui, ponendo $z=t$ otteniamo le equazioni parametriche della retta
 
 
 - **Distanza di un punto da piano**
