@@ -407,6 +407,9 @@ Facciamo qualche **osservazione**:
 ###### #Figura(20)
 
 
+*Esempio*: Si voglia scrivere l'equazione del piano passante per il punto $(1,2,-1)$ e normale al vettore $\mathbf{v}=$
+
+
 - **Condizioni di parallelismo ed ortogonalità tra piani**
 
 Due piani sono **paralleli** se lo sono i lori vettori ortogonali. Precisamente, i piani
