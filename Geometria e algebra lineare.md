@@ -250,7 +250,7 @@ Nel [[#4.3 **Determinante**|paragrafo 4.3]] vedremo come questa formula si possa
 
 *Esempio* (2): Momento di una forza rispetto ad un punto
 Sia $\mathbf{F}$ una forza con punto di applicazione $A$. Il momento di $\mathbf{F}$ rispetto ad un punto $O\ne A$ è definito dal vettore:
-$\mathbf{M}=\mathbf{r}\times\mathbf{F}\quad$ dove $\mathbf{r}=$
+$\mathbf{M}=\mathbf{r}\times\mathbf{F}\quad$ dove $\mathbf{r}=\overrightarrow{OA}$.
 
 
 - **PRODOTTO MISTO NELLO SPAZIO**. Se $\mathbf{u}$, $\mathbf{v}$ e $\mathbf{w}$ sono tre vettori nello spazio, il loro <u>prodotto misto</u> è definito dal numero reale $\mathbf{u}\cdot(\mathbf{v}\times\mathbf{w})$
@@ -281,6 +281,7 @@ sfruttando le formule precedenti del prodotto scalare e vettoriale, abbiamo:
 e dunque i tre vettori <u>sono indipendenti se e solo se quest'ultima espressione è diversa da 0</u>.
 
 
+*Esempio*: Verificare se i vettori $(1,2,3),(0,2,2),$
 
 
 # Capitolo II: Geometria lineare nello spazio
