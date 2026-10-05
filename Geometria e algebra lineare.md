@@ -2199,4 +2199,4 @@ eseguire una rototraslazione di assi equivale quindi a cambiare il sistema di ri
 
 ${\begin{cases}x=x'\cos\alpha-y'\sin\alpha \\  y=x'\sin\alpha+y'\cos\alpha\end{cases}}$
 
-o anche, in forma compatta matriciale, dalla moltiplicazione per una matrice di rotazione.
+o anche, in forma compatta matriciale, dalla moltiplicazione per una [[#6.3.2 **Rotazioni dello spazio**]] **matrice di rotazione**.
