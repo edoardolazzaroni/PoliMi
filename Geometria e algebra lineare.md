@@ -477,9 +477,9 @@ Un vettore direzionale della retta deve essere ortogonale ad entrambi i vettori 
 In alternativa, si possono scrivere le equazioni parametriche della retta col seguente procedimento: si considera il sistema nelle tre incognite $(x,y,z)$, che definisce la retta; se in tale sistema si riescono ad esprimere due variabili in funzione della terza, si può assumere la terza variabile come parametro.
 
 
-*Esempio*: Scriviamo le equazioni parametriche della retta intersezione dei piani: ${\begin{cases}x+y+z=1 \\  x-2y-z=2\end{cases}}x+y+z=1;x-2y-z=2$
+*Esempio*: Scriviamo le equazioni parametriche della retta intersezione dei piani: ${\begin{cases}x+y+z=1 \\  x-2y-z=2\end{cases}}$
 
-Dal sistema:
+Ricaviamo: ${\begin{cases}x+y=1-z \\  x-2y=2+z\end{cases}}\rightarrow{\begin{cases}y=\frac{} \\  x-2y-z=2\end{cases}}$
 
 
 - **Distanza di un punto da piano**
