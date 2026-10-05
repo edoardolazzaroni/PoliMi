@@ -245,8 +245,11 @@ $\begin{align}\mathbf{v}\times\mathbf{w}&=(x_{1}\mathbf{i}+x_{2}\mathbf{j}+x_{3}
 
 da cui l'<mark class="hltr-yellow">importante formula</mark>: $\mathbf{v}\times\mathbf{w}=(x_{2}y_{3}-x_{3}y_{2})\mathbf{i}+(x_{3}y_{1}-x_{1}y_{3})\mathbf{j}+(x_{1}y_{2}-x_{2}y_{1})\mathbf{k}$
 
-Nel [[#4.3 **Determinante**|paragrafo 4.3]] vedremo come questa formula si possa riscrivere in modo più sintetico usando la nozione di detem
+Nel [[#4.3 **Determinante**|paragrafo 4.3]] vedremo come questa formula si possa riscrivere in modo più sintetico usando la nozione di determinante di una matrice.
 
+
+*Esempio* (2): Momento di una forza rispetto ad un punto
+Sia $\mathbf{F}$ una forza con punto di appl
 
 
 - **PRODOTTO MISTO NELLO SPAZIO**. Se $\mathbf{u}$, $\mathbf{v}$ e $\mathbf{w}$ sono tre vettori nello spazio, il loro <u>prodotto misto</u> è definito dal numero reale $\mathbf{u}\cdot(\mathbf{v}\times\mathbf{w})$
