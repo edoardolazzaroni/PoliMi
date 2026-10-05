@@ -239,9 +239,12 @@ Quest'ultime e le proprietà del prodotto vettoriale permettono di scrivere il p
 $\mathbf{v}=x_{1}\mathbf{i}+x_{2}\mathbf{j}+x_{3}\mathbf{k}\quad$ e $\quad\mathbf{w}=y_{1}\mathbf{i}+y_{2}\mathbf{j}+y_{3}\mathbf{k}$
 
 in termini delle loro componenti. Infatti si ha:
+
 $\begin{align}\mathbf{v}\times\mathbf{w}&=(x_{1}\mathbf{i}+x_{2}\mathbf{j}+x_{3}\mathbf{k})\times(y_{1}\mathbf{i}+y_{2}\mathbf{j}+y_{3}\mathbf{k})=\\&=x_{1}y_{1}\mathbf{i}\times\mathbf{i} + x_{1}y_{2}\mathbf{i}\times\mathbf{j}+x_{1}y_{3}\mathbf{i}\times\mathbf{k}+\\&+ x_{2}y_{1}\mathbf{j}\times\mathbf{i}+x_{2}y_{2}\mathbf{j}\times\mathbf{j}+x_{2}y_{3}\mathbf{j}\times\mathbf{k}+\\&+ x_{3}y_{1}\mathbf{k}\times\mathbf{i}+x_{3}y_{2}\mathbf{k}\times\mathbf{j}+x_{3}y_{3}\mathbf{k}\times\mathbf{k}=\\&=(x_{2}y_{3}-x_{3}y_{2})\mathbf{i}+(x_{3}y_{1}-x_{1}y_{3})\mathbf{j}+(x_{1}y_{2}-x_{2}y_{1})\mathbf{k}\end{align}$
 
+da cui l'importante formula: $\mathbf{v}\times\mathbf{w}=(x_{2}y_{3}-x_{3}y_{2})\mathbf{i}+(x_{3}y_{1}-x_{1}y_{3})\mathbf{j}+(x_{1}y_{2}-x_{2}y_{1})\mathbf{k}$
 
+Nel [[#4.]] paragrafo 4.3
 - **PRODOTTO MISTO NELLO SPAZIO**. Se $\mathbf{u}$, $\mathbf{v}$ e $\mathbf{w}$ sono tre vettori nello spazio, il loro <u>prodotto misto</u> è definito dal numero reale $\mathbf{u}\cdot(\mathbf{v}\times\mathbf{w})$
 		La parentesi è in realtà superflua, in quanto $(\mathbf{u}\cdot\mathbf{v})\times\mathbf{w}$ non ha senso. Si può perciò scrivere semplicemente $\mathbf{u}\cdot\mathbf{v}\times\mathbf{w}$.
 		Si dimostra in seguito che il prodotto misto non varia permutando ciclicamente i tre vettori $\mathbf{u}$, $\mathbf{v}$ e $\mathbf{w}$: $\mathbf{u}\cdot\mathbf{v}\times\mathbf{w}=\mathbf{w}\cdot\mathbf{u}\times\mathbf{v}=\mathbf{v}\cdot\mathbf{w}\times\mathbf{u}$
