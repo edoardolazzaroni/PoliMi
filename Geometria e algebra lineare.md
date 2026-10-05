@@ -230,7 +230,9 @@ Si noti che il lavoro è nullo se $\mathbf{F}$ è ortogonale alla retta $AB$.
 ###### #Figura(15) *L'area del parallelogramma costruito su $\mathbf{v}$ e $\mathbf{w}$ è $|\mathbf{v}|\cdot|\mathbf{w}|\cdot\sin\alpha=|\mathbf{v}\times\mathbf{w}|$.*
 
 
-*Esempio* (1):
+*Esempio* (1): I vettori della base canonica per $\mathbb{R}^3$, $\mathbf{i},\mathbf{j},\mathbf{k}$ formano una terna ortogonale destrorsa e pertanto si ha:
+
+$\mathbf{i}\times\mathbf{i}=0$
 
 
 - **PRODOTTO MISTO NELLO SPAZIO**. Se $\mathbf{u}$, $\mathbf{v}$ e $\mathbf{w}$ sono tre vettori nello spazio, il loro <u>prodotto misto</u> è definito dal numero reale $\mathbf{u}\cdot(\mathbf{v}\times\mathbf{w})$
