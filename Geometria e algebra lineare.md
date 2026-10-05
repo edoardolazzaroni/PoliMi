@@ -2222,4 +2222,6 @@ ${\begin{cases}x=x'\cos\alpha-y'\sin\alpha +u' \\  y=x'\sin\alpha+y'\cos\alpha +
 Dalla discussione precedente discende la prossima:
 
 - #PROPOSIZIONE(11). Componendo, in qualsiasi ordine, un numero finito di traslazioni e rotazioni rispetto all'origine, nel piano, si ottiene sempre una trasformazione di equazioni ${\begin{cases}x=x'\cos\alpha-y'\sin\alpha +u \\  y=x'\sin\alpha+y'\cos\alpha +v\end{cases}}$, per qualche $\alpha,u,v\in\mathbb{R}$, detta appunto **rototraslazione**.
-	In forma compatta matriciale, e ammettendo anche riflessioni 
+	In forma compatta matriciale, e ammettendo anche riflessioni rispetto ad una retta per l'origine, questa assume la forma:
+	${\begin{pmatrix}x \\  y\end{pmatrix}}=\mathbf{R}{\begin{pmatrix}x' \\  y'\end{pmatrix}}+{\begin{pmatrix}u \\  v\end{pmatrix}}$
+	con $\mathbf{R}$ matrice ortogonale $(2,2)$ e $[u,v]^\top\in\mathbb{R}$
