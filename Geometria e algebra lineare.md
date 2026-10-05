@@ -203,7 +203,9 @@ Analogamente, nello spazio si hanno i vettori $\mathbf{v}=x_1 \mathbf{i}+x_2 \ma
 
 Le ultime due formule trovate risultano molto comode per il calcolo effettivo del prodotto di dui vettori di cui si conoscono le componenti, in quanto non richiedono il calcolo specifico dell'angolo formato dai vettori.
 
-*Esempio*: Lavoro di u
+
+*Esempio*: Lavoro di una forza
+Il lavoro compiuto da una forza costante $\mathbf{F}$ che sposta il suo punto di applicazione lungo un segmento da $A$ a $B$ è definito come il prodotto della lunghezza
 
 
 - **PRODOTTO VETTORIALE NELLO SPAZIO**. Dati due vettori $\mathbf{v}$ e $\mathbf{w}$, il loro <u>prodotto vettoriale</u>, denotato con $\mathbf{v}\times\mathbf{w}$, è il vettore caratterizzato dalle seguenti proprietà:
