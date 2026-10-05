@@ -2222,6 +2222,7 @@ ${\begin{cases}x=x'\cos\alpha-y'\sin\alpha +u' \\  y=x'\sin\alpha+y'\cos\alpha +
 Dalla discussione precedente discende la prossima:
 
 - #PROPOSIZIONE(11). Componendo, in qualsiasi ordine, un numero finito di traslazioni e rotazioni rispetto all'origine, nel piano, si ottiene sempre una trasformazione di equazioni ${\begin{cases}x=x'\cos\alpha-y'\sin\alpha +u \\  y=x'\sin\alpha+y'\cos\alpha +v\end{cases}}$, per qualche $\alpha,u,v\in\mathbb{R}$, detta appunto **rototraslazione**.
+	
 	In forma compatta matriciale, e ammettendo anche riflessioni rispetto ad una retta per l'origine, questa assume la forma:
 	
 							${\begin{pmatrix}x \\  y\end{pmatrix}}=\mathbf{R}{\begin{pmatrix}x' \\  y'\end{pmatrix}}+{\begin{pmatrix}u \\  v\end{pmatrix}}$
@@ -2238,4 +2239,6 @@ Anche l'operazione di moltiplicare ambo i membri dell'equazione per una costante
 
 Si può dimostrare ad esempio la seguente:
 
-- #PROPOSIZIONE(12). Se $f(x,y)=0$ è un'equazione algebrica di grado $n$ in $x,y$ (ossia $f$ è un polinomio di grado $n$), eseguendo sulle variabili $(x,y)$ una rototraslazione si ottiem
+- #PROPOSIZIONE(12). Se $f(x,y)=0$ è un'equazione algebrica di grado $n$ in $x,y$ (ossia $f$ è un polinomio di grado $n$), eseguendo sulle variabili $(x,y)$ una rototraslazione si ottiene un'equazione $g(x',y')=0$ che è ancora algebrica di grado $n$ in $x',y'$.
+
+In altre parole: il grado $n$ di $f(x,y)$
