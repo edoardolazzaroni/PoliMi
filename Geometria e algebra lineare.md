@@ -2197,4 +2197,6 @@ Chiediamoci ora: se cambiamo sistema di riferimento, come cambia l'equazione? Pr
 Cominciamo a ricordare che, nel piano, il più generale <mark class="hltr-yellow">movimento rigido</mark> (cioè che non altera le mutue distanze tra i punti) consiste in una <u>rototraslazione</u> (eventualmente combinata con una riflessione rispetto a una retta):
 eseguire una rototraslazione di assi equivale quindi a cambiare il sistema di riferimento (cartesiano ortogonale), senza cambiare unità di misura sugli assi (ed eventualmente cambiando l'orientamento di uno dei due assi, se abbiamo eseguito una riflessione). A sua volta, [[#4.1 **L'algebra delle matrici**|sappiamo]] che una rotazione di angolo $\alpha$ rispetto all'origine è espressa dalle equazioni:
 
-${\begin{cases}x=x'\cos\\end{cases}}$
+${\begin{cases}x=x'\cos\alpha-y'\sin\alpha \\  y=x'\sin\alpha+y'\cos\alpha\end{cases}}$
+
+o anche, in forma compatta matriciale, dalla moltiplicazione per una matrice di rotazione.
