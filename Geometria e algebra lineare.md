@@ -205,8 +205,8 @@ Le ultime due formule trovate risultano molto comode per il calcolo effettivo de
 
 
 *Esempio*: Lavoro di una forza
-Il lavoro compiuto da una forza costante $\mathbf{F}$ che sposta il suo punto di applicazione lungo un segmento da $A$ a $B$ è definito come il prodotto della lunghezza del segmento $AB$ per la lunghezza della componente (vettoriale) di $\mathbf{F}$ lungo la retta $AB$. In altri termini, introdotto il vettore spostamento $\mathbf{s}=\overrightarrow{AB}$, il lavoro $$
-
+Il lavoro compiuto da una forza costante $\mathbf{F}$ che sposta il suo punto di applicazione lungo un segmento da $A$ a $B$ è definito come il prodotto della lunghezza del segmento $AB$ per la lunghezza della componente (vettoriale) di $\mathbf{F}$ lungo la retta $AB$. In altri termini, introdotto il vettore spostamento $\mathbf{s}=\overrightarrow{AB}$, il lavoro $L$ è dato dalla formula: $L=\mathbf{F}\cdot\mathbf{s}=|\mathbf{F}|\cdot|\mathbf{s}|\cdot\cos\alpha$
+dove $\alpha$ è l'angolo tra la direzione di $\mathbf{F}$ e quella della retta. 
 
 - **PRODOTTO VETTORIALE NELLO SPAZIO**. Dati due vettori $\mathbf{v}$ e $\mathbf{w}$, il loro <u>prodotto vettoriale</u>, denotato con $\mathbf{v}\times\mathbf{w}$, è il vettore caratterizzato dalle seguenti proprietà:
 		1. La lunghezza di $\mathbf{v}\times\mathbf{w}$ è data da $|\mathbf{v}\times\mathbf{w}|=|\mathbf{v}|\cdot|\mathbf{w}|\cdot\sin\alpha$, 
