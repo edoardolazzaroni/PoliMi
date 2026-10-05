@@ -2221,4 +2221,4 @@ ${\begin{cases}x=x'\cos\alpha-y'\sin\alpha +u' \\  y=x'\sin\alpha+y'\cos\alpha +
 
 Dalla discussione precedente discende la prossima:
 
-- 
+- #PROPOSIZIONE(11). Componendo, in qualsiasi ordine, un numero finito di traslazioni e rotazioni rispetto all'origine, nel piano, si ottiene sempre una trasformazione di equazioni 
