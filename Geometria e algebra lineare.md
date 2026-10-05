@@ -2243,4 +2243,4 @@ Si può dimostrare ad esempio la seguente:
 
 In altre parole: il grado $n$ di $f(x,y)$ esprime una proprietà geometrica della curva da essa rappresentata. Si anche che il grado $n$ è un'**invariante** (cioè una quantità che non cambia eseguendo una rototraslazione sulle variabili).
 
-Ha senso parlare quindi ad esempio di "curve del secondo/terzo/$\cdots$ ordine", e non solo di equazi
+Ha senso parlare quindi ad esempio di "curve del secondo/terzo/$\cdots$ ordine", e non solo di equazioni, per indicare curve piane la cui equazione è espressa da un'equazione algebrica di grado $2,3,\cdots$. Infatti, se questo è vero in un particolare sistema di ri
