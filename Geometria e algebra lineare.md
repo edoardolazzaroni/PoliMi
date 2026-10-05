@@ -412,7 +412,10 @@ Facciamo qualche **osservazione**:
 L'equazione è $(x-1,y-2,z+3)\cdot(2,3,0)=0$
 cioè $2(x-1)+3(y-2)=0\rightarrow 2x+3y-8=0$
 
-Nel caso (b) si vuole scrivere l'equazione del piano passante per i punti $P_{0}=(x_{0},y_{0},z_{0}), P_{1}$
+Nel caso (b) si vuole scrivere l'equazione del piano passante per i punti $P_{0}=(x_{0},y_{0},z_{0}), P_{1}=(x_{1},y_{1},z_{1}), P_{2}=(x_{2},y_{2},z_{2})$
+
+Per ricondurci al caso (a) individuiamo un vettore ortogonale al piano.
+I v
 
 
 - **Condizioni di parallelismo ed ortogonalità tra piani**
