@@ -481,7 +481,7 @@ In alternativa, si possono scrivere le equazioni parametriche della retta col se
 
 Ricaviamo: ${\begin{cases}x+y=1-z \\  x-2y=2+z\end{cases}}\rightarrow{\begin{cases}y=\frac{-1-2z}{3} \\  x=\frac{4-z}{3}\end{cases}}$
 
-da cui, ponendo $z=t$ otteniamo le equazioni parametriche della retta
+da cui, ponendo $z=t$ otteniamo le equazioni parametriche della retta: ${\begin{cases}x=\frac{4}{3}-\frac \\  x-2y-z=2\end{cases}}$
 
 
 - **Distanza di un punto da piano**
