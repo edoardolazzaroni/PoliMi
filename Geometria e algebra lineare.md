@@ -443,7 +443,11 @@ I vettori $(1,-1,0),(2,1,3)$ evidentemente non sono paralleli, perciò le rette 
 
 $(4,-2,2)+t(1,-1,0)=(1,1,2)+u(2,1,3)\rightarrow{\begin{cases}t-2u=-3 \\  -t-u=3 \\  3u=0\end{cases}}$
 
-che dà $u=0,t=-3$. Per questi valori dei parametri le rette si incontrano in $P_{0}=(1,1,2)$, dunque le rette sono incidenti e le loro equazioni si possono riscrivere, evidenziando il punto comune $$
+che dà $u=0,t=-3$. Per questi valori dei parametri le rette si incontrano in $P_{0}=(1,1,2)$, dunque le rette sono incidenti e le loro equazioni si possono riscrivere, evidenziando il punto comune $P_{0}$, nella forma:
+
+$P=(1,1,2)+t(1,-1,0)$ e $P=(1,1,2)+t(2,1,3)$
+
+A questo punto la determinazione del piano che le contiene si può fare come illustrato 
 
 
 - **Condizioni di parallelismo ed ortogonalità tra piani**
