@@ -2195,4 +2195,4 @@ Chiediamoci ora: se cambiamo sistema di riferimento, come cambia l'equazione? Pr
 #### 7.2.1 **Movimenti rigidi, trasformazioni di coordinate, proprietà geometriche**
 
 Cominciamo a ricordare che, nel piano, il più generale <mark class="hltr-yellow">movimento rigido</mark> (cioè che non altera le mutue distanze tra i punti) consiste in una <u>rototraslazione</u> (eventualmente combinata con una riflessione rispetto a una retta):
-eseguire una rototraslazione di assi equivale quindi a cambiare il sistema di riferimento (cartesiano ortogonale), senza cambiare unità di misueri 
+eseguire una rototraslazione di assi equivale quindi a cambiare il sistema di riferimento (cartesiano ortogonale), senza cambiare unità di misura sugli assi (ed eventualmente cambiando l'orientamento di uno dei due assi, se abbiamo eseguito una riflessione). A sua volta, sappiamo che una rotazione di angolo $\alpha$ rispetto all'origine 
