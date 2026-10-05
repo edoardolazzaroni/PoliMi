@@ -283,7 +283,12 @@ e dunque i tre vettori <u>sono indipendenti se e solo se quest'ultima espression
 
 *Esempio*: Verificare se i vettori $(1,2,3),(0,2,2),(2,1,2)$ sono indipendenti oppure no.
 Calcoliamo:
-$(0,2,2)\cdot(1,2,3)\times(2,1,2)=2(3\cdot 2-1\cdot 2)+2(1\cdot 1-2\cdot 2)=2\cdot 4$
+
+$(0,2,2)\cdot(1,2,3)\times(2,1,2)=2(3\cdot 2-1\cdot 2)+2(1\cdot 1-2\cdot 2)=2\cdot 4+2\cdot(-3)=2\ne 0$
+
+I vettori sono perciò indipendenti.
+
+
 
 
 # Capitolo II: Geometria lineare nello spazio
