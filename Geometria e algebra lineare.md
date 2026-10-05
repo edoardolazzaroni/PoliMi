@@ -356,7 +356,7 @@ Le due rette sono **ortogonali** se lo sono i loro vettori direzionali, cioè se
 Si noti che per essere ortogonali non è necessario che le due rette siano **incidenti** (cioè si intersechino in un punto).
 
 
-*Esempio*: Si voglia calcolare l
+*Esempio*: Si voglia calcolare l'equazione della retta passante per i due punti $P_{0}=(3,-1,1),P_{1}=(4,2,-3)$. Come vettore direzionale si può prendere $\mathbf{v}=\overr$
 
 
 c) Prima di vedere come si scrive l'equazione di una retta come intersezione di due piani, vediamo come si scrive l'equazione di un piano.
