@@ -364,7 +364,7 @@ Le equazioni scalari sono: ${\begin{cases}x=3+t \\  y=-1+3t \\  z=1-4t\end{cases
 
 Infine, quelle cartesiane sono: $\frac{x-3}{1}=\frac{y+1}{3}=\frac{z-1}{-4}$
 
-Questa retta è parallela alla retta $$
+Questa retta è parallela alla retta ${\begin{cases}x=2+4t \\  y=1+12t \\  z=-16t\end{cases}}\quad$, in quanto $(4,12,-16)=4(1,3,-4)$, e ortogo
 
 
 c) Prima di vedere come si scrive l'equazione di una retta come intersezione di due piani, vediamo come si scrive l'equazione di un piano.
