@@ -236,7 +236,9 @@ $\mathbf{i}\times\mathbf{i}=0\quad\mathbf{j}\times\mathbf{j}=0\quad\mathbf{k}\ti
 
 Quest'ultime e le proprietà del prodotto vettoriale permettono di scrivere il prodotto vettoriale di due vettori:
 
-$\mathbf{v}=x_{1}\mathbf{i}+x_{2}\mathbf{j}+x_{3}\mathbf{k}$
+$\mathbf{v}=x_{1}\mathbf{i}+x_{2}\mathbf{j}+x_{3}\mathbf{k}\quad$ e $\quad\mathbf{w}=y_{1}\mathbf{i}+y_{2}\mathbf{j}+y_{3}\mathbf{k}$
+
+in termini delle loro componenti. Infatti si ha: $\mathbf{v}\times\mathbf{w}=(x_{1}\mathbf{i}+x_{2}\mathbf{j}+x_{3}\mathbf{k}\quad)$
 
 
 - **PRODOTTO MISTO NELLO SPAZIO**. Se $\mathbf{u}$, $\mathbf{v}$ e $\mathbf{w}$ sono tre vettori nello spazio, il loro <u>prodotto misto</u> è definito dal numero reale $\mathbf{u}\cdot(\mathbf{v}\times\mathbf{w})$
