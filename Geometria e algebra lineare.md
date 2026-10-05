@@ -447,7 +447,9 @@ che dà $u=0,t=-3$. Per questi valori dei parametri le rette si incontrano in $P
 
 $P=(1,1,2)+t(1,-1,0)$ e $P=(1,1,2)+t(2,1,3)$
 
-A questo punto la determinazione del piano che le contiene si può fare come illustrato 
+A questo punto la determinazione del piano che le contiene si può fare come illustrato al punto (c):
+
+$(x-1,y-1,z-2)\cdot((1,-1,0)\times(2,1,3))=0\rightarrow-3(x-1)-3(y-1)+3()$
 
 
 - **Condizioni di parallelismo ed ortogonalità tra piani**
