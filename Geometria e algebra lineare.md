@@ -449,7 +449,10 @@ $P=(1,1,2)+t(1,-1,0)$ e $P=(1,1,2)+t(2,1,3)$
 
 A questo punto la determinazione del piano che le contiene si può fare come illustrato al punto (c):
 
-$(x-1,y-1,z-2)\cdot((1,-1,0)\times(2,1,3))=0\rightarrow-3(x-1)-3(y-1)+3()$
+$(x-1,y-1,z-2)\cdot((1,-1,0)\times(2,1,3))=0\rightarrow-3(x-1)-3(y-1)+3(z-2)=0$
+
+e quindi: $z-x-y=0$.
+
 
 
 - **Condizioni di parallelismo ed ortogonalità tra piani**
@@ -472,6 +475,9 @@ Un vettore direzionale della retta deve essere ortogonale ad entrambi i vettori 
 					$\mathbf{v}=\mathbf{n}\times\mathbf{n}'=(bc'-b'c,a'c-ac',ab'-a'b)$
 
 In alternativa, si possono scrivere le equazioni parametriche della retta col seguente procedimento: si considera il sistema nelle tre incognite $(x,y,z)$, che definisce la retta; se in tale sistema si riescono ad esprimere due variabili in funzione della terza, si può assumere la terza variabile come parametro.
+
+
+*Esempio*: Scriviamo le equazioni parametriche della retta intersezio
 
 
 - **Distanza di un punto da piano**
