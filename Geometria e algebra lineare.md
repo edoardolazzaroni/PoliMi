@@ -281,7 +281,9 @@ sfruttando le formule precedenti del prodotto scalare e vettoriale, abbiamo:
 e dunque i tre vettori <u>sono indipendenti se e solo se quest'ultima espressione è diversa da 0</u>.
 
 
-*Esempio*: Verificare se i vettori $(1,2,3),(0,2,2),$
+*Esempio*: Verificare se i vettori $(1,2,3),(0,2,2),(2,1,2)$ sono indipendenti oppure no.
+Calcoliamo:
+$(0,2,2)\cdot(1,2,3)\times(2,1,2)=2(3\cdot 2-1\cdot 2)+2(1\cdot 1-2\cdot 2)=2\cdot 4$
 
 
 # Capitolo II: Geometria lineare nello spazio
