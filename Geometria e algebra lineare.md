@@ -2204,4 +2204,6 @@ o anche, in forma compatta matriciale, dalla moltiplicazione per una [[#6.3.2 **
 ${\begin{pmatrix}x \\  y\end{pmatrix}}=\mathbf{R}{\begin{pmatrix}x' \\  y'\end{pmatrix}}$
 
 con $\mathbf{R}$ matrice $(2,2)$ non singolare tale che $\mathbf{R}\mathbf{R}^\top=\mathbf{R}^\top\mathbf{R}=\mathbf{I}$ (ossia $\mathbf{R}$ è ortogonale) e $\det\mathbf{R}=1$.
-Una rotazione eventualmente combinata con una rif
+Una rotazione eventualmente combinata con una riflessione rispetto a una retta è espressa da una matrice ortogonale qualsiasi (cioè avente $\det=\pm 1$); chiameremo **trasformazione ortogonale** una trasformazione di questo tipo.
+
+Una traslazione, secondo un ve
