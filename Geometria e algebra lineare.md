@@ -437,6 +437,9 @@ $(\mathbf{p}-\mathbf{p}_{0})\cdot(\mathbf{v}\times\mathbf{w})=0$
 
 
 
+*Esempio* (3): Stabilire se le seguenti rette $P=(4,-2,2)+t(1,-1,0)$ e $P=(1,)$
+
+
 - **Condizioni di parallelismo ed ortogonalità tra piani**
 
 Due piani sono **paralleli** se lo sono i lori vettori ortogonali. Precisamente, i piani
