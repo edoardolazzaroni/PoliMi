@@ -409,10 +409,10 @@ Facciamo qualche **osservazione**:
 
 *Esempio*: Si voglia scrivere l'equazione del piano passante per il punto $(1,2,-1)$ e normale al vettore $\mathbf{v}=(2,3,0)$.
 
-La prima equazione è $(x-1,y-2,z+3)\cdot(2,3,0)=0$
+L'equazione è $(x-1,y-2,z+3)\cdot(2,3,0)=0$
 cioè $2(x-1)+3(y-2)=0\rightarrow 2x+3y-8=0$
 
-Nel caso (b) si vuole scrivere l'equazione del piano passante per i punti
+Nel caso (b) si vuole scrivere l'equazione del piano passante per i punti $P_{0}=(x_{0},y_{0},z_{0}), P_{1}$
 
 
 - **Condizioni di parallelismo ed ortogonalità tra piani**
