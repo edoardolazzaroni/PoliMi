@@ -2215,6 +2215,6 @@ ${\begin{cases}x=x'\cos\alpha-y'\sin\alpha +u \\  y=x'\sin\alpha+y'\cos\alpha +v
 
 mentre traslare di un vettore $[u,v]^\top$ e poi ruotare di un angolo $\alpha$ si esprime mediante le equazioni:
 
-${\begin{cases}x=(x'+u)\cos\alpha-(y'+v)\sin\alpha \\  y=(x'+u)\sin\alpha+(y'+v)\cos\alpha\end{cases}}$
+${\begin{cases}x=(x'+u)\cos\alpha-(y'+v)\sin\alpha \\  y=(x'+u)\sin\alpha+(y'+v)\cos\alpha\end{cases}}\quad$, che comunque si possono riscrivere nella forma:
 
-che comunque s
+${\begin{cases}x=x'\cos\alpha-y'\sin\alpha +u' \\  y=x'\sin\alpha+y'\cos\alpha +v'\end{cases}}$ con $$
