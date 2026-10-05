@@ -238,7 +238,7 @@ Quest'ultime e le proprietà del prodotto vettoriale permettono di scrivere il p
 
 $\mathbf{v}=x_{1}\mathbf{i}+x_{2}\mathbf{j}+x_{3}\mathbf{k}\quad$ e $\quad\mathbf{w}=y_{1}\mathbf{i}+y_{2}\mathbf{j}+y_{3}\mathbf{k}$
 
-in termini delle loro componenti. Infatti si ha: $\mathbf{v}\times\mathbf{w}=(x_{1}\mathbf{i}+x_{2}\mathbf{j}+x_{3}\mathbf{k}\quad)$
+in termini delle loro componenti. Infatti si ha: $\mathbf{v}\times\mathbf{w}=(x_{1}\mathbf{i}+x_{2}\mathbf{j}+x_{3}\mathbf{k})\times(y_{1}\mathbf{i}+y_{2}\mathbf{j}+y_{3}\mathbf{k})=x_{1}y_{1}\mathbf{i}+x_{1}y_{2}\mathbf{i}$
 
 
 - **PRODOTTO MISTO NELLO SPAZIO**. Se $\mathbf{u}$, $\mathbf{v}$ e $\mathbf{w}$ sono tre vettori nello spazio, il loro <u>prodotto misto</u> è definito dal numero reale $\mathbf{u}\cdot(\mathbf{v}\times\mathbf{w})$
