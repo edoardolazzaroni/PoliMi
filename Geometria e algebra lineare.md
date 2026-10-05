@@ -407,7 +407,10 @@ Facciamo qualche **osservazione**:
 ###### #Figura(20)
 
 
-*Esempio*: Si voglia scrivere l'equazione del piano passante per il punto $(1,2,-1)$ e normale al vettore $\mathbf{v}=$
+*Esempio*: Si voglia scrivere l'equazione del piano passante per il punto $(1,2,-1)$ e normale al vettore $\mathbf{v}=(2,3,0)$.
+
+La prima equazione è $(x-1,y-2,z+3)\cdot(2,3,0)=0$
+cioè $2(x-1)$
 
 
 - **Condizioni di parallelismo ed ortogonalità tra piani**
