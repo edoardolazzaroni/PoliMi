@@ -359,9 +359,13 @@ Si noti che per essere ortogonali non è necessario che le due rette siano **inc
 *Esempio*: Si voglia calcolare l'equazione della retta passante per i due punti $P_{0}=(3,-1,1),P_{1}=(4,2,-3)$. Come vettore direzionale si può prendere $\mathbf{v}=\overrightarrow{P_{0}P_{1}}=(1,3,-4)$.
 
 L'equazione parametrica vettoriale è dunque: $(x,y,z)=(3,-1,1)+t(1,3,-4)\quad t\in\mathbb{R}$
-Le equazioni scalari sono:
 
-${\begin{cases}x=3+t \\  y=-1+3t \\  z=1-4t\end{cases}}\quad t\in\ma$
+Le equazioni scalari sono: ${\begin{cases}x=3+t \\  y=-1+3t \\  z=1-4t\end{cases}}\quad t\in\mathbb{R}$
+
+Infine, quelle cartesiane sono: $\frac{x-3}{1}=\frac{y+1}{3}=\frac{z-1}{-4}$
+
+Questa retta è parallela alla retta $$
+
 
 c) Prima di vedere come si scrive l'equazione di una retta come intersezione di due piani, vediamo come si scrive l'equazione di un piano.
 
