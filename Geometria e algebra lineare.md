@@ -2194,4 +2194,4 @@ Chiediamoci ora: se cambiamo sistema di riferimento, come cambia l'equazione? Pr
 
 #### 7.2.1 **Movimenti rigidi, trasformazioni di coordinate, proprietà geometriche**
 
-Cominciamo a ricordare che, nel piano, il più g
+Cominciamo a ricordare che, nel piano, il più generale <mark class="hltr-yellow">movimento rigido</mark> (cioè che non altera le mutue distanze tra i punti) consiste in una rototraslazione (eventualmente combinata con una rifle)
