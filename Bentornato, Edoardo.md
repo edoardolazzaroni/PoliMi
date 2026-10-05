@@ -53,6 +53,7 @@ cellStyleRules:
 
  [[Finire capitolo 5 di GAL]]
  [[finire capitolo 6 GAL]]
+ [[finire esempi GAL]]
  [[guardare esercitazione GAL-2]]
  [[riguardare appunti esercitazioni analisi 1]]
 
