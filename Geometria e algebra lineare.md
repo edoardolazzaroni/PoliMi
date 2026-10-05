@@ -2203,4 +2203,5 @@ o anche, in forma compatta matriciale, dalla moltiplicazione per una [[#6.3.2 **
 
 ${\begin{pmatrix}x \\  y\end{pmatrix}}=\mathbf{R}{\begin{pmatrix}x' \\  y'\end{pmatrix}}$
 
-con $\mathbf{R}$ matrice $$
+con $\mathbf{R}$ matrice $(2,2)$ non singolare tale che $\mathbf{R}\mathbf{R}^\top=\mathbf{R}^\top\mathbf{R}=\mathbf{I}$ (ossia $\mathbf{R}$ è ortogonale) e $\det\mathbf{R}=1$.
+Una rotazione eventualmente combinata con una rif
