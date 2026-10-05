@@ -429,7 +429,9 @@ Per usare la formula $\mathbf{n}\cdot\overrightarrow{P_0P}=0$ occorre individuar
 
 $\mathbf{n}=\mathbf{v}\times\mathbf{w}=-2\mathbf{i}+2\mathbf{k}$
 
-Abbiamo quindi 
+Abbiamo quindi, scegliendo $P_{0}=A$: $-2(x-1)+2(z-1)=0$, ossia $-x+z+2=0$
+
+Nel caso (c), per scrivere l'equazione del piano contente le due rette $\mathbf{p}$
 
 
 - **Condizioni di parallelismo ed ortogonalità tra piani**
