@@ -2234,4 +2234,4 @@ Se una curva è rappresentata, rispetto ad un certo sistema di riferimento carte
 È naturale chiedersi se nell'equazione sia rimasta traccia di quest'ultimo fatto: in altre parole, c'è qualche <u>proprietà algebrica</u> dell'equazione $f(x,y)=0$ che non cambia se eseguiamo una trasformazione di variabili?
 Diremo che queste eventuali proprietà dell'equazione esprimono una <u>proprietà geometrica</u> della curva, per sottolineare il fatto che dipendono dalla curva e non dal particolare sistema di riferimento scelto per descriverla.
 
-Anche l'operazione di moltiplicare ambo
+Anche l'operazione di moltiplicare ambo i membri dell'equazione per una costante $\lambda\ne 0$ porta formalmente ad un'equazione diversa, $\lambda f(x,y)=0$, eppure non cambia ovviamente il luogo geometrico descritto. Affinchè una proprietà algebrica dell'equazione 
