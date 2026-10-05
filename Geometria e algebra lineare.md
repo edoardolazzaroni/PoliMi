@@ -431,7 +431,7 @@ $\mathbf{n}=\mathbf{v}\times\mathbf{w}=-2\mathbf{i}+2\mathbf{k}$
 
 Abbiamo quindi, scegliendo $P_{0}=A$: $-2(x-1)+2(z-1)=0$, ossia $-x+z+2=0$
 
-Nel caso (c), per scrivere l'equazione del piano contente le due rette $\mathbf{p}$
+Nel caso (c), per scrivere l'equazione del piano contente le due rette $\mathbf{p}=\mathbf{p}_{0}+t\mathbf{v},\mathbf{p}=\mathbf{p}_{0}+t\mathbf{w}$, incidenti in $P_{0}$
 
 
 - **Condizioni di parallelismo ed ortogonalità tra piani**
