@@ -2229,4 +2229,4 @@ Dalla discussione precedente discende la prossima:
 	con $\mathbf{R}$ matrice ortogonale $(2,2)$ e $[u,v]^\top\in\mathbb{R}^2$ assegnato.
 
 
-Se una curva è rappresentata, rispetto ad un certo sistema di riferimento cartesiano ortogonale, da una certa equazione $f(x,y)=0$, cambiando riferimento sarà rappresentata da una nuova equazione 
+Se una curva è rappresentata, rispetto ad un certo sistema di riferimento cartesiano ortogonale, da una certa equazione $f(x,y)=0$, cambiando riferimento sarà rappresentata da una nuova equazione $g(x',y')=0$, che si ottiene dalla precedente eseguendo sulle variabili $(x,y)$ un'opportuna trasformazione (vedi Proposizione precedente)
