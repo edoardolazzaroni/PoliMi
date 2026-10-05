@@ -2211,4 +2211,8 @@ Una <u>traslazione</u>, secondo un vettore $(u,v)^\top$, è espressa dalle equaz
 Due trasformazioni ortogonali, nel piano, commutano tra loro e la loro composizione è un'altra trasformazione ortogonale; analogamente, due traslazioni commutano tra loro e la loro composizione è un'altra traslazione. Invece una traslazione e una trasformazione ortogonale non commutano tra loro.
 *Ad esempio*, ruotare di un angolo $\alpha$ e poi traslare di un vettore $[u,v]^\top$ si esprime mediante le equazioni:
 
-${\begin{cases}x=x'\cos\alpha-y'\sin\alpha +u \\  y=x'\sin\alpha+y'\cos\alpha\end{cases}}$
+${\begin{cases}x=x'\cos\alpha-y'\sin\alpha +u \\  y=x'\sin\alpha+y'\cos\alpha +v\end{cases}}$
+
+mentre traslare di un vettore $[u,v]^\top$ e poi ruotare di un angolo $\alpha$ si esprime mediante le equazioni:
+
+$$
