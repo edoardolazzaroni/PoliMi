@@ -232,7 +232,11 @@ Si noti che il lavoro è nullo se $\mathbf{F}$ è ortogonale alla retta $AB$.
 
 *Esempio* (1): I vettori della base canonica per $\mathbb{R}^3$, $\mathbf{i},\mathbf{j},\mathbf{k}$ formano una terna ortogonale destrorsa e pertanto si ha:
 
-$\mathbf{i}\times\mathbf{i}=0\quad\mathbf{j}\times\mathbf{j}=0\quad\mathbf{k}\times\mathbf{k}=0\quad\mathbf{i}\times\mathbf{j}=\mathbf{k}\quad\mathbf{j}\times\mathbf{k}=\mathbf{i}\quad\mathbf{k}\times\mathbf{i}$
+$\mathbf{i}\times\mathbf{i}=0\quad\mathbf{j}\times\mathbf{j}=0\quad\mathbf{k}\times\mathbf{k}=0\quad\mathbf{i}\times\mathbf{j}=\mathbf{k}\quad\mathbf{j}\times\mathbf{k}=\mathbf{i}\quad\mathbf{k}\times\mathbf{i}=\mathbf{j}$
+
+Quest'ultime e le proprietà del prodotto vettoriale permettono di scrivere il prodotto vettoriale di due vettori:
+
+$\mathbf{v}=x_{1}\mathbf{i}+x_{2}\mathbf{j}+x_{3}\mathbf{k}$
 
 
 - **PRODOTTO MISTO NELLO SPAZIO**. Se $\mathbf{u}$, $\mathbf{v}$ e $\mathbf{w}$ sono tre vettori nello spazio, il loro <u>prodotto misto</u> è definito dal numero reale $\mathbf{u}\cdot(\mathbf{v}\times\mathbf{w})$
