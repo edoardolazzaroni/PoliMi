@@ -2241,4 +2241,4 @@ Si può dimostrare ad esempio la seguente:
 
 - #PROPOSIZIONE(12). Se $f(x,y)=0$ è un'equazione algebrica di grado $n$ in $x,y$ (ossia $f$ è un polinomio di grado $n$), eseguendo sulle variabili $(x,y)$ una rototraslazione si ottiene un'equazione $g(x',y')=0$ che è ancora algebrica di grado $n$ in $x',y'$.
 
-In altre parole: il grado $n$ di $f(x,y)$
+In altre parole: il grado $n$ di $f(x,y)$ esprime una proprietà geometrica della curva da essa rappresentata. Si anche che il grado $n$ è un'**invariante** (cioè una quantità che non cambia eseguendo una rototraslazione sulle variabili)
