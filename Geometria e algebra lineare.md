@@ -2231,5 +2231,7 @@ Dalla discussione precedente discende la prossima:
 
 Se una curva è rappresentata, rispetto ad un certo sistema di riferimento cartesiano ortogonale, da una certa equazione $f(x,y)=0$, cambiando riferimento sarà rappresentata da una nuova equazione $g(x',y')=0$, che si ottiene dalla precedente eseguendo sulle variabili $(x,y)$ un'opportuna trasformazione (vedi Proposizione precedente). La curva geometricamente rimane quindi la stessa.
 
-È naturale chiedersi se nell'equazione sia rimasta traccia di quest'ultimo fatto: in altre parole, c'è qualche proprietà algebrica dell'equazione $f(x,y)=0$ che non cambia se eseguiamo una trasformazione di variabili?
-Diremo che queste eventuali proprietà dell'equazione esprimono u
+È naturale chiedersi se nell'equazione sia rimasta traccia di quest'ultimo fatto: in altre parole, c'è qualche <u>proprietà algebrica</u> dell'equazione $f(x,y)=0$ che non cambia se eseguiamo una trasformazione di variabili?
+Diremo che queste eventuali proprietà dell'equazione esprimono una <u>proprietà geometrica</u> della curva, per sottolineare il fatto che dipendono dalla curva e non dal particolare sistema di riferimento scelto per descriverla.
+
+Anche l'operazione di moltiplicare ambo
