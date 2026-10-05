@@ -2206,4 +2206,6 @@ ${\begin{pmatrix}x \\  y\end{pmatrix}}=\mathbf{R}{\begin{pmatrix}x' \\  y'\end{p
 con $\mathbf{R}$ matrice $(2,2)$ non singolare tale che $\mathbf{R}\mathbf{R}^\top=\mathbf{R}^\top\mathbf{R}=\mathbf{I}$ (ossia $\mathbf{R}$ è ortogonale) e $\det\mathbf{R}=1$.
 Una rotazione eventualmente combinata con una riflessione rispetto a una retta è espressa da una matrice ortogonale qualsiasi (cioè avente $\det=\pm 1$); chiameremo **trasformazione ortogonale** una trasformazione di questo tipo.
 
-Una traslazione, secondo un ve
+Una <u>traslazione</u>, secondo un vettore $(u,v)^\top$, è espressa dalle equazioni: ${\begin{cases}x=x'+u \\  y=x'+v\end{cases}}$
+
+Due trasformazioni ortogonali, nel piano, commutan
