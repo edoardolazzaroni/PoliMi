@@ -422,8 +422,9 @@ $\mathbf{n}=\mathbf{v}\times\mathbf{w}$
 Scegliendo poi, per esempio, $P_{0}$, l'equazione del piano è: $\mathbf{n}\cdot\overrightarrow{P_{0}P}=0$
 
 
-*Esempio* (2): Si voglia calcolare l'equazione del piano passante per i tre punti $A=(1,0,-1),B=(2,1,0),C=(0,1,-2)$. Per usare la formula $\mathbf{n}\cdot\overrightarrow{P_0P}=0$ occorre individuare un vettore normale al piano.
-Poichè i ve
+*Esempio* (2): Si voglia calcolare l'equazione del piano passante per i tre punti $A=(1,0,-1),B=(2,1,0),C=(0,1,-2)$.
+
+Per usare la formula $\mathbf{n}\cdot\overrightarrow{P_0P}=0$ occorre individuare un vettore normale al piano. Poichè i vettori $\mathbf{v}=\overrightarrow{AB}=(1,1,1),\mathbf{w}=\overrightarrow{AC}=(-1,1,-1)$ sono paralleli al piano, il loro 
 
 
 - **Condizioni di parallelismo ed ortogonalità tra piani**
