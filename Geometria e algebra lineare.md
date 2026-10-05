@@ -206,7 +206,9 @@ Le ultime due formule trovate risultano molto comode per il calcolo effettivo de
 
 *Esempio*: Lavoro di una forza
 Il lavoro compiuto da una forza costante $\mathbf{F}$ che sposta il suo punto di applicazione lungo un segmento da $A$ a $B$ è definito come il prodotto della lunghezza del segmento $AB$ per la lunghezza della componente (vettoriale) di $\mathbf{F}$ lungo la retta $AB$. In altri termini, introdotto il vettore spostamento $\mathbf{s}=\overrightarrow{AB}$, il lavoro $L$ è dato dalla formula: $L=\mathbf{F}\cdot\mathbf{s}=|\mathbf{F}|\cdot|\mathbf{s}|\cdot\cos\alpha$
-dove $\alpha$ è l'angolo tra la direzione di $\mathbf{F}$ e quella della retta. 
+dove $\alpha$ è l'angolo tra la direzione di $\mathbf{F}$ e quella della retta $AB$.
+Si noti che il lavoro è nullo se $\mathbf{F}$ è ortogonale alla retta $AB$.
+
 
 - **PRODOTTO VETTORIALE NELLO SPAZIO**. Dati due vettori $\mathbf{v}$ e $\mathbf{w}$, il loro <u>prodotto vettoriale</u>, denotato con $\mathbf{v}\times\mathbf{w}$, è il vettore caratterizzato dalle seguenti proprietà:
 		1. La lunghezza di $\mathbf{v}\times\mathbf{w}$ è data da $|\mathbf{v}\times\mathbf{w}|=|\mathbf{v}|\cdot|\mathbf{w}|\cdot\sin\alpha$, 
@@ -226,6 +228,9 @@ dove $\alpha$ è l'angolo tra la direzione di $\mathbf{F}$ e quella della retta.
 
 ![[Geometria e Algebra Lineare-1790435384222.webp|406]]
 ###### #Figura(15) *L'area del parallelogramma costruito su $\mathbf{v}$ e $\mathbf{w}$ è $|\mathbf{v}|\cdot|\mathbf{w}|\cdot\sin\alpha=|\mathbf{v}\times\mathbf{w}|$.*
+
+
+*Esempio* (1):
 
 
 - **PRODOTTO MISTO NELLO SPAZIO**. Se $\mathbf{u}$, $\mathbf{v}$ e $\mathbf{w}$ sono tre vettori nello spazio, il loro <u>prodotto misto</u> è definito dal numero reale $\mathbf{u}\cdot(\mathbf{v}\times\mathbf{w})$
