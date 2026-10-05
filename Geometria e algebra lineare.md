@@ -2194,3 +2194,4 @@ Chiediamoci ora: se cambiamo sistema di riferimento, come cambia l'equazione? Pr
 
 #### 7.2.1 **Movimenti rigidi, trasformazioni di coordinate, proprietà geometriche**
 
+Cominciamo a ricordare che, nel piano, il più g
