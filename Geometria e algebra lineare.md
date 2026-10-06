@@ -588,7 +588,8 @@ I coefficienti $v_1,v_2,\cdots,v_n$ si chiamano **componenti scalari** di $\math
 Chiameremo il primo <u>vettore riga</u> ed il secondo <u>vettore colonna</u>.
 
 
-*Esempio* (1):
+
+*Esempio* (1): In $\mathbb{R}^2$ la coppia $\mathbf{i},\mathbf{j}$ costituisce una base, detta canonica. Analogament,
 
 
 #### 3.1.4 **Spazi di funzioni**
