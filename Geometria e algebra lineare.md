@@ -203,6 +203,13 @@ Analogamente, nello spazio si hanno i vettori $\mathbf{v}=x_1 \mathbf{i}+x_2 \ma
 
 Le ultime due formule trovate risultano molto comode per il calcolo effettivo del prodotto di dui vettori di cui si conoscono le componenti, in quanto non richiedono il calcolo specifico dell'angolo formato dai vettori.
 
+
+*Esempio*: Lavoro di una forza
+Il lavoro compiuto da una forza costante $\mathbf{F}$ che sposta il suo punto di applicazione lungo un segmento da $A$ a $B$ è definito come il prodotto della lunghezza del segmento $AB$ per la lunghezza della componente (vettoriale) di $\mathbf{F}$ lungo la retta $AB$. In altri termini, introdotto il vettore spostamento $\mathbf{s}=\overrightarrow{AB}$, il lavoro $L$ è dato dalla formula: $L=\mathbf{F}\cdot\mathbf{s}=|\mathbf{F}|\cdot|\mathbf{s}|\cdot\cos\alpha$
+dove $\alpha$ è l'angolo tra la direzione di $\mathbf{F}$ e quella della retta $AB$.
+Si noti che il lavoro è nullo se $\mathbf{F}$ è ortogonale alla retta $AB$.
+
+
 - **PRODOTTO VETTORIALE NELLO SPAZIO**. Dati due vettori $\mathbf{v}$ e $\mathbf{w}$, il loro <u>prodotto vettoriale</u>, denotato con $\mathbf{v}\times\mathbf{w}$, è il vettore caratterizzato dalle seguenti proprietà:
 		1. La lunghezza di $\mathbf{v}\times\mathbf{w}$ è data da $|\mathbf{v}\times\mathbf{w}|=|\mathbf{v}|\cdot|\mathbf{w}|\cdot\sin\alpha$, 
 			dove $\alpha$ è l'angolo che essi formano $(0\le \alpha \le \pi)$;
@@ -221,6 +228,29 @@ Le ultime due formule trovate risultano molto comode per il calcolo effettivo de
 
 ![[Geometria e Algebra Lineare-1790435384222.webp|406]]
 ###### #Figura(15) *L'area del parallelogramma costruito su $\mathbf{v}$ e $\mathbf{w}$ è $|\mathbf{v}|\cdot|\mathbf{w}|\cdot\sin\alpha=|\mathbf{v}\times\mathbf{w}|$.*
+
+
+
+*Esempio* (1): I vettori della base canonica per $\mathbb{R}^3$, $\mathbf{i},\mathbf{j},\mathbf{k}$ formano una terna ortogonale destrorsa e pertanto si ha:
+
+$\mathbf{i}\times\mathbf{i}=0\quad\mathbf{j}\times\mathbf{j}=0\quad\mathbf{k}\times\mathbf{k}=0\quad\mathbf{i}\times\mathbf{j}=\mathbf{k}\quad\mathbf{j}\times\mathbf{k}=\mathbf{i}\quad\mathbf{k}\times\mathbf{i}=\mathbf{j}$
+
+Quest'ultime e le proprietà del prodotto vettoriale permettono di scrivere il prodotto vettoriale di due vettori:
+
+$\mathbf{v}=x_{1}\mathbf{i}+x_{2}\mathbf{j}+x_{3}\mathbf{k}\quad$ e $\quad\mathbf{w}=y_{1}\mathbf{i}+y_{2}\mathbf{j}+y_{3}\mathbf{k}$
+
+in termini delle loro componenti. Infatti si ha:
+
+$\begin{align}\mathbf{v}\times\mathbf{w}&=(x_{1}\mathbf{i}+x_{2}\mathbf{j}+x_{3}\mathbf{k})\times(y_{1}\mathbf{i}+y_{2}\mathbf{j}+y_{3}\mathbf{k})=\\&=x_{1}y_{1}\mathbf{i}\times\mathbf{i} + x_{1}y_{2}\mathbf{i}\times\mathbf{j}+x_{1}y_{3}\mathbf{i}\times\mathbf{k}+\\&+ x_{2}y_{1}\mathbf{j}\times\mathbf{i}+x_{2}y_{2}\mathbf{j}\times\mathbf{j}+x_{2}y_{3}\mathbf{j}\times\mathbf{k}+\\&+ x_{3}y_{1}\mathbf{k}\times\mathbf{i}+x_{3}y_{2}\mathbf{k}\times\mathbf{j}+x_{3}y_{3}\mathbf{k}\times\mathbf{k}=\\&=(x_{2}y_{3}-x_{3}y_{2})\mathbf{i}+(x_{3}y_{1}-x_{1}y_{3})\mathbf{j}+(x_{1}y_{2}-x_{2}y_{1})\mathbf{k}\end{align}$
+
+da cui l'<mark class="hltr-yellow">importante formula</mark>: $\mathbf{v}\times\mathbf{w}=(x_{2}y_{3}-x_{3}y_{2})\mathbf{i}+(x_{3}y_{1}-x_{1}y_{3})\mathbf{j}+(x_{1}y_{2}-x_{2}y_{1})\mathbf{k}$
+
+Nel [[#4.3 **Determinante**|paragrafo 4.3]] vedremo come questa formula si possa riscrivere in modo più sintetico usando la nozione di determinante di una matrice.
+
+
+*Esempio* (2): Momento di una forza rispetto ad un punto
+Sia $\mathbf{F}$ una forza con punto di applicazione $A$. Il momento di $\mathbf{F}$ rispetto ad un punto $O\ne A$ è definito dal vettore:
+$\mathbf{M}=\mathbf{r}\times\mathbf{F}\quad$ dove $\mathbf{r}=\overrightarrow{OA}$.
 
 
 - **PRODOTTO MISTO NELLO SPAZIO**. Se $\mathbf{u}$, $\mathbf{v}$ e $\mathbf{w}$ sono tre vettori nello spazio, il loro <u>prodotto misto</u> è definito dal numero reale $\mathbf{u}\cdot(\mathbf{v}\times\mathbf{w})$
@@ -249,6 +279,14 @@ sfruttando le formule precedenti del prodotto scalare e vettoriale, abbiamo:
 			$\mathbf{u}\cdot\mathbf{v}\times\mathbf{w}=u_1(x_1y_3-x_3y_2)+u_2(x_3y_1-x_1y_3)+u_3(x_1y_2-x_2y_1)$
 			
 e dunque i tre vettori <u>sono indipendenti se e solo se quest'ultima espressione è diversa da 0</u>.
+
+
+*Esempio*: Verificare se i vettori $(1,2,3),(0,2,2),(2,1,2)$ sono indipendenti oppure no.
+Calcoliamo:
+
+$(0,2,2)\cdot(1,2,3)\times(2,1,2)=2(3\cdot 2-1\cdot 2)+2(1\cdot 1-2\cdot 2)=2\cdot 4+2\cdot(-3)=2\ne 0$
+
+I vettori sono perciò indipendenti.
 
 
 
@@ -318,6 +356,18 @@ Le due rette sono **ortogonali** se lo sono i loro vettori direzionali, cioè se
 Si noti che per essere ortogonali non è necessario che le due rette siano **incidenti** (cioè si intersechino in un punto).
 
 
+*Esempio*: Si voglia calcolare l'equazione della retta passante per i due punti $P_{0}=(3,-1,1),P_{1}=(4,2,-3)$. Come vettore direzionale si può prendere $\mathbf{v}=\overrightarrow{P_{0}P_{1}}=(1,3,-4)$.
+
+L'equazione parametrica vettoriale è dunque: $(x,y,z)=(3,-1,1)+t(1,3,-4)\quad t\in\mathbb{R}$
+
+Le equazioni scalari sono: ${\begin{cases}x=3+t \\  y=-1+3t \\  z=1-4t\end{cases}}\quad t\in\mathbb{R}$
+
+Infine, quelle cartesiane sono: $\frac{x-3}{1}=\frac{y+1}{3}=\frac{z-1}{-4}$
+
+Questa retta è parallela alla retta ${\begin{cases}x=2+4t \\  y=1+12t \\  z=-16t\end{cases}}\quad$, in quanto $(4,12,-16)=4(1,3,-4)$, e ortogonale alla retta ${\begin{cases}x=2-2t \\  y=2t \\  z=5+t\end{cases}}\quad$, in quanto $(-2,2,1)\cdot(1,3,-4)=-2+6-4=0$.
+
+
+
 c) Prima di vedere come si scrive l'equazione di una retta come intersezione di due piani, vediamo come si scrive l'equazione di un piano.
 
 
@@ -357,6 +407,54 @@ Facciamo qualche **osservazione**:
 ###### #Figura(20)
 
 
+*Esempio* (1): Si voglia scrivere l'equazione del piano passante per il punto $(1,2,-1)$ e normale al vettore $\mathbf{v}=(2,3,0)$.
+
+L'equazione è $(x-1,y-2,z+3)\cdot(2,3,0)=0$
+cioè $2(x-1)+3(y-2)=0\rightarrow 2x+3y-8=0$
+
+Nel caso (b) si vuole scrivere l'equazione del piano passante per i punti $P_{0}=(x_{0},y_{0},z_{0}), P_{1}=(x_{1},y_{1},z_{1}), P_{2}=(x_{2},y_{2},z_{2})$
+
+Per ricondurci al caso (a) individuiamo un vettore ortogonale al piano.
+I vettori $\mathbf{v}=\overrightarrow{P_{0}P_{1}}=(x_{1}-x_{0},y_{1}-y_{0},z_{1}-z_{0})$ e $\mathbf{w}=\overrightarrow{P_{0}P_{2}}=(x_{2}-x_{0},y_{2}-y_{0},z_{2}-z_{0})$ sono paralleli al piano e perciò il loro prodotto vettoriale sarà ortogonale al piano stesso. Poniamo:
+
+$\mathbf{n}=\mathbf{v}\times\mathbf{w}$
+
+Scegliendo poi, per esempio, $P_{0}$, l'equazione del piano è: $\mathbf{n}\cdot\overrightarrow{P_{0}P}=0$
+
+
+
+*Esempio* (2): Si voglia calcolare l'equazione del piano passante per i tre punti $A=(1,0,-1),B=(2,1,0),C=(0,1,-2)$.
+
+Per usare la formula $\mathbf{n}\cdot\overrightarrow{P_0P}=0$ occorre individuare un vettore normale al piano. Poichè i vettori $\mathbf{v}=\overrightarrow{AB}=(1,1,1),\mathbf{w}=\overrightarrow{AC}=(-1,1,-1)$ sono paralleli al piano, il loro prodotto vettoriale sarà ortogonale al piano stesso. Scegliamo però:
+
+$\mathbf{n}=\mathbf{v}\times\mathbf{w}=-2\mathbf{i}+2\mathbf{k}$
+
+Abbiamo quindi, scegliendo $P_{0}=A$: $-2(x-1)+2(z-1)=0$, ossia $-x+z+2=0$
+
+Nel caso (c), per scrivere l'equazione del piano contente le due rette $\mathbf{p}=\mathbf{p}_{0}+t\mathbf{v},\mathbf{p}=\mathbf{p}_{0}+t\mathbf{w}$, incidenti in $P_{0}$ ma distinte ($\mathbf{v},\mathbf{w}$ indipendenti), è sufficiente applicare il ragionamento del caso (b), ottenendo l'equazione:
+
+$(\mathbf{p}-\mathbf{p}_{0})\cdot(\mathbf{v}\times\mathbf{w})=0$
+
+
+
+*Esempio* (3): Stabilire se le seguenti rette $P=(4,-2,2)+t(1,-1,0)$ e $P=(1,1,2)+t(2,1,3)$ sono complanari o sghembe e, nel primo caso, scrivere l'equazione del piano che le contiene.
+
+I vettori $(1,-1,0),(2,1,3)$ evidentemente non sono paralleli, perciò le rette sono complanari se e solo se sono incidenti. Stabiliamo se lo sono cercando se esistono valori dei parametri $t,u$ per cui si abbia:
+
+$(4,-2,2)+t(1,-1,0)=(1,1,2)+u(2,1,3)\rightarrow{\begin{cases}t-2u=-3 \\  -t-u=3 \\  3u=0\end{cases}}$
+
+che dà $u=0,t=-3$. Per questi valori dei parametri le rette si incontrano in $P_{0}=(1,1,2)$, dunque le rette sono incidenti e le loro equazioni si possono riscrivere, evidenziando il punto comune $P_{0}$, nella forma:
+
+$P=(1,1,2)+t(1,-1,0)$ e $P=(1,1,2)+t(2,1,3)$
+
+A questo punto la determinazione del piano che le contiene si può fare come illustrato al punto (c):
+
+$(x-1,y-1,z-2)\cdot((1,-1,0)\times(2,1,3))=0\rightarrow-3(x-1)-3(y-1)+3(z-2)=0$
+
+e quindi: $z-x-y=0$.
+
+
+
 - **Condizioni di parallelismo ed ortogonalità tra piani**
 
 Due piani sono **paralleli** se lo sono i lori vettori ortogonali. Precisamente, i piani
@@ -377,6 +475,14 @@ Un vettore direzionale della retta deve essere ortogonale ad entrambi i vettori 
 					$\mathbf{v}=\mathbf{n}\times\mathbf{n}'=(bc'-b'c,a'c-ac',ab'-a'b)$
 
 In alternativa, si possono scrivere le equazioni parametriche della retta col seguente procedimento: si considera il sistema nelle tre incognite $(x,y,z)$, che definisce la retta; se in tale sistema si riescono ad esprimere due variabili in funzione della terza, si può assumere la terza variabile come parametro.
+
+
+*Esempio*: Scriviamo le equazioni parametriche della retta intersezione dei piani: ${\begin{cases}x+y+z=1 \\  x-2y-z=2\end{cases}}$
+
+Ricaviamo: ${\begin{cases}x+y=1-z \\  x-2y=2+z\end{cases}}\rightarrow{\begin{cases}y=\frac{-1-2z}{3} \\  x=\frac{4-z}{3}\end{cases}}$
+
+da cui, ponendo $z=t$ otteniamo le equazioni parametriche della retta: ${\begin{cases}x=\frac{4}{3}-\frac{1}{3}t \\  y=-\frac{1}{3}-\frac{2}{3}t \\  z=t\end{cases}}$
+
 
 
 - **Distanza di un punto da piano**
@@ -2193,4 +2299,59 @@ Chiediamoci ora: se cambiamo sistema di riferimento, come cambia l'equazione? Pr
 
 
 #### 7.2.1 **Movimenti rigidi, trasformazioni di coordinate, proprietà geometriche**
+
+Cominciamo a ricordare che, nel piano, il più generale <mark class="hltr-yellow">movimento rigido</mark> (cioè che non altera le mutue distanze tra i punti) consiste in una <u>rototraslazione</u> (eventualmente combinata con una riflessione rispetto a una retta):
+eseguire una rototraslazione di assi equivale quindi a cambiare il sistema di riferimento (cartesiano ortogonale), senza cambiare unità di misura sugli assi (ed eventualmente cambiando l'orientamento di uno dei due assi, se abbiamo eseguito una riflessione). A sua volta, [[#4.1 **L'algebra delle matrici**|sappiamo]] che una rotazione di angolo $\alpha$ rispetto all'origine è espressa dalle equazioni:
+
+${\begin{cases}x=x'\cos\alpha-y'\sin\alpha \\  y=x'\sin\alpha+y'\cos\alpha\end{cases}}$
+
+o anche, in forma compatta matriciale, dalla moltiplicazione per una [[#6.3.2 **Rotazioni dello spazio**|matrice di rotazione]]:
+
+${\begin{pmatrix}x \\  y\end{pmatrix}}=\mathbf{R}{\begin{pmatrix}x' \\  y'\end{pmatrix}}$
+
+con $\mathbf{R}$ matrice $(2,2)$ non singolare tale che $\mathbf{R}\mathbf{R}^\top=\mathbf{R}^\top\mathbf{R}=\mathbf{I}$ (ossia $\mathbf{R}$ è ortogonale) e $\det\mathbf{R}=1$.
+Una rotazione eventualmente combinata con una riflessione rispetto a una retta è espressa da una matrice ortogonale qualsiasi (cioè avente $\det=\pm 1$); chiameremo **trasformazione ortogonale** una trasformazione di questo tipo.
+
+Una <u>traslazione</u>, secondo un vettore $(u,v)^\top$, è espressa dalle equazioni: ${\begin{cases}x=x'+u \\  y=x'+v\end{cases}}$
+
+Due trasformazioni ortogonali, nel piano, commutano tra loro e la loro composizione è un'altra trasformazione ortogonale; analogamente, due traslazioni commutano tra loro e la loro composizione è un'altra traslazione. Invece una traslazione e una trasformazione ortogonale non commutano tra loro.
+*Ad esempio*, ruotare di un angolo $\alpha$ e poi traslare di un vettore $[u,v]^\top$ si esprime mediante le equazioni:
+
+${\begin{cases}x=x'\cos\alpha-y'\sin\alpha +u \\  y=x'\sin\alpha+y'\cos\alpha +v\end{cases}}$
+
+mentre traslare di un vettore $[u,v]^\top$ e poi ruotare di un angolo $\alpha$ si esprime mediante le equazioni:
+
+${\begin{cases}x=(x'+u)\cos\alpha-(y'+v)\sin\alpha \\  y=(x'+u)\sin\alpha+(y'+v)\cos\alpha\end{cases}}\quad$, che comunque si possono riscrivere nella forma:
+
+${\begin{cases}x=x'\cos\alpha-y'\sin\alpha +u' \\  y=x'\sin\alpha+y'\cos\alpha +v'\end{cases}}\quad$ con $\quad{\begin{cases}u'=u\cos\alpha-v\sin\alpha \\  v'=u\sin\alpha+v\cos\alpha\end{cases}}$
+
+Dalla discussione precedente discende la prossima:
+
+- #PROPOSIZIONE(11). Componendo, in qualsiasi ordine, un numero finito di traslazioni e rotazioni rispetto all'origine, nel piano, si ottiene sempre una trasformazione di equazioni ${\begin{cases}x=x'\cos\alpha-y'\sin\alpha +u \\  y=x'\sin\alpha+y'\cos\alpha +v\end{cases}}$, per qualche $\alpha,u,v\in\mathbb{R}$, detta appunto **rototraslazione**.
+	
+	In forma compatta matriciale, e ammettendo anche riflessioni rispetto ad una retta per l'origine, questa assume la forma:
+	
+							${\begin{pmatrix}x \\  y\end{pmatrix}}=\mathbf{R}{\begin{pmatrix}x' \\  y'\end{pmatrix}}+{\begin{pmatrix}u \\  v\end{pmatrix}}$
+	
+	con $\mathbf{R}$ matrice ortogonale $(2,2)$ e $[u,v]^\top\in\mathbb{R}^2$ assegnato.
+
+
+Se una curva è rappresentata, rispetto ad un certo sistema di riferimento cartesiano ortogonale, da una certa equazione $f(x,y)=0$, cambiando riferimento sarà rappresentata da una nuova equazione $g(x',y')=0$, che si ottiene dalla precedente eseguendo sulle variabili $(x,y)$ un'opportuna trasformazione (vedi Proposizione precedente). La curva geometricamente rimane quindi la stessa.
+
+È naturale chiedersi se nell'equazione sia rimasta traccia di quest'ultimo fatto: in altre parole, c'è qualche <u>proprietà algebrica</u> dell'equazione $f(x,y)=0$ che non cambia se eseguiamo una trasformazione di variabili?
+Diremo che queste eventuali proprietà dell'equazione esprimono una <u>proprietà geometrica</u> della curva, per sottolineare il fatto che dipendono dalla curva e non dal particolare sistema di riferimento scelto per descriverla.
+
+Anche l'operazione di moltiplicare ambo i membri dell'equazione per una costante $\lambda\ne 0$ porta formalmente ad un'equazione diversa, $\lambda f(x,y)=0$, eppure non cambia ovviamente il luogo geometrico descritto. Affinchè una proprietà algebrica dell'equazione esprima una proprietà geometrica della curva occorre quindi che la proprietà si conservi anche moltiplicando ambo i membri dell'equazione per una costante.
+
+Si può dimostrare ad esempio la seguente:
+
+- #PROPOSIZIONE(12). Se $f(x,y)=0$ è un'equazione algebrica di grado $n$ in $x,y$ (ossia $f$ è un polinomio di grado $n$), eseguendo sulle variabili $(x,y)$ una rototraslazione si ottiene un'equazione $g(x',y')=0$ che è ancora algebrica di grado $n$ in $x',y'$.
+
+In altre parole: il grado $n$ di $f(x,y)$ esprime una proprietà geometrica della curva da essa rappresentata. Si anche che il grado $n$ è un'**invariante** (cioè una quantità che non cambia eseguendo una rototraslazione sulle variabili).
+
+Ha senso parlare quindi ad esempio di "curve del secondo/terzo/$\cdots$ ordine", e non solo di equazioni, per indicare curve piane la cui equazione è espressa da un'equazione algebrica di grado $2,3,\cdots$. Infatti, se questo è vero in un particolare sistema di riferimento, allora sarà vero in <mark class="hltr-yellow">ogni</mark> sistema di riferimento cartesiano.
+Dimostreremo questa Proposizione nel caso particolare $n=2$.
+
+
+#### 7.2.2 **Le coniche come curve algebriche del second'ordine**
 
