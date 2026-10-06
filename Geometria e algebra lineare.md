@@ -589,7 +589,7 @@ Chiameremo il primo <u>vettore riga</u> ed il secondo <u>vettore colonna</u>.
 
 
 
-*Esempio* (1): In $\mathbb{R}^2$ la coppia $\mathbf{i},\mathbf{j}$ costituisce una base, detta canonica. Analogament,
+*Esempio* (1): In $\mathbb{R}^2$ la coppia $\mathbf{i},\mathbf{j}$ costituisce una base, detta canonica. Analogamente, la terna $\mathbf{i},\mathbf{j},\mathbf{k}$ è la base canonica di $\mathbb{R}^{3}$. Pi
 
 
 #### 3.1.4 **Spazi di funzioni**
