@@ -588,6 +588,9 @@ I coefficienti $v_1,v_2,\cdots,v_n$ si chiamano **componenti scalari** di $\math
 Chiameremo il primo <u>vettore riga</u> ed il secondo <u>vettore colonna</u>.
 
 
+*Esempio* (1):
+
+
 #### 3.1.4 **Spazi di funzioni**
 
 Una classe di spazi vettoriali particolarmente importanti nello studio dell'analisi matematica è quella degli <u>spazi di funzioni</u>: sia $I\subset\mathbb{R}$ un intervallo e indichiamo con $\mathcal{F}_I$ l'insieme di tutte le funzioni $f \ : \ I\rightarrow\mathbb{R}$.
