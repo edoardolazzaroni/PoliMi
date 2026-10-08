@@ -2417,4 +2417,8 @@ Si dimostra che, anche se $\mathbf{A}'$ in generale può avere tutti gli element
 
 - #TEOREMA(24). **Invarianti di una conica**
 	
-	A seguito di una rototraslazione di assi, la conica avente matrice dei coefficienti $\mathbf{A}$ e matrice dei termini di secondo grado $\mathbf{B}$ si trasforma in un'altra conica e le seg
+	A seguito di una rototraslazione di assi, la conica avente matrice dei coefficienti $\mathbf{A}$ e matrice dei termini di secondo grado $\mathbf{B}$ si trasforma in un'altra conica e le seguenti quantità rimangono invariate:
+	
+	$I_{3}=\det\mathbf{A}$ (invariante cubico);
+	$I_{3}=\det\mathbf{B}$ (invariante quadratico);
+	$I_{1}=Tr\mathbf{B}$ (invar)
