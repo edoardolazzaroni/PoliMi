@@ -2372,4 +2372,5 @@ La discussione precedente suggerisce allora la seguente:
 	Si dice conica di una qualunque piana del second'ordine, ossia espressa da un'equazione del tipo $ax^2+bxy+cy^2+dx+ey+f=0$ in cui i coefficienti $a,b,c$ non siano tutti nulli (altrimenti la curva sarebbe del prim'ordine, cioè una retta).
 
 Per ora sappiamo che le coniche che già conosciamo si rappresentano in qualsiasi sistema di riferimento come curve del second'ordine, quindi sono coniche anche nel senso di quest'ultima definizione.
-Non è chiaro se valga il viceversa: qualsiasi curva del second'ordine è un'ellisse, iperbole o parabola nel senso elementare del term
+Non è chiaro se valga il viceversa: qualsiasi curva del second'ordine è un'ellisse, iperbole o parabola nel senso elementare del termine?
+I prossimi esempi mostrano che non è così, e quindi l'ultima definizione data appare più ampia delle definizioni del paragrafo precedente [[#7.1 **Le coniche dal punto di vista elementare e le loro equazioni canoniche**]]
