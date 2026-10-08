@@ -2387,4 +2387,4 @@ la (b) rappresenta una sola retta: $x=0$;
 la (c) individua un solo punto, l'origine $O$;
 la (d) infine non è mai verificata, perciò individua l'insieme vuoto $\left\{0\right\}$.
 Inoltre, per quanto ne sappiamo fin qui, potrebbe restare il dubbio che esistano curve del second'ordine che hanno come immagine geometrica una curva effettiva ma di un tipo diverso dalle ellissi/parabole/iperboli che già conosciamo.
-Data un'equazione di tipo 
+Data un'equazione di tipo $ax^2+bxy+cy^2+dx+ey+f=0$, occorrono dei criteri per decidere anzitutto se essa rappresenti effettivamente una curva nel senso intuitivo del termine (si dirà: una **conica reale non degenere**), e in secondo luogo 
