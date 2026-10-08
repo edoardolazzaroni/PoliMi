@@ -2428,4 +2428,4 @@ Si dimostra che, anche se $\mathbf{A}'$ in generale può avere tutti gli element
 
 - **Osservazione**:
 	
-	Notiamo che se moltiplichiamo ambo i membri dell'equazione $a_{11}x^2+2a_{12}xy+a_{22}y^2+a_{13}x+a_{23}y+a_{33}=0$ della conica per una costante $\lambda\ne 0$, tutti i coefficienti $a_{ij}$ risultano mo
+	Notiamo che se moltiplichiamo ambo i membri dell'equazione $a_{11}x^2+2a_{12}xy+a_{22}y^2+a_{13}x+a_{23}y+a_{33}=0$ della conica per una costante $\lambda\ne 0$, tutti i coefficienti $a_{ij}$ risultano moltiplicati per $\lambda$ e quindi le quantità $I_{1},I_{2},I_{3}$ si trasformano rispettivamente in $\lambda I_{1},\lambda^2 I_{2},\lambda^3 I_{3}$
