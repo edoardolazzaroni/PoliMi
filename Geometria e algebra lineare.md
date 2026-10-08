@@ -2376,7 +2376,7 @@ Non è chiaro se valga il viceversa: qualsiasi curva del second'ordine è un'ell
 I prossimi esempi mostrano che non è così, e quindi l'ultima definizione data appare più ampia delle definizioni del [[#7.2 **L'equazione generale delle coniche. Riduzione a forma canonica**|paragrafo precedente]]:
 
 
-*Esempio* (1). Consideriamo le seguenti equazioni, tutte di tipo:
+*Esempio*. Consideriamo le seguenti equazioni, tutte di tipo:
 	a) $x^2-y^2=0$
 	b) $x^2=0$
 	c) $x^2+y^2=0$
@@ -2386,5 +2386,9 @@ L'equazione (a) è equivalente a $(x+y)(x-y)=0$, perciò rappresenta le due rett
 la (b) rappresenta una sola retta: $x=0$;
 la (c) individua un solo punto, l'origine $O$;
 la (d) infine non è mai verificata, perciò individua l'insieme vuoto $\left\{0\right\}$.
+
+
 Inoltre, per quanto ne sappiamo fin qui, potrebbe restare il dubbio che esistano curve del second'ordine che hanno come immagine geometrica una curva effettiva ma di un tipo diverso dalle ellissi/parabole/iperboli che già conosciamo.
-Data un'equazione di tipo $ax^2+bxy+cy^2+dx+ey+f=0$, occorrono dei criteri per decidere anzitutto se essa rappresenti effettivamente una curva nel senso intuitivo del termine (si dirà: una **conica reale non degenere**), e in secondo luogo 
+
+Data un'equazione di tipo $ax^2+bxy+cy^2+dx+ey+f=0$, occorrono dei criteri per decidere anzitutto se essa rappresenti effettivamente una curva nel senso intuitivo del termine (si dirà: una **conica reale non degenere**), e in secondo luogo di che tipo di curva si tratti.
+I problemi sono quindi: riconoscere il tipo di curva a partire dall'equazione, e 
