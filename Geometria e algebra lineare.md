@@ -2425,4 +2425,7 @@ Si dimostra che, anche se $\mathbf{A}'$ in generale può avere tutti gli element
 	
 	In particolare, l'annullarsi o meno di un invariante $I_{1},I_{2}$ o $I_{3}$ esprime una proprietà geometrica della curva.
 
-- Osser
+
+- **Osservazione**:
+	
+	Notiamo che se moltiplichiamo ambo i membri dell'equazione $a_{11}x^2+2a_{12}xy+a_{22}y^2+a_{13}x+a_{23}y+a_{33}=0$ della conica per una costante $\lambda\ne 0$, tutti i coefficienti $a_{ij}$ risultano mo
