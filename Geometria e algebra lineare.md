@@ -2434,4 +2434,7 @@ Si dimostra che, anche se $\mathbf{A}'$ in generale può avere tutti gli element
 - **Osservazione** (2): **Matrici a blocchi**
 	
 	A volte è comodo rappresentare una matrice dalla struttura complessa in termini di blocchi più piccoli. Ad esempio, se:
+	
 	$\mathbf{A}={\begin{pmatrix}a&b \\  c&d\end{pmatrix}}$
+	
+	la scrittura $\mathbf{B}={\begin{pmatrix}\mathbf{A}\mathbf{0} \\  a_{12}&a_{22}\end{pmatrix}}$
