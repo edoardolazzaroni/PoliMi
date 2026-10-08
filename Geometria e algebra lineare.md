@@ -2368,4 +2368,4 @@ Consideriamo ora l'equazione canonica di un'ellisse, un'iperbole o una parabola 
 Questo significa che, in un sistema di riferimento generico (ossia non scelto con criteri particolari) l'equazione di una conica assume quest'ultima forma, ovvero di una <u>curva del second'ordine</u>.
 La discussione precedente suggerisce allora la seguente:
 
-- #DEFINIZIONE 
+- #DEFINIZIONE(25). Coni
