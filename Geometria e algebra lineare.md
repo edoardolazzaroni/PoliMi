@@ -2400,4 +2400,5 @@ Entrambi i problemi si affrontano utilizzando il calcolo matriciale. Cominciamo 
 
 Introducendo la matrice $(3,3)$ simmetrica:
 
-$\mathbf$
+$\mathbf{A}={\begin{pmatrix}a_{11}&a_{12}&a_{13} \\  a_{12}&a_{22}&a_{23} \\  a_{13}&a_{23}&a_{33}\end{pmatrix}}$
+
