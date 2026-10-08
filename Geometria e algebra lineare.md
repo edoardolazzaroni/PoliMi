@@ -2404,4 +2404,6 @@ Introducendo la matrice $(3,3)$ simmetrica:
 
 l'equazione si riscrive nella forma matriciale seguente:
 
-$(x,y,1)\mathbf{A}(x,y,1)^\top=0\quad$ o anchee 
+$(x,y,1)\mathbf{A}(x,y,1)^\top=0\quad$ o anche $\quad\mathbf{x}\mathbf{A}\mathbf{x}^\top=0\quad$ (avendo posto $\mathbf{x}=(x,y,1)$)
+
+Poniamo anche 
