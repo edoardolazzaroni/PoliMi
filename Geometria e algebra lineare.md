@@ -2400,5 +2400,8 @@ Entrambi i problemi si affrontano utilizzando il calcolo matriciale. Cominciamo 
 
 Introducendo la matrice $(3,3)$ simmetrica:
 
-$\mathbf{A}={\begin{pmatrix}a_{11}&a_{12}&a_{13} \\  a_{12}&a_{22}&a_{23} \\  a_{13}&a_{23}&a_{33}\end{pmatrix}}$
+							$\mathbf{A}={\begin{pmatrix}a_{11}&a_{12}&a_{13} \\  a_{12}&a_{22}&a_{23} \\  a_{13}&a_{23}&a_{33}\end{pmatrix}}$
 
+l'equazione si riscrive nella forma matriciale seguente:
+
+$(x,y,1)\mathbf{A}(x,y,1)^\top=0\quad$ o anchee 
