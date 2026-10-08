@@ -2411,4 +2411,5 @@ Poniamo anche $\mathbf{B}={\begin{pmatrix}a_{11}&a_{12} \\  a_{12}&a_{22}\end{pm
 Le matrici $\mathbf{A},\mathbf{B}$ si dicono rispettivamente **matrice dei coefficienti della conica** e **matrice dei termini di secondo grado della conica**.
 
 Supponiamo ora di eseguire una rototraslazione di assi, di tipo ${\begin{cases}x=x'\cos\alpha-y'\sin\alpha +u \\  y=x'\sin\alpha+y'\cos\alpha +v\end{cases}}$;
-la nuova equazione, nelle variabili $(x',y')$ può essere riscritta nella forma $a_{11}x^2+2a_{12}xy+a_{22}y^2+a_{13}x+a_{23}y+a_{33}=0$, con uo
+la nuova equazione, nelle variabili $(x',y')$ può essere riscritta nella forma $a_{11}x^2+2a_{12}xy+a_{22}y^2+a_{13}x+a_{23}y+a_{33}=0$, con nuovi coefficienti $a_{ij}'$ che raccogliamo in una nuova matrice $\mathbf{A}'$.
+Si dimostra che, anche se $\mathbf{A}'$ in generale può avere tutti gli elementi diversi dai c
