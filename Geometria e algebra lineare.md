@@ -2408,4 +2408,6 @@ $(x,y,1)\mathbf{A}(x,y,1)^\top=0\quad$ o anche $\quad\mathbf{x}\mathbf{A}\mathbf
 
 Poniamo anche $\mathbf{B}={\begin{pmatrix}a_{11}&a_{12} \\  a_{12}&a_{22}\end{pmatrix}}$.
 
-Le matrici $\mathbf{A},\mathbf{B}$ si dicono matrice dei coefficienti della conica e matrice dei termini 
+Le matrici $\mathbf{A},\mathbf{B}$ si dicono rispettivamente **matrice dei coefficienti della conica** e **matrice dei termini di secondo grado della conica**.
+
+Supponiamo ora di eseguire una rototraslazione di assi, di tipo 
