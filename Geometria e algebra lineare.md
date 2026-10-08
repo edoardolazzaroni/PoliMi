@@ -2361,4 +2361,8 @@ Dimostreremo questa Proposizione nel caso particolare $n=2$.
 
 #### 7.2.2 **Le coniche come curve algebriche del second'ordine**
 
-Consideriamo ora l'equazione canonica di un'ellisse, un'iperbole o una parabola e chiediamoci come cambia eseguendo una rototraslazione: in generale otterremo un'equazione dei secondo gra
+Consideriamo ora l'equazione canonica di un'ellisse, un'iperbole o una parabola e chiediamoci come cambia eseguendo una rototraslazione: in generale otterremo un'equazione dei secondo grado in $x,y$ completa di tutti i termini, ossia del tipo:
+
+						$ax^2+bxy+cy^2+dx+ey+f=0$
+
+Questo significa che, in un sistema di 
