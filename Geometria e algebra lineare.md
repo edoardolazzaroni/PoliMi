@@ -2373,4 +2373,8 @@ La discussione precedente suggerisce allora la seguente:
 
 Per ora sappiamo che le coniche che già conosciamo si rappresentano in qualsiasi sistema di riferimento come curve del second'ordine, quindi sono coniche anche nel senso di quest'ultima definizione.
 Non è chiaro se valga il viceversa: qualsiasi curva del second'ordine è un'ellisse, iperbole o parabola nel senso elementare del termine?
-I prossimi esempi mostrano che non è così, e quindi l'ultima definizione data appare più ampia delle definizioni del paragrafo precedente [[#7.1 **Le coniche dal punto di vista elementare e le loro equazioni canoniche**]]
+I prossimi esempi mostrano che non è così, e quindi l'ultima definizione data appare più ampia delle definizioni del [[#7.2 **L'equazione generale delle coniche. Riduzione a forma canonica**|paragrafo precedente]]:
+
+
+*Esempio* (1). Consideriamo le seguenti equazioni, tutte di tipo:
+a) 
