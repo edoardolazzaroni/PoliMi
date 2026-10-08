@@ -2368,4 +2368,5 @@ Consideriamo ora l'equazione canonica di un'ellisse, un'iperbole o una parabola 
 Questo significa che, in un sistema di riferimento generico (ossia non scelto con criteri particolari) l'equazione di una conica assume quest'ultima forma, ovvero di una <u>curva del second'ordine</u>.
 La discussione precedente suggerisce allora la seguente:
 
-- #DEFINIZIONE(25). Coni
+- #DEFINIZIONE(25). **Coniche come curve del second'ordine**
+	Si dice conica di una qualunque piana del second'ordine, ossia espressa da un'equazione del tipo $ax^2+bxy+cy^2+dx+ey+f=0$ in cui i coefficienti $a,b,c$ non siano tutti nulli (altrime)
