@@ -2369,4 +2369,6 @@ Questo significa che, in un sistema di riferimento generico (ossia non scelto co
 La discussione precedente suggerisce allora la seguente:
 
 - #DEFINIZIONE(25). **Coniche come curve del second'ordine**
-	Si dice conica di una qualunque piana del second'ordine, ossia espressa da un'equazione del tipo $ax^2+bxy+cy^2+dx+ey+f=0$ in cui i coefficienti $a,b,c$ non siano tutti nulli (altrime)
+	Si dice conica di una qualunque piana del second'ordine, ossia espressa da un'equazione del tipo $ax^2+bxy+cy^2+dx+ey+f=0$ in cui i coefficienti $a,b,c$ non siano tutti nulli (altrimenti la curva sarebbe del prim'ordine, cioè una retta).
+
+Per ora sappiamo che le coniche che già conosciamo si rappresentano in qualsiasi sistema di riferimento come curve del second'ordine
