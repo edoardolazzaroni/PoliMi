@@ -2,7 +2,7 @@
 [Diario GAL 2024 con tutte le registrazioni ed i file note](https://polimi365-my.sharepoint.com/:x:/g/personal/10141626_polimi_it/IQD8jfWD1XOTQbJlFql3S9VRAVt_9KKDRvasFv4U1gpcGpE?e=J4XlXE)
 
 
-# Capitolo I: Vettori nel piano e nello spazio
+# **Capitolo I: Vettori nel piano e nello spazio**
 
 
 Il concetto di vettore, fondamentale sia in matematica che nelle applicazioni (fisiche, ecc.), può essere introdotto a vari livelli di astrazione. In questa sezione di occuperemo di vettori nel piano e nello spazio: in questo contesto, è possibile dare una definizione geometrica elementare di vettore; molte grandezze fisiche (velocità, accelerazione, forza,...) si rappresentano in questo modo. In seguito vedremo come la nozione di vettore si possa generalizzare in termini astratti, ottenendo un concetto più flessibile, che risulta molto utile per l'algebra, il calcolo infinitesimale e le loro applicazioni.
@@ -291,7 +291,7 @@ I vettori sono perciò indipendenti.
 
 
 
-# Capitolo II: Geometria lineare nello spazio
+# **Capitolo II: Geometria lineare nello spazio**
 
 
 Mediante il calcolo vettoriale introdotto nei paragrafi precedenti è facile scrivere, in un dato sistema di riferimento, vari tipi di equazioni per rette e piani.
@@ -502,7 +502,7 @@ ossia, ricordando che abbiamo posto $d=ax_0+by_0+cz_0$:
 
 
 
-# Capitolo III: Spazi vettoriali
+# **Capitolo III: Spazi vettoriali**
 
 
 Iniziamo ora lo studio dei primi elementi di algebra lineare: si tratta di una disciplina che viene utilizzata sia in altri rami della matematica (geometria, analisi, ...) che nelle discipline applicative vere e proprie. L'idea centrale è quella di *linearità*.
@@ -857,7 +857,7 @@ dove $l:\ V_{1}\rightarrow V_{2}$ è lineare e $\mathbf{b}\in V_{2}$ è un eleme
 
 
 
-# Capitolo IV: Matrici e trasformazioni lineari
+# **Capitolo IV: Matrici e trasformazioni lineari**
 
 
 ### 4.1 **L'algebra delle matrici**
@@ -1250,7 +1250,7 @@ Vale anche la seguente:
 
 
 
-# Capitolo V: Sistemi lineari
+# **Capitolo V: Sistemi lineari**
 
 
 ### 5.1 **Generalità. Metodo di Cramer**
@@ -1800,7 +1800,7 @@ che evidentemente non ha soluzione. Ciò riflette il fatto che il vettore $\math
 
 
 
-# Capitolo VI: Autovettori ed autovalori. Diagonalizzazione
+# **Capitolo VI: Autovettori ed autovalori. Diagonalizzazione**
 
 
 ### 6.1 **Matrici diagonalizzabili**
@@ -2196,7 +2196,7 @@ $\mathbf{R}_{x}(\alpha)={\begin{pmatrix}1&0&0 \\  0&\cos\alpha&\sin\alpha \\  0&
 
 
 
-# Capitolo VII: Coniche
+# **Capitolo VII: Coniche**
 
 
 Nei capitoli precedenti abbiamo introdotto alcuni concetti e strumenti fondamentali dell'algebra lineare e abbiamo sviluppato i primi elementi della geometria analitica dello spazio limitandoci alla geometria degli enti lineari (rette e piani). Naturalmente, molti degli aspetti più interessanti e utili della geometria riguardano gli oggetti geometrici curvi: linee del piano e superfici nello spazio.
