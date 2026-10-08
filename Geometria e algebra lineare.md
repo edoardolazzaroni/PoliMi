@@ -2396,4 +2396,8 @@ I problemi sono quindi: riconoscere il tipo di curva a partire dall'equazione, e
 Entrambi i problemi si affrontano utilizzando il calcolo matriciale. Cominciamo col chiederci come si trasforma l'equazione $ax^2+bxy+cy^2+dx+ey+f=0$ sotto l'azione di una rototraslazione e che cosa eventualmente resta invariato.
 È quindi più comodo riscrivere l'equazione nella forma:
 
-$a_{11}x^2+ax^2+bxy+cy^2+dx+ey+f=0$
+					$a_{11}x^2+2a_{12}xy+a_{22}y^2+a_{13}x+a_{23}y+a_{33}=0$
+
+Introducendo la matrice $(3,3)$ simmetrica:
+
+$\mathbf$
