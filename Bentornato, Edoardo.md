@@ -62,7 +62,7 @@ Altri impegni:
 
 - [ ] Leggere almeno un capitolo
 - [ ] Caricare tavoletta grafica
-- [ ] Sistemare stanza
+- [x] Sistemare stanza
 - [x] Caricare cuffie
 - [x] Preparare template di Obsidian
 - [x] Fare checklist per domani
