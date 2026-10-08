@@ -2386,4 +2386,5 @@ L'equazione (a) è equivalente a $(x+y)(x-y)=0$, perciò rappresenta le due rett
 la (b) rappresenta una sola retta: $x=0$;
 la (c) individua un solo punto, l'origine $O$;
 la (d) infine non è mai verificata, perciò individua l'insieme vuoto $\left\{0\right\}$.
-Inoltre, per 
+Inoltre, per quanto ne sappiamo fin qui, potrebbe restare il dubbio che esistano curve del second'ordine che hanno come immagine geometrica una curva effettiva ma di un tipo diverso dalle ellissi/parabole/iperboli che già conosciamo.
+Data un'equazione di tipo 
