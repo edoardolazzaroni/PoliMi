@@ -2437,4 +2437,6 @@ Si dimostra che, anche se $\mathbf{A}'$ in generale può avere tutti gli element
 	
 	$\mathbf{A}={\begin{pmatrix}a&b \\  c&d\end{pmatrix}}$,
 	
-	la scrittura $\mathbf{B}={\begin{pmatrix}\mathbf{A}&\mathbf{0}^\top \\  \mathbf{0}&1\end{pmatrix}}$ indica la matrice $(3,3)$ definita da $\mathbf{B}={\begin{pmatrix}a&b&0 \\  c\end{pmatrix}}$
+	la scrittura $\mathbf{B}={\begin{pmatrix}\mathbf{A}&\mathbf{0}^\top \\  \mathbf{0}&1\end{pmatrix}}$ indica la matrice $(3,3)$ definita da $\mathbf{B}={\begin{pmatrix}a&b&0 \\  c&d&0 \\  0&0&1\end{pmatrix}}$.
+	
+	La dimensione dei vettori nulli indicati coi simboli $\mathbf{0},\mathbf{0}^\top$ nell'espressione di $\mathbf{B}$ si deduce in questo caso dal fatto che nell'angolo in basso a destra c'è un elemento singolo (il numero $)
