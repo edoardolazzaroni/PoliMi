@@ -2382,4 +2382,6 @@ I prossimi esempi mostrano che non è così, e quindi l'ultima definizione data 
 	c) $x^2+y^2=0$
 	d) $x^2+y^2+1=0$
 
-L'equazione 
+L'equazione (a) è equivalente a $(x+y)(x-y)=0$, perciò rappresenta le due rette $y=x,y=-x$;
+la (b) rappresenta una sola retta: $x=0$;
+la (c) individua un solo punto, l'origine
