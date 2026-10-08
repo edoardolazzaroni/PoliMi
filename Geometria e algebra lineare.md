@@ -2361,4 +2361,4 @@ Dimostreremo questa Proposizione nel caso particolare $n=2$.
 
 #### 7.2.2 **Le coniche come curve algebriche del second'ordine**
 
-Consideriamo ora l'equazione canonica di un'ellisse, un'iperbole o una parabola e chiediamoci come caba
+Consideriamo ora l'equazione canonica di un'ellisse, un'iperbole o una parabola e chiediamoci come cambia eseguendo una rototraslazione: in generale otterremo un'equazione dei secondo gra
