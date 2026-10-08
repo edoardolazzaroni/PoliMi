@@ -2440,4 +2440,4 @@ Si dimostra che, anche se $\mathbf{A}'$ in generale può avere tutti gli element
 	la scrittura $\mathbf{B}={\begin{pmatrix}\mathbf{A}&\mathbf{0}^\top \\  \mathbf{0}&1\end{pmatrix}}$ indica la matrice $(3,3)$ definita da $\mathbf{B}={\begin{pmatrix}a&b&0 \\  c&d&0 \\  0&0&1\end{pmatrix}}$.
 	
 	La dimensione dei vettori nulli indicati coi simboli $\mathbf{0},\mathbf{0}^\top$ nell'espressione di $\mathbf{B}$ si deduce in questo caso dal fatto che nell'angolo in basso a destra c'è un elemento singolo (il numero $1$) e in quello in alto a sinistra c'è una matrice $(2,2)$.
-	Dovendo eseguire il prodotto di due "matrici a blocchi" espresse in termini di blocchi di dimensioni opportune, si può operare come se i blocchi fossero multipli 
+	Dovendo eseguire il prodotto di due "matrici a blocchi" espresse in termini di blocchi di dimensioni opportune, si può operare come se i blocchi fossero numeri. Ad esempio, 
