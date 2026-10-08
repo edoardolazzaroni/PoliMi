@@ -2369,6 +2369,7 @@ Questo significa che, in un sistema di riferimento generico (ossia non scelto co
 La discussione precedente suggerisce allora la seguente:
 
 - #DEFINIZIONE(25). **Coniche come curve del second'ordine**
+	
 	Si dice conica di una qualunque piana del second'ordine, ossia espressa da un'equazione del tipo $ax^2+bxy+cy^2+dx+ey+f=0$ in cui i coefficienti $a,b,c$ non siano tutti nulli (altrimenti la curva sarebbe del prim'ordine, cioè una retta).
 
 Per ora sappiamo che le coniche che già conosciamo si rappresentano in qualsiasi sistema di riferimento come curve del second'ordine, quindi sono coniche anche nel senso di quest'ultima definizione.
@@ -2414,5 +2415,6 @@ Supponiamo ora di eseguire una rototraslazione di assi, di tipo ${\begin{cases}x
 la nuova equazione, nelle variabili $(x',y')$ può essere riscritta nella forma $a_{11}x^2+2a_{12}xy+a_{22}y^2+a_{13}x+a_{23}y+a_{33}=0$, con nuovi coefficienti $a_{ij}'$ che raccogliamo in una nuova matrice $\mathbf{A}'$.
 Si dimostra che, anche se $\mathbf{A}'$ in generale può avere tutti gli elementi diversi dai corrispondenti elementi di $\mathbf{A}$, alcune quantità calcolate su questa matrice rimangono invariate (si dicono perciò **invarianti**):
 
-- #TEOREMA(24). Invarianti di una conica
-- 
+- #TEOREMA(24). **Invarianti di una conica**
+	
+	A seguito di una rototraslazione di assi, la conica avente matrice dei coefficienti $\mathbf{A}$ e matrice dei termini di secondo grado $\mathbf{B}$ si trasforma in un'altra conica e le seg
