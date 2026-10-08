@@ -2421,4 +2421,6 @@ Si dimostra che, anche se $\mathbf{A}'$ in generale può avere tutti gli element
 	
 	$I_{3}=\det\mathbf{A}$ (invariante cubico);
 	$I_{3}=\det\mathbf{B}$ (invariante quadratico);
-	$I_{1}=Tr\mathbf{B}$ (invar)
+	$I_{1}=Tr\mathbf{B}$ (invariante lineare, Traccia = somma degli elementi sulla diagonale principale)
+	
+	In particolare, l'annullarsi o meno 
