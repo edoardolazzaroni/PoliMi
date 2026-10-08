@@ -2384,4 +2384,6 @@ I prossimi esempi mostrano che non è così, e quindi l'ultima definizione data 
 
 L'equazione (a) è equivalente a $(x+y)(x-y)=0$, perciò rappresenta le due rette $y=x,y=-x$;
 la (b) rappresenta una sola retta: $x=0$;
-la (c) individua un solo punto, l'origine
+la (c) individua un solo punto, l'origine $O$;
+la (d) infine non è mai verificata, perciò individua l'insieme vuoto $\left\{0\right\}$.
+Inoltre, per 
