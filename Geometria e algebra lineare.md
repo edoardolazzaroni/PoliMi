@@ -2377,4 +2377,9 @@ I prossimi esempi mostrano che non è così, e quindi l'ultima definizione data 
 
 
 *Esempio* (1). Consideriamo le seguenti equazioni, tutte di tipo:
-a) 
+	a) $x^2-y^2=0$
+	b) $x^2=0$
+	c) $x^2+y^2=0$
+	d) $x^2+y^2+1=0$
+
+L'equazione 
