@@ -2391,4 +2391,5 @@ la (d) infine non è mai verificata, perciò individua l'insieme vuoto $\left\{0
 Inoltre, per quanto ne sappiamo fin qui, potrebbe restare il dubbio che esistano curve del second'ordine che hanno come immagine geometrica una curva effettiva ma di un tipo diverso dalle ellissi/parabole/iperboli che già conosciamo.
 
 Data un'equazione di tipo $ax^2+bxy+cy^2+dx+ey+f=0$, occorrono dei criteri per decidere anzitutto se essa rappresenti effettivamente una curva nel senso intuitivo del termine (si dirà: una **conica reale non degenere**), e in secondo luogo di che tipo di curva si tratti.
-I problemi sono quindi: riconoscere il tipo di curva a partire dall'equazione, e 
+I problemi sono quindi: riconoscere il tipo di curva a partire dall'equazione, e saperla ridurre a forma canonica, cioè trovare un sistema di riferimento in cui abbia un'equazione semplice, che ci permetta di tracciarla.
+Entrambi i problemi si affrontano utilizzando il calcolo matriciale. Cominciamo col chiederci come si trasforma un
