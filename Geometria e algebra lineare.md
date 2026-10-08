@@ -2406,4 +2406,6 @@ l'equazione si riscrive nella forma matriciale seguente:
 
 $(x,y,1)\mathbf{A}(x,y,1)^\top=0\quad$ o anche $\quad\mathbf{x}\mathbf{A}\mathbf{x}^\top=0\quad$ (avendo posto $\mathbf{x}=(x,y,1)$)
 
-Poniamo anche 
+Poniamo anche $\mathbf{B}={\begin{pmatrix}a_{11}&a_{12} \\  a_{12}&a_{22}\end{pmatrix}}$.
+
+Le matrici $\mathbf{A},\mathbf{B}$ si dicono matrice dei coefficienti della conica e matrice dei termini 
