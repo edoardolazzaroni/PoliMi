@@ -2,7 +2,7 @@
 [Diario GAL 2024 con tutte le registrazioni ed i file note](https://polimi365-my.sharepoint.com/:x:/g/personal/10141626_polimi_it/IQD8jfWD1XOTQbJlFql3S9VRAVt_9KKDRvasFv4U1gpcGpE?e=J4XlXE)
 
 
-# Capitolo I: Vettori nel piano e nello spazio
+# **Capitolo I: Vettori nel piano e nello spazio**
 
 
 Il concetto di vettore, fondamentale sia in matematica che nelle applicazioni (fisiche, ecc.), può essere introdotto a vari livelli di astrazione. In questa sezione di occuperemo di vettori nel piano e nello spazio: in questo contesto, è possibile dare una definizione geometrica elementare di vettore; molte grandezze fisiche (velocità, accelerazione, forza,...) si rappresentano in questo modo. In seguito vedremo come la nozione di vettore si possa generalizzare in termini astratti, ottenendo un concetto più flessibile, che risulta molto utile per l'algebra, il calcolo infinitesimale e le loro applicazioni.
@@ -291,7 +291,7 @@ I vettori sono perciò indipendenti.
 
 
 
-# Capitolo II: Geometria lineare nello spazio
+# **Capitolo II: Geometria lineare nello spazio**
 
 
 Mediante il calcolo vettoriale introdotto nei paragrafi precedenti è facile scrivere, in un dato sistema di riferimento, vari tipi di equazioni per rette e piani.
@@ -502,7 +502,7 @@ ossia, ricordando che abbiamo posto $d=ax_0+by_0+cz_0$:
 
 
 
-# Capitolo III: Spazi vettoriali
+# **Capitolo III: Spazi vettoriali**
 
 
 Iniziamo ora lo studio dei primi elementi di algebra lineare: si tratta di una disciplina che viene utilizzata sia in altri rami della matematica (geometria, analisi, ...) che nelle discipline applicative vere e proprie. L'idea centrale è quella di *linearità*.
@@ -857,7 +857,7 @@ dove $l:\ V_{1}\rightarrow V_{2}$ è lineare e $\mathbf{b}\in V_{2}$ è un eleme
 
 
 
-# Capitolo IV: Matrici e trasformazioni lineari
+# **Capitolo IV: Matrici e trasformazioni lineari**
 
 
 ### 4.1 **L'algebra delle matrici**
@@ -1250,7 +1250,7 @@ Vale anche la seguente:
 
 
 
-# Capitolo V: Sistemi lineari
+# **Capitolo V: Sistemi lineari**
 
 
 ### 5.1 **Generalità. Metodo di Cramer**
@@ -1800,7 +1800,7 @@ che evidentemente non ha soluzione. Ciò riflette il fatto che il vettore $\math
 
 
 
-# Capitolo VI: Autovettori ed autovalori. Diagonalizzazione
+# **Capitolo VI: Autovettori ed autovalori. Diagonalizzazione**
 
 
 ### 6.1 **Matrici diagonalizzabili**
@@ -2196,7 +2196,7 @@ $\mathbf{R}_{x}(\alpha)={\begin{pmatrix}1&0&0 \\  0&\cos\alpha&\sin\alpha \\  0&
 
 
 
-# Capitolo VII: Coniche
+# **Capitolo VII: Coniche**
 
 
 Nei capitoli precedenti abbiamo introdotto alcuni concetti e strumenti fondamentali dell'algebra lineare e abbiamo sviluppato i primi elementi della geometria analitica dello spazio limitandoci alla geometria degli enti lineari (rette e piani). Naturalmente, molti degli aspetti più interessanti e utili della geometria riguardano gli oggetti geometrici curvi: linee del piano e superfici nello spazio.
@@ -2361,3 +2361,83 @@ Dimostreremo questa Proposizione nel caso particolare $n=2$.
 
 #### 7.2.2 **Le coniche come curve algebriche del second'ordine**
 
+Consideriamo ora l'equazione canonica di un'ellisse, un'iperbole o una parabola e chiediamoci come cambia eseguendo una rototraslazione: in generale otterremo un'equazione dei secondo grado in $x,y$ completa di tutti i termini, ossia del tipo:
+
+						$ax^2+bxy+cy^2+dx+ey+f=0$
+
+Questo significa che, in un sistema di riferimento generico (ossia non scelto con criteri particolari) l'equazione di una conica assume quest'ultima forma, ovvero di una <u>curva del second'ordine</u>.
+La discussione precedente suggerisce allora la seguente:
+
+- #DEFINIZIONE(25). **Coniche come curve del second'ordine**
+	
+	Si dice conica di una qualunque piana del second'ordine, ossia espressa da un'equazione del tipo $ax^2+bxy+cy^2+dx+ey+f=0$ in cui i coefficienti $a,b,c$ non siano tutti nulli (altrimenti la curva sarebbe del prim'ordine, cioè una retta).
+
+Per ora sappiamo che le coniche che già conosciamo si rappresentano in qualsiasi sistema di riferimento come curve del second'ordine, quindi sono coniche anche nel senso di quest'ultima definizione.
+Non è chiaro se valga il viceversa: qualsiasi curva del second'ordine è un'ellisse, iperbole o parabola nel senso elementare del termine?
+I prossimi esempi mostrano che non è così, e quindi l'ultima definizione data appare più ampia delle definizioni del [[#7.2 **L'equazione generale delle coniche. Riduzione a forma canonica**|paragrafo precedente]]:
+
+
+*Esempio*. Consideriamo le seguenti equazioni, tutte di tipo:
+	a) $x^2-y^2=0$
+	b) $x^2=0$
+	c) $x^2+y^2=0$
+	d) $x^2+y^2+1=0$
+
+L'equazione (a) è equivalente a $(x+y)(x-y)=0$, perciò rappresenta le due rette $y=x,y=-x$;
+la (b) rappresenta una sola retta: $x=0$;
+la (c) individua un solo punto, l'origine $O$;
+la (d) infine non è mai verificata, perciò individua l'insieme vuoto $\left\{0\right\}$.
+
+
+Inoltre, per quanto ne sappiamo fin qui, potrebbe restare il dubbio che esistano curve del second'ordine che hanno come immagine geometrica una curva effettiva ma di un tipo diverso dalle ellissi/parabole/iperboli che già conosciamo.
+
+Data un'equazione di tipo $ax^2+bxy+cy^2+dx+ey+f=0$, occorrono dei criteri per decidere anzitutto se essa rappresenti effettivamente una curva nel senso intuitivo del termine (si dirà: una **conica reale non degenere**), e in secondo luogo di che tipo di curva si tratti.
+I problemi sono quindi: riconoscere il tipo di curva a partire dall'equazione, e saperla ridurre a forma canonica, cioè trovare un sistema di riferimento in cui abbia un'equazione semplice, che ci permetta di tracciarla.
+
+Entrambi i problemi si affrontano utilizzando il calcolo matriciale. Cominciamo col chiederci come si trasforma l'equazione $ax^2+bxy+cy^2+dx+ey+f=0$ sotto l'azione di una rototraslazione e che cosa eventualmente resta invariato.
+È quindi più comodo riscrivere l'equazione nella forma:
+
+					$a_{11}x^2+2a_{12}xy+a_{22}y^2+a_{13}x+a_{23}y+a_{33}=0$
+
+Introducendo la matrice $(3,3)$ simmetrica:
+
+							$\mathbf{A}={\begin{pmatrix}a_{11}&a_{12}&a_{13} \\  a_{12}&a_{22}&a_{23} \\  a_{13}&a_{23}&a_{33}\end{pmatrix}}$
+
+l'equazione si riscrive nella forma matriciale seguente:
+
+$(x,y,1)\mathbf{A}(x,y,1)^\top=0\quad$ o anche $\quad\mathbf{x}\mathbf{A}\mathbf{x}^\top=0\quad$ (avendo posto $\mathbf{x}=(x,y,1)$)
+
+Poniamo anche $\mathbf{B}={\begin{pmatrix}a_{11}&a_{12} \\  a_{12}&a_{22}\end{pmatrix}}$.
+
+Le matrici $\mathbf{A},\mathbf{B}$ si dicono rispettivamente **matrice dei coefficienti della conica** e **matrice dei termini di secondo grado della conica**.
+
+Supponiamo ora di eseguire una rototraslazione di assi, di tipo ${\begin{cases}x=x'\cos\alpha-y'\sin\alpha +u \\  y=x'\sin\alpha+y'\cos\alpha +v\end{cases}}$;
+la nuova equazione, nelle variabili $(x',y')$ può essere riscritta nella forma $a_{11}x^2+2a_{12}xy+a_{22}y^2+a_{13}x+a_{23}y+a_{33}=0$, con nuovi coefficienti $a_{ij}'$ che raccogliamo in una nuova matrice $\mathbf{A}'$.
+Si dimostra che, anche se $\mathbf{A}'$ in generale può avere tutti gli elementi diversi dai corrispondenti elementi di $\mathbf{A}$, alcune quantità calcolate su questa matrice rimangono invariate (si dicono perciò **invarianti**):
+
+- #TEOREMA(24). **Invarianti di una conica**
+	
+	A seguito di una rototraslazione di assi, la conica avente matrice dei coefficienti $\mathbf{A}$ e matrice dei termini di secondo grado $\mathbf{B}$ si trasforma in un'altra conica e le seguenti quantità rimangono invariate:
+	
+	$I_{3}=\det\mathbf{A}$ (<mark class="hltr-yellow">invariante cubico</mark>);
+	$I_{3}=\det\mathbf{B}$ (<mark class="hltr-yellow">invariante quadratico</mark>);
+	$I_{1}=Tr\mathbf{B}$ (<mark class="hltr-yellow">invariante lineare</mark>, Traccia = somma degli elementi sulla diagonale principale)
+	
+	In particolare, l'annullarsi o meno di un invariante $I_{1},I_{2}$ o $I_{3}$ esprime una proprietà geometrica della curva.
+
+
+- **Osservazione** (1):
+	
+	Notiamo che se moltiplichiamo ambo i membri dell'equazione $a_{11}x^2+2a_{12}xy+a_{22}y^2+a_{13}x+a_{23}y+a_{33}=0$ della conica per una costante $\lambda\ne 0$, tutti i coefficienti $a_{ij}$ risultano moltiplicati per $\lambda$ e quindi le quantità $I_{1},I_{2},I_{3}$ si trasformano rispettivamente in $\lambda I_{1},\lambda^2 I_{2},\lambda^3 I_{3}$, da cui i nomi dei vari invarianti.
+	Da questo fatto segue che anche il segno dell'invariante $I_{2}$ (ma non quello di $I_{1},I_{3}$) esprime una proprietà geometrica della curva.
+
+- **Osservazione** (2): **Matrici a blocchi**
+	
+	A volte è comodo rappresentare una matrice dalla struttura complessa in termini di blocchi più piccoli. Ad esempio, se:
+	
+	$\mathbf{A}={\begin{pmatrix}a&b \\  c&d\end{pmatrix}}$,
+	
+	la scrittura $\mathbf{B}={\begin{pmatrix}\mathbf{A}&\mathbf{0}^\top \\  \mathbf{0}&1\end{pmatrix}}$ indica la matrice $(3,3)$ definita da $\mathbf{B}={\begin{pmatrix}a&b&0 \\  c&d&0 \\  0&0&1\end{pmatrix}}$.
+	
+	La dimensione dei vettori nulli indicati coi simboli $\mathbf{0},\mathbf{0}^\top$ nell'espressione di $\mathbf{B}$ si deduce in questo caso dal fatto che nell'angolo in basso a destra c'è un elemento singolo (il numero $1$) e in quello in alto a sinistra c'è una matrice $(2,2)$.
+	Dovendo eseguire il prodotto di due "matrici a blocchi" espresse in termini di blocchi di dimensioni opportune, si può operare come se i blocchi fossero numeri. Ad esempio, 
