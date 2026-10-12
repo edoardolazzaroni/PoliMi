@@ -2696,4 +2696,7 @@ Segnaliamo che questa caratterizzazione delle coniche mediante l'eccentricità p
 Questo Teorema è alla base della rappresentazione delle coniche come curve in forma polare.
 
 *Dimostrazione* ( #TEOREMA(27)):
-Scegliamo un riferimento cartesiano in cui, detto %
+
+Scegliamo un riferimento cartesiano in cui, detto $F$ il fuoco e $d$ la direttrice risulti, per qualche $a>0$, $\end{\begin{cases}\end{cases}}F(a,0)$ e $d:x=-a$.
+
+La definizione richiede
