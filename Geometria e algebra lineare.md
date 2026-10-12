@@ -2580,4 +2580,4 @@ $x'=-\frac{a_{22}}{2a_{13}}y'^2$
 
 che è una parabola in forma canonica.
 
-Si osservi che abbiamo considerato tutti i casi possibili nell'ipotesi $I_{3}\ne 0$ e abbiamo riscontrato che la conica 
+Si osservi che abbiamo considerato tutti i casi possibili nell'ipotesi $I_{3}\ne 0$ e abbiamo riscontrato che la conica è effettivamente un'iperbole se $I_{2}<0$, un'ellisse reale o immaginaria se $I_{2}>0$, una parabola se $I_{2}=0$. Il Teorema è quindi dimos
