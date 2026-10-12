@@ -2731,4 +2731,6 @@ Se facciamo ruotare una parabola attorno al suo asse, oppure un'ellisse o un'ipe
 Per dare una definizione generale di superficie quadrica e poter studiare queste superfici è naturale utilizzare fin da subito il linguaggio della geometria analitica e del calcolo matriciale.
 Diamo quindi la seguente:
 
-- #DEFINIZIONE(28).
+- #DEFINIZIONE(28). **Quadriche come superfici del second'ordine**
+	
+	Si dice superficie quadrica (o semplicemente quadrica) il luogo dei punti dello spazio le cui 
