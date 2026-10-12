@@ -2756,4 +2756,5 @@ Individueremo così facendo le equazioni in forma canonica dei vari tipi di quad
 
 ### 8.1 **Rototraslazioni nello spazio e invarianti di una quadrica**
 
-Abbiamo visto nel  [[#6.3 **Condizioni di diagonalizzabilità**|capitolo 6.3]] che, nello spazio tridimensionale, una rotazione rispetto all'origine, eventualment
+Abbiamo visto nel  [[#6.3 **Condizioni di diagonalizzabilità**|capitolo 6.3]] che, nello spazio tridimensionale, una rotazione rispetto all'origine, eventualmente accompagnata da una riflessione rispetto ad un piano passante per l'origine, si può rappresentare mediante una matrice $\mathbf{R}$, $(3,3)$ ed ortogonale:
+
