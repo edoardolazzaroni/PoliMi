@@ -2554,4 +2554,6 @@ Distinguiamo ora i vari casi possibili in base al segno dei tre coefficienti rim
 
 	$\frac{x^2}{a^2}-\frac{y^2}{b^2}=-1$ (iperbole in forma canonica; si osservi che $I_{2}<0$ per entrambe).
 
-Consideriamo ora il caso lasciato in sospeso, in cui $I_{2}=0$
+Consideriamo ora il caso lasciato in sospeso, in cui $I_{2}=0$: si dice che **la conica non è a centro**.
+
+Cerchiamo direttamente una rotazione che annulli il coefficiente $a_{12}$: esiste sempre una rotazioen $$
