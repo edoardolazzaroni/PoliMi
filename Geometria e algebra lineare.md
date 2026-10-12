@@ -2560,4 +2560,4 @@ Cerchiamo direttamente una rotazione che annulli il coefficiente $a_{12}$: esist
 
 $\mathbf{B}={\begin{pmatrix}a_{11}&0 \\  0&a_{22}\end{pmatrix}}$
 
-Ricordiamo però che 
+Ricordiamo però che siamo nelle ipotesi $I_{2}\ne 0$, perciò si ha $a_{11}a_{2}$
