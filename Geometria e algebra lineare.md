@@ -2502,4 +2502,5 @@ Ci concentriamo ora sulle coniche non degeneri, per le quali vogliamo ottenere u
 		$y=ax^2\quad$ oppure $\quad x=by^2$.
 
 
-Notiamo che l'enunciato del Teorema insegna a riconoscere una conica non degenere per mezzo dei suoi invarianti. La dimostrazione del Teorema mostrerà come questo sia possibile costruendo effettivamente una rot
+Notiamo che l'enunciato del Teorema insegna a riconoscere una conica non degenere per mezzo dei suoi invarianti. La dimostrazione del Teorema mostrerà come questo sia possibile costruendo effettivamente una rototraslazione che riduca la conica a forma canonica, permettendo così di riconoscerne il tipo, ma anche di tracciare effettivamente la curva.
+Il Teorema mostra anche che le coniche non degeneri coincidono effettivamente con le coniche nel senso del
