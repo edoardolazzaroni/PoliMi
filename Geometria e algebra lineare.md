@@ -2539,5 +2539,8 @@ Poichè siamo nell'ipotesi di conica non degenere, $I_{3}\ne 0$ perciò i tre co
 Distinguiamo ora i vari casi possibili in base al segno dei tre coefficienti rimasti: possiamo sempre supporre $a_{11}>0$ (eventualmente cambiando tutti i segni nell'equazione), perciò i casi sono:
 
 1. $a_{aa}>0,a_{33}<0$. Dividendo per $a_{33}$ si può riscrivere l'equazione nella forma:
-	$\frac{x^2}{a^2}+\frac{y^2}{b^2}=1$ (ellisse reale in forma canonica.
-2. 
+	$\frac{x^2}{a^2}+\frac{y^2}{b^2}=1$ (ellisse reale in forma canonica).
+	
+2. $a_{22}>0,a_{33}>0$. Dividendo per $a_{33}$ si può riscrivere l'equazione nella forma:
+	$\frac{x^2}{a^2}+\frac{y^2}{b^2}=-1$ (ellisse )
+3. 
