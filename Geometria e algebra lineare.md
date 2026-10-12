@@ -2443,4 +2443,5 @@ Si dimostra che, anche se $\mathbf{A}'$ in generale può avere tutti gli element
 	Dovendo eseguire il prodotto di due "matrici a blocchi" espresse in termini di blocchi di dimensioni opportune, si può operare come se i blocchi fossero numeri. Ad esempio:
 	
 						${\begin{pmatrix}\mathbf{A}&\mathbf{0}^\top \\  \mathbf{0}&a\end{pmatrix}}{\begin{pmatrix}\mathbf{A}'&\mathbf{0}^\top \\  \mathbf{0}&a'\end{pmatrix}}={\begin{pmatrix}\mathbf{AA'}&\mathbf{0}^\top \\  \mathbf{0}&aa'\end{pmatrix}}$
-	come il lettore può verificare 	
+	
+	come si può verificare riscrivendo il calcolo senza far uso della notazione a blocchi 
