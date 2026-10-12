@@ -2728,4 +2728,7 @@ Notiamo ancora che nel caso $0<e<1$ l'ellisse non è mai una circonferenza. Per 
 
 Se facciamo ruotare una parabola attorno al suo asse, oppure un'ellisse o un'iperbole attorno ai suoi due assi di simmetria, otteniamo superfici dall'aspetto abbastanza semplice che, prendendo il nome della conica generatrice, si dicono **paraboloide**, **ellissoide** o **iperboloide** di rotazione: questi sono gli esempi più semplici di **superfici quadriche** (ma non le uniche).
 
-Per dare una definizione generale di superficie quadrica e poter studiare queste superfici è na
+Per dare una definizione generale di superficie quadrica e poter studiare queste superfici è naturale utilizzare fin da subito il linguaggio della geometria analitica e del calcolo matriciale.
+Diamo quindi la seguente:
+
+- #DEFINIZIONE(28).
