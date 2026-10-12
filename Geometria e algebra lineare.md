@@ -2609,4 +2609,4 @@ l'equazione prende la forma:
 
 $\left( x+\frac{1}{2} \right)^2-4y^2=\frac{5}{4}\rightarrow\frac{\left( x+\frac{1}{2} \right)^2}{\left( \frac{\sqrt{5}}{2} \right)^2}-\frac{y^2}{\left( \frac{\sqrt{5}}{4} \right)^2}=1$
 
-da cui leggiamo che è un'iperbole di cen
+da cui leggiamo che è un'iperbole di centro $\left( -\frac{1}{2},0 \right)$, asintoti $y=\pm\frac{\left( \frac{\sqrt{5}}{4} \right)}{\left( \frac{\sqrt{5}}{4} \right)}$
