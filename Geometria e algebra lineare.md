@@ -2710,4 +2710,6 @@ $(x-a)^2+y^2=e^2(x+a)^2$
 
 e, sviluppando e semplificando:
 
-$x^2(1-e^2)+y^2-2ax(1+e)$
+$x^2(1-e^2)+y^2-2ax(1+e^2)+a^2(1-e^2)=0$
+
+che è la conica avente matrice dei coefficienti: $\mathbf{A}={\begin{pmatrix}1-e^2&\end{pmatrix}}$
