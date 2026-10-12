@@ -2655,4 +2655,4 @@ Si può dimostrare la seguente:
 	Le coniche degeneri possono essere solo dei seguenti tipi:
 	
 	- un'ellisse degenere è costituita da un solo punto reale (ad es. $x^2+y^2=0$);
-	- una parabola degenere è costituita da una sola retta (reale) o da due rette parallele (reali p)
+	- una parabola degenere è costituita da una sola retta (reale) o da due rette parallele (reali) o dall'insieme vuoto 
