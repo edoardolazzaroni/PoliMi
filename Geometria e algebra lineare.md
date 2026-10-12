@@ -2767,4 +2767,5 @@ Una traslazione è rappresentata da:
 
 La composizione di un numero finito di traslazioni e di trasformazioni ortogonali, in qualunque ordine, assume sempre la medesima forma per qualche matrice ortogonale $\mathbf{R}$ e qualche vettore $(u,v,w)^\top\in\mathbb{R}^3$; l'ultima espressione rappresenta quindi la generica rototraslazione (con eventuale riflessione) nello spazio. Sotto l'azione di una rototraslazione qualsiasi, l'equazione di una generica quadrica si trasformerà ancora in un'equazione del second'ordine.
 
-Vediamo più 
+Vediamo più da vicino come cambia l'equazione di una quadrica sotto l'azione di una trasformazione ortogonale oppure di una traslazione. Il calcolo, in forma matriciale, è analogo a quello già fatto per le coniche.
+Se $\mathbf{R}$ è una matrice ortogonale $(3,3)$, ponendo $\mathbf{x}$
