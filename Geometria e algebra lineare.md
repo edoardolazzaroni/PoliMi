@@ -2512,4 +2512,8 @@ l'ellisse immaginaria, curva priva di punti reali, che tuttavia in base alla def
 
 Per prima cosa cerchiamo una traslazione che ottenga come risultato di annullare i termini di primo grado (ovvero i coefficienti $a_{13},a_{23}$). Questo equivale a cercare $u,v$, per cui si abbia:
 
-${\begin{cases}a_{13}+a_{11}u+a_{12}v=0 \\  \end{cases}}$
+${\begin{cases}a_{13}+a_{11}u+a_{12}v=0 \\  a_{23}+a_{12}u+a_{22}v=0\end{cases}}$
+
+Questo è un sistema lineare di due equazioni nelle due incognite $u,v$, risolubile purchè sia:
+
+$\det{\begin{pmatrix}\end{pmatrix}}$
