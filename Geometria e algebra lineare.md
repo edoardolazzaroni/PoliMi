@@ -2776,4 +2776,6 @@ che sostituite nell'equazione matriciale della quadrica $\mathbf{x}\mathbf{A}\ma
 
 $\mathbf{x}'\begin{pmatrix}\mathbf{R}^\top&\mathbf{0}^\top \\  \mathbf{0}&1\end{pmatrix}\mathbf{A}\begin{pmatrix}\mathbf{R}&\mathbf{0}^\top \\  \mathbf{0}&1\end{pmatrix}\mathbf{x}'^\top=0$
 
-da cui leggiamo che 
+da cui leggiamo che la matrice $\mathbf{A}$ si trasforma nella matrice:
+
+$\mathbf{A}'=\begin{pmatrix}\mathbf{R}^\top&\mathbf{0}^\top \\  \mathbf{0}&1\end{pmatrix}\mathbf{A}\begin{pmatrix}\mathbf{R}&\mathbf{0}^\top \\  \mathbf{0}&1\end{pmatrix}=\mathcal{R}^\top\$
