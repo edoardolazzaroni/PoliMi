@@ -2527,3 +2527,6 @@ Si osservi che questa conica ha l'origine come centro di simmetria, ossia: se il
 Le coniche con $I_{2}\ne 0$ si dicono perciò **coniche a centro**.
 
 Ora cerchiamo una rotazione che abbia come effetto di annullare il coefficiente $a_{12}$.
+Qualsiasi rotazione trasformerà la conica in un'altra che ha ancora i termini $a_{13},a_{23}$ mancanti, e la matrice $\mathbf{B}$ si trasformerà secondo la legge:
+
+$\mathbf{B}'=\mathbf{E}$
