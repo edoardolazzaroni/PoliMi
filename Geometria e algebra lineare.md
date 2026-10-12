@@ -2560,7 +2560,7 @@ Cerchiamo direttamente una rotazione che annulli il coefficiente $a_{12}$: esist
 
 $\mathbf{B}={\begin{pmatrix}a_{11}&0 \\  0&a_{22}\end{pmatrix}}$
 
-Ricordiamo però che siamo nelle ipotesi $I_{2}\ne 0$, perciò si ha $a_{11}a_{22}=0$, quindi si annulla anche uno di questi coefficienti. Suppiamo ad esempio che sia $a_{11}=0$ (l'altro caso è analogo).
+Ricordiamo però che siamo nelle ipotesi $I_{2}\ne 0$, perciò si ha $a_{11}a_{22}=0$, quindi si annulla anche uno di questi coefficienti. Supponiamo ad esempio che sia $a_{11}=0$ (l'altro caso è analogo).
 La nuova equazione è quindi:
 
 $a_{22}y^2+2a_{13}x+2a_{23}y+a_{33}=0,\quad\mathbf{A}={\begin{pmatrix}0&0&a_{13} \\  0&a_{22}&a_{23} \\  a_{13}&a_{23}&a_{33}\end{pmatrix}}$
@@ -2573,4 +2573,7 @@ perciò ponendo $y'=y+\frac{a_{23}}{a_{22}}$ l'equazione diventa: $a_{22}y'^2+2a
 
 Ora dalle identità: $2a_{13}x+a_{33}-\frac{a_{23}^2}{a_{22}}=2a_{13}\left( x+\frac{a_{22}a_{33}-a_{23}^2}{2a_{13}a_{22}} \right)$
 
-leggiamo che ponendo $x'=x+\fr$
+leggiamo che ponendo $x'=x+\frac{a_{22}a_{33}-a_{23}^2}{2a_{13}a_{22}}$ l'equazione diventa:
+
+$a_{22}y'^2+2a_{13}x'=0$
+$x$
