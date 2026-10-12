@@ -2667,4 +2667,6 @@ I prossimi esempi illustrano alcune di queste situazioni:
 
 La matrice dei coefficienti è: $\mathbf{A}={\begin{pmatrix}1&\frac{1}{2}&-\frac{1}{2} \\  \frac{1}{2}&-2&\frac{1}{2} \\  -\frac{1}{2}&\frac{1}{2}&0\end{pmatrix}}$
 
-e il calcolo mostra che $I_{3}=\det\mathbf{A}=0$ e $I_{2}=\det\mathbf{B}<0$. Si tratta quindi di un'iperbole degenere che si spezza in due rette distinte. Per scomporre effettivamente il primo 
+e il calcolo mostra che $I_{3}=\det\mathbf{A}=0$ e $I_{2}=\det\mathbf{B}<0$. Si tratta quindi di un'iperbole degenere che si spezza in due rette distinte. Per scomporre effettivamente il primo membro possiamo procedere così: risolviamo l'equazione come equazione di secondo grado in $x$, al modo seguente (ovviamente sarebbe lo stesso in $y$):
+
+$x^2-x(1-y)+(xy-x+y)=0$
