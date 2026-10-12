@@ -2476,4 +2476,9 @@ Quest'argomentazione lascia però in ombra un punto delicato: presuppone infatti
 					
 						$(ax+by+c)(a'x+b'y+c')=0$
 	
-	per certi $a,b,c,a',b',c'\in$
+	per certi $a,b,c,a',b',c'\in\mathbb{R}$ o $\mathbb{C}$.
+
+
+Vale il seguente teorema che ci limitiamo ad enunciare:
+
+- #TEOREMA(25). Una conica è degenere se e solo se si annulla il suo invariante $I_{3}$, cioè il detemrinan
