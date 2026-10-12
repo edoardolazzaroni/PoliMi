@@ -2749,4 +2749,7 @@ Diamo quindi la seguente:
 
 
 Anche se la definizione data è puramente algebrica, ci interessa studiare queste superfici dal punto di vista geometrico. Come per le coniche, le proprietà geometriche sono quelle che non dipendono dal particolare sistema di riferimento scelto, ossia sono <u>invarianti per rototraslazioni</u>.
-Dopo aver richiamato qualche proprietà delle rototraslazioni nello spazio tridimensionale e aver individuato alcuni invarianti delle quadriche, cercheremo una rototraslazione che porti una quadrica ad assumere 
+Dopo aver richiamato qualche proprietà delle rototraslazioni nello spazio tridimensionale e aver individuato alcuni invarianti delle quadriche, cercheremo una rototraslazione che porti una quadrica ad assumere un'equazione la più semplice possibile.
+Individueremo così facendo le equazioni in forma canonica dei vari tipi di quadriche, arrivando ad una classificazione delle quadriche stesse ed al riconoscimento del loro aspetto geometrico.
+
+
