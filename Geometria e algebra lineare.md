@@ -2492,12 +2492,10 @@ Ci concentriamo ora sulle coniche non degeneri, per le quali vogliamo ottenere u
 	
 	- Se $I_{2}>0$ esiste una rototraslazione che la riduce alla forma canonica di un'ellisse:
 	
-		$\frac{x^2}{a^2}+\frac{y^2}{b^2}=1$ (reale)
-		
-		oppu:
-		
-		$\frac{x^2}{a^2}+\frac{y^2}{b^2}=-1$;
+		$\frac{x^2}{a^2}+\frac{y^2}{b^2}=1$ (reale) oppure $\frac{x^2}{a^2}+\frac{y^2}{b^2}=-1$ (immaginaria);
 		
 	- Se $I_{2}<0$ esiste una rototraslazione che la riduce alla forma canonica di un'iperbole:
-		$\frac{x^2}{a^2}-\frac{y^2}{b^2}=1\quad$ oppure $\quad\frac{x^2}{a^2}-\frac{y^2}{b^2}=-1$
-	- 
+		
+		$\frac{x^2}{a^2}-\frac{y^2}{b^2}=1\quad$ oppure $\quad\frac{x^2}{a^2}-\frac{y^2}{b^2}=-1$;
+		
+	- Se $I_{2}=0$ esiste una rototralsazione
