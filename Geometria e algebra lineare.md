@@ -2705,4 +2705,9 @@ $\frac{\sqrt{(x-a)^2+y^2}}{|x+a|}=e$
 
 da cui ricaviamo successivamente:
 
-$$
+$\sqrt{(x-a)^2+y^2}=e|x+a|$
+$(x-a)^2+y^2=e^2(x+a)^2$
+
+e, sviluppando e semplificando:
+
+$x^2(1-e^2)+y^2-2ax(1+e)$
