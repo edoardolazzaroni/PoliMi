@@ -2678,3 +2678,8 @@ ossia l'equazione di partenza si può riscrivere così:
 $(x-y)(x+2y-1)=0$.
 
 La conica degenere in questo caso si spezza in due rette reali e distinte. Il fatto che nella risoluzione dell'equazione di secondo grado il radicando risulti un quadrato perfetto (e quindi $x$ si esprime come funzione lineare di $y$) dipende proprio dall'ipotesi $I_{3}=0$.
+
+
+
+### 7.3 **Coniche ed eccentricità**
+
