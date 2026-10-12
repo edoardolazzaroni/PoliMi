@@ -2765,4 +2765,6 @@ Una traslazione è rappresentata da:
 
 							$\begin{pmatrix}x \\  y \\  z\end{pmatrix}=\mathbf{R}\begin{pmatrix}x' \\  y' \\  z'\end{pmatrix}+\begin{pmatrix}u \\  v \\  w\end{pmatrix}$
 
-La composizione di un numero finito di traslazioni e di trasformazioni ortogonali, in qualunque ordine, assume sempre la medesima forma per qualche matrice ortogonale $\mathbf{R}$ e qualche vettore $(u,v,w)^\top\in\mathbb{R}^3$; l'ultima equazione rappresenta quindi la generica rototraslazione (con eventuale riflessione) nello spazio. Sotto l'azione di una rototraslazione qualsiasi
+La composizione di un numero finito di traslazioni e di trasformazioni ortogonali, in qualunque ordine, assume sempre la medesima forma per qualche matrice ortogonale $\mathbf{R}$ e qualche vettore $(u,v,w)^\top\in\mathbb{R}^3$; l'ultima espressione rappresenta quindi la generica rototraslazione (con eventuale riflessione) nello spazio. Sotto l'azione di una rototraslazione qualsiasi, l'equazione di una generica quadrica si trasformerà ancora in un'equazione del second'ordine.
+
+Vediamo più 
