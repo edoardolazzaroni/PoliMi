@@ -2634,4 +2634,9 @@ $\left( x'-\frac{1}{2\sqrt{2}} \right)^2-\frac{1}{8}-\left( y'+\frac{1}{2\sqrt{2
 
 Ponendo quindi:
 
-${\begin{cases}x''=x'-\frac{1}{2\sqrt{2}} \\  y\end{cases}}$
+${\begin{cases}x''=x'-\frac{1}{2\sqrt{2}} \\  y''=y'+\frac{1}{2\sqrt{2}}\end{cases}}$
+
+l'equazione dell'iperbole si può riscrivere nella forma canonica:
+
+$x''^2-y''^2=-1$.
+
