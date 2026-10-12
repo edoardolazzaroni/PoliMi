@@ -2778,4 +2778,8 @@ $\mathbf{x}'\begin{pmatrix}\mathbf{R}^\top&\mathbf{0}^\top \\  \mathbf{0}&1\end{
 
 da cui leggiamo che la matrice $\mathbf{A}$ si trasforma nella matrice:
 
-$\mathbf{A}'=\begin{pmatrix}\mathbf{R}^\top&\mathbf{0}^\top \\  \mathbf{0}&1\end{pmatrix}\mathbf{A}\begin{pmatrix}\mathbf{R}&\mathbf{0}^\top \\  \mathbf{0}&1\end{pmatrix}=\mathcal{R}^\top\$
+$\mathbf{A}'=\begin{pmatrix}\mathbf{R}^\top&\mathbf{0}^\top \\  \mathbf{0}&1\end{pmatrix}\mathbf{A}\begin{pmatrix}\mathbf{R}&\mathbf{0}^\top \\  \mathbf{0}&1\end{pmatrix}=\mathcal{R}^\top\mathbf{A}\mathcal{R}$
+
+e in particolare $\mathbf{B}$ si trasforma in $\mathbf{B}'=\mathbf{R}^\top\mathbf{B}\mathbf{R}$.
+
+Analogamente a quanto 
