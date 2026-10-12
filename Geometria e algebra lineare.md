@@ -2487,4 +2487,7 @@ Vale il seguente teorema che ci limitiamo ad enunciare:
 Ci concentriamo ora sulle coniche non degeneri, per le quali vogliamo ottenere una caratterizzazione completa in base ai loro invarianti.
 
 - #TEOREMA(26). **Riconoscimento di una conica non degenere**
-	Consideriamo una conica n
+	
+	Consideriamo una conica non degenere, cioè con $I_{3}\ne 0$. Allora:
+	
+	- Se $I_{2}>0$ esiste una rototraslazione che la riduce alla forma canonica di un'ellisse:
