@@ -2523,4 +2523,7 @@ Cominciamo a trattare questo caso: se $I_{2}\ne 0$ esiste una traslazione che po
 $a_{11}x^2+2a_{12}xy+a_{22}y^2+a_{33}=0$
 
 (per semplicità continuiamo a chiamare i coefficienti $a_{ij}$ anzichè $a_{ij}'$).
-Si osservi che questa conica ha l'origine come centro di simmetria, ossia: se il punto $(x,y)$ soddisfa l'equazione, anche $(-x,-y)$ (il suo simmetrico)
+Si osservi che questa conica ha l'origine come centro di simmetria, ossia: se il punto $(x,y)$ soddisfa l'equazione, anche $(-x,-y)$ (il suo simmetrico rispetto all'origine) la soddisfa.
+Le coniche con $I_{2}\ne 0$ si dicono perciò **coniche a centro**.
+
+Ora cerchiamo una rotazione che abbia come effetto di annullare il coefficiente $a_{12}$.
