@@ -2640,3 +2640,7 @@ l'equazione dell'iperbole si può riscrivere nella forma canonica:
 
 $x''^2-y''^2=-1$.
 
+
+Nel Teorema precedente abbiamo considerato solo coniche non degeneri. Per analogia a quanto stabilito in tale Teorema possiamo ora dare la seguente:
+
+- #DEFINIZIONE(27). Consideriamo una conica d
