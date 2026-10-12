@@ -2597,8 +2597,7 @@ $2y^2+3y=2\left( y+\frac{3}{4} \right)^2-\frac{9}{8}$
 
 e quindi l'equazione diventa:
 
-$(x-2)^2-4+2\left( y+\frac{3}{4} \right)^2-\frac{9}{8}+1=0$
-$\frac{(x-2)^2}{\frac{33}{8}}+\frac{\left( y+\frac{3}{4} \right)^2}{\frac{33}{16}}=1$
+$(x-2)^2-4+2\left( y+\frac{3}{4} \right)^2-\frac{9}{8}+1=0\rightarrow\frac{(x-2)^2}{\frac{33}{8}}+\frac{\left( y+\frac{3}{4} \right)^2}{\frac{33}{16}}=1$
 
 Perciò si tratta dell'ellisse reale di centro $\left( 2,-\frac{3}{4} \right)$ e semiassi $\sqrt{\frac{33}{8}},\frac{\sqrt{33}}{4}$.
 
@@ -2608,5 +2607,6 @@ $x^2+x-1=\left( x+\frac{1}{2} \right)^2-\frac{1}{4}-1$
 
 l'equazione prende la forma:
 
-$\left( x+\frac{1}{2} \right)^2-4y^2=\frac{5}{4}$
-$\frac{\left( x+\frac{1}{2} \right)^2}{\left( \frac{\sqrt{5}}{2} \right)^2}-\fra{y^2}{\left( \frac{\sqr} \right)}$
+$\left( x+\frac{1}{2} \right)^2-4y^2=\frac{5}{4}\rightarrow\frac{\left( x+\frac{1}{2} \right)^2}{\left( \frac{\sqrt{5}}{2} \right)^2}-\frac{y^2}{\left( \frac{\sqrt{5}}{4} \right)^2}=1$
+
+da cui leggiamo che è un'iperbole di cen
