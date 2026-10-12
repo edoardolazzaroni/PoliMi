@@ -2688,4 +2688,4 @@ La conica degenere in questo caso si spezza in due rette reali e distinte. Il fa
 - #TEOREMA(27). **Caratterizzazione delle coniche mediante l'eccentricità**
 	
 	Consideriamo, nel piano, un punto detto <u>fuoco</u>, ed una retta non passante per il fuoco, detta <u>direttrice</u>. Il luogo dei punti $P$ per cui il rapporto tra la distanza di $P$ dal fuoco e la distanza di $P$ dalla direttrice è costante è una conica; questa costante si dice **eccentricità** ($e$) della conica. Precisamente la conica risulta essere:
-	
+	${\begin{cases}\mbox{iperbole}\mbox{se}e>1\mbox{ pari}\end{cases}}$
