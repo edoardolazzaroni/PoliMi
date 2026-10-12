@@ -2741,4 +2741,6 @@ Diamo quindi la seguente:
 	
 	dove: $\mathbf{A}={\begin{pmatrix}a_{11}&a_{12}&a_{13}&a_{14} \\  a_{12}&a_{22}&a_{23}&a_{24} \\  a_{13}&a_{23}&a_{33}&a_{34} \\  a_{14}&a_{24}&a_{34}&a_{44}\end{pmatrix}}$
 	
-	è la matrice rela simmetrica $4\times 4$ di coefficienti $a_{ij}$. Supponiamo inoltre che la matrice dei termini 
+	è la matrice rela simmetrica $4\times 4$ di coefficienti $a_{ij}$. Supponiamo inoltre che la matrice dei termini di secondo grado:
+	$\mathbf{B}={\begin{pmatrix}a_{11}&a_{12}&a_{13} \\  a_{12}&a_{22}&a_{23} \\    a_{13}&a_{23}&a_{33}\end{pmatrix}}$
+	
