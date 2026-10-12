@@ -2516,4 +2516,7 @@ ${\begin{cases}a_{13}+a_{11}u+a_{12}v=0 \\  a_{23}+a_{12}u+a_{22}v=0\end{cases}}
 
 Questo è un sistema lineare di due equazioni nelle due incognite $u,v$, risolubile purchè sia:
 
-$\det{\begin{pmatrix}\end{pmatrix}}$
+$\det{\begin{pmatrix}a_{11}&a_{12} \\  a_{12}&a_{22}\end{pmatrix}}\ne 0$, ossia $I_{2}\ne 0$.
+
+Cominciamo a trattare questo caso: se $I_{2}\ne 0$ esiste una traslazione che porta la conica alla forma:
+
