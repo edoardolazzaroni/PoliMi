@@ -2576,4 +2576,8 @@ Ora dalle identità: $2a_{13}x+a_{33}-\frac{a_{23}^2}{a_{22}}=2a_{13}\left( x+\f
 leggiamo che ponendo $x'=x+\frac{a_{22}a_{33}-a_{23}^2}{2a_{13}a_{22}}$ l'equazione diventa:
 
 $a_{22}y'^2+2a_{13}x'=0$
-$x$
+$x'=-\frac{a_{22}}{2a_{13}}y'^2$
+
+che è una parabola in forma canonica.
+
+Si osservi che abbiamo considerato tutti i casi possibili nell'ipotesi $I_{3}\ne 0$ e abbiamo riscontrato che la conica 
