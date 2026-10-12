@@ -2734,4 +2734,6 @@ Diamo quindi la seguente:
 - #DEFINIZIONE(28). **Quadriche come superfici del second'ordine**
 	
 	Si dice superficie quadrica (o semplicemente quadrica) il luogo dei punti dello spazio le cui coordinate $(x,y,z)$ soddisfano un'equazione algebrica di secondo grado in $x,y,z$ del tipo:
-	$a_{11}x^2+a_{22}y^2+a_{33}z^2+2a_{12}$
+	
+		$a_{11}x^2+a_{22}y^2+a_{33}z^2+2a_{12}xy+2a_{13}xz+2a_{23}yz+2a_{14}x+2a_{24}y+2a_{34}z+a_{44}=0$
+	
