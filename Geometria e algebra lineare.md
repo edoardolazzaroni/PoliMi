@@ -2753,3 +2753,7 @@ Dopo aver richiamato qualche proprietà delle rototraslazioni nello spazio tridi
 Individueremo così facendo le equazioni in forma canonica dei vari tipi di quadriche, arrivando ad una classificazione delle quadriche stesse ed al riconoscimento del loro aspetto geometrico.
 
 
+
+### 8.1 **Rototraslazioni nello spazio e invarianti di una quadrica**
+
+Abbiamo visto nel capitolo 
