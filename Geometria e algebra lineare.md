@@ -2670,4 +2670,6 @@ La matrice dei coefficienti è: $\mathbf{A}={\begin{pmatrix}1&\frac{1}{2}&-\frac
 e il calcolo mostra che $I_{3}=\det\mathbf{A}=0$ e $I_{2}=\det\mathbf{B}<0$. Si tratta quindi di un'iperbole degenere che si spezza in due rette distinte. Per scomporre effettivamente il primo membro possiamo procedere così: risolviamo l'equazione come equazione di secondo grado in $x$, al modo seguente (ovviamente sarebbe lo stesso in $y$):
 
 $x^2-x(1-y)+(y-2y^2)=0$
-$x=\frac{(1-y)\pm\sqrt{(1-y)^2-4(y-2y^2)}}{2}=$
+$x=\frac{(1-y)\pm\sqrt{(1-y)^2-4(y-2y^2)}}{2}=\frac{(1-y)\pm\sqrt{9y^2-6y+1}}{2}=\frac{(1-y)\pm(3y-1)}{2}$
+
+da cui otteniamo le due rette $x=y;x=$
