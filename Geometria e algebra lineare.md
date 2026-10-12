@@ -2600,4 +2600,6 @@ e quindi l'equazione diventa:
 $(x-2)^2-4+2\left( y+\frac{3}{4} \right)^2-\frac{9}{8}+1=0$
 $\frac{(x-2)^2}{\frac{33}{8}}+\frac{\left( y+\frac{3}{4} \right)^2}{\frac{33}{16}}=1$
 
-Perciò si tratta dell'ellisse reale di centro $\left( 2,-\frac{3}{4} \right)$ e semiassi $\sqrt{\frac{33}{8}},\frac{\}$
+Perciò si tratta dell'ellisse reale di centro $\left( 2,-\frac{3}{4} \right)$ e semiassi $\sqrt{\frac{33}{8}},\frac{\sqrt{33}}{4}$.
+
+b) $I_{3}\ne 0,I_{2}<0$
