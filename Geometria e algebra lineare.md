@@ -2683,3 +2683,4 @@ La conica degenere in questo caso si spezza in due rette reali e distinte. Il fa
 
 ### 7.3 **Coniche ed eccentricità**
 
+È possibile dare un'ulteriore caratterizzazione di ellisse, parabola e iperbole come opportuni luoghi geometrici, che rispetto alle definizioni in termini di fuochi 
