@@ -2626,4 +2626,8 @@ Eseguendo dunque la rotazione:
 
 ${\begin{cases}x=\frac{1}{\sqrt{2}}x'+\frac{1}{\sqrt{2}}y' \\  y=\frac{1}{\sqrt{2}}x'-\frac{1}{\sqrt{2}}y'\end{cases}}$
 
-l'e
+l'equazione della conica diventa: $x'^2-y'^2+\frac{1}{\sqrt{2}}x'+\frac{1}{\sqrt{2}}y'+1=0$
+
+Il completamento dei quadrati ci suggerisce ora la traslazione corretta da eseguire:
+
+$(x'-\frac{1}{2\sqrt{2}})$
