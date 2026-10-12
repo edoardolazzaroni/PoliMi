@@ -2718,4 +2718,12 @@ da cui calcoliamo: ${\begin{cases}I_{3}=-4a^2e^2 \\  I_{2}=1-e^2\end{cases}}$
 
 La conica ottenuta è quindi non degenere per $a>0,e>0$, e risulta un'iperbole per $e>1$, un'ellisse per $0<e<1$, una parabola per $e=1$.
 
-Notiamo ancora che nel caso $0<e<1$ l'ellisse non è mai una circonferenza. Per diventare una circonferenza dovrebbe infatti essere $e=0$, il che però
+Notiamo ancora che nel caso $0<e<1$ l'ellisse non è mai una circonferenza. Per diventare una circonferenza dovrebbe infatti essere $e=0$, il che però corrisponde ad una conica degenere.
+
+
+
+
+# **Capitolo VIII: Quadriche**
+
+
+Se facciamo ruotare una 
