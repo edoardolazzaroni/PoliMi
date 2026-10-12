@@ -2601,6 +2601,7 @@ $(x-2)^2-4+2\left( y+\frac{3}{4} \right)^2-\frac{9}{8}+1=0\rightarrow\frac{(x-2)
 
 Perciò si tratta dell'ellisse reale di centro $\left( 2,-\frac{3}{4} \right)$ e semiassi $\sqrt{\frac{33}{8}},\frac{\sqrt{33}}{4}$.
 
+
 b) $I_{3}\ne 0,I_{2}<0$ perciò è una conica non degenere e precisamente un'iperbole. Riscrivendo:
 
 $x^2+x-1=\left( x+\frac{1}{2} \right)^2-\frac{1}{4}-1$
@@ -2609,4 +2610,7 @@ l'equazione prende la forma:
 
 $\left( x+\frac{1}{2} \right)^2-4y^2=\frac{5}{4}\rightarrow\frac{\left( x+\frac{1}{2} \right)^2}{\left( \frac{\sqrt{5}}{2} \right)^2}-\frac{y^2}{\left( \frac{\sqrt{5}}{4} \right)^2}=1$
 
-da cui leggiamo che è un'iperbole di centro $\left( -\frac{1}{2},0 \right)$, asintoti $y=\pm\frac{\left( \frac{\sqrt{5}}{4} \right)}{\left( \frac{\sqrt{5}}{4} \right)}$
+da cui leggiamo che è un'iperbole di centro $\left( -\frac{1}{2},0 \right)$, asintoti $y=\pm\frac{\left( \frac{\sqrt{5}}{4} \right)}{\left( \frac{\sqrt{5}}{2} \right)}\left( x+\frac{1}{2} \right)$, cioè $y=\pm\left( \frac{1}{2}x+\frac{1}{4} \right)$.
+
+
+c) Si ha $$
