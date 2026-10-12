@@ -2650,4 +2650,6 @@ Nel Teorema precedente abbiamo considerato solo coniche non degeneri. Per analog
 
 Si può dimostrare la seguente:
 
-- #PROPOSIZIONE 
+- #PROPOSIZIONE(13). **Tipi di coniche degeneri**
+	
+	Le coniche degeneri possono essere solo dei seguenti tipo:
