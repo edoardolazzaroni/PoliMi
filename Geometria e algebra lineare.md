@@ -2571,6 +2571,6 @@ $a_{22}y^2+2a_{23}y=a_{22}\left( y^2+2\frac{a_{23}}{a_{22}}y \right)=a_{22}\left
 
 perciò ponendo $y'=y+\frac{a_{23}}{a_{22}}$ l'equazione diventa: $a_{22}y'^2+2a_{13}x+a_{33}-\frac{a_{23}^2}{a_{22}}=0$.
 
-Ora dalle identità
+Ora dalle identità: $2a_{13}x+a_{33}-\frac{a_{23}^2}{a_{22}}=2a_{13}\left( x+\frac{a_{22}a_{33}-a_{23}^2}{2a_{13}a_{22}} \right)$
 
-$2a_{13}x+a_{33}-\frac{a_{23}^}$
+leggiamo che ponendo $x'=x+\fr$
