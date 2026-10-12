@@ -2450,4 +2450,9 @@ Si dimostra che, anche se $\mathbf{A}'$ in generale può avere tutti gli element
 
 *Dimostrazione* ( #TEOREMA(24)) sul libro.
 
-A titolo di esempio, calcoliamo gli invarianti $I_{2},I_{3}$ per l'ell
+
+A titolo di *esempio*, calcoliamo gli invarianti $I_{2},I_{3}$ per l'ellisse, la parabola e l'iperbole in forma canonica:
+
+- **Ellisse**:
+	$\frac{x^2}{a^2}+\frac{y^2}{b^2}=1;\quad$
+- 
