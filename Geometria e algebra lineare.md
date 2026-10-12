@@ -2470,4 +2470,6 @@ Notiamo che in tutti e tre i casi risulta $I_{3}\ne 0$, inoltre si ha: $I_{2}{\b
 D'altro canto sappiamo che una rototraslazione e una moltiplicazione dell'equazione per una costante non nulla non alterano il segno di $I_{2}$, quindi se una curva è un'ellisse/parabola/iperbole ([[#7.1 **Le coniche dal punto di vista elementare e le loro equazioni canoniche**|nel senso della geometria elementare]]), in qualunque sistema di riferimento la sua equazione ci darà $I_{2}$ rispettivamente positivo, nullo o negativo.
 <u>Il calcolo algebrico di tale quantità permette quindi immediatamente di riconoscere la conica</u>.
 
-Quest'argomentazione lascia però in ombra un punto delicato: presuppone infatti a priori che la curva sia una di que
+Quest'argomentazione lascia però in ombra un punto delicato: presuppone infatti a priori che la curva sia una di queste tre. Ciò che ci aspetta ora è quest'ultima parte dell'indagine: a partire da una qualsiasi equazione algebrica di secondo grado, riconoscere se e quando questa rappresenta effettivamente una conica nel senso elementare del termine.
+
+- #DEFINIZIONE ()
