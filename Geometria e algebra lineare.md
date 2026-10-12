@@ -2609,4 +2609,4 @@ $x^2+x-1=\left( x+\frac{1}{2} \right)^2-\frac{1}{4}-1$
 l'equazione prende la forma:
 
 $\left( x+\frac{1}{2} \right)^2-4y^2=\frac{5}{4}$
-$\frac{}$
+$\frac{\left( x+\frac{1}{2} \right)^2}{\left( \frac{\sqrt{5}}{2} \right)^2}-\fra{y^2}{\left( \frac{\sqr} \right)}$
