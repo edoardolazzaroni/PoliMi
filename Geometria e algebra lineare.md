@@ -2787,4 +2787,8 @@ Analogamente a quanto abbiamo visto per le coniche, l'azione di una rototraslazi
 Inoltre, scegliendo opportunamente la matrice $\mathbf{R}$ ortogonale nell'ultima espressione, $\mathbf{B}$ può essere diagonalizzata, ossia portata alla forma: $\mathbf{B}'=diag(a_{11}',a_{22}',a_{33}')$.
 
 Questo fatto sarà utile nella <u>riduzione a forma canonica della quadrica</u>.
-Notiamo anche che la matrice $\mathcal{R}$ è ancora ortogonale, perciò anc
+Notiamo anche che la matrice $\mathcal{R}$ è ancora ortogonale, perciò anche $\mathbf{A}$ e $\mathbf{A}'$ sono matrici simili e in particolare hanno lo stesso determinante.
+
+Eseguendo invece una traslazione, l'equazione della quadrica si trasforma in:
+
+$\mathbf{x}'\mathbf{R}$
