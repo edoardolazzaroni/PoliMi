@@ -2488,8 +2488,7 @@ Ci concentriamo ora sulle coniche non degeneri, per le quali vogliamo ottenere u
 
 - #TEOREMA(26). **Riconoscimento di una conica non degenere**
 	
-	Consideriamo una conica non degenere, cioè con $I_{3}\ne 0$. Allora:
-	
+	Consideriamo una conica non degenere, cioè con $I_{3}\ne 0$. Allora:	
 	- Se $I_{2}>0$ esiste una rototraslazione che la riduce alla forma canonica di un'ellisse:
 	
 		$\frac{x^2}{a^2}+\frac{y^2}{b^2}=1$ (reale) oppure $\frac{x^2}{a^2}+\frac{y^2}{b^2}=-1$ (immaginaria);
@@ -2502,4 +2501,5 @@ Ci concentriamo ora sulle coniche non degeneri, per le quali vogliamo ottenere u
 	
 		$y=ax^2\quad$ oppure $\quad x=by^2$.
 
-Notiamo che l'enuncia
+
+Notiamo che l'enunciato del Teorema insegna a riconoscere una conica non degenere per mezzo dei suoi invarianti. La dimostrazione del Teorema mostrerà come questo sia possibile costruendo effettivamente una rot
