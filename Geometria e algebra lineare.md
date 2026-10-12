@@ -2448,4 +2448,6 @@ Si dimostra che, anche se $\mathbf{A}'$ in generale può avere tutti gli element
 	Useremo talvolta questo genere di scrittura abbreviata.
 
 
-*Dimostrazione* ( #TEOREMA(24)):
+*Dimostrazione* ( #TEOREMA(24)) sul libro.
+
+A titolo di esempio, calcoliamo gli invarianti $I_{2},I_{3}$ per l'ell
