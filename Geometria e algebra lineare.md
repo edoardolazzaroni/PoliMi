@@ -2621,4 +2621,4 @@ Si noti che $\mathbf{v}_{1},\mathbf{v}_{2}$ sono ortogonali, ma non hanno modulo
 
 $\mathbf{v}_{1}'=\left( \frac{1}{\sqrt{2}},\frac{1}{\sqrt{2}} \right);\mathbf{v}_{2}=\left( \frac{1}{\sqrt{2}},-\frac{1}{\sqrt{2}} \right)$
 
-otteniam
+otteniamo la matrice di rotazione richiesta: $\mathbf{R}={\begin{pmatrix}\frac{1}{\sqrt{2}}&\frac{1}{\sqrt{2}} \\  \frac{1}{\sqrt{2}}&-\frac{1}{\sqrt{2}}\end{pmatrix}}\quad$ 
