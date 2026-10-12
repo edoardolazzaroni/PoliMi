@@ -2672,4 +2672,9 @@ e il calcolo mostra che $I_{3}=\det\mathbf{A}=0$ e $I_{2}=\det\mathbf{B}<0$. Si 
 $x^2-x(1-y)+(y-2y^2)=0$
 $x=\frac{(1-y)\pm\sqrt{(1-y)^2-4(y-2y^2)}}{2}=\frac{(1-y)\pm\sqrt{9y^2-6y+1}}{2}=\frac{(1-y)\pm(3y-1)}{2}$
 
-da cui otteniamo le due rette $x=y;x=$
+da cui otteniamo le due rette $x=y;x=1-2y$
+ossia l'equazione di partenza si può riscrivere così:
+
+$(x-y)(x+2y-1)=0$.
+
+La conica degenere in questo caso si spezza in due rette reali e disti
