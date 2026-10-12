@@ -2782,4 +2782,5 @@ $\mathbf{A}'=\begin{pmatrix}\mathbf{R}^\top&\mathbf{0}^\top \\  \mathbf{0}&1\end
 
 e in particolare $\mathbf{B}$ si trasforma in $\mathbf{B}'=\mathbf{R}^\top\mathbf{B}\mathbf{R}$.
 
-Analogamente a quanto 
+
+Analogamente a quanto abbiamo visto per le coniche, l'azione di una rototraslazione $\mathbf{R}$ su una quadrica trasforma quindi la matrice $\mathbf{B}$ dei coefficienti dei termini di $2^o$ grado 
