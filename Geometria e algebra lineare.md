@@ -2652,4 +2652,7 @@ Si può dimostrare la seguente:
 
 - #PROPOSIZIONE(13). **Tipi di coniche degeneri**
 	
-	Le coniche degeneri possono essere solo dei seguenti tipo:
+	Le coniche degeneri possono essere solo dei seguenti tipi:
+	
+	- un'ellisse degenere è costituita da un solo punto reale (ad es. $x^2+y^2=0$);
+	- una parabola degenere è costituita da una sola retta (reale) o da due rette parallele (reali p)
