@@ -2737,3 +2737,6 @@ Diamo quindi la seguente:
 	
 		$a_{11}x^2+a_{22}y^2+a_{33}z^2+2a_{12}xy+2a_{13}xz+2a_{23}yz+2a_{14}x+2a_{24}y+2a_{34}z+a_{44}=0$
 	
+	ovvero, in forma matriciale: $(x,y,z,1)\mathbf{A}(x,y,z,1)^\top=0$
+	dove:
+	$\mathbf{A}={\begin{pmatrix}\end{pmatrix}}$
