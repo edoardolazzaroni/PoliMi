@@ -2510,4 +2510,6 @@ l'ellisse immaginaria, curva priva di punti reali, che tuttavia in base alla def
 
 *Dimostrazione* ( #TEOREMA(26)):
 
-Per prima cosa cerchiamo una traslazione che ottenga come risultato di annullare i termini di primo grado (ovverro)
+Per prima cosa cerchiamo una traslazione che ottenga come risultato di annullare i termini di primo grado (ovvero i coefficienti $a_{13},a_{23}$). Questo equivale a cercare $u,v$, per cui si abbia:
+
+${\begin{cases}a_{13}+a_{11}u+a_{12}v=0 \\  \end{cases}}$
