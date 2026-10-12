@@ -2589,4 +2589,5 @@ Si osservi che abbiamo considerato tutti i casi possibili nell'ipotesi $I_{3}\ne
 (b) $x^2-4y^2+x-1=0$
 (c) $2xy+x+1=0$
 
-a) $I_{3}\ne 0,I{2}>0$
+a) $I_{3}\ne 0,I_{2}>0$ perciò è una conica non degenere e precisamente un'ellisse.
+Non è immediatamente evidente se si tratti di un'ellisse reale o immaginaria, ma con la tecnica di completamento dei quadrati, scriviamo 
