@@ -2602,4 +2602,6 @@ $\frac{(x-2)^2}{\frac{33}{8}}+\frac{\left( y+\frac{3}{4} \right)^2}{\frac{33}{16
 
 Perciò si tratta dell'ellisse reale di centro $\left( 2,-\frac{3}{4} \right)$ e semiassi $\sqrt{\frac{33}{8}},\frac{\sqrt{33}}{4}$.
 
-b) $I_{3}\ne 0,I_{2}<0$
+b) $I_{3}\ne 0,I_{2}<0$ perciò è una conica non degenere e precisamente un'iperbole. Riscrivendo:
+
+$x^2+x-1=\left( x+\frac{1}{2} \right)^2-\$
