@@ -2462,4 +2462,7 @@ A titolo di *esempio*, calcoliamo gli invarianti $I_{2},I_{3}$ per l'ellisse, la
 	$y=ax^2;\quad\mathbf{A}={\begin{pmatrix}a&0&0 \\  0&0&-1 \\  0&-1&0\end{pmatrix}}\rightarrow I_{3}=\det\mathbf{A}=-a;I_{2}=\det\mathbf{B}=0$.
 
 - **Iperbole**:
-	$\frac{x^2}{a^2}-\frac{y^2}{b^2}=\pm 1;\quad\mathbf{A}={\begin{pmatrix}\frac{1}{a^2}&0&0 \\  0&\frac{1}{b^2}&0 \\  0&0&-1\end{pmatrix}}\rightarrow I_{3}=\det\mathbf{A}=-\frac{1}{a^2b^2};I_{2}=\det\mathbf{B}=\frac{1}{a^2b^2}$
+	
+	$\frac{x^2}{a^2}-\frac{y^2}{b^2}=\pm 1;\quad\mathbf{A}={\begin{pmatrix}\frac{1}{a^2}&0&0 \\  0&-\frac{1}{b^2}&0 \\  0&0&\mp 1\end{pmatrix}}\rightarrow I_{3}=\det\mathbf{A}=\pm\frac{1}{a^2b^2};I_{2}=\det\mathbf{B}=-\frac{1}{a^2b^2}$.
+
+Notiamo che in tutti e tre i casi risulta $I_{3}\ne 0$, inoltre si ha: $I_{2}$
