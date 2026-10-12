@@ -2593,4 +2593,8 @@ a) $I_{3}\ne 0,I_{2}>0$ perciò è una conica non degenere e precisamente un'ell
 Non è immediatamente evidente se si tratti di un'ellisse reale o immaginaria, ma con la tecnica di completamento dei quadrati, scriviamo:
 
 $x^2-4x=(x-2)^2-4$
-$2y^2+3y=2()$
+$2y^2+3y=2\left( y+\frac{3}{4} \right)^2-\frac{9}{8}$
+
+e quindi l'equazione diventa:
+
+$(x-2)^2-4+2\left( y+\frac{3}{4} \right)^2$
