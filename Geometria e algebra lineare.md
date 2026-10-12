@@ -2784,4 +2784,6 @@ e in particolare $\mathbf{B}$ si trasforma in $\mathbf{B}'=\mathbf{R}^\top\mathb
 
 
 Analogamente a quanto abbiamo visto per le coniche, l'azione di una rototraslazione $\mathbf{R}$ su una quadrica trasforma quindi la matrice $\mathbf{B}$ dei coefficienti dei termini di $2^o$ grado della quadrica in una matrice simile $\mathbf{B}'$. In particolare, $\mathbf{B}$ e $\mathbf{B}'$ hanno lo stesso determinante.
-Inoltre, scegliendo opportunamente la matrice $\mathbf{R}$ ortogonale nell'ultima espressione, $\mathbf{R}$
+Inoltre, scegliendo opportunamente la matrice $\mathbf{R}$ ortogonale nell'ultima espressione, $\mathbf{B}$ può essere diagonalizzata, ossia portata alla forma: $\mathbf{B}'=diag(a_{11}',a_{22}',a_{33}')$.
+
+Questo fatto sarà utile nella riduzione a forma
