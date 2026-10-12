@@ -2586,4 +2586,7 @@ Si osservi che abbiamo considerato tutti i casi possibili nell'ipotesi $I_{3}\ne
 *Esempio*: Riconoscere le seguenti coniche e ridurle a forma canonica:
 
 (a) $x^2+2y^2-4x+3y+1=0$
-(b)
+(b) $x^2-4y^2+x-1=0$
+(c) $2xy+x+1=0$
+
+a) $I_{3}\ne 0,I{2}>0$
