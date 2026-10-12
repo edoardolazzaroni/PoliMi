@@ -2714,4 +2714,6 @@ $x^2(1-e^2)+y^2-2ax(1+e^2)+a^2(1-e^2)=0$
 
 che è la conica avente matrice dei coefficienti: $\mathbf{A}={\begin{pmatrix}1-e^2&0&-a(1+e^2) \\  0&1&0 \\  -a(1+e^2)&0&a^2(1-e^2)\end{pmatrix}}$
 
-da cui calcoliamo: ${\begin{cases}I_{3}=-4a^2e^2 \\  \end{cases}}$
+da cui calcoliamo: ${\begin{cases}I_{3}=-4a^2e^2 \\  I_{2}=1-e^2\end{cases}}$
+
+La conica ottenuta è quindi non degenere per $a>0,e>0$, e risulta un'iperbole per $e$
