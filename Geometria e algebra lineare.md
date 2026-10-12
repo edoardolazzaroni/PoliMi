@@ -2630,4 +2630,8 @@ l'equazione della conica diventa: $x'^2-y'^2+\frac{1}{\sqrt{2}}x'+\frac{1}{\sqrt
 
 Il completamento dei quadrati ci suggerisce ora la traslazione corretta da eseguire:
 
-$(x'-\frac{1}{2\sqrt{2}})$
+$\left( x'-\frac{1}{2\sqrt{2}} \right)^2-\frac{1}{8}-\left( y'+\frac{1}{2\sqrt{2}} \right)^2+\frac{1}{8}+1=0$
+
+Ponendo quindi:
+
+${\begin{cases}x''=x'-\frac{1}{2\sqrt{2}} \\  y\end{cases}}$
