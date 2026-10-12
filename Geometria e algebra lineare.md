@@ -2786,7 +2786,7 @@ e in particolare $\mathbf{B}$ si trasforma in $\mathbf{B}'=\mathbf{R}^\top\mathb
 Analogamente a quanto abbiamo visto per le coniche, l'azione di una rototraslazione $\mathbf{R}$ su una quadrica trasforma quindi la matrice $\mathbf{B}$ dei coefficienti dei termini di $2^o$ grado della quadrica in una matrice simile $\mathbf{B}'$. In particolare, $\mathbf{B}$ e $\mathbf{B}'$ hanno lo stesso determinante.
 Inoltre, scegliendo opportunamente la matrice $\mathbf{R}$ ortogonale nell'ultima espressione, $\mathbf{B}$ può essere diagonalizzata, ossia portata alla forma: $\mathbf{B}'=diag(a_{11}',a_{22}',a_{33}')$.
 
-Questo fatto sarà utile nella <u>riduzione a forma canonica della quadrica</u>.
+Questo fatto sarà <u>utile nella riduzione a forma canonica della quadrica</u>.
 Notiamo anche che la matrice $\mathcal{R}$ è ancora ortogonale, perciò anche $\mathbf{A}$ e $\mathbf{A}'$ sono matrici simili e in particolare hanno lo stesso determinante.
 
 Eseguendo invece una traslazione, l'equazione della quadrica si trasforma in:
@@ -2797,4 +2797,5 @@ dove la matrice $\mathbf{A}'$ ha gli stessi coefficienti di $\mathbf{A}$ nella p
 
 ${\begin{cases}a_{14}'=a_{11}u+a_{12}v+a_{13}w+a_{14} \\  a_{24}'=a_{12}u+a_{22}v+a_{23}w+a_{24} \\  a_{34}'=a_{13}u+a_{23}v+a_{33}w+a_{34} \\  a_{44}'=a_{11}u^2+a_{22}v^2+a_{33}w^2+2a_{12}uv+2a_{13}uw+2a_{23}uw+2a_{14}+2a_{24}+2a_{34}+a_{44}\end{cases}}$
 
-Anche queste relazioni ci saranno utili nella riduzione 
+Anche queste relazioni ci saranno <u>utili nella riduzione a forma canonica delle quadriche</u>.
+Possiamo ora enunciare il seguente:
