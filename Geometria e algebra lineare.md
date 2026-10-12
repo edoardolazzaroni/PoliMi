@@ -2531,3 +2531,6 @@ Qualsiasi rotazione trasformerà la conica in un'altra che ha ancora i termini $
 
 Noi desideriamo che $\mathbf{B}'$ risulti una matrice diagonale; poichè $\mathbf{B}$ è reale simmetrica, sappiamo che è sempre possibile diagonalizzarla mediante una matrice di rotazione, quindi: esiste una rotazione $\mathbf{R}$ che trasforma la conica in una di equazione (indicando i nuovi coefficienti ancora con i simboli $a_{ij}$ senza apici):
 
+$a_{11}x^2+a_{22}y^2+a_{33}=0$, ossia $\mathbf{A}=diag(a_{11},_{22},a_{33})$.
+
+Nel seguito 
