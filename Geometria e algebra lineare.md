@@ -2481,4 +2481,7 @@ Quest'argomentazione lascia però in ombra un punto delicato: presuppone infatti
 
 Vale il seguente teorema che ci limitiamo ad enunciare:
 
-- #TEOREMA(25). Una conica è degenere se e solo se si annulla il suo invariante $I_{3}$, cioè il detemrinan
+- #TEOREMA(25). Una conica è **degenere** se e solo se si annulla il suo invariante $I_{3}$, cioè il determinante della matrice dei coefficienti. In questo caso il luogo geometrico descritto nel piano dall'equazione può essere una coppia di rette, oppure una retta, oppure un punto.
+
+
+Ci concentri
