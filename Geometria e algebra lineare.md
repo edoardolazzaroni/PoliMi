@@ -2665,4 +2665,6 @@ I prossimi esempi illustrano alcune di queste situazioni:
 
 *Esempio*. Consideriamo la conica $x^2-2y^2+xy-x+y=0$.
 
-La matrice dei coefficienti è: $\mathbf{A}={\begin{pmatrix}\end{pmatrix}}$
+La matrice dei coefficienti è: $\mathbf{A}={\begin{pmatrix}1&\frac{1}{2}&-\frac{1}{2} \\  \frac{1}{2}&-2&\frac{1}{2} \\  -\frac{1}{2}&\frac{1}{2}&0\end{pmatrix}}$
+
+e il calcolo mostra che $I_{3}=\d$
