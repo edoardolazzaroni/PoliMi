@@ -2760,4 +2760,9 @@ Abbiamo visto nel  [[#6.3 **Condizioni di diagonalizzabilità**|capitolo 6.3]] c
 
 								${\begin{pmatrix}z \\  y \\  z\end{pmatrix}}=\mathbf{R}\begin{pmatrix}x' \\  y' \\  z'\end{pmatrix}$
 
-A differenza di quanto accade nel piano, <u>il prodotto di due trasformazioni ortogonali nello spazio non è commutativo</u>. Ad ogni modo la composizione di due trasformazioni ortogonali 
+A differenza di quanto accade nel piano, <u>il prodotto di due trasformazioni ortogonali nello spazio non è commutativo</u>. Ad ogni modo la composizione di due trasformazioni ortogonali è ancora una trasformazione ortogonale.
+Una traslazione è rappresentata da:
+
+					$\begin{pmatrix}x \\  y \\  z\end{pmatrix}=\mathbf{R}\begin{pmatrix}x' \\  y' \\  z'\end{pmatrix}+\begin{pmatrix}u \\  v \\  w\end{pmatrix}$
+
+La composizione di 
