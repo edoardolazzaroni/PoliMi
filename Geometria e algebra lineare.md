@@ -2663,8 +2663,8 @@ Per analogia con le coniche spezzate in due rette reali, nel caso dell'ellisse d
 I prossimi esempi illustrano alcune di queste situazioni:
 
 
-*Esempio*. Consideriamo la conica $x^2-2y^2+xy-x+y=0$.
+*Esempio* (1). Consideriamo la conica $x^2-2y^2+xy-x+y=0$.
 
 La matrice dei coefficienti è: $\mathbf{A}={\begin{pmatrix}1&\frac{1}{2}&-\frac{1}{2} \\  \frac{1}{2}&-2&\frac{1}{2} \\  -\frac{1}{2}&\frac{1}{2}&0\end{pmatrix}}$
 
-e il calcolo mostra che $I_{3}=\d$
+e il calcolo mostra che $I_{3}=\det\mathbf{A}=0$ e $I_{2}=\det\mathbf{B}<0$. Si tratta quindi di un'iperbole degenere che si spezza in due rette distinte. Per scomporre effettivamente il primo 
