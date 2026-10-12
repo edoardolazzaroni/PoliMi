@@ -2692,4 +2692,5 @@ La conica degenere in questo caso si spezza in due rette reali e distinte. Il fa
 	${\begin{cases}\mbox{iperbole}&\mbox{se}&e>1 \\  \mbox{parabola}&\mbox{se}&e=1 \\  \mbox{ellisse}&\mbox{se}&0<e<1\end{cases}}$
 
 
-Segnaliamo che questa caratterizzazione delle coniche mediante l'eccentricità presenta un'<u>eccezione</u>: la circonferenza non può essere ottenuta con questo procedimento (ra)
+Segnaliamo che questa caratterizzazione delle coniche mediante l'eccentricità presenta un'<u>eccezione</u>: la circonferenza non può essere ottenuta con questo procedimento, in quanto in un certo senso rappresenta il caso limite di conica con eccentricità nulla.
+Questo Teorema è alla base della rappresentazione delle coniche come curve in forma polare
