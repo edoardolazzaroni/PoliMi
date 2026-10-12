@@ -2726,4 +2726,4 @@ Notiamo ancora che nel caso $0<e<1$ l'ellisse non è mai una circonferenza. Per 
 # **Capitolo VIII: Quadriche**
 
 
-Se facciamo ruotare una 
+Se facciamo ruotare una parabola attor
