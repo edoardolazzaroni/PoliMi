@@ -2565,4 +2565,4 @@ La nuova equazione è quindi:
 
 $a_{22}y^2+2a_{13}x+2a_{23}y+a_{33}=0,\quad\mathbf{A}={\begin{pmatrix}0&0&a_{13} \\  0&a_{22}&a_{23} \\  a_{13}&a_{23}&a_{33}\end{pmatrix}}$
 
-con $a_{22}\ne 0$ altrimenti la curva non sarebbe del seco
+con $a_{22}\ne 0$ altrimenti la curva non sarebbe del second'ordine e $a_{13}\ne 0$, altrimenti si avrebbe $I_{3}=0$, ossia la conica sarebbe degenere. Cerchiamo una traslazione che annulli gli altri due coefficienti, $a_{23},a_{33}$. Con la tecnica di completamento del quadrato possiamo eliminare i
