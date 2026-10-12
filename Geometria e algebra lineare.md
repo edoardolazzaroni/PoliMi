@@ -2484,4 +2484,7 @@ Vale il seguente teorema che ci limitiamo ad enunciare:
 - #TEOREMA(25). Una conica è **degenere** se e solo se si annulla il suo invariante $I_{3}$, cioè il determinante della matrice dei coefficienti. In questo caso il luogo geometrico descritto nel piano dall'equazione può essere una coppia di rette, oppure una retta, oppure un punto.
 
 
-Ci concentri
+Ci concentriamo ora sulle coniche non degeneri, per le quali vogliamo ottenere una caratterizzazione completa in base ai loro invarianti.
+
+- #TEOREMA(26). **Riconoscimento di una conica non degenere**
+	Consideriamo una conica n
