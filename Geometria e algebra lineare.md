@@ -2567,4 +2567,6 @@ $a_{22}y^2+2a_{13}x+2a_{23}y+a_{33}=0,\quad\mathbf{A}={\begin{pmatrix}0&0&a_{13}
 
 con $a_{22}\ne 0$ altrimenti la curva non sarebbe del second'ordine e $a_{13}\ne 0$, altrimenti si avrebbe $I_{3}=0$, ossia la conica sarebbe degenere. Cerchiamo una traslazione che annulli gli altri due coefficienti, $a_{23},a_{33}$. Con la tecnica di completamento del quadrato possiamo eliminare il coefficiente della $y$:
 
-$a_{22}y^2+2a_{23}y=a_{22}\left( y^2+2\frac{a_{23}}{a_{22}}y \right)=a_{22}\left( y^2+2\frac{a_{23}}{a_{22}}y+\left( \frac{a_{23}}{a_{22}} \right)^2 \right)-\frac{a_{23}^2}{a_{22}}=a_{22}\left( y+\frac{a_{23}}{a_{22}} \right)^2$
+$a_{22}y^2+2a_{23}y=a_{22}\left( y^2+2\frac{a_{23}}{a_{22}}y \right)=a_{22}\left( y^2+2\frac{a_{23}}{a_{22}}y+\left( \frac{a_{23}}{a_{22}} \right)^2 \right)-\frac{a_{23}^2}{a_{22}}=a_{22}\left( y+\frac{a_{23}}{a_{22}} \right)^2-\frac{a_{23}^2}{a_{22}}$
+
+perciò ponendo $y'=y+\frac{a_{23}}{a_{22}}$ l'equazione diventa: $a_{22}y'^2+2a_{13}$
