@@ -2535,4 +2535,7 @@ $a_{11}x^2+a_{22}y^2+a_{33}=0$, ossia $\mathbf{A}=diag(a_{11},_{22},a_{33})$.
 
 (Nel seguito ci servirà saper calcolare esplicitamente la matrice di rotazione $\mathbf{R}$; a questo scopo è utile [[#6.3 **Condizioni di diagonalizzabilità**|ricordare]] che le sue colonne sono gli autovettori normalizzati relativi agli autovettori di $\mathbf{B}$)
 
-Poichè siamo nell'ipotesi di conica non degenere, $I_{3}\ne 0$ perciò i tre coefficienti $a_{11},a_{22},a_{33}$
+Poichè siamo nell'ipotesi di conica non degenere, $I_{3}\ne 0$ perciò i tre coefficienti $a_{11},a_{22},a_{33}\ne 0$.
+Distinguiamo ora i vari casi possibili in base al segno dei tre coefficienti rimasti: possiamo sempre supporre $a_{11}>0$ (eventualmente cambiando tutti i segni nell'equazione), perciò i casi sono:
+
+1. $a_{aa}>0$
