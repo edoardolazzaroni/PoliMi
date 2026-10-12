@@ -2619,4 +2619,6 @@ con autovettori relativi (ad esempio): $\mathbf{v}_{1}=(1,1);\mathbf{v}_{2}=(1,-
 
 Si noti che $\mathbf{v}_{1},\mathbf{v}_{2}$ sono ortogonali, ma non hanno modulo unitario. Normalizzandoli cioè calcolando:
 
-$\mathbf{v}_{1}'=\left( \frac{} \right)$
+$\mathbf{v}_{1}'=\left( \frac{1}{\sqrt{2}},\frac{1}{\sqrt{2}} \right);\mathbf{v}_{2}=\left( \frac{1}{\sqrt{2}},-\frac{1}{\sqrt{2}} \right)$
+
+otteniam
