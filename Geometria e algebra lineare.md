@@ -2748,4 +2748,5 @@ Diamo quindi la seguente:
 	non sia la matrice nulla (altrimenti non si tratterebbe di una superficie del second'ordine, ma del primo ovvero un piano).
 
 
-Anche se la definizione data è puramente algebrica, ci interessa studiare queste superfici dal pun
+Anche se la definizione data è puramente algebrica, ci interessa studiare queste superfici dal punto di vista geometrico. Come per le coniche, le proprietà geometriche sono quelle che non dipendono dal particolare sistema di riferimento scelto, ossia sono <u>invarianti per rototraslazioni</u>.
+Dopo aver richiamato 
