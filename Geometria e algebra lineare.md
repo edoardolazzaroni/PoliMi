@@ -2473,4 +2473,7 @@ D'altro canto sappiamo che una rototraslazione e una moltiplicazione dell'equazi
 Quest'argomentazione lascia però in ombra un punto delicato: presuppone infatti a priori che la curva sia una di queste tre. Ciò che ci aspetta ora è quest'ultima parte dell'indagine: a partire da una qualsiasi equazione algebrica di secondo grado, riconoscere se e quando questa rappresenta effettivamente una conica nel senso elementare del termine.
 
 - #DEFINIZIONE(26). Si dice che una conica è **degenere**, o **riducibile**, quando la sua equazione si può riscrivere nella forma:
-	$(ax+by+c)(a'x+b'y)$
+					
+						$(ax+by+c)(a'x+b'y+c')=0$
+	
+	per certi $a,b,c,a',b',c'\in$
