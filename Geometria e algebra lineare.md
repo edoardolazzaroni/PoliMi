@@ -2697,6 +2697,6 @@ Questo Teorema è alla base della rappresentazione delle coniche come curve in f
 
 *Dimostrazione* ( #TEOREMA(27)):
 
-Scegliamo un riferimento cartesiano in cui, detto $F$ il fuoco e $d$ la direttrice risulti, per qualche $a>0$, $\end{\begin{cases}\end{cases}}F(a,0)$ e $d:x=-a$.
+Scegliamo un riferimento cartesiano in cui, detto $F$ il fuoco e $d$ la direttrice risulti, per qualche $a>0$, ${\begin{cases}F(a,0) \\ d:x=-a \end{cases}}$.
 
-La definizione richiede
+La definizione richiede che, detto $P(x,y)$ il generico punto della conica
