@@ -2444,4 +2444,8 @@ Si dimostra che, anche se $\mathbf{A}'$ in generale può avere tutti gli element
 	
 						${\begin{pmatrix}\mathbf{A}&\mathbf{0}^\top \\  \mathbf{0}&a\end{pmatrix}}{\begin{pmatrix}\mathbf{A}'&\mathbf{0}^\top \\  \mathbf{0}&a'\end{pmatrix}}={\begin{pmatrix}\mathbf{AA'}&\mathbf{0}^\top \\  \mathbf{0}&aa'\end{pmatrix}}$
 	
-	come si può verificare riscrivendo il calcolo senza far uso della notazione a blocchi 
+	come si può verificare riscrivendo il calcolo senza far uso della notazione a blocchi.
+	Useremo talvolta questo genere di scrittura abbreviata.
+
+
+*Dimostrazione* ( #TEOREMA(24)):
