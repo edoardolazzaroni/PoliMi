@@ -2791,4 +2791,6 @@ Notiamo anche che la matrice $\mathcal{R}$ è ancora ortogonale, perciò anche $
 
 Eseguendo invece una traslazione, l'equazione della quadrica si trasforma in:
 
-$\mathbf{x}'\mathbf{R}$
+$\mathbf{x}'\mathbf{A}'\mathbf{x}'^\top=0$
+
+dove la matrice $\mathbf{A}'$ ha gli stessi coefficienti di $\mathbf{A}$ nella parte di secondo grado $(\mathbf{B}'=\mathbf{B})$, mentre gli 
