@@ -2551,4 +2551,7 @@ Distinguiamo ora i vari casi possibili in base al segno dei tre coefficienti rim
 	$\frac{x^2}{a^2}-\frac{y^2}{b^2}=1$ (iperbole in forma canonica).
 
 4. $a_{22}<0,a_{33}>0$. Dividendo per $a_{33}$ si può riscrivere l'equazione nella forma:
-	$\frac{x^2}{a^2}-\frac{y^2}{b^2}=1$
+
+	$\frac{x^2}{a^2}-\frac{y^2}{b^2}=-1$ (iperbole in forma canonica; si osservi che $I_{2}<0$ per entrambe).
+
+Consideriamo ora il caso lasciato in sospeso, in cui $I_{2}=0$
