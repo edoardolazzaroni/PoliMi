@@ -2614,4 +2614,10 @@ da cui leggiamo che è un'iperbole di centro $\left( -\frac{1}{2},0 \right)$, as
 
 
 c) Si ha $I_{3}\ne 0,I_{2}<0$ perciò si tratta di un'iperbole non degenere. Posto $\mathbf{B}={\begin{pmatrix}0&1 \\  1&0\end{pmatrix}}$
-cerchiamo 
+cerchiamo anzitutto autovalori e autovettori di $\mathbf{B}$. Un facile calcolo dà:
+
+$\lambda_{1}=1,\lambda_{2}=-1$
+
+con autovettori relativi (ad esempio):
+
+$\mathbf{v}_{1}=(1,1);\mathbf{B}$
