@@ -2563,4 +2563,4 @@ $\mathbf{B}={\begin{pmatrix}a_{11}&0 \\  0&a_{22}\end{pmatrix}}$
 Ricordiamo però che siamo nelle ipotesi $I_{2}\ne 0$, perciò si ha $a_{11}a_{22}=0$, quindi si annulla anche uno di questi coefficienti. Suppiamo ad esempio che sia $a_{11}=0$ (l'altro caso è analogo).
 La nuova equazione è quindi:
 
-$$
+$a_{22}y^2+2a_{13}x+2a_{23}y+a_{33}=0,\quad\mathbf{A}={\begin{pmatrix}0&0&a_{13} \\  0&a_{22}&\end{pmatrix}}$
