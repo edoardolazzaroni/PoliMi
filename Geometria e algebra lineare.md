@@ -2758,3 +2758,6 @@ Individueremo così facendo le equazioni in forma canonica dei vari tipi di quad
 
 Abbiamo visto nel  [[#6.3 **Condizioni di diagonalizzabilità**|capitolo 6.3]] che, nello spazio tridimensionale, una rotazione rispetto all'origine, eventualmente accompagnata da una riflessione rispetto ad un piano passante per l'origine, si può rappresentare mediante una matrice $\mathbf{R}$, $(3,3)$ ed ortogonale:
 
+								${\begin{pmatrix}z \\  y \\  z\end{pmatrix}}=\mathbf{R}\begin{pmatrix}x' \\  y' \\  z'\end{pmatrix}$
+
+A differenza di quanto
