@@ -2613,4 +2613,5 @@ $\left( x+\frac{1}{2} \right)^2-4y^2=\frac{5}{4}\rightarrow\frac{\left( x+\frac{
 da cui leggiamo che è un'iperbole di centro $\left( -\frac{1}{2},0 \right)$, asintoti $y=\pm\frac{\left( \frac{\sqrt{5}}{4} \right)}{\left( \frac{\sqrt{5}}{2} \right)}\left( x+\frac{1}{2} \right)$, cioè $y=\pm\left( \frac{1}{2}x+\frac{1}{4} \right)$.
 
 
-c) Si ha $$
+c) Si ha $I_{3}\ne 0,I_{2}<0$ perciò si tratta di un'iperbole non degenere. Posto $\mathbf{B}={\begin{pmatrix}0&1 \\  1&0\end{pmatrix}}$
+cerchiamo 
