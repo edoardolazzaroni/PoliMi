@@ -2793,4 +2793,6 @@ Eseguendo invece una traslazione, l'equazione della quadrica si trasforma in:
 
 $\mathbf{x}'\mathbf{A}'\mathbf{x}'^\top=0$
 
-dove la matrice $\mathbf{A}'$ ha gli stessi coefficienti di $\mathbf{A}$ nella parte di secondo grado $(\mathbf{B}'=\mathbf{B})$, mentre gli 
+dove la matrice $\mathbf{A}'$ ha gli stessi coefficienti di $\mathbf{A}$ nella parte di secondo grado $(\mathbf{B}'=\mathbf{B})$, mentre gli altri coefficienti cambiano secondo la legge:
+
+${\begin{cases}a_{14}'=a_{11}u+a_{12}v+a_{13}w+a_{14} \\  a_{24}'=a_{12}u+a_{22}v+a_{23}w+a_{14}\end{cases}}$
