@@ -2659,4 +2659,4 @@ Si può dimostrare la seguente:
 	- un'iperbole degenere è costituita da due rette (reali) distinte o incidenti (ad *es.* $x^2-y^2=0$).
 
 
-Per analogia con le coniche spezza
+Per analogia con le coniche spezzate in due rette reali, nel caso dell'ellisse degenere (un punto) si dice anche che la conica si spezza in due rette complesse coniugate che si intersecano in un punto reale (ad es. $y=\pm ix$)
