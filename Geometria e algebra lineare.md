@@ -2467,4 +2467,4 @@ A titolo di *esempio*, calcoliamo gli invarianti $I_{2},I_{3}$ per l'ellisse, la
 
 Notiamo che in tutti e tre i casi risulta $I_{3}\ne 0$, inoltre si ha: $I_{2}{\begin{cases}>0& \mbox{per l'ellisse} \\  =0 & \mbox{per la parabola} \\  <0& \mbox{per l'iperbole}\end{cases}}$.
 
-D'altro canto sappiamo che una rototraslazione e una moltiplicazione dell'equazione per una costante non nulla non alterano il segno di $I_{2}$
+D'altro canto sappiamo che una rototraslazione e una moltiplicazione dell'equazione per una costante non nulla non alterano il segno di $I_{2}$, quindi se una curva è un'ellisse/parabola/iperbole ([[#7.1]] nel senso della geometria elementare)
