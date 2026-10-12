@@ -2490,4 +2490,6 @@ Ci concentriamo ora sulle coniche non degeneri, per le quali vogliamo ottenere u
 	
 	Consideriamo una conica non degenere, cioè con $I_{3}\ne 0$. Allora:
 	
-	- Se $I_{2}>0$ esiste una rototraslazione che la riduce alla forma canonica di un'ellisse:
+	- Se $I_{2}>0$ esiste una rototraslazione che la riduce alla forma canonica di un'ellisse reale:
+		$\frac{x^2}{a^2}+\frac{y^2}{b^2}=1;\quad\mathbf{A}={\begin{pmatrix}\frac{1}{a^2}&0&0 \\  0&\frac{1}{b^2}&0 \\  0&0&-1\end{pmatrix}}\rightarrow I_{3}=\det\mathbf{A}=-\frac{1}{a^2b^2};I_{2}=\det\mathbf{B}=\frac{1}{a^2b^2}$
+	- 
