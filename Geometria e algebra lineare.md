@@ -2556,4 +2556,6 @@ Distinguiamo ora i vari casi possibili in base al segno dei tre coefficienti rim
 
 Consideriamo ora il caso lasciato in sospeso, in cui $I_{2}=0$: si dice che **la conica non è a centro**.
 
-Cerchiamo direttamente una rotazione che annulli il coefficiente $a_{12}$: esiste sempre una rotazioen $$
+Cerchiamo direttamente una rotazione che annulli il coefficiente $a_{12}$: esiste sempre una rotazione $\mathbf{R}$ che trasforma la matrice $\mathbf{A}$ in modo che $\mathbf{B}$ risulti diagonalizzata. Dopo la rotazione la conica ha quindi una nuova matrice:
+
+$\mathbf{B}={\begin{pmatrix}\end{pmatrix}}$
