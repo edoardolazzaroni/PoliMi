@@ -2693,4 +2693,7 @@ La conica degenere in questo caso si spezza in due rette reali e distinte. Il fa
 
 
 Segnaliamo che questa caratterizzazione delle coniche mediante l'eccentricità presenta un'<u>eccezione</u>: la circonferenza non può essere ottenuta con questo procedimento, in quanto in un certo senso rappresenta il caso limite di conica con eccentricità nulla.
-Questo Teorema è alla base della rappresentazione delle coniche come curve in forma polare
+Questo Teorema è alla base della rappresentazione delle coniche come curve in forma polare.
+
+*Dimostrazione* ( #TEOREMA(27)):
+Scegliamo un riferimento cartesiano in cui, detto %
