@@ -2583,7 +2583,7 @@ che è una parabola in forma canonica.
 Si osservi che abbiamo considerato tutti i casi possibili nell'ipotesi $I_{3}\ne 0$ e abbiamo riscontrato che la conica è effettivamente un'iperbole se $I_{2}<0$, un'ellisse reale o immaginaria se $I_{2}>0$, una parabola se $I_{2}=0$. Il Teorema è quindi dimostrato.
 
 
-*Esempio*: Riconoscere le seguenti coniche e ridurle a forma canonica:
+*Esempio*. Riconoscere le seguenti coniche e ridurle a forma canonica:
 
 (a) $x^2+2y^2-4x+3y+1=0$
 (b) $x^2-4y^2+x-1=0$
@@ -2659,4 +2659,5 @@ Si può dimostrare la seguente:
 	- un'iperbole degenere è costituita da due rette (reali) distinte o incidenti (ad *es.* $x^2-y^2=0$).
 
 
-Per analogia con le coniche spezzate in due rette reali, nel caso dell'ellisse degenere (un punto) si dice anche che la conica si spezza in due rette complesse coniugate che si intersecano in un punto reale (ad *es.* $y=\pm ix$, che si interseca nell'origine $O$) e nel caso della parabola che degenera all'insieme vuoto si dice anche che la conica si spezza in due rette parallele immagina
+Per analogia con le coniche spezzate in due rette reali, nel caso dell'ellisse degenere (un punto) si dice anche che la conica si spezza in due rette complesse coniugate che si intersecano in un punto reale (ad *es.* $y=\pm ix$, che si interseca nell'origine $O$) e nel caso della parabola che degenera all'insieme vuoto si dice anche che la conica si spezza in due rette parallele immaginarie (ad *es.* $y=\pm i$, che non hanno alcun punto reale).
+I prossimi esempi illustrano alcune di queste situazioni:
