@@ -2529,4 +2529,4 @@ Le coniche con $I_{2}\ne 0$ si dicono perciò **coniche a centro**.
 Ora cerchiamo una rotazione che abbia come effetto di annullare il coefficiente $a_{12}$.
 Qualsiasi rotazione trasformerà la conica in un'altra che ha ancora i termini $a_{13},a_{23}$ mancanti, e la matrice $\mathbf{B}$ si trasformerà secondo la legge $\mathbf{B}'=\mathbf{R}^\top\mathbf{B}\mathbf{R}$.
 
-Noi desideriamo che $\mathbf{B}'$ risulti una matrice diagonale; poichè $\mathbf{B}$ è reale simmetrica, sappiamo che 
+Noi desideriamo che $\mathbf{B}'$ risulti una matrice diagonale; poichè $\mathbf{B}$ è reale simmetrica, sappiamo che è sempre possibile diagonalizzarla mediante una matrice di rotazione, quindi: esiste una rotazione $\mathbf{B}$
