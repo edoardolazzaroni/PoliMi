@@ -2691,4 +2691,5 @@ La conica degenere in questo caso si spezza in due rette reali e distinte. Il fa
 	
 	${\begin{cases}\mbox{iperbole}&\mbox{se}&e>1 \\  \mbox{parabola}&\mbox{se}&e=1 \\  \mbox{ellisse}&\mbox{se}&0<e<1\end{cases}}$
 
-Segna
+
+Segnaliamo che questa caratterizzazione delle coniche mediante l'eccentricità presenta un'<u>eccezione</u>: la circonferenza non può essere ottenuta con questo procedimento (ra)
