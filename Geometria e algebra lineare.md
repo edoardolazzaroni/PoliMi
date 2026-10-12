@@ -2604,4 +2604,9 @@ Perciò si tratta dell'ellisse reale di centro $\left( 2,-\frac{3}{4} \right)$ e
 
 b) $I_{3}\ne 0,I_{2}<0$ perciò è una conica non degenere e precisamente un'iperbole. Riscrivendo:
 
-$x^2+x-1=\left( x+\frac{1}{2} \right)^2-\$
+$x^2+x-1=\left( x+\frac{1}{2} \right)^2-\frac{1}{4}-1$
+
+l'equazione prende la forma:
+
+$\left( x+\frac{1}{2} \right)^2-4y^2=\frac{5}{4}$
+$\frac{}$
