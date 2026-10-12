@@ -2661,3 +2661,8 @@ Si può dimostrare la seguente:
 
 Per analogia con le coniche spezzate in due rette reali, nel caso dell'ellisse degenere (un punto) si dice anche che la conica si spezza in due rette complesse coniugate che si intersecano in un punto reale (ad *es.* $y=\pm ix$, che si interseca nell'origine $O$) e nel caso della parabola che degenera all'insieme vuoto si dice anche che la conica si spezza in due rette parallele immaginarie (ad *es.* $y=\pm i$, che non hanno alcun punto reale).
 I prossimi esempi illustrano alcune di queste situazioni:
+
+
+*Esempio*. Consideriamo la conica $x^2-2y^2+xy-x+y=0$.
+
+La matrice dei coefficienti è: $\mathbf{A}={\begin{pmatrix}\end{pmatrix}}$
