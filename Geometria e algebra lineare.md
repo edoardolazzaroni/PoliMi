@@ -2454,5 +2454,5 @@ Si dimostra che, anche se $\mathbf{A}'$ in generale può avere tutti gli element
 A titolo di *esempio*, calcoliamo gli invarianti $I_{2},I_{3}$ per l'ellisse, la parabola e l'iperbole in forma canonica:
 
 - **Ellisse**:
-	$\frac{x^2}{a^2}+\frac{y^2}{b^2}=1;\quad$
+	$\frac{x^2}{a^2}+\frac{y^2}{b^2}=1;\quad\mathbf{A}={\begin{pmatrix}\frac{1}{a^2}&0&0 \\  0&\frac{1}{b^2}&0 \\  0&0&-1\end{pmatrix}}\rightarrow I_{3}$
 - 
