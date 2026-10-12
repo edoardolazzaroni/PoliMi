@@ -2771,3 +2771,7 @@ Vediamo più da vicino come cambia l'equazione di una quadrica sotto l'azione di
 Se $\mathbf{R}$ è una matrice ortogonale $(3,3)$, ponendo $\mathbf{x}=(x,y,z,1),\mathbf{x}'=(x',y',z',1)$, possiamo riscrivere (utilizzando la scrittura delle matrici a blocchi e ponendo $(0,0,0)=\mathbf{0}$):
 
 $\mathbf{x}^\top=\begin{pmatrix}\mathbf{R}&\mathbf{0}^\top \\  \mathbf{0}&1\end{pmatrix}\mathbf{x}'^\top$, quindi $\mathbf{x}=\mathbf{x}'\begin{pmatrix}\mathbf{R}^\top&\mathbf{0}^\top \\ \mathbf{0}&1\end{pmatrix}$
+
+che sostituite nell'equazione matriciale della quadrica $\mathbf{x}\mathbf{A}\mathbf{x}^\top=0$ danno:
+
+$\mathbf{R}$
