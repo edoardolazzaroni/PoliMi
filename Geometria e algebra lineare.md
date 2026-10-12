@@ -2498,4 +2498,8 @@ Ci concentriamo ora sulle coniche non degeneri, per le quali vogliamo ottenere u
 		
 		$\frac{x^2}{a^2}-\frac{y^2}{b^2}=1\quad$ oppure $\quad\frac{x^2}{a^2}-\frac{y^2}{b^2}=-1$;
 		
-	- Se $I_{2}=0$ esiste una rototralsazione
+	- Se $I_{2}=0$ esiste una rototraslazione che la riduce alla forma canonica di una parabola:
+	
+		$y=ax^2\quad$ oppure $\quad x=by^2$.
+
+Notiamo che l'enuncia
