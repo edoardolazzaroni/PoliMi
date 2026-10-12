@@ -2644,4 +2644,10 @@ $x''^2-y''^2=-1$.
 Nel Teorema precedente abbiamo considerato solo coniche non degeneri. Per analogia a quanto stabilito in tale Teorema possiamo ora dare la seguente:
 
 - #DEFINIZIONE(27). Consideriamo una conica degenere. Diremo ancora che la conica è una:
-	${\begin{cases}\mbox{ellisse (degenere)} \\  \mbox{ellisse (degenere)}\end{cases}}$
+	
+	${\begin{cases}\mbox{ellisse (degenere)} \\  \mbox{parabola (degenere)} \\  \mbox{iperbole (degenere)}\end{cases}}$ se ${\begin{cases}>0 \\  =0 \\  <0\end{cases}}$.
+
+
+Si può dimostrare la seguente:
+
+- #PROPOSIZIONE 
