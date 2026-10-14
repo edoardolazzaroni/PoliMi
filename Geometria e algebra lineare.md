@@ -3122,8 +3122,10 @@ B) $\mathcal{I}_{4}= 0 \implies$ **quadrica degenere**.
 
 - $\mathcal{I}_{3}= 0 \implies$ cilindro o una quadrica spezzata, precisamente:
 
-|     | Gli autovalori di $\mathbf{B}$ sono: |                         |           |
-| --- | ------------------------------------ | ----------------------- | --------- |
-|     | uno nullo, due concordi              | uno nullo, due discordi | due nulli |
-|     |                                      |                         |           |
-$Car\mathbf{A}$
+|                    | Gli autovalori di $\mathbf{B}$ sono:           |                         |           |
+| ------------------ | ---------------------------------------------- | ----------------------- | --------- |
+|                    | uno nullo, due concordi                        | uno nullo, due discordi | due nulli |
+| $car \mathbf{A}=3$ | cilindro ellittico o immaginario ($\emptyset$) |                         |           |
+| $car \mathbf{A}=2$ |                                                |                         |           |
+| $car \mathbf{A}=1$ |                                                |                         |           |
+$\emptyset$
