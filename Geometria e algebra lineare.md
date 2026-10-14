@@ -3042,4 +3042,5 @@ Studiamo quindi queste due superfici, che sono rispettivamente:
 	- per $z_{0}<0$ è del tipo: $\frac{x^2}{A^2}-\frac{y^2}{B^2}=1$
 	
 	Il piano $z=0$ taglia la superficie lungo le due rette $y=\pm \frac{b}{a}x$, ed è illimitata e connessa.
-	Se $a=b$ l'iperbole è equilatera; in ogni cao 
+	Se $a=b$ l'iperbole è equilatera; in ogni caso la quadrica <u>non è una superficie di rotazione</u>.
+	Tagliando la superficie con un piano contenente l'asse $z$, cioè del tipo $\alpha x+\beta y=0$, si ottiene sempre una parabola, ch
