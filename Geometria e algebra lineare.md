@@ -3079,3 +3079,7 @@ Le quadriche non a centro e spezzate sono invece le seguenti:
 Si osservi che anche le quadriche spezzate, a rigore, soddisfano la definizione che abbiamo dato di cilindro (consistono tutte di rette parallele ad una asse); solitamente si riserva il nome di cilindro alle superfici che non si spezzano in piani.
 
 
+
+### 8.4 **Riconoscimento di una quadrica mediante gli invarianti**
+
+Nel paragrafo precedente abbiamo passato in rassegna tutti i casi possibili, ottenendo quindiu
