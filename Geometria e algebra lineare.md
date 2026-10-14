@@ -3043,4 +3043,5 @@ Studiamo quindi queste due superfici, che sono rispettivamente:
 	
 	Il piano $z=0$ taglia la superficie lungo le due rette $y=\pm \frac{b}{a}x$, ed è illimitata e connessa.
 	Se $a=b$ l'iperbole è equilatera; in ogni caso la quadrica <u>non è una superficie di rotazione</u>.
-	Tagliando la superficie con un piano contenente l'asse $z$, cioè del tipo $\alpha x+\beta y=0$, si ottiene sempre una parabola, ch
+	Tagliando la superficie con un piano contenente l'asse $z$, cioè del tipo $\alpha x+\beta y=0$, si ottiene sempre una parabola, che però a seconda della direzione del piano di sezione è concava verso l'alto o verso il basso.
+	Come l'iperboloide a una falda anche il paraboloide iperbolico è una superficie rigata.
