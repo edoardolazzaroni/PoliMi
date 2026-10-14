@@ -3122,12 +3122,11 @@ B) $\mathcal{I}_{4}= 0 \implies$ **quadrica degenere**.
 
 - $\mathcal{I}_{3}= 0 \implies$ cilindro o una quadrica spezzata, precisamente:
 
-|                    | Gli autovalori di $\mathbf{B}$ sono:           |                         |                     |
-| ------------------ | ---------------------------------------------- | ----------------------- | ------------------- |
-|                    | uno nullo, due concordi                        | uno nullo, due discordi | due nulli           |
-| $car \mathbf{A}=3$ | cilindro ellittico o immaginario ($\emptyset$) | cilindro iperbolico     | cilindro parabolico |
-| $car \mathbf{A}=2$ | 2 piani immaginari incidenti                   |                         |                     |
-| $car \mathbf{A}=1$ |                                                |                         |                     |
-|                    |                                                |                         |                     |
-|                    |                                                |                         |                     |
+|                    | Gli autovalori di $\mathbf{B}$ sono:           | Gli autovalori di $\mathbf{B}$ sono: |                                                     |
+| ------------------ | ---------------------------------------------- | ------------------------------------ | --------------------------------------------------- |
+|                    | uno nullo, due concordi                        | uno nullo, due discordi              | due nulli                                           |
+| $car \mathbf{A}=3$ | cilindro ellittico o immaginario ($\emptyset$) | cilindro iperbolico                  | cilindro parabolico                                 |
+| $car \mathbf{A}=2$ | 2 piani immaginari incidenti (retta reale)     | 2 piani reali incidenti              | 2 piani paralleli o 2 piani immaginari($\emptyset$) |
+| $car \mathbf{A}=1$ |                                                |                                      |                                                     |
+
 $\emptyset$
