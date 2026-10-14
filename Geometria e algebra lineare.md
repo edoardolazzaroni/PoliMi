@@ -2929,6 +2929,7 @@ Descriviamo ora brevemente tali superfici:
 								$\frac{x^2}{a^2}+\frac{y^2}{b^2}=1+\frac{z_{0}^2}{c^2}$
 	
 	I semiassi delle sezioni ellittiche crescono al crescere di $|z_{0}|$. La superficie è illimitata e connessa (cioè "formata da un pezzo solo", motivo per cui si dice a una falda).
-	In particolare, per $a=b$ l'ellisse è una circonferenza e la quadrica è di rotazione, ottenuta facendo ruotare attorno all'asse $z$ l'iperbole $\frac{x^2}{a^2}-\frac{z^2}{c^2}=1$ nel piano $xz$ (da cui il nome iperboloide). Sezionando invece 
+	In particolare, per $a=b$ l'ellisse è una circonferenza e la quadrica è di rotazione, ottenuta facendo ruotare attorno all'asse $z$ l'iperbole $\frac{x^2}{a^2}-\frac{z^2}{c^2}=1$ nel piano $xz$ (da cui il nome iperboloide). Sezionando invece la superficie con un piano contenente l'asse $z$, ossia del tipo $\alpha x+\beta y=0$, si ottiene un'iperbole, come si verifica facilmente.
+	Un particolarità di questa superficie è di contenere 
 
 - 
