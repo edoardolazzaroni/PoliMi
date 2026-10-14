@@ -3067,8 +3067,8 @@ Per cilindro (in senso lato) si intende una superficie formata da tutte le rette
 
 Le quadriche non a centro e spezzate sono invece le seguenti:
 
-$\frac{x^2}{a^2}-y$
+$\frac{x^2}{a^2}-\frac{y^2}{b^2}=0$ $z$
 
-| Quadriche spezzate |     |
-| ------------------ | --- |
-|                    |     |
+| Quadriche spezzate                  |                                                                         |
+| ----------------------------------- | ----------------------------------------------------------------------- |
+| $\frac{x^2}{a^2}-\frac{y^2}{b^2}=0$ | due piani (reali, $y=\pm \frac{b}{a}x$), incidenti su una retta (asse ) |
