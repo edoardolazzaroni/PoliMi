@@ -3122,6 +3122,6 @@ B) $\mathcal{I}_{4}= 0 \implies$ **quadrica degenere**.
 
 - $\mathcal{I}_{3}= 0 \implies$ cilindro o una quadrica spezzata, precisamente:
 
-|     |     |
-| --- | --- |
-|     |     |
+|     | Gli autovalori di  |
+| --- | ------------------ |
+|     |                    |
