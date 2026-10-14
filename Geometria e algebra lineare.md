@@ -3131,10 +3131,11 @@ B) $\mathcal{I}_{4}= 0 \implies$ **quadrica degenere**.
 
 Per distinguere tra loro il caso del cilindro reale o immaginario (o tra due piani reali o immaginari) la cosa più semplice solitamente è cercare almeno un punto reale che soddisfi l'equazione.
 
+
 *Esempio*: Riconoscere le seguenti quadriche:
 
 a) $xy+z^2+1=0$
 b) $x^2-y^2+4z^2-4xz-z+3=0$
 c) $x^2+y^2+z^2+2xy-3=0$
 
-(a) L
+(a)
