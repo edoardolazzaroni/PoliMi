@@ -2799,3 +2799,6 @@ ${\begin{cases}a_{14}'=a_{11}u+a_{12}v+a_{13}w+a_{14} \\  a_{24}'=a_{12}u+a_{22}
 
 Anche queste relazioni ci saranno <u>utili nella riduzione a forma canonica delle quadriche</u>.
 Possiamo ora enunciare il seguente:
+
+- #TEOREMA(28). **Invarianti di una quadrica**
+	
