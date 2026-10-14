@@ -2933,6 +2933,8 @@ Descriviamo ora brevemente tali superfici:
 	Un particolarità di questa superficie è di <u>contenere due famiglie di rette</u>. Infatti, riscrivendo l'equazione nella forma:
 	
 								$\frac{x^2}{a^2}-\frac{z^2}{c^2}=1-\frac{y^2}{b^2}$
+	
 	si osserva che le due famiglie di rette:
+	$\begin{cases}\frac{x}{a}+\frac{z}{c}=h\left( 1+\frac{y}{b} \right) \\  \frac{x}{a}-\frac{z}{c}\left( \frac{1}{h}\left( 1-\frac{y}{} \right) \right)\end{cases}$
 
 - 
