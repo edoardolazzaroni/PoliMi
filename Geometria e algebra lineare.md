@@ -3082,4 +3082,9 @@ Si osservi che anche le quadriche spezzate, a rigore, soddisfano la definizione 
 
 ### 8.4 **Riconoscimento di una quadrica mediante gli invarianti**
 
-Nel paragrafo precedente abbiamo passato in rassegna tutti i casi possibili, ottenendo quindi una classificazione completa delle quadriche. È utile a questo punto riepilogare i casi ottenuti, calcolando in ciascuno di essi gli invarianti della quadrica, al fine di poter poi procedere in senso inverso, ossia: data l'equazione di una quadrica qualsiasi, dal calcolo degli invarianti riaslire imme
+Nel paragrafo precedente abbiamo passato in rassegna tutti i casi possibili, ottenendo quindi una classificazione completa delle quadriche. È utile a questo punto riepilogare i casi ottenuti, calcolando in ciascuno di essi gli invarianti della quadrica, al fine di poter poi procedere in senso inverso, ossia: data l'equazione di una quadrica qualsiasi, dal calcolo degli invarianti risalire immediatamente al tipo di quadrica.
+Il prossimi schema riassume gli elementi utili al riconoscimento delle quadriche in base agli invarianti.
+
+La prima distizione da fare è:
+
+a) $\mathcal{I}_{4}\ne 0-\$
