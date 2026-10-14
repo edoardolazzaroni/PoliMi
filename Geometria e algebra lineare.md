@@ -2967,4 +2967,8 @@ Descriviamo ora brevemente tali superfici:
 	
 								$\frac{y^2}{b^2}+\frac{z^2}{c^2}=\frac{x_{0}^2}{a^2}-1$
 	
-	In particolare se $b=c$ quest'ellisse è una circonferenza e la quadrica è di rotazione, ottenuta facendo ruotare attorno all'asse $x$ l'iperboe
+	In particolare se $b=c$ quest'ellisse è una circonferenza e la quadrica è di rotazione, ottenuta facendo ruotare attorno all'asse $x$ l'iperbole:
+	
+									$\frac{x^2}{a^2}-\frac{y^2}{b^2}=1$
+	
+	(nel piano $xy$). Tagliano invece la superficie
