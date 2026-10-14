@@ -3093,3 +3093,5 @@ B) $\mathcal{I}_{4}= 0 \implies$ **quadrica degenere**.
 
 (A) **Riconoscimento delle quadriche non degeneri ($\mathcal{I}_{4}\ne 0$)**:
 
+- $\mathcal{I}_{3}\ne 0 \implies$ quadrica non degenere **a centro**
+	Esistono quattro tipi, che si riconoscono in base al segno dell'invariante $\mathcal{I}_{4}$ e alle relazioni 
