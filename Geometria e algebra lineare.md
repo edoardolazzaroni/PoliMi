@@ -2982,3 +2982,5 @@ Descriviamo ora brevemente tali superfici:
 
 
 
+### 8.3 **Riduzione a forma canonica delle quadriche: quadriche non a centro**
+
