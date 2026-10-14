@@ -2880,4 +2880,4 @@ Discutiamo subito questa situazione, ossia consideriamo una <u>quadrica a centro
 
 						$a_{11}x^2+a_{22}y^2+a_{33}z^2=0$
 
-L'unica distinzione di rilievo
+L'unica distinzione di rilievo, per quanto riguard
