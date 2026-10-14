@@ -2848,4 +2848,5 @@ Chiediamoci anzitutto se esiste una traslazione che abbia come effetto quello di
 						$\begin{cases}a_{11}u+a_{12}v+a_{13}w+a_{14}=0 \\  a_{12}u+a_{22}v+a_{23}w+a_{24}=0 \\  a_{13}u+a_{23}v+a_{33}w+a_{34}=0\end{cases}$
 
 che è un sistema lineare di tre eq. in 3 incognite, avente per matrice dei coefficienti $\mathbf{B}$.
-La 
+La traslazione cercata quindi esiste certamente se $\mathcal{I}_{3}\ne 0$; mettiamoci in tale ipotesi.
+Dopo la traslazione quindi 
