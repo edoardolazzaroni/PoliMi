@@ -2786,5 +2786,215 @@ e in particolare $\mathbf{B}$ si trasforma in $\mathbf{B}'=\mathbf{R}^\top\mathb
 Analogamente a quanto abbiamo visto per le coniche, l'azione di una rototraslazione $\mathbf{R}$ su una quadrica trasforma quindi la matrice $\mathbf{B}$ dei coefficienti dei termini di $2^o$ grado della quadrica in una matrice simile $\mathbf{B}'$. In particolare, $\mathbf{B}$ e $\mathbf{B}'$ hanno lo stesso determinante.
 Inoltre, scegliendo opportunamente la matrice $\mathbf{R}$ ortogonale nell'ultima espressione, $\mathbf{B}$ può essere diagonalizzata, ossia portata alla forma: $\mathbf{B}'=diag(a_{11}',a_{22}',a_{33}')$.
 
-Questo fatto sarà utile nella <u>riduzione a forma canonica della quadrica</u>.
+Questo fatto sarà <u>utile nella riduzione a forma canonica della quadrica</u>.
+Notiamo anche che la matrice $\mathcal{R}$ è ancora ortogonale, perciò anche $\mathbf{A}$ e $\mathbf{A}'$ sono matrici simili e in particolare hanno lo stesso determinante.
 
+Eseguendo invece una traslazione, l'equazione della quadrica si trasforma in:
+
+$\mathbf{x}'\mathbf{A}'\mathbf{x}'^\top=0$
+
+dove la matrice $\mathbf{A}'$ ha gli stessi coefficienti di $\mathbf{A}$ nella parte di secondo grado $(\mathbf{B}'=\mathbf{B})$, mentre gli altri coefficienti cambiano secondo la legge:
+
+${\begin{cases}a_{14}'=a_{11}u+a_{12}v+a_{13}w+a_{14} \\  a_{24}'=a_{12}u+a_{22}v+a_{23}w+a_{24} \\  a_{34}'=a_{13}u+a_{23}v+a_{33}w+a_{34} \\  a_{44}'=a_{11}u^2+a_{22}v^2+a_{33}w^2+2a_{12}uv+2a_{13}uw+2a_{23}uw+2a_{14}+2a_{24}+2a_{34}+a_{44}\end{cases}}$
+
+Anche queste relazioni ci saranno <u>utili nella riduzione a forma canonica delle quadriche</u>.
+Possiamo ora enunciare il seguente:
+
+- #TEOREMA(28). **Invarianti di una quadrica**
+	
+	Con le notazioni introdotte nella #DEFINIZIONE(28), le seguenti quantità risultano invarianti sotto l'effetto di una rototraslazione:
+	
+	$\mathcal{I}_{1}=Tr\mathbf{B}=a_{11}+a_{22}+a_{33}$
+	$\mathcal{I}_{2}=\det \begin{pmatrix}a_{11}&a_{12} \\  a_{12}&a_{22}\end{pmatrix}+\det \begin{pmatrix}a_{11}&a_{13} \\  a_{13}&a_{33}\end{pmatrix}+\det \begin{pmatrix}a_{22}&a_{23} \\  a_{23}&a_{33}\end{pmatrix}$
+	$\mathcal{I}_{3}=\det\mathbf{B}$
+	$\mathcal{I}_{4}=\det\mathbf{A}$
+	
+	Sono inoltre invarianti la caratteristica della matrice $\mathbf{A}$ e gli autovalori di $\mathbf{B}$.
+	
+	*Dimostrazione*:
+	Ricordiamo che le matrici $\mathbf{A},\mathbf{B}$ di una conica si trasformano per effetto di una rototraslazione in matrici $\mathbf{A}',\mathbf{B}'$ simili rispettivamente ad $\mathbf{A},\mathbf{B}$ e che, per quanto visto nel [[#6.1 **Matrici diagonalizzabili**|capitolo 6.1]], matrici simili hanno lo stesso determinante, la stessa caratteristica e lo stesso polinomio caratteristico, quindi gli stessi autovalori. Ciò implica immediatamente che $\mathcal{I}_{4},\mathcal{I}_{3}$, la caratteristica di $\mathbf{A}$ e gli autovalori di $\mathbf{B}$ siano invarianti. Inoltre, scrivendo esplicitamente il polinomio caratteristico di $\mathbf{B}$ si ottiene:
+	
+						$\det(\mathbf{B}-\lambda\mathbf{I})=-\lambda^3+\lambda^2\mathcal{I}_{1}-\lambda\mathcal{I}_{2}+\mathcal{I}_{3}$
+	
+	da cui leggiamo l'invarianza di $\mathcal{I}_{1}$ e $\mathcal{I}_{2}$.
+
+
+Osserviamo anche che, moltiplicando l'equazione della quadrica per un coefficiente $\lambda>0$, gli invarianti $\mathcal{I}_{1},\mathcal{I}_{2},\mathcal{I}_{3},\mathcal{I}_{4}$ risultano moltiplicati rispettivamente per $\lambda, \lambda^2, \lambda^3,\lambda^4$, mentre gli autovalori di $\mathbf{B}$ sono moltiplicati per $\lambda$.
+Tenendo conto anche di quest'osservazione possiamo enunciate la seguente Proposizione, che raccoglie i fatti che operativamente utilizzeremo nella classificazione delle quadriche:
+
+- #PROPOSIZIONE(14). I seguenti fatti esprimono una proprietà geometrica della superficie quadrica:
+
+	- l'annullarsi o meno di ciascuno degli invarianti (in particolare utilizzeremo $\mathcal{I}_{3},\mathcal{I}_{4}$);
+	- il segno degli invarianti $\mathcal{I}_{2}$ e $\mathcal{I}_{4}$ (utilizzeremo solo il segno di $\mathcal{I}_{4}$);
+	- il numero di autovalori di $\mathbf{B}$ che si annullano e il fatto che gli autovalori non nulli siano concordi tra loro oppure no;
+	- la caratteristica di $\mathbf{A}$.
+
+
+Diamo anche la seguente:
+
+- #DEFINIZIONE(29). Si dice che una quadrica è **degenere** se $\mathcal{I}_{4}=0$.
+
+
+Vedremo un po' alla volta che forma possono assumere le quadriche degeneri.
+
+
+
+### 8.2 **Riduzione a forma canonica delle quadriche: quadriche a centro**
+
+Consideriamo ora una generica quadrica: ci proponiamo di determinare una rototraslazione che ne trasformi l'equazione in una forma abbastanza semplice da permetterci di riconoscere le proprietà importanti della superficie. Così facendo arriveremo ad una <u>classificazione delle quadriche</u>.
+
+Chiediamoci anzitutto se esiste una **traslazione** che abbia come effetto quello di annullare i coefficienti dei termini di primo grado, cioè $a_{14},a_{24},a_{34}$; dal sistema trovato nel paragrafo precedente sappiamo che questo equivale a cercare $u,v,w$ che soddisfano il sistema:
+
+						$\begin{cases}a_{11}u+a_{12}v+a_{13}w+a_{14}=0 \\  a_{12}u+a_{22}v+a_{23}w+a_{24}=0 \\  a_{13}u+a_{23}v+a_{33}w+a_{34}=0\end{cases}$
+
+che è un sistema lineare di tre eq. in 3 incognite, avente per matrice dei coefficienti $\mathbf{B}$.
+La traslazione cercata quindi esiste certamente se $\mathcal{I}_{3}\ne 0$; mettiamoci in tale ipotesi.
+Dopo la traslazione quindi l'equazione della quadrica sarà (chiamando un'altra volta per semplicità i coefficienti con i simboli $a_{ij}$ anziché $a_{ij}'$):
+
+				$a_{11}x^2+a_{22}y^2+a_{33}z^2+2a_{12}xy+2a_{13}xz+2a_{23}yz+a_{44}=0$
+
+Si osserva che questa superficie è <u>simmetrica rispetto all'origine</u>: se la terna $x,y,z$ soddisfa l'equazione, anche $-x,-y-z$ la soddisfa; questo si può esprimere dicendo che l'origine $O$ è centro di simmetria per la quadrica, o anche che la superficie è una **quadrica a centro**.
+Abbiamo quindi stabilito la seguente:
+
+- #PROPOSIZIONE(15). Se $\mathcal{I}_{3}\ne 0$, la quadrica è a centro; un'opportuna traslazione la riconduce alla forma:
+				
+			$a_{11}x^2+a_{22}y^2+a_{33}z^2+2a_{12}xy+2a_{13}xz+2a_{23}yz+a_{44}=0$
+				
+	simmetrica rispetto ad $O$.
+
+
+Esaminiamo ora l'effetto di una **rotazione** su una quadrica a centro, per la quale cioè risulta:
+
+$\mathbf{A}=\begin{pmatrix}\mathbf{B}&\mathbf{0}^\top \\  \mathbf{0}&a_{44}\end{pmatrix}$, avendo posto $\mathbf{0}=(0,0,0)$. La matrice $\mathbf{A}$ si trasforma in:
+
+				$\mathbf{A}'=\begin{pmatrix}\mathbf{R}^\top&\mathbf{0}^\top \\  \mathbf{0}&1\end{pmatrix}\begin{pmatrix}\mathbf{B}&\mathbf{0}^\top \\  \mathbf{0}&a_{44}\end{pmatrix}\begin{pmatrix}\mathbf{R}&\mathbf{0}^\top \\  \mathbf{0}&1\end{pmatrix}=\begin{pmatrix}\mathbf{R}^\top\mathbf{B}\mathbf{R}&\mathbf{0}^\top \\  \mathbf{0}&a_{44}\end{pmatrix}$
+
+ossia la quadrica rimane a centro, e la matrice $\mathbf{B}$ si trasforma secondo la legge $\mathbf{B}'=\mathbf{R}^\top \mathbf{B}\mathbf{R}$.
+Con una scelta opportuna della rotazione possiamo quindi diagonalizzare la matrice $\mathbf{B}$, ossia ridurre l'equazione della quadrica alla forma:
+
+						$a_{11}x^2+a_{22}y^2+a_{33}z^2+a_{44}=0$
+
+con $\mathcal{I}_{3}=a_{11}a_{22}a_{33}\ne 0$ per ipotesi. Si noti che in questo caso risulta $\mathcal{I}_{4}=a_{44}\mathcal{I}_{3}$.
+Pertanto $\mathcal{I}_{4}=0$, ossia la quadrica è degenere, se e solo se $a_{44}=0$.
+Discutiamo subito questa situazione, ossia consideriamo una <u>quadrica a centro, degenere</u>:
+
+						$a_{11}x^2+a_{22}y^2+a_{33}z^2=0$
+
+L'unica distinzione di rilievo, per quanto riguarda la forma della superficie descritta da questa equazione, sta nei segni dei tre coefficienti $a_{11},a_{22},a_{33}$ (tutti $\ne 0$ per l'ipotesi $\mathcal{I}_{3}\ne 0$).
+Se i tre coefficienti non hanno tutti lo stesso segno, ad esempio $a_{11}$ e $a_{22}$ hanno lo stesso segno e $a_{33}$ ha segno diverso (gli altri casi si ottengono semplicemente cambiando nomi alle variabili), l'equazione si può riscrivere nella forma:
+
+						$a^2x^2+b^2y^2=c^2z^2\quad(a,b,c>0)$
+
+essa rappresenta un cono a due falde che ha vertice in $O$ e per generatrice ad esempio l'ellisse di equazione $ax^2+b^2y^2=c^2$ nel piano $z=1$.
+
+Infatti, preso un punto $(x_{0},y_{0},1)$ su tale curva, ossia tale che $a^2x_{0}^2+b^2y_{0}^2=c^2$, la retta passante per $O$ e $(x_{0},y_{0},1)$ ha equazioni parametriche:
+
+							$\begin{cases}x=tx_{0} \\  y=ty_{0} &\mbox{t}\in\mathbb{R} & \\  z=t\end{cases}$
+
+e giace interamente sulla quadrica, in quanto:
+
+			$a^2x^2+b^2y^2=a^2(tx_{0})^2+b^2(ty_{0})^2=t^2(a^2x_{0}^2+b^2y_{0}^2)=t^2c^2=c^2z^2$
+
+Pertanto la superficie coincide con l'unione delle rette passanti per l'origine e i punti dell'ellisse $(ax^2+b^2y^2=c^2)$, ossia è un <u>cono avente tale ellisse come generatrice</u>.
+
+Se invece i tre coefficienti $a_{11},a_{22},a_{33}$ hanno tutti lo stesso segno, l'equazione si può riscrivere nella forma:
+
+							$a^2x^2+b^2y^2+c^2z^2=0\quad(a,b,c>0)$
+
+
+ed è evidentemente soddisfatta solo da $O=(0,0,0)$. In questo caso quindi la quadrica degenere <u>si riduce a un punto</u>. Per analogia col caso precedente (cono a due falde) si parla anche di <u>cono immaginario</u>.
+
+Occupiamoci ora delle quadriche a centro non degeneri, ossia del tipo $a_{11}x^2+a_{22}y^2+a_{33}z^2+a_{44}=0$ con tutti i coefficienti $\ne 0$, che quindi dividendo per $a_{44}$ si possono riscrivere come:
+
+								$\alpha x^2+\beta y^2+\gamma z^2=1$
+
+Le uniche differenze importanti dipendono dai segni dei coefficienti $\alpha,\beta,\gamma$: ciò che conta è semplicemente quanti di essi sono positivi (quali in dettaglio è solo una questione di nomi dati alle variabili). Le possibilità sono quindi quattro, a seconda che il numero di coefficienti positivi sia $3,2,1,0$. In corrispondenza di questi casi si ottengono rispettivamente le seguenti equazioni canoniche:
+
+$\frac{x^2}{a^2}+\frac{y^2}{b^2}+\frac{z^2}{c^2}=1$ (<mark class="hltr-yellow">ellissoide reale</mark>)
+$\frac{x^2}{a^2}+\frac{y^2}{b^2}-\frac{z^2}{c^2}=1$ (<mark class="hltr-yellow">iperboloide a una falda</mark>)
+$\frac{x^2}{a^2}-\frac{y^2}{b^2}-\frac{z^2}{c^2}=1$ (<mark class="hltr-yellow">iperboloide a due falde</mark>)
+$\frac{x^2}{a^2}+\frac{y^2}{b^2}+\frac{z^2}{c^2}=-1$ (<mark class="hltr-yellow">ellissoide immaginario</mark>)
+
+per opportuni $a,b,c>0$.
+Descriviamo ora brevemente tali superfici:
+
+- **Ellissoide reale**: il modo più semplice di capire la forma di questa superficie è pensare che si può ottenere da una superficie sferica eseguendo una dilatazione di fattore diverso su ogni asse: $x=ax',y=by',z=cz'$, che dà all'ellissoide la forma di una "sfera allungata".
+	I numeri $a,b,c$ sono i <u>semiassi</u> dell'ellissoide, che ha per <u>vertici</u> i punti $(\pm a,0,0),(0,\pm b,0),(0,0,\pm c)$. Se due dei tre semiassi sono uguali tra loro l'ellissoide è di rotazione: *ad esempio*, per $a=b$, la superficie taglia i piani $z=z_{0}$ (quando $|z_{0}|<c$) lungo le circonferenze:
+						
+								$x^2+y^2=a^2\left( 1-\frac{z_{0}^2}{c^2} \right)$
+	
+	pertanto la superficie si può vedere ottenuta facendo ruotare attorno all'asse $z$ l'ellisse (nel piano $xz$) $\frac{x^2}{a^2}+\frac{z^2}{c^2}=1$. Se tutti e tre i semiassi sono uguali, la superficie è una sfera di raggio $r$.
+
+
+- **Iperboloide a una falda**: si osserva che la superficie taglia qualsiasi piano $z=z_{0}$ lungo l'ellisse:
+								$\frac{x^2}{a^2}+\frac{y^2}{b^2}=1+\frac{z_{0}^2}{c^2}$
+	
+	I semiassi delle sezioni ellittiche crescono al crescere di $|z_{0}|$. La superficie è illimitata e connessa (cioè "formata da un pezzo solo", motivo per cui si dice a una falda).
+	In particolare, per $a=b$ l'ellisse è una circonferenza e la quadrica è di rotazione, ottenuta facendo ruotare attorno all'asse $z$ l'iperbole $\frac{x^2}{a^2}-\frac{z^2}{c^2}=1$ nel piano $xz$ (da cui il nome iperboloide). Sezionando invece la superficie con un piano contenente l'asse $z$, ossia del tipo $\alpha x+\beta y=0$, si ottiene un'iperbole, come si verifica facilmente.
+	Un particolarità di questa superficie è di <u>contenere due famiglie di rette</u>. Infatti, riscrivendo l'equazione nella forma:
+	
+								$\frac{x^2}{a^2}-\frac{z^2}{c^2}=1-\frac{y^2}{b^2}$
+	
+	si osserva che le due famiglie di rette:
+	
+	$\begin{cases}\frac{x}{a}+\frac{z}{c}=h\left( 1+\frac{y}{b} \right) \\  \frac{x}{a}-\frac{z}{c}\left( \frac{1}{h}\left( 1-\frac{y}{b} \right) \right)\end{cases}\quad$ e $\quad \begin{cases} \frac{x}{a}+\frac{z}{c}=h\left( 1-\frac{y}{b} \right) \\  \frac{x}{a}-\frac{z}{c}=\frac{1}{h}\left( 1+\frac{y}{b} \right) \end{cases}$
+
+	(al variare di $h\in\mathbb{R}$), sono contenute nella superficie stessa, come si verifica moltiplicando membro a membro le due equazioni di ciascun sistema. Per questa ragione si dice che l'iperboloide a una falde è una **superficie rigata**. Precisamente:
+
+
+- #PROPOSIZIONE(16). Le due famiglie di rette che giacciono sull'iperboloide a una falda hanno le seguenti proprietà:
+
+	a) per ogni punto della superficie passano esattamente una retta della prima famiglia e una della seconda;
+	b) due rette qualsiasi della stessa famiglia sono sghembe;
+	c) ogni retta della prima famiglia interseca ogni retta della seconda famiglia.
+
+
+- **Iperboloide a due falde**: riscrivendo l'equazione nella forma:
+	
+								$\frac{x^2}{a^2}-1=\frac{y^2}{b^2}+\frac{z^2}{c^2}$
+	
+	si osserva che la superficie è contenuta nelle regioni in cui $\frac{x^2}{a^2}-1\ge 0$, ossia nelle due regioni separate $x\ge a$ e $x\le-a$. Perciò la superficie consiste in <u>due falde distinte</u>.
+	Più precisamente, la superficie è contenuta nella regione:
+	
+								$\frac{y^2}{b^2}+\frac{z^2}{c^2}<\frac{x^2}{a^2}$
+	
+	(come segue dal fatto che $\frac{x^2}{a^2}-1<\frac{x^2}{a^2}$), che rappresenta una delle due regioni in cui il cono a due falde:
+	
+								$\frac{y^2}{b^2}+\frac{z^2}{c^2}=\frac{x^2}{a^2}$
+	
+	divide lo spazio (precisamente, la regione contente l'asse del cono).
+	Questo cono si dice <u>cono asintotico</u>, perchè la superficie si avvicina indefinitamente ad esso così come un'iperbole si avvicina ai suoi asintoti. Tagliando la superficie con un piano $x=x_{0}$ (per $|x_{0}|>a$) si trova l'ellisse:
+	
+								$\frac{y^2}{b^2}+\frac{z^2}{c^2}=\frac{x_{0}^2}{a^2}-1$
+	
+	In particolare se $b=c$ quest'ellisse è una circonferenza e la quadrica è di rotazione, ottenuta facendo ruotare attorno all'asse $x$ l'iperbole:
+	
+									$\frac{x^2}{a^2}-\frac{y^2}{b^2}=1$
+	
+	(nel piano $xy$). Tagliano invece la superficie con un piano contenente l'asse $x$, cioè del tipo $\alpha y+\beta z=0$, si ottiene sempre un'iperbole, i cui asintoti giacciono sul cono asintotico, come si verifica facilmente. A differenza dell'iperboloide a una falda, <u>l'iperboloide a due falde non è una superficie rigata</u>.
+
+
+- **Ellissoide immaginario**: si vede subito che l'equazione:
+	
+								$\frac{x^2}{a^2}+\frac{y^2}{b^2}+\frac{z^2}{c^2}=-1$
+	
+	non è soddisfatta da alcuna terna $(x,y,z)$ di numeri reali, quindi nello spazio $\mathbb{R}^3$ rappresenta l'insieme vuoto. Per analogia con l'ellissoide reale, la superficie è detta appunto ellissoide immaginario.
+
+
+
+### 8.3 **Riduzione a forma canonica delle quadriche: quadriche non a centro**
+
+Consideriamo ora le quadriche non a centro, ossia quelle per cui risulta $\mathcal{I}_{3}=0$.
+In tal caso, non sempre esiste una traslazione che elimini i termini di primo grado; possiamo in compenso diagonalizzare subito la matrice $\mathbf{B}$, ossia effettuare un'opportuna rotazione di assi che elimini i termini $a_{12},a_{23},a_{13}$.
+Dopo questa rotazione l'equazione della quadrica non a centro risulta quindi del tipo:
+
+				$a_{11}x^2+a_{22}y^2+a_{33}z^2+2a_{14}x+2a_{24}y+2a_{34}z+a_{44}=0$
+
+inoltre, $\mathcal{I}_{3}=a_{11}a_{22}a_{33}=0$, quindi almeno uno dei coefficienti $a_{11},a_{22},a_{33}$ si annulla.
+*Ad esempio*, supponiamo $a_{33}=0$; la matrice dei coefficienti è quindi:
+
+$\mathbf{A}=\begin{pmatrix}a_{11} & 0 & 0 & a_{14} \\  0 & a_{22} & 0 & a_{24} \\  0 & 0 & 0 & a_{34} \\  a_{14} & a_{24} & a_{34} & a_{44}\end{pmatrix}$
+
+Notiamo che $\mathcal{I}_{4}=-a_{11}a_{22}a_{34}^2$.
+
+Studiamo prima il caso della <u>quadrica non a centro e non degenere</u>; quindi $\mathcal{I}_{4}\ne 0$ e i coefficienti $a_{11},a_{22},a_{34}$ sono effettivamente diversi da $0$.

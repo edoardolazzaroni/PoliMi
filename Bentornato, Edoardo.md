@@ -53,6 +53,7 @@ cellStyleRules:
 
  [[Finire capitolo 5 di GAL]]
  [[finire capitolo 6 GAL]]
+ [[inserire immagini nel file di GAL]]
  [[finire esempi GAL]]
  [[guardare esercitazione GAL-2]]
  [[riguardare appunti esercitazioni analisi 1]]
@@ -62,10 +63,8 @@ Altri impegni:
 
 - [ ] Leggere almeno un capitolo
 - [ ] Caricare tavoletta grafica
+- [ ] Caricare cuffie
 - [x] Sistemare stanza
-- [x] Caricare cuffie
-- [x] Preparare template di Obsidian
-- [x] Fare checklist per domani
 - [x] Preparare zaino uni
 - [x] Guardare orari delle lezioni
 
