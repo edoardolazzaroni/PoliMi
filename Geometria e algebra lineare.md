@@ -3027,4 +3027,7 @@ b) $a_{11},a_{22}$ <u>discordi</u>. L'equazione canonica è $\frac{x^2}{a^2}-\fr
 Studiamo quindi queste due superfici, che sono rispettivamente:
 
 - **Paraboloide ellittico**: la superficie è contenuta nel semispazio $z>0$, e taglia ogni piano $z=z_{0}$ (con $z_{0}>0$) lungo l'ellisse:
-	$\frac{x^2}{a^2}+y^$
+	
+							$\frac{x^2}{a^2}+\frac{y^2}{b^2}=2pz_{0}$
+	
+	Se $a=b$ quest'ellisse è una circonferenza e la quadrica è di rotazione, ottenuta facendo ruotare attorno all'asse 
