@@ -3097,7 +3097,9 @@ B) $\mathcal{I}_{4}= 0 \implies$ **quadrica degenere**.
 	
 	Esistono quattro tipi, che si riconoscono in base al segno dell'invariante $\mathcal{I}_{4}$ e alle relazioni tra i segni degli autovalori di $\mathbf{B}$ (si ricordi che se $\mathbf{B}$ è diagonale, come accade quanto l'equazione della quadrica è in forma canonica, i suoi autovalori sono semplicemente gli elementi sulla diagonale):
 
-|                |     |     |
-| -------------- | --- | --- |
-| Autovalori di  |     |     |
-|                |     |     |
+|                                     |     |     |
+| ----------------------------------- | --- | --- |
+| Autovalori di $\mathbf{B}$ concordi |     |     |
+| Autovalori di $\mathbf{B}$ discordi |     |     |
+
+$\mathcal{I}_{4}<0$
