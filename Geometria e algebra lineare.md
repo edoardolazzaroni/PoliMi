@@ -3062,4 +3062,6 @@ Per cilindro (in senso lato) si intende una superficie formata da tutte le rette
 | Cilindri (con asse parallelo all'asse $z$) |                                               |
 | ------------------------------------------ | --------------------------------------------- |
 | $\frac{x^2}{a^2}$                          | cilindro ellittico (cioè a sezione ellittica) |
-|                                            | c                                             |
+|                                            | cilindro iperbolico                           |
+|                                            | cilindro parabolico                           |
+|                                            | cilindro immaginario ($\em ty$)               |
