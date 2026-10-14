@@ -2988,4 +2988,6 @@ Consideriamo ora le quadriche non a centro, ossia quelle per cui risulta $\mathc
 In tal caso, non sempre esiste una traslazione che elimini i termini di primo grado; possiamo in compenso diagonalizzare subito la matrice $\mathbf{B}$, ossia effettuare un'opportuna rotazione di assi che elimini i termini $a_{12},a_{23},a_{13}$.
 Dopo questa rotazione l'equazione della quadrica non a centro risulta quindi del tipo:
 
-$a_{11}x^2+a_{22}y^2+a_{33}z^2+2a_{12}xy+2a_{13}xz+2a_{23}yz+a_{44}=0$
+				$a_{11}x^2+a_{22}y^2+a_{33}z^2+2a_{14}x+2a_{24}y+2a_{34}z+a_{44}=0$
+
+inoltre, $\mathcal{I}_{3}=a_{11}a_{22}a_{33}=0$, quindi almeno uno dei coefficienti $a_{11},a_{2}$
