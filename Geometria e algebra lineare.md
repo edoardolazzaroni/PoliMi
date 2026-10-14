@@ -2964,4 +2964,7 @@ Descriviamo ora brevemente tali superfici:
 	
 	divide lo spazio (precisamente, la regione contente l'asse del cono).
 	Questo cono si dice <u>cono asintotico</u>, perchè la superficie si avvicina indefinitamente ad esso così come un'iperbole si avvicina ai suoi asintoti. Tagliando la superficie con un piano $x=x_{0}$ (per $|x_{0}|>a$) si trova l'ellisse:
-	$\frac{y^2}{b^2}+\frac{z^2}{c^2}<\frac{x^2}{a^2}$
+	
+								$\frac{y^2}{b^2}+\frac{z^2}{c^2}=\frac{x_{0}^2}{a^2}-1$
+	
+	In particolare se $b=c$ quest'ellisse è una circonferenza e la quadrica è di rotazione, ottenuta facendo ruotare attorno all'asse $x$ l'iperboe
