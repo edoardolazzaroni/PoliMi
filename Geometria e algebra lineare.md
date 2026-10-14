@@ -3113,4 +3113,9 @@ B) $\mathcal{I}_{4}= 0 \implies$ **quadrica degenere**.
 
 (B) **Riconoscimento delle quadriche degeneri ($\mathcal{I}_{4}= 0$)**:
 
-- $$
+- $\mathcal{I}_{3}\ne 0 \implies$ cono, precisamente:
+
+|                                     |                                    |
+| ----------------------------------- | ---------------------------------- |
+| Autovalori di $\mathbf{B}$ concordi | cono immaginario (un punto reeale) |
+| Autovalori di $\mathbf{B}$ discordi |                                    |
