@@ -3024,4 +3024,6 @@ a) $a_{11},a_{22}$ <u>concordi</u>. L'equazione canonica è: $\frac{x^2}{a^2}+\f
 b) $a_{11},a_{22}$ <u>discordi</u>. L'equazione canonica è $\frac{x^2}{a^2}-\frac{y^2}{b^2}=2pz$
 	per opportuni $a,b,p>0$.
 
-Studiamo quindi queste due superfici 
+Studiamo quindi queste due superfici, che rispettivamente sono:
+
+- **Paraboloide ellittico**: 
