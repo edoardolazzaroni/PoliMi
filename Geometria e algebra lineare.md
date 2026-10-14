@@ -2895,4 +2895,4 @@ e giace interamente sulla quadrica, in quanto:
 
 				$a^2x^2+b^2y^2=a^2(tx_{0})^2+b^2(ty_{0})^2=t^2(a^2x_{0}^2+b^2y_{0}^2)=t^2c^2=c^2z^2$
 
-Pertanto 
+Pertanto la superficie coincide con l'unione delle rette passanti per 
