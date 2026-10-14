@@ -2869,4 +2869,7 @@ $\mathbf{A}=\begin{pmatrix}\mathbf{B}&\mathbf{0}^\top \\  \mathbf{0}&a_{44}\end{
 
 				$\mathbf{A}'=\begin{pmatrix}\mathbf{R}^\top&\mathbf{0}^\top \\  \mathbf{0}&1\end{pmatrix}\begin{pmatrix}\mathbf{B}&\mathbf{0}^\top \\  \mathbf{0}&a_{44}\end{pmatrix}\begin{pmatrix}\mathbf{R}&\mathbf{0}^\top \\  \mathbf{0}&1\end{pmatrix}=\begin{pmatrix}\mathbf{R}^\top\mathbf{B}\mathbf{R}&\mathbf{0}^\top \\  \mathbf{0}&a_{44}\end{pmatrix}$
 
-ossia la quadrica rimane a centro, e la matrice $\mathbf{B}$ si trasforma secondo la l
+ossia la quadrica rimane a centro, e la matrice $\mathbf{B}$ si trasforma secondo la legge $\mathbf{B}'=\mathbf{R}^\top \mathbf{B}\mathbf{R}$.
+Con una scelta opportuna della rotazione possiamo quindi diagonalizzare la matrice $\mathbf{B}$, ossia ridurre l'equazione della quadrica alla forma:
+
+$a_{11}x^2+a$
