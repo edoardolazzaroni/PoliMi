@@ -2935,6 +2935,7 @@ Descriviamo ora brevemente tali superfici:
 								$\frac{x^2}{a^2}-\frac{z^2}{c^2}=1-\frac{y^2}{b^2}$
 	
 	si osserva che le due famiglie di rette:
-	$\begin{cases}\frac{x}{a}+\frac{z}{c}=h\left( 1+\frac{y}{b} \right) \\  \frac{x}{a}-\frac{z}{c}\left( \frac{1}{h}\left( 1-\frac{y}{} \right) \right)\end{cases}$
+	
+	$\begin{cases}\frac{x}{a}+\frac{z}{c}=h\left( 1+\frac{y}{b} \right) \\  \frac{x}{a}-\frac{z}{c}\left( \frac{1}{h}\left( 1-\frac{y}{b} \right) \right)\end{cases}\quad$ e $\quad \begin{cases} \frac{x}{a}+\frac{z}{c}=h\left( 1-\frac{y}{b} \right) \\  \frac{x}{a}-\frac{z}{} \end{cases}$
 
 - 
