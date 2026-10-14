@@ -2867,4 +2867,4 @@ Esaminiamo ora l'effetto di una **rotazione** su una quadrica a centro, per la q
 
 $\mathbf{A}=\begin{pmatrix}\mathbf{B}&\mathbf{0}^\top \\  \mathbf{0}&a_{44}\end{pmatrix}$, avendo posto $\mathbf{0}=(0,0,0)$. La matrice $\mathbf{A}$ si trasforma in:
 
-$\mathbf{A}'=\begin{pmatrix}\mathbf{B}&\mathbf{0}^\top \\  \mathbf{0}&a_{44}\end{pmatrix}$
+$\mathbf{A}'=\begin{pmatrix}\mathbf{R}^\top&\mathbf{0}^\top \\  \mathbf{0}&1\end{pmatrix}\begin{pmatrix}\mathbf{B}&\mathbf{0}^\top \\  \mathbf{0}&a_{44}\end{pmatrix}\begin{pmatrix}\mathbf{R}&\mathbf{0}^\top \\  \mathbf{0}&1\end{pmatrix}=\begin{pmatrix}\mathbf{R}^\top\mathbf{BR}&\mathbf{0}^\top \\  \mathbf{0}&a_{44}\end{pmatrix}$
