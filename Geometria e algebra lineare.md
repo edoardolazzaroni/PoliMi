@@ -2887,4 +2887,6 @@ Se i tre coefficienti non hanno tutti lo stesso segno, ad esempio $a_{11}$ e $a_
 
 essa rappresenta un cono a due falde che ha vertice in $O$ e per generatrice ad esempio l'ellisse di equazione $ax^2+b^2y^2=c^2$ nel piano $z=1$.
 
-Infatti, preso un punto $(x_{0},y_{0},1)$ su tale curva, ossia tale che $a^2x_{0}^2+b^2y_{0}^2=c^2$
+Infatti, preso un punto $(x_{0},y_{0},1)$ su tale curva, ossia tale che $a^2x_{0}^2+b^2y_{0}^2=c^2$, la retta passante per $O$ e $(x_{0},y_{0},1)$ ha equazioni parametriche:
+
+$\begin{cases}x=tx_{0} \\  y=ty_{0} &\mbox{}\\  \end{cases}$
