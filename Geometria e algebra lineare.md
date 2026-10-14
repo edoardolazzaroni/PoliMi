@@ -2938,6 +2938,8 @@ Descriviamo ora brevemente tali superfici:
 	
 	$\begin{cases}\frac{x}{a}+\frac{z}{c}=h\left( 1+\frac{y}{b} \right) \\  \frac{x}{a}-\frac{z}{c}\left( \frac{1}{h}\left( 1-\frac{y}{b} \right) \right)\end{cases}\quad$ e $\quad \begin{cases} \frac{x}{a}+\frac{z}{c}=h\left( 1-\frac{y}{b} \right) \\  \frac{x}{a}-\frac{z}{c}=\frac{1}{h}\left( 1+\frac{y}{b} \right) \end{cases}$
 
-	(al variare di $h\in\mathbb{R}$), sono contenute nella superficie stessa, 
+	(al variare di $h\in\mathbb{R}$), sono contenute nella superficie stessa, come si verifica moltiplicando membro a membro le due equazioni di ciascun sistema. Per questa ragione si dice che l'iperboloide a una falde è una **superficie rigata**. Precisamente:
+
+
 	
 - 
