@@ -3129,4 +3129,8 @@ B) $\mathcal{I}_{4}= 0 \implies$ **quadrica degenere**.
 | $car \mathbf{A}=2$ | 2 piani immaginari incidenti (una retta reale) | 2 piani reali incidenti | 2 piani paralleli/2 piani immaginari ($\emptyset$) |
 | $car \mathbf{A}=1$ |                                                |                         | un piano reale                                     |
 
-Per distinguere tra loro il caso del cilindro reale o immaginario ()
+Per distinguere tra loro il caso del cilindro reale o immaginario (o tra due piani reali o immaginari) la cosa più semplice solitamente è cercare almeno un punto reale che soddisfi l'equazione.
+
+*Esempio*: Riconoscere le seguenti quadriche:
+
+a) $xy+z?$
