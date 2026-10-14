@@ -3014,3 +3014,7 @@ il che è immediato perchè stiamo supponendo $a_{11},a_{22}\ne 0$. Arriviamo qu
 Infine la traslazione $z=z'+w$ elimina il termine noto $a_{44}$ scegliendo $w=-\frac{a_{44}}{2a_{34}}$.
 Le generica quadrica non a centro non degenere ha quindi equazione:
 
+						$a_{11}x^2+a_{22}y^2+2a_{34}z+=0$
+
+Le superfici sostanzialmente diverse si ottengono al variare dei segni dei tre coefficienti, secondo i seguenti due soli casi:
+
