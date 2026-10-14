@@ -3065,9 +3065,8 @@ Per cilindro (in senso lato) si intende una superficie formata da tutte le rette
 | $x^2=2py$                                  | **cilindro parabolico**                           |
 | $\frac{x^2}{a^2}+\frac{y^2}{b^2}=-1$       | **cilindro immaginario** ($\emptyset$)            |
 
-Le quadriche non a centro e spezzate sono invece le seguenti:
 
-$x=0$ $\to \emptyset$
+Le quadriche non a centro e spezzate sono invece le seguenti:
 
 | Quadriche spezzate                  |                                                                                                 |
 | ----------------------------------- | ----------------------------------------------------------------------------------------------- |
@@ -3077,4 +3076,6 @@ $x=0$ $\to \emptyset$
 | $x^2+a^2=0$                         | due piani immaginari ($x=\pm ia$) $\to \emptyset$                                               |
 | $x^2=0$                             | un piano ($x=0$)                                                                                |
 
-Si osservi che anche le quadriche spezzate, a rigore, soddisfano la definizione che abbiamo dato di cilindro, 
+Si osservi che anche le quadriche spezzate, a rigore, soddisfano la definizione che abbiamo dato di cilindro (consistono tutte di rette parallele ad una asse); solitamente si riserva il nome di cilindro alle superfici che non si spezzano in piani.
+
+
