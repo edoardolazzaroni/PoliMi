@@ -2978,4 +2978,7 @@ Descriviamo ora brevemente tali superfici:
 	
 								$\frac{x^2}{a^2}+\frac{y^2}{b^2}+\frac{z^2}{c^2}=-1$
 	
-	non è soddisfatta da alcuna terna $(x,y,z)$ di numeri reali, quindi nello spazio $\mathbb{R}^\text 3$
+	non è soddisfatta da alcuna terna $(x,y,z)$ di numeri reali, quindi nello spazio $\mathbb{R}^3$ rappresenta l'insieme vuoto. Per analogia con l'ellissoide reale, la superficie è detta appunto ellissoide immaginario.
+
+
+
