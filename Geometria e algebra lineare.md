@@ -3032,4 +3032,6 @@ Studiamo quindi queste due superfici, che sono rispettivamente:
 	
 	Se $a=b$ quest'ellisse è una circonferenza e la quadrica è di rotazione, ottenuta facendo ruotare attorno all'asse $z$ la parabola $\frac{x^a}{a^2}=2pz$ (nel piano $xz$).
 	Tagliando invece la superficie con un piano contenente l'asse $z$, cioè del tipo $\alpha x+\beta y=0$ si trova sempre una parabola avente per asse l'asse $z$ e per vertice $O$; si dice pertanto che l'origine è il vertice del paraboloide e l'asse $z$ il suo asse.
-	
+
+
+- **Paraboloide iperbolico** (detto anche **sella**): tagliando la superficie con un qualsiasi piano $z=z_{0}$ ($z_{0}\ne$)
