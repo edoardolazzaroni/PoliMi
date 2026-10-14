@@ -2881,4 +2881,8 @@ Discutiamo subito questa situazione, ossia consideriamo una <u>quadrica a centro
 						$a_{11}x^2+a_{22}y^2+a_{33}z^2=0$
 
 L'unica distinzione di rilievo, per quanto riguarda la forma della superficie descritta da questa equazione, sta nei segni dei tre coefficienti $a_{11},a_{22},a_{33}$ (tutti $\ne 0$ per l'ipotesi $\mathcal{I}_{3}\ne 0$).
-Se i tre coefficienti non hanno tutti lo stesso segno, ad esempio $a_{11}$ e $a_{22}$ hanno lo stesso segno e $a_{33}$ ha segno diverso (gli altri casi si ottengono semplicimente cambiando nomi all)
+Se i tre coefficienti non hanno tutti lo stesso segno, ad esempio $a_{11}$ e $a_{22}$ hanno lo stesso segno e $a_{33}$ ha segno diverso (gli altri casi si ottengono semplicemente cambiando nomi alle variabili), l'equazione si può riscrivere nella forma:
+
+					$a^2x^2+b^2y^2=c^2z^2\quad(a,b,c>0)$
+
+essa rappresenta un cono a due falde che ha vertice in $O$ e per generatrice ad esempio l'ellisse di equazione $ax^2$
