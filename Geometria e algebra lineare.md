@@ -3120,4 +3120,8 @@ B) $\mathcal{I}_{4}= 0 \implies$ **quadrica degenere**.
 | Autovalori di $\mathbf{B}$ concordi | **cono immaginario** (un punto reale) |
 | Autovalori di $\mathbf{B}$ discordi | **cono reale** (a sezione ellittica)  |
 
-- $\mathcal{I}_{3}= 0 \implies$ cono, precisamente:
+- $\mathcal{I}_{3}= 0 \implies$ cilindro o una quadrica spezzata, precisamente:
+
+|     |     |
+| --- | --- |
+|     |     |
