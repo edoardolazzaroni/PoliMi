@@ -2880,4 +2880,4 @@ Discutiamo subito questa situazione, ossia consideriamo una <u>quadrica a centro
 
 						$a_{11}x^2+a_{22}y^2+a_{33}z^2=0$
 
-L'unica distinzione di rilievo, per quanto riguard
+L'unica distinzione di rilievo, per quanto riguarda la forma della superficie descritta da questa equazione, sta nei segni dei tre coefficienti $a_{11},a_{22},a_{33}$ (tutti $\ne 0$ per l'ipotesi )
