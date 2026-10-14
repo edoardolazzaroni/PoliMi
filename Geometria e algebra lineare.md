@@ -2834,4 +2834,10 @@ Diamo anche la seguente:
 
 - #DEFINIZIONE(29). Si dice che una quadrica è **degenere** se $\mathcal{I}_{4}=0$.
 
-Vedremo un po' alla volta che forma possono assumere le quadriche degenr
+
+Vedremo un po' alla volta che forma possono assumere le quadriche degeneri.
+
+
+
+### 8.2 **Riduzione a forma canonica delle quadriche: quadriche a centro**
+
