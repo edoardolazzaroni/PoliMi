@@ -2925,6 +2925,7 @@ Descriviamo ora brevemente tali superfici:
 	
 	pertanto la superficie si può vedere ottenuta facendo ruotare attorno all'asse $z$ l'ellisse (nel piano $xz$) $\frac{x^2}{a^2}+\frac{z^2}{c^2}=1$. Se tutti e tre i semiassi sono uguali, la superficie è una sfera di raggio $r$.
 
+
 - **Iperboloide a una falda**: si osserva che la superficie taglia qualsiasi piano $z=z_{0}$ lungo l'ellisse:
 								$\frac{x^2}{a^2}+\frac{y^2}{b^2}=1+\frac{z_{0}^2}{c^2}$
 	
@@ -2941,5 +2942,5 @@ Descriviamo ora brevemente tali superfici:
 	(al variare di $h\in\mathbb{R}$), sono contenute nella superficie stessa, come si verifica moltiplicando membro a membro le due equazioni di ciascun sistema. Per questa ragione si dice che l'iperboloide a una falde è una **superficie rigata**. Precisamente:
 
 
+- #PROPOSIZIONE(16). Le due famiglie di rette che giacciono sull'iperboloide a una falda hanno le seguenti proprietà:
 	
-- 
