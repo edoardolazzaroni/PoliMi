@@ -2831,3 +2831,7 @@ Tenendo conto anche di quest'osservazione possiamo enunciate la seguente Proposi
 
 
 Diamo anche la seguente:
+
+- #DEFINIZIONE(29). Si dice che una quadrica è **degenere** se $\mathcal{I}_{4}=0$.
+
+Vedremo un po' alla volta che forma possono assumere le quadriche degenr
