@@ -2849,4 +2849,6 @@ Chiediamoci anzitutto se esiste una traslazione che abbia come effetto quello di
 
 che è un sistema lineare di tre eq. in 3 incognite, avente per matrice dei coefficienti $\mathbf{B}$.
 La traslazione cercata quindi esiste certamente se $\mathcal{I}_{3}\ne 0$; mettiamoci in tale ipotesi.
-Dopo la traslazione quindi 
+Dopo la traslazione quindi l'equazione della quadrica sarà (chiamando un'altra volta per semplicità i coefficienti con i simboli $a_{ij}$ anzichè $a_{ij}'$):
+
+$a_{11}x^2+a_{22}y^2+a_{33}z^2+2a_{12}xy+2a_{13}$
