@@ -2889,4 +2889,4 @@ essa rappresenta un cono a due falde che ha vertice in $O$ e per generatrice ad 
 
 Infatti, preso un punto $(x_{0},y_{0},1)$ su tale curva, ossia tale che $a^2x_{0}^2+b^2y_{0}^2=c^2$, la retta passante per $O$ e $(x_{0},y_{0},1)$ ha equazioni parametriche:
 
-$\begin{cases}x=tx_{0} \\  y=ty_{0} &\mbox{}\\  \end{cases}$
+$\begin{cases}x=tx_{0} \\  y=ty_{0} &\mbox{t\in\mathbb{R}} & \\  \end{cases}$
