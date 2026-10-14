@@ -2817,4 +2817,9 @@ Possiamo ora enunciare il seguente:
 						$\det(\mathbf{B}-\lambda\mathbf{I})=-\lambda^3+\lambda^2\mathcal{I}_{1}-\lambda\mathcal{I}_{2}+\mathcal{I}_{3}$
 	
 	da cui leggiamo l'invarianza di $\mathcal{I}_{1}$ e $\mathcal{I}_{2}$.
-	Osserviamo anche che, moltiplicando l'equazione della quadrica per un coefficiente $\lambda>0$, gli invarianti $\mathcal{I}_{1},\mathcal{I}_{2},\mathcal{I}_{3},\mathcal{I}_{4}$ risultano moltiplicati rispettivamente per $\lambda, \lambda^2, \lambda^3,\lambda^4$, mentre gli autovalori di $\mathbf{B}$ sono moltiplicati per $\lambda$. Tenendo conto anche di quest'osservazione 
+
+
+Osserviamo anche che, moltiplicando l'equazione della quadrica per un coefficiente $\lambda>0$, gli invarianti $\mathcal{I}_{1},\mathcal{I}_{2},\mathcal{I}_{3},\mathcal{I}_{4}$ risultano moltiplicati rispettivamente per $\lambda, \lambda^2, \lambda^3,\lambda^4$, mentre gli autovalori di $\mathbf{B}$ sono moltiplicati per $\lambda$.
+Tenendo conto anche di quest'osservazione possiamo enunciate la seguente Proposizione, che raccoglie i fatti che operativamente utilizzeremo nella classificazione delle quadriche:
+
+- #PROPOSIZIONE (14)
