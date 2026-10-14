@@ -2925,4 +2925,7 @@ Descriviamo ora brevemente tali superfici:
 	
 	pertanto la superficie si può vedere ottenuta facendo ruotare attorno all'asse $z$ l'ellisse (nel piano $xz$) $\frac{x^2}{a^2}+\frac{z^2}{c^2}=1$. Se tutti e tre i semiassi sono uguali, la superficie è una sfera di raggio $r$.
 
+- **Iperboloide a una falda**: si osserva che la superficie taglia qualsiasi piano $z=z_{0}$ lungo l'ellisse:
+	$\frac{x^2}{a^2}+\frac{y^2}{b^2}=1+\frac{z^2}{c^2}$
+
 - 
