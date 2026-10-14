@@ -2843,4 +2843,6 @@ Vedremo un po' alla volta che forma possono assumere le quadriche degeneri.
 
 Consideriamo ora una generica quadrica: ci proponiamo di determinare una rototraslazione che ne trasformi l'equazione in una forma abbastanza semplice da permetterci di riconoscere le proprietà importanti della superficie. Così facendo arriveremo ad una <u>classificazione delle quadriche</u>.
 
-Chiediamoci anzitutto se esiste una traslazione che abbia come effetto quello di annullare i coefficienti dei termini di primo grado, cioè $a_{14},a_{24},a_{34}$
+Chiediamoci anzitutto se esiste una traslazione che abbia come effetto quello di annullare i coefficienti dei termini di primo grado, cioè $a_{14},a_{24},a_{34}$; dal sistema trovato nel paragrafo precedente sappiamo che questo equivale a cercare $u,v,w$ che soddisfano il sistema:
+
+$\begin{cases}a_{11}u+a_{12}v+a_{13}w+a_{1}\end{cases}$
