@@ -2918,4 +2918,5 @@ $\frac{x^2}{a^2}+\frac{y^2}{b^2}+\frac{z^2}{c^2}=-1$ (<mark class="hltr-yellow">
 per opportuni $a,b,c>0$.
 Descriviamo ora brevemente tali superfici:
 
-- **Ellissoide reale**: il modo più semplice di capire la forma di questa superficie è pensare che si può 
+- **Ellissoide reale**: il modo più semplice di capire la forma di questa superficie è pensare che si può ottenere da una superficie sferica eseguendo una dilatazione di fattore diverso su ogni asse: $x=ax',y=by',z=cz'$, che dà all'ellissoide la forma di una "sfera allungata".
+- 
