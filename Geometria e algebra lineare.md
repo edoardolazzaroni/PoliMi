@@ -2984,4 +2984,5 @@ Descriviamo ora brevemente tali superfici:
 
 ### 8.3 **Riduzione a forma canonica delle quadriche: quadriche non a centro**
 
-Consideriamo ora le quadriche non a centro, ossia quelle per cui risulta $\mathcal{I}_{3}=0$
+Consideriamo ora le quadriche non a centro, ossia quelle per cui risulta $\mathcal{I}_{3}=0$.
+In tal caso, non sempre esiste una traslazione che elimini i termini di primo grado; possiamo in compenso diagonalizzare subito la matrice $\mathbf{B}$, ossia effettuare un'opportuna rotazione di assi 
