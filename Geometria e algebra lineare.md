@@ -2801,8 +2801,12 @@ Anche queste relazioni ci saranno <u>utili nella riduzione a forma canonica dell
 Possiamo ora enunciare il seguente:
 
 - #TEOREMA(28). **Invarianti di una quadrica**
+	
 	Con le notazioni introdotte nella #DEFINIZIONE(28), le seguenti quantità risultano invarianti sotto l'effetto di una rototraslazione:
 	
 	$\mathcal{I}_{1}=Tr\mathbf{B}=a_{11}+a_{22}+a_{33}$
 	$\mathcal{I}_{2}=\det \begin{pmatrix}a_{11}&a_{12} \\  a_{12}&a_{22}\end{pmatrix}+\det \begin{pmatrix}a_{11}&a_{13} \\  a_{13}&a_{33}\end{pmatrix}+\det \begin{pmatrix}a_{22}&a_{23} \\  a_{23}&a_{33}\end{pmatrix}$
-	$$
+	$\mathcal{I}_{3}=\det\mathbf{B}$
+	$\mathcal{I}_{4}=\det\mathbf{A}$
+	
+	Sono inoltre invarianti la caratteristica della matrice $\mathbf{A}$ e gli autovalori di $\mathb d{B}$
