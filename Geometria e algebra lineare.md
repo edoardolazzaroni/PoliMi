@@ -3056,13 +3056,19 @@ Dobbiamo ancora considerare le <u>quadriche non a centro e degeneri</u>, ossia q
 
 Senza stare a illustrare in dettaglio i vari passi della riduzione a forma canonica, limitiamoci a descrivere in questo caso le situazioni essenzialmente distinte che si possono presentare.
 La superficie può essere un **cilindro** o una **quadrica spezzata**.
-Per cilindro (in senso lato) si intende una superficie formata da tutte le rette parallele a un certo asse fissato e passanti ciascuna per un punto di una curva fissata, che definisce la sezione del cilindro:
+Per cilindro (in senso lato) si intende una superficie formata da tutte le rette parallele a un certo asse fissato e passanti ciascuna per un punto di una curva fissata, che definisce la <u>sezione</u> del cilindro:
 
 | Cilindri (con asse parallelo all'asse $z$) |                                                   |
 | ------------------------------------------ | ------------------------------------------------- |
 | $\frac{x^2}{a^2}+\frac{y^2}{b^2}=1$        | **cilindro ellittico** (cioè a sezione ellittica) |
-| $\frac{x^2}{a^2}-\frac{y^2}{b^2}=1$        | cilindro iperbolico                               |
-| $x^2=2py$                                  | cilindro parabolico                               |
-| $\frac{x^2}{a^2}+\frac{y^2}{b^2}=-1$       | cilindro immaginario ($\emptyset$)                |
+| $\frac{x^2}{a^2}-\frac{y^2}{b^2}=1$        | **cilindro iperbolico**                           |
+| $x^2=2py$                                  | **cilindro parabolico**                           |
+| $\frac{x^2}{a^2}+\frac{y^2}{b^2}=-1$       | **cilindro immaginario** ($\emptyset$)            |
 
-Le quadriche non a centro e spezzate sono invece le seguenti
+Le quadriche non a centro e spezzate sono invece le seguenti:
+
+$\frac{x^2}{a^2}-y$
+
+| Quadriche spezzate |     |
+| ------------------ | --- |
+|                    |     |
