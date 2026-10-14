@@ -3056,4 +3056,4 @@ Dobbiamo ancora considerare le <u>quadriche non a centro e degeneri</u>, ossia q
 
 Senza stare a illustrare in dettaglio i vari passi della riduzione a forma canonica, limitiamoci a descrivere in questo caso le situazioni essenzialmente distinte che si possono presentare.
 La superficie può essere un **cilindro** o una **quadrica spezzata**.
-Per cilindro, 
+Per cilindro (in senso lato) su ubtebde 
