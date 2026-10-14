@@ -3038,5 +3038,7 @@ Studiamo quindi queste due superfici, che sono rispettivamente:
 	
 								$\frac{x^2}{a^2}-\frac{y^2}{b^2}=2pz_{0}$
 	
-	che per $z_{0}>0$ è del tipo:
-	$$
+	- per $z_{0}>0$ è del tipo: $\frac{x^2}{A^2}-\frac{y^2}{B^2}=1$
+	- per $z_{0}<0$ è del tipo: $\frac{x^2}{A^2}-\frac{y^2}{B^2}=1$
+	
+	Il piano $z=0$ taglia la superficie 
