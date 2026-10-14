@@ -2910,6 +2910,10 @@ Occupiamoci ora delle quadriche a centro non degeneri, ossia del tipo $a_{11}x^2
 
 Le uniche differenze importanti dipendono dai segni dei coefficienti $\alpha,\beta,\gamma$: ciò che conta è semplicemente quanti di essi sono positivi (quali in dettaglio è solo una questione di nomi dati alle variabili). Le possibilità sono quindi quattro, a seconda che il numero di coefficienti positivi sia $3,2,1,0$. In corrispondenza di questi casi si ottengono rispettivamente le seguenti equazioni canoniche:
 
-$\frac{x^2}{a^2}+\frac{y^2}{b^2}+\frac{z^2}{c^2}=1$ (ellissoide reale)
-$\frac{x^2}{a^2}+\frac{y^2}{b^2}-\frac{z^2}{c^2}=1$ (iperboloide a una falda)
-$\frac{x^2}{a^2}-\frac{y^2}{b^2}+\frac{z^2}{c^2}=1$
+$\frac{x^2}{a^2}+\frac{y^2}{b^2}+\frac{z^2}{c^2}=1$ (<mark class="hltr-yellow">ellissoide reale</mark>)
+$\frac{x^2}{a^2}+\frac{y^2}{b^2}-\frac{z^2}{c^2}=1$ (<mark class="hltr-yellow">iperboloide a una falda</mark>)
+$\frac{x^2}{a^2}-\frac{y^2}{b^2}-\frac{z^2}{c^2}=1$ (iperboloide a due falde)
+$\frac{x^2}{a^2}+\frac{y^2}{b^2}+\frac{z^2}{c^2}=-1$ (ellissoide immaginario)
+
+per opportuni $a,b,c>0$.
+Descriviamo ora brevemente tali superfici
