@@ -65,7 +65,7 @@ Altri impegni:
 - [ ] Caricare tavoletta grafica
 - [x] Sistemare stanza
 - [x] Caricare cuffie
-- [x] Preparare template di Obsidian
+- [[Preparare template di Obsidian]]
 - [x] Fare checklist per domani
 - [x] Preparare zaino uni
 - [x] Guardare orari delle lezioni
