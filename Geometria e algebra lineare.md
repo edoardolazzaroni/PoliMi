@@ -3106,7 +3106,11 @@ B) $\mathcal{I}_{4}= 0 \implies$ **quadrica degenere**.
 	
 	Esistono due tipi:
 
+| $\mathcal{I}_{4}<0$   | $\mathcal{I}_{4}>0$    |
+| --------------------- | ---------------------- |
+| **paraboloide ellittico** | **paraboloide iperbolico** |
 
-| $\mathcal{I}_{4}<0$   | $\mathcal{I}_{4}>0$ |
-| --------------------- | ------------------- |
-| paraboloide ellittico | parabo              |
+
+(B) **Riconoscimento delle quadriche degeneri ($\mathcal{I}_{4}= 0$)**:
+
+- $$
