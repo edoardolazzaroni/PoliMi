@@ -2843,7 +2843,7 @@ Vedremo un po' alla volta che forma possono assumere le quadriche degeneri.
 
 Consideriamo ora una generica quadrica: ci proponiamo di determinare una rototraslazione che ne trasformi l'equazione in una forma abbastanza semplice da permetterci di riconoscere le proprietà importanti della superficie. Così facendo arriveremo ad una <u>classificazione delle quadriche</u>.
 
-Chiediamoci anzitutto se esiste una traslazione che abbia come effetto quello di annullare i coefficienti dei termini di primo grado, cioè $a_{14},a_{24},a_{34}$; dal sistema trovato nel paragrafo precedente sappiamo che questo equivale a cercare $u,v,w$ che soddisfano il sistema:
+Chiediamoci anzitutto se esiste una **traslazione** che abbia come effetto quello di annullare i coefficienti dei termini di primo grado, cioè $a_{14},a_{24},a_{34}$; dal sistema trovato nel paragrafo precedente sappiamo che questo equivale a cercare $u,v,w$ che soddisfano il sistema:
 
 						$\begin{cases}a_{11}u+a_{12}v+a_{13}w+a_{14}=0 \\  a_{12}u+a_{22}v+a_{23}w+a_{24}=0 \\  a_{13}u+a_{23}v+a_{33}w+a_{34}=0\end{cases}$
 
@@ -2858,6 +2858,11 @@ Abbiamo quindi stabilito la seguente:
 
 - #PROPOSIZIONE(15). Se $\mathcal{I}_{3}\ne 0$, la quadrica è a centro; un'opportuna traslazione la riconduce alla forma:
 				
-		$a_{11}x^2+a_{22}y^2+a_{33}z^2+2a_{12}xy+2a_{13}xz+2a_{23}yz+a_{44}=0$
+			$a_{11}x^2+a_{22}y^2+a_{33}z^2+2a_{12}xy+2a_{13}xz+2a_{23}yz+a_{44}=0$
 				
 	simmetrica rispetto ad $O$.
+
+
+Esaminiamo ora l'effetto di una **rotazione** su una quadrica a centro, per la quale cioè risulta:
+
+$\mathbf{A}=\begin{pmatrix}\mathbf{B}&\mathbf{}_{0}\end{pmatrix}$
