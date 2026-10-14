@@ -3030,4 +3030,4 @@ Studiamo quindi queste due superfici, che sono rispettivamente:
 	
 							$\frac{x^2}{a^2}+\frac{y^2}{b^2}=2pz_{0}$
 	
-	Se $a=b$ quest'ellisse è una circonferenza e la quadrica è di rotazione, ottenuta facendo ruotare attorno all'asse 
+	Se $a=b$ quest'ellisse è una circonferenza e la quadrica è di rotazione, ottenuta facendo ruotare attorno all'asse $z$ la parabola $\frac{x^a}{a^2}=2pz$ (nel piano $xz$). Tagliando invece la superficie con un piano contenente l'asse $z$, cioè del tipo $\alpha x+\beta y=0$ si trova sempre una parabola avente p
