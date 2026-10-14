@@ -2845,5 +2845,7 @@ Consideriamo ora una generica quadrica: ci proponiamo di determinare una rototra
 
 Chiediamoci anzitutto se esiste una traslazione che abbia come effetto quello di annullare i coefficienti dei termini di primo grado, cioè $a_{14},a_{24},a_{34}$; dal sistema trovato nel paragrafo precedente sappiamo che questo equivale a cercare $u,v,w$ che soddisfano il sistema:
 
-$\begin{cases}a_{11}u+a_{12}v+a_{13}w+a_{14}=0 \\  a_{12}u+a_{22}v+a_{23}w+a_{24}=0 \\  a_{13}u+a_{23}v+a_{33}w+a_{34}=0\end{cases}$
+						$\begin{cases}a_{11}u+a_{12}v+a_{13}w+a_{14}=0 \\  a_{12}u+a_{22}v+a_{23}w+a_{24}=0 \\  a_{13}u+a_{23}v+a_{33}w+a_{34}=0\end{cases}$
 
+che è un sistema lineare di tre eq. in 3 incognite, avente per matrice dei coefficienti $\mathbf{B}$.
+La 
