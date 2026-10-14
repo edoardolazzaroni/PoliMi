@@ -2899,5 +2899,7 @@ Pertanto la superficie coincide con l'unione delle rette passanti per l'origine 
 
 Se invece i tre coefficienti $a_{11},a_{22},a_{33}$ hanno tutti lo stesso segno, l'equazione si può riscrivere nella forma:
 
-							$a^2x^2+b^2y^2+c^2z^2=0$
+							$a^2x^2+b^2y^2+c^2z^2=0\quad(a,b,c>0)$
 
+
+ed è evidentemente soddisfatta solo da $O=(0,0,0)$. In questo caso quindi la quadrica degenere si riduce a un punto. Per
