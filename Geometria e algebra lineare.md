@@ -2943,4 +2943,7 @@ Descriviamo ora brevemente tali superfici:
 
 
 - #PROPOSIZIONE(16). Le due famiglie di rette che giacciono sull'iperboloide a una falda hanno le seguenti proprietà:
-	
+
+	a) per ogni punto della superficie passano esattamente una retta della prima famiglia e una della seconda;
+	b) due rette qualsiasi della stessa famiglia sono sghembe;
+	c) ogni retta della prima famiglia interseca ogni retta della seconda famiglia
