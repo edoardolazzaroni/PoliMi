@@ -3059,7 +3059,7 @@ La superficie può essere un **cilindro** o una **quadrica spezzata**.
 Per cilindro (in senso lato) si intende una superficie formata da tutte le rette parallele a un certo asse fissato e passanti ciascuna per un punto di una curva fissata, che definisce la sezione del cilindro:
 
 
-| Cilindri (con asse parallelo all'asse $z$) |     |
-| ------------------------------------------ | --- |
-| $\frac{x^2}{a^}$                           |     |
-|                                            |     |
+| Cilindri (con asse parallelo all'asse $z$) |                                               |
+| ------------------------------------------ | --------------------------------------------- |
+| $\frac{x^2}{a^2}$                          | cilindro ellittico (cioè a sezione ellittica) |
+|                                            | c                                             |
