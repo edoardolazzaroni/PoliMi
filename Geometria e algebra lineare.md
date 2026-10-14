@@ -2851,4 +2851,6 @@ che è un sistema lineare di tre eq. in 3 incognite, avente per matrice dei coef
 La traslazione cercata quindi esiste certamente se $\mathcal{I}_{3}\ne 0$; mettiamoci in tale ipotesi.
 Dopo la traslazione quindi l'equazione della quadrica sarà (chiamando un'altra volta per semplicità i coefficienti con i simboli $a_{ij}$ anzichè $a_{ij}'$):
 
-$a_{11}x^2+a_{22}y^2+a_{33}z^2+2a_{12}xy+2a_{13}$
+				$a_{11}x^2+a_{22}y^2+a_{33}z^2+2a_{12}xy+2a_{13}xz+2a_{23}yz+a_{44}=0$
+
+Si osserva che questa superficie è simmetrica rispetto all'origine: se la terna $x,y,z$ soddisfa l'equazione, anche $-x,-y-z$ la soddisfa; questo si 
