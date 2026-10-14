@@ -2960,5 +2960,7 @@ Descriviamo ora brevemente tali superfici:
 	
 	(come segue dal fatto che $\frac{x^2}{a^2}-1<\frac{x^2}{a^2}$), che rappresenta una delle due regioni in cui il cono a due falde:
 	
-						$\frac{y^2}{b^2}+\frac{z^2}{c^2}=\frac{x^2}{a^2}$
-						
+								$\frac{y^2}{b^2}+\frac{z^2}{c^2}=\frac{x^2}{a^2}$
+	
+	divide lo spazio (precisamente, la regione contente l'asse del cono).
+	Questo cono si dice <u>cono asintotico</u>, perchè la superficie si 
