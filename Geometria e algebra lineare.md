@@ -3133,4 +3133,8 @@ Per distinguere tra loro il caso del cilindro reale o immaginario (o tra due pia
 
 *Esempio*: Riconoscere le seguenti quadriche:
 
-a) $xy+z?$
+a) $xy+z^2+1=0$
+b) $x^2-y^2+4z^2-4xz-z+3=0$
+c) $x^2+y^2+z^2+2xy-3=0$
+
+(a) L
