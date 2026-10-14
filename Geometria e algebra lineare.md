@@ -2841,3 +2841,4 @@ Vedremo un po' alla volta che forma possono assumere le quadriche degeneri.
 
 ### 8.2 **Riduzione a forma canonica delle quadriche: quadriche a centro**
 
+Consideriamo ora una generica quadrica: ci proponiamo di determinare una rototraslazione che ne trasformi l'equazione in una forma abbastanza semplice da permetterci di riconoscere le proprietà importanti della superficie. Cos
