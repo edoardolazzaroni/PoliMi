@@ -2912,8 +2912,10 @@ Le uniche differenze importanti dipendono dai segni dei coefficienti $\alpha,\be
 
 $\frac{x^2}{a^2}+\frac{y^2}{b^2}+\frac{z^2}{c^2}=1$ (<mark class="hltr-yellow">ellissoide reale</mark>)
 $\frac{x^2}{a^2}+\frac{y^2}{b^2}-\frac{z^2}{c^2}=1$ (<mark class="hltr-yellow">iperboloide a una falda</mark>)
-$\frac{x^2}{a^2}-\frac{y^2}{b^2}-\frac{z^2}{c^2}=1$ (iperboloide a due falde)
-$\frac{x^2}{a^2}+\frac{y^2}{b^2}+\frac{z^2}{c^2}=-1$ (ellissoide immaginario)
+$\frac{x^2}{a^2}-\frac{y^2}{b^2}-\frac{z^2}{c^2}=1$ (<mark class="hltr-yellow">iperboloide a due falde</mark>)
+$\frac{x^2}{a^2}+\frac{y^2}{b^2}+\frac{z^2}{c^2}=-1$ (<mark class="hltr-yellow">ellissoide immaginario</mark>)
 
 per opportuni $a,b,c>0$.
-Descriviamo ora brevemente tali superfici
+Descriviamo ora brevemente tali superfici:
+
+- **Ellissoide reale**: il modo più semplice di capire la forma di questa superficie è pensare che si può 
