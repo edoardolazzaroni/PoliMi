@@ -2954,5 +2954,11 @@ Descriviamo ora brevemente tali superfici:
 								$\frac{x^2}{a^2}-1=\frac{y^2}{b^2}+\frac{z^2}{c^2}$
 	
 	si osserva che la superficie è contenuta nelle regioni in cui $\frac{x^2}{a^2}-1\ge 0$, ossia nelle due regioni separate $x\ge a$ e $x\le-a$. Perciò la superficie consiste in <u>due falde distinte</u>.
-	Più precisamente, la superficie è contenuta nella regione $\frac{y^2}{b^2}+\frac{z^2}{c^2}<\frac{x^2}{a^2}$
-	(come segue dal fatto che $\frac{x^2}{a^2}-1<\frac{x^2}{a^2}$), che rappresenta una delle due regio
+	Più precisamente, la superficie è contenuta nella regione:
+	
+								$\frac{y^2}{b^2}+\frac{z^2}{c^2}<\frac{x^2}{a^2}$
+	
+	(come segue dal fatto che $\frac{x^2}{a^2}-1<\frac{x^2}{a^2}$), che rappresenta una delle due regioni in cui il cono a due falde:
+	
+						$\frac{y^2}{b^2}+\frac{z^2}{c^2}=\frac{x^2}{a^2}$
+						
