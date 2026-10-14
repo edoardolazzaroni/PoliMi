@@ -2999,4 +2999,8 @@ Notiamo che $\mathcal{I}_{4}=-a_{11}a_{22}a_{34}^2$.
 
 Studiamo prima il caso della <u>quadrica non a centro e non degenere</u>; quindi $\mathcal{I}_{4}\ne 0$ e i coefficienti $a_{11},a_{22},a_{34}$ sono effettivamente diversi da $0$.
 
-Cerchiamo una **traslazione** che annulli i coefficienti $a_{14},a_{24}$. Dal [[#8]]
+Cerchiamo una **traslazione** che annulli i coefficienti $a_{14},a_{24}$. Dal [[#8.1 **Rototraslazioni nello spazio e invarianti di una quadrica**|sistema]]:
+
+${\begin{cases}a_{14}'=a_{11}u+a_{12}v+a_{13}w+a_{14} \\  a_{24}'=a_{12}u+a_{22}v+a_{23}w+a_{24} \\  a_{34}'=a_{13}u+a_{23}v+a_{33}w+a_{34} \\  a_{44}'=a_{11}u^2+a_{22}v^2+a_{33}w^2+2a_{12}uv+2a_{13}uw+2a_{23}uw+2a_{14}+2a_{24}+2a_{34}+a_{44}\end{cases}}$
+
+otteniamo
