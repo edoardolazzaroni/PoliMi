@@ -2809,4 +2809,7 @@ Possiamo ora enunciare il seguente:
 	$\mathcal{I}_{3}=\det\mathbf{B}$
 	$\mathcal{I}_{4}=\det\mathbf{A}$
 	
-	Sono inoltre invarianti la caratteristica della matrice $\mathbf{A}$ e gli autovalori di $\mathb d{B}$
+	Sono inoltre invarianti la caratteristica della matrice $\mathbf{A}$ e gli autovalori di $\mathbf{B}$.
+	
+	*Dimostrazione*:
+	Ricordiamo che le matrici $\mathbf{A},\mathbf{B}$ di una conica si trasformano per effetto di una rototraslazione in matrici $\mathbf{A}',\mathbf{B}$
