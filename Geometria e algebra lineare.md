@@ -2853,4 +2853,6 @@ Dopo la traslazione quindi l'equazione della quadrica sarà (chiamando un'altra 
 
 				$a_{11}x^2+a_{22}y^2+a_{33}z^2+2a_{12}xy+2a_{13}xz+2a_{23}yz+a_{44}=0$
 
-Si osserva che questa superficie è simmetrica rispetto all'origine: se la terna $x,y,z$ soddisfa l'equazione, anche $-x,-y-z$ la soddisfa; questo si 
+Si osserva che questa superficie è <u>simmetrica rispetto all'origine</u>: se la terna $x,y,z$ soddisfa l'equazione, anche $-x,-y-z$ la soddisfa; questo si può esprimere dicendo che l'origine $O$ è centro di simmetria per la quadrica, o anche che la superficie è una **quadrica a centro**.
+Abbiamo quindi stabilito la seguente:
+
