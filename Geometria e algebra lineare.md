@@ -3018,7 +3018,10 @@ Le generica quadrica non a centro non degenere ha quindi equazione:
 
 Le superfici sostanzialmente diverse si ottengono al variare dei segni dei tre coefficienti, secondo i seguenti due soli casi:
 
-a) $a_{11},a_{22}$ concordi. l'equazione canonica è: $\frac{x^2}{a^2}+\frac{y^2}{b^2}=2pz$
+a) $a_{11},a_{22}$ <u>concordi</u>. L'equazione canonica è: $\frac{x^2}{a^2}+\frac{y^2}{b^2}=2pz$
 	per opportuni $a,b,p>0$ (se $p<0$ la superficie si ottiene dalla precedente semplicemente ribaltando l'asse $z$);
 
-b) $a_{11},a_{22}$ d
+b) $a_{11},a_{22}$ <u>discordi</u>. L'equazione canonica è $\frac{x^2}{a^2}-\frac{y^2}{b^2}=2pz$
+	per opportuni $a,b,p>0$.
+
+Studiamo q
