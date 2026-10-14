@@ -2976,3 +2976,6 @@ Descriviamo ora brevemente tali superfici:
 
 - **Ellissoide immaginario**: si vede subito che l'equazione:
 	
+								$\frac{x^2}{a^2}+\frac{y^2}{b^2}+\frac{z^2}{c^2}=-1$
+	
+	non è soddisfatta da alcuna terna $(x,y,z)$ di numeri reali, quindi nello spazio $\mathbb{R}^\text 3$
