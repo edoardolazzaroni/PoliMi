@@ -2889,12 +2889,15 @@ essa rappresenta un cono a due falde che ha vertice in $O$ e per generatrice ad 
 
 Infatti, preso un punto $(x_{0},y_{0},1)$ su tale curva, ossia tale che $a^2x_{0}^2+b^2y_{0}^2=c^2$, la retta passante per $O$ e $(x_{0},y_{0},1)$ ha equazioni parametriche:
 
-								$\begin{cases}x=tx_{0} \\  y=ty_{0} &\mbox{t}\in\mathbb{R} & \\  z=t\end{cases}$
+							$\begin{cases}x=tx_{0} \\  y=ty_{0} &\mbox{t}\in\mathbb{R} & \\  z=t\end{cases}$
 
 e giace interamente sulla quadrica, in quanto:
 
-				$a^2x^2+b^2y^2=a^2(tx_{0})^2+b^2(ty_{0})^2=t^2(a^2x_{0}^2+b^2y_{0}^2)=t^2c^2=c^2z^2$
+			$a^2x^2+b^2y^2=a^2(tx_{0})^2+b^2(ty_{0})^2=t^2(a^2x_{0}^2+b^2y_{0}^2)=t^2c^2=c^2z^2$
 
 Pertanto la superficie coincide con l'unione delle rette passanti per l'origine e i punti dell'ellisse $(ax^2+b^2y^2=c^2)$, ossia è un cono avente tale ellisse come generatrice.
 
-Se invece i tre coefficienti $a_{11},a_{22},a_{33}$ hanno tutti lo stesso segno, l'equaxio
+Se invece i tre coefficienti $a_{11},a_{22},a_{33}$ hanno tutti lo stesso segno, l'equazione si può riscrivere nella forma:
+
+							$a^2x^2+b^2y^2+c^2z^2=0$
+
