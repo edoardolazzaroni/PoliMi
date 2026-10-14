@@ -2801,4 +2801,4 @@ Anche queste relazioni ci saranno <u>utili nella riduzione a forma canonica dell
 Possiamo ora enunciare il seguente:
 
 - #TEOREMA(28). **Invarianti di una quadrica**
-	
+	Con le notazioni introdotte nella #DEFINIZIONE(28), le seguenti quantità ri
