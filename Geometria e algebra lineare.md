@@ -2986,7 +2986,7 @@ Descriviamo ora brevemente tali superfici:
 
 Consideriamo ora le quadriche non a centro, ossia quelle per cui risulta $\mathcal{I}_{3}=0$.
 In tal caso, non sempre esiste una traslazione che elimini i termini di primo grado; possiamo in compenso diagonalizzare subito la matrice $\mathbf{B}$, ossia effettuare un'opportuna rotazione di assi che elimini i termini $a_{12},a_{23},a_{13}$.
-Dopo questa rotazione l'equazione della quadrica non a centro risulta quindi del tipo:
+Dopo questa **rotazione** l'equazione della quadrica non a centro risulta quindi del tipo:
 
 				$a_{11}x^2+a_{22}y^2+a_{33}z^2+2a_{14}x+2a_{24}y+2a_{34}z+a_{44}=0$
 
@@ -2999,4 +2999,4 @@ Notiamo che $\mathcal{I}_{4}=-a_{11}a_{22}a_{34}^2$.
 
 Studiamo prima il caso della <u>quadrica non a centro e non degenere</u>; quindi $\mathcal{I}_{4}\ne 0$ e i coefficienti $a_{11},a_{22},a_{34}$ sono effettivamente diversi da $0$.
 
-Cerchiamo una traslazione che annull
+Cerchiamo una **traslazione** che annulli i coefficienti $a_{14},a_{24}$. Dalle
