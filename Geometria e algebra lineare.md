@@ -3045,4 +3045,7 @@ Studiamo quindi queste due superfici, che sono rispettivamente:
 	Se $a=b$ l'iperbole è equilatera; in ogni caso la quadrica <u>non è una superficie di rotazione</u>.
 	Tagliando la superficie con un piano contenente l'asse $z$, cioè del tipo $\alpha x+\beta y=0$, si ottiene sempre una parabola, che però a seconda della direzione del piano di sezione è concava verso l'alto o verso il basso.
 	Come l'iperboloide a una falda anche il paraboloide iperbolico è una **superficie rigata**, in quanto contiene le due famiglie di rette:
-	$\begin{cases} \frac{x}{a}+\frac{y}{b}=2hpz \\  \frac{x}{a}-\frac{y}{b}=\frac{1}{h} \end{cases}\quad$ e $\begin{cases} \frac{x}{a}+\frac{y}{b}=-2hpz \\  \frac{x}{a}-\frac{y}{b} \end{cases}$
+	
+	$\begin{cases} \frac{x}{a}+\frac{y}{b}=2hpz \\  \frac{x}{a}-\frac{y}{b}=\frac{1}{h} \end{cases}\quad$ e $\quad\begin{cases} \frac{x}{a}+\frac{y}{b}=-2hpz \\  \frac{x}{a}-\frac{y}{b}=-\frac{1}{h} \end{cases}$
+	
+	(al variare di $h\in \mathbb{R}$), come si verifica moltiplicando membro a membro 
