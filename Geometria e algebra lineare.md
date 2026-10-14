@@ -2904,6 +2904,8 @@ Se invece i tre coefficienti $a_{11},a_{22},a_{33}$ hanno tutti lo stesso segno,
 
 ed è evidentemente soddisfatta solo da $O=(0,0,0)$. In questo caso quindi la quadrica degenere <u>si riduce a un punto</u>. Per analogia col caso precedente (cono a due falde) si parla anche di <u>cono immaginario</u>.
 
-Occupiamoci ora delle quadriche a centro non degeneri, ossia del tipo $a_{11}x^2+a_{22}y^2+a_{33}z^2+a_{44}=0$ con tutti i coefficienti , che quindi dividendo per $a_{44}$ si possono riscrivere nella forma:
+Occupiamoci ora delle quadriche a centro non degeneri, ossia del tipo $a_{11}x^2+a_{22}y^2+a_{33}z^2+a_{44}=0$ con tutti i coefficienti $\ne 0$, che quindi dividendo per $a_{44}$ si possono riscrivere come:
 
-$$
+								$\alpha x^2+\beta y^2+\gamma z^2=1$
+
+Le uniche differenze importanti dipend
