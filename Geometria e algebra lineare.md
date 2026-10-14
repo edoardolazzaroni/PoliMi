@@ -2812,4 +2812,4 @@ Possiamo ora enunciare il seguente:
 	Sono inoltre invarianti la caratteristica della matrice $\mathbf{A}$ e gli autovalori di $\mathbf{B}$.
 	
 	*Dimostrazione*:
-	Ricordiamo che le matrici $\mathbf{A},\mathbf{B}$ di una conica si trasformano per effetto di una rototraslazione in matrici $\mathbf{A}',\mathbf{B}$
+	Ricordiamo che le matrici $\mathbf{A},\mathbf{B}$ di una conica si trasformano per effetto di una rototraslazione in matrici $\mathbf{A}',\mathbf{B}'$ simili rispettivamente ad $\mathbf{A},\mathbf{B}$ e che, per quanto visto nel capitolo 6.1 [[#]]
