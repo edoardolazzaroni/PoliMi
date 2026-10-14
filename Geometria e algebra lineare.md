@@ -2849,10 +2849,11 @@ Chiediamoci anzitutto se esiste una traslazione che abbia come effetto quello di
 
 che è un sistema lineare di tre eq. in 3 incognite, avente per matrice dei coefficienti $\mathbf{B}$.
 La traslazione cercata quindi esiste certamente se $\mathcal{I}_{3}\ne 0$; mettiamoci in tale ipotesi.
-Dopo la traslazione quindi l'equazione della quadrica sarà (chiamando un'altra volta per semplicità i coefficienti con i simboli $a_{ij}$ anzichè $a_{ij}'$):
+Dopo la traslazione quindi l'equazione della quadrica sarà (chiamando un'altra volta per semplicità i coefficienti con i simboli $a_{ij}$ anziché $a_{ij}'$):
 
 				$a_{11}x^2+a_{22}y^2+a_{33}z^2+2a_{12}xy+2a_{13}xz+2a_{23}yz+a_{44}=0$
 
 Si osserva che questa superficie è <u>simmetrica rispetto all'origine</u>: se la terna $x,y,z$ soddisfa l'equazione, anche $-x,-y-z$ la soddisfa; questo si può esprimere dicendo che l'origine $O$ è centro di simmetria per la quadrica, o anche che la superficie è una **quadrica a centro**.
 Abbiamo quindi stabilito la seguente:
 
+- #PROPOSIZIONE(15). Se $\mathcal{I}_{3}\ne 0$, la quadrica è a centro; un'opportuna traslazione la riconduce alla forma $a_{11}x^2+a_{22}y^2+a_{33}z^2+2a_{12}xy+2a_{13}xz+2a_{23}yz+a_{44}=0$
