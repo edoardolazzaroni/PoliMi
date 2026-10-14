@@ -2946,4 +2946,7 @@ Descriviamo ora brevemente tali superfici:
 
 	a) per ogni punto della superficie passano esattamente una retta della prima famiglia e una della seconda;
 	b) due rette qualsiasi della stessa famiglia sono sghembe;
-	c) ogni retta della prima famiglia interseca ogni retta della seconda famiglia
+	c) ogni retta della prima famiglia interseca ogni retta della seconda famiglia.
+
+
+- **Iperboloide a due falde**: 
