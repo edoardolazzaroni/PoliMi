@@ -2921,11 +2921,13 @@ Descriviamo ora brevemente tali superfici:
 - **Ellissoide reale**: il modo più semplice di capire la forma di questa superficie è pensare che si può ottenere da una superficie sferica eseguendo una dilatazione di fattore diverso su ogni asse: $x=ax',y=by',z=cz'$, che dà all'ellissoide la forma di una "sfera allungata".
 	I numeri $a,b,c$ sono i <u>semiassi</u> dell'ellissoide, che ha per <u>vertici</u> i punti $(\pm a,0,0),(0,\pm b,0),(0,0,\pm c)$. Se due dei tre semiassi sono uguali tra loro l'ellissoide è di rotazione: *ad esempio*, per $a=b$, la superficie taglia i piani $z=z_{0}$ (quando $|z_{0}|<c$) lungo le circonferenze:
 						
-							$x^2+y^2=a^2\left( 1-\frac{z_{0}^2}{c^2} \right)$
+								$x^2+y^2=a^2\left( 1-\frac{z_{0}^2}{c^2} \right)$
 	
 	pertanto la superficie si può vedere ottenuta facendo ruotare attorno all'asse $z$ l'ellisse (nel piano $xz$) $\frac{x^2}{a^2}+\frac{z^2}{c^2}=1$. Se tutti e tre i semiassi sono uguali, la superficie è una sfera di raggio $r$.
 
 - **Iperboloide a una falda**: si osserva che la superficie taglia qualsiasi piano $z=z_{0}$ lungo l'ellisse:
-	$\frac{x^2}{a^2}+\frac{y^2}{b^2}=1+\frac{z^2}{c^2}$
+								$\frac{x^2}{a^2}+\frac{y^2}{b^2}=1+\frac{z_{0}^2}{c^2}$
+	
+	I semiassi delle sezioni ellittiche crescono al crescere di $|z_{0}|$
 
 - 
