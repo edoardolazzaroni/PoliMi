@@ -2908,4 +2908,6 @@ Occupiamoci ora delle quadriche a centro non degeneri, ossia del tipo $a_{11}x^2
 
 								$\alpha x^2+\beta y^2+\gamma z^2=1$
 
-Le uniche differenze importanti dipendono dai segni dei coefficienti $\alpha,\beta,\gamma$: ciò che conta è semplicemente quanti di essi sono positivi (quali in dettaglio è solo una questione di nomi dati alle variabili). Le 
+Le uniche differenze importanti dipendono dai segni dei coefficienti $\alpha,\beta,\gamma$: ciò che conta è semplicemente quanti di essi sono positivi (quali in dettaglio è solo una questione di nomi dati alle variabili). Le possibilità sono quindi quattro, a seconda che il numero di coefficienti positivi sia $3,2,1,0$. In corrispondenza di questi casi si ottengono rispettivamente le seguenti equazioni canoniche:
+
+$\frac{x^2}{a^}$
