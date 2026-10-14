@@ -2823,4 +2823,6 @@ Osserviamo anche che, moltiplicando l'equazione della quadrica per un coefficien
 Tenendo conto anche di quest'osservazione possiamo enunciate la seguente Proposizione, che raccoglie i fatti che operativamente utilizzeremo nella classificazione delle quadriche:
 
 - #PROPOSIZIONE(14). I seguenti fatti esprimono una proprietà geometrica della superficie quadrica:
-	- L'annullarsi o meno di ciascuno degli invarianti 
+	- l'annullarsi o meno di ciascuno degli invarianti (in particolare utilizzeremo $\mathcal{I}_{3},\mathcal{I}_{4}$);
+	- il segno degli invarianti $\mathcal{I}_{2}$ e $\mathcal{I}_{4}$ (utilizzeremo solo il segno di $\mathcal{I}_{4}$);
+	- il numero di autovalori di $\mathbf{B}$ che si annullano e il fatto che gli a
