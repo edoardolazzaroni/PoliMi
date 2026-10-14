@@ -3048,4 +3048,8 @@ Studiamo quindi queste due superfici, che sono rispettivamente:
 	
 	$\begin{cases} \frac{x}{a}+\frac{y}{b}=2hpz \\  \frac{x}{a}-\frac{y}{b}=\frac{1}{h} \end{cases}\quad$ e $\quad\begin{cases} \frac{x}{a}+\frac{y}{b}=-2hpz \\  \frac{x}{a}-\frac{y}{b}=-\frac{1}{h} \end{cases}$
 	
-	(al variare di $h\in \mathbb{R}$), come si verifica moltiplicando membro a membro 
+	(al variare di $h\in \mathbb{R}$), come si verifica moltiplicando membro a membro le due equazioni di ciascun sistema.
+	Precisamente, valgono ancore le proprietà espresse nella #PROPOSIZIONE(16).
+
+
+Dobbiamo ancora considerare le quadriche non a
