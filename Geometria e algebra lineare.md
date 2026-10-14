@@ -2971,4 +2971,4 @@ Descriviamo ora brevemente tali superfici:
 	
 									$\frac{x^2}{a^2}-\frac{y^2}{b^2}=1$
 	
-	(nel piano $xy$). Tagliano invece la superficie
+	(nel piano $xy$). Tagliano invece la superficie con un piano contenente l'asse $x$, cioè del tipo $\alpha y+\beta z=0$, si ottiene sempre un'iperbole, i cui asintoti giacciono sul cono asintotico, come si verifica facilmente. A differenza dell'iperboloide a
