@@ -2949,4 +2949,5 @@ Descriviamo ora brevemente tali superfici:
 	c) ogni retta della prima famiglia interseca ogni retta della seconda famiglia.
 
 
-- **Iperboloide a due falde**: 
+- **Iperboloide a due falde**: riscrivendo l'equazione nella forma:
+	$\frac{x^2}{a^2}-1=\frac{y^2}{b^2}+\frac{z^2}{c^2}$
