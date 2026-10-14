@@ -2996,4 +2996,5 @@ inoltre, $\mathcal{I}_{3}=a_{11}a_{22}a_{33}=0$, quindi almeno uno dei coefficie
 $\mathbf{A}=\begin{pmatrix}a_{11} & 0 & 0 & a_{14} \\  0 & a_{22} & 0 & a_{24} \\  0 & 0 & 0 & a_{34} \\  a_{14} & a_{24} & a_{34} & a_{44}\end{pmatrix}$
 
 Notiamo che $\mathcal{I}_{4}=-a_{11}a_{22}a_{34}^2$.
-Studiamo prima il caso della quadrica on
+
+Studiamo prima il caso della <u>quadrica non a centro e non degenere</u>; quindi $\mathcal{I}_{4}\ne 0$ e i coefficienti $a_{11},a_{22},a_{34}$ sono effettivamente diversi da $0$.
