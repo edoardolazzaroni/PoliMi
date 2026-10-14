@@ -2865,4 +2865,6 @@ Abbiamo quindi stabilito la seguente:
 
 Esaminiamo ora l'effetto di una **rotazione** su una quadrica a centro, per la quale cioè risulta:
 
-$\mathbf{A}=\begin{pmatrix}\mathbf{B}&\mathbf{0}^\top \\  \mathbf{0}&a_{44}\end{pmatrix}$, avendo posto $\mathbf{0}=(0,0,0)$. Dalla
+$\mathbf{A}=\begin{pmatrix}\mathbf{B}&\mathbf{0}^\top \\  \mathbf{0}&a_{44}\end{pmatrix}$, avendo posto $\mathbf{0}=(0,0,0)$. La matrice $\mathbf{A}$ si trasforma in:
+
+$\mathbf{A}'=\begin{pmatrix}\mathbf{B}&\mathbf{0}^\top \\  \mathbf{0}&a_{44}\end{pmatrix}$
