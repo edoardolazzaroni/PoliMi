@@ -3028,10 +3028,15 @@ Studiamo quindi queste due superfici, che sono rispettivamente:
 
 - **Paraboloide ellittico**: la superficie è contenuta nel semispazio $z>0$, e taglia ogni piano $z=z_{0}$ (con $z_{0}>0$) lungo l'ellisse:
 	
-							$\frac{x^2}{a^2}+\frac{y^2}{b^2}=2pz_{0}$
+								$\frac{x^2}{a^2}+\frac{y^2}{b^2}=2pz_{0}$
 	
 	Se $a=b$ quest'ellisse è una circonferenza e la quadrica è di rotazione, ottenuta facendo ruotare attorno all'asse $z$ la parabola $\frac{x^a}{a^2}=2pz$ (nel piano $xz$).
 	Tagliando invece la superficie con un piano contenente l'asse $z$, cioè del tipo $\alpha x+\beta y=0$ si trova sempre una parabola avente per asse l'asse $z$ e per vertice $O$; si dice pertanto che l'origine è il vertice del paraboloide e l'asse $z$ il suo asse.
 
 
-- **Paraboloide iperbolico** (detto anche **sella**): tagliando la superficie con un qualsiasi piano $z=z_{0}$ ($z_{0}\ne$)
+- **Paraboloide iperbolico** (detto anche **sella**): tagliando la superficie con un qualsiasi piano $z=z_{0}$ ($z_{0}\ne 0$) si trova un'iperbole:
+	
+								$\frac{x^2}{a^2}-\frac{y^2}{b^2}=2pz_{0}$
+	
+	che per $z_{0}>0$ è del tipo:
+	$$
