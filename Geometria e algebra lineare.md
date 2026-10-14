@@ -3052,4 +3052,4 @@ Studiamo quindi queste due superfici, che sono rispettivamente:
 	Precisamente, valgono ancore le proprietà espresse nella #PROPOSIZIONE(16).
 
 
-Dobbiamo ancora considerare le quadriche non a
+Dobbiamo ancora considerare le <u>quadriche non a centro e degeneri</u>, ossia quelle aventi matrice dei coefficienti $\mathbf{A}=\begin{pmatrix}a_{11} & 0 & 0 & a_{14} \\  0 & a_{22} & 0 & a_{24} \\  0 & 0 & 0 & a_{34} \\  a_{14} & a_{24} & a_{34} & a_{44}\end{pmatrix}$ ma 
