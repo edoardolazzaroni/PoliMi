@@ -3061,5 +3061,5 @@ Per cilindro (in senso lato) si intende una superficie formata da tutte le rette
 
 | Cilindri (con asse parallelo all'asse $z$) |     |
 | ------------------------------------------ | --- |
-| $x?$                                       |     |
+| $\frac{x^2}{a^}$                           |     |
 |                                            |     |
