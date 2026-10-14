@@ -2872,4 +2872,6 @@ $\mathbf{A}=\begin{pmatrix}\mathbf{B}&\mathbf{0}^\top \\  \mathbf{0}&a_{44}\end{
 ossia la quadrica rimane a centro, e la matrice $\mathbf{B}$ si trasforma secondo la legge $\mathbf{B}'=\mathbf{R}^\top \mathbf{B}\mathbf{R}$.
 Con una scelta opportuna della rotazione possiamo quindi diagonalizzare la matrice $\mathbf{B}$, ossia ridurre l'equazione della quadrica alla forma:
 
-$a_{11}x^2+a$
+						$a_{11}x^2+a_{22}y^2+a_{33}z^2+a_{44}=0$
+
+con $\mathcal{I}_{3}=a_{11}a_{22}a_{33}\ne 0$ per ipotesi. Si noti che in q
