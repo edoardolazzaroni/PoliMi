@@ -3087,4 +3087,5 @@ Il prossimi schema riassume gli elementi utili al riconoscimento delle quadriche
 
 La prima distizione da fare è:
 
-a) $\mathcal{I}_{4}\ne 0-\$
+a) $\mathcal{I}_{4}\ne 0 \implies$ **quadrica non degenere**;
+b) $\mathcal{I}_{4}= 0 \implies$ **quadrica degenere**.
