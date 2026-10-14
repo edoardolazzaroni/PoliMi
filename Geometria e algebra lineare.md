@@ -2813,4 +2813,8 @@ Possiamo ora enunciare il seguente:
 	
 	*Dimostrazione*:
 	Ricordiamo che le matrici $\mathbf{A},\mathbf{B}$ di una conica si trasformano per effetto di una rototraslazione in matrici $\mathbf{A}',\mathbf{B}'$ simili rispettivamente ad $\mathbf{A},\mathbf{B}$ e che, per quanto visto nel [[#6.1 **Matrici diagonalizzabili**|capitolo 6.1]], matrici simili hanno lo stesso determinante, la stessa caratteristica e lo stesso polinomio caratteristico, quindi gli stessi autovalori. Ciò implica immediatamente che $\mathcal{I}_{4},\mathcal{I}_{3}$, la caratteristica di $\mathbf{A}$ e gli autovalori di $\mathbf{B}$ siano invarianti. Inoltre, scrivendo esplicitamente il polinomio caratteristico di $\mathbf{B}$ si ottiene:
-	$\det(\mathbf{B}-\lambda\mathbf{I})=-\lambda^3+\lambda^2\mathcal{I}_{1}-\lambda\mathcal{I}_{2}+\mathcal{I}_{3}$
+	
+						$\det(\mathbf{B}-\lambda\mathbf{I})=-\lambda^3+\lambda^2\mathcal{I}_{1}-\lambda\mathcal{I}_{2}+\mathcal{I}_{3}$
+	
+	da cui leggiamo l'invarianza di $\mathcal{I}_{1}$ e $\mathcal{I}_{2}$.
+	Osserviamo anche che
