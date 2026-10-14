@@ -2876,4 +2876,8 @@ Con una scelta opportuna della rotazione possiamo quindi diagonalizzare la matri
 
 con $\mathcal{I}_{3}=a_{11}a_{22}a_{33}\ne 0$ per ipotesi. Si noti che in questo caso risulta $\mathcal{I}_{4}=a_{44}\mathcal{I}_{3}$.
 Pertanto $\mathcal{I}_{4}=0$, ossia la quadrica è degenere, se e solo se $a_{44}=0$.
-Discutiamo subito questa 
+Discutiamo subito questa situazione, ossia consideriamo una <u>quadrica a centro, degenere</u>:
+
+						$a_{11}x^2+a_{22}y^2+a_{33}z^2=0$
+
+L
