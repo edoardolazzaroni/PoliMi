@@ -3011,4 +3011,6 @@ il che è immediato perchè stiamo supponendo $a_{11},a_{22}\ne 0$. Arriviamo qu
 
 						$a_{11}x^2+a_{22}y^2+2a_{34}z+a_{44}=0$
 
-Infine la traslazione $z=z'+w$ elimina i
+Infine la traslazione $z=z'+w$ elimina il termine noto $a_{44}$ scegliendo $w=-\frac{a_{44}}{2a_{34}}$.
+Le generica quadrica non a centro non degenere ha quindi equazione:
+
