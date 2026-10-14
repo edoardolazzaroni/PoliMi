@@ -3067,11 +3067,14 @@ Per cilindro (in senso lato) si intende una superficie formata da tutte le rette
 
 Le quadriche non a centro e spezzate sono invece le seguenti:
 
-$x^2+a^2=0$ $\to $
+$x=0$ $\to \emptyset$
 
 | Quadriche spezzate                  |                                                                                                 |
 | ----------------------------------- | ----------------------------------------------------------------------------------------------- |
 | $\frac{x^2}{a^2}-\frac{y^2}{b^2}=0$ | due piani (reali, $y=\pm \frac{b}{a}x$), incidenti su una retta (asse $z$)                      |
 | $\frac{x^2}{a^2}+\frac{y^2}{b^2}=0$ | due piani complessi coniugati ($y=\pm i \frac{b}{a}x$), incidenti su una retta reale (asse $z$) |
 | $x^2-a^2=0$                         | due piani paralleli reali ($x=\pm a$)                                                           |
-| $x^2+a^2=0$                         | due piani immaginari ($x=\pm ia$)                                                               |
+| $x^2+a^2=0$                         | due piani immaginari ($x=\pm ia$) $\to \emptyset$                                               |
+| $x^2=0$                             | un piano ($x=0$)                                                                                |
+
+Si osservi che anche le quadriche spezzate, a rigore, soddisfano la definizione che abbiamo dato di cilindro, 
