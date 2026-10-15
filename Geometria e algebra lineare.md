@@ -493,8 +493,7 @@ Se si introduce il versore $\mathbf{N}=\frac{1}{\sqrt{a^2+b^2+c^2}}(a,b,c)$, la 
 $$\delta=|\mathbf{N}\cdot\overrightarrow{P_0P_1}|=\frac{|a(x_1-x_0)+b(y_1-y_0)+c(z_1-z_0)|}{\sqrt{a^2+b^2+c^2}}$$
 
 ossia, ricordando che abbiamo posto $d=ax_0+by_0+cz_0$:
-
-							$$\delta=\frac{|ax_1+by_1+cz_1-d|}{\sqrt{a^2+b^2+c^2}}$$
+$$\delta=\frac{|ax_1+by_1+cz_1-d|}{\sqrt{a^2+b^2+c^2}}$$
 
 
 
@@ -509,9 +508,7 @@ Introduciamo quindi la definizione di *spazio vettoriale* astratto, e definiremo
 ### 3.1 **Vettori $n$-dimensionali: lo spazio $\mathbb{R}^n$, spazi vettoriali astratti**
 
 Nei primi capitoli abbiamo visto come i vettori nel piano e nello spazio si possano identificare, previa la scelta di un sistema di riferimento cartesiano, con coppie o terne ordinate di numeri reali. Una volta fatta questa identificazione, è possibile eseguire le operazioni fondamentali sui vettori (somma o prodotto per uno scalare) operando direttamente su queste coppie/terne:
-
-						$(v_1,v_2)+(u_1,u_2)=(v_1+u_1,v_2+u_2)$
-								$\lambda(v_1,v_2)=(\lambda v_1,\lambda v_2)$
+$$(v_1,v_2)+(u_1,u_2)=(v_1+u_1,v_2+u_2)$$$$\lambda(v_1,v_2)=(\lambda v_1,\lambda v_2)$$
 
 Questi fatti suggeriscono la possibilità di considerare le $n$-uple ordinate di numeri reali come vettori di uno spazio astratto a $n$ dimensioni.
 
@@ -522,9 +519,8 @@ Consideriamo dunque l'insieme $\mathbb{R}^n$ di tutte le $n$-uple ordinate di nu
 Potremo indicare un elemento di $\mathbb{R}^n$ con $\mathbf{x},\mathbf{y},\cdots \ .$
 Se, per esempio, $\mathbf{x}=(x_1,x_2,\cdots,x_n)$, diremo che $x_i$ sono le **componenti del vettore** $\mathbf{x}$.
 È possibile definire in modo naturale la somma di due vettori e la moltiplicazione per uno scalare:
-
-				$(x_1,x_2,\cdots,x_n)+(y_1,y_2,\cdots,y_n)=(x_1+y_1,x_2+y_2,\cdots,x_n+y_n)$
-							$\lambda(x_1,x_2,\cdots,x_n)=(\lambda v_1,\lambda x_2,\cdots,\lambda x_n)$
+$$(x_1,x_2,\cdots,x_n)+(y_1,y_2,\cdots,y_n)=(x_1+y_1,x_2+y_2,\cdots,x_n+y_n)$$
+							$$\lambda(x_1,x_2,\cdots,x_n)=(\lambda v_1,\lambda x_2,\cdots,\lambda x_n)$$
 
 Si noti il diverso punto di vista che stiamo adottando rispetto a prima: lì, dopo aver definito la somma di due vettori nel piano per via geometrica (regola del parallelogramma), si dimostrava che la somma si poteva calcolare, rappresentando i valori come coppie ordinate di numeri reali, sommando componente per componente. Qui invece, non essendo visualizzabili i vettori $n$-dimensionali (quando $n>3$), l'analoga formula della somma componente per componente è la definizione stessa di somma di due $n$-uple. Possiamo anche dire che i vettori $n$-dimensionali sono enti algebrici, che però condividono molte proprietà degli enti geometrici elementari studiati nel piano e nello spazio. Pertanto, nello studio di $\mathbb{R}^n$, la terminologia e le intuzioni geometriche legate allo spazio ordinario risultano spesso utili.
 
