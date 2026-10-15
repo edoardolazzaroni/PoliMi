@@ -2937,7 +2937,7 @@ Descriviamo ora brevemente tali superfici:
 	
 	si osserva che le due famiglie di rette:
 	
-	$\begin{cases}\frac{x}{a}+\frac{z}{c}=h\left( 1+\frac{y}{b} \right) \\  \frac{x}{a}-\frac{z}{c}\left( \frac{1}{h}\left( 1-\frac{y}{b} \right) \right)\end{cases}\quad$ e $\quad \begin{cases} \frac{x}{a}+\frac{z}{c}=h\left( 1-\frac{y}{b} \right) \\  \frac{x}{a}-\frac{z}{c}=\frac{1}{h}\left( 1+\frac{y}{b} \right) \end{cases}$
+	$$\begin{cases}\frac{x}{a}+\frac{z}{c}=h\left( 1+\frac{y}{b} \right) \\  \frac{x}{a}-\frac{z}{c}\left( \frac{1}{h}\left( 1-\frac{y}{b} \right) \right)\end{cases}\quad$ e $\quad \begin{cases} \frac{x}{a}+\frac{z}{c}=h\left( 1-\frac{y}{b} \right) \\  \frac{x}{a}-\frac{z}{c}=\frac{1}{h}\left( 1+\frac{y}{b} \right) \end{cases}$$
 
 	(al variare di $h\in\mathbb{R}$), sono contenute nella superficie stessa, come si verifica moltiplicando membro a membro le due equazioni di ciascun sistema. Per questa ragione si dice che l'iperboloide a una falde è una **superficie rigata**. Precisamente:
 
@@ -2950,20 +2950,18 @@ Descriviamo ora brevemente tali superfici:
 
 
 - **Iperboloide a due falde**: riscrivendo l'equazione nella forma:
-	
-								$\frac{x^2}{a^2}-1=\frac{y^2}{b^2}+\frac{z^2}{c^2}$
+	$$\frac{x^2}{a^2}-1=\frac{y^2}{b^2}+\frac{z^2}{c^2}$$
 	
 	si osserva che la superficie è contenuta nelle regioni in cui $\frac{x^2}{a^2}-1\ge 0$, ossia nelle due regioni separate $x\ge a$ e $x\le-a$. Perciò la superficie consiste in <u>due falde distinte</u>.
 	Più precisamente, la superficie è contenuta nella regione:
-	
-								$\frac{y^2}{b^2}+\frac{z^2}{c^2}<\frac{x^2}{a^2}$
+	$$\frac{y^2}{b^2}+\frac{z^2}{c^2}<\frac{x^2}{a^2}$$
 	
 	(come segue dal fatto che $\frac{x^2}{a^2}-1<\frac{x^2}{a^2}$), che rappresenta una delle due regioni in cui il cono a due falde:
 	$$\frac{y^2}{b^2}+\frac{z^2}{c^2}=\frac{x^2}{a^2}$$
 	
 	divide lo spazio (precisamente, la regione contente l'asse del cono).
 	Questo cono si dice <u>cono asintotico</u>, perchè la superficie si avvicina indefinitamente ad esso così come un'iperbole si avvicina ai suoi asintoti. Tagliando la superficie con un piano $x=x_{0}$ (per $|x_{0}|>a$) si trova l'ellisse:
-								$$\frac{y^2}{b^2}+\frac{z^2}{c^2}=\frac{x_{0}^2}{a^2}-1$$
+	$$\frac{y^2}{b^2}+\frac{z^2}{c^2}=\frac{x_{0}^2}{a^2}-1$$
 	
 	In particolare se $b=c$ quest'ellisse è una circonferenza e la quadrica è di rotazione, ottenuta facendo ruotare attorno all'asse $x$ l'iperbole:
 									$$\frac{x^2}{a^2}-\frac{y^2}{b^2}=1$$
