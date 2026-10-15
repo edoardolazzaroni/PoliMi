@@ -3161,3 +3161,9 @@ Poichè $\det \mathbf{A}>0$ si tratta di un paraboloide iperbolico.
 
 (c) La matrice dei coefficienti è: $\mathbf{A}=\begin{pmatrix}1 & 1 & 0 & 0 \\  1 & 1 & 0 & 0 \\  0 & 0 & 1 & 0 \\  0 & 0 & 0 & -3\end{pmatrix}$
 
+da cui: $\mathcal{I}_{4}=0,\quad\mathcal{I}_{3}=0$
+
+(quadrica degenere, cilindro o spezzata).
+Per decidere, osserviamo che:
+
+$Ca$
