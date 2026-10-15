@@ -3001,21 +3001,13 @@ Studiamo prima il caso della <u>quadrica non a centro e non degenere</u>; quindi
 
 Cerchiamo una **traslazione** che annulli i coefficienti $a_{14},a_{24}$. Dal [[#8.1 **Rototraslazioni nello spazio e invarianti di una quadrica**|sistema]]:
 
-${\begin{cases}a_{14}'=a_{11}u+a_{12}v+a_{13}w+a_{14} \\  a_{24}'=a_{12}u+a_{22}v+a_{23}w+a_{24} \\  a_{34}'=a_{13}u+a_{23}v+a_{33}w+a_{34} \\  a_{44}'=a_{11}u^2+a_{22}v^2+a_{33}w^2+2a_{12}uv+2a_{13}uw+2a_{23}uw+2a_{14}+2a_{24}+2a_{34}+a_{44}\end{cases}}$
+$${\begin{cases}a_{14}'=a_{11}u+a_{12}v+a_{13}w+a_{14} \\  a_{24}'=a_{12}u+a_{22}v+a_{23}w+a_{24} \\  a_{34}'=a_{13}u+a_{23}v+a_{33}w+a_{34} \\  a_{44}'=a_{11}u^2+a_{22}v^2+a_{33}w^2+2a_{12}uv+2a_{13}uw+2a_{23}uw+2a_{14}+2a_{24}+2a_{34}+a_{44}\end{cases}}$$
 
 leggiamo che questo significa risolvere il sistema in $u,v$ (in altre parole, la traslazione non agisce sulla terza variabile):
-
-$\begin{cases}a_{11}u+a_{14}=0 \\  a_{22}v+a_{24}=0\end{cases}$
-
-il che è immediato perchè stiamo supponendo $a_{11},a_{22}\ne 0$. Arriviamo quindi alla quadrica di equazione:
-
-						$$a_{11}x^2+a_{22}y^2+2a_{34}z+a_{44}=0$$
-
+$$\begin{cases}a_{11}u+a_{14}=0 \\  a_{22}v+a_{24}=0\end{cases}$$
+il che è immediato perchè stiamo supponendo $a_{11},a_{22}\ne 0$. Arriviamo quindi alla quadrica di equazione:						$$a_{11}x^2+a_{22}y^2+2a_{34}z+a_{44}=0$$
 Infine la traslazione $z=z'+w$ elimina il termine noto $a_{44}$ scegliendo $w=-\frac{a_{44}}{2a_{34}}$.
-Le generica quadrica non a centro non degenere ha quindi equazione:
-
-						$a_{11}x^2+a_{22}y^2+2a_{34}z+=0$
-
+Le generica quadrica non a centro non degenere ha quindi equazione:				$$a_{11}x^2+a_{22}y^2+2a_{34}z+=0$$
 Le superfici sostanzialmente diverse si ottengono al variare dei segni dei tre coefficienti, secondo i seguenti due soli casi:
 
 a) $a_{11},a_{22}$ <u>concordi</u>. L'equazione canonica è: $\frac{x^2}{a^2}+\frac{y^2}{b^2}=2pz$
