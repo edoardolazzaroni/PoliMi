@@ -589,9 +589,7 @@ Chiameremo il primo <u>vettore riga</u> ed il secondo <u>vettore colonna</u>.
 
 Una classe di spazi vettoriali particolarmente importanti nello studio dell'analisi matematica è quella degli <u>spazi di funzioni</u>: sia $I\subset\mathbb{R}$ un intervallo e indichiamo con $\mathcal{F}_I$ l'insieme di tutte le funzioni $f \ : \ I\rightarrow\mathbb{R}$.
 Tra queste funzioni si possono definire un'operazione di somma ed una di prodotto per uno scalare, ponendo per $f,g \ : \ I\rightarrow\mathbb{R}$ e $\lambda \in \mathbb{R}$:
-
-							$(f+g)(x)=f(x)+g(x)$
-								$(\lambda f)(x)=\lambda f(x)$.
+$$(f+g)(x)=f(x)+g(x)$$$$(\lambda f)(x)=\lambda f(x).$$
 
 È immediato verificare che, munito di queste operazioni, $\mathcal{F}_I$ risulta essere uno spazio vettoriale su $\mathbb{R}$. Inoltre questo spazio ha dimensione infinita (tranne nel caso in cui l'intervallo $I$ sia ridotto ad un solo punto), in quanto non esiste un numero finito di funzioni $f_i \ : \ I\rightarrow\mathbb{R}, \ i=1,2,\cdots,n$ tali che ogni altra funzione non si possa esprimere come loro combinazione lineare.
 
@@ -606,8 +604,7 @@ Un analogo ragionamento mostra che l'insieme di tutte le funzioni derivabili in 
 
 Torniamo ora ad occuparci specificamente dello spazio $\mathbb{R}^n$. Tra i vettori del piano e dello spazio, abbiamo visto che sono definite oltre alle [[#3.1.1 **Lo spazio $ mathbb{R} n$**|due operazioni caratteristiche di ogni spazio vettoriale]], altre due operazioni: il <u>prodotto scalare</u> e, per vettori dello spazio, anche il <u>prodotto vettoriale</u>.
 Mentre il secondo è un'operazione tipica di $\mathbb{R}^3$, il prodotto scalare può essere definito in $\mathbb{R}^n$:
-
-						$(x_1,x_2,\cdots,x_n)\cdot(y_1,y_2,\cdots,y_n)=\sum_{i=1}^n x_iy_i$
+$$(x_1,x_2,\cdots,x_n)\cdot(y_1,y_2,\cdots,y_n)=\sum_{i=1}^n x_iy_i$$
 
 Questo prodotto scalare ha le [[#1.5 **Prodotto scalare e vettoriale**|stesse proprietà formali]] che aveva nel caso di $\mathbb{R}^2$ o $\mathbb{R}^3$.
 Analogamente, si dirà che in $\mathbb{R}^n$:
@@ -617,7 +614,7 @@ Analogamente, si dirà che in $\mathbb{R}^n$:
 - Definiamo modulo o norma di un vettore $\mathbf{v}$ il numero $|\mathbf{v}|=\sqrt{\mathbf{v}\cdot\mathbf{v}}=(\sum_{i=1}^n {v^2}_i)^\frac{1}{2}$
 	
 	Un vettore di modulo unitario si dice versore. Dato un vettore $\mathbf{v}$ non nullo, si definisce
-								$vers(\mathbf{v})=\frac{\mathbf{v}}{|\mathbf{v}|}$.
+	$$vers(\mathbf{v})=\frac{\mathbf{v}}{|\mathbf{v}|}.$$
 
 Accade spesso di voler sostituire un vettore $\mathbf{v}$ con il corrispondente $vers(\mathbf{v})$; questa operazione si dice **normalizzazione del vettore** $\mathbf{v}$ e $vers(\mathbf{v})$ prende il nome di vettore normalizzato.
 
