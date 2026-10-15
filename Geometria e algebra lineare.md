@@ -457,8 +457,7 @@ e quindi: $z-x-y=0$.
 - **Condizioni di parallelismo ed ortogonalità tra piani**
 
 Due piani sono **paralleli** se lo sono i lori vettori ortogonali. Precisamente, i piani
-
-$ax+by+cz=d, \quad a'x+b'y+c'z=d'$
+$$ax+by+cz=d, \quad a'x+b'y+c'z=d'$$
 
 sono paralleli se $\exists \lambda \ne 0$ t.c. $(a',b',c')=\lambda(a,b,c)$
 Sono **ortogonali** se lo sono i loro vettori normali: $(a',b',c')\cdot(a,b,c)=aa'+bb'+cc'\equiv0$.
@@ -471,7 +470,7 @@ Essi si intersecano lungo una retta rappresentata dal sistema:
 $\begin{cases} ax+by+cz=d\\ a'x+b'y+c'z=d' \end{cases}$
 
 Un vettore direzionale della retta deve essere ortogonale ad entrambi i vettori $\mathbf{n}=(a,b,c)$ e $\mathbf{n}'=(a',b',c')$; si può perciò scegliere come vettore direzionale della retta:
-					$\mathbf{v}=\mathbf{n}\times\mathbf{n}'=(bc'-b'c,a'c-ac',ab'-a'b)$
+$$\mathbf{v}=\mathbf{n}\times\mathbf{n}'=(bc'-b'c,a'c-ac',ab'-a'b)$$
 
 In alternativa, si possono scrivere le equazioni parametriche della retta col seguente procedimento: si considera il sistema nelle tre incognite $(x,y,z)$, che definisce la retta; se in tale sistema si riescono ad esprimere due variabili in funzione della terza, si può assumere la terza variabile come parametro.
 
@@ -491,12 +490,11 @@ Si voglia calcolare la distanza $\delta$ di un punto $P_1(x_1,y_1,z_1)$ dal pian
 
 
 Se si introduce il versore $\mathbf{N}=\frac{1}{\sqrt{a^2+b^2+c^2}}(a,b,c)$, la lunghezza della proiezione è il modulo del prodotto scalare tra $\mathbf{N}$ ed il vettore $\overrightarrow{P_0P_1}$, cioè:
-
-$\delta=|\mathbf{N}\cdot\overrightarrow{P_0P_1}|=\frac{|a(x_1-x_0)+b(y_1-y_0)+c(z_1-z_0)|}{\sqrt{a^2+b^2+c^2}}$
+$$\delta=|\mathbf{N}\cdot\overrightarrow{P_0P_1}|=\frac{|a(x_1-x_0)+b(y_1-y_0)+c(z_1-z_0)|}{\sqrt{a^2+b^2+c^2}}$$
 
 ossia, ricordando che abbiamo posto $d=ax_0+by_0+cz_0$:
 
-							$\delta=\frac{|ax_1+by_1+cz_1-d|}{\sqrt{a^2+b^2+c^2}}$
+							$$\delta=\frac{|ax_1+by_1+cz_1-d|}{\sqrt{a^2+b^2+c^2}}$$
 
 
 
