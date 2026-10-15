@@ -243,7 +243,8 @@ in termini delle loro componenti. Infatti si ha:
 
 $\begin{align}\mathbf{v}\times\mathbf{w}&=(x_{1}\mathbf{i}+x_{2}\mathbf{j}+x_{3}\mathbf{k})\times(y_{1}\mathbf{i}+y_{2}\mathbf{j}+y_{3}\mathbf{k})=\\&=x_{1}y_{1}\mathbf{i}\times\mathbf{i} + x_{1}y_{2}\mathbf{i}\times\mathbf{j}+x_{1}y_{3}\mathbf{i}\times\mathbf{k}+\\&+ x_{2}y_{1}\mathbf{j}\times\mathbf{i}+x_{2}y_{2}\mathbf{j}\times\mathbf{j}+x_{2}y_{3}\mathbf{j}\times\mathbf{k}+\\&+ x_{3}y_{1}\mathbf{k}\times\mathbf{i}+x_{3}y_{2}\mathbf{k}\times\mathbf{j}+x_{3}y_{3}\mathbf{k}\times\mathbf{k}=\\&=(x_{2}y_{3}-x_{3}y_{2})\mathbf{i}+(x_{3}y_{1}-x_{1}y_{3})\mathbf{j}+(x_{1}y_{2}-x_{2}y_{1})\mathbf{k}\end{align}$
 
-da cui l'<mark class="hltr-yellow">importante formula</mark>: $\mathbf{v}\times\mathbf{w}=(x_{2}y_{3}-x_{3}y_{2})\mathbf{i}+(x_{3}y_{1}-x_{1}y_{3})\mathbf{j}+(x_{1}y_{2}-x_{2}y_{1})\mathbf{k}$
+da cui l'<mark class="hltr-yellow">importante formula</mark>:
+$$\mathbf{v}\times\mathbf{w}=(x_{2}y_{3}-x_{3}y_{2})\mathbf{i}+(x_{3}y_{1}-x_{1}y_{3})\mathbf{j}+(x_{1}y_{2}-x_{2}y_{1})\mathbf{k}$$
 
 Nel [[#4.3 **Determinante**|paragrafo 4.3]] vedremo come questa formula si possa riscrivere in modo più sintetico usando la nozione di determinante di una matrice.
 
@@ -313,7 +314,7 @@ a) Cominciamo col primo caso. Consideriamo un punto $P_0(x_0,y_0,z_0)$ ed un vet
 Dalla figura si vede che un generico punto $P(x,y,z)$ appartentente alla retta si trova aggiungendo al vettore posizione $\mathbf{p}_0=\overrightarrow{OP_0}$ un opportuno multiplo $t\mathbf{v}$ di $\mathbf{v}$.
 Abbiamo quindi per il vettore posizione $\mathbf{p}=\overrightarrow{OP}$ del generico punto sulla retta:
 
-							$\mathbf{p}=\mathbf{p}_0+t\mathbf{v}, t\in\mathbb{R}$
+							$$\mathbf{p}=\mathbf{p}_0+t\mathbf{v}, t\in\mathbb{R}$$
 
 che prende il nome di <u>equazione parametrica vettoriale della retta</u>;
 $t$ è una "coordinata" sulla retta, corrispondente alla scelta di $P_0$ come origine.
