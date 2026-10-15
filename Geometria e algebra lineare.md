@@ -2959,25 +2959,20 @@ Descriviamo ora brevemente tali superfici:
 								$\frac{y^2}{b^2}+\frac{z^2}{c^2}<\frac{x^2}{a^2}$
 	
 	(come segue dal fatto che $\frac{x^2}{a^2}-1<\frac{x^2}{a^2}$), che rappresenta una delle due regioni in cui il cono a due falde:
-	
-								$\frac{y^2}{b^2}+\frac{z^2}{c^2}=\frac{x^2}{a^2}$
+	$$\frac{y^2}{b^2}+\frac{z^2}{c^2}=\frac{x^2}{a^2}$$
 	
 	divide lo spazio (precisamente, la regione contente l'asse del cono).
 	Questo cono si dice <u>cono asintotico</u>, perchè la superficie si avvicina indefinitamente ad esso così come un'iperbole si avvicina ai suoi asintoti. Tagliando la superficie con un piano $x=x_{0}$ (per $|x_{0}|>a$) si trova l'ellisse:
-	
-								$\frac{y^2}{b^2}+\frac{z^2}{c^2}=\frac{x_{0}^2}{a^2}-1$
+								$$\frac{y^2}{b^2}+\frac{z^2}{c^2}=\frac{x_{0}^2}{a^2}-1$$
 	
 	In particolare se $b=c$ quest'ellisse è una circonferenza e la quadrica è di rotazione, ottenuta facendo ruotare attorno all'asse $x$ l'iperbole:
-	
-									$\frac{x^2}{a^2}-\frac{y^2}{b^2}=1$
+									$$\frac{x^2}{a^2}-\frac{y^2}{b^2}=1$$
 	
 	(nel piano $xy$). Tagliano invece la superficie con un piano contenente l'asse $x$, cioè del tipo $\alpha y+\beta z=0$, si ottiene sempre un'iperbole, i cui asintoti giacciono sul cono asintotico, come si verifica facilmente. A differenza dell'iperboloide a una falda, <u>l'iperboloide a due falde non è una superficie rigata</u>.
 
 
-- **Ellissoide immaginario**: si vede subito che l'equazione:
-	
-								$$\frac{x^2}{a^2}+\frac{y^2}{b^2}+\frac{z^2}{c^2}=-1$$
-	
+- **Ellissoide immaginario**: si vede subito che l'equazione:					
+	$$\frac{x^2}{a^2}+\frac{y^2}{b^2}+\frac{z^2}{c^2}=-1$$
 	non è soddisfatta da alcuna terna $(x,y,z)$ di numeri reali, quindi nello spazio $\mathbb{R}^3$ rappresenta l'insieme vuoto. Per analogia con l'ellissoide reale, la superficie è detta appunto ellissoide immaginario.
 
 
