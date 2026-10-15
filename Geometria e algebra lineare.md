@@ -3170,4 +3170,5 @@ $Car\mathbf{A}=3$ in quanto $\begin{vmatrix}1 & 0 & 0 \\  0 & 1 & 0 \\  0 & 0 & 
 
 quindi si tratta di un cilindro. Per determinarne il tipo, calcoliamo gli autovalori di $\mathbf{B}$:
 
-$\det$
+$\det(\mathbf{B}-\lambda \mathbf{I})=(1-\lambda)[(1-\lambda)^2-1]=0\implies\lambda_{1}=1,\lambda_{2}=2,\lambda_{3}=0$
+
