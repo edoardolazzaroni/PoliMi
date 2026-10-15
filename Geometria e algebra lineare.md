@@ -3151,3 +3151,4 @@ $\det(\mathbf{B}-\lambda \mathbf{I})=(1-\lambda)\left( \lambda^2-\frac{1}{4} \ri
 Poichè gli autovalori sono discordi, si tratta di un iperboloide a due falde.
 
 
+(b) La matrice dei coefficienti è: $\mathbf{A}=\begin{pmatrix}1 & 0 & -2 & 0 \\  0 & -1 & 0 & 0 \\  -2 & 0 & 4 & -\frac{1}{2} \\  0 & 0 & -\frac{1}{2} & 3\end{pmatrix}$
