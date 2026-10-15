@@ -3172,3 +3172,4 @@ quindi si tratta di un cilindro. Per determinarne il tipo, calcoliamo gli autova
 
 $\det(\mathbf{B}-\lambda \mathbf{I})=(1-\lambda)[(1-\lambda)^2-1]=0\implies\lambda_{1}=1,\lambda_{2}=2,\lambda_{3}=0$
 
+Essendo gli autovalori uno nullo e due concordi, il cilindro ha sezione ellittica oppure è immaginario; si vede immediatamente che il cilindro possiede punti reali (*ad esempio*: $(0,0,)$)
