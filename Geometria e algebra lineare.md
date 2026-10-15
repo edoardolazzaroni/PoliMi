@@ -3142,4 +3142,5 @@ c) $x^2+y^2+z^2+2xy-3=0$
 
 da cui: $\mathcal{I}_{4}=-\frac{1}{4}<0,\quad\mathcal{I}_{3}=-\frac{1}{4}\ne 0$
 
-(quadrica non degenere a centro)
+(quadrica non degenere a centro).
+Poichè $\det \mathbf{A}<0$ si tratta di una ellissoide reale 
