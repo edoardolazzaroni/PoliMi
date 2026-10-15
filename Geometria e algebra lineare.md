@@ -3166,4 +3166,8 @@ da cui: $\mathcal{I}_{4}=0,\quad\mathcal{I}_{3}=0$
 (quadrica degenere, cilindro o spezzata).
 Per decidere, osserviamo che:
 
-$Ca$
+$Car\mathbf{A}=3$ in quanto $\begin{vmatrix}1 & 0 & 0 \\  0 & 1 & 0 \\  0 & 0 & -3\end{vmatrix}\ne 0$
+
+quindi si tratta di un cilindro. Per determinarne il tipo, calcoliamo gli autovalori di $\mathbf{B}$:
+
+$\det$
