@@ -2976,7 +2976,7 @@ Descriviamo ora brevemente tali superfici:
 
 - **Ellissoide immaginario**: si vede subito che l'equazione:
 	
-								$\frac{x^2}{a^2}+\frac{y^2}{b^2}+\frac{z^2}{c^2}=-1$
+								$$\frac{x^2}{a^2}+\frac{y^2}{b^2}+\frac{z^2}{c^2}=-1$$
 	
 	non è soddisfatta da alcuna terna $(x,y,z)$ di numeri reali, quindi nello spazio $\mathbb{R}^3$ rappresenta l'insieme vuoto. Per analogia con l'ellissoide reale, la superficie è detta appunto ellissoide immaginario.
 
@@ -2987,20 +2987,18 @@ Descriviamo ora brevemente tali superfici:
 Consideriamo ora le quadriche non a centro, ossia quelle per cui risulta $\mathcal{I}_{3}=0$.
 In tal caso, non sempre esiste una traslazione che elimini i termini di primo grado; possiamo in compenso diagonalizzare subito la matrice $\mathbf{B}$, ossia effettuare un'opportuna rotazione di assi che elimini i termini $a_{12},a_{23},a_{13}$.
 Dopo questa **rotazione** l'equazione della quadrica non a centro risulta quindi del tipo:
-
-				$a_{11}x^2+a_{22}y^2+a_{33}z^2+2a_{14}x+2a_{24}y+2a_{34}z+a_{44}=0$
+				$$a_{11}x^2+a_{22}y^2+a_{33}z^2+2a_{14}x+2a_{24}y+2a_{34}z+a_{44}=0$$
 
 inoltre, $\mathcal{I}_{3}=a_{11}a_{22}a_{33}=0$, quindi almeno uno dei coefficienti $a_{11},a_{22},a_{33}$ si annulla.
 *Ad esempio*, supponiamo $a_{33}=0$; la matrice dei coefficienti è quindi:
 
-$\mathbf{A}=\begin{pmatrix}a_{11} & 0 & 0 & a_{14} \\  0 & a_{22} & 0 & a_{24} \\  0 & 0 & 0 & a_{34} \\  a_{14} & a_{24} & a_{34} & a_{44}\end{pmatrix}$
+$$\mathbf{A}=\begin{pmatrix}a_{11} & 0 & 0 & a_{14} \\  0 & a_{22} & 0 & a_{24} \\  0 & 0 & 0 & a_{34} \\  a_{14} & a_{24} & a_{34} & a_{44}\end{pmatrix}$$
 
 Notiamo che $\mathcal{I}_{4}=-a_{11}a_{22}a_{34}^2$.
 
 Studiamo prima il caso della <u>quadrica non a centro e non degenere</u>; quindi $\mathcal{I}_{4}\ne 0$ e i coefficienti $a_{11},a_{22},a_{34}$ sono effettivamente diversi da $0$.
 
 Cerchiamo una **traslazione** che annulli i coefficienti $a_{14},a_{24}$. Dal [[#8.1 **Rototraslazioni nello spazio e invarianti di una quadrica**|sistema]]:
-
 $${\begin{cases}a_{14}'=a_{11}u+a_{12}v+a_{13}w+a_{14} \\  a_{24}'=a_{12}u+a_{22}v+a_{23}w+a_{24} \\  a_{34}'=a_{13}u+a_{23}v+a_{33}w+a_{34} \\  a_{44}'=a_{11}u^2+a_{22}v^2+a_{33}w^2+2a_{12}uv+2a_{13}uw+2a_{23}uw+2a_{14}+2a_{24}+2a_{34}+a_{44}\end{cases}}$$
 
 leggiamo che questo significa risolvere il sistema in $u,v$ (in altre parole, la traslazione non agisce sulla terza variabile):
