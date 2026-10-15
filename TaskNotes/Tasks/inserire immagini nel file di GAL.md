@@ -1,10 +1,10 @@
 ---
 status: open
 priority: high
-due: 2026-10-15
+due: 2026-10-16
 scheduled: 2026-10-14
 dateCreated: 2026-10-14T15:16:25.826+02:00
-dateModified: 2026-10-14T15:16:25.826+02:00
+dateModified: 2026-10-16T01:45:47.867+02:00
 tags:
   - task
 ---
