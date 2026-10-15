@@ -2920,24 +2920,21 @@ Descriviamo ora brevemente tali superfici:
 
 - **Ellissoide reale**: il modo più semplice di capire la forma di questa superficie è pensare che si può ottenere da una superficie sferica eseguendo una dilatazione di fattore diverso su ogni asse: $x=ax',y=by',z=cz'$, che dà all'ellissoide la forma di una "sfera allungata".
 	I numeri $a,b,c$ sono i <u>semiassi</u> dell'ellissoide, che ha per <u>vertici</u> i punti $(\pm a,0,0),(0,\pm b,0),(0,0,\pm c)$. Se due dei tre semiassi sono uguali tra loro l'ellissoide è di rotazione: *ad esempio*, per $a=b$, la superficie taglia i piani $z=z_{0}$ (quando $|z_{0}|<c$) lungo le circonferenze:
-						
-								$x^2+y^2=a^2\left( 1-\frac{z_{0}^2}{c^2} \right)$
+	$$x^2+y^2=a^2\left( 1-\frac{z_{0}^2}{c^2} \right)$$
 	
 	pertanto la superficie si può vedere ottenuta facendo ruotare attorno all'asse $z$ l'ellisse (nel piano $xz$) $\frac{x^2}{a^2}+\frac{z^2}{c^2}=1$. Se tutti e tre i semiassi sono uguali, la superficie è una sfera di raggio $r$.
 
 
 - **Iperboloide a una falda**: si osserva che la superficie taglia qualsiasi piano $z=z_{0}$ lungo l'ellisse:
-								$\frac{x^2}{a^2}+\frac{y^2}{b^2}=1+\frac{z_{0}^2}{c^2}$
+	$$\frac{x^2}{a^2}+\frac{y^2}{b^2}=1+\frac{z_{0}^2}{c^2}$$
 	
 	I semiassi delle sezioni ellittiche crescono al crescere di $|z_{0}|$. La superficie è illimitata e connessa (cioè "formata da un pezzo solo", motivo per cui si dice a una falda).
 	In particolare, per $a=b$ l'ellisse è una circonferenza e la quadrica è di rotazione, ottenuta facendo ruotare attorno all'asse $z$ l'iperbole $\frac{x^2}{a^2}-\frac{z^2}{c^2}=1$ nel piano $xz$ (da cui il nome iperboloide). Sezionando invece la superficie con un piano contenente l'asse $z$, ossia del tipo $\alpha x+\beta y=0$, si ottiene un'iperbole, come si verifica facilmente.
 	Un particolarità di questa superficie è di <u>contenere due famiglie di rette</u>. Infatti, riscrivendo l'equazione nella forma:
-	
-								$\frac{x^2}{a^2}-\frac{z^2}{c^2}=1-\frac{y^2}{b^2}$
+	$$\frac{x^2}{a^2}-\frac{z^2}{c^2}=1-\frac{y^2}{b^2}$$
 	
 	si osserva che le due famiglie di rette:
-	
-	$$\begin{cases}\frac{x}{a}+\frac{z}{c}=h\left( 1+\frac{y}{b} \right) \\  \frac{x}{a}-\frac{z}{c}\left( \frac{1}{h}\left( 1-\frac{y}{b} \right) \right)\end{cases}\quad$ e $\quad \begin{cases} \frac{x}{a}+\frac{z}{c}=h\left( 1-\frac{y}{b} \right) \\  \frac{x}{a}-\frac{z}{c}=\frac{1}{h}\left( 1+\frac{y}{b} \right) \end{cases}$$
+	$$\begin{cases}\frac{x}{a}+\frac{z}{c}=h\left( 1+\frac{y}{b} \right) \\  \frac{x}{a}-\frac{z}{c}\left( \frac{1}{h}\left( 1-\frac{y}{b} \right) \right)\end{cases}\quad e \quad \begin{cases} \frac{x}{a}+\frac{z}{c}=h\left( 1-\frac{y}{b} \right) \\  \frac{x}{a}-\frac{z}{c}=\frac{1}{h}\left( 1+\frac{y}{b} \right) \end{cases}$$
 
 	(al variare di $h\in\mathbb{R}$), sono contenute nella superficie stessa, come si verifica moltiplicando membro a membro le due equazioni di ciascun sistema. Per questa ragione si dice che l'iperboloide a una falde è una **superficie rigata**. Precisamente:
 
