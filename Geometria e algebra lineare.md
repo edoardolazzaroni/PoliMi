@@ -345,7 +345,6 @@ $$\begin{cases} x=x_0+t(x_1-x_0)\\ y=y_0+t(y_1-y_0) \\ z=z_0+t(z_1-z_0) \end{cas
 - **Condizioni di parallelismo ed ortogonalità tra rette**
 
 Due rette sono **parallele** se i loro vettori direzionali sono paralleli (linearmente indipendenti). Precisamente, le due rette
-
 $$\begin{cases} x=x_0+ta\\ y=y_0+tb \\ z=z_0+tc \end{cases}\quad e \quad\begin{cases} x=x_1+ta' \\ y=y_1+tb' \\ z=z_1+tc' \end{cases}$$
 
 sono parallele se $\exists\lambda\ne0$ t.c. $(a',b',c')=\lambda(a,b,c)$.
@@ -384,14 +383,16 @@ a) Cominciamo col primo caso. Consideriamo un punto $P_0(x_0,y_0,z_0)$ ed un vet
 
 
 Dalla figura si vede che se $P=(x,y,z)$ è il generico punto del piano, allora il vettore $\overrightarrow{P_0P}$ è parallelo al piano e quindi $\perp \mathbf{n}$. Si ottiene allora l'equazione vettoriale:
-								$\mathbf{n}\cdot\overrightarrow{P_0P}=0$
+$$\mathbf{n}\cdot\overrightarrow{P_0P}=0$$
 
 L'equazione cartesiana del piano si ottiene passando dai vettori alle coordinate, cioè:
-					$a(x-x_0)+b(y-y_0)+c(z-z_0)=0$
+$$a(x-x_0)+b(y-y_0)+c(z-z_0)=0$$
 
 ossia dove $\begin{cases} ax+by+cz=d \\ d=\mathbf{n}\cdot\mathbf{p}_0=ax_0+by_0+cz_0 \end{cases}$
 
+
 Facciamo qualche **osservazione**:
+
 - Se $a^2+b^2+c^2=1$, cioè $\mathbf{n}$ è un versore, allora $a,b,c$ sono i <u>coseni direttori</u> del piano;
 - Se $d=0$, il piano passa per l'origine $O=(0,0,0)$;
 - Se uno dei coefficienti $a,b,c$ è nullo, il piano è parallelo ad uno degli assi coordinati. Per esempio, se $c=0$ il piano è parallelo all'asse $z$, e quindi è perpendicolare al piano $(x,y)$;
