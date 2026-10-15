@@ -3152,3 +3152,8 @@ Poichè gli autovalori sono discordi, si tratta di un iperboloide a due falde.
 
 
 (b) La matrice dei coefficienti è: $\mathbf{A}=\begin{pmatrix}1 & 0 & -2 & 0 \\  0 & -1 & 0 & 0 \\  -2 & 0 & 4 & -\frac{1}{2} \\  0 & 0 & -\frac{1}{2} & 3\end{pmatrix}$
+
+da cui: $\mathcal{I}_{4}>0,\quad\mathcal{I}_{3}=0$
+
+(quadrica non degenere non a centro).
+Poichè $\det$
