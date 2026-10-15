@@ -3138,4 +3138,8 @@ a) $xy+z^2+1=0$
 b) $x^2-y^2+4z^2-4xz-z+3=0$
 c) $x^2+y^2+z^2+2xy-3=0$
 
-(a) La matrice dei coefficienti è: $\mathbf{A}=\begin{pmatrix}0 & \frac{1}{2} & 0 & 0 \\  \frac{1}{2} & 0 & 0 & 0 \\  0 & 0 & 1 & 0 \\  \end{pmatrix}$
+(a) La matrice dei coefficienti è: $\mathbf{A}=\begin{pmatrix}0 & \frac{1}{2} & 0 & 0 \\  \frac{1}{2} & 0 & 0 & 0 \\  0 & 0 & 1 & 0 \\  0 & 0 & 0 & 1\end{pmatrix}$
+
+da cui: $\mathcal{I}_{4}=-\frac{1}{4}<0,\quad\mathcal{I}_{3}=-\frac{1}{4}\ne 0$
+
+(quadri)
