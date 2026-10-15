@@ -3146,4 +3146,8 @@ da cui: $\mathcal{I}_{4}=-\frac{1}{4}<0,\quad\mathcal{I}_{3}=-\frac{1}{4}\ne 0$
 Poichè $\det \mathbf{A}<0$ si tratta di una ellissoide reale o di un iperboloide a due falde.
 Per decidere calcoliamo gli autovalori di $\mathbf{B}$:
 
-$\det(\mathbf{B}-\lambda \mathbf{I})=(1-\lambda)\left( \lambda^2-\frac{1}{4} \right)=0 \implies\lambda_{1}=1,\lambda_{2}=\frac{1}{2}$
+$\det(\mathbf{B}-\lambda \mathbf{I})=(1-\lambda)\left( \lambda^2-\frac{1}{4} \right)=0 \implies\lambda_{1}=1,\lambda_{2}=\frac{1}{2},\lambda_{3}=-\frac{1}{2}$
+
+Poichè gli autovalori sono discordi, si tratta di un iperboloide a due falde.
+
+
