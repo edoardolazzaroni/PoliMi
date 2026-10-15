@@ -313,14 +313,12 @@ a) Cominciamo col primo caso. Consideriamo un punto $P_0(x_0,y_0,z_0)$ ed un vet
 
 Dalla figura si vede che un generico punto $P(x,y,z)$ appartentente alla retta si trova aggiungendo al vettore posizione $\mathbf{p}_0=\overrightarrow{OP_0}$ un opportuno multiplo $t\mathbf{v}$ di $\mathbf{v}$.
 Abbiamo quindi per il vettore posizione $\mathbf{p}=\overrightarrow{OP}$ del generico punto sulla retta:
-
-							$$\mathbf{p}=\mathbf{p}_0+t\mathbf{v}, t\in\mathbb{R}$$
+$$\mathbf{p}=\mathbf{p}_0+t\mathbf{v}, t\in\mathbb{R}$$
 
 che prende il nome di <u>equazione parametrica vettoriale della retta</u>;
 $t$ è una "coordinata" sulla retta, corrispondente alla scelta di $P_0$ come origine.
 Le <u>equazioni parametriche scalari</u> si ricavano scrivendo componente per componente:
-
-							$\begin{cases} x=x_0+ta\\ y=y_0+tb \\ z=z_0+tc \end{cases}\quad t\in\mathbb{R}$
+							$$\begin{cases} x=x_0+ta\\ y=y_0+tb \\ z=z_0+tc \end{cases}\quad t\in\mathbb{R}$$
 
 Il significato delle equazioni parametriche (sia la prima che la seconda) è il seguente: al variare del parametro $t$ in $\mathbb{R}$, il punto $(x,y,z)$ si muove sulla retta, descrivendo tale linea.
 
@@ -338,8 +336,7 @@ Nel caso in cui $a^2+b^2+c^2=1$, cioè nel caso in cui $\mathbf{v}$ è un *verso
 
 b) Nel secondo caso si vuole scrivere l'equazione della retta passante per i punti $P_0=(x_0,y_0,z_0)$ e $P_1=(x_1,y_1,z_1)$; riconduciamo al primo caso scegliendo uno dei due, per esempio $P_0$ ed il vettore direzionale $\mathbf{v}=(x_1-x_0,y_1-y_0,z_1-z_0)$.
 Le equazioni parametriche della retta risultano allora
-
-							$\begin{cases} x=x_0+t(x_1-x_0)\\ y=y_0+t(y_1-y_0) \\ z=z_0+t(z_1-z_0) \end{cases}$
+$$\begin{cases} x=x_0+t(x_1-x_0)\\ y=y_0+t(y_1-y_0) \\ z=z_0+t(z_1-z_0) \end{cases}$$
 
 ![[Geometria e Algebra Lineare-1791120647041.webp|553]]
 ###### #Figura(18)
@@ -349,7 +346,7 @@ Le equazioni parametriche della retta risultano allora
 
 Due rette sono **parallele** se i loro vettori direzionali sono paralleli (linearmente indipendenti). Precisamente, le due rette
 
-$\begin{cases} x=x_0+ta\\ y=y_0+tb \\ z=z_0+tc \end{cases}\quad$ e $\quad\begin{cases} x=x_1+ta' \\ y=y_1+tb' \\ z=z_1+tc' \end{cases}$
+$$\begin{cases} x=x_0+ta\\ y=y_0+tb \\ z=z_0+tc \end{cases}\quad e \quad\begin{cases} x=x_1+ta' \\ y=y_1+tb' \\ z=z_1+tc' \end{cases}$$
 
 sono parallele se $\exists\lambda\ne0$ t.c. $(a',b',c')=\lambda(a,b,c)$.
 Le due rette sono **ortogonali** se lo sono i loro vettori direzionali, cioè se $(a',b',c')\cdot(a,b,c)=aa'+bb'+cc'\equiv0$.
