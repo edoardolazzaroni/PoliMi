@@ -127,8 +127,7 @@ La lunghezza di $\mathbf{v}$ coincide con la lunghezza di $\overrightarrow{PQ}$,
 I vettori $\mathbf{i}=(1,0,0)$, $\mathbf{j}=(0,1,0)$, $\mathbf{k}=(0,0,1)$ sono <u>versori</u>, mutualmente ortogonali, diretti nel verso positivo dei tre assi, rispettivamente. Ogni altro vettore $\mathbf{v}=(x,y,z)$ si può scrivere nella forma $\mathbf{v}=x\mathbf{i}+y\mathbf{j}+z\mathbf{k}$.
 $\mathbf{i}$, $\mathbf{j}$, $\mathbf{k}$ si dicono **VERSORI FONDAMENTALI NELLO SPAZIO**. Le operazioni di somma di vettori e prodotto per uno scalare si possono eseguire componente per componente, come nel caso piano:
 
-					$(x_1,y_1,z_1)+(x_2+y_2+z_2)=(x_1+x_2,y_1+y_2,z_1+z_2);$
-								$t(x_1,y_1,z_1)=(tx_1,ty_1,tz_1)$
+$$(x_1,y_1,z_1)+(x_2+y_2+z_2)=(x_1+x_2,y_1+y_2,z_1+z_2);$$$$t(x_1,y_1,z_1)=(tx_1,ty_1,tz_1)$$
 
 
 ### 1.4 **Combinazioni lineari di vettori. Vettori linearmente indipendenti**
@@ -171,7 +170,7 @@ Da queste considerazioni segue che **nello spazio non vi possono essere più di 
 ### 1.5 **Prodotto scalare e vettoriale**
 
 - **PRODOTTO SCALARE**. Dati due vettori $\mathbf{v}$ e $\mathbf{w}$ nel piano o nello spazio, il loro <u>prodotto scalare o interno</u>, denotato con $\mathbf{v}\cdot\mathbf{w}$ o con $\langle \mathbf{v},\mathbf{w} \rangle$, è assegnato, per definizione, dalla formula seguente:
-								$\mathbf{v}\cdot\mathbf{w}=|\mathbf{v}|\cdot|\mathbf{w}|\cdot\cos\alpha$ 
+$$\mathbf{v}\cdot\mathbf{w}=|\mathbf{v}|\cdot|\mathbf{w}|\cdot\cos\alpha$$ 
 
 dove $\alpha$ è l'angolo che essi formano $(0\le \alpha \le \pi)$.
 *Si noti che il prodotto di due vettori è un numero reale (non un vettore).*
