@@ -920,7 +920,11 @@ $$f(\alpha \mathbf{v}_{1}+\beta \mathbf{v}_{2})=\mathbf{u}_{1}\cdot(\alpha \math
 
 
 Il concetto di linearità è fondamentale in matematica e nelle applicazioni. Vedremo nel prossimo capitolo che il <u>calcolo matriciale</u> permette di descrivere completamente le applicazioni lineari tra spazi vettoriali di dimensione finita.
-Molti concetti chiave del calcolo infinitesimale (limite, derivata, integrale) corrispondo ad opportuni operatori lineari che coinvolgono 
+Molti concetti chiave del calcolo infinitesimale (limite, derivata, integrale) corrispondo ad opportuni operatori lineari che coinvolgono spazi di funzioni, di dimensione infinita.
+
+
+*Esempio* (1). L'integrale definito si può vedere come operatore lineare sullo spazio delle funzioni continue su un intervallo 
+
 
 Segnaliamo anche un tipo di funzione tra spazi vettoriali che è in stretta relazione con le applicazioni lineare: si dice **trasformazione affine** (o lineare affine), tra due spazi vettoriali $V_{1},V_{2}$, una trasformazione del tipo$f:\ V_{1}\rightarrow V_{2}$, che abbia la forma $f(\mathbf{v})=l(\mathbf{v})+\mathbf{b}$,
 dove $l:\ V_{1}\rightarrow V_{2}$ è lineare e $\mathbf{b}\in V_{2}$ è un elemento fissato.
