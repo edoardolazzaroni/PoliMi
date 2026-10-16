@@ -737,7 +737,8 @@ $$\mathbf{u}_{1}=\begin{pmatrix}
 1 \\
 0
 \end{pmatrix}$$
-e $W$
+e $W$ la retta (sottospazio unidimensionale) generata dal vettore: $\mathbf{w}=\begin{pmatrix}0 \\  3 \\  0 \\  2\end{pmatrix}$.
+Allora $U$ e $W$ sono ortogonali. Si noti però che non sono l'uno il complemento ortogonale dell'altro: e
 
 
 #### 3.3.1 **Basi ortonormali**
