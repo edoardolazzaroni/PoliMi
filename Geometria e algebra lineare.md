@@ -1125,7 +1125,11 @@ Il prossimo importante teorema afferma, in sostanza, che tutte le trasformazioni
 	Tale matrice è unica, come conseguenza del fatto che ogni vettore $\mathcal{L}(\mathbf{u}_{i}),i=1,2,\cdots,n$ si può esprimere in un unico modo come combinazione lineare dei vettori $\mathbf{v}_{1},\mathbf{v}_{2},\cdots,\mathbf{v}_{m}$.
 
 
-*Esempio* (1). Le trasformazioni lineari $\mathcal{L}$ da $\mathbb{R}$ a $\mathbb{R}$
+*Esempio* (1). Le trasformazioni lineari $\mathcal{L}$ da $\mathbb{R}$ a $\mathbb{R}$ si possono scrivere come $\mathcal{L}(x)=ax\quad a\in \mathbb{R}$
+(La matrice $\mathbf{A}=(a)$ è di tipo $(1,1)$).
+
+
+*Esempio* (2). Le trasformazioni lineari da $\mathbb{R}^2$
 
 
 **Osservazioni**:
