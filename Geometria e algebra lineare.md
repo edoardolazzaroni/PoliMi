@@ -1557,8 +1557,11 @@ $$\begin{cases}
 \end{cases}$$
 Questa volta si vede che la seconda equazione è stata ottenuta moltiplicando per $2$ i membri della prima. Ne segue che una delle due equazioni è inutile, ovvero il sistema è equivalente ad una sola di esse, per esempio la prima. Poichè da essa ricaviamo $y=\frac{1}{2}-\frac{3}{2}x$, ne segue che il sistema ha <u>infinite soluzioni</u>:
 $$\left( x, \frac{1}{2}-\frac{3}{2}x \right)$$
-(per $x\in \mathbb{R}$). Diremo che in questo caso il s
+(per $x\in \mathbb{R}$). Diremo che in questo caso il sistema è <u>indeterminato</u>.
 
+<mark class="hltr-yellow">Conclusione: esistono sistemi determinati, indeterminati e impossibili</mark>.
+
+Gli *esempi* (2),()
 
 #### 5.1.1 **Tecniche elementari di soluzione**
 
