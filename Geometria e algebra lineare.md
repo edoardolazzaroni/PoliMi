@@ -1439,7 +1439,15 @@ $$A_{11}=\begin{vmatrix}
 \end{pmatrix}$$
 
 
-*Esempio* (2).
+*Esempio* (2). Scriviamo ora la matrice inversa della generica matrice di ordine $2$:
+$$\mathbf{A}=\begin{pmatrix}
+a & b \\
+c & d
+\end{pmatrix}$$
+nell'ipotesi $\det \mathbf{A}=ad-bc\ne 0$. Si ha:
+$$\begin{pmatrix}
+A_{11} & A
+\end{pmatrix}$$
 
 
 In base a questo teorema, una matrice non singolare ($\det\ne 0$) viene anche detta **invertibile**.
