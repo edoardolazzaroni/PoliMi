@@ -1451,7 +1451,15 @@ A_{21} & A_{22}
 \end{pmatrix}=\begin{pmatrix}
 d & -c \\
 -b & a
-\end{pmatrix}\implies \mathbf{A}^{-1}=\frac{1}{ad-bc}$$
+\end{pmatrix}\implies \mathbf{A}^{-1}=\frac{1}{ad-bc}\begin{pmatrix}
+d & -b \\
+-c & a
+\end{pmatrix}$$
+Troveremo quindi $\begin{pmatrix}1 & 0 \\  0 & 1\end{pmatrix}$.
+
+
+*Esempio* (3). Sia:
+
 
 
 In base a questo teorema, una matrice non singolare ($\det\ne 0$) viene anche detta **invertibile**.
