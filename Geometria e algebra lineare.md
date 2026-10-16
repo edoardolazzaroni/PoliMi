@@ -592,7 +592,8 @@ $$\mathbf{x}=x_{1}\mathbf{e}_{1}+x_{2}\mathbf{e}_{2}+\cdots+x_{n}\mathbf{e}_{n}$
 In $\mathbb{R}^n$, salvo caso contrario, si sceglie la base canonica.
 
 
-*Esempio* (2): Sia $V$ l'insieme dei polinomi in una variabile, di grado $\le 2$
+*Esempio* (2): Sia $V$ l'insieme dei polinomi in una variabile, di grado $\le 2$. Si verifica subito che è uno spazio vettoriale. Inoltre, poichè il generico polinomio di grado $\le 2$ si può scrivere nella forma:
+$$\mathbf{p}=ax^2+bx+c$$
 
 
 #### 3.1.4 **Spazi di funzioni**
