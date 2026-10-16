@@ -703,7 +703,7 @@ $$|(v_{1},v_{2},v_{3})|=\sqrt{2v_{1}^2+v_{2}^2+3v_{3}^2}$$
 
 
 *Esempio* (2). Nello spazio di funzioni $C([a,b])$ si consideri l'operazione definita da:
-
+$f\cdot g=\int_{a}^{b}f(x)g$
 
 
 - **Complemento ortogonale**: se $V$ è uno spazio vettoriale con prodotto interno e $V_{1}$ è un sottospazio di $V$, definiamo
