@@ -914,7 +914,8 @@ Dunque le uniche funzioni lineari da $\mathbb{R}$ a $\mathbb{R}$ sono del tipo $
 
 
 *Esempio* (2). Sia $V$ lo spazio dei vettori tridimensionali; consideriamo un vettore $\mathbf{u}\in V$, fissato una volta per tutte, e definiamo:
-$$f:V\to \mathbb{R}\\f:\mathbf{v}$$
+$$f:V\to \mathbb{R}\\f:\mathbf{v}\mapsto \mathbf{u}\cdot \mathbf{v}$$
+(la funzione associa ad ogni vettore $\mathbf{v}$ il suo prodotto scalare col vettore $\mathbf{u}$ fissato). Dalle proprietà del prodotto scalare segue subito che $f$ è lineare, infa
 
 
 Il concetto di linearità è fondamentale in matematica e nelle applicazioni. Vedremo nel prossimo capitolo che il <u>calcolo matriciale</u> permette di descrivere completamente le applicazioni lineari tra spazi vettoriali di dimensione finita.
