@@ -1519,8 +1519,11 @@ Qualche semplice esempio indica che vi sono tre possibilità:
 
 *Esempio* (1). Equazione scalare:
 $$ax=b$$
-Se $a\ne 0$ ammette un'unica soluzione data da $x=\frac{a}{b}$
-Se $a=0$
+Se $a\ne 0$ ammette un'unica soluzione data da $x=\frac{a}{b}$;
+Se $a=0, b\ne 0$ non ammette alcuna soluzione $(\emptyset)$;
+Se $a=0,b=0$ ha soluzione $\forall x$
+
+
 #### 5.1.1 **Tecniche elementari di soluzione**
 
 Ricordiamo che due sistemi si dicono <u>equivalenti</u> se hanno le stesse soluzioni. Le operazioni che permettono di passare da un sistema ad un altro equivalente al primo sono le seguenti:
