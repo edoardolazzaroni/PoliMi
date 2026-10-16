@@ -589,7 +589,11 @@ $$\mathbf{e}_{n}=(0,0,0,\cdots,1)$$
 che costituiscono la **base canonica**.
 In particolare, dato $\mathbf{x}=(x_{1},x_{2},\cdots,x_{n})$, si ha:
 $$\mathbf{x}=x_{1}\mathbf{e}_{1}+x_{2}\mathbf{e}_{2}+\cdots+x_{n}\mathbf{e}_{n}$$
-In $\mathbb{R}^n$, salvo caso contrar
+In $\mathbb{R}^n$, salvo caso contrario, si sceglie la base canonica.
+
+
+*Esempio* (2): Sia $V$ l'insieme dei polinomi in una variabile, di grado $\le 2$
+
 
 #### 3.1.4 **Spazi di funzioni**
 
