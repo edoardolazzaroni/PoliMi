@@ -1547,7 +1547,15 @@ $$\begin{cases}
 x+2y=3 \\
 x+2y=5
 \end{cases}$$
-Evidentemente tale sistema è <u>impossibile</u>: non esiste cioè alcuna coppia di numeri che soddisfi simultaneamente la 
+Evidentemente tale sistema è <u>impossibile</u>: non esiste cioè alcuna coppia di numeri che soddisfi simultaneamente le due equazioni in quanto la somma di $x$ e $2y$ non può essere sia $3$ che $5$.
+
+
+*Esempio* (4).
+$$\begin{cases}
+3x+2y=1 \\
+6x+4y=2
+\end{cases}$$
+Questa volta si vede che la seconda 
 
 #### 5.1.1 **Tecniche elementari di soluzione**
 
