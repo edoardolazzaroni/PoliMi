@@ -1567,7 +1567,8 @@ Gli *esempi* (2),(3),(4) hanno una semplice interpretazione geometrica: il siste
 - Nell'*esempio* (3) le due equazioni rappresentano due rette parallele (prive di intersezioni): il sistema non ha soluzioni;
 - Nell'*esempio* (4) le due equazioni rappresentano la stessa retta: il sistema ha infinite soluzioni (tutti i punti della retta).
 
-Notiamo che dire che il sistema ha infinite soluzioni è cosa ben diversa dal dire che qualsiasi coppia $(x,y$
+Notiamo che dire che il sistema ha infinite soluzioni è cosa ben diversa dal dire che qualsiasi coppia $(x,y)$ è soluzione, come è evidente geometricamente: tra tutti i punti del piano, solo quelli che stanno su una certa retta, in questo caso, soddisfano l'equazione.
+
 
 #### 5.1.1 **Tecniche elementari di soluzione**
 
