@@ -1270,9 +1270,9 @@ $\begin{align}\det\mathbf{A}&=1\cdot\begin{vmatrix}2&5&1\\0&3&0\\-1&-2&1\end{vma
 $$\begin{vmatrix}
 2 & 1 & 2 \\
 1 & 3 & 1 \\
-4
+4 & -1 & -2
 \end{vmatrix}$$
-
+Un momento di osservazione mostra che se si sottrae dalla prima riga il doppio della seconda, si ottiene una riga con due zeri, molto comoda per il calcolo del determinante. Per il punto 
 
 
 Un'altra importante proprietà del determinante è la seguente:
