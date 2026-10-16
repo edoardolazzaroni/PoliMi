@@ -620,7 +620,7 @@ Si scrive anche talvolta: $S=\langle \mathbf{v}_{1},\mathbf{v}_{2},\cdots,\mathb
 Se i vettori $\mathbf{v}_{1},\mathbf{v}_{2},\cdots,\mathbf{v}_{k}$ sono indipendenti, allora costituiscono una base per $S$, che ha perciò dimensione $k$.
 
 
-Esempio (6). Sia $V$ lo spazio vettoriale dei polinomi di una variabile reale, e $V_{n}$ lo spazio dei polinomi di grado $\le n$. Abbiamo visto c
+Esempio (6). Sia $V$ lo spazio vettoriale dei polinomi di una variabile reale, e $V_{n}$ lo spazio dei polinomi di grado $\le n$. Abbiamo visto (*Esempio* (3)) che $V$ ha dimensione infinita; $V_{n}$ invece è un sottospazio vettoriale di $V$, di dimensione finita: precisamente, $\dim V_{n}$
 
 
 #### 3.1.4 **Spazi di funzioni**
