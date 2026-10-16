@@ -609,7 +609,8 @@ ma il problema è: dove fermarsi? Qualunque numero finito di questi polinomi noi
 *Esempio* (4). Il vettore nullo $\mathbf{0}\in\mathbb{R}^n$ costituisce da solo un sottospazio di $\dim=0$.
 
 
-*Esempio* (5). Se in $\mathbb{R}^2$ (spazio vettoriale di $\dim=2$) consideriamo una retta passante per l'origine (ossia l'insieme di tutti i vettori di tipo $t\mathbf{v}$ con )
+*Esempio* (5). Se in $\mathbb{R}^2$ (spazio vettoriale di $\dim=2$) consideriamo una retta passante per l'origine (ossia l'insieme di tutti i vettori di tipo $t\mathbf{v}$ con $\mathbf{v}$ fissato e $t\in\mathbb{R}$), otteniamo un sottospazio vettoriale di $\dim=1$.
+Invece, una retta non passante per l'origine (ossia un insieme di vettori del tipo $t\mathbf{v}+\mathbf{u}$ con $\mathbf{v},$)
 
 
 #### 3.1.4 **Spazi di funzioni**
