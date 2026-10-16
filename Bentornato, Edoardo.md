@@ -51,8 +51,7 @@ cellStyleRules:
 
 [[kanban-default.base|Kanban (elenco tasks)]]:
 
-Università:
-
+Università 🎓:
 
  [[Finire capitolo 5 di GAL]]
  [[finire capitolo 6 GAL]]
