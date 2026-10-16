@@ -614,7 +614,8 @@ Invece, una retta non passante per l'origine (ossia un insieme di vettori del ti
 Analogamente, in $\mathbb{R}^3$, rette e piani passanti per $O$ sono sottospazi di $\dim=1,2$, rispettivamente.
 
 
-*Esempio* (5). Siano $V$ uno spazio vettoriale e $\mathbf{v}_{1},\mathbf{v}_{2},\cdots,\mathbf{v}_{k}$ vettori di $$
+*Esempio* (5). Siano $V$ uno spazio vettoriale e $\mathbf{v}_{1},\mathbf{v}_{2},\cdots,\mathbf{v}_{k}$ vettori di $V$. L'insieme $S$ di tutte le possibili combinazioni lineari di $\mathbf{v}_{1},\mathbf{v}_{2},\cdots,\mathbf{v}_{k}$ costituisce un sottospazio di $V$, che si chiama **sottospazio generato dai vettori** $\mathbf{v}_{1},\mathbf{v}_{2},\cdots,\mathbf{v}_{k}$. In simboli:
+$$S={}$$
 
 
 #### 3.1.4 **Spazi di funzioni**
