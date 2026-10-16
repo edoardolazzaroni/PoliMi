@@ -1555,7 +1555,7 @@ $$\begin{cases}
 3x+2y=1 \\
 6x+4y=2
 \end{cases}$$
-Questa volta si vede che la seconda 
+Questa volta si vede che la seconda equazione è stata ottenuta moltiplicando per $2$ i membri della prima. Ne segue che una delle due equazioni è inutile, ovvero il sistema è equivalente ad una sola di esse, per esempio la prima. Poichè da essa ricaviamo $y=\frac{1}{2}-\frac{3}{2}x$, ne segue che il sistema hai
 
 #### 5.1.1 **Tecniche elementari di soluzione**
 
