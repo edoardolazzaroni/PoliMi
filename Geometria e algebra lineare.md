@@ -908,6 +908,10 @@ Tra queste funzioni, particolare importanza hanno quelle che godono di una speci
 	
 	Sinonimi spesso usati di funzione lineare sono **applicazione lineare**, trasformazione lineare.
 
+
+*Esempio* (1). Sia $f:\mathbb{R}\to\mathbb{R}$. Se $f$ è lineare si ha: $f(x)=f(x\cdot 1)$
+
+
 Il concetto di linearità è fondamentale in matematica e nelle applicazioni. Vedremo nel prossimo capitolo che il <u>calcolo matriciale</u> permette di descrivere completamente le applicazioni lineari tra spazi vettoriali di dimensione finita.
 
 Segnaliamo anche un tipo di funzione tra spazi vettoriali che è in stretta relazione con le applicazioni lineare: si dice **trasformazione affine** (o lineare affine), tra due spazi vettoriali $V_{1},V_{2}$, una trasformazione del tipo$f:\ V_{1}\rightarrow V_{2}$, che abbia la forma $f(\mathbf{v})=l(\mathbf{v})+\mathbf{b}$,
