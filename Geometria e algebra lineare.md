@@ -674,8 +674,7 @@ Fissata una base $\mathbf{e}_1, \mathbf{e}_2,\cdots,\mathbf{e}_n$ calcoliamo il 
 $$\mathbf{u}=\sum_{i=1}^n u_i\mathbf{e}_i\quad e \quad\mathbf{v}=\sum_{j=1}^n v_j\mathbf{e}_j$$
 
 Applicando le proprietà del prodotto scalare si ha: 
-
-$\mathbf{u}\cdot\mathbf{v}=(\sum_{i=1}^n u_i\mathbf{e}_i)\cdot(\sum_{j=1}^n v_j\mathbf{e}_j)=\sum_{i,j=1}^n u_{i}v_j\mathbf{e}_i\mathbf{e}_j$
+$$\mathbf{u}\cdot\mathbf{v}=(\sum_{i=1}^n u_i\mathbf{e}_i)\cdot(\sum_{j=1}^n v_j\mathbf{e}_j)=\sum_{i,j=1}^n u_{i}v_j\mathbf{e}_i\mathbf{e}_j$$
 
 È sufficiente quindi conoscere gli $n^2$ prodotti scalare $\mathbf{e}_i\cdot\mathbf{e}_j$ per poter calcolare il prodotto scalare di due vettori qualsiasi. Il calcolo risulta particolarmente comodo quando gli $n$ vettori della base risultano **ortonormali**, ossia:
 
@@ -683,17 +682,14 @@ $\mathbf{u}\cdot\mathbf{v}=(\sum_{i=1}^n u_i\mathbf{e}_i)\cdot(\sum_{j=1}^n v_j\
 2) Ogni vettore ha modulo unitario: $|\mathbf{e}_i|^2=\mathbf{e}_i\cdot\mathbf{e}_j=1$ per $i=1,\cdots,n$;
 
 Una tale base si dice **base ortonormale**, e gioca un ruolo fondamentale nello studio degli spazi con prodotto scalare. In tal caso infatti si ottiene:
-
-$\mathbf{u}\cdot\mathbf{v}=(\sum_{i=1}^n u_i\mathbf{e}_i)\cdot(\sum_{j=1}^n v_j\mathbf{e}_j)=\sum_{i=1}^n u_{i}v_i$
+$$\mathbf{u}\cdot\mathbf{v}=(\sum_{i=1}^n u_i\mathbf{e}_i)\cdot(\sum_{j=1}^n v_j\mathbf{e}_j)=\sum_{i=1}^n u_{i}v_i$$
 
 ovvero: il prodotto scalare di ottiene dalle componenti dei due vettori con la stessa formula che vale nel caso del prodotto scalare euclideo in $\mathbb{R}^n$. In particolare, per $\mathbf{u}=\mathbf{v}$ si ha:
-
-							$|\mathbf{u}|^2=\mathbf{u}\cdot\mathbf{u}=\sum_{i=1}^n {u_{i}}^2$
+$$|\mathbf{u}|^2=\mathbf{u}\cdot\mathbf{u}=\sum_{i=1}^n {u_{i}}^2$$
 
 ovvero anche il modulo di un vettore si calcola mediante le sue componenti con la stessa formula che vale nel caso euclideo.
 L'ultima proprietà si può esprimere anche nel seguente modo: se $\mathbf{v}_1, \mathbf{v}_2,\cdots,\mathbf{v}_n$ sono vettori a due a due ortogonali (di modulo qualsiasi), si ha:
-
-$|\sum_{i=1}^n v_i|^2=\sum_{i=1}^n |v_i|^2$
+$$|\sum_{i=1}^n v_i|^2=\sum_{i=1}^n |v_i|^2$$
 
 che è una sorta di Teorema di Pitagora in forma astratta.
 Per esempio, in $\mathbb{R}^n$ la base canonica è anche una base ortonormale rispetto al prodotto scalare euclideo.
