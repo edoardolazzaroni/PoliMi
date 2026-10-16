@@ -1514,8 +1514,13 @@ Per soluzione si intende una $n$-upla di numeri che, sostituiti ordinatamente al
 *Per esempio*, la coppia di numeri $x=1,y=-2$ è soluzione del sistema $\begin{cases}2x-3y=8\\x+7y=-13\end{cases}$
 
 Una domanda naturale a questo punto è la seguente: un sistema lineare ha sempre soluzioni? Ed eventualmente, quante?
-Qualche semplice
+Qualche semplice esempio indica che vi sono tre possibilità:
 
+
+*Esempio* (1). Equazione scalare:
+$$ax=b$$
+Se $a\ne 0$ ammette un'unica soluzione data da $x=\frac{a}{b}$
+Se $a=0$
 #### 5.1.1 **Tecniche elementari di soluzione**
 
 Ricordiamo che due sistemi si dicono <u>equivalenti</u> se hanno le stesse soluzioni. Le operazioni che permettono di passare da un sistema ad un altro equivalente al primo sono le seguenti:
