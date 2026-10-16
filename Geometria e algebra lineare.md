@@ -580,7 +580,7 @@ Chiameremo il primo <u>vettore riga</u> ed il secondo <u>vettore colonna</u>.
 
 
 
-*Esempio* (1): In $\mathbb{R}^2$ la coppia $\mathbf{i},\mathbf{j}$ costituisce una base, detta canonica. Analogamente, la terna $\mathbf{i},\mathbf{j},\mathbf{k}$ è la base canonica di $\mathbb{R}^{3}$. Più in generale, in $\mathbb{R}^n$ consideriamo la $n$-upla di vettori:
+*Esempio* (1). In $\mathbb{R}^2$ la coppia $\mathbf{i},\mathbf{j}$ costituisce una base, detta canonica. Analogamente, la terna $\mathbf{i},\mathbf{j},\mathbf{k}$ è la base canonica di $\mathbb{R}^{3}$. Più in generale, in $\mathbb{R}^n$ consideriamo la $n$-upla di vettori:
 $$\mathbf{e}_{1}=(1,0,0,\cdots,0)$$
 $$\mathbf{e}_{2}=(0,1,0,\cdots,0)$$
 $$\cdots$$
@@ -592,14 +592,14 @@ $$\mathbf{x}=x_{1}\mathbf{e}_{1}+x_{2}\mathbf{e}_{2}+\cdots+x_{n}\mathbf{e}_{n}$
 In $\mathbb{R}^n$, salvo caso contrario, si sceglie la base canonica.
 
 
-*Esempio* (2): Sia $V$ l'insieme dei polinomi in una variabile, di grado $\le 2$. Si verifica subito che è uno spazio vettoriale. Inoltre, poichè il generico polinomio di grado $\le 2$ si può scrivere nella forma:
+*Esempio* (2). Sia $V$ l'insieme dei polinomi in una variabile, di grado $\le 2$. Si verifica subito che è uno spazio vettoriale. Inoltre, poichè il generico polinomio di grado $\le 2$ si può scrivere nella forma:
 $$\mathbf{p}=ax^2+bx+c\quad con \quad a,b,c\in\mathbb{R}$$
 ne segue che i tre polinomi:
 $$\mathbf{e_{1}}=x^2\quad \mathbf{e}_{2}=x\quad \mathbf{e}_{3}=1$$
 che sono evidentemente indipendenti, costituiscono una base di $V$: pertanto $V$ ha dimensione 3.
 
 
-*Esempio* (3): Sia $V$ l'insieme di tutti i polinomi in una variabile. Come già osservato, $V$ è uno spazio vettoriale. Ci si convince facilmente, tuttavia, che esiste un numero finito di polinomi tale che ogni polinomio sia combinazione lineare di questi. Infatti, l'idea naturale sarebbe di scegliere come base i polinomi:
+*Esempio* (3). Sia $V$ l'insieme di tutti i polinomi in una variabile. Come già osservato, $V$ è uno spazio vettoriale. Ci si convince facilmente, tuttavia, che esiste un numero finito di polinomi tale che ogni polinomio sia combinazione lineare di questi. Infatti, l'idea naturale sarebbe di scegliere come base i polinomi:
 $$1,x,x^2,x^3,\cdots$$
 ma il problema è: dove fermarsi? Qualunque numero finito di questi polinomi noi scegliamo, ci sarà sempre un polinomio che non è combinazione lineare di questi. Dunque $V$ è uno spazio vettoriale di dimensione infinita.
 
@@ -620,7 +620,8 @@ Si scrive anche talvolta: $S=\langle \mathbf{v}_{1},\mathbf{v}_{2},\cdots,\mathb
 Se i vettori $\mathbf{v}_{1},\mathbf{v}_{2},\cdots,\mathbf{v}_{k}$ sono indipendenti, allora costituiscono una base per $S$, che ha perciò dimensione $k$.
 
 
-Esempio (6):
+Esempio (6). Sia $V$ lo spazio vettoriale dei polinomi di una variabile reale, e $V_{n}$ lo spazio dei polinomi di grado $\le n$. Abbiamo visto c
+
 
 #### 3.1.4 **Spazi di funzioni**
 
