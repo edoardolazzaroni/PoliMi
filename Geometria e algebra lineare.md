@@ -1272,7 +1272,16 @@ $$\begin{vmatrix}
 1 & 3 & 1 \\
 4 & -1 & -2
 \end{vmatrix}$$
-Un momento di osservazione mostra che se si sottrae dalla prima riga il doppio della seconda, si ottiene una riga con due zeri, molto comoda per il calcolo del determinante. Per il punto 
+Un momento di osservazione mostra che se si sottrae dalla prima riga il doppio della seconda, si ottiene una riga con due zeri, molto comoda per il calcolo del determinante. Per il punto (e) del Teorema, quest'operazione non altera il determinante. Perciò si ha:
+$$\begin{vmatrix}
+2 & 1 & 2 \\
+1 & 3 & 1 \\
+4 & -1 & -2
+\end{vmatrix}=\begin{vmatrix}
+0 & -5 & 0 \\
+1 & 3 & 1
+41
+\end{vmatrix}$$
 
 
 Un'altra importante proprietà del determinante è la seguente:
