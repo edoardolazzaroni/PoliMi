@@ -1465,15 +1465,9 @@ $$\mathbf{A}_{\alpha}=\begin{pmatrix}
 \end{pmatrix}$$
 la matrice che rappresenta la rotazione di angolo $\alpha$ nel piano. Scriviamo la sua matrice inversa.
 In base al calcolo fatto nell'esempio precedente, si ha:
-$$\begin{pmatrix}
-A_{11} & A_{12}
-A_{21} & A_{22}
-\end{pmatrix}=\begin{pmatrix}
-d & -c \\
--b & a
-\end{pmatrix}\implies \mathbf{A}^{-1}=\frac{1}{ad-bc}\begin{pmatrix}
-d & -b \\
--c & a
+$$\mathbf{A}_{\alpha}^{-1}=\frac{1}{\cos^2\alpha-\sin^2\alpha}\begin{pmatrix}
+\cos \alpha & \sin \alpha \\
+-\sin \alpha & \cos \alpha
 \end{pmatrix}$$
 
 
