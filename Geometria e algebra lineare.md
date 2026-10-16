@@ -845,11 +845,11 @@ Si può dimostrare che <mark class="hltr-yellow">uno spazio vettoriale di dimens
 	quindi la distanza di $\mathbf{v}$ da $\mathbf{u}$ è minore della distanza da $\mathbf{v}$ da qualunque altro elemento di $\mathbf{u}_{1}$ di $V_{1}$ (come volevasi dimostrare).
 
 
-*Esempio* (1). In $\mathbb{R}^3$, determinare il punto del piano $x+z=0$ che ha minima distanza da $\mathbf{u}=(1,2,3)$.
+*Esempio*. In $\mathbb{R}^3$, determinare il punto del piano $x+z=0$ che ha minima distanza da $\mathbf{u}=(1,2,3)$.
 Poichè $x+z=0$ passa per $O$, si può vedere come sottospazio vettoriale di $\mathbb{R}^3$, chiamandolo $V_{1}$. Si verifica che una base ortonormale di $V_{1}$ è:
 $$\mathbf{v}_{1}=\left( \frac{1}{\sqrt{2}},0,-\frac{1}{\sqrt{2}} \right)\quad \mathbf{v}_{2}=(0,1,0)$$
 Il punto di $V_{1}$ che ha minima distanza da $\mathbf{u}$ è la proiezione di $\mathbf{u}$ su $V_{1}$, cioè:
-$$(\mathbf{u}\cdot \mathbf{v}_{1})\mathbf{v}_{1}+(\mathbf{u}\cdot \mathbf{v}_{2})\mathbf{v}_{2}$$
+$$(\mathbf{u}\cdot \mathbf{v}_{1})\mathbf{v}_{1}+(\mathbf{u}\cdot \mathbf{v}_{2})\mathbf{v}_{2}=-\frac{2}{\sqrt{2}}\mathbf{v}_{1}+2\mathbf{v}_{2}=(-1,2-1)$$
 
 
 #### 3.3.2 **Somma diretta di sottospazi ortogonali**
