@@ -582,9 +582,13 @@ Chiameremo il primo <u>vettore riga</u> ed il secondo <u>vettore colonna</u>.
 
 *Esempio* (1): In $\mathbb{R}^2$ la coppia $\mathbf{i},\mathbf{j}$ costituisce una base, detta canonica. Analogamente, la terna $\mathbf{i},\mathbf{j},\mathbf{k}$ è la base canonica di $\mathbb{R}^{3}$. Più in generale, in $\mathbb{R}^n$ consideriamo la $n$-upla di vettori:
 $$\mathbf{e}_{1}=(1,0,0,\cdots,0)$$
-\mathbf{e}_{2}=(0,1,0,\cdots,0)
-\cdots
-\mathbf{e}_{n}=(0,0,0,\cdots,1)$$
+$$\mathbf{e}_{2}=(0,1,0,\cdots,0)$$
+$$\cdots$$
+$$\mathbf{e}_{n}=(0,0,0,\cdots,1)$$
+
+che costituiscono la **base canonica**.
+In particolare, dato $\mathbf{x}=(x_{1},x_{2},\cdots,x_{n})$, si ha:
+$\mathbf{}$
 
 
 #### 3.1.4 **Spazi di funzioni**
