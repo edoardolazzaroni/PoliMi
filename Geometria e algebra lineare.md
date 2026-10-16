@@ -937,7 +937,9 @@ In questo caso sia lo spazio vettoriale di partenza che quello di arrivo hanno d
 Lo stesso accade nel prossimo esempio:
 
 
-*Esempio* (3). La derivata si può vedere come
+*Esempio* (3). La derivata si può vedere come operatore lineare tra i seguenti spazi:
+$$L:C^{1}([a,b])\to C([]a,b])\\L:f\mapsto f'$$
+(linearità della derivata, Analisi 1).
 
 
 Segnaliamo anche un tipo di funzione tra spazi vettoriali che è in stretta relazione con le applicazioni lineare: si dice **trasformazione affine** (o lineare affine), tra due spazi vettoriali $V_{1},V_{2}$, una trasformazione del tipo$f:\ V_{1}\rightarrow V_{2}$, che abbia la forma $f(\mathbf{v})=l(\mathbf{v})+\mathbf{b}$,
