@@ -610,7 +610,8 @@ ma il problema è: dove fermarsi? Qualunque numero finito di questi polinomi noi
 
 
 *Esempio* (5). Se in $\mathbb{R}^2$ (spazio vettoriale di $\dim=2$) consideriamo una retta passante per l'origine (ossia l'insieme di tutti i vettori di tipo $t\mathbf{v}$ con $\mathbf{v}$ fissato e $t\in\mathbb{R}$), otteniamo un sottospazio vettoriale di $\dim=1$.
-Invece, una retta non passante per l'origine (ossia un insieme di vettori del tipo $t\mathbf{v}+\mathbf{u}$ con $\mathbf{v},$)
+Invece, una retta non passante per l'origine (ossia un insieme di vettori del tipo $t\mathbf{v}+\mathbf{u}$ con $\mathbf{v},\mathbf{u}$ fissati e $t\in\mathbb{R}$), è un sottoinsieme di $\mathbb{R}^2$ ma non un sottospazio.
+Analogamente, in $\mathbb{R}^3$, rette e piani p
 
 
 #### 3.1.4 **Spazi di funzioni**
