@@ -921,7 +921,8 @@ Possiamo anche definire un prodotto tra matrici, che però non è valido per ogn
 
 - È importante sottolineare che tra le matrici quadrate di ordine $n$ ne esiste una, che indichiamo con $\mathbf{I}_{n}$, tale che per ogni altra matrice $\mathbf{A}$ dello stesso ordine si ha: $\mathbf{A}\mathbf{I}_{n}=\mathbf{I}_{n}\mathbf{A}$
 	
-	Tale matrice si chiama **matrice identità** ed ha la forma: $\mathbf{I}_{n}=\begin{pmatrix}1&0&0&\cdots& 0\\0&1&0&\cdots&0\\ \vdots&\vdots&\vdots&\ddots &\vdots\\ 0&0&0&\cdots&1\end{pmatrix}$
+	Tale matrice si chiama **matrice identità** ed ha la forma:
+	$$\mathbf{I}_{n}=\begin{pmatrix}1&0&0&\cdots& 0\\0&1&0&\cdots&0\\ \vdots&\vdots&\vdots&\ddots &\vdots\\ 0&0&0&\cdots&1\end{pmatrix}$$
 
 
 - Si chiama **matrice trasposta** di una matrice $\mathbf{A}$ di tipo $(m,n)$ e la si indica con il simbolo $\mathbf{A}^\top$, la matrice di tipo $(n,m)$ che si ottiene da $\mathbf{A}$ scambiando le righe con le colonne.
@@ -968,8 +969,7 @@ Il prossimo importante teorema afferma, in sostanza, che tutte le trasformazioni
 	
 	Siano $V_n,V_{m}$ due spazi vettoriali sul campo $\mathbb{K}$ di dimensione $n,m$ rispettivamente, e sia $\mathcal{L}:V_{n}\rightarrow V_{m}$ una trasformazione lineare.
 	Fissate due basi $\mathbf{u}_{1},\mathbf{u}_{2},\cdots,\mathbf{u}_{n}$ e $\mathbf{v}_{1},\mathbf{v}_{2},\cdots,\mathbf{v}_{m}$ in $V_{n}$ e $V_{m}$, rispettivamente, esiste un'**unica matrice** $\mathbf{A}$ di tipo $(m,n)$ a elementi in $\mathbb{K}$ che rappresenta $\mathcal{L}$ nel senso che, se $\mathbf{x}=x_{1}\mathbf{u}_{1}+x_{2}\mathbf{u}_{2}+\cdots+x_{n}\mathbf{u}_{n}$ e $\mathcal{L}(\mathbf{x})=y_{1}\mathbf{v}_{1}+\cdots+y_{m}\mathbf{v}_{m}$, allora:
-	
-								$\begin{pmatrix}y_{1}\\y_{2}\\ \vdots \\y_{m}\end{pmatrix}=\mathbf{A}\begin{pmatrix}x_{1}\\x_{2}\\ \vdots \\x_{n}\end{pmatrix}$
+	$$\begin{pmatrix}y_{1}\\y_{2}\\ \vdots \\y_{m}\end{pmatrix}=\mathbf{A}\begin{pmatrix}x_{1}\\x_{2}\\ \vdots \\x_{n}\end{pmatrix}$$
 	
 	Si noti che, qualunque sia lo spazio vettoriale $V_{n}$ e fissata una base nel medesimo spazio, ogni vettore è individuato dalla $n$-upla delle sue componenti rispetto a questa base, cioè da un elemento di $\mathbb{K}^n$. Il teorema afferma quindi l'esistenza di una matrice che rappresenta la trasformazione lineare, nel senso che, fissata una base nello spazio di partenza ed una nello spazio di arrivo, il vettore delle componenti di $\mathcal{L}(x)$ si ottiene moltiplicando la matrice per il vettore delle componenti di $\mathbf{x}$.
 	Nel seguito parleremo di matrici a elementi reali e di trasformazioni lineari di $\mathbb{R}^n$ in $\mathbb{R}^m$, che perrò varrà pari pari sostituendo $\mathbb{C}$ ad $\mathbb{R}$.
