@@ -1279,9 +1279,12 @@ $$\begin{vmatrix}
 4 & -1 & -2
 \end{vmatrix}=\begin{vmatrix}
 0 & -5 & 0 \\
-1 & 3 & 1
-41
-\end{vmatrix}$$
+1 & 3 & 1 \\
+4 & -1 & -2
+\end{vmatrix}=5\begin{vmatrix}
+1 & 1 \\
+4 & -2
+\end{vmatrix}=5(-2-4)=-30$$
 
 
 Un'altra importante proprietà del determinante è la seguente:
