@@ -845,6 +845,9 @@ Si può dimostrare che <mark class="hltr-yellow">uno spazio vettoriale di dimens
 	quindi la distanza di $\mathbf{v}$ da $\mathbf{u}$ è minore della distanza da $\mathbf{v}$ da qualunque altro elemento di $\mathbf{u}_{1}$ di $V_{1}$ (come volevasi dimostrare).
 
 
+*Esempio* (1). In $\mathbb{R}^3$, determinare il punto del piano $x+z=0$ che ha minima distanza 
+
+
 #### 3.3.2 **Somma diretta di sottospazi ortogonali**
 
 Sia $V$ uno spazio vettoriale qualsiasi. Dati due sottospazi $U$ e $W$ qualunque, se ne possono formare altri due particolarmente significativi:
