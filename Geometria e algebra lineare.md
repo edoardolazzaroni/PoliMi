@@ -1416,7 +1416,7 @@ $$A_{11}=\begin{vmatrix}
 \end{vmatrix}=-4,\quad A_{22}=\begin{vmatrix}
 1 & 3 \\
 0 & 2
-\end{vmatrix}=2,\quad A_{230}-\begin{vmatrix}
+\end{vmatrix}=2,\quad A_{23}=-\begin{vmatrix}
 1 & 2 \\
 0 & 0
 \end{vmatrix}=0\\A_{31}=\begin{vmatrix}
@@ -1446,7 +1446,7 @@ c & d
 \end{pmatrix}$$
 nell'ipotesi $\det \mathbf{A}=ad-bc\ne 0$. Si ha:
 $$\begin{pmatrix}
-A_{11} & A_{12}
+A_{11} & A_{12} \\
 A_{21} & A_{22}
 \end{pmatrix}=\begin{pmatrix}
 d & -c \\
@@ -1463,7 +1463,18 @@ $$\mathbf{A}_{\alpha}=\begin{pmatrix}
 \cos \alpha & -\sin \alpha \\
 \sin \alpha & \cos \alpha
 \end{pmatrix}$$
-la matrice che rappresenta la rotazione di angolo $\alpha$ nel piano. Scriviamo la 
+la matrice che rappresenta la rotazione di angolo $\alpha$ nel piano. Scriviamo la sua matrice inversa.
+In base al calcolo fatto nell'esempio precedente, si ha:
+$$\begin{pmatrix}
+A_{11} & A_{12}
+A_{21} & A_{22}
+\end{pmatrix}=\begin{pmatrix}
+d & -c \\
+-b & a
+\end{pmatrix}\implies \mathbf{A}^{-1}=\frac{1}{ad-bc}\begin{pmatrix}
+d & -b \\
+-c & a
+\end{pmatrix}$$
 
 
 In base a questo teorema, una matrice non singolare ($\det\ne 0$) viene anche detta **invertibile**.
