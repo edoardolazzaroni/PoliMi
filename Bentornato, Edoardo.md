@@ -59,12 +59,15 @@ cellStyleRules:
  [[finire esempi GAL]]
  [[guardare esercitazione GAL-2]]
  [[riguardare appunti esercitazioni analisi 1]]
+
+Altro 
+
 [[Leggere almeno un capitolo]]
  [[Caricare tavoletta grafica]]
  [[Caricare cuffie]]
  [[Sistemare stanza]]
-- [[Preparare zaino uni
-- [x] Guardare orari delle lezioni
+ [[Preparare zaino uni]]
+ [[Guardare orari delle lezioni]]
 
 
 - ## Repository dei corsi 📚:
