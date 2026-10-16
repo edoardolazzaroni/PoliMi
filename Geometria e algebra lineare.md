@@ -1633,7 +1633,6 @@ Abbiamo così dimostrato un importante risultato:
 *Esempio*: Consideriamo il sistema:
 $${\begin{cases}2x+y+3z=12\\4y-z=7\\5x+8z=24\end{cases}}\quad\implies\quad\mathbf{A}={\begin{pmatrix}2&1&3\\0&4&-1\\5&0&8\end{pmatrix}}$$
 Poichè $|\mathbf{A}|=-1$, il sistema ammette soluzione unica; dall'espressione $x_{i}=\frac{|\mathbf{B}_{i}|}{|\mathbf{A}|}$ abbiamo:
-
 $$x=-{\begin{vmatrix}12&1&3\\-7&4&-1\\34&0&8\end{vmatrix}}=2\\y=-{\begin{vmatrix}2&12&3\\0&-7&-1\\5&34&8\end{vmatrix}}=-1\\z=-{\begin{vmatrix}2&1&12\\0&4&-7\\5&0&34\end{vmatrix}}=3$$
 
 
@@ -1711,11 +1710,11 @@ Vale l'importante formula che lega le dimensioni di immagine e nucleo per una ge
 	*Dimostrazione sul libro*.
 
 
-*Esempio*: Sia $\mathcal{L}$ la trasformazione lineare da $\mathbb{R}^3$ in $\mathbb{R}^3$ che, rispetto alle basi canoniche, è rappresentata dalla matrice $\mathbf{A}={\begin{pmatrix}1&-1&0\\-2&3&1\\-1&2&1\end{pmatrix}}$
+*Esempio*: Sia $\mathcal{L}$ la trasformazione lineare da $\mathbb{R}^3$ in $\mathbb{R}^3$ che, rispetto alle basi canoniche, è rappresentata dalla matrice
+$$\mathbf{A}={\begin{pmatrix}1&-1&0\\-2&3&1\\-1&2&1\end{pmatrix}}$$
 
 Il rango di $\mathbf{A}$ è $rk=2$, essendo la terza colonna (o riga) somma delle altre due e 
-
-${\begin{vmatrix}1&-1\\-2&3\end{vmatrix}}=1\ne 0$.
+$${\begin{vmatrix}1&-1\\-2&3\end{vmatrix}}=1\ne 0$$
 
 Dunque $\dim \mathrm{Im}(\mathcal{L})=2$ e $\dim Ker(\mathcal{L})=n-rk=2-1=1$.
 
