@@ -707,7 +707,9 @@ $$f\cdot g=\int_{a}^{b}f(x)g(x)\,dx$$
 Si verifica che gli assomi di prodotto scalare sono soddisfatti. Quindi $C([a,b])$ assume una struttura di spazio vettoriale con prodotto scalare, in cui due funzioni $f,g$ sono ortogonali quando:
 $$\int_{a}^b f(x)g(x)\,dx=0$$
 Nello studio delle serie di Furier, in Analisi Matematica 2, si vedrà come questo prodotto scalare e questa nozione astratta di ortogonalità siano estremamente utili nello studio di certi problemi di approssimazione di funzioni.
-Quando gli elementi di uno spazio vettoriale con prodotto scalare sono funzioni, si preferisce di solito indicare il prodo
+Quando gli elementi di uno spazio vettoriale con prodotto scalare sono funzioni, si preferisce di solito indicare il prodotto scalare con la scrittura:
+$$\langle f,g\rangle\quad anzichè\quad f\cdot g$$
+che si potrebbe facilmente confondere con l'usuale prodotto di funzioni.
 
 
 - **Complemento ortogonale**: se $V$ è uno spazio vettoriale con prodotto interno e $V_{1}$ è un sottospazio di $V$, definiamo
