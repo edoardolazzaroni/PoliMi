@@ -697,7 +697,8 @@ Continua a valere il teorema precedente: in altre parole, dagli assiomi di prodo
 
 
 *Esempio* (1). In $\mathbb{R}^3$ si consideri l'operazione così definita:
-$$(v_{1},v_{2},v_{3})\cdot(u_{1},u)$$
+$$(v_{1},v_{2},v_{3})\cdot(u_{1},u_{2},u_{3})=2v_{1}u_{1}+v_{2}u_{2}+3v_{3}u_{3}$$
+Si verifica facilmente che gli assomi di prodotto scalare sono soddisfatti. Questo dà quindi ad $\mathbb{}$
 
 
 - **Complemento ortogonale**: se $V$ è uno spazio vettoriale con prodotto interno e $V_{1}$ è un sottospazio di $V$, definiamo
