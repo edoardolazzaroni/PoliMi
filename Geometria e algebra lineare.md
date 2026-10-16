@@ -910,10 +910,10 @@ Tra queste funzioni, particolare importanza hanno quelle che godono di una speci
 
 
 *Esempio* (1). Sia $f:\mathbb{R}\to\mathbb{R}$. Se $f$ è lineare si ha: $f(x)=f(x\cdot 1)=xf(1)=\alpha x$ per $\alpha=f(1)$.
-Dunque le uniche funzioni lineari da $\mathbb{R}$ a $\mathbb{R}$ somo del tipo $f(x)=\alpha x$.
+Dunque le uniche funzioni lineari da $\mathbb{R}$ a $\mathbb{R}$ sono del tipo $f(x)=\alpha x$.
 
 
-*Esempio* (2).
+*Esempio* (2). Sia $V$ lo spazio dei vettori tridimensionali; consideriamo un vettor
 
 
 Il concetto di linearità è fondamentale in matematica e nelle applicazioni. Vedremo nel prossimo capitolo che il <u>calcolo matriciale</u> permette di descrivere completamente le applicazioni lineari tra spazi vettoriali di dimensione finita.
