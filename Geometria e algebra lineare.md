@@ -1428,7 +1428,11 @@ $$A_{11}=\begin{vmatrix}
 \end{vmatrix}=-3,\quad A_{33}=\begin{vmatrix}
 1 & 2 \\
 0 & -1
-\end{vmatrix}=-1\\$$
+\end{vmatrix}=-1\\ \mathbf{A}^{-1}=\frac{1}{-2}\begin{pmatrix}
+-2 & 0 &0 \\
+-4 & 2 & 0 \\
+9 & -3 & -1
+\end{pmatrix}^\top$$
 
 
 In base a questo teorema, una matrice non singolare ($\det\ne 0$) viene anche detta **invertibile**.
