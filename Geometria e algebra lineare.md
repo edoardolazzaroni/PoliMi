@@ -706,7 +706,8 @@ $$|(v_{1},v_{2},v_{3})|=\sqrt{2v_{1}^2+v_{2}^2+3v_{3}^2}$$
 $$f\cdot g=\int_{a}^{b}f(x)g(x)\,dx$$
 Si verifica che gli assomi di prodotto scalare sono soddisfatti. Quindi $C([a,b])$ assume una struttura di spazio vettoriale con prodotto scalare, in cui due funzioni $f,g$ sono ortogonali quando:
 $$\int_{a}^b f(x)g(x)\,dx=0$$
-Nello studio delle serie di Furier, in Analisi 
+Nello studio delle serie di Furier, in Analisi Matematica 2, si vedrà come questo prodotto scalare e questa nozione astratta di ortogonalità siano estremamente utili nello studio di certi problemi di approssimazione di funzioni.
+Quando gli elementi di uno spazio vettoriale con prodotto scalare sono funzioni, si preferisce di solito indicare il prodo
 
 
 - **Complemento ortogonale**: se $V$ è uno spazio vettoriale con prodotto interno e $V_{1}$ è un sottospazio di $V$, definiamo
