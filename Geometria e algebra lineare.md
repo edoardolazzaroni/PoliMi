@@ -601,7 +601,9 @@ che sono evidentemente indipendenti, costituiscono una base di $V$: pertanto $V$
 
 *Esempio* (3): Sia $V$ l'insieme di tutti i polinomi in una variabile. Come già osservato, $V$ è uno spazio vettoriale. Ci si convince facilmente, tuttavia, che esiste un numero finito di polinomi tale che ogni polinomio sia combinazione lineare di questi. Infatti, l'idea naturale sarebbe di scegliere come base i polinomi:
 $$1,x,x^2,x^3,\cdots$$
-ma il problema è: dove fermarsi? Qualunque numero finito di questi polinomi noi scegliamo, ci sarà sempre un polinomio che non è combinazione lineare di questi. Dunque $V$ è uno spazio vett
+ma il problema è: dove fermarsi? Qualunque numero finito di questi polinomi noi scegliamo, ci sarà sempre un polinomio che non è combinazione lineare di questi. Dunque $V$ è uno spazio vettoriale di dimensione infinita.
+
+- Sottospazi e la loro dimensione. Se $V$ è uno spazio vettoriale di dimensione $n$ e $V_{1}$ un sottospazio vettoriale di $V$, sarà $$
 
 
 #### 3.1.4 **Spazi di funzioni**
