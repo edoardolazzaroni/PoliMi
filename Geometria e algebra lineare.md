@@ -925,7 +925,11 @@ Molti concetti chiave del calcolo infinitesimale (limite, derivata, integrale) c
 
 *Esempio* (1). L'integrale definito si può vedere come operatore lineare sullo spazio delle funzioni continue su un intervallo $[a,b]$, a valori reali:
 $$L:C([a,b])\to \mathbb{R}\\L:f\mapsto\int_{a}^b f(x)\,dx$$
-L'operatore $L$ è lineare (<u>linearità dell'integrale definito</u>, Analisi 1); in questo caso lo spazio vettoriale di partenza ha dimensione infinita, mentre quello di arrivo è $\mathbb{R}$ di $
+L'operatore $L$ è lineare (<u>linearità dell'integrale definito</u>, Analisi 1); in questo caso lo spazio vettoriale di partenza ha dimensione infinita, mentre quello di arrivo è $\mathbb{R}$ di $\dim=1$.
+
+
+*Esempio* (2). L'operatore che ad ogni funzione continua su $[a,b]$ associa la sua funzione integrale, cioè:
+$$L:f\mapsto \int_{}$$
 
 
 Segnaliamo anche un tipo di funzione tra spazi vettoriali che è in stretta relazione con le applicazioni lineare: si dice **trasformazione affine** (o lineare affine), tra due spazi vettoriali $V_{1},V_{2}$, una trasformazione del tipo$f:\ V_{1}\rightarrow V_{2}$, che abbia la forma $f(\mathbf{v})=l(\mathbf{v})+\mathbf{b}$,
