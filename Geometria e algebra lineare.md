@@ -1459,7 +1459,11 @@ Troveremo quindi $\begin{pmatrix}1 & 0 \\  0 & 1\end{pmatrix}$.
 
 
 *Esempio* (3). Sia:
-
+$$\mathbf{A}_{\alpha}=\begin{pmatrix}
+\cos \alpha & -\sin \alpha \\
+\sin \alpha & \cos \alpha
+\end{pmatrix}$$
+la matrice che rappresenta la rotazione di angolo $\alpha$ nel piano. Scriviamo la 
 
 
 In base a questo teorema, una matrice non singolare ($\det\ne 0$) viene anche detta **invertibile**.
