@@ -1410,7 +1410,19 @@ $$A_{11}=\begin{vmatrix}
 \end{vmatrix}=0,\quad A_{13}=\begin{vmatrix}
 0 & -1 \\
 0 & 0
-\end{vmatrix}=0\\A_{21}=-$$
+\end{vmatrix}=0\\A_{21}=-\begin{vmatrix}
+2 & 3 \\
+0 & 2
+\end{vmatrix}=-4,\quad A_{22}=\begin{vmatrix}
+1 & 3 \\
+0 & 2
+\end{vmatrix}=2,\quad A_{230}-\begin{vmatrix}
+1 & 2 \\
+0 & 0
+\end{vmatrix}=0\\A_{31}=\begin{vmatrix}
+2 & 3 \\
+
+\end{vmatrix}$$
 
 
 In base a questo teorema, una matrice non singolare ($\det\ne 0$) viene anche detta **invertibile**.
