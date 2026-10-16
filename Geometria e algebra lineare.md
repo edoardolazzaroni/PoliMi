@@ -1446,8 +1446,12 @@ c & d
 \end{pmatrix}$$
 nell'ipotesi $\det \mathbf{A}=ad-bc\ne 0$. Si ha:
 $$\begin{pmatrix}
-A_{11} & A
-\end{pmatrix}$$
+A_{11} & A_{12}
+A_{21} & A_{22}
+\end{pmatrix}=\begin{pmatrix}
+d & -c \\
+-b & a
+\end{pmatrix}\implies \mathbf{A}^{-1}=\frac{1}{ad-bc}$$
 
 
 In base a questo teorema, una matrice non singolare ($\det\ne 0$) viene anche detta **invertibile**.
