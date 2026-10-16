@@ -1129,7 +1129,10 @@ Il prossimo importante teorema afferma, in sostanza, che tutte le trasformazioni
 (La matrice $\mathbf{A}=(a)$ è di tipo $(1,1)$).
 
 
-*Esempio* (2). Le trasformazioni lineari da $\mathbb{R}^2$
+*Esempio* (2). Le trasformazioni lineari da $\mathbb{R}^2$ in $\mathbb{R}$, in riferimento alla base canonica, si possono scrivere nella forma $\mathcal{L}(x,y)0ax+by\quad a,b\in \mathbb{R}$
+
+
+*Esempio* (3). Le trasformazioni lineari da $\mathbb{}$
 
 
 **Osservazioni**:
