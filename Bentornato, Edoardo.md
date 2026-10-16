@@ -60,7 +60,7 @@ cellStyleRules:
  [[guardare esercitazione GAL-2]]
  [[riguardare appunti esercitazioni analisi 1]]
 
-Altro 
+**Altro 🏖️**:
 
 [[Leggere almeno un capitolo]]
  [[Caricare tavoletta grafica]]
