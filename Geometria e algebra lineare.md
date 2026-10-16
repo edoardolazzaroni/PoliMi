@@ -594,7 +594,9 @@ In $\mathbb{R}^n$, salvo caso contrario, si sceglie la base canonica.
 
 *Esempio* (2): Sia $V$ l'insieme dei polinomi in una variabile, di grado $\le 2$. Si verifica subito che è uno spazio vettoriale. Inoltre, poichè il generico polinomio di grado $\le 2$ si può scrivere nella forma:
 $$\mathbf{p}=ax^2+bx+c\quad con \quad a,b,c\in\mathbb{R}$$
-
+ne segue che i tre polinomi:
+$$\mathbf{e_{1}}=x^2\quad \mathbf{e}_{2}=x\quad \mathbf{e}_{3}=1$$
+che sono evidentemente indipendenti, costituiscono una base di $V$
 
 
 #### 3.1.4 **Spazi di funzioni**
