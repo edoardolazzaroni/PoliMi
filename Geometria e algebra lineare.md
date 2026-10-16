@@ -1421,8 +1421,14 @@ $$A_{11}=\begin{vmatrix}
 0 & 0
 \end{vmatrix}=0\\A_{31}=\begin{vmatrix}
 2 & 3 \\
-
-\end{vmatrix}$$
+-1 & 3
+\end{vmatrix}=9,\quad A_{32}=-\begin{vmatrix}
+1 & 3 \\
+0 & 3
+\end{vmatrix}=-3,\quad A_{33}=\begin{vmatrix}
+1 & 2 \\
+0 & -1
+\end{vmatrix}=-1\\$$
 
 
 In base a questo teorema, una matrice non singolare ($\det\ne 0$) viene anche detta **invertibile**.
