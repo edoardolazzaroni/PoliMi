@@ -1561,7 +1561,9 @@ $$\left( x, \frac{1}{2}-\frac{3}{2}x \right)$$
 
 <mark class="hltr-yellow">Conclusione: esistono sistemi determinati, indeterminati e impossibili</mark>.
 
-Gli *esempi* (2),()
+Gli *esempi* (2),(3),(4) hanno una semplice interpretazione geometrica: il sistema lineare di due equazioni in due incognite rappresenta la ricerca dell'intersezione di due rette nel piano:
+
+- Nell'*esempio* (2) le due equazioni rappresentano due rette incidienti
 
 #### 5.1.1 **Tecniche elementari di soluzione**
 
