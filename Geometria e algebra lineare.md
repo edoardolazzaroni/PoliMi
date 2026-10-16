@@ -1719,12 +1719,12 @@ $${\begin{vmatrix}1&-1\\-2&3\end{vmatrix}}=1\ne 0$$
 Dunque $\dim \mathrm{Im}(\mathcal{L})=2$ e $\dim Ker(\mathcal{L})=n-rk=2-1=1$.
 
 Per determinare $\mathrm{Im}(\mathcal{L})$ calcoliamo:
-
-$\mathbf{A}{\begin{pmatrix}x_{1}\\x_{2}\\ x_{3}\end{pmatrix}}={\begin{pmatrix}1&-1&0\\-2&3&1\\-1&2&1\end{pmatrix}}{\begin{pmatrix}x_{1}\\x_{2}\\ x_{3}\end{pmatrix}}={\begin{pmatrix}x_{1}-x_{2}\\-2x_{1}+3x_{2}+x_{3}\\-x_{1}+2x_{2}+x_{3}\end{pmatrix}}={\begin{pmatrix}y_{1}\\ y_{2}\\ y_{3}\end{pmatrix}}$
+$$\mathbf{A}{\begin{pmatrix}x_{1}\\x_{2}\\ x_{3}\end{pmatrix}}={\begin{pmatrix}1&-1&0\\-2&3&1\\-1&2&1\end{pmatrix}}{\begin{pmatrix}x_{1}\\x_{2}\\ x_{3}\end{pmatrix}}={\begin{pmatrix}x_{1}-x_{2}\\-2x_{1}+3x_{2}+x_{3}\\-x_{1}+2x_{2}+x_{3}\end{pmatrix}}={\begin{pmatrix}y_{1}\\ y_{2}\\ y_{3}\end{pmatrix}}$$
 
 Poichè $y_{3}=y_{2}+y_{1}$, $\mathrm{Im}(\mathcal{L})$ coincide col piano di equazione $y_{1}+y_{2}-y_{3}=0$
 
-Detto altrimenti, il generico elemento di $\mathrm{Im}(\mathcal{L})$ è del tipo: ${\begin{pmatrix}y_{1}\\ y_{2}\\ y_{1}+y_{2}\end{pmatrix}}$ ossia $y_{1}{\begin{pmatrix}1\\0\\1\end{pmatrix}}+y_{2}{\begin{pmatrix}0\\1\\1\end{pmatrix}}$
+Detto altrimenti, il generico elemento di $\mathrm{Im}(\mathcal{L})$ è del tipo:
+$${\begin{pmatrix}y_{1}\\ y_{2}\\ y_{1}+y_{2}\end{pmatrix}}\quad ossia \quad y_{1}{\begin{pmatrix}1\\0\\1\end{pmatrix}}+y_{2}{\begin{pmatrix}0\\1\\1\end{pmatrix}}$$
 pertanto una base di $\mathrm{Im}(\mathcal{L})$ è costituita dai due vettori ${\begin{pmatrix}1\\0\\1\end{pmatrix}}$ e ${\begin{pmatrix}0\\1\\1\end{pmatrix}}$.
 
 Per determinare il nucleo ($Ker (\mathcal{L})$), occorre risolvere il sistema omogeneo:
