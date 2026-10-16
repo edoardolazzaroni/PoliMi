@@ -1630,17 +1630,11 @@ Abbiamo così dimostrato un importante risultato:
 	(con $\mathbf{A}$ matrice $(n,n)$, $b\in\mathbb{R}^n$ assegnato e $\mathbf{x}\in\mathbb{R}^n$ incognito). Se $\det\mathbf{A}\ne 0$, il sistema è determinato, ossia ha una ed una sola soluzione.
 
 
-*Esempio*:
-
-Consideriamo il sistema ${\begin{cases}2x+y+3z=12\\4y-z=7\\5x+8z=24\end{cases}}\quad\rightarrow\quad\mathbf{A}={\begin{pmatrix}2&1&3\\0&4&-1\\5&0&8\end{pmatrix}}$
-
+*Esempio*: Consideriamo il sistema:
+$${\begin{cases}2x+y+3z=12\\4y-z=7\\5x+8z=24\end{cases}}\quad\implies\quad\mathbf{A}={\begin{pmatrix}2&1&3\\0&4&-1\\5&0&8\end{pmatrix}}$$
 Poichè $|\mathbf{A}|=-1$, il sistema ammette soluzione unica; dall'espressione $x_{i}=\frac{|\mathbf{B}_{i}|}{|\mathbf{A}|}$ abbiamo:
 
-$x=-{\begin{vmatrix}12&1&3\\-7&4&-1\\34&0&8\end{vmatrix}}=2$
-
-$y=-{\begin{vmatrix}2&12&3\\0&-7&-1\\5&34&8\end{vmatrix}}=-1$
-
-$z=-{\begin{vmatrix}2&1&12\\0&4&-7\\5&0&34\end{vmatrix}}=3$
+$$x=-{\begin{vmatrix}12&1&3\\-7&4&-1\\34&0&8\end{vmatrix}}=2\\y=-{\begin{vmatrix}2&12&3\\0&-7&-1\\5&34&8\end{vmatrix}}=-1\\z=-{\begin{vmatrix}2&1&12\\0&4&-7\\5&0&34\end{vmatrix}}=3$$
 
 
 #### 5.1.3 **Sistemi omogenei di $n$ equazioni in $n$ incognite**
