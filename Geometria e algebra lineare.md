@@ -606,7 +606,10 @@ ma il problema è: dove fermarsi? Qualunque numero finito di questi polinomi noi
 - **Sottospazi e la loro dimensione**. Se $V$ è uno spazio vettoriale di dimensione $n$ e $V_{1}$ un sottospazio vettoriale di $V$, sarà $\dim V_{1}<\dim V$ (tranne il caso banale $V_{1}=V$).
 
 
-*Esempio* (4). Il vettore nullo $\mathbf{0}\in\mathbb{R}^n$ costituisce 
+*Esempio* (4). Il vettore nullo $\mathbf{0}\in\mathbb{R}^n$ costituisce da solo un sottospazio di $\dim=0$.
+
+
+*Esempio* (5). Se in $\mathbb{R}^2$ (spazio vettoriale di $\dim=2$) consideriamo una retta passante per l'origine (ossia l'insieme di tutti i vettori di tipo $t\mathbf{v}$ con )
 
 
 #### 3.1.4 **Spazi di funzioni**
