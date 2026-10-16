@@ -913,7 +913,8 @@ Tra queste funzioni, particolare importanza hanno quelle che godono di una speci
 Dunque le uniche funzioni lineari da $\mathbb{R}$ a $\mathbb{R}$ sono del tipo $f(x)=\alpha x$.
 
 
-*Esempio* (2). Sia $V$ lo spazio dei vettori tridimensionali; consideriamo un vettor
+*Esempio* (2). Sia $V$ lo spazio dei vettori tridimensionali; consideriamo un vettore $\mathbf{u}\in V$, fissato una volta per tutte, e definiamo:
+$$f:V\to \mathbb{R}\\f:\mathbf{v}$$
 
 
 Il concetto di linearità è fondamentale in matematica e nelle applicazioni. Vedremo nel prossimo capitolo che il <u>calcolo matriciale</u> permette di descrivere completamente le applicazioni lineari tra spazi vettoriali di dimensione finita.
