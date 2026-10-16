@@ -1529,8 +1529,16 @@ $$\begin{cases}
 2x+3y=1 \\
 x-2y=2
 \end{cases}$$
-Dalla seconda equazione ricaviamo $x$ in funzione di $y$ e la sostituiamo nella prima. 
-
+Dalla seconda equazione ricaviamo $x$ in funzione di $y$ e la sostituiamo nella prima. Otteniamo:
+$$\begin{cases}
+x=2y+2 \\
+2(2y+2)+3y=1
+\end{cases}$$
+Risolviamo la seconda rispetto ad $y$ e sostituiamo il valore nella prima:
+$$\begin{cases}
+y=-\frac{3}{7} \\
+x=\frac{8}{7}
+\end{cases}$$
 
 #### 5.1.1 **Tecniche elementari di soluzione**
 
