@@ -1539,6 +1539,10 @@ $$\begin{cases}
 y=-\frac{3}{7} \\
 x=\frac{8}{7}
 \end{cases}$$
+Abbiamo trovato un'unica soluzione: la coppia $(\frac{8}{7},-\frac{3}{7})$. Diremo pertanto che il sistema è <u>determinato</u>.
+
+
+Esempio ()
 
 #### 5.1.1 **Tecniche elementari di soluzione**
 
