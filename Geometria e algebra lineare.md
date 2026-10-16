@@ -599,7 +599,8 @@ $$\mathbf{e_{1}}=x^2\quad \mathbf{e}_{2}=x\quad \mathbf{e}_{3}=1$$
 che sono evidentemente indipendenti, costituiscono una base di $V$: pertanto $V$ ha dimensione 3.
 
 
-*Esempio* (3): Sia $V$ l'insieme di tutti i polinomi in una variabile. Come già osservato, $V$ è uno spazio vettoriale. Ci si convince
+*Esempio* (3): Sia $V$ l'insieme di tutti i polinomi in una variabile. Come già osservato, $V$ è uno spazio vettoriale. Ci si convince facilmente, tuttavia, che esiste un numero finito di polinomi tale che ogni polinomio sia combinazione lineare di questi. Infatti, l'idea naturale sarebbe di scegliere come base i polinomi:
+$1,x,x^2,x^3,\cdots$$
 
 
 #### 3.1.4 **Spazi di funzioni**
