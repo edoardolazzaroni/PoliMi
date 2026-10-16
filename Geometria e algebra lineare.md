@@ -1521,7 +1521,15 @@ Qualche semplice esempio indica che vi sono tre possibilità:
 $$ax=b$$
 Se $a\ne 0$ ammette un'unica soluzione data da $x=\frac{a}{b}$;
 Se $a=0, b\ne 0$ non ammette alcuna soluzione $(\emptyset)$;
-Se $a=0,b=0$ ha soluzione $\forall x$
+Se $a=0,b=0$ ha soluzione $\forall x$.
+
+
+*Esempio* (2). Consideriamo il sistema di due equazioni in due incognite:
+$$\begin{cases}
+2x+3y=1 \\
+x-2y=2
+\end{cases}$$
+Dalla seconda equazione ricaviamo $x$ in funzione di $y$ e la sostituiamo nella prima. 
 
 
 #### 5.1.1 **Tecniche elementari di soluzione**
