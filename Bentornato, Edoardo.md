@@ -55,8 +55,8 @@ cellStyleRules:
 
  [[Finire capitolo 5 di GAL]]
  [[finire capitolo 6 GAL]]
- [[inserire immagini nel file di GAL]]
  [[finire esempi GAL]]
+ [[inserire immagini nel file di GAL]]
  [[guardare esercitazione GAL-2]]
  [[riguardare appunti esercitazioni analisi 1]]
 
