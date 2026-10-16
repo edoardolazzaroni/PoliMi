@@ -1139,6 +1139,14 @@ b & a
 \end{pmatrix}$$
 corrispondono, geometricamente, alle roto-omotetie del piano, ossia alla composizione di una rotazione di angolo $\theta$ e una dilatazione di coefficiente $\lambda$, con:
 $$\lambda=\sqrt{a^{2}+b^2}\quad \cos \theta=\frac{a}{\lambda}\quad \sin \theta=\frac{b}{\lambda}$$
+Infatti, con queste notazioni, la matrice si riscrive nella forma:
+$$\begin{pmatrix}
+a & -b \\
+b & a
+\end{pmatrix}=\lambda \begin{pmatrix}
+\cos \theta & -\sin \theta \\
+\sin \theta & \cos \theta
+\end{pmatrix}$$
 
 
 **Osservazioni**:
