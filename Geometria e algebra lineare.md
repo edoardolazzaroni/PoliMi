@@ -917,9 +917,10 @@ Dunque le uniche funzioni lineari da $\mathbb{R}$ a $\mathbb{R}$ sono del tipo $
 $$f:V\to \mathbb{R}\\f:\mathbf{v}\mapsto \mathbf{u}\cdot \mathbf{v}$$
 (la funzione associa ad ogni vettore $\mathbf{v}$ il suo prodotto scalare col vettore $\mathbf{u}$ fissato). Dalle proprietà del prodotto scalare segue subito che $f$ è lineare, infatti:
 $$f(\alpha \mathbf{v}_{1}+\beta \mathbf{v}_{2})=\mathbf{u}_{1}\cdot(\alpha \mathbf{v}_{1}+\beta \mathbf{v}_{2})=\alpha \mathbf{u}\cdot \mathbf{v}_{1}+\beta \mathbf{u}\cot \mathbf{v}_{2}=\alpha f(\mathbf{v}_{1})+\beta f(\mathbf{v}_{2})$$
-Il concetto di linearità 
+
 
 Il concetto di linearità è fondamentale in matematica e nelle applicazioni. Vedremo nel prossimo capitolo che il <u>calcolo matriciale</u> permette di descrivere completamente le applicazioni lineari tra spazi vettoriali di dimensione finita.
+Molti concetti chiave del calcolo infinitesimale (limite, derivata, integrale) corrispondo ad opportuni operatori lineari che coinvolgono 
 
 Segnaliamo anche un tipo di funzione tra spazi vettoriali che è in stretta relazione con le applicazioni lineare: si dice **trasformazione affine** (o lineare affine), tra due spazi vettoriali $V_{1},V_{2}$, una trasformazione del tipo$f:\ V_{1}\rightarrow V_{2}$, che abbia la forma $f(\mathbf{v})=l(\mathbf{v})+\mathbf{b}$,
 dove $l:\ V_{1}\rightarrow V_{2}$ è lineare e $\mathbf{b}\in V_{2}$ è un elemento fissato.
