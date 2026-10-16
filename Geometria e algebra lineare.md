@@ -1123,11 +1123,14 @@ Il prossimo importante teorema afferma, in sostanza, che tutte le trasformazioni
 	
 	La matrice $\mathbf{A}$ rappresenta dunque $\mathcal{L}$ nel senso precisato nell'enunciato del teorema.
 	Tale matrice è unica, come conseguenza del fatto che ogni vettore $\mathcal{L}(\mathbf{u}_{i}),i=1,2,\cdots,n$ si può esprimere in un unico modo come combinazione lineare dei vettori $\mathbf{v}_{1},\mathbf{v}_{2},\cdots,\mathbf{v}_{m}$.
-	
-	**Osservazioni**:
-	
-	1. Il teorema di rappresentazione chiarisce il motivo per cui il prodotto di matrici è stato definito proprio in quel modo ("righe per colonne"). Infatti, è quello il tipo di prodotto adatto a rappresentare le trasformazioni lineari;
-	2. Quest'ultima osservazione è anche alla base dell'utilità del calcolo matriciale in fisica.
+
+
+Esempio
+
+
+**Osservazioni**:
+	1.Il teorema di rappresentazione chiarisce il motivo per cui il prodotto di matrici è stato definito proprio in quel modo ("righe per colonne"). Infatti, è quello il tipo di prodotto adatto a rappresentare le trasformazioni lineari;
+	1. Quest'ultima osservazione è anche alla base dell'utilità del calcolo matriciale in fisica.
 
 
 - Siano ora $L_{1}:\mathbb{R}^n\rightarrow \mathbb{R}^m$ e $L_{2}:\mathbb{R}^m\rightarrow \mathbb{R}^s$ due trasformazioni lineari, rappresentate rispettivamente da una matrice $\mathbf{A}$ di tipo $(m,n)$ e da una matrice $\mathbf{B}$ di tipo $(s,m)$, ottenute fissando una volta per tutte una base in $\mathbb{R}^n, \mathbb{R}^m, \mathbb{R}^s$ (è necessario che la base considerata in $\mathbb{R}^m$ sia la stessa per $L_{1}$ e $L_{2}$). Consideriamo la trasformazione composta,
