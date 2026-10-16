@@ -699,7 +699,10 @@ Continua a valere il teorema precedente: in altre parole, dagli assiomi di prodo
 *Esempio* (1). In $\mathbb{R}^3$ si consideri l'operazione così definita:
 $$(v_{1},v_{2},v_{3})\cdot(u_{1},u_{2},u_{3})=2v_{1}u_{1}+v_{2}u_{2}+3v_{3}u_{3}$$
 Si verifica facilmente che gli assomi di prodotto scalare sono soddisfatti. Questo dà quindi ad $\mathbb{R}^3$ una struttura di spazio vettoriale con prodotto scalare, diversa da quella "euclidea" che abbiamo considerato in precedenza. Rispetto a questa struttura si ha, per esempio:
-$$|(v_{1},v_{2},v_{3})|=\sqrt{}$$
+$$|(v_{1},v_{2},v_{3})|=\sqrt{2v_{1}^2+v_{2}^2+3v_{3}^2}$$
+
+
+*Esempio* (2). Nello spazio di funzioni $C([a,b])$ si consideri l'operazione definita da:
 
 
 
