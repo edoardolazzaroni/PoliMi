@@ -1132,7 +1132,12 @@ Il prossimo importante teorema afferma, in sostanza, che tutte le trasformazioni
 *Esempio* (2). Le trasformazioni lineari da $\mathbb{R}^2$ in $\mathbb{R}$, in riferimento alla base canonica, si possono scrivere nella forma $\mathcal{L}(x,y)0ax+by\quad a,b\in \mathbb{R}$
 
 
-*Esempio* (3). Le trasformazioni lineari da $\mathbb{}$
+*Esempio* (3). Le trasformazioni lineari da $\mathbb{R}^2$ a $\mathbb{R}^2$ rappresentate da matrici del tipo:
+$$\begin{pmatrix}
+a & -b \\
+b & a
+\end{pmatrix}$$
+corrispondono, geometricamente, alle roto-omotetie del piano, ossia alla composizione di una rotazione di angolo $tht$
 
 
 **Osservazioni**:
