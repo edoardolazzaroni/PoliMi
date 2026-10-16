@@ -1147,6 +1147,10 @@ b & a
 \cos \theta & -\sin \theta \\
 \sin \theta & \cos \theta
 \end{pmatrix}$$
+e, come visto precedentemente, l'ultima matrice scritta rappresenta una rotazione di angolo $\theta$, mentre il prodotto per lo scalare $\lambda$ rappresenta una dilatazione di coefficiente proprio $\lambda$.
+
+
+Esempio (4)
 
 
 **Osservazioni**:
