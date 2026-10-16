@@ -1432,7 +1432,14 @@ $$A_{11}=\begin{vmatrix}
 -2 & 0 &0 \\
 -4 & 2 & 0 \\
 9 & -3 & -1
-\end{pmatrix}^\top$$
+\end{pmatrix}^\top=\begin{pmatrix}
+1 & 2 & -\frac{9}{2} \\
+0 & -1 & \frac{3}{2} \\
+0 & 0 & \frac{1}{2}
+\end{pmatrix}$$
+
+
+*Esempio* (2).
 
 
 In base a questo teorema, una matrice non singolare ($\det\ne 0$) viene anche detta **invertibile**.
