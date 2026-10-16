@@ -1394,7 +1394,13 @@ Il seguente Teorema precisa questa affermazione, e indica un modo per calcolare 
 	*Dimostrazione sul libro*
 
 
-*Esempio* (1). Usiamo la formula appena trovata per calcolare l'inversa della ma
+*Esempio* (1). Usiamo la formula appena trovata per calcolare l'inversa della matrice:
+$$\mathbf{A}=\begin{pmatrix}
+1 & 2 & 3 \\
+0 & -1 & 3 \\
+0 & 0 & 2
+\end{pmatrix}$$
+Essendo triangolare, $\det \mathbf{A}=1\cdot(-1)\cdot 2=-2\ne 0$; quindi $\mathbf{A}^{-1}$
 
 
 In base a questo teorema, una matrice non singolare ($\det\ne 0$) viene anche detta **invertibile**.
