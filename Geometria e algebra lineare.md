@@ -1728,9 +1728,7 @@ $${\begin{pmatrix}y_{1}\\ y_{2}\\ y_{1}+y_{2}\end{pmatrix}}\quad ossia \quad y_{
 pertanto una base di $\mathrm{Im}(\mathcal{L})$ è costituita dai due vettori ${\begin{pmatrix}1\\0\\1\end{pmatrix}}$ e ${\begin{pmatrix}0\\1\\1\end{pmatrix}}$.
 
 Per determinare il nucleo ($Ker (\mathcal{L})$), occorre risolvere il sistema omogeneo:
-
-${\begin{cases}x_{1}-x_{2}=0\\-2x_{1}+3x_{2}+x_{3}=0\end{cases}}$
-
+$${\begin{cases}x_{1}-x_{2}=0\\-2x_{1}+3x_{2}+x_{3}=0\end{cases}}$$
 dal quale abbiamo omesso la terza equazione, in quanto dipendente dalle prime due. Si trova subito $x_{2}=x_{1}$ e $x_{3}=-x_{1}$, per cui il generico vettore del nucleo è della forma $\lambda{\begin{pmatrix}1\\1\\-1\end{pmatrix}}$, $\lambda\in\mathbb{R}$.
 
 
