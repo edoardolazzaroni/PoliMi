@@ -721,7 +721,7 @@ che si potrebbe facilmente confondere con l'usuale prodotto di funzioni.
 	$$\mathbf{u}\cdot\mathbf{w}=0 \quad \forall \mathbf{u}\in U, \mathbf{w}\in W$$
 
 
-*Esempio* (3). In $\mathbb$
+*Esempio* (3). In $\mathbb{R}_{3}$ si consideri un piano passante per l'origine (sottospazio vettoriale di $\dim=2$), sia esso $V_{1}$. Allora $V_{1}^\perp$ è il sottospazio unidimensionale individuato dalla retta passante per $O$ 
 
 
 #### 3.3.1 **Basi ortonormali**
