@@ -1468,7 +1468,11 @@ In base al calcolo fatto nell'esempio precedente, si ha:
 $$\mathbf{A}_{\alpha}^{-1}=\frac{1}{\cos^2\alpha-\sin^2\alpha}\begin{pmatrix}
 \cos \alpha & \sin \alpha \\
 -\sin \alpha & \cos \alpha
+\end{pmatrix}\implies \begin{pmatrix}
+\cos(-\alpha)&-\sin(-\alpha) \\
+\sin(-\alpha) & \cos(-\alpha)
 \end{pmatrix}$$
+In altre parole, $\mathbf{A}_{\alpha}^{-1}$ rappresenta la rotazione di angol
 
 
 In base a questo teorema, una matrice non singolare ($\det\ne 0$) viene anche detta **invertibile**.
