@@ -1049,8 +1049,9 @@ Possiamo anche definire un prodotto tra matrici, che però non è valido per ogn
 	
 	Se $\mathbf{A}=\mathbf{A}^\top$ (e quindi $m=n$), tale matrice si dice essere **simmetrica**.
 	Cioò significa che per ogni coppia di indici $i,j$ risulta $a_{ij}=a_{ji}$, ovvero la matrice è una tabella <u>simmetrica rispetto alla diagonale principale</u>.
-		*Esempio*: $\begin{pmatrix}1&2&-1\\2&0&3\\-1&3&4\end{pmatrix}$ è una matrice simmetrica.
 
+
+*Esempio*: $\begin{pmatrix}1&2&-1\\2&0&3\\-1&3&4\end{pmatrix}$ è una matrice simmetrica.
 
 
 Una matrice quadrata del tipo $U=\begin{pmatrix}d_{1}&*&*&*&*\\0&d_{2}&*&*&*\\0&0&d_{3}&*&*\\ \vdots&\vdots&\vdots&\ddots&\vdots\\ 0&0&0&\cdots&d_{n}\end{pmatrix}$
@@ -1060,6 +1061,13 @@ Una matrice quadrata si dice **diagonale** se sono nulli tutti i suoi elementi f
 
 È facile controllare che: il prodotto di matrici quadrate dello stesso ordine triangolari alte/basse è ancora triangolare alta/bassa. Evidentemente, se $\mathbf{A}$ è triangolare e simmetrica allora deve essere diagonale; se $\mathbf{A}$ è triangolare sia alta che bassa allora è diagonale.
 
+
+*Esempio* (1). Le matrici:
+$$\begin{pmatrix}
+2 & 3 & -1 \\
+0 & 1 & 1 \\
+
+\end{pmatrix}$$
 
 
 ### 4.2 **Rappresentazione matriciale delle trasformazioni lineari**
