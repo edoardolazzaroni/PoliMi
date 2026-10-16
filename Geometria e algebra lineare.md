@@ -1579,12 +1579,14 @@ Ricordiamo che due sistemi si dicono <u>equivalenti</u> se hanno le stesse soluz
 
 L'applicazione congiunta (e ripetuta) delle due operazioni precedenti permette altre tipiche operazioni, come quella di ricavare una variabile in funzione delle altre da un'equazione e sostituirla in tutte le altre equazioni.
 
+
 *Esempio*: si vuole risolvere il sistema $3\times 3$: $\quad{\begin{cases}x+y-z=0\\y+z=2\\3x+z=-1\end{cases}}$
 Dalla seconda ricaviamo la $z$ e la sostituiamo nelle altre due: $\quad{\begin{cases}z=2-y\\ x+y-(2-y)=0\\3x+(2-y)=-1\end{cases}}$
 Le ultime due equazioni sono ora un sistema nelle due incognite $(x,y)$: $\quad{\begin{cases} x+2y=0\\3x-y=-3\end{cases}}$
 Sommando alla prima equazione il doppio della seconda si ha: $\quad{\begin{cases} 7x=-4\\x+2y=2\end{cases}}$
 
 Dalla prima si ricava $x=-\frac{4}{7}$, che sostituità nella seconda dà $y=\frac{9}{7}$; ricordando infine la prima equazione del secondo sistema $(z=2-y)$, otteniamo $z=\frac{5}{7}$. Il sistema è quindi determinato, e la soluzione è il vettore $(x,y,z)=\left( -\frac{4}{7},\frac{9}{7},\frac{5}{7} \right)$.
+
 
 Nelle applicazioni dell'algebra lineare si ha a che fare con sistemi di molte equazioni ed incognite, per i quali non è pensabile la soluzione manuale; si capisce così l'importanza di avere a disposizione una teoria che permetta di rispondere a domande riguardo l'esistenza e l'unicità delle soluzioni, in particolare che permetta di stabilire la solubilità di un dato sistema a priori.
 
