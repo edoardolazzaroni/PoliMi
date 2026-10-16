@@ -1472,7 +1472,7 @@ $$\mathbf{A}_{\alpha}^{-1}=\frac{1}{\cos^2\alpha-\sin^2\alpha}\begin{pmatrix}
 \cos(-\alpha)&-\sin(-\alpha) \\
 \sin(-\alpha) & \cos(-\alpha)
 \end{pmatrix}$$
-In altre parole, $\mathbf{A}_{\alpha}^{-1}$ rappresenta la rotazione di angol
+In altre parole, $\mathbf{A}_{\alpha}^{-1}$ rappresenta la rotazione di angolo $-\alpha$ nel piano ossia, proprio la trasformazione inversa di quella di partenza.
 
 
 In base a questo teorema, una matrice non singolare ($\det\ne 0$) viene anche detta **invertibile**.
@@ -1514,7 +1514,7 @@ Per soluzione si intende una $n$-upla di numeri che, sostituiti ordinatamente al
 *Per esempio*, la coppia di numeri $x=1,y=-2$ è soluzione del sistema $\begin{cases}2x-3y=8\\x+7y=-13\end{cases}$
 
 Una domanda naturale a questo punto è la seguente: un sistema lineare ha sempre soluzioni? Ed eventualmente, quante?
-
+Qualche semplice
 
 #### 5.1.1 **Tecniche elementari di soluzione**
 
