@@ -725,7 +725,19 @@ che si potrebbe facilmente confondere con l'usuale prodotto di funzioni.
 Si noti che vale anche la relazione reciproca: $V_{2}^\perp=V_{1}$.
 
 
-*Esempio* (4). I
+*Esempio* (4). In $V=\mathbb{R}^4$ sia $U$ il sottospazio (iperpiano) generato dai vettori:
+$$\mathbf{u}_{1}=\begin{pmatrix}
+1 \\
+0 \\
+0 \\
+0
+\end{pmatrix}\quad e \quad \mathbf{u}_{2}=\begin{pmatrix}
+1 \\
+0 \\
+1 \\
+0
+\end{pmatrix}$$
+e $W$
 
 
 #### 3.3.1 **Basi ortonormali**
