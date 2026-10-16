@@ -1355,8 +1355,7 @@ Per la determinazione del rango risulta utile la seguente proprozione:
 	Condizione necessaria e sufficiente affinchè una matrice abbia rango $k$ è che esista un minore di ordine $k\ne 0$ e siano nulli tutti i minori di ordine $k+1$ ottenuti da quello orlandolo con una qualunque altra riga o colonna.
 
 
-*Esempio*:
-Applichiamo il metodo indicato nella Proposizione di Kronecker alla matrice
+*Esempio*. Applichiamo il metodo indicato nella Proposizione di Kronecker alla matrice
 $$\mathbf{A}=\begin{pmatrix}1&2&3&4\\2&0&3&5\\2&4&6&8\end{pmatrix}$$
 Consideriamo una matrice estratta da $\mathbf{A}$ di ordine $1$ con $\det \ne 0$, ovvero $\mathbf{A}^*=(1)$
 
@@ -1393,6 +1392,9 @@ Il seguente Teorema precisa questa affermazione, e indica un modo per calcolare 
 	dove $\top$ indica "trasposta" e gli $A_{ij}$ sono i <u>complementi algebrici</u> degli elementi $a_{ij}$ della matrice $\mathbf{A}$. Infine, $\det{\mathbf{A}^{-1}}=\frac{1}{\det\mathbf{A}}$.
 	
 	*Dimostrazione sul libro*
+
+
+*Esempio* (1). Usiamo la formula appena trovata per calcolare l'inversa della ma
 
 
 In base a questo teorema, una matrice non singolare ($\det\ne 0$) viene anche detta **invertibile**.
