@@ -1563,7 +1563,9 @@ $$\left( x, \frac{1}{2}-\frac{3}{2}x \right)$$
 
 Gli *esempi* (2),(3),(4) hanno una semplice interpretazione geometrica: il sistema lineare di due equazioni in due incognite rappresenta la ricerca dell'intersezione di due rette nel piano:
 
-- Nell'*esempio* (2) le due equazioni rappresentano due rette incidienti
+- Nell'*esempio* (2) le due equazioni rappresentano due rette incidenti in un punto: il sistema ha una e una sola soluzione;
+- Nell'*esempio* (3) le due equazioni rappresentano due rette parallele (prive di intersezioni): il sistema non ha soluzioni;
+- Nell'*esempio* (4) le due equazioni rappresentano la
 
 #### 5.1.1 **Tecniche elementari di soluzione**
 
