@@ -1542,7 +1542,12 @@ x=\frac{8}{7}
 Abbiamo trovato un'unica soluzione: la coppia $(\frac{8}{7},-\frac{3}{7})$. Diremo pertanto che il sistema è <u>determinato</u>.
 
 
-Esempio ()
+*Esempio* (3).
+$$\begin{cases}
+x+2y=3 \\
+x+2y=5
+\end{cases}$$
+Evidentemente tale sistema è <u>impossibile</u>: non esiste cioè alcuna coppia di numeri che soddisfi simultaneamente la 
 
 #### 5.1.1 **Tecniche elementari di soluzione**
 
