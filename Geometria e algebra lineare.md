@@ -596,7 +596,10 @@ In $\mathbb{R}^n$, salvo caso contrario, si sceglie la base canonica.
 $$\mathbf{p}=ax^2+bx+c\quad con \quad a,b,c\in\mathbb{R}$$
 ne segue che i tre polinomi:
 $$\mathbf{e_{1}}=x^2\quad \mathbf{e}_{2}=x\quad \mathbf{e}_{3}=1$$
-che sono evidentemente indipendenti, costituiscono una base di $V$
+che sono evidentemente indipendenti, costituiscono una base di $V$: pertanto $V$ ha dimensione 3.
+
+
+*Esempio* (3): Sia $V$ l'insieme di tutti i polinomi in una variabile. Come già osservato, $V$ è uno spazio vettoriale. Ci si convince
 
 
 #### 3.1.4 **Spazi di funzioni**
