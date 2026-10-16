@@ -603,7 +603,10 @@ che sono evidentemente indipendenti, costituiscono una base di $V$: pertanto $V$
 $$1,x,x^2,x^3,\cdots$$
 ma il problema è: dove fermarsi? Qualunque numero finito di questi polinomi noi scegliamo, ci sarà sempre un polinomio che non è combinazione lineare di questi. Dunque $V$ è uno spazio vettoriale di dimensione infinita.
 
-- Sottospazi e la loro dimensione. Se $V$ è uno spazio vettoriale di dimensione $n$ e $V_{1}$ un sottospazio vettoriale di $V$, sarà $$
+- **Sottospazi e la loro dimensione**. Se $V$ è uno spazio vettoriale di dimensione $n$ e $V_{1}$ un sottospazio vettoriale di $V$, sarà $\dim V_{1}<\dim V$ (tranne il caso banale $V_{1}=V$).
+
+
+*Esempio* (4). Il vettore nullo $\mathbf{0}\in\mathbb{R}^n$ costituisce 
 
 
 #### 3.1.4 **Spazi di funzioni**
