@@ -931,8 +931,8 @@ L'operatore $L$ è lineare (<u>linearità dell'integrale definito</u>, Analisi 1
 *Esempio* (2). L'operatore che ad ogni funzione continua su $[a,b]$ associa la sua funzione integrale, cioè:
 $$L:f\mapsto \int_{a}^x f(t)\,dt$$
 si può vedere come operatore lineare $L:C([a,b])\to C([a,b])$, o meglio:
-$$L:C([a,b])$$
-
+$$L:C([a,b])\to C^{1}([a,b])$$
+dove col simbolo $C^{1}([a,b])$ si indica lo spazio delle funzioni derivabili, dotate di 
 
 
 Segnaliamo anche un tipo di funzione tra spazi vettoriali che è in stretta relazione con le applicazioni lineare: si dice **trasformazione affine** (o lineare affine), tra due spazi vettoriali $V_{1},V_{2}$, una trasformazione del tipo$f:\ V_{1}\rightarrow V_{2}$, che abbia la forma $f(\mathbf{v})=l(\mathbf{v})+\mathbf{b}$,
