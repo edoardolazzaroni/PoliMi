@@ -616,8 +616,11 @@ Analogamente, in $\mathbb{R}^3$, rette e piani passanti per $O$ sono sottospazi 
 
 *Esempio* (5). Siano $V$ uno spazio vettoriale e $\mathbf{v}_{1},\mathbf{v}_{2},\cdots,\mathbf{v}_{k}$ vettori di $V$. L'insieme $S$ di tutte le possibili combinazioni lineari di $\mathbf{v}_{1},\mathbf{v}_{2},\cdots,\mathbf{v}_{k}$ costituisce un sottospazio di $V$, che si chiama **sottospazio generato dai vettori** $\mathbf{v}_{1},\mathbf{v}_{2},\cdots,\mathbf{v}_{k}$. In simboli:
 $$S=\left\{\mathbf{v}:\mathbf{v}=\sum_{j=1}^k\alpha_{j}\mathbf{v}_{j},\alpha_{j}\in\mathbb{R},j=1,2,\cdots,k\right\}$$
-Si scrive anche talvolta: $S=\langle\rangle$
+Si scrive anche talvolta: $S=\langle \mathbf{v}_{1},\mathbf{v}_{2},\cdots,\mathbf{v}_{k}\rangle$.
+Se i vettori $\mathbf{v}_{1},\mathbf{v}_{2},\cdots,\mathbf{v}_{k}$ sono indipendenti, allora costituiscono una base per $S$, che ha perciò dimensione $k$.
 
+
+Esempio (6):
 
 #### 3.1.4 **Spazi di funzioni**
 
