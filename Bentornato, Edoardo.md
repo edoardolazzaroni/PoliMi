@@ -57,11 +57,7 @@ cellStyleRules:
  [[finire esempi GAL]]
  [[guardare esercitazione GAL-2]]
  [[riguardare appunti esercitazioni analisi 1]]
-
-
-Altri impegni:
-
-- [ ] Leggere almeno un capitolo
+- [[Leggere almeno un capitolo]]
 - [ ] Caricare tavoletta grafica
 - [ ] Caricare cuffie
 - [x] Sistemare stanza
