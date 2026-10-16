@@ -1404,9 +1404,13 @@ Essendo triangolare, $\det \mathbf{A}=1\cdot(-1)\cdot 2=-2\ne 0$; quindi $\mathb
 $$A_{11}=\begin{vmatrix}
 -1 & 3 \\
 0 & 2
-\end{vmatrix},\quad A_{120}\begin{vmatrix}
-
-\end{vmatrix}$$
+\end{vmatrix}=-2,\quad A_{12}=-\begin{vmatrix}
+0 & 3 \\
+0 & 2
+\end{vmatrix}=0,\quad A_{13}=\begin{vmatrix}
+0 & -1 \\
+0 & 0
+\end{vmatrix}=0\\A_{21}=-$$
 
 
 In base a questo teorema, una matrice non singolare ($\det\ne 0$) viene anche detta **invertibile**.
