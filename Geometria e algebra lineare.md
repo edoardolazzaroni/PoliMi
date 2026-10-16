@@ -1125,11 +1125,13 @@ Il prossimo importante teorema afferma, in sostanza, che tutte le trasformazioni
 	Tale matrice è unica, come conseguenza del fatto che ogni vettore $\mathcal{L}(\mathbf{u}_{i}),i=1,2,\cdots,n$ si può esprimere in un unico modo come combinazione lineare dei vettori $\mathbf{v}_{1},\mathbf{v}_{2},\cdots,\mathbf{v}_{m}$.
 
 
-*Esempio* (1). Le trasformazioni lineari $\mathcal{L}$ da $\mathbb{R}$ a $\mathbb{R}$ si possono scrivere come $\mathcal{L}(x)=ax\quad a\in \mathbb{R}$
+*Esempio* (1). Le trasformazioni lineari $\mathcal{L}$ da $\mathbb{R}$ a $\mathbb{R}$ si possono scrivere come
+$$\mathcal{L}(x)=ax\quad a\in \mathbb{R}$$
 (La matrice $\mathbf{A}=(a)$ è di tipo $(1,1)$).
 
 
-*Esempio* (2). Le trasformazioni lineari da $\mathbb{R}^2$ in $\mathbb{R}$, in riferimento alla base canonica, si possono scrivere nella forma $\mathcal{L}(x,y)0ax+by\quad a,b\in \mathbb{R}$
+*Esempio* (2). Le trasformazioni lineari da $\mathbb{R}^2$ in $\mathbb{R}$, in riferimento alla base canonica, si possono scrivere nella forma
+$$\mathcal{L}(x,y)0ax+by\quad a,b\in \mathbb{R}$$
 
 
 *Esempio* (3). Le trasformazioni lineari da $\mathbb{R}^2$ a $\mathbb{R}^2$ rappresentate da matrici del tipo:
@@ -1149,8 +1151,6 @@ b & a
 \end{pmatrix}$$
 e, come visto precedentemente, l'ultima matrice scritta rappresenta una rotazione di angolo $\theta$, mentre il prodotto per lo scalare $\lambda$ rappresenta una dilatazione di coefficiente proprio $\lambda$.
 
-
-Esempio (4)
 
 
 **Osservazioni**:
