@@ -51,6 +51,8 @@ cellStyleRules:
 
 [[kanban-default.base|Kanban (elenco tasks)]]:
 
+**Università 🎓**:
+
  [[Finire capitolo 5 di GAL]]
  [[finire capitolo 6 GAL]]
  [[inserire immagini nel file di GAL]]
@@ -58,15 +60,14 @@ cellStyleRules:
  [[guardare esercitazione GAL-2]]
  [[riguardare appunti esercitazioni analisi 1]]
 
+**Altro 🏖️**:
 
-Altri impegni:
-
-- [ ] Leggere almeno un capitolo
-- [ ] Caricare tavoletta grafica
-- [ ] Caricare cuffie
-- [x] Sistemare stanza
-- [x] Preparare zaino uni
-- [x] Guardare orari delle lezioni
+[[Leggere almeno un capitolo]]
+ [[Caricare tavoletta grafica]]
+ [[Caricare cuffie]]
+ [[Sistemare stanza]]
+ [[Preparare zaino uni]]
+ [[Guardare orari delle lezioni]]
 
 
 - ## Repository dei corsi 📚:

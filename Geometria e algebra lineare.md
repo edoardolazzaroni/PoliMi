@@ -51,8 +51,7 @@ La somma $\mathbf{v}+(-\mathbf{w})$ si scrive semplicemente $\mathbf{v}-\mathbf{
 
 Le proprietà appena enunciate possono essere dimostrate geometricamente, in base alla definizione di somma.
 Per esempio, la prorietà commutativa dipende dal fatto che in un parallelogramma i lati opposti sono uguali e paralleli; da questo discende che $\mathbf{v}=\overrightarrow{OA}=\overrightarrow{BC}$, $\mathbf{w}=\overrightarrow{OB}=\overrightarrow{AC}$, perciò:
-						$\mathbf{v}+\mathbf{w}=\overrightarrow{OA}+\overrightarrow{AC}=\overrightarrow{OC}$
-						$\mathbf{w}+\mathbf{v}=\overrightarrow{OB}+\overrightarrow{BC}=\overrightarrow{OC}$
+	$$\mathbf{v}+\mathbf{w}=\overrightarrow{OA}+\overrightarrow{AC}=\overrightarrow{OC}$$$$\mathbf{w}+\mathbf{v}=\overrightarrow{OB}+\overrightarrow{BC}=\overrightarrow{OC}$$
 
 e quindi $\mathbf{v}+\mathbf{w}=\mathbf{w}+\mathbf{v}$.
 
@@ -128,8 +127,7 @@ La lunghezza di $\mathbf{v}$ coincide con la lunghezza di $\overrightarrow{PQ}$,
 I vettori $\mathbf{i}=(1,0,0)$, $\mathbf{j}=(0,1,0)$, $\mathbf{k}=(0,0,1)$ sono <u>versori</u>, mutualmente ortogonali, diretti nel verso positivo dei tre assi, rispettivamente. Ogni altro vettore $\mathbf{v}=(x,y,z)$ si può scrivere nella forma $\mathbf{v}=x\mathbf{i}+y\mathbf{j}+z\mathbf{k}$.
 $\mathbf{i}$, $\mathbf{j}$, $\mathbf{k}$ si dicono **VERSORI FONDAMENTALI NELLO SPAZIO**. Le operazioni di somma di vettori e prodotto per uno scalare si possono eseguire componente per componente, come nel caso piano:
 
-					$(x_1,y_1,z_1)+(x_2+y_2+z_2)=(x_1+x_2,y_1+y_2,z_1+z_2);$
-								$t(x_1,y_1,z_1)=(tx_1,ty_1,tz_1)$
+$$(x_1,y_1,z_1)+(x_2+y_2+z_2)=(x_1+x_2,y_1+y_2,z_1+z_2);$$$$t(x_1,y_1,z_1)=(tx_1,ty_1,tz_1)$$
 
 
 ### 1.4 **Combinazioni lineari di vettori. Vettori linearmente indipendenti**
@@ -172,7 +170,7 @@ Da queste considerazioni segue che **nello spazio non vi possono essere più di 
 ### 1.5 **Prodotto scalare e vettoriale**
 
 - **PRODOTTO SCALARE**. Dati due vettori $\mathbf{v}$ e $\mathbf{w}$ nel piano o nello spazio, il loro <u>prodotto scalare o interno</u>, denotato con $\mathbf{v}\cdot\mathbf{w}$ o con $\langle \mathbf{v},\mathbf{w} \rangle$, è assegnato, per definizione, dalla formula seguente:
-								$\mathbf{v}\cdot\mathbf{w}=|\mathbf{v}|\cdot|\mathbf{w}|\cdot\cos\alpha$ 
+$$\mathbf{v}\cdot\mathbf{w}=|\mathbf{v}|\cdot|\mathbf{w}|\cdot\cos\alpha$$ 
 
 dove $\alpha$ è l'angolo che essi formano $(0\le \alpha \le \pi)$.
 *Si noti che il prodotto di due vettori è un numero reale (non un vettore).*
@@ -195,11 +193,13 @@ dove $\alpha$ è l'angolo che essi formano $(0\le \alpha \le \pi)$.
 Infatti, $\mathbf{v}\cdot\mathbf{r}=|\mathbf{v}|\cdot|\mathbf{r}|\cdot\cos\alpha=|\mathbf{v}|\cdot\cos\alpha$ e quindi $|\mathbf{v}\cdot\mathbf{r}|$ dà la lunghezza del vettore proiezione; il segno di $\mathbf{v}\cdot\mathbf{r}$ $(>0$ se $\alpha<\frac{\pi}{2}$, $<0$ se $\alpha >\frac{\pi}{2})$ determina il verso.
 Nel piano, i versori $\mathbf{i}$ e $\mathbf{j}$ sono ortogonali e quindi $\mathbf{i}\cdot\mathbf{j}=0$.
 In termini di componenti, dati due vettori nel piano $\mathbf{v}=x_1 \mathbf{i}+x_2 \mathbf{j}$, $\mathbf{w}=y_1 \mathbf{i}+y_2 \mathbf{j}$ si ha, usando le proprietà del prodotto scalare:
-		$\mathbf{v}\cdot\mathbf{w}=x_1 \mathbf{i}+x_2 \mathbf{j}\cdot(y_1 \mathbf{i}+y_2 \mathbf{j})=x_1y_1 \mathbf{i}+x_1y_2 \mathbf{j}+x_2y_1 \mathbf{i}+x_2y_2 \mathbf{j}\cdot\mathbf{j}=x_1y_1+x_2y_2$ 
+$$\mathbf{v}\cdot\mathbf{w}=x_1 \mathbf{i}+x_2 \mathbf{j}\cdot(y_1 \mathbf{i}+y_2 \mathbf{j})=x_1y_1 \mathbf{i}+x_1y_2 \mathbf{j}+x_2y_1 \mathbf{i}+x_2y_2 \mathbf{j}\cdot\mathbf{j}=x_1y_1+x_2y_2$$
 
-da cui l'importante **formula del prodotto scalare nel piano**: $\mathbf{v}\cdot\mathbf{w}=x_1y_1+x_2y_2$
+da cui l'importante **formula del prodotto scalare nel piano**:
+$$\mathbf{v}\cdot\mathbf{w}=x_1y_1+x_2y_2$$
 
-Analogamente, nello spazio si hanno i vettori $\mathbf{v}=x_1 \mathbf{i}+x_2 \mathbf{j}+x_3 \mathbf{k}$ e $\mathbf{w}=y_1 \mathbf{i}+y_2 \mathbf{j}+y_3 \mathbf{k}$, perciò avremo come **formula del prodotto scalare nello spazio**: $\mathbf{v}\cdot\mathbf{w}=x_1y_1+x_2y_2+x_3y_3$ 
+Analogamente, nello spazio si hanno i vettori $\mathbf{v}=x_1 \mathbf{i}+x_2 \mathbf{j}+x_3 \mathbf{k}$ e $\mathbf{w}=y_1 \mathbf{i}+y_2 \mathbf{j}+y_3 \mathbf{k}$, perciò avremo come **formula del prodotto scalare nello spazio**:
+$$\mathbf{v}\cdot\mathbf{w}=x_1y_1+x_2y_2+x_3y_3$$
 
 Le ultime due formule trovate risultano molto comode per il calcolo effettivo del prodotto di dui vettori di cui si conoscono le componenti, in quanto non richiedono il calcolo specifico dell'angolo formato dai vettori.
 
@@ -243,7 +243,8 @@ in termini delle loro componenti. Infatti si ha:
 
 $\begin{align}\mathbf{v}\times\mathbf{w}&=(x_{1}\mathbf{i}+x_{2}\mathbf{j}+x_{3}\mathbf{k})\times(y_{1}\mathbf{i}+y_{2}\mathbf{j}+y_{3}\mathbf{k})=\\&=x_{1}y_{1}\mathbf{i}\times\mathbf{i} + x_{1}y_{2}\mathbf{i}\times\mathbf{j}+x_{1}y_{3}\mathbf{i}\times\mathbf{k}+\\&+ x_{2}y_{1}\mathbf{j}\times\mathbf{i}+x_{2}y_{2}\mathbf{j}\times\mathbf{j}+x_{2}y_{3}\mathbf{j}\times\mathbf{k}+\\&+ x_{3}y_{1}\mathbf{k}\times\mathbf{i}+x_{3}y_{2}\mathbf{k}\times\mathbf{j}+x_{3}y_{3}\mathbf{k}\times\mathbf{k}=\\&=(x_{2}y_{3}-x_{3}y_{2})\mathbf{i}+(x_{3}y_{1}-x_{1}y_{3})\mathbf{j}+(x_{1}y_{2}-x_{2}y_{1})\mathbf{k}\end{align}$
 
-da cui l'<mark class="hltr-yellow">importante formula</mark>: $\mathbf{v}\times\mathbf{w}=(x_{2}y_{3}-x_{3}y_{2})\mathbf{i}+(x_{3}y_{1}-x_{1}y_{3})\mathbf{j}+(x_{1}y_{2}-x_{2}y_{1})\mathbf{k}$
+da cui l'<mark class="hltr-yellow">importante formula</mark>:
+$$\mathbf{v}\times\mathbf{w}=(x_{2}y_{3}-x_{3}y_{2})\mathbf{i}+(x_{3}y_{1}-x_{1}y_{3})\mathbf{j}+(x_{1}y_{2}-x_{2}y_{1})\mathbf{k}$$
 
 Nel [[#4.3 **Determinante**|paragrafo 4.3]] vedremo come questa formula si possa riscrivere in modo più sintetico usando la nozione di determinante di una matrice.
 
@@ -312,14 +313,12 @@ a) Cominciamo col primo caso. Consideriamo un punto $P_0(x_0,y_0,z_0)$ ed un vet
 
 Dalla figura si vede che un generico punto $P(x,y,z)$ appartentente alla retta si trova aggiungendo al vettore posizione $\mathbf{p}_0=\overrightarrow{OP_0}$ un opportuno multiplo $t\mathbf{v}$ di $\mathbf{v}$.
 Abbiamo quindi per il vettore posizione $\mathbf{p}=\overrightarrow{OP}$ del generico punto sulla retta:
-
-							$\mathbf{p}=\mathbf{p}_0+t\mathbf{v}, t\in\mathbb{R}$
+$$\mathbf{p}=\mathbf{p}_0+t\mathbf{v}, t\in\mathbb{R}$$
 
 che prende il nome di <u>equazione parametrica vettoriale della retta</u>;
 $t$ è una "coordinata" sulla retta, corrispondente alla scelta di $P_0$ come origine.
 Le <u>equazioni parametriche scalari</u> si ricavano scrivendo componente per componente:
-
-							$\begin{cases} x=x_0+ta\\ y=y_0+tb \\ z=z_0+tc \end{cases}\quad t\in\mathbb{R}$
+							$$\begin{cases} x=x_0+ta\\ y=y_0+tb \\ z=z_0+tc \end{cases}\quad t\in\mathbb{R}$$
 
 Il significato delle equazioni parametriche (sia la prima che la seconda) è il seguente: al variare del parametro $t$ in $\mathbb{R}$, il punto $(x,y,z)$ si muove sulla retta, descrivendo tale linea.
 
@@ -337,8 +336,7 @@ Nel caso in cui $a^2+b^2+c^2=1$, cioè nel caso in cui $\mathbf{v}$ è un *verso
 
 b) Nel secondo caso si vuole scrivere l'equazione della retta passante per i punti $P_0=(x_0,y_0,z_0)$ e $P_1=(x_1,y_1,z_1)$; riconduciamo al primo caso scegliendo uno dei due, per esempio $P_0$ ed il vettore direzionale $\mathbf{v}=(x_1-x_0,y_1-y_0,z_1-z_0)$.
 Le equazioni parametriche della retta risultano allora
-
-							$\begin{cases} x=x_0+t(x_1-x_0)\\ y=y_0+t(y_1-y_0) \\ z=z_0+t(z_1-z_0) \end{cases}$
+$$\begin{cases} x=x_0+t(x_1-x_0)\\ y=y_0+t(y_1-y_0) \\ z=z_0+t(z_1-z_0) \end{cases}$$
 
 ![[Geometria e Algebra Lineare-1791120647041.webp|553]]
 ###### #Figura(18)
@@ -347,8 +345,7 @@ Le equazioni parametriche della retta risultano allora
 - **Condizioni di parallelismo ed ortogonalità tra rette**
 
 Due rette sono **parallele** se i loro vettori direzionali sono paralleli (linearmente indipendenti). Precisamente, le due rette
-
-$\begin{cases} x=x_0+ta\\ y=y_0+tb \\ z=z_0+tc \end{cases}\quad$ e $\quad\begin{cases} x=x_1+ta' \\ y=y_1+tb' \\ z=z_1+tc' \end{cases}$
+$$\begin{cases} x=x_0+ta\\ y=y_0+tb \\ z=z_0+tc \end{cases}\quad e \quad\begin{cases} x=x_1+ta' \\ y=y_1+tb' \\ z=z_1+tc' \end{cases}$$
 
 sono parallele se $\exists\lambda\ne0$ t.c. $(a',b',c')=\lambda(a,b,c)$.
 Le due rette sono **ortogonali** se lo sono i loro vettori direzionali, cioè se $(a',b',c')\cdot(a,b,c)=aa'+bb'+cc'\equiv0$.
@@ -386,14 +383,16 @@ a) Cominciamo col primo caso. Consideriamo un punto $P_0(x_0,y_0,z_0)$ ed un vet
 
 
 Dalla figura si vede che se $P=(x,y,z)$ è il generico punto del piano, allora il vettore $\overrightarrow{P_0P}$ è parallelo al piano e quindi $\perp \mathbf{n}$. Si ottiene allora l'equazione vettoriale:
-								$\mathbf{n}\cdot\overrightarrow{P_0P}=0$
+$$\mathbf{n}\cdot\overrightarrow{P_0P}=0$$
 
 L'equazione cartesiana del piano si ottiene passando dai vettori alle coordinate, cioè:
-					$a(x-x_0)+b(y-y_0)+c(z-z_0)=0$
+$$a(x-x_0)+b(y-y_0)+c(z-z_0)=0$$
 
 ossia dove $\begin{cases} ax+by+cz=d \\ d=\mathbf{n}\cdot\mathbf{p}_0=ax_0+by_0+cz_0 \end{cases}$
 
+
 Facciamo qualche **osservazione**:
+
 - Se $a^2+b^2+c^2=1$, cioè $\mathbf{n}$ è un versore, allora $a,b,c$ sono i <u>coseni direttori</u> del piano;
 - Se $d=0$, il piano passa per l'origine $O=(0,0,0)$;
 - Se uno dei coefficienti $a,b,c$ è nullo, il piano è parallelo ad uno degli assi coordinati. Per esempio, se $c=0$ il piano è parallelo all'asse $z$, e quindi è perpendicolare al piano $(x,y)$;
@@ -458,8 +457,7 @@ e quindi: $z-x-y=0$.
 - **Condizioni di parallelismo ed ortogonalità tra piani**
 
 Due piani sono **paralleli** se lo sono i lori vettori ortogonali. Precisamente, i piani
-
-$ax+by+cz=d, \quad a'x+b'y+c'z=d'$
+$$ax+by+cz=d, \quad a'x+b'y+c'z=d'$$
 
 sono paralleli se $\exists \lambda \ne 0$ t.c. $(a',b',c')=\lambda(a,b,c)$
 Sono **ortogonali** se lo sono i loro vettori normali: $(a',b',c')\cdot(a,b,c)=aa'+bb'+cc'\equiv0$.
@@ -472,7 +470,7 @@ Essi si intersecano lungo una retta rappresentata dal sistema:
 $\begin{cases} ax+by+cz=d\\ a'x+b'y+c'z=d' \end{cases}$
 
 Un vettore direzionale della retta deve essere ortogonale ad entrambi i vettori $\mathbf{n}=(a,b,c)$ e $\mathbf{n}'=(a',b',c')$; si può perciò scegliere come vettore direzionale della retta:
-					$\mathbf{v}=\mathbf{n}\times\mathbf{n}'=(bc'-b'c,a'c-ac',ab'-a'b)$
+$$\mathbf{v}=\mathbf{n}\times\mathbf{n}'=(bc'-b'c,a'c-ac',ab'-a'b)$$
 
 In alternativa, si possono scrivere le equazioni parametriche della retta col seguente procedimento: si considera il sistema nelle tre incognite $(x,y,z)$, che definisce la retta; se in tale sistema si riescono ad esprimere due variabili in funzione della terza, si può assumere la terza variabile come parametro.
 
@@ -492,12 +490,10 @@ Si voglia calcolare la distanza $\delta$ di un punto $P_1(x_1,y_1,z_1)$ dal pian
 
 
 Se si introduce il versore $\mathbf{N}=\frac{1}{\sqrt{a^2+b^2+c^2}}(a,b,c)$, la lunghezza della proiezione è il modulo del prodotto scalare tra $\mathbf{N}$ ed il vettore $\overrightarrow{P_0P_1}$, cioè:
-
-$\delta=|\mathbf{N}\cdot\overrightarrow{P_0P_1}|=\frac{|a(x_1-x_0)+b(y_1-y_0)+c(z_1-z_0)|}{\sqrt{a^2+b^2+c^2}}$
+$$\delta=|\mathbf{N}\cdot\overrightarrow{P_0P_1}|=\frac{|a(x_1-x_0)+b(y_1-y_0)+c(z_1-z_0)|}{\sqrt{a^2+b^2+c^2}}$$
 
 ossia, ricordando che abbiamo posto $d=ax_0+by_0+cz_0$:
-
-							$\delta=\frac{|ax_1+by_1+cz_1-d|}{\sqrt{a^2+b^2+c^2}}$
+$$\delta=\frac{|ax_1+by_1+cz_1-d|}{\sqrt{a^2+b^2+c^2}}$$
 
 
 
@@ -512,9 +508,7 @@ Introduciamo quindi la definizione di *spazio vettoriale* astratto, e definiremo
 ### 3.1 **Vettori $n$-dimensionali: lo spazio $\mathbb{R}^n$, spazi vettoriali astratti**
 
 Nei primi capitoli abbiamo visto come i vettori nel piano e nello spazio si possano identificare, previa la scelta di un sistema di riferimento cartesiano, con coppie o terne ordinate di numeri reali. Una volta fatta questa identificazione, è possibile eseguire le operazioni fondamentali sui vettori (somma o prodotto per uno scalare) operando direttamente su queste coppie/terne:
-
-						$(v_1,v_2)+(u_1,u_2)=(v_1+u_1,v_2+u_2)$
-								$\lambda(v_1,v_2)=(\lambda v_1,\lambda v_2)$
+$$(v_1,v_2)+(u_1,u_2)=(v_1+u_1,v_2+u_2)$$$$\lambda(v_1,v_2)=(\lambda v_1,\lambda v_2)$$
 
 Questi fatti suggeriscono la possibilità di considerare le $n$-uple ordinate di numeri reali come vettori di uno spazio astratto a $n$ dimensioni.
 
@@ -525,9 +519,7 @@ Consideriamo dunque l'insieme $\mathbb{R}^n$ di tutte le $n$-uple ordinate di nu
 Potremo indicare un elemento di $\mathbb{R}^n$ con $\mathbf{x},\mathbf{y},\cdots \ .$
 Se, per esempio, $\mathbf{x}=(x_1,x_2,\cdots,x_n)$, diremo che $x_i$ sono le **componenti del vettore** $\mathbf{x}$.
 È possibile definire in modo naturale la somma di due vettori e la moltiplicazione per uno scalare:
-
-				$(x_1,x_2,\cdots,x_n)+(y_1,y_2,\cdots,y_n)=(x_1+y_1,x_2+y_2,\cdots,x_n+y_n)$
-							$\lambda(x_1,x_2,\cdots,x_n)=(\lambda v_1,\lambda x_2,\cdots,\lambda x_n)$
+$$(x_1,x_2,\cdots,x_n)+(y_1,y_2,\cdots,y_n)=(x_1+y_1,x_2+y_2,\cdots,x_n+y_n)$$$$\lambda(x_1,x_2,\cdots,x_n)=(\lambda v_1,\lambda x_2,\cdots,\lambda x_n)$$
 
 Si noti il diverso punto di vista che stiamo adottando rispetto a prima: lì, dopo aver definito la somma di due vettori nel piano per via geometrica (regola del parallelogramma), si dimostrava che la somma si poteva calcolare, rappresentando i valori come coppie ordinate di numeri reali, sommando componente per componente. Qui invece, non essendo visualizzabili i vettori $n$-dimensionali (quando $n>3$), l'analoga formula della somma componente per componente è la definizione stessa di somma di due $n$-uple. Possiamo anche dire che i vettori $n$-dimensionali sono enti algebrici, che però condividono molte proprietà degli enti geometrici elementari studiati nel piano e nello spazio. Pertanto, nello studio di $\mathbb{R}^n$, la terminologia e le intuzioni geometriche legate allo spazio ordinario risultano spesso utili.
 
@@ -560,47 +552,82 @@ Naturalmente, l'insieme dei vettori nel piano, nello spazio, lo spazio $\mathbb{
 In uno spazio vettoriale qualunque si può definire la nozione di <u>combinazione lineare di vettori</u>, e quella di <u>indipendenza lineare</u> in modo del tutto analogo a quanto visto per i vettori nel piano o nello spazio.
 
 - Si dice **combinazione lineare** di $n$ vettori $\mathbf{v}_1, \mathbf{v}_2,\cdots,\mathbf{v}_n$ ogni vettore del tipo:
-						$\alpha_1\mathbf{v}_1+ \alpha_2\mathbf{v}_2,\cdots,\alpha_n\mathbf{v}_n \quad$ con $\alpha_i \in \mathbb{R}$
+	$$\alpha_1\mathbf{v}_1+ \alpha_2\mathbf{v}_2,\cdots,\alpha_n\mathbf{v}_n \quad$ con $\alpha_i \in \mathbb{R}$$
 
 - Si dice che $n$ vettori $\mathbf{v}_1, \mathbf{v}_2,\cdots,\mathbf{v}_n$ sono linearmente dipendenti se esiste una loro combinazione lineare, a coefficienti non tutti nulli, che dà il vettore nullo; viceversa, si dice che sono indipendenti se l'identità:
-							$\alpha_1\mathbf{v}_1+ \alpha_2\mathbf{v}_2,\cdots,\alpha_n\mathbf{v}_n =\mathbf{0}$
+	$$\alpha_1\mathbf{v}_1+ \alpha_2\mathbf{v}_2,\cdots,\alpha_n\mathbf{v}_n =\mathbf{0}$$
 
 (implica $\alpha_i =0$ per $i=1,2,\cdots,n$).
 
 - #DEFINIZIONE(4). Sia $V$ uno spazio vettoriale, e supponiamo che esistano $n$ vettori $\mathbf{e}_1, \mathbf{e}_2,\cdots,\mathbf{e}_n$ tali che:
 	1. $\mathbf{e}_1, \mathbf{e}_2,\cdots,\mathbf{e}_n$ sono linearmente indipendenti;
 	2. ogni altro vettore di $V$ può scriversi come combinazione lineare di questi, ossia: per ogni $\mathbf{v}\in\mathbf{V}$ esistono $n$ coefficienti reali $v_1,v_2,\cdots,v_n$ tali che
-	
-								$\mathbf{v}=\sum_{i=1}^n v_i\mathbf{e}_i$
+		$$\mathbf{v}=\sum_{i=1}^n v_i\mathbf{e}_i$$
 	
 	Allora si dice che $\mathbf{e}_1, \mathbf{e}_2,\cdots,\mathbf{e}_n$ costituiscono una **BASE** di $V$.
 	Si dimostra che, se $V$ ha una base di $n$ vettori, ogni altra base di $V$ è costituita da $n$ vettori. Diremo allora che $V$ ha **dimensione** $n$.
 	
 	Può accadere però che non esista alcun $n$ per cui $V$ ha una base di $n$ vettori; in tal caso si dice che $V$ ha <u>dimensione infinita</u>. Quindi, o $V$ ha dimensione infinita, oppure la sua dimensione è un numero $n$ univocamente determinato.
 	La scomposizione di un vettore $\mathbf{v}$ come combinazione lineare dei vettori di una base è unica; infatti se:
-						$\mathbf{v}=\sum_{i=1}^n v_i\mathbf{e}_i \quad$ e $\quad \mathbf{v}=\sum_{i=1}^n w_i\mathbf{e}_i$
+		$$\mathbf{v}=\sum_{i=1}^n v_i\mathbf{e}_i \quad e \quad \mathbf{v}=\sum_{i=1}^n w_i\mathbf{e}_i$$
 	
 	si ha, sottraendo, $\mathbf{0}=\mathbf{v}=\sum_{i=1}^n (v_i-w_i)\mathbf{e}_i$ che implica, per l'indipendenza dei vettori $\mathbf{e}_i$, $v_i=w_i \quad \forall i=1,2,\cdots,n$.
 
 I coefficienti $v_1,v_2,\cdots,v_n$ si chiamano **componenti scalari** di $\mathbf{v}$ rispetto alla base $\mathbf{e}_1, \mathbf{e}_2,\cdots,\mathbf{e}_n$. Se la base si ritiene fissata si può individuare il vettore $\mathbf{v}$ scrivendo:
-						$\mathbf{v}=(v_1,v_2,\cdots,v_n) \quad$ o $\quad \mathbf{v}=\begin{pmatrix} v_1 \\ v_2 \\ \vdots \\ v_n \end{pmatrix}$
+$$\mathbf{v}=(v_1,v_2,\cdots,v_n) \quad o \quad \mathbf{v}=\begin{pmatrix} v_1 \\ v_2 \\ \vdots \\ v_n \end{pmatrix}$$
 
 Chiameremo il primo <u>vettore riga</u> ed il secondo <u>vettore colonna</u>.
 
 
 
-*Esempio* (1): In $\mathbb{R}^2$ la coppia $\mathbf{i},\mathbf{j}$ costituisce una base, detta canonica. Analogamente, la terna $\mathbf{i},\mathbf{j},\mathbf{k}$ è la base canonica di $\mathbb{R}^{3}$. Più in generale, in $\mathbb{R}^n$ consideriamo la $n$-upla di vettori:
+*Esempio* (1). In $\mathbb{R}^2$ la coppia $\mathbf{i},\mathbf{j}$ costituisce una base, detta canonica. Analogamente, la terna $\mathbf{i},\mathbf{j},\mathbf{k}$ è la base canonica di $\mathbb{R}^{3}$. Più in generale, in $\mathbb{R}^n$ consideriamo la $n$-upla di vettori:
+$$\mathbf{e}_{1}=(1,0,0,\cdots,0)$$
+$$\mathbf{e}_{2}=(0,1,0,\cdots,0)$$
+$$\cdots$$
+$$\mathbf{e}_{n}=(0,0,0,\cdots,1)$$
+
+che costituiscono la **base canonica**.
+In particolare, dato $\mathbf{x}=(x_{1},x_{2},\cdots,x_{n})$, si ha:
+$$\mathbf{x}=x_{1}\mathbf{e}_{1}+x_{2}\mathbf{e}_{2}+\cdots+x_{n}\mathbf{e}_{n}$$
+In $\mathbb{R}^n$, salvo caso contrario, si sceglie la base canonica.
 
 
+*Esempio* (2). Sia $V$ l'insieme dei polinomi in una variabile, di grado $\le 2$. Si verifica subito che è uno spazio vettoriale. Inoltre, poichè il generico polinomio di grado $\le 2$ si può scrivere nella forma:
+$$\mathbf{p}=ax^2+bx+c\quad con \quad a,b,c\in\mathbb{R}$$
+ne segue che i tre polinomi:
+$$\mathbf{e_{1}}=x^2\quad \mathbf{e}_{2}=x\quad \mathbf{e}_{3}=1$$
+che sono evidentemente indipendenti, costituiscono una base di $V$: pertanto $V$ ha dimensione 3.
+
+
+*Esempio* (3). Sia $V$ l'insieme di tutti i polinomi in una variabile. Come già osservato, $V$ è uno spazio vettoriale. Ci si convince facilmente, tuttavia, che esiste un numero finito di polinomi tale che ogni polinomio sia combinazione lineare di questi. Infatti, l'idea naturale sarebbe di scegliere come base i polinomi:
+$$1,x,x^2,x^3,\cdots$$
+ma il problema è: dove fermarsi? Qualunque numero finito di questi polinomi noi scegliamo, ci sarà sempre un polinomio che non è combinazione lineare di questi. Dunque $V$ è uno spazio vettoriale di dimensione infinita.
+
+- **Sottospazi e la loro dimensione**. Se $V$ è uno spazio vettoriale di dimensione $n$ e $V_{1}$ un sottospazio vettoriale di $V$, sarà $\dim V_{1}<\dim V$ (tranne il caso banale $V_{1}=V$).
+
+
+*Esempio* (4). Il vettore nullo $\mathbf{0}\in\mathbb{R}^n$ costituisce da solo un sottospazio di $\dim=0$.
+
+
+*Esempio* (5). Se in $\mathbb{R}^2$ (spazio vettoriale di $\dim=2$) consideriamo una retta passante per l'origine (ossia l'insieme di tutti i vettori di tipo $t\mathbf{v}$ con $\mathbf{v}$ fissato e $t\in\mathbb{R}$), otteniamo un sottospazio vettoriale di $\dim=1$.
+Invece, una retta non passante per l'origine (ossia un insieme di vettori del tipo $t\mathbf{v}+\mathbf{u}$ con $\mathbf{v},\mathbf{u}$ fissati e $t\in\mathbb{R}$), è un sottoinsieme di $\mathbb{R}^2$ ma non un sottospazio.
+Analogamente, in $\mathbb{R}^3$, rette e piani passanti per $O$ sono sottospazi di $\dim=1,2$, rispettivamente.
+
+
+*Esempio* (5). Siano $V$ uno spazio vettoriale e $\mathbf{v}_{1},\mathbf{v}_{2},\cdots,\mathbf{v}_{k}$ vettori di $V$. L'insieme $S$ di tutte le possibili combinazioni lineari di $\mathbf{v}_{1},\mathbf{v}_{2},\cdots,\mathbf{v}_{k}$ costituisce un sottospazio di $V$, che si chiama **sottospazio generato dai vettori** $\mathbf{v}_{1},\mathbf{v}_{2},\cdots,\mathbf{v}_{k}$. In simboli:
+$$S=\left\{\mathbf{v}:\mathbf{v}=\sum_{j=1}^k\alpha_{j}\mathbf{v}_{j},\alpha_{j}\in\mathbb{R},j=1,2,\cdots,k\right\}$$
+Si scrive anche talvolta: $S=\langle \mathbf{v}_{1},\mathbf{v}_{2},\cdots,\mathbf{v}_{k}\rangle$.
+Se i vettori $\mathbf{v}_{1},\mathbf{v}_{2},\cdots,\mathbf{v}_{k}$ sono indipendenti, allora costituiscono una base per $S$, che ha perciò dimensione $k$.
+
+
+Esempio (6). Sia $V$ lo spazio vettoriale dei polinomi di una variabile reale, e $V_{n}$ lo spazio dei polinomi di grado $\le n$. Abbiamo visto (*Esempio* (3)) che $V$ ha dimensione infinita; $V_{n}$ invece è un sottospazio vettoriale di $V$, di dimensione finita: precisamente, $\dim V_{n}=n+1$.
 
 
 #### 3.1.4 **Spazi di funzioni**
 
 Una classe di spazi vettoriali particolarmente importanti nello studio dell'analisi matematica è quella degli <u>spazi di funzioni</u>: sia $I\subset\mathbb{R}$ un intervallo e indichiamo con $\mathcal{F}_I$ l'insieme di tutte le funzioni $f \ : \ I\rightarrow\mathbb{R}$.
 Tra queste funzioni si possono definire un'operazione di somma ed una di prodotto per uno scalare, ponendo per $f,g \ : \ I\rightarrow\mathbb{R}$ e $\lambda \in \mathbb{R}$:
-
-							$(f+g)(x)=f(x)+g(x)$
-								$(\lambda f)(x)=\lambda f(x)$.
+$$(f+g)(x)=f(x)+g(x)\\(\lambda f)(x)=\lambda f(x)$$
 
 È immediato verificare che, munito di queste operazioni, $\mathcal{F}_I$ risulta essere uno spazio vettoriale su $\mathbb{R}$. Inoltre questo spazio ha dimensione infinita (tranne nel caso in cui l'intervallo $I$ sia ridotto ad un solo punto), in quanto non esiste un numero finito di funzioni $f_i \ : \ I\rightarrow\mathbb{R}, \ i=1,2,\cdots,n$ tali che ogni altra funzione non si possa esprimere come loro combinazione lineare.
 
@@ -615,8 +642,7 @@ Un analogo ragionamento mostra che l'insieme di tutte le funzioni derivabili in 
 
 Torniamo ora ad occuparci specificamente dello spazio $\mathbb{R}^n$. Tra i vettori del piano e dello spazio, abbiamo visto che sono definite oltre alle [[#3.1.1 **Lo spazio $ mathbb{R} n$**|due operazioni caratteristiche di ogni spazio vettoriale]], altre due operazioni: il <u>prodotto scalare</u> e, per vettori dello spazio, anche il <u>prodotto vettoriale</u>.
 Mentre il secondo è un'operazione tipica di $\mathbb{R}^3$, il prodotto scalare può essere definito in $\mathbb{R}^n$:
-
-						$(x_1,x_2,\cdots,x_n)\cdot(y_1,y_2,\cdots,y_n)=\sum_{i=1}^n x_iy_i$
+$$(x_1,x_2,\cdots,x_n)\cdot(y_1,y_2,\cdots,y_n)=\sum_{i=1}^n x_iy_i$$
 
 Questo prodotto scalare ha le [[#1.5 **Prodotto scalare e vettoriale**|stesse proprietà formali]] che aveva nel caso di $\mathbb{R}^2$ o $\mathbb{R}^3$.
 Analogamente, si dirà che in $\mathbb{R}^n$:
@@ -626,7 +652,7 @@ Analogamente, si dirà che in $\mathbb{R}^n$:
 - Definiamo modulo o norma di un vettore $\mathbf{v}$ il numero $|\mathbf{v}|=\sqrt{\mathbf{v}\cdot\mathbf{v}}=(\sum_{i=1}^n {v^2}_i)^\frac{1}{2}$
 	
 	Un vettore di modulo unitario si dice versore. Dato un vettore $\mathbf{v}$ non nullo, si definisce
-								$vers(\mathbf{v})=\frac{\mathbf{v}}{|\mathbf{v}|}$.
+	$$vers(\mathbf{v})=\frac{\mathbf{v}}{|\mathbf{v}|}.$$
 
 Accade spesso di voler sostituire un vettore $\mathbf{v}$ con il corrispondente $vers(\mathbf{v})$; questa operazione si dice **normalizzazione del vettore** $\mathbf{v}$ e $vers(\mathbf{v})$ prende il nome di vettore normalizzato.
 
@@ -646,8 +672,7 @@ Accade spesso di voler sostituire un vettore $\mathbf{v}$ con il corrispondente 
 
 
 La nozione di modulo consente di definire la **distanza tra due vettori**:
-
-								$d(\mathbf{v},\mathbf{w})=|\mathbf{v}-\mathbf{w}|$
+$$d(\mathbf{v},\mathbf{w})=|\mathbf{v}-\mathbf{w}|$$
 
 le cui proprietà sono le seguenti:
 	a. Positività ed annullamento: $d(\mathbf{v},\mathbf{w})\ge 0$ e $d(\mathbf{v},\mathbf{w})=0$ sse $\mathbf{v}=\mathbf{w}$;
@@ -671,26 +696,59 @@ Si noti che la definizione di modulo ha senso grazie alla quarta proprietà del 
 Continua a valere il teorema precedente: in altre parole, dagli assiomi di prodotto scalare discendono le proprietà del modulo enunciate dal teorema stesso, analogamente dalle proprietà del modulo discendono le proprietà della distanza tra due vettori.
 
 
-- **Complemento ortogonale**: se $V$ è uno spazio vettoriale con prodotto interno e $V_{1}$ è un sottospazio di $V$, definiamo
+*Esempio* (1). In $\mathbb{R}^3$ si consideri l'operazione così definita:
+$$(v_{1},v_{2},v_{3})\cdot(u_{1},u_{2},u_{3})=2v_{1}u_{1}+v_{2}u_{2}+3v_{3}u_{3}$$
+Si verifica facilmente che gli assomi di prodotto scalare sono soddisfatti. Questo dà quindi ad $\mathbb{R}^3$ una struttura di spazio vettoriale con prodotto scalare, diversa da quella "euclidea" che abbiamo considerato in precedenza. Rispetto a questa struttura si ha, per esempio:
+$$|(v_{1},v_{2},v_{3})|=\sqrt{2v_{1}^2+v_{2}^2+3v_{3}^2}$$
 
-						${V_{1}}^{\perp}=\left\{\mathbf{v}\in V:\mathbf{v}\cdot\mathbf{u}=0 \quad \forall\mathbf{u}\in V_{1} \right\}$
+
+*Esempio* (2). Nello spazio di funzioni $C([a,b])$ si consideri l'operazione definita da:
+$$f\cdot g=\int_{a}^{b}f(x)g(x)\,dx$$
+Si verifica che gli assomi di prodotto scalare sono soddisfatti. Quindi $C([a,b])$ assume una struttura di spazio vettoriale con prodotto scalare, in cui due funzioni $f,g$ sono ortogonali quando:
+$$\int_{a}^b f(x)g(x)\,dx=0$$
+Nello studio delle serie di Furier, in Analisi Matematica 2, si vedrà come questo prodotto scalare e questa nozione astratta di ortogonalità siano estremamente utili nello studio di certi problemi di approssimazione di funzioni.
+Quando gli elementi di uno spazio vettoriale con prodotto scalare sono funzioni, si preferisce di solito indicare il prodotto scalare con la scrittura:
+$$\langle f,g\rangle\quad anzichè\quad f\cdot g$$
+che si potrebbe facilmente confondere con l'usuale prodotto di funzioni.
+
+
+- **Complemento ortogonale**: se $V$ è uno spazio vettoriale con prodotto interno e $V_{1}$ è un sottospazio di $V$, definiamo
+	$${V_{1}}^{\perp}=\left\{\mathbf{v}\in V:\mathbf{v}\cdot\mathbf{u}=0 \quad \forall\mathbf{u}\in V_{1} \right\}$$
 	
 	In altre parole, ${V_{1}}^{\perp}$ è <mark class="hltr-yellow">l'insieme dei vettori che sono ortogonali</mark> a tutti i vettori di $V_{1}$.
 	Si verifica facilmente che tale insieme è un sottospazio di $V$, che prende il nome di <u>complemento ortogonale</u> di $V_{1}$.
 	Più in generale, <u>due sottospazi</u> $U$ e $W$ di $V$ si dicono ortogonali se ogni vettore di $U$ è ortogonale ad ogni vettore di $W$:
-							$\mathbf{u}\cdot\mathbf{w}=0 \quad \forall \mathbf{u}\in U, \mathbf{w}\in W$
+	$$\mathbf{u}\cdot\mathbf{w}=0 \quad \forall \mathbf{u}\in U, \mathbf{w}\in W$$
+
+
+*Esempio* (3). In $\mathbb{R}_{3}$ si consideri un piano passante per l'origine (sottospazio vettoriale di $\dim=2$), sia esso $V_{1}$. Allora $V_{1}^\perp$ è il sottospazio unidimensionale individuato dalla retta passante per $O$  e perpendicolare al piano, sia esso $V_{2}:V_{2}=V_{1}^\perp$.
+Si noti che vale anche la relazione reciproca: $V_{2}^\perp=V_{1}$.
+
+
+*Esempio* (4). In $V=\mathbb{R}^4$ sia $U$ il sottospazio (iperpiano) generato dai vettori:
+$$\mathbf{u}_{1}=\begin{pmatrix}
+1 \\
+0 \\
+0 \\
+0
+\end{pmatrix}\quad e \quad \mathbf{u}_{2}=\begin{pmatrix}
+1 \\
+0 \\
+1 \\
+0
+\end{pmatrix}$$
+e $W$ la retta (sottospazio unidimensionale) generata dal vettore: $\mathbf{w}=\begin{pmatrix}0 \\  3 \\  0 \\  2\end{pmatrix}$.
+Allora $U$ e $W$ sono ortogonali. Si noti però che non sono l'uno il complemento ortogonale dell'altro: esistono vettori ortogonali a $U$ che non stanno in $W$, come il vettore: $\begin{pmatrix}0 \\  0 \\  0 \\  1\end{pmatrix}$.
 
 
 #### 3.3.1 **Basi ortonormali**
 
 Consideriamo uno spazio vettoriale di dimensione finita, dotato di prodotto scalare.
 Fissata una base $\mathbf{e}_1, \mathbf{e}_2,\cdots,\mathbf{e}_n$ calcoliamo il prodotto scalare di due vettori
-
-$\mathbf{u}=\sum_{i=1}^n u_i\mathbf{e}_i$ e $\mathbf{v}=\sum_{j=1}^n v_j\mathbf{e}_j$
+$$\mathbf{u}=\sum_{i=1}^n u_i\mathbf{e}_i\quad e \quad\mathbf{v}=\sum_{j=1}^n v_j\mathbf{e}_j$$
 
 Applicando le proprietà del prodotto scalare si ha: 
-
-$\mathbf{u}\cdot\mathbf{v}=(\sum_{i=1}^n u_i\mathbf{e}_i)\cdot(\sum_{j=1}^n v_j\mathbf{e}_j)=\sum_{i,j=1}^n u_{i}v_j\mathbf{e}_i\mathbf{e}_j$
+$$\mathbf{u}\cdot\mathbf{v}=(\sum_{i=1}^n u_i\mathbf{e}_i)\cdot(\sum_{j=1}^n v_j\mathbf{e}_j)=\sum_{i,j=1}^n u_{i}v_j\mathbf{e}_i\mathbf{e}_j$$
 
 È sufficiente quindi conoscere gli $n^2$ prodotti scalare $\mathbf{e}_i\cdot\mathbf{e}_j$ per poter calcolare il prodotto scalare di due vettori qualsiasi. Il calcolo risulta particolarmente comodo quando gli $n$ vettori della base risultano **ortonormali**, ossia:
 
@@ -698,17 +756,14 @@ $\mathbf{u}\cdot\mathbf{v}=(\sum_{i=1}^n u_i\mathbf{e}_i)\cdot(\sum_{j=1}^n v_j\
 2) Ogni vettore ha modulo unitario: $|\mathbf{e}_i|^2=\mathbf{e}_i\cdot\mathbf{e}_j=1$ per $i=1,\cdots,n$;
 
 Una tale base si dice **base ortonormale**, e gioca un ruolo fondamentale nello studio degli spazi con prodotto scalare. In tal caso infatti si ottiene:
-
-$\mathbf{u}\cdot\mathbf{v}=(\sum_{i=1}^n u_i\mathbf{e}_i)\cdot(\sum_{j=1}^n v_j\mathbf{e}_j)=\sum_{i=1}^n u_{i}v_i$
+$$\mathbf{u}\cdot\mathbf{v}=(\sum_{i=1}^n u_i\mathbf{e}_i)\cdot(\sum_{j=1}^n v_j\mathbf{e}_j)=\sum_{i=1}^n u_{i}v_i$$
 
 ovvero: il prodotto scalare di ottiene dalle componenti dei due vettori con la stessa formula che vale nel caso del prodotto scalare euclideo in $\mathbb{R}^n$. In particolare, per $\mathbf{u}=\mathbf{v}$ si ha:
-
-							$|\mathbf{u}|^2=\mathbf{u}\cdot\mathbf{u}=\sum_{i=1}^n {u_{i}}^2$
+$$|\mathbf{u}|^2=\mathbf{u}\cdot\mathbf{u}=\sum_{i=1}^n {u_{i}}^2$$
 
 ovvero anche il modulo di un vettore si calcola mediante le sue componenti con la stessa formula che vale nel caso euclideo.
 L'ultima proprietà si può esprimere anche nel seguente modo: se $\mathbf{v}_1, \mathbf{v}_2,\cdots,\mathbf{v}_n$ sono vettori a due a due ortogonali (di modulo qualsiasi), si ha:
-
-$|\sum_{i=1}^n v_i|^2=\sum_{i=1}^n |v_i|^2$
+$$|\sum_{i=1}^n v_i|^2=\sum_{i=1}^n |v_i|^2$$
 
 che è una sorta di Teorema di Pitagora in forma astratta.
 Per esempio, in $\mathbb{R}^n$ la base canonica è anche una base ortonormale rispetto al prodotto scalare euclideo.
@@ -760,7 +815,7 @@ Si può dimostrare che <mark class="hltr-yellow">uno spazio vettoriale di dimens
 - #TEOREMA(3). **Proiezione ed elemento di minima distanza**
 	
 	Sia $V$ uno spazio dotato di prodotto scalare, $V_{1}$ un sottospazio di $V$ di dimensione finita e $\mathbf{v}$ un elemento di $V$ che non appartiene a $V_{1}$; allora esistono e sono univocamente determinati due vettori $\mathbf{u},\mathbf{w}$ tali che:
-							$\mathbf{v}=\mathbf{u}+\mathbf{w} \quad$, con $\mathbf{u}\in V_{1}$ e $\mathbf{w}\in {V_{1}}^\perp$
+							$\mathbf{v}=\mathbf{u}+\mathbf{w},\quad$ con $\mathbf{u}\in V_{1}$ e $\mathbf{w}\in {V_{1}}^\perp$
 	Il vettore $\mathbf{u}$ si dirà proiezione ortogonale di $\mathbf{v}$ su $V_{1}$ e, tra i vettori di $V_{1}$, è quello di minima distanza da $\mathbf{v}$.
 	
 	Si noti che in questo enunciato lo spazio ambiente $V$ può anche avere dimensione infinita, mentre $V_{1}$ per ipotesi ha dimensione finita.
@@ -788,6 +843,13 @@ Si può dimostrare che <mark class="hltr-yellow">uno spazio vettoriale di dimens
 				$|\mathbf{v}-\mathbf{u}_{1}|^2=|\mathbf{w}+(\mathbf{u}-\mathbf{u}_{1})|^2=|\mathbf{w}|^2+|\mathbf{u}-\mathbf{u}_{1}|^2\ge|\mathbf{w}|^2=|\mathbf{v}-\mathbf{u}|^2$
 	
 	quindi la distanza di $\mathbf{v}$ da $\mathbf{u}$ è minore della distanza da $\mathbf{v}$ da qualunque altro elemento di $\mathbf{u}_{1}$ di $V_{1}$ (come volevasi dimostrare).
+
+
+*Esempio*. In $\mathbb{R}^3$, determinare il punto del piano $x+z=0$ che ha minima distanza da $\mathbf{u}=(1,2,3)$.
+Poichè $x+z=0$ passa per $O$, si può vedere come sottospazio vettoriale di $\mathbb{R}^3$, chiamandolo $V_{1}$. Si verifica che una base ortonormale di $V_{1}$ è:
+$$\mathbf{v}_{1}=\left( \frac{1}{\sqrt{2}},0,-\frac{1}{\sqrt{2}} \right)\quad \mathbf{v}_{2}=(0,1,0)$$
+Il punto di $V_{1}$ che ha minima distanza da $\mathbf{u}$ è la proiezione di $\mathbf{u}$ su $V_{1}$, cioè:
+$$(\mathbf{u}\cdot \mathbf{v}_{1})\mathbf{v}_{1}+(\mathbf{u}\cdot \mathbf{v}_{2})\mathbf{v}_{2}=-\frac{2}{\sqrt{2}}\mathbf{v}_{1}+2\mathbf{v}_{2}=(-1,2-1)$$
 
 
 #### 3.3.2 **Somma diretta di sottospazi ortogonali**
@@ -846,11 +908,44 @@ Tra queste funzioni, particolare importanza hanno quelle che godono di una speci
 	
 	Sinonimi spesso usati di funzione lineare sono **applicazione lineare**, trasformazione lineare.
 
+
+*Esempio* (1). Sia $f:\mathbb{R}\to\mathbb{R}$. Se $f$ è lineare si ha: $f(x)=f(x\cdot 1)=xf(1)=\alpha x$ per $\alpha=f(1)$.
+Dunque le uniche funzioni lineari da $\mathbb{R}$ a $\mathbb{R}$ sono del tipo $f(x)=\alpha x$.
+
+
+*Esempio* (2). Sia $V$ lo spazio dei vettori tridimensionali; consideriamo un vettore $\mathbf{u}\in V$, fissato una volta per tutte, e definiamo:
+$$f:V\to \mathbb{R}\\f:\mathbf{v}\mapsto \mathbf{u}\cdot \mathbf{v}$$
+(la funzione associa ad ogni vettore $\mathbf{v}$ il suo prodotto scalare col vettore $\mathbf{u}$ fissato). Dalle proprietà del prodotto scalare segue subito che $f$ è lineare, infatti:
+$$f(\alpha \mathbf{v}_{1}+\beta \mathbf{v}_{2})=\mathbf{u}_{1}\cdot(\alpha \mathbf{v}_{1}+\beta \mathbf{v}_{2})=\alpha \mathbf{u}\cdot \mathbf{v}_{1}+\beta \mathbf{u}\cot \mathbf{v}_{2}=\alpha f(\mathbf{v}_{1})+\beta f(\mathbf{v}_{2})$$
+
+
 Il concetto di linearità è fondamentale in matematica e nelle applicazioni. Vedremo nel prossimo capitolo che il <u>calcolo matriciale</u> permette di descrivere completamente le applicazioni lineari tra spazi vettoriali di dimensione finita.
+Molti concetti chiave del calcolo infinitesimale (limite, derivata, integrale) corrispondo ad opportuni operatori lineari che coinvolgono spazi di funzioni, di dimensione infinita.
+
+
+*Esempio* (1). L'integrale definito si può vedere come operatore lineare sullo spazio delle funzioni continue su un intervallo $[a,b]$, a valori reali:
+$$L:C([a,b])\to \mathbb{R}\\L:f\mapsto\int_{a}^b f(x)\,dx$$
+L'operatore $L$ è lineare (<u>linearità dell'integrale definito</u>, Analisi 1); in questo caso lo spazio vettoriale di partenza ha dimensione infinita, mentre quello di arrivo è $\mathbb{R}$ di $\dim=1$.
+
+
+*Esempio* (2). L'operatore che ad ogni funzione continua su $[a,b]$ associa la sua funzione integrale, cioè:
+$$L:f\mapsto \int_{a}^x f(t)\,dt$$
+si può vedere come operatore lineare $L:C([a,b])\to C([a,b])$, o meglio:
+$$L:C([a,b])\to C^{1}([a,b])$$
+dove col simbolo $C^{1}([a,b])$ si indica lo spazio delle funzioni derivabili, dotate di derivata continua su $[a,b]$. Infatti per il <u>Secondo Teorema Fondamentale del Calcolo Integrale</u> (Analisi 1) se la funzione integranda è continua, la funzione integrale è derivabile con continuità.
+In questo caso sia lo spazio vettoriale di partenza che quello di arrivo hanno dimensione infinita.
+Lo stesso accade nel prossimo esempio:
+
+
+*Esempio* (3). La derivata si può vedere come operatore lineare tra i seguenti spazi:
+$$L:C^{1}([a,b])\to C([]a,b])\\L:f\mapsto f'$$
+(linearità della derivata, Analisi 1).
+
 
 Segnaliamo anche un tipo di funzione tra spazi vettoriali che è in stretta relazione con le applicazioni lineare: si dice **trasformazione affine** (o lineare affine), tra due spazi vettoriali $V_{1},V_{2}$, una trasformazione del tipo$f:\ V_{1}\rightarrow V_{2}$, che abbia la forma $f(\mathbf{v})=l(\mathbf{v})+\mathbf{b}$,
 dove $l:\ V_{1}\rightarrow V_{2}$ è lineare e $\mathbf{b}\in V_{2}$ è un elemento fissato.
-	*Ad esempio*, 
+
+*Ad esempio*, 
 	$f:\ \mathbb{R}\rightarrow\mathbb{R}$, $f(x)=ax+b$
 	con $a,b\in\mathbb{R}$ fissati non è lineare ma affine.
 
@@ -868,8 +963,7 @@ Possiamo dare la seguente definizione:
 - #DEFINIZIONE(8). Si dice **matrice** di tipo $(m,n)$ su un insieme numerico $\mathcal{A}$, un insieme di $m\cdot n$ numeri appartenenti ad $\mathcal{A}$, disposti in una tabella di $m$ <u>righe</u> ed $n$ <u>colonne</u>.
 
 La generica matrice $\mathbf{A}$ di tipo $(m,n)$ si può scrivere nella forma:
-
-$\mathbf{A}=\begin{pmatrix}a_{11}&a_{12}&\cdots&a_{1n}\\ \vdots&\vdots&\ &\vdots \\ a_{m1}&a_{m2}& \cdots &a_{mn}\end{pmatrix}$
+$$\mathbf{A}=\begin{pmatrix}a_{11}&a_{12}&\cdots&a_{1n}\\ \vdots&\vdots&\ &\vdots \\ a_{m1}&a_{m2}& \cdots &a_{mn}\end{pmatrix}$$
 
 Si noti il significato del doppio indice: $a_{ij}$ si legge "elemento di posto $i,j$".
 Il primo dei due indici rappresenta il numero della riga, il secondo quello della colonna, motivo per cui essi costituiscono una sorta di coordinate dell'elemento nella matrice.
@@ -941,7 +1035,8 @@ Possiamo anche definire un prodotto tra matrici, che però non è valido per ogn
 
 - È importante sottolineare che tra le matrici quadrate di ordine $n$ ne esiste una, che indichiamo con $\mathbf{I}_{n}$, tale che per ogni altra matrice $\mathbf{A}$ dello stesso ordine si ha: $\mathbf{A}\mathbf{I}_{n}=\mathbf{I}_{n}\mathbf{A}$
 	
-	Tale matrice si chiama **matrice identità** ed ha la forma: $\mathbf{I}_{n}=\begin{pmatrix}1&0&0&\cdots& 0\\0&1&0&\cdots&0\\ \vdots&\vdots&\vdots&\ddots &\vdots\\ 0&0&0&\cdots&1\end{pmatrix}$
+	Tale matrice si chiama **matrice identità** ed ha la forma:
+	$$\mathbf{I}_{n}=\begin{pmatrix}1&0&0&\cdots& 0\\0&1&0&\cdots&0\\ \vdots&\vdots&\vdots&\ddots &\vdots\\ 0&0&0&\cdots&1\end{pmatrix}$$
 
 
 - Si chiama **matrice trasposta** di una matrice $\mathbf{A}$ di tipo $(m,n)$ e la si indica con il simbolo $\mathbf{A}^\top$, la matrice di tipo $(n,m)$ che si ottiene da $\mathbf{A}$ scambiando le righe con le colonne.
@@ -988,8 +1083,7 @@ Il prossimo importante teorema afferma, in sostanza, che tutte le trasformazioni
 	
 	Siano $V_n,V_{m}$ due spazi vettoriali sul campo $\mathbb{K}$ di dimensione $n,m$ rispettivamente, e sia $\mathcal{L}:V_{n}\rightarrow V_{m}$ una trasformazione lineare.
 	Fissate due basi $\mathbf{u}_{1},\mathbf{u}_{2},\cdots,\mathbf{u}_{n}$ e $\mathbf{v}_{1},\mathbf{v}_{2},\cdots,\mathbf{v}_{m}$ in $V_{n}$ e $V_{m}$, rispettivamente, esiste un'**unica matrice** $\mathbf{A}$ di tipo $(m,n)$ a elementi in $\mathbb{K}$ che rappresenta $\mathcal{L}$ nel senso che, se $\mathbf{x}=x_{1}\mathbf{u}_{1}+x_{2}\mathbf{u}_{2}+\cdots+x_{n}\mathbf{u}_{n}$ e $\mathcal{L}(\mathbf{x})=y_{1}\mathbf{v}_{1}+\cdots+y_{m}\mathbf{v}_{m}$, allora:
-	
-								$\begin{pmatrix}y_{1}\\y_{2}\\ \vdots \\y_{m}\end{pmatrix}=\mathbf{A}\begin{pmatrix}x_{1}\\x_{2}\\ \vdots \\x_{n}\end{pmatrix}$
+	$$\begin{pmatrix}y_{1}\\y_{2}\\ \vdots \\y_{m}\end{pmatrix}=\mathbf{A}\begin{pmatrix}x_{1}\\x_{2}\\ \vdots \\x_{n}\end{pmatrix}$$
 	
 	Si noti che, qualunque sia lo spazio vettoriale $V_{n}$ e fissata una base nel medesimo spazio, ogni vettore è individuato dalla $n$-upla delle sue componenti rispetto a questa base, cioè da un elemento di $\mathbb{K}^n$. Il teorema afferma quindi l'esistenza di una matrice che rappresenta la trasformazione lineare, nel senso che, fissata una base nello spazio di partenza ed una nello spazio di arrivo, il vettore delle componenti di $\mathcal{L}(x)$ si ottiene moltiplicando la matrice per il vettore delle componenti di $\mathbf{x}$.
 	Nel seguito parleremo di matrici a elementi reali e di trasformazioni lineari di $\mathbb{R}^n$ in $\mathbb{R}^m$, che perrò varrà pari pari sostituendo $\mathbb{C}$ ad $\mathbb{R}$.
@@ -2920,24 +3014,21 @@ Descriviamo ora brevemente tali superfici:
 
 - **Ellissoide reale**: il modo più semplice di capire la forma di questa superficie è pensare che si può ottenere da una superficie sferica eseguendo una dilatazione di fattore diverso su ogni asse: $x=ax',y=by',z=cz'$, che dà all'ellissoide la forma di una "sfera allungata".
 	I numeri $a,b,c$ sono i <u>semiassi</u> dell'ellissoide, che ha per <u>vertici</u> i punti $(\pm a,0,0),(0,\pm b,0),(0,0,\pm c)$. Se due dei tre semiassi sono uguali tra loro l'ellissoide è di rotazione: *ad esempio*, per $a=b$, la superficie taglia i piani $z=z_{0}$ (quando $|z_{0}|<c$) lungo le circonferenze:
-						
-								$x^2+y^2=a^2\left( 1-\frac{z_{0}^2}{c^2} \right)$
+	$$x^2+y^2=a^2\left( 1-\frac{z_{0}^2}{c^2} \right)$$
 	
 	pertanto la superficie si può vedere ottenuta facendo ruotare attorno all'asse $z$ l'ellisse (nel piano $xz$) $\frac{x^2}{a^2}+\frac{z^2}{c^2}=1$. Se tutti e tre i semiassi sono uguali, la superficie è una sfera di raggio $r$.
 
 
 - **Iperboloide a una falda**: si osserva che la superficie taglia qualsiasi piano $z=z_{0}$ lungo l'ellisse:
-								$\frac{x^2}{a^2}+\frac{y^2}{b^2}=1+\frac{z_{0}^2}{c^2}$
+	$$\frac{x^2}{a^2}+\frac{y^2}{b^2}=1+\frac{z_{0}^2}{c^2}$$
 	
 	I semiassi delle sezioni ellittiche crescono al crescere di $|z_{0}|$. La superficie è illimitata e connessa (cioè "formata da un pezzo solo", motivo per cui si dice a una falda).
 	In particolare, per $a=b$ l'ellisse è una circonferenza e la quadrica è di rotazione, ottenuta facendo ruotare attorno all'asse $z$ l'iperbole $\frac{x^2}{a^2}-\frac{z^2}{c^2}=1$ nel piano $xz$ (da cui il nome iperboloide). Sezionando invece la superficie con un piano contenente l'asse $z$, ossia del tipo $\alpha x+\beta y=0$, si ottiene un'iperbole, come si verifica facilmente.
 	Un particolarità di questa superficie è di <u>contenere due famiglie di rette</u>. Infatti, riscrivendo l'equazione nella forma:
-	
-								$\frac{x^2}{a^2}-\frac{z^2}{c^2}=1-\frac{y^2}{b^2}$
+	$$\frac{x^2}{a^2}-\frac{z^2}{c^2}=1-\frac{y^2}{b^2}$$
 	
 	si osserva che le due famiglie di rette:
-	
-	$\begin{cases}\frac{x}{a}+\frac{z}{c}=h\left( 1+\frac{y}{b} \right) \\  \frac{x}{a}-\frac{z}{c}\left( \frac{1}{h}\left( 1-\frac{y}{b} \right) \right)\end{cases}\quad$ e $\quad \begin{cases} \frac{x}{a}+\frac{z}{c}=h\left( 1-\frac{y}{b} \right) \\  \frac{x}{a}-\frac{z}{c}=\frac{1}{h}\left( 1+\frac{y}{b} \right) \end{cases}$
+	$$\begin{cases}\frac{x}{a}+\frac{z}{c}=h\left( 1+\frac{y}{b} \right) \\  \frac{x}{a}-\frac{z}{c}\left( \frac{1}{h}\left( 1-\frac{y}{b} \right) \right)\end{cases}\quad e \quad \begin{cases} \frac{x}{a}+\frac{z}{c}=h\left( 1-\frac{y}{b} \right) \\  \frac{x}{a}-\frac{z}{c}=\frac{1}{h}\left( 1+\frac{y}{b} \right) \end{cases}$$
 
 	(al variare di $h\in\mathbb{R}$), sono contenute nella superficie stessa, come si verifica moltiplicando membro a membro le due equazioni di ciascun sistema. Per questa ragione si dice che l'iperboloide a una falde è una **superficie rigata**. Precisamente:
 
@@ -2950,34 +3041,27 @@ Descriviamo ora brevemente tali superfici:
 
 
 - **Iperboloide a due falde**: riscrivendo l'equazione nella forma:
-	
-								$\frac{x^2}{a^2}-1=\frac{y^2}{b^2}+\frac{z^2}{c^2}$
+	$$\frac{x^2}{a^2}-1=\frac{y^2}{b^2}+\frac{z^2}{c^2}$$
 	
 	si osserva che la superficie è contenuta nelle regioni in cui $\frac{x^2}{a^2}-1\ge 0$, ossia nelle due regioni separate $x\ge a$ e $x\le-a$. Perciò la superficie consiste in <u>due falde distinte</u>.
 	Più precisamente, la superficie è contenuta nella regione:
-	
-								$\frac{y^2}{b^2}+\frac{z^2}{c^2}<\frac{x^2}{a^2}$
+	$$\frac{y^2}{b^2}+\frac{z^2}{c^2}<\frac{x^2}{a^2}$$
 	
 	(come segue dal fatto che $\frac{x^2}{a^2}-1<\frac{x^2}{a^2}$), che rappresenta una delle due regioni in cui il cono a due falde:
-	
-								$\frac{y^2}{b^2}+\frac{z^2}{c^2}=\frac{x^2}{a^2}$
+	$$\frac{y^2}{b^2}+\frac{z^2}{c^2}=\frac{x^2}{a^2}$$
 	
 	divide lo spazio (precisamente, la regione contente l'asse del cono).
 	Questo cono si dice <u>cono asintotico</u>, perchè la superficie si avvicina indefinitamente ad esso così come un'iperbole si avvicina ai suoi asintoti. Tagliando la superficie con un piano $x=x_{0}$ (per $|x_{0}|>a$) si trova l'ellisse:
-	
-								$\frac{y^2}{b^2}+\frac{z^2}{c^2}=\frac{x_{0}^2}{a^2}-1$
+	$$\frac{y^2}{b^2}+\frac{z^2}{c^2}=\frac{x_{0}^2}{a^2}-1$$
 	
 	In particolare se $b=c$ quest'ellisse è una circonferenza e la quadrica è di rotazione, ottenuta facendo ruotare attorno all'asse $x$ l'iperbole:
-	
-									$\frac{x^2}{a^2}-\frac{y^2}{b^2}=1$
+									$$\frac{x^2}{a^2}-\frac{y^2}{b^2}=1$$
 	
 	(nel piano $xy$). Tagliano invece la superficie con un piano contenente l'asse $x$, cioè del tipo $\alpha y+\beta z=0$, si ottiene sempre un'iperbole, i cui asintoti giacciono sul cono asintotico, come si verifica facilmente. A differenza dell'iperboloide a una falda, <u>l'iperboloide a due falde non è una superficie rigata</u>.
 
 
-- **Ellissoide immaginario**: si vede subito che l'equazione:
-	
-								$\frac{x^2}{a^2}+\frac{y^2}{b^2}+\frac{z^2}{c^2}=-1$
-	
+- **Ellissoide immaginario**: si vede subito che l'equazione:					
+	$$\frac{x^2}{a^2}+\frac{y^2}{b^2}+\frac{z^2}{c^2}=-1$$
 	non è soddisfatta da alcuna terna $(x,y,z)$ di numeri reali, quindi nello spazio $\mathbb{R}^3$ rappresenta l'insieme vuoto. Per analogia con l'ellissoide reale, la superficie è detta appunto ellissoide immaginario.
 
 
@@ -2987,35 +3071,25 @@ Descriviamo ora brevemente tali superfici:
 Consideriamo ora le quadriche non a centro, ossia quelle per cui risulta $\mathcal{I}_{3}=0$.
 In tal caso, non sempre esiste una traslazione che elimini i termini di primo grado; possiamo in compenso diagonalizzare subito la matrice $\mathbf{B}$, ossia effettuare un'opportuna rotazione di assi che elimini i termini $a_{12},a_{23},a_{13}$.
 Dopo questa **rotazione** l'equazione della quadrica non a centro risulta quindi del tipo:
-
-				$a_{11}x^2+a_{22}y^2+a_{33}z^2+2a_{14}x+2a_{24}y+2a_{34}z+a_{44}=0$
+				$$a_{11}x^2+a_{22}y^2+a_{33}z^2+2a_{14}x+2a_{24}y+2a_{34}z+a_{44}=0$$
 
 inoltre, $\mathcal{I}_{3}=a_{11}a_{22}a_{33}=0$, quindi almeno uno dei coefficienti $a_{11},a_{22},a_{33}$ si annulla.
 *Ad esempio*, supponiamo $a_{33}=0$; la matrice dei coefficienti è quindi:
 
-$\mathbf{A}=\begin{pmatrix}a_{11} & 0 & 0 & a_{14} \\  0 & a_{22} & 0 & a_{24} \\  0 & 0 & 0 & a_{34} \\  a_{14} & a_{24} & a_{34} & a_{44}\end{pmatrix}$
+$$\mathbf{A}=\begin{pmatrix}a_{11} & 0 & 0 & a_{14} \\  0 & a_{22} & 0 & a_{24} \\  0 & 0 & 0 & a_{34} \\  a_{14} & a_{24} & a_{34} & a_{44}\end{pmatrix}$$
 
 Notiamo che $\mathcal{I}_{4}=-a_{11}a_{22}a_{34}^2$.
 
 Studiamo prima il caso della <u>quadrica non a centro e non degenere</u>; quindi $\mathcal{I}_{4}\ne 0$ e i coefficienti $a_{11},a_{22},a_{34}$ sono effettivamente diversi da $0$.
 
 Cerchiamo una **traslazione** che annulli i coefficienti $a_{14},a_{24}$. Dal [[#8.1 **Rototraslazioni nello spazio e invarianti di una quadrica**|sistema]]:
-
-${\begin{cases}a_{14}'=a_{11}u+a_{12}v+a_{13}w+a_{14} \\  a_{24}'=a_{12}u+a_{22}v+a_{23}w+a_{24} \\  a_{34}'=a_{13}u+a_{23}v+a_{33}w+a_{34} \\  a_{44}'=a_{11}u^2+a_{22}v^2+a_{33}w^2+2a_{12}uv+2a_{13}uw+2a_{23}uw+2a_{14}+2a_{24}+2a_{34}+a_{44}\end{cases}}$
+$${\begin{cases}a_{14}'=a_{11}u+a_{12}v+a_{13}w+a_{14} \\  a_{24}'=a_{12}u+a_{22}v+a_{23}w+a_{24} \\  a_{34}'=a_{13}u+a_{23}v+a_{33}w+a_{34} \\  a_{44}'=a_{11}u^2+a_{22}v^2+a_{33}w^2+2a_{12}uv+2a_{13}uw+2a_{23}uw+2a_{14}+2a_{24}+2a_{34}+a_{44}\end{cases}}$$
 
 leggiamo che questo significa risolvere il sistema in $u,v$ (in altre parole, la traslazione non agisce sulla terza variabile):
-
-$\begin{cases}a_{11}u+a_{14}=0 \\  a_{22}v+a_{24}=0\end{cases}$
-
-il che è immediato perchè stiamo supponendo $a_{11},a_{22}\ne 0$. Arriviamo quindi alla quadrica di equazione:
-
-						$a_{11}x^2+a_{22}y^2+2a_{34}z+a_{44}=0$
-
+$$\begin{cases}a_{11}u+a_{14}=0 \\  a_{22}v+a_{24}=0\end{cases}$$
+il che è immediato perchè stiamo supponendo $a_{11},a_{22}\ne 0$. Arriviamo quindi alla quadrica di equazione:						$$a_{11}x^2+a_{22}y^2+2a_{34}z+a_{44}=0$$
 Infine la traslazione $z=z'+w$ elimina il termine noto $a_{44}$ scegliendo $w=-\frac{a_{44}}{2a_{34}}$.
-Le generica quadrica non a centro non degenere ha quindi equazione:
-
-						$a_{11}x^2+a_{22}y^2+2a_{34}z+=0$
-
+Le generica quadrica non a centro non degenere ha quindi equazione:				$$a_{11}x^2+a_{22}y^2+2a_{34}z+=0$$
 Le superfici sostanzialmente diverse si ottengono al variare dei segni dei tre coefficienti, secondo i seguenti due soli casi:
 
 a) $a_{11},a_{22}$ <u>concordi</u>. L'equazione canonica è: $\frac{x^2}{a^2}+\frac{y^2}{b^2}=2pz$
@@ -3138,4 +3212,38 @@ a) $xy+z^2+1=0$
 b) $x^2-y^2+4z^2-4xz-z+3=0$
 c) $x^2+y^2+z^2+2xy-3=0$
 
-(a)
+(a) La matrice dei coefficienti è: $\mathbf{A}=\begin{pmatrix}0 & \frac{1}{2} & 0 & 0 \\  \frac{1}{2} & 0 & 0 & 0 \\  0 & 0 & 1 & 0 \\  0 & 0 & 0 & 1\end{pmatrix}$
+
+da cui: $\mathcal{I}_{4}=-\frac{1}{4}<0,\quad\mathcal{I}_{3}=-\frac{1}{4}\ne 0$
+
+(quadrica non degenere a centro).
+Poichè $\det \mathbf{A}<0$ si tratta di una ellissoide reale o di un iperboloide a due falde.
+Per decidere calcoliamo gli autovalori di $\mathbf{B}$:
+
+$\det(\mathbf{B}-\lambda \mathbf{I})=(1-\lambda)\left( \lambda^2-\frac{1}{4} \right)=0 \implies\lambda_{1}=1,\lambda_{2}=\frac{1}{2},\lambda_{3}=-\frac{1}{2}$
+
+Poichè gli autovalori sono discordi, si tratta di un iperboloide a due falde.
+
+
+(b) La matrice dei coefficienti è: $\mathbf{A}=\begin{pmatrix}1 & 0 & -2 & 0 \\  0 & -1 & 0 & 0 \\  -2 & 0 & 4 & -\frac{1}{2} \\  0 & 0 & -\frac{1}{2} & 3\end{pmatrix}$
+
+da cui: $\mathcal{I}_{4}>0,\quad\mathcal{I}_{3}=0$
+
+(quadrica non degenere non a centro).
+Poichè $\det \mathbf{A}>0$ si tratta di un paraboloide iperbolico.
+
+
+(c) La matrice dei coefficienti è: $\mathbf{A}=\begin{pmatrix}1 & 1 & 0 & 0 \\  1 & 1 & 0 & 0 \\  0 & 0 & 1 & 0 \\  0 & 0 & 0 & -3\end{pmatrix}$
+
+da cui: $\mathcal{I}_{4}=0,\quad\mathcal{I}_{3}=0$
+
+(quadrica degenere, cilindro o spezzata).
+Per decidere, osserviamo che:
+
+$Car\mathbf{A}=3$ in quanto $\begin{vmatrix}1 & 0 & 0 \\  0 & 1 & 0 \\  0 & 0 & -3\end{vmatrix}\ne 0$
+
+quindi si tratta di un cilindro. Per determinarne il tipo, calcoliamo gli autovalori di $\mathbf{B}$:
+
+$\det(\mathbf{B}-\lambda \mathbf{I})=(1-\lambda)[(1-\lambda)^2-1]=0\implies\lambda_{1}=1,\lambda_{2}=2,\lambda_{3}=0$
+
+Essendo gli autovalori uno nullo e due concordi, il cilindro ha sezione ellittica oppure è immaginario; si vede immediatamente che il cilindro possiede punti reali (*ad esempio*: $(0,0,\sqrt 3)$), perciò si tratta di un cilindro reale ellittico.
