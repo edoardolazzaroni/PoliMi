@@ -1066,9 +1066,17 @@ Una matrice quadrata si dice **diagonale** se sono nulli tutti i suoi elementi f
 $$\begin{pmatrix}
 2 & 3 & -1 \\
 0 & 1 & 1 \\
-
+0 & 0 & 4
+\end{pmatrix}\quad \begin{pmatrix}
+2 & 0 & 0 \\
+3 & 1 & 0 \\
+2 & -1 & 4
+\end{pmatrix}\quad \begin{pmatrix}
+2 & 0 & 0 \\
+0 & 1 & 0 \\
+0 & 0 & 4
 \end{pmatrix}$$
-
+sono, rispettivamente, triangolare alta, triangolare bassa e diagonale.
 
 ### 4.2 **Rappresentazione matriciale delle trasformazioni lineari**
 
