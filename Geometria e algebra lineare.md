@@ -634,8 +634,7 @@ Accade spesso di voler sostituire un vettore $\mathbf{v}$ con il corrispondente 
 
 
 La nozione di modulo consente di definire la **distanza tra due vettori**:
-
-								$d(\mathbf{v},\mathbf{w})=|\mathbf{v}-\mathbf{w}|$
+$$d(\mathbf{v},\mathbf{w})=|\mathbf{v}-\mathbf{w}|$$
 
 le cui proprietà sono le seguenti:
 	a. Positività ed annullamento: $d(\mathbf{v},\mathbf{w})\ge 0$ e $d(\mathbf{v},\mathbf{w})=0$ sse $\mathbf{v}=\mathbf{w}$;
@@ -660,21 +659,19 @@ Continua a valere il teorema precedente: in altre parole, dagli assiomi di prodo
 
 
 - **Complemento ortogonale**: se $V$ è uno spazio vettoriale con prodotto interno e $V_{1}$ è un sottospazio di $V$, definiamo
-
-						${V_{1}}^{\perp}=\left\{\mathbf{v}\in V:\mathbf{v}\cdot\mathbf{u}=0 \quad \forall\mathbf{u}\in V_{1} \right\}$
+	$${V_{1}}^{\perp}=\left\{\mathbf{v}\in V:\mathbf{v}\cdot\mathbf{u}=0 \quad \forall\mathbf{u}\in V_{1} \right\}$$
 	
 	In altre parole, ${V_{1}}^{\perp}$ è <mark class="hltr-yellow">l'insieme dei vettori che sono ortogonali</mark> a tutti i vettori di $V_{1}$.
 	Si verifica facilmente che tale insieme è un sottospazio di $V$, che prende il nome di <u>complemento ortogonale</u> di $V_{1}$.
 	Più in generale, <u>due sottospazi</u> $U$ e $W$ di $V$ si dicono ortogonali se ogni vettore di $U$ è ortogonale ad ogni vettore di $W$:
-							$\mathbf{u}\cdot\mathbf{w}=0 \quad \forall \mathbf{u}\in U, \mathbf{w}\in W$
+	$$\mathbf{u}\cdot\mathbf{w}=0 \quad \forall \mathbf{u}\in U, \mathbf{w}\in W$$
 
 
 #### 3.3.1 **Basi ortonormali**
 
 Consideriamo uno spazio vettoriale di dimensione finita, dotato di prodotto scalare.
 Fissata una base $\mathbf{e}_1, \mathbf{e}_2,\cdots,\mathbf{e}_n$ calcoliamo il prodotto scalare di due vettori
-
-$\mathbf{u}=\sum_{i=1}^n u_i\mathbf{e}_i$ e $\mathbf{v}=\sum_{j=1}^n v_j\mathbf{e}_j$
+$$\mathbf{u}=\sum_{i=1}^n u_i\mathbf{e}_i\quad e \quad\mathbf{v}=\sum_{j=1}^n v_j\mathbf{e}_j$$
 
 Applicando le proprietà del prodotto scalare si ha: 
 
