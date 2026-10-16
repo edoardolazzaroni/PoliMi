@@ -51,7 +51,7 @@ cellStyleRules:
 
 [[kanban-default.base|Kanban (elenco tasks)]]:
 
-Università 🎓:
+**Università 🎓**:
 
  [[Finire capitolo 5 di GAL]]
  [[finire capitolo 6 GAL]]
@@ -62,8 +62,8 @@ Università 🎓:
 [[Leggere almeno un capitolo]]
  [[Caricare tavoletta grafica]]
  [[Caricare cuffie]]
-- [x] Sistemare stanza
-- [x] Preparare zaino uni
+ [[Sistemare stanza]]
+- [[Preparare zaino uni
 - [x] Guardare orari delle lezioni
 
 
