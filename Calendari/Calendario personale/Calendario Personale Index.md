@@ -1,1 +1,2 @@
-#INDEX of all scheduled lessons/exams
+#INDEX of all personal appointments
+
