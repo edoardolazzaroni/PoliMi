@@ -1062,7 +1062,7 @@ Una matrice quadrata si dice **diagonale** se sono nulli tutti i suoi elementi f
 È facile controllare che: il prodotto di matrici quadrate dello stesso ordine triangolari alte/basse è ancora triangolare alta/bassa. Evidentemente, se $\mathbf{A}$ è triangolare e simmetrica allora deve essere diagonale; se $\mathbf{A}$ è triangolare sia alta che bassa allora è diagonale.
 
 
-*Esempio* (1). Le matrici:
+*Esempio*. Le matrici:
 $$\begin{pmatrix}
 2 & 3 & -1 \\
 0 & 1 & 1 \\
@@ -1077,6 +1077,8 @@ $$\begin{pmatrix}
 0 & 0 & 4
 \end{pmatrix}$$
 sono, rispettivamente, triangolare alta, triangolare bassa e diagonale.
+
+
 
 ### 4.2 **Rappresentazione matriciale delle trasformazioni lineari**
 
