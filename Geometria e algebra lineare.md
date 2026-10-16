@@ -620,14 +620,14 @@ Si scrive anche talvolta: $S=\langle \mathbf{v}_{1},\mathbf{v}_{2},\cdots,\mathb
 Se i vettori $\mathbf{v}_{1},\mathbf{v}_{2},\cdots,\mathbf{v}_{k}$ sono indipendenti, allora costituiscono una base per $S$, che ha perciò dimensione $k$.
 
 
-Esempio (6). Sia $V$ lo spazio vettoriale dei polinomi di una variabile reale, e $V_{n}$ lo spazio dei polinomi di grado $\le n$. Abbiamo visto (*Esempio* (3)) che $V$ ha dimensione infinita; $V_{n}$ invece è un sottospazio vettoriale di $V$, di dimensione finita: precisamente, $\dim V_{n}$
+Esempio (6). Sia $V$ lo spazio vettoriale dei polinomi di una variabile reale, e $V_{n}$ lo spazio dei polinomi di grado $\le n$. Abbiamo visto (*Esempio* (3)) che $V$ ha dimensione infinita; $V_{n}$ invece è un sottospazio vettoriale di $V$, di dimensione finita: precisamente, $\dim V_{n}=n+1$.
 
 
 #### 3.1.4 **Spazi di funzioni**
 
 Una classe di spazi vettoriali particolarmente importanti nello studio dell'analisi matematica è quella degli <u>spazi di funzioni</u>: sia $I\subset\mathbb{R}$ un intervallo e indichiamo con $\mathcal{F}_I$ l'insieme di tutte le funzioni $f \ : \ I\rightarrow\mathbb{R}$.
 Tra queste funzioni si possono definire un'operazione di somma ed una di prodotto per uno scalare, ponendo per $f,g \ : \ I\rightarrow\mathbb{R}$ e $\lambda \in \mathbb{R}$:
-$$(f+g)(x)=f(x)+g(x)$$$$(\lambda f)(x)=\lambda f(x).$$
+$$(f+g)(x)=f(x)+g(x)\\(\lambda f)(x)=\lambda f(x)$$
 
 È immediato verificare che, munito di queste operazioni, $\mathcal{F}_I$ risulta essere uno spazio vettoriale su $\mathbb{R}$. Inoltre questo spazio ha dimensione infinita (tranne nel caso in cui l'intervallo $I$ sia ridotto ad un solo punto), in quanto non esiste un numero finito di funzioni $f_i \ : \ I\rightarrow\mathbb{R}, \ i=1,2,\cdots,n$ tali che ogni altra funzione non si possa esprimere come loro combinazione lineare.
 
