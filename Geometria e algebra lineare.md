@@ -721,6 +721,9 @@ che si potrebbe facilmente confondere con l'usuale prodotto di funzioni.
 	$$\mathbf{u}\cdot\mathbf{w}=0 \quad \forall \mathbf{u}\in U, \mathbf{w}\in W$$
 
 
+*Esempio* (3). In $\mathbb$
+
+
 #### 3.3.1 **Basi ortonormali**
 
 Consideriamo uno spazio vettoriale di dimensione finita, dotato di prodotto scalare.
