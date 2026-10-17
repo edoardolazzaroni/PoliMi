@@ -3,7 +3,7 @@ status: open
 priority: high
 scheduled: 2026-09-30
 dateCreated: 2026-09-27T14:12:19.256+02:00
-dateModified: 2026-10-15T11:40:38.151+02:00
+dateModified: 2026-10-17T11:20:29.866+02:00
 tags:
   - task
 reminders:
@@ -12,6 +12,6 @@ reminders:
     relatedTo: due
     offset: -PT1H
     description: 1 hour before
-due: 2026-10-16
+due: 2026-10-17
 ---
 
