@@ -1,9 +1,9 @@
 ---
 status: open
-priority: high
+priority: normal
 scheduled: 2026-09-30
 dateCreated: 2026-09-27T14:12:19.256+02:00
-dateModified: 2026-10-17T11:20:29.866+02:00
+dateModified: 2026-10-17T17:25:00.213+02:00
 tags:
   - task
 reminders:
