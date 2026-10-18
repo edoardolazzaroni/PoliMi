@@ -53,20 +53,21 @@ cellStyleRules:
 
 **Università 🎓**:
 
-	 [[Finire capitolo 5 di GAL]]
-	 [[finire capitolo 6 GAL]]
-	 [[finire esempi GAL]]
-	 [[inserire immagini nel file di GAL]]
-	 [[guardare esercitazione GAL-2]]
-	 [[riguardare appunti esercitazioni analisi 1]]
+ [[Finire capitolo 5 di GAL]]
+ [[finire capitolo 6 GAL]]
+ [[finire esempi GAL]]
+ [[inserire immagini nel file di GAL]]
+ [[guardare esercitazione GAL-2]]
+ [[riguardare appunti esercitazioni analisi 1]]
+
 
 **Altro 🏖️**:
-	[[Leggere almeno un capitolo]]
-	[[Caricare tavoletta grafica]]
-	[[Caricare cuffie]]
-	[[Sistemare stanza]]
-	[[Preparare zaino uni]]
-	[[Guardare orari delle lezioni]]
+[[Leggere almeno un capitolo]]
+[[Caricare tavoletta grafica]]
+[[Caricare cuffie]]
+[[Sistemare stanza]]
+[[Preparare zaino uni]]
+[[Guardare orari delle lezioni]]
 
 
 - ## Repository dei corsi 📚:
