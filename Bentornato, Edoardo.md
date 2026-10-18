@@ -61,7 +61,6 @@ cellStyleRules:
  [[riguardare appunti esercitazioni analisi 1]]
 
 **Altro 🏖️**:
-
 [[Leggere almeno un capitolo]]
  [[Caricare tavoletta grafica]]
  [[Caricare cuffie]]
