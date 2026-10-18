@@ -49,27 +49,27 @@ cellStyleRules:
 
 - ## Impegni del giorno 📋 :
 
-[[kanban-default.base|Kanban (elenco tasks)]]:
+	[[kanban-default.base|Kanban (elenco tasks)]]:
+	
+	**Università 🎓**:
+	
+	 [[Finire capitolo 5 di GAL]]
+	 [[finire capitolo 6 GAL]]
+	 [[finire esempi GAL]]
+	 [[inserire immagini nel file di GAL]]
+	 [[guardare esercitazione GAL-2]]
+	 [[riguardare appunti esercitazioni analisi 1]]
+	
+	
+	**Altro 🏖️**:
+	
+	 [[Leggere almeno un capitolo]]
+	 [[Caricare tavoletta grafica]]
+	 [[Caricare cuffie]]
+	 [[Sistemare stanza]]
+	 [[Preparare zaino uni]]
+	 [[riguardare appunti esercitazioni analisi 1]]
 
-**Università 🎓**:
-
- [[Finire capitolo 5 di GAL]]
- [[finire capitolo 6 GAL]]
- [[finire esempi GAL]]
- [[inserire immagini nel file di GAL]]
- [[guardare esercitazione GAL-2]]
- [[riguardare appunti esercitazioni analisi 1]]
-
-
-**Altro 🏖️**:
-
- [[Leggere almeno un capitolo]]
- [[Caricare tavoletta grafica]]
- [[Caricare cuffie]]
- [[Sistemare stanza]]
- [[Preparare zaino uni]]
- [[riguardare appunti esercitazioni analisi 1]]
- 
 
 - ## Repository dei corsi 📚:
 	
