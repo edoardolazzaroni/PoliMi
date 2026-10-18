@@ -68,7 +68,6 @@ cellStyleRules:
 	 [[Caricare cuffie]]
 	 [[Sistemare stanza]]
 	 [[Preparare zaino uni]]
-	 [[riguardare appunti esercitazioni analisi 1]]
 
 
 - ## Repository dei corsi 📚:
