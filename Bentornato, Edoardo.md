@@ -62,6 +62,7 @@ cellStyleRules:
 
 
 **Altro 🏖️**:
+
 [[Leggere almeno un capitolo]]
 [[Caricare tavoletta grafica]]
 [[Caricare cuffie]]
