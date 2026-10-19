@@ -2174,10 +2174,10 @@
 		"currentItemEndArrowhead": "arrow",
 		"currentItemArrowType": "round",
 		"currentItemFrameRole": null,
-		"scrollX": -2351.5923023380146,
-		"scrollY": -267.6084499204801,
+		"scrollX": -3777.6996000195595,
+		"scrollY": -665.5245982953784,
 		"zoom": {
-			"value": 0.432416
+			"value": 0.997886
 		},
 		"currentItemRoundness": "round",
 		"gridSize": 20,
@@ -2204,7 +2204,7 @@
 			"markerName": true,
 			"markerEnabled": true
 		},
-		"objectsSnapModeEnabled": true,
+		"objectsSnapModeEnabled": false,
 		"activeTool": {
 			"type": "selection",
 			"customType": null,
