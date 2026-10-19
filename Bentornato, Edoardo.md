@@ -69,7 +69,7 @@ cellStyleRules:
 	 [[Caricare cuffie]]
 	 [[Sistemare stanza]]
 	 [[Preparare zaino uni]]
-
+	 
 
 - ## Repository dei corsi 📚:
 	
