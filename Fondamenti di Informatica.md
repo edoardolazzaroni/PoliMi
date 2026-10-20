@@ -1,4 +1,8 @@
 
+[[Fondamenti di C.pdf|Fondamenti di C(89)]]
+[[C89-mappa-radiale-fix.excalidraw]]
+[[C89|Cheat Sheet con tutte le funzioni del linguaggio C(89)]]
+
 
 L’informatica è una scienza, ovvero una conoscenza  sistematica di tecniche e metodi per rappresentare ed elaborare l’informazione. È inoltre costituita da una collezione strutturata di 
 dati (osservazioni, fatti, entità fisiche o concettuali) che rappresentano una parte del mondo reale.
@@ -138,6 +142,3 @@ Il complemento a due è un sistema binario, ma il primo bit (quello a sinistra,
 				- Se gli addendi sono tra loro concordi, si verifica se e solo se il risultato è discorde (addendi positivi ma risultato negativo o addendi negativi ma risultato positivo)
 				- Nelle operazioni su numeri C2 l’overflow non ha alcuna relazione con il riporto, cioè si può avere overflow senza riporto perduto (due addendi positivi e risultato negativo) e viceversa.
 
-
-
-Per quanto concerne lo studio del linguaggio C(89), utilizzato per la risoluzione degli esercizi, fare affidamento al [[Fondamenti di C.pdf|pdf]].
