@@ -50,7 +50,6 @@ views:
       direction: ASC
     order:
       - status
-      - priority
       - due
       - file.tags
       - blockedBy
@@ -60,6 +59,7 @@ views:
       - contexts
       - projects
       - scheduled
+      - priority
     sort:
       - property: tasknotes_manual_order
         direction: DESC
