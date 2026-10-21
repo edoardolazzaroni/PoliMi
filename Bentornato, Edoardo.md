@@ -97,7 +97,7 @@ cellStyleRules:
 
 
 
-Calendario integrato in Obsidian, impegni conservati nella cartella [[Calendari]].
+Calendario integrato in Obsidian, impegni conservati nella cartella [[Calendario]].
 Integrazione con Copilot (harness Opencode), dotato di [[Copilot Skills Index]].
 
 Questo vault è gestito e sincronizzato mediante [[publish-your-obsidian-notes-with-linked-blog-starter|Github]].
