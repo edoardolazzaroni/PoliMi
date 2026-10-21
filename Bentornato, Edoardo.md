@@ -48,8 +48,9 @@ cellStyleRules:
 
 ```dataview
 
-TASKS
-FROM "PoliMi/TaskNotes/Tasks"
+TABLE due AS "Scadenza", priority AS "Priorità", status AS "Stato"
+FROM "TaskNotes"
+WHERE status != "done" SORT due ASC
 ```
 
 - ## Impegni del giorno 📋 :
