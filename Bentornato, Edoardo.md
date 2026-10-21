@@ -56,7 +56,7 @@ WHERE Date != null
 TABLE due AS "Scadenza", priority AS "Priorità", status AS "Stato"
 FROM "PoliMi/TaskNotes/Tasks"
 WHERE status != "done"
-SORT due field "Scadenza"
+SORT due DESC
 ```
 
 
