@@ -47,8 +47,9 @@ cellStyleRules:
 ```
 
 ```dataview
-CALENDAR Date
-WHERE Date != null
+TABLE without ID link(file.link, title) as "Event", startTime as "Start", endTime as "End" from "Calendar"
+FLATTEN dateformat(date(this.file.day), "EEE") AS wDay
+FLATTEN ((x) => { Mon: "M", Tue: "T", Wed: "W", Thu: "R", Fri: "F", Sat: "S" , Sun: "U" }[x])(wDay) AS sDay where contains(daysOfWeek, sDay) or file.day = this.file.day sort startTime ASC
 ```
 
 - ## Impegni del giorno 📋 :
