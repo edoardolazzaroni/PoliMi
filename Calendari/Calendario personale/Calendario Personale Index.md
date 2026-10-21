@@ -1,7 +1,7 @@
 #INDEX of all personal appointments
 
 ```dataview
-TABLE WITHOUT ID file.link AS "Note Name" FROM "PoliMi/Calendari/Calendario personale"
+LIST WITHOUT ID file.link FROM "PoliMi/Calendari/Calendario personale"
 ````
 
 
