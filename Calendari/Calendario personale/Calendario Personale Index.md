@@ -1,9 +1,7 @@
 #INDEX of all personal appointments
 
-```dataviewjs
-<!-- QueryToSerialize: LIST
-FROM #"PoliMi/Calendari/Calendario personale"
-SORT file.name ASC -->
+```dataview
+<!-- QueryToSerialize: LIST FROM #"PoliMi/Calendari/Calendario personale"
 ```
 LIST
 FROM "PoliMi/Calendari/Calendario personale"
