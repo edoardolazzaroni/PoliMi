@@ -49,7 +49,7 @@ cellStyleRules:
 ```dataview
 
 TASKS
-FROM
+FROM "PoliMi/TaskNotes/Tasks"
 ```
 
 - ## Impegni del giorno 📋 :
