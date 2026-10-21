@@ -15,7 +15,6 @@ Index of all calendars
 	- **Calendario esami**
 		- [[2026-10-30 Geometria ed algebra lineare (parziale)]]
 		- [[2026-11-02 Analisi I (parziale)]]
-		- [[Calendario Esami Index]]
 	- [[(Every F) Analisi II (5.0.2)]]
 	- [[(Every F) Fondamenti di Elettronica (25.0.1)]]
 	- [[(Every F) LOGICA e ALGEBRA (5.1.1)]]
@@ -27,6 +26,5 @@ Index of all calendars
 	- [[(Every T) ACSO (B.3.4)]]
 	- [[(Every T) Fondamenti di Elettronica (2.1.2)]]
 	- [[(Every W) GAL (9.0.1)]]
-	- [[Calendario Università Index]]
 
 %% End Waypoint %%
