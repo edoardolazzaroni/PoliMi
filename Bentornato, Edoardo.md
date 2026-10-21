@@ -58,21 +58,21 @@ let entries = rawData.map((p) => ({
 	allDay: p.allDay,
 	start: DateTime.fromISO(p.start).toJSDate(),
 	end: DateTime.fromISO(p.end).toJSDate(),
-id: p.id + ".md",
-title: this.app.vault.getAbstractFileByPath(p.id + ".md") ? '📄' + p.title : p.title,
+	id: p.id + ".md",
+	title: this.app.vault.getAbstractFileByPath(p.id + ".md") ? '📄' + p.title : p.title,
 }));
 // console.log(entries.array());
 let isMobile = window.innerWidth < 500;
-let calendar = renderCalendar(this.container, [entries.array()], }
+let calendar = renderCalendar(this.container, [entries.array()], {
 
-|weekNumbers: true,|
-|initialView: 'dayGridMonth',|
-|eventClick: async (info) => {|
-|console.log(info.event.id)|
-|let fileExists = await this.app.vault.adapter.exists(info.event.id);|
-|if (fileExists) {|
-|let file = this.app.vault.getAbstractFileByPath(info.event.id);|
-|console.log(file)|
+	weekNumbers: true,
+	initialView: 'dayGridMonth',
+eventClick: async (info) => {
+console.log(info.event.id)
+let fileExists = await this.app.vault.adapter.exists(info.event.id);
+if (fileExists) {
+let file = this.app.vault.getAbstractFileByPath(info.event.id);
+console.log(file)
 |if (info.jsEvent.getModifierState("Control")|
 |\| info.jsEvent.getModifierState("Meta")) {|
 |let leaf = this.app.workspace.createLeafBySplit(this.app.workspace.getMostRecentLeaf(), "vertical");|
