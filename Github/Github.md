@@ -1,4 +1,3 @@
-# publish Overview
  
 ```ccard
 type: folder_brief_live
@@ -19,7 +18,6 @@ type: folder_brief_live
 - [[linked-blog-starter-does-not-reinvent-wheel]]
 - [[publish-your-obsidian-notes-with-linked-blog-starter]]
 - [[reinventing-the-wheel]]
-- [[Senza nome]]
 - [[statically-generated]]
 - [[update-publish-settings-github-actions]]
 - [[works-out-of-the-box-with-markdown-files]]
