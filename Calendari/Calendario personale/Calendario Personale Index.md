@@ -2,6 +2,7 @@
 
 ```dataview
 LIST
+FROM "PoliMi/Calendari/Calendario personale"
 <!-- QueryToSerialize: LIST FROM "PoliMi/Calendari/Calendario personale"-->
 <!-- SerializedQuery: LIST FROM "PoliMi/Calendari/Calendario personale" -->
 - [[(Every R) Palestra]]
