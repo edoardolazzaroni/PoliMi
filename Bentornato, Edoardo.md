@@ -47,8 +47,8 @@ cellStyleRules:
 ```
 
 ```dataview
-CALENDAR file.day
-FROM "Calendario"
+CALENDAR Date
+WHERE Date != null
 ```
 
 - ## Impegni del giorno 📋 :
