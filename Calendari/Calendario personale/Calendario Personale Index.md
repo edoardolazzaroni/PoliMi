@@ -2,5 +2,5 @@
 
 ```dataview
 TABLE
-FROM "PoliMi/Calendari/Calendario personale"
+FROM [["PoliMi/Calendari/Calendario personale"]]"PoliMi/Calendari/Calendario personale"
 ````
