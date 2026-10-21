@@ -48,66 +48,7 @@ cellStyleRules:
 
 ```dataviewjs
 
-this.container.style.minHeight = "1000px";
-const { renderCalendar } = app.plugins.plugins["obsidian-full-calendar"];
-let today = moment().format("GGGG-[W]WW");
-let rawData = await dv.io.csv("DataStores/csv/" + moment().format("GGGG-[W]WW") + ".csv");
-let entries = rawData.map((p) => ({
-	backgroundColor: p.calendar == 'family' ? '#452538' : '#4d95f7',
-	borderColor: this.app.vault.getAbstractFileByPath(p.id + ".md") ? '#406f0b' : '#4d95f7',
-	allDay: p.allDay,
-	start: DateTime.fromISO(p.start).toJSDate(),
-	end: DateTime.fromISO(p.end).toJSDate(),
-	id: p.id + ".md",
-	title: this.app.vault.getAbstractFileByPath(p.id + ".md") ? '📄' + p.title : p.title,
-}));
-// console.log(entries.array());
-let isMobile = window.innerWidth < 500;
-let calendar = renderCalendar(this.container, [entries.array()], {
-
-	weekNumbers: true,
-	initialView: 'dayGridMonth',
-	eventClick: async (info) => {
-		console.log(info.event.id)
-		let fileExists = await this.app.vault.adapter.exists(info.event.id);
-		if (fileExists) {
-			let file = this.app.vault.getAbstractFileByPath(info.event.id);
-	console.log(file)
-	if (info.jsEvent.getModifierState("Control")
-|\| info.jsEvent.getModifierState("Meta")) {|
-|let leaf = this.app.workspace.createLeafBySplit(this.app.workspace.getMostRecentLeaf(), "vertical");|
-|await leaf.openFile(file);|
-|calendar.render();|
-|} else {|
-|let leaf = this.app.workspace.getMostRecentLeaf();|
-|await leaf.openFile(file);|
-|}|
-|}|
-|},|
-|eventMouseEnter: (info) => {|
-|console.log(info)|
-|const path = info.event.id;|
-|this.app.workspace.trigger("hover-link", {|
-|event: info.jsEvent,|
-|source: "custom-cal",|
-|hoverParent: info.jsEvent.target,|
-|targetEl: info.jsEvent.target,|
-|linktext: path,|
-|sourcePath: path|
-|});|
-|}|
-||
-|});|
-|calendar.setOption('weekNumbers', true)|
-|calendar.setOption('firstDay', 1)|
-|calendar.setOption('scrollTime', 7)|
-|calendar.setOption('displayEventEnd', false)|
-|calendar.setOption('displayEventTime', false)|
-||
-||
-|calendar.render();|
-||
-|```|
+this.container.style.minHeight = "1000px"; const { renderCalendar } = app.plugins.plugins["obsidian-full-calendar"]; let today = moment().format("GGGG-[W]WW"); let rawData = await dv.io.csv("DataStores/csv/" + moment().format("GGGG-[W]WW") + ".csv"); let entries = rawData.map((p) => ({ backgroundColor: p.calendar == 'family' ? '#452538' : '#4d95f7', borderColor: this.app.vault.getAbstractFileByPath(p.id + ".md") ? '#406f0b' : '#4d95f7', allDay: p.allDay, start: DateTime.fromISO(p.start).toJSDate(), end: DateTime.fromISO(p.end).toJSDate(), id: p.id + ".md", title: this.app.vault.getAbstractFileByPath(p.id + ".md") ? '📄' + p.title : p.title, })); // console.log(entries.array()); let isMobile = window.innerWidth < 500; let calendar = renderCalendar(this.container, [entries.array()], { weekNumbers: true, initialView: 'dayGridMonth', eventClick: async (info) => { console.log(info.event.id) let fileExists = await this.app.vault.adapter.exists(info.event.id); if (fileExists) { let file = this.app.vault.getAbstractFileByPath(info.event.id); console.log(file) if (info.jsEvent.getModifierState("Control") || info.jsEvent.getModifierState("Meta")) { let leaf = this.app.workspace.createLeafBySplit(this.app.workspace.getMostRecentLeaf(), "vertical"); await leaf.openFile(file); calendar.render(); } else { let leaf = this.app.workspace.getMostRecentLeaf(); await leaf.openFile(file); } } }, eventMouseEnter: (info) => { console.log(info) const path = info.event.id; this.app.workspace.trigger("hover-link", { event: info.jsEvent, source: "custom-cal", hoverParent: info.jsEvent.target, targetEl: info.jsEvent.target, linktext: path, sourcePath: path }); } }); calendar.setOption('weekNumbers', true) calendar.setOption('firstDay', 1) calendar.setOption('scrollTime', 7) calendar.setOption('displayEventEnd', false) calendar.setOption('displayEventTime', false) calendar.render();
 ```
 
 - ## Impegni del giorno 📋 :
