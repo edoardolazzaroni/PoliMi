@@ -46,6 +46,9 @@ cellStyleRules:
 
 ```
 
+```dataview
+FILE
+```
 
 - ## Impegni del giorno 📋 :
 
