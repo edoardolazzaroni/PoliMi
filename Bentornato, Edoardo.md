@@ -53,11 +53,10 @@ WHERE Date != null
 
 - ## Impegni del giorno 📋 :
 ```dataview
-
 TABLE due AS "Scadenza", priority AS "Priorità", status AS "Stato"
 FROM "PoliMi/TaskNotes/Tasks"
 WHERE status != "done"
-SORT due ASC
+SORT due AS S
 ```
 
 
