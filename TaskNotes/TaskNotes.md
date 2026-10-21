@@ -1,3 +1,8 @@
+	# t Overview
+```ccard
+type: folder_brief_live
+```
+
 #INDEX of all notes.
 
 %% Begin Waypoint %%
