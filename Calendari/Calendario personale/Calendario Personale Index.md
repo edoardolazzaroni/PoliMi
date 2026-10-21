@@ -17,5 +17,7 @@
 
 <!-- SerializedQuery END -->
 ```
+
+
 LIST
 FROM "PoliMi/Calendari/Calendario personale"
