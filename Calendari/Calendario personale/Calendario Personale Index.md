@@ -1,12 +1,9 @@
 #INDEX of all personal appointments
 
-```dataview
-```
+```dataviewjs
 <!-- QueryToSerialize: LIST
-FROM #quotes
-WHERE public_note = true
+FROM #"PoliMi/Calendari/Calendario personale"
 SORT file.name ASC -->
 ```
 LIST
 FROM "PoliMi/Calendari/Calendario personale"
-````
