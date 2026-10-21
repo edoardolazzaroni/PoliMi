@@ -46,6 +46,11 @@ cellStyleRules:
 
 ```
 
+```dataview
+CALENDAR file.day
+FROM "Calendario"
+```
+
 - ## Impegni del giorno 📋 :
 ```dataview
 
@@ -54,6 +59,7 @@ FROM "PoliMi/TaskNotes/Tasks"
 WHERE status != "done"
 SORT due ASC
 ```
+
 
 - ## Repository dei corsi 📚:
 	
