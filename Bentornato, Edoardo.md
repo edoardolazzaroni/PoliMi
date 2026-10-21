@@ -67,13 +67,13 @@ let calendar = renderCalendar(this.container, [entries.array()], {
 
 	weekNumbers: true,
 	initialView: 'dayGridMonth',
-eventClick: async (info) => {
-console.log(info.event.id)
-let fileExists = await this.app.vault.adapter.exists(info.event.id);
-if (fileExists) {
-let file = this.app.vault.getAbstractFileByPath(info.event.id);
-console.log(file)
-|if (info.jsEvent.getModifierState("Control")|
+	eventClick: async (info) => {
+		console.log(info.event.id)
+		let fileExists = await this.app.vault.adapter.exists(info.event.id);
+		if (fileExists) {
+			let file = this.app.vault.getAbstractFileByPath(info.event.id);
+	console.log(file)
+	if (info.jsEvent.getModifierState("Control")
 |\| info.jsEvent.getModifierState("Meta")) {|
 |let leaf = this.app.workspace.createLeafBySplit(this.app.workspace.getMostRecentLeaf(), "vertical");|
 |await leaf.openFile(file);|
