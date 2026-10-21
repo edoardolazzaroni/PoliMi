@@ -3,3 +3,9 @@
 [[(Every T) Palestra]]
 [[(Every W) Palestra]]
 [[(Every R) Palestra]]
+
+````
+```dataview
+LIST 
+```
+````
