@@ -46,37 +46,14 @@ cellStyleRules:
 
 ```
 
+- ## Impegni del giorno 📋 :
 ```dataview
 
 TABLE due AS "Scadenza", priority AS "Priorità", status AS "Stato"
 FROM "PoliMi/TaskNotes/Tasks"
 WHERE status != "done"
-SORT due priority
+SORT due ASC
 ```
-
-- ## Impegni del giorno 📋 :
-
-	[[kanban-default.base|Kanban (elenco tasks)]]:
-	
-	**Università 🎓**:
-	
-	 [[Finire capitolo 5 di GAL]]
-	 [[finire capitolo 6 GAL]]
-	 [[finire esempi GAL]]
-	 [[inserire immagini nel file di GAL]]
-	 [[finire mappa C(89)]]
-	 [[guardare esercitazione GAL-2]]
-	 [[riguardare appunti esercitazioni analisi 1]]
-	
-	
-	**Altro 🏖️**:
-	
-	 [[Leggere almeno un capitolo]]
-	 [[Caricare tavoletta grafica]]
-	 [[Caricare cuffie]]
-	 [[Sistemare stanza]]
-	 [[Preparare zaino uni]]
-	 
 
 - ## Repository dei corsi 📚:
 	

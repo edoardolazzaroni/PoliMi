@@ -1,9 +1,9 @@
 ---
-status: in-progress
+status: done
 priority: normal
 scheduled: 2026-09-30
 dateCreated: 2026-09-27T14:12:19.256+02:00
-dateModified: 2026-10-21T23:35:23.626+02:00
+dateModified: 2026-10-21T23:37:30.790+02:00
 tags:
   - task
 reminders:
@@ -13,5 +13,6 @@ reminders:
     offset: -PT1H
     description: 1 hour before
 due: 2026-10-22
+completedDate: 2026-10-21
 ---
 
