@@ -48,41 +48,8 @@ cellStyleRules:
 
 ```dataview
 
-table without ID
-	link(file.link, title) as "Event",
-	startTime as "Beginning",
-	endTime as "End"
-from "Agenda"
-FLATTEN dateformat(date(this.file.day), "EEE") AS wDay
-FLATTEN ((x) =>{ Mon: "M", Tue: "T", Wed: "W", Thu: "R", Fri: "F", Sat: "S" , Sun: "U" }[x])(wDay) AS sDay
-WHERE
-
-   (allDay
-   and this.file.day<endDate
-   and this.file.day>=date
-   )
-
-   or (
-   type="recurring"
-   and this.file.day>=startRecur
-   and endRecur!=null
-   and this.file.day<endRecur
-   and contains(daysOfWeek, sDay)
-   )
-
-   or (
-   type="recurring"
-   and this.file.day>=startRecur
-   and endRecur=null
-   and contains(daysOfWeek, sDay)
-   )
-
-   or (
-   !allDay
-   and date=this.file.day
-   )
-
-sort startTime ASC
+TASKS
+FROM
 ```
 
 - ## Impegni del giorno 📋 :
