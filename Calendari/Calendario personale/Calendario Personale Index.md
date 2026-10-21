@@ -1,7 +1,7 @@
 #INDEX of all personal appointments
 
 ```dataview
-<!-- QueryToSerialize: LIST FROM "PoliMi/Calendari/Calendario personale"-->
+<!-- QueryToSerialize: TASK FROM "PoliMi/Calendari/Calendario personale"-->
 <!-- SerializedQuery: LIST FROM "PoliMi/Calendari/Calendario personale" -->
 - [[(Every R) Palestra]]
 - [[(Every T) Palestra]]
