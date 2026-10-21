@@ -1,6 +1,6 @@
 #INDEX of all personal appointments
 
 ```dataview
-LIST
+TABLE
 FROM "PoliMi/Calendari/Calendario personale"
 ````
