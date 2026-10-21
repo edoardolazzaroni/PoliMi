@@ -4,8 +4,8 @@
 [[(Every W) Palestra]]
 [[(Every R) Palestra]]
 
-````
+
 ```dataview
-LIST 
-```
+LIST
+FROM Calendario Personale
 ````
