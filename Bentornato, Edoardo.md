@@ -47,7 +47,10 @@ cellStyleRules:
 ```
 
 ```dataview
-table without ID link(file.link, title) as "Event", startTime as "Start", endTime as "End" from "Calendar" where file.day = this.file.day sort startTime ASC
+table without ID link(file.link, title) as "Event", startTime as "Start", endTime as "End"
+from "Calendar"
+where file.day = this.file.day
+sort startTime ASC
 ```
 
 - ## Impegni del giorno 📋 :
