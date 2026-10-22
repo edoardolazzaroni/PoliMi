@@ -1,3 +1,6 @@
+---
+banner: "https://i.extremetech.com/imagery/content-types/04syl2vD0t7oZLT8MxlpHOx/hero-image.fit_lim.v1729775493.jpg"
+---
 
 
 # **Capitolo I: Il modello circuitale**
