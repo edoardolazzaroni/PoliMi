@@ -10,55 +10,7 @@ In questo corso, acquisiremo la capacità di eseguire l’analisi dei sistemi el
 Va precisato che il termine di sistema elettrico può riferirsi a realtà fisiche molto diverse tra loro e tutte fondamentali per la preparazione dell’Ingegnere dell’area ICT (Information and Communication Technology). Facciamo degli esempi._
 
 - Un primo tipo di sistema elettrico è rappresentato dalla rete di trasporto/distribuzione dell’energia elettrica. Questa è formata da un insieme di fili di rame, chiamati conduttori, che collegano punti in cui l’energia viene prodotta (*es*: le centrali elettriche, impianti fotovoltaici...) ai punti in cui viene utilizzata (*es*: le nostre abitazioni, gli impianti industriali, le linee di trasporto metropolitano o dei treni). Tali reti hanno dimensioni dell’ordine delle centinaia di chilometri dato che si possono estendere su tutto il territorio di una nazione.
-- Un secondo esempio, altrettanto rilevante, è rappresentato dai sistemi della micro e nano elettronica. Questo secondo esempio di rete non ha lo scopo di trasportare energia bensì di elaborare l’informazione. L’energia elettrica nel primo esempio e l’informazione nel secondo sono rappresentate (o deter-
-
-Figure 1.1: Esempio stilizzato di rete
-
-di distribuzione dell’energia: da una
-
-centrale di produzione tradizionale
-
-e da un campo eolico (energia rin-
-
-novabile) partono dei fili di rame che
-
-trasportano l’energia sotto forma di
-
-variabili elettriche alle abitazioni dove
-
-viene utilizzata.
-
-Figure 1.2: Una scheda elettronica.
-
-Figure 1.3: Collegamenti con piste di
-
-rame sul retro della scheda6 nota1:il modello circuitale
-
-minate) da alcune grandezze fisiche misurabili chiamate grandezze
-
-descrittive. Alcuni dei componenti che si vedono sulla scheda in fig.
-
-1.2 sono a loro volta dei sistemi elettrici formati al loro interno da
-
-una rete complessa di collegamenti. La fig. 1.4 mostra uno di questi
-
-componenti chiamato microprocessore, mostrato chinato coi contatti
-
-esterni rivolti verso l’alto, e che funziona da cpu (central processing
-
-unit) di un computer.
-
-Oltre che nei computer e lap-top troviamo i microprocessori negli
-
-smart-phones, nei controlli dei robots, autovetture, aeroplani, nei
-
-sistemi di comunicazione via satellite, ecc.. Un micro-processore ha
-
-le dimensioni dell’ordine del centimetro quadrato e può contenere
-
-miliardi di micro/nano componenti, detti dispositivi, collegati tra
-
-loro da micro-conduttori di rame.
+- Un secondo esempio, altrettanto rilevante, è rappresentato dai sistemi della micro e nano elettronica. Questo secondo esempio di rete non ha lo scopo di trasportare energia bensì di elaborare l’informazione. L’energia elettrica nel primo esempio e l’informazione nel secondo sono rappresentate (o determinate) da alcune grandezze fisiche misurabili chiamate <u>grandezze descrittive</u>.
 
 Nonostante la spaventosa differenza di scala geometrica tra una
 
