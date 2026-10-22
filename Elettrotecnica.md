@@ -1,5 +1,4 @@
 
-
 # **Capitolo I: Il modello circuitale**
 
 
@@ -93,4 +92,5 @@ La misura di corrente richiede che il filo metallico in cui scorre il flusso di 
 Osserviamo che da un punto di vista matematico, le misure di tensione o di corrente istituiscono una relazione che ad un ente geometrico astratto fa corrispondere uno ed un solo numero reale (dotato di segno). Si dirà allora, ad esempio, che lungo una certa linea orientata $v_{i}$ è una tensione di $−2.1 \ V$ o di $5.0 \ V$ o che la corrente che attraversa una certa superficie orientata vale $0.5 \ A$ o $−3 \ mA$.
 
 
-### 1.2.2 **Gli strumenti di misura**
+### 1.2.2 **Proprietà della tensione e della corrente**
+
