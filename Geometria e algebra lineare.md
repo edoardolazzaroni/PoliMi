@@ -1,3 +1,6 @@
+---
+banner: "![[Elettrotecnica-banner.jpg]]"
+---
 
 [Diario GAL 2024 con tutte le registrazioni ed i file note](https://polimi365-my.sharepoint.com/:x:/g/personal/10141626_polimi_it/IQD8jfWD1XOTQbJlFql3S9VRAVt_9KKDRvasFv4U1gpcGpE?e=J4XlXE)
 
