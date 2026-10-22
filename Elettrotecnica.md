@@ -7,21 +7,9 @@
 
 In questo corso, acquisiremo la capacità di eseguire l’analisi dei sistemi elettrici. Dalla descrizione di un dato sistema in termini di elementi che lo compongono e di come sono connessi tra di loro, impareremo una metodologia generale per calcolare il valore delle grandezze elettriche che lo descrivono e con esse a capire come funziona e a che cosa serve. L’obiettivo verrà raggiunto diventando padroni di un modello matematico fondamentale dell’Ingegneria chiamato il **modello circuitale**.
 
-Va precisato che il termine di sistema elettrico può riferirsi a realtà fisiche molto diverse tra loro e tutte fondamentali per la preparazione dell’Ingegnere dell’area ICT (Information and Communication Technology). Facciamo degli esempi.
+Va precisato che il termine di sistema elettrico può riferirsi a realtà fisiche molto diverse tra loro e tutte fondamentali per la preparazione dell’Ingegnere dell’area ICT (Information and Communication Technology). Facciamo degli esempi._
 
-Un primo tipo di sistema elettrico è rappresentato dalla rete di
-
-trasporto/distribuzione dell’energia elettrica. Questa è formata da
-
-un insieme di fili di rame, chiamati conduttori, che collegano punti
-
-in cui l’energia viene prodotta, es. le centrali elettriche, impianti
-
-fotovoltaici, ai punti in cui viene utilizzata, es. le nostre abitazioni,
-
-gli impianti industriali, le linee di trasporto metropolitano o dei treni.
-
-Tali reti hanno dimensioni dell’ordine delle centinaia di chilometri
+- Un primo tipo di sistema elettrico è rappresentato dalla rete di trasporto/distribuzione dell’energia elettrica. Questa è formata da un insieme di fili di rame, chiamati conduttori, che collegano punti in cui l’energia viene prodotta (*es*: le centrali elettriche, impianti fotovoltaici...) ai punti in cui viene utilizzata (*es*: le nostre abitazioni, gli impianti industriali, le linee di trasporto metropolitano o dei treni). Tali reti hanno dimensioni dell’ordine delle centinaia di chilometri
 
 dato che si possono estendere su tutto il territorio di una nazione. La
 
