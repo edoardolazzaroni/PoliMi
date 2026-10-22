@@ -22,3 +22,180 @@ D’altra parte, è importante fin da subito sottolineare che, sebbene molto pot
 
 ## 1.2 **Le grandezze descrittive: tensione e corrente**
 
+Gli uomini hanno imparato a descrivere e dominare i fenomeni elettrici ammettendo che essi siano dovuti ad una proprietà della materia chiamata carica elettrica. La carica elettrica si manifesta in quanto i corpi che la possiedono esercitano l’un l’altro delle interazioni (cioè delle forze). Esistono due tipi distinti di carica elettrica, indicati convenzionalmente come cariche di tipo positivo e di tipo negativo. Tra cariche elettriche dello stesso tipo si misura una forza che tende a respingerle mentre tra cariche di tipo opposto tale forza è di tipo attrattivo. La figura 1.6 mostra qualitativamente le forze che si esercitano tra cariche puntiformi, cioè le cui dimensioni siano trascurabili.
+
+Gli atomi che formano la materia sono composti da particelle
+
+che possiedono sia carica positiva che negativa in egual numero
+
+e che tendono quindi a neutralizzare vicendevolmente gli effetti.
+
+Questo fa si che a livello macroscopico i corpi materiali non manifestano
+
+particolari effetti elettrici. Per “scatenare” tali fenomeni è necessario
+
+che, attraverso una qualche azione, alcune cariche dello stesso tipo
+
+siano in eccesso nel corpo in modo da prevalere su quelle di tipo
+
+opposto. È allora evidente che per sottrarre/apportare alcune cariche
+
+al corpo è necessario applicare una forza che vinca la forza di tipo
+
+attrattivo/repulsivo, rispettivamente, che le lega alle altre cariche
+
+del corpo, cioè è necessario compiere un lavoro. Un primo aspetto
+
+comune a tutti i fenomeni elettrici è che affinché essi si manifestino
+
+deve esistere un’azione attraverso cui si separano cariche elettriche di
+
+tipo opposto eseguendo un lavoro.
+
+Il primo esperimento in cui l’elettrizzazione della materia fu con-
+
+dotta in modo controllato e ripetibile, fu quello eseguito da Alessan-
+
+dro Volta alla fine del 1799 quando riuscì a costruire il primo esempio
+
+di pila elettrica. La pila di Volta è composta da dischi di rame e
+
+zinco disposti in modo alternato uno sull’altro interponendo tra loro
+
+una spugna imbevuta in una soluzione di acido (solforico).
+
+Per effetto della reazione chimica che ha luogo tra i due metalli,
+
+alcuni atomi con un eccesso di carica positiva, detti ioni positivi, ven-
+
+gono spostati verso un capo della pila mentre contemporaneamente
+
+ioni negativi si spostano al capo opposto. In questo modo dunque il
+
+lavoro proveniente dalla reazione chimica si trasforma nel lavoro elettrico
+
+necessario per attuare la separazione delle cariche. Volta si accorse che
+
+quando due fili metallici collegati agli estremi della pila venivano
+
+impugnati si avvertiva la sensazione di essere attraversati da un flu-
+
+capitolo 1 7
+
+Figure 1.6: Azioni tra cariche pun-
+
+tiformi.
+
+Figure 1.7: Il circuito con la pila di
+
+Volta.8 nota1:il modello circuitale
+
+ido, una sensazione che oggi potremmo definire "elettrizzante". Alla
+
+luce delle nostre conoscenze oggi sappiamo che ciò accade perché le
+
+cariche positive e negative separate dal lavoro chimico della pila si
+
+ricongiungono muovendosi lungo il cammino che si viene a formare
+
+lungo i due conduttori metallici e l’uomo che li impugna. Si viene
+
+così a formare un circuito chiuso lungo cui le cariche si mettono in
+
+movimento dando vita ad una circolazione continua (o flusso) di car-
+
+ica. Convenzionalmente si attribuisce a tale circolazione il verso del
+
+movimento delle cariche positive.
+
+L’esperimento mette in luce due aspetti della manifestazione elet-
+
+trica:
+
+a. esiste un dispositivo, la pila, che funziona come generatore del
+
+fenomeno elettrico in quanto è in grado di separare cariche di
+
+segno opposto svolgendo un lavoro;
+
+b. si instaura un movimento continuo di cariche elettriche lungo un
+
+percorso chiuso.
+
+L’esperimento della pila di Volta rappresenta un caso elementare di
+
+circuito elettrico e ad ognuno dei due aspetti fondamentali dell’esperimento,
+
+lavoro elettrico e movimento di cariche, siamo in grado di associare
+
+una grandezza elettrica descrittiva del fenomeno.
+
+La tensione elettrica è una grandezza fisica associata ad una linea
+
+γ orientata nello spazio, cioè su cui è stato fissato un verso di percor-
+
+renza, che congiunge due punti A e B.
+
+Chiamiamo tensione elettrica lungo la linea γ e la indichiamo
+
+come V(γ) il lavoro elettrico che noi dobbiamo compiere in antag-
+
+onismo alle forze elettriche per muovere lungo tale linea una carica
+
+di prova positiva e unitaria. L’unità di misura della tensione è il volt
+
+[V], dal nome dell’inventore della pila. Chiaramente il lavoro da noi
+
+svolto sarà positivo se il movimento della carica di prova avviene
+
+effettivamente in opposizione alle forze elettriche che agiscono su di
+
+essa oppure sarà negativo (cioè non svolto da noi ma assorbito) se il
+
+movimento avviene concordemente alle forze elettriche. Pertanto la
+
+tensione elettrica è una grandezza dotata di segno.
+
+Figure 1.8: La tensione elettrica lungo la
+
+linea γ è indicata come V(γ).
+
+Per definire la seconda grandezza elettrica, si supponga di voler
+
+misurare il flusso di carica all’interno del filo metallico. A tale propos-
+
+ito si taglia il filo venendo a formare la superficie sezione σ.
+
+Figure 1.9: Il filo viene sezionato iden-
+
+tificando così la sezione σ di cui si deve
+
+scegliere un verso di attraversamento.Si fissa arbitrariamente un verso di attraversamento come posi-
+
+tivo che induce un orientiamo della superficie σ e si conta la quantità
+
+netta di carica positiva che attraversa la superficie. La corrente elet-
+
+trica in un mezzo conduttivo (cioè che ne consente la circolazione)
+
+è una grandezza descrittiva associata ad una superficie σ orientata,
+
+che indichiamo come I(σ), definita come la quantità di carica elettrica
+
+netta che attraversa la sezione nell’unità di tempo. L’aggettivo netta
+
+si riferisce al fatto che in un dato istante di osservazione la superficie
+
+in esame potrebbe essere attraversata da una carica Q1 che si muove
+
+concorde col verso di orinetazione assunto ed una carica Q2 che in-
+
+vece si muove in senso opposto. La carica netta in questo caso è data
+
+da Q1−Q2. L’unità di misura della corrente è chiamata ampere [A],
+
+in onore del fisico francese che la studiò. Anche il valore della corrente
+
+è dotato di segno, ad indicare se il flusso netto di carica è concorde o
+
+discorde rispetto al senso di attraversamento fissato sulla superficie.
