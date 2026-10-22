@@ -45,7 +45,7 @@ Sui vettori si possono definire varie operazioni: cominciamo ad introdurre le du
 La somma $\mathbf{v}+(-\mathbf{w})$ si scrive semplicemente $\mathbf{v}-\mathbf{w}$, definendo in tal modo la <u>differenza tra due vettori</u>.
 
 ![[Geometria e Algebra Lineare-1790433651481.webp|372]]
-###### #Figura(3) *Differenza tra vettori.*
+#Figura(3) *Differenza tra vettori.*
 
 
 Le proprietà appena enunciate possono essere dimostrate geometricamente, in base alla definizione di somma.
@@ -307,7 +307,7 @@ Una retta nello spazio è individuata da:
 a) Cominciamo col primo caso. Consideriamo un punto $P_0(x_0,y_0,z_0)$ ed un vettore $\mathbf{v}=(a,b,c)$ non nullo; ci proponiamo di scrivere l'equazione della retta passante per $P_0$, parallela a $\mathbf{v}$.
 
 ![[Geometria e Algebra Lineare-1791120505287.webp|512]]
-###### #Figura(17)
+#Figura(17)
 
 
 Dalla figura si vede che un generico punto $P(x,y,z)$ appartentente alla retta si trova aggiungendo al vettore posizione $\mathbf{p}_0=\overrightarrow{OP_0}$ un opportuno multiplo $t\mathbf{v}$ di $\mathbf{v}$.

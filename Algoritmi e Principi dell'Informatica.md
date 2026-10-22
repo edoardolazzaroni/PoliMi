@@ -87,11 +87,11 @@ In questo capitolo verrà introdotto il concetto di automa e se ne analizzeranno
 
 Un automa è rappresentato graficamente come un insieme di circonferenze denominate (che rappresentano gli stati dell’automa), ognuna delle quali è connessa ad altri stati tramite frecce. Su tali frecce è segnata la condizione da soddisfare per intraprendere quel passaggio di stato e come viene modificato lo stato durante il passaggio. Lo stato iniziale si riconosce per via di una freccia entrante nel nodo, mentre gli stati finali sono rappresentati da circonferenze con bordo doppio.
 
-###### #Figura(1) *Esempio di rappresentazione di un automa a stati finiti:*
+#Figura(1) *Esempio di rappresentazione di un automa a stati finiti:*
 
 ![[Screenshot 2026-05-23 alle 16.07.21.png|363]]
 
-###### #Figura(2) *Esempio di rappresentazione di una macchina di Turing:*
+#Figura(2) *Esempio di rappresentazione di una macchina di Turing:*
 
 ![[Screenshot 2026-05-23 alle 21.02.24.png|574]]
 
@@ -663,7 +663,7 @@ che mette in corrispondenza l’insieme $\mathbb{N} ×\mathbb{N}$, composto dall
 
 Graficamente, è come visitare le coppie di punti nel piano in un ordine prefissato, dove la posizione di un punto nella visita rappresenta il numero naturale associato alla coppia che identifica le coordinate del punto.
 
-###### #Figura(4) *Grafico di biiezione*
+#Figura(4) *Grafico di biiezione*
 
 ![[Algoritmi e Principi dell'Informatica-1779633374904.webp|383]]
 
@@ -689,7 +689,7 @@ Si ricava quindi che la classe delle funzioni denotabili è a sua volta numerabi
 
 Quando si scrive un programma, ci sono diverse proprietà che si vorebbero garantire. Una di queste è la terminazione del programma, ovvero la garanzia che, dato un qualsiasi ingresso conforme al programma stesso, esso termini la propria computazione e non vada, dunque, in un ciclo infinito. Nella realtà, però, non è possibile garantire a priori la terminazione del programma per un generico valore in ingresso, nè decidere attraverso un algoritmo se ciò possa avvenire in corrispondenza di uno specifico valore in ingresso. Più in generale, il problema della terminazione del calcolo automatico è in generale non decidibile, nonostante tale problema sia definibile. Si è quindi constatato che esistono problemi definibili, ma che non possono essere risolti algoritmicamente: dunque, l’insieme dei problemi definibili contiene strettamente l’insieme dei problemi risolvibili, nonostante entrambi siano numerabili e con la stessa cardinalità.
 
-###### #Figura(5) *Gerarchia dei problemi*
+#Figura(5) *Gerarchia dei problemi*
 
 ![[Algoritmi e Principi dell'Informatica-1779647450525.webp|396]]
 
@@ -757,7 +757,7 @@ Vale anche il seguente risultato:
 
 Quindi, dato l’insieme $K= \left\{x|f(x) \ne ⊥ \right\}$questo è semidecidibile perchè $K= D_h$, con $h(x) = f_x(x)$, ma è anche indecidibile in quanto la funzione caratteristica dell’insieme $K$, definita come $c_K(x) =$ `if` $f_x(x) \ne ⊥$ `then` $1$ `else` $0$, non è computabile. Si è appena dimostrato che esistono insiemi che sono semidecidibili, ma allo stesso tempo indecidibili.
 
-###### #Figura(6) *Gerarchia degli insiemi*
+#Figura(6) *Gerarchia degli insiemi*
 
 ![[Algoritmi e Principi dell'Informatica-1779875242820.webp|499]]
 
@@ -807,7 +807,7 @@ Una proposizione si dice essere atomica quando non può essere scomposta in part
 
 La sintassi del linguaggio definisce le sequenze ammissibili di simboli sull’alfabeto, le cosiddette formule ben formate *(fbf)*. L’insieme di queste formule ben definite su $L$ è il più piccolo insieme tale che ogni proposizione è una formula e, se $F$ e $G$ sono formule, allora anche $¬F, F∧G, F∨G, F ⇒GF ⇔G$ sono formule. In logica proposizionale si ha che se $A$ è una proposizione, allora $A$ e $¬A$ sono letterali, in cui $A$ è letterale positivo, mentre $¬A$ è detto letterale negativo. Infine, si dice letterale complementare la proposizione $L^-$ definito come $¬A$ se $L= A$, oppure $A$ se $L= ¬A$.
 
-###### #Figura(7) *Tabella della verità dei connettivi logici*
+#Figura(7) *Tabella della verità dei connettivi logici*
 
 ![[Algoritmi e Principi dell'Informatica-1779876036792.webp|408]]
 
@@ -993,7 +993,7 @@ Tramite questa logica, si possono scrivere formule che risolvono il problema del
 
 Si può dimostrare che, data una qualsiasi formula $F$ appartenente alla logica monadica del secondo ordine, è possibile costruire un automa a stati finiti che accetta lo stesso linguaggio $L$ definito da $F$ e, viceversa, dato un qualsiasi automa a stati finiti, è possibile enunciare una formula che riconosce lo stesso linguaggio. Di conseguenza, si può affermare che la classe dei linguaggi definibili dalle formule della logica monadica del secondo ordine coincide con i linguaggi regolari.
 
-###### #Figura(8) *Gerarchia dei linguaggi*
+#Figura(8) *Gerarchia dei linguaggi*
 ![[Algoritmi e Principi dell'Informatica-1779879393076.webp|546]]
 
 
@@ -1130,14 +1130,14 @@ I teoremi qui introdotti valgono anche per le moderne macchine di [[macchina di 
 
 La macchina RAM (o Random Access Memory) è un modello classico ispirata all'architettura di Von Neumann. Tale macchina è costituita da un nastro in ingresso, un nastro in uscita, un programma rappresentato da un numero finito di istruzioni, un contatore che indica l’istruzione corrente da eseguire e una memoria ad accesso diretto.
 
-###### #Figura(9) *Macchina RAM*
+#Figura(9) *Macchina RAM*
 ![[macchina RAM.webp|596]]
 
 Sia i nastri che la memoria sono composti da un numero illimitato di celle, ma al contrario dei nastri di ingresso e uscita che si possono accedere in maniera sequenziale, la memoria è indirizzata e si può accedere a una sua cella attraverso un numero intero $i>0$ che indica l’indirizzo di tale cella di memoria.
 
 La cella $0$ della memoria è un registro speciale, detto accumulatore, che si utilizza per contenere il valore di uno dei due operandi delle operazioni aritmetiche binarie che la macchina può effettuare. Un generico programma eseguibile dalla macchina RAM è composto da istruzioni riportate nella tabella di seguito:
 
-###### #Figura(10) *Tabella: istruzioni macchina RAM*
+#Figura(10) *Tabella: istruzioni macchina RAM*
 
 ![[istruzioni macchina RAM.webp|326]]
 
@@ -1154,7 +1154,7 @@ La complessità spaziale logaritmica si definisce quindi con la seguente formula
 								$\sum_{i=0}^m l(M_i)$
 
 
-###### #Figura(11) *Tabella: costi logaritmici delle istruzioni macchina RAM*
+#Figura(11) *Tabella: costi logaritmici delle istruzioni macchina RAM*
 
 ![[costi logaritmici delle istruzioni macchina RAM.webp|391]]
 
@@ -1224,7 +1224,7 @@ All’inizio di ogni iterazione del ciclo `for`, il cui indice è $j$, la sottos
 
 Si analizza ora il tempo di esecuzione della procedura insertion sort: per ogni $j = 2,3,...,n$ in cui $n$ = `A.length`, si indica con $t_j$ il numero di volte che il test del ciclo `while` nella riga 5 viene eseguito per quel determinato valore di $j$.
 
-###### #Figura(12)
+#Figura(12)
 ![[tabella insertion sort.webp|506]]
 
 Ad ogni riga di codice viene associato un costo $c_i$ che va moltiplicato per il numero di volte che tale riga viene eseguita. Il tempo totale di esecuzione si calcola, dunque, sommando i vari contributi di tempo di ogni riga, ottenendo così l’espressione di $T(n)$:
@@ -1390,7 +1390,7 @@ Sommando i costi dei nodi di ogni livello, si ottengono i costi relativi a quel 
 *ESEMPIO*: Si calcoli la ricorrenza $T(n) = 3T(⌊n/4⌋) + Θ(n^2)$. Come detto, si può approssimare la ricorrenza eliminando l’operatore floor, ottenendo $T(n) = 3T(n/4) + cn^2$, per una data costante $c>0$.
 Per comodità, si suppone anche che $n$ sia una potenza di 4, in modo tale che ogni livello dell’albero abbia dimensione intera. Si ottiene così il seguente albero delle ricorrenze:
 
-###### #Figura(13) *Albero della ricorrenza $T(n) = 3T(n/4) + cn^2$*
+#Figura(13) *Albero della ricorrenza $T(n) = 3T(n/4) + cn^2$*
 
 ![[esempio albero di ricorsione.webp|569]]
 
