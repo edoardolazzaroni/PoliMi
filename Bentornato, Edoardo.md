@@ -22,7 +22,7 @@ dataSource:
   value: ""
   dateField:
     formatType: moment
-    type: FILE_MTIME
+    type: FILE_CTIME
   filters: []
 fillTheScreen: false
 enableMainContainerShadow: false
