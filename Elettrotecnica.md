@@ -5,29 +5,9 @@
 
 ## 1.1 **Sistemi elettrici e loro modelli**
 
-In questo corso, acquisiremo la capacità di eseguire l’analisi dei
+In questo corso, acquisiremo la capacità di eseguire l’analisi dei sistemi elettrici. Dalla descrizione di un dato sistema in termini di elementi che lo compongono e di come sono connessi tra di loro, impareremo una metodologia generale per calcolare il valore delle grandezze elettriche che lo descrivono e con esse a capire come funziona e a che cosa serve. L’obiettivo verrà raggiunto diventando padroni di un modello matematico fondamentale dell’Ingegneria chiamato il **modello circuitale**.
 
-sistemi elettrici. Dalla descrizione di un dato sistema in termini di
-
-elementi che lo compongono e di come sono connessi tra di loro,
-
-impareremo una metodologia generale per calcolare il valore delle
-
-grandezze elettriche che lo descrivono e con esse a capire come fun-
-
-ziona e a che cosa serve. L’obiettivo verrà raggiunto diventando
-
-padroni di un modello matematico fondamentale dell’Ingegneria
-
-chiamato il modello circuitale.
-
-Va precisato che il termine di sistema elettrico può riferirsi a realtà
-
-fisiche molto diverse tra loro e tutte fondamentali per la preparazione
-
-dell’Ingegnere dell’area ICT (Information and Communication Tech-
-
-nology). Facciamo degli esempi.
+Va precisato che il termine di sistema elettrico può riferirsi a realtà fisiche molto diverse tra loro e tutte fondamentali per la preparazione dell’Ingegnere dell’area ICT (Information and Communication Technology). Facciamo degli esempi.
 
 Un primo tipo di sistema elettrico è rappresentato dalla rete di
 
