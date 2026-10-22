@@ -58,11 +58,11 @@ Chiaramente il lavoro da noi svolto sarà positivo se il movimento della carica 
 #Figura(1.4). *La tensione elettrica lungo la linea $\gamma$ è indicata come $V(\gamma)$*
 
 
-Per definire la seconda grandezza elettrica, si supponga di voler misurare il flusso di carica all’interno del filo metallico. A tale proposito si taglia il filo venendo a formare la superficie sezione $σ$.
+Per definire la seconda grandezza elettrica, si supponga di voler misurare il flusso di carica all’interno del filo metallico. A tale proposito si taglia il filo venendo a formare la superficie sezione $\sigma$.
 ![[Elettrotecnica-1792684407984.webp|412]]
-#Figura(1.5). Il filo viene sezionato identificando così la sezione σ di cui si deve
+#Figura(1.5). *Il filo viene sezionato identificando così la sezione $σ$ di cui si deve scegliere un verso di attraversamento.*
 
-scegliere un verso di attraversamento.Si fissa arbitrariamente un verso di attraversamento come posi-
+Si fissa arbitrariamente un verso di attraversamento come posi-
 
 tivo che induce un orientiamo della superficie σ e si conta la quantità
 
