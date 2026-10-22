@@ -29,47 +29,10 @@ Gli uomini hanno imparato a descrivere e dominare i fenomeni elettrici ammettend
 La figura mostra qualitativamente le forze che si esercitano tra cariche puntiformi, cioè le cui dimensioni siano trascurabili.
 
 Gli atomi che formano la materia sono composti da particelle che possiedono sia carica positiva che negativa in egual numero e che tendono quindi a neutralizzare vicendevolmente gli effetti.
-Questo fa si che a livello macroscopico i corpi materiali non manifestano particolari effetti elettrici. Per “scatenare” tali fenomeni è necessario
+Questo fa si che a livello macroscopico i corpi materiali non manifestano particolari effetti elettrici. Per “scatenare” tali fenomeni è necessario che, attraverso una qualche azione, alcune cariche dello stesso tipo siano in eccesso nel corpo in modo da prevalere su quelle di tipo opposto. È allora evidente che per sottrarre/apportare alcune cariche al corpo è necessario applicare una forza che vinca la forza di tipo attrattivo/repulsivo, rispettivamente, che le lega alle altre cariche del corpo, cioè è necessario compiere un lavoro. Un primo aspetto comune a tutti i fenomeni elettrici è che affinché essi si manifestino deve esistere un’azione attraverso cui si separano cariche elettriche di tipo opposto eseguendo un lavoro.
 
-che, attraverso una qualche azione, alcune cariche dello stesso tipo
-
-siano in eccesso nel corpo in modo da prevalere su quelle di tipo
-
-opposto. È allora evidente che per sottrarre/apportare alcune cariche
-
-al corpo è necessario applicare una forza che vinca la forza di tipo
-
-attrattivo/repulsivo, rispettivamente, che le lega alle altre cariche
-
-del corpo, cioè è necessario compiere un lavoro. Un primo aspetto
-
-comune a tutti i fenomeni elettrici è che affinché essi si manifestino
-
-deve esistere un’azione attraverso cui si separano cariche elettriche di
-
-tipo opposto eseguendo un lavoro.
-
-Il primo esperimento in cui l’elettrizzazione della materia fu con-
-
-dotta in modo controllato e ripetibile, fu quello eseguito da Alessan-
-
-dro Volta alla fine del 1799 quando riuscì a costruire il primo esempio
-
-di pila elettrica. La pila di Volta è composta da dischi di rame e
-
-zinco disposti in modo alternato uno sull’altro interponendo tra loro
-
-una spugna imbevuta in una soluzione di acido (solforico).
-
-Per effetto della reazione chimica che ha luogo tra i due metalli,
-
-alcuni atomi con un eccesso di carica positiva, detti ioni positivi, ven-
-
-gono spostati verso un capo della pila mentre contemporaneamente
-
-ioni negativi si spostano al capo opposto. In questo modo dunque il
-
-lavoro proveniente dalla reazione chimica si trasforma nel lavoro elettrico
+Il primo esperimento in cui l’elettrizzazione della materia fu condotta in modo controllato e ripetibile, fu quello eseguito da Alessandro Volta alla fine del 1799 quando riuscì a costruire il primo esempio di pila elettrica. La **pila di Volta** è composta da dischi di rame e zinco disposti in modo alternato uno sull’altro interponendo tra loro una spugna imbevuta in una soluzione di acido (solforico).
+Per effetto della reazione chimica che ha luogo tra i due metalli, alcuni atomi con un eccesso di carica positiva, detti ioni positivi, vengono spostati verso un capo della pila mentre contemporaneamente ioni negativi si spostano al capo opposto. In questo modo dunque il lavoro proveniente dalla reazione chimica si trasforma nel lavoro elettrico
 
 necessario per attuare la separazione delle cariche. Volta si accorse che
 
