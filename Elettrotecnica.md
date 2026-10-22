@@ -1,6 +1,3 @@
----
-banner: "![[Elettrotecnica-banner.jpg]]"
----
 
 
 # **Capitolo I: Il modello circuitale**
