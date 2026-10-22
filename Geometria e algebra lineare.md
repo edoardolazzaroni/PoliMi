@@ -338,7 +338,7 @@ Le equazioni parametriche della retta risultano allora
 $$\begin{cases} x=x_0+t(x_1-x_0)\\ y=y_0+t(y_1-y_0) \\ z=z_0+t(z_1-z_0) \end{cases}$$
 
 ![[Geometria e Algebra Lineare-1791120647041.webp|553]]
-###### #Figura(18)
+#Figura(18)
 
 
 - **Condizioni di parallelismo ed ortogonalità tra rette**
@@ -378,7 +378,7 @@ Un piano è individuato da:
 a) Cominciamo col primo caso. Consideriamo un punto $P_0(x_0,y_0,z_0)$ ed un vettore $\mathbf{n}=(a,b,c)$ non nullo; ci proponiamo di determinare l'equazione del piano passante per $P_0 \perp \mathbf{n}$.
 
 ![[Geometria e Algebra Lineare-1791120747253.webp|414]]
-###### #Figura(19)
+#Figura(19)
 
 
 Dalla figura si vede che se $P=(x,y,z)$ è il generico punto del piano, allora il vettore $\overrightarrow{P_0P}$ è parallelo al piano e quindi $\perp \mathbf{n}$. Si ottiene allora l'equazione vettoriale:
@@ -402,7 +402,7 @@ Facciamo qualche **osservazione**:
 	In tal caso $\alpha, \beta, \gamma$ rappresentano le intercette del piano con gli assi coordinati.
 
 ![[Geometria e Algebra Lineare-1791120841013.webp|510]]
-###### #Figura(20)
+#Figura(20)
 
 
 *Esempio* (1): Si voglia scrivere l'equazione del piano passante per il punto $(1,2,-1)$ e normale al vettore $\mathbf{v}=(2,3,0)$.
