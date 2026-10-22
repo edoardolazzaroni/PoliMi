@@ -83,6 +83,6 @@ SORT due DESC
 
 
 Calendario integrato in Obsidian, impegni conservati nella cartella [[Calendario]].
-Integrazione con Copilot (harness Opencode), dotato di [[copilot]].
+Integrazione con [[copilot]] (harness Opencode).
 
 Questo vault è gestito e sincronizzato mediante [[Github]].
