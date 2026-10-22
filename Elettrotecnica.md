@@ -60,27 +60,11 @@ Chiaramente il lavoro da noi svolto sarà positivo se il movimento della carica 
 
 Per definire la seconda grandezza elettrica, si supponga di voler misurare il flusso di carica all’interno del filo metallico. A tale proposito si taglia il filo venendo a formare la superficie sezione $\sigma$.
 ![[Elettrotecnica-1792684407984.webp|412]]
-#Figura(1.5). *Il filo viene sezionato identificando così la sezione $σ$ di cui si deve scegliere un verso di attraversamento.*
+#Figura(1.5). *Il filo viene sezionato identificando così la sezione $\sigma$ di cui si deve scegliere un verso di attraversamento.*
 
-Si fissa arbitrariamente un verso di attraversamento come posi-
+Si fissa arbitrariamente un verso di attraversamento come positivo che induce un orientiamo della superficie $\sigma$ e si conta la quantità netta di carica positiva che attraversa la superficie. La corrente elettrica in un mezzo conduttivo (cioè che ne consente la circolazione) è una grandezza descrittiva associata ad una superficie $\sigma$ orientata, che indichiamo come $I(\sigma)$, definita come la quantità di carica elettrica netta che attraversa la sezione nell’unità di tempo. 
 
-tivo che induce un orientiamo della superficie σ e si conta la quantità
-
-netta di carica positiva che attraversa la superficie. La corrente elet-
-
-trica in un mezzo conduttivo (cioè che ne consente la circolazione)
-
-è una grandezza descrittiva associata ad una superficie σ orientata,
-
-che indichiamo come I(σ), definita come la quantità di carica elettrica
-
-netta che attraversa la sezione nell’unità di tempo. L’aggettivo netta
-
-si riferisce al fatto che in un dato istante di osservazione la superficie
-
-in esame potrebbe essere attraversata da una carica Q1 che si muove
-
-concorde col verso di orinetazione assunto ed una carica Q2 che in-
+L’aggettivo netta si riferisce al fatto che in un dato istante di osservazione la superficie in esame potrebbe essere attraversata da una carica $Q1$ che si muove concorde col verso di orinetazione assunto ed una carica $Q2$ che in-
 
 vece si muove in senso opposto. La carica netta in questo caso è data
 
