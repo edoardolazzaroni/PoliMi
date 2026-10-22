@@ -20,5 +20,5 @@ Nonostante la spaventosa differenza di scala geometrica tra una rete per l’ene
 D’altra parte, è importante fin da subito sottolineare che, sebbene molto potente, il modello circuitale, al pari di ogni modello dell’Ingegneria, è in grado di cogliere solo alcuni aspetti della realtà fisica che vuole rappresentare. Come tale esso ha dei limiti di validità. Per questo motivo è importante non solo apprenderne l’uso ma anche saper riconoscere i suoi limiti di applicazione.
 
 
-## 1.2 **Sistemi elettrici e loro modelli**
+## 1.2 **Le grandezze descrittive: tensione e corrente**
 
