@@ -55,8 +55,8 @@ La **tensione** elettrica è una grandezza fisica associata ad una linea $\gamma
 
 Chiaramente il lavoro da noi svolto sarà positivo se il movimento della carica di prova avviene effettivamente in opposizione alle forze elettriche che agiscono su di essa oppure sarà negativo (cioè non svolto da noi ma assorbito) se il movimento avviene concordemente alle forze elettriche. Pertanto la tensione elettrica è una <u>grandezza dotata di segno</u>.
 
-Figure 1.8: La tensione elettrica lungo la
-linea γ è indicata come V(γ).
+![[Elettrotecnica-1792684263435.webp|209]]
+#Figura(1.4): La tensione elettrica lungo la linea $\gamma$ è indicata come $V(\gamma)$.
 
 Per definire la seconda grandezza elettrica, si supponga di voler
 
