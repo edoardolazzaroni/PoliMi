@@ -9,29 +9,8 @@ In questo corso, acquisiremo la capacità di eseguire l’analisi dei sistemi el
 
 Va precisato che il termine di sistema elettrico può riferirsi a realtà fisiche molto diverse tra loro e tutte fondamentali per la preparazione dell’Ingegnere dell’area ICT (Information and Communication Technology). Facciamo degli esempi._
 
-- Un primo tipo di sistema elettrico è rappresentato dalla rete di trasporto/distribuzione dell’energia elettrica. Questa è formata da un insieme di fili di rame, chiamati conduttori, che collegano punti in cui l’energia viene prodotta (*es*: le centrali elettriche, impianti fotovoltaici...) ai punti in cui viene utilizzata (*es*: le nostre abitazioni, gli impianti industriali, le linee di trasporto metropolitano o dei treni). Tali reti hanno dimensioni dell’ordine delle centinaia di chilometri
-
-dato che si possono estendere su tutto il territorio di una nazione. La
-
-figura 1.1 mostra un esempio stilizzato di rete per l’energia.
-
-Un secondo esempio, altrettanto rilevante, è rappresentato dai sis-
-
-temi della micro e nano elettronica. Per es., la figura 1.2 riporta una
-
-tipica scheda elettronica (detta anche "board"), che possiamo trovare
-
-all’interno di un computer o di un controllore di un’automobile, dove
-
-un certo numero di componenti sono collegati tra loro da micro-piste
-
-di rame.
-
-Questo secondo esempio di rete non ha lo scopo di trasportare en-
-
-ergia bensì di elaborare l’informazione. L’energia elettrica nel primo
-
-esempio e l’informazione nel secondo sono rappresentate (o deter-
+- Un primo tipo di sistema elettrico è rappresentato dalla rete di trasporto/distribuzione dell’energia elettrica. Questa è formata da un insieme di fili di rame, chiamati conduttori, che collegano punti in cui l’energia viene prodotta (*es*: le centrali elettriche, impianti fotovoltaici...) ai punti in cui viene utilizzata (*es*: le nostre abitazioni, gli impianti industriali, le linee di trasporto metropolitano o dei treni). Tali reti hanno dimensioni dell’ordine delle centinaia di chilometri dato che si possono estendere su tutto il territorio di una nazione.
+- Un secondo esempio, altrettanto rilevante, è rappresentato dai sistemi della micro e nano elettronica. Questo secondo esempio di rete non ha lo scopo di trasportare energia bensì di elaborare l’informazione. L’energia elettrica nel primo esempio e l’informazione nel secondo sono rappresentate (o deter-
 
 Figure 1.1: Esempio stilizzato di rete
 
