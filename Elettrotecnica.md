@@ -24,19 +24,12 @@ D’altra parte, è importante fin da subito sottolineare che, sebbene molto pot
 
 Gli uomini hanno imparato a descrivere e dominare i fenomeni elettrici ammettendo che essi siano dovuti ad una proprietà della materia chiamata carica elettrica. La carica elettrica si manifesta in quanto i corpi che la possiedono esercitano l’un l’altro delle interazioni (cioè delle forze). Esistono due tipi distinti di carica elettrica, indicati convenzionalmente come cariche di tipo positivo e di tipo negativo. Tra cariche elettriche dello stesso tipo si misura una forza che tende a respingerle mentre tra cariche di tipo opposto tale forza è di tipo attrattivo.
 ![[Elettrotecnica-1792683598892.webp|228]]
-#
+#Figura(2). *Azioni tra cariche puntiformi*
 
-La figura 1.6 mostra qualitativamente le forze che si esercitano tra cariche puntiformi, cioè le cui dimensioni siano trascurabili.
+La figura mostra qualitativamente le forze che si esercitano tra cariche puntiformi, cioè le cui dimensioni siano trascurabili.
 
-Gli atomi che formano la materia sono composti da particelle
-
-che possiedono sia carica positiva che negativa in egual numero
-
-e che tendono quindi a neutralizzare vicendevolmente gli effetti.
-
-Questo fa si che a livello macroscopico i corpi materiali non manifestano
-
-particolari effetti elettrici. Per “scatenare” tali fenomeni è necessario
+Gli atomi che formano la materia sono composti da particelle che possiedono sia carica positiva che negativa in egual numero e che tendono quindi a neutralizzare vicendevolmente gli effetti.
+Questo fa si che a livello macroscopico i corpi materiali non manifestano particolari effetti elettrici. Per “scatenare” tali fenomeni è necessario
 
 che, attraverso una qualche azione, alcune cariche dello stesso tipo
 
