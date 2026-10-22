@@ -2,7 +2,7 @@
 ___
 
 
-> [!hint]
+> [!hint] ____
 > Per aspera ad astra.
 
 
@@ -22,7 +22,7 @@ dataSource:
   value: ""
   dateField:
     formatType: moment
-    type: FILE_CTIME
+    type: FILE_MTIME
   filters: []
 fillTheScreen: false
 enableMainContainerShadow: false
