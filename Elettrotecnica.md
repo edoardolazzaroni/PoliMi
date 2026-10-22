@@ -45,13 +45,7 @@ L’esperimento mette in luce due aspetti della manifestazione elettrica:
 a) esiste un dispositivo, la pila, che funziona come generatore del fenomeno elettrico in quanto è in grado di separare cariche di segno opposto svolgendo un lavoro;
 b) si instaura un movimento continuo di cariche elettriche lungo un percorso chiuso.
 
-L’esperimento della pila di Volta rappresenta un caso elementare di
-
-circuito elettrico e ad ognuno dei due aspetti fondamentali dell’esperimento,
-
-lavoro elettrico e movimento di cariche, siamo in grado di associare
-
-una grandezza elettrica descrittiva del fenomeno.
+L’esperimento della pila di Volta rappresenta un <mark class="hltr-yellow">caso elementare di circuito elettrico</mark> e ad ognuno dei due aspetti fondamentali dell’esperimento, lavoro elettrico e movimento di cariche, siamo in grado di associare una grandezza elettrica descrittiva del fenomeno.
 
 La tensione elettrica è una grandezza fisica associata ad una linea
 
