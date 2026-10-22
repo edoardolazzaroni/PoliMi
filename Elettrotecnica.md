@@ -14,7 +14,8 @@ Va precisato che il termine di sistema elettrico può riferirsi a realtà fisich
 
 Nonostante la spaventosa differenza di scala geometrica tra una rete per l’energia e un processore elettronico il comportamento elettrico di questi sistemi può venire descritto dallo stesso modello circuitale. La tecnica di modeling, cioè la costruzione del modello, si basa sull’identificazione delle grandezze fisiche descrittive che chiameremo tensione e corrente elettrica e sulla scrittura delle leggi che le governano. Nel modello, le grandezze fisiche sono sostituite da variabili matematiche (indicate $v, i$) mentre le leggi fisiche si traducono in equazioni che legano tali variabili, come mostrato in figura:
 
-![[Elettrotecnica-1792681850745.webp|307]]
+![[Elettrotecnica-1792681850745.webp|274]]
+#Figura (1). 
 
 Il modello circuitale consente di esplorare fenomeni elettrici e non
 
