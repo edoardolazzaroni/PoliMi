@@ -16,7 +16,6 @@ Il concetto di vettore, fondamentale sia in matematica che nelle applicazioni (f
 
 Geometricamente, possiamo pensare ai vettori come a segmenti orientati, con la precisazione che due segmenti orientati che possano ottenersi l'uno dall'altro per traslazione sono lo stesso vettore.
 Se nello spazio è fissato un sistema di riferimento cartesiano di cui $O$ è l'origine, possiamo anche vedere i vettori come frecce uscenti da $O$.
-
 ![[Screenshot 2026-09-16 alle 15.03.01.png|565]]
  #Figura(1) *Vettori come frecce uscendi da $O$. $\overrightarrow{OA}$ e $\overrightarrow{PQ}$ rappresentano lo stesso vettore applicato in due punti diversi dello spazio.*
 
