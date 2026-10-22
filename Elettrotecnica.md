@@ -47,21 +47,10 @@ b) si instaura un movimento continuo di cariche elettriche lungo un percorso chi
 
 L’esperimento della pila di Volta rappresenta un <mark class="hltr-yellow">caso elementare di circuito elettrico</mark> e ad ognuno dei due aspetti fondamentali dell’esperimento, lavoro elettrico e movimento di cariche, siamo in grado di associare una grandezza elettrica descrittiva del fenomeno.
 
-La tensione elettrica è una grandezza fisica associata ad una linea
 
-γ orientata nello spazio, cioè su cui è stato fissato un verso di percor-
+La **tensione** elettrica è una grandezza fisica associata ad una linea $\gamma$ orientata nello spazio, cioè su cui è stato fissato un verso di percorrenza, che congiunge due punti A e B.
 
-renza, che congiunge due punti A e B.
-
-Chiamiamo tensione elettrica lungo la linea γ e la indichiamo
-
-come V(γ) il lavoro elettrico che noi dobbiamo compiere in antag-
-
-onismo alle forze elettriche per muovere lungo tale linea una carica
-
-di prova positiva e unitaria. L’unità di misura della tensione è il volt
-
-[V], dal nome dell’inventore della pila. Chiaramente il lavoro da noi
+Chiamiamo tensione elettrica lungo la linea $\gamma$ e la indichiamo come $V(\gamma)$ il lavoro elettrico che noi dobbiamo compiere in antagonismo alle forze elettriche per muovere lungo tale linea una carica di prova positiva e unitaria. L’unità di misura della tensione è il volt $[V]$, dal nome dell’inventore della pila. Chiaramente il lavoro da noi
 
 svolto sarà positivo se il movimento della carica di prova avviene
 
