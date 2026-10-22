@@ -511,7 +511,7 @@ Una volta definite cosa siano le grammatiche, è possibile classificarle in base
 - Tipo 3 (REGOLARI): sono grammatiche a cui si introduce il vincolo per cui ad ogni produzione $α →β ∈P$ si verifica che $|α | = 1$ (quindi $α ∈V_N$) e che $β$ sia in una sola delle seguenti forme: $aB, Ba, a$ oppure $ε$, con $a ∈V_T$ e $B ∈V_N$; inoltre, la derivazione $S →ε$ è consentita solo se $S$ non appare a destra in nessuna regola di derivazione.
 
 
-###### #Figura(3) *Gerarchia di Chomsky*:
+#Figura(3) *Gerarchia di Chomsky*:
 
 ![[classificazione grammatiche.webp|524]]
 
