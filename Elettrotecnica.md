@@ -264,4 +264,6 @@ Poiché un bipolo è descritto da due grandezze e dalle rispettive convenzioni d
 #Figura(1.25). *Convenzione degli utilizzatori*
 
 
-La figure 1.30 invece mostra un
+La figure 1.26 invece mostra un modo alternativo di coordinare le misure prendendo il verso della corrente uscente dal morsetto verso cui è rivolta la freccia della tensione. Questa modalità si dice **convenzione dei generatori**.
+![[Elettrotecnica-1793032042881.webp|212]]
+#Figura(1.27)
