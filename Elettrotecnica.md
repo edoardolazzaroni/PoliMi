@@ -94,17 +94,11 @@ Osserviamo che da un punto di vista matematico, le misure di tensione o di corre
 
 ### 1.2.2 **Proprietà della tensione e della corrente**
 
-L’uso del voltmetro e dell’amperometro mostra che la misura di
+L’uso del voltmetro e dell’amperometro mostra che la misura di tensione e quella di corrente godono della proprietà di essere **dispari** e della proprietà **additiva**.
+Vediamo dette proprietà esaminando per primo il caso della tensione e poi quello della corrente.
 
-tensione e quella di corrente godono della proprietà di essere dispari
-
-e della proprietà additiva. Vediamo dette proprietà esamiando per
-
-primo il caso della tensione e poi quello della corrente.
-
-• Proprietà della variabile tensione.
-
-Indichiamo con γ una linea orientata diretta dal punto A al punto
+• **Proprietà della tensione**.
+	Indichiamo con $\gamma$ una linea orientata diretta dal punto A al punto
 
 B e con−γ la stessa linea ma orientata nel verso opposto, cioè che
 
