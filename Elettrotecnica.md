@@ -152,15 +152,9 @@ Le grandezze fisiche tensione e corrente che misuriamo in un sistema elettrico p
 
 In un sistema elettrico operante in regime stazionario, valgono rigorosamente le seguenti evidenze sperimentali:
 
-• Si consideri una linea γ chiusa, cioè tale che il punto di partenza e
-
-di arrivo coincidono come mostrato in figura 1.18).
-
-L’evidenza mostra come la tensione elettrica misurata lungo tale
-
-linea vale zero V(γ) = 0.
-
-Supponiamo ora che tale linea chiusa sia composta dai percorsi
+- Si consideri una linea $\gamma$ chiusa, cioè tale che il punto di partenza e di arrivo coincidono come mostrato in figura 1.14:
+	L’evidenza mostra come la tensione elettrica misurata lungo tale linea vale $V(\gamma) = 0$.
+	Supponiamo ora che tale linea chiusa sia composta dai percorsi
 
 parziali γ1, γ2, γ3 e γ4, orientati come mostrato in figura 1.19,
 
