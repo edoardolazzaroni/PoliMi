@@ -187,18 +187,11 @@ Questo indica che tensioni misurate lungo cammini diversi ma che collegano gli s
 $$v_{1} = v_{2} = v_{3} = v_{BA}$$
 
 - La seconda evidenza sperimentale che si registra in regime stazionario riguarda la variabile corrente. A tale proposito, consideriamo una superficie chiusa $\sigma$, ad esempio come mostrato nella figura seguente:
-![[Elettrotecnica-1793030001726.webp|298]]
-#Figura(1.17). *Esempio di superficie chiusa orientata $\sigma$. Il senso positivo di attraversamento è assunto quello che va dall’interno all’esterno*
-
-L’evidenza sperimentale mostra come la corrente che attraversa
-
-tale superficie è zero, ovvero I(σ) = 0.
-
-Ora si supponga che la superficie cubica chiusa σ sia formata
-
-dall’unione di superfici parziali, diciamo per esempio dalle sei
-
-faccie che la compongono con l’orientamento mostrato in fig.1.22.
+	![[Elettrotecnica-1793030001726.webp|298]]
+	#Figura(1.17). *Esempio di superficie chiusa orientata $\sigma$. Il senso positivo di attraversamento è assunto quello che va dall’interno all’esterno*
+	
+	L’evidenza sperimentale mostra come la corrente che attraversa tale superficie è zero, ovvero $I(\sigma) = 0$.
+	Ora si supponga che la superficie cubica chiusa $\sigma$ sia formata dall’unione di superfici parziali, diciamo per esempio dalle sei faccie che la compongono con l’orientamento mostrato in figura 1.18.
 
 In particolare, le superfici colorate in azzurro e verde sono ori-
 
