@@ -308,14 +308,10 @@ e pensare nei termini: la somma delle correnti entranti al nodo è pari alla som
 
 Passiamo ora alle tensioni facendo riferimento alla figura 1.29 che mostra le relative misure sui vari bipoli. Ci focalizziamo sulla linea chiusa $\gamma_{1}$ tratteggiata in rosso, che supponiamo orientata in senso orario. Essa descrive un percorso chiuso tra i nodi $B →A →D →C →B$.
 ![[Elettrotecnica-1793032824107.webp|295]]
+#Figura(1.29). *Cammini chiusi $\gamma_{1}$ e $\gamma_{2}$ lungo cui si bilanciano le tensioni*
 
-Attualizziamo la legge delle tensioni osservando ora che ogni
-
-tratto del percorso chiuso corrisponde alla tensione misurata su di un
-
-bipolo. Si ha:
-
-v1−v6 + v5−v2 = 0 (1.3)
+Attualizziamo la legge delle tensioni osservando ora che ogni tratto del percorso chiuso corrisponde alla tensione misurata su di un bipolo. Si ha:
+$$v-1−v6 + v5−v2 = 0 \quad (1.3)$$
 
 In teoria dei circuiti, si indica con il nome di "cammino" la sequenza
 
