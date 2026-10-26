@@ -253,28 +253,12 @@ che ci dice che la misura al terminale $B$ si deduce da quella eseguita in $A$. 
 
 Ragioniamo ora sulle tensione e supponiamo di misurare la tensione $v_{BA}$, cioè del mosetto $B$ rispetto al morsetto $A$. Dalla legge delle tensioni (o dalla proprietà di disparità) ricaviamo che:
 $$v_{AB} + v_{BA} = 0 \rightarrow v_{BA} =−v_{AB}$$
-e dunque che <mark class="hltr-yellow">ai capi di un bipolo esiste solo una tensione indipendente che ne caratterizza completamente il lavoro elettrico svolto per spostare lungo il bipolo una carica di prova</mark>.![[Elettrotecnica-1793031837872.webp|213]]
-#Figura(1.24). Applicazione della legge delle tension
+e dunque che <mark class="hltr-yellow">ai capi di un bipolo esiste solo una tensione indipendente che ne caratterizza completamente il lavoro elettrico svolto per spostare lungo il bipolo una carica di prova</mark>.![[Elettrotecnica-1793031837872.webp|198]]
+#Figura(1.24). *Applicazione della legge delle tensioni al bipolo*
 
 
-Quindi, un dispositivo elettrico con due morsetti è descritto com-
+Quindi, un dispositivo elettrico con due morsetti è descritto completamente da una corrente ed una tensione; si dice anche che i due morsetti con le relative grandezze formano una **porta elettrica** o anche un **lato**.
 
-pletamente da una corrente ed una tensione; si dice anche che i due
-
-morsetti con le relative grandezze formano una porta elettrica o an-
-
-che un lato.
-
-Poiché un bipolo è descritto da due grandezze e dalle rispettive
-
-convenzioni di misura nasce spontanea l’idea di coordinare tra di
-
-loro tali convenzioni di misura. La figura 1.29 mostra un primo modo
-
-di abbinare le due misure prendendo il verso di misura della cor-
-
-rente entrante dal morsetto verso cui è rivolta la freccia che descrive
-
-l’orientazione della misura di tensione. Questa modalità viene riferita
+Poiché un bipolo è descritto da due grandezze e dalle rispettive convenzioni di misura nasce spontanea l’idea di coordinare tra di loro tali convenzioni di misura.La figura 1.25 mostra un primo modo di abbinare le due misure prendendo il verso di misura della corrente entrante dal morsetto verso cui è rivolta la freccia che descrive l’orientazione della misura di tensione. Questa modalità viene riferita
 
 come convenzione degli utilizzatori. La figure 1.30 invece mostra un
