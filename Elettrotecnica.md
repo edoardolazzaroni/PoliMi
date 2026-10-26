@@ -322,28 +322,13 @@ In teoria dei circuiti, si indica con il nome di "**cammino**" la sequenza ordin
 Osserviamo anche che la $(1.3)$ può essere riscritta come:
 $$v_{1}−v_{6} = v_{2}−v_{5}$$
 
-Le tensioni a membro di sinistra corrispondono alla somma lungo il cammino che parte da $B$ e va a $D$ (attraverso $A$) mentre il membro di destra è la somma delle tensioni lungo un secondo cammino sempre da $B$ a $D$ (attraverso $C$). Questa seconda espressione della legge di Kirchhoff delle tensioni dunque corrisponde ad imporre che le tensioni raccolte lungo cammini diversi ma con gli stessi estremi devono essere uguali tra loro. Per esempio, facendo riferimento alla maglia descritta da $\gamma_{2}$ tratteggiata in blu in figura 1.29, si può scrivere diret-
-
-tamente che:
-
-v2 = v3 + v5
-
+Le tensioni a membro di sinistra corrispondono alla somma lungo il cammino che parte da $B$ e va a $D$ (attraverso $A$) mentre il membro di destra è la somma delle tensioni lungo un secondo cammino sempre da $B$ a $D$ (attraverso $C$). Questa seconda espressione della legge di Kirchhoff delle tensioni dunque corrisponde ad imporre che le tensioni raccolte lungo cammini diversi ma con gli stessi estremi devono essere uguali tra loro. Per esempio, facendo riferimento alla maglia descritta da $\gamma_{2}$ tratteggiata in blu in figura 1.29, si può scrivere direttamente che:
+$$v_{2} = v_{3} + v_{5}$$
 anziché
+$$v_{2}−v_{3}−v_{5} = 0$$
 
-v2−v3−v5 = 0.
+La validità della legge di Kirchhoff delle tensioni ha come conseguenza che la tensione elettrica misurata tra due nodi qualunque di un circuito elettrico è sempre la stessa indipendentemente dal percorso lungo cui avviene la misura. Questo ci permette di introdurre il concetto di **tensione di nodo** o **potenziale** di nodo.
 
-La validità della legge di Kirchhoff delle tensioni ha come con-
-
-seguenza che la tensione elettrica misurata tra due nodi qualunque
-
-di un circuito elettrico è sempre la stessa indipendentemente dal per-
-
-corso lungo cui avviene la misura. Questo ci permette di introdurre il
-
-concetto di tensione di nodo o potenziale di nodo.
-
-Allo scopo, si assuma in modo arbitrario un nodo del circuito
-
-come nodo di riferimento, per esempio in figura 1.33 il riferimento
+Allo scopo, si assuma in modo arbitrario un nodo del circuito come nodo di riferimento, per esempio in figura 1.30 il riferimento
 
 sia il nodo A, e si misurino le tensioni degli altri nodi rispetto al
