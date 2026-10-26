@@ -158,17 +158,13 @@ In un sistema elettrico operante in regime stazionario, valgono rigorosamente le
 	Muovendosi lungo $\gamma$ in senso orario e applicando la proprietà additiva e quella di disparità, si ottiene:
 	$$v_{1}−v_{2}+v_{3}−v_{4} = 0$$
 
-Generalizzando, possiamo quindi enunciare la seguente legge
+Generalizzando, possiamo quindi enunciare la seguente legge fondamentale:
 
-fondamentale.
+> [!important] Definizione
+> **Legge delle tensioni**: la somma algebrica (cioè tenendo conto dei segni) delle tensioni misurate lungo una linea γ chiusa è uguale a zero.
 
-Legge delle tensioni: la somma algebrica (cioè tenendo conto dei
 
-segni) delle tensioni misurate lungo una linea γ chiusa è uguale
 
-a zero.
-
-capitolo 1 13
 
 Figure 1.18: Linea chiusa, ovvero il
 
