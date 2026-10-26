@@ -122,14 +122,12 @@ La misura di tensione lungo un cammino orientato è dato dalla somma algebrica (
 
 - #### **Proprietà della variabile corrente**:
 
-Sia $\sigma$ una superficie orientata come in [[#1.2.1 **Gli strumenti di misura**|figura 1.7]] e con $-\sigma$ la stessa superficie ma orientata nel verso opposto (figura 1.11). Operativamente, la misura di corrente lungo $−\sigma$ si ottiene invertendo l’inserimento dei morsetti dell’amperometro. Vale la **proprietà di disparità**:
-$$I(−s) =−I(σ)$$
+Sia $\sigma$ una superficie orientata come in [[#1.2.1 **Gli strumenti di misura**|figura 1.7]] e con $-\sigma$ la stessa superficie ma orientata nel verso opposto (figura 1.11).
 
-Ora consideriamo le superfici σ1 e σ2, orientate in modo concorde
+Operativamente, la misura di corrente lungo $−\sigma$ si ottiene invertendo l’inserimento dei morsetti dell’amperometro. Vale la **proprietà di disparità**:
+$$I(−\sigma) =−I(\sigma)$$
 
-e che condividono parte della loro frontiera. La loro unione dà
-
-origine alla superficie complessiva σ = σ1 ∪σ2. Se i1 = I(σ1)
+Ora consideriamo le superfici $\sigma_{1}$ e $\sigma_{2}$, orientate in modo concorde e che condividono parte della loro frontiera. La loro unione dà origine alla superficie complessiva $\sigma = \sigma_{1}\cup \sigma_{2}$. Se i1 = I(σ1)
 
 e i2 = I(σ2) sono i valori delle misure delle correnti attraverso
 
