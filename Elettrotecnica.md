@@ -128,11 +128,9 @@ Operativamente, la misura di corrente lungo $−\sigma$ si ottiene invertendo l�
 $$I(−\sigma) =−I(\sigma)$$
 
 Ora consideriamo le superfici $\sigma_{1}$ e $\sigma_{2}$, orientate in modo concorde e che condividono parte della loro frontiera. La loro unione dà origine alla superficie complessiva $\sigma = \sigma_{1}\cup \sigma_{2}$. Se $i_{1}= I(\sigma_{1})$ e $i_{2} = I(\sigma_{2})$ sono i valori delle misure delle correnti attraverso le superfici parziali mentre $i= I(\sigma)$ è la misura attraverso la superficie complessiva, la **proprietà additiva** delle correnti dice che:
-$$i= I(σ) = I(σ1 ∪σ2) = I(σ1) + I(σ2) = i1 + i2
+$$i= I(\sigma) = I(\sigma_{1} \cup \sigma_{2}) = I(\sigma_{1}) + I(\sigma_{2}) = i_{1} + i_{2}$$
 
-Infine siano σ1, σ2 e σ3 tre superfici orientate come in figura e
-
-cioè con σ2 orientata in modo discorde alle prime due e sia σ =
+Infine siano $\sigma_{1}, \sigma_{2}, \sigma_{3}$ tre superfici orientate come in figura e cioè con $\sigma_{2}$ orientata in modo discorde alle prime due e sia σ =
 
 σ1 ∪(−σ2) ∪σ3. Si sono eseguite le relative misure di corrente
 
