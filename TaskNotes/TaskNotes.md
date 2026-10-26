@@ -15,6 +15,7 @@ type: folder_brief_live
 	- [[finire esempi GAL]]
 	- [[finire esercizi info]]
 	- [[finire mappa C(89)]]
+	- [[finire Nota 1 Elettrotecnica]]
 	- [[guardare esercitazione GAL-2]]
 	- [[Guardare orari delle lezioni]]
 	- [[inserire immagini nel file di GAL]]

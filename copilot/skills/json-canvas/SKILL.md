@@ -4,7 +4,7 @@ description: Create and edit JSON Canvas (.canvas) files with valid nodes, edges
 license: MIT
 metadata:
   copilot-enabled-agents: opencode, claude, codex
-  copilot-builtin-version: "1"
+  copilot-builtin-version: "2"
   copilot-upstream-revision: "a1dc48e68138490d522c04cbf5822214c6eb1202"
 ---
 
@@ -90,7 +90,7 @@ grid when creating a new layout.
 - Sides, ends, and colors use allowed values.
 - Nodes do not unintentionally overlap and group children sit inside bounds.
 
-Read [Examples](PoliMi/copilot/skills/json-canvas/references/EXAMPLES.md) for complete connected and grouped
+Read [Examples](references/EXAMPLES.md) for complete connected and grouped
 canvases.
 
 ## Attribution

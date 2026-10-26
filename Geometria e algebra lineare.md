@@ -16,9 +16,8 @@ Il concetto di vettore, fondamentale sia in matematica che nelle applicazioni (f
 
 Geometricamente, possiamo pensare ai vettori come a segmenti orientati, con la precisazione che due segmenti orientati che possano ottenersi l'uno dall'altro per traslazione sono lo stesso vettore.
 Se nello spazio è fissato un sistema di riferimento cartesiano di cui $O$ è l'origine, possiamo anche vedere i vettori come frecce uscenti da $O$.
-
 ![[Screenshot 2026-09-16 alle 15.03.01.png|565]]
-###### #Figura(1) *Vettori come frecce uscendi da $O$. $\overrightarrow{OA}$ e $\overrightarrow{PQ}$ rappresentano lo stesso vettore applicato in due punti diversi dello spazio.*
+#Figura(1) *Vettori come frecce uscendi da $O$. $\overrightarrow{OA}$ e $\overrightarrow{PQ}$ rappresentano lo stesso vettore applicato in due punti diversi dello spazio.*
 
 
 La direzione ed il verso del vettore sono allora quelli indicati dalla freccia corrispondente mentre il suo modulo coincide con la lunghezza della freccia. Per indicare un vettore potremo usare una lettera in grassetto (come **v, w**,...) oppure il simbolo $\overrightarrow{OA}$ se $A$ è la punta della freccia. Si dice anche che $\overrightarrow{OA}$ è il vettore posizione del punto A.
@@ -34,7 +33,7 @@ Sui vettori si possono definire varie operazioni: cominciamo ad introdurre le du
 	Si noti che il segmento orientato associato a $\mathbf{v}+\mathbf{w}$ è contenuto nel piano dei segmenti orientati associati a $\mathbf{v}$ e $\mathbf{w}$.
 
 ![[Geometria e Algebra Lineare-1790433438119.webp|518]]
-###### #Figura(2) *Somma di due vettori.*
+#Figura(2) *Somma di due vettori.*
 
 
 **PROPRIETÀ**:
@@ -46,7 +45,7 @@ Sui vettori si possono definire varie operazioni: cominciamo ad introdurre le du
 La somma $\mathbf{v}+(-\mathbf{w})$ si scrive semplicemente $\mathbf{v}-\mathbf{w}$, definendo in tal modo la <u>differenza tra due vettori</u>.
 
 ![[Geometria e Algebra Lineare-1790433651481.webp|372]]
-###### #Figura(3) *Differenza tra vettori.*
+#Figura(3) *Differenza tra vettori.*
 
 
 Le proprietà appena enunciate possono essere dimostrate geometricamente, in base alla definizione di somma.
@@ -308,7 +307,7 @@ Una retta nello spazio è individuata da:
 a) Cominciamo col primo caso. Consideriamo un punto $P_0(x_0,y_0,z_0)$ ed un vettore $\mathbf{v}=(a,b,c)$ non nullo; ci proponiamo di scrivere l'equazione della retta passante per $P_0$, parallela a $\mathbf{v}$.
 
 ![[Geometria e Algebra Lineare-1791120505287.webp|512]]
-###### #Figura(17)
+#Figura(17)
 
 
 Dalla figura si vede che un generico punto $P(x,y,z)$ appartentente alla retta si trova aggiungendo al vettore posizione $\mathbf{p}_0=\overrightarrow{OP_0}$ un opportuno multiplo $t\mathbf{v}$ di $\mathbf{v}$.
@@ -339,7 +338,7 @@ Le equazioni parametriche della retta risultano allora
 $$\begin{cases} x=x_0+t(x_1-x_0)\\ y=y_0+t(y_1-y_0) \\ z=z_0+t(z_1-z_0) \end{cases}$$
 
 ![[Geometria e Algebra Lineare-1791120647041.webp|553]]
-###### #Figura(18)
+#Figura(18)
 
 
 - **Condizioni di parallelismo ed ortogonalità tra rette**
@@ -379,7 +378,7 @@ Un piano è individuato da:
 a) Cominciamo col primo caso. Consideriamo un punto $P_0(x_0,y_0,z_0)$ ed un vettore $\mathbf{n}=(a,b,c)$ non nullo; ci proponiamo di determinare l'equazione del piano passante per $P_0 \perp \mathbf{n}$.
 
 ![[Geometria e Algebra Lineare-1791120747253.webp|414]]
-###### #Figura(19)
+#Figura(19)
 
 
 Dalla figura si vede che se $P=(x,y,z)$ è il generico punto del piano, allora il vettore $\overrightarrow{P_0P}$ è parallelo al piano e quindi $\perp \mathbf{n}$. Si ottiene allora l'equazione vettoriale:
@@ -403,7 +402,7 @@ Facciamo qualche **osservazione**:
 	In tal caso $\alpha, \beta, \gamma$ rappresentano le intercette del piano con gli assi coordinati.
 
 ![[Geometria e Algebra Lineare-1791120841013.webp|510]]
-###### #Figura(20)
+#Figura(20)
 
 
 *Esempio* (1): Si voglia scrivere l'equazione del piano passante per il punto $(1,2,-1)$ e normale al vettore $\mathbf{v}=(2,3,0)$.

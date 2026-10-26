@@ -6,6 +6,7 @@ type: folder_brief_live
 #INDEX of all Copilot skills, prompts, chats and projects
 
 %% Begin Waypoint %%
+- **copilot-conversations**
 - **copilot-custom-prompts**
 - **memory**
 - **projects**
@@ -15,13 +16,11 @@ type: folder_brief_live
 	- **json-canvas**
 		- **references**
 			- [[EXAMPLES]]
-		- [[LICENSE]]
 		- [[SKILL]]
 	- **obsidian-bases**
 		- **references**
 			- [[EXAMPLES]]
 			- [[FUNCTIONS_REFERENCE]]
-		- [[LICENSE]]
 		- [[SKILL]]
 	- **obsidian-cli**
 		- [[SKILL]]
@@ -30,10 +29,6 @@ type: folder_brief_live
 			- [[CALLOUTS]]
 			- [[EMBEDS]]
 			- [[PROPERTIES]]
-		- [[SKILL]]
-	- **openartifacts-publish**
-		- **themes**
-			- [[research-memo]]
 		- [[SKILL]]
 - **system-prompts**
 

@@ -2,7 +2,7 @@
 ___
 
 
-> [!hint]
+> [!hint] ____
 > Per aspera ad astra.
 
 
@@ -46,12 +46,6 @@ cellStyleRules:
 
 ```
 
-```dataview
-table without ID link(file.link, title) as "Event", startTime as "Start", endTime as "End"
-from "Calendar"
-where file.day = this.file.day
-sort startTime ASC
-```
 
 - ## Impegni del giorno 📋 :
 ```dataview
@@ -66,6 +60,7 @@ SORT due DESC
 	
 	[[Geometria e Algebra Lineare]]
 	[[Fondamenti di Informatica]]
+	[[Elettrotecnica]]
 	[[Algoritmi e Principi dell'Informatica]]
 
 
@@ -89,6 +84,6 @@ SORT due DESC
 
 
 Calendario integrato in Obsidian, impegni conservati nella cartella [[Calendario]].
-Integrazione con Copilot (harness Opencode), dotato di [[copilot]].
+Integrazione con [[copilot]] (harness Opencode).
 
 Questo vault è gestito e sincronizzato mediante [[Github]].
