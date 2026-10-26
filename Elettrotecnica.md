@@ -191,20 +191,20 @@ $$v_{1} = v_{2} = v_{3} = v_{BA}$$
 	#Figura(1.17). *Esempio di superficie chiusa orientata $\sigma$. Il senso positivo di attraversamento è assunto quello che va dall’interno all’esterno*
 	
 	L’evidenza sperimentale mostra come la corrente che attraversa tale superficie è zero, ovvero $I(\sigma) = 0$.
-	Ora si supponga che la superficie cubica chiusa $\sigma$ sia formata dall’unione di superfici parziali, diciamo per esempio dalle sei facce che la compongono con l’orientamento mostrato in figura 1.18.
+	Ora si supponga che la superficie cubica chiusa $\sigma$ sia formata dall’unione di superfici parziali, diciamo per esempio dalle sei facce che la compongono con l’orientamento mostrato in figura:
+	![[Elettrotecnica-1793030327959.webp|209]]
+	#Figura(1.18). 
 	In particolare, le superfici colorate in azzurro e verde sono orientate dall’esterno verso l’interno, mentre le superfici colorate in rosso sono orientate dall’interno verso l’esterno. Indicando per semplicità
 	$$I(\sigma_{k}) = i_{k}$$le misure di corrente eseguite sulle superfici parziali ed applicando le proprietà additiva e di essere dispari, vale il seguente bilancio attraverso $\sigma$:
 	$$−i_{1}−i_{2} + i_{3}−i_{4}−i_{5} + i_{6} = 0$$
 
 Generalizzando possiamo dedurre la seguente legge fondamentale:
 
-**Legge delle correnti**: la somma algebrica (cioè tenendo conto dei segni) delle correnti misurate attraverso una superficie $σ$ chiusa è uguale a zero.
+> [!important] Definizione
+> **Legge delle correnti**: la somma algebrica (cioè tenendo conto dei segni) delle correnti misurate attraverso una superficie $σ$ chiusa è uguale a zero.
 
-Un modo alternativo di enunciare la legge delle correnti consiste
 
-nel riscrivere il bilancio trasportando tutte le (misure) correnti
-
-negative al membro di destra:
+Un modo alternativo di enunciare la legge delle correnti consiste nel riscrivere il bilancio trasportando tutte le (misure) correnti negative al membro di destra:
 
 i3 + i6 = i1 + i2 + i4 + i5.
 
