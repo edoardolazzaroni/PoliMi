@@ -234,14 +234,16 @@ Inizieremo col considerare il caso di circuiti formati interconnettendo tra loro
 #Figura(1.20). *Esempio di circuito*
 
 Caratterizziamo elettricamente il bipolo $1$ collegato ai nodi $A$ e $B$ inserendo opportunamente gli strumenti voltmetro e amperometro:
-![[Elettrotecnica-1793031405465.webp|201]]
-#Figura(1.21). Inse
+![[Elettrotecnica-1793031405465.webp|192]]
+#Figura(1.21). *Inserimento del voltmetro e amperometro sul bipolo $1$*
 
 - L’inserimento del voltmetro avviene collegando i puntali ai due morsetti del bipolo in modo che lungo il voltmetro cada la tensione da misurare; si dice che <u>il voltmetro viene collegato in parallelo</u>;
 - L’inserimento dell’amperometro avviene tagliando il filo ad uno dei morsetti ed inserendo lo strumento in modo che sia attraversato dalla corrente da misurare; si dice che <u>l’amperometro viene collegato in serie</u>.
 
-Notate dalla figura 1.21 come tale inserimento corrisponda a rilevare la misura della tensione $v_{AB}$ cioè della tensione del morsetto o nodo $A$ rispetto al morsetto o nodo $B$ e della corrente $i_{A}$ entrante nel bipolo dal morsetto $A$.
-La particolare modalità di inserimento degli strumenti verrà indicata d’ora in poi semplicemente disegnando accanto al bipolo un arco di linea orientato che specifica il verso di misura della tensione e sul filo accanto al corrispondente terminale una freccia che indica il verso della misura di corrente.
+Si noti dalla figura 1.21 come tale inserimento corrisponda a rilevare la misura della tensione $v_{AB}$ cioè della tensione del morsetto o nodo $A$ rispetto al morsetto o nodo $B$ e della corrente $i_{A}$ entrante nel bipolo dal morsetto $A$.
+La particolare modalità di inserimento degli strumenti verrà indicata d’ora in poi semplicemente disegnando accanto al bipolo un arco di linea orientato che specifica il verso di misura della tensione e sul filo accanto al corrispondente terminale una freccia che indica il verso della misura di corrente:
+
+
 
 Nel linguaggio della teoria dei circuiti diremo semplicemente che
 
