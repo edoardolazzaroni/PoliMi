@@ -242,16 +242,10 @@ Caratterizziamo elettricamente il bipolo $1$ collegato ai nodi $A$ e $B$ inseren
 
 Si noti dalla figura 1.21 come tale inserimento corrisponda a rilevare la misura della tensione $v_{AB}$ cioè della tensione del morsetto o nodo $A$ rispetto al morsetto o nodo $B$ e della corrente $i_{A}$ entrante nel bipolo dal morsetto $A$.
 La particolare modalità di inserimento degli strumenti verrà indicata d’ora in poi semplicemente disegnando accanto al bipolo un arco di linea orientato che specifica il verso di misura della tensione e sul filo accanto al corrispondente terminale una freccia che indica il verso della misura di corrente:
+![[Elettrotecnica-1793031500153.webp|225]]
+#Figura(1.22). *Verso assunto nella misura della tensione e della corrente*
 
-
-
-Nel linguaggio della teoria dei circuiti diremo semplicemente che
-
-vAB e iA sono le variabili tensione e corrente del bipolo (o associate al
-
-bipolo), sottintendendo che esse rappresentano nel modello le misure
-
-delle grandezze fisiche corrispondenti. Ricordiamo anche che tali
+Nel linguaggio della teoria dei circuiti diremo semplicemente che $v_{AB}$ e $i_{A}$ sono le variabili tensione e corrente del bipolo (o associate al bipolo), sottintendendo che esse rappresentano nel modello le misure delle grandezze fisiche corrispondenti. Ricordiamo anche che tali
 
 misure possono assumere valore positivo, negativo o nullo.
 
