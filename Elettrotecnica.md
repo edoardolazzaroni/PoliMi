@@ -127,17 +127,8 @@ Sia $\sigma$ una superficie orientata come in [[#1.2.1 **Gli strumenti di misura
 Operativamente, la misura di corrente lungo $−\sigma$ si ottiene invertendo l’inserimento dei morsetti dell’amperometro. Vale la **proprietà di disparità**:
 $$I(−\sigma) =−I(\sigma)$$
 
-Ora consideriamo le superfici $\sigma_{1}$ e $\sigma_{2}$, orientate in modo concorde e che condividono parte della loro frontiera. La loro unione dà origine alla superficie complessiva $\sigma = \sigma_{1}\cup \sigma_{2}$. Se i1 = I(σ1)
-
-e i2 = I(σ2) sono i valori delle misure delle correnti attraverso
-
-le superfici parziali mentre i= I(σ) è la misura attraverso la
-
-superficie complessiva, la proprietà additiva delle correnti dice
-
-che:
-
-i= I(σ) = I(σ1 ∪σ2) = I(σ1) + I(σ2) = i1 + i2.
+Ora consideriamo le superfici $\sigma_{1}$ e $\sigma_{2}$, orientate in modo concorde e che condividono parte della loro frontiera. La loro unione dà origine alla superficie complessiva $\sigma = \sigma_{1}\cup \sigma_{2}$. Se $i_{1}= I(\sigma_{1})$ e $i_{2} = I(\sigma_{2})$ sono i valori delle misure delle correnti attraverso le superfici parziali mentre $i= I(\sigma)$ è la misura attraverso la superficie complessiva, la **proprietà additiva** delle correnti dice che:
+$$i= I(σ) = I(σ1 ∪σ2) = I(σ1) + I(σ2) = i1 + i2
 
 Infine siano σ1, σ2 e σ3 tre superfici orientate come in figura e
 
