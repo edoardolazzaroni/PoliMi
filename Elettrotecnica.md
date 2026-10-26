@@ -158,7 +158,7 @@ In un sistema elettrico operante in regime stazionario, valgono rigorosamente le
 	
 	L’evidenza mostra come la tensione elettrica misurata lungo tale linea vale $V(\gamma) = 0$.
 	Supponiamo ora che tale linea chiusa sia composta dai percorsi parziali $\gamma_{1}, \gamma_{2}, \gamma_{3}, \gamma_{4}$, orientati come mostrato in figura 1.15, lungo cui si sono eseguite le relative misure parziali di tensione $v_{1} = V(\gamma_{1}), v_{2} = V(\gamma_{2}), v_{3} = V(\gamma_{3}), v_{4} = V(\gamma_{4})$.
-	![[Elettrotecnica-1793029472172.webp|223]]
+	![[Elettrotecnica-1793029472172.webp|229]]
 	#Figura(1.15). *La linea chiusa $\gamma$ è composta da quattro percorsi parziali*
 	
 	Muovendosi lungo $\gamma$ in senso orario e applicando la proprietà additiva e quella di disparità, si ottiene:
@@ -170,13 +170,9 @@ Generalizzando, possiamo quindi enunciare la seguente legge fondamentale:
 > **Legge delle tensioni**: la somma algebrica (cioè tenendo conto dei segni) delle tensioni misurate lungo una linea γ chiusa è uguale a zero.
 
 
-Dalla legge delle tensioni discende un’altra importante con-
+Dalla legge delle tensioni discende un’altra importante conseguenza. Con riferimento alla figura seguente si considerino per iniziare le due linee $\gamma_{1}$ e $\gamma_{2}$ che partono dal punto $A$ e portano attraverso due percorsi alternativi al medesimo punto $B$.
 
-seguenza. Con riferimento alla figura 1.20 si considerino per
-
-iniziare le due linee γ1 e γ2 che partono dal punto A e portano
-
-attraverso due percorsi alternativi al medesimo punto B.
+![[Elettrotecnica-1793029657439.webp]]
 
 Figure 1.20: Le linee in figura hanno gli
 
