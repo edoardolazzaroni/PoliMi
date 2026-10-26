@@ -269,3 +269,75 @@ La figure 1.26 invece mostra un modo alternativo di coordinare le misure prenden
 #Figura(1.27). *Convenzione dei generatori*
 
 
+
+## 1.4 **Le leggi di Kirchoff**
+
+Siamo ora in grado di tornare al circuito completo mostrato in [[#1.3 **Il circuito elettrico**|figura 1.20]]:Ogni bipolo è descritto elettricamente da una tensione e da una 
+
+corrente che supponiamo misurate con la convenzione degli utilizza-
+
+tori. Rivediamo la legge delle correnti ambientandola sul circuito. Per
+
+questo consideriamo, per prima, la superficie chiusa σ1 indicata in
+
+figura 1.31 che orientiamo dall’interno verso l’esterno. Notiamo che
+
+per costruzione in un circuito elettrico le correnti possono circolare
+
+solo nei bipoli e nei loro terminali esterni e che la superficie σ1 inter-
+
+seca i morsetti dei bipoli 2, 3, 4 e 6. La legge delle correnti si riduce a
+
+i2 + i3−i4−i6 = 0 (1.1)
+
+In termini generali possiamo allora enunciare la seguente:
+
+Legge di Kirchhoff delle correnti (KCL): la somma algebrica (cioè
+
+con segno) delle correnti (cioè delle misure di corrente) dei bipoli
+
+i cui terminali vengono intersecati da una superficie chiusa è sem-
+
+pre zero.
+
+Tale somma con segno viene anche chiamato bilancio di corrente.
+
+E’ istruttivo (e rilevante nella pratica) notare come il bilancio di
+
+corrente (1.1) si possa riscrivere portando le correnti che compaiono
+
+col segno meno al membro di destra:
+
+i2 + i3 = i4 + i6
+
+Questa riscrittura corrisponde ad interpretare la legge KCL come: la
+
+somma delle correnti dei bipoli il cui verso (di misura) è entrante in
+
+σ1 è uguale alla somma delle correnti dei bipoli il cui verso è uscente
+
+dalla medesima.
+
+Si consideri ora la superficie chiusa indicata con σ2 che circonda
+
+il nodo 3. La superficie interseca esclusivamente i morsetti dei bipoli
+
+che sono collegati al nodo, cioè 3, 5 e 6 . Orientando la superficie
+
+dall’interno all’esterno, la legge di Kirchhoff delle correnti diventa nel
+
+caso particolare:
+
+i3−i5−i6 = 0 (1.2)
+
+e si può enunciare nel modo seguente:
+
+Legge di Kirchhoff delle correnti al nodo: la somma algebrica
+
+(cioè con segno) delle correnti che escono (o in modo del tutto
+
+equivalente che entrano) da un nodo di un circuito è sempre zero.
+
+Anche in questo caso, il bilancio di corrente si può riscrivere
+
+i3 = i5 + i6
