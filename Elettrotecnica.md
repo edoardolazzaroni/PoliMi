@@ -213,3 +213,53 @@ I termini a primo membro rappresentano la somma delle correnti uscenti da $\sigm
 
 ## 1.3 **Il circuito elettrico**
 
+Le grandezze elettriche e le loro proprietà sono state fino a qui descritte in termini astratti riferendosi ad una regione qualunque di spazio. Passiamo ora ad ambientarle nella struttura particolare di un circuito elettrico inteso come interconnessione di dispositivi elementari.
+
+I componenti/dispositivi elettrici sono fabbricati combinando materiali che da un punto di vista elettrico possiedono proprietà opposte: gli **isolanti** ed i **conduttori**.
+Per isolante ideale noi intendiamo un materiale che a fronte della applicazione di una tensione
+
+elettrica finita v̸=0, per esempio applicandogli una pila elettrica, sia
+
+attraversato da una corrente nulla i=0. Un tale materiale dunque si
+
+oppone al passaggio di corrente anche in presenza di tensioni sig-
+
+nificative. Materiali isolanti sono per esempio la carta, il legno o la
+
+plastica. Viceversa un materiale conduttore ideale è quello in cui può
+
+circolare una corrente finita i̸=0 anche in assenza di tensione v=0.
+
+Un conduttore reale è quello che consente la circolazione di correnti
+
+significative anche in presenza di tensioni molto piccole. Materiali
+
+conduttori sono tutti i metalli o l’acqua. Alle due categorie estreme
+
+ora introdotte si deve aggiungere quella dei semi-conduttori i quali in
+
+natura presentano proprietà elettriche intermedie tra il conduttore e
+
+l’isolante e possono essere trasformati nell’uno o nell’altro attraverso
+
+opportuni trattamenti tecnologici. La loro grande flessibilità ha di
+
+fatto reso possibile l’enorme sviluppo della micro-elettronica. Un dis-
+
+positivo elementare è avvolto da una superficie di materiale isolante
+
+attraverso la quale non può esserci passaggio di carica, cioè corrente.
+
+Questa superficie isolante ha la funzione di confinare la parte interna
+
+del dispositivo dall’ambiente esterno e di protezione. La superficie
+
+isolante è poi attraversata in pochi punti da parti di materiale con-
+
+duttore che funzionano come tramite o porta con l’ambiente esterno.
+
+Tali parti conduttrici vengono chiamate terminali o morsetti o an-
+
+cora poli del dispositivo. L’interazione elettrica del dispositivo con
+
+l’ambiente esterno avviene esclusivamente attraverso i suoi poli.
