@@ -97,7 +97,9 @@ Osserviamo che da un punto di vista matematico, le misure di tensione o di corre
 L’uso del voltmetro e dell’amperometro mostra che la misura di tensione e quella di corrente godono della proprietà di essere **dispari** e della proprietà **additiva**.
 Vediamo dette proprietà esaminando per primo il caso della tensione e poi quello della corrente.
 
-• **Proprietà della tensione**.
+
+- #### **Proprietà della tensione**:
+
 Indichiamo con $\gamma$ una linea orientata diretta dal punto $A$ al punto $B$ e con $−\gamma$ la stessa linea ma orientata nel verso opposto, cioè che va da $B$ ad $A$, come mostrato in figura.
 Operativamente la misura di tensione lungo $−\gamma$ si ottiene invertendo l’inserimento dei morsetti del voltmetro. Vale la **proprietà di disparità**, ovvero:
 $$V(−\gamma) =−V(\gamma)$$
@@ -113,7 +115,7 @@ $$v(\gamma) = V(\gamma_{1} \cup (−\gamma_{2}) \cup \gamma_{3}) = v_{1} − v_{
 La misura di tensione lungo un cammino orientato è dato dalla somma algebrica (cioè con segno) delle misure eseguite lungo i tratti parziali, prendendo con segno positivo le misure eseguite con orientamento concorde al cammino e con segno negativo le discordi.
 
 
-• Proprietà della variabile corrente.
+- #### **Proprietà della variabile corrente**:
 
 Sia σ una superficie orientata come in figura 1.11 e con−σ la
 
