@@ -293,16 +293,13 @@ Questa riscrittura corrisponde ad interpretare la legge KCL come: la somma delle
 
 
 Si consideri ora la superficie chiusa indicata con $\sigma_{2}$ che circonda il nodo $3$. La superficie interseca esclusivamente i morsetti dei bipoli che sono collegati al nodo, cioè $3, 5$ e $6$. Orientando la superficie dall’interno all’esterno, la legge di Kirchhoff delle correnti diventa nel caso particolare:
-$$i_{3}−i5−i6 = 0 \quad (1.2)$$
+$$i_{3}−i_{5}−i_{6} = 0 \quad (1.2)$$
 
 e si può enunciare nel modo seguente:
 
-Legge di Kirchhoff delle correnti al nodo: la somma algebrica
+> [!important] Definizione
+> **Legge di Kirchhoff delle correnti al nodo**: la somma algebrica (cioè con segno) delle correnti che escono (o in modo del tutto equivalente che entrano) da un nodo di un circuito è sempre zero.
 
-(cioè con segno) delle correnti che escono (o in modo del tutto
 
-equivalente che entrano) da un nodo di un circuito è sempre zero.
-
-Anche in questo caso, il bilancio di corrente si può riscrivere
-
-i3 = i5 + i6
+Anche in questo caso, il bilancio di corrente si può riscrivere:
+$$i_{3} = i_{5} + i_{6}$$
