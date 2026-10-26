@@ -222,6 +222,7 @@ I componenti/dispositivi elettrici sono fabbricati combinando materiali che da u
 Alle due categorie estreme ora introdotte si deve aggiungere quella dei **semi-conduttori** i quali in natura presentano <u>proprietà elettriche intermedie tra il conduttore e l’isolante</u> e possono essere trasformati nell’uno o nell’altro attraverso opportuni trattamenti tecnologici. La loro grande flessibilità ha di fatto reso possibile l’enorme sviluppo della micro-elettronica. Un dispositivo elementare è avvolto da una superficie di materiale isolante attraverso la quale non può esserci passaggio di carica, cioè corrente.
 Questa superficie isolante ha la funzione di confinare la parte interna del dispositivo dall’ambiente esterno e di protezione. La superficie isolante è poi attraversata in pochi punti da parti di materiale conduttore che funzionano come tramite o porta con l’ambiente esterno.
 
-Tali parti conduttrici vengono chiamate **terminali** o **morsetti** o ancora **poli** del dispositivo. L’interazione elettrica del dispositivo con
+Tali parti conduttrici vengono chiamate **terminali** o **morsetti** o ancora **poli** del dispositivo. L’interazione elettrica del dispositivo con l’ambiente esterno avviene esclusivamente attraverso i suoi poli.
 
-l’ambiente esterno avviene esclusivamente attraverso i suoi poli.
+![[Elettrotecnica-1793030901235.webp|354]]
+#Figura(1.19). 
