@@ -225,4 +225,6 @@ Questa superficie isolante ha la funzione di confinare la parte interna del disp
 Tali parti conduttrici vengono chiamate **terminali** o **morsetti** o ancora **poli** del dispositivo. L’interazione elettrica del dispositivo con l’ambiente esterno avviene esclusivamente attraverso i suoi poli.
 
 ![[Elettrotecnica-1793030901235.webp|354]]
-#Figura(1.19). 
+#Figura(1.19). *Elementi circuitali*
+
+Gli elementi in figura sono dispositivi con due, tre e quattro poli rispettivamente a cui daremo il nome di bipolo, tripolo e quadripolo.
