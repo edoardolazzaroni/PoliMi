@@ -259,6 +259,9 @@ e dunque che <mark class="hltr-yellow">ai capi di un bipolo esiste solo una tens
 
 Quindi, un dispositivo elettrico con due morsetti è descritto completamente da una corrente ed una tensione; si dice anche che i due morsetti con le relative grandezze formano una **porta elettrica** o anche un **lato**.
 
-Poiché un bipolo è descritto da due grandezze e dalle rispettive convenzioni di misura nasce spontanea l’idea di coordinare tra di loro tali convenzioni di misura.La figura 1.25 mostra un primo modo di abbinare le due misure prendendo il verso di misura della corrente entrante dal morsetto verso cui è rivolta la freccia che descrive l’orientazione della misura di tensione. Questa modalità viene riferita
+Poiché un bipolo è descritto da due grandezze e dalle rispettive convenzioni di misura nasce spontanea l’idea di coordinare tra di loro tali convenzioni di misura.La figura 1.25 mostra un primo modo di abbinare le due misure prendendo il verso di misura della corrente entrante dal morsetto verso cui è rivolta la freccia che descrive l’orientazione della misura di tensione. Questa modalità viene riferita come **convenzione degli utilizzatori**.
+![[Elettrotecnica-1793031950798.webp|200]]
+#Figura(1.25). *Convenzione degli utilizzatori*
 
-come convenzione degli utilizzatori. La figure 1.30 invece mostra un
+
+La figure 1.30 invece mostra un
