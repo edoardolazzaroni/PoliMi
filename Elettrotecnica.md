@@ -171,14 +171,9 @@ Generalizzando, possiamo quindi enunciare la seguente legge fondamentale:
 
 
 Dalla legge delle tensioni discende un’altra importante conseguenza. Con riferimento alla figura seguente si considerino per iniziare le due linee $\gamma_{1}$ e $\gamma_{2}$ che partono dal punto $A$ e portano attraverso due percorsi alternativi al medesimo punto $B$.
+![[Elettrotecnica-1793029657439.webp|297x215]]
 
-![[Elettrotecnica-1793029657439.webp]]
-
-Figure 1.20: Le linee in figura hanno gli
-
-stessi estremi e orientamento, cioè sono
-
-cammini che partono da A e arrivano in
+#Figura(1.16). Le linee in figura hanno gli stessi estremi e orientamento, cioè sonocammini che partono da A e arrivano in
 
 B.
 
