@@ -186,7 +186,9 @@ Questo indica che tensioni misurate lungo cammini diversi ma che collegano gli s
 **In regime stazionario dunque, la tensione dipende solo dagli estremi del cammino lungo cui è misurata ed è quindi lecito indicarla in modo sintetico come $v_{BA}$ intendendola come la tensione del punto $B$ rispetto al punto $A$**:
 $$v_{1} = v_{2} = v_{3} = v_{BA}$$
 
-- La seconda evidenza sperimentale che si registra in regime stazionario riguarda la variabile corrente. A tale proposito, consideriamo una superficie chiusa $σ, ad esempio come mostrato in fig. 1.21.
+- La seconda evidenza sperimentale che si registra in regime stazionario riguarda la variabile corrente. A tale proposito, consideriamo una superficie chiusa $\sigma$, ad esempio come mostrato nella figura seguente:
+![[Elettrotecnica-1793030001726.webp|298]]
+#Figura(1.17). 
 
 L’evidenza sperimentale mostra come la corrente che attraversa
 
@@ -208,13 +210,7 @@ semplicità
 
 I(σk) = ik
 
-Figure 1.21: Esempio di superficie
-
-chiusa orientata σ. Il senso postivio di
-
-attraversamento è assunto quello che va
-
-dall’interno all’esterno.le misure di corrente eseguite sulle superfici parziali ed applicando
+le misure di corrente eseguite sulle superfici parziali ed applicando
 
 le proprietà additiva e di essere dispari, vale il seguente bilancio
 
