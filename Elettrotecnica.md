@@ -320,24 +320,9 @@ In teoria dei circuiti, si indica con il nome di "**cammino**" la sequenza ordin
 
 
 Osserviamo anche che la $(1.3)$ può essere riscritta come:
+$$v_{1}−v_{6} = v_{2}−v_{5}$$
 
-v1−v6 = v2−v5
-
-Le tensioni a membro di sinistra corrispondono alla somma lungo il
-
-cammino che parte da B e va a D (attraverso A) mentre il membro di
-
-destra è la somma delle tensioni lungo un secondo cammino sempre
-
-da B a D (attraverso C). Questa seconda espressione della legge di
-
-Kirchhoff delle tensioni dunque corrisponde ad imporre che le ten-
-
-sioni raccolte lungo cammini diversi ma con gli stessi estremi devono
-
-essere uguali tra loro. Per esempio, facendo riferimento alla maglia
-
-descritta da γ2 tratteggiata in blu in figura 1.32, si può scrivere diret-
+Le tensioni a membro di sinistra corrispondono alla somma lungo il cammino che parte da $B$ e va a $D$ (attraverso $A$) mentre il membro di destra è la somma delle tensioni lungo un secondo cammino sempre da $B$ a $D$ (attraverso $C$). Questa seconda espressione della legge di Kirchhoff delle tensioni dunque corrisponde ad imporre che le tensioni raccolte lungo cammini diversi ma con gli stessi estremi devono essere uguali tra loro. Per esempio, facendo riferimento alla maglia descritta da $\gamma_{2}$ tratteggiata in blu in figura 1.29, si può scrivere diret-
 
 tamente che:
 
