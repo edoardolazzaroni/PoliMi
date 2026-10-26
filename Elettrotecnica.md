@@ -236,13 +236,7 @@ Caratterizziamo elettricamente il bipolo $1$ collegato ai nodi $A$ e $B$ inseren
 - L’inserimento dell’amperometro avviene tagliando il filo ad uno dei morsetti ed inserendo lo strumento in modo che sia attraversato dalla corrente da misurare; si dice che <u>l’amperometro viene collegato in serie</u>.
 
 Notate dalla figura 1.21 come tale inserimento corrisponda a rilevare la misura della tensione $v_{AB}$ cioè della tensione del morsetto o nodo $A$ rispetto al morsetto o nodo $B$ e della corrente $i_{A}$ entrante nel bipolo dal morsetto $A$.
-La particolare modalità di inserimento degli strumenti verrà indicata d’ora in poi semplicemente disegnando accanto al bipolo un arco
-
-di linea orientato che specifica il verso di misura della tensione e sul
-
-filo accanto al corrispondente terminale una freccia che indica il verso
-
-della misura di corrente.
+La particolare modalità di inserimento degli strumenti verrà indicata d’ora in poi semplicemente disegnando accanto al bipolo un arco di linea orientato che specifica il verso di misura della tensione e sul filo accanto al corrispondente terminale una freccia che indica il verso della misura di corrente.
 
 Nel linguaggio della teoria dei circuiti diremo semplicemente che
 
