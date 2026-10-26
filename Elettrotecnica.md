@@ -99,19 +99,14 @@ Vediamo dette proprietà esaminando per primo il caso della tensione e poi quell
 
 • **Proprietà della tensione**.
 Indichiamo con $\gamma$ una linea orientata diretta dal punto $A$ al punto $B$ e con $−\gamma$ la stessa linea ma orientata nel verso opposto, cioè che va da $B$ ad $A$, come mostrato in figura.
-Operativamente la misura di tensione lungo $−\gamma$ si ottiene invertendo l’inserimento dei morsetti del voltmetro. Vale la proprietà di disparità, ovvero:
+Operativamente la misura di tensione lungo $−\gamma$ si ottiene invertendo l’inserimento dei morsetti del voltmetro. Vale la **proprietà di disparità**, ovvero:
 $$V(−\gamma) =−V(\gamma)$$
 La disparità ha l’ovvio significato che il lavoro svolto per spostare la carica di prova da $A$ a $B$ è lo stesso in modulo ma opposto in segno a quello che si svolge per spostarla da $B$ ad $A$.
 
-Ora consideriamo le linee orientate $\gamma_{1}$ che va da $A$ a $B$ e $\gamma_{2}$ che va da $B$ a $C$. La loro unione dà origine alla linea complessiva $\gamma= \gamma_{1} \cup \gamma_{2}$ che va da $A$ a $C$. Sia $v_{1} = V(\gamma_{1})$ la tensione misurata lungo $\gamma_{1}$ e $v_{2} = V(\gamma_{2})$ la tensione misurata lungo $\gamma_{2}$. Indichiamo poi con $V(\gamma)$ la misura lungo la linea complessiva.
+Ora consideriamo le linee orientate $\gamma_{1}$ che va da $A$ a $B$ e $\gamma_{2}$ che va da $B$ a $C$. La loro unione dà origine alla linea complessiva $\gamma= \gamma_{1} \cup \gamma_{2}$ che va da $A$ a $C$. Sia $v_{1} = V(\gamma_{1})$ la tensione misurata lungo $\gamma_{1}$ e $v_{2} = V(\gamma_{2})$ la tensione misurata lungo $\gamma_{2}$. Indichiamo poi con $V(\gamma)$ la misura lungo la linea complessiva. Vale allora la **proprietà additiva** della tensione:
+$$V(\gamma) = V(\gamma_{1} \cup \gamma_{2}) = V(\gamma_{1}) + V(\gamma_{2}) = v_{1} + v_{2}$$
 
-Vale allora la proprietà additiva della tensione:
-
-V(γ) = V(γ1 ∪γ2) = V(γ1) + V(γ2) = v1 + v2.
-
-Combiniamo ora le due proprietà e consideriamo le tre linee
-
-γ1, γ2 e γ3 orientate come mostrato in figura 1.14 (cioè con γ2
+<u>Combiniamo ora le due proprietà</u> e consideriamo le tre linee $γ1, γ2 e γ3 orientate come mostrato in figura 1.14 (cioè con γ2
 
 orientata in modo discorde alle altre) e la linea unione γ= γ1 ∪
 
