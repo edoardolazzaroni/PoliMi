@@ -4,7 +4,7 @@ description: Use the official Obsidian CLI when a task needs Obsidian's running 
 license: MIT
 metadata:
   copilot-enabled-agents: opencode, claude, codex
-  copilot-builtin-version: "2"
+  copilot-builtin-version: "3"
   copilot-upstream-revision: "a1dc48e68138490d522c04cbf5822214c6eb1202"
 ---
 
@@ -89,8 +89,12 @@ meaning beyond raw files:
 - Bases: <code>bases</code>, <code>base:views</code>, and
   <code>base:query</code>. Prefer <code>format=json</code> for structured agent
   consumption.
-- Templates: <code>templates</code> and <code>template:read ... resolve</code>
-  when configured template resolution is required.
+- Templates: <code>create path=&lt;new note&gt; template=&lt;name&gt;</code>
+  creates a note the way Obsidian's template insertion fills it:
+  <code>{{title}}</code> becomes the new note's full file name without
+  extension, and <code>{{date}}</code> and <code>{{time}}</code> become the
+  current date and time. Use <code>templates</code> and
+  <code>template:read ... resolve title=&lt;file name&gt;</code> to preview.
 - Live workspace state: <code>tabs ids</code> lists the currently open tabs and
   their IDs, while <code>workspace ids</code> shows the workspace tree and its
   item IDs.
