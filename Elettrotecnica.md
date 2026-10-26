@@ -98,10 +98,7 @@ L’uso del voltmetro e dell’amperometro mostra che la misura di tensione e qu
 Vediamo dette proprietà esaminando per primo il caso della tensione e poi quello della corrente.
 
 • **Proprietà della tensione**.
-	Indichiamo con $\gamma$ una linea orientata diretta dal punto $A$ al punto $B$ e con $−\gamma$ la stessa linea ma orientata nel verso opposto, cioè che
-
-va da B ad A, come mostrato in fig. 1.12.
-
+Indichiamo con $\gamma$ una linea orientata diretta dal punto $A$ al punto $B$ e con $−\gamma$ la stessa linea ma orientata nel verso opposto, cioè che va da $B$ ad $A$, come mostrato in figura.
 Operativamente la misura di tensione lungo−γ si ottiene inver-
 
 tendo l’inserimento dei morsetti del voltmetro. Vale la proprietà di
