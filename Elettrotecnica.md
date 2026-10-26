@@ -139,5 +139,8 @@ $$i= I(\sigma) = I(\sigma_{1} \cup \sigma_{2}) = I(\sigma_{1}) + I(\sigma_{2}) =
 Infine siano $\sigma_{1}, \sigma_{2}, \sigma_{3}$ tre superfici orientate come in figura e cioè con $\sigma_{2}$ orientata in modo discorde alle prime due e sia $\sigma = \sigma_{1}\cup(−\sigma_{2})\cup \sigma_{3}$. Si sono eseguite le relative misure di corrente $i_{1}, i_{2}$ e $i_{3}$. Dalla proprietà di disparità si ha che $i(−\sigma_{2}) =−i_{2}$ e dall’additività che:
 $$i= I(\sigma_{1}\cup(−\sigma_{2})\cup \sigma_{3}) = i_{1}−i_{2} + i_{3}$$
 
-![[Elettrotecnica-1793027803553.webp]]
+![[Elettrotecnica-1793027803553.webp|306]]
+#Figura(1.13). *$\sigma = \sigma_{1}\cup(−\sigma_{2})\cup \sigma_{3}$*
+
 La misura di corrente attraverso una superficie orientata è dato dalla somma algebrica (cioè con segno) delle misure eseguite attraverso le sottosuperfici parziali che la formano prendendo con segno positivo le misure eseguite con orientamento concorde e con segno negativo le discordi.
+
