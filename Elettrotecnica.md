@@ -210,3 +210,6 @@ $$i_{3} + i_{6} = i_{1} + i_{2} + i_{4} + i_{5}$$
 I termini a primo membro rappresentano la somma delle correnti uscenti da $\sigma$ mentre i termini al secondo membro sono la somma delle correnti entranti. La legge delle correnti impone che tali somme debbano eguagliarsi, cioè che la corrente totale che entra in una superficie chiusa sia pari alla corrente totale che ne fuori esce.
 
 
+
+## 1.3 **Il circuito elettrico**
+
