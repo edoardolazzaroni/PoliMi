@@ -241,22 +241,15 @@ Caratterizziamo elettricamente il bipolo $1$ collegato ai nodi $A$ e $B$ inseren
 - L’inserimento dell’amperometro avviene tagliando il filo ad uno dei morsetti ed inserendo lo strumento in modo che sia attraversato dalla corrente da misurare; si dice che <u>l’amperometro viene collegato in serie</u>.
 
 Si noti dalla figura 1.21 come tale inserimento corrisponda a rilevare la misura della tensione $v_{AB}$ cioè della tensione del morsetto o nodo $A$ rispetto al morsetto o nodo $B$ e della corrente $i_{A}$ entrante nel bipolo dal morsetto $A$.
-La particolare modalità di inserimento degli strumenti verrà indicata d’ora in poi semplicemente disegnando accanto al bipolo un arco di linea orientato che specifica il verso di misura della tensione e sul filo accanto al corrispondente terminale una freccia che indica il verso della misura di corrente:
-![[Elettrotecnica-1793031500153.webp|225]]
+La particolare modalità di inserimento degli strumenti verrà indicata d’ora in poi semplicemente disegnando accanto al bipolo un arco di linea orientato che specifica il verso di misura della tensione e sul filo accanto al corrispondente terminale una freccia che indica il verso della misura di corrente:![[Elettrotecnica-1793031500153.webp|225]]
 #Figura(1.22). *Verso assunto nella misura della tensione e della corrente*
 
 Nel linguaggio della teoria dei circuiti diremo semplicemente che $v_{AB}$ e $i_{A}$ sono le variabili tensione e corrente del bipolo (o associate al bipolo), sottintendendo che esse rappresentano nel modello le misure delle grandezze fisiche corrispondenti. Ricordiamo anche che tali misure possono assumere valore positivo, negativo o nullo.
 
 Si supponga ora di misurare al terminale $B$ la corrente entrante $i_{B}$. Dalla legge delle correnti assumendo una superficie chiusa che avvolge il bipolo $1$, ricaviamo:
 $$i_{A} + i_{B} = 0 \rightarrow i_{B} =−i_{A}$$
-che ci dice che la misura al terminale $B$ si deduce da quella eseguita in $A$. Concludiamo dunque che <mark class="hltr-yellow">ai capi di un bipolo esiste solo una corrente indipendente che ne caratterizza completamente il flusso di carica</mark>.
-![[Elettrotecnica-1793031649832.webp|258]]
-#Figura(1.23). Applicazione della legge delle correnti al bipolo
+che ci dice che la misura al terminale $B$ si deduce da quella eseguita in $A$. Concludiamo dunque che <mark class="hltr-yellow">ai capi di un bipolo esiste solo una corrente indipendente che ne caratterizza completamente il flusso di carica</mark>.![[Elettrotecnica-1793031649832.webp|204]]
+#Figura(1.23). *Applicazione della legge delle correnti al bipolo*
 
-Ragioniamo ora sulle tensione e supponiamo di misurare la ten-
-
-sione vBA, cioè del mosetto B rispetto al morsetto A. Dalla legge delle
-
-tensioni (o dalla proprietà di disparità) ricaviamo che:
-
-vAB + vBA = 0 −→vBA =−vAB
+Ragioniamo ora sulle tensione e supponiamo di misurare la tensione $v_{BA}$, cioè del mosetto $B$ rispetto al morsetto $A$. Dalla legge delle tensioni (o dalla proprietà di disparità) ricaviamo che:
+$$v_{AB} + v_{BA} = 0 −→vBA =−vAB$$
