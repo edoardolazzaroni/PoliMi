@@ -338,6 +338,6 @@ $$e_{B} = v_{BA} =−v_{1}, e_{C} = v_{CA} =−v_{4}, e_{D} = v_{DA} =−v_{6}$$
 
 Notiamo che, ragionando in modo inverso, dalla conoscenza dei potenziali di nodo è possibile ricavare le tensioni dei bipoli. In generale infatti si ha che per il generico bipolo connesso tra i nodi $k$ e $j$, in cui indichiamo con $e_{k}$ ed $e_{j}$ i rispettivi potenziali rispetto ad un riferimento qualunque, la tensione misurata ai capi del bipolo, cioè $v_{kj}$, vale:
 $$v_{kj}= e_{k}−e_{j}.$$
-
 ![[Elettrotecnica-1793033419221.webp|214]]
-#Figura(1.31). Dai potenziali ai nodi a cui un bipolo è connesso si risale alla sua tensione
+#Figura(1.31). *Dai potenziali ai nodi a cui un bipolo è connesso si risale alla sua tensione*
+
