@@ -180,19 +180,10 @@ $$\gamma_{1} \cup(−\gamma_{2})$$
 si ottiene:
 $$v_{1}−v_{2} = 0 \rightarrow v_{1} = v_{2}$$
 
-Lo stesso ragionamento si estende alla linea $\gamma_{3}$ per cui $v_{1} = v$
+Lo stesso ragionamento si estende alla linea $\gamma_{3}$ per cui $v_{1} = v_{3}$.
+Questo indica che tensioni misurate lungo cammini diversi ma che collegano gli stessi punti estremi $A$ e $B$ hanno lo stesso valore.
 
-Questo indica che tensioni misurate lungo cammini diversi ma
-
-che collegano gli stessi punti estremi A e B hanno lo stesso valore.
-
-In regime stazionario dunque, la tensione dipende solo dagli
-
-estremi del cammino lungo cui è misurata ed è quindi lecito in-
-
-dicarla in modo sintetico come vBA intendendola come la tensione
-
-del punto B rispetto al punto A:
+In regime stazionario dunque, la tensione dipende solo dagli estremi del cammino lungo cui è misurata ed è quindi lecito indicarla in modo sintetico come $v_{BA}$ intendendola come la tensione del punto $B$ rispetto al punto $A$:
 
 v1 = v2 = v3 = vBA.
 
