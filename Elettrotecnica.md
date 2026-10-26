@@ -153,14 +153,14 @@ Le grandezze fisiche tensione e corrente che misuriamo in un sistema elettrico p
 In un sistema elettrico operante in regime stazionario, valgono rigorosamente le seguenti evidenze sperimentali:
 
 - Si consideri una linea $\gamma$ chiusa, cioè tale che il punto di partenza e di arrivo coincidono come mostrato in figura 1.14:
-
 	![[Elettrotecnica-1793029408509.webp|209]]
 	#Figura(1.14). *Linea chiusa, ovvero il punto di partenza $A$ e di arrivo $B$ coincidono*
 	
 	L’evidenza mostra come la tensione elettrica misurata lungo tale linea vale $V(\gamma) = 0$.
 	Supponiamo ora che tale linea chiusa sia composta dai percorsi parziali $\gamma_{1}, \gamma_{2}, \gamma_{3}, \gamma_{4}$, orientati come mostrato in figura 1.15, lungo cui si sono eseguite le relative misure parziali di tensione $v_{1} = V(\gamma_{1}), v_{2} = V(\gamma_{2}), v_{3} = V(\gamma_{3}), v_{4} = V(\gamma_{4})$.
-
-
+	![[Elettrotecnica-1793029472172.webp|223]]
+	#Figura(1.15). 
+	
 	Muovendosi lungo $\gamma$ in senso orario e applicando la proprietà additiva e quella di disparità, si ottiene:
 	$$v_{1}−v_{2}+v_{3}−v_{4} = 0$$
 
@@ -169,14 +169,6 @@ Generalizzando, possiamo quindi enunciare la seguente legge fondamentale:
 > [!important] Definizione
 > **Legge delle tensioni**: la somma algebrica (cioè tenendo conto dei segni) delle tensioni misurate lungo una linea γ chiusa è uguale a zero.
 
-
-
-
-Figure 1.18: Linea chiusa, ovvero il
-
-punto di partenza A e di arrivo B
-
-coincidono.
 
 Figure 1.19: La linea chiusa γ è com-
 
