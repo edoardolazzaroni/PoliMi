@@ -99,14 +99,8 @@ Vediamo dette proprietà esaminando per primo il caso della tensione e poi quell
 
 • **Proprietà della tensione**.
 Indichiamo con $\gamma$ una linea orientata diretta dal punto $A$ al punto $B$ e con $−\gamma$ la stessa linea ma orientata nel verso opposto, cioè che va da $B$ ad $A$, come mostrato in figura.
-Operativamente la misura di tensione lungo−γ si ottiene inver-
-
-tendo l’inserimento dei morsetti del voltmetro. Vale la proprietà di
-
-disparità, ovvero
-
-V(−γ) =−V(γ).
-
+Operativamente la misura di tensione lungo $−\gamma$ si ottiene invertendo l’inserimento dei morsetti del voltmetro. Vale la proprietà di disparità, ovvero:
+$$V(−\gamma) =−V(\gamma)$$
 La disparità ha l’ovvio significato che il lavoro svolto per spostare
 
 la carica di prova da A a B è lo stesso in modulo ma opposto in
