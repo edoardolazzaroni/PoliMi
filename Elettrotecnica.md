@@ -114,7 +114,8 @@ $$V(\gamma) = V(\gamma_{1} \cup \gamma_{2}) = V(\gamma_{1}) + V(\gamma_{2}) = v_
 
 <u>Combiniamo ora le due proprietà</u> e consideriamo le tre linee $\gamma_{1}, \gamma_{2}, \gamma_{3}$ orientate come mostrato in figura (cioè con $\gamma_{2}$ orientata in modo discorde alle altre) e la linea unione $\gamma= \gamma_{1} \cup (-\gamma_{2}) \cup \gamma_{3}$. Abbiamo eseguito le relative misure di tensione $v_{1} = V(\gamma_{1}), v_{2} = V(\gamma_{2})$ e $v_{3} = V(\gamma_{3})$. Dalla proprietà di disparità si ha che $V(−\gamma_{2}) =−v_{2}$ e dunque applicando la proprietà di additività concludiamo che:
 $$v(\gamma) = V(\gamma_{1} \cup (−\gamma_{2}) \cup \gamma_{3}) = v_{1} − v_{2} + v_{3}$$
-
+![[Elettrotecnica-1793026990833.webp|255]]
+#Figura(1.10). *$\gamma=\gamma_{1}\cup(-\gamma_{2})\cup \gamma_{3}$*
 
 La misura di tensione lungo un cammino orientato è dato dalla somma algebrica (cioè con segno) delle misure eseguite lungo i tratti parziali, prendendo con segno positivo le misure eseguite con orientamento concorde al cammino e con segno negativo le discordi.
 
