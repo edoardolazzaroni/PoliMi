@@ -274,6 +274,7 @@ La figure 1.26 invece mostra un modo alternativo di coordinare le misure prenden
 
 Siamo ora in grado di tornare al circuito completo mostrato in [[#1.3 **Il circuito elettrico**|figura 1.20]]: ogni bipolo è descritto elettricamente da una tensione e da una corrente che supponiamo misurate con la convenzione degli utilizzatori. Rivediamo la legge delle correnti ambientandola sul circuito. Per questo consideriamo, per prima, la superficie chiusa $\sigma_{1}$ indicata in figura 1.28 che orientiamo dall’interno verso l’esterno.
 ![[Elettrotecnica-1793032550236.webp|294]]
+#Figura(1.28). *Le linee tratteggiate rosse e blu mostrano la traccia sul foglio delle due superfici chiuse $\sigma_{1}$ e $\sigma$. La KCL bilancia le correnti che attraversano tali superfici*
 
 Notiamo che per costruzione in un circuito elettrico le correnti possono circolare solo nei bipoli e nei loro terminali esterni e che la superficie $\sigma_{1}$ interseca i morsetti dei bipoli $2, 3, 4, 6$. La legge delle correnti si riduce a:
 $$i_{2} + i_{3} − i_{4} − i_{6} = 0 \quad(1.1)$$
