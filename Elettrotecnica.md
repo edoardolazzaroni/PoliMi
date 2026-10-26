@@ -334,18 +334,8 @@ Allo scopo, si assuma in modo arbitrario un nodo del circuito come nodo di rifer
 #Figura(1.30).
 
 la tensione relativa di un nodo rispetto al riferimento è detta tensione di nodo o potenziale e viene indicata con la lettera “$e$” mettendo al pedice il numero o la lettera che identifica il nodo di misura. Nella figura, prendendo $A$ come riferimento, si hanno le seguenti tensioni di nodo:
-$$eB = vBA =−v1, eC = vCA =−v4, eD = vDA =−v6$$
+$$e_{B} = v_{BA} =−v_{1}, e_{C} = v_{CA} =−v_{4}, e_{D} = v_{DA} =−v_{6}$$
 
-Notiamo che, ragionando in modo inverso, dalla conoscenza dei
-
-potenziali di nodo è possibile ricavare le tensioni dei bipoli. In gen-
-
-erale infatti si ha che per il generico bipolo connesso tra i nodi k e
-
-j, in cui indichiamo con ek ed ej i rispettivi potenziali rispetto ad un
-
-riferimento qualunque, la tensione misurata ai capi del bipolo, cioè
-
-vkj, vale:
+Notiamo che, ragionando in modo inverso, dalla conoscenza dei potenziali di nodo è possibile ricavare le tensioni dei bipoli. In generale infatti si ha che per il generico bipolo connesso tra i nodi $k$ e $j$, in cui indichiamo con $e_{k}$ ed $e_{j}$ i rispettivi potenziali rispetto ad un riferimento qualunque, la tensione misurata ai capi del bipolo, cioè $v_{kj}$, vale:
 
 vkj= ek−ej.
