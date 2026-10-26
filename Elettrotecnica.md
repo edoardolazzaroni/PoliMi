@@ -131,33 +131,9 @@ Ora consideriamo le superfici $\sigma_{1}$ e $\sigma_{2}$, orientate in modo con
 $$i= I(\sigma) = I(\sigma_{1} \cup \sigma_{2}) = I(\sigma_{1}) + I(\sigma_{2}) = i_{1} + i_{2}$$
 
 Infine siano $\sigma_{1}, \sigma_{2}, \sigma_{3}$ tre superfici orientate come in figura e cioè con $\sigma_{2}$ orientata in modo discorde alle prime due e sia $\sigma = \sigma_{1}\cup(−\sigma_{2})\cup \sigma_{3}$. Si sono eseguite le relative misure di corrente $i_{1}, i_{2}$ e $i_{3}$. Dalla proprietà di disparità si ha che $i(−\sigma_{2}) =−i_{2}$ e dall’additività che:
+$$i= I(\sigma_{1}\cup(−\sigma_{2})\cup \sigma_{3}) = i_{1}−i_{2} + i_{3}$$
 
-i= I(σ1 ∪(−σ2) ∪σ3) = i1−i2 + i3.
 
-capitolo 1 11
-
-Figure 1.14: γ= γ1 ∪(−γ2) ∪γ3.
-
-Figure 1.15: La superficie−σ è orientata
-
-nel verso opposto rispetto alla σ in
-
-figura 1.11. Notate che l’orientamento
-
-della superficie è determinato dalla
-
-modalità di inserimento dei terminali
-
-dell’amperometro.12 nota1:il modello circuitale
-
-Figure 1.16: σ = σ1 ∪σ2).
-
-Figure 1.17: σ = σ1 ∪(−σ2) ∪σ3.
-
-La misura di corrente attraverso una superficie orientata è dato dalla
-
-somma algebrica (cioè con segno) delle misure eseguite attraverso le sotto-
-
-superfici parziali che la formano prendendo con segno positivo le misure
+La misura di corrente attraverso una superficie orientata è dato dalla somma algebrica (cioè con segno) delle misure eseguite attraverso le sottosuperfici parziali che la formano prendendo con segno positivo le misure
 
 eseguite con orientamento concorde e con segno negativo le discordi.
