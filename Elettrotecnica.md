@@ -231,19 +231,9 @@ Gli elementi in figura sono dispositivi con due, tre e quattro poli rispettivame
 
 Inizieremo col considerare il caso di circuiti formati interconnettendo tra loro un numero arbitrario di dispositivi con due poli, cioè di bipoli, e chiameremo **nodo** ogni punto in cui due terminali di bipoli vengono connessi. Per esempio, il circuito in figura 1.20 contiene 6 bipoli e 4 nodi indicati con $A, B, C, D$.
 
-Caratterizziamo elettricamente il bipolo 1 collegato ai nodi A
-
-e B inserendo opportunamente gli strumenti voltmetro e amper-
-
-ometro. L’inserimento del voltmetro avviene collegando i puntali ai
-
-due morsetti del bipolo in modo che lungo il voltmetro cada la ten-
-
-sione da misurare; si dice che il voltmetro viene collegato in parallelo.
-
-L’inserimento dell’amperometro avviene tagliando il filo ad uno dei
-
-morsetti ed inserendo lo strumento in modo che sia attraversato dalla
+Caratterizziamo elettricamente il bipolo $1$ collegato ai nodi $A$ e $B$ inserendo opportunamente gli strumenti voltmetro e amperometro:
+- L’inserimento del voltmetro avviene collegando i puntali ai due morsetti del bipolo in modo che lungo il voltmetro cada la tensione da misurare; si dice che <u>il voltmetro viene collegato in parallelo</u>;
+- L’inserimento dell’amperometro avviene tagliando il filo ad uno dei morsetti ed inserendo lo strumento in modo che sia attraversato dalla
 
 corrente da misurare; si dice che l’amperometro viene collegato in
 
