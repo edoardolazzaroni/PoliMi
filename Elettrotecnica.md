@@ -122,9 +122,7 @@ La misura di tensione lungo un cammino orientato è dato dalla somma algebrica (
 
 - #### **Proprietà della variabile corrente**:
 
-Sia $\sigma$ una superficie orientata come in figura e con $−σ$ la
-
-stessa superficie ma orientata nel verso opposto (cfr. figura 1.15).
+Sia $\sigma$ una superficie orientata come in [[#1.2.1 **Gli strumenti di misura**|figura 1.7]] e con $-\sigma$ lastessa superficie ma orientata nel verso opposto (cfr. figura 1.15).
 
 Operativamente, la misura di corrente lungo−σ si ottiene in-
 
