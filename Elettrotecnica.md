@@ -20,6 +20,7 @@ Nonostante la spaventosa differenza di scala geometrica tra una rete per l’ene
 D’altra parte, è importante fin da subito sottolineare che, sebbene molto potente, il modello circuitale, al pari di ogni modello dell’Ingegneria, è in grado di cogliere solo alcuni aspetti della realtà fisica che vuole rappresentare. Come tale esso ha dei limiti di validità. Per questo motivo è importante non solo apprenderne l’uso ma anche saper riconoscere i suoi limiti di applicazione.
 
 
+
 ## 1.2 **Le grandezze descrittive: tensione e corrente**
 
 Gli uomini hanno imparato a descrivere e dominare i fenomeni elettrici ammettendo che essi siano dovuti ad una proprietà della materia chiamata carica elettrica. La carica elettrica si manifesta in quanto i corpi che la possiedono esercitano l’un l’altro delle interazioni (cioè delle forze). Esistono due tipi distinti di carica elettrica, indicati convenzionalmente come cariche di tipo positivo e di tipo negativo. Tra cariche elettriche dello stesso tipo si misura una forza che tende a respingerle mentre tra cariche di tipo opposto tale forza è di tipo attrattivo.
@@ -143,4 +144,7 @@ $$i= I(\sigma_{1}\cup(−\sigma_{2})\cup \sigma_{3}) = i_{1}−i_{2} + i_{3}$$
 #Figura(1.13). *$\sigma = \sigma_{1}\cup(−\sigma_{2})\cup \sigma_{3}$*
 
 La misura di corrente attraverso una superficie orientata è dato dalla somma algebrica (cioè con segno) delle misure eseguite attraverso le sottosuperfici parziali che la formano prendendo con segno positivo le misure eseguite con orientamento concorde e con segno negativo le discordi.
+
+
+### 1.2.3 **Leggi delle tensioni e delle correnti**
 
