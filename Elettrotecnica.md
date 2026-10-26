@@ -216,25 +216,8 @@ I termini a primo membro rappresentano la somma delle correnti uscenti da $\sigm
 Le grandezze elettriche e le loro proprietà sono state fino a qui descritte in termini astratti riferendosi ad una regione qualunque di spazio. Passiamo ora ad ambientarle nella struttura particolare di un circuito elettrico inteso come interconnessione di dispositivi elementari.
 
 I componenti/dispositivi elettrici sono fabbricati combinando materiali che da un punto di vista elettrico possiedono proprietà opposte: gli **isolanti** ed i **conduttori**.
-Per isolante ideale noi intendiamo un materiale che a fronte della applicazione di una tensione
-
-elettrica finita v̸=0, per esempio applicandogli una pila elettrica, sia
-
-attraversato da una corrente nulla i=0. Un tale materiale dunque si
-
-oppone al passaggio di corrente anche in presenza di tensioni sig-
-
-nificative. Materiali isolanti sono per esempio la carta, il legno o la
-
-plastica. Viceversa un materiale conduttore ideale è quello in cui può
-
-circolare una corrente finita i̸=0 anche in assenza di tensione v=0.
-
-Un conduttore reale è quello che consente la circolazione di correnti
-
-significative anche in presenza di tensioni molto piccole. Materiali
-
-conduttori sono tutti i metalli o l’acqua. Alle due categorie estreme
+Per isolante ideale noi intendiamo un materiale che a fronte della applicazione di una tensione elettrica finita $v\ne0$, per esempio applicandogli una pila elettrica, sia attraversato da una corrente nulla $i=0$. Un tale materiale dunque si oppone al passaggio di corrente anche in presenza di tensioni significative. Materiali isolanti sono per esempio la carta, il legno o la plastica.
+Viceversa un materiale conduttore ideale è quello in cui può circolare una corrente finita $i\ne0$ anche in assenza di tensione $v=0$. Un conduttore reale è quello che consente la circolazione di correnti significative anche in presenza di tensioni molto piccole. Materiali conduttori sono tutti i metalli o l’acqua. Alle due categorie estreme
 
 ora introdotte si deve aggiungere quella dei semi-conduttori i quali in
 
