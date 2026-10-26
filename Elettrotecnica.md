@@ -329,6 +329,4 @@ $$v_{2}−v_{3}−v_{5} = 0$$
 
 La validità della legge di Kirchhoff delle tensioni ha come conseguenza che la tensione elettrica misurata tra due nodi qualunque di un circuito elettrico è sempre la stessa indipendentemente dal percorso lungo cui avviene la misura. Questo ci permette di introdurre il concetto di **tensione di nodo** o **potenziale** di nodo.
 
-Allo scopo, si assuma in modo arbitrario un nodo del circuito come nodo di riferimento, per esempio in figura 1.30 il riferimento
-
-sia il nodo A, e si misurino le tensioni degli altri nodi rispetto al
+Allo scopo, si assuma in modo arbitrario un nodo del circuito come nodo di riferimento, per esempio in figura 1.30 il riferimento sia il nodo $A$, e si misurino le tensioni degli altri nodi rispetto al nodo di riferimento.
