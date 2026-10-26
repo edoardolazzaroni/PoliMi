@@ -94,3 +94,144 @@ Osserviamo che da un punto di vista matematico, le misure di tensione o di corre
 
 ### 1.2.2 **Proprietà della tensione e della corrente**
 
+L’uso del voltmetro e dell’amperometro mostra che la misura di
+
+tensione e quella di corrente godono della proprietà di essere dispari
+
+e della proprietà additiva. Vediamo dette proprietà esamiando per
+
+primo il caso della tensione e poi quello della corrente.
+
+• Proprietà della variabile tensione.
+
+Indichiamo con γ una linea orientata diretta dal punto A al punto
+
+B e con−γ la stessa linea ma orientata nel verso opposto, cioè che
+
+va da B ad A, come mostrato in fig. 1.12.
+
+Operativamente la misura di tensione lungo−γ si ottiene inver-
+
+tendo l’inserimento dei morsetti del voltmetro. Vale la proprietà di
+
+disparità, ovvero
+
+V(−γ) =−V(γ).
+
+La disparità ha l’ovvio significato che il lavoro svolto per spostare
+
+la carica di prova da A a B è lo stesso in modulo ma opposto in
+
+segno a quello che si svolge per spostarla da B ad A.
+
+Ora consideriamo le linee orientate γ1 che va da A a B e γ2 che
+
+va da B a C (crf. figura 1.13). La loro unione dà origine alla linea
+
+complessiva γ= γ1 ∪γ2 che va da A a C. Sia v1 = V(γ1) la ten-
+
+sione misurata lungo γ1 e v2 = V(γ2) la tensione misurata lungo
+
+γ2. Indichiamo poi con V(γ) la misura lungo la linea complessiva.
+
+Vale allora la proprietà additiva della tensione:
+
+V(γ) = V(γ1 ∪γ2) = V(γ1) + V(γ2) = v1 + v2.
+
+Combiniamo ora le due proprietà e consideriamo le tre linee
+
+γ1, γ2 e γ3 orientate come mostrato in figura 1.14 (cioè con γ2
+
+orientata in modo discorde alle altre) e la linea unione γ= γ1 ∪
+
+(−γ2) ∪γ3. Abbiamo eseguito le relative misure di tensione v1 =
+
+V(γ1), v2 = V(γ2) e v3 = V(γ3). Dalla proprietà di disparità si ha
+
+Figure 1.12: Inversione
+
+dell’orientamento di una linea.
+
+Figure 1.13: γ= γ1 ∪γ2.che V(−γ2) =−v2 e dunque applicando la proprietà di additività
+
+concludiamo che
+
+v(γ) = V(γ1 ∪(−γ2) ∪γ3) = v1−v2 + v3.
+
+La misura di tensione lungo un cammino orientato è dato dalla somma
+
+algebrica (cioè con segno) delle misure eseguite lungo i tratti parziali,
+
+prendendo con segno positivo le misure eseguite con orientamento con-
+
+corde al cammino e con segno negativo le discordi.
+
+• Proprietà della variabile corrente.
+
+Sia σ una superficie orientata come in figura 1.11 e con−σ la
+
+stessa superficie ma orientata nel verso opposto (cfr. figura 1.15).
+
+Operativamente, la misura di corrente lungo−σ si ottiene in-
+
+vertendo l’inserimento dei morsetti dell’amperometro. Vale la
+
+proprietà di disparità:
+
+I(−σ) =−I(σ).
+
+Ora consideriamo le superfici σ1 e σ2, orientate in modo concorde
+
+e che condividono parte della loro frontiera. La loro unione dà
+
+origine alla superficie complessiva σ = σ1 ∪σ2. Se i1 = I(σ1)
+
+e i2 = I(σ2) sono i valori delle misure delle correnti attraverso
+
+le superfici parziali mentre i= I(σ) è la misura attraverso la
+
+superficie complessiva, la proprietà additiva delle correnti dice
+
+che:
+
+i= I(σ) = I(σ1 ∪σ2) = I(σ1) + I(σ2) = i1 + i2.
+
+Infine siano σ1, σ2 e σ3 tre superfici orientate come in figura e
+
+cioè con σ2 orientata in modo discorde alle prime due e sia σ =
+
+σ1 ∪(−σ2) ∪σ3. Si sono eseguite le relative misure di corrente
+
+i1, i2 e i3. Dalla proprietà di disparità si ha che i(−σ2) =−i2 e
+
+dall’additività che:
+
+i= I(σ1 ∪(−σ2) ∪σ3) = i1−i2 + i3.
+
+capitolo 1 11
+
+Figure 1.14: γ= γ1 ∪(−γ2) ∪γ3.
+
+Figure 1.15: La superficie−σ è orientata
+
+nel verso opposto rispetto alla σ in
+
+figura 1.11. Notate che l’orientamento
+
+della superficie è determinato dalla
+
+modalità di inserimento dei terminali
+
+dell’amperometro.12 nota1:il modello circuitale
+
+Figure 1.16: σ = σ1 ∪σ2).
+
+Figure 1.17: σ = σ1 ∪(−σ2) ∪σ3.
+
+La misura di corrente attraverso una superficie orientata è dato dalla
+
+somma algebrica (cioè con segno) delle misure eseguite attraverso le sotto-
+
+superfici parziali che la formano prendendo con segno positivo le misure
+
+eseguite con orientamento concorde e con segno negativo le discordi.
