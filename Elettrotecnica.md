@@ -103,11 +103,7 @@ Operativamente la misura di tensione lungo $−\gamma$ si ottiene invertendo l�
 $$V(−\gamma) =−V(\gamma)$$
 La disparità ha l’ovvio significato che il lavoro svolto per spostare la carica di prova da $A$ a $B$ è lo stesso in modulo ma opposto in segno a quello che si svolge per spostarla da $B$ ad $A$.
 
-Ora consideriamo le linee orientate $\gamma_{1}$ che va da $A$ a $B$ e $\gamma_{2}$ che va da $B$ a $C$. La loro unione dà origine alla linea complessiva $\gamma= \gamma_{1} union \gamma_{2}$ che va da A a C. Sia v1 = V(γ1) la ten-
-
-sione misurata lungo γ1 e v2 = V(γ2) la tensione misurata lungo
-
-γ2. Indichiamo poi con V(γ) la misura lungo la linea complessiva.
+Ora consideriamo le linee orientate $\gamma_{1}$ che va da $A$ a $B$ e $\gamma_{2}$ che va da $B$ a $C$. La loro unione dà origine alla linea complessiva $\gamma= \gamma_{1} \cup \gamma_{2}$ che va da $A$ a $C$. Sia $v_{1} = V(\gamma_{1})$ la tensione misurata lungo $\gamma_{1}$ e $v_{2} = V(\gamma_{2})$ la tensione misurata lungo $\gamma_{2}$. Indichiamo poi con $V(\gamma)$ la misura lungo la linea complessiva.
 
 Vale allora la proprietà additiva della tensione:
 
