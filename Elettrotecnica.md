@@ -148,3 +148,156 @@ La misura di corrente attraverso una superficie orientata è dato dalla somma al
 
 ### 1.2.3 **Leggi delle tensioni e delle correnti**
 
+Le grandezze fisiche tensione e corrente che misuriamo in un sistema elettrico possono variare nel tempo a seconda dello stato e del modo di funzionamento del sistema; per esempio è chiaro che all’accensione di una apparecchiatura elettrica si assiste a delle fasi transitorie in cui è naturale attendersi che le tensioni e le correnti varino nel tempo prima di raggiungere i valori desiderati. Tuttavia, nella prima parte del corso è lecito trascurare le fasi transitorie e concentrarsi sullo scenario in cui tutte le grandezze elettriche assumono valori costanti nel tempo. Chiamiamo questa condizione **Regime Stazionario** o anche funzionamento in continua (<u>indicato anche come DC</u>, "direct current"). 
+
+In un sistema elettrico operante in regime stazionario, valgono rigorosamente le seguenti evidenze sperimentali:
+
+• Si consideri una linea γ chiusa, cioè tale che il punto di partenza e
+
+di arrivo coincidono come mostrato in figura 1.18).
+
+L’evidenza mostra come la tensione elettrica misurata lungo tale
+
+linea vale zero V(γ) = 0.
+
+Supponiamo ora che tale linea chiusa sia composta dai percorsi
+
+parziali γ1, γ2, γ3 e γ4, orientati come mostrato in figura 1.19,
+
+lungo cui si sono eseguite le relative misure parziali di tensione
+
+v1 = V(γ1), v2 = V(γ2), v3 = V(γ3)e v4 = V(γ4).
+
+Muovendosi lungo γ in senso orario e applicando la proprietà
+
+additiva e quella di disparità, si ottiene:
+
+v1−v2 + v3−v4 = 0.
+
+Generalizzando, possiamo quindi enunciare la seguente legge
+
+fondamentale.
+
+Legge delle tensioni: la somma algebrica (cioè tenendo conto dei
+
+segni) delle tensioni misurate lungo una linea γ chiusa è uguale
+
+a zero.
+
+capitolo 1 13
+
+Figure 1.18: Linea chiusa, ovvero il
+
+punto di partenza A e di arrivo B
+
+coincidono.
+
+Figure 1.19: La linea chiusa γ è com-
+
+posta da quattro percorsi parziali.14 nota1:il modello circuitale
+
+Dalla legge delle tensioni discende un’altra importante con-
+
+seguenza. Con riferimento alla figura 1.20 si considerino per
+
+iniziare le due linee γ1 e γ2 che partono dal punto A e portano
+
+attraverso due percorsi alternativi al medesimo punto B.
+
+Figure 1.20: Le linee in figura hanno gli
+
+stessi estremi e orientamento, cioè sono
+
+cammini che partono da A e arrivano in
+
+B.
+
+Per la legge delle tensioni applicata alla linea chiusa unione
+
+γ1 ∪(−γ2)
+
+si ottiene
+
+v1−v2 = 0 −→ v1 = v2.
+
+Lo stesso ragionamento si estende alla linea γ3 per cui v1 = v3
+
+Questo indica che tensioni misurate lungo cammini diversi ma
+
+che collegano gli stessi punti estremi A e B hanno lo stesso valore.
+
+In regime stazionario dunque, la tensione dipende solo dagli
+
+estremi del cammino lungo cui è misurata ed è quindi lecito in-
+
+dicarla in modo sintetico come vBA intendendola come la tensione
+
+del punto B rispetto al punto A:
+
+v1 = v2 = v3 = vBA.
+
+• La seconda evidenza sperimentale che si registra in regime stazionario
+
+riguarda la variabile corrente. A tale proposito, consideriamo
+
+una superficie chiusa σ, ad esempio come mostrato in fig. 1.21.
+
+L’evidenza sperimentale mostra come la corrente che attraversa
+
+tale superficie è zero, ovvero I(σ) = 0.
+
+Ora si supponga che la superficie cubica chiusa σ sia formata
+
+dall’unione di superfici parziali, diciamo per esempio dalle sei
+
+faccie che la compongono con l’orientamento mostrato in fig.1.22.
+
+In particolare, le superfici colorate in azzurro e verde sono ori-
+
+entate dall’esterno verso l’interno, mentre le superfici colorate in
+
+rosso sono orientate dall’interno verso l’esterno. Indicando per
+
+semplicità
+
+I(σk) = ik
+
+Figure 1.21: Esempio di superficie
+
+chiusa orientata σ. Il senso postivio di
+
+attraversamento è assunto quello che va
+
+dall’interno all’esterno.le misure di corrente eseguite sulle superfici parziali ed applicando
+
+le proprietà additiva e di essere dispari, vale il seguente bilancio
+
+attraverso σ:
+
+−i1−i2 + i3−i4−i5 + i6 = 0.
+
+Generalizzando possiamo dedurre la seguente legge fondamentale.
+
+Legge delle correnti: la somma algebrica (cioè tenendo conto dei
+
+segni) delle correnti misurate attraverso una superficie σ chiusa
+
+è uguale a zero.
+
+Un modo alternativo di enunciare la legge delle correnti consiste
+
+nel riscrivere il bilancio trasportando tutte le (misure) correnti
+
+negative al membro di destra:
+
+i3 + i6 = i1 + i2 + i4 + i5.
+
+I termini a primo membro rappresentano la somma delle correnti
+
+uscenti da σ mentre i termini al secondo membro sono la somma
+
+delle correnti entranti. La legge delle correnti impone che tali
+
+somme debbano eguagliarsi, cioè che la corrente totale che entra in
+
+una superficie chiusa sia pari alla corrente totale che ne fuori esce.
