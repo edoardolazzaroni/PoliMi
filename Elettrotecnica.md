@@ -167,7 +167,7 @@ In un sistema elettrico operante in regime stazionario, valgono rigorosamente le
 Generalizzando, possiamo quindi enunciare la seguente legge fondamentale:
 
 > [!important] Definizione
-> **Legge delle tensioni**: la somma algebrica (cioè tenendo conto dei segni) delle tensioni misurate lungo una linea γ chiusa è uguale a zero.
+> **Legge delle tensioni**: la somma algebrica (cioè tenendo conto dei segni) delle tensioni misurate lungo una linea $\gamma$ chiusa è uguale a zero.
 
 
 Dalla legge delle tensioni discende un’altra importante conseguenza. Con riferimento alla figura seguente si considerino per iniziare le due linee $\gamma_{1}$ e $\gamma_{2}$ che partono dal punto $A$ e portano attraverso due percorsi alternativi al medesimo punto $B$.
@@ -194,15 +194,11 @@ $$v_{1} = v_{2} = v_{3} = v_{BA}$$
 	Ora si supponga che la superficie cubica chiusa $\sigma$ sia formata dall’unione di superfici parziali, diciamo per esempio dalle sei facce che la compongono con l’orientamento mostrato in figura 1.18.
 	In particolare, le superfici colorate in azzurro e verde sono orientate dall’esterno verso l’interno, mentre le superfici colorate in rosso sono orientate dall’interno verso l’esterno. Indicando per semplicità
 	$$I(\sigma_{k}) = i_{k}$$le misure di corrente eseguite sulle superfici parziali ed applicando le proprietà additiva e di essere dispari, vale il seguente bilancio attraverso $\sigma$:
-	$$−i−i2 + i3−i4−i5 + i6 = 0$$
+	$$−i_{1}−i_{2} + i_{3}−i_{4}−i_{5} + i_{6} = 0$$
 
-Generalizzando possiamo dedurre la seguente legge fondamentale.
+Generalizzando possiamo dedurre la seguente legge fondamentale:
 
-Legge delle correnti: la somma algebrica (cioè tenendo conto dei
-
-segni) delle correnti misurate attraverso una superficie σ chiusa
-
-è uguale a zero.
+**Legge delle correnti**: la somma algebrica (cioè tenendo conto dei segni) delle correnti misurate attraverso una superficie $σ$ chiusa è uguale a zero.
 
 Un modo alternativo di enunciare la legge delle correnti consiste
 
