@@ -277,25 +277,16 @@ $$i_{2} + i_{3} − i_{4} − i_{6} = 0 \quad(1.1)$$
 
 In termini generali possiamo allora enunciare la seguente:
 
-**Legge di Kirchhoff delle correnti** (**KCL**): la somma algebrica (cioè con segno) delle correnti (cioè delle misure di corrente) dei bipoli i cui terminali vengono intersecati da una superficie chiusa è sempre zero.
+> [!important] Definizione
+> **Legge di Kirchhoff delle correnti** (**KCL**): la somma algebrica (cioè con segno) delle correnti (cioè delle misure di corrente) dei bipoli i cui terminali vengono intersecati da una superficie chiusa è sempre zero.
 
-Tale somma con segno viene anche chiamato bilancio di corrente.
 
-E’ istruttivo (e rilevante nella pratica) notare come il bilancio di
+Tale somma con segno viene anche chiamato **bilancio di corrente**.
 
-corrente (1.1) si possa riscrivere portando le correnti che compaiono
+E’ istruttivo (e rilevante nella pratica) notare come il bilancio di corrente $(1.1)$ si possa riscrivere portando le correnti che compaiono col segno meno al membro di destra:
+$$i_{2} + i_{3} = i_{4} + i_{6}$$
+Questa riscrittura corrisponde ad interpretare la legge KCL come: la somma delle correnti dei bipoli il cui verso (di misura) è entrante in $\sigma_{1}$ è uguale alla somma delle correnti dei bipoli il cui verso è uscente dalla medesima.
 
-col segno meno al membro di destra:
-
-i2 + i3 = i4 + i6
-
-Questa riscrittura corrisponde ad interpretare la legge KCL come: la
-
-somma delle correnti dei bipoli il cui verso (di misura) è entrante in
-
-σ1 è uguale alla somma delle correnti dei bipoli il cui verso è uscente
-
-dalla medesima.
 
 Si consideri ora la superficie chiusa indicata con σ2 che circonda
 
