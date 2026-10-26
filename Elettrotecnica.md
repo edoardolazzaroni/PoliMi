@@ -253,7 +253,9 @@ che ci dice che la misura al terminale $B$ si deduce da quella eseguita in $A$. 
 
 Ragioniamo ora sulle tensione e supponiamo di misurare la tensione $v_{BA}$, cioè del mosetto $B$ rispetto al morsetto $A$. Dalla legge delle tensioni (o dalla proprietà di disparità) ricaviamo che:
 $$v_{AB} + v_{BA} = 0 \rightarrow v_{BA} =−v_{AB}$$
-e dunque che ai capi di un bipolo esiste solo una tensione indipendente che ne caratterizza completamente il lavoro elettrico svolto per spostare lungo il bipolo una carica di prova.
+e dunque che <mark class="hltr-yellow">ai capi di un bipolo esiste solo una tensione indipendente che ne caratterizza completamente il lavoro elettrico svolto per spostare lungo il bipolo una carica di prova</mark>.![[Elettrotecnica-1793031837872.webp|213]]
+#Figura(1.24). Applicazione della legge delle tension
+
 
 Quindi, un dispositivo elettrico con due morsetti è descritto com-
 
