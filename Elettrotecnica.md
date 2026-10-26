@@ -311,19 +311,15 @@ Passiamo ora alle tensioni facendo riferimento alla figura 1.29 che mostra le re
 #Figura(1.29). *Cammini chiusi $\gamma_{1}$ e $\gamma_{2}$ lungo cui si bilanciano le tensioni*
 
 Attualizziamo la legge delle tensioni osservando ora che ogni tratto del percorso chiuso corrisponde alla tensione misurata su di un bipolo. Si ha:
-$$v-1−v6 + v5−v2 = 0 \quad (1.3)$$
+$$v_{1}−v_{6} + v_{5}−v_{2} = 0 \quad (1.3)$$
 
-In teoria dei circuiti, si indica con il nome di "cammino" la sequenza
+In teoria dei circuiti, si indica con il nome di "**cammino**" la sequenza ordinata di bipoli (o lati) che si incontrano muovendosi lungo un certo percorso. **Un cammino chiuso viende detto maglia**.
 
-ordinata di bipoli (o lati) che si incontrano muovendosi lungo un
+> [!important] Definizione
+> **Legge di Kirchhoff delle tensioni** (**KVL**): la somma algebrica delle tensioni misurate lungo una maglia è zero.
 
-certo percorso. Un cammino chiuso viende detto maglia.
 
-Legge di Kirchhoff delle tensioni (KVL): la somma algebrica delle
-
-tensioni misurate lungo una maglia è zero.
-
-Osserviamo anche che la (1.3) può essere riscritta come:
+Osserviamo anche che la $(1.3)$ può essere riscritta come:
 
 v1−v6 = v2−v5
 
