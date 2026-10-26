@@ -178,9 +178,9 @@ Dalla legge delle tensioni discende un’altra importante conseguenza. Con rifer
 Per la legge delle tensioni applicata alla linea chiusa unione
 $$\gamma_{1} \cup(−\gamma_{2})$$
 si ottiene:
-$$v_{1}−v_{2} = 0  v1 = v2$$
+$$v_{1}−v_{2} = 0 \rightarrow v_{1} = v_{2}$$
 
-Lo stesso ragionamento si estende alla linea γ3 per cui v1 = v3
+Lo stesso ragionamento si estende alla linea $\gamma_{3}$ per cui $v_{1} = v$
 
 Questo indica che tensioni misurate lungo cammini diversi ma
 
