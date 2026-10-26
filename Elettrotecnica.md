@@ -154,13 +154,9 @@ In un sistema elettrico operante in regime stazionario, valgono rigorosamente le
 
 - Si consideri una linea $\gamma$ chiusa, cioè tale che il punto di partenza e di arrivo coincidono come mostrato in figura 1.14:
 	L’evidenza mostra come la tensione elettrica misurata lungo tale linea vale $V(\gamma) = 0$.
-	Supponiamo ora che tale linea chiusa sia composta dai percorsi parziali $\gamma_{1}, \gamma_{2}, \gamma_{3}, \gamma_{4}$, orientati come mostrato in figura 1.15, lungo cui si sono eseguite le relative misure parziali di tensione $v_{1} = V(\gamma_{1}), v_{2} = V(γ2), v3 = V(γ3), v4 = V(γ4)$.
-
-Muovendosi lungo γ in senso orario e applicando la proprietà
-
-additiva e quella di disparità, si ottiene:
-
-v1−v2 + v3−v4 = 0.
+	Supponiamo ora che tale linea chiusa sia composta dai percorsi parziali $\gamma_{1}, \gamma_{2}, \gamma_{3}, \gamma_{4}$, orientati come mostrato in figura 1.15, lungo cui si sono eseguite le relative misure parziali di tensione $v_{1} = V(\gamma_{1}), v_{2} = V(\gamma_{2}), v_{3} = V(\gamma_{3}), v_{4} = V(\gamma_{4})$.
+	Muovendosi lungo $\gamma$ in senso orario e applicando la proprietà additiva e quella di disparità, si ottiene:
+	$$v_{1}−v_{2}+v_{3}−v_{4} = 0$$
 
 Generalizzando, possiamo quindi enunciare la seguente legge
 
