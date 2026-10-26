@@ -124,6 +124,8 @@ La misura di tensione lungo un cammino orientato è dato dalla somma algebrica (
 - #### **Proprietà della variabile corrente**:
 
 Sia $\sigma$ una superficie orientata come in [[#1.2.1 **Gli strumenti di misura**|figura 1.7]] e con $-\sigma$ la stessa superficie ma orientata nel verso opposto (figura 1.11).
+![[Elettrotecnica-1793027627951.webp|244]]
+#Figura(1.11). La superficie $−\sigma$ è orientata nel verso opposto rispetto alla $\sigma$ in figura 1.7. Notate che l’orientamento della superficie è determinato dalla modalità di inserimento dei terminali dell’amperometro.
 
 Operativamente, la misura di corrente lungo $−\sigma$ si ottiene invertendo l’inserimento dei morsetti dell’amperometro. Vale la **proprietà di disparità**:
 $$I(−\sigma) =−I(\sigma)$$
