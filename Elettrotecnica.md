@@ -249,7 +249,9 @@ Nel linguaggio della teoria dei circuiti diremo semplicemente che $v_{AB}$ e $i_
 
 Si supponga ora di misurare al terminale $B$ la corrente entrante $i_{B}$. Dalla legge delle correnti assumendo una superficie chiusa che avvolge il bipolo $1$, ricaviamo:
 $$i_{A} + i_{B} = 0 \rightarrow i_{B} =−i_{A}$$
-che ci dice che la misura al terminale $B$ si deduce da quella eseguita in $A$. Concludiamo dunque che ai capi di un bipolo esiste solo una corrente indipendente che ne caratterizza completamente il flusso di carica.
+che ci dice che la misura al terminale $B$ si deduce da quella eseguita in $A$. Concludiamo dunque che <mark class="hltr-yellow">ai capi di un bipolo esiste solo una corrente indipendente che ne caratterizza completamente il flusso di carica</mark>.
+![[Elettrotecnica-1793031649832.webp|258]]
+#Figura(1.23). Applicazione della legge delle correnti al bipolo
 
 Ragioniamo ora sulle tensione e supponiamo di misurare la ten-
 
