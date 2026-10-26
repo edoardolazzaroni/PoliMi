@@ -307,6 +307,7 @@ e pensare nei termini: la somma delle correnti entranti al nodo è pari alla som
 
 
 Passiamo ora alle tensioni facendo riferimento alla figura 1.29 che mostra le relative misure sui vari bipoli. Ci focalizziamo sulla linea chiusa $\gamma_{1}$ tratteggiata in rosso, che supponiamo orientata in senso orario. Essa descrive un percorso chiuso tra i nodi $B →A →D →C →B$.
+![[Elettrotecnica-1793032824107.webp|295]]
 
 Attualizziamo la legge delle tensioni osservando ora che ogni
 
