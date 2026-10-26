@@ -227,4 +227,74 @@ Tali parti conduttrici vengono chiamate **terminali** o **morsetti** o ancora **
 ![[Elettrotecnica-1793030901235.webp|354]]
 #Figura(1.19). *Elementi circuitali*
 
-Gli elementi in figura sono dispositivi con due, tre e quattro poli rispettivamente a cui daremo il nome di bipolo, tripolo e quadripolo.
+Gli elementi in figura sono dispositivi con due, tre e quattro poli rispettivamente a cui daremo il nome di <u>bipolo, tripolo e quadripolo</u>.
+
+Inizieremo col considerare il caso di circuiti formati interconnettendo tra loro un numero arbitrario di dispositivi con due poli, cioè di bipoli, e chiameremo **nodo** ogni punto in cui due terminali di bipoli vengono connessi. Per esempio, il circuito in figura 1.20 contiene 6 bipoli e 4 nodi indicati con $A, B, C, D$.
+
+Caratterizziamo elettricamente il bipolo 1 collegato ai nodi A
+
+e B inserendo opportunamente gli strumenti voltmetro e amper-
+
+ometro. L’inserimento del voltmetro avviene collegando i puntali ai
+
+due morsetti del bipolo in modo che lungo il voltmetro cada la ten-
+
+sione da misurare; si dice che il voltmetro viene collegato in parallelo.
+
+L’inserimento dell’amperometro avviene tagliando il filo ad uno dei
+
+morsetti ed inserendo lo strumento in modo che sia attraversato dalla
+
+corrente da misurare; si dice che l’amperometro viene collegato in
+
+serie. Notate dalla figura 1.25 come tale inserimento corrisponda a
+
+rilevare la misura della tensione vAB cioè della tensione del morsetto
+
+o nodo A rispetto al morsetto o nodo B e della corrente iA entrante
+
+nel bipolo dal morsetto A.
+
+La particolare modalità di inserimento degli strumenti verrà indi-
+
+cata d’ora in poi semplicemente disegnando accanto al bipolo un arco
+
+di linea orientato che specifica il verso di misura della tensione e sul
+
+filo accanto al corrispondente terminale una freccia che indica il verso
+
+della misura di corrente.
+
+Nel linguaggio della teoria dei circuiti diremo semplicemente che
+
+vAB e iA sono le variabili tensione e corrente del bipolo (o associate al
+
+bipolo), sottintendendo che esse rappresentano nel modello le misure
+
+delle grandezze fisiche corrispondenti. Ricordiamo anche che tali
+
+misure possono assumere valore positivo, negativo o nullo.
+
+Si supponga ora di misurare al terminale B la corrente entrante
+
+iB. Dalla legge delle correnti assumendo una superficie chiusa che
+
+avvolge il bipolo 1, ricaviamo:
+
+iA + iB = 0 →iB =−iA
+
+che ci dice che la misura al terminale B si deduce da quella eseguita
+
+in A. Concludiamo dunque che ai capi di un bipolo esiste solo una
+
+corrente indipendente che ne caratterizza completamente il flusso di
+
+carica.
+
+Ragioniamo ora sulle tensione e supponiamo di misurare la ten-
+
+sione vBA, cioè del mosetto B rispetto al morsetto A. Dalla legge delle
+
+tensioni (o dalla proprietà di disparità) ricaviamo che:
+
+vAB + vBA = 0 −→vBA =−vAB
