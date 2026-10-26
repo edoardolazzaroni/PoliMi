@@ -245,25 +245,11 @@ La particolare modalità di inserimento degli strumenti verrà indicata d’ora 
 ![[Elettrotecnica-1793031500153.webp|225]]
 #Figura(1.22). *Verso assunto nella misura della tensione e della corrente*
 
-Nel linguaggio della teoria dei circuiti diremo semplicemente che $v_{AB}$ e $i_{A}$ sono le variabili tensione e corrente del bipolo (o associate al bipolo), sottintendendo che esse rappresentano nel modello le misure delle grandezze fisiche corrispondenti. Ricordiamo anche che tali
+Nel linguaggio della teoria dei circuiti diremo semplicemente che $v_{AB}$ e $i_{A}$ sono le variabili tensione e corrente del bipolo (o associate al bipolo), sottintendendo che esse rappresentano nel modello le misure delle grandezze fisiche corrispondenti. Ricordiamo anche che tali misure possono assumere valore positivo, negativo o nullo.
 
-misure possono assumere valore positivo, negativo o nullo.
-
-Si supponga ora di misurare al terminale B la corrente entrante
-
-iB. Dalla legge delle correnti assumendo una superficie chiusa che
-
-avvolge il bipolo 1, ricaviamo:
-
-iA + iB = 0 →iB =−iA
-
-che ci dice che la misura al terminale B si deduce da quella eseguita
-
-in A. Concludiamo dunque che ai capi di un bipolo esiste solo una
-
-corrente indipendente che ne caratterizza completamente il flusso di
-
-carica.
+Si supponga ora di misurare al terminale $B$ la corrente entrante $i_{B}$. Dalla legge delle correnti assumendo una superficie chiusa che avvolge il bipolo $1$, ricaviamo:
+$$i_{A} + i_{B} = 0 \rightarrow i_{B} =−i_{A}$$
+che ci dice che la misura al terminale $B$ si deduce da quella eseguita in $A$. Concludiamo dunque che ai capi di un bipolo esiste solo una corrente indipendente che ne caratterizza completamente il flusso di carica.
 
 Ragioniamo ora sulle tensione e supponiamo di misurare la ten-
 
