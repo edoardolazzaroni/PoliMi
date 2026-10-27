@@ -341,3 +341,4 @@ $$v_{kj}= e_{k}−e_{j}.$$
 ![[Elettrotecnica-1793033419221.webp|214]]
 #Figura(1.31). *Dai potenziali ai nodi a cui un bipolo è connesso si risale alla sua tensione*
 
+
