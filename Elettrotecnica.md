@@ -361,3 +361,71 @@ $$v_{kj}= e_{k}−e_{j}.$$
 > Quindi si fissi il nodo $E$ come riferimento e si determinino i potenziali ai rimanenti nodi.
 
 
+
+## 1.5 **Dispositivi con più di due terminali e loro modelli**
+
+Un primo esempio di dispositivo con più di due terminali è il tripolo elettrico disegnato in figura 1.37.
+
+In questo caso, le grandezze elettriche che si possono misurare
+
+sono tre tensioni e tre correnti tuttavia è facile verificare che solo un
+
+sottoinsieme di queste risultano tra di loro indipendenti. Infatti appli-
+
+cando la legge delle correnti ad una superficie chiusa che racchiude
+
+in se tripolo, si ricava la relazione
+
+i1 + i2 + i3 = 0 →i3 =−i1−i2
+
+mentre dalla legge delle tensioni lungo un cammino chiuso che tocca
+
+i tre terminali, si ha
+
+v13−v12−v23 = 0 →v12 = v13−v23
+
+Si conclude che in un tripolo solo due correnti e due tensioni sono tra di
+
+loro indipendenti e dunque possono essere assunte come variabili de-
+
+scrittive. E’ facile verificare che questa proprietà si estende facilmente
+
+al caso di un generico N-polo, cioè di un dispositivo con N termi-
+
+nali. Nel caso generale, l’N-polo ha N−1 corrente e N−1 tensioni
+
+indipendenti.
+
+Il procedimento che si adotta per determinare il sottoinsieme di
+
+tensioni e correnti da utilizzare come variabili descrittive è quello di
+
+scegliere arbitrariamente un terminale come riferimento comune e
+
+quindi di scegliere le correnti entranti agli N−1 nodi rimanenti e
+
+le N−1 tensioni misurate tra gli N−1 nodi e il riferimento. Come
+
+esempio, la figura 1.38 mostra per un tripolo il caso in cui come rifer-
+
+imento si è assunto il nodo 3 e quindi le due tensioni indipendenti
+
+risultano v13 e v23. Con questa scelta, come correnti indipendenti si
+
+assumeranno quelle entranti in tutti i nodi tranne quello di riferi-
+
+mento, ovvero nel caso specifico i1 e i2.
+
+La figura 1.39 mostra un secondo esempio nel quale il riferimento
+
+viene assunto nel nodo 2. Nella parte (Destra) delle fugure 1.38 e
+
+1.39 viene mostrata la seguente proprità: dal punto di vista delle leggi
+
+di Kirchhoff, il tripolo è del tutto analogo al caso di due bipoli collegati tra di
+
+loro nel nodo di riferimento Generalizzando, si ha che un dipositivo con N
+
+terminali (cioè un N-polo), al fine delle leggi di Kirchhoff, può essere ricon-
+
+dotto al caso di un insieme di N−1 bipoli collegati tra loro nel nodo scelto
