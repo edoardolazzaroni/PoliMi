@@ -342,7 +342,7 @@ $$v_{kj}= e_{k}−e_{j}.$$
 #Figura(1.31). *Dai potenziali ai nodi a cui un bipolo è connesso si risale alla sua tensione*
 
 
-#### #Esercizio(Leggi di Kirchoff)(1)
+#### #Esercizio(Leggi di Kirchoff) (1)
 
 > [!question] Esercizio
 > ![[Elettrotecnica-1793113870627.webp|352x238]]
@@ -351,7 +351,7 @@ $$v_{kj}= e_{k}−e_{j}.$$
 > Determinare per primo il valore della corrente $i_{3}$ scrivendo una sola KCL. Successivamente completare determinando le correnti incognite.
 
 
-#### #Esercizio(Leggi di Kirchoff)(2)
+#### #Esercizio(Leggi di Kirchoff) (2)
 
 > [!question] Esercizio
 > ![[Elettrotecnica-1793114056557.webp|362x276]]
