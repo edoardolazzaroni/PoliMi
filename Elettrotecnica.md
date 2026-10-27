@@ -342,7 +342,7 @@ $$v_{kj}= e_{k}−e_{j}.$$
 #Figura(1.31). *Dai potenziali ai nodi a cui un bipolo è connesso si risale alla sua tensione*
 
 
-#### #Esercizio(Leggi di Kirchoff)
+#### #Esercizio(Leggi di Kirchoff)(1)
 
 > [!question] Esercizio
 > ![[Elettrotecnica-1793113870627.webp|352x238]]
@@ -350,3 +350,19 @@ $$v_{kj}= e_{k}−e_{j}.$$
 > $$i_{2}=1A;\quad i_{6}=-2A;\quad i_{7}=3A$$
 > Determinare per primo il valore della corrente $i_{3}$ scrivendo una sola KCL. Successivamente completare determinando le correnti incognite.
 
+
+#### #Esercizio(Leggi di Kirchoff)(2)
+
+Nella rete di bipoli mostrata in figura sono ora noti i valori di alcunetensioni indicate in rosso in figura, cioè:
+
+v1 = 1V; v3 =−1V; v4 =−2V; v5 = 3V.
+
+Determinare per primo il valore della tensione v7 scrivendo una sola
+
+KVL. Successivamente completate determinando le altre tensioni
+
+incognite. [Ris. v7 = 7V].
+
+Quindi si fissi il nodo E come riferimento e si determinino i poten-
+
+ziali ai rimanenti nodi.
