@@ -364,21 +364,15 @@ $$v_{kj}= e_{k}−e_{j}.$$
 
 ## 1.5 **Dispositivi con più di due terminali e loro modelli**
 
-Un primo esempio di dispositivo con più di due terminali è il tripolo elettrico disegnato in figura 1.32. In questo caso, le grandezze elettriche che si possono misurare sono tre tensioni e tre correnti, tuttavia è facile verificare che solo un sottoinsieme di queste risultano tra di loro indipendenti. Infatti applicando la legge delle correnti ad una superficie chiusa che racchiude in se il tripolo, si ricava la relazione
+Un primo esempio di dispositivo con più di due terminali è il tripolo elettrico disegnato in figura 1.32. In questo caso, le grandezze elettriche che si possono misurare sono tre tensioni e tre correnti, tuttavia è facile verificare che solo un sottoinsieme di queste risultano tra di loro indipendenti. Infatti applicando la legge delle correnti ad una superficie chiusa che racchiude in se il tripolo, si ricava la relazione:
 $$i_{1} + i_{2} + i_{3} = 0 \rightarrow i_{3} =−i_{1}−i_{2}$$
-mentre dalla legge delle tensioni lungo un cammino chiuso che tocca i tre terminali, si ha
 
-v13−v12−v23 = 0 →v12 = v13−v23
+mentre dalla legge delle tensioni lungo un cammino chiuso che tocca i tre terminali, si ha:
+$$v_{13}−v_{12}−v_{23} = 0 \rightarrow v_{12} = v_{13}−v_{23}$$
 
-Si conclude che in un tripolo solo due correnti e due tensioni sono tra di
+Si conclude che <mark class="hltr-yellow">in un tripolo solo due correnti e due tensioni sono tra di loro indipendenti e dunque possono essere assunte come variabili descrittive</mark>.
 
-loro indipendenti e dunque possono essere assunte come variabili de-
-
-scrittive. E’ facile verificare che questa proprietà si estende facilmente
-
-al caso di un generico N-polo, cioè di un dispositivo con N termi-
-
-nali. Nel caso generale, l’N-polo ha N−1 corrente e N−1 tensioni
+E’ facile verificare che questa proprietà si estende facilmente al caso di un generico N-polo, cioè di un dispositivo con N termi-nali. Nel caso generale, l’N-polo ha N−1 corrente e N−1 tensioni
 
 indipendenti.
 
