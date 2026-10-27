@@ -353,7 +353,11 @@ $$v_{kj}= e_{k}−e_{j}.$$
 
 #### #Esercizio(Leggi di Kirchoff)(2)
 
-Nella rete di bipoli mostrata in figura sono ora noti i valori di alcune tensioni indicate in rosso in figura, cioè:
-$$v_{1} = 1V;\quad v_{3} =−1V;\quad v_{4} =−2V;\quad v_{5} = 3V$$
-Determinare per primo il valore della tensione $v_{7}$ scrivendo una sola KVL. Successivamente completate determinando le altre tensioni incognite.
-Quindi si fissi il nodo $E$ come riferimento e si determinino i potenziali ai rimanenti nodi.
+> [!question] Esercizio
+> ![[Elettrotecnica-1793114056557.webp|362x276]]
+> Nella rete di bipoli mostrata in figura sono ora noti i valori di alcune tensioni indicate in rosso in figura, cioè:
+> $$v_{1} = 1V;\quad v_{3} =−1V;\quad v_{4} =−2V;\quad v_{5} = 3V$$
+> Determinare per primo il valore della tensione $v_{7}$ scrivendo una sola KVL. Successivamente completate determinando le altre tensioni incognite.
+> Quindi si fissi il nodo $E$ come riferimento e si determinino i potenziali ai rimanenti nodi.
+
+
