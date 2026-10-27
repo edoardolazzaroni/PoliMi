@@ -364,23 +364,9 @@ $$v_{kj}= e_{k}−e_{j}.$$
 
 ## 1.5 **Dispositivi con più di due terminali e loro modelli**
 
-Un primo esempio di dispositivo con più di due terminali è il tripolo elettrico disegnato in figura 1.37.
-
-In questo caso, le grandezze elettriche che si possono misurare
-
-sono tre tensioni e tre correnti tuttavia è facile verificare che solo un
-
-sottoinsieme di queste risultano tra di loro indipendenti. Infatti appli-
-
-cando la legge delle correnti ad una superficie chiusa che racchiude
-
-in se tripolo, si ricava la relazione
-
-i1 + i2 + i3 = 0 →i3 =−i1−i2
-
-mentre dalla legge delle tensioni lungo un cammino chiuso che tocca
-
-i tre terminali, si ha
+Un primo esempio di dispositivo con più di due terminali è il tripolo elettrico disegnato in figura 1.32. In questo caso, le grandezze elettriche che si possono misurare sono tre tensioni e tre correnti, tuttavia è facile verificare che solo un sottoinsieme di queste risultano tra di loro indipendenti. Infatti applicando la legge delle correnti ad una superficie chiusa che racchiude in se il tripolo, si ricava la relazione
+$$i_{1} + i_{2} + i_{3} = 0 \rightarrow i_{3} =−i_{1}−i_{2}$$
+mentre dalla legge delle tensioni lungo un cammino chiuso che tocca i tre terminali, si ha
 
 v13−v12−v23 = 0 →v12 = v13−v23
 
