@@ -372,23 +372,9 @@ $$v_{13}−v_{12}−v_{23} = 0 \rightarrow v_{12} = v_{13}−v_{23}$$
 
 Si conclude che <mark class="hltr-yellow">in un tripolo solo due correnti e due tensioni sono tra di loro indipendenti e dunque possono essere assunte come variabili descrittive</mark>.
 
-E’ facile verificare che questa proprietà si estende facilmente al caso di un generico N-polo, cioè di un dispositivo con N termi-nali. Nel caso generale, l’N-polo ha N−1 corrente e N−1 tensioni
-
-indipendenti.
-
-Il procedimento che si adotta per determinare il sottoinsieme di
-
-tensioni e correnti da utilizzare come variabili descrittive è quello di
-
-scegliere arbitrariamente un terminale come riferimento comune e
-
-quindi di scegliere le correnti entranti agli N−1 nodi rimanenti e
-
-le N−1 tensioni misurate tra gli N−1 nodi e il riferimento. Come
-
-esempio, la figura 1.38 mostra per un tripolo il caso in cui come rifer-
-
-imento si è assunto il nodo 3 e quindi le due tensioni indipendenti
+E’ facile verificare che questa proprietà si estende facilmente al caso di un generico $N$-polo, cioè di un dispositivo con $N$ terminali. Nel caso generale, l’$N$-polo ha $N−1$ correnti e $N−1$ tensioni indipendenti.
+Il procedimento che si adotta per determinare il sottoinsieme di tensioni e correnti da utilizzare come variabili descrittive è quello di scegliere arbitrariamente un terminale come riferimento comune e quindi di scegliere le correnti entranti agli $N−1$ nodi rimanenti e le $N−1$ tensioni misurate tra gli $N−1$ nodi e il riferimento.
+Come esempio, la figura 1.33 mostra per un tripolo il caso in cui come riferimento si è assunto il nodo 3 e quindi le due tensioni indipendenti
 
 risultano v13 e v23. Con questa scelta, come correnti indipendenti si
 
