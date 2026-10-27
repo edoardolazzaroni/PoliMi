@@ -376,13 +376,7 @@ E’ facile verificare che questa proprietà si estende facilmente al caso di un
 Il procedimento che si adotta per determinare il sottoinsieme di tensioni e correnti da utilizzare come variabili descrittive è quello di scegliere arbitrariamente un terminale come riferimento comune e quindi di scegliere le correnti entranti agli $N−1$ nodi rimanenti e le $N−1$ tensioni misurate tra gli $N−1$ nodi e il riferimento.
 
 Come esempio, la figura 1.33 mostra per un tripolo il caso in cui come riferimento si è assunto il nodo $3$ e quindi le due tensioni indipendenti risultano $v_{13}$ e $v_{23}$. Con questa scelta, come correnti indipendenti si assumeranno quelle entranti in tutti i nodi tranne quello di riferimento, ovvero nel caso specifico $i_{1}$ e $i_{2}$.
+La figura 1.33 mostra un secondo esempio nel quale il riferimento viene assunto nel nodo $2$.
 
-La figura 1.33 mostra un secondo esempio nel quale il riferimento viene assunto nel nodo $2$. Nella parte (destra) delle fugure 1.38 e 1.39 viene mostrata la seguente proprità: dal punto di vista delle leggi
-
-di Kirchhoff, il tripolo è del tutto analogo al caso di due bipoli collegati tra di
-
-loro nel nodo di riferimento Generalizzando, si ha che un dipositivo con N
-
-terminali (cioè un N-polo), al fine delle leggi di Kirchhoff, può essere ricon-
-
-dotto al caso di un insieme di N−1 bipoli collegati tra loro nel nodo scelto
+Nella parte (destra) delle fugure 1.32 e 1.33 viene mostrata la seguente proprità: dal punto di vista delle leggi di Kirchhoff, il tripolo è del tutto analogo al caso di due bipoli collegati tra di loro nel nodo di riferimento.
+Generalizzando, si ha che un dipositivo con $N$ terminali (cioè un $N$-polo), al fine delle leggi di Kirchhoff, può essere ricondotto al caso di un insieme di $N−1$ bipoli collegati tra loro nel nodo scelto come riferimento.
