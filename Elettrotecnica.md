@@ -342,3 +342,6 @@ $$v_{kj}= e_{k}−e_{j}.$$
 #Figura(1.31). *Dai potenziali ai nodi a cui un bipolo è connesso si risale alla sua tensione*
 
 
+#### #Esercizio(Leggi di Kirchoff)
+
+Nella rete di bipoli mos
