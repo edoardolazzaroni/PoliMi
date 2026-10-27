@@ -345,7 +345,7 @@ $$v_{kj}= e_{k}−e_{j}.$$
 #### #Esercizio(Leggi di Kirchoff)
 
 > [!question] Esercizio
-> 
+> ![[Elettrotecnica-1793113870627.webp|352x238]]
 > Nella rete di bipoli mostrata in figura sono i valori di alcune correnti indicate in rosso, cioè:
 > $$i_{2}=1A;\quad i_{6}=-2A;\quad i_{7}=3A$$
 > Determinare per primo il valore della corrente $i_{3}$ scrivendo una sola KCL. Successivamente completare determinando le correnti incognite.
