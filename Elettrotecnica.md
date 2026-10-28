@@ -518,17 +518,19 @@ Infine, è istruttivo considerare i casi limite in cui $R \rightarrow 0$ e $G \r
 ### 2.2.1 **Caso $R \rightarrow 0$**
 
 La retta caratteristica riduce progressivamente la sua pendenza fino, al limite, ad adagiarsi sull’asse della corrente come mostrato in figura:
-![[Elettrotecnica-1793196361006.webp|329]]
+![[Elettrotecnica-1793196361006.webp|299]]
 #Figura(2.5).
 
 Dalla $(2.1)$, si ottiene:
 $$v = 0 \quad \forall i$$
 
-e si dice che il resistore si comporta come un **corto circuito**, ovvero ai sui capi la tensione è nulla qualunque sia la corrente che lo attraversa. Il simbolo del corto circuito è mostrato in figura 2.6.
-![[Elettrotecnica-1793196429703.webp|199]]
+e si dice che il resistore si comporta come un **corto circuito**, ovvero <u>ai sui capi la tensione è nulla qualunque sia la corrente che lo attraversa</u>. Il simbolo del corto circuito è mostrato in figura 2.6.
+![[Elettrotecnica-1793196429703.webp|154]]
 #Figura(2.6).
 
 Attenzione! Il bipolo corto circuito è controllabile in corrente infatti la tensione si può scrivere come una funzione della corrente:
 $$v = 0 \cdot i$$
+ma <u>non è controllabile in tensione</u>.
 
-ma non è controllabile in tensione.
+
+### 2.2.2 **Caso $R \rightarrow \infty$**
