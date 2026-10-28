@@ -666,4 +666,7 @@ Il valore di dette incognite si ottiene imponendo la validità delle leggi di Ki
 - Si scrivono i legami costitutivi:
 	$$v_{1} = R_{1} i_{1}\\v_2 = R_{2} i_{2}\\v_{3} = R_{3} i_{3}\\v_{4} = E$$
 
-- Si scrive la laegge di Ki
+- Si scrive la laegge di Kirchoff delle tensioni per la maglia:
+	$$v_{4}=v_{1}+v_{2}+v_{3}\quad (3.3)$$
+
+Il procedemento risolutivo
