@@ -635,12 +635,20 @@ Il modello di resistore è in grado di rappresentare il caso di un oggetto filif
 Quando viene inserito in un circuito chiuso in modo che lo attraversi una corrente elettrica "di opportuna intensità" si vede che la tensione che nasce ai sui capi è data da:
 $$v = R \cdot i$$
 dove:
-$$R=\rho \quad(1.6)$$
+$$R=\rho \ \frac{L}{S} \quad(1.6)$$
 
-L
+La resistenza del filo è determinato dal parametro $\rho$, chiamato **resistività**, che dipende dal tipo di materiale che forma il filo e dai fattori
 
-R= ρ
+geometrici L ed S. Per esempio, un filo di rame, la cui resistività è
 
-S
+circa ρcu = 1.69 · 10−8Ω m, di sezione pari a 1mm2 = 10−6m2 e di
 
-La resistenza del filo è determinato dal parametro ρ
+lunghezza pari a L= 10m ha una resistenza di:
+
+R= 1.6910−8
+
+·
+
+10
+
+10−6 ≈0.16Ω.
