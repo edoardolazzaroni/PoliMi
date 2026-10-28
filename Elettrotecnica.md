@@ -690,7 +690,7 @@ e da essa determinare quella delle correnti nei resistori e della loro tensione,
 
 
 
-Applichiamo il metodo al circuito in esempio in figura:
+#Esempio Applichiamo il metodo al circuito in esempio in figura:
 ![[Elettrotecnica-1793200407011.webp|291]]
 #Figura(3.2). *Esempio numerico di circuito serie*
 
@@ -754,4 +754,4 @@ $$v_{AB}=\frac{11}{\frac{1}{1}+\frac{1}{2}+\frac{1}{3}}=11\cdot\frac{6}{11}=6 \ 
 da cui:
 $$i_{1}=6\cdot \frac{1}{1}=6 \ A;\quad i_{2}=6\cdot \frac{1}{2}=3 \ A;\quad i_{3}=6\cdot \frac{1}{3}=2 \ A$$
 
-Si noti che $i_{1}$
+Si noti che $i_{1}+i_{2}+i_{3}=11 \ A$, 
