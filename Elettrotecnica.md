@@ -378,22 +378,24 @@ Si conclude che <mark class="hltr-yellow">in un tripolo solo due correnti e due 
 
 E’ facile verificare che questa proprietà si estende facilmente al caso di un generico $N$-polo, cioè di un dispositivo con $N$ terminali. Nel caso generale, l’$N$-polo ha $N−1$ correnti e $N−1$ tensioni indipendenti.
 Il procedimento che si adotta per determinare il sottoinsieme di tensioni e correnti da utilizzare come variabili descrittive è quello di scegliere arbitrariamente un terminale come riferimento comune e quindi di scegliere le correnti entranti agli $N−1$ nodi rimanenti e le $N−1$ tensioni misurate tra gli $N−1$ nodi e il riferimento.
+
 ![[Elettrotecnica-1793189797821.webp|379]]
 #Figura(1.33). *(<u>Sinistra</u>) possibile scelta delle due tensioni e correnti che descrivono un tripolo: si assume come nodo comune di riferimento il numero $3$; (<u>Destra</u>) analogia con il caso di due bipoli*
 
 Come esempio, la figura 1.33 mostra per un tripolo il caso in cui come riferimento si è assunto il nodo $3$ e quindi le due tensioni indipendenti risultano $v_{13}$ e $v_{23}$. Con questa scelta, come correnti indipendenti si assumeranno quelle entranti in tutti i nodi tranne quello di riferimento, ovvero nel caso specifico $i_{1}$ e $i_{2}$.
+
 ![[Elettrotecnica-1793190133801.webp|279]]
-#Figura(1.34). (Sinistra) Scelta delle due tensioni e correnti che descrivono un
+#Figura(1.34). *(<u>Sinistra</u>) Scelta delle due tensioni e correnti che descrivono un tripolo quando si assume come nodo comune di riferimento il numero $2$; (<u>Destra</u>) Analogia con il caso di due bipoli*
 
-tripolo quando si assume come nodo
-
-comune di riferimento il numero 2.
-
-(Destra) Analogia con il caso di due
-
-bipoli.
 La figura 1.34 mostra un secondo esempio nel quale il riferimento viene assunto nel nodo $2$.
 Nella parte (destra) delle figure 1.33 e 1.34 viene mostrata la seguente proprità: dal punto di vista delle leggi di Kirchhoff, il tripolo è del tutto analogo al caso di due bipoli collegati tra di loro nel nodo di riferimento.
 
 Generalizzando, si ha che **un dipositivo con $N$ terminali (cioè un $N$-polo), al fine delle leggi di Kirchhoff, può essere ricondotto al caso di un insieme di $N−1$ bipoli collegati tra loro nel nodo scelto come riferimento**.
 Ogni coppia di terminali formata da un nodo ed il nodo di riferimento identifica una porta elettrica o lato in quanto, al pari di un bipolo, è descritta dall’informazione composta da una tensione ed una corrente.
+
+Questo punto di vista diventa ancora più evidente se il nodo di riferimento nel caso del tripolo viene raddoppiato in modo da for-
+mare le due coppie di terminali a−a′e b−b′in figura 1.40, che
+
+definiscono esplicitamente le due porte, le quali sono poi collegate
+
+a due bipoli esterni. Il collegamento ai bipolo esterni assicura che la
