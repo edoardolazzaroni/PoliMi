@@ -713,4 +713,6 @@ Le leggi/equazioni che governano i due circuiti sono le stesse come di seguito r
 
 - Dalla legge di Kirchoff delle tensioni si ha:$$v_{AB}=v_{1}=v_{2}=v_{3}\quad(3.10)$$
 - Si scrivono i legami costitutivi nella forma controllata in tensione:$$i_{1}=G_{1}v_{1}\\i_{2}=G_{2}v_{2}\\i_{3}=G_{3}v_{3}\\i_{4}=I_{s}$$$$(3.11)$$
-	dove $G_{K}=\frac{1}{R_{k}}$ indica la conduttanza del resistore $k$
+	dove $G_{K}=\frac{1}{R_{k}}$ indica la conduttanza del resistore $k$-esimo.
+
+- Si scrive la legge di Kirchhoff delle correnti al nodo $A$ per il circuito in figura (sinistra) o equivalentemente alla superficie chiusa tratteggiata in rosso nel circuito in figura (destra):$$i_{4}=$$
