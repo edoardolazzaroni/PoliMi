@@ -650,4 +650,8 @@ Vedremo anche come l’uso di modelli ideali di generatore può, in certe condiz
 
 
 
-# **Capitolo III: Analisi di circuiti resist**
+# **Capitolo III: Analisi di circuiti resistivi**
+
+
+## 3.1 **Circuito serie**
+
