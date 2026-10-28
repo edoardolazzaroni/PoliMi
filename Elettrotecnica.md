@@ -642,3 +642,5 @@ Per esempio, un filo di rame, la cui resistività è circa $\rho_{cu} = 1.69 \cd
 $$R= 1.6910^{−8}\cdot \frac{10}{10^{-6}} \approx 0.16 \ \Omega$$
 
 Il rame è un ottimo conduttore e viene utilizzato per realizzare i fili di collegamento tra i componenti di un sistema elettrico; dato che la resistenza dei fili è comunemente trascurabile rispetto a quella dei componenti, i fili si possono modellare come corto circuito $R \approx 0 \ \Omega$.
+
+Anche i modelli elettrici hanno dei limiti di validità. Nel caso del resistore fisico, il legame $v = R\cdot i$ è valido fino a che la corrente che scorre rimane in un certo intervallo di valori. Vedremo che questo è determinato da un’altra grandezza elettrica chiamata potenza elettrica e data dal prodotto $v· i.
