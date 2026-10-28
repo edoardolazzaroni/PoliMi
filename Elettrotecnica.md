@@ -382,3 +382,4 @@ Nella parte (destra) delle figure 1.32 e 1.33 viene mostrata la seguente proprit
 
 Generalizzando, si ha che **un dipositivo con $N$ terminali (cioè un $N$-polo), al fine delle leggi di Kirchhoff, può essere ricondotto al caso di un insieme di $N−1$ bipoli collegati tra loro nel nodo scelto come riferimento**.
 Ogni coppia di terminali formata da un nodo ed il nodo di riferimento identifica una porta elettrica o lato in quanto, al pari di un bipolo, è descritta dall’informazione composta da una tensione ed una corrente.
+llaa
