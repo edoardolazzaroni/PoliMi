@@ -456,4 +456,5 @@ esprimiamo le tensioni sui vari elementi in funzione dei potenziali ai nodi. Per
 Assumendo il nodo $A$ come riferimento si hanno i tre potenziali ai nodi:
 $$e_{B} = v_{BA} =−v_{1},\quad e_{C} = v_{CA} =−v_{4},\quad e_{D} = v_{DA} =−v_{6}$$
 La sommatoria si può scrivere:
-$$−e_{B}\cdot i_{1} + (e_{C}-e_{B})· i2 + (eD−eB)· i3−eC· i4 + (eC−eD)· i5−eD· i6$$
+$$−e_{B}\cdot i_{1} + (e_{C}-e_{B})\cdot i_{2} + (e_{D}−e_{B})\cdot i_{3}−e_{C}\cdot i_{4} + (e_{C}−e_{D})\cdot i_{5}−e_{D}\cdot i_{6}$$
+e quindi riordinare in modo da raccogliere i termini che contenf
