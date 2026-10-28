@@ -488,3 +488,5 @@ Per ogni configurazione della rete $N_{k}$ misuriamo i valori della corrente e t
 > Questo legame si può esprimere da un’equazione, che nella sua forma implicita denotiamo con $f (v, i) = 0$, detta **equazione caratteristica** o **legame costitutivo**.
 
 
+
+## 2.2 **Il principio di identità del bipolo**
