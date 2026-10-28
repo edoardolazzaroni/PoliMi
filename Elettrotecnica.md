@@ -475,21 +475,7 @@ Il prodotto $v_{k}\cdot i_{k}$ è detto **potenza virtuale**.
 ## 2.1 **Il principio di identità del bipolo**
 
 Immaginiamo di eseguire un esperimento in cui un dato bipolo $B$ che vogliamo studiare sia collegato ad una rete esterna che possiamo variare. Questa è indicata come $N_{k}$ (come "network" $k$-esima), dove il pedice $k$ indicizza una certa configurazione della rete.
-Per ogni configurazione della rete $N_{k}$ misuriamo i valori della cor-
-
-rente e tensione capi di B. Dette coppie di valori (ik, vk), riportate
-
-nel piano i-v definiscono una curva ben precisa. Indipendentemente
-
-da ciò che è collegato esternamente a B, ogni qualvolta la corrente
-
-¯
-
-assume un dato valore (es.
-
-i) la tensione assume il valore corrispon-
-
-dente (es. ¯
+Per ogni configurazione della rete $N_{k}$ misuriamo i valori della corrente e tensione capi di $B$. Dette coppie di valori $(i_{k}, v_{k})$, riportate nel piano $i-v$ definiscono una curva ben precisa. Indipendentemente da ciò che è collegato esternamente a B, ogni qualvolta la corrente assume un dato valore (per esempio $\overline{i}$) la tensione assume il valore corrispondente (es. ¯
 
 v) individuato sulla curva. Si può affermare che: In un
 
