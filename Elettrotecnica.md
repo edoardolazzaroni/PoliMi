@@ -400,9 +400,9 @@ In queste condizioni, si dice che l’elemento a quattro terminali che si è ven
 Si badi che il modello di doppio bipolo si differenzia da un dispositivo quadripolo generico: quest'ultimo infatti è in generale descritto da 3 tensioni e 3 correnti indipendenti, cioè da tre porte elettriche. Il modello doppio bipolo in figura invece è descritto da sole due correnti e due tensioni indipendenti, cioè da due porte. Il doppio bipolo che abbiamo derivato partendo dal tripolo (raddoppiandone un terminale) rappresenta un caso particolare di modello di tipo doppio bipolo e viene spesso indicato come <u>doppio bipolo tripolare</u>.
 
 Il caso più generale di modello doppio bipolo è invece quello mostrato di seguito, in cui le due porte non sono necessariamente collegate tra loro. Dal punto di vista della scrittura delle leggi di Kirchhoff il doppio bipolo è analogo (e quindi può essere ricondotto) a quello di due bipoli non necessariamente collegati tra di loro.
-![[Elettrotecnica-1793190473261.webp|311]]
+![[Elettrotecnica-1793190473261.webp|421]]
 #Figura(1.36). *Modello generico di doppio bipolo in cui le porte non sono collegate*
 
 Infine la figura 1.37 mette in evidenza come sia sempre possibile utilizzare il modello di doppio bipolo per descrivere un dispositivo tripolo:
-![[Elettrotecnica-1793190527710.webp|393]]
-#Figura (1.37)
+![[Elettrotecnica-1793190527710.webp|278]]
+#Figura(1.37). *l dispositivo tripolo si può ottenere dal modello doppio bipolo collegando i terminali di quest’ultimo in modo opportuno*
