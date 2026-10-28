@@ -613,8 +613,28 @@ Invertiamo ora il segno della misura di corrente, cioè usiamo come variabile al
 #Figura(2.15). *Convenzione dei generatori in un resistore*
 
 Dalla $(2.1)$, otteniamo:
-$$v =−R \ i′ \quad (1.5)$$
+$$v =−R \ i′ \quad (2.5)$$
 
-Dunque, se adottiamo la convenzione dei generatori nel legame costitutivo del resistore compare un segno meno. Per questo comunemente per i bipoli di tipo resistore è naturale assumere la convenzione di misura degli utilizzatori in modo che valga la $(2.1)$
+Dunque, se adottiamo la convenzione dei generatori nel legame costitutivo del resistore compare un segno meno. Per questo comunemente **per i bipoli di tipo resistore è naturale assumere la convenzione di misura degli utilizzatori in modo che valga la $(2.1)$ col segno positivo**.
 
-col segno positivo.
+Esaminiamo ora il caso di un generatore di tensione, il cui legame costitutivo con la convenzione degli utilizzatori mostrata in [[#2.3 **Generatore ideale di tensione**]] figura 2.9 è:
+
+v = E.
+
+Se invertiamo il segno della corrente alla porta, cioè i′
+
+=−i, come
+
+mostrato in fig.1.16(Sinistra) vediamo che il legame costitutivo rimane
+
+invariato in quanto la corrente non compare nell’espressione. La
+
+stessa conclusione vale per il generatore ideale di corrente, in cui si
+
+assuma la convenzione di misura dei generatori come mostrato in
+
+fig.1.16(Destra). Per questo motivo: per i bipoli di tipo generatore
+
+ideale si adotta indifferentemente la convenzione di misura degli
+
+utilizzatori o dei generatori.
