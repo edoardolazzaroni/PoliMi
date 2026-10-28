@@ -647,3 +647,7 @@ Anche i modelli elettrici hanno dei <u>limiti di validità</u>. Nel caso del res
 
 Vedremo anche come l’uso di modelli ideali di generatore può, in certe condizioni, portare a dei problemi matematici che non hanno soluzione. In questo caso, l’eccessiva semplificazione fa si che il modello non sia più attinente alla realtà.
 
+
+
+
+# **Capitolo III: Analisi di circuiti resist**
