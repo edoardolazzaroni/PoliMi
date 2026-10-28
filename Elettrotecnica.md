@@ -579,8 +579,18 @@ Quando il generatore di tensione viene spento (cioè $E= 0 \ V$) si comporta com
 ## 2.4 **Generatore ideale di corrente**
 
 Il simbolo del generatore di corrente è mostrato in figura 2.12 dove accanto al simbolo è riportato il parametro $I_{s}$, misurato in ampere, che ne determina il legame costitutivo.
+![[Elettrotecnica-1793197449301.webp|207]]
+#Figura(2.12).
 
 Questo infatti è dato da:
 $$i= I_{s} \quad (1.4)$$
 
-Dunque, in questo caso, l’equazione caratteristica semplicemente impone il valore di corrente che scorre attraverso il generatore indipendentemente dal valore della tensione ai suoi capi. La figura 2.13
+Dunque, in questo caso, l’equazione caratteristica semplicemente impone il valore di corrente che scorre attraverso il generatore indipendentemente dal valore della tensione ai suoi capi. La figura 2.13 mostra come la curva caratteristica del generatore ideale di corrente sia una retta parallela all’asse delle tensioni.
+
+Questo bipolo elementare è controllabile in tensione ma non in
+
+corrente. L’equazione (1.4) può infatti pensarsi riscritta in modo tale
+
+che la corrente sia una funzione della tensione:
+
+i= Is + v · 0
