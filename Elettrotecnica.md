@@ -734,4 +734,6 @@ e da essa determinare quella delle tensioni sui resistori e della loro corrente;
 > E’ facile verificare che la trattazione mostrata per tre resistori si estende al caso generale in cui i resistori collegati ai nodi siano $N$.
 > Questo tipo di collegamento si dice di tipo parallelo in quanto i resistori hanno ai loro capi la stessa tensione $v_{AB}$ ed inoltre le loro correnti si sommano al nodo (o attraverso una superficie chiusa).
 > Nel caso generale si ottiene:
-> $$v_{AB}=$$
+> $$v_{AB}=\frac{I_{s}}{\sum_{i=1}^N G_{i}}\quad (3.17)$$
+> e quindi:
+> $$i_{k}=I_{s}\frac{G_{k}}{\sum_{i=1}^N}$$
