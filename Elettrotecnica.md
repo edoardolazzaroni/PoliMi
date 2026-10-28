@@ -711,4 +711,5 @@ Nella implementazione pratica questo circuito viene spesso realizzato sostituend
 
 Le leggi/equazioni che governano i due circuiti sono le stesse come di seguito riportato, quindi <u>è indifferente considerare l’uno o l’altro</u>:
 
-- Dalla legge di Kirchoff 
+- Dalla legge di Kirchoff delle tensioni si ha:$$v_{AB}=v_{1}=v_{2}=v_{3}\quad(3.10)$$
+- Si scrivono i legami costitutivi nella forma controllata in tensione:$$i_{1}=G_{1}v_{1}\\i_{2}=F_{2}$$
