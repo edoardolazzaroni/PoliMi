@@ -622,4 +622,13 @@ $$v = E$$
 
 Se invertiamo il segno della corrente alla porta, cioè $i'=−i$, come mostrato in figura 2.16 (Sinistra) vediamo che il legame costitutivo rimane invariato in quanto la corrente non compare nell’espressione. La stessa conclusione vale per il generatore ideale di corrente, in cui si assuma la convenzione di misura dei generatori come mostrato in figura 2.16 (Destra). Per questo motivo **per i bipoli di tipo generatore ideale si adotta indifferentemente la convenzione di misura degli utilizzatori o dei generatori**.
 ![[Elettrotecnica-1793198138993.webp|356]]
-#Figura(2.16). Convenzione dei generatori in un generatore di tensione (<u>Sinistra</u>) ed in uno di corrente (<u>Destra</u>)
+#Figura(2.16). *Convenzione dei generatori in un generatore di tensione (<u>Sinistra</u>) ed in uno di corrente (<u>Destra</u>)*
+
+
+
+## 2.6 **Dispositivi fisici, modelli e limiti di validità**
+
+Il modello di resistore è in grado di rappresentare il caso di un oggetto filiforme, cioè la cui lunghezza sia ordini di grandezza superiore rispetto all’area (o meglio alla radice quadrata dell’area) della sua sezione. La figura 2.17 mostra il caso di un oggetto cilindrico di sezione costante, la cui area sia $S$, e di lunghezza $L$.
+
+
+Quando viene
