@@ -498,10 +498,8 @@ $$v = R \ i \quad (2.1)$$
 
 Dunque l’equazione caratteristica è un legame di proporzionalità diretta attraverso il parametro resistenza, questa si misura in ohm $[Ω]$. La figura 2.4 illustra la curva caratteristica nel piano $i-v$ che è una retta passante per l’origine degli assi avente pendenza $R$.
 
-Nella forma $(2.1)$ la variabile tensione è una funzione della corrente, <mark class="hltr-yellow">il resistore si dice controllabile in corrente</mark>. Nel caso in cui $R \ne 0$ è anche possibile invertire la 1.1 riscrivendola:
+Nella forma $(2.1)$ la variabile tensione è una funzione della corrente, <mark class="hltr-yellow">il resistore si dice controllabile in corrente</mark>.
+Nel caso in cui $R \ne 0$ è anche possibile invertire la $(2.1)$ riscrivendola:
+$$i=\frac{1}{R}\ v = G \ v \quad (2.2)$$
 
-i=
-
-1
-
-R v = G v (1.2)
+dove il parametro $G=\frac{1}{R}$ 
