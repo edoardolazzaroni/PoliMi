@@ -722,4 +722,5 @@ Il procedimento risolutivo segue i seguenti passaggi logici:
 2. Si sostituisce $v_{AB}$ nelle $(3.11)$ ottenendo:$$i_{1}=G_{1}v_{AB}\\i_{2}=G_{2}v_{AB}\\i_{3}=G_{3}v_{AB}\\i_{4}=I_{s}$$$$(3.13)$$
 3. Infine, si sostituiscono le $(3.13)$ nella $(3.12)$ pervenendo all'equazione finale:$$I_{s}=v_{AB}(G_{1}+G_{2}+G_{3})\quad(3.14)$$
 È quindi possibile risolvere tale equazione e ricavare l'espressione della tensione $v_{AB}$:
-$$v_{AB}=\frac{I_{s}}$$
+$$v_{AB}=\frac{I_{s}}{G_{1}+G_{2}+G_{3}}\quad (3.15)$$
+e da essa determinare quella delle tensioni sui resistori e della loro corrente
