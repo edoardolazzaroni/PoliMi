@@ -684,5 +684,8 @@ e da essa determinare quella delle correnti nei resistori e della loro tensione,
 > Questo tipo di collegamento si dice di tipo serie in quanto i resistori sono attraversati dalla stessa corrente $i_{m}$ e le loro tensioni si sommano lungo la maglia. Nel caso generale si ottiene:
 > $$i_{m}=\frac{E}{\sum_{i=1}^N R_{i}}\quad (3.8)$$
 > e quindi:
-> $$v_{k}=E\frac{R_{k}}{\sum_{i=1}}$$
+> $$v_{k}=E\frac{R_{k}}{\sum_{i=1}^N R_{i}}\quad (3.9)$$
+> per $k=1,\cdots,N$.
 
+
+Applichiamo il metodo al circuito in esempio in figura:
