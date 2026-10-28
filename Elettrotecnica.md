@@ -750,4 +750,6 @@ Applichiamo il metodo al circuito in figura:
 #Figura(3.4). *Circuito in parallelo con tre resistori*
 
 Si ha:
-$$v_{AB}=\frac{11}{}$$
+$$v_{AB}=\frac{11}{\frac{1}{1}+\frac{1}{2}+\frac{1}{3}}=11\cdot\frac{6}{11}=6 \ V$$
+da cui:
+$$i_{1}=6\cdot \frac{1}{1}=6 \ A;\quad$$
