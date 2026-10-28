@@ -629,6 +629,19 @@ Se invertiamo il segno della corrente alla porta, cioè $i'=−i$, come mostrato
 ## 2.6 **Dispositivi fisici, modelli e limiti di validità**
 
 Il modello di resistore è in grado di rappresentare il caso di un oggetto filiforme, cioè la cui lunghezza sia ordini di grandezza superiore rispetto all’area (o meglio alla radice quadrata dell’area) della sua sezione. La figura 2.17 mostra il caso di un oggetto cilindrico di sezione costante, la cui area sia $S$, e di lunghezza $L$.
+![[Elettrotecnica-1793198264146.webp|649]]
+#Figura(2.17).
 
+Quando viene inserito in un circuito chiuso in modo che lo attraversi una corrente elettrica "di opportuna intensità" si vede che la tensione che nasce ai sui capi è data da:
+$$v = R \cdot i$$
+dove:
 
-Quando viene
+(1.6)
+
+L
+
+R= ρ
+
+S
+
+La resistenza del filo è determinato dal parametro ρ
