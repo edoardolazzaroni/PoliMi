@@ -746,3 +746,8 @@ $$i_{k}=I_{s}\frac{\frac{1}{R_{2}}}{\frac{1}{R_{1}}+\frac{1}{R_{2}}}=I_{s}\frac{
 
 
 Applichiamo il metodo al circuito in figura:
+![[Elettrotecnica-1793202627352.webp|346]]
+#Figura(3.4). *Circuito in parallelo con tre resistori*
+
+Si ha:
+$$v_{AB}=\frac{11}{}$$
