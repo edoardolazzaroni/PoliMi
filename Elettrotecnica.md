@@ -503,16 +503,8 @@ Nel caso in cui $R \ne 0$ è anche possibile invertire la $(2.1)$ riscrivendola:
 $$i=\frac{1}{R}\ v = G \ v \quad (2.2)$$
 
 dove il parametro $G=\frac{1}{R}$ si chiama **conduttanza** e si misura in siemens $[S=\Omega^{-1}]$.
-Nella forma $(2.2)$ <mark class="hltr-yellow">la variabile corrente è funzione della tensione cioè è controllata in tensione</mark>. Si conclude che se $R \ne 0$ il resistore è controllabile anche in tensione. Si noti che $(2.1)$ e $(2.2)$
-
-sono due equazioni esplicite. Esse si possono anche riscrivere nella
-
-forma implicita:
-
-f (v, i) = v−R i= 0
+Nella forma $(2.2)$ <mark class="hltr-yellow">la variabile corrente è funzione della tensione cioè è controllata in tensione</mark>. Si conclude che se $R \ne 0$ il resistore è controllabile anche in tensione. Si noti che $(2.1)$ e $(2.2)$ sono due equazioni esplicite. Esse si possono anche riscrivere nella forma implicita:
+$$f (v, i) = v−R i= 0$$
 
 a cui spesso facciamo riferimento nella Teoria.
-
-Infine, è istruttivo considerare i casi limite in cui R →0 e G →0
-
-(cioè R →∞).
+Infine, è istruttivo considerare i casi limite in cui $R \rightarrow 0$ e $G \rightarrow 0$ (cioè $R \rightarrow \infty$).
