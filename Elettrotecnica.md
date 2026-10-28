@@ -739,10 +739,12 @@ e da essa determinare quella delle tensioni sui resistori e della loro corrente;
 > $$i_{k}=I_{s}\frac{G_{k}}{\sum_{i=1}^N G_{i}}=I_{s}\frac{\frac{1}{R_{k}}}{\sum_{i=1}^N \frac{1}{R_{i}}}\quad(3.18)$$
 > per $k=1,\cdots,N$.
 
-La formula $(3.18)$ vale per qualunque numero $N$ di resistori in parallelo, tuttavia è istruttivo analizzare nello specifico il caso $N = 2$ di soli due resistori. In questo caso, per esempio nel calcolo di $i_{2}$, si trova:
-$$i_{k}=I_{s}\frac{\frac{1}{R_{1}}}{\frac{1}{R_{1}}+\frac{1}{R_{2}}}=I_{s}\frac{R_{2}}{R_{1}+R_{2}}$$
-Similmente per $i_{2}$ vale:
-$$i_{k}=I_{s}\frac{\frac{1}{R_{2}}}{\frac{1}{R_{1}}+\frac{1}{R_{2}}}=I_{s}\frac{R_{1}}{R_{1}+R_{2}}$$
+> [!tip] Formula
+> La formula $(3.18)$ vale per qualunque numero $N$ di resistori in parallelo, tuttavia è istruttivo analizzare nello specifico il caso $N = 2$ di soli due resistori. In questo caso, per esempio nel calcolo di $i_{2}$, si trova:
+> $$i_{k}=I_{s}\frac{\frac{1}{R_{1}}}{\frac{1}{R_{1}}+\frac{1}{R_{2}}}=I_{s}\frac{R_{2}}{R_{1}+R_{2}}$$
+> Similmente per $i_{2}$ vale:
+> $$i_{k}=I_{s}\frac{\frac{1}{R_{2}}}{\frac{1}{R_{1}}+\frac{1}{R_{2}}}=I_{s}\frac{R_{1}}{R_{1}+R_{2}}$$
+> 
 
 
 #Esempio Applichiamo il metodo al circuito in figura:
@@ -758,9 +760,20 @@ Si noti che $i_{1}+i_{2}+i_{3}=11 \ A$, cioè il valore di corrente imposto dal 
 
 
 #Esempio Analizziamo il circuito in figura:
-![[Elettrotecnica-1793202913169.webp|285]]
+![[Elettrotecnica-1793202913169.webp|268]]
 #Figura(3.5). *Circuito parallelo con due resistori*
 
 In questo caso risulta:
 $$i_{1}=1\cdot \frac{10}{11}\approx 0.91 \ A;\quad i_{2}=\cdot \frac{1}{11}\approx 0.09 \ A$$
 cioè la corrente impressa dal generatore si ripartisce in modo da scorrere in larga misura nel resistore che "offre minore resistenza" (cioè maggiore conduttanza).
+
+
+
+## 3.3 **Equivalenze tra bipoli**
+
+Aggregando tra di loro bipoli elementari (es. resistori, generatori, corto circuiti) è possibile costruire circuiti elettrici composti, se tali circuiti composti sono collegati/accessibile all’esterno attraverso due terminali essi stessi sono dei bipoli (composti).
+La figura 3.6
+
+mostra due esempi di bipoli composti ottenuti (a sinistra) connettento
+
+resistori e (a destra) collegando generatori ideali e resistori. I bipoli
