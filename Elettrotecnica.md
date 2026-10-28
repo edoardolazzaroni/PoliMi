@@ -578,3 +578,9 @@ Quando il generatore di tensione viene spento (cioè $E= 0 \ V$) si comporta com
 
 ## 2.4 **Generatore ideale di corrente**
 
+Il simbolo del generatore di corrente è mostrato in figura 2.12 dove accanto al simbolo è riportato il parametro $I_{s}$, misurato in ampere, che ne determina il legame costitutivo.
+
+Questo infatti è dato da:
+$$i= I_{s} \quad (1.4)$$
+
+Dunque, in questo caso, l’equazione caratteristica semplicemente impone il valore di corrente che scorre attraverso il generatore indipendentemente dal valore della tensione ai suoi capi. La figura 2.13
