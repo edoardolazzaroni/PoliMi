@@ -635,8 +635,7 @@ Il modello di resistore è in grado di rappresentare il caso di un oggetto filif
 Quando viene inserito in un circuito chiuso in modo che lo attraversi una corrente elettrica "di opportuna intensità" si vede che la tensione che nasce ai sui capi è data da:
 $$v = R \cdot i$$
 dove:
-
-(1.6)
+$$R=\rho \quad(1.6)$$
 
 L
 
