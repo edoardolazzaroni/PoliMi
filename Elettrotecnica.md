@@ -664,4 +664,6 @@ Il valore di dette incognite si ottiene imponendo la validità delle leggi di Ki
 	$$i_{m} = i_{1} = i_{2} = i_{3} \quad (3.1)$$
 
 - Si scrivono i legami costitutivi:
-	$${v_{1} = R_{1} i_{1}\\v_2 = R_{2} i_{2}\\v_{3} = R_{3} i_{3}\\v_{4} = E$}&()$
+	$$v_{1} = R_{1} i_{1}\\v_2 = R_{2} i_{2}\\v_{3} = R_{3} i_{3}\\v_{4} = E$$
+
+- Si scrive la laegge di Ki
