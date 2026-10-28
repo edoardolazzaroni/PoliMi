@@ -555,6 +555,8 @@ ma <u>non è controllabile in corrente</u>.
 ## 2.3 **Generatore ideale di tensione**
 
 Il simbolo di questo bipolo elementare è mostrato in figura 2.9 dove accanto è riportato il parametro $E$, misurato in volt, che ne determina il legame costitutivo.
+
+
 Questo infatti è dato da:
 $$v = E \quad (1.3)$$
-Dunque l’equazione caratteristica semplicemente impone il valore di tensione ai capi del generatore indipendentemente dal valore della corrente che lo attraversa. La figura 2.10 mostra come la curva
+Dunque l’equazione caratteristica semplicemente impone il valore di tensione ai capi del generatore indipendentemente dal valore della corrente che lo attraversa. La figura 2.10 mostra come la curva caratteristica del generatore ideale di tensione sia una retta parallela all’asse delle correnti.
