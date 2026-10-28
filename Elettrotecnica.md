@@ -485,8 +485,9 @@ Per ogni configurazione della rete $N_{k}$ misuriamo i valori della corrente e t
 
 > [!important] Definizione
 > Si può affermare che: in un bipolo, mantenuto in condizioni operative normali, tra la tensione e corrente misurate ai sui capi esiste una relazione che non dipende da ciò che ad esso è collegato, ma dipende esclusivamente dalla sua natura.
-> Questo legame si può esprimere da un’equazione, che nella sua forma implicita denotiamo con $\boldmath{x}f (v, i) = 0$, detta **equazione caratteristica** o **legame costitutivo**.
+> Questo legame si può esprimere da un’equazione, che nella sua forma implicita denotiamo con $\mathbf{f(v,i)=0}$, detta **equazione caratteristica** o **legame costitutivo**.
 
 
 
-## 2.2 **Il principio di identità del bipolo**
+## 2.2 **Il bipolo re**
+
