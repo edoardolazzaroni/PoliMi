@@ -671,3 +671,7 @@ Il procedimento risolutivo consiste nell’organizzare opportunamente le equazio
 3. Infine, si sostituiscono le $(3.4)$ nella $(3.3)$ pervenendo all'equazione finale:$$E=i_{m}(R_{1}+R_{2}+R_{3})\quad(3.5)$$
 
 È quindi possibile risolvere quest'ultima equazione e ricavare l'espressione della corrente $i_{m}$:
+$$i_{m}=\frac{E}{R_{1}+R_{2}+R_{3}}\quad (3.6)$$
+
+e da essa determinare quella delle correnti nei resistori e della loro tensione, ottenendo:
+$$v_{k}=E\$$
