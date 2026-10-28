@@ -667,5 +667,5 @@ Il valore di dette incognite si ottiene imponendo la validità delle leggi di Ki
 Il procedimento risolutivo consiste nell’organizzare opportunamente le equazioni di sopra in accordo coi seguenti passaggi logici:
 
 1. Si assume $i_{m}$, la corrente che scorre nella maglia, come incognita del problema in quanto dalla sua conoscenza e dalla $(3.1)$ si possono facilmente dedurre i valori di tutte le altre correnti del circuito;
-2. Si sostituisce $i_{m}$ nelle $(3.2)$ ottenendo:$$v_{1}=R_{1}i_{m}\\$$
-3. 
+2. Si sostituisce $i_{m}$ nelle $(3.2)$ ottenendo:$$v_{1}=R_{1}i_{m}\\v_{2}=R_{2}i_{m}\\v_{3}=R_{3}i_{m}\\v_{4}=E$$$$(3.4)$$
+3. Infine, si sostituiscono le $(3.4)$ nella $(3.3)$ pervenendo all'equazione fi
