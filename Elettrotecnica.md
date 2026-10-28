@@ -663,4 +663,11 @@ Il valore di dette incognite si ottiene imponendo la validità delle leggi di Ki
 - Applicando la legge di Kirchhoff delle correnti ai nodi del circuito, cioè nei punti di collegamento dei bipoli, si ha:
 	$$i_{m} = i_{1} = i_{2} = i_{3} \quad (3.1)$$
 
-- 
+- Si scrivono i legami costitutivi:
+	$$\begin{align}v1 = R1 i1
+
+v2 = R2 i2
+
+v3 = R3 i3
+
+v4 = E$$
