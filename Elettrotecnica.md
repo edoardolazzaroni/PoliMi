@@ -392,31 +392,13 @@ Nella parte (destra) delle figure 1.33 e 1.34 viene mostrata la seguente proprit
 
 Generalizzando, si ha che **un dipositivo con $N$ terminali (cioè un $N$-polo), al fine delle leggi di Kirchhoff, può essere ricondotto al caso di un insieme di $N−1$ bipoli collegati tra loro nel nodo scelto come riferimento**.
 Ogni coppia di terminali formata da un nodo ed il nodo di riferimento identifica una porta elettrica o lato in quanto, al pari di un bipolo, è descritta dall’informazione composta da una tensione ed una corrente.
+![[Elettrotecnica-1793190373969.webp|228]]
+#Figura(1.35).
 
 Questo punto di vista diventa ancora più evidente se il nodo di riferimento nel caso del tripolo viene raddoppiato in modo da formare le due coppie di terminali $a−a′$ e $b−b′$ in figura 1.35, che definiscono esplicitamente le due porte, le quali sono poi collegate a due bipoli esterni. Il collegamento ai bipolo esterni assicura che la corrente $i_{1}$ entrante in $a$ sarà uguale a quella uscente in $a′$ mentre la corrente $i_{2}$ entrante in $b$ sarà uguale a quella uscente in $b′$.
 In queste condizioni, si dice che l’elemento a quattro terminali che si è venuto a formare in figura 1.35 (racchiuso con linea tratteggiata) si comporta, o può essere descritto, come un (modello) **doppio bipolo**.
-Si badi che il modello di doppio bipolo si differenzia da un dispositivo quadripolo generico: quest'ultimo infatti è in generale descritto da 3 tensioni e 3 correnti indipendenti, cioè da tre porte elettriche. Il modello doppio bipolo in figura invece è descritto da sole due correnti e due tensioni indipendenti, cioè da due porte. Il doppio bipolo
+Si badi che il modello di doppio bipolo si differenzia da un dispositivo quadripolo generico: quest'ultimo infatti è in generale descritto da 3 tensioni e 3 correnti indipendenti, cioè da tre porte elettriche. Il modello doppio bipolo in figura invece è descritto da sole due correnti e due tensioni indipendenti, cioè da due porte. Il doppio bipolo che abbiamo derivato partendo dal tripolo (raddoppiandone un ter
 
-che abbiamo derivato partendo dal tripolo (raddoppiandone un ter-
-
-Figure 1.39: (Sinistra) Scelta delle due
-
-tensioni e correnti che descrivono un
-
-tripolo quando si assume come nodo
-
-comune di riferimento il numero 2.
-
-(Destra) Analogia con il caso di due
-
-bipoli.
-
-Figure 1.40: Tripolo in cui il nodo
-
-comune viene raddoppiato in modo da
-
-formare un modello circuitale di tipo
-
-doppio bipolo.minale) rappresenta un caso particolare di modello di tipo doppio
+Figure 1.40: minale) rappresenta un caso particolare di modello di tipo doppio
 
 bipolo e viene spesso indicato come doppio bipolo tripolare.
