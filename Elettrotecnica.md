@@ -736,4 +736,5 @@ e da essa determinare quella delle tensioni sui resistori e della loro corrente;
 > Nel caso generale si ottiene:
 > $$v_{AB}=\frac{I_{s}}{\sum_{i=1}^N G_{i}}\quad (3.17)$$
 > e quindi:
-> $$i_{k}=I_{s}\frac{G_{k}}{\sum_{i=1}^N}$$
+> $$i_{k}=I_{s}\frac{G_{k}}{\sum_{i=1}^N G_{i}}=I_{s}\frac{\frac{1}{R_{k}}}{\sum_{i=1}^N \frac{1}{R_{i}}}\quad(3.18)$$
+> per $k=1,\cdots,N$.
