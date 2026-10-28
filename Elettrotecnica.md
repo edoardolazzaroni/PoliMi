@@ -688,4 +688,10 @@ e da essa determinare quella delle correnti nei resistori e della loro tensione,
 > per $k=1,\cdots,N$.
 
 
+
 Applichiamo il metodo al circuito in esempio in figura:
+![[Elettrotecnica-1793200407011.webp|291]]
+#Figura(3.2). *Esempio numerico di circuito serie*
+
+Si ottiene:
+$$i_{m}=\frac{2}$$
