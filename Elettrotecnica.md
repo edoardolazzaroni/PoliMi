@@ -638,5 +638,7 @@ dove:
 $$R=\rho \ \frac{L}{S} \quad(1.6)$$
 
 La resistenza del filo è determinato dal parametro $\rho$, chiamato **resistività**, che dipende dal tipo di materiale che forma il filo e dai fattori geometrici $L$ ed $S$.
-Per esempio, un filo di rame, la cui resistività è circa $\rho_{cu} = 1.69 \cdot 10^{-8}\Omega \ m$, di sezione pari a $1 \ mm^2 = 10^{−6} \ m^2$ e di lunghezza pari a $L= 10 \ m$ ha una resistenza di:
-$$R= 1.6910^{−8}\cdot \frac{10}{10^{-6}} \approx 0.16\Omega$$
+Per esempio, un filo di rame, la cui resistività è circa $\rho_{cu} = 1.69 \cdot 10^{-8} \ \Omega \ m$, di sezione pari a $1 \ mm^2 = 10^{−6} \ m^2$ e di lunghezza pari a $L= 10 \ m$ ha una resistenza di:
+$$R= 1.6910^{−8}\cdot \frac{10}{10^{-6}} \approx 0.16 \ \Omega$$
+
+Il rame è un ottimo conduttore e viene utilizzato per realizzare i fili di collegamento tra i componenti di un sistema elettrico; dato che la resistenza dei fili è comunemente trascurabile rispetto a quella dei componenti, i fili si possono modellare come corto circuito $R \approx 0 \ \Omega$.
