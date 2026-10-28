@@ -266,7 +266,7 @@ Poiché un bipolo è descritto da due grandezze e dalle rispettive convenzioni d
 
 La figure 1.26 invece mostra un modo alternativo di coordinare le misure prendendo il verso della corrente uscente dal morsetto verso cui è rivolta la freccia della tensione. Questa modalità si dice **convenzione dei generatori**.
 ![[Elettrotecnica-1793032042881.webp|212]]
-#Figura(1.27). *Convenzione dei generatori*
+#Figura(1.26). *Convenzione dei generatori*
 
 
 
@@ -274,7 +274,7 @@ La figure 1.26 invece mostra un modo alternativo di coordinare le misure prenden
 
 Siamo ora in grado di tornare al circuito completo mostrato in [[#1.3 **Il circuito elettrico**|figura 1.20]]: ogni bipolo è descritto elettricamente da una tensione e da una corrente che supponiamo misurate con la convenzione degli utilizzatori. Rivediamo la legge delle correnti ambientandola sul circuito. Per questo consideriamo, per prima, la superficie chiusa $\sigma_{1}$ indicata in figura 1.28 che orientiamo dall’interno verso l’esterno.
 ![[Elettrotecnica-1793032550236.webp|294]]
-#Figura(1.28). *Le linee tratteggiate rosse e blu mostrano la traccia sul foglio delle due superfici chiuse $\sigma_{1}$ e $\sigma_{2}$. La KCL bilancia le correnti che attraversano tali superfici*
+#Figura(1.27). *Le linee tratteggiate rosse e blu mostrano la traccia sul foglio delle due superfici chiuse $\sigma_{1}$ e $\sigma_{2}$. La KCL bilancia le correnti che attraversano tali superfici*
 
 Notiamo che per costruzione in un circuito elettrico le correnti possono circolare solo nei bipoli e nei loro terminali esterni e che la superficie $\sigma_{1}$ interseca i morsetti dei bipoli $2, 3, 4, 6$. La legge delle correnti si riduce a:
 $$i_{2} + i_{3} − i_{4} − i_{6} = 0 \quad(1.1)$$
@@ -308,7 +308,7 @@ e pensare nei termini: la somma delle correnti entranti al nodo è pari alla som
 
 Passiamo ora alle tensioni facendo riferimento alla figura 1.29 che mostra le relative misure sui vari bipoli. Ci focalizziamo sulla linea chiusa $\gamma_{1}$ tratteggiata in rosso, che supponiamo orientata in senso orario. Essa descrive un percorso chiuso tra i nodi $B →A →D →C →B$.
 ![[Elettrotecnica-1793032824107.webp|295]]
-#Figura(1.29). *Cammini chiusi $\gamma_{1}$ e $\gamma_{2}$ lungo cui si bilanciano le tensioni*
+#Figura(1.28). *Cammini chiusi $\gamma_{1}$ e $\gamma_{2}$ lungo cui si bilanciano le tensioni*
 
 Attualizziamo la legge delle tensioni osservando ora che ogni tratto del percorso chiuso corrisponde alla tensione misurata su di un bipolo. Si ha:
 $$v_{1}−v_{6} + v_{5}−v_{2} = 0 \quad (1.3)$$
@@ -331,7 +331,7 @@ La validità della legge di Kirchhoff delle tensioni ha come conseguenza che la 
 
 Allo scopo, si assuma in modo arbitrario un nodo del circuito come nodo di riferimento, per esempio in figura 1.30 il riferimento sia il nodo $A$, e si misurino le tensioni degli altri nodi rispetto al nodo di riferimento.
 ![[Elettrotecnica-1793033245095.webp|297]]
-#Figura(1.30).
+#Figura(1.29).
 
 la tensione relativa di un nodo rispetto al riferimento è detta tensione di nodo o potenziale e viene indicata con la lettera “$e$” mettendo al pedice il numero o la lettera che identifica il nodo di misura. Nella figura, prendendo $A$ come riferimento, si hanno le seguenti tensioni di nodo:
 $$e_{B} = v_{BA} =−v_{1}, e_{C} = v_{CA} =−v_{4}, e_{D} = v_{DA} =−v_{6}$$
@@ -339,7 +339,7 @@ $$e_{B} = v_{BA} =−v_{1}, e_{C} = v_{CA} =−v_{4}, e_{D} = v_{DA} =−v_{6}$$
 Notiamo che, ragionando in modo inverso, dalla conoscenza dei potenziali di nodo è possibile ricavare le tensioni dei bipoli. In generale infatti si ha che per il generico bipolo connesso tra i nodi $k$ e $j$, in cui indichiamo con $e_{k}$ ed $e_{j}$ i rispettivi potenziali rispetto ad un riferimento qualunque, la tensione misurata ai capi del bipolo, cioè $v_{kj}$, vale:
 $$v_{kj}= e_{k}−e_{j}.$$
 ![[Elettrotecnica-1793033419221.webp|214]]
-#Figura(1.31). *Dai potenziali ai nodi a cui un bipolo è connesso si risale alla sua tensione*
+#Figura(1.30). *Dai potenziali ai nodi a cui un bipolo è connesso si risale alla sua tensione*
 
 
 #### #Esercizio(Leggi di Kirchoff) (1)
@@ -366,7 +366,7 @@ $$v_{kj}= e_{k}−e_{j}.$$
 
 Un primo esempio di dispositivo con più di due terminali è il tripolo elettrico disegnato in figura:
 ![[Elettrotecnica-1793189529523.webp|171]]
-#Figura(1.32). *Un tripolo*
+#Figura(1.31). *Un tripolo*
 
 In questo caso, le grandezze elettriche che si possono misurare sono tre tensioni e tre correnti, tuttavia è facile verificare che solo un sottoinsieme di queste risultano tra di loro indipendenti. Infatti applicando la legge delle correnti ad una superficie chiusa che racchiude in se il tripolo, si ricava la relazione:
 $$i_{1} + i_{2} + i_{3} = 0 \rightarrow i_{3} =−i_{1}−i_{2}$$
@@ -380,29 +380,29 @@ E’ facile verificare che questa proprietà si estende facilmente al caso di un
 Il procedimento che si adotta per determinare il sottoinsieme di tensioni e correnti da utilizzare come variabili descrittive è quello di scegliere arbitrariamente un terminale come riferimento comune e quindi di scegliere le correnti entranti agli $N−1$ nodi rimanenti e le $N−1$ tensioni misurate tra gli $N−1$ nodi e il riferimento.
 
 ![[Elettrotecnica-1793189797821.webp|379]]
-#Figura(1.33). *(<u>Sinistra</u>) possibile scelta delle due tensioni e correnti che descrivono un tripolo: si assume come nodo comune di riferimento il numero $3$; (<u>Destra</u>) analogia con il caso di due bipoli*
+#Figura(1.32). *(<u>Sinistra</u>) possibile scelta delle due tensioni e correnti che descrivono un tripolo: si assume come nodo comune di riferimento il numero $3$; (<u>Destra</u>) analogia con il caso di due bipoli*
 
-Come esempio, la figura 1.33 mostra per un tripolo il caso in cui come riferimento si è assunto il nodo $3$ e quindi le due tensioni indipendenti risultano $v_{13}$ e $v_{23}$. Con questa scelta, come correnti indipendenti si assumeranno quelle entranti in tutti i nodi tranne quello di riferimento, ovvero nel caso specifico $i_{1}$ e $i_{2}$.
+Come esempio, la figura 1.32 mostra per un tripolo il caso in cui come riferimento si è assunto il nodo $3$ e quindi le due tensioni indipendenti risultano $v_{13}$ e $v_{23}$. Con questa scelta, come correnti indipendenti si assumeranno quelle entranti in tutti i nodi tranne quello di riferimento, ovvero nel caso specifico $i_{1}$ e $i_{2}$.
 
 ![[Elettrotecnica-1793190133801.webp|279]]
-#Figura(1.34). *(<u>Sinistra</u>) Scelta delle due tensioni e correnti che descrivono un tripolo quando si assume come nodo comune di riferimento il numero $2$; (<u>Destra</u>) Analogia con il caso di due bipoli*
+#Figura(1.33). *(<u>Sinistra</u>) Scelta delle due tensioni e correnti che descrivono un tripolo quando si assume come nodo comune di riferimento il numero $2$; (<u>Destra</u>) Analogia con il caso di due bipoli*
 
-La figura 1.34 mostra un secondo esempio nel quale il riferimento viene assunto nel nodo $2$.
+La figura 1.33 mostra un secondo esempio nel quale il riferimento viene assunto nel nodo $2$.
 Nella parte (destra) delle figure 1.33 e 1.34 viene mostrata la seguente proprità: dal punto di vista delle leggi di Kirchhoff, il tripolo è del tutto analogo al caso di due bipoli collegati tra di loro nel nodo di riferimento.
 
 Generalizzando, si ha che **un dipositivo con $N$ terminali (cioè un $N$-polo), al fine delle leggi di Kirchhoff, può essere ricondotto al caso di un insieme di $N−1$ bipoli collegati tra loro nel nodo scelto come riferimento**.
 Ogni coppia di terminali formata da un nodo ed il nodo di riferimento identifica una porta elettrica o lato in quanto, al pari di un bipolo, è descritta dall’informazione composta da una tensione ed una corrente.
 ![[Elettrotecnica-1793190373969.webp|228]]
-#Figura(1.35). *Tripolo in cui il nodo comune viene raddoppiato in modo da formare un modello circuitale di tipo doppio bipolo*
+#Figura(1.34). *Tripolo in cui il nodo comune viene raddoppiato in modo da formare un modello circuitale di tipo doppio bipolo*
 
-Questo punto di vista diventa ancora più evidente se il nodo di riferimento nel caso del tripolo viene raddoppiato in modo da formare le due coppie di terminali $a−a′$ e $b−b′$ in figura 1.35, che definiscono esplicitamente le due porte, le quali sono poi collegate a due bipoli esterni. Il collegamento ai bipolo esterni assicura che la corrente $i_{1}$ entrante in $a$ sarà uguale a quella uscente in $a′$ mentre la corrente $i_{2}$ entrante in $b$ sarà uguale a quella uscente in $b′$.
-In queste condizioni, si dice che l’elemento a quattro terminali che si è venuto a formare in figura 1.35 (racchiuso con linea tratteggiata) si comporta, o può essere descritto, come un (modello) **doppio bipolo**.
+Questo punto di vista diventa ancora più evidente se il nodo di riferimento nel caso del tripolo viene raddoppiato in modo da formare le due coppie di terminali $a−a′$ e $b−b′$ in figura 1.34, che definiscono esplicitamente le due porte, le quali sono poi collegate a due bipoli esterni. Il collegamento ai bipolo esterni assicura che la corrente $i_{1}$ entrante in $a$ sarà uguale a quella uscente in $a′$ mentre la corrente $i_{2}$ entrante in $b$ sarà uguale a quella uscente in $b′$.
+In queste condizioni, si dice che l’elemento a quattro terminali che si è venuto a formare in figura 1.34 (racchiuso con linea tratteggiata) si comporta, o può essere descritto, come un (modello) **doppio bipolo**.
 Si badi che il modello di doppio bipolo si differenzia da un dispositivo quadripolo generico: quest'ultimo infatti è in generale descritto da 3 tensioni e 3 correnti indipendenti, cioè da tre porte elettriche. Il modello doppio bipolo in figura invece è descritto da sole due correnti e due tensioni indipendenti, cioè da due porte. Il doppio bipolo che abbiamo derivato partendo dal tripolo (raddoppiandone un terminale) rappresenta un caso particolare di modello di tipo doppio bipolo e viene spesso indicato come <u>doppio bipolo tripolare</u>.
 
 Il caso più generale di modello doppio bipolo è invece quello mostrato di seguito, in cui le due porte non sono necessariamente collegate tra loro. Dal punto di vista della scrittura delle leggi di Kirchhoff il doppio bipolo è analogo (e quindi può essere ricondotto) a quello di due bipoli non necessariamente collegati tra di loro.
 ![[Elettrotecnica-1793190473261.webp|421]]
-#Figura(1.36). *Modello generico di doppio bipolo in cui le porte non sono collegate*
+#Figura(1.35). *Modello generico di doppio bipolo in cui le porte non sono collegate*
 
-Infine la figura 1.37 mette in evidenza come sia sempre possibile utilizzare il modello di doppio bipolo per descrivere un dispositivo tripolo:
+Infine la figura 1.36 mette in evidenza come sia sempre possibile utilizzare il modello di doppio bipolo per descrivere un dispositivo tripolo:
 ![[Elettrotecnica-1793190527710.webp|278]]
-#Figura(1.37). *l dispositivo tripolo si può ottenere dal modello doppio bipolo collegando i terminali di quest’ultimo in modo opportuno*
+#Figura(1.36). *l dispositivo tripolo si può ottenere dal modello doppio bipolo collegando i terminali di quest’ultimo in modo opportuno*
