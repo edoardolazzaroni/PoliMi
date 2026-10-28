@@ -406,3 +406,7 @@ Il caso più generale di modello doppio bipolo è invece quello mostrato di segu
 Infine la figura 1.36 mette in evidenza come sia sempre possibile utilizzare il modello di doppio bipolo per descrivere un dispositivo tripolo:
 ![[Elettrotecnica-1793190527710.webp|278]]
 #Figura(1.36). *l dispositivo tripolo si può ottenere dal modello doppio bipolo collegando i terminali di quest’ultimo in modo opportuno*
+
+
+#### #Esercizio(Tripoli/doppi bipoli) (1)
+
