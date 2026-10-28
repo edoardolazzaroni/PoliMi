@@ -555,7 +555,7 @@ ma <u>non è controllabile in corrente</u>.
 ## 2.3 **Generatore ideale di tensione**
 
 Il simbolo di questo bipolo elementare è mostrato in figura 2.9 dove accanto è riportato il parametro $E$, misurato in volt, che ne determina il legame costitutivo.
-![[Elettrotecnica-1793196885537.webp|166]]
+![[Elettrotecnica-1793196885537.webp|148]]
 #Figura(2.9).
 
 Questo infatti è dato da:
@@ -579,7 +579,7 @@ Quando il generatore di tensione viene spento (cioè $E= 0 \ V$) si comporta com
 ## 2.4 **Generatore ideale di corrente**
 
 Il simbolo del generatore di corrente è mostrato in figura 2.12 dove accanto al simbolo è riportato il parametro $I_{s}$, misurato in ampere, che ne determina il legame costitutivo.
-![[Elettrotecnica-1793197449301.webp|207]]
+![[Elettrotecnica-1793197449301.webp|177]]
 #Figura(2.12).
 
 Questo infatti è dato da:
@@ -591,8 +591,6 @@ Questo bipolo elementare è controllabile in tensione ma non in corrente. L’eq
 $$i= Is + v \cdot 0$$
 
 che chiaramente non può essere invertita in modo da esplicitare la tensione in funzione della corrente. Il caso limite $I_{s} \rightarrow 0$ è tale per cui la retta caratteristica del generatore ideale di corrente tende a coincidere con l’asse delle tensioni, che corrisponde al legame:
-$$i= 0 ∀v$$
+$$i= 0 \quad \forall v$$
 
-. Dunque, spegnendo un generatore di corrente (cioè Is = 0 A) si
-
-ottiente un circuito aperto come mostrato di fig. 1.8.
+Dunque, spegnendo un generatore di corrente (cioè $I_{s} = 0 A$) si ottiente un circuito aperto come mostrato di [[#2.2.2 **Caso $R rightarrow infty$ cioè $G rightarrow 0$**|figura 2.8]].
