@@ -681,7 +681,8 @@ e da essa determinare quella delle correnti nei resistori e della loro tensione,
 > per $k=1,2,3$, che viene detta **formula del partitore di tensione**.
 > 
 > È facile verificare che la trattazione mostrata per tre resistori si estende al caso generale in cui i resistori collegati nella maglia siano $N$.
-> Questo tipo di collegamento si dice di tipo serie in quanto i resistori sono attraversati dalla stessa corrente $i_{m}$ e le loro tensioni si sommano lungo la maglia. Nel caso generale si ottiene:
+> Questo tipo di collegamento si dice di tipo serie in quanto i resistori sono attraversati dalla stessa corrente $i_{m}$ e le loro tensioni si sommano lungo la maglia.
+> Nel caso generale si ottiene:
 > $$i_{m}=\frac{E}{\sum_{i=1}^N R_{i}}\quad (3.8)$$
 > e quindi:
 > $$v_{k}=E\frac{R_{k}}{\sum_{i=1}^N R_{i}}\quad (3.9)$$
@@ -729,8 +730,8 @@ e da essa determinare quella delle tensioni sui resistori e della loro corrente;
 > $$i_{k}=I_{s}\frac{G_{k}}{G_{1}+G_{2}+G_{3}}\quad (3.16)$$
 > 
 > per $k=1,2,3$, che viene detta **formula del partitore di corrente**.
-> E’ facile verificare che la trattazione mostrata per tre resistori si estende al caso generale in cui i resistori collegati ai nodi siano N.
-
-Questo tipo di collegamento si dice di tipo parallelo in quanto i re-
-
-sistori hanno ai loro capi la stessa tensione vAB ed inoltre le loro
+> 
+> E’ facile verificare che la trattazione mostrata per tre resistori si estende al caso generale in cui i resistori collegati ai nodi siano $N$.
+> Questo tipo di collegamento si dice di tipo parallelo in quanto i resistori hanno ai loro capi la stessa tensione $v_{AB}$ ed inoltre le loro correnti si sommano al nodo (o attraverso una superficie chiusa).
+> Nel caso generale si ottiene:
+> $$v_{AB}=$$
