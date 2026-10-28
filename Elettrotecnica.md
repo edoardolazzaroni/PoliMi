@@ -451,4 +451,7 @@ Si sceglie a caso un insieme di valori delle correnti $i_{1}, i_{2},\cdots, i_{6
 
 <u>Dimostrazione</u>:
 dopo aver scritto per esteso la sommatoria:
-$$v_{1}\cdot i_{1} + v_{2}\cdot i_{2} + v_{3}\cdot i_{3} + v_{4}\cdot i_{4} + v_{5}\cdot i_{5} + v i6$$
+$$v_{1}\cdot i_{1} + v_{2}\cdot i_{2} + v_{3}\cdot i_{3} + v_{4}\cdot i_{4} + v_{5}\cdot i_{5} + v_{6}\cdot i_{6}$$
+esprimiamo le tensioni sui vari elementi in funzione dei potenziali ai nodi. Per far questo dobbiamo prendere uno qualunque dei nodi come riferimento.
+Assumendo il nodo $A$ come riferimento si hanno i tre potenziali ai nodi:
+$$e_{B} = v_{BA} =−v_{1}, e_{c} = vCA =−v4, eD = vDA =−v6$$
