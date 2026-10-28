@@ -449,5 +449,6 @@ Si sceglie a caso un insieme di valori delle correnti $i_{1}, i_{2},\cdots, i_{6
 > E’ possibile mostrare che vale la seguente relazione detta **teorema di Tellegen**:
 > $$\sum_{k=1}^6v_{k}\cdot i_{k}=0$$
 
-Dimostrazione:
+<u>Dimostrazione</u>:
 dopo aver scritto per esteso la sommatoria:
+$$v_{1}\cdot i_{1} + v_{2}\cdot i_{2} + v_{3}\cdot i_{3} + v_{4}\cdot i_{4} + v_{5}\cdot i_{5} + v i6$$
