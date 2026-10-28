@@ -696,4 +696,6 @@ Applichiamo il metodo al circuito in esempio in figura:
 Si ottiene:
 $$i_{m}=\frac{24}{30+20+10}=0.4 \ A$$
 e quindi:
-$$v_{1}=0.4\cdot 30=12 \ V; \quad v_{2}=0.4\cdot 20=8 \ V; \quad v_{3}=0.4\cdot 30=12 \ V$$
+$$v_{1}=0.4\cdot 30=12 \ V; \quad v_{2}=0.4\cdot 20=8 \ V; \quad v_{3}=0.4\cdot 10=4 \ V$$
+
+Si noti che $v_{1}+v_{2}+v_{3}=12+8+4=24 \ V$, cioè il valore di tensione impresso dal generatore, come deve essere dalla KVL applicata alla maglia; inoltre i
