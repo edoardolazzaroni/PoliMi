@@ -364,7 +364,9 @@ $$v_{kj}= e_{k}−e_{j}.$$
 
 ## 1.5 **Dispositivi con più di due terminali e loro modelli**
 
-Un primo esempio di dispositivo con più di due terminali è il tripolo elettrico disegnato in figura 1.32. In questo caso, le grandezze elettriche che si possono misurare sono tre tensioni e tre correnti, tuttavia è facile verificare che solo un sottoinsieme di queste risultano tra di loro indipendenti. Infatti applicando la legge delle correnti ad una superficie chiusa che racchiude in se il tripolo, si ricava la relazione:
+Un primo esempio di dispositivo con più di due terminali è il tripolo elettrico disegnato in figura:
+
+In questo caso, le grandezze elettriche che si possono misurare sono tre tensioni e tre correnti, tuttavia è facile verificare che solo un sottoinsieme di queste risultano tra di loro indipendenti. Infatti applicando la legge delle correnti ad una superficie chiusa che racchiude in se il tripolo, si ricava la relazione:
 $$i_{1} + i_{2} + i_{3} = 0 \rightarrow i_{3} =−i_{1}−i_{2}$$
 
 mentre dalla legge delle tensioni lungo un cammino chiuso che tocca i tre terminali, si ha:
@@ -382,4 +384,3 @@ Nella parte (destra) delle figure 1.32 e 1.33 viene mostrata la seguente proprit
 
 Generalizzando, si ha che **un dipositivo con $N$ terminali (cioè un $N$-polo), al fine delle leggi di Kirchhoff, può essere ricondotto al caso di un insieme di $N−1$ bipoli collegati tra loro nel nodo scelto come riferimento**.
 Ogni coppia di terminali formata da un nodo ed il nodo di riferimento identifica una porta elettrica o lato in quanto, al pari di un bipolo, è descritta dall’informazione composta da una tensione ed una corrente.
-llaa
