@@ -605,15 +605,10 @@ Dunque, spegnendo un generatore di corrente (cioè $I_{s} = 0 A$) si ottiente un
 
 Durante l’analisi di circuiti, la convenzione di misura adottata sui singoli bipoli può indurre a qualche dubbio/perplessità. Per questo motivo, riesaminiamo qui il ruolo della convenzione adottata per i vari tipi di bipolo.
 
-Nel caso di un resistore, si è visto che misurando $v$ ed $i$ con la convenzione degli utilizzatori, come in figura 1.3, il legame costitutivo è
+Nel caso di un resistore, si è visto che misurando $v$ ed $i$ con la convenzione degli utilizzatori, come in [[#2.2 **Il bipolo resistore**|figura 2.3]], il legame costitutivo è:
+$$v = R \cdot i$$
 
-v = R· i.
-
-Invertiamo ora il segno della misura di corrente, cioè usiamo come
-
-variabile alla porta la corrente i′
-
-=−i, come mostrato in fig.1.15.
+Invertiamo ora il segno della misura di corrente, cioè usiamo come variabile alla porta la corrente $i′=−i$, come mostrato in figura 2.15:
 
 Dalla 1.1, otteniamo
 
