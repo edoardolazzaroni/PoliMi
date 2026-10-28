@@ -492,7 +492,7 @@ Per ogni configurazione della rete $N_{k}$ misuriamo i valori della corrente e t
 ## 2.2 **Il bipolo resistore**
 
 Il simbolo che rappresenta un resistore è mostrato in figura 2.3 dove è riportato il verso della tensione e della corrente, misurate con la <u>convenzione degli utilizzatori</u> ed il parametro $R$ detto **resistenza**.
-![[Elettrotecnica-1793196179401.webp|198]]
+![[Elettrotecnica-1793196179401.webp|172]]
 #Figura(2.3).
 
 Il suo legame costitutivo o equazione caratteristica è dato da:
@@ -500,7 +500,8 @@ $$v = R \ i \quad (2.1)$$
 
 Dunque l’equazione caratteristica è un legame di proporzionalità diretta attraverso il parametro resistenza, questa si misura in ohm $[Ω]$.
 La figura 2.4 illustra la curva caratteristica nel piano $i-v$ che è una retta passante per l’origine degli assi avente pendenza $R$.
-
+![[Elettrotecnica-1793196208464.webp|292]]
+#Figura(2.4).
 
 Nella forma $(2.1)$ la variabile tensione è una funzione della corrente, <mark class="hltr-yellow">il resistore si dice controllabile in corrente</mark>.
 Nel caso in cui $R \ne 0$ è anche possibile invertire la $(2.1)$ riscrivendola:
@@ -514,3 +515,4 @@ a cui spesso facciamo riferimento nella Teoria.
 Infine, è istruttivo considerare i casi limite in cui $R \rightarrow 0$ e $G \rightarrow 0$ (cioè $R \rightarrow \infty$).
 
 
+### 2.1.1 **Caso $R \$**
