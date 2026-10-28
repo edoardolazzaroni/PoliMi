@@ -573,3 +573,8 @@ $$v = 0 \quad \forall i$$
 #Figura(2.11).
 
 Quando il generatore di tensione viene spento (cioè $E= 0 \ V$) si comporta come il corto circuito di [[#2.2.1 **Caso $R rightarrow 0$**|figura 2.6]].
+
+
+
+## 2.4 **Generatore ideale di corrente**
+
