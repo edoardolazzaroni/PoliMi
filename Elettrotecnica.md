@@ -660,16 +660,12 @@ Il valore di dette incognite si ottiene imponendo la validità delle leggi di Ki
 ![[Elettrotecnica-1793199284734.webp|294]]
 #Figura(3.1).
 
-- Applicando la legge di Kirchhoff delle correnti ai nodi del circuito, cioè nei punti di collegamento dei bipoli, si ha:
-	$$i_{m} = i_{1} = i_{2} = i_{3} \quad (3.1)$$
+- Applicando la legge di Kirchhoff delle correnti ai nodi del circuito, cioè nei punti di collegamento dei bipoli, si ha:$$i_{m} = i_{1} = i_{2} = i_{3} \quad (3.1)$$
+- Si scrivono i legami costitutivi:$$v_{1} = R_{1} i_{1}\\v_2 = R_{2} i_{2}\\v_{3} = R_{3} i_{3}\\v_{4} = E$$$$(3.2)$$
+- Si scrive la laegge di Kirchoff delle tensioni per la maglia:$$v_{4}=v_{1}+v_{2}+v_{3}\quad (3.3)$$
 
-- Si scrivono i legami costitutivi:
-	$$v_{1} = R_{1} i_{1}\\v_2 = R_{2} i_{2}\\v_{3} = R_{3} i_{3}\\v_{4} = E$$$$(3.2)$$
-
-- Si scrive la laegge di Kirchoff delle tensioni per la maglia:
-	$$v_{4}=v_{1}+v_{2}+v_{3}\quad (3.3)$$
-
-Il procedemento risolutivo consiste nell’organizzare opportunamente le equazioni di sopra in accordo coi seguenti passaggi logici:
+Il procedimento risolutivo consiste nell’organizzare opportunamente le equazioni di sopra in accordo coi seguenti passaggi logici:
 
 1. Si assume $i_{m}$, la corrente che scorre nella maglia, come incognita del problema in quanto dalla sua conoscenza e dalla $(3.1)$ si possono facilmente dedurre i valori di tutte le altre correnti del circuito;
-2. Si sostituisce $i_{m}$
+2. Si sostituisce $i_{m}$ nelle $(3.2)$ ottenendo:$$v_{1}=R_{1}i_{m}\\$$
+3. 
