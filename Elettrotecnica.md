@@ -608,7 +608,9 @@ Durante l’analisi di circuiti, la convenzione di misura adottata sui singoli b
 Nel caso di un resistore, si è visto che misurando $v$ ed $i$ con la convenzione degli utilizzatori, come in [[#2.2 **Il bipolo resistore**|figura 2.3]], il legame costitutivo è:
 $$v = R \cdot i$$
 
-Invertiamo ora il segno della misura di corrente, cioè usiamo come variabile alla porta la corrente $i′=−i$, come mostrato in figura 2.15:
+Invertiamo ora il segno della misura di corrente, cioè usiamo come variabile alla porta la corrente $i′=−i$, come mostrato in figura:
+![[Elettrotecnica-1793197858615.webp|114]]
+#Figura (2.15)
 
 Dalla 1.1, otteniamo
 
