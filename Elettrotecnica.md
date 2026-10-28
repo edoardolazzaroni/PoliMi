@@ -610,18 +610,11 @@ $$v = R \cdot i$$
 
 Invertiamo ora il segno della misura di corrente, cioè usiamo come variabile alla porta la corrente $i′=−i$, come mostrato in figura:
 ![[Elettrotecnica-1793197858615.webp|114]]
-#Figura (2.15)
+#Figura(2.15). *Convenzione dei generatori in un resistore*
 
-Dalla 1.1, otteniamo
+Dalla $(2.1)$, otteniamo:
+$$v =−R \ i′ \quad (1.5)$$
 
-v =−R i′ (1.5)
-
-Dunque, se adottiamo la convenzione dei generatori nel legame
-
-costitutivo del resistore compare un segno meno. Per questo: co-
-
-munemente per i bipoli di tipo resistore è naturale assumere la
-
-convenzione di misura degli utilizzatori in modo che valga la (1.1)
+Dunque, se adottiamo la convenzione dei generatori nel legame costitutivo del resistore compare un segno meno. Per questo comunemente per i bipoli di tipo resistore è naturale assumere la convenzione di misura degli utilizzatori in modo che valga la $(2.1)$
 
 col segno positivo.
