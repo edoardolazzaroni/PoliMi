@@ -528,7 +528,7 @@ e si dice che il resistore si comporta come un **corto circuito**, ovvero <u>ai 
 ![[Elettrotecnica-1793196429703.webp|154]]
 #Figura(2.6).
 
-Attenzione! Il bipolo corto circuito è controllabile in corrente infatti la tensione si può scrivere come una funzione della corrente:
+**Attenzione!** Il bipolo corto circuito è controllabile in corrente infatti la tensione si può scrivere come una funzione della corrente:
 $$v = 0 \cdot i$$
 ma <u>non è controllabile in tensione</u>.
 
@@ -543,4 +543,10 @@ Dalla $(2.2)$, si ottiene:
 $$i= 0 \quad \forall v$$
 
 e si dice che il resistore si comporta come un **circuito aperto** ovvero <u>la corrente che lo attraversa è nulla qualunque sia la tensione ai sui capi</u>. Il simbolo del circuito aperto è mostrato in figura:
+![[Elettrotecnica-1793196661487.webp|126]]
+#Figura(2.8).
+
+**Attenzione!** Il bipolo circuito aperto è controllabile in tensione potendo scrivere la sua corrente come una funzione della tensione:
+$$i= 0 \cdot v$$
+ma <u>non è controllabile in corrente</u>.
 
