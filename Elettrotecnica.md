@@ -718,8 +718,5 @@ Le leggi/equazioni che governano i due circuiti sono le stesse come di seguito r
 - Si scrive la legge di Kirchhoff delle correnti al nodo $A$ per il circuito in figura (sinistra) o equivalentemente alla superficie chiusa tratteggiata in rosso nel circuito in figura (destra):$$i_{4}=i_{1}+i_{2}+i_{3}\quad (3.12)$$
 Il procedimento risolutivo segue i seguenti passaggi logici:
 
-1. Si assume $v_{AB}$, cioè la tensione misurata ai nodi, come incognita del problema in quanto dalla sua conoscenza e dalla (1.10) si
-
-possono facilmente dedurre i valori di tutte le altre tensioni del
-
-circuito.
+1. Si assume $v_{AB}$, cioè la tensione misurata ai nodi, come incognita del problema in quanto dalla sua conoscenza e dalla $(3.10)$ si possono facilmente dedurre i valori di tutte le altre tensioni del circuito;
+2. Si sostituisce $v_{AB}$ nelle $(3.11)$ ottenendo:$$i_{1}=G_{1}v_{AB}\\i_{2}=G_{2}v_{AB}\\$$
