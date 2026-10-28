@@ -436,3 +436,19 @@ Infine la figura 1.36 mette in evidenza come sia sempre possibile utilizzare il 
 > Determinate i valori di $i_{2}, i_{3}$, e di $I_{x}$ e $I_{y}$.
 
 
+
+## 1.6 **Il teorema di Tellegen**
+
+Torniamo a considerare il generico circuito elettrico prendendo come esempio quello mostrato in figura 1.37. Notate che ogni "scatola" (elemento) che lo forma può rappresentare il modello di un bipolo oppure una porta di un $N$-polo o doppio bipolo. Si assume di coordinare le misure di corrente e tensione su ogni elemento con la stessa
+
+convenzione, per esempio quella degli utilizzatori.
+
+Si sceglie a caso un insieme di valori delle correnti i1, i2, . . . , i6 col
+
+solo vincolo che questi soddisfino le KCL e quindi si sceglie a caso
+
+un insieme di valori delle tensioni v1, v2, . . . , v6 purché soddisfino
+
+le KVL. E’ possibile mostrare che vale la seguente relazione detta
+
+teorema di Tellegen:
