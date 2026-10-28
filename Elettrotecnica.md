@@ -379,7 +379,7 @@ Si conclude che <mark class="hltr-yellow">in un tripolo solo due correnti e due 
 E’ facile verificare che questa proprietà si estende facilmente al caso di un generico $N$-polo, cioè di un dispositivo con $N$ terminali. Nel caso generale, l’$N$-polo ha $N−1$ correnti e $N−1$ tensioni indipendenti.
 Il procedimento che si adotta per determinare il sottoinsieme di tensioni e correnti da utilizzare come variabili descrittive è quello di scegliere arbitrariamente un terminale come riferimento comune e quindi di scegliere le correnti entranti agli $N−1$ nodi rimanenti e le $N−1$ tensioni misurate tra gli $N−1$ nodi e il riferimento.
 ![[Elettrotecnica-1793189797821.webp|379]]
-#Figura(1.33). (Sinistra) possibile scelta delle due tensioni e correnti che descrivono un
+#Figura(1.33). *(<u>Sinistra</u>) possibile scelta delle due tensioni e correnti che descrivono un tripolo: si assume come nodo comune di riferimento il numero $3$; (<u>Destra</u>) analogia con il caso di due bipoli*
 
 Come esempio, la figura 1.33 mostra per un tripolo il caso in cui come riferimento si è assunto il nodo $3$ e quindi le due tensioni indipendenti risultano $v_{13}$ e $v_{23}$. Con questa scelta, come correnti indipendenti si assumeranno quelle entranti in tutti i nodi tranne quello di riferimento, ovvero nel caso specifico $i_{1}$ e $i_{2}$.
 La figura 1.33 mostra un secondo esempio nel quale il riferimento viene assunto nel nodo $2$.
