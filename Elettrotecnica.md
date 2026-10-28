@@ -698,4 +698,12 @@ $$i_{m}=\frac{24}{30+20+10}=0.4 \ A$$
 e quindi:
 $$v_{1}=0.4\cdot 30=12 \ V; \quad v_{2}=0.4\cdot 20=8 \ V; \quad v_{3}=0.4\cdot 10=4 \ V$$
 
-Si noti che $v_{1}+v_{2}+v_{3}=12+8+4=24 \ V$, cioè il valore di tensione impresso dal generatore, come deve essere dalla KVL applicata alla maglia; inoltre i
+Si noti che $v_{1}+v_{2}+v_{3}=12+8+4=24 \ V$, cioè il valore di tensione impresso dal generatore, come deve essere dalla KVL applicata alla maglia; inoltre il valore $24 \ V$ si ripartisce tra i resistori in modo proporzionale alle resistenze.
+
+
+
+## 3.2 **Circuito parallelo**
+
+Nel secondo esempio analizziamo il circuito descritto in figura 3.3 (Sinistra) dove tre resistori ed un generatore ideale di corrente sono collegati ai medesimi nodi $A, B$. Questo circuito viene talvolta chiamato
+
+"binodale". Nella implementazione pratica questo circuito viene
