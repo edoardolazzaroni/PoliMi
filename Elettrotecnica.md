@@ -515,4 +515,7 @@ a cui spesso facciamo riferimento nella Teoria.
 Infine, è istruttivo considerare i casi limite in cui $R \rightarrow 0$ e $G \rightarrow 0$ (cioè $R \rightarrow \infty$).
 
 
-### 2.1.1 **Caso $R \$**
+### 2.2.1 **Caso $R \rightarrow 0$**
+
+La retta caratteristica riduce progressivamente la sua pendenza fino, al limite, ad adagiarsi sull’asse della corrente come mostrato in figura:
+
