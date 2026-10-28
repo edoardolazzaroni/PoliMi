@@ -704,6 +704,5 @@ Si noti che $v_{1}+v_{2}+v_{3}=12+8+4=24 \ V$, cioè il valore di tensione impre
 
 ## 3.2 **Circuito parallelo**
 
-Nel secondo esempio analizziamo il circuito descritto in figura 3.3 (Sinistra) dove tre resistori ed un generatore ideale di corrente sono collegati ai medesimi nodi $A, B$. Questo circuito viene talvolta chiamato
-
-"binodale". Nella implementazione pratica questo circuito viene
+Nel secondo esempio analizziamo il circuito descritto in figura 3.3 (Sinistra) dove tre resistori ed un generatore ideale di corrente sono collegati ai medesimi nodi $A, B$: questo circuito viene talvolta chiamato "binodale".
+Nella implementazione pratica questo circuito viene spesso realizzato sostituendo i due nodi con due conduttori (considerati ideali e modellabili come corto circuito) come mostrato in figura 3.3 (Destra).
