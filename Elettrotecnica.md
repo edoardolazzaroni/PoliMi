@@ -587,10 +587,12 @@ $$i= I_{s} \quad (1.4)$$
 
 Dunque, in questo caso, l’equazione caratteristica semplicemente impone il valore di corrente che scorre attraverso il generatore indipendentemente dal valore della tensione ai suoi capi. La figura 2.13 mostra come la curva caratteristica del generatore ideale di corrente sia una retta parallela all’asse delle tensioni.
 
-Questo bipolo elementare è controllabile in tensione ma non in
+Questo bipolo elementare è controllabile in tensione ma non in corrente. L’equazione $(2.4)$ può infatti pensarsi riscritta in modo tale che la corrente sia una funzione della tensione:
+$$i= Is + v \cdot 0$$
 
-corrente. L’equazione (1.4) può infatti pensarsi riscritta in modo tale
+che chiaramente non può essere invertita in modo da esplicitare la tensione in funzione della corrente. Il caso limite $I_{s} \rightarrow 0$ è tale per cui la retta caratteristica del generatore ideale di corrente tende a coincidere con l’asse delle tensioni, che corrisponde al legame:
+$$i= 0 ∀v$$
 
-che la corrente sia una funzione della tensione:
+. Dunque, spegnendo un generatore di corrente (cioè Is = 0 A) si
 
-i= Is + v · 0
+ottiente un circuito aperto come mostrato di fig. 1.8.
