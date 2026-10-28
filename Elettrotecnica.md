@@ -570,4 +570,5 @@ $$v = E + i \cdot 0$$
 che non si può invertire per esplicitare la corrente in funzione della tensione. Il caso limite $E \rightarrow 0$ è tale per cui la retta caratteristica del generatore ideale di tensione tende a coincidere con l’asse delle correnti, che corrisponde al legame:
 $$v = 0 \quad \forall i$$
 
-Quando il generatore di tensione viene spento (cioè $E= 0 \ V$) si comporta come il corto circuito di figura 2.6.
+Quando il generatore di tensione viene spento (cioè $E= 0 \ V$) si comporta come il corto circuito di [[#2.2.1 **Caso $R rightarrow 0$**]].
+
