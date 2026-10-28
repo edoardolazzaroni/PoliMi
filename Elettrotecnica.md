@@ -655,3 +655,12 @@ Vedremo anche come l’uso di modelli ideali di generatore può, in certe condiz
 
 ## 3.1 **Circuito serie**
 
+Iniziamo con lo svolgere l’analisi del circuito elementare mostrato in figura, composta da una singola maglia di resistori alimentati da un generatore ideale di tensione. Con il termine "analisi del circuito" intendiamo che, assegnato il modo in cui i componenti sono collegati tra di loro ed i loro legami costitutivi, vogliamo determinare tutte le correnti e le tensioni del circuito. Tuttavia, nella pratica risolutiva si cerca di individuare un sottoinsieme il più possibile ristretto di
+
+correnti o di tensioni che si assumono come incognite del problema.
+
+Il valore di dette incognite si ottiene imponendo la validità delle leggi
+
+di Kirchhoff e delle equazioni caratteristiche di ciascun elemento. Per
+
+prima cosa elenchiamo dette leggi/equazioni per il circuito in fig. 1.1.
