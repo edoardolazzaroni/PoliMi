@@ -259,7 +259,7 @@ e dunque che <mark class="hltr-yellow">ai capi di un bipolo esiste solo una tens
 
 Quindi, un dispositivo elettrico con due morsetti è descritto completamente da una corrente ed una tensione; si dice anche che i due morsetti con le relative grandezze formano una **porta elettrica** o anche un **lato**.
 
-Poiché un bipolo è descritto da due grandezze e dalle rispettive convenzioni di misura nasce spontanea l’idea di coordinare tra di loro tali convenzioni di misura.La figura 1.25 mostra un primo modo di abbinare le due misure prendendo il verso di misura della corrente entrante dal morsetto verso cui è rivolta la freccia che descrive l’orientazione della misura di tensione. Questa modalità viene riferita come **convenzione degli utilizzatori**.
+Poiché un bipolo è descritto da due grandezze e dalle rispettive convenzioni di misura nasce spontanea l’idea di coordinare tra di loro tali convenzioni di misura. La figura 1.25 mostra un primo modo di abbinare le due misure prendendo il verso di misura della corrente entrante dal morsetto verso cui è rivolta la freccia che descrive l’orientazione della misura di tensione. Questa modalità viene riferita come **convenzione degli utilizzatori**.
 ![[Elettrotecnica-1793031950798.webp|200]]
 #Figura(1.25). *Convenzione degli utilizzatori*
 
@@ -272,7 +272,7 @@ La figure 1.26 invece mostra un modo alternativo di coordinare le misure prenden
 
 ## 1.4 **Le leggi di Kirchoff**
 
-Siamo ora in grado di tornare al circuito completo mostrato in [[#1.3 **Il circuito elettrico**|figura 1.20]]: ogni bipolo è descritto elettricamente da una tensione e da una corrente che supponiamo misurate con la convenzione degli utilizzatori. Rivediamo la legge delle correnti ambientandola sul circuito. Per questo consideriamo, per prima, la superficie chiusa $\sigma_{1}$ indicata in figura 1.28 che orientiamo dall’interno verso l’esterno.
+Siamo ora in grado di tornare al circuito completo mostrato in [[#1.3 **Il circuito elettrico**|figura 1.20]]: ogni bipolo è descritto elettricamente da una tensione e da una corrente che supponiamo misurate con la convenzione degli utilizzatori. Rivediamo la legge delle correnti ambientandola sul circuito. Per questo consideriamo, per prima, la superficie chiusa $\sigma_{1}$ indicata in figura 1.27 che orientiamo dall’interno verso l’esterno.
 ![[Elettrotecnica-1793032550236.webp|294]]
 #Figura(1.27). *Le linee tratteggiate rosse e blu mostrano la traccia sul foglio delle due superfici chiuse $\sigma_{1}$ e $\sigma_{2}$. La KCL bilancia le correnti che attraversano tali superfici*
 
@@ -306,7 +306,7 @@ $$i_{3} = i_{5} + i_{6}$$
 e pensare nei termini: la somma delle correnti entranti al nodo è pari alla somma delle correnti ivi uscenti.
 
 
-Passiamo ora alle tensioni facendo riferimento alla figura 1.29 che mostra le relative misure sui vari bipoli. Ci focalizziamo sulla linea chiusa $\gamma_{1}$ tratteggiata in rosso, che supponiamo orientata in senso orario. Essa descrive un percorso chiuso tra i nodi $B →A →D →C →B$.
+Passiamo ora alle tensioni facendo riferimento alla figura 1.28 che mostra le relative misure sui vari bipoli. Ci focalizziamo sulla linea chiusa $\gamma_{1}$ tratteggiata in rosso, che supponiamo orientata in senso orario. Essa descrive un percorso chiuso tra i nodi $B →A →D →C →B$.
 ![[Elettrotecnica-1793032824107.webp|295]]
 #Figura(1.28). *Cammini chiusi $\gamma_{1}$ e $\gamma_{2}$ lungo cui si bilanciano le tensioni*
 
@@ -329,7 +329,7 @@ $$v_{2}−v_{3}−v_{5} = 0$$
 
 La validità della legge di Kirchhoff delle tensioni ha come conseguenza che la tensione elettrica misurata tra due nodi qualunque di un circuito elettrico è sempre la stessa indipendentemente dal percorso lungo cui avviene la misura. Questo ci permette di introdurre il concetto di **tensione di nodo** o **potenziale** di nodo.
 
-Allo scopo, si assuma in modo arbitrario un nodo del circuito come nodo di riferimento, per esempio in figura 1.30 il riferimento sia il nodo $A$, e si misurino le tensioni degli altri nodi rispetto al nodo di riferimento.
+Allo scopo, si assuma in modo arbitrario un nodo del circuito come nodo di riferimento, per esempio in figura 1.29 il riferimento sia il nodo $A$, e si misurino le tensioni degli altri nodi rispetto al nodo di riferimento.
 ![[Elettrotecnica-1793033245095.webp|297]]
 #Figura(1.29).
 
@@ -465,3 +465,42 @@ Valendo la KCL, questi termini sono nulli portando alla $(1.4)$.
 
 Si può riassumere a parole: scelto per ogni elemento (bipolo o porta) di un circuito tensione e corrente, con la stessa convenzione di misura, nella sola ipotesi che tali variabili soddisfino alle KVL e KCL la sommatoria dei prodotti $v_{k}\cdot i_{k}$ estesa a tutti gli elementi vale zero.
 Il prodotto $v_{k}\cdot i_{k}$ è detto **potenza virtuale**.
+
+
+
+
+# **Capitolo II: Legame costitutivo**
+
+
+## 2.1 **Il principio di identità del bipolo**
+
+Immaginiamo di eseguire un esperimento in cui un dato bipolo $B$ che vogliamo studiare sia collegato ad una rete esterna che possiamo variare. Questa è indicata come $N_{k}$ (come "network" $k$-esima), dove il pedice $k$ indicizza una certa configurazione della rete.
+Per ogni configurazione della rete $N_{k}$ misuriamo i valori della cor-
+
+rente e tensione capi di B. Dette coppie di valori (ik, vk), riportate
+
+nel piano i-v definiscono una curva ben precisa. Indipendentemente
+
+da ciò che è collegato esternamente a B, ogni qualvolta la corrente
+
+¯
+
+assume un dato valore (es.
+
+i) la tensione assume il valore corrispon-
+
+dente (es. ¯
+
+v) individuato sulla curva. Si può affermare che: In un
+
+bipolo, mantenuto in condizioni operative normali, tra la tensione
+
+e corrente misurate ai sui capi esiste una relazione che non dipende
+
+da ciò che ad esso è collegato, ma dipende esclusivamente dalla sua
+
+natura. Questo legame si può esprimere da un’equazione, che nella
+
+sua forma implicita denotiamo con f (v, i) = 0, detta equazione
+
+caratteristica o legame costitutivo.
