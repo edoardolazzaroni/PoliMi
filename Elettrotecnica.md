@@ -757,7 +757,9 @@ $$i_{1}=6\cdot \frac{1}{1}=6 \ A;\quad i_{2}=6\cdot \frac{1}{2}=3 \ A;\quad i_{3
 Si noti che $i_{1}+i_{2}+i_{3}=11 \ A$, cioè il valore di corrente imposto dal generatore, come deve essere dalla KCL, inoltre il valore $11 \ A$ si ripartisce tra i resistori in modo proporzionale alle conduttanze e quindi inversamente proporzionale ai valori delle resistenze.
 
 #Esempio Analizziamo il circuito in figura:
-![[Elettrotecnica-1793202913169.webp|362]]
-#Figura(3.5). Circuito parallelo con due resisto
+![[Elettrotecnica-1793202913169.webp|285]]
+#Figura(3.5). *Circuito parallelo con due resistori*
 
-In questo caso risulta
+In questo caso risulta:
+$$i_{1}=1\cdot \frac{10}{11}\approx 0.91 \ A;\quad i_{2}=\cdot \frac{1}{11}\approx 0.09 \ A$$
+cioè la corrente im
