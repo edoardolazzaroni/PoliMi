@@ -637,11 +637,8 @@ $$v = R \cdot i$$
 dove:
 $$R=\rho \ \frac{L}{S} \quad(1.6)$$
 
-La resistenza del filo è determinato dal parametro $\rho$, chiamato **resistività**, che dipende dal tipo di materiale che forma il filo e dai fattori
-
-geometrici L ed S. Per esempio, un filo di rame, la cui resistività è
-
-circa ρcu = 1.69 · 10−8Ω m, di sezione pari a 1mm2 = 10−6m2 e di
+La resistenza del filo è determinato dal parametro $\rho$, chiamato **resistività**, che dipende dal tipo di materiale che forma il filo e dai fattori geometrici $L$ ed $S$.
+Per esempio, un filo di rame, la cui resistività è circa $\rho_{cu} = 1.69 \cdot 10^{-8}\Omega \ m$, di sezione pari a $1 \ mm^2 = 10^{−6} \ m^2$ e di
 
 lunghezza pari a L= 10m ha una resistenza di:
 
