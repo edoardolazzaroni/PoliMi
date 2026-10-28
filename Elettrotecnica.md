@@ -533,4 +533,11 @@ $$v = 0 \cdot i$$
 ma <u>non è controllabile in tensione</u>.
 
 
-### 2.2.2 **Caso $R \rightarrow \infty$**
+### 2.2.2 **Caso $R \rightarrow \infty$ cioè $G \rightarrow 0$**
+
+In questo caso la retta caratteristica aumenta progressivamente la sua pendenza fino ad adagiarsi sull’asse della tensione come mostrato in figura. Dalla $(2.2)$, si ottiene:
+$$i= 0 \quad \forall v$$
+
+e si dice che il resistore si comporta come un **circuito aperto** ovvero la corrente che lo attraversa è nulla qualunque sia la tensione ai sui
+
+capi. Il simbolo del circuito aperto è mostrato in fig. 1.8.
