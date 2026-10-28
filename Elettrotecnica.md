@@ -657,3 +657,10 @@ Vedremo anche come l’uso di modelli ideali di generatore può, in certe condiz
 
 Iniziamo con lo svolgere l’analisi del circuito elementare mostrato in figura, composta da una singola maglia di resistori alimentati da un generatore ideale di tensione. Con il termine "**analisi del circuito**" intendiamo che, assegnato il modo in cui i componenti sono collegati tra di loro ed i loro legami costitutivi, vogliamo determinare tutte le correnti e le tensioni del circuito. Tuttavia, nella pratica risolutiva si cerca di individuare un sottoinsieme il più possibile ristretto di correnti o di tensioni che si assumono come incognite del problema.
 Il valore di dette incognite si ottiene imponendo la validità delle leggi di Kirchhoff e delle equazioni caratteristiche di ciascun elemento; per prima cosa elenchiamo dette leggi/equazioni per il circuito in figura 3.1:
+![[Elettrotecnica-1793199284734.webp|294]]
+#Figura(3.1).
+
+- Applicando la legge di Kirchhoff delle correnti ai nodi del circuito, cioè nei punti di collegamento dei bipoli, si ha:
+	$$i_{m} = i_{1} = i_{2} = i_{3} \quad (3.1)$$
+
+- 
