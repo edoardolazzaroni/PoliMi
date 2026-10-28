@@ -561,4 +561,8 @@ Il simbolo di questo bipolo elementare è mostrato in figura 2.9 dove accanto è
 Questo infatti è dato da:
 $$v = E \quad (1.3)$$
 Dunque l’equazione caratteristica semplicemente impone il valore di tensione ai capi del generatore indipendentemente dal valore della corrente che lo attraversa. La figura 2.10 mostra come la curva caratteristica del generatore ideale di tensione sia una retta parallela all’asse delle correnti.
-![[Elettrotecnica-1793196907136.webp]]
+![[Elettrotecnica-1793196907136.webp|218]]
+#Figura(2.10).
+
+Ne consegue che questo bipolo <u>è controllabile in corrente ma non in tensione</u>. L’equazione $(2.3)$ può infatti pensarsi scritta in modo che la tensione sia una funzione della corrente nel modo seguente:
+$$v = E + i \cdot 0$$
