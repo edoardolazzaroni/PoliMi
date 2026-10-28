@@ -599,3 +599,32 @@ $$i= 0 \quad \forall v$$
 
 Dunque, spegnendo un generatore di corrente (cioè $I_{s} = 0 A$) si ottiente un circuito aperto come mostrato di [[#2.2.2 **Caso $R rightarrow infty$ cioè $G rightarrow 0$**|figura 2.8]].
 
+
+
+## 2.5 **Osservazione sulle convenzioni di misura $V-I$**
+
+Durante l’analisi di circuiti, la convenzione di misura adottata sui singoli bipoli può indurre a qualche dubbio/perplessità. Per questo motivo, riesaminiamo qui il ruolo della convenzione adottata per i vari tipi di bipolo.
+
+Nel caso di un resistore, si è visto che misurando $v$ ed $i$ con la convenzione degli utilizzatori, come in figura 1.3, il legame costitutivo è
+
+v = R· i.
+
+Invertiamo ora il segno della misura di corrente, cioè usiamo come
+
+variabile alla porta la corrente i′
+
+=−i, come mostrato in fig.1.15.
+
+Dalla 1.1, otteniamo
+
+v =−R i′ (1.5)
+
+Dunque, se adottiamo la convenzione dei generatori nel legame
+
+costitutivo del resistore compare un segno meno. Per questo: co-
+
+munemente per i bipoli di tipo resistore è naturale assumere la
+
+convenzione di misura degli utilizzatori in modo che valga la (1.1)
+
+col segno positivo.
