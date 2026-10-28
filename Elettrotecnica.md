@@ -671,4 +671,5 @@ Il valore di dette incognite si ottiene imponendo la validità delle leggi di Ki
 
 Il procedemento risolutivo consiste nell’organizzare opportunamente le equazioni di sopra in accordo coi seguenti passaggi logici:
 
-1. Si assume $i_{m}$, la corrente che scorre nella ma
+1. Si assume $i_{m}$, la corrente che scorre nella maglia, come incognita del problema in quanto dalla sua conoscenza e dalla $(3.1)$ si possono facilmente dedurre i valori di tutte le altre correnti del circuito;
+2. Si sostituisce $i_{m}$
