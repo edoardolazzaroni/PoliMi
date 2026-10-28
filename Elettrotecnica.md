@@ -567,7 +567,7 @@ Dunque l’equazione caratteristica semplicemente impone il valore di tensione a
 Ne consegue che questo bipolo <u>è controllabile in corrente ma non in tensione</u>. L’equazione $(2.3)$ può infatti pensarsi scritta in modo che la tensione sia una funzione della corrente nel modo seguente:
 $$v = E + i \cdot 0$$
 
-che non si può invertire per esplicitare la corrente in funzione della tensione. Il caso limite $E \rightarrow 0$ è tale per cui la retta caratteristica del generatore ideale di tensione tende a coincidere con l’asse delle correnti (vedi figura 1.11) che corrisponde al legame
+che non si può invertire per esplicitare la corrente in funzione della tensione. Il caso limite $E \rightarrow 0$ è tale per cui la retta caratteristica del generatore ideale di tensione tende a coincidere con l’asse delle correnti (vedi [[figura 1.11]]) che corrisponde al legame
 
 v = 0 ∀i.
 
