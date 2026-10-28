@@ -447,7 +447,7 @@ Si sceglie a caso un insieme di valori delle correnti $i_{1}, i_{2},\cdots, i_{6
 
 > [!important] Definizione
 > E’ possibile mostrare che vale la seguente relazione detta **teorema di Tellegen**:
-> $$\sum_{k=1}^6v_{k}\cdot i_{k}=0$$
+> $$\sum_{k=1}^6v_{k}\cdot i_{k}=0\quad (1.4)$$
 
 <u>Dimostrazione</u>:
 dopo aver scritto per esteso la sommatoria:
@@ -459,3 +459,16 @@ La sommatoria si può scrivere:
 $$−e_{B}\cdot i_{1} + (e_{C}-e_{B})\cdot i_{2} + (e_{D}−e_{B})\cdot i_{3}−e_{C}\cdot i_{4} + (e_{C}−e_{D})\cdot i_{5}−e_{D}\cdot i_{6}$$
 e quindi riordinare in modo da raccogliere i termini che contengono lo stesso potenziale ai nodi:
 $$e_{B}\cdot (−i_{1}−i_{2}−i_{3}) + e_{C}\cdot (i_{2}−i_{4} + i_{5}) + e_{D}\cdot (−i_{6}−i_{5} + i_{3})$$
+
+E’ facile realizzare che ogni termine nell’ultima formulazione è dato dal prodotto del potenziale di nodo (per esempio $e_{B}$) moltiplicato per la sommatoria delle correnti uscenti dal medesimo nodo (per esempio $−i_{1}−i_{2}−i_{3}$).
+Valendo la KCL, questi termini sono nulli portando alla (1.4).
+
+Si può riassumere a parole: Scelto per ogni elemento (bipolo o porta)
+
+di un circuito tensione e corrente, con la stessa convenzione di misura, nella
+
+sola ipotesi che tali variabili soddisfino alle KVL e KCL la sommatoria dei
+
+prodotti vk · ik estesa a tutti gli elementi vale zero. Il prodotto vk· ik è
+
+detto potenza virtuale.
