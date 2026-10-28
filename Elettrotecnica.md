@@ -729,4 +729,8 @@ e da essa determinare quella delle tensioni sui resistori e della loro corrente;
 > $$i_{k}=I_{s}\frac{G_{k}}{G_{1}+G_{2}+G_{3}}\quad (3.16)$$
 > 
 > per $k=1,2,3$, che viene detta **formula del partitore di corrente**.
-> 
+> E’ facile verificare che la trattazione mostrata per tre resistori si estende al caso generale in cui i resistori collegati ai nodi siano N.
+
+Questo tipo di collegamento si dice di tipo parallelo in quanto i re-
+
+sistori hanno ai loro capi la stessa tensione vAB ed inoltre le loro
