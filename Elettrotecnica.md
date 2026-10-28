@@ -524,16 +524,11 @@ La retta caratteristica riduce progressivamente la sua pendenza fino, al limite,
 Dalla $(2.1)$, si ottiene:
 $$v = 0 \quad \forall i$$
 
-e si dice che il resistore si comporta come un corto circuito, ovvero
+e si dice che il resistore si comporta come un **corto circuito**, ovvero ai sui capi la tensione è nulla qualunque sia la corrente che lo attraversa. Il simbolo del corto circuito è mostrato in figura 2.6.
+![[Elettrotecnica-1793196429703.webp|199]]
+#Figura(2.6).
 
-ai sui capi la tensione è nulla qualunque sia la corrente che lo at-
-
-traversa. Il simbolo del corto circuito è mostrato in fig. 1.6.
-
-Attenzione ! Il bipolo corto circuito è controllabile in corrente
-
-infatti la tensione si può scrivere come una funzione della corrente:
-
-v = 0 · i
+Attenzione! Il bipolo corto circuito è controllabile in corrente infatti la tensione si può scrivere come una funzione della corrente:
+$$v = 0 \cdot i$$
 
 ma non è controllabile in tensione.
