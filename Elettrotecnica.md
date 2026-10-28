@@ -679,6 +679,10 @@ e da essa determinare quella delle correnti nei resistori e della loro tensione,
 > $$v_{k}=E\frac{R_{k}}{R_{1}+R_{2}+R_{3}}\quad (3.7)$$
 > 
 > per $k=1,2,3$, che viene detta formula del **partitore di tensione**.
+> 
 > È facile verificare che la trattazione mostrata per tre resistori si estende al caso generale in cui i resistori collegati nella maglia siano $N$.
 > Questo tipo di collegamento si dice di tipo serie in quanto i resistori sono attraversati dalla stessa corrente $i_{m}$ e le loro tensioni si sommano lungo la maglia. Nel caso generale si ottiene:
 > $$i_{m}=\frac{E}{\sum_{i=1}^N R_{i}}\quad (3.8)$$
+> e quindi:
+> $$v_{k}=E\frac{R_{k}}{\sum_{i=1}}$$
+
