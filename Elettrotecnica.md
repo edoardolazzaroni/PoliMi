@@ -741,4 +741,8 @@ e da essa determinare quella delle tensioni sui resistori e della loro corrente;
 
 La formula $(3.18)$ vale per qualunque numero $N$ di resistori in parallelo, tuttavia è istruttivo analizzare nello specifico il caso $N = 2$ di soli due resistori. In questo caso, per esempio nel calcolo di $i_{2}$, si trova:
 $$i_{k}=I_{s}\frac{\frac{1}{R_{1}}}{\frac{1}{R_{1}}+\frac{1}{R_{2}}}=I_{s}\frac{R_{2}}{R_{1}+R_{2}}$$
-Similmente per $i-2$
+Similmente per $i_{2}$ vale:
+$$i_{k}=I_{s}\frac{\frac{1}{R_{2}}}{\frac{1}{R_{1}}+\frac{1}{R_{2}}}=I_{s}\frac{R_{1}}{R_{1}+R_{2}}$$
+
+
+Applichiamo il metodo al circuito in figura:
