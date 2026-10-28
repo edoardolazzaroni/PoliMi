@@ -427,8 +427,9 @@ Infine la figura 1.36 mette in evidenza come sia sempre possibile utilizzare il 
 > Determinare le tensioni $v_{7}, v_{1}$ e $v_{6}$.
 
 
-Nella rete mostrata in 1.45 sono ora noti i valori delle tensioni:
+#### #Esercizio(Tripoli/doppi bipoli) (3)
 
-v2 = 2V; v3 = 3V; v4 = 4V; v5 = 5V.
 
-Determinare le tensioni v7, v1 e v6.
+Infine il circuito in figura contiene un doppio bipolo e sono note le correnti:
+$$i_{1} = 1A;\quad i_{4} = 4A;\quad i_{5} = 5A$$
+Determinate i valori di $i_{2}, i_{3}$, e di $I_{x}$ e $I_{y}$.
