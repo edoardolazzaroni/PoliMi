@@ -365,7 +365,7 @@ $$v_{kj}= e_{k}−e_{j}.$$
 ## 1.5 **Dispositivi con più di due terminali e loro modelli**
 
 Un primo esempio di dispositivo con più di due terminali è il tripolo elettrico disegnato in figura:
-![[Elettrotecnica-1793189529523.webp|211]]
+![[Elettrotecnica-1793189529523.webp|171]]
 #Figura(1.32). *Un tripolo*
 
 In questo caso, le grandezze elettriche che si possono misurare sono tre tensioni e tre correnti, tuttavia è facile verificare che solo un sottoinsieme di queste risultano tra di loro indipendenti. Infatti applicando la legge delle correnti ad una superficie chiusa che racchiude in se il tripolo, si ricava la relazione:
@@ -378,6 +378,8 @@ Si conclude che <mark class="hltr-yellow">in un tripolo solo due correnti e due 
 
 E’ facile verificare che questa proprietà si estende facilmente al caso di un generico $N$-polo, cioè di un dispositivo con $N$ terminali. Nel caso generale, l’$N$-polo ha $N−1$ correnti e $N−1$ tensioni indipendenti.
 Il procedimento che si adotta per determinare il sottoinsieme di tensioni e correnti da utilizzare come variabili descrittive è quello di scegliere arbitrariamente un terminale come riferimento comune e quindi di scegliere le correnti entranti agli $N−1$ nodi rimanenti e le $N−1$ tensioni misurate tra gli $N−1$ nodi e il riferimento.
+![[Elettrotecnica-1793189797821.webp|379]]
+#Figura(1.33). (Sinistra) possibile scelta delle due tensioni e correnti che descrivono un
 
 Come esempio, la figura 1.33 mostra per un tripolo il caso in cui come riferimento si è assunto il nodo $3$ e quindi le due tensioni indipendenti risultano $v_{13}$ e $v_{23}$. Con questa scelta, come correnti indipendenti si assumeranno quelle entranti in tutti i nodi tranne quello di riferimento, ovvero nel caso specifico $i_{1}$ e $i_{2}$.
 La figura 1.33 mostra un secondo esempio nel quale il riferimento viene assunto nel nodo $2$.
