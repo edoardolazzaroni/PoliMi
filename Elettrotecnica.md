@@ -694,4 +694,6 @@ Applichiamo il metodo al circuito in esempio in figura:
 #Figura(3.2). *Esempio numerico di circuito serie*
 
 Si ottiene:
-$$i_{m}=\frac{2}$$
+$$i_{m}=\frac{24}{30+20+10}=0.4 \ A$$
+e quindi:
+$$v_{1}=0.4\cdot 30=12 \ V; \quad v_{2}=0.4\cdot 20=8 \ V; \quad v_{3}=0.4\cdot 30=12 \ V$$
