@@ -664,9 +664,11 @@ Il valore di dette incognite si ottiene imponendo la validità delle leggi di Ki
 	$$i_{m} = i_{1} = i_{2} = i_{3} \quad (3.1)$$
 
 - Si scrivono i legami costitutivi:
-	$$v_{1} = R_{1} i_{1}\\v_2 = R_{2} i_{2}\\v_{3} = R_{3} i_{3}\\v_{4} = E$$
+	$$v_{1} = R_{1} i_{1}\\v_2 = R_{2} i_{2}\\v_{3} = R_{3} i_{3}\\v_{4} = E$$$$(3.2)$$
 
 - Si scrive la laegge di Kirchoff delle tensioni per la maglia:
 	$$v_{4}=v_{1}+v_{2}+v_{3}\quad (3.3)$$
 
-Il procedemento risolutivo
+Il procedemento risolutivo consiste nell’organizzare opportunamente le equazioni di sopra in accordo coi seguenti passaggi logici:
+
+1. Si assume $i_{m}$, la corrente che scorre nella ma
