@@ -723,4 +723,6 @@ Il procedimento risolutivo segue i seguenti passaggi logici:
 3. Infine, si sostituiscono le $(3.13)$ nella $(3.12)$ pervenendo all'equazione finale:$$I_{s}=v_{AB}(G_{1}+G_{2}+G_{3})\quad(3.14)$$
 È quindi possibile risolvere tale equazione e ricavare l'espressione della tensione $v_{AB}$:
 $$v_{AB}=\frac{I_{s}}{G_{1}+G_{2}+G_{3}}\quad (3.15)$$
-e da essa determinare quella delle tensioni sui resistori e della loro corrente
+e da essa determinare quella delle tensioni sui resistori e della loro corrente; si ottiene infatti:
+$$i_{k}=I_{s}\frac{G_{k}}{G_{1}+G_{2}+G_{3}}\quad (3.16)$$
+per
