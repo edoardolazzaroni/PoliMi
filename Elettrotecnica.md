@@ -674,6 +674,10 @@ Il procedimento risolutivo consiste nell’organizzare opportunamente le equazio
 $$i_{m}=\frac{E}{R_{1}+R_{2}+R_{3}}\quad (3.6)$$
 
 e da essa determinare quella delle correnti nei resistori e della loro tensione, ottenendo:
-$$v_{k}=E\frac{R_{k}}{R_{1}+R_{2}+R_{3}}\quad (3.7)$$
 
-per $k=1,2,3$, che viene detta formula del **partitore di tensione**.
+> [!important] Formula
+> $$v_{k}=E\frac{R_{k}}{R_{1}+R_{2}+R_{3}}\quad (3.7)$$
+> 
+> per $k=1,2,3$, che viene detta formula del **partitore di tensione**.
+> È facile verificare che la trattazione mostrata per tre resistori si estende al caso generale in cui i resistori collegati nella maglia siano $N$.
+> 
