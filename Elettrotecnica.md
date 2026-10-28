@@ -645,6 +645,5 @@ Il rame è un ottimo conduttore e viene utilizzato per realizzare i fili di coll
 
 Anche i modelli elettrici hanno dei <u>limiti di validità</u>. Nel caso del resistore fisico, il legame $v = R\cdot i$ è valido fino a che la corrente che scorre rimane in un <u>certo intervallo di valori</u>. Vedremo che questo è determinato da un’altra grandezza elettrica chiamata **potenza elettrica** e data dal prodotto $v\cdot i$.
 
-Vedremo anche come l’uso di modelli ideali di generatore può, in certe condizioni, portare a dei problemi matematici che non hanno soluzione. In questo caso, l’eccessiva semplificazione fa si che il modello non sia più attinente
+Vedremo anche come l’uso di modelli ideali di generatore può, in certe condizioni, portare a dei problemi matematici che non hanno soluzione. In questo caso, l’eccessiva semplificazione fa si che il modello non sia più attinente alla realtà.
 
-alla realtà.
