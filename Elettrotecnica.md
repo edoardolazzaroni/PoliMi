@@ -620,16 +620,4 @@ Dunque, se adottiamo la convenzione dei generatori nel legame costitutivo del re
 Esaminiamo ora il caso di un generatore di tensione, il cui legame costitutivo con la convenzione degli utilizzatori mostrata in [[#2.3 **Generatore ideale di tensione**|figura 2.9]] è:
 $$v = E$$
 
-Se invertiamo il segno della corrente alla porta, cioè $i'=−i$, come mostrato in fig.1.16(Sinistra) vediamo che il legame costitutivo rimane
-
-invariato in quanto la corrente non compare nell’espressione. La
-
-stessa conclusione vale per il generatore ideale di corrente, in cui si
-
-assuma la convenzione di misura dei generatori come mostrato in
-
-fig.1.16(Destra). Per questo motivo: per i bipoli di tipo generatore
-
-ideale si adotta indifferentemente la convenzione di misura degli
-
-utilizzatori o dei generatori.
+Se invertiamo il segno della corrente alla porta, cioè $i'=−i$, come mostrato in figura 2.16 (Sinistra) vediamo che il legame costitutivo rimane invariato in quanto la corrente non compare nell’espressione. La stessa conclusione vale per il generatore ideale di corrente, in cui si assuma la convenzione di misura dei generatori come mostrato in figura 2.16 (Destra). Per questo motivo **per i bipoli di tipo generatore ideale si adotta indifferentemente la convenzione di misura degli utilizzatori o dei generatori**.
