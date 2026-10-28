@@ -772,8 +772,5 @@ cioè la corrente impressa dal generatore si ripartisce in modo da scorrere in l
 ## 3.3 **Equivalenze tra bipoli**
 
 Aggregando tra di loro bipoli elementari (es. resistori, generatori, corto circuiti) è possibile costruire circuiti elettrici composti, se tali circuiti composti sono collegati/accessibile all’esterno attraverso due terminali essi stessi sono dei bipoli (composti).
-La figura 3.6
-
-mostra due esempi di bipoli composti ottenuti (a sinistra) connettento
-
-resistori e (a destra) collegando generatori ideali e resistori. I bipoli
+La figura 3.6 mostra due esempi di bipoli composti ottenuti (a sinistra) connettendo resistori e (a destra) collegando generatori ideali e resistori.
+I bipoli composti sono descritti dalle grandezze descrittive $v$ ed $i$ misurate ai morsetti e da un’equazione caratteristica che lega le grandezze descrittive, esattamente come in un bipolo elementare. Da ora in poi, dunque, <mark class="hltr-yellow">col termine bipolo ci riferiremo sia un bipolo elementare che ad un bipolo composto</mark>.
