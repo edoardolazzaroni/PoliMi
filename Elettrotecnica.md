@@ -754,4 +754,10 @@ $$v_{AB}=\frac{11}{\frac{1}{1}+\frac{1}{2}+\frac{1}{3}}=11\cdot\frac{6}{11}=6 \ 
 da cui:
 $$i_{1}=6\cdot \frac{1}{1}=6 \ A;\quad i_{2}=6\cdot \frac{1}{2}=3 \ A;\quad i_{3}=6\cdot \frac{1}{3}=2 \ A$$
 
-Si noti che $i_{1}+i_{2}+i_{3}=11 \ A$, 
+Si noti che $i_{1}+i_{2}+i_{3}=11 \ A$, cioè il valore di corrente imposto dal generatore, come deve essere dalla KCL, inoltre il valore $11 \ A$ si ripartisce tra i resistori in modo proporzionale alle conduttanze e quindi inversamente proporzionale ai valori delle resistenze.
+
+#Esempio Analizziamo il circuito in figura:
+![[Elettrotecnica-1793202913169.webp|362]]
+#Figura(3.5). Circuito parallelo con due resisto
+
+In questo caso risulta
