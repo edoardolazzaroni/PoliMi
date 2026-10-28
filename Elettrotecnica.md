@@ -621,3 +621,5 @@ Esaminiamo ora il caso di un generatore di tensione, il cui legame costitutivo c
 $$v = E$$
 
 Se invertiamo il segno della corrente alla porta, cioè $i'=−i$, come mostrato in figura 2.16 (Sinistra) vediamo che il legame costitutivo rimane invariato in quanto la corrente non compare nell’espressione. La stessa conclusione vale per il generatore ideale di corrente, in cui si assuma la convenzione di misura dei generatori come mostrato in figura 2.16 (Destra). Per questo motivo **per i bipoli di tipo generatore ideale si adotta indifferentemente la convenzione di misura degli utilizzatori o dei generatori**.
+![[Elettrotecnica-1793198138993.webp|356]]
+#Figura(2.16). Convenzione dei generatori in un generatore di tensione (<u>Sinistra</u>) ed in uno di corrente (<u>Destra</u>)
