@@ -420,7 +420,15 @@ Infine la figura 1.36 mette in evidenza come sia sempre possibile utilizzare il 
 
 #### #Esercizio(Tripoli/doppi bipoli) (2)
 
-Nella rete mostrata in figura sono ora noti i valori delle tensioni:
-$$v_{2} = 2V; v3 = 3V; v4 = 4V; v5 = 5V$$
+> [!question] Esercizio
+> ![[Elettrotecnica-1793190953778.webp|329x230]]
+> Nella rete mostrata in figura sono ora noti i valori delle tensioni:
+> $$v_{2} = 2V;\quad v_{3} = 3V;\quad v_{4} = 4V;\quad v_{5} = 5V$$
+> Determinare le tensioni $v_{7}, v_{1}$ e $v_{6}$.
+
+
+Nella rete mostrata in 1.45 sono ora noti i valori delle tensioni:
+
+v2 = 2V; v3 = 3V; v4 = 4V; v5 = 5V.
 
 Determinare le tensioni v7, v1 e v6.
