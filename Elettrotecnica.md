@@ -707,4 +707,8 @@ Si noti che $v_{1}+v_{2}+v_{3}=12+8+4=24 \ V$, cioè il valore di tensione impre
 Nel secondo esempio analizziamo il circuito descritto in figura 3.3 (Sinistra) dove tre resistori ed un generatore ideale di corrente sono collegati ai medesimi nodi $A, B$: questo circuito viene talvolta chiamato "binodale".
 Nella implementazione pratica questo circuito viene spesso realizzato sostituendo i due nodi con due conduttori (considerati ideali e modellabili come corto circuito) come mostrato in figura 3.3 (Destra).
 ![[Elettrotecnica-1793200741170.webp|524]]
-#Figura(3.3). *(<u>Sinistra</u>) Circuito binodale; (Destra) realizzazione in cui i nodi vengono sostituiti da due corto circuiti*
+#Figura(3.3). *(<u>Sinistra</u>) Circuito binodale; (<u>Destra</u>) realizzazione in cui i nodi vengono sostituiti da due corto circuiti*
+
+Le leggi/equazioni che governano i due circuiti sono le stesse come di seguito riportato, quindi <u>è indifferente considerare l’uno o l’altro</u>:
+
+- Dalla legge di Kirchoff 
