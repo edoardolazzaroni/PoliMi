@@ -496,11 +496,12 @@ Il simbolo che rappresenta un resistore è mostrato in figura 2.3 dove è riport
 Il suo legame costitutivo o equazione caratteristica è dato da:
 $$v = R \ i \quad (2.1)$$
 
-Dunque l’equazione caratteristica è un legame di proporzionalità diretta attraverso il parametro resistenza, questa si misura in ohm $[Ω]$. La figura 1.4 illustra la curva caratteristica nel piano i-v che è
+Dunque l’equazione caratteristica è un legame di proporzionalità diretta attraverso il parametro resistenza, questa si misura in ohm $[Ω]$. La figura 2.4 illustra la curva caratteristica nel piano $i-v$ che è una retta passante per l’origine degli assi avente pendenza $R$.
 
-una retta passante per l’origine degli assi avente pendenza R.
+Nella forma $(2.1)$ la variabile tensione è una funzione della corrente, <mark class="hltr-yellow">il resistore si dice controllabile in corrente</mark>. Nel caso in cui $R \ne 0$ è anche possibile invertire la 1.1 riscrivendola:
 
-Nella forma 1.1 la variabile tensione è una funzione della corrente,
+i=
 
-il resistore si dice controllabile in corrente. Nel caso in cui R ̸= 0 è
+1
 
+R v = G v (1.2)
