@@ -608,24 +608,19 @@ Durante l’analisi di circuiti, la convenzione di misura adottata sui singoli b
 Nel caso di un resistore, si è visto che misurando $v$ ed $i$ con la convenzione degli utilizzatori, come in [[#2.2 **Il bipolo resistore**|figura 2.3]], il legame costitutivo è:
 $$v = R \cdot i$$
 
-Invertiamo ora il segno della misura di corrente, cioè usiamo come variabile alla porta la corrente $i′=−i$, come mostrato in figura:
+Invertiamo ora il segno della misura di corrente, cioè usiamo come variabile alla porta la corrente $i'=−i$, come mostrato in figura:
 ![[Elettrotecnica-1793197858615.webp|114]]
 #Figura(2.15). *Convenzione dei generatori in un resistore*
 
 Dalla $(2.1)$, otteniamo:
-$$v =−R \ i′ \quad (2.5)$$
+$$v =−R \ i' \quad (2.5)$$
 
 Dunque, se adottiamo la convenzione dei generatori nel legame costitutivo del resistore compare un segno meno. Per questo comunemente **per i bipoli di tipo resistore è naturale assumere la convenzione di misura degli utilizzatori in modo che valga la $(2.1)$ col segno positivo**.
 
-Esaminiamo ora il caso di un generatore di tensione, il cui legame costitutivo con la convenzione degli utilizzatori mostrata in [[#2.3 **Generatore ideale di tensione**]] figura 2.9 è:
+Esaminiamo ora il caso di un generatore di tensione, il cui legame costitutivo con la convenzione degli utilizzatori mostrata in [[#2.3 **Generatore ideale di tensione**|figura 2.9]] è:
+$$v = E$$
 
-v = E.
-
-Se invertiamo il segno della corrente alla porta, cioè i′
-
-=−i, come
-
-mostrato in fig.1.16(Sinistra) vediamo che il legame costitutivo rimane
+Se invertiamo il segno della corrente alla porta, cioè $i'=−i$, come mostrato in fig.1.16(Sinistra) vediamo che il legame costitutivo rimane
 
 invariato in quanto la corrente non compare nell’espressione. La
 
