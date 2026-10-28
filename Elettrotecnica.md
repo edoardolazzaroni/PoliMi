@@ -410,8 +410,17 @@ Infine la figura 1.36 mette in evidenza come sia sempre possibile utilizzare il 
 
 #### #Esercizio(Tripoli/doppi bipoli) (1)
 
-![[Elettrotecnica-1793190843752.webp|375]]
-Il circuito mostrato in figura contiene un tripolo e sono noti i valori delle correnti:
-$$i_{1} = 1A;\quad i_{6} = 2A;\quad i_{7} = 3A$$
-Determinare il valore delle correnti $i_{3}$ ed $i_{4}$ nel tripolo. Notate che è possibile trasformare il tripolo in un insieme di due bipoli $3$ e $4$ connessi al nodo comune $C$ come mostrato in figura:
-![[Elettrotecnica-1793190851431.webp]]
+> [!question] Esercizio
+> ![[Elettrotecnica-1793190843752.webp|303]]
+> Il circuito mostrato in figura contiene un tripolo e sono noti i valori delle correnti:
+> $$i_{1} = 1A;\quad i_{6} = 2A;\quad i_{7} = 3A$$
+> Determinare il valore delle correnti $i_{3}$ ed $i_{4}$ nel tripolo. Notate che è possibile trasformare il tripolo in un insieme di due bipoli $3$ e $4$ connessi al nodo comune $C$ come mostrato in figura:
+> ![[Elettrotecnica-1793190851431.webp|325]]
+
+
+#### #Esercizio(Tripoli/doppi bipoli) (2)
+
+Nella rete mostrata in figura sono ora noti i valori delle tensioni:
+$$v_{2} = 2V; v3 = 3V; v4 = 4V; v5 = 5V$$
+
+Determinare le tensioni v7, v1 e v6.
