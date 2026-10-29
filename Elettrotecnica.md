@@ -846,4 +846,9 @@ $$v_{1}+E_{1}+v_{1}+E_{2}+v_{3}-E_{3}=0$$
 e quindi usando la legge di Ohm si ha:
 $$i_{m}R_{4}+E_{1}+i_{m}R_{1}+E_{2}+i_{m}R_{3}-E_{3}=0$$
 che ordinata diventa:
-$$i_{m}(R_{4}+R_{1}+R_{3})=E_{3}-E_{1}$$
+$$i_{m}(R_{4}+R_{1}+R_{3})=E_{3}-E_{1}-E_{2}$$
+
+Quest’ultima equazione è la stessa che governa il circuito mostrato in figura 3.12 (Destra) dove i generatori di tensione sono stati fatti "scivolare" lungo la maglia in modo da rendere più evidente che sono in serie. Lo stesso vale per i resistori.
+Componendo in serie i generatori ed i resistori il circuito si semplifica in un generatore di tensione equivalente:
+$$E_{eq}=E_{3}-E_{1}-E_{2}$$
+coll
