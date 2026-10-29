@@ -857,4 +857,9 @@ $$R_{eq}=R_{4}+R_{1}+R_{3}$$
 
 ### 3.4.3 **Serie con generatore ideale di corrente**
 
-La presenza di
+La presenza di un generatore ideale di corrente in un circuito composto serie, come mostrato nelle figure:
+![[Elettrotecnica-1793293809678.webp|417]]
+#Figura(3.13). *Serie di un generatore di corrente con un generatore di tensione*
+
+![[Elettrotecnica-1793293849062.webp|426]]
+#
