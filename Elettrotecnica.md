@@ -890,4 +890,7 @@ Si consideri ora la circostanza in cui i bipoli elementari siano resistori di re
 Dalla $(3.24)$ risulta:
 $$i=G_{1}\cdot v+G_{2}\cdot v+G_{3}\cdot v=(G_{1}+G_{2}+G_{3})\cdot v=\left( \frac{1}{R_{1}}+\frac{1}{R_{2}}+\frac{1}{R_{3}} \right)\cdot v\quad(3.25)$$
 
-da cui si deduce che i
+da cui si deduce che il bipolo composto ha una caratteristica di tipo resistore (cioè $i= G\cdot v$) dove il coefficiente $G$ è dato dalla somma delle tre conduttanze elementari. Il bipolo composto è dunque equivalente ai fini esterni ad un unico resistore la cui conduttanza vale:
+$$G_{eq}=G_{1}+G_{2}+G_{3}$$
+o, se si preferisce, la cui resistenza vale:
+$$R_{eq}=\frac{1}{\frac{1}{R_{1}}+\frac{1}{R_{2}}+\frac{1}{R_{3}}}\quad$$
