@@ -773,13 +773,13 @@ cioè la corrente impressa dal generatore si ripartisce in modo da scorrere in l
 
 Aggregando tra di loro bipoli elementari (es. resistori, generatori, corto circuiti) è possibile costruire circuiti elettrici composti, se tali circuiti composti sono collegati/accessibile all’esterno attraverso due terminali essi stessi sono dei bipoli (composti).
 La figura 3.6 mostra due esempi di bipoli composti ottenuti (a sinistra) connettendo resistori e (a destra) collegando generatori ideali e resistori:
-![[Elettrotecnica-1793291788401.webp|506]]
+![[Elettrotecnica-1793291788401.webp|435]]
 #Figura(3.6). *Bipoli composti ottenuti aggregando bipoli elementari*
 
 I bipoli composti sono descritti dalle grandezze descrittive $v$ ed $i$ misurate ai morsetti e da un’equazione caratteristica che lega le grandezze descrittive, esattamente come in un bipolo elementare. Da ora in poi, dunque, <mark class="hltr-yellow">col termine bipolo ci riferiremo sia un bipolo elementare che ad un bipolo composto</mark>.
 
 Si consideri ora un bipolo che chiamiamo Bipolo $A$, che si suppone composto da numerosi elementi collegati tra loro ed è descritto da un’equazione caratteristica in forma implicita $f_{A}(v, i) = 0$. Il Bipolo $A$ è collegato ad un bipolo esterno (che in generale può essere composto) che chiamiamo Rete Esterna, come mostrato in figura 3.7:
-![[Elettrotecnica-1793291870868.webp|257]]
-#Figura(3.7). (Alto) Bipolo $A$ collegato ad una rete esterna; (Basso) Il Bipolo A
+![[Elettrotecnica-1793291870868.webp|333]]
+#Figura(3.7). *(<u>Alto</u>) Bipolo $A$ collegato ad una rete esterna; (<u>Basso</u>) Il Bipolo $A$ viene sostituito dal Bipolo $B$*
 
-viene sostituito dal Bipolo B.
+Si supponga che esista un bipolo, che chiameremo Bipolo $B$, molto più semplice di $A$, nel senso che $B$ è composta da pochissimi elementi (vedremo più avanti che esso può essere formato da un solo componente, un resistore, oppure da due elementi, un resistore ed un generatore ideale). Il Bipolo $B$ ha una caratteristica del tipo $fB(v, i) = 0$.
