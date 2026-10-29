@@ -862,4 +862,11 @@ La presenza di un generatore ideale di corrente in un circuito composto serie, c
 #Figura(3.13). *Serie di un generatore di corrente con un generatore di tensione*
 
 ![[Elettrotecnica-1793293849062.webp|426]]
-#
+#Figura(3.14). *Serie di un generatore di corrente con un resistore*
+
+dà origine a casi particolari in cui non è più possibile applicare la trattazione in $(3.20)$: infatti in questo caso **il generatore di corrente non è controllabile in corrente** e dunque non ammette equazione del tipo $v = f (i)$.
+La soluzione si trova semplicemente osservando che in entrambi i casi in figura sono tali che la corrente $i$ del bipolo composto deve essere uguale a quella impressa, cioè i= Is e dunque
+
+che ai fini esterni il bipolo composto è equivalente ad un generatore
+
+di corrente di valore Is.
