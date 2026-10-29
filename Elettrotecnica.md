@@ -810,6 +810,8 @@ $$v=f_{1}(i)+f_{2}(i)+f_{3}(i)\quad(3.20)$$
 
 Si consideri ora lo scenario in cui i bipoli elementari siano resistori di resistenza $R_{k}$ come in figura e quindi $f_{k}(i_{k}) = R_{k}\cdot i_{k}$.
 ![[Elettrotecnica-1793292584414.webp|448]]
-#Figura ()
+#Figura(3.9).
 
 Dalla $(3.20)$ risulta:
+$$v=R_{1}\cdot i+R_{2}\cdot i+R_{3}\cdot i=(R_{1}+R_{2}+R_{3})\cdot i\quad(3.21)$$
+
