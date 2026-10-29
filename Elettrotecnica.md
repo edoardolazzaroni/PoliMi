@@ -876,4 +876,8 @@ Passiamo al caso di un bipolo composto ottenuto collegando in parallelo $N$ bipo
 #Figura(3.15).
 
 Le variabili $v$ ed $i$ descrivono il bipolo composto ai suoi morsetti esterni. Nell’ipotesi che ogni bipolo elementare sia **controllabile in tensione**, cioè descritto da un’equazione caratteristica del tipo $i_{k} = g_{k}(v_{k})$, avremo che:
-$$v_{1}=v_{2}=v_{3}=v\\i_{1}=g_{1}(v_{1})\\i_{2}=g_{2}(v_{2})\\i_{3}=g_{3}(v_{3})\\i=i_{1}+i_{2}+$$
+$$v_{1}=v_{2}=v_{3}=v\\i_{1}=g_{1}(v_{1})\\i_{2}=g_{2}(v_{2})\\i_{3}=g_{3}(v_{3})\\i=i_{1}+i_{2}+i_{3}$$$$(3.23)$$
+Da cui si deriva l'espressione che definisce formalmente la caratteristica del bipolo composto:
+$$i=g_{1}(v)+g_{2}(v)+g_{3}(v)\quad(3.24)$$
+
+
