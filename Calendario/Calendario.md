@@ -13,6 +13,7 @@ type: folder_brief_live
 	- [[2026-10-23 Roma]]
 	- [[2026-10-24 Roma]]
 	- [[2026-10-25 Roma]]
+	- [[2026-10-30 Montagna]]
 	- [[2026-10-31 Montagna]]
 	- [[2026-11-01 Montagna]]
 	- [[2026-11-07 Ambroggi]]
