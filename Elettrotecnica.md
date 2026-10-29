@@ -808,3 +808,4 @@ $$v=f_{1}(i)+f_{2}(i)+f_{3}(i)\quad(3.20)$$
 
 ### 3.4.1 **Resistori in serie**
 
+Si consideri ora lo scenario in cui i bipoli elementari siano resistori di resistenza $R_{k}$ come in figura e quindi $f_{k}(i_{k}) = R_{k}\cdot i_{k}$. Dalla
