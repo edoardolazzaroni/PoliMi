@@ -838,3 +838,10 @@ $$v=v_{1}+v_{2}=E_{1}-E_{2}\quad(3.22)$$
 Il tipo di legame costitutivo del bipolo composto è dunque quello di un generatore ideale di tensione equivalente, cioè $v = E_{eq}$ per qualunque corrente, dove la tensione impressa $E_{eq}$ è data dalla somma con segno dei valori dei generatori elementari.
 
 #Esempio Vediamo un’estensione della composizione serie risolvendo l’esercizio in figura:
+![[Elettrotecnica-1793293537742.webp|419]]
+#Figura(3.12).
+
+Bilanciando le tensioni lungo la maglia:
+$$v_{1}+E_{1}+v_{1}+E_{2}+v_{3}-E_{3}=0$$
+e quindi usando la legge di Ohm si ha:
+
