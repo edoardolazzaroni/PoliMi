@@ -790,12 +790,14 @@ Si supponga che esista un bipolo, che chiameremo Bipolo $B$, molto più semplice
 In particolare, se il Bipolo $B$ equivalente ad $A$ viene sostituito ad esso come mostrato in figura 3.7 (Basso), la Rete Esterna "non si accorge della sostituzione" in quanto le sue equazioni (leggi di Kirchhoff e legami costitutivi) rimangono gli stessi e quindi i valori delle variabili elettriche che le risolvono (indicate in figura come $v_{k}, i_{k}$) rimangono le stesse.
 Il circuito equivalente lo è ai fini esterni, cioè al fine di calcolare le variabili elettriche nella Rete Esterna.
 
-Una strategia di analisi dei circuiti elettrici che deriva dalla propri-
+Una strategia di analisi dei circuiti elettrici che deriva dalla proprietà di equivalenza è quello di determinare il circuito equivalente di sottoparti complesse del circuito, collegate al resto come bipolo, e di sostituire ad esse il relativo bipolo equivalente in modo da semplificare la soluzione.
 
-età di equivalenza è quello di determinare il circuito equivalente di
 
-sottoparti complesse del circuito, collegate al resto come bipolo, e di
 
-sostituire ad esse il relativo bipolo equivalente in modo da semplifi-
+## 3.4 **Equivalente di circuiti di tipo serie**
 
-care la soluzione.
+Determiniamo l’equazione caratteristica di un bipolo composto dalla serie di $N$ bipoli elementari. Come mostrato in figura 3.8 useremo il
+
+caso N= 3 come esempio illustrativo. Il bipolo composto è descritto
+
+ai morsetti esterni dalle variabili v ed i. Nell’ipotesi che ogni bipolo
