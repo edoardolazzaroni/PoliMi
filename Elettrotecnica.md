@@ -881,3 +881,6 @@ Da cui si deriva l'espressione che definisce formalmente la caratteristica del b
 $$i=g_{1}(v)+g_{2}(v)+g_{3}(v)\quad(3.24)$$
 
 
+### 3.5.1 **Resistori in parallelo**
+
+Si consideri ora la circostanza in cui i bipoli elementari siano resistori di resistenza $R_{k}$ come in figura 3.16 e quindi $g_{k}(v_{k}) = G_{k} \cdot v_{k}$, dove $G_{k} = 1/Rk$ è la conduttanza. Dalla (1.24) risulta
