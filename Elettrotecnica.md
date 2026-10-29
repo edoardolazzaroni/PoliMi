@@ -896,9 +896,5 @@ o, se si preferisce, la cui resistenza vale:
 $$R_{eq}=\frac{1}{\frac{1}{R_{1}}+\frac{1}{R_{2}}+\frac{1}{R_{3}}}\quad(3.26)$$
 
 Vale anche la pena di osservare come tali formule sono di carattere generale e si estendono facilmente al caso $N$ qualunque, per cui $G_{eq}=\sum_{i=1}^N G_{i}$.
-
-Esse assumon sse assumono una forma da ricordare nel caso di soli
-
-i=1
-
-due resistori, per N= 2 dalla (1.26) si ottiente:
+Esse assumono una forma da ricordare nel caso di soli due resistori, per $N= 2$ dalla $(3.26)$ si ottiene:
+$$R_{eq}=\frac{1}{\frac{1}{R_{1}}+\frac{1}{R_{2}}}=\frac{R_{1}\cdot R_{2}}$$
