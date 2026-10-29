@@ -9,6 +9,7 @@ type: folder_brief_live
 - **Tasks**
 	- [[Caricare cuffie]]
 	- [[Caricare tavoletta grafica]]
+	- [[finire capitolo 3 Elettrotecnica]]
 	- [[Finire capitolo 5 di GAL]]
 	- [[finire capitolo 6 GAL]]
 	- [[finire capitolo 7 GAL]]
