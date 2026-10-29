@@ -907,4 +907,6 @@ Sfruttando l’uso dell’equivalente, siamo ora in grado di seguire un procedim
 $$R_{eq}=\frac{1\cdot 10}{1+10}=\frac{10}{11}\ \Omega$$
 e quindi calcolare la tensione "a cavallo" del generatore di corrente:
 $$v=1\cdot \frac{10}{11}=\frac{10}{11} \ V$$
-da cui sarà poi immediato ricavare $i_{1}=\frac{10}{11}$
+da cui sarà poi immediato ricavare $i_{1}=\frac{10}{11} \ A$ ed $i_{2}=\frac{1}{11} \ A$.
+
+
