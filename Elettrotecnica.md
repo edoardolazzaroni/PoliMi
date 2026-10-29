@@ -900,5 +900,9 @@ Esse assumono una forma da ricordare nel caso di soli due resistori, per $N= 2$ 
 $$R_{eq}=\frac{1}{\frac{1}{R_{1}}+\frac{1}{R_{2}}}=\frac{R_{1}\cdot R_{2}}{R_{1}+R_{2}}$$
 
 #Esempio Ritorniamo ad analizzare il circuito in figura 3.5 già risolto nell'esempio della [[#3.2 **Circuito parallelo**|sezione 3.2]]:
-![[Elettrotecnica-1793294733779.webp|281]]
-#
+![[Elettrotecnica-1793294733779.webp|240]]
+#Figura(3.17). *Circuito parallelo con due resistori*
+
+Sfruttando l’uso dell’equivalente, siamo ora in grado di seguire un procedimento diverso, ovvero possiamo prima calcolare la resistenza equivalente del bipolo collegato al generatore di corrente:
+$$R_{eq}=\frac{1\cdot 10}{1+10}=\frac{10}{11}\ \Omega$$
+E QUINDI C
