@@ -883,4 +883,9 @@ $$i=g_{1}(v)+g_{2}(v)+g_{3}(v)\quad(3.24)$$
 
 ### 3.5.1 **Resistori in parallelo**
 
-Si consideri ora la circostanza in cui i bipoli elementari siano resistori di resistenza $R_{k}$ come in figura 3.16 e quindi $g_{k}(v_{k}) = G_{k} \cdot v_{k}$, dove $G_{k} = 1/Rk$ è la conduttanza. Dalla (1.24) risulta
+Si consideri ora la circostanza in cui i bipoli elementari siano resistori di resistenza $R_{k}$ come in figura 3.16 e quindi $g_{k}(v_{k}) = G_{k} \cdot v_{k}$, dove $G_{k} = \frac{1}{R_{k}}$ è la conduttanza.
+![[Elettrotecnica-1793294328069.webp|470]]
+#Figura(3.16).
+
+Dalla $(3.24)$ risulta:
+$$i=G_{1}\cdot v+G_{2}\cdot v+G_{3}\$$
