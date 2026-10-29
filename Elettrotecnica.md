@@ -844,4 +844,6 @@ Il tipo di legame costitutivo del bipolo composto è dunque quello di un generat
 Bilanciando le tensioni lungo la maglia:
 $$v_{1}+E_{1}+v_{1}+E_{2}+v_{3}-E_{3}=0$$
 e quindi usando la legge di Ohm si ha:
-
+$$i_{m}R_{4}+E_{1}+i_{m}R_{1}+E_{2}+i_{m}R_{3}-E_{3}=0$$
+che ordinata diventa:
+$$i_{m}(R_{4}+R_{1}+R_{3})=E_{3}-E_{1}$$
