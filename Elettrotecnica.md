@@ -835,8 +835,6 @@ Componiamo in serie due generatori di tensione ideali come mostrato in figura:
 
 Si ha $v_{1} = E_{1}$ e $v_{2} =−E_{2}$ (si noti che nell’ottica della $(3.20)$ ciò corrisponde a $f_{1}(i_{1}) = E_{1} + i_{1} \cdot 0$ e $f_{2}(i_{2}) =−E_{2} + i_{2} \cdot 0$) da cui:
 $$v=v_{1}+v_{2}=E_{1}-E_{2}\quad(3.22)$$
-Il tipo di legame costitutivo del bipolo composto è dunque quello di un generatore ideale di tensione equivalente, cioè $v = Eeq$ per
+Il tipo di legame costitutivo del bipolo composto è dunque quello di un generatore ideale di tensione equivalente, cioè $v = E_{eq}$ per qualunque corrente, dove la tensione impressa $E_{eq}$ è data dalla somma con segno dei valori dei generatori elementari.
 
-qualunque corrente, dove la tensione impressa Eeq è dato dalla
-
-somma con segno dei valori dei generatori elementari.
+#Esempio Vediamo un’estensione della composizione serie risolvendo l’esercizio in figura:
