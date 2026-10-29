@@ -797,4 +797,6 @@ Una strategia di analisi dei circuiti elettrici che deriva dalla proprietà di e
 ## 3.4 **Equivalente di circuiti di tipo serie**
 
 Determiniamo l’equazione caratteristica di un bipolo composto dalla serie di $N$ bipoli elementari. Come mostrato in figura 3.8 useremo il caso $N= 3$ come esempio illustrativo. Il bipolo composto è descritto ai morsetti esterni dalle variabili $v$ ed $i$. Nell’ipotesi che ogni bipolo elementare sia controllabile in corrente e descritto dalla generica equazione caratteristica $v_{k}=f_{k}(i_{k})$ si ha:
-$$i_{1}=i_{2}=i_{3}=i\\v_{1}=f_{1}(i_{1})\\v_{2}=f_{2}(i_{2})\\v_{3}=f_{3}(i_{3})\\v=v_{1+v_{2+v}}$$
+$$i_{1}=i_{2}=i_{3}=i\\v_{1}=f_{1}(i_{1})\\v_{2}=f_{2}(i_{2})\\v_{3}=f_{3}(i_{3})\\v=v_{1}+v_{2}+v_{3}$$$$(3.19)$$
+Da cui deriva l'espressione che definisce formalmente la caratteristica del bipolo composto:
+$$v=f_{1}(i_{1})+f_{2}(i_{2})$$
