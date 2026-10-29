@@ -899,4 +899,6 @@ Vale anche la pena di osservare come tali formule sono di carattere generale e s
 Esse assumono una forma da ricordare nel caso di soli due resistori, per $N= 2$ dalla $(3.26)$ si ottiene:
 $$R_{eq}=\frac{1}{\frac{1}{R_{1}}+\frac{1}{R_{2}}}=\frac{R_{1}\cdot R_{2}}{R_{1}+R_{2}}$$
 
-#Esempio Ritorniamo ad analizzare il circuito in figura 3.5 già risolto nella sezione 3.2
+#Esempio Ritorniamo ad analizzare il circuito in figura 3.5 già risolto nell'esempio della [[#3.2 **Circuito parallelo**|sezione 3.2]]:
+![[Elettrotecnica-1793294733779.webp|281]]
+#
