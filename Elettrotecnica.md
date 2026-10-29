@@ -829,3 +829,9 @@ Si noti come nel circuito semplificato in figura 3.10 (Destra) si sia persa dell
 
 ### 3.4.2 **Serie di generatori di tensione**
 
+Componiamo in serie due generatori di tensione ideali come mostrato in figura:
+
+
+Si ha $v_{1} = E_{1}$ e $v_{2} =−E_{2}$ (si noti che nell’ottica della (1.20)
+
+ciò corrisponde a f1(i1) = E1 + i1 · 0 e f2(i2) =−E2 + i2 · 0) da cui
