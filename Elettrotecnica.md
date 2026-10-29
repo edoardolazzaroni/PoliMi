@@ -822,4 +822,5 @@ $$R_{eq}=R_{1}+R_{2}+R_{3}$$
 ![[Elettrotecnica-1793292753947.webp|466]]
 #Figura(3.10).
 
-I tre resistori in serie possono essere sostituiti da un unico resistore
+I tre resistori in serie possono essere sostituiti da un unico resistore $R_{eq}=30+20+10=60 \ \Omega$ come mostrato nel circuito semplificato in figura (Destra). In quest'ultimo è ora molto più semplice calcolare $i_{m}=\frac{24}{60}=0.4 \ A$.
+
