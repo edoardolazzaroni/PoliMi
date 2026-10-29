@@ -893,4 +893,12 @@ $$i=G_{1}\cdot v+G_{2}\cdot v+G_{3}\cdot v=(G_{1}+G_{2}+G_{3})\cdot v=\left( \fr
 da cui si deduce che il bipolo composto ha una caratteristica di tipo resistore (cioè $i= G\cdot v$) dove il coefficiente $G$ è dato dalla somma delle tre conduttanze elementari. Il bipolo composto è dunque equivalente ai fini esterni ad un unico resistore la cui conduttanza vale:
 $$G_{eq}=G_{1}+G_{2}+G_{3}$$
 o, se si preferisce, la cui resistenza vale:
-$$R_{eq}=\frac{1}{\frac{1}{R_{1}}+\frac{1}{R_{2}}+\frac{1}{R_{3}}}\quad$$
+$$R_{eq}=\frac{1}{\frac{1}{R_{1}}+\frac{1}{R_{2}}+\frac{1}{R_{3}}}\quad(3.26)$$
+
+Vale anche la pena di osservare come tali formule sono di carattere generale e si estendono facilmente al caso $N$ qualunque, per cui $G_{eq}=\sum_{i=1}^N G_{i}$.
+
+Esse assumon sse assumono una forma da ricordare nel caso di soli
+
+i=1
+
+due resistori, per N= 2 dalla (1.26) si ottiente:
