@@ -824,3 +824,6 @@ $$R_{eq}=R_{1}+R_{2}+R_{3}$$
 
 I tre resistori in serie possono essere sostituiti da un unico resistore $R_{eq}=30+20+10=60 \ \Omega$ come mostrato nel circuito semplificato in figura (Destra). In quest'ultimo è ora molto più semplice calcolare $i_{m}=\frac{24}{60}=0.4 \ A$.
 
+Si noti come nel circuito semplificato in figura 3.10 (Destra) si sia persa dell’informazione rispetto al circuito originale (per esempio $v_{1}$), tuttavia dopo aver determinato $i_{m}$ nel circuito semplificato, questa informazione può essere riguadagnata sostituendo il valore di detta corrente nel circuito originale. Per esempio $v_{1} = i_{m}\cdot 30= 12 \ V$.
+
+
