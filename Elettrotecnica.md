@@ -905,4 +905,6 @@ $$R_{eq}=\frac{1}{\frac{1}{R_{1}}+\frac{1}{R_{2}}}=\frac{R_{1}\cdot R_{2}}{R_{1}
 
 Sfruttando l’uso dell’equivalente, siamo ora in grado di seguire un procedimento diverso, ovvero possiamo prima calcolare la resistenza equivalente del bipolo collegato al generatore di corrente:
 $$R_{eq}=\frac{1\cdot 10}{1+10}=\frac{10}{11}\ \Omega$$
-E QUINDI C
+e quindi calcolare la tensione "a cavallo" del generatore di corrente:
+$$v=1\cdot \frac{10}{11}=\frac{10}{11} \ V$$
+da cui sarà poi immediato ricavare $i_{1}=\frac{10}{11}$
