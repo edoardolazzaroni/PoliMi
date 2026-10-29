@@ -815,3 +815,7 @@ Si consideri ora lo scenario in cui i bipoli elementari siano resistori di resis
 Dalla $(3.20)$ risulta:
 $$v=R_{1}\cdot i+R_{2}\cdot i+R_{3}\cdot i=(R_{1}+R_{2}+R_{3})\cdot i\quad(3.21)$$
 
+da cui si deduce che il bipolo composto ha una caratteristica di tipo resistore (cioè $V= R\cdot i$) dove il coefficiente $R$ è dato dalla somma delle tre resistenze elementari. Il bipolo composto è dunque equivalente ai fini esterni ad un unico resistore di valore:
+$$R_{eq}=R_{1}+R_{2}+R_{3}$$
+
+#Esempio Consider
