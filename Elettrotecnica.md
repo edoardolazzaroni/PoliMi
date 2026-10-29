@@ -888,4 +888,6 @@ Si consideri ora la circostanza in cui i bipoli elementari siano resistori di re
 #Figura(3.16).
 
 Dalla $(3.24)$ risulta:
-$$i=G_{1}\cdot v+G_{2}\cdot v+G_{3}\$$
+$$i=G_{1}\cdot v+G_{2}\cdot v+G_{3}\cdot v=(G_{1}+G_{2}+G_{3})\cdot v=\left( \frac{1}{R_{1}}+\frac{1}{R_{2}}+\frac{1}{R_{3}} \right)\cdot v\quad(3.25)$$
+
+da cui si deduce che i
