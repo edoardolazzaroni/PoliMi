@@ -782,4 +782,7 @@ Si consideri ora un bipolo che chiamiamo Bipolo $A$, che si suppone composto da 
 ![[Elettrotecnica-1793291870868.webp|333]]
 #Figura(3.7). *(<u>Alto</u>) Bipolo $A$ collegato ad una rete esterna; (<u>Basso</u>) Il Bipolo $A$ viene sostituito dal Bipolo $B$*
 
-Si supponga che esista un bipolo, che chiameremo Bipolo $B$, molto più semplice di $A$, nel senso che $B$ è composta da pochissimi elementi (vedremo più avanti che esso può essere formato da un solo componente, un resistore, oppure da due elementi, un resistore ed un generatore ideale). Il Bipolo $B$ ha una caratteristica del tipo $fB(v, i) = 0$.
+Si supponga che esista un bipolo, che chiameremo Bipolo $B$, molto più semplice di $A$, nel senso che $B$ è composta da pochissimi elementi (vedremo più avanti che esso può essere formato da un solo componente, un resistore, oppure da due elementi, un resistore ed un generatore ideale). Il Bipolo $B$ ha una caratteristica del tipo $f_{B}(v, i) = 0$.
+
+**Proprietà di equivalenza**: il Bipolo $B$ si dice equivalente al Bipolo $A$ se la sua caratteristica è uguale a quella di $A$, cioè $f_{A}(v, i) = f_{B}(v, i)$ (a meno di un fattore moltiplicativo, ad esempio la caratteristica $3v−i= 0$ è uguale a $6v−2i= 0$).
+
