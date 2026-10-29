@@ -872,5 +872,9 @@ La soluzione si trova semplicemente osservando che in entrambi i casi in figura 
 ## 3.5 **Equivalente di circuiti di tipo parallelo**
 
 Passiamo al caso di un bipolo composto ottenuto collegando in parallelo $N$ bipoli elementari. Quale esempio illustrativo, useremo il caso $N= 3$ come mostrato in figura:
+![[Elettrotecnica-1793294080240.webp|335]]
+#Figura(3.15).
 
-Le variabili $v$ ed $i$ descrivono il bipolo composto ai suoi morsetti esterni. Nell’ipotesi che
+Le variabili $v$ ed $i$ descrivono il bipolo composto ai suoi morsetti esterni. Nell’ipotesi che ogni bipolo elementare sia controllabile in tensione, cioè descritto da
+
+un’equazione caratteristica del tipo ik = gk(vk), avremo che:
