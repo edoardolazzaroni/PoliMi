@@ -935,6 +935,9 @@ da cui sarà poi immediato ricavare $i_{1}=\frac{10}{11} \ A$ ed $i_{2}=\frac{1}
 #### #Esercizio(serie/parallelo di resistori) (2)
 
 ![[Elettrotecnica-1793378518848.webp|213]]
-#Figura(3.20). Rete resistiva
+#Figura(3.20). *Rete resistiva*
 
-Si consideri ora il circuito resistivo in figura, ci viene richiesto di calcolare la resistenza equivalente vista ai morsetti $B−D$. Questo significa che la rete va pensata collegata ad una rete esterna ai morsetti specificati come mostrato in figura 3.21
+Si consideri ora il circuito resistivo in figura, ci viene richiesto di calcolare la resistenza equivalente vista ai morsetti $B−D$.
+Questo significa che la rete va pensata collegata ad una rete esterna ai morsetti specificati come mostrato in figura 3.21:
+![[Elettrotecnica-1793378577631.webp|331]]
+#Figura(3.21). Calcolo di $R_{eq}$ ai morsetti specificati $B-D$
