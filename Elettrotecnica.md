@@ -913,7 +913,7 @@ da cui sarà poi immediato ricavare $i_{1}=\frac{10}{11} \ A$ ed $i_{2}=\frac{1}
 #### #Esercizio(serie/parallelo di resistori) (1)
 
 > [!question] Esercizio
-> ![[Elettrotecnica-1793378297836.webp|233]]
+> ![[Elettrotecnica-1793378297836.webp|325x179]]
 > #Figura(3.18). *Circuito a scala*
 > 
 > Si consideri il circuito a scala mostrato in figura 3.18, ci viene richiesto di calcolare le correnti $I_{x}, I_{y}$. Si procede utilizzando la composizione serie e parallelo dei resistori e quindi il partitore di corrente.
@@ -927,7 +927,17 @@ da cui sarà poi immediato ricavare $i_{1}=\frac{10}{11} \ A$ ed $i_{2}=\frac{1}
 > $$I_{x}=I_{r}\frac{6}{3+6}=\frac{4}{3}\ A\\I_{y}=I_{r}\frac{3}{3+6}=\frac{2}{3}\ A$$
 > 
 > Si noti che $I_{x}+I_{y}=I_{r}$ come deve essere.
-> ![[Elettrotecnica-1793378358994.webp|243]]![[Elettrotecnica-1793378367995.webp|203x154]]
+> 
+> ![[Elettrotecnica-1793378358994.webp|276x143]]![[Elettrotecnica-1793378367995.webp|276x209]]
 > #Figura(3.19). *Riduzioni del circuito a scala*
 
 
+#### #Esercizio(serie/parallelo di resistori) (2)
+
+Si consideri ora il circuito resistivo in fig. 1.20, ci viene richiesto
+
+di calcolare la resistenza equivalente vista ai morsetti B−D. Questo
+
+significa che la rete va pensata collegata ad una rete esterna ai morsetti
+
+specificati come mostrato in fig. 1.21
