@@ -1057,4 +1057,6 @@ La rete esterna si può risolvere, tuttavia dopo aver determinato $i$ non è pos
 Rimangono da considerare **due casi notevoli di bipolo composto**:
 
 1) Il primo è formato dalla connessione serie di un generatore ideale di tensione e una resistenza, che viene talvolta indicato come modello del generatore reale di tensione o semplicemente modello serie:
-2) Componendo le caratteristiche dei due bipoli elementari (cioè sommando le tensioni nella maglia) è facile ottenere la caratteristica del bipolo composto:$$v=R_{s}\cdot i+E_{s}\quad(3.30)$$la cui rappresentazione grafica è mostra in figura:
+	Componendo le caratteristiche dei due bipoli elementari (cioè sommando le tensioni nella maglia) è facile ottenere la caratteristica del bipolo composto:$$v=R_{s}\cdot i+E_{s}\quad(3.30)$$la cui rappresentazione grafica è mostra in figura:
+
+2) Il secondo caso è formato
