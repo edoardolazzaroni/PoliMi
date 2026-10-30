@@ -912,3 +912,22 @@ da cui sarà poi immediato ricavare $i_{1}=\frac{10}{11} \ A$ ed $i_{2}=\frac{1}
 
 #### #Esercizio(serie/parallelo di resistori) (1)
 
+Si consideri il circuito a scala mostrato in figura 3.18, ci viene richiesto di calcolare le correnti $I_{x}, Iy$. Si procede utilizzando la composizione
+
+serie e parallelo dei resistori e quindi il partitore di corrente. Sug-
+
+gerimento: 6Ω e 3Ω sono in parallelo e la loro composizione in serie
+
+con 4Ω ciò porta al circuito in fig. 1.19(Alto). Questo si riduce ulteri-
+
+ormente, 4Ω in serie con 2Ω e la loro composizione in parallelo con
+
+12Ω porta al circuito in fig. 1.19(Basso). Da questo si calcola agevol-
+
+mente Iz:
+
+18
+
+Iz =
+
+4 + 2= 3A.
