@@ -1002,10 +1002,10 @@ $$-I_{s_{4}}+\frac{v_{1}}{R_{1}}+I_{s_{2}}+\frac{v_{3}}{R_{3}}=0$$
 Quindi osservando che $v_{1}=v_{3}=v_{AB}$ e riordinando si ottiene:
 $$-I_{s_{4}}-I_{s_{2}}=v_{AB}\left( \frac{1}{R_{1}}+\frac{1}{R_{3}} \right)$$
 
-Quest’ultima equazione è la stessa che governa il circuito mostrato in figura 3.24 (Destra) dove i generatori di corrente sono stati "spostati" (ma
+Quest’ultima equazione è la stessa che governa il circuito mostrato in figura 3.24 (Destra), dove i generatori di corrente sono stati "spostati" (ma senza cambiare i punti in cui sono connessi) in modo da rendere evidente che sono in parallelo. Lo stesso vale per i resistori.
+E’ ora possibile comporre i generatori di corrente ed i resistori in parallelo.
 
-senza cambiare i punti in cui sono connessi !) in modo da rendere
 
-evidente che sono in parallelo. Lo stesso vale per i resistori. E’ ora
+### 3.5.3 **Parallelo con generatore ideale di tensione**
 
-possibile comporre i generatori di corrente ed i resistori in parallelo.
+La presenza di un generatore ideale di tensione in un circuito composto parallelo, come mostrato nella figura dà origine a un caso
