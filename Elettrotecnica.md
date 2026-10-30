@@ -1075,4 +1075,10 @@ Rimangono da considerare **due casi notevoli di bipolo composto**:
 
 Da queste si ottengono le condizioni per il **passaggio da modello parallelo a serie**:
 $$R_{s}=R_{p}\\E_{s}=I_{p}\cdot R_{p}$$$$(3.31)$$
-e quelle per il passaggio da serie a parallelo:
+e quelle per il **passaggio da serie a parallelo**:
+$$R_{p}=R_{s}\\I_{P}=\frac{E_{s}}{R_{s}}$$$$(3.32)$$
+
+Qualche semplice applicazione aiuta a fissare queste formule di trasformazione.
+Per es. si consideri il generatore reale tipo serie,
+
+con in fig. 1.33 il corrispondente modello parallelo si ottiene dai conti
