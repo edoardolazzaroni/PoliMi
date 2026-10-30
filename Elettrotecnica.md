@@ -1028,7 +1028,7 @@ $$\begin{cases}
 x=1\\x=2
 \end{cases}$$
 Nel caso in cui, invece, $I_{s_{1}} = I_{s_{2}}$, non si ha violazione della KCL in $n$, in questo caso, ai fini esterni, la composizione serie è equivalente ad un solo generatore di valore $I_{eq} = I_{s_{1}} = I_{s_{2}}$.
-La rete esterna si può risolvere, tuttavia dopo aver determinato $v$ non è possibile ripartire questo valore tra $v_{1}$ e $v_{2}$, avendo come unica informazione che $v_{1} + v_{2} = v$. Si ha una indeterminazione di alcune variabili.
+La rete esterna si può risolvere, tuttavia dopo aver determinato $v$ non è possibile ripartire questo valore tra $v_{1}$ e $v_{2}$, avendo come unica informazione che $v_{1} + v_{2} = v$. Si ha una **indeterminazione di alcune variabili**.
 
 
 #Esempio Nel circuito mostrato in figurasi ha che i due generatori di corrente, non violando la KCL al nodo $n$, sono equivalenti ai fini esterni ad un solo generatore di valore $I_{s}= 1 \ A$, come mostrato in figura 3.27 (Destra).
@@ -1048,8 +1048,18 @@ La stessa discussione vale per il circuito parallelo in figura:
 #Figura(3.28). *Circuito patologico parallelo*
 
 Se $E_{1} \ne E_{2}$, è violata la legge di Kirchhoff delle tensioni, <u>il problema non ammette soluzione</u>. Infine, nel caso in cui, invece, $E_{1} = E_{2}$, non si ha violazione della KVL, ai fini esterni, la composizione parallelo è equivalente ad un solo generatore di valore $E_{eq} = E_{1} = E_{2}$.
-La rete esterna si può risolvere, tuttavia dopo aver determinato $i$ non è possibile ripartire questo valore di corrente tra $i_{1}$ e $i_{2}$, avendo come
+La rete esterna si può risolvere, tuttavia dopo aver determinato $i$ non è possibile ripartire questo valore di corrente tra $i_{1}$ e $i_{2}$, avendo come unica informazione che $i_{1} + i_{2} = i$. Si ha una **indeterminazione nelle due correnti**.
 
-unica informazione che i1 + i2 = i. Si ha una indeterminazione nelle
 
-due correnti.
+
+## 3.7 **Trasformazione serie-parallelo dei generatori reali**
+
+Rimangono da considerare due casi notevoli di bipolo composto.
+
+Il primo è formato dalla connessione serie di un generatore ideale
+
+di tensione e una resistenza, figura 1.29, che viene talvolta indicato
+
+come modello del generatore reale di tensione o semplicemente mod-
+
+ello serie. Componendo le caratteristiche dei due bipoli elementari
