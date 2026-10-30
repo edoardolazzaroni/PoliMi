@@ -1019,8 +1019,9 @@ Tuttavia, la soluzione si trova semplicemente osservando come la tensione $v$ de
 ## 3.6 **Casi senza soluzione o con indeterminazione**
 
 Componendo in serie o in parallelo generatori ideali rispettivamente di corrente o tensione è possibile costruire sulla carta circuiti che non ammettono soluzione e quindi che non corrispondono a circuiti fisici. Taluni chiamano questi **circuiti patologici**.
-
 Si osservi per esempio il circuito serie in figura:
+![[Elettrotecnica-1793380162553.webp|305]]
+#Figura(3.26). *Circuito patologico serie*
 
 Se Is1 ̸= Is2, al nodo interno n è violata la legge di Kirchhoff delle
 
