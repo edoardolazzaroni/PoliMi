@@ -987,4 +987,12 @@ Componiamo in parallelo due generatori ideali di corrente come mostrato in figur
 #Figura(3.23).
 
 Si ha $i_{1}=−I_{s_{1}}$ (<u>attenzione al segno!</u>), $i_{2} = I_{s_{2}}$ e $i_{3} = I_{s_{3}}$ (si noti che nell’ottica della $(3.24)$ ciò corrisponde a $g_{1}(v_{1}) =−I_{s_{1}} + v_{1} \cdot 0, g_{2}(v_{2}) = I_{s_{2}} + v_{2} \cdot 0$ e $g_{3}(v_{3}) = I_{s_{3}} + v_{3} \cdot 0$, da cui:
-$$i=i_{1}+i_{2}+i_{3}=-I_{s_{1}}+I_{s_{2}}+I_{s}$$
+$$i=i_{1}+i_{2}+i_{3}=-I_{s_{1}}+I_{s_{2}}+I_{s_{3}}\quad(3.27)$$
+
+Il tipo di legame costitutivo del bipolo composto è dunque quello di un generatore ideale di corrente equivalente, cioè $i= I_{eq}$ per qualunque valore di tensione, dove la corrente impressa $I_{eq}$ è data dalla somma con segno dei valori dei generatori elementari.
+
+
+Esaminiamo ora il circuito in figura 3.24 (Sinistra)
+![[Elettrotecnica-1793379741173.webp]]
+
+Sommando le cor-
