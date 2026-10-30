@@ -910,3 +910,4 @@ $$v=1\cdot \frac{10}{11}=\frac{10}{11} \ V$$
 da cui sarà poi immediato ricavare $i_{1}=\frac{10}{11} \ A$ ed $i_{2}=\frac{1}{11} \ A$.
 
 
+#### #Esercizio(Leggi di Kirchoff) (1)
