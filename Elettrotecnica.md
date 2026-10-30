@@ -934,15 +934,28 @@ da cui sarà poi immediato ricavare $i_{1}=\frac{10}{11} \ A$ ed $i_{2}=\frac{1}
 
 #### #Esercizio(serie/parallelo di resistori) (2)
 
-![[Elettrotecnica-1793378518848.webp|213]]
-#Figura(3.20). *Rete resistiva*
+> [!question] Esercizio
+> ![[Elettrotecnica-1793378518848.webp|247x231]]
+> #Figura(3.20). *Rete resistiva*
+> 
+> Si consideri ora il circuito resistivo in figura, ci viene richiesto di calcolare la resistenza equivalente vista ai morsetti $B−D$.
+> Questo significa che la rete va pensata collegata ad una rete esterna ai morsetti specificati come mostrato in figura 3.21:
+> 
+> ![[Elettrotecnica-1793378577631.webp|331]]
+> #Figura(3.21). *Calcolo di $R_{eq}$ ai morsetti specificati $B-D$*
+> 
+> In questo caso la corrente i scorre attraverso le resistenze $R_{2}$ ed $R_{4}$ che sono dunque in serie. Viceversa, le resistenze $R_{1}$ ed $R_{3}$ sono "<u>flottanti</u>" (cioè in serie con un circuito aperto) e quindi hanno correnti nulle. Vale dunque:
+> $$R_{eq} = R_{2} + R_{4}$$
+> 
+> Quanto vale la resistenza vista ai morsetti $A−C$ e quella vista ai morsetti $A−B$?
 
-Si consideri ora il circuito resistivo in figura, ci viene richiesto di calcolare la resistenza equivalente vista ai morsetti $B−D$.
-Questo significa che la rete va pensata collegata ad una rete esterna ai morsetti specificati come mostrato in figura 3.21:
-![[Elettrotecnica-1793378577631.webp|331]]
-#Figura(3.21). *Calcolo di $R_{eq}$ ai morsetti specificati $B-D$*
 
-In questo caso la corrente i scorre attraverso le resistenze $R_{2}$ ed $R_{4}$ che sono dunque in serie. Viceversa, le resistenze $R_{1}$ ed $R_{3}$ sono "<u>flottanti</u>" (cioè in serie con un circuito aperto) e quindi hanno correnti nulle. Vale dunque:
-$$R_{eq} = R_{2} + R_{4}$$
+#### #Esercizio(serie/parallelo di resistori) (3)
 
-Quanto vale la resistenza vista ai morsetti $A−C e quella vista ai morsetti A−B ?
+Analizziamo ora i circuiti mostrati in figura 3.22 partendo dal primo
+
+caso A. In questa configurazione R1 ed R2 sono in parallelo, infatti
+
+v1 = v2 e Is = i1 + i2. Quindi applicando la formula del partitore di
+
+corrente si ha per es.:
