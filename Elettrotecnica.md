@@ -1087,6 +1087,7 @@ Qualche semplice applicazione aiuta a fissare queste formule di trasformazione.
 Il corrispondente modello parallelo si ottiene dai conti:
 $$I_{p}=\frac{12}{3}=4 \ A;\quad R_{p}=R_{s}=3 \ \Omega$$
 
+
 Similmente, dato il generatore reale tipo parallelo in figura:
 ![[Elettrotecnica-1793381844742.webp|489]]
 #Figura(3.34). *Esempio di trasformazione serie parallelo*
