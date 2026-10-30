@@ -1009,6 +1009,11 @@ E’ ora possibile comporre i generatori di corrente ed i resistori in parallelo
 ### 3.5.3 **Parallelo con generatore ideale di tensione**
 
 La presenza di un generatore ideale di tensione in un circuito composto parallelo, come mostrato nella figura dà origine a un caso particolare in cui non è più possibile applicare la trattazione generale in $(3.24)$: infatti in questo caso **il generatore di tensione non è controllabile in tensione** e dunque non ammette equazione del tipo $i= f (v)$.
-
+![[Elettrotecnica-1793380000228.webp|425]]
+#Figura(3.25). *Parallelo con generatore ideale di tensione*
 
 Tuttavia, la soluzione si trova semplicemente osservando come la tensione $v$ del bipolo composto sia "forzata" al valore $v = E_{s}$ dal generatore di tensione e dunque che ai fini esterni il bipolo composto è equivalente ad un generatore di tensione di valore $E_{eq} = E_{s}$.
+
+
+
+## 3.6 **Casi senza sol**
