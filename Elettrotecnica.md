@@ -993,6 +993,10 @@ Il tipo di legame costitutivo del bipolo composto è dunque quello di un generat
 
 
 Esaminiamo ora il circuito in figura 3.24 (Sinistra)
-![[Elettrotecnica-1793379741173.webp]]
+![[Elettrotecnica-1793379741173.webp|452]]
+#Figura(3.24).
 
-Sommando le cor-
+Sommando le correnti al nodo $A$ si ha:
+$$-I_{s_{4}}+\frac{v_{1}}{R_{1}}+I_{s_{2}}+\frac{v_{3}}{R_{3}}=0$$
+
+Quindi osservan
