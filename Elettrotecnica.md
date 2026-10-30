@@ -973,4 +973,7 @@ $$v_{x}=I_{s}\frac{(R_{1}+R_{3})(R_{2}+R_{4})}{(R_{1}+R_{3})+(R_{2}+R_{4})}$$
 **C)** Si ha che $R_{3}$ ed $R_{4}$ sono in parallelo ed $R_{1}$ è in parallelo con $R_{2}$. Dal partitore di corrente troviamo:
 $$i_{1}=I_{s}\frac{R_{2}}{R_{1}+R_{2}}\\i_{3}=I_{s}\frac{R_{4}}{R_{3}+R_{4}}$$
 e quindi:
-$$I_{x}=i_{1}-i_{3}=I_{s}\frac{R_{2}}{R_{1}+R_{2}}-$$
+$$I_{x}=i_{1}-i_{3}=I_{s}\frac{R_{2}}{R_{1}+R_{2}}-I_{s}\frac{R_{4}}{R_{3}+R_{4}}$$
+
+Volendo si può anche ricavare la tensione:
+$$v_{x}=i_{3}R_{3}+i_{1}R_{1}=I_{s}\frac{R_{4}R_{3}}{R_{3}+R_{4}}+I_{S}$$
