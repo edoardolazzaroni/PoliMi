@@ -917,4 +917,6 @@ Si consideri il circuito a scala mostrato in figura 3.18, ci viene richiesto di 
 *Suggerimento*: $6 \ \Omega$ e $3\ \Omega$ sono in parallelo e la loro composizione in serie con $4\ \Omega$ ciò porta al circuito in figura 3.19 (Alto). Questo si riduce ulteriormente, $4\ \Omega$ in serie con $2\ \Omega$ e la loro composizione in parallelo con $12\ \Omega$ porta al circuito in figura 3.19 (Basso). Da questo si calcola agevolmente $I_{z}$:
 $$I_z{} = \frac{18}{4+2}= 3\ A$$
 
-Ora si procede a ritroso tra i circuiti successivamente ridotti, così dal circuito in figura 3.19 (Alto), nota $I_{z}$ si c
+Ora si procede a ritroso tra i circuiti successivamente ridotti, così dal circuito in figura 3.19 (Alto), nota $I_{z}$ si calcola $I_{r}$ col partitore di corrente:
+$$I_{r}=I_{z}\frac{12}{12+6}=2 \ A$$
+Infine tornando al circuito di partenza in figura 3.18, si pu
