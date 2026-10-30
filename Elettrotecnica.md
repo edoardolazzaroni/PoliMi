@@ -952,28 +952,31 @@ da cui sarà poi immediato ricavare $i_{1}=\frac{10}{11} \ A$ ed $i_{2}=\frac{1}
 
 #### #Esercizio(serie/parallelo di resistori) (3)
 
-![[Elettrotecnica-1793378918070.webp|215]]
-#Figura(3.22). *Esempi di vari circuiti con resistori in parallelo/serie*
+> [!question] Esercizio
+> ![[Elettrotecnica-1793378918070.webp|215]]
+> #Figura(3.22). *Esempi di vari circuiti con resistori in parallelo/serie*
+> 
+> Analizziamo ora i circuiti mostrati in figura 3.22 partendo dal primo caso $A$.
+> 
+> **A)** In questa configurazione $R_{1}$ ed $R_{2}$ sono in parallelo, infatti $v_{1} = v_{2}$ e $I_{s} = i_{1} + i_{2}$. Quindi applicando la formula del partitore di corrente si ha per esempio:
+> $$i_{2}=I_{s}\frac{R_{1}}{R_{1}+R_{2}}$$
+> e la relativa tensione vale:
+> $$v_{2}=i_{2}R_{2}=I_{s}\frac{R_{1}R_{2}}{R_{1}+R_{2}}$$
+> che correttamente conferma la composizione parallelo dei due resistori.
+> 
+> **B)** $R_{1}$ è in serie con $R_{3}$ mentre $R_{4}$ è in serie con $R_{2}$. Le composizioni serie di questi resistori sono poi in parallelo al generatore di corrente. Quindi applicando il partitore di corrente:
+> $$i_{1}=I_{s}\frac{R_{2}+R_{4}}{(R_{1}+R_{3})+(R_{2}+R_{4})}$$
+> oppure:
+> $$i_{2}=I_{s}\frac{R_{1}+R_{3}}{(R_{1}+R_{3})+(R_{2}+R_{4})}$$
+> e la tensione del generatore vale:
+> $$v_{x}=I_{s}\frac{(R_{1}+R_{3})(R_{2}+R_{4})}{(R_{1}+R_{3})+(R_{2}+R_{4})}$$
+> 
+> **C)** Si ha che $R_{3}$ ed $R_{4}$ sono in parallelo ed $R_{1}$ è in parallelo con $R_{2}$. Dal partitore di corrente troviamo:
+> $$i_{1}=I_{s}\frac{R_{2}}{R_{1}+R_{2}}\\i_{3}=I_{s}\frac{R_{4}}{R_{3}+R_{4}}$$
+> e quindi:
+> $$I_{x}=i_{1}-i_{3}=I_{s}\frac{R_{2}}{R_{1}+R_{2}}-I_{s}\frac{R_{4}}{R_{3}+R_{4}}$$
+> 
+> Volendo si può anche ricavare la tensione:
+> $$v_{x}=i_{3}R_{3}+i_{1}R_{1}=I_{s}\frac{R_{4}R_{3}}{R_{3}+R_{4}}+I_{s}\frac{R_{2}R_{1}}{R_{1}+R_{2}}$$
 
-Analizziamo ora i circuiti mostrati in figura 3.22 partendo dal primo caso $A$.
 
-**A)** In questa configurazione $R_{1}$ ed $R_{2}$ sono in parallelo, infatti $v_{1} = v_{2}$ e $I_{s} = i_{1} + i_{2}$. Quindi applicando la formula del partitore di corrente si ha per esempio:
-$$i_{2}=I_{s}\frac{R_{1}}{R_{1}+R_{2}}$$
-e la relativa tensione vale:
-$$v_{2}=i_{2}R_{2}=I_{s}\frac{R_{1}R_{2}}{R_{1}+R_{2}}$$
-che correttamente conferma la composizione parallelo dei due resistori.
-
-**B)** $R_{1}$ è in serie con $R_{3}$ mentre $R_{4}$ è in serie con $R_{2}$. Le composizioni serie di questi resistori sono poi in parallelo al generatore di corrente. Quindi applicando il partitore di corrente:
-$$i_{1}=I_{s}\frac{R_{2}+R_{4}}{(R_{1}+R_{3})+(R_{2}+R_{4})}$$
-oppure:
-$$i_{2}=I_{s}\frac{R_{1}+R_{3}}{(R_{1}+R_{3})+(R_{2}+R_{4})}$$
-e la tensione del generatore vale:
-$$v_{x}=I_{s}\frac{(R_{1}+R_{3})(R_{2}+R_{4})}{(R_{1}+R_{3})+(R_{2}+R_{4})}$$
-
-**C)** Si ha che $R_{3}$ ed $R_{4}$ sono in parallelo ed $R_{1}$ è in parallelo con $R_{2}$. Dal partitore di corrente troviamo:
-$$i_{1}=I_{s}\frac{R_{2}}{R_{1}+R_{2}}\\i_{3}=I_{s}\frac{R_{4}}{R_{3}+R_{4}}$$
-e quindi:
-$$I_{x}=i_{1}-i_{3}=I_{s}\frac{R_{2}}{R_{1}+R_{2}}-I_{s}\frac{R_{4}}{R_{3}+R_{4}}$$
-
-Volendo si può anche ricavare la tensione:
-$$v_{x}=i_{3}R_{3}+i_{1}R_{1}=I_{s}\frac{R_{4}R_{3}}{R_{3}+R_{4}}+I_{S}$$
