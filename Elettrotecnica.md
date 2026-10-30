@@ -1092,4 +1092,6 @@ Similmente, dato il generatore reale tipo parallelo in figura:
 #Figura(3.34). *Esempio di trasformazione serie parallelo*
 
 Il corrispondente modello serie risulta:
-$$$$
+$$E_{s}=0.1\cdot 50=5 \ V;\quad R_{s}=R_{p}=50 \ \Omega$$
+
+in cui <u>fare attenzione al verso corretto del generatore ideale di tensione</u>.
