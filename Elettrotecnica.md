@@ -1031,4 +1031,16 @@ Nel caso in cui, invece, $I_{s_{1}} = I_{s_{2}}$, non si ha violazione della KCL
 La rete esterna si può risolvere, tuttavia dopo aver determinato $v$ non è possibile ripartire questo valore tra $v_{1}$ e $v_{2}$, avendo come unica informazione che $v_{1} + v_{2} = v$. Si ha una indeterminazione di alcune variabili.
 
 
-#Esempio Nel circuito mostrato in figura 3.27 si ha che i due generatori di corrente, non violando la KCL al nodo $n$, sono equivalenti ai fini esterni ad un solo generatore di valore $I_{s}= 1 \ A$, come mostrato in figura 1.27(Destra). Dunque, i= 1A e quindi dalla legge di Ohm
+#Esempio Nel circuito mostrato in figurasi ha che i due generatori di corrente, non violando la KCL al nodo $n$, sono equivalenti ai fini esterni ad un solo generatore di valore $I_{s}= 1 \ A$, come mostrato in figura 3.27 (Destra).
+![[Elettrotecnica-1793380395382.webp|408]]
+#Figura(3.27). *Circuito indeterminato*
+
+Dunque, $i= 1 \ A$ e quindi dalla legge di Ohm (<u>attenzione al segno!</u>) $v =−1 · 4=−4 V. Ora, tornando sul circuito
+
+di partenza sappiamo che v1 + v2 =−4V ma abbiano un grado di
+
+indeterminazione in v1 e v2 (posso fissare ad arbitrio una di loro).
+
+Nell’analogia matematica, ciò corrisponde ad un sistema in x ed y
+
+del tipo:
