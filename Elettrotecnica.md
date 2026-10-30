@@ -1056,7 +1056,7 @@ La rete esterna si può risolvere, tuttavia dopo aver determinato $i$ non è pos
 
 Rimangono da considerare **due casi notevoli di bipolo composto**:
 
-1) Il primo è formato dalla connessione serie di un generatore ideale di tensione e una resistenza, che viene talvolta indicato come modello del generatore reale di tensione o semplicemente modello serie:![[Elettrotecnica-1793380975833.webp|412]]
+1) Il primo è formato dalla connessione serie di un generatore ideale di tensione e una resistenza, che viene talvolta indicato come modello del generatore reale di tensione o semplicemente **modello serie**:![[Elettrotecnica-1793380975833.webp|412]]
 	#Figura(3.29). *Modello serie*
 	Componendo le caratteristiche dei due bipoli elementari (cioè sommando le tensioni nella maglia) è facile ottenere la caratteristica del bipolo composto:$$v=R_{s}\cdot i+E_{s}\quad(3.30)$$la cui rappresentazione grafica è mostra in figura:![[Elettrotecnica-1793381074372.webp|450]]
 	#Figura(3.30). *Composizione grafica di tipo serie*
@@ -1064,4 +1064,5 @@ Rimangono da considerare **due casi notevoli di bipolo composto**:
 	Si noti che la caratteristica complessiva è una retta di pendenza pari a $R_{s}$ che interseca l’asse delle tensioni (luogo dei punti in cui $i= 0$) nel valore $v = E_{s}$ (detto tensione a vuoto) e l’asse delle correnti (luogo dei punti in cui $v = 0$) nel valore $i=\frac{−E_{s}}{R_{s}}$ (corrente di corti circuito).
 
 
-2) Il secondo caso è formato
+1) Il secondo caso è formato dalla connessione parallelo di un generatore ideale di corrente e una resistenza, che potremo indicare come modello del generatore reale di corrente o semplicemente **modello parallelo**:
+	Componendo le caratteristiche (cioè sommando le correnti al nodo) dei due bipoli elementari si ottiene la caratteristica del bipolo composto:
