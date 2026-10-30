@@ -1035,12 +1035,10 @@ La rete esterna si può risolvere, tuttavia dopo aver determinato $v$ non è pos
 ![[Elettrotecnica-1793380395382.webp|408]]
 #Figura(3.27). *Circuito indeterminato*
 
-Dunque, $i= 1 \ A$ e quindi dalla legge di Ohm (<u>attenzione al segno!</u>) $v =−1 · 4=−4 V. Ora, tornando sul circuito
-
-di partenza sappiamo che v1 + v2 =−4V ma abbiano un grado di
-
-indeterminazione in v1 e v2 (posso fissare ad arbitrio una di loro).
-
-Nell’analogia matematica, ciò corrisponde ad un sistema in x ed y
-
-del tipo:
+Dunque, $i= 1 \ A$ e quindi dalla legge di Ohm (<u>attenzione al segno!</u>) $v =−1 \cdot 4=−4 \ V$.
+Ora, tornando sul circuito di partenza sappiamo che $v_{1} + v_{2} =−4 \ V$ ma abbiano un grado di indeterminazione in $v_{1}$ e $v_{2}$ (posso fissare ad arbitrio una di loro).
+Nell’analogia matematica, ciò corrisponde ad un sistema in $x$ ed $y$ del tipo:
+$$\begin{cases}
+x=1\\x=1
+\end{cases}$$
+che è indeterminato nel
