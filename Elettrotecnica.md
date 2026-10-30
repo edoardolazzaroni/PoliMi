@@ -1067,4 +1067,7 @@ Rimangono da considerare **due casi notevoli di bipolo composto**:
 - Il secondo caso è formato dalla connessione parallelo di un generatore ideale di corrente e una resistenza, che potremo indicare come modello del generatore reale di corrente o semplicemente **modello parallelo**:![[Elettrotecnica-1793381256952.webp|279]]
 	#Figura(3.31). *Modello parallelo*
 	Componendo le caratteristiche (cioè sommando le correnti al nodo) dei due bipoli elementari si ottiene la caratteristica del bipolo composto:$$i=v\cdot \frac{1}{R_{p}}-I_{p}$$la cui rappresentazione grafica è mostrata in figura:![[Elettrotecnica-1793381368409.webp|361]]
-	#Figura(3.32)
+	#Figura(3.32). *Composizione grafica di tipo parallelo*
+	Anche in questo secondo caso la caratteristica complessiva è una retta non passante per l’origine degli assi $(i, v)$. Tale retta caratteristica ha pendenza $R_{p}$ ed interseca l’asse delle tensioni $(i= 0)$ nel valore $v = I_{p}· Rp$ (tensione a vuoto) e l’asse delle correnti (v = 0) nel
+
+valore i=−Ip (corrente di corto circuito).
