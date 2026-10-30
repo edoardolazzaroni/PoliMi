@@ -1047,12 +1047,9 @@ La stessa discussione vale per il circuito parallelo in figura:
 ![[Elettrotecnica-1793380526978.webp|297]]
 #Figura(3.28). *Circuito patologico parallelo*
 
-Se $E1 \ne E2$, è violata la legge di Kirchhoff delle tensioni, il prob-
+Se $E_{1} \ne E_{2}$, è violata la legge di Kirchhoff delle tensioni, <u>il problema non ammette soluzione</u>. Infine, nel caso in cui, invece, $E_{1} = E_{2}$, non si ha violazione della KVL, ai fini esterni, la composizione parallelo è equivalente ad un solo generatore di valore $E_{eq} = E_{1} = E_{2}$.
+La rete esterna si può risolvere, tuttavia dopo aver determinato $i$ non è possibile ripartire questo valore di corrente tra $i_{1}$ e $i_{2}$, avendo come
 
-lema non ammette soluzione. Infine, nel caso in cui, invece, E1 = E2,
+unica informazione che i1 + i2 = i. Si ha una indeterminazione nelle
 
-non si ha violazione della KVL, ai fini esterni, la composizione par-
-
-allelo è equivalente ad un solo generatore di valore Eeq = E1 = E2.
-
-La rete esterna si può risolvere, tuttavia dopo aver determinato i non
+due correnti.
