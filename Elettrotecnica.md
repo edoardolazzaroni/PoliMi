@@ -1068,6 +1068,17 @@ Rimangono da considerare **due casi notevoli di bipolo composto**:
 	#Figura(3.31). *Modello parallelo*
 	Componendo le caratteristiche (cioè sommando le correnti al nodo) dei due bipoli elementari si ottiene la caratteristica del bipolo composto:$$i=v\cdot \frac{1}{R_{p}}-I_{p}$$la cui rappresentazione grafica è mostrata in figura:![[Elettrotecnica-1793381368409.webp|361]]
 	#Figura(3.32). *Composizione grafica di tipo parallelo*
-	Anche in questo secondo caso la caratteristica complessiva è una retta non passante per l’origine degli assi $(i, v)$. Tale retta caratteristica ha pendenza $R_{p}$ ed interseca l’asse delle tensioni $(i= 0)$ nel valore $v = I_{p}· Rp$ (tensione a vuoto) e l’asse delle correnti (v = 0) nel
+	Anche in questo secondo caso la caratteristica complessiva è una retta non passante per l’origine degli assi $(i, v)$. Tale retta caratteristica ha pendenza $R_{p}$ ed interseca l’asse delle tensioni $(i= 0)$ nel valore $v = I_{p} \cdot R_{p}$ (tensione a vuoto) e l’asse delle correnti $(v = 0)$ nel valore $i=−I_{p}$ (corrente di corto circuito).
 
-valore i=−Ip (corrente di corto circuito).
+
+Poiché il circuito serie e quello parallelo sono rappresentati dallo stesso tipo di caratteristica sarà possibile renderli equivalenti tra loro per una opportuna scelta dei loro parametri circuitali. Per uguagliare le due caratteristiche si può imporre che le due rette abbiano la stessa pendenza, cioè $R_{p} = R_{s}$ e quindi che abbiano la stessa tensione a vuoto $E_{s} = I_{p}\cdot R_{p}$
+
+o equivalentemente la stessa corrente di corto circuito−Ip =−
+
+Es
+
+Rs.
+
+Da queste si ottengono le condizioni per il passaggio da modello
+
+parallelo a serie
