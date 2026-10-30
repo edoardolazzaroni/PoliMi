@@ -952,6 +952,8 @@ da cui sarà poi immediato ricavare $i_{1}=\frac{10}{11} \ A$ ed $i_{2}=\frac{1}
 
 #### #Esercizio(serie/parallelo di resistori) (3)
 
+![[Elettrotecnica-1793378918070.webp|215]]
+#Figura(3.22)
 Analizziamo ora i circuiti mostrati in figura 3.22 partendo dal primo caso $A$.
 
 A) In questa configurazione $R_{1}$ ed $R_{2}$ sono in parallelo, infatti $v_{1} = v_{2}$ e $I_{s} = i_{1} + i_{2}$. Quindi applicando la formula del partitore di corrente si ha per esempio:
@@ -960,4 +962,4 @@ e la relativa tensione vale:
 $$v_{2}=i_{2}R_{2}=I_{s}\frac{R_{1}R_{2}}{R_{1}+R_{2}}$$
 che correttamente conferma la composizione parallelo dei due resistori.
 
-B) 
+B) $R_{1}$ è in serie con $R_{3}$ mentre $R_{4}$ è in serie con $R_{2}$. Le composizioni serie di questi resistori sono poi in parallelo al generatore di corrente. Quindi applicando il partitore di corrente:
