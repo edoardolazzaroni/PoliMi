@@ -1027,3 +1027,13 @@ Se $I_{s_{1}} \ne I_{s_{2}}$, al nodo interno $n$ è violata la legge di Kirchho
 $$\begin{cases}
 x=1\\x=2
 \end{cases}$$
+Nel caso in cui, invece, $I_{s_{1}} = I_{s_{2}}$, non si ha violazione della KCL in $n$, in questo caso, ai fini esterni, la composizione serie è equivalente ad un solo generatore di valore $I_{eq} = I_{s_{1}} = I_{s_{2}}$.
+La rete esterna si può risolvere, tuttavia dopo aver determinato $v$ non è possibile ripartire questo valore tra $v_{1}$ e $v_{2}$, avendo come unica informazione che $v + v2 = v$. Si ha una indeterminazione di alcune variabili. Per
+
+esempio, nel circuito mostrato in figura 1.27 si ha che i due generatori
+
+di corrente, non violando la KCL al nodo n, sono equivalenti ai fini
+
+esterni ad un solo generatore di valore Is= 1 A, come mostrato in
+
+figura 1.27(Destra). Dunque, i= 1A e quindi dalla legge di Ohm
