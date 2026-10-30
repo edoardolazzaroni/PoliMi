@@ -984,4 +984,4 @@ da cui sarà poi immediato ricavare $i_{1}=\frac{10}{11} \ A$ ed $i_{2}=\frac{1}
 
 Componiamo in parallelo due generatori ideali di corrente come mostrato in figura:
 
-Si ha $i_{1}=−I_{s_{1}}$ (<u>attenzione al segno!</u>), $i_{2} = I_{s_{2}}$ e $i_{3} = I_{s_{3}}$ (si noti che nell’ottica della $(3.24)$ ciò corrisponde a $g_{1}(v_{1}) =−I_{s_{1}} + v_{1} \ 0, g2(v2) = Is2 + v2 · 0$ e $g3(v3) = Is3 + v3 · 0$, da cui
+Si ha $i_{1}=−I_{s_{1}}$ (<u>attenzione al segno!</u>), $i_{2} = I_{s_{2}}$ e $i_{3} = I_{s_{3}}$ (si noti che nell’ottica della $(3.24)$ ciò corrisponde a $g_{1}(v_{1}) =−I_{s_{1}} + v_{1} \cdot 0, g_{2}(v_{2}) = I_{s_{2}} + v_{2} \cdot 0$ e $g_{3}(v_{3}) = I_{s_{3}} + v_{3} \cdot 0$, da cui:
