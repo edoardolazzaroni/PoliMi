@@ -919,4 +919,5 @@ $$I_z{} = \frac{18}{4+2}= 3\ A$$
 
 Ora si procede a ritroso tra i circuiti successivamente ridotti, così dal circuito in figura 3.19 (Alto), nota $I_{z}$ si calcola $I_{r}$ col partitore di corrente:
 $$I_{r}=I_{z}\frac{12}{12+6}=2 \ A$$
-Infine tornando al circuito di partenza in figura 3.18, si pu
+Infine tornando al circuito di partenza in figura 3.18, si può valutare $I_{x}$ e $I_{y}$, ovvero:
+$$I_{x}=I_{r}\frac{6}{3+6}=\frac{4}{3}\ A\\I_{}$$
