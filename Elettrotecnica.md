@@ -1023,10 +1023,7 @@ Si osservi per esempio il circuito serie in figura:
 ![[Elettrotecnica-1793380162553.webp|305]]
 #Figura(3.26). *Circuito patologico serie*
 
-Se Is1 ̸= Is2, al nodo interno n è violata la legge di Kirchhoff delle
-
-correnti, il problema non ammette soluzione. Per intenderci, sarebbe
-
-come voler risolvere un sistema di due equazioni nelle incognite x ed
-
-y del tipo
+Se $I_{s_{1}} \ne I_{s_{2}}$, al nodo interno $n$ è violata la legge di Kirchhoff delle correnti, <u>il problema non ammette soluzione</u>. Per intenderci, sarebbe come voler risolvere un sistema di due equazioni nelle incognite $x$ ed $y$ del tipo:
+$$\begin{cases}
+x=1\\x=2
+\end{cases}$$
