@@ -1079,6 +1079,8 @@ e quelle per il **passaggio da serie a parallelo**:
 $$R_{p}=R_{s}\\I_{P}=\frac{E_{s}}{R_{s}}$$$$(3.32)$$
 
 Qualche semplice applicazione aiuta a fissare queste formule di trasformazione.
-Per es. si consideri il generatore reale tipo serie,
 
-con in fig. 1.33 il corrispondente modello parallelo si ottiene dai conti
+#Esempio Si consideri il generatore reale tipo serie:
+![[Elettrotecnica-1793381745152.webp|483]]
+#Figura(3.33)
+Con in figura 3.33 il corrispondente modello parallelo si ottiene dai conti
