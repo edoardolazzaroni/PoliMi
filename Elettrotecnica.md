@@ -1054,12 +1054,6 @@ La rete esterna si può risolvere, tuttavia dopo aver determinato $i$ non è pos
 
 ## 3.7 **Trasformazione serie-parallelo dei generatori reali**
 
-Rimangono da considerare due casi notevoli di bipolo composto.
+Rimangono da considerare **due casi notevoli di bipolo composto**:
 
-Il primo è formato dalla connessione serie di un generatore ideale
-
-di tensione e una resistenza, figura 1.29, che viene talvolta indicato
-
-come modello del generatore reale di tensione o semplicemente mod-
-
-ello serie. Componendo le caratteristiche dei due bipoli elementari
+1) Il primo è formato dalla connessione serie di un generatore ideale di tensione e una resistenza, che viene talvolta indicato come modello del generatore reale di tensione o semplicemente modello serie. Componendo le caratteristiche dei due bipoli elementari
