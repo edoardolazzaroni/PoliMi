@@ -968,3 +968,4 @@ $$i_{1}=I_{s}\frac{R_{2}+R_{4}}{(R_{1}+R_{3})+(R_{2}+R_{4})}$$
 oppure:
 $$i_{2}=I_{s}\frac{R_{1}+R_{3}}{(R_{1}+R_{3})+(R_{2}+R_{4})}$$
 e la tensione del generatore vale:
+$$v_{x}=I_{s}\frac{(R_{1}+R_{3})(R_{2}+R_{4})}{R_{1}+}$$
