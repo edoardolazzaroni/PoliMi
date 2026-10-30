@@ -980,3 +980,12 @@ da cui sarà poi immediato ricavare $i_{1}=\frac{10}{11} \ A$ ed $i_{2}=\frac{1}
 > $$v_{x}=i_{3}R_{3}+i_{1}R_{1}=I_{s}\frac{R_{4}R_{3}}{R_{3}+R_{4}}+I_{s}\frac{R_{2}R_{1}}{R_{1}+R_{2}}$$
 
 
+### 3.5.2 **Parallelo di generatori di corrente**
+
+Componiamo in parallelo due generatori ideali di corrente come mostrato in figura:
+
+Si ha $i_{1}=−Is1$ (attenzione al segno !), i2 = Is2 e i3 = Is3 (si noti
+
+che nell’ottica della (1.24) ciò corrisponde a g1(v1) =−Is1 + v1 · 0,
+
+g2(v2) = Is2 + v2 · 0 e g3(v3) = Is3 + v3 · 0, da cui
