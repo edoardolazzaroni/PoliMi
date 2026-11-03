@@ -1196,14 +1196,4 @@ Ne consegue che la somma delle potenze assorbite, nota bene che ora sono potenze
 $$\sum_{k=1}^{N_{el}}v_{k}\cdot i_{k}=\sum_{k=1}^{N_{el}}p_{k}=0\quad(3.36)$$
 
 con $N_{el}$ numero di elementi (bipoli o porte elettriche del circuito).
-Il teorema di Tellegen riformulato con le potenze fisiche viene detto Conservazione della potenza elettrica. Questo ci dice che un circuito
-
-elettrico è un sistema energeticamente chiuso dove le potenze di
-
-natura elettrica in gioco si bilanciano a zero, quindi misurandole con
-
-la convenzione degli utilizzatori (potenze assorbite), ed escludendo
-
-il caso in cui tutto è nullo, si ha che almeno un elemento assorbe
-
-potenza negativa, ovvero eroga potenza.
+Il teorema di Tellegen riformulato con le potenze fisiche viene detto **Conservazione della potenza elettrica**: questo ci dice che un circuito elettrico è un <u>sistema energeticamente chiuso dove le potenze di natura elettrica in gioco si bilanciano a zero</u>, quindi misurandole con la convenzione degli utilizzatori (potenze assorbite), ed escludendo il caso in cui tutto è nullo, si ha che almeno un elemento assorbe potenza negativa, ovvero eroga potenza.
