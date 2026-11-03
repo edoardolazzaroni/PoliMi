@@ -1279,6 +1279,7 @@ Esiste un "flusso risolutivo" che nel seguito delineiamo solo in via di principi
 - Infine, si scriverà un numero di leggi di Kirchhoff delle tensioni pari al numero delle incognite. Ogni KVL sarà una equazione lineare che bilancia le tensioni lungo una maglia $\mathcal{M}$ del tipo:$$\sum_{i \in \mathcal{M}}v_{i}=\sum_{{i\in\mathcal{M}}}\tilde{r}_{i}(I_{x}, I_{y})=0\quad(4.7)$$
 Il risultato finale è un sistema composto da un numero di equazioni lineari del tipo $(4.7)$ pari al numero delle incognite dalla cui soluzione si otterranno le incognite $I_{x}, I_{y}$.
 
+
 Il procedimento di principio delineato sopra può a primo acchito apparire poco chiaro, esplicitiamolo meglio:
 
 #Esempio.
@@ -1289,4 +1290,6 @@ Il procedimento di principio delineato sopra può a primo acchito apparire poco 
 I dati del problema sono:
 $$E_{1}=10 \ V;\\R_{1}=100 \ \Omega\\ \beta = 9;\\E_{2}=20 \ V; \\ R_{2}=1 \ k\Omega$$
 
-I passaggi risolutivi visti prim
+I passaggi risolutivi visti prima ora di concretizzano in:
+
+- Si assume come incognita la corrente pilotante $i_{2}$, cioè $I_{x}=i_{2}$. La c
