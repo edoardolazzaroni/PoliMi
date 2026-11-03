@@ -1342,4 +1342,12 @@ I passaggi dell'analisi nodale sono:
 - È possibile esprimere le correnti in funzione dei potenziali tramite i legami costitutivi (infatti tutti gli elementi sono controllabili in tensione):$$i_{1}=\frac{e_{1}}{R_{1}}\\i_{2}=\frac{e_{1}-e_{2}}{R_{2}}\\i_{3}=\frac{e_{2}}{R_{3}}\\g\cdot v_{12}=g\cdot(e_{1}-e_{2})\\ \\(4.16)$$
 - Infine, si impongono i bilanci di corrente nei due nodi:$$\begin{cases}
 \frac{e_1}{R_1}+g\cdot(e_1-e_2)+\frac{e_1-e_2}{R_2}=0\\\frac{e_2}{R_3}-I_s-\frac{e_1-e_2}{R_2}=0
-\end{cases}\quad (4.17)$$Riordiniamo:$$\begin{cases}(\frac{1}{R_1}+g+\frac{1}{R_2})\cdot e_1+(-g-\frac{1}{R_2})\cdot e_2=0\\-\frac{1}{R_2}\cdot e_1+(\frac{1}{R_2}+\frac{1}{R_3})\cdot e_2=I_s\end{cases}\quad(4.18)$$e sostituiamo i dati:$$\begin$$
+\end{cases}\quad (4.17)$$Riordiniamo:$$\begin{cases}(\frac{1}{R_1}+g+\frac{1}{R_2})\cdot e_1+(-g-\frac{1}{R_2})\cdot e_2=0\\-\frac{1}{R_2}\cdot e_1+(\frac{1}{R_2}+\frac{1}{R_3})\cdot e_2=I_s\end{cases}\quad(4.18)$$e sostituiamo i dati:$$\begin{cases}4e_1 -3e_2=0\\-e_1+2e_2=5\end{cases}\quad(4.19)$$
+
+Otteniamo, come atteso, un sistema lineare di due equazioni nelle due incognite. Dall’Algebra sappiamo che il problema matematico
+
+può avere una, nessuna o infinite soluzioni. Graficamente ogni
+
+equazione corrisponde ad una retta nel piano e1, e2 come mostrato
+
+in fig. 1.10 e la soluzione alla loro intersezione.
