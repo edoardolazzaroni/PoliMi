@@ -1231,4 +1231,9 @@ Per rappresentare tale comportamento serve un elemento circuitale nuovo il cui s
 
 Il nome generatore di corrente pilotato ed il simbolo può indurre ad associare questo elemento a quello di un generatore di corrente ideale. E’ invece preferibile osservare come il suo legame costitutivo lo renda simile all’estensione di un resistore al caso multi-porta.
 
-La figura 4.4 mostra un altro modello di generatore pilotato: **il generatore di corrente pilotato in corrente**. Le equazioni costitutive
+La figura 4.4 mostra un altro modello di generatore pilotato: **il generatore di corrente pilotato in corrente**. Le equazioni costitutive sono:
+$$v_{1}=0\\i_{2}=\beta\cdot i_{1}\\ \\(4.2)$$
+
+La porta $1$ si comporta come un corto circuito, un misuratore ideale di corrente. La corrente misurata $i_{1}$ controlla il valore della corrente $i_{2}$ alla porta $4. Il parametro β, adimensionale, si dice guadagno di
+
+corrente.
