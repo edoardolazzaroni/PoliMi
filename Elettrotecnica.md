@@ -1560,8 +1560,8 @@ K_{3}
 Considerata allora una qualunque delle incognite, per esempio $x = e_{1}$, essa risulta data da una combinazione lineare delle sorgenti indipendenti:
 $$e_{1}=x=H_{1}\cdot I_{s}+K_{1}\cdot E_{s}\quad(5.11)$$
 
-Questo risultato, che esprime il **principio di sovrapposizione degli effetti**, si estende al caso generale in cui il circuito contenga un numero $\alpha$ qualunque di generatori indipendenti di corrente e un nu-
+Questo risultato, che esprime il **principio di sovrapposizione degli effetti**, si estende al caso generale in cui il circuito contenga un numero $\alpha$ qualunque di generatori indipendenti di corrente e un numero $\beta$ di generatori indipendenti di tensione, come mostrato in figura. Si avrà:
+![[Elettrotecnica-1793706053053.webp|266]]
+#Figura(5.3). Generico circuito lineare in cui sono state messe in evidenza le sorgenti indipendenti. Una qualunque grandezza $x$ nel circuito, per esempio una tensione, risulta essere una combinazione lineari dei valori impressi dalle
 
-mero β di generatori indipendenti di tensione, come mostrato in fig.
-
-1.3. Si avrà:
+sorgenti.
