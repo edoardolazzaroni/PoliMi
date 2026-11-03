@@ -1415,4 +1415,10 @@ $$\mathbf{A}\cdot \mathbf{\overrightarrow{x}}=\mathbf{\overrightarrow{b}}_{1}\cd
 dove:
 $$\mathbf{A}= \begin{vmatrix}
 \frac{1}{R_{1}}+g & -g & 1\\0 & \frac{1}{R_{3}} & -1\\ 1 & -1 & 0
-\end{vmatrix};\quad\mathbf{\overrightarrow{b}}$$
+\end{vmatrix};\quad\mathbf{\overrightarrow{b}}_{1}=\begin{vmatrix}
+0 \\ 1 \\ 0
+\end{vmatrix};\quad\mathbf{\overrightarrow{b}}_{2}=\begin{vmatrix}
+0 \\ 0 \\ 1
+\end{vmatrix}\quad \quad (4.30)$$
+e le variabili incognite sono raccolte nel vettore seguente:
+$$$$
