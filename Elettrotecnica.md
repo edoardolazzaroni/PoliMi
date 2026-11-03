@@ -1397,3 +1397,6 @@ $$i_{G}=\frac{e_{1}-e_{2}}{1}-\frac{e_{2}}{1}=-10 \ A\quad(4.26)$$
 
 
 
+Un secondo caso da considerare è quello in cui l’elemento non controllabile in tensione sia collegato tra due nodi (e non al riferimento), come nel circuito mostrato in figura coi dati numerici:
+![[Elettrotecnica-1793702874907.webp|314]]
+#Figura(4.13). *Circuito con generatore di tensione connesso tra due nodi*
