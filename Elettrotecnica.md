@@ -1191,16 +1191,6 @@ $$p_{10 \ V}=10 \ V \cdot(+1 \ A)=+10 \ W\\p_{20 \ V}=20 \ V \cdot(-1 \ A)=-20 \
 
 Osserviamo che: il generatore da $20 \ V$ assorbe una potenza elettrica negativa. Questo può anche essere riformulato dicendo che questo generatore eroga $20 \ W$. D’altra parte sia il generatore da $10 \ V$ che il resistore assorbono potenza e ciò è coerente fisicamente in quanto il resistore è passivo mentre il generatore essendo attivo può sia erogare che assorbire.
 
-Infine si osservi un altro risultato tutt’altro che casuale: **la somma delle potenze assorbite dà zero**. Questo è una <u>conseguenza del teorema di Tellegen</u> visto nella [[#1.|primo capitolo]]. Le tensioni e correnti ricavate
-
-dall’analisi di in un circuito fisico soddisfano sicuramente le KVL
-
-e le KCL che sono condizione necessaria e sufficienti affinché valga
-
-Tellegen (in aggiunta le tensioni e correnti fisiche soddisfano anche i
-
-legami costitutivi). Ne consegue che la somma delle potenze assor-
-
-bite, nota bene che ora sono potenze fisiche non virtuali, estesa a
-
-tutto il circuito, deve bilanciarsi a zero:
+Infine si osservi un altro risultato tutt’altro che casuale: **la somma delle potenze assorbite dà zero**. Questo è una <u>conseguenza del teorema di Tellegen</u> visto nel [[#1.6 **Il teorema di Tellegen**|primo capitolo]]: Le tensioni e correnti ricavate dall’analisi di in un circuito fisico soddisfano sicuramente le KVL e le KCL che sono condizione necessaria e sufficienti affinché valga Tellegen (in aggiunta le tensioni e correnti fisiche soddisfano anche i legami costitutivi).
+Ne consegue che la somma delle potenze assorbite, nota bene che ora sono potenze fisiche non virtuali, estesa a tutto il circuito, deve bilanciarsi a zero:
+$$\sum_{k=1}^{N_{el}}$$
