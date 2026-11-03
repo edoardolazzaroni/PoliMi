@@ -1468,3 +1468,6 @@ $$e_{2}-e_{3}=\alpha e_{3}\rightarrow e_{2}=2e_{3}\quad(4.36)$$
 
 In questo modo abbiamo ristretto le incognite alla sola $e_{3} = v_{A}$, basterà scrivere una equazione di bilancio delle correnti che non coinvolga nessuna delle correnti degli elementi non controllabili in tensione.
 Tale equazione è il bilancio al supernodo che circonda i nodi $2$ e $3$:
+$$\frac{e_{3}}{R_{4}}+\frac{2e_{3}}{R_{3}}+\frac{e_{3}-3 \ V}{R_{2}}+\frac{2e_{3}-3 \ V}{R_{1}}=0\quad(4.37)$$
+da cui:
+$$6e_{3}-$$
