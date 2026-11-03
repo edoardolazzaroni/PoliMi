@@ -1243,7 +1243,8 @@ La porta $1$ si comporta come un corto circuito, un misuratore ideale di corrent
 
 
 Accanto ai modelli di generatore di corrente pilotati esistono analoghi modelli di generatore di tensione pilotato. In particolare, la figura 4.5 mostra un **generatore di tensione pilotato in tensione**:
-
+![[Elettrotecnica-1793697552271.webp|215]]
+#Figura(4.5). *Generatore di tensione pilotato in tensione*
 
 le cui equazioni sono date da:
 $$i_{1}=0\\v_{2}=\alpha\cdot v_{1}\\ \\(4.3)$$
@@ -1253,7 +1254,8 @@ Questo tipo di modello, vedremo, serve tra l’altro per descrivere circuitalmen
 
 
 Infine, la figura 4.6 mostra il modello del **generatore di tensione pilotato in corrente**:
-
+![[Elettrotecnica-1793697598585.webp|207]]
+#Figura(4.6). Ge
 
 le cui equazioni sono date da:
 $$v_{0}\\v_{2}=r\cdot i_{1}\\ \\(4.4)$$
