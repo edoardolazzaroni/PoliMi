@@ -1272,4 +1272,15 @@ La porta $1$ è un corto circuito e misura la corrente $i_{1}$; la porta $2$ è 
 L’analisi consiste nella scelta di un sottoinsieme di variabili elettriche (correnti e tensioni) come incognite del problema matematico e quindi nell’organizzare opportunamente la scrittura delle leggi di Kirchhoff e dei legami costitutivi.
 Esiste un "flusso risolutivo" che nel seguito delineiamo solo in via di principio (cioè non in modo sistematico) nei seguenti passaggi:
 
-- Si scelgono un sottoinsieme di variabili descrittive (correnti o tensioni) come incognite cercando di includere il più possibile le variabili che pilotano i generatori pilotati ed in modo che le altre variabili dello stesso tipo siano da esse determinabili. *Per esempio*, ipotizziamo che le incognite siano le correnti $I_{x}, I_{y} \ $;
+- Si scelgono un sottoinsieme di variabili descrittive (correnti o tensioni) come incognite cercando di includere il più possibile le variabili che pilotano i generatori pilotati ed in modo che le altre variabili dello stesso tipo siano da esse determinabili. *Per esempio*, ipotizziamo che le incognite siano le correnti $I_{x}, I_{y}$;
+- Le altre correnti negli $N$ elementi del circuito (bipoli o porte), che indichiamo come $i_{1}, \cdots , i_{N}$, vengono espresse in funzione delle incognite tramite le KCL (ed eventualmente il legame costitutivo di generatori di corrente pilotati in corrente, se presenti) Avremo:i1 = k1(Ix, Iy)
+
+.
+
+.
+
+.
+
+(1.5)
+
+iN = kN (Ix, Iy)
