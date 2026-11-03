@@ -1329,4 +1329,8 @@ Il risultato finale è un sistema composto da $N$ equazioni lineari del tipo $(4
 #Esempio.
 
 Consolidiamo la comprensione applicando il metodo al circuito mostrato in figura. Si noti che i punti sul filo conduttore ideale collegato al nodo $0$ di riferimento han tutti lo stesso potenziale. Nel circuito compare un generatore di corrente pilotato dalla tensione $v_{12}$, dunque la porta di comando è data dal circuito aperto che possiamo immaginare esistere tra i nodi $1$ e $2$:
-![[Elettrotecnica-1793700219875.webp]]
+![[Elettrotecnica-1793700219875.webp|327]]
+#Figura(4.9).
+
+I dati del problema sono:
+$$I_{s}=5 \ A\\R_{1}=R_{2}=R_{3}=1 \ \Omega\\g=2\ \Omega^{-1}\\ \\(4.15)$$
