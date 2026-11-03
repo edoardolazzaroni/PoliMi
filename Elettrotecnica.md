@@ -1281,7 +1281,10 @@ Il risultato finale è un sistema composto da un numero di equazioni lineari del
 
 Il procedimento di principio delineato sopra può a primo acchito apparire poco chiaro, esplicitiamolo meglio:
 
-#Esempio 
+#Esempio.
 
 ![[Elettrotecnica-1793698744204.webp|374]]
-#Figura(4.7). Circuito con generatore di corrente pilotato in corrente; la porta pilotante è rappresentata dal corto circuito tra i nodi $A$ e $B$; la porta pilotata è tra i nodi $C$
+#Figura(4.7). *Circuito con generatore di corrente pilotato in corrente; la porta pilotante è rappresentata dal corto circuito tra i nodi $A$ e $B$; la porta pilotata è tra i nodi $C$ e $D$*
+
+I dati del problema sono:
+$$$$$
