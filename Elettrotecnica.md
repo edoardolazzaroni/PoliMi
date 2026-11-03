@@ -1292,4 +1292,5 @@ $$E_{1}=10 \ V;\\R_{1}=100 \ \Omega\\ \beta = 9;\\E_{2}=20 \ V; \\ R_{2}=1 \ k\O
 
 I passaggi risolutivi visti prima ora di concretizzano in:
 
-- Si assume come incognita la corrente pilotante $i_{2}$, cioè $I_{x}=i_{2}$. La c
+- Si assume come incognita la corrente pilotante $i_{2}$, cioè $I_{x}=i_{2}$. La conoscenza di questa corrente è sufficiente per dedurre tutte le altre correnti infatti applicando la KCL al nodo $C$ si ha:$$i_{1}=i_{2}+\beta i_{2}=(1+\beta)I_x$$
+- Si scrivono i legami costitu
