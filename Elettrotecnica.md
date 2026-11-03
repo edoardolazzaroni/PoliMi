@@ -1260,4 +1260,9 @@ Infine, la figura 4.6 mostra il modello del **generatore di tensione pilotato in
 le cui equazioni sono date da:
 $$v_{0}\\v_{2}=r\cdot i_{1}\\ \\(4.4)$$
 
-La porta $1$ è un corto circuito e misura la corrente $i_{1}$; la porta $2$ è un generatore di tensione il cui valore è determinato da $i_{1}$ attraverso il parametro, misurato in $Ω$, r detto transresistenza.
+La porta $1$ è un corto circuito e misura la corrente $i_{1}$; la porta $2$ è un generatore di tensione il cui valore è determinato da $i_{1}$ attraverso il parametro, misurato in $\Omega$, $r$ detto **transresistenza**.
+
+> [!warning] Attenzione
+> Concludiamo questa sezione osservando che a seguito dell’introduzione dei generatori pilotati i generatori ideali di tensione e corrente vengono spesso indicati come generatori indipendenti per distinguerli dai comandati.
+
+
