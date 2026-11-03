@@ -1157,3 +1157,9 @@ $$p=\frac{\mathcal{L}(\Delta t)}{\Delta t}=v\cdot\frac{\Delta Q}{\Delta t}=v\cdo
 
 <mark class="hltr-yellow">La potenza elettrica è dunque data dal prodotto della tensione per la corrente</mark>.
 
+La figura 3.40 mostra schematicamente l’esecuzione di un celebre esperimento dovuto a James Prescott Joule in cui un resistore elettrico alimentato da una pila viene inserito in uno strumento adiabatico (cioè isolato termicamente) in grado di misurare la quantità di calore prodotto al suo interno (questo avviene attraverso un termometro che fornisce la temperatura di un fluido interno).
+Con tale esperimento Joule dimostrò come il passaggio della corrente elettrica nel resistore corrispondesse alla generazione di calore (effetto Joule) e come tale calore fosse proporzionale al valore di $v \cdot i$.
+
+Da un punto di vista fisico ne traiamo la seguente pittura: il prodotto $v \cdot i$ con $v$ ed i misurate con la convenzione degli utilizzatori, rap-
+
+presenta la potenza elettrica assorbita o entrante in un bipolo (o
