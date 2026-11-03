@@ -1339,4 +1339,7 @@ I passaggi dell'analisi nodale sono:
 
 - Le incognite sono i potenziali di nodo $e_{1},e_{2}$;
 - La tensione su $R_{1}$ è $e_{1}$, quella su $R_{3}$ è $e_{3}$ mentre la tensione su $R_{2}$ è data da:$$v_{12}=e_{1}-e_{2}$$
-- È possibile esprimere le correnti in funzione dei potenziali tramite i legami costitutivi (infatti tutti gli elementi sono controllabili in tensione):$$i_{1}=\frac{e_{1}}{R_{1}}\\i_{2}=\frac{e_{1}-e_{2}}{R_{2}}\\i_{3}=e_{\frac{2}{}}$$
+- È possibile esprimere le correnti in funzione dei potenziali tramite i legami costitutivi (infatti tutti gli elementi sono controllabili in tensione):$$i_{1}=\frac{e_{1}}{R_{1}}\\i_{2}=\frac{e_{1}-e_{2}}{R_{2}}\\i_{3}=\frac{e_{2}}{R_{3}}\\g\cdot v_{12}=g\cdot(e_{1}-e_{2})\\ \\(4.16)$$
+- Infine, si impongono i bilanci di corrente nei due nodi:$$\begin{cases}
+\frac{e}
+\end{cases}$$
