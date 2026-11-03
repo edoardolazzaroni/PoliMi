@@ -1520,4 +1520,5 @@ che rappresenta l'effetto dovuta alla sola causa $I_{s_{1}}$. In modo simile, po
 $$x''=H_{2}\cdot E_{s_{2}}$$
 
 Alla luce di queste considerazioni, possiamo affermare che l’espressione completa $(5.4)$ rappresenta la sovrapposizione degli effetti parziali dovuti a ciascuna sorgente (<u>indipendente</u>).
-Le stesse osservazioni possono essere ripetute per il circuito mostrato in [[figura (4.32)]]
+Le stesse osservazioni possono essere ripetute per il circuito mostrato nel [[#**Capitolo IV Circuiti con generatori pilotati**|capitolo 4]].
+
