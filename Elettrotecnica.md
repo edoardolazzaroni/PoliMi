@@ -1212,4 +1212,9 @@ La figura 4.1 (Sinistra) mostra il simbolo adottato negli schemi elettronici per
 Tipicamente esso viene impiegato come mostrato in figura 1.1 (Destra) raddoppiando uno dei suoi morsetti (es. il source) in modo da formare un doppio bipolo (tripolare) che è poi collegato a due bipoli esterni.
 
 Come studierete nel corso di Elettronica, questo dispositivo presenta equazioni costitutive diverse in funzione della regione in cui vien fatto funzionare. In una di queste regioni, le correnti e tensioni misurate alle due porte esterne soddisfano a:
-$$i_{1}=0\\i_{2}=g\cdot v_{1}\quad(4.1)$$
+$$i_{1}=0\\i_{2}=g\cdot v_{1}\\\\(4.1)$$
+dove $g$ è un parametro chiamato **transconduttanza** (misurata in $\Omega^{-1}$).
+
+Da queste equazioni si vede come la porta 1 si comporti elet-
+
+tricamente come un circuito aperto, cioè un misuratore ideale della
