@@ -1209,14 +1209,7 @@ Il teorema di Tellegen riformulato con le potenze fisiche viene detto **Conserva
 Introduciamo ora una nuova classe di elementi circuitali che sono indispensabili per "riprodurre" nel modello circuitale il comportamento di alcuni dispositivi elettronici. Uno di tali dispositivi è il transistore ("*transistor*" dall’inglese "TRANSferring"+"resISTOR").
 La figura 4.1 (Sinistra) mostra il simbolo adottato negli schemi elettronici per il transistore di tipo MOS (metallo, ossido, semiconduttore): si presenta come un tripolo coi tre morsetti, G ("gate"), D ("drain"), S ("source").
 
-Tipicamente esso viene impiegato come mostrato in figura 1.1 (Destra) raddoppiando uno dei suoi morsetti (es. il source) in modo da
+Tipicamente esso viene impiegato come mostrato in figura 1.1 (Destra) raddoppiando uno dei suoi morsetti (es. il source) in modo da formare un doppio bipolo (tripolare) che è poi collegato a due bipoli esterni.
 
-formare un doppio bipolo (tripolare) che è poi collegato a due bipoli
-
-esterni. Come studierete nel corso di Elettronica, questo dispositivo
-
-presenta equazioni costitutive diverse in funzione della regione in cui
-
-vien fatto funzionare. In una di queste regioni, le correnti e tensioni
-
-misurate alle due porte esterne soddisfano a:
+Come studierete nel corso di Elettronica, questo dispositivo presenta equazioni costitutive diverse in funzione della regione in cui vien fatto funzionare. In una di queste regioni, le correnti e tensioni misurate alle due porte esterne soddisfano a:
+$$i_{1}=0\\i_{2}=g\cdot v_{1}\quad(4.1)$$
