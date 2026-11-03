@@ -1590,4 +1590,6 @@ Spegniamo per primo $E_{s_{2}}$ e risolviamo il circuito semplificato in figura 
 ![[Elettrotecnica-1793706721226.webp|232]]
 #Figura(5.7).
 
-dove $R_{2} \ || \ R_{3}=\frac{R_{2}R_{3}}$
+dove $R_{2} \ || \ R_{3}=\frac{R_{2}R_{3}}{R_{2}+R_{3}}$. Quindi spegniamo $E_{s_{1}}$ e risolviamo il circuito semplificato in figura 5.8, da cui:![[Elettrotecnica-1793706822647.webp|277]]
+#Figura(5.8).
+
