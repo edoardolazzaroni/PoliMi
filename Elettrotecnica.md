@@ -1118,4 +1118,6 @@ Il procedimento è evidenziato in figura 3.36 (Destra): consiste nel trasformare
 $$v_{AB} = 3 \cdot \frac{10}{3}= 10 \ V$$
 
 Sostituendo questo valore nel circuito originale, figura 3.36(Sinistra), si può poi ricavare:
-$$i_{1}=\frac{V_{AB}-40}{10}=-3 \ A$$
+$$i_{1}=\frac{V_{AB}-40}{10}=-3 \ A\\i_{2}=\frac{V_{AB}+10}{10}=2 \ A\\i_{3}=\frac{V_{AB}}{10}=1 \ A$$$$(3.34)$$
+
+
