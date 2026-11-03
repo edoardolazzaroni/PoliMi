@@ -1441,4 +1441,8 @@ Nell’implementazione a mano dell’analisi nodale è preferibile seguire il se
 $$e_{2}=e_{1}-E_{s}=e_{1}-1 \ V\quad(4.33)$$
 dunque questo ci permette di eliminare un'incognita.
 La seconda osservazione è che la corrente $i_{G}$ compare nel bilancio al nodo $1$ con segno "$+$" mentre compare nel bilancio al nodo $2$ con segno "$-$". Sommando le due equazioni è dunque possibile eliminare $i_{G}$. L’equazione risultante:
-$$\frac{e_{1}}{1}+2\cdot$$
+$$\frac{e_{1}}{1}+2\cdot 1+\frac{(e_{1}-1)}{1}-1 \ A=0\quad(4.34)$$
+
+esprime il bilancio attraverso una superficie chiusa che include al suo interno il generatore di tensione ed i nodi $1$ e $2$, come mostrato nella figura 4.14, tale superficie viene indicata col nome di **supernodo**:
+![[Elettrotecnica-1793703659699.webp|354]]
+#Figura(4.14). U
