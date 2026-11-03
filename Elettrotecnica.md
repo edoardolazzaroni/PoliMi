@@ -1383,8 +1383,6 @@ $$\begin{cases}
 Si giunge dunque ad un sistema di tre equazioni in tre incognite. Il metodo MNA è applicabile a qualunque tipo di circuito attraverso dei passaggi ben precisi che possono essere implementati in un codici automatici di calcolo (cioè programmi software) detti simulatori circuitali.
 In generale il metodo MNA porta ad un numero relativamente grande di equazioni anche per piccoli circuiti, tuttavia questo non costituisce un problema in quanto il sistema di equazioni è poi risolto dal computer.
 
-Per la soluzione "a mano", invece, laddove è possibile, si preferisce
+Per la soluzione "a mano", invece, laddove è possibile, si preferisce cercare di limitare la dimensione del problema da risolvere per evitare possibili errori di calcolo.
 
-cercare di limitare la dimensione del problema da risolvere per
-
-evitare possibili errori di calcolo.
+Per la soluzione a mano facciamo riferimento alla figura 4.12 e notiamo come sia ingenuo considerare $e_{2}$ come incognita in quanto essa è imposta al valore $e_{2} = E_{s} = 8 \ V$ dal generatore di tensione. In tal modo, rimane come unica incognita il potenziale $e_{1}$ che potremo determinare direttamente scrivendo il bilancio al solo nodo $1$. Sostituendo i numeri avremo che il problema matematico si riduce alla sola:
