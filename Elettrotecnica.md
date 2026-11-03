@@ -1325,3 +1325,8 @@ Dato un circuito formato da $N + 1$ nodi, che supponiamo di numerare da $0$ a $N
 - Infine, avendo da determinare $N$ incognite, si scriverà un ugual numero di leggi di Kirchhoff delle correnti. Dette KCL impongono il bilancio delle correnti negli $N$ nodi, **senza considerare il riferimento**:$$\sum_{k\in Nodo}i_{k}=\sum_{k\in Node}\tilde{g}_{k}(e_{1},e_{2},\cdots,e_{N})=0\quad(4.14)$$
 Il risultato finale è un sistema composto da $N$ equazioni lineari del tipo $(4.14)$ nelle $N$ incognite $e_{1}, e_{2}, \cdots , e_{N}$.
 
+
+#Esempio.
+
+Consolidiamo la comprensione applicando il metodo al circuito mostrato in figura. Si noti che i punti sul filo conduttore ideale collegato al nodo $0$ di riferimento han tutti lo stesso potenziale. Nel circuito compare un generatore di corrente pilotato dalla tensione $v_{12}$, dunque la porta di comando è data dal circuito aperto che possiamo immaginare esistere tra i nodi $1$ e $2$:
+![[Elettrotecnica-1793700219875.webp]]
