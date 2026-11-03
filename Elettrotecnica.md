@@ -1177,4 +1177,9 @@ La figura 3.42, invece, mostra il caso di un generatore ideale di tensione ed un
 
 In questo caso la potenza elettrica assorbita potrà essere positiva, negativa o nulla ed il bipolo, non essendo passivo, viene detto **attivo**. Fisicamente <mark class="hltr-yellow">un bipolo attivo rappresenta il modello di un dispositivo che è in grado di erogare potenza elettrica</mark>. Per esempio, un generatore di tensione è il modello (ideale) di una pila la quale è in grado di sfruttare il lavoro chimico interno per "immettere" lavoro elettrico all’interno del circuito elettrico: dal punto di vista del sistema circuito il generatore può erogare lavoro.
 
-Svolgiamo l’analisi del circuito mostrato in figura 3.43 valutando le potenze elettriche in gioco. La KVL si scrive:
+
+#Esempio Svolgiamo l’analisi del circuito mostrato in figura valutando le potenze elettriche in gioco:
+![[Elettrotecnica-1793695844283.webp|246]]
+#
+
+La KVL si scrive:
