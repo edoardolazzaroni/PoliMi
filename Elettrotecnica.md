@@ -1215,6 +1215,4 @@ Come studierete nel corso di Elettronica, questo dispositivo presenta equazioni 
 $$i_{1}=0\\i_{2}=g\cdot v_{1}\\\\(4.1)$$
 dove $g$ è un parametro chiamato **transconduttanza** (misurata in $\Omega^{-1}$).
 
-Da queste equazioni si vede come la porta 1 si comporti elet-
-
-tricamente come un circuito aperto, cioè un misuratore ideale della
+Da queste equazioni si vede come la porta $1$ si comporti elettricamente come un circuito aperto, cioè un misuratore ideale della tensione $v_{1}$ ai suoi capi; la porta $2$ presenta invece un tipo di comportamento nuovo: la corrente alla porta $2$ è linearmente proporzionale alla tensione misurata alla porta $1$.
