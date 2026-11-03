@@ -1220,7 +1220,9 @@ dove $g$ è un parametro chiamato **transconduttanza** (misurata in $\Omega^{-1}
 
 Da queste equazioni si vede come la porta $1$ si comporti elettricamente come un circuito aperto, cioè un misuratore ideale della tensione $v_{1}$ ai suoi capi; la porta $2$ presenta invece un tipo di comportamento nuovo: la corrente alla porta $2$ è linearmente proporzionale alla tensione misurata alla porta $1$.
 Se confrontiamo la seconda equazione in $(1.1)$ con quella del bipolo resistore (figura 4.2) $i= G \cdot v$, con $G= \frac{1}{R}$, notiamo qualche similitudine.
-
+![[Elettrotecnica-1793697049120.webp|143]]
+#Figura(4.2). *Il bipolo resistore, $i=G\cdot v$*
 
 Tuttavia, la differenza fondamentale è che in un resistore il legame lineare è tra variabili "locali" misurate alla stessa porta, mentre <u>nel caso del transistore il legame lineare riguarda grandezze misurate a porte diverse</u>, è un legame "non locale" o di "**trasferimento**" (da cui il nome).
 
+Per rappresentare tale comportamento serve un elemento circuitale nuovo il cui simbolo è mostrato in figura 4.3 chiamato il **generatore di corrente pilotato** (o comandato) **in tensione**. Il nome generatore
