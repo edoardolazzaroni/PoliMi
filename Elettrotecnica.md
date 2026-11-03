@@ -1496,3 +1496,8 @@ Ricaviamo una proprietà generale dei circuiti lineari riferendosi al circuito "
 Il problema d’analisi può, per esempio, venire formulato attraverso il metodo dell’analisi nodale applicata con intelligenza, ovvero trattando il generatore di tensione e la resistenza serie $R_{2}$ come un unico bipolo controllabile in tensione: in questo modo, basterà assumere come incognita la tensione di nodo $x$ e quindi bilanciare le correnti attraverso la superficie tratteggiata mostrata in figura:
 ![[Elettrotecnica-1793704485511.webp|386]]
 #Figura(5.1).
+
+Avremo:
+$$-I_{s_{1}}+\frac{x}{R_{1}}+g\cdot(E_{s_{2}}-x)+\frac{x-E_{s_{2}}}{R_{2}}=0\quad(5.1)$$
+
+Riordinando oi te
