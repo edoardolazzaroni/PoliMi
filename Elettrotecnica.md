@@ -1565,4 +1565,15 @@ Questo risultato, che esprime il **principio di sovrapposizione degli effetti**,
 #Figura(5.3). *Generico circuito lineare in cui sono state messe in evidenza le sorgenti indipendenti. Una qualunque grandezza $x$ nel circuito, per esempio una tensione, risulta essere una combinazione lineari dei valori impressi dalle sorgenti*
 
 Si avrà:
-$$x=H_{1}\cdot I_{s_{1}}+\cdots +H_{\alpha}\cdot I_{s_{\alpha}}$$
+$$x=H_{1}\cdot I_{s_{1}}+\cdots +H_{\alpha}\cdot I_{s_{\alpha}}+K_{1}\cdot E_{s_{1}}+\cdots+K_{\beta}\cdot E_{s_{\beta}}\quad(5.12)$$
+
+dove i coefficienti $H_{i}, K_{i}$ sono dei numeri reali che esprimono "l’<u>influenza</u>" di una data sorgente sulla variabile osservata.
+
+Si potrà sfruttare questo risultato semplificando l’analisi del circuito in un insieme di problemi più semplici in cui agisce una sola
+sorgente per volta oppure gruppi di sorgenti per volta. La fig. 1.4
+
+mostra il problema elementare in cui agisce un solo generatore di
+
+corrente, mentre la fig. 1.5 mostra il problema elementare in cui
+
+agisce un solo generatore di tensione.
