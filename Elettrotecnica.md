@@ -1543,4 +1543,11 @@ i_{G}
 \end{vmatrix}\quad(5.7)$$
 
 Se la matrice $\mathbf{A}$ è **non singolare**, il sistema può essere risolto:
-$$\mathbf{\overrightarrow{x}}=\mathbf{\overrightarrow{h}}$$
+$$\mathbf{\overrightarrow{x}}=\mathbf{\overrightarrow{h}}\cdot I_{s}+\mathbf{\overrightarrow{k}}\cdot E_{s}\quad(5.8)$$
+
+dove si sono introdotti i vettori:
+$$\mathbf{\overrightarrow{h}}=(\mathbf{A}^{-1}\cdot\mathbf{\overrightarrow{b}}_{1})=\begin{vmatrix}
+H_{1} \\
+H_{2} \\
+H_{3}
+\end{vmatrix}$$
