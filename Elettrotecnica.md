@@ -1130,15 +1130,8 @@ in cui <u>fare attenzione al verso corretto del generatore ideale di tensione</u
 
 #### #Esercizio(composizione dei generatori) (3)
 
-Si analizzi il circuito mostrato in figura, in cui si chiede di determinare le due correnti $i_{x}$ ed $i_{y}$. Applicando la trasformazione parallelo-serie dei due generatori è facile ricavare immediatamente
-
-che:
-
-Is1· R1−Is3· R3
-
-ix =
-
-R1 + R2 + R3
+Si analizzi il circuito mostrato in figura, in cui si chiede di determinare le due correnti $i_{x}$ ed $i_{y}$. Applicando la trasformazione parallelo-serie dei due generatori è facile ricavare immediatamente che:
+$$i_{x} = \frac{I_{s_{1}} \cdot R_{1}−Is3 \cdot R_{3}}R1 + R2 + R3$$
 
 e quindi
 
