@@ -1439,4 +1439,6 @@ Si lascia per esercizio la soluzione numerical di tale sistema.
 
 Nell’implementazione a mano dell’analisi nodale è preferibile seguire il seguente procedimento che permette di ridurre la complessità risolutiva; il metodo discende dall’osservazione che il legame costitutivo del generatore di tensione impone un vincolo tra i potenziali $e_{1}$ ed $e_{2}$. Se per esempio si conoscesse $e_{1}$, sarebbe facile determinare $e_{2}$ come:
 $$e_{2}=e_{1}-E_{s}=e_{1}-1 \ V\quad(4.33)$$
-dunque questo ci permette di 
+dunque questo ci permette di eliminare un'incognita.
+La seconda osservazione è che la corrente $i_{G}$ compare nel bilancio al nodo $1$ con segno "$+$" mentre compare nel bilancio al nodo $2$ con segno "$-$". Sommando le due equazioni è dunque possibile eliminare $i_{G}$. L’equazione risultante:
+$$\frac{e_{1}}{1}+2\cdot$$
