@@ -1457,4 +1457,22 @@ $$i_{G}=-2\cdot E_{s}0-2 \ A$$
 ![[Elettrotecnica-1793703830229.webp|237]]
 #Figura(4.15). *Uso del supernodo in presenza di un generatore pilotato*
 
-$$E_{s}=$$
+$$E_{s}=3 \ V;\\ R_{1}=R_{2}=R_{3}=R_{4}=1 \ \Omega;\\ \alpha=1\\ \\(4.35)$$
+
+In questo circuito sono due le porte che non sono controllabili in tensione: il generatore ideale $E_{s}$ e l’elemento $\alpha \cdot v_{A}$ collegato ai nodi $2$ e $34. Per queste due porte non è possibile esprimere le correnti che
+
+vi scorrono in funzione di tensioni e quindi di potenziali ai nodi.
+
+Volendo applicare il metodo MNA genuino, quello implementabile
+
+automaticamente, dovremmo considerare 5 incognite e scrivere 5
+
+equazioni. Lasciamo al lettore tale scrittura per esercizio. Mostriamo
+
+invece il metodo semplificato che meglio si presta alla soluzione a
+
+mano. Questo si basa sull’osservazione che e1 = Es = 3V è nota.
+
+Inoltre è possibile istituire un legame tra il potenziale e2 ed il poten-
+
+ziale e3 = vA:
