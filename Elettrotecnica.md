@@ -1347,10 +1347,7 @@ I passaggi dell'analisi nodale sono:
 Otteniamo, come atteso, un <u>sistema lineare di due equazioni nelle due incognite</u>.
 Dall’Algebra sappiamo che il problema matematico può avere una, nessuna o infinite soluzioni. Graficamente ogni equazione corrisponde ad una retta nel piano $e_{1}, e_{2}$ come mostrato in figura e la soluzione alla loro intersezione:
 ![[Elettrotecnica-1793700830659.webp|292]]
-#Figura(4.10). Rappresentazione grafica
+#Figura(4.10). *Rappresentazione grafica del sistema di due equazioni lineari, dove si è adottata la notazione $x = e_{1}$ e $y= e_{2}$*
 
-del sistema di due equazioni lineari,
-
-dove si è adottata la notazione x = e1 e
-
-y= e2. .
+L’unicità della soluzione si avrà quando le pendenze delle due rette sono diverse, come nell’esempio svolto. Se le rette sono parallele, invece, avremo zero soluzione se esse non sono coincidenti (caso di sistema impossibile), mentre si avranno infinite soluzioni nel caso siano coincidenti (caso di sistema indeterminato). L’unicità della soluzione può essere espressa matematicamente nella condizione:
+$$\det(\mathbf{A})\ne 0$$dove $
