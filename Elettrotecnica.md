@@ -1534,4 +1534,13 @@ $$\mathbf{A}= \begin{vmatrix}
 \end{vmatrix};\quad\mathbf{\overrightarrow{b}}_{2}=\begin{vmatrix}
 0 \\ 0 \\ 1
 \end{vmatrix}\quad \quad (5.6)$$
-e le variabili incognite sono raccolte nel vettore seguente
+
+e le variabili incognite sono raccolte nel vettore seguente:
+$$\mathbf{\overrightarrow{x}}=\begin{vmatrix}
+e_{1} \\
+e_{2} \\
+i_{G}
+\end{vmatrix}\quad(5.7)$$
+
+Se la matrice $\mathbf{A}$ è **non singolare**, il sistema può essere risolto:
+$$\mathbf{\overrightarrow{x}}=\mathbf{\overrightarrow{h}}$$
