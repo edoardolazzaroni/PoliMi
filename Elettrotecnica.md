@@ -1392,4 +1392,8 @@ Per la soluzione a mano facciamo riferimento alla figura 4.12 e notiamo come sia
 In tal modo, rimane come unica incognita il potenziale $e_{1}$ che potremo determinare direttamente scrivendo il bilancio al solo nodo $1$. Sostituendo i numeri avremo che il problema matematico si riduce alla sola:
 $$\frac{e_{1}}{1}+2\cdot(e_{1}-8)+\frac{e_{1}-8}{1}=0\quad(4.25)$$
 
-da cui $e_{1}=6 \ V$. Conoscendo $e_{1}= 6 \ V$ ed $e_{2}=8 \ V$ sarà poi possibile dedurre il valor
+da cui $e_{1}=6 \ V$. Conoscendo $e_{1}= 6 \ V$ ed $e_{2}=8 \ V$ sarà poi possibile dedurre il valore di $i_{G}$ bilanciando le correnti al nodo $2$:
+$$i_{G}=\frac{e_{1}-e_{2}}{1}-\frac{e_{2}}{1}=-10 \ A\quad(4.26)$$
+
+
+
