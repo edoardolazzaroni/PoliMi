@@ -1492,8 +1492,7 @@ Chiameremo questa categoria di sistemi elettrici col nome di **Circuiti Lineari*
 ## 5.1 **Principio di sovrapposizione degli effetti**
 
 Ricaviamo una proprietà generale dei circuiti lineari riferendosi al circuito "di test" mostrato in figura 5.1: esso contiene tutti i tipi di elementi di un circuito lineare generico (resistori, generatori indipendenti e un generatore do corrente pilotato dalla tensione $v_{2}$) mentre è sufficientemente semplice da condurre ad un problema matematico di limitata complessità.
-Il problema d’analisi può, per esempio, venire formulato attraverso il metodo dell’analisi nodale applicata con intelligenza, ovvero trattando il generatore di tensione e la resistenza serie $R_{2}$ come un unico bipolo controllabile in tensione. In questo modo,
 
-basterà assumere come incognita la tensione di nodo x e quindi bi-
-
-lanciare le correnti attraverso la superficie tratteggiata mostrata in
+Il problema d’analisi può, per esempio, venire formulato attraverso il metodo dell’analisi nodale applicata con intelligenza, ovvero trattando il generatore di tensione e la resistenza serie $R_{2}$ come un unico bipolo controllabile in tensione: in questo modo, basterà assumere come incognita la tensione di nodo $x$ e quindi bilanciare le correnti attraverso la superficie tratteggiata mostrata in figura:
+![[Elettrotecnica-1793704485511.webp|386]]
+#Figura(5.1).
