@@ -1111,19 +1111,35 @@ in cui <u>fare attenzione al verso corretto del generatore ideale di tensione</u
 
 #### #Esercizio(composizione dei generatori) (2)
 
-Dato il circuito in figura (Sinistra), si utilizzi la trasformazione serie/parallelo dei generatori per calcolare la tensione $v_{AB}$. Successivamente, si calcolino le correnti $i_{1}, i_{2}$ ed $i_{3}$ verificando che soddisfano la KCL al nodo $A$ (o $B$). Si assuma:
-$$R_{1} = R_{2} = R_{3} = 10 \ \Omega$$
+> [!question] Esercizio
+> Dato il circuito in figura (Sinistra), si utilizzi la trasformazione serie/parallelo dei generatori per calcolare la tensione $v_{AB}$. Successivamente, si calcolino le correnti $i_{1}, i_{2}$ ed $i_{3}$ verificando che soddisfano la KCL al nodo $A$ (o $B$). Si assuma:
+> $$R_{1} = R_{2} = R_{3} = 10 \ \Omega$$
+> 
+> ![[Elettrotecnica-1793694104554.webp|576]]
+> #Figura(3.36). *Connessione parallelo di generatori reali di tensione/resistori*
+> 
+> Il procedimento è evidenziato in figura 3.36 (Destra): consiste nel trasformare i due generatori di tipo serie in parallelo. Sul circuito trasformato è poi possibile eseguire ulteriori semplificazioni come mostrato in figura 3.37, dove $R_{eq} = \frac{10}{3} \ \Omega$. Risulta quindi:
+> $$v_{AB} = 3 \cdot \frac{10}{3}= 10 \ V$$
+> 
+> ![[Elettrotecnica-1793694153664.webp|472]]
+> #Figura(3.37). *Composizione parallelo di generatori di corrente e resistenze*
+> 
+> Sostituendo questo valore nel circuito originale, figura 3.36(Sinistra), si può poi ricavare:
+> $$i_{1}=\frac{V_{AB}-40}{10}=-3 \ A\\i_{2}=\frac{V_{AB}+10}{10}=2 \ A\\i_{3}=\frac{V_{AB}}{10}=1 \ A$$$$(3.34)$$
 
-![[Elettrotecnica-1793694104554.webp|576]]
-#Figura(3.36). *Connessione parallelo di generatori reali di tensione/resistori*
 
-Il procedimento è evidenziato in figura 3.36 (Destra): consiste nel trasformare i due generatori di tipo serie in parallelo. Sul circuito trasformato è poi possibile eseguire ulteriori semplificazioni come mostrato in figura 3.37, dove $R_{eq} = \frac{10}{3} \ \Omega$. Risulta quindi:
-$$v_{AB} = 3 \cdot \frac{10}{3}= 10 \ V$$
+#### #Esercizio(composizione dei generatori) (3)
 
-![[Elettrotecnica-1793694153664.webp|472]]
-#Figura(3.37). *Composizione parallelo di generatori di corrente e resistenze*
+Si analizzi il circuito mostrato in figura, in cui si chiede di determinare le due correnti $i_{x}$ ed $i_{y}$. Applicando la trasformazione parallelo-serie dei due generatori è facile ricavare immediatamente
 
-Sostituendo questo valore nel circuito originale, figura 3.36(Sinistra), si può poi ricavare:
-$$i_{1}=\frac{V_{AB}-40}{10}=-3 \ A\\i_{2}=\frac{V_{AB}+10}{10}=2 \ A\\i_{3}=\frac{V_{AB}}{10}=1 \ A$$$$(3.34)$$
+che:
 
+Is1· R1−Is3· R3
 
+ix =
+
+R1 + R2 + R3
+
+e quindi
+
+iy = ix + Is3.
