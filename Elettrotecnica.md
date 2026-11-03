@@ -1305,3 +1305,11 @@ In modo simile esiste un flusso risolutivo "duale" delineabile in via di princip
 - Nell'ipotesi che tutti i bipoli (e $N$-porte) siano controllabili in tensione, sarà possibile esprimere le correnti su di essi in funzione delle tensioni tramite i loro legami costitutivi:$$i_{1}=g_{1}(v_{1})=\tilde{g}_{1}(V_{x},V_{y})\\ \\ \vdots \\ \\i_{N}=g_{N}(v_{N})=\tilde{g}_{N}(V_{x},V_{y})\\ \\(4.12)$$
 - Infine, si scriverà un numero di leggi di Kirchhoff delle correnti pari al numero delle incognite. Ogni KCL sarà una equazione lineare che bilancia le correnti attraverso un nodo $\mathcal{S}$ (o superficie chiusa) e sarà del tipo:$$\sum_{n\in \mathcal{S}}i_{n}=\sum_{n\in\mathcal{S}}\tilde{g}_{n}(V_{x},V_{y})=0\quad(4.13)$$
 Il risultato finale è un sistema composto da un numero di equazioni lineari del tipo $(4.13)$ pari al numero delle incognite dalla cui soluzione si otterranno le incognite $V_{x}, V_{y}$.
+
+Questo secondo flusso risolutivo è quello che storicamente ha avuto più successo in quanto è stato reso sistematico e quindi implementato nei codici software (o programmi) per la soluzione automatica dei circuiti elettrici, questi programmi sono detti simulatori circuitali.
+Il metodo sistematico prende il nome di **Analisi Nodale** e verrà trattato nel dettaglio nella prossima sezione.
+
+
+
+## 4.3 **Il metodo dell'Analisi Nodale**
+
