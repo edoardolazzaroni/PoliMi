@@ -1402,4 +1402,6 @@ $$i_{G}=\frac{e_{1}-e_{2}}{1}-\frac{e_{2}}{1}=-10 \ A\quad(4.26)$$
 ![[Elettrotecnica-1793702874907.webp|314]]
 #Figura(4.13). *Circuito con generatore di tensione connesso tra due nodi*
 
-$$E_{s}=1 \ V;\\I_{s}=$$
+$$E_{s}=1 \ V;\\I_{s}=1 \ A;\\R_{1}=R_{3}=1 \ \Omega;\\g=2 \ \Omega^{-1}\\ \\(4.27)$$
+
+Scriviamo prima il metodo MNA genuino, come formulato in un codice automatico: le variabili incognite sono $
