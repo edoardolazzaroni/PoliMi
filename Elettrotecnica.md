@@ -1411,4 +1411,6 @@ $$\begin{cases}
 
 dove le prime due equazioni impongono il bilancio delle correnti ai nodi $1$ e $2$, mentre la terza esprime il legame costitutivo dell’elemento non controllato in tensione.
 Le equazioni possono essere scritte in formato matriciale/vettoriale come:
-$$\mathbf{A}\cdot \mathbf{\v oerrightarrow{}}$$
+$$\mathbf{A}\cdot \mathbf{\overrightarrow{x}}=\mathbf{\overrightarrow{b}}_{1}\cdot I_{s}+\mathbf{\overrightarrow{b}}_{2}\cdot E_{s}\quad(4.29)$$
+dove:
+$$\mathbf{A}=\vm at$$
