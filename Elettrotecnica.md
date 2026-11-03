@@ -1611,10 +1611,6 @@ $$v_{AB}=\frac{E_{s_{1}}}{3}-\frac{E_{s_{2}}}{3}=\frac{40}{3}-\frac{10}{3}=10 \ 
 
 Siamo ora in grado di ricavare qual è il circuito equivalente più generale di una rete elettrica lineare comunque complessa ed accessibile esternamente da una coppia di morsetti (cioè un bipolo). Tale rete è mostrata in figura 5.9 e può contenere al suo interno resistori, generatori pilotati che formano l’insieme degli elementi resistivi, più generatori indipendenti, ovvero sorgenti di tensione e corrente.
 
-Vogliamo determinare il legame che esiste tra le variabili $V$ ed $I$ misurate ai suoi morsetti. Per questo colleghiamo il bipolo ad una sorgente esterna di corrente che imprime una corrente $I$ che noi possiamo controllare e variare a nostro piacimento. Quale sarà la forma del legame serie $V= f (I)$?Nella sola ipotesi che il circuito così costruito ammetta
+Vogliamo determinare il legame che esiste tra le variabili $V$ ed $I$ misurate ai suoi morsetti. Per questo colleghiamo il bipolo ad una sorgente esterna di corrente che imprime una corrente $I$ che noi possiamo controllare e variare a nostro piacimento. Quale sarà la forma del legame serie $V= f (I)$?
 
-soluzione, vale il principio di sovrapposizione degli effetti che ci assi-
-
-cura che qualunque variabile in gioco sarà una combinazione lineare
-
-dei generatori indipendenti. Questo vale anche per la tensione V che
+Nella sola ipotesi che il circuito così costruito ammetta soluzione, vale il principio di sovrapposizione degli effetti che ci assicura che qualunque variabile in gioco sarà una combinazione lineare dei generatori indipendenti. Questo vale anche per la tensione $V$ che dunque si può scrivere:
