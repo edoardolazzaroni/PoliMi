@@ -1246,4 +1246,12 @@ Accanto ai modelli di generatore di corrente pilotati esistono analoghi modelli 
 
 
 le cui equazioni sono date da:
-$$i_{1}=0\\v_{2}=\alpha\cdot v_{1}$$
+$$i_{1}=0\\v_{2}=\alpha\cdot v_{1}\\ \\(4.3)$$
+
+La porta $1$ è un circuito aperto e misura la tensione $v_{1}$; la porta $2$ è un generatore di tensione il cui valore è determinato da $v_{1}$ attraverso il parametro, adimensionale, $\alpha$ detto **guadagno di tensione**.
+Questo tipo di modello, vedremo, serve tra l’altro per descrivere circuitalmente il comportamento di amplificatore di tensione (dispositivo essenziale in elettronica).
+
+
+Infine, la figura 1.6 mostra il modello del generatore di
+
+tensione pilotato in corrente le cui equazioni sono date da:
