@@ -1470,4 +1470,10 @@ In questo modo abbiamo ristretto le incognite alla sola $e_{3} = v_{A}$, baster√
 Tale equazione √® il bilancio al supernodo che circonda i nodi $2$ e $3$:
 $$\frac{e_{3}}{R_{4}}+\frac{2e_{3}}{R_{3}}+\frac{e_{3}-3 \ V}{R_{2}}+\frac{2e_{3}-3 \ V}{R_{1}}=0\quad(4.37)$$
 da cui:
-$$6e_{3}-$$
+$$6e_{3}-3-3=0\rightarrow e_{3}= 1 \ V$$
+e quindi $e_{2}=2 \ V$.
+
+
+
+
+# **Capitolo IV: Circuiti con generatori pilotati**
