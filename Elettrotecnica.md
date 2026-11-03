@@ -1603,4 +1603,8 @@ $$R_{1}=R_{2}=R_{3}=10 \ \Omega;\\E_{s_{1}}=40 \ V;\\E_{s_{2}}=10 \ V\\ \\(5.15)
 Si calcola:
 $$K_{1}=\frac{1}{3},\quad K_{2}=-\frac{1}{3}$$
 da cui:
-$$v_{AB}=\frac{E_{s_{1}}}{3}$$
+$$v_{AB}=\frac{E_{s_{1}}}{3}-\frac{E_{s_{2}}}{3}=\frac{40}{3}-\frac{10}{3}=10 \ V$$
+
+
+
+## 5.2 **Equivalente Thévenin **
