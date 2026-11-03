@@ -1142,4 +1142,5 @@ in cui <u>fare attenzione al verso corretto del generatore ideale di tensione</u
 
 
 
-## 3.8 **Trasformazione serie-parallelo dei generatori reali**
+## 3.8 **Potenza elettrica**
+
