@@ -1377,5 +1377,14 @@ $$\begin{cases}
 
 Sostituendo i numeri:
 $$\begin{cases}
-4e_{1}-3e_{2}=0\\-e_{1}
-\end{cases}$$
+4e_{1}-3e_{2}=0\\-e_{1}+2e_{2}+i_{G}=0\\e_{2}=8 \ V
+\end{cases}\quad(4.24)$$
+
+Si giunge dunque ad un sistema di tre equazioni in tre incognite. Il metodo MNA è applicabile a qualunque tipo di circuito attraverso dei passaggi ben precisi che possono essere implementati in un codici automatici di calcolo (cioè programmi software) detti simulatori circuitali.
+In generale il metodo MNA porta ad un numero relativamente grande di equazioni anche per piccoli circuiti, tuttavia questo non costituisce un problema in quanto il sistema di equazioni è poi risolto dal computer.
+
+Per la soluzione "a mano", invece, laddove è possibile, si preferisce
+
+cercare di limitare la dimensione del problema da risolvere per
+
+evitare possibili errori di calcolo.
