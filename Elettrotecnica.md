@@ -1164,4 +1164,10 @@ La figura 3.40 mostra schematicamente l’esecuzione di un celebre esperimento d
 Con tale esperimento Joule dimostrò come il passaggio della corrente elettrica nel resistore corrispondesse alla generazione di calore (effetto Joule) e come tale calore fosse proporzionale al valore di $v \cdot i$.
 
 Da un punto di vista fisico ne traiamo la seguente pittura: il prodotto $v \cdot i$ con $v$ ed $i$ misurate con la <u>convenzione degli utilizzatori</u>, rappresenta la **potenza elettrica assorbita** o **entrante** in un bipolo (o da una delle porte di un $N$-polo). la potenza viene misura in **watt** = ampere $\times$ volt $[W]$. Nel caso specifico del resistore fisico, il lavoro elettrico che corrisponde a tale potenza viene convertito in modo irreversibile in calore che si disperde nell’ambiente. Il resistore fisico può solo assorbire potenza e non erogarne. In accordo con questa evidenza sperimentale si ha che per il bipolo resistore, la cui caratteristica è $v = R \cdot i$ con $R > 0$, la potenza assorbita:
-$$p=v\cdot i=R\cdot i^2=\frac{v^2}{R} g$$
+$$p=v\cdot i=R\cdot i^2=\frac{v^2}{R} \ge 0$$
+
+è sempre positiva o nulla, esso viene detto **bipolo passivo**. La figura 3.41 mostra un modo comune di evidenziare la potenza $p$ assorbita da un resistore:
+![[Elettrotecnica-1793695291251.webp]]
+
+
+La figura 1.42,
