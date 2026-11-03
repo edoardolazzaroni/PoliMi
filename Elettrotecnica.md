@@ -1278,4 +1278,4 @@ Esiste un "flusso risolutivo" che nel seguito delineiamo solo in via di principi
 
 - Nell’ipotesi che tutti i bipoli (e $N$-porte) siano controllabili in corrente, sarà possibile esprimere le tensioni su di essi in funzione delle correnti tramite i loro legami costitutivi:$$v_{1}=r_{1}(i_{1})=\tilde{r}_{1}(I_{x},I_{y})\\ \\ \vdots \\ \\ v_{N}=r_{N}(i_{N})=\tilde{r}_{N}(I_{x}, I_{y})\\ \\(4.6)$$
 
-- Infine, si scriverà un numero di leggi di Kirchhoff delle tensioni pari al numero delle incognite. Ogni KVL sarà una equazione lineare che bilancia le tensioni lungo una maglia $\mathcal{M}$ del tipo:
+- Infine, si scriverà un numero di leggi di Kirchhoff delle tensioni pari al numero delle incognite. Ogni KVL sarà una equazione lineare che bilancia le tensioni lungo una maglia $\mathcal{M}$ del tipo:$$\sum_{i \in \mathcal{M}}v_{i}=\sum_{{i\in\mathcal{M}}}$$
