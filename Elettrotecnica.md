@@ -1506,4 +1506,7 @@ $$\underbrace{ \left( \frac{1}{R_{1}}-g+\frac{1}{R_{2}} \right)}_{A}\cdot x=\und
 L’incognita $x$ è moltiplicata per un coefficiente $A$ mentre il termine noto vede i valori impressi dai generatori indipendenti moltiplicati per due coefficienti $B_{1}$ e $B_{2}$. Detti coefficienti $A, B_{1}$ e $B_{2}$ sono determinati dai valori dei resistori e dei generatori pilotati (<u>non da quelli indipendenti</u>) e da come sono collegati tra loro.
 Dunque, nell’ipotesi che il coefficiente $A \ne 0$, l’equazione ammette una ed una sola soluzione:
 $$x=\underbrace{\frac{1}{A} \ B1}_{H_{1}}\cdot I_{s_{1}}+\underbrace{\frac{1}{A} \ B_{2}}_{H_{2}}\cdot E_{s_{2}}\quad(5.3)$$
-IN 
+in cui i valori dei generatori indipendenti sono moltiplicati per i coefficienti $H_{1}$ e $H_{2}$.
+Facciamo le seguenti **osservazioni**:
+
+- Se i generatori indipendenti vengono spenti, ponendo $I_{s_{1}} = 0$ e $E_{s_{2}} = 0$, la soluzione unica è quella nulla $x = 0$. Questo ci dice che i generatori indipendenti sono le sorgenti o cause del fatto elettrico senza le quali nel circuito tutte le variabili sarebbero nulle, ovvero il circuito sarebbe spento (o in quiescenza). Per questo motivo, talvolta i generatori indipendenti vengono indicati col nome di sorgente di tensione o di corrente.
