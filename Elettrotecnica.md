@@ -1344,10 +1344,13 @@ I passaggi dell'analisi nodale sono:
 \frac{e_1}{R_1}+g\cdot(e_1-e_2)+\frac{e_1-e_2}{R_2}=0\\\frac{e_2}{R_3}-I_s-\frac{e_1-e_2}{R_2}=0
 \end{cases}\quad (4.17)$$Riordiniamo:$$\begin{cases}(\frac{1}{R_1}+g+\frac{1}{R_2})\cdot e_1+(-g-\frac{1}{R_2})\cdot e_2=0\\-\frac{1}{R_2}\cdot e_1+(\frac{1}{R_2}+\frac{1}{R_3})\cdot e_2=I_s\end{cases}\quad(4.18)$$e sostituiamo i dati:$$\begin{cases}4e_1 -3e_2=0\\-e_1+2e_2=5\end{cases}\quad(4.19)$$
 
-Otteniamo, come atteso, un sistema lineare di due equazioni nelle due incognite. Dall’Algebra sappiamo che il problema matematico
+Otteniamo, come atteso, un <u>sistema lineare di due equazioni nelle due incognite</u>.
+Dall’Algebra sappiamo che il problema matematico può avere una, nessuna o infinite soluzioni. Graficamente ogni equazione corrisponde ad una retta nel piano $e_{1}, e_{2}$ come mostrato in figura e la soluzione alla loro intersezione:
+![[Elettrotecnica-1793700830659.webp|292]]
+#Figura(4.10). Rappresentazione grafica
 
-può avere una, nessuna o infinite soluzioni. Graficamente ogni
+del sistema di due equazioni lineari,
 
-equazione corrisponde ad una retta nel piano e1, e2 come mostrato
+dove si è adottata la notazione x = e1 e
 
-in fig. 1.10 e la soluzione alla loro intersezione.
+y= e2. .
