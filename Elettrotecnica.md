@@ -1100,6 +1100,7 @@ in cui <u>fare attenzione al verso corretto del generatore ideale di tensione</u
 
 #### #Esercizio(composizione dei generatori) (1)
 
+![[Elettrotecnica-1793693709161.webp|329]]
 Dato il circuito in figura, calcolare come prima variabile la corrente $i_{a}$, quindi calcolate $i_{b}, i_{c}$ e la tensione $v_{d}$. 
 
 Dopo avere letto la sezione successiva, determinate la <u>potenza elettrica erogata</u> dal generatore di corrente.
