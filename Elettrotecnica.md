@@ -1227,7 +1227,7 @@ Tuttavia, la differenza fondamentale è che in un resistore il legame lineare è
 
 Per rappresentare tale comportamento serve un elemento circuitale nuovo il cui simbolo è mostrato in figura 4.3 chiamato il **generatore di corrente pilotato** (o comandato) **in tensione**:
 ![[Elettrotecnica-1793697163896.webp|191]]
-#Figura (4.4)
+#Figura(4.3). *Generatore di corrente pilotato in tensione*
 
 Il nome generatore di corrente pilotato ed il simbolo può indurre ad associare questo elemento a quello di un generatore di corrente ideale. E’ invece preferibile osservare come il suo legame costitutivo lo renda simile all’estensione di un resistore al caso multi-porta.
 
