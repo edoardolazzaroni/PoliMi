@@ -1276,4 +1276,4 @@ Esiste un "flusso risolutivo" che nel seguito delineiamo solo in via di principi
 
 - Le altre correnti negli $N$ elementi del circuito (bipoli o porte), che indichiamo come $i_{1}, \cdots , i_{N}$, vengono espresse in funzione delle incognite tramite le KCL (ed eventualmente il legame costitutivo di generatori di corrente pilotati in corrente, se presenti). Avremo:$$i_1 = k_1(I_x, I_y)\\ \\ \vdots \\ \\ i_{N} = k_{N} (I_{x}, I_{y}) \\ \\(4.5)$$
 
-- Nell’ipotesi che tutti i bipoli (e $N$-porte) siano controllabili in corrente, sarà possibile esprimere le tensioni su di essi in funzione delle correnti tramite i loro legami costitutivi:$$v_{1}=r_{1}(i_{1})=\til$$
+- Nell’ipotesi che tutti i bipoli (e $N$-porte) siano controllabili in corrente, sarà possibile esprimere le tensioni su di essi in funzione delle correnti tramite i loro legami costitutivi:$$v_{1}=r_{1}(i_{1})=\tilde{r}_{1}(I_{x},I_{y})\\ \\ \vdots \\ \\ v_{N}=r_{N}(i_{N})=\tilde{r}$$
