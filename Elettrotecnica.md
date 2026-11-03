@@ -1444,5 +1444,8 @@ La seconda osservazione è che la corrente $i_{G}$ compare nel bilancio al nodo 
 $$\frac{e_{1}}{1}+2\cdot 1+\frac{(e_{1}-1)}{1}-1 \ A=0\quad(4.34)$$
 
 esprime il bilancio attraverso una superficie chiusa che include al suo interno il generatore di tensione ed i nodi $1$ e $2$, come mostrato nella figura 4.14, tale superficie viene indicata col nome di **supernodo**:
-![[Elettrotecnica-1793703659699.webp|354]]
-#Figura(4.14). U
+![[Elettrotecnica-1793703659699.webp|313]]
+#Figura(4.14). *Uso del supernodo*
+
+Il metodo a mano dunque consiste nell’assumere come sola incognita $e_{1}$, esprimere $e_{2}$ in funzione di $e_{1}$ attraverso la $(4.33)$ e quindi scrivere il bilancio delle correnti attraverso il <u>supernodo</u> $(4.34)$. Risolvendo quest’ultima equazione si ottiene:
+$$2e_{1}=0\$$
