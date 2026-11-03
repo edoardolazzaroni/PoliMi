@@ -1299,4 +1299,6 @@ I passaggi risolutivi visti prima ora di concretizzano in:
 
 In modo simile esiste un flusso risolutivo "duale" delineabile in via di principio in:
 
-- Si assumono come incognite un gruppo di tensioni, per semplicità sup
+- Si assumono come incognite un gruppo di tensioni, per semplicità supponiamo siano solo due $V_{x}, V_y$;
+
+- Le altre tensioni negli $N$ elementi del circuito (bipoli o porte), che indichiamo come $v_{1}, \cdots , v_{N}$, vengono espresse in funzione delle incognite tramite le KVL (ed eventualmente il legame costitutivo di generatori di tensione pilotati in tensione, se presenti). Avremo:$$v_{1}=k_{1}(V_{x},V_{y})\\ $$
