@@ -1146,7 +1146,9 @@ in cui <u>fare attenzione al verso corretto del generatore ideale di tensione</u
 
 La concomitanza di una tensione e di una corrente elettrica in un bipolo (o ad una delle porte di un $N$-polo) corrisponde al manifestarsi di fenomeni di natura energetica. E’ esperienza comune che per far funzionare un dispositivo elettrico è necessario fornirgli energia (per esempio collegandolo ad una presa elettrica sfruttando l’energia chimica di una pila) o che il funzionamento di un dispositivo elettrico produce calore.
 
-Tali fenomeni vengono studiati attraverso una nuova grandezza fisica molto importante nelle applicazioni: la **potenza elettrica**: per introdurla, consideriamo il circuito elementare in figura 3.39 dove una pila (o batteria) alimenta un bipolo ai capi del quale si misura una tensione $v$ ed una corrente $i$.
+Tali fenomeni vengono studiati attraverso una nuova grandezza fisica molto importante nelle applicazioni: la **potenza elettrica**: per introdurla, consideriamo il circuito elementare in figura 3.39 dove una pila (o batteria) alimenta un bipolo ai capi del quale si misura una tensione $v$ ed una corrente $i$:
+![[Elettrotecnica-1793694929188.webp|217]]
+#Figura(3.39). *Aspetti energetici di un circuito elementare*
 
 Si supponga di osservare il funzionamento del circuito durante un intervallo di tempo $\Delta t$. Ricordiamo che la tensione $v$ rappresenta il lavoro elettrico che si deve svolgere su una carica elettrica unitaria per spostarla dal punto $B$ al punto $A$ lungo una qualunque linea che abbia tali punti come estremi. Fisicamente tale lavoro è svolto dalla batteria ed è "sfruttato" o meglio è assorbito dal bipolo ad esso connesso. Dunque, se $\Delta Q$ rappresenta la carica elettrica totale che nell’intervallo $\Delta t$, entra dal morsetto $A$ del bipolo (attraverso la sezione del filo), si ha che la quantità:
 $$L(\Delta t) = v\cdot \Delta Q$$
