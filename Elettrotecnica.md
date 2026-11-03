@@ -1116,3 +1116,6 @@ $$R_{1} = R_{2} = R_{3} = 10 \ \Omega$$
 
 Il procedimento è evidenziato in figura 3.36 (Destra): consiste nel trasformare i due generatori di tipo serie in parallelo. Sul circuito trasformato è poi possibile eseguire ulteriori semplificazioni come mostrato in fig. 3.37, dove $R_{eq} = \frac{10}{3} \ \Omega$. Risulta quindi:
 $$v_{AB} = 3 \cdot \frac{10}{3}= 10 \ V$$
+
+Sostituendo questo valore nel circuito originale, figura 3.36(Sinistra), si può poi ricavare:
+$$i_{1}=\frac{V_{AB}-40}{10}=-3 \ A$$
