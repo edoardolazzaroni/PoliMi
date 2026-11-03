@@ -1431,5 +1431,16 @@ La forma compatta $(4.29)$ sarà utilizzata nella nota seguente per esplorare le
 
 Sostituendo i valori numerici, invece, si ottiene:
 $$\begin{cases}
-\frac{e_{1}}{1}+2\
-\end{cases}$$
+\frac{e_{1}}{1}+2\cdot(e_{1}-e_{2})+i_{G}=0\\ \frac{e_{2}}{1}-1 \ A -i_{G}=0 \\
+e_{1}-e_{2}=1 \ V
+\end{cases}\quad(4.32)$$
+
+Si lascia per esercizio la soluzione numerical di tale sistema.
+
+Nell’implementazione a mano dell’analisi nodale è preferibile seguire il seguente procedimento che permette di ridurre la complessità risolutiva. Il metodo discende dall’osservazione che il legame
+
+costitutivo del generatore di tensione impone un vincolo tra i poten-
+
+ziali e1 ed e2. Se per esempio si conoscesse e1, sarebbe facile deter-
+
+minare e2 come
