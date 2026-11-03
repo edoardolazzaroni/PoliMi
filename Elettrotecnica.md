@@ -1269,3 +1269,7 @@ La porta $1$ è un corto circuito e misura la corrente $i_{1}$; la porta $2$ è 
 
 ## 4.2 **Analisi di circuiti che contengono generatori pilotati**
 
+L’analisi consiste nella scelta di un sottoinsieme di variabili elettriche (correnti e tensioni) come incognite del problema matematico e quindi nell’organizzare opportunamente la scrittura delle leggi di Kirchhoff e dei legami costitutivi.
+Esiste un "flusso risolutivo" che nel seguito delineiamo solo in via di principio (cioè non in modo sistematico) nei seguenti passaggi:
+
+- Si scelgono un sottoinsieme di variabili descrittive (correnti o tensioni) come incognite cercando di includere il più possibile le variabili che pilotano i generatori pilotati ed in modo che le altre variabili dello stesso tipo siano da esse determinabili. *Per esempio*, ipotizziamo che le incognite siano le correnti $Ix, Iy$.
