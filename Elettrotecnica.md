@@ -1294,4 +1294,4 @@ I passaggi risolutivi visti prima ora di concretizzano in:
 
 - Si assume come incognita la corrente pilotante $i_{2}$, cioè $I_{x}=i_{2}$. La conoscenza di questa corrente è sufficiente per dedurre tutte le altre correnti infatti applicando la KCL al nodo $C$ si ha:$$i_{1}=i_{2}+\beta i_{2}=(1+\beta)I_x$$
 - Si scrivono i legami costitutivi sui resistori:$$v_{1}=R_{1}i_{1}=R_{1}(1+\beta)I_{x}\\v_{2}=R_{2}i_{2}=R_{2}I_{x}\\ \\(4.9)$$
-- Infine serve individuare una maglia sulla quale le tensioni dei suoi elementi siano o note o funzioni dell’incognita, nell’esempio essa è la maglia esterna per la quale:$$E_{1}+v_{1}+v_{2}-E_{2}=0$$ovvero:$$E_{1}+R_{1}(1+\beta)I_{x}+R_{2}I_{x}-E_{2}=0$$
+- Infine serve individuare una maglia sulla quale le tensioni dei suoi elementi siano o note o funzioni dell’incognita, nell’esempio essa è la maglia esterna per la quale:$$E_{1}+v_{1}+v_{2}-E_{2}=0$$ovvero:$$E_{1}+R_{1}(1+\beta)I_{x}+R_{2}I_{x}-E_{2}=0$$da cui si ottiene l'**equazione risolutiva**:$$[R_{1}(1+\beta)+R_{2}]\cdot I_{x}=E_{2}-E_{1}$$Risolvendo si ottiene l'incognita:$$I_{x}=$$
