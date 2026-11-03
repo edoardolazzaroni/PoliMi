@@ -1207,6 +1207,9 @@ Il teorema di Tellegen riformulato con le potenze fisiche viene detto **Conserva
 ## 4.1 **Generatori pilotati**
 
 Introduciamo ora una nuova classe di elementi circuitali che sono indispensabili per "riprodurre" nel modello circuitale il comportamento di alcuni dispositivi elettronici. Uno di tali dispositivi è il transistore ("*transistor*" dall’inglese "TRANSferring"+"resISTOR").
+![[Elettrotecnica-1793696905839.webp|554]]
+#Figura(4.1).
+
 La figura 4.1 (Sinistra) mostra il simbolo adottato negli schemi elettronici per il transistore di tipo MOS (metallo, ossido, semiconduttore): si presenta come un tripolo coi tre morsetti, G ("gate"), D ("drain"), S ("source").
 
 Tipicamente esso viene impiegato come mostrato in figura 1.1 (Destra) raddoppiando uno dei suoi morsetti (es. il source) in modo da formare un doppio bipolo (tripolare) che è poi collegato a due bipoli esterni.
