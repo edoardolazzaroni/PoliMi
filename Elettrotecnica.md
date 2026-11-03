@@ -1266,3 +1266,6 @@ La porta $1$ è un corto circuito e misura la corrente $i_{1}$; la porta $2$ è 
 > Concludiamo questa sezione osservando che a seguito dell’introduzione dei generatori pilotati i generatori ideali di tensione e corrente vengono spesso indicati come generatori indipendenti per distinguerli dai comandati.
 
 
+
+## 4.2 **Analisi di circuiti che contengono generatori pilotati**
+
