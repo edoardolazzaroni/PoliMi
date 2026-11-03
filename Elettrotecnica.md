@@ -1421,4 +1421,15 @@ $$\mathbf{A}= \begin{vmatrix}
 0 \\ 0 \\ 1
 \end{vmatrix}\quad \quad (4.30)$$
 e le variabili incognite sono raccolte nel vettore seguente:
-$$$$
+$$\mathbf{\overrightarrow{x}}=\begin{vmatrix}
+e_{1} \\
+e_{2} \\
+i_{G}
+\end{vmatrix}\quad(4.31)$$
+
+La forma compatta $(4.29)$ sarà utilizzata nella nota seguente per esplorare le proprietà del sistema, cioè del circuito.
+
+Sostituendo i valori numerici, invece, si ottiene:
+$$\begin{cases}
+\frac{e_{1}}{1}+2\
+\end{cases}$$
