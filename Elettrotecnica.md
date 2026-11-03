@@ -1453,4 +1453,8 @@ da cui $e_{2}=-1 \ V$. Volendo, bilanciando le correnti al nodo $1$, si determin
 $$i_{G}=-2\cdot E_{s}0-2 \ A$$
 
 
-#Esempio 
+#Esempio Presentiamo un ulteriore esempio cui compare un generatore di tensione comandato dalla tensione $v_{A}$ come mostrato in figura coi parametri:
+![[Elettrotecnica-1793703830229.webp|237]]
+#Figura(4.15). *Uso del supernodo in presenza di un generatore pilotato*
+
+$$E_{s}=$$
