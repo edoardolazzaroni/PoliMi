@@ -1363,3 +1363,7 @@ La soluzione è quindi **unica**.
 <mark class="hltr-yellow">Nel caso in cui un elemento presente nel circuito non sia controllabile in tensione, il metodo dell’analisi nodale deve essere modificato</mark>.
 
 Partiamo considerando il circuito mostrato in figura, con la relativa numerazione dei nodi e coi valori numerici:
+![[Elettrotecnica-1793702238088.webp|313]]
+#Figura(4.11). *Circuito con generatore di tensione connesso tra un nodo e il riferimento*
+
+$$$$
