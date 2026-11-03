@@ -1366,4 +1366,22 @@ Partiamo considerando il circuito mostrato in figura, con la relativa numerazion
 ![[Elettrotecnica-1793702238088.webp|313]]
 #Figura(4.11). *Circuito con generatore di tensione connesso tra un nodo e il riferimento*
 
-$$$$
+$$E_{s}=8 \ V\\R_{1}=R_{2}=R_{3}=1 \ \Omega\\g=2 \ \Omega^{-1}\\ \\(4.22)$$
+
+In questo primo caso, un generatore ideale di tensione è collegato tra un nodo ed il riferimento. Il generatore di tensione ha un’equazione costitutiva del tipo $v = E_{s}$, dunque da essa non si può determinare la corrente $i_{G}$ che vi scorre in funzione della tensione ai
+
+suoi capi v = e2, esso non è controllabile in tensione. L’analisi nodale
+
+viene modificata assumendo iG, cioè la corrente dell’elemento non
+
+controllabile in tensione, come incognita aggiuntiva del problema.
+
+In questo modo le incognite risultano e1, e2 e iG. Le equazioni che
+
+scriveremo sono date da il bilancio delle correnti nei due nodi, come
+
+nell’analisi nodale semplice, con l’aggiunta della relazione che il
+
+legame costitutivo dell’elemento non controllabile in tensione deter-
+
+mina tra i potenziali di nodo:
