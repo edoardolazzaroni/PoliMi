@@ -1571,4 +1571,11 @@ dove i coefficienti $H_{i}, K_{i}$ sono dei numeri reali che esprimono "l’<u>i
 Si potrà sfruttare questo risultato semplificando l’analisi del circuito in un insieme di problemi più semplici in cui agisce una sola sorgente per volta oppure gruppi di sorgenti per volta.
 
 La figura 5.4 mostra il problema elementare in cui agisce <u>un solo generatore di corrente</u>, mentre la figura 5.5 mostra il problema elementare in cui agisce <u>un solo generatore di tensione</u>:
+![[Elettrotecnica-1793706289329.webp|252]]
+#Figura(5.4).
+![[Elettrotecnica-1793706307037.webp|241]]
+#Figura(5.5).
+
+
+La soluzione completa sarà quindi ottenuta sommando le soluzioni parziali ottenute dai circuiti elementari.
 
