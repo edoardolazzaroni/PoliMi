@@ -1320,4 +1320,6 @@ Dato un circuito formato da $N + 1$ nodi, che supponiamo di numerare da $0$ a $N
 #Figura(4.8). (<u>Sinistra</u>) Tensioni o potenziali di nodo; (<u>Destra</u>) La tensione su un generico elemento si ricava dai potenziali ai nodi a cui è connesso: $v = e_{A}−e_{B}$, da cui si ricava la corrente $i= g(v) = \tilde{g}(e_{A}, e_{B})$
 
 - Si fissa **arbitrio** un nodo come riferimento, supponiamo sia il numero $0$, e quindi come incognite del problema si assumono gli $N$ potenziali di nodo $e_{1}, e_{2}, \cdots , e_{N}$;
-- Le tensioni sugli $\mathcal{L}$ elementi che compongono il circuito sono una funzione dei potenziali. Come mostrato in figura 4.8 (Destra) per il generico elemento collegato ai nodi $A$ e $B$, la tensione si scrive in funzione dei potenziali:$$$$
+- Le tensioni sugli $\mathcal{L}$ elementi che compongono il circuito sono una funzione dei potenziali. Come mostrato in figura 4.8 (Destra) per il generico elemento collegato ai nodi $A$ e $B$, la tensione si scrive in funzione dei potenziali:$$v=e_{A}-e_{B}$$
+- Nell’ipotesi che tutti i bipoli (e $N$-porta) siano controllabili in tensione, sarà possibile esprimere ogni corrente i nel generico elemento in funzione di una tensione e quindi, essendo quest’ultima una combinazione di potenziali, anche i sarà esprimibile come combinazione di potenziali. Si avrà:$$i=g(v)=\tilde{g}(e_{1},e_{2},\cdots,e_{N})$$
+- 
