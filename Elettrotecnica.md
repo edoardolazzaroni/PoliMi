@@ -1180,6 +1180,9 @@ In questo caso la potenza elettrica assorbita potrà essere positiva, negativa o
 
 #Esempio Svolgiamo l’analisi del circuito mostrato in figura valutando le potenze elettriche in gioco:
 ![[Elettrotecnica-1793695844283.webp|246]]
-#
+#Figura(3.43). *Calcolo della potenza in un circuito*
 
 La KVL si scrive:
+$$20+i_{m}\cdot 10=10$$
+da cui:
+$$i_{m}=\frac{10-20}{10}=-1 \ A$$
