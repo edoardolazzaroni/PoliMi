@@ -1509,4 +1509,18 @@ $$x=\underbrace{\frac{1}{A} \ B1}_{H_{1}}\cdot I_{s_{1}}+\underbrace{\frac{1}{A}
 in cui i valori dei generatori indipendenti sono moltiplicati per i coefficienti $H_{1}$ e $H_{2}$.
 Facciamo le seguenti **osservazioni**:
 
-- Se i generatori indipendenti vengono spenti, ponendo $I_{s_{1}} = 0$ e $E_{s_{2}} = 0$, la soluzione unica è quella nulla $x = 0$. Questo ci dice che i generatori indipendenti sono le sorgenti o cause del fatto elettrico senza le quali nel circuito tutte le variabili sarebbero nulle, ovvero il circuito sarebbe spento (o in quiescenza). Per questo motivo, talvolta i generatori indipendenti vengono indicati col nome di sorgente di tensione o di corrente.
+- <u>Se i generatori indipendenti vengono spenti</u>, ponendo $I_{s_{1}} = 0$ e $E_{s_{2}} = 0$, la soluzione unica è quella nulla $x = 0$. Questo ci dice che i generatori indipendenti sono le **sorgenti** o **cause del fatto elettrico senza le quali nel circuito tutte le variabili sarebbero nulle**, ovvero il circuito sarebbe **spento** (o in <u>quiescenza</u>). Per questo motivo, talvolta i generatori indipendenti vengono indicati col nome di sorgente di tensione o di corrente.
+
+- La variabile incognita $x$, come qualunque altra variabile nel circuito (1), risulta essere una combinazione lineare dei valori $im-1$ Si calcoli per esempio la corrente nel
+
+pressi dai generatori indipendenti. Cioè qualunque variabile che
+
+resistore R1, essa sarà i1 = x/R1 =
+
+H1/R1· Is1 + H2/R1· Es2 cioè di nuovo
+
+noi vogliamo osservare come la risposta o uscita del circuito sarà
+
+del tipo i1 = H1· Is1 + H2· Es2. Questo
+
+del del tipo
