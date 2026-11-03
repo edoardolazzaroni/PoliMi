@@ -1096,3 +1096,12 @@ Il corrispondente modello serie risulta:
 $$E_{s}=0.1\cdot 50=5 \ V;\quad R_{s}=R_{p}=50 \ \Omega$$
 
 in cui <u>fare attenzione al verso corretto del generatore ideale di tensione</u>.
+
+
+#### #Esercizio(composizione dei generatori) (1)
+
+Dato il circuito in figura, calcolare come prima variabile la corrente $i_{a}$, quindi calcolate $i_{b}, i_{c}$ e la tensione $v_{d}$. 
+
+Dopo avere letto la sezione successiva, determinate la potenza elettrica erogata dal gener-
+
+atore di corrente.
