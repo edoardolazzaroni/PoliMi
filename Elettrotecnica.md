@@ -1283,3 +1283,5 @@ Il procedimento di principio delineato sopra può a primo acchito apparire poco 
 
 #Esempio 
 
+![[Elettrotecnica-1793698744204.webp|374]]
+#Figura(4.7). Circuito con generatore di corrente pilotato in corrente; la porta pilotante è rappresentata dal corto circuito tra i nodi $A$ e $B$; la porta pilotata è tra i nodi $C$
