@@ -1108,3 +1108,11 @@ in cui <u>fare attenzione al verso corretto del generatore ideale di tensione</u
 > 
 > Dopo avere letto la sezione successiva, determinate la <u>potenza elettrica erogata</u> dal generatore di corrente.
 
+
+#### #Esercizio(composizione dei generatori) (2)
+
+Dato il circuito in figura (Sinistra), si utilizzi la trasformazione serie/parallelo dei generatori per calcolare la tensione $v_{AB}$. Successivamente, si calcolino le correnti i1, i2 ed i3 verificando che soddisfano
+
+la KCL al nodo A (o B). Si assuma:
+
+R1 = R2 = R3 = 10Ω
