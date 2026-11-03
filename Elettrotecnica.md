@@ -1102,6 +1102,4 @@ in cui <u>fare attenzione al verso corretto del generatore ideale di tensione</u
 
 Dato il circuito in figura, calcolare come prima variabile la corrente $i_{a}$, quindi calcolate $i_{b}, i_{c}$ e la tensione $v_{d}$. 
 
-Dopo avere letto la sezione successiva, determinate la potenza elettrica erogata dal gener-
-
-atore di corrente.
+Dopo avere letto la sezione successiva, determinate la <u>potenza elettrica erogata</u> dal generatore di corrente.
