@@ -1167,7 +1167,18 @@ Da un punto di vista fisico ne traiamo la seguente pittura: il prodotto $v \cdot
 $$p=v\cdot i=R\cdot i^2=\frac{v^2}{R} \ge 0$$
 
 è sempre positiva o nulla, esso viene detto **bipolo passivo**. La figura 3.41 mostra un modo comune di evidenziare la potenza $p$ assorbita da un resistore:
-![[Elettrotecnica-1793695291251.webp]]
+![[Elettrotecnica-1793695291251.webp|282]]
+#Figura(3.41). *Bipolo passivo $p\ge 0 \ W$*
 
 
-La figura 1.42,
+La figura 1.42, invece, mostra il caso di un generatore ideale di
+
+tensione ed uno di corrente. Si prenda per esempio il primo, la sua
+
+caratteristica impone v = Es ma nulla dice circa la variabile corrente
+
+il cui valore dipende da ciò che vi è ad esso collegato. In questo caso
+
+la potenza elettrica assorbita potrà essere positiva, negativa o nulla
+
+ed il bipolo, non essendo passivo, viene detto attivo. Fisicamente un
