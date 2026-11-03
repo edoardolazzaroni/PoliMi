@@ -1520,11 +1520,18 @@ che rappresenta l'effetto dovuta alla sola causa $I_{s_{1}}$. In modo simile, po
 $$x''=H_{2}\cdot E_{s_{2}}$$
 
 Alla luce di queste considerazioni, possiamo affermare che l’espressione completa $(5.4)$ rappresenta la sovrapposizione degli effetti parziali dovuti a ciascuna sorgente (<u>indipendente</u>).
-Le stesse osservazioni possono essere ripetute per il circuito mostrato nel [[#**Capitolo IV Circuiti con generatori pilotati**|capitolo 4]]:
+Le stesse osservazioni possono essere ripetute per il circuito mostrato nel [[#4.4 **Analisi Nodale Modificata (MNA)**|capitolo 4.4]]:
 ![[Elettrotecnica-1793705588150.webp|369]]
 #Figura(5.2). *Circuito con generatore di tensione connesso tra due nodi*
 
 Ricordiamo qui come le equazioni dell’Analisi Nodale Modificata portano al seguente sistema lineare:
 $$\mathbf{A}\cdot \mathbf{\overrightarrow{x}}=\mathbf{\overrightarrow{b}}_{1}\cdot I_{s}+\mathbf{\overrightarrow{b}}_{2}\cdot E_{s}\quad(5.5)$$
 dove:
-$$\mathbf{A}=$$
+$$\mathbf{A}= \begin{vmatrix}
+\frac{1}{R_{1}}+g & -g & 1\\0 & \frac{1}{R_{3}} & -1\\ 1 & -1 & 0
+\end{vmatrix};\quad\mathbf{\overrightarrow{b}}_{1}=\begin{vmatrix}
+0 \\ 1 \\ 0
+\end{vmatrix};\quad\mathbf{\overrightarrow{b}}_{2}=\begin{vmatrix}
+0 \\ 0 \\ 1
+\end{vmatrix}\quad \quad (5.6)$$
+e le variabili incognite sono raccolte nel vettore seguente
