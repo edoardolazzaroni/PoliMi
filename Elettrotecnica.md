@@ -1287,4 +1287,6 @@ Il procedimento di principio delineato sopra può a primo acchito apparire poco 
 #Figura(4.7). *Circuito con generatore di corrente pilotato in corrente; la porta pilotante è rappresentata dal corto circuito tra i nodi $A$ e $B$; la porta pilotata è tra i nodi $C$ e $D$*
 
 I dati del problema sono:
-$$$$$
+$$E_{1}=10 \ V;\\R_{1}=100 \ \Omega\\ \beta = 9;\\E_{2}=20 \ V; \\ R_{2}=1 \ k\Omega$$
+
+I passaggi risolutivi visti prim
