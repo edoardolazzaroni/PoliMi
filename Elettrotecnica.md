@@ -1550,4 +1550,11 @@ $$\mathbf{\overrightarrow{h}}=(\mathbf{A}^{-1}\cdot\mathbf{\overrightarrow{b}}_{
 H_{1} \\
 H_{2} \\
 H_{3}
-\end{vmatrix}$$
+\end{vmatrix}\quad(5.9)\\
+\mathbf{\overrightarrow{k}}=(\mathbf{A}^{-1}\cdot\mathbf{\overrightarrow{b}}_{2})=\begin{vmatrix}
+K_{1} \\
+K_{2} \\
+K_{3}
+\end{vmatrix}\quad(5.10)$$
+
+Con
