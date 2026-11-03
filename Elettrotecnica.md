@@ -1350,4 +1350,6 @@ Dall’Algebra sappiamo che il problema matematico può avere una, nessuna o inf
 #Figura(4.10). *Rappresentazione grafica del sistema di due equazioni lineari, dove si è adottata la notazione $x = e_{1}$ e $y= e_{2}$*
 
 L’unicità della soluzione si avrà quando le pendenze delle due rette sono diverse, come nell’esempio svolto. Se le rette sono parallele, invece, avremo zero soluzione se esse non sono coincidenti (caso di sistema impossibile), mentre si avranno infinite soluzioni nel caso siano coincidenti (caso di sistema indeterminato). L’unicità della soluzione può essere espressa matematicamente nella condizione:
-$$\det(\mathbf{A})\ne 0$$dove $
+$$\det(\mathbf{A})\ne 0$$dove $\det(\cdot)$ indica il determinante e:$$\mathbf{A}=\begin{vmatrix}
+4&-3\\-1&2
+\end{vmatrix}\quad(4.20)$$è la matrice dei coefficienti del sistema lineare. N
