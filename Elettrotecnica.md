@@ -1148,20 +1148,5 @@ La concomitanza di una tensione e di una corrente elettrica in un bipolo (o ad u
 
 Tali fenomeni vengono studiati attraverso una nuova grandezza fisica molto importante nelle applicazioni: la **potenza elettrica**: per introdurla, consideriamo il circuito elementare in figura 3.39 dove una pila (o batteria) alimenta un bipolo ai capi del quale si misura una tensione $v$ ed una corrente $i$.
 
-Si supponga di osservare il funzionamento del circuito durante un intervallo di tempo $\Delta t$. Ricordiamo che la tensione v rappresenta
-
-il lavoro elettrico che si deve svolgere su una carica elettica unitaria
-
-per spostarla dal punto B al punto A lungo una qualunque linea
-
-che abbia tali punti come estremi. Fisicamente tale lavoro è svolto
-
-dalla batteria ed è "sfruttato" o meglio è assorbito dal bipolo ad
-
-esso connesso. Dunque, se ∆Q rappresenta la carica elettrica totale
-
-che nell’intervallo ∆t, entra dal morsetto A del bipolo (attraverso la
-
-sezione del filo), si ha che la quantità
-
-L(∆t) = v· ∆Q
+Si supponga di osservare il funzionamento del circuito durante un intervallo di tempo $\Delta t$. Ricordiamo che la tensione $v$ rappresenta il lavoro elettrico che si deve svolgere su una carica elettrica unitaria per spostarla dal punto $B$ al punto $A$ lungo una qualunque linea che abbia tali punti come estremi. Fisicamente tale lavoro è svolto dalla batteria ed è "sfruttato" o meglio è assorbito dal bipolo ad esso connesso. Dunque, se $\Delta Q$ rappresenta la carica elettrica totale che nell’intervallo $\Delta t$, entra dal morsetto $A$ del bipolo (attraverso la sezione del filo), si ha che la quantità:
+$$L(Deltt) = v· ∆Q$$
