@@ -1302,4 +1302,5 @@ In modo simile esiste un flusso risolutivo "duale" delineabile in via di princip
 - Si assumono come incognite un gruppo di tensioni, per semplicità supponiamo siano solo due $V_{x}, V_y$;
 
 - Le altre tensioni negli $N$ elementi del circuito (bipoli o porte), che indichiamo come $v_{1}, \cdots , v_{N}$, vengono espresse in funzione delle incognite tramite le KVL (ed eventualmente il legame costitutivo di generatori di tensione pilotati in tensione, se presenti). Avremo:$$v_{1}=k_{1}(V_{x},V_{y})\\ \\ \vdots \\ \\ v_{N}=k_{N}(V_{x}, V_{y})\\ \\(4.11)$$
-- Nell'ipotesi che tutti i bipoli (e $N$-porte) siano controllabili in tensione, sarà possibile esprimere le correnti su di essi in funzione delle tensioni tramite i loro legami costitutivi:$$i_{1}=g_{1}(v_{})$$
+- Nell'ipotesi che tutti i bipoli (e $N$-porte) siano controllabili in tensione, sarà possibile esprimere le correnti su di essi in funzione delle tensioni tramite i loro legami costitutivi:$$i_{1}=g_{1}(v_{1})=\tilde{g}_{1}(V_{x},V_{y})\\ \\ \vdots \\ \\i_{N}=g_{N}(v_{N})=\tilde{g}_{N}(V_{x},V_{y})\\ \\(4.12)$$
+- Infine, si scriverà un numero di leggi di Kirchhoff delle correnti pari al numero delle incognite. Ogni KCL sarà una equazione lineare che bilancia le correnti attraverso un nodo $S$ (o superficie chiusa) e sarà del tipo:$$\sum_{n\}$$
