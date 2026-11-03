@@ -1437,10 +1437,6 @@ e_{1}-e_{2}=1 \ V
 
 Si lascia per esercizio la soluzione numerical di tale sistema.
 
-Nell’implementazione a mano dell’analisi nodale è preferibile seguire il seguente procedimento che permette di ridurre la complessità risolutiva. Il metodo discende dall’osservazione che il legame
-
-costitutivo del generatore di tensione impone un vincolo tra i poten-
-
-ziali e1 ed e2. Se per esempio si conoscesse e1, sarebbe facile deter-
-
-minare e2 come
+Nell’implementazione a mano dell’analisi nodale è preferibile seguire il seguente procedimento che permette di ridurre la complessità risolutiva; il metodo discende dall’osservazione che il legame costitutivo del generatore di tensione impone un vincolo tra i potenziali $e_{1}$ ed $e_{2}$. Se per esempio si conoscesse $e_{1}$, sarebbe facile determinare $e_{2}$ come:
+$$e_{2}=e_{1}-E_{s}=e_{1}-1 \ V\quad(4.33)$$
+dunque questo ci permette di 
