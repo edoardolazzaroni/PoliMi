@@ -1157,9 +1157,22 @@ $$p=\frac{\mathcal{L}(\Delta t)}{\Delta t}=v\cdot\frac{\Delta Q}{\Delta t}=v\cdo
 
 <mark class="hltr-yellow">La potenza elettrica è dunque data dal prodotto della tensione per la corrente</mark>.
 
-La figura 3.40 mostra schematicamente l’esecuzione di un celebre esperimento dovuto a James Prescott Joule in cui un resistore elettrico alimentato da una pila viene inserito in uno strumento adiabatico (cioè isolato termicamente) in grado di misurare la quantità di calore prodotto al suo interno (questo avviene attraverso un termometro che fornisce la temperatura di un fluido interno).
+La figura 3.40 mostra schematicamente l’esecuzione di un celebre esperimento dovuto a James Prescott Joule in cui un resistore elettrico alimentato da una pila viene inserito in uno strumento adiabatico (cioè isolato termicamente) in grado di misurare la quantità di calore prodotto al suo interno (questo avviene attraverso un termometro che fornisce la temperatura di un fluido interno):
+![[Elettrotecnica-1793695073258.webp|176]]
+#Figura(3.40). *Esperimento col calorimetro*
+
 Con tale esperimento Joule dimostrò come il passaggio della corrente elettrica nel resistore corrispondesse alla generazione di calore (effetto Joule) e come tale calore fosse proporzionale al valore di $v \cdot i$.
 
-Da un punto di vista fisico ne traiamo la seguente pittura: il prodotto $v \cdot i$ con $v$ ed i misurate con la convenzione degli utilizzatori, rap-
+Da un punto di vista fisico ne traiamo la seguente pittura: il prodotto $v \cdot i$ con $v$ ed $i$ misurate con la convenzione degli utilizzatori, rappresenta la potenza elettrica assorbita o entrante in un bipolo (o da una delle porte di un $N$-polo). la potenza viene misura in watt
 
-presenta la potenza elettrica assorbita o entrante in un bipolo (o
+= ampere x volt [W]. Nel caso specifico del resistore fisico, il lavoro
+
+elettrico che corrisponde a tale potenza viene convertito in modo ir-
+
+reversibile in calore che si disperde nell’ambiente. Il resistore fisico
+
+può solo assorbire potenza e non erogarne. In accordo con questa
+
+evidenza sperimentale si ha che per il bipolo resistore, la cui caratter-
+
+istica è v = R· i con R > 0, la potenza assorbita
