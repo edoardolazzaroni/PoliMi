@@ -1313,3 +1313,8 @@ Il metodo sistematico prende il nome di **Analisi Nodale** e verrà trattato nel
 
 ## 4.3 **Il metodo dell'Analisi Nodale**
 
+<mark class="hltr-yellow">Nella sua forma semplice il metodo si applica nell’ipotesi che tutti gli elementi circuitali siano controllabili in tensione</mark>.
+
+Dato un circuito formato da $N + 1$ nodi, che supponiamo di numerare da $0$ a $N$, e da $Lelementi (bipoli o porte di N-poli), il metodo consiste nei seguenti
+
+passi che descriveremo con l’aiuto dello schema mostrato in figura
