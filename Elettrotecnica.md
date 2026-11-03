@@ -1582,4 +1582,8 @@ La soluzione completa sarà quindi ottenuta sommando le soluzioni parziali otten
 
 #### #Esercizio 
 
-Ripetiamo l'esercizio svolto nel [[#Esercizio(composizione dei generatori) (2)|terzo capitolo]] sfruttando la sovrapposizione degli effetti. Il circuito è riport
+Ripetiamo l'esercizio svolto nel [[#Esercizio(composizione dei generatori) (2)|terzo capitolo]] sfruttando la sovrapposizione degli effetti. Il circuito è riportato di seguito:
+![[Elettrotecnica-1793706685603.webp|331]]
+#Figura(5.6).
+
+Spegniamo per primo $E_{s_{2}}$ e risolviamo il circuito semplificato in figura 5.7 Otteniamo:
