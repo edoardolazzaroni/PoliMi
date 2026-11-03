@@ -1231,6 +1231,7 @@ Per rappresentare tale comportamento serve un elemento circuitale nuovo il cui s
 
 Il nome generatore di corrente pilotato ed il simbolo può indurre ad associare questo elemento a quello di un generatore di corrente ideale. E’ invece preferibile osservare come il suo legame costitutivo lo renda simile all’estensione di un resistore al caso multi-porta.
 
+
 La figura 4.4 mostra un altro modello di generatore pilotato: **il generatore di corrente pilotato in corrente**.
 ![[Elettrotecnica-1793697323537.webp|254]]
 #Figura(4.4). *Generatore di corrente pilotato in corrente*
@@ -1240,3 +1241,9 @@ $$v_{1}=0\\i_{2}=\beta\cdot i_{1}\\ \\(4.2)$$
 
 La porta $1$ si comporta come un corto circuito, un misuratore ideale di corrente. La corrente misurata $i_{1}$ controlla il valore della corrente $i_{2}$ alla porta $2$. Il parametro $\beta$, adimensionale, si dice **guadagno di corrente**.
 
+
+Accanto ai modelli di generatore di corrente pilotati esistono analoghi modelli di generatore di tensione pilotato. In particolare, la figura 4.5 mostra un **generatore di tensione pilotato in tensione**:
+
+
+le cui equazioni sono date da:
+$$i_{1}=0\\v_{2}=\alpha\cdot v_{1}$$
