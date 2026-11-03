@@ -1385,4 +1385,9 @@ In generale il metodo MNA porta ad un numero relativamente grande di equazioni a
 
 Per la soluzione "a mano", invece, laddove è possibile, si preferisce cercare di limitare la dimensione del problema da risolvere per evitare possibili errori di calcolo.
 
-Per la soluzione a mano facciamo riferimento alla figura 4.12 e notiamo come sia ingenuo considerare $e_{2}$ come incognita in quanto essa è imposta al valore $e_{2} = E_{s} = 8 \ V$ dal generatore di tensione. In tal modo, rimane come unica incognita il potenziale $e_{1}$ che potremo determinare direttamente scrivendo il bilancio al solo nodo $1$. Sostituendo i numeri avremo che il problema matematico si riduce alla sola:
+Per la soluzione a mano facciamo riferimento alla figura 4.12 e notiamo come sia ingenuo considerare $e_{2}$ come incognita in quanto essa è imposta al valore $e_{2} = E_{s} = 8 \ V$ dal generatore di tensione.
+![[Elettrotecnica-1793702673458.webp|359]]
+#Figura(4.12). *Nella soluzione a mano si assume come unica incognita $e_{1}$*
+
+In tal modo, rimane come unica incognita il potenziale $e_{1}$ che potremo determinare direttamente scrivendo il bilancio al solo nodo $1$. Sostituendo i numeri avremo che il problema matematico si riduce alla sola:
+$$\frac{e_{1}}{1}+2\cdot(e_{})$$
