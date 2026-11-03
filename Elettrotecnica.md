@@ -1334,3 +1334,8 @@ Consolidiamo la comprensione applicando il metodo al circuito mostrato in figura
 
 I dati del problema sono:
 $$I_{s}=5 \ A\\R_{1}=R_{2}=R_{3}=1 \ \Omega\\g=2\ \Omega^{-1}\\ \\(4.15)$$
+
+I passaggi dell'analisi nodale sono:
+
+- Le incognite sono i potenziali di nodo $e_{1},e_{2}$;
+- La tensione su $R_{1}$ è $e_{1}$, quella su $R_{3}$ è $e_{3}$ mentre la tensione su $R_{2}$ è data da:$$v_{12}=$$
