@@ -1517,3 +1517,7 @@ Analizziamo ora lo scenario in cui nel circuito in figura 5.1 venga spento il ge
 Dalla $(5.4)$ ricaviamo che la variabile di uscita $x$ assume il valore:
 $$x'=H_{1}\cdot I_{s_{1}}$$
 che rappresenta l'effetto dovuta alla sola causa $I_{s_{1}}$. In modo simile, possiamo spegnere il generatore di corrente $I_{s_{1}}$ (che diventa un circuito aperto) e lasciare agire la sola sorgente $E_{s_{2}}$, avremo l’effetto parziale:
+$$x''=H_{2}\cdot E_{s_{2}}$$
+
+Alla luce di queste considerazioni, possiamo affermare che l’espressione completa $(5.4)$ rappresenta la sovrapposizione degli effetti parziali dovuti a ciascuna sorgente (<u>indipendente</u>).
+Le stesse osservazioni possono essere ripetute per il circuito mostrato in [[figura (4.32)]]
