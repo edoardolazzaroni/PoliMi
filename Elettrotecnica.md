@@ -1586,4 +1586,8 @@ Ripetiamo l'esercizio svolto nel [[#Esercizio(composizione dei generatori) (2)|t
 ![[Elettrotecnica-1793706685603.webp|331]]
 #Figura(5.6).
 
-Spegniamo per primo $E_{s_{2}}$ e risolviamo il circuito semplificato in figura 5.7 Otteniamo:
+Spegniamo per primo $E_{s_{2}}$ e risolviamo il circuito semplificato in figura 5.7. Otteniamo:
+![[Elettrotecnica-1793706721226.webp|232]]
+#Figura(5.7).
+
+dove $R_{2} \ || \ R_{3}=\frac{R_{2}R_{3}}$
