@@ -1255,8 +1255,9 @@ Questo tipo di modello, vedremo, serve tra l’altro per descrivere circuitalmen
 
 Infine, la figura 4.6 mostra il modello del **generatore di tensione pilotato in corrente**:
 ![[Elettrotecnica-1793697598585.webp|207]]
-#Figura(4.6). Ge
+#Figura(4.6). *Generatore di tensione pilotato in corrente*
 
 le cui equazioni sono date da:
 $$v_{0}\\v_{2}=r\cdot i_{1}\\ \\(4.4)$$
 
+La porta $1$ è un corto circuito e misura la corrente $i_{1}$; la porta $2$ è un generatore di tensione il cui valore è determinato da $i_{1}$ attraverso il parametro, misurato in $Ω$, r detto transresistenza.
