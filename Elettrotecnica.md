@@ -1413,4 +1413,6 @@ dove le prime due equazioni impongono il bilancio delle correnti ai nodi $1$ e $
 Le equazioni possono essere scritte in formato matriciale/vettoriale come:
 $$\mathbf{A}\cdot \mathbf{\overrightarrow{x}}=\mathbf{\overrightarrow{b}}_{1}\cdot I_{s}+\mathbf{\overrightarrow{b}}_{2}\cdot E_{s}\quad(4.29)$$
 dove:
-$$\mathbf{A}=\vm at$$
+$$\mathbf{A}= \begin{vmatrix}
+\frac{1}{R_{1}}+g & -g & 1\\0 & \frac{1}{R_{3}} & -1\\ 1 & -1 & 0
+\end{vmatrix};\quad\mathbf{\overrightarrow{b}}$$
