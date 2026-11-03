@@ -1406,5 +1406,9 @@ $$E_{s}=1 \ V;\\I_{s}=1 \ A;\\R_{1}=R_{3}=1 \ \Omega;\\g=2 \ \Omega^{-1}\\ \\(4.
 
 Scriviamo prima il metodo MNA genuino, come formulato in un codice automatico: le variabili incognite sono $e_{1},e_{2}$ e $i_{G}$. Si ha:
 $$\begin{cases}
-\frac{e_{1}}{R_{1}}+g\cdot(e_{1}-e_{2})+i_{G}=0 \\ \frac{e_{2}}{R_{3}}
-\end{cases}$$
+\frac{e_{1}}{R_{1}}+g\cdot(e_{1}-e_{2})+i_{G}=0 \\ \frac{e_{2}}{R_{3}}-i_{G}=I_{s}\\ e_{1}-e_{2}=E_{s}
+\end{cases}\quad (4.28)$$
+
+dove le prime due equazioni impongono il bilancio delle correnti ai nodi $1$ e $2$, mentre la terza esprime il legame costitutivo dell’elemento non controllato in tensione.
+Le equazioni possono essere scritte in formato matriciale/vettoriale come:
+$$\mathbf{A}\cdot \mathbf{\v oerrightarrow{}}$$
