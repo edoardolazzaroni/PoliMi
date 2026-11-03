@@ -1500,4 +1500,5 @@ Il problema d’analisi può, per esempio, venire formulato attraverso il metodo
 Avremo:
 $$-I_{s_{1}}+\frac{x}{R_{1}}+g\cdot(E_{s_{2}}-x)+\frac{x-E_{s_{2}}}{R_{2}}=0\quad(5.1)$$
 
-Riordinando oi te
+Riordinando i termini, si ottiene l'equazione risolutiva:
+$$(\frac{1}{R_{1}}-g+\frac{1}{R_{2}})\cdot x=1\cdot I_{s_{1}}+(1/R_{})$$
