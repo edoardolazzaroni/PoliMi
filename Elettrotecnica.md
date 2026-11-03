@@ -1163,11 +1163,7 @@ La figura 3.40 mostra schematicamente l’esecuzione di un celebre esperimento d
 
 Con tale esperimento Joule dimostrò come il passaggio della corrente elettrica nel resistore corrispondesse alla generazione di calore (effetto Joule) e come tale calore fosse proporzionale al valore di $v \cdot i$.
 
-Da un punto di vista fisico ne traiamo la seguente pittura: il prodotto $v \cdot i$ con $v$ ed $i$ misurate con la convenzione degli utilizzatori, rappresenta la potenza elettrica assorbita o entrante in un bipolo (o da una delle porte di un $N$-polo). la potenza viene misura in watt
-
-= ampere x volt [W]. Nel caso specifico del resistore fisico, il lavoro
-
-elettrico che corrisponde a tale potenza viene convertito in modo ir-
+Da un punto di vista fisico ne traiamo la seguente pittura: il prodotto $v \cdot i$ con $v$ ed $i$ misurate con la <u>convenzione degli utilizzatori</u>, rappresenta la **potenza elettrica assorbita** o **entrante** in un bipolo (o da una delle porte di un $N$-polo). la potenza viene misura in **watt** = ampere $\times$ volt $[W]$. Nel caso specifico del resistore fisico, il lavoro elettrico che corrisponde a tale potenza viene convertito in modo ir-
 
 reversibile in calore che si disperde nell’ambiente. Il resistore fisico
 
