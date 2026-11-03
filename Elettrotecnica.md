@@ -1525,4 +1525,6 @@ Le stesse osservazioni possono essere ripetute per il circuito mostrato nel [[#*
 #Figura(5.2). *Circuito con generatore di tensione connesso tra due nodi*
 
 Ricordiamo qui come le equazioni dell’Analisi Nodale Modificata portano al seguente sistema lineare:
-$$\mathbf{A}\cdot\bf$$
+$$\mathbf{A}\cdot \mathbf{\overrightarrow{x}}=\mathbf{\overrightarrow{b}}_{1}\cdot I_{s}+\mathbf{\overrightarrow{b}}_{2}\cdot E_{s}\quad(5.5)$$
+dove:
+$$\mathbf{A}=$$
