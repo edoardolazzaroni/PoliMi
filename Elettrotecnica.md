@@ -1193,4 +1193,17 @@ Osserviamo che: il generatore da $20 \ V$ assorbe una potenza elettrica negativa
 
 Infine si osservi un altro risultato tutt’altro che casuale: **la somma delle potenze assorbite dà zero**. Questo è una <u>conseguenza del teorema di Tellegen</u> visto nel [[#1.6 **Il teorema di Tellegen**|primo capitolo]]: Le tensioni e correnti ricavate dall’analisi di in un circuito fisico soddisfano sicuramente le KVL e le KCL che sono condizione necessaria e sufficienti affinché valga Tellegen (in aggiunta le tensioni e correnti fisiche soddisfano anche i legami costitutivi).
 Ne consegue che la somma delle potenze assorbite, nota bene che ora sono potenze fisiche non virtuali, estesa a tutto il circuito, deve bilanciarsi a zero:
-$$\sum_{k=1}^{N_{el}}$$
+$$\sum_{k=1}^{N_{el}}v_{k}\cdot i_{k}=\sum_{k=1}^{N_{el}}p_{k}=0\quad(3.36)$$
+
+con $N_{el}$ numero di elementi (bipoli o porte elettriche del circuito).
+Il teorema di Tellegen riformulato con le potenze fisiche viene detto Conservazione della potenza elettrica. Questo ci dice che un circuito
+
+elettrico è un sistema energeticamente chiuso dove le potenze di
+
+natura elettrica in gioco si bilanciano a zero, quindi misurandole con
+
+la convenzione degli utilizzatori (potenze assorbite), ed escludendo
+
+il caso in cui tutto è nullo, si ha che almeno un elemento assorbe
+
+potenza negativa, ovvero eroga potenza.
