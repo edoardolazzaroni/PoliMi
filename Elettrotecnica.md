@@ -1279,3 +1279,7 @@ Esiste un "flusso risolutivo" che nel seguito delineiamo solo in via di principi
 - Infine, si scriverà un numero di leggi di Kirchhoff delle tensioni pari al numero delle incognite. Ogni KVL sarà una equazione lineare che bilancia le tensioni lungo una maglia $\mathcal{M}$ del tipo:$$\sum_{i \in \mathcal{M}}v_{i}=\sum_{{i\in\mathcal{M}}}\tilde{r}_{i}(I_{x}, I_{y})=0\quad(4.7)$$
 Il risultato finale è un sistema composto da un numero di equazioni lineari del tipo $(4.7)$ pari al numero delle incognite dalla cui soluzione si otterranno le incognite $I_{x}, I_{y}$.
 
+Il procedimento di principio delineato sopra può a primo acchito apparire poco chiaro, esplicitiamolo meglio:
+
+#Esempio 
+
