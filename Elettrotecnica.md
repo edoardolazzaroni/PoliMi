@@ -1582,4 +1582,4 @@ La soluzione completa sarà quindi ottenuta sommando le soluzioni parziali otten
 
 #### #Esercizio 
 
-Ripetiamo l'esercizio svolto nel terzo c
+Ripetiamo l'esercizio svolto nel [[#Esercizio(composizione dei generatori) (2)|terzo capitolo]] sfruttando la sovrapposizione degli effetti. Il circuito è riport
