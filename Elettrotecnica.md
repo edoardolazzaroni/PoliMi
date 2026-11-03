@@ -1482,24 +1482,10 @@ e quindi $e_{2}=2 \ V$.
 In questo capitolo esaminiamo le proprietà di un’ampia categoria di circuiti elettrici formati da un numero imprecisato (cioè qualunque) di resistori, generatori pilotati e generatori indipendenti collegati tra loro in tutti i modi possibili. Osserviamo come il legame costitutivo dei resistori e dei quattro generatori pilotati siano del tipo:
 $$U= k \cdot W$$
 
-dove $U$ ed $W possono essere tensioni o correnti misurate alla stessa
+dove $U$ e $W$ possono essere tensioni o correnti misurate alla stessa porta (nei resistori) o a porte diverse (nei generatori pilotati), mentre $k$ è un parametro reale (compreso il numero zero).
+Questi legami sono di proporzionalità diretta (o lineari) tra le variabili in gioco.
 
-porta (nei resistori) o a porte diverse (nei generatori pilotati), mentre
-
-k è un parametro reale (compreso il numero zero). Questi legami
-
-sono di proporzionalità diretta (o lineari) tra le variabili in gioco.
-
-Per i generatori indipendenti, invece il legame costitutivo è del
-
-tipo v = Es oppure i= Is dove Es e Is sono valori numerici reali
-
-non nulli. I generatori indipendenti non specificano legami di pro-
-
-porzionalità tra le variabili elettriche bensì introducono dei termini
-
-noti all’interno del problema matematico d’analisi. Chiameremo
-
-questa categoria di sistemi elettrici col nome di Circuiti Lineari.
+Per i generatori indipendenti, invece il legame costitutivo è del tipo $v = E_{s}$ oppure $i= I_{s}$ dove $E_{s}$ e $I_{s}$ sono valori numerici reali non nulli. I generatori indipendenti non specificano legami di proporzionalità tra le variabili elettriche bensì introducono dei termini noti all’interno del problema matematico d’analisi.
+Chiameremo questa categoria di sistemi elettrici col nome di Circuiti Lineari.
 
 ## 5.1 **Generatori pilotati**
