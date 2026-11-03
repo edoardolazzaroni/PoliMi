@@ -1144,29 +1144,11 @@ in cui <u>fare attenzione al verso corretto del generatore ideale di tensione</u
 
 ## 3.8 **Potenza elettrica**
 
-La concomitanza di una tensione e di una corrente elettrica in un bipolo (o ad una delle porte di un $N$-polo) corrisponde al manifestarsi di fenomeni di natura energetica. E’ esperienza comune che per
+La concomitanza di una tensione e di una corrente elettrica in un bipolo (o ad una delle porte di un $N$-polo) corrisponde al manifestarsi di fenomeni di natura energetica. E’ esperienza comune che per far funzionare un dispositivo elettrico è necessario fornirgli energia (per esempio collegandolo ad una presa elettrica sfruttando l’energia chimica di una pila) o che il funzionamento di un dispositivo elettrico produce calore.
 
-far funzionare un dispositivo elettrico è necessario fornirgli energia
+Tali fenomeni vengono studiati attraverso una nuova grandezza fisica molto importante nelle applicazioni: la **potenza elettrica**: per introdurla, consideriamo il circuito elementare in figura 3.39 dove una pila (o batteria) alimenta un bipolo ai capi del quale si misura una tensione $v$ ed una corrente $i$.
 
-(per es. collegandolo ad una presa elettrica sfruttando l’energia chim-
-
-ica di una pila) o che il funzionamento di un dispositivo elettrico (es.
-
-il vostro lap-top o il televisore) produce calore. Tali fenomeni ven-
-
-gono studiati attraverso una nuova grandezza fisica molto importante
-
-nelle applicazioni: la potenza elettrica. Per introdurla, consideriamo
-
-il circuito elementare in figura 1.39 dove una pila (o batteria) ali-
-
-menta un bipolo ai capi del quale si misura una tensione v ed una
-
-corrente i.
-
-Si supponga di osservare il funzionamento del circuito durante
-
-un intervallo di tempo ∆t. Ricordiamo che la tensione v rappresenta
+Si supponga di osservare il funzionamento del circuito durante un intervallo di tempo $\Delta t$. Ricordiamo che la tensione v rappresenta
 
 il lavoro elettrico che si deve svolgere su una carica elettica unitaria
 
