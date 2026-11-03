@@ -1599,4 +1599,8 @@ dove $R_{1}\ || \ R_{3}=\frac{R_{1}R_{3}}{R_{1}+R_{3}}$. Sovrapponendo gli effet
 $$v_{AB}=E_{s_{1}}\cdot K_{1}+E_{s_{2}}\cdot K_{2}$$
 
 Sostituendo i numeri e ricordando i dati:
-$$R_{1}=R_{2}=R_{3}=10 \ \Omega;\\E_{s_{1}}=40 \ V;\\E:s_{2}$$
+$$R_{1}=R_{2}=R_{3}=10 \ \Omega;\\E_{s_{1}}=40 \ V;\\E_{s_{2}}=10 \ V\\ \\(5.15)$$
+Si calcola:
+$$K_{1}=\frac{1}{3},\quad K_{2}=-\frac{1}{3}$$
+da cui:
+$$v_{AB}=\frac{E_{s_{1}}}{3}$$
