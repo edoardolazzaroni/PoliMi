@@ -1354,4 +1354,12 @@ $$\det(\mathbf{A})\ne 0$$dove $\det(\cdot)$ indica il determinante e:$$\mathbf{A
 4&-3\\-1&2
 \end{vmatrix}\quad(4.20)$$è la matrice dei coefficienti del sistema lineare. Nel circuito dell'esempio si ha che:
 $$\det(\mathbf{A})=8-3=5\ne 0$$
-LA soluzione è quindi unica.
+La soluzione è quindi **unica**.
+
+
+
+## 4.4 **Analisi Nodale Modificata (MNA)**
+
+<mark class="hltr-yellow">Nel caso in cui un elemento presente nel circuito non sia controllabile in tensione, il metodo dell’analisi nodale deve essere modificato</mark>.
+
+Partiamo considerando il circuito mostrato in figura, con la relativa numerazione dei nodi e coi valori numerici:
