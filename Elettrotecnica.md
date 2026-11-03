@@ -1476,4 +1476,4 @@ e quindi $e_{2}=2 \ V$.
 
 
 
-# **Capitolo IV: Circuiti con generatori pilotati**
+# **Capitolo V: Proprietà e teoremi dei **
