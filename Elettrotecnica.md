@@ -1464,4 +1464,7 @@ Volendo applicare il metodo MNA genuino, quello implementabile automaticamente, 
 
 Mostriamo invece il metodo semplificato che meglio si presta alla soluzione a mano. Questo si basa sull’osservazione che $e_{1} = E_{s} = 3 \ V$ è nota.
 Inoltre è possibile istituire un legame tra il potenziale $e_{3}$ ed il potenziale $e_{3} = v_{A}$:
-$$$$
+$$e_{2}-e_{3}=\alpha e_{3}\rightarrow e_{2}=2e_{3}\quad(4.36)$$
+
+In questo modo abbiamo ristretto le incognite alla sola $e_{3} = v_{A}$, basterà scrivere una equazione di bilancio delle correnti che non coinvolga nessuna delle correnti degli elementi non controllabili in tensione.
+Tale equazione è il bilancio al supernodo che circonda i nodi $2$ e $3$:
