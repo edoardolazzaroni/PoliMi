@@ -1201,4 +1201,17 @@ Il teorema di Tellegen riformulato con le potenze fisiche viene detto **Conserva
 
 
 
-# **Capitolo IV: Analisi di circuiti resistivi**
+# **Capitolo IV: Circuiti con generatori pilotati**
+
+
+## 4.1 **Generatori pilotati**
+
+Introduciamo ora una nuova classe di elementi circuitali che sono indispensabili per "riprodurre" nel modello circuitale il coportamento
+
+di alcuni dispositivi elettronici. Uno di tali dispositivi è il transis-
+
+tore ("transistor" dall’inglese "TRANSferring"+"resISTOR"). La figura
+
+1.1(Sinistra) mostra il simbolo adottato negli schemi elettronici per il
+
+transistore di tipo MOS (metallo, ossido, semiconduttore). Si presenta
