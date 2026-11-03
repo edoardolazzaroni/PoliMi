@@ -1111,8 +1111,9 @@ in cui <u>fare attenzione al verso corretto del generatore ideale di tensione</u
 
 #### #Esercizio(composizione dei generatori) (2)
 
-Dato il circuito in figura (Sinistra), si utilizzi la trasformazione serie/parallelo dei generatori per calcolare la tensione $v_{AB}$. Successivamente, si calcolino le correnti i1, i2 ed i3 verificando che soddisfano
+Dato il circuito in figura (Sinistra), si utilizzi la trasformazione serie/parallelo dei generatori per calcolare la tensione $v_{AB}$. Successivamente, si calcolino le correnti $i_{1}, i_{2}$ ed $i_{3}$ verificando che soddisfano la KCL al nodo $A$ (o $B$). Si assuma:
+$$R_{1} = R_{2} = R_{3} = 10 \ \Omega$$
 
-la KCL al nodo A (o B). Si assuma:
+Il procedimento è evidenziato in figura 3.36 (Destra): consiste nel trasformare i due generatori di tipo serie in parallelo. Sul circuito trasformato è poi possibile eseguire ulteriori semplificazioni come mostrato in fig. 137, dove Req = 10/3Ω. Risulta quindi:
 
-R1 = R2 = R3 = 10Ω
+vAB = 3 · 10/3= 10V.
