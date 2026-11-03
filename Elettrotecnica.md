@@ -1370,3 +1370,6 @@ $$E_{s}=8 \ V\\R_{1}=R_{2}=R_{3}=1 \ \Omega\\g=2 \ \Omega^{-1}\\ \\(4.22)$$
 
 In questo primo caso, un generatore ideale di tensione è collegato tra un nodo ed il riferimento. Il generatore di tensione ha un’equazione costitutiva del tipo $v = E_{s}$, dunque da essa non si può determinare la corrente $i_{G}$ che vi scorre in funzione della tensione ai suoi capi $v = e_{2}$, esso non è controllabile in tensione.
 L’analisi nodale viene modificata assumendo $i_{G}$, cioè la corrente dell’elemento non controllabile in tensione, come incognita aggiuntiva del problema; in questo modo le incognite risultano $e_{1}, e_{2}$ e $i_{G}$. Le equazioni che scriveremo sono date da il bilancio delle correnti nei due nodi, come nell’analisi nodale semplice, <mark class="hltr-yellow">con l’aggiunta della relazione che il legame costitutivo dell’elemento non controllabile in tensione determina tra i potenziali di nodo</mark>:
+$$\begin{cases}
+\frac{e_{1}}{R_{1}}+g\cdot(e_{1}-e_{2})+\frac{e_{1}-e_{2}}{R_{2}}=0\\ \frac{e_{2}
+\end{cases}$$
