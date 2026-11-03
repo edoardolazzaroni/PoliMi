@@ -1513,6 +1513,7 @@ Facciamo le seguenti **osservazioni**:
 
 - La variabile incognita $x$, come qualunque altra variabile nel circuito (si calcoli per esempio la corrente nel resistore $R_{1}$, essa sarà $i_{1}=\frac{x}{R_{1}}=\frac{H_{1}}{R_{1}}\cdot I_{s_{1}}+\frac{H_{2}}{R_{1}}\cdot E_{s_{2}}$ cioè di nuovo del tipo $i_{1}=\tilde{H}_{1}\cdot I_{s_{1}}+\tilde{H}_{2}\cdot E_{s_{2}}$; questo vale per ogni variabile nel circuito), risulta essere una combinazione lineare dei valori impressi dai generatori indipendenti. Cioè qualunque variabile che noi vogliamo osservare come la risposta o uscita del circuito sarà del tipo:$$x= H_{1} \cdot I_{s_{1}} + H_{2} \cdot E_{s_{2}}\quad(5.4)$$
 
-Analizziamo ora lo scenario in cui nel circuito in figura 5.1 venga spento il generatore di tensione $E_{s_{2}}$ (che viene cortocircuitato) ed in cui l’unica sorgente sia $I_{s_{2}}$. Dalla $(1.4)$ ricaviamo che la variabile di uscita
-
-x assume il valore:
+Analizziamo ora lo scenario in cui nel circuito in figura 5.1 venga spento il generatore di tensione $E_{s_{2}}$ (che viene cortocircuitato) ed in cui l’unica sorgente sia $I_{s_{2}}$.
+Dalla $(5.4)$ ricaviamo che la variabile di uscita $x$ assume il valore:
+$$x'=H_{1}\cdot I_{s_{1}}$$
+che rappresenta l'effetto dovuta alla sola causa $I_{s_{1}}$. In modo simile, possiamo spegnere il generatore di corrente $I_{s_{1}}$ (che diventa un circuito aperto) e lasciare agire la sola sorgente $E_{s_{2}}$, avremo l’effetto parziale:
