@@ -1448,4 +1448,9 @@ esprime il bilancio attraverso una superficie chiusa che include al suo interno 
 #Figura(4.14). *Uso del supernodo*
 
 Il metodo a mano dunque consiste nell’assumere come sola incognita $e_{1}$, esprimere $e_{2}$ in funzione di $e_{1}$ attraverso la $(4.33)$ e quindi scrivere il bilancio delle correnti attraverso il <u>supernodo</u> $(4.34)$. Risolvendo quest’ultima equazione si ottiene:
-$$2e_{1}=0\$$
+$$2e_{1}=0\rightarrow e_{1}=0 \ V$$
+da cui $e_{2}=-1 \ V$. Volendo, bilanciando le correnti al nodo $1$, si determina:
+$$i_{G}=-2\cdot E_{s}0-2 \ A$$
+
+
+#Esempio 
