@@ -1187,4 +1187,12 @@ $$20+i_{m}\cdot 10=10$$
 da cui:
 $$i_{m}=\frac{10-20}{10}=-1 \ A$$
 Indichiamo con $p_{10 \ V}, p_{20 \ V}$ le **potenze assorbite** dai due generatori da $10$ e $20$ volt rispettivamente mentre indichiamo con $p_{R}$ la potenza assorbita dal resistore. Si ha:
-$$p_{10 \ V}=10 \ V \cdot(+1 \ A)=+10 \ W\\p_{20 \ V}=20 \ V \cdot(-1 \ A)=-20 \ W\\p_{R}=$$
+$$p_{10 \ V}=10 \ V \cdot(+1 \ A)=+10 \ W\\p_{20 \ V}=20 \ V \cdot(-1 \ A)=-20 \ W\\p_{R}=(10 \ V- 20 \ V)\cdot(-1 \ A)=+10 \ W$$$$(3.35)$$
+
+Osserviamo che: il generatore da $20 \ V$ assorbe una potenza elettrica negativa. Questo può anche essere riformulato dicendo che questo generatore eroga $20 \ W. D’altra parte sia il generatore da 10V che il
+
+resistore assorbono potenza e ciò è coerente fisicamente in quanto
+
+il resistore è passivo mentre il generatore essendo attivo può sia
+
+erogare che assorbire.
