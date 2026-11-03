@@ -1596,4 +1596,7 @@ dove $R_{2} \ || \ R_{3}=\frac{R_{2}R_{3}}{R_{2}+R_{3}}$. Quindi spegniamo $E_{s
 da cui:
 $$v_{AB}''=E_{s_{2}}\cdot (-1)\frac{R_{1} \ || \ R_{3}}{R_{2}+R_{1} \ || \ R_{3}}\quad(5.14)$$
 dove $R_{1}\ || \ R_{3}=\frac{R_{1}R_{3}}{R_{1}+R_{3}}$. Sovrapponendo gli effetti si ha la soluzione completa:
-$$v_{AB}=E_{s_{1}}\cdot K_{1}+E_{s_{2}}$$
+$$v_{AB}=E_{s_{1}}\cdot K_{1}+E_{s_{2}}\cdot K_{2}$$
+
+Sostituendo i numeri e ricordando i dati:
+$$R_{1}=R_{2}=R_{3}=10 \ \Omega;\\E_{s_{1}}=40 \ V;\\E:s_{2}$$
