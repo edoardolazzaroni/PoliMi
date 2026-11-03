@@ -1151,4 +1151,7 @@ Tali fenomeni vengono studiati attraverso una nuova grandezza fisica molto impor
 Si supponga di osservare il funzionamento del circuito durante un intervallo di tempo $\Delta t$. Ricordiamo che la tensione $v$ rappresenta il lavoro elettrico che si deve svolgere su una carica elettrica unitaria per spostarla dal punto $B$ al punto $A$ lungo una qualunque linea che abbia tali punti come estremi. Fisicamente tale lavoro è svolto dalla batteria ed è "sfruttato" o meglio è assorbito dal bipolo ad esso connesso. Dunque, se $\Delta Q$ rappresenta la carica elettrica totale che nell’intervallo $\Delta t$, entra dal morsetto $A$ del bipolo (attraverso la sezione del filo), si ha che la quantità:
 $$L(\Delta t) = v\cdot \Delta Q$$
 è il **lavoro elettrico assorbito dal bipolo** nell’intervallo $\Delta t$. Dividendo tale lavoro per l’intervallo di osservazione si ricava **il lavoro per unità di tempo** o **potenza elettrica** $p$:
-$$p=\frac{\mathcal{L}(\Delta t)}{\Delta t}=v\cdot}$$
+$$p=\frac{\mathcal{L}(\Delta t)}{\Delta t}=v\cdot\frac{\Delta Q}{\Delta t}=v\cdot i$$
+
+<mark class="hltr-yellow">La potenza elettrica è dunque data dal prodotto della tensione per la corrente</mark>.
+
