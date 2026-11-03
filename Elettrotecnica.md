@@ -1501,4 +1501,14 @@ Avremo:
 $$-I_{s_{1}}+\frac{x}{R_{1}}+g\cdot(E_{s_{2}}-x)+\frac{x-E_{s_{2}}}{R_{2}}=0\quad(5.1)$$
 
 Riordinando i termini, si ottiene l'equazione risolutiva:
-$$(\frac{1}{R_{1}}-g+\frac{1}{R_{2}})\cdot x=1\cdot I_{s_{1}}+(1/R_{})$$
+$$\left( \frac{1}{R_{1}}-g+\frac{1}{R_{2}} \right)\cdot x=1\cdot I_{s_{1}}+\left( \frac{1}{R_{2}}-g \right)\cdot E_{s_{2}}\quad(5.2)$$
+
+L’incognita $x$ è moltiplicata per un coefficiente $A$ mentre il termine noto vede i valori impressi dai generatori indipendenti moltiplicati per due coefficienti $B_{1}$ e $B_{2}$. Detti coefficienti $A, B_{1}$ e $B\$ sono
+
+determinati dai valori dei resistori e dei generatori pilotati (non da
+
+quelli indipendenti !) e da come sono collegati tra loro. Dunque,
+
+nell’ipotesi che il coefficiente A ̸= 0, l’equazione ammette una ed una
+
+sola soluzione:
