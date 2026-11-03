@@ -1186,3 +1186,4 @@ La KVL si scrive:
 $$20+i_{m}\cdot 10=10$$
 da cui:
 $$i_{m}=\frac{10-20}{10}=-1 \ A$$
+Indichiamo con $p_{10 \ V}, p_{20 \ V}$ le **potenze assorbite** dai due generatori da $10$ e $20$ volt rispettivamente mentre indichiamo con $p_{R}$ la potenza assorbita dal resistore. Si ha:
