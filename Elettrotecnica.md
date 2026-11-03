@@ -1315,8 +1315,9 @@ Il metodo sistematico prende il nome di **Analisi Nodale** e verrà trattato nel
 
 <mark class="hltr-yellow">Nella sua forma semplice il metodo si applica nell’ipotesi che tutti gli elementi circuitali siano controllabili in tensione</mark>.
 
-Dato un circuito formato da $N + 1$ nodi, che supponiamo di numerare da $0$ a $N$, e da $L$ elementi (bipoli o porte di $N$-poli), il metodo consiste nei seguenti passi che descriveremo con l’aiuto dello schema mostrato in figura:
+Dato un circuito formato da $N + 1$ nodi, che supponiamo di numerare da $0$ a $N$, e da $\mathcal{L}$ elementi (bipoli o porte di $N$-poli), il metodo consiste nei seguenti passi che descriveremo con l’aiuto dello schema mostrato in figura:
 ![[Elettrotecnica-1793699798595.webp|511]]
 #Figura(4.8). (<u>Sinistra</u>) Tensioni o potenziali di nodo; (<u>Destra</u>) La tensione su un generico elemento si ricava dai potenziali ai nodi a cui è connesso: $v = e_{A}−e_{B}$, da cui si ricava la corrente $i= g(v) = \tilde{g}(e_{A}, e_{B})$
 
-- Si fissa **arbitrio** un nodo come riferimento, supponiamo sia il numero $0$, e quindi come incognite del problema si assumono gli $N$ potenziali di nodo $e1, e2, \cdot , e_{N}$;
+- Si fissa **arbitrio** un nodo come riferimento, supponiamo sia il numero $0$, e quindi come incognite del problema si assumono gli $N$ potenziali di nodo $e_{1}, e_{2}, \cdots , e_{N}$;
+- Le tensioni sugli $\mathcal{L}$ elementi che compongono il circuito sono una funzione dei potenziali. Come mostrato in figura 4.8 (Destra) per il generico elemento collegato ai nodi $A$ e $B$, la tensione si scrive in funzione dei potenziali:$$$$
