@@ -1225,4 +1225,10 @@ Se confrontiamo la seconda equazione in $(1.1)$ con quella del bipolo resistore 
 
 Tuttavia, la differenza fondamentale è che in un resistore il legame lineare è tra variabili "locali" misurate alla stessa porta, mentre <u>nel caso del transistore il legame lineare riguarda grandezze misurate a porte diverse</u>, è un legame "non locale" o di "**trasferimento**" (da cui il nome).
 
-Per rappresentare tale comportamento serve un elemento circuitale nuovo il cui simbolo è mostrato in figura 4.3 chiamato il **generatore di corrente pilotato** (o comandato) **in tensione**. Il nome generatore
+Per rappresentare tale comportamento serve un elemento circuitale nuovo il cui simbolo è mostrato in figura 4.3 chiamato il **generatore di corrente pilotato** (o comandato) **in tensione**:
+![[Elettrotecnica-1793697163896.webp|191]]
+#Figura (4.4)
+
+Il nome generatore di corrente pilotato ed il simbolo può indurre ad associare questo elemento a quello di un generatore di corrente ideale. E’ invece preferibile osservare come il suo legame costitutivo lo renda simile all’estensione di un resistore al caso multi-porta.
+
+La figura 4.4 mostra un altro modello di generatore pilotato: **il generatore di corrente pilotato in corrente**. Le equazioni costitutive
