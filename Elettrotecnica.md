@@ -1252,6 +1252,9 @@ La porta $1$ è un circuito aperto e misura la tensione $v_{1}$; la porta $2$ è
 Questo tipo di modello, vedremo, serve tra l’altro per descrivere circuitalmente il comportamento di amplificatore di tensione (dispositivo essenziale in elettronica).
 
 
-Infine, la figura 1.6 mostra il modello del generatore di
+Infine, la figura 4.6 mostra il modello del **generatore di tensione pilotato in corrente**:
 
-tensione pilotato in corrente le cui equazioni sono date da:
+
+le cui equazioni sono date da:
+$$v_{0}\\v_{2}=r\cdot i_{1}\\ \\(4.4)$$
+
