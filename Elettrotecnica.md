@@ -1832,6 +1832,4 @@ Facciamo alcune note finali:
 
 - Ci chiediamo, dato un bipolo lineare **esiste sempre il circuito equivalente** di tipo Thévenin o Norton? **La risposta è no**, l’esistenza dei due equivalenti dipende dalla controllabilità che ammette il bipolo.
 	
-	Consideriamo, per esempio, il semplice caso in cui il bipolo sia un generatore indipendente di corrente, che sappiamo non ammette la controllabilità in corrente. Le due prove semplici per il calcolo dell’eq. Thévenin portano a <u>due circuiti che NON hanno soluzione</u>, come mostrato in figura, in quanto violano la
-
-KCL. Non è dunque possibile calcolare la Eeq e nemmeno la Req
+	Consideriamo, per esempio, il semplice caso in cui il bipolo sia un generatore indipendente di corrente, che sappiamo non ammette la controllabilità in corrente. Le due prove semplici per il calcolo dell’eq. Thévenin portano a <u>due circuiti che NON hanno soluzione</u>, come mostrato in figura, in quanto violano la KCL. Non è dunque possibile calcolare la $E_{eq}$ e nemmeno la $R_{eq}$ che risulta $\infty$. Il generatore indipendente di corrente ammette invece l’equivalente Norton formato da se stesso con una conduttanza $G_{eq} = 0$ in parallelo.
