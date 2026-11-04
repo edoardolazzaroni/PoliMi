@@ -1850,4 +1850,10 @@ Facciamo alcune note finali:
 	La scelta particolare di tali coefficienti riconduce il modello affine a casi noti:
 		a) se $C= 0$, la $(5.25)$ si trasforma in:$$V=-\frac{N}{M}I$$cioè il modello si riduce a quello di un resistore di resistenza $\frac{−N}{M}$;
 		b) se $N= 0$, la $(5.25)$ si trasforma in:$$I=-\frac{C}{M}$$cioè il modello si riduce a quello di una sorgente di tensione $E_{S} =\frac{−C}{M}$;
-		c) se $M= 0$, la (1.25) si trasforma in
+		c) se $M= 0$, la $(5.25)$ si trasforma in:$$I=-\frac{C}{N}$$cioè il modello si riduce a quello di una sorgente di corrente $I_{s}=\frac{−C}{N}$
+
+	
+	Assegnato che sia il legame costitutivo di un bipolo nella forma implicita $(5.25)$ è facile verificare se è controllabile in tensione e/o in corrente.
+	Perché sia controllabile in corrente, deve essere possibile esplicitare la tensione e quindi il coefficiente M deve
+
+essere non nullo, infatti:
