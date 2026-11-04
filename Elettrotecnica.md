@@ -1802,3 +1802,6 @@ Il significato fisico dei parametri dell’equivalente Norton emerge dalle **due
 Nel secondo esercizio viene richiesto di determinare il circuito equivalente di tipo Norton del bipolo in figura:
 ![[Elettrotecnica-1793805312041.webp|277]]
 #Figura(5.32). *Bipolo con generatore di tensione pilotato in tensione*
+
+
+- Facciamo una nota importante: il parametro dell’equivalente Norton è la conduttanza $G_{eq}$ poiché si sta cercando il modello controllato in tensione. Tuttavia, nella pratica risolutiva e salvo casi particolari che vedremo nella prossima sezione, si può procedere alternativamente calcolando la $R_{eq}$, ovvero svolgendo una prova semplice in cui si applica un generatore di corrente, e quindi invertire la resistenza per determinare la conduttanza. La scelta di uno o dell’altro metodo dipende dalla facilità risolutiva del circuito che ne risulta. In questo esercizio, in presenza di un generatore pilotato da $v_{1}$, risulta più semplice controllare il bipolo in tensione come mostrato in figura:
