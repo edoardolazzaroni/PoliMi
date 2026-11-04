@@ -1741,13 +1741,8 @@ dove compaiono distinti l’effetto dovuto alla sorgente esterna $V$ e l’effet
 Con questa notazione, $(5.21)$ si riscrive:
 $$I=G_{eq}\cdot V+I_{eq}\quad(5.22)$$
 
-Questa espressione ci mostra che, nell’ipotesi di controllabilità in tensione, un bipolo lineare comunque complesso è equivalente ad un circuito elementare composto dal collegamento parallelo di un generatore di corrente di valore $I_{eq}$, detto corrente equivalente, e di un resistore di conduttanza $Geq, o se si preferisce di resistenza
-
-Req = 1/Geq. Ai fini esterni, la rete potrà essere sostituita dal cir-
-
-cuito parallelo mostrato in fig. 1.25, comunemente indicato come
-
-equivalente Norton o equivalente parallelo.
+Questa espressione ci mostra che, nell’ipotesi di controllabilità in tensione, un bipolo lineare comunque complesso è equivalente ad un circuito elementare composto dal collegamento parallelo di un generatore di corrente di valore $I_{eq}$, detto **corrente equivalente**, e di un resistore di conduttanza $G_{eq}$, o se si preferisce di resistenza $R_{eq} = \frac{1}{G_{eq}}$.
+Ai fini esterni, la rete potrà essere sostituita dal circuito parallelo mostrato in figura, comunemente indicato come equivalente Norton o equivalente parallelo.
 
 Il significato fisico dei parametri dell’equivalente Norton emerge
 
