@@ -1719,4 +1719,8 @@ Procediamo al <u>calcolo dell’equivalente Thévenin</u>:
 
 
 - Per il calcolo di $E_{eq}$ determiniamo la tensione a vuoto nel circuito di figura:
-	In esso i resistori $R_{1}$ ed $R_{3}$ sono in serie così come i resistori $R_{2}$ ed $R_{4}$ sono in serie tra loro. Dunque:$$E_{eq}=E\frac{R_{3}}{R_{1}+R_{3}}-E\frac{R_{2}}{R_{2}+R_{4}}=9\frac{3}{9}-9\frac{6}{9}=-3 \ V$$Infine, sfruttando l’equivalente circuitale come in figura 5.21 (Destra), concludiamo che:$$I_{x}=\frac{-3 \ V}{4 \ \Omega+6 \ \Omega}$$
+	![[Elettrotecnica-1793802981001.webp|272]]
+	#Figura(5.23). 
+	
+	In esso i resistori $R_{1}$ ed $R_{3}$ sono in serie così come i resistori $R_{2}$ ed $R_{4}$ sono in serie tra loro. Dunque:$$E_{eq}=E\frac{R_{3}}{R_{1}+R_{3}}-E\frac{R_{2}}{R_{2}+R_{4}}=9\frac{3}{9}-9\frac{6}{9}=-3 \ V$$Infine, sfruttando l’equivalente circuitale come in figura 5.21 (Destra), concludiamo che:$$I_{x}=\frac{-3 \ V}{4 \ \Omega+6 \ \Omega}=-0.3 \ A$$
+	
