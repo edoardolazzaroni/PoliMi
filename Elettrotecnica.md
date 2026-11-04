@@ -1772,6 +1772,10 @@ Il significato fisico dei parametri dell’equivalente Norton emerge dalle **due
 
 Ripetiamo l’esercizio mostrato in [[#Esercizio(equivalenti) (1)|figura 5.13]] figura 5.13, riportato per comodità in figura ma ora con lo scopo di calcolarne l’equivalente Norton:
 ![[Elettrotecnica-1793804632165.webp|434]]
-#Figura (5.2)
+#Figura(5.28).
+
 
 Applichiamo le due prove semplici:
+
+- Per il calcolo di $G_{eq}$ si dovrà risolvere il circuito mostrato in figura:
+	Questo circuito è lo stesso risolto per calcolare la $R_{eq}$ di Thévenin tranne che ora si impone la tensione $V$. I calcoli saranno i medesimi:$$V=I\cdo$$
