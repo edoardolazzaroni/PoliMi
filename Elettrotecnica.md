@@ -1799,26 +1799,31 @@ Il significato fisico dei parametri dell’equivalente Norton emerge dalle **due
 
 #### #Esercizio(equivalenti) (2)
 
-Nel secondo esercizio viene richiesto di determinare il circuito equivalente di tipo Norton del bipolo in figura:
-![[Elettrotecnica-1793805312041.webp|277]]
-#Figura(5.32). *Bipolo con generatore di tensione pilotato in tensione*
+> [!question] Esercizio
+> Nel secondo esercizio viene richiesto di determinare il circuito equivalente di tipo Norton del bipolo in figura:
+> ![[Elettrotecnica-1793805312041.webp|277]]
+> #Figura(5.32). *Bipolo con generatore di tensione pilotato in tensione*
+> 
+> 
+> - Facciamo una nota importante: il parametro dell’equivalente Norton è la conduttanza $G_{eq}$ poiché si sta cercando il modello controllato in tensione. Tuttavia, nella pratica risolutiva e salvo casi particolari che vedremo nella prossima sezione, si può procedere alternativamente calcolando la $R_{eq}$, ovvero svolgendo una prova semplice in cui si applica un generatore di corrente, e quindi invertire la resistenza per determinare la conduttanza. La scelta di uno o dell’altro metodo dipende dalla facilità risolutiva del circuito che ne risulta. In questo esercizio, in presenza di un generatore pilotato da $v_{1}$, risulta più semplice controllare il bipolo in tensione come mostrato in figura:
+> 	![[Elettrotecnica-1793805442570.webp|349x196]]
+> 	#Figura(5.33). *Prova semplice per la determinazione di $G_{eq}$*
+> 
+> 	Analizzando questa configurazione, e osservando che $v_{1} = V$, troviamo:
+> 	$$v_{2}=v_{1}+\alpha v_{1}=V\cdot(1+\alpha)$$
+> 	da cui:
+> 	$$I=\frac{I}{V}=\frac{1}{R_{1}}+\frac{(1+\alpha)}{R_{2}}$$
+> 	
+> 	E infine:
+> 	$$G_{eq}=\frac{I}{V}=\frac{1}{R_{1}}+\frac{(1+\alpha)}{R_{2}}$$
+> 
+> 
+> - Per il calcolo di $I_{eq}$ cortocircuitano i morsetti esterni come mostrato in figura:
+> 	![[Elettrotecnica-1793805649683.webp|343]]
+> 	#Figura(5.34). *Prova semplice per la determinazione di $I_{eq}$*
+> 	
+> 	E’ facile vedere che $v_{1} = v_{2} = 0 \ V$ e che:$$I_{eq}=0 \ A$$Com’era intuitivo aspettarsi poiché il bipolo non contiene sorgenti indipendenti, il suo circuito equivalente, sia di Norton che di Thévenin, è composto da un resistore di resistenza:$$R_{eq}=\frac{1}{G_{eq}}=\frac{1}{\frac{1}{R_{1}}+\frac{(1+\alpha)}{R_{2}}}$$
 
 
-- Facciamo una nota importante: il parametro dell’equivalente Norton è la conduttanza $G_{eq}$ poiché si sta cercando il modello controllato in tensione. Tuttavia, nella pratica risolutiva e salvo casi particolari che vedremo nella prossima sezione, si può procedere alternativamente calcolando la $R_{eq}$, ovvero svolgendo una prova semplice in cui si applica un generatore di corrente, e quindi invertire la resistenza per determinare la conduttanza. La scelta di uno o dell’altro metodo dipende dalla facilità risolutiva del circuito che ne risulta. In questo esercizio, in presenza di un generatore pilotato da $v_{1}$, risulta più semplice controllare il bipolo in tensione come mostrato in figura:
-	![[Elettrotecnica-1793805442570.webp|309]]
-	#Figura(5.33). *Prova semplice per la determinazione di $G_{eq}$*
-
-	Analizzando questa configurazione, e osservando che $v_{1} = V$, troviamo:
-	$$v_{2}=v_{1}+\alpha v_{1}=V\cdot(1+\alpha)$$
-	da cui:
-	$$I=\frac{I}{V}=\frac{1}{R_{1}}+\frac{(1+\alpha)}{R_{2}}$$
-	
-	E infine:
-	$$G_{eq}=\frac{I}{V}=\frac{1}{R_{1}}+\frac{(1+\alpha)}{R_{2}}$$
 
 
-- Per il calcolo di $I_{eq}$ cortocircuitano i morsetti esterni come mostrato in figura:
-	![[Elettrotecnica-1793805649683.webp|343]]
-	#Figura(5.34). *Prova semplice per la determinazione di $I_{eq}$*
-	
-	E’ facile vedere che $v_{1} = v_{2} = 0 \ V$ e che:$$I_{eq}=0 \ A$$Com’era intuitivo aspettarsi poiché il bipolo non contiene sorgenti indipendenti, il suo circuito equivalente, sia di Norton che di Thévenin, è composto da un resistore di resistenza:$$R_{eq}=\frac{1}{G_{eq}}=\frac{1}{\frac{1}{R_{1}}+\frac{(1+\alpha)}}$$
