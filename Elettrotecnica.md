@@ -1630,4 +1630,6 @@ Ai fini esterni, la rete potrà essere sostituita dal circuito serie mostrato in
 
 Il significato fisico dei due parametri del circuito equivalente è evidente se pensiamo alle due configurazioni sperimentali, dette prove semplici, che permettono la loro determinazione:
 
-- Dalla $(5.17)$, si ha che:$$R_{eq}=\frac{V}{I}|_{generatore \ interno \ \ OFF}\quad\quad(5.18)$$Questa configurazione è mostrata in figura 5.11 
+- Dalla $(5.17)$, si ha che:$$R_{eq}=\frac{V}{I}|_{generatore \ interno \ \ OFF}\quad\quad(5.18)$$Questa configurazione è mostrata in figura 5.11: **tutti i generatori indipendenti interni al bipolo sono spenti** mentre agisce all’esterno il generatore $I$. In questa condizione, $R_{eq}$ risulta essere il rapporto $\frac{V}{I}$.
+
+- In modo simile, dalla 
