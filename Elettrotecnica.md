@@ -1830,18 +1830,8 @@ Il significato fisico dei parametri dell’equivalente Norton emerge dalle **due
 
 Facciamo alcune note finali:
 
-- Ci chiediamo, dato un bipolo lineare esiste sempre il circuito equivalente di tipo Thévenin o Norton ? La risposta è no, l’esistenza
-
-dei due equivalenti dipende dalla controllabilità che ammette
-
-il bipolo. Consideriamo, per esempio, il semplice caso in cui il
-
-bipolo sia un generatore indipendente di corrente, che sappiamo
-
-non ammette la controllabilità in corrente. Le due prove semplici
-
-per il calcolo dell’eq. Thevenin portano a due circuiti che NON
-
-hanno soluzione, come mostrato in fig. 1.35 in quanto violano la
+- Ci chiediamo, dato un bipolo lineare **esiste sempre il circuito equivalente** di tipo Thévenin o Norton? **La risposta è no**, l’esistenza dei due equivalenti dipende dalla controllabilità che ammette il bipolo.
+	
+	Consideriamo, per esempio, il semplice caso in cui il bipolo sia un generatore indipendente di corrente, che sappiamo non ammette la controllabilità in corrente. Le due prove semplici per il calcolo dell’eq. Thévenin portano a <u>due circuiti che NON hanno soluzione</u>, come mostrato in figura, in quanto violano la
 
 KCL. Non è dunque possibile calcolare la Eeq e nemmeno la Req
