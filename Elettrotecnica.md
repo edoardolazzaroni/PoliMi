@@ -1812,4 +1812,9 @@ Nel secondo esercizio viene richiesto di determinare il circuito equivalente di 
 Analizzando questa configurazione, e osservando che $v_{1} = V$, troviamo:
 $$v_{2}=v_{1}+\alpha v_{1}=V\cdot(1+\alpha)$$
 da cui:
-$$I=\frac{I}{V}=$$
+$$I=\frac{I}{V}=\frac{1}{R_{1}}+\frac{(1+\alpha)}{R_{2}}$$
+
+E infine:
+$$G_{eq}=\frac{I}{V}=\frac{1}{R_{1}}+\frac{(1+\alpha)}{R_{2}}$$
+
+
