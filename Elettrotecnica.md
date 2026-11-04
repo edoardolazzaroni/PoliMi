@@ -1696,3 +1696,6 @@ Il significato fisico dei due parametri del circuito equivalente è evidente se 
 
 
 #### #Esercizio(equivalenti) (3)
+
+Nel terzo esercizio proposto, mostriamo come l’applicazione del concetto di equivalente possa semplificare la soluzione del circuito mostrato in figura (Sinistra), in cui viene richiesto di calcolare la corrente $I_{x}$ che circola in $R_{5}$.
+
