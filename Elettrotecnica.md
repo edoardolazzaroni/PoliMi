@@ -1718,6 +1718,5 @@ Procediamo al <u>calcolo dell’equivalente Thévenin</u>:
 	Ragionando su questo circuito si vede come $R_{1}$ ed $R_{3}$ siano tra di loro in **parallelo** così come $R_{2}$ con $R_{4}$. Risulterà:$$v_{1}=I\frac{R_{3}}{R_{1}+R_{3}}\cdot R_{1}$$mentre:$$v_{2}=I\frac{R_{4}}{R_{2}+R_{4}}\cdot R_{2}$$e quindi:$$V=v_{1}+v_{2}=I\cdot(R_{1}||R_{3}+R_{4}||R_{2})$$Da cui si ricava che:$$R_{eq}=(R_{1}||R_{3}+R_{4}||R_{2})=2 \ \Omega+2 \ \Omega=4 \ \Omega$$Si noti come questo risultato si può ricavare ridisegnando il circuito come mostrato in figura 5.22 (Destra).
 
 
-- Per il calcolo di $E_{eq}$ determiniamo la tensione a vuoto nel circuito di figura. In esso i resistori R1 ed R3 sono in serie così come i
-
-resistori R2 ed R4 sono in serie tra loro. Dunque:
+- Per il calcolo di $E_{eq}$ determiniamo la tensione a vuoto nel circuito di figura:
+	In esso i resistori $R_{1}$ ed $R_{3}$ sono in serie così come i resistori $R_{2}$ ed $R_{4}$ sono in serie tra loro. Dunque:$$E_{eq}=E\frac{R_{3}}{R_{1}+R_{3}}-E\frac{R_{2}}{R_{2}+R}$$
