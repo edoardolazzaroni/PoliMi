@@ -1808,3 +1808,8 @@ Nel secondo esercizio viene richiesto di determinare il circuito equivalente di 
 	![[Elettrotecnica-1793805442570.webp|309]]
 	#Figura(5.33). *Prova semplice per la determinazione di $G_{eq}$*
 
+
+Analizzando questa configurazione, e osservando che $v_{1} = V$, troviamo:
+$$v_{2}=v_{1}+\alpha v_{1}=V\cdot(1+\alpha)$$
+da cui:
+$$I=\frac{I}{V}=$$
