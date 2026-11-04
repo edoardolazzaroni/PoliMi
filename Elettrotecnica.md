@@ -1707,6 +1707,9 @@ $$E=9 \ V;\\R_{2}=R_{3}=3 \ \Omega\\R_{1}=R_{4}=R_{5}=6 \ \Omega\\ \\ (5.20)$$
 
 Il procedimento che si segue è quello di calcolare il circuito equivalente di tipo serie del bipolo collegato a $R_{5}$, come mostrato in figura 5.21 (Sinistra); quindi si collega il circuito equivalente alla resistenza $R_{5}$ come mostrato in figura 5.21 (Destra).
 ![[Elettrotecnica-1793802457826.webp|484]]
-#Figura(5.21). Procedimento: si calcola l’equivalente ai morsetti $A-B$ (<u>Sinistra</u>) e si collega al resistore $R_{5}$ (<u>Destra</u>)
+#Figura(5.21). *Procedimento: si calcola l’equivalente ai morsetti $A-B$ (<u>Sinistra</u>) e si collega al resistore $R_{5}$ (<u>Destra</u>)*
 
-Procediamo al calcolo dell’equivalente Thevenin:
+Procediamo al calcolo dell’equivalente Thévenin:
+
+- Per il calcolo di $R_{eq}$ spegniamo il generatore indipendente di tensione e applichiamo un generatore di corrente, come mostrato in figura:
+	Ragionando su questo circuito si vede come $R_{1}$ ed $R_{3}$ siano tra di loro in parallelo così come $R_{2}$ con $R_{4}$. Risulterà:
