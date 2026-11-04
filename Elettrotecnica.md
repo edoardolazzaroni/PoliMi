@@ -1785,5 +1785,7 @@ Applichiamo le due prove semplici:
 
 
 - Per il calcolo di $I_{eq}$ si mantiene acceso il generatore interno mentre si cortocircuitano i morsetti esterni come mostrato in figura:
+	![[Elettrotecnica-1793804902315.webp|334]]
+	#Figura(5.30). Prova semplice per la determinazione di $I_{eq}$
 	
-	Da questa calcoliamo il parallelo di $5\ \Omega$ e $10\ \Omega$, che risulta $\frac{10}{3} \ \Omega$ e quindi calcoliamo la corrente erogata dal generatore:
+	Da questa calcoliamo il parallelo di $5\ \Omega$ e $10\ \Omega$, che risulta $\frac{10}{3} \ \Omega$ e quindi calcoliamo la corrente erogata dal generatore:$$i_{1}=\frac{4 \ V}{10+\frac{10}{3}}=0.3 \ A$$
