@@ -1659,4 +1659,4 @@ Applichiamo le due prove semplici:
 - Per il calcolo di $E_{eq}$ si mantiene acceso il generatore interno mentre si spegne quello esterno, ovvero si lasciano i morsetti $A-B$ flottanti con $I= 0$, come mostrato in figura:![[Elettrotecnica-1793801240834.webp|319]]
 	#Figura(5.15). *Prova semplice per la determinazione di $E_{eq}$*
 	
-	Da questa è facile concludere che:
+	Da questa è facile concludere che:$$E_{}$$
