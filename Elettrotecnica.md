@@ -1788,4 +1788,4 @@ Applichiamo le due prove semplici:
 	![[Elettrotecnica-1793804902315.webp|334]]
 	#Figura(5.30). Prova semplice per la determinazione di $I_{eq}$
 	
-	Da questa calcoliamo il parallelo di $5\ \Omega$ e $10\ \Omega$, che risulta $\frac{10}{3} \ \Omega$ e quindi calcoliamo la corrente erogata dal generatore:$$i_{1}=\frac{4 \ V}{10+\frac{10}{3}}=0.3 \ A$$
+	Da questa calcoliamo il parallelo di $5\ \Omega$ e $10\ \Omega$, che risulta $\frac{10}{3} \ \Omega$ e quindi calcoliamo la corrente erogata dal generatore:$$i_{1}=\frac{4 \ V}{10+\frac{10}{3}}=0.3 \ A$$Quindi si ha:$$I_{eq}=0.3 \ A(-1)\frac{10}{10+5}=-0.2 \ A$$La figura 5.31 mostra il circuito equivalente Norton confrontandolo con quello di Thevenin già calcolato. E’ evidente come il passaggio dall’uno all’altro può essere valutato con le trasformazioni serie/parallelo dei generatori reali viste nella [[|terzo capitolo.
