@@ -1609,8 +1609,291 @@ $$v_{AB}=\frac{E_{s_{1}}}{3}-\frac{E_{s_{2}}}{3}=\frac{40}{3}-\frac{10}{3}=10 \ 
 
 ## 5.2 **Equivalente Thévenin o tipo serie**
 
-Siamo ora in grado di ricavare qual è il circuito equivalente più generale di una rete elettrica lineare comunque complessa ed accessibile esternamente da una coppia di morsetti (cioè un bipolo). Tale rete è mostrata in figura 5.9 e può contenere al suo interno resistori, generatori pilotati che formano l’insieme degli elementi resistivi, più generatori indipendenti, ovvero sorgenti di tensione e corrente.
+Siamo ora in grado di ricavare qual è il circuito equivalente più generale di una rete elettrica lineare comunque complessa ed accessibile esternamente da una coppia di morsetti (cioè un bipolo). Tale rete è mostrata in figura 5.9 e può contenere al suo interno resistori, generatori pilotati che formano l’insieme degli elementi resistivi, più generatori indipendenti, ovvero sorgenti di tensione e corrente:
+![[Elettrotecnica-1793799730318.webp|401]]
+#Figura(5.9). *Set-up sperimentale per determinare l’equivalente Thévenin*
 
 Vogliamo determinare il legame che esiste tra le variabili $V$ ed $I$ misurate ai suoi morsetti. Per questo colleghiamo il bipolo ad una sorgente esterna di corrente che imprime una corrente $I$ che noi possiamo controllare e variare a nostro piacimento. Quale sarà la forma del legame serie $V= f (I)$?
 
 Nella sola ipotesi che il circuito così costruito ammetta soluzione, vale il principio di sovrapposizione degli effetti che ci assicura che qualunque variabile in gioco sarà una combinazione lineare dei generatori indipendenti. Questo vale anche per la tensione $V$ che dunque si può scrivere:
+$$V=H_{0}\cdot \mathbf{I}+\overbrace{H_{1}\cdot I_{s_{1}}+\cdots+K_{\beta}\cdot E_{s\beta'}}^{Generatori \ interni}\quad(5.16)$$
+
+ovvero mettendo in evidenza l’effetto dovuto alla sorgente esterna $I$ a cui si aggiunge l’**effetto complessivo dovuto a tutti i generatori indipendenti interni**.
+Per quanto riguarda il primo termine, si osserva che il coefficiente $H_{0}$ è dimensionalmente una resistenza e dunque è corretto indicarlo come $R_{eq}$. Il secondo termine è una tensione e quindi si può indicare come un unico valore $E_{eq}$. Con questa notazione, $(5.16)$ si riscrive:
+$$V=R_{eq}\cdot I+E_{eq}\quad(5.17)$$
+
+Questa espressione ci mostra che, nell’ipotesi di controllabilità in corrente, un bipolo lineare comunque complesso è equivalente alla serie di un generatore di tensione di valore $E_{eq}$ detta **tensione equivalente** con un resistore di valore $R_{eq}$ detta **resistenza equivalente**.
+Ai fini esterni, la rete potrà essere sostituita dal circuito serie mostrato in figura, comunemente indicato come **equivalente Thévenin** o **equivalente serie**:
+![[Elettrotecnica-1793800081718.webp|278]]
+#Figura(5.10). *Circuito equivalente di Thévenin*
+
+
+Il significato fisico dei due parametri del circuito equivalente è evidente se pensiamo alle due configurazioni sperimentali, dette prove semplici, che permettono la loro determinazione:
+
+- Dalla $(5.17)$, si ha che:$$R_{eq}=\frac{V}{I}|_{generatore \ interno \ \ OFF}\quad\quad(5.18)$$Questa configurazione è mostrata in figura 5.11: **tutti i generatori indipendenti interni al bipolo sono spenti** mentre agisce all’esterno il generatore $I$. In questa condizione, $R_{eq}$ risulta essere il rapporto $\frac{V}{I}$.![[Elettrotecnica-1793800416079.webp|332]]
+	#Figura(5.11). *Prova semplice per la determinazione di $R_{eq}$*
+
+
+- In modo simile, dalla $(5.17)$ si ricava:$$E_{eq}=V|_{I=0}\quad\quad (5.19)$$Questa configurazione è mostrata in figura 5.12: **i generatori indipendenti interni al bipolo sono attivi mentre è spento il generatore esterno** $I= 0$. $E_{eq}$ risulta essere la tensione $V$ misurata "a vuoto" (cioè coi morsetti flottanti).![[Elettrotecnica-1793800501124.webp|422]]
+	#Figura(5.12). *Prova semplice per la determinazione di $E_{eq}$*
+
+
+
+#### #Esercizio(equivalenti) (1)
+
+> [!question] Esercizio
+> Ci viene richiesto di calcolare il circuito equivalente di tipo Thévenin del bipolo mostrato in figura ai morsetti $A-B$. Nella figura si riporta, con linea tratteggiata, la rete esterna che potrà essere connessa al bipolo.
+> 
+> ![[Elettrotecnica-1793800808350.webp|413x210]]
+> #Figura(5.13). *Bipolo di cui si chiede l'eq. Thévenin*
+> 
+> 
+> Applichiamo le due prove semplici:
+> 
+> - Per il calcolo di $R_{eq}$ si deve spegnere il generatore interno di tensione e applicare un generatore esterno di corrente, come mostrato in figura:![[Elettrotecnica-1793801115680.webp|315]]
+> 	#Figura(5.14). *Prova semplice per la determinazione di $R_{eq}$*
+> 	
+> 	Notare che la corrente $I$ scorre nel resistore da $5 \ \Omega$ e poi si ripartisce in parti uguali tra i due resistori in parallelo da $10 \ \Omega$. La tensione $V$ che nasce ai capi $A-B$ è dunque data da:$$V=I\cdot 5 \ \Omega+\frac{I}{2}\cdot 10 \ \Omega=I\cdot\10 \ \Omega\longrightarrow R_{eq}=\frac{V}{I}=10 \ \Omega$$
+> 	**Si noti come il valore di Req calcolato con la prova semplice definita in $(5.18)$ coincida con quello ottenuto usando le composizioni parallelo/serie dei resistori. La prova semplice rappresenta una generalizzazione della composizione parallelo/serie**.
+> 
+> 
+> - Per il calcolo di $E_{eq}$ si mantiene acceso il generatore interno mentre si spegne quello esterno, ovvero si lasciano i morsetti $A-B$ flottanti con $I= 0$, come mostrato in figura:![[Elettrotecnica-1793801240834.webp|319]]
+> 	#Figura(5.15). *Prova semplice per la determinazione di $E_{eq}$*
+> 	
+> 	Da questa è facile concludere che:$$E_{eq}=4 \ V \ \frac{10}{10+10}=2 \ V$$Da cui il circuito equivalente, ai fini esterni, mostrato in figura:![[Elettrotecnica-1793801409473.webp|428]]
+> 	#Figura(5.16). *Equivalente serie*
+
+
+#### #Esercizio(equivalenti) (2)
+
+> [!question] Esercizio
+> Nel secondo esercizio, ci viene richiesto di calcolare il circuito equivalente di tipo Thévenin del bipolo mostrato in figura, che contiene un generatore di corrente pilotato in corrente.
+> 
+> ![[Elettrotecnica-1793801560063.webp|249]]
+> #Figura(5.17). *Bipolo composto contenente generatore pilotato*
+> 
+> 
+> Applichiamo le due prove semplici:
+> 
+> - Per il calcolo di $R_{eq}$ spegneremo il generatore indipendente di tensione.
+> 	**<u>Attenzione</u>**: **il generatore pilotato NON è una sorgente indipendente**, quindi si applica un generatore esterno di corrente, come mostrato in figura:
+> 	![[Elettrotecnica-1793801934649.webp|246x208]]
+> 	#Figura(5.18). *Prova semplice per la determinazione di $R_{eq}$*
+> 	
+> 	Bilanciando le correnti al nodo tratteggiato, siamo in grado di calcolare $I_{1}$ in funzione della corrente impressa $I$, infatti:$$I=4I+I_{1}\longrightarrow I_{1}=-3I$$da cui si ricava la tensione:$$v=v_{AB}=I_{1}\cdot 10 \ \Omega=(-30 \ \Omega)\cdot I$$e la $R_{eq}$:$$R_{eq}=-30 \ \Omega$$
+> 	
+> 
+> Facciamo due **osservazioni**:
+> 
+> 1. In presenza di generatori pilotati non è in generale possibile calcolare la $R_{eq}$ utilizzando la composizione serie/parallelo di resistori ma è necessario utilizzare la definizione della prova semplice;
+> 2. Con generatori pilotati, la $R_{eq}$ può risultare negativa.
+> 
+> 
+> - Per il calcolo di $E_{eq}$ ripristiniamo il generatore indipendente di tensione e manteniamo a vuoto i morsetti $A-B$, come in figura:
+> 	![[Elettrotecnica-1793802068581.webp|259x224]]
+> 	#Figura(5.19). *Prova semplice per la determinazione di $E_{eq}$*
+> 	
+> 	In questa configurazione, si ha:$$0=4\cdot 0+I_{1}\longrightarrow I_{1}=0 \ A$$e quindi:$$E_{eq}=0\cdot 10 \ \Omega+5 \ V=5 \ V$$
+
+
+#### #Esercizio(equivalenti) (3)
+
+> [!question] Esercizio
+> Nel terzo esercizio proposto, mostriamo come l’applicazione del concetto di equivalente possa semplificare la soluzione del circuito mostrato in figura (Sinistra), in cui viene richiesto di calcolare la corrente $I_{x}$ che circola in $R_{5}$.
+> 
+> ![[Elettrotecnica-1793802314941.webp|256]]
+> #Figura (5.20).
+> 
+> $$E=9 \ V;\\R_{2}=R_{3}=3 \ \Omega\\R_{1}=R_{4}=R_{5}=6 \ \Omega\\ \\ (5.20)$$
+> 
+> 
+> Il procedimento che si segue è quello di calcolare il circuito equivalente di tipo serie del bipolo collegato a $R_{5}$, come mostrato in figura 5.21 (Sinistra); quindi si collega il circuito equivalente alla resistenza $R_{5}$ come mostrato in figura 5.21 (Destra).
+> ![[Elettrotecnica-1793802457826.webp|449]]
+> #Figura(5.21). *Procedimento: si calcola l’equivalente ai morsetti $A-B$ (<u>Sinistra</u>) e si collega al resistore $R_{5}$ (<u>Destra</u>)*
+> 
+> Procediamo al <u>calcolo dell’equivalente Thévenin</u>:
+> 
+> - Per il calcolo di $R_{eq}$ spegniamo il generatore indipendente di tensione e applichiamo un generatore di corrente, come mostrato in figura:
+> 	![[Elettrotecnica-1793802608992.webp|493]]
+> 	#Figura(5.22). *Prova semplice per la determinazione di $R_{eq}$*
+> 	
+> 	Ragionando su questo circuito si vede come $R_{1}$ ed $R_{3}$ siano tra di loro in **parallelo** così come $R_{2}$ con $R_{4}$. Risulterà:$$v_{1}=I\frac{R_{3}}{R_{1}+R_{3}}\cdot R_{1}$$mentre:$$v_{2}=I\frac{R_{4}}{R_{2}+R_{4}}\cdot R_{2}$$e quindi:$$V=v_{1}+v_{2}=I\cdot(R_{1}||R_{3}+R_{4}||R_{2})$$Da cui si ricava che:$$R_{eq}=(R_{1}||R_{3}+R_{4}||R_{2})=2 \ \Omega+2 \ \Omega=4 \ \Omega$$Si noti come questo risultato si può ricavare ridisegnando il circuito come mostrato in figura 5.22 (Destra).
+> 
+> 
+> - Per il calcolo di $E_{eq}$ determiniamo la tensione a vuoto nel circuito di figura:
+> 	![[Elettrotecnica-1793802981001.webp|272]]
+> 	#Figura(5.23). *Prova semplice per la determinazione di $E_{eq}$*
+> 	
+> 	In esso i resistori $R_{1}$ ed $R_{3}$ sono in serie così come i resistori $R_{2}$ ed $R_{4}$ sono in serie tra loro. Dunque:$$E_{eq}=E\frac{R_{3}}{R_{1}+R_{3}}-E\frac{R_{2}}{R_{2}+R_{4}}=9\frac{3}{9}-9\frac{6}{9}=-3 \ V$$Infine, sfruttando l’equivalente circuitale come in figura 5.21 (Destra), concludiamo che:$$I_{x}=\frac{-3 \ V}{4 \ \Omega+6 \ \Omega}=-0.3 \ A$$
+
+
+
+## 5.3 **Equivalente Norton o tipo parallelo**
+
+Data una rete elettrica lineare comunque complessa ed accessibile esternamente da una coppia di morsetti, vogliamo determinare il legame tra le variabili $V$ ed $I$ misurate ai suoi morsetti nella forma parallelo o controllata in tensione, cioè $I= g(V)$.
+A questo fine applichiamo all’esterno un generatore di tensione come mostrato in figura:
+![[Elettrotecnica-1793803213359.webp|360]]
+#Figura(5.24). *Set-up sperimentale per determinare l’equivalente Norton*
+
+Se il circuito così costruito ammetta soluzione, allora il principio di sovrapposizione degli effetti ci illumina sulla forma della variabile corrente $I$ che sarà del tipo:
+$$I=K_{0}\cdot \mathbf{V}+\overbrace{H_{1}\cdot I_{s_{1}}+\cdots+K_{\beta}\cdot E_{s\beta'}}^{Generatori \ interni}\quad(5.21)$$
+
+dove compaiono distinti l’effetto dovuto alla sorgente esterna $V$ e l’effetto complessivo dovuto a tutti i generatori indipendenti interni. Il primo coefficiente $K_{0}$ è dimensionalmente una conduttanza e può essere indicata come $G_{eq}$. Il secondo termine è una corrente e quindi si può indicare come un unico valore $I_{eq}$.
+Con questa notazione, $(5.21)$ si riscrive:
+$$I=G_{eq}\cdot V+I_{eq}\quad(5.22)$$
+
+Questa espressione ci mostra che, nell’ipotesi di controllabilità in tensione, un bipolo lineare comunque complesso è equivalente ad un circuito elementare composto dal collegamento parallelo di un generatore di corrente di valore $I_{eq}$, detto **corrente equivalente**, e di un resistore di conduttanza $G_{eq}$, o se si preferisce di resistenza $R_{eq} = \frac{1}{G_{eq}}$.
+Ai fini esterni, la rete potrà essere sostituita dal circuito parallelo mostrato in figura, comunemente indicato come **equivalente Norton** o **equivalente parallelo**.
+![[Elettrotecnica-1793803531073.webp|328]]
+#Figura(5.25). *Circuito equivalente di Norton; il resistore parallelo ha resistenza $R_{eq} = \frac{1}{G_{eq}}$*
+
+
+Il significato fisico dei parametri dell’equivalente Norton emerge dalle **due prove semplici**, che permettono la loro determinazione:
+
+- Dalla $(5.22)$ si ha che:$$G_{eq}=\frac{I}{V}|_{generatore \ interno \ \ OFF}\quad\quad(5.23)$$
+
+	Questa configurazione è mostrata in figura:
+	![[Elettrotecnica-1793803713768.webp|383]]
+	#Figura(5.26). *Prova semplice per la determinazione di $G_{eq}$*
+	
+	**Tutti i generatori indipendenti interni al bipolo sono spenti mentre agisce all’esterno il generatore $V$**. In questa condizione, $G_{eq}$ risulta essere il rapporto $\frac{I}{V}$, cioè il rapporto tra la corrente che scorre nel bipolo a seguito dell’applicazione di una tensione.
+	Si noti che, per lo stesso bipolo di partenza, **il circuito per il calcolo di $G_{eq}$ del modello Norton è esattamente lo stesso di quello usato per il calcolo di $R_{eq}$ nel modello Thévenin, ne consegue che tra questi parametri vale la relazione $G_{eq} = \frac{1}{R_{eq}}$**.
+
+
+- In modo simile, dalla $(5.21)$ si ricava:$$I_{eq}=I|_{V=0}\quad \quad (5.24)$$Questa configurazione è mostrata in figura:
+	![[Elettrotecnica-1793803953149.webp|413x219]]
+	#Figura(5.27). *Prova semplice per la determinazione di $I_{eq}$; i morsetti del bipolo vengono cortocircuitati*
+	
+	I generatori indipendenti interni al bipolo sono accesi mentre è spento il generatore esterno $V= 0$. $I_{{eq}}$ risulta essere la corrente $I$ misurata coi morsetti $A-B$ cortocircuitati.
+
+
+
+#### #Esercizio(equivalenti) (1)
+
+> [!question] Esercizio
+> Ripetiamo l’esercizio mostrato in [[#Esercizio(equivalenti) (1)|figura 5.13]] figura 5.13, riportato per comodità in figura ma ora con lo scopo di calcolarne l’equivalente Norton:
+> ![[Elettrotecnica-1793804632165.webp|381]]
+> #Figura(5.28).
+> 
+> 
+> Applichiamo le due prove semplici:
+> 
+> - Per il calcolo di $G_{eq}$ si dovrà risolvere il circuito mostrato in figura:
+> - 
+> 	![[Elettrotecnica-1793804782529.webp|251]]
+> 	#Figura(5.29). *Prova semplice per la determinazione di $G_{eq}$*
+> 	
+> 	Questo circuito è lo stesso risolto per calcolare la $R_{eq}$ di Thévenin tranne che ora si impone la tensione $V$. I calcoli saranno i medesimi:$$V=I\cdot 5 \ \Omega+\frac{I}{2}\cdot 10 \1 \Omega=I\cdot 10 \ \Omega\longrightarrow G_{eq}=\frac{I}{V}=0.1 \ \Omega^{-1}=\frac{1}{R_{eq}}$$
+> 
+> 
+> - Per il calcolo di $I_{eq}$ si mantiene acceso il generatore interno mentre si cortocircuitano i morsetti esterni come mostrato in figura:
+> - 
+> 	![[Elettrotecnica-1793804902315.webp|334]]
+> 	#Figura(5.30). Prova semplice per la determinazione di $I_{eq}$
+> 	
+> 	Da questa calcoliamo il parallelo di $5\ \Omega$ e $10\ \Omega$, che risulta $\frac{10}{3} \ \Omega$ e quindi calcoliamo la corrente erogata dal generatore:$$i_{1}=\frac{4 \ V}{10+\frac{10}{3}}=0.3 \ A$$Quindi si ha:$$I_{eq}=0.3 \ A(-1)\frac{10}{10+5}=-0.2 \ A$$La figura 5.31 mostra il circuito equivalente Norton confrontandolo con quello di Thévenin già calcolato. E’ evidente come il passaggio dall’uno all’altro può essere valutato con le trasformazioni serie/parallelo dei generatori reali viste nella [[#3.7 **Trasformazione serie-parallelo dei generatori reali**|terzo capitolo]]:
+> 	
+> 	![[Elettrotecnica-1793805084217.webp|439]]
+> 	#Figura(5.31). *Circuito equivalente di Norton (<u>Sinistra</u>); confronto con l’eq. di Thévenin (<u>Destra</u>)*
+
+
+#### #Esercizio(equivalenti) (2)
+
+> [!question] Esercizio
+> Nel secondo esercizio viene richiesto di determinare il circuito equivalente di tipo Norton del bipolo in figura:
+> ![[Elettrotecnica-1793805312041.webp|277]]
+> #Figura(5.32). *Bipolo con generatore di tensione pilotato in tensione*
+> 
+> 
+> - Facciamo una nota importante: il parametro dell’equivalente Norton è la conduttanza $G_{eq}$ poiché si sta cercando il modello controllato in tensione. Tuttavia, nella pratica risolutiva e salvo casi particolari che vedremo nella prossima sezione, si può procedere alternativamente calcolando la $R_{eq}$, ovvero svolgendo una prova semplice in cui si applica un generatore di corrente, e quindi invertire la resistenza per determinare la conduttanza. La scelta di uno o dell’altro metodo dipende dalla facilità risolutiva del circuito che ne risulta. In questo esercizio, in presenza di un generatore pilotato da $v_{1}$, risulta più semplice controllare il bipolo in tensione come mostrato in figura:
+> 	![[Elettrotecnica-1793805442570.webp|349x196]]
+> 	#Figura(5.33). *Prova semplice per la determinazione di $G_{eq}$*
+> 
+> 	Analizzando questa configurazione, e osservando che $v_{1} = V$, troviamo:
+> 	$$v_{2}=v_{1}+\alpha v_{1}=V\cdot(1+\alpha)$$
+> 	da cui:
+> 	$$I=\frac{I}{V}=\frac{1}{R_{1}}+\frac{(1+\alpha)}{R_{2}}$$
+> 	
+> 	E infine:
+> 	$$G_{eq}=\frac{I}{V}=\frac{1}{R_{1}}+\frac{(1+\alpha)}{R_{2}}$$
+> 
+> 
+> - Per il calcolo di $I_{eq}$ cortocircuitano i morsetti esterni come mostrato in figura:
+> 	![[Elettrotecnica-1793805649683.webp|343]]
+> 	#Figura(5.34). *Prova semplice per la determinazione di $I_{eq}$*
+> 	
+> 	E’ facile vedere che $v_{1} = v_{2} = 0 \ V$ e che:$$I_{eq}=0 \ A$$Com’era intuitivo aspettarsi poiché il bipolo non contiene sorgenti indipendenti, il suo circuito equivalente, sia di Norton che di Thévenin, è composto da un resistore di resistenza:$$R_{eq}=\frac{1}{G_{eq}}=\frac{1}{\frac{1}{R_{1}}+\frac{(1+\alpha)}{R_{2}}}$$
+
+
+
+## 5.4 **Considerazioni conclusive**
+
+Facciamo alcune note finali:
+
+- Ci chiediamo, dato un bipolo lineare **esiste sempre il circuito equivalente** di tipo Thévenin o Norton? **La risposta è no**, l’esistenza dei due equivalenti dipende dalla controllabilità che ammette il bipolo.
+	
+	Consideriamo, per esempio, il semplice caso in cui il bipolo sia un generatore indipendente di corrente, che sappiamo non ammette la controllabilità in corrente. Le due prove semplici per il calcolo dell’eq. Thévenin portano a <u>due circuiti che NON hanno soluzione</u>, come mostrato in figura, in quanto violano la KCL.
+	![[Elettrotecnica-1793806104745.webp|417]]
+	#Figura(5.35). *Una sorgente di corrente non ammette equivalente Thévenin*
+	
+	Non è dunque possibile calcolare la $E_{eq}$ e nemmeno la $R_{eq}$ che risulta $\infty$. Il generatore indipendente di corrente ammette invece l’equivalente Norton formato da se stesso con una conduttanza $G_{eq} = 0$ in parallelo.
+	
+	
+	In modo del tutto simile un bipolo formato da un solo generatore indipendente di tensione non ammette la controllabilità in corrente. Le due prove semplici per il calcolo dell’eq. Norton portano a <u>due circuiti che NON hanno soluzione</u>, come mostrato in figura, in quanto violano la KVL.![[Elettrotecnica-1793806180370.webp|423]]
+	#Figura(5.36). *Una sorgente di tensione non ammette equivalente Norton*
+	
+	Non è dunque possibile calcolare la $I_{eq}$ e nemmeno la $G_{eq}$ che risulta $\infty$. Il generatore indipendente di tensione ammette invece l’equivalente Thévenin formato da se stesso con una resistenza $R_{eq} = 0$ in serie.
+
+
+- Lo studio compiuto per calcolare gli equivalenti circuitali di un generico Bipolo Lineare, descritto dalle variabili alla porta $V$ ed $I$, ci ha condotti alle due forme esplicite $(5.17)$ e $(5.22)$. Queste possono essere riscritte nelle seguenti forme implicite:$$V-R_{eq}\cdot I-E_{eq}=0\\ \\ \\-G_{eq}\cdot V+I-I_{eq}=0$$
+	che possono essere unificate nella forma implicita generale, talvolta indicata col nome di **modello affine**:$$M\cdot V+N\cdot I+C=0\quad\quad(5.25)$$dove $M, N$ e $C$ sono dei coefficienti reali (positivi, negativi o nulli).
+	La scelta particolare di tali coefficienti riconduce il modello affine a casi noti:
+		a) se $C= 0$, la $(5.25)$ si trasforma in:$$V=-\frac{N}{M}I$$cioè il modello si riduce a quello di un resistore di resistenza $\frac{−N}{M}$;
+		b) se $N= 0$, la $(5.25)$ si trasforma in:$$I=-\frac{C}{M}$$cioè il modello si riduce a quello di una sorgente di tensione $E_{S} =\frac{−C}{M}$;
+		c) se $M= 0$, la $(5.25)$ si trasforma in:$$I=-\frac{C}{N}$$cioè il modello si riduce a quello di una sorgente di corrente $I_{s}=\frac{−C}{N}$
+
+	
+	Assegnato che sia il legame costitutivo di un bipolo nella forma implicita $(5.25)$ è facile verificare se è controllabile in tensione e/o in corrente.
+	
+	Perché sia <mark class="hltr-yellow">controllabile in corrente</mark>, deve essere possibile esplicitare la tensione e quindi il **coefficiente $M$ deve essere non nullo**, infatti:$$V=\overbrace{-\frac{N}{M}}^{R_{eq}}\cdot I+\overbrace{-\frac{C}{M}}^{E_{eq}}\quad\quad(5.26)$$
+	
+	Affinchè sia <mark class="hltr-yellow">controllabile in tensione</mark>, deve essere possibile esplicitare la variabile corrente e quindi il **coefficiente $N$ deve essere non nullo**:$$I=\overbrace{-\frac{M}{N}}^{G_{eq}}\cdot V+\overbrace{-\frac{C}{N}}^{I_{eq}}\quad\quad(5.27)$$
+
+> [!question] Quesiti
+> - Dato il legame costitutivo:$$2 \cdot V-100\cdot I+16=0$$dire se il bipolo è controllabile in corrente, in tensione, e se è passivo. Disegnare un circuito elettrico equivalente.
+> 
+> - Dato il legame costitutivo:$$A \cdot V + B \cdot I= 0$$scrivere a quale condizione devono soddisfare i coefficienti $A$ e $B$ affinché il bipolo sia passivo.
+> 
+> - Un bipolo è descritto dal modello:$$2 \cdot V−100 \cdot I + 16= 0$$Quanto vale la corrente di cortocircuito?
+
+
+
+
+# **Capitolo VI: Doppi bipoli**
+
+
+## 6.1 **Il modello Doppio Bipolo**
+
+Il modello di tipo doppio bipolo si applica per descrivere vari casi pratici di reti elettriche che siano accessibili all’esterno attraverso due coppie di morsetti. In questo senso, il doppio bipolo estende il modello del bipolo al caso due porte. Un primo caso pratico è quello di un generico circuito lineare (cioè composto da resistori, generatori pilotati ed eventualmente sorgenti indipendenti) che sia "chiuso" su due bipoli come mostrato in figura:
+![[Elettrotecnica-1793807477897.webp|527]]
+#Figura(6.1). *Circuito lineare collegato a due bipoli esterni*
+
+Ogni coppia di morsetti esterni definisce una porta elettrica, in quanto la corrente entrante ad un morsetto esce dall’altro, ed è descritto da una corrente ed una tensione. In totale le variabili in gioco ai terminali del doppio bipolo sono quattro, $I_{1},V_{1},I_{2},V_{2}$.
+
+Un altro caso, rilevante nelle applicazioni, è quello di un **tripolo elettrico** come quello mostrato in figura 6.2: il tripolo può essere descritto da un modello tipo doppio bipolo raddoppiando uno dei suoi tre morsetti in modo da formare due porte elettriche. Anche in questo caso si avranno quattro variabili elettriche descrittive. Si noti che in questo caso, a differenza del primo, tra i due terminali inferiori alle porte nati dallo sdoppiamento del morsetto comune esiste un corto circuito che li collega sicché il doppio bipolo viene talvolta indicato col nome di tripolare.
+![[Elettrotecnica-1793807583297.webp|580]]
+#Figura(6.2). *Un tripolo può venire modellato come doppio bipolo*
+
+
+
+## 6.2 **Rappresentazioni R e G**
+
+Determiniamo l’espressione matematica del legame costitutivo che lega le quattro variabili alle porte di un doppio bipolo partendo dalle rappresentazioni R e G.
+
+Queste si ottengono generalizzando il procedimento visto nel [[#**Capitolo V Proprietà e teoremi dei circuiti lineari**|capitolo 5]] per il calcolo degli equivalenti serie (Thévenin) e parallelo (Norton) di un bipolo. Nel caso del bipolo, si procedeva imponendo una delle due grandezze alla porta attraverso l’applicazione di un generatore indipendente di corrente o di tensione. In un doppio bipolo, essendo due le porte, applicheremo due generatori indipendenti.
+
+
+Partiamo dal caso mostrato in figura, che generalizza l’equivalente serie, in cui si impongono i valori delle due correnti $I_{2}$ ed $I_{2}$.
+
+
+Nell’ipotesi
