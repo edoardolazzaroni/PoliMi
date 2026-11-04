@@ -1859,4 +1859,8 @@ Facciamo alcune note finali:
 	
 	Affinchè sia <mark class="hltr-yellow">controllabile in tensione</mark>, deve essere possibile esplicitare la variabile corrente e quindi il **coefficiente $N$ deve essere non nullo**:$$I=\overbrace{-\frac{M}{N}}^{G_{eq}}\cdot V+\overbrace{-\frac{C}{N}}^{I_{eq}}\quad\quad(5.27)$$
 
-- Dato il legame costitutivo:
+- Dato il legame costitutivo:$$2 \cdot V-100\cdot I+16=0$$dire se il bipolo è controllabile in corrente, in tensione, e se è passivo. Disegnare un circuito elettrico equivalente.
+
+- Dato il legame costitutivo:$$A \cdot V + B \cdot I= 0$$scrivere a quale condizione devono soddisfare i coefficienti $A$ e $B$
+
+affinché il bipolo sia passivo.
