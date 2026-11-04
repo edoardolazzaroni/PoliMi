@@ -1738,5 +1738,17 @@ Se il circuito così costruito ammetta soluzione, allora il principio di sovrapp
 $$I=K_{0}\cdot \mathbf{V}+\overbrace{H_{1}\cdot I_{s_{1}}+\cdots+K_{\beta}\cdot E_{s\beta'}}^{Generatori \ interni}\quad(5.21)$$
 
 dove compaiono distinti l’effetto dovuto alla sorgente esterna $V$ e l’effetto complessivo dovuto a tutti i generatori indipendenti interni. Il primo coefficiente $K_{0}$ è dimensionalmente una conduttanza e può essere indicata come $G_{eq}$. Il secondo termine è una corrente e quindi si può indicare come un unico valore $I_{eq}$.
+Con questa notazione, $(5.21)$ si riscrive:
+$$I=G_{eq}\cdot V+I_{eq}\quad(5.22)$$
 
-Con questa notazione, (1.21) si riscrive:
+Questa espressione ci mostra che, nell’ipotesi di controllabilità in tensione, un bipolo lineare comunque complesso è equivalente ad un circuito elementare composto dal collegamento parallelo di un generatore di corrente di valore $I_{eq}$, detto corrente equivalente, e di un resistore di conduttanza $Geq, o se si preferisce di resistenza
+
+Req = 1/Geq. Ai fini esterni, la rete potrà essere sostituita dal cir-
+
+cuito parallelo mostrato in fig. 1.25, comunemente indicato come
+
+equivalente Norton o equivalente parallelo.
+
+Il significato fisico dei parametri dell’equivalente Norton emerge
+
+dalle due prove semplici, che permettono la loro determinazione.
