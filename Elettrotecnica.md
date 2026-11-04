@@ -1667,6 +1667,7 @@ Il significato fisico dei due parametri del circuito equivalente è evidente se 
 
 > [!question] Esercizio
 > Nel secondo esercizio, ci viene richiesto di calcolare il circuito equivalente di tipo Thévenin del bipolo mostrato in figura, che contiene un generatore di corrente pilotato in corrente.
+> 
 > ![[Elettrotecnica-1793801560063.webp|249]]
 > #Figura(5.17). *Bipolo composto contenente generatore pilotato*
 > 
@@ -1675,7 +1676,7 @@ Il significato fisico dei due parametri del circuito equivalente è evidente se 
 > 
 > - Per il calcolo di $R_{eq}$ spegneremo il generatore indipendente di tensione.
 > 	**<u>Attenzione</u>**: **il generatore pilotato NON è una sorgente indipendente**, quindi si applica un generatore esterno di corrente, come mostrato in figura:
-> 	![[Elettrotecnica-1793801934649.webp|267]]
+> 	![[Elettrotecnica-1793801934649.webp|246x208]]
 > 	#Figura(5.18). *Prova semplice per la determinazione di $R_{eq}$*
 > 	
 > 	Bilanciando le correnti al nodo tratteggiato, siamo in grado di calcolare $I_{1}$ in funzione della corrente impressa $I$, infatti:$$I=4I+I_{1}\longrightarrow I_{1}=-3I$$da cui si ricava la tensione:$$v=v_{AB}=I_{1}\cdot 10 \ \Omega=(-30 \ \Omega)\cdot I$$e la $R_{eq}$:$$R_{eq}=-30 \ \Omega$$
@@ -1688,7 +1689,10 @@ Il significato fisico dei due parametri del circuito equivalente è evidente se 
 > 
 > 
 > - Per il calcolo di $E_{eq}$ ripristiniamo il generatore indipendente di tensione e manteniamo a vuoto i morsetti $A-B$, come in figura:
-> 	![[Elettrotecnica-1793802068581.webp|270x234]]
+> 	![[Elettrotecnica-1793802068581.webp|259x224]]
 > 	#Figura(5.19). *Prova semplice per la determinazione di $E_{eq}$*
 > 	
 > 	In questa configurazione, si ha:$$0=4\cdot 0+I_{1}\longrightarrow I_{1}=0 \ A$$e quindi:$$E_{eq}=0\cdot 10 \ \Omega+5 \ V=5 \ V$$
+
+
+#### #Esercizio(equivalenti) (3)
