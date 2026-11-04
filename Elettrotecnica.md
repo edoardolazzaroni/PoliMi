@@ -1659,4 +1659,5 @@ Applichiamo le due prove semplici:
 - Per il calcolo di $E_{eq}$ si mantiene acceso il generatore interno mentre si spegne quello esterno, ovvero si lasciano i morsetti $A-B$ flottanti con $I= 0$, come mostrato in figura:![[Elettrotecnica-1793801240834.webp|319]]
 	#Figura(5.15). *Prova semplice per la determinazione di $E_{eq}$*
 	
-	Da questa è facile concludere che:$$E_{}$$
+	Da questa è facile concludere che:$$E_{eq}=4 \ V \ \frac{10}{10+10}=2 \ V$$Da cui il circuito equivalente, ai fini esterni, mostrato in figura:![[Elettrotecnica-1793801409473.webp|428]]
+#Figura(5.16). Equivalente
