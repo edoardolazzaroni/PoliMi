@@ -1849,4 +1849,5 @@ Facciamo alcune note finali:
 	che possono essere unificate nella forma implicita generale, talvolta indicata col nome di **modello affine**:$$M\cdot V+N\cdot I+C=0\quad\quad(5.25)$$dove $M, N$ e $C$ sono dei coefficienti reali (positivi, negativi o nulli).
 	La scelta particolare di tali coefficienti riconduce il modello affine a casi noti:
 		a) se $C= 0$, la $(5.25)$ si trasforma in:$$V=-\frac{N}{M}I$$cioè il modello si riduce a quello di un resistore di resistenza $\frac{−N}{M}$;
-		b) s
+		b) se $N= 0$, la $(5.25)$ si trasforma in:$$I=-\frac{C}{M}$$cioè il modello si riduce a quello di una sorgente di tensione $E_{S} =\frac{−C}{M}$;
+		c) se $M= 0$, la (1.25) si trasforma in
