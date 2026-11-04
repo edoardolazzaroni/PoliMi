@@ -1784,4 +1784,6 @@ Applichiamo le due prove semplici:
 	Questo circuito è lo stesso risolto per calcolare la $R_{eq}$ di Thévenin tranne che ora si impone la tensione $V$. I calcoli saranno i medesimi:$$V=I\cdot 5 \ \Omega+\frac{I}{2}\cdot 10 \1 \Omega=I\cdot 10 \ \Omega\longrightarrow G_{eq}=\frac{I}{V}=0.1 \ \Omega^{-1}=\frac{1}{R_{eq}}$$
 
 
-- Per il 
+- Per il calcolo di $I_{eq}$ si mantiene acceso il generatore interno mentre si cortocircuitano i morsetti esterni come mostrato in figura:
+	
+	Da questa calcoliamo il parallelo di $5\ \Omega$ e $10\ \Omega$, che risulta $\frac{10}{3} \ \Omega$ e quindi calcoliamo la corrente erogata dal generatore:
