@@ -1845,4 +1845,5 @@ Facciamo alcune note finali:
 	Non è dunque possibile calcolare la $I_{eq}$ e nemmeno la $G_{eq}$ che risulta $\infty$. Il generatore indipendente di tensione ammette invece l’equivalente Thévenin formato da se stesso con una resistenza $R_{eq} = 0$ in serie.
 
 
-- Lo studio compiuto per calcolare gli equivalenti circuitali di un generico Bipolo Lineare, descritto dalle variabili alla porta $V$ ed $I$, ci ha condotti alle due forme esplicite $(5.17)$ e $(5.22)$. Queste possono essere riscritte nelle seguenti forme implicite:$$V-R_{e}$$
+- Lo studio compiuto per calcolare gli equivalenti circuitali di un generico Bipolo Lineare, descritto dalle variabili alla porta $V$ ed $I$, ci ha condotti alle due forme esplicite $(5.17)$ e $(5.22)$. Queste possono essere riscritte nelle seguenti forme implicite:$$V-R_{eq}\cdot I-E_{eq}=0\\ \\ \\-G_{eq}\cdot V+I-I_{eq}=0$$
+	che possono essere unificate nella forma implicita generale, talvolta indicata col nome di **modello affine**:$
