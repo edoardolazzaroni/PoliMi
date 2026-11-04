@@ -1616,4 +1616,14 @@ Siamo ora in grado di ricavare qual è il circuito equivalente più generale di 
 Vogliamo determinare il legame che esiste tra le variabili $V$ ed $I$ misurate ai suoi morsetti. Per questo colleghiamo il bipolo ad una sorgente esterna di corrente che imprime una corrente $I$ che noi possiamo controllare e variare a nostro piacimento. Quale sarà la forma del legame serie $V= f (I)$?
 
 Nella sola ipotesi che il circuito così costruito ammetta soluzione, vale il principio di sovrapposizione degli effetti che ci assicura che qualunque variabile in gioco sarà una combinazione lineare dei generatori indipendenti. Questo vale anche per la tensione $V$ che dunque si può scrivere:
-$$V=H_{0}\cdot \mathbf{I}+\overbrace{H_{1}\cdot I_{s_{1}}+\cdots+K_{\beta}}^{Generatori \ interni}$$
+$$V=H_{0}\cdot \mathbf{I}+\overbrace{H_{1}\cdot I_{s_{1}}+\cdots+K_{\beta}\cdot E_{s\beta'}}^{Generatori \ interni}\quad(5.16)$$
+
+ovvero mettendo in evidenza l’effetto dovuto alla sorgente esterna $I$ a cui si aggiunge l’effetto complessivo dovuto a tutti i generatori indipendenti interni. Per quanto riguarda il primo termine, si
+
+osserva che il coefficiente H0 è dimensionalmente una resistenza e
+
+dunque è corretto indicarlo come Req. Il secondo termine è una ten-
+
+sione e quindi si può indicare come un unico valore Eeq. Con questa
+
+notazione, (1.16) si riscrive:
