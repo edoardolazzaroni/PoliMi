@@ -1892,4 +1892,8 @@ Determiniamo l’espressione matematica del legame costitutivo che lega le quatt
 
 Queste si ottengono generalizzando il procedimento visto nel [[#**Capitolo V Proprietà e teoremi dei circuiti lineari**|capitolo 5]] per il calcolo degli equivalenti serie (Thévenin) e parallelo (Norton) di un bipolo. Nel caso del bipolo, si procedeva imponendo una delle due grandezze alla porta attraverso l’applicazione di un generatore indipendente di corrente o di tensione. In un doppio bipolo, essendo due le porte, applicheremo due generatori indipendenti.
 
-Partiamo dal caso mostrato in figura, che generalizza l’equivalente serie, in cui si impongono i valori delle due correnti $I_{2}$ ed $I_{2}$. Nell’ipotesi
+
+Partiamo dal caso mostrato in figura, che generalizza l’equivalente serie, in cui si impongono i valori delle due correnti $I_{2}$ ed $I_{2}$.
+
+
+Nell’ipotesi
