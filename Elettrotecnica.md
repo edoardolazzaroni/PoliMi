@@ -1633,6 +1633,8 @@ Il significato fisico dei due parametri del circuito equivalente è evidente se 
 - Dalla $(5.17)$, si ha che:$$R_{eq}=\frac{V}{I}|_{generatore \ interno \ \ OFF}\quad\quad(5.18)$$Questa configurazione è mostrata in figura 5.11: **tutti i generatori indipendenti interni al bipolo sono spenti** mentre agisce all’esterno il generatore $I$. In questa condizione, $R_{eq}$ risulta essere il rapporto $\frac{V}{I}$.![[Elettrotecnica-1793800416079.webp|332]]
 	#Figura(5.11). *Prova semplice per la determinazione di $R_{eq}$*
 
-- In modo simile, dalla $(5.17)$ si ricava:$$E_{eq}=V|_{I=0}\quad\quad (5.19)$$Questa configurazione è mostrata in figura 5.12: **i generatori indipendenti interni al bipolo sono attivi mentre è spento il generatore esterno** $I= 0$. Eeq risulta essere la tensione V misurata "a vuoto"
 
-(cioè coi morsetti flottanti).
+- In modo simile, dalla $(5.17)$ si ricava:$$E_{eq}=V|_{I=0}\quad\quad (5.19)$$Questa configurazione è mostrata in figura 5.12: **i generatori indipendenti interni al bipolo sono attivi mentre è spento il generatore esterno** $I= 0$. $E_{eq}$ risulta essere la tensione $V$ misurata "a vuoto" (cioè coi morsetti flottanti).![[Elettrotecnica-1793800501124.webp|422]]
+	#Figura(5.12). *Prova semplice per la determinazione di $E_{eq}$*
+
+
