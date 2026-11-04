@@ -1618,12 +1618,6 @@ Vogliamo determinare il legame che esiste tra le variabili $V$ ed $I$ misurate a
 Nella sola ipotesi che il circuito così costruito ammetta soluzione, vale il principio di sovrapposizione degli effetti che ci assicura che qualunque variabile in gioco sarà una combinazione lineare dei generatori indipendenti. Questo vale anche per la tensione $V$ che dunque si può scrivere:
 $$V=H_{0}\cdot \mathbf{I}+\overbrace{H_{1}\cdot I_{s_{1}}+\cdots+K_{\beta}\cdot E_{s\beta'}}^{Generatori \ interni}\quad(5.16)$$
 
-ovvero mettendo in evidenza l’effetto dovuto alla sorgente esterna $I$ a cui si aggiunge l’effetto complessivo dovuto a tutti i generatori indipendenti interni. Per quanto riguarda il primo termine, si
-
-osserva che il coefficiente H0 è dimensionalmente una resistenza e
-
-dunque è corretto indicarlo come Req. Il secondo termine è una ten-
-
-sione e quindi si può indicare come un unico valore Eeq. Con questa
-
-notazione, (1.16) si riscrive:
+ovvero mettendo in evidenza l’effetto dovuto alla sorgente esterna $I$ a cui si aggiunge l’**effetto complessivo dovuto a tutti i generatori indipendenti interni**.
+Per quanto riguarda il primo termine, si osserva che il coefficiente $H_{0}$ è dimensionalmente una resistenza e dunque è corretto indicarlo come $R_{eq}$. Il secondo termine è una tensione e quindi si può indicare come un unico valore $E_{eq}$. Con questa notazione, $(5.16)$ si riscrive:
+$$V=R_{eq}\cdot I+$$
