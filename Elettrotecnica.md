@@ -1821,4 +1821,4 @@ Nel secondo esercizio viene richiesto di determinare il circuito equivalente di 
 	![[Elettrotecnica-1793805649683.webp|343]]
 	#Figura(5.34). *Prova semplice per la determinazione di $I_{eq}$*
 	
-	E’ facile vedere che $v_{1} = v_{2} = 0 \ V$ e che:$$I_{eq}=0 \ A$$Com’era intuitivo aspettarsi poiché il bipolo non contiene sorgenti indipendenti, il suo circuito equivalente, sia di Norton che di Thévenin,
+	E’ facile vedere che $v_{1} = v_{2} = 0 \ V$ e che:$$I_{eq}=0 \ A$$Com’era intuitivo aspettarsi poiché il bipolo non contiene sorgenti indipendenti, il suo circuito equivalente, sia di Norton che di Thévenin, è composto da un resistore di resistenza:$$R_{eq}=\frac{1}{G_{eq}}=\frac{1}{\frac{1}{R_{1}}+\frac{(1+\alpha)}}$$
