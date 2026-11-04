@@ -1697,30 +1697,32 @@ Il significato fisico dei due parametri del circuito equivalente è evidente se 
 
 #### #Esercizio(equivalenti) (3)
 
-Nel terzo esercizio proposto, mostriamo come l’applicazione del concetto di equivalente possa semplificare la soluzione del circuito mostrato in figura (Sinistra), in cui viene richiesto di calcolare la corrente $I_{x}$ che circola in $R_{5}$.
+> [!question] Esercizio
+> Nel terzo esercizio proposto, mostriamo come l’applicazione del concetto di equivalente possa semplificare la soluzione del circuito mostrato in figura (Sinistra), in cui viene richiesto di calcolare la corrente $I_{x}$ che circola in $R_{5}$.
+> 
+> ![[Elettrotecnica-1793802314941.webp|256]]
+> #Figura (5.20).
+> 
+> $$E=9 \ V;\\R_{2}=R_{3}=3 \ \Omega\\R_{1}=R_{4}=R_{5}=6 \ \Omega\\ \\ (5.20)$$
+> 
+> 
+> Il procedimento che si segue è quello di calcolare il circuito equivalente di tipo serie del bipolo collegato a $R_{5}$, come mostrato in figura 5.21 (Sinistra); quindi si collega il circuito equivalente alla resistenza $R_{5}$ come mostrato in figura 5.21 (Destra).
+> ![[Elettrotecnica-1793802457826.webp|449]]
+> #Figura(5.21). *Procedimento: si calcola l’equivalente ai morsetti $A-B$ (<u>Sinistra</u>) e si collega al resistore $R_{5}$ (<u>Destra</u>)*
+> 
+> Procediamo al <u>calcolo dell’equivalente Thévenin</u>:
+> 
+> - Per il calcolo di $R_{eq}$ spegniamo il generatore indipendente di tensione e applichiamo un generatore di corrente, come mostrato in figura:
+> 	![[Elettrotecnica-1793802608992.webp|493]]
+> 	#Figura(5.22). *Prova semplice per la determinazione di $R_{eq}$*
+> 	
+> 	Ragionando su questo circuito si vede come $R_{1}$ ed $R_{3}$ siano tra di loro in **parallelo** così come $R_{2}$ con $R_{4}$. Risulterà:$$v_{1}=I\frac{R_{3}}{R_{1}+R_{3}}\cdot R_{1}$$mentre:$$v_{2}=I\frac{R_{4}}{R_{2}+R_{4}}\cdot R_{2}$$e quindi:$$V=v_{1}+v_{2}=I\cdot(R_{1}||R_{3}+R_{4}||R_{2})$$Da cui si ricava che:$$R_{eq}=(R_{1}||R_{3}+R_{4}||R_{2})=2 \ \Omega+2 \ \Omega=4 \ \Omega$$Si noti come questo risultato si può ricavare ridisegnando il circuito come mostrato in figura 5.22 (Destra).
+> 
+> 
+> - Per il calcolo di $E_{eq}$ determiniamo la tensione a vuoto nel circuito di figura:
+> 	![[Elettrotecnica-1793802981001.webp|272]]
+> 	#Figura(5.23). *Prova semplice per la determinazione di $E_{eq}$*
+> 	
+> 	In esso i resistori $R_{1}$ ed $R_{3}$ sono in serie così come i resistori $R_{2}$ ed $R_{4}$ sono in serie tra loro. Dunque:$$E_{eq}=E\frac{R_{3}}{R_{1}+R_{3}}-E\frac{R_{2}}{R_{2}+R_{4}}=9\frac{3}{9}-9\frac{6}{9}=-3 \ V$$Infine, sfruttando l’equivalente circuitale come in figura 5.21 (Destra), concludiamo che:$$I_{x}=\frac{-3 \ V}{4 \ \Omega+6 \ \Omega}=-0.3 \ A$$
 
-![[Elettrotecnica-1793802314941.webp|256]]
-#Figura (5.20).
 
-$$E=9 \ V;\\R_{2}=R_{3}=3 \ \Omega\\R_{1}=R_{4}=R_{5}=6 \ \Omega\\ \\ (5.20)$$
-
-
-Il procedimento che si segue è quello di calcolare il circuito equivalente di tipo serie del bipolo collegato a $R_{5}$, come mostrato in figura 5.21 (Sinistra); quindi si collega il circuito equivalente alla resistenza $R_{5}$ come mostrato in figura 5.21 (Destra).
-![[Elettrotecnica-1793802457826.webp|449]]
-#Figura(5.21). *Procedimento: si calcola l’equivalente ai morsetti $A-B$ (<u>Sinistra</u>) e si collega al resistore $R_{5}$ (<u>Destra</u>)*
-
-Procediamo al <u>calcolo dell’equivalente Thévenin</u>:
-
-- Per il calcolo di $R_{eq}$ spegniamo il generatore indipendente di tensione e applichiamo un generatore di corrente, come mostrato in figura:
-	![[Elettrotecnica-1793802608992.webp|493]]
-	#Figura(5.22). *Prova semplice per la determinazione di $R_{eq}$*
-	
-	Ragionando su questo circuito si vede come $R_{1}$ ed $R_{3}$ siano tra di loro in **parallelo** così come $R_{2}$ con $R_{4}$. Risulterà:$$v_{1}=I\frac{R_{3}}{R_{1}+R_{3}}\cdot R_{1}$$mentre:$$v_{2}=I\frac{R_{4}}{R_{2}+R_{4}}\cdot R_{2}$$e quindi:$$V=v_{1}+v_{2}=I\cdot(R_{1}||R_{3}+R_{4}||R_{2})$$Da cui si ricava che:$$R_{eq}=(R_{1}||R_{3}+R_{4}||R_{2})=2 \ \Omega+2 \ \Omega=4 \ \Omega$$Si noti come questo risultato si può ricavare ridisegnando il circuito come mostrato in figura 5.22 (Destra).
-
-
-- Per il calcolo di $E_{eq}$ determiniamo la tensione a vuoto nel circuito di figura:
-	![[Elettrotecnica-1793802981001.webp|272]]
-	#Figura(5.23). 
-	
-	In esso i resistori $R_{1}$ ed $R_{3}$ sono in serie così come i resistori $R_{2}$ ed $R_{4}$ sono in serie tra loro. Dunque:$$E_{eq}=E\frac{R_{3}}{R_{1}+R_{3}}-E\frac{R_{2}}{R_{2}+R_{4}}=9\frac{3}{9}-9\frac{6}{9}=-3 \ V$$Infine, sfruttando l’equivalente circuitale come in figura 5.21 (Destra), concludiamo che:$$I_{x}=\frac{-3 \ V}{4 \ \Omega+6 \ \Omega}=-0.3 \ A$$
-	
