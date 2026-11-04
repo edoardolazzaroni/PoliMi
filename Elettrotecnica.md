@@ -1645,6 +1645,7 @@ Il significato fisico dei due parametri del circuito equivalente è evidente se 
 > 
 > ![[Elettrotecnica-1793800808350.webp|413x210]]
 > #Figura(5.13). *Bipolo di cui si chiede l'eq. Thévenin*
+> 
 > Applichiamo le due prove semplici:
 > 
 > - Per il calcolo di $R_{eq}$ si deve spegnere il generatore interno di tensione e applicare un generatore esterno di corrente, come mostrato in figura:![[Elettrotecnica-1793801115680.webp|315]]
@@ -1659,3 +1660,11 @@ Il significato fisico dei due parametri del circuito equivalente è evidente se 
 > 	
 > 	Da questa è facile concludere che:$$E_{eq}=4 \ V \ \frac{10}{10+10}=2 \ V$$Da cui il circuito equivalente, ai fini esterni, mostrato in figura:![[Elettrotecnica-1793801409473.webp|428]]
 > 	#Figura(5.16). *Equivalente serie*
+
+
+#### #Esercizio(equivalenti) (2)
+
+Nel secondo esercizio, ci viene richiesto di calcolare il circuito equivalente di tipo Thévenin del bipolo mostrato in figura, che contiene un generatore di corrente pilotato in corrente.
+
+
+Applichiamo le due prove semplici:
