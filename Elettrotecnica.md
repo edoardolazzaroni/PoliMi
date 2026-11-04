@@ -1799,3 +1799,6 @@ Il significato fisico dei parametri dell’equivalente Norton emerge dalle **due
 
 #### #Esercizio(equivalenti) (2)
 
+Nel secondo esercizio viene richiesto di determinare il circuito equivalente di tipo Norton del bipolo in figura:
+![[Elettrotecnica-1793805312041.webp|277]]
+#Figura(5.32). *Bipolo con generatore di tensione pilotato in tensione*
