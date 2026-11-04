@@ -1638,6 +1638,7 @@ Il significato fisico dei due parametri del circuito equivalente è evidente se 
 	#Figura(5.12). *Prova semplice per la determinazione di $E_{eq}$*
 
 
+
 #### #Esercizio(equivalenti) (1)
 
 > [!question] Esercizio
@@ -1752,16 +1753,20 @@ Il significato fisico dei parametri dell’equivalente Norton emerge dalle **due
 - Dalla $(5.22)$ si ha che:$$G_{eq}=\frac{I}{V}|_{generatore \ interno \ \ OFF}\quad\quad(5.23)$$
 
 	Questa configurazione è mostrata in figura:
-	![[Elettrotecnica-1793803713768.webp|350]]
+	![[Elettrotecnica-1793803713768.webp|383]]
 	#Figura(5.26). *Prova semplice per la determinazione di $G_{eq}$*
 	
 	**Tutti i generatori indipendenti interni al bipolo sono spenti mentre agisce all’esterno il generatore $V$**. In questa condizione, $G_{eq}$ risulta essere il rapporto $\frac{I}{V}$, cioè il rapporto tra la corrente che scorre nel bipolo a seguito dell’applicazione di una tensione.
 	Si noti che, per lo stesso bipolo di partenza, **il circuito per il calcolo di $G_{eq}$ del modello Norton è esattamente lo stesso di quello usato per il calcolo di $R_{eq}$ nel modello Thévenin, ne consegue che tra questi parametri vale la relazione $G_{eq} = \frac{1}{R_{eq}}$**.
 
 
-- In modo simile, dalla $(5.21)$ si ricava:$$I_{eq}=I|_{V=0}\quad \quad (5.24)$$Questa configurazione è mostrata in figura:![[Elettrotecnica-1793803953149.webp|413x219]]
+- In modo simile, dalla $(5.21)$ si ricava:$$I_{eq}=I|_{V=0}\quad \quad (5.24)$$Questa configurazione è mostrata in figura:
+	![[Elettrotecnica-1793803953149.webp|413x219]]
 	#Figura(5.27). *Prova semplice per la determinazione di $I_{eq}$; i morsetti del bipolo vengono cortocircuitati*
 	
 	I generatori indipendenti interni al bipolo sono accesi mentre è spento il generatore esterno $V= 0$. $I_{{eq}}$ risulta essere la corrente $I$ misurata coi morsetti $A-B$ cortocircuitati.
 
+
+
+#### #Esercizio(equivalenti) (1)
 
