@@ -1842,6 +1842,7 @@ Facciamo alcune note finali:
 	In modo del tutto simile un bipolo formato da un solo generatore indipendente di tensione non ammette la controllabilità in corrente. Le due prove semplici per il calcolo dell’eq. Norton portano a <u>due circuiti che NON hanno soluzione</u>, come mostrato in figura, in quanto violano la KVL.![[Elettrotecnica-1793806180370.webp|423]]
 	#Figura(5.36). *Una sorgente di tensione non ammette equivalente Norton*
 	
-	Non è dunque possibile calcolare la $I_{eq}$ e nemmeno la $G_{eq}$ che risulta $\infty$. Il generatore indipendente di tensione ammette invece l’equivalente Thevenin formato da se
+	Non è dunque possibile calcolare la $I_{eq}$ e nemmeno la $G_{eq}$ che risulta $\infty$. Il generatore indipendente di tensione ammette invece l’equivalente Thévenin formato da se stesso con una resistenza $R_{eq} = 0$ in serie.
 
-stesso con una resistenza Req = 0 in serie.
+
+- Lo studio compiuto per calcolare gli equivalenti circuitali di un generico Bipolo Lineare, descritto dalle variabili alla porta $V$ ed $I$, ci ha condotti alle due forme esplicite $(5.17)$ e $(5.22)$. Queste possono essere riscritte nelle seguenti forme implicite:$$V-R_{e}$$
