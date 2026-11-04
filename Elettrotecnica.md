@@ -1726,3 +1726,9 @@ Il significato fisico dei due parametri del circuito equivalente è evidente se 
 > 	In esso i resistori $R_{1}$ ed $R_{3}$ sono in serie così come i resistori $R_{2}$ ed $R_{4}$ sono in serie tra loro. Dunque:$$E_{eq}=E\frac{R_{3}}{R_{1}+R_{3}}-E\frac{R_{2}}{R_{2}+R_{4}}=9\frac{3}{9}-9\frac{6}{9}=-3 \ V$$Infine, sfruttando l’equivalente circuitale come in figura 5.21 (Destra), concludiamo che:$$I_{x}=\frac{-3 \ V}{4 \ \Omega+6 \ \Omega}=-0.3 \ A$$
 
 
+
+## 5.3 **Equivalente Norton o tipo parallelo**
+
+Data una rete elettrica lineare comunque complessa ed accessibile esternamente da una coppia di morsetti, vogliamo determinare il legame tra le variabili $V$ ed $I$ misurate ai suoi morsetti nella forma parallelo o controllata in tensione, cioè $I= g(V)$.
+A questo fine applichiamo all’esterno un generatore di tensione come mostrato in figura:
+Se il circuito così costruito ammetta soluzione, allora il
