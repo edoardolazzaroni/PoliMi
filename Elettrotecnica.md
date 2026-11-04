@@ -1778,4 +1778,6 @@ Ripetiamo l’esercizio mostrato in [[#Esercizio(equivalenti) (1)|figura 5.13]] 
 Applichiamo le due prove semplici:
 
 - Per il calcolo di $G_{eq}$ si dovrà risolvere il circuito mostrato in figura:
-	Questo circuito è lo stesso risolto per calcolare la $R_{eq}$ di Thévenin tranne che ora si impone la tensione $V$. I calcoli saranno i medesimi:$$V=I\cdo$$
+	Questo circuito è lo stesso risolto per calcolare la $R_{eq}$ di Thévenin tranne che ora si impone la tensione $V$. I calcoli saranno i medesimi:$$V=I\cdot 5 \ \Omega+\frac{I}{2}\cdot 10 \1 \Omega=I\cdot 10 \ \Omega\longrightarrow G_{eq}=\frac{I}{V}=0.1 \ \Omega^{-1}=\frac{1}{R_{eq}}$$
+
+- Per il 
