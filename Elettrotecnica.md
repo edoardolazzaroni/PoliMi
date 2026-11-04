@@ -1672,4 +1672,7 @@ Nel secondo esercizio, ci viene richiesto di calcolare il circuito equivalente d
 
 Applichiamo le due prove semplici:
 
-- Per il calcolo di $R_{eq}$ spegneremo il generatore indipendente di tensione. Attenzione: il generatore pilotato NON è una sorgente
+- Per il calcolo di $R_{eq}$ spegneremo il generatore indipendente di tensione.
+	**Attenzione**: **il generatore pilotato NON è una sorgente indipendente**, Quindi si applica un generatore esterno di cor-
+
+rente, come mostrato in fig. 1.18. Bilanciando le correnti al nodo
