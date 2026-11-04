@@ -1641,6 +1641,7 @@ Il significato fisico dei due parametri del circuito equivalente è evidente se 
 #### #Esercizio(equivalenti) (1)
 
 Ci viene richiesto di calcolare il circuito equivalente di tipo Thévenin del bipolo mostrato in figura ai morsetti $A-B$. Nella figura si riporta, con linea tratteggiata, la rete esterna che potrà essere connessa al bipolo.
-
+![[Elettrotecnica-1793800808350.webp|370]]
+#Figura(5.13). *Bipolo di cui si chiede l'eq. Thévenin*
 
 Applichiamo le due prove semplici:
