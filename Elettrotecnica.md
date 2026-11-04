@@ -1749,4 +1749,22 @@ Ai fini esterni, la rete potrà essere sostituita dal circuito parallelo mostrat
 
 Il significato fisico dei parametri dell’equivalente Norton emerge dalle **due prove semplici**, che permettono la loro determinazione:
 
-- Dalla $(5.22)$ si ha che:$$G_{eq}=\frac{I}{V}|_{generatore interno} $$
+- Dalla $(5.22)$ si ha che:$$G_{eq}=\frac{I}{V}|_{generatore \ interno \ \ OFF}\quad\quad(5.23)$$
+
+	Questa configurazione è mostrata in figura:
+		
+	tutti i generatori indipendenti interni al bipolo sono spenti mentre agisce all’esterno
+
+il generatore V. In questa condizione, Geq risulta essere il rapporto
+
+I/V, cioè il rapporto tra la corrente che scorre nel bipolo a seguito
+
+dell’applicazione di una tensione. Si noti che, per lo stesso bipolo
+
+di partenza, il circuito per il calcolo di Geq del modello Norton
+
+è esattamento lo stesso di quello usato per il calcolo di Req nel
+
+modello Thévenin, ne consegue che tra questi parametri vale la
+
+relazione Geq = 1/Req.
