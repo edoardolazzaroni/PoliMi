@@ -1735,4 +1735,8 @@ A questo fine applichiamo all’esterno un generatore di tensione come mostrato 
 #Figura(5.24). *Set-up sperimentale per determinare l’equivalente Norton*
 
 Se il circuito così costruito ammetta soluzione, allora il principio di sovrapposizione degli effetti ci illumina sulla forma della variabile corrente $I$ che sarà del tipo:
-$$I=K_{0}\cdot \mathbf{V}+\overbrace{H_{1}\cdot I_{s_{1}}+\cdots+K_{\beta}\cdot E_{s\beta}}^{Generatori \ interni}$$
+$$I=K_{0}\cdot \mathbf{V}+\overbrace{H_{1}\cdot I_{s_{1}}+\cdots+K_{\beta}\cdot E_{s\beta'}}^{Generatori \ interni}\quad(5.21)$$
+
+dove compaiono distinti l’effetto dovuto alla sorgente esterna $V$ e l’effetto complessivo dovuto a tutti i generatori indipendenti interni. Il primo coefficiente $K_{0}$ è dimensionalmente una conduttanza e può essere indicata come $G_{eq}$. Il secondo termine è una corrente e quindi si può indicare come un unico valore $I_{eq}$.
+
+Con questa notazione, (1.21) si riscrive:
