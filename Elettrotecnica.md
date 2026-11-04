@@ -1702,4 +1702,9 @@ Nel terzo esercizio proposto, mostriamo come l’applicazione del concetto di eq
 ![[Elettrotecnica-1793802314941.webp|256]]
 #Figura (5.20).
 
-$$E=9 \ V;\\R_{2}=R_{3}=3 \ \Omega\\R_{1}=R_{4}=R_{5}=6 \ O$$
+$$E=9 \ V;\\R_{2}=R_{3}=3 \ \Omega\\R_{1}=R_{4}=R_{5}=6 \ \Omega\\ \\ (5.20)$$
+
+
+Il procedimento che si segue è quello di calcolare il circuito equivalente di tipo serie del bipolo collegato a $R_{5}$, come mostrato in figura 5.21 (Sinistra); quindi si collega il circuito equivalente alla resistenza $R_{5}$ come mostrato in fig. 1.21(Destra).
+
+Procediamo al calcolo dell’equivalente Thevenin:
