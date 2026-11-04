@@ -1682,8 +1682,10 @@ Applichiamo le due prove semplici:
 
 Facciamo due **osservazioni**:
 
-1. In presenza di generatori pilotati non è in generale possibile calcolare la Req utilizzando la composizione serie/parallelo di
+1. In presenza di generatori pilotati non è in generale possibile calcolare la $R_{eq}$ utilizzando la composizione serie/parallelo di resistori ma è necessario utilizzare la definizione della prova semplice;
+2. Con generatori pilotati, la $R_{eq}$ può risultare negativa.
 
-resistori ma è necessario utilizzare la definizione della prova
 
-semplice.
+- Per il calcolo di $E_{eq}$ ripristiniamo il generatore indipendente di tensione e manteniamo a vuoto i morsetti $A-B$, come in figura:
+	
+	In questa configurazione, si ha
