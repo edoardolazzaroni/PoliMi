@@ -1744,8 +1744,9 @@ $$I=G_{eq}\cdot V+I_{eq}\quad(5.22)$$
 Questa espressione ci mostra che, nell’ipotesi di controllabilità in tensione, un bipolo lineare comunque complesso è equivalente ad un circuito elementare composto dal collegamento parallelo di un generatore di corrente di valore $I_{eq}$, detto **corrente equivalente**, e di un resistore di conduttanza $G_{eq}$, o se si preferisce di resistenza $R_{eq} = \frac{1}{G_{eq}}$.
 Ai fini esterni, la rete potrà essere sostituita dal circuito parallelo mostrato in figura, comunemente indicato come **equivalente Norton** o **equivalente parallelo**.
 ![[Elettrotecnica-1793803531073.webp|328]]
-#Figura(5.25). Circuito equivalente di Norton; il resistore parallelo ha resistenza $Req = 1/Geq.$
+#Figura(5.25). *Circuito equivalente di Norton; il resistore parallelo ha resistenza $R_{eq} = \frac{1}{G_{eq}}$*
 
-Il significato fisico dei parametri dell’equivalente Norton emerge
 
-dalle due prove semplici, che permettono la loro determinazione.
+Il significato fisico dei parametri dell’equivalente Norton emerge dalle **due prove semplici**, che permettono la loro determinazione:
+
+- Dalla $(5.22)$ si ha che:$$G_{eq}=\frac{I}{V}|_{generatore interno} $$
