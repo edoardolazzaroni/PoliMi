@@ -1713,6 +1713,6 @@ Procediamo al calcolo dell’equivalente Thévenin:
 
 - Per il calcolo di $R_{eq}$ spegniamo il generatore indipendente di tensione e applichiamo un generatore di corrente, come mostrato in figura:
 	![[Elettrotecnica-1793802608992.webp|493]]
-	#Figura(5.22).
+	#Figura(5.22). *Prova semplice per la determinazione di $R_{eq}$*
 	
-	Ragionando su questo circuito si vede come $R_{1}$ ed $R_{3}$ siano tra di loro in **parallelo** così come $R_{2}$ con $R_{4}$. Risulterà:$$v_{1}=I\frac{R_{3}}{R_{1}+R_{3}}\cdot R_{1}$$mentre
+	Ragionando su questo circuito si vede come $R_{1}$ ed $R_{3}$ siano tra di loro in **parallelo** così come $R_{2}$ con $R_{4}$. Risulterà:$$v_{1}=I\frac{R_{3}}{R_{1}+R_{3}}\cdot R_{1}$$mentre:$$v_{2}=I\frac{R_{4}}{R_{2}+R_{4}}\cdot R_{2}$$e quindi:$$V=v_{}$$
