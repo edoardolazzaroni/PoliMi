@@ -1846,4 +1846,6 @@ Facciamo alcune note finali:
 
 
 - Lo studio compiuto per calcolare gli equivalenti circuitali di un generico Bipolo Lineare, descritto dalle variabili alla porta $V$ ed $I$, ci ha condotti alle due forme esplicite $(5.17)$ e $(5.22)$. Queste possono essere riscritte nelle seguenti forme implicite:$$V-R_{eq}\cdot I-E_{eq}=0\\ \\ \\-G_{eq}\cdot V+I-I_{eq}=0$$
-	che possono essere unificate nella forma implicita generale, talvolta indicata col nome di **modello affine**:$
+	che possono essere unificate nella forma implicita generale, talvolta indicata col nome di **modello affine**:$$M\cdot V+N\cdot I+C=0\quad\quad(5.25)$$dove $M, N$ e $C$ sono dei coefficienti reali (positivi, negativi o nulli).
+	La scelta particolare di tali coefficienti riconduce il modello affine a casi noti:
+		a) se $C= 0, (1.25) si trasforma in
