@@ -1854,4 +1854,7 @@ Facciamo alcune note finali:
 
 	
 	Assegnato che sia il legame costitutivo di un bipolo nella forma implicita $(5.25)$ è facile verificare se è controllabile in tensione e/o in corrente.
-	Perché sia <mark class="hltr-yellow">controllabile in corrente</mark>, deve essere possibile esplicitare la tensione e quindi il **coefficiente $M$ deve essere non nullo**, infatti:$$V=\overbrace{-\frac{N}{M}}^{R_{eq}}\cdot I+\overbrace{}^{}$$
+	
+	Perché sia <mark class="hltr-yellow">controllabile in corrente</mark>, deve essere possibile esplicitare la tensione e quindi il **coefficiente $M$ deve essere non nullo**, infatti:$$V=\overbrace{-\frac{N}{M}}^{R_{eq}}\cdot I+\overbrace{-\frac{C}{M}}^{E_{eq}}\quad\quad(5.26)$$
+	
+	Perché sia <mark class="hltr-yellow">controllabile in tensione</mark>, deve essere possibile esplicitare la variabile corrente e quindi il **coefficiente $N$ deve essere non nullo**, infatti:$$V=\overbrace{-\frac{N}{M}}^{R_{eq}}\cdot I+\overbrace{-\frac{C}{M}}^{E_{eq}}\quad\quad(5.26)$$
