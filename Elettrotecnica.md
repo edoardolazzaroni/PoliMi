@@ -1770,26 +1770,32 @@ Il significato fisico dei parametri dell’equivalente Norton emerge dalle **due
 
 #### #Esercizio(equivalenti) (1)
 
-Ripetiamo l’esercizio mostrato in [[#Esercizio(equivalenti) (1)|figura 5.13]] figura 5.13, riportato per comodità in figura ma ora con lo scopo di calcolarne l’equivalente Norton:
-![[Elettrotecnica-1793804632165.webp|381]]
-#Figura(5.28).
+> [!question] Esercizio
+> Ripetiamo l’esercizio mostrato in [[#Esercizio(equivalenti) (1)|figura 5.13]] figura 5.13, riportato per comodità in figura ma ora con lo scopo di calcolarne l’equivalente Norton:
+> ![[Elettrotecnica-1793804632165.webp|381]]
+> #Figura(5.28).
+> 
+> 
+> Applichiamo le due prove semplici:
+> 
+> - Per il calcolo di $G_{eq}$ si dovrà risolvere il circuito mostrato in figura:
+> - 
+> 	![[Elettrotecnica-1793804782529.webp|251]]
+> 	#Figura(5.29). *Prova semplice per la determinazione di $G_{eq}$*
+> 	
+> 	Questo circuito è lo stesso risolto per calcolare la $R_{eq}$ di Thévenin tranne che ora si impone la tensione $V$. I calcoli saranno i medesimi:$$V=I\cdot 5 \ \Omega+\frac{I}{2}\cdot 10 \1 \Omega=I\cdot 10 \ \Omega\longrightarrow G_{eq}=\frac{I}{V}=0.1 \ \Omega^{-1}=\frac{1}{R_{eq}}$$
+> 
+> 
+> - Per il calcolo di $I_{eq}$ si mantiene acceso il generatore interno mentre si cortocircuitano i morsetti esterni come mostrato in figura:
+> - 
+> 	![[Elettrotecnica-1793804902315.webp|334]]
+> 	#Figura(5.30). Prova semplice per la determinazione di $I_{eq}$
+> 	
+> 	Da questa calcoliamo il parallelo di $5\ \Omega$ e $10\ \Omega$, che risulta $\frac{10}{3} \ \Omega$ e quindi calcoliamo la corrente erogata dal generatore:$$i_{1}=\frac{4 \ V}{10+\frac{10}{3}}=0.3 \ A$$Quindi si ha:$$I_{eq}=0.3 \ A(-1)\frac{10}{10+5}=-0.2 \ A$$La figura 5.31 mostra il circuito equivalente Norton confrontandolo con quello di Thévenin già calcolato. E’ evidente come il passaggio dall’uno all’altro può essere valutato con le trasformazioni serie/parallelo dei generatori reali viste nella [[#3.7 **Trasformazione serie-parallelo dei generatori reali**|terzo capitolo]]:
+> 	
+> 	![[Elettrotecnica-1793805084217.webp|439]]
+> 	#Figura(5.31). *Circuito equivalente di Norton (<u>Sinistra</u>); confronto con l’eq. di Thévenin (<u>Destra</u>)*
 
 
-Applichiamo le due prove semplici:
-
-- Per il calcolo di $G_{eq}$ si dovrà risolvere il circuito mostrato in figura:
-	![[Elettrotecnica-1793804782529.webp|251]]
-	#Figura(5.29). *Prova semplice per la determinazione di $G_{eq}$*
-	
-	Questo circuito è lo stesso risolto per calcolare la $R_{eq}$ di Thévenin tranne che ora si impone la tensione $V$. I calcoli saranno i medesimi:$$V=I\cdot 5 \ \Omega+\frac{I}{2}\cdot 10 \1 \Omega=I\cdot 10 \ \Omega\longrightarrow G_{eq}=\frac{I}{V}=0.1 \ \Omega^{-1}=\frac{1}{R_{eq}}$$
-
-
-- Per il calcolo di $I_{eq}$ si mantiene acceso il generatore interno mentre si cortocircuitano i morsetti esterni come mostrato in figura:
-	![[Elettrotecnica-1793804902315.webp|334]]
-	#Figura(5.30). Prova semplice per la determinazione di $I_{eq}$
-	
-	Da questa calcoliamo il parallelo di $5\ \Omega$ e $10\ \Omega$, che risulta $\frac{10}{3} \ \Omega$ e quindi calcoliamo la corrente erogata dal generatore:$$i_{1}=\frac{4 \ V}{10+\frac{10}{3}}=0.3 \ A$$Quindi si ha:$$I_{eq}=0.3 \ A(-1)\frac{10}{10+5}=-0.2 \ A$$La figura 5.31 mostra il circuito equivalente Norton confrontandolo con quello di Thévenin già calcolato. E’ evidente come il passaggio dall’uno all’altro può essere valutato con le trasformazioni serie/parallelo dei generatori reali viste nella [[#3.7 **Trasformazione serie-parallelo dei generatori reali**|terzo capitolo]]:
-	![[Elettrotecnica-1793805084217.webp|439]]
-	#Figura(5.31). *Circuito equivalente di Norton (<u>Sinistra</u>); confronto con l’eq. di Thévenin (<u>Destra</u>)*
-
+#### #Esercizio(equivalenti) (2)
 
