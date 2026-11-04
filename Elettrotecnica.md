@@ -1649,4 +1649,4 @@ Il significato fisico dei due parametri del circuito equivalente è evidente se 
 
 Applichiamo le due prove semplici:
 
-- Per il calcolo di $R_{eq}$ si deve spegnere il generatore interno di tensione e applicare un generatore esterno di corrente, come mostrato in figura 5.14. Notare che la corrente $I$ scorre nel resistore da $5 \ \Omega$ e poi si ripartisce in parti uguali tra i due resistori in parallelo da $10 \ \Omega$. La tensione $V$ che nasce ai capi $A-B$ è dunque data da:$$V=I\cdot 5 \ \Omega+$$
+- Per il calcolo di $R_{eq}$ si deve spegnere il generatore interno di tensione e applicare un generatore esterno di corrente, come mostrato in figura 5.14. Notare che la corrente $I$ scorre nel resistore da $5 \ \Omega$ e poi si ripartisce in parti uguali tra i due resistori in parallelo da $10 \ \Omega$. La tensione $V$ che nasce ai capi $A-B$ è dunque data da:$$V=I\cdot 5 \ \Omega+\frac{I}{2}\cdot 10 \ \Omega=I\cdot\10 \ \Omega\longrightarrow R_{eq}=\frac{V}{I}=10 \ \Omega$$
