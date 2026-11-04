@@ -1808,13 +1808,16 @@ Nel secondo esercizio viene richiesto di determinare il circuito equivalente di 
 	![[Elettrotecnica-1793805442570.webp|309]]
 	#Figura(5.33). *Prova semplice per la determinazione di $G_{eq}$*
 
+	Analizzando questa configurazione, e osservando che $v_{1} = V$, troviamo:
+	$$v_{2}=v_{1}+\alpha v_{1}=V\cdot(1+\alpha)$$
+	da cui:
+	$$I=\frac{I}{V}=\frac{1}{R_{1}}+\frac{(1+\alpha)}{R_{2}}$$
+	
+	E infine:
+	$$G_{eq}=\frac{I}{V}=\frac{1}{R_{1}}+\frac{(1+\alpha)}{R_{2}}$$
 
-Analizzando questa configurazione, e osservando che $v_{1} = V$, troviamo:
-$$v_{2}=v_{1}+\alpha v_{1}=V\cdot(1+\alpha)$$
-da cui:
-$$I=\frac{I}{V}=\frac{1}{R_{1}}+\frac{(1+\alpha)}{R_{2}}$$
 
-E infine:
-$$G_{eq}=\frac{I}{V}=\frac{1}{R_{1}}+\frac{(1+\alpha)}{R_{2}}$$
-
-
+- Per il calcolo di $I_{eq}$ cortocircuitano i morsetti esterni come mostrato in figura:
+	![[Elettrotecnica-1793805649683.webp|343]]
+	#Figura (5.32)
+	E’ facile vedere che v1 = v2 = 0V e che
