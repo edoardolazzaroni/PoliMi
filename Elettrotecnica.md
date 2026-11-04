@@ -1630,4 +1630,4 @@ Ai fini esterni, la rete potrà essere sostituita dal circuito serie mostrato in
 
 Il significato fisico dei due parametri del circuito equivalente è evidente se pensiamo alle due configurazioni sperimentali, dette prove semplici, che permettono la loro determinazione:
 
-- Dalla $(5.17)$, si ha che:$$R_{eq}=\frac{V}{I}$$
+- Dalla $(5.17)$, si ha che:$$R_{eq}=\frac{V}{I}|_{generatore }$$
