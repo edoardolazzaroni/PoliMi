@@ -1872,3 +1872,12 @@ Facciamo alcune note finali:
 # **Capitolo VI: Doppi bipoli**
 
 
+## 6.1 **Il modello Doppio Bipolo**
+
+Il modello di tipo doppio bipolo si applica per descrivere vari casi pratici di reti elettriche che siano accessibili all’esterno attraverso due coppie di morsetti. In questo senso, il doppio bipolo estende il modello del bipolo al caso due porte. Un primo caso pratico è quello di un generico circuito lineare (cioè composto da resistori, generatori pilotati ed eventualmente sorgenti indipendenti) che sia "chiuso" su due bipoli come mostrato in fig. 1.1. Ogni coppia di morsetti esterni
+
+definisce una porta elettrica, in quanto la corrente entrante ad un
+
+morsetto esce dall’altro, ed è descritto da una corrente ed una ten-
+
+sione. In totale le variabili in gioco ai terminali del doppio bipolo
