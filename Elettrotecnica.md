@@ -1731,6 +1731,8 @@ Il significato fisico dei due parametri del circuito equivalente è evidente se 
 
 Data una rete elettrica lineare comunque complessa ed accessibile esternamente da una coppia di morsetti, vogliamo determinare il legame tra le variabili $V$ ed $I$ misurate ai suoi morsetti nella forma parallelo o controllata in tensione, cioè $I= g(V)$.
 A questo fine applichiamo all’esterno un generatore di tensione come mostrato in figura:
-
+![[Elettrotecnica-1793803213359.webp|360]]
+#Figura(5.24). *Set-up sperimentale per determinare l’equivalente Norton*
 
 Se il circuito così costruito ammetta soluzione, allora il principio di sovrapposizione degli effetti ci illumina sulla forma della variabile corrente $I$ che sarà del tipo:
+$$I=K_{0}\cdot \mathbf{V}+\overbra$$
