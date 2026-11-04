@@ -1623,11 +1623,9 @@ Per quanto riguarda il primo termine, si osserva che il coefficiente $H_{0}$ è 
 $$V=R_{eq}\cdot I+E_{eq}\quad(5.17)$$
 
 Questa espressione ci mostra che, nell’ipotesi di controllabilità in corrente, un bipolo lineare comunque complesso è equivalente alla serie di un generatore di tensione di valore $E_{eq}$ detta **tensione equivalente** con un resistore di valore $R_{eq}$ detta **resistenza equivalente**.
-Aifini esterni, la rete potrà essere sostituita dal circuito serie mostrato
-
-in fig. 1.10, comunemente indicato come equivalente Thévenin o
-
-equivalente serie.
+Ai fini esterni, la rete potrà essere sostituita dal circuito serie mostrato in figura, comunemente indicato come **equivalente Thévenin** o **equivalente serie**:
+![[Elettrotecnica-1793800081718.webp|358]]
+#Figura(5.10). Circuito equivalen
 
 Il significato fisico dei due parametri del circuito equivalente è
 
