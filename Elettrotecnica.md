@@ -1857,4 +1857,6 @@ Facciamo alcune note finali:
 	
 	Perché sia <mark class="hltr-yellow">controllabile in corrente</mark>, deve essere possibile esplicitare la tensione e quindi il **coefficiente $M$ deve essere non nullo**, infatti:$$V=\overbrace{-\frac{N}{M}}^{R_{eq}}\cdot I+\overbrace{-\frac{C}{M}}^{E_{eq}}\quad\quad(5.26)$$
 	
-	Perché sia <mark class="hltr-yellow">controllabile in tensione</mark>, deve essere possibile esplicitare la variabile corrente e quindi il **coefficiente $N$ deve essere non nullo**, infatti:$$V=\overbrace{-\frac{N}{M}}^{R_{eq}}\cdot I+\overbrace{-\frac{C}{M}}^{E_{eq}}\quad\quad(5.26)$$
+	Affinchè sia <mark class="hltr-yellow">controllabile in tensione</mark>, deve essere possibile esplicitare la variabile corrente e quindi il **coefficiente $N$ deve essere non nullo**:$$I=\overbrace{-\frac{M}{N}}^{G_{eq}}\cdot V+\overbrace{-\frac{C}{N}}^{I_{eq}}\quad\quad(5.27)$$
+
+- Dato il legame costitutivo:
