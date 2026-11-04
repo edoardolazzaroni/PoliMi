@@ -1645,19 +1645,17 @@ Il significato fisico dei due parametri del circuito equivalente è evidente se 
 > 
 > ![[Elettrotecnica-1793800808350.webp|413x210]]
 > #Figura(5.13). *Bipolo di cui si chiede l'eq. Thévenin*
-
-
-Applichiamo le due prove semplici:
-
-- Per il calcolo di $R_{eq}$ si deve spegnere il generatore interno di tensione e applicare un generatore esterno di corrente, come mostrato in figura:![[Elettrotecnica-1793801115680.webp|315]]
-	#Figura(5.14). *Prova semplice per la determinazione di $R_{eq}$*
-	
-	Notare che la corrente $I$ scorre nel resistore da $5 \ \Omega$ e poi si ripartisce in parti uguali tra i due resistori in parallelo da $10 \ \Omega$. La tensione $V$ che nasce ai capi $A-B$ è dunque data da:$$V=I\cdot 5 \ \Omega+\frac{I}{2}\cdot 10 \ \Omega=I\cdot\10 \ \Omega\longrightarrow R_{eq}=\frac{V}{I}=10 \ \Omega$$
-	**Si noti come il valore di Req calcolato con la prova semplice definita in $(5.18)$ coincida con quello ottenuto usando le composizioni parallelo/serie dei resistori. La prova semplice rappresenta una generalizzazione della composizione parallelo/serie**.
-
-
-- Per il calcolo di $E_{eq}$ si mantiene acceso il generatore interno mentre si spegne quello esterno, ovvero si lasciano i morsetti $A-B$ flottanti con $I= 0$, come mostrato in figura:![[Elettrotecnica-1793801240834.webp|319]]
-	#Figura(5.15). *Prova semplice per la determinazione di $E_{eq}$*
-	
-	Da questa è facile concludere che:$$E_{eq}=4 \ V \ \frac{10}{10+10}=2 \ V$$Da cui il circuito equivalente, ai fini esterni, mostrato in figura:![[Elettrotecnica-1793801409473.webp|428]]
-#Figura(5.16). Equivalente
+> Applichiamo le due prove semplici:
+> 
+> - Per il calcolo di $R_{eq}$ si deve spegnere il generatore interno di tensione e applicare un generatore esterno di corrente, come mostrato in figura:![[Elettrotecnica-1793801115680.webp|315]]
+> 	#Figura(5.14). *Prova semplice per la determinazione di $R_{eq}$*
+> 	
+> 	Notare che la corrente $I$ scorre nel resistore da $5 \ \Omega$ e poi si ripartisce in parti uguali tra i due resistori in parallelo da $10 \ \Omega$. La tensione $V$ che nasce ai capi $A-B$ è dunque data da:$$V=I\cdot 5 \ \Omega+\frac{I}{2}\cdot 10 \ \Omega=I\cdot\10 \ \Omega\longrightarrow R_{eq}=\frac{V}{I}=10 \ \Omega$$
+> 	**Si noti come il valore di Req calcolato con la prova semplice definita in $(5.18)$ coincida con quello ottenuto usando le composizioni parallelo/serie dei resistori. La prova semplice rappresenta una generalizzazione della composizione parallelo/serie**.
+> 
+> 
+> - Per il calcolo di $E_{eq}$ si mantiene acceso il generatore interno mentre si spegne quello esterno, ovvero si lasciano i morsetti $A-B$ flottanti con $I= 0$, come mostrato in figura:![[Elettrotecnica-1793801240834.webp|319]]
+> 	#Figura(5.15). *Prova semplice per la determinazione di $E_{eq}$*
+> 	
+> 	Da questa è facile concludere che:$$E_{eq}=4 \ V \ \frac{10}{10+10}=2 \ V$$Da cui il circuito equivalente, ai fini esterni, mostrato in figura:![[Elettrotecnica-1793801409473.webp|428]]
+> 	#Figura(5.16). *Equivalente serie*
