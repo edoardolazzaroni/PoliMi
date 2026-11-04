@@ -1656,4 +1656,7 @@ Applichiamo le due prove semplici:
 	**Si noti come il valore di Req calcolato con la prova semplice definita in $(5.18)$ coincida con quello ottenuto usando le composizioni parallelo/serie dei resistori. La prova semplice rappresenta una generalizzazione della composizione parallelo/serie**.
 
 
-- Per il calcolo di $E_{eq}$ si mantiene acceso il generatore interno mentre si spegne quello esterno, ovvero si lasciano i morsetti $A-B$ flottanti con $I= 0$, come mostrato in figura:
+- Per il calcolo di $E_{eq}$ si mantiene acceso il generatore interno mentre si spegne quello esterno, ovvero si lasciano i morsetti $A-B$ flottanti con $I= 0$, come mostrato in figura:![[Elettrotecnica-1793801240834.webp|319]]
+	#Figura(5.15). *Prova semplice per la determinazione di $E_{eq}$*
+	
+	Da questa è facile concludere che:
