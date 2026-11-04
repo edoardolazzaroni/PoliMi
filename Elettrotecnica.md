@@ -1839,4 +1839,9 @@ Facciamo alcune note finali:
 	Non è dunque possibile calcolare la $E_{eq}$ e nemmeno la $R_{eq}$ che risulta $\infty$. Il generatore indipendente di corrente ammette invece l’equivalente Norton formato da se stesso con una conduttanza $G_{eq} = 0$ in parallelo.
 	
 	
-	In modo del tutto simile un bipolo formato da un solo generatore indipendente di tensione non ammette la controllabilità in corrente. Le due prove semplici per il calcolo dell’eq. Norton portano a <u>due circuiti che NON hanno soluzione</u>, come mostrato in figura, in quanto violano la KVL. Non è dunque possibile calcolare
+	In modo del tutto simile un bipolo formato da un solo generatore indipendente di tensione non ammette la controllabilità in corrente. Le due prove semplici per il calcolo dell’eq. Norton portano a <u>due circuiti che NON hanno soluzione</u>, come mostrato in figura, in quanto violano la KVL.![[Elettrotecnica-1793806180370.webp|423]]
+	#Figura(5.36). *Una sorgente di tensione non ammette equivalente Norton*
+	
+	Non è dunque possibile calcolare la $I_{eq}$ e nemmeno la $G_{eq}$ che risulta $\infty$. Il generatore indipendente di tensione ammette invece l’equivalente Thevenin formato da se
+
+stesso con una resistenza Req = 0 in serie.
