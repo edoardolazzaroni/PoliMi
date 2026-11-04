@@ -1620,4 +1620,17 @@ $$V=H_{0}\cdot \mathbf{I}+\overbrace{H_{1}\cdot I_{s_{1}}+\cdots+K_{\beta}\cdot 
 
 ovvero mettendo in evidenza l’effetto dovuto alla sorgente esterna $I$ a cui si aggiunge l’**effetto complessivo dovuto a tutti i generatori indipendenti interni**.
 Per quanto riguarda il primo termine, si osserva che il coefficiente $H_{0}$ è dimensionalmente una resistenza e dunque è corretto indicarlo come $R_{eq}$. Il secondo termine è una tensione e quindi si può indicare come un unico valore $E_{eq}$. Con questa notazione, $(5.16)$ si riscrive:
-$$V=R_{eq}\cdot I+$$
+$$V=R_{eq}\cdot I+E_{eq}\quad(5.17)$$
+
+Questa espressione ci mostra che, nell’ipotesi di controllabilità in corrente, un bipolo lineare comunque complesso è equivalente alla serie di un generatore di tensione di valore $E_{eq}$ detta **tensione equivalente** con un resistore di valore $R_{eq}$ detta **resistenza equivalente**.
+Aifini esterni, la rete potrà essere sostituita dal circuito serie mostrato
+
+in fig. 1.10, comunemente indicato come equivalente Thévenin o
+
+equivalente serie.
+
+Il significato fisico dei due parametri del circuito equivalente è
+
+evidente se pensiamo alle due configurazioni sperimentali, dette
+
+prove semplici, che permettono la loro determinazione.
