@@ -1687,5 +1687,7 @@ Facciamo due **osservazioni**:
 
 
 - Per il calcolo di $E_{eq}$ ripristiniamo il generatore indipendente di tensione e manteniamo a vuoto i morsetti $A-B$, come in figura:
+	![[Elettrotecnica-1793802068581.webp|179]]
+	#Figura(5.19). *Prova semplice per la determinazione di $E_{eq}$*
 	
-	In questa configurazione, si ha
+	In questa configurazione, si ha:$$0=4\cdot 0+I_{1}\long$$
