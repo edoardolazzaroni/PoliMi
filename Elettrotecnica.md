@@ -1624,11 +1624,10 @@ $$V=R_{eq}\cdot I+E_{eq}\quad(5.17)$$
 
 Questa espressione ci mostra che, nell’ipotesi di controllabilità in corrente, un bipolo lineare comunque complesso è equivalente alla serie di un generatore di tensione di valore $E_{eq}$ detta **tensione equivalente** con un resistore di valore $R_{eq}$ detta **resistenza equivalente**.
 Ai fini esterni, la rete potrà essere sostituita dal circuito serie mostrato in figura, comunemente indicato come **equivalente Thévenin** o **equivalente serie**:
-![[Elettrotecnica-1793800081718.webp|358]]
-#Figura(5.10). Circuito equivalen
+![[Elettrotecnica-1793800081718.webp|278]]
+#Figura(5.10). *Circuito equivalente di Thévenin*
 
-Il significato fisico dei due parametri del circuito equivalente è
 
-evidente se pensiamo alle due configurazioni sperimentali, dette
+Il significato fisico dei due parametri del circuito equivalente è evidente se pensiamo alle due configurazioni sperimentali, dette prove semplici, che permettono la loro determinazione:
 
-prove semplici, che permettono la loro determinazione.
+- Dalla $(5.17)$, si ha che:$$R_{eq}=\frac{V}{I}$$
