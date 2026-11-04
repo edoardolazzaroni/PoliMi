@@ -1638,3 +1638,5 @@ Il significato fisico dei due parametri del circuito equivalente è evidente se 
 	#Figura(5.12). *Prova semplice per la determinazione di $E_{eq}$*
 
 
+#### #Esercizio(equivalenti) (1)
+
