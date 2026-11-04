@@ -1673,6 +1673,5 @@ Nel secondo esercizio, ci viene richiesto di calcolare il circuito equivalente d
 Applichiamo le due prove semplici:
 
 - Per il calcolo di $R_{eq}$ spegneremo il generatore indipendente di tensione.
-	**Attenzione**: **il generatore pilotato NON è una sorgente indipendente**, Quindi si applica un generatore esterno di cor-
-
-rente, come mostrato in fig. 1.18. Bilanciando le correnti al nodo
+	**<u>Attenzione</u>**: **il generatore pilotato NON è una sorgente indipendente**, quindi si applica un generatore esterno di corrente, come mostrato in figura:
+	Bilanciando le correnti al nodo tratteggiato, siamo in grado di calcolare $I_{1}$ in funzione della corrente impressa $I$, infatti:$$I=4I+I_{1}\longrightarrow I_{1}=-3I$$
