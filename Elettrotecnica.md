@@ -1770,6 +1770,6 @@ Il significato fisico dei parametri dell’equivalente Norton emerge dalle **due
 
 #### #Esercizio(equivalenti) (1)
 
-Ripetiamo l’esercizio mostrato in [[##]] figura 5.13, riportato per comodità in
+Ripetiamo l’esercizio mostrato in [[#Esercizio(equivalenti) (1)|figura 5.13]] figura 5.13, riportato per comodità in figura ma ora con lo scopo di calcolarne l’equivalente Norton:
 
-fig. 1.28 ma ora con lo scopo di calcolarne l’equivalente Norton.
+Applichiamo le due prove semplici:
