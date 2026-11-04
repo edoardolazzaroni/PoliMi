@@ -1890,18 +1890,6 @@ Un altro caso, rilevante nelle applicazioni, è quello di un **tripolo elettrico
 
 Determiniamo l’espressione matematica del legame costitutivo che lega le quattro variabili alle porte di un doppio bipolo partendo dalle rappresentazioni R e G.
 
-Queste si ottengono generalizzando il procedimento visto nella [[]] per il calcolo degli equivalenti serie
+Queste si ottengono generalizzando il procedimento visto nel [[#**Capitolo V Proprietà e teoremi dei circuiti lineari**|capitolo 5]] per il calcolo degli equivalenti serie (Thévenin) e parallelo (Norton) di un bipolo. Nel caso del bipolo, si procedeva imponendo una delle due grandezze alla porta attraverso l’applicazione di un generatore indipendente di corrente o di tensione. In un doppio bipolo, essendo due le porte, applicheremo due generatori indipendenti.
 
-(Thevenin) e parallelo (Norton) di un bipolo. Nel caso del bipolo, si
-
-procedeva imponendo una delle due grandezze alla porta attraverso
-
-l’applicazione di un generatore indipendente di corrente o di ten-
-
-sione. In un doppio bipolo, essendo due le porte, applicheremo due
-
-generatori indipendenti.
-
-Partiamo dal caso mostrato in fig. 1.3, che generalizza l’equivalente
-
-serie, in cui si impongono i valori delle due correnti I1 ed I2. Nell’ipotesi
+Partiamo dal caso mostrato in figura, che generalizza l’equivalente serie, in cui si impongono i valori delle due correnti $I_{2}$ ed $I_{2}$. Nell’ipotesi
