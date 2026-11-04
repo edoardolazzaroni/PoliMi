@@ -1640,8 +1640,13 @@ Il significato fisico dei due parametri del circuito equivalente è evidente se 
 
 #### #Esercizio(equivalenti) (1)
 
-Ci viene richiesto di calcolare il circuito equivalente di tipo Thévenin del bipolo mostrato in figura ai morsetti $A-B$. Nella figura si riporta, con linea tratteggiata, la rete esterna che potrà essere connessa al bipolo.
-![[Elettrotecnica-1793800808350.webp|370]]
-#Figura(5.13). *Bipolo di cui si chiede l'eq. Thévenin*
+> [!question] Esercizio
+> Ci viene richiesto di calcolare il circuito equivalente di tipo Thévenin del bipolo mostrato in figura ai morsetti $A-B$. Nella figura si riporta, con linea tratteggiata, la rete esterna che potrà essere connessa al bipolo.
+> 
+> ![[Elettrotecnica-1793800808350.webp|413x210]]
+> #Figura(5.13). *Bipolo di cui si chiede l'eq. Thévenin*
+
 
 Applichiamo le due prove semplici:
+
+- Per il calcolo di $R_{eq}$ si deve spegnere il generatore interno di tensione e applicare un generatore esterno di corrente, come mostrato in figura 5.14. Notare che la corrente $I$ scorre nel resistore da 5Ω e
