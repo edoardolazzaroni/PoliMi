@@ -1880,12 +1880,8 @@ Il modello di tipo doppio bipolo si applica per descrivere vari casi pratici di 
 
 Ogni coppia di morsetti esterni definisce una porta elettrica, in quanto la corrente entrante ad un morsetto esce dall’altro, ed è descritto da una corrente ed una tensione. In totale le variabili in gioco ai terminali del doppio bipolo sono quattro, $I_{1},V_{1},I_{2},V_{2}$.
 
-Un altro caso, rilevante nelle applicazioni, è quello di un tripolo elettrico come quello mostrato in figura 6.2: il tripolo può essere descritto da un modello tipo doppio bipolo raddoppiando uno dei suoi tre morsetti in modo da formare due porte elettriche. Anche in questo caso si avranno quattro vari-
+Un altro caso, rilevante nelle applicazioni, è quello di un **tripolo elettrico** come quello mostrato in figura 6.2: il tripolo può essere descritto da un modello tipo doppio bipolo raddoppiando uno dei suoi tre morsetti in modo da formare due porte elettriche. Anche in questo caso si avranno quattro variabili elettriche descrittive. Si noti che in questo caso, a differenza del primo, tra i due terminali inferiori alle porte nati dallo sdoppiamento del morsetto comune esiste un corto circuito che li collega sicché il doppio bipolo viene talvolta indicato col nome di tripolare.
+![[Elettrotecnica-1793807583297.webp|580]]
+#Figura(6.2). *Un tripolo può venire modellato come doppio bipolo*
 
-abili elettriche descrittive. Si noti che in questo caso, a differenza del
 
-primo, tra i due terminali inferiori alle porte nati dallo sdoppiamento
-
-del morsetto comune esiste un corto circuito che li collega sicché il
-
-doppio bipolo viene talvolta indicato col nome di tripolare.
