@@ -1674,9 +1674,16 @@ Applichiamo le due prove semplici:
 
 - Per il calcolo di $R_{eq}$ spegneremo il generatore indipendente di tensione.
 	**<u>Attenzione</u>**: **il generatore pilotato NON è una sorgente indipendente**, quindi si applica un generatore esterno di corrente, come mostrato in figura:
+	![[Elettrotecnica-1793801934649.webp|267]]
+	#Figura(5.18). *Prova semplice per la determinazione di $R_{eq}$*
 	
 	Bilanciando le correnti al nodo tratteggiato, siamo in grado di calcolare $I_{1}$ in funzione della corrente impressa $I$, infatti:$$I=4I+I_{1}\longrightarrow I_{1}=-3I$$da cui si ricava la tensione:$$v=v_{AB}=I_{1}\cdot 10 \ \Omega=(-30 \ \Omega)\cdot I$$e la $R_{eq}$:$$R_{eq}=-30 \ \Omega$$
 	
 
 Facciamo due **osservazioni**:
 
+1. In presenza di generatori pilotati non è in generale possibile calcolare la Req utilizzando la composizione serie/parallelo di
+
+resistori ma è necessario utilizzare la definizione della prova
+
+semplice.
