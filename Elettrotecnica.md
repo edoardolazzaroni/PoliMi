@@ -1752,10 +1752,10 @@ Il significato fisico dei parametri dell’equivalente Norton emerge dalle **due
 - Dalla $(5.22)$ si ha che:$$G_{eq}=\frac{I}{V}|_{generatore \ interno \ \ OFF}\quad\quad(5.23)$$
 
 	Questa configurazione è mostrata in figura:
-		
-	tutti i generatori indipendenti interni al bipolo sono spenti mentre agisce all’esterno
-
-il generatore V. In questa condizione, Geq risulta essere il rapporto
+	![[Elettrotecnica-1793803713768.webp|350]]
+	#Figura(5.26). *Prova semplice per la determinazione di $G_{eq}$*
+	
+	Tutti i generatori indipendenti interni al bipolo sono spenti mentre agisce all’esterno il generatore $V$. In questa condizione, Geq risulta essere il rapporto
 
 I/V, cioè il rapporto tra la corrente che scorre nel bipolo a seguito
 
