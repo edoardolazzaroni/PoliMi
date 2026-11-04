@@ -1759,11 +1759,5 @@ Il significato fisico dei parametri dell’equivalente Norton emerge dalle **due
 	Si noti che, per lo stesso bipolo di partenza, **il circuito per il calcolo di $G_{eq}$ del modello Norton è esattamente lo stesso di quello usato per il calcolo di $R_{eq}$ nel modello Thévenin, ne consegue che tra questi parametri vale la relazione $G_{eq} = \frac{1}{R_{eq}}$**.
 
 
-- In modo simile, dalla $(5.21)$ si ricava:$$I_{eq}=I|_{V=0}\quad \quad (5.24)$$Questa configurazione è mostrata in figura:
-	I generatori indipen-
-
-denti interni al bipolo sono accesi mentre è spento il generatore
-
-esterno V= 0. Ieq risulta essere la corrente I misurata coi morsetti
-
-A-B cortocircuitati.
+- In modo simile, dalla $(5.21)$ si ricava:$$I_{eq}=I|_{V=0}\quad \quad (5.24)$$Questa configurazione è mostrata in figura:![[Elettrotecnica-1793803953149.webp|413x219]]#
+	I generatori indipendenti interni al bipolo sono accesi mentre è spento il generatore esterno $V= 0$. $I_{{eq}}$ risulta essere la corrente $I$ misurata coi morsetti $A-B$ cortocircuitati.
