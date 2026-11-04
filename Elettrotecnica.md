@@ -1867,3 +1867,8 @@ Facciamo alcune note finali:
 > - Un bipolo è descritto dal modello:$$2 \cdot V−100 \cdot I + 16= 0$$Quanto vale la corrente di cortocircuito?
 
 
+
+
+# **Capitolo VI: Doppi bipoli**
+
+
