@@ -1735,4 +1735,4 @@ A questo fine applichiamo all’esterno un generatore di tensione come mostrato 
 #Figura(5.24). *Set-up sperimentale per determinare l’equivalente Norton*
 
 Se il circuito così costruito ammetta soluzione, allora il principio di sovrapposizione degli effetti ci illumina sulla forma della variabile corrente $I$ che sarà del tipo:
-$$I=K_{0}\cdot \mathbf{V}+\overbra$$
+$$I=K_{0}\cdot \mathbf{V}+\overbrace{H_{1}\cdot I_{s_{1}}+\cdots+K_{\beta}\cdot E_{s\beta}}^{Generatori \ interni}$$
