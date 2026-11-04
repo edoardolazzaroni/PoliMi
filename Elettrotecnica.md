@@ -1819,5 +1819,6 @@ Nel secondo esercizio viene richiesto di determinare il circuito equivalente di 
 
 - Per il calcolo di $I_{eq}$ cortocircuitano i morsetti esterni come mostrato in figura:
 	![[Elettrotecnica-1793805649683.webp|343]]
-	#Figura (5.32)
-	E’ facile vedere che v1 = v2 = 0V e che
+	#Figura(5.34). *Prova semplice per la determinazione di $I_{eq}$*
+	
+	E’ facile vedere che $v_{1} = v_{2} = 0 \ V$ e che:$$I_{eq}=0 \ A$$Com’era intuitivo aspettarsi poiché il bipolo non contiene sorgenti indipendenti, il suo circuito equivalente, sia di Norton che di Thévenin,
