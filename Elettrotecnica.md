@@ -1999,4 +1999,14 @@ e corrispondono alla configurazione circuitale mostrata in figura:
 
 
 Infine, i coefficienti:
-$$I_{1eq}\quad=\quad V_{1}|_{I_{1}=0;I_{2}=0} \\ \\ I_{2eq}\quad=\quad I_{2}|_{V_{1}=0;2_{2}=0}\\ \\ (6.7)$$
+$$I_{1eq}\quad=\quad I_{1}|_{V_{1}=0;V_{2}=0} \\ \\ I_{2eq}\quad=\quad I_{2}|_{V_{1}=0;V_{2}=0}\\ \\ (6.14)$$
+
+corrispondono alla configurazione circuitale mostrata in figura:
+![[Elettrotecnica-1793898298255.webp|437]]
+#Figura(6.10). Prova semplice per il calcolo di I1eq e I2eq, entrambi i generatori
+
+esterni V1 ed V2 sono spenti, cioè corto
+
+circuitati, agiscono solo le sorgenti
+
+interne.
