@@ -1992,4 +1992,11 @@ e corrispondono alla configurazione circuitale mostrata in figura:
 
 
 In modo simile, i parametri che misurano l’effetto di $V_{2}$ sono:
-$$$$
+$$g_{12}\quad=\quad \frac{I_{1}}{V_{2}}|_{V_{1}=0;\ gen. \ OFF}\\ \\ g_{22}\quad=\quad \frac{I_{2}}{V_{2}}|_{V_{1}=0;\ gen. \ OFF}\\ \\(6.13)$$
+e corrispondono alla configurazione circuitale mostrata in figura:
+![[Elettrotecnica-1793898174825.webp|430]]
+#Figura(6.9). Prova semplice per il calcolo
+
+di g12 e g22: agisce il solo generatore V2,
+
+sono spente le sorgenti interne.
