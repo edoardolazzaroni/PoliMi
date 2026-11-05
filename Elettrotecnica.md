@@ -1931,4 +1931,7 @@ e corrispondono alla configurazione circuitale mostrata in figura:
 #Figura(6.4). *Prova semplice per il calcolo di $r_{11}$ e $r_{21}$: agisce il solo generatore $I_{1}$, sono spente le sorgenti interne*
 
 In modo simile, i parametri che misurano l’effetto di $I_{2}$ sono:
-$$r_{12}=\frac{V_{1}}{I_{2}}|_{I_{1}=0;\ gen. \ OFF}\\ \\ r_{22}=\frac{V_{2}}{I_{1}}|_{I_{2}=0, \ gen. \ OFF}\\ \\(6.5)$$
+$$r_{12}=\frac{V_{1}}{I_{2}}|_{I_{1}=0;\ gen. \ OFF}\\ \\ r_{22}=\frac{V_{2}}{I_{2}}|_{I_{1}=0, \ gen. \ OFF}\\ \\(6.6)$$
+e corrispondono alla configurazione circuitale mostrata in figura:
+![[Elettrotecnica-1793896770900.webp|330]]
+#Figura(6.5). Prova semplice per il calcolo di $r_{12}$ e $r_{22}$: agisce il solo generatore $I_{2}$, sono spente le sorgenti interne
