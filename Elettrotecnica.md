@@ -1905,8 +1905,17 @@ dove i coefficienti $r$ sono dimensionalmente delle resistenze in $\Omega$ che p
 $$\overrightarrow{V}=\mathbf{R}\cdot\overrightarrow{I}+\overrightarrow{E}_{eq\quad(6.2)}$$
 
 dove $\mathbf{R}$ indica la matrice dei coefficienti o parametri $R$:
+
 $$\mathbf{R}=\begin{vmatrix}
 r_{11} & r_{12} \\
 r_{21} & r_{22}
 \end{vmatrix}\quad(6.3)$$
 
+mentre $\overrightarrow{V},\overrightarrow{I}, \overrightarrow{E}_{eq}$ indicano i vettori colonna:
+$$\overrightarrow{V}=\begin{vmatrix}
+V_{1} \\
+V_{2}
+\end{vmatrix};\quad\overrightarrow{I}=\begin{vmatrix}
+I_{1} \\
+I
+\end{vmatrix}$$
