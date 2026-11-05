@@ -1974,5 +1974,8 @@ g_{21} & g_{22}
 mentre $\overrightarrow{I}_{eq}$ indica il vettore colonna:
 $$\overrightarrow{I}_{eq}=\begin{vmatrix}
 I_{1eq} \\
-I
-\end{vmatrix}$$
+I_{2eq}
+\end{vmatrix}\quad\quad(6.11)$$
+
+È facile trovare una formula di trasformazione dalla rappresentazione serie $(6.2)$ a quella parallelo $(6.9)$. Per esempio, invertendo $(6.2)$ in modo da esplicitare il vettore delle correnti, si ha:
+$$$$
