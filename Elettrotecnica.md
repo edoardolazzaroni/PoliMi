@@ -1943,15 +1943,11 @@ $$E_{1eq}\quad=\quad V_{1}|_{I_{1}=0;I_{2}=0} \\ \\ E_{2eq}\quad=\quad V_{2}|_{I
 
 Che corrispondono alla configurazione circuitale mostrata in figura:
 ![[Elettrotecnica-1793896907295.webp|357]]
-#Figura(6.6). Prova semplice per il calcolo di $E_{1}$ e E2eq, entrambi i generatori
-
-esterni I1 ed I2 sono spenti, agiscono
-
-solo le sorgenti interne.
+#Figura(6.6). *Prova semplice per il calcolo di $E_{1eq}$ e $E_{2eq}$, entrambi i generatori esterni $I_{1}$ ed $I_{2}$ sono spenti, agiscono solo le sorgenti interne*
 
 
-Spesso, nelle applicazioni, il doppio bipolo NON contiene gener-
+**Spesso, nelle applicazioni, il doppio bipolo NON contiene generatori indipendenti interni e quindi i coefficienti $E_{1eq}$ e $E_{2eq}$ sono nulli**.
 
-atori indipendenti interni e quindi i coefficienti E1eq e E2eq sono
 
-nulli.
+
+Il caso mostrato in figura generalizza l’equivalente parallelo e consiste nell’imporre i valori delle due tensioni $V_{1}$ ed V2.
