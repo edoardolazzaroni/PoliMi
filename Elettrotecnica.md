@@ -1899,4 +1899,10 @@ Partiamo dal caso mostrato in figura, che generalizza l’equivalente serie, in 
 
 Nell’ipotesi che il circuito così costituito ammetta, unica, la soluzione, ovvero che il doppio bipolo sia controllabile in corrente, è lecito applicare il <u>principio di sovrapposizione degli effetti</u>. Le due tensioni avranno espressioni matematiche che sono combinazione lineare dei due generatori esterni ed eventualmente di quelli interni se ce ne sono.
 Tali espressione saranno del tipo:
-$$V_{1}=r_{11}\cdot I_{1}+r_{12}\cdot I-2$+E_{1eq}\\V$
+$$V_{1}=r_{11}\cdot I_{1}+r_{12}\cdot I-2$+E_{1eq}\\ \\ V_{2}=r_{21}\cdot I_{1}+r_{22}\cdot I_{2}+E_{2eq}\\ \\ (6.1)$$
+
+dove i coefficienti $r$ sono dimensionalmente delle resistenze in Ω
+
+che pesano l’effetto dei due generatori esterni, mentre i termini Eeq,
+
+misurati in volt, riassumo l’effetto dei generatori indipendenti interni
