@@ -1964,4 +1964,15 @@ dove i coefficienti $g$ sono ora dimensionalmente delle conduttanze in $\Omega^{
 Queste equazioni possono essere riscritte in forma compatta utilizzando la notazione attraverso vettori e matrici:
 $$\overrightarrow{I}=\mathbf{G}\cdot\overrightarrow{V}+\overrightarrow{I}_{eq}\quad(6.9)$$
 
-dove $\mathbf{G}$ indica la matrice dei coeffic ienti o parametri $G$:
+dove $\mathbf{G}$ indica la matrice dei coefficienti o parametri $G$:
+
+$$\mathbf{G}=\begin{vmatrix}
+g_{11} & g_{12} \\
+g_{21} & g_{22}
+\end{vmatrix}\quad\quad(6.10)$$
+
+mentre $\overrightarrow{I}_{eq}$ indica il vettore colonna:
+$$\overrightarrow{I}_{eq}=\begin{vmatrix}
+I_{1eq} \\
+I
+\end{vmatrix}$$
