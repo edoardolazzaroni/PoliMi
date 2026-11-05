@@ -1957,4 +1957,9 @@ Il caso mostrato in figura generalizza l’equivalente parallelo e consiste nell
 
 
 Se il doppio bipolo é controllabile in tensione, le due correnti avranno espressione:
-$$I_{11}=g_{11}\cdot V_{1}+g_{12}$$
+
+$$I_{11}=g_{11}\cdot V_{1}+g_{12}\cdot V_{2}+I_{1eq}\\ \\ I_{2}=g_{21}\cdot V_{1}+g_{22}\cdot V_{2}+I_{2eq}\\ \\(6.8)$$
+
+dove i coefficienti $g$ sono ora dimensionalmente delle conduttanze in $\Omega^{-1}$ che pesano l’effetto dei due generatori esterni, mentre i termini $I_{eq}$, misurati in ampere, riassumo l’effetto dei generatori indipen-
+
+denti interni sulle correnti di porta. Queste equazioni possono essere
