@@ -1950,4 +1950,11 @@ Che corrispondono alla configurazione circuitale mostrata in figura:
 
 
 
-Il caso mostrato in figura generalizza l’equivalente parallelo e consiste nell’imporre i valori delle due tensioni $V_{1}$ ed V2.
+
+Il caso mostrato in figura generalizza l’equivalente parallelo e consiste nell’imporre i valori delle due tensioni $V_{1}$ e $V_{2}$:
+![[Elettrotecnica-1793897008784.webp|376]]
+#Figura(6.7). *Set-up sperimentale per determinare la rappresentazione G*
+
+
+Se il doppio bipolo é controllabile in tensione, le due correnti avranno espressione:
+$$I_{11}=g_{11}\cdot V_{1}+g_{12}$$
