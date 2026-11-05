@@ -1897,4 +1897,6 @@ Partiamo dal caso mostrato in figura, che generalizza l’equivalente serie, in 
 #Figura(6.3). *Set-up sperimentale per determinare la rappresentazione R*
 
 
-Nell’ipotesi
+Nell’ipotesi che il circuito così costituito ammetta, unica, la soluzione, ovvero che il doppio bipolo sia controllabile in corrente, è lecito applicare il <u>principio di sovrapposizione degli effetti</u>. Le due tensioni avranno espressioni matematiche che sono combinazione lineare dei due generatori esterni ed eventualmente di quelli interni se ce ne sono.
+Tali espressione saranno del tipo:
+$$V_{1}=r_{11}\cdot I_{1}+r_{12}\cdot I-2$+E_{1eq}\\V$
