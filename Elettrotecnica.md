@@ -1893,7 +1893,7 @@ Determiniamo l’espressione matematica del legame costitutivo che lega le quatt
 Queste si ottengono generalizzando il procedimento visto nel [[#**Capitolo V Proprietà e teoremi dei circuiti lineari**|capitolo 5]] per il calcolo degli equivalenti serie (Thévenin) e parallelo (Norton) di un bipolo. Nel caso del bipolo, si procedeva imponendo una delle due grandezze alla porta attraverso l’applicazione di un generatore indipendente di corrente o di tensione. In un doppio bipolo, essendo due le porte, applicheremo due generatori indipendenti.
 
 Partiamo dal caso mostrato in figura, che generalizza l’equivalente serie, in cui si impongono i valori delle due correnti $I_{2}$ ed $I_{2}$:
-![[Elettrotecnica-1793896149187.webp|411]]
+![[Elettrotecnica-1793896149187.webp|342]]
 #Figura(6.3). *Set-up sperimentale per determinare la rappresentazione R*
 
 
@@ -1928,6 +1928,7 @@ Il significato fisico dei parametri risulta evidente dalle prove semplici attrav
 $$r_{11}=\frac{V_{1}}{I_{1}}|_{I_{2}=0;\ gen. \ OFF}\\ \\ r_{21}=\frac{V_{2}}{I_{1}}|_{I_{2}=0, \ gen. \ OFF}\\ \\(6.5)$$
 e corrispondono alla configurazione circuitale mostrata in figura:
 ![[Elettrotecnica-1793896648786.webp|342]]
-#Figura(6.4). Prova semplice per il calcolo di $r_{11}$ e $r_{21}$: agisce il solo generatore $I_{1}$,
+#Figura(6.4). *Prova semplice per il calcolo di $r_{11}$ e $r_{21}$: agisce il solo generatore $I_{1}$, sono spente le sorgenti interne*
 
-sono spente le sorgenti interne.
+In modo simile, i parametri che misurano l’effetto di $I_{2}$ sono:
+$$r_{12}=\frac{V_{1}}{I_{2}}|_{I_{1}=0;\ gen. \ OFF}\\ \\ r_{22}=\frac{V_{2}}{I_{1}}|_{I_{2}=0, \ gen. \ OFF}\\ \\(6.5)$$
