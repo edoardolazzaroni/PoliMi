@@ -1985,4 +1985,5 @@ e:
 $$\overrightarrow{I}_{eq}=-\mathbf{R}^{-1}\cdot\overrightarrow{E}_{eq}$$
 
 Il significato fisico dei parametri emerge dalle prove semplici. Per esempio, i parametri che misurano l’effetto di $V_{1}$ sono:
-$$g_{11}\quad=\quad \frac{I_{1}}{V_{1}}|_{V_{2}=0;\ gen. \ OGG}$$
+$$g_{11}\quad=\quad \frac{I_{1}}{V_{1}}|_{V_{2}=0;\ gen. \ OFF}\\ \\ g_{21}\quad=\quad \frac{I_{2}}{V_{1}}|_{V_{2}=0;\ gen. \ OFF}\\ \\(6.12)$$
+e corrispondono alla configurazione circuitale mostrata in figura:
