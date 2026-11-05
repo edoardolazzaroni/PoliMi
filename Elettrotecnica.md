@@ -1925,4 +1925,9 @@ E_{2eq}
 \end{vmatrix}\quad\quad(6.4)$$
 
 Il significato fisico dei parametri risulta evidente dalle prove semplici attraverso le quali vengono definiti. Per esempio, i parametri che misurano l’effetto di $I_{1}$ sono:
-$$r_{11}=\frac{V_{1}}{I_{1}}|_{I_{2}=0;\ gen. \ OFF}\\ \\ r_{21}=\frac{V_{2}}{I_{1}}|_{I_{2}=0, \ gen.}$$
+$$r_{11}=\frac{V_{1}}{I_{1}}|_{I_{2}=0;\ gen. \ OFF}\\ \\ r_{21}=\frac{V_{2}}{I_{1}}|_{I_{2}=0, \ gen. \ OFF}\\ \\(6.5)$$
+e corrispondono alla configurazione circuitale mostrata in figura:
+![[Elettrotecnica-1793896648786.webp|342]]
+#Figura(6.4). Prova semplice per il calcolo di $r_{11}$ e $r_{21}$: agisce il solo generatore $I_{1}$,
+
+sono spente le sorgenti interne.
