@@ -1925,4 +1925,4 @@ E_{2eq}
 \end{vmatrix}\quad\quad(6.4)$$
 
 Il significato fisico dei parametri risulta evidente dalle prove semplici attraverso le quali vengono definiti. Per esempio, i parametri che misurano l’effetto di $I_{1}$ sono:
-$$r_{11}$$
+$$r_{11}=\frac{V_{1}}{I_{1}}|_{I_{2}=0;\ gen. \ OFF}\\ \\ r_{21}=\frac{V_{2}}{I_{1}}|_{I_{2}=0, \ gen.}$$
