@@ -1978,4 +1978,7 @@ I_{2eq}
 \end{vmatrix}\quad\quad(6.11)$$
 
 È facile trovare una formula di trasformazione dalla rappresentazione serie $(6.2)$ a quella parallelo $(6.9)$. Per esempio, invertendo $(6.2)$ in modo da esplicitare il vettore delle correnti, si ha:
-$$$$
+$$\overrightarrow{I}=\mathbf{R}^{-1}\cdot\overrightarrow{V}-\mathbf{R}^{-1}\cdot\overrightarrow{E}_{eq}$$
+dove $\mathbf{R}^{-1}$ indica la matrice inversa. Confrontando con la $(6.9)$ vediamo che:
+$$\mathbf{G}=\mathbf{R}^{-1}$$
+e
