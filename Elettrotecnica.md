@@ -1912,10 +1912,17 @@ r_{21} & r_{22}
 \end{vmatrix}\quad(6.3)$$
 
 mentre $\overrightarrow{V},\overrightarrow{I}, \overrightarrow{E}_{eq}$ indicano i vettori colonna:
+
 $$\overrightarrow{V}=\begin{vmatrix}
 V_{1} \\
 V_{2}
 \end{vmatrix};\quad\overrightarrow{I}=\begin{vmatrix}
 I_{1} \\
-I
-\end{vmatrix}$$
+I_{2}
+\end{vmatrix};\quad\overrightarrow{E}_{eq}=\begin{vmatrix}
+E_{1eq} \\
+E_{2eq}
+\end{vmatrix}\quad\quad(6.4)$$
+
+Il significato fisico dei parametri risulta evidente dalle prove semplici attraverso le quali vengono definiti. Per esempio, i parametri che misurano l’effetto di $I_{1}$ sono:
+$$r_{11}$$
