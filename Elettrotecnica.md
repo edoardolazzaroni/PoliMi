@@ -1995,8 +1995,8 @@ In modo simile, i parametri che misurano l’effetto di $V_{2}$ sono:
 $$g_{12}\quad=\quad \frac{I_{1}}{V_{2}}|_{V_{1}=0;\ gen. \ OFF}\\ \\ g_{22}\quad=\quad \frac{I_{2}}{V_{2}}|_{V_{1}=0;\ gen. \ OFF}\\ \\(6.13)$$
 e corrispondono alla configurazione circuitale mostrata in figura:
 ![[Elettrotecnica-1793898174825.webp|430]]
-#Figura(6.9). Prova semplice per il calcolo
+#Figura(6.9). *Prova semplice per il calcolo di $g_{12}$ e $g_{22}$: agisce il solo generatore $V_{2}$, sono spente le sorgenti interne*
 
-di g12 e g22: agisce il solo generatore V2,
 
-sono spente le sorgenti interne.
+Infine, i coefficienti:
+$$I_{1eq}\quad=\quad V_{1}|_{I_{1}=0;I_{2}=0} \\ \\ I_{2eq}\quad=\quad I_{2}|_{V_{1}=0;2_{2}=0}\\ \\ (6.7)$$
