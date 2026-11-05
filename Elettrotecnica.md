@@ -2003,10 +2003,6 @@ $$I_{1eq}\quad=\quad I_{1}|_{V_{1}=0;V_{2}=0} \\ \\ I_{2eq}\quad=\quad I_{2}|_{V
 
 corrispondono alla configurazione circuitale mostrata in figura:
 ![[Elettrotecnica-1793898298255.webp|437]]
-#Figura(6.10). Prova semplice per il calcolo di I1eq e I2eq, entrambi i generatori
+#Figura(6.10). *Prova semplice per il calcolo di $I_{1eq}$ e $I_{2eq}$, entrambi i generatori esterni $V_{1}$ e $V_{2}$ sono spenti, cioè corto circuitati, agiscono solo le sorgenti interne*
 
-esterni V1 ed V2 sono spenti, cioè corto
 
-circuitati, agiscono solo le sorgenti
-
-interne.
