@@ -1902,4 +1902,11 @@ Tali espressione saranno del tipo:
 $$V_{1}=r_{11}\cdot I_{1}+r_{12}\cdot I-2$+E_{1eq}\\ \\ V_{2}=r_{21}\cdot I_{1}+r_{22}\cdot I_{2}+E_{2eq}\\ \\ (6.1)$$
 
 dove i coefficienti $r$ sono dimensionalmente delle resistenze in $\Omega$ che pesano l’effetto dei due generatori esterni, mentre i termini $E_{eq}$, misurati in volt, riassumo l’effetto dei generatori indipendenti interni sulle tensioni di porta; queste equazioni possono essere riscritte in forma compatta utilizzando la notazione attraverso vettori e matrici:
-$$\overrightarrow{V}=\mathbf{R}\cdot\overrightarrow{I}+\overrightarrow{e}$$
+$$\overrightarrow{V}=\mathbf{R}\cdot\overrightarrow{I}+\overrightarrow{E}_{eq\quad(6.2)}$$
+
+dove $\mathbf{R}$ indica la matrice dei coefficienti o parametri $R$:
+$$\mathbf{R}=\begin{vmatrix}
+r_{11} & r_{12} \\
+r_{21} & r_{22}
+\end{vmatrix}\quad(6.3)$$
+
