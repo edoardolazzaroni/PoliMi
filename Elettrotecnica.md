@@ -2339,4 +2339,4 @@ $$R_{12}=\frac{R_{1}R_{2}+R_{1}R_{3}+R_{3}R_{2}}{R_{3}}=R_{1}+R_{2}+\frac{R_{1}R
 
 Quindi, imponendo l’uguaglianza dei parametri $g_{11}$ e $g_{11}$ e tenendo conto della $(6.44)$, si ricava:
 
-$$R_{13}=\frac{R_{1}R_{2}+R_{1}R_{3}+R_{3}R_{2}}{R_{3}}=R_{1}+R_{2}+\frac{R_{1}R_{2}}{R_{3}}\quad(6.44)$$
+$$R_{13}=\frac{R_{1}R_{2}+R_{1}R_{3}+R_{3}R_{2}}{R_{2}}=R_{1}+R_{3}+\frac{R_{1}R_{3}}{R_{2}}\\ \\(6.45)\\ \\R_{23}=\frac{R_{1}R_{2}+R_{1}R_{3}+R_{3}R_{2}}{R_{1}}=R_{2}+R_{3}+\frac{R_{2}R_{3}}{R_{1}}\\ \\(6.46)$$
