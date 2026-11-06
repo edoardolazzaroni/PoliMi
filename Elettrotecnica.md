@@ -2202,6 +2202,7 @@ Si richiede il calcolo dei parametri H del doppio bipolo tripolare mostrato in f
 ![[Elettrotecnica-1793978031344.webp|293]]
 #Figura(6.24). *Doppio bipolo di cui si chiedono i parametri H*
 
+
 Riportiamo di seguito per comodità la rappresentazione H, senza termini dovuti ai generatori indipendenti:
 $$V_{1}\quad=\quad h_{11}\cdot I_{1}+h_{12}\cdot V_{2}+E_{1eq}\\ \\I_{2}\quad=\quad h_{21}\cdot I_{1}+h_{22}\cdot V_{2}+I_{2eq}\\ \\(6.31)$$
 
@@ -2233,4 +2234,6 @@ R_{1} & 1 \\
 
 
 Supponiamo ora di voler ricavare i parametri $t$ del doppio bipolo in figura, partendo dai parametri $h$ appena calcolati. Ricordando che nella rappresentazione $t$ le variabili dipendenti cioè che esplicitiamo sono $V_{1}$ ed $I_{1}$, elaboriamo sulla seconda delle $(6.32)$ per ricavare $I_{1}$:
-$$$$
+$$I_{1}=-I_{2}+\frac{1}{R_{b}}\cdot V_{2}\quad(6.34)$$
+
+Sostituendo quest’ultima eq. nella prima di (1.32), si ottiene
