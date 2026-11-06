@@ -2092,7 +2092,7 @@ Si richiede il calcolo dei parametri R, cioè controllati dalle variabili corren
 
 
 
-a prima prova semplice è mostrata in figura 6.16. Si osserva che:
+La **prima prova semplice** è mostrata in figura 6.16. Si osserva che:
 $$g\cdot v+v\frac{1}{R}=I_{2}=0\longrightarrow v=0$$
 e quindi:
 $$V_{1}=R \ I_{1}\longrightarrow r_{11}=R\\ \\ V_{2}=r \ I_{1}\longrightarrow r-
@@ -2102,7 +2102,7 @@ _{21}=r$$
 #Figura(6.16). *Prova semplice: agisce solo $I_{1}$*
 
 
-La seconda prova semplice è mostrata in figura 6.17. Osservando che:
+La **seconda prova semplice** è mostrata in figura 6.17. Osservando che:
 $$r\cdot I_{1}=0$$
 si ha:
 $$g\cdot v+v\frac{1}{R}=I_{2}\longrightarrow V_{2}=v=I_{2}\frac{1}{g+\frac{1}{R}}$$
@@ -2118,3 +2118,4 @@ $$r_{12}=\frac{g \ R}{g+\frac{1}{R}}$$
 #Figura(6.17). *Prova semplice: agisce solo $I_{2}$*
 
 
+Infine, la **terza prova** consiste nel ripristinare il generatore indipendente interno e spegnere entrambi i generatori esterni come mostrato in figura; osservando che $g \cdot v = 0$ e $r \cdot I_{1} = 0$ si ha:
