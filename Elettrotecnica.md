@@ -2110,3 +2110,6 @@ dunque:
 $$r_{22}=\frac{1}{g+\frac{1}{R}}$$
 
 Inoltre,
+$$V_{1}=(g\cdot v) \ R=\frac{g \ R}{g+\frac{1}{R}}\ I_{2}$$
+quindi:
+$$r_{12}=$$
