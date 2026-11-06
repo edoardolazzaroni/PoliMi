@@ -2088,4 +2088,10 @@ corrispondono alla configurazione circuitale mostrata in figura:
 Si richiede il calcolo dei parametri R, cioè controllati dalle variabili corrente, del doppio bipolo composto mostrato in figura:
 
 ![[Elettrotecnica-1793974736403.webp|373]]
-#Figura(6.15). Doppio bipolo di cui si chiede i parametri R
+#Figura(6.15). *Doppio bipolo di cui si chiede i parametri R*
+
+
+a prima prova semplice è mostrata in figura 6.16. Si osserva che:
+$$g\cdot v+v\frac{1}{R}=I_{2}=0\longrightarrow v=0$$
+e quindi:
+$$V_{1}=R \ I_{1}\longrightarr$$
