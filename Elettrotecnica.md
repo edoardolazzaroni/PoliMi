@@ -2052,4 +2052,4 @@ Proponiamo ora il calcolo dei parametri G del doppio bipolo in figura:
 ![[Elettrotecnica-1793973639781.webp|415]]
 #Figura(6.13). *Circuito a triangolo*
 
-Questo doppio bipolo nasce dal tripolo formato dal collegamento a triangolo di tre resistori. Anche in questo caso è possibile
+Questo doppio bipolo nasce dal tripolo formato dal **collegamento a triangolo di tre resistori**. Anche in questo caso è possibile procedere risolvendo direttamente la configurazione in cui agiscono entrambe le sorgenti esterne di tensione. Osservando che la tensione sul resistore $R_{12}$ è data da:
