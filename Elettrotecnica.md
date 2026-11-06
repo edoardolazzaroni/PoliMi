@@ -2077,8 +2077,10 @@ che conferma il valore di $g_{11}$. **Questo coefficiente sulla diagonale di $\m
 Dal circuito in figura si ricava anche che:
 $$I_{2}=V_{1}\cdot-\frac{1}{R_{12}}$$
 
-che conferma il valore del coefficiente $g_{21}$. **Questo coefficiente estradiagonale descrive un effetto non locale o di trasferimento**, ovvero qual è l’effetto di $V_{1}$ alla porta $1$ su $I_{2}$ alla porta 2, quando V2 è
+che conferma il valore del coefficiente $g_{21}$. **Questo coefficiente estradiagonale descrive un effetto non locale o di trasferimento**, ovvero qual è l’effetto di $V_{1}$ alla porta $1$ su $I_{2}$ alla porta $2$, quando $V_{2}$ è spento.
 
-spento. Viene lasciato per esercizio di formulare la prova semplice
+Osserviamo infine che in entrambi i circuiti analizzati vale la proprietà $r_{12} = r_{21}$ e $g_{12} = g_{21}$. Quando le matrici $\mathbf{R}$ o G di un doppio
 
-(1.13) che completa la verifica.
+bipolo soddisfano questa simmetria si dice che il doppio bipolo è
+
+reciproco.
