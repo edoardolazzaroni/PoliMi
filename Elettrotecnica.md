@@ -2164,3 +2164,8 @@ Il caso di un doppio bipolo è più ricco rispetto a quello del bipolo avendo a 
 	#Figura(6.22). *Prova semplice per il calcolo di $E_{1eq}$ e $I_{2eq}$, entrambi i generatori esterni $I_{1}$ e $V_{2}$ sono spenti, agiscono solo le sorgenti interne*
 
 
+
+Chiaramente è possibile invertire le variabili di controllo alle porte, cioè imporre i valori di $V_{1}$ ed $I_{2}$ come mostrato in figura:
+
+![[Elettrotecnica-1793976436250.webp|374]]
+#Figura(6.23). 
