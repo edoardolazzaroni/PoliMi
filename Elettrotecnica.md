@@ -2158,4 +2158,6 @@ Il caso di un doppio bipolo è più ricco rispetto a quello del bipolo avendo a 
 	#Figura(6.21). *Prova semplice per il calcolo di $h_{12}$ e $h_{22}$: agisce il solo generatore $V_{2}$, sono spente le sorgenti interne*
 
 
-	Infine, i coefficienti:$$E_{1eq}\quad=\quad V_{1}|$$
+	Infine, i coefficienti:$$E_{1eq}\quad=\quad V_{1}|_{I_{1=0};V_{2}=0}\\ \\I_{2eq}\quad=\quad I_{2}|_{I_{1=0};V_{2}=0}\\ \\(6.26)$$
+	corrispondono alla configurazione circuitale mostrata in figura:
+	
