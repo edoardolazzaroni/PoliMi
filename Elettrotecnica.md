@@ -2154,4 +2154,8 @@ Il caso di un doppio bipolo è più ricco rispetto a quello del bipolo avendo a 
 	
 	In modo simile, i parametri che misurano l’effetto di $V_{2}$ sono:$$h_{12}=\frac{V_{1}}{V_{2}}|_{I_{1}=0; \ gen. \ OFF}\\ \\h_{22}=\frac{I_{2}}{V_{2}}|_{I_{1}=0; \ gen. \ OFF}\\ \\(6.25)$$
 	e corrispondono alla configurazione circuitale mostrata in figura:
-	![[Elettrotecnica-1793976208161.webp]]
+	![[Elettrotecnica-1793976208161.webp|332]]
+	#Figura(6.21). *Prova semplice per il calcolo di $h_{12}$ e $h_{22}$: agisce il solo generatore $V_{2}$, sono spente le sorgenti interne*
+
+
+	Infine, i coefficienti:$$E_{1eq}\quad=\quad V_{1}|$$
