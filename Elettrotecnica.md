@@ -2130,3 +2130,5 @@ La rappresentazione completa risulta:
 $$V_{1}=R\cdot I_{1}+\frac{g \ R}{g+\frac{1}{R}}\cdot I_{2}-A \ R\\ \\V_{2}=r\cdot I_{1}+\frac{1}{g+\frac{1}{R}}\cdot I_{2}\\ \\(6.21)$$
 
 
+
+## 6.3 **Altre rappresentazioni: tipo H, H' e T, e G**
