@@ -2074,3 +2074,11 @@ Anche in questo caso, è possibile verificare la correttezza dei coefficienti ca
 $$I_{1}=V_{1}\cdot\left( \frac{1}{R_{13}}+\frac{1}{R_{21}} \right)$$
 
 che conferma il valore di $g_{11}$. **Questo coefficiente sulla diagonale di $\mathbf{G}$ descrive un effetto locale alla porta $1$**, ovvero qual è l’effetto di $V_{1}$ su $I_{1}$ quando $V_{2}$ è spento.
+Dal circuito in figura si ricava anche che:
+$$I_{2}=V_{1}\cdot-\frac{1}{R_{12}}$$
+
+che conferma il valore del coefficiente $g_{21}$. **Questo coefficiente estradiagonale descrive un effetto non locale o di trasferimento**, ovvero qual è l’effetto di $V_{1}$ alla porta $1$ su $I_{2}$ alla porta 2, quando V2 è
+
+spento. Viene lasciato per esercizio di formulare la prova semplice
+
+(1.13) che completa la verifica.
