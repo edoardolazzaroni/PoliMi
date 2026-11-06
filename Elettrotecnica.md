@@ -2174,4 +2174,6 @@ Chiaramente è possibile invertire le variabili di controllo alle porte, cioè i
 
 Questa configurazione porta alla rappresentazione coi parametri $h'$:
 
-$$I_{1}\quad=\quad h_{11}'\cdot V_{1}$$
+$$I_{1}\quad=\quad h_{11}'\cdot V_{1}+h_{12}'+I_{1eq}\\ \\V_{2}=h_{21}'\cdot V_{1}+h_{22}'\cdot I_{2}+E_{2eq}\\ \\(6.27)$$
+
+e relativ
