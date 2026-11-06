@@ -2091,7 +2091,12 @@ Si richiede il calcolo dei parametri R, cioè controllati dalle variabili corren
 #Figura(6.15). *Doppio bipolo di cui si chiede i parametri R*
 
 
+
 a prima prova semplice è mostrata in figura 6.16. Si osserva che:
 $$g\cdot v+v\frac{1}{R}=I_{2}=0\longrightarrow v=0$$
 e quindi:
-$$V_{1}=R \ I_{1}\longrightarr$$
+$$V_{1}=R \ I_{1}\longrightarrow r_{11}=R\\ \\ V_{2}=r \ I_{1}\longrightarrow r-
+_{21}=r$$
+
+![[Elettrotecnica-1793974875346.webp|381]]
+#Figura(6.16)
