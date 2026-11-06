@@ -2036,8 +2036,13 @@ Non essendovi generatori indipendenti interni al doppio bipolo, sono zero i term
 
 $$V_{1}=I_{1}\cdot(R_{1}+R_{3})$$
 
-che conferma il valore di $r_{11}$. Questo coefficiente che appartiene alla diagonale della matrice descrive un effetto locale alla porta 1,
+che conferma il valore di $r_{11}$. **Questo coefficiente che appartiene alla diagonale della matrice descrive un effetto locale alla porta 1**, ovvero qual è l’effetto di $I_{1}$ su $V_{1}$ quando $I_{2}$ è spento. Dal circuito in figura, si ricava anche che:
+$$V_{2}=I_{1}\cdot R_{3}$$
 
-ovvero qual è l’effetto di I1 su V1 quando I2 è spento. Dal circuito in
+che conferma il valore del coefficiente $r_{2}$. Questo coefficiente estradi-
 
-fig. 1.12, si ricava anche che
+agonale descrive un effetto non locale o di trasferimento, ovvero
+
+qual è l’effetto di I1 alla porta 1 su V2 alla porta 2, quando I2 è
+
+spento.
