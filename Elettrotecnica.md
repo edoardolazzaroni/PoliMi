@@ -2306,6 +2306,9 @@ Consideriamo i tripoli resistivi, definiti ai nodi esterni $1, 2,$ e $3$, mostra
 Dimostriamo ora quali relazioni devono intercorrere tra i parametri di tali circuiti affinché siano **equivalenti ai fini esterni**. Imponendo la validità di tali relazioni sarà quindi possibile trasformare una stella di resistori in un triangolo e viceversa.
 Per questo, passiamo ai relativi doppi bipoli tripolari prendendo ad arbitrio un polo come <u>nodo comune alle due porte</u>, decidiamo di prendere il nodo $3$.
 
-La figura successiva riporta il doppio bipolo derivato dalla stella, di cui
+La figura successiva riporta il doppio bipolo derivato dalla stella, di cui sappiamo dalla $(6.17)$ che la matrice $\mathbf{R}$ è data da:
+$$\mathbf{R}^{\star}=\begin{vmatrix}
+R_{1}+R_{3} & R_{3} \\
+R_{3} & R_{2}+R_{3}
+\end{vmatrix}\quad \quad(6.41)$$
 
-sappiamo dalla (1.17) che la matrice R è data da:
