@@ -2197,61 +2197,67 @@ h_{21}' & h_{22}'
 
 #### #Esercizio(calcolo dei parametri H, T)
 
-Si richiede il calcolo dei parametri H del doppio bipolo tripolare mostrato in figura:
 
-![[Elettrotecnica-1793978031344.webp|293]]
-#Figura(6.24). *Doppio bipolo di cui si chiedono i parametri H*
+> [!question] Esercizio
+> Si richiede il calcolo dei parametri H del doppio bipolo tripolare mostrato in figura:
+> 
+> ![[Elettrotecnica-1793978031344.webp|293]]
+> #Figura(6.24). *Doppio bipolo di cui si chiedono i parametri H*
+> 
+> 
+> Riportiamo di seguito per comodità la rappresentazione H, senza termini dovuti ai generatori indipendenti:
+> $$V_{1}\quad=\quad h_{11}\cdot I_{1}+h_{12}\cdot V_{2}+E_{1eq}\\ \\I_{2}\quad=\quad h_{21}\cdot I_{1}+h_{22}\cdot V_{2}+I_{2eq}\\ \\(6.31)$$
+> 
+> 
+> La **prima prova semplice** è mostrata in figura 6.25, da cui si ricava:
+> $$V_{1}=I_{1}R_{a}\longrightarrow h_{11}=R_{a}\\ \\ I_{2}=-I_{1}\longrightarrow h_{21}=-1$$
+> ![[Elettrotecnica-1793978187872.webp|294]]
+> #Figura(6.25). *Prova semplice*
+> 
+> 
+> La seconda prova è mostrata in figura 6.26, da cui si ricava:
+> $$V_{1}=1 \ V_{2}\longrightarrow h_{12}=1\\ \\ I_{2}=\frac{V_{2}}{R_{b}}\longrightarrow h_{22}=\frac{1}{R_{b}}$$
+> ![[Elettrotecnica-1793978307508.webp|259]]
+> #Figura(6.26). *Prova semplice*
+> 
+> 
+> La rappresentazione H è dunque data dalle equazioni:
+> 
+> $$V_{1}\quad=\quad R_{a}\cdot I_{1}+1\cdot V_{2}\\ \\I_{2}\quad=\quad(-1)\cdot I_{1}+\frac{1}{R_{b}}\cdot V_{2}\\ \\(6.32)$$
+> 
+> o se si preferisce dalla matrice:
+> 
+> $$\mathbf{H}=\begin{vmatrix}
+> R_{1} & 1 \\
+> -1 & \frac{1}{R_{b}}
+> \end{vmatrix}\quad \quad(6.33)$$
+> 
+> 
+> 
+> 
+> Supponiamo ora di voler ricavare i parametri $t$ del doppio bipolo in figura, partendo dai parametri $h$ appena calcolati. Ricordando che nella rappresentazione $t$ le variabili dipendenti cioè che esplicitiamo sono $V_{1}$ ed $I_{1}$, elaboriamo sulla seconda delle $(6.32)$ per ricavare $I_{1}$:
+> $$I_{1}=-I_{2}+\frac{1}{R_{b}}\cdot V_{2}\quad(6.34)$$
+> 
+> Sostituendo quest’ultima equazione nella prima di $(6.32)$, si ottiene:
+> $$V_{1}=-R_{a}\cdot I_{2}+\frac{R_{a}}{R_{b}}\cdot V_{2}+V_{2}\quad(6.35)$$
+> 
+> Infine riordinando le $(6.35)$ e $(6.34)$ si deriva la rappresentazione T:
+> 
+> $$V_{1}\quad=\quad\left( 1+\frac{R_{a}}{R_{b}} \right)\cdot V_{2}+R_{a}\cdot(-I_{2})\\ \\I_{1}\quad=\quad \frac{1}{R_{b}}\cdot V_{2}+1\cdot(-I_{2})\\ \\(6.36)$$
+> 
+> Si fa notare che la stessa rappresentazione T si può ottenere riferendosi al circuito mostrato in figura 6.27, in cui il doppio bipolo è collegato a due bipoli non meglio precisati. Supponendo note le variabili alla porta $2$, disegnate in blu, si possono ricavare quelle alla porta $1$, disegnate in rosso.
+> ![[Elettrotecnica-1793978798454.webp|331]]
+> #Figura(6.27). *Circuito per il calcolo diretto dei parametri T*
+> 
+> Si ha:
+> $$i_{b}=\frac{V_{2}}{R_{b}}$$
+> da cui:
+> $$I_{1}=i_{b}+(-I_{2})=\frac{V_{2}}{R_{b}}+(-I_{2})$$
+> Inoltre,
+> $$V_{1}=I_{1}\cdot R_{a}+V_{2}=\left( 1+\frac{R_{a}}{R_{b}} \right)\cdot V_{2}+R_{a}\cdot(-I_{2})$$
+> che completa la verifica.
 
 
-Riportiamo di seguito per comodità la rappresentazione H, senza termini dovuti ai generatori indipendenti:
-$$V_{1}\quad=\quad h_{11}\cdot I_{1}+h_{12}\cdot V_{2}+E_{1eq}\\ \\I_{2}\quad=\quad h_{21}\cdot I_{1}+h_{22}\cdot V_{2}+I_{2eq}\\ \\(6.31)$$
 
+## 6.4 **Rappresentazione implicita**
 
-La **prima prova semplice** è mostrata in figura 6.25, da cui si ricava:
-$$V_{1}=I_{1}R_{a}\longrightarrow h_{11}=R_{a}\\ \\ I_{2}=-I_{1}\longrightarrow h_{21}=-1$$
-![[Elettrotecnica-1793978187872.webp|294]]
-#Figura(6.25). *Prova semplice*
-
-
-La seconda prova è mostrata in figura 6.26, da cui si ricava:
-$$V_{1}=1 \ V_{2}\longrightarrow h_{12}=1\\ \\ I_{2}=\frac{V_{2}}{R_{b}}\longrightarrow h_{22}=\frac{1}{R_{b}}$$
-![[Elettrotecnica-1793978307508.webp|259]]
-#Figura(6.26). *Prova semplice*
-
-
-La rappresentazione H è dunque data dalle equazioni:
-
-$$V_{1}\quad=\quad R_{a}\cdot I_{1}+1\cdot V_{2}\\ \\I_{2}\quad=\quad(-1)\cdot I_{1}+\frac{1}{R_{b}}\cdot V_{2}\\ \\(6.32)$$
-
-o se si preferisce dalla matrice:
-
-$$\mathbf{H}=\begin{vmatrix}
-R_{1} & 1 \\
--1 & \frac{1}{R_{b}}
-\end{vmatrix}\quad \quad(6.33)$$
-
-
-
-
-Supponiamo ora di voler ricavare i parametri $t$ del doppio bipolo in figura, partendo dai parametri $h$ appena calcolati. Ricordando che nella rappresentazione $t$ le variabili dipendenti cioè che esplicitiamo sono $V_{1}$ ed $I_{1}$, elaboriamo sulla seconda delle $(6.32)$ per ricavare $I_{1}$:
-$$I_{1}=-I_{2}+\frac{1}{R_{b}}\cdot V_{2}\quad(6.34)$$
-
-Sostituendo quest’ultima equazione nella prima di $(6.32)$, si ottiene:
-$$V_{1}=-R_{a}\cdot I_{2}+\frac{R_{a}}{R_{b}}\cdot V_{2}+V_{2}\quad(6.35)$$
-
-Infine riordinando le $(6.35)$ e $(6.34)$ si deriva la rappresentazione T:
-
-$$V_{1}\quad=\quad\left( 1+\frac{R_{a}}{R_{b}} \right)\cdot V_{2}+R_{a}\cdot(-I_{2})\\ \\I_{1}\quad=\quad \frac{1}{R_{b}}\cdot V_{2}+1\cdot(-I_{2})\\ \\(6.36)$$
-
-Si fa notare che la stessa rappresentazione T si può ottenere riferendosi al circuito mostrato in figura 6.27, in cui il doppio bipolo è collegato a due bipoli non meglio precisati. Supponendo note le variabili alla porta $2$, disegnate in blu, si possono ricavare quelle alla porta $1$, disegnate in rosso.
-![[Elettrotecnica-1793978798454.webp|331]]
-#Figura(6.27). *Circuito per il calcolo diretto dei parametri T*
-
-Si ha:
-$$i_{b}=\frac{V_{2}}{R_{b}}$$
-da cui:
-$$I_{1}=i_{b}+(-I_{2})=\frac{V_{2}}{R_{b}}+(-I_{2})$$
-Inoltre,
-$$V_{1}=I_{1}\cdot R_{a}+V_{2}=\left( 1+\frac{R_{a}}{R_{b}} \right)\cdot V_{2}+R_{a}\cdot(-I_{2})$$
-
-che 
