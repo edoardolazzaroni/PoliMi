@@ -2237,8 +2237,12 @@ Supponiamo ora di voler ricavare i parametri $t$ del doppio bipolo in figura, pa
 $$I_{1}=-I_{2}+\frac{1}{R_{b}}\cdot V_{2}\quad(6.34)$$
 
 Sostituendo quest’ultima equazione nella prima di $(6.32)$, si ottiene:
-$$V_{1}=-R_{a}\cdot I_{2}+\frac{R_{a}}{R_{b}}\cdot V_{2}+V_{2}$$
+$$V_{1}=-R_{a}\cdot I_{2}+\frac{R_{a}}{R_{b}}\cdot V_{2}+V_{2}\quad(6.35)$$
 
 Infine riordinando le $(6.35)$ e $(6.34)$ si deriva la rappresentazione T:
 
-$$V_{1}\quad=\quad\left( 1+\frac{R_{a}}{R_{b}} \right)\cdot V_{2}+R_{a}\cdot(-I_{2})\\ \\I_{1}\quad=\quad$$
+$$V_{1}\quad=\quad\left( 1+\frac{R_{a}}{R_{b}} \right)\cdot V_{2}+R_{a}\cdot(-I_{2})\\ \\I_{1}\quad=\quad \frac{1}{R_{b}}\cdot V_{2}+1\cdot(-I_{2})\\ \\(6.36)$$
+
+Si fa notare che la stessa rappresentazione T si può ottenere riferendosi al circuito mostrato in figura 6.27, in cui il doppio bipolo è collegato a due bipoli non meglio precisati. Supponendo note le variabili alla porta $2$, disegnate in blu, si possono ricavare quelle alla porta $1$,
+
+disegnate in rosso. Si ha:
