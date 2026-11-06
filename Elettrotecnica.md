@@ -2010,6 +2010,12 @@ corrispondono alla configurazione circuitale mostrata in figura:
 #### #Esercizio(vario) (1)
 
 Ci proponiamo di calcolare i parametri della rappresentazione R del doppio bipolo mostrato in figura:
+![[Elettrotecnica-1793972883267.webp|308]]
+#Figura(6.11). *Circuito a stella*
 
 
-Esso nasce dal tripolo formato dal collegamento a stella di tre resistori. Data la semplicità, procedi-
+Esso nasce dal tripolo formato dal collegamento a stella di tre resistori. Data la semplicità, procedimo risolvendo direttamente la configurazione (1.29) in cui agiscono
+
+entrambe le sorgenti esterne di corrente. Osservando che la corrente
+
+nel resistore R3 è data da:
