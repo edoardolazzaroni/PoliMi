@@ -2137,5 +2137,7 @@ corrispondono alla configurazione circuitale mostrata in figura:
 Il caso di un doppio bipolo è più ricco rispetto a quello del bipolo avendo a disposizione quattro variabili alle porte anziché due. Di conseguenza esistono altri modi di controllare le variabili indipendenti in un doppio bipolo.
 
 - Una prima modalità è quella in cui si impone una variabile corrente ad una porta ed una tensione all’altra. Le relative rappresentazioni, cioè le equazioni costitutive, vengono dette i **parametri ibridi**. Un primo scenario è mostrato in figura, e consiste nell’imporre i valori di $I_{1}$ e $V_{2}$.
+	![[Elettrotecnica-1793975612835.webp|376]]
+	#Figura(6.19). *Set-up sperimentale per determinare la rappresentazione H*
 	
-	Se il doppio bipolo
+	Se il doppio bipolo 
