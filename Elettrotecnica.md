@@ -2185,4 +2185,5 @@ h_{21}' & h_{22}'
 
 
 
-- Un’ulteriore modalità di controllo del doppio bipolo consiste nel fissare come indipendenti entrambe le grandezze ad una porta e ricavare quelle all’altra porta in funzione delle prime. I relativi parametri vengono detti di trasmissione. La prima forma ha espressione:$$V_{1}\quad=\quad t_{11}\cdot V_{2}+t_{12}$$
+- Un’ulteriore modalità di controllo del doppio bipolo consiste nel fissare come indipendenti entrambe le grandezze ad una porta e ricavare quelle all’altra porta in funzione delle prime. I relativi parametri vengono detti di trasmissione. La prima forma ha espressione:$$V_{1}\quad=\quad t_{11}\cdot V_{2}+t_{12}\cdot(-I_{2})+V_{1eq}\\ \\I_{1}\quad=\quad t_{21}\cdot V_{2}+t_{22}\cdot(-I_{2})+I_{1eq}\\ \\(6.29)$$
+	in cui 
