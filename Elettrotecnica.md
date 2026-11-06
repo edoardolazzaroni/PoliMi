@@ -2029,3 +2029,6 @@ R_{1}+R_{3} & R_{3} \\
 R_{3} & R_{2}+R_{3}
 \end{vmatrix}\quad\quad(6.17)$$
 
+Non essendovi generatori indipendenti interni al doppio bipolo, sono zero i termini $E_{eq}$.
+È possibile verificare la correttezza dei coefficienti applicando le prove semplici. *Per esempio*, la prova semplice $(6.5)$ corrisponde al circuito in figura, da cui si trova:
+![[Elettrotecnica-1793973360336.webp|422]]
