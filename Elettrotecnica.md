@@ -2207,4 +2207,10 @@ $$V_{1}\quad=\quad h_{11}\cdot I_{1}+h_{12}\cdot V_{2}+E_{1eq}\\ \\I_{2}\quad=\q
 
 
 La **prima prova semplice** è mostrata in figura 6.25, da cui si ricava:
-$$V_{1}=I_{1}R_{\alpha}\longrightarrow h_{11}=R_{\alpha}\\ \\ I_{2}=-I_{1}\longrigh$$
+$$V_{1}=I_{1}R_{\alpha}\longrightarrow h_{11}=R_{\alpha}\\ \\ I_{2}=-I_{1}\longrightarrow h_{21}=-1$$
+![[Elettrotecnica-1793978187872.webp|294]]
+#Figura(6.25). *Prova semplice*
+
+
+La seconda prova è mostrata in figura 6.26, da cui si ricava:
+
