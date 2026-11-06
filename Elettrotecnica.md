@@ -2165,7 +2165,13 @@ Il caso di un doppio bipolo è più ricco rispetto a quello del bipolo avendo a 
 
 
 
+
 Chiaramente è possibile invertire le variabili di controllo alle porte, cioè imporre i valori di $V_{1}$ ed $I_{2}$ come mostrato in figura:
 
 ![[Elettrotecnica-1793976436250.webp|374]]
-#Figura(6.23). 
+#Figura(6.23). *Set-up sperimentale per determinare la rappresentazione H'*
+
+
+Questa configurazione porta alla rappresentazione coi parametri $h'$:
+
+$$I_{1}\quad=\quad h_{11}'\cdot V_{1}$$
