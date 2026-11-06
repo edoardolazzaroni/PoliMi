@@ -2055,7 +2055,7 @@ Proponiamo ora il calcolo dei parametri G del doppio bipolo in figura:
 Questo doppio bipolo nasce dal tripolo formato dal **collegamento a triangolo di tre resistori**. Anche in questo caso è possibile procedere risolvendo direttamente la configurazione in cui agiscono entrambe le sorgenti esterne di tensione. Osservando che la tensione sul resistore $R_{12}$ è data da:
 $$v_{12}=V_{1}-V_{2}$$
 è facile determinare le due correnti di porta:
-$$I_{1}=\frac{V_{1}}{R_{3}}+\frac{V_{1}-V_{2}}{R_{12}}\quad\quad(6.18)$$
+$$I_{1}=\frac{V_{1}}{R_{13}}+\frac{V_{1}-V_{2}}{R_{12}}\\ \\I_{2}=\frac{V_{2}}{R_{23}}+\frac{V_{2}-V_{1}}{R_{12}} \\ \\(6.18)$$
 
 da cui, riordinando si ha la rappresentazione voluta:
 $$I_{1}=V_{1}\cdot\overbrace{(\frac{1}{R_{13}}+\frac{1}{R_{12}})}^{g_{11}}+V_{2}\cdot\overbrace{-\frac{1}{R_{12}}}^{g_{12}}\\ \\ I_{2}=V_{1}\cdot\underbrace{-\frac{1}{R_{12}}}_{g_{21}}+V_{2}\cdot\underbrace{(\frac{1}{R_{13}}+\frac{1}{R_{12}})}_{g_{22}}\\ \\(6.19)$$
