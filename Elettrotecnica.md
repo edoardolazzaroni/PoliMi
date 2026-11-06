@@ -2261,3 +2261,7 @@ h_{21}' & h_{22}'
 
 ## 6.4 **Rappresentazione implicita**
 
+In modo del tutto analogo a quanto visto per il caso del bipolo e del suo modello affine, anche per il doppio bipolo è possibile riscrivere una delle sei rappresentazioni in modo implicito cioè riportando tutti i termine allo stesso membro e quindi uguagliando a zero.
+La forma generale di tale rappresentazione implicita sarà del tipo:
+
+$$m_{11}\cdot V_{1}+m_{12}\cdot V_{2}+n_{11}\cdot I_{1}+n_{12}\cdot I_{2}-c_{1}=0\\ \\m_{21}\cdot V_{1}+m_{22}\cdot V_{2}+n_{21}\cdot I_{1}+n_{22}\cdot I_{2}-c_{1}=0$$
