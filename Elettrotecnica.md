@@ -2140,4 +2140,4 @@ Il caso di un doppio bipolo è più ricco rispetto a quello del bipolo avendo a 
 	![[Elettrotecnica-1793975612835.webp|376]]
 	#Figura(6.19). *Set-up sperimentale per determinare la rappresentazione H*
 	
-	Se il doppio bipolo è controllabile in questa modalità ibrida, allora le variabili dipendenti $V_{1}$ e $I_{2}$ avranno espressione:
+	Se il doppio bipolo è controllabile in questa modalità ibrida, allora le variabili dipendenti $V_{1}$ e $I_{2}$ avranno espressione:$$V_{1}\quad=\quad h_{11}\cdot I_{1}+h_{12}\cdot V_{2}+E_{1eq}\\ \\I_{2}\quad=\quad h_{11}\cdot I_{1}+h_{12}\cdot V_{2}+E_{1eq}$$
