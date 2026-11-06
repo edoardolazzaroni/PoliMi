@@ -2319,4 +2319,7 @@ R_{3} & R_{2}+R_{3}
 
 La figura 6.30 riporta il doppio bipolo derivato dal triangolo, di cui sappiamo dalla $(6.20)$ che la matrice $\mathbf{G}$ è data da:
 
-$$\mathbf{G}^{}$$
+$$\mathbf{G}^{\nabla}=\begin{vmatrix}
+\frac{1}{R_{13}}+\frac{1}{R_{12}} & -\frac{1}{R_{12}} \\
+-\frac{1}{R_{12}} & \frac{1}{R_{23}}+\frac{1}{R_{12}}
+\end{vmatrix}\quad \quad(6)$$
