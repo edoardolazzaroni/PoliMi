@@ -2063,5 +2063,8 @@ $$I_{1}=V_{1}\cdot\overbrace{(\frac{1}{R_{13}}+\frac{1}{R_{12}})}^{g_{11}}+V_{2}
 a cui corrisponde la matrice:
 $$\mathbf{G}=\begin{vmatrix}
 \frac{1}{R_{13}}+\frac{1}{R_{12}} & -\frac{1}{R_{12}} \\
--\frac{1}{R_{12}} & \frac{1}{R_{}}
-\end{vmatrix}$$
+-\frac{1}{R_{12}} & \frac{1}{R_{23}}+\frac{1}{R_{12}}
+\end{vmatrix}\quad\quad(6.20)$$
+
+Non essendovi generatori indipendenti interni al doppio bipolo, sono zero i termini $I_{eq}$.
+Anche in questo caso, è possibile verificare la correttezza dei coefficienti calcolati seguendo la via semplificata delle prove semplici. *Per esempio*, la prova semplice $(6.12)$ corrisponde al circuito in figura, da cui si trova:
