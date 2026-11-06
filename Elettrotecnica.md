@@ -2014,8 +2014,8 @@ Ci proponiamo di calcolare i parametri della rappresentazione R del doppio bipol
 #Figura(6.11). *Circuito a stella*
 
 
-Esso nasce dal tripolo formato dal collegamento a stella di tre resistori. Data la semplicità, procedimo risolvendo direttamente la configurazione (1.29) in cui agiscono
-
-entrambe le sorgenti esterne di corrente. Osservando che la corrente
-
-nel resistore R3 è data da:
+Esso nasce dal tripolo formato dal collegamento a stella di tre resistori. Data la semplicità, procediamo risolvendo direttamente la configurazione in cui agiscono entrambe le sorgenti esterne di corrente.
+Osservando che la corrente nel resistore $R_{3}$ è data da:
+$$i_{3}=I_{1}+I_{2}$$
+è facile determinare le due tensioni:
+$$V_{1}=I_{1}\cdot R_{1}+(I_{1}+I_{})$$
