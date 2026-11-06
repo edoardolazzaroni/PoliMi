@@ -2152,4 +2152,6 @@ Il caso di un doppio bipolo è più ricco rispetto a quello del bipolo avendo a 
 	#Figura(6.20). *Prova semplice per il calcolo di $h_{11}$ e $h_{21}$: agisce il solo generatore $I_{1}$, sono spente le sorgenti interne*
 
 	
-	In modo simile, i parametri che misurano l’effetto di $V_{2}$ sono:$$h_{12}=\frac{V_{1}}{V_{1}}|_{V_{2}=0; \ gen. \ OFF}\\ \\h_{21}=\frac{I_{2}}{I_{1}}|_{V_{2}=0; \ gen. \ OFF}\\ \\(6.24)$$
+	In modo simile, i parametri che misurano l’effetto di $V_{2}$ sono:$$h_{12}=\frac{V_{1}}{V_{2}}|_{I_{1}=0; \ gen. \ OFF}\\ \\h_{22}=\frac{I_{2}}{V_{2}}|_{I_{1}=0; \ gen. \ OFF}\\ \\(6.25)$$
+	e corrispondono alla configurazione circuitale mostrata in figura:
+	![[Elettrotecnica-1793976208161.webp]]
