@@ -2193,3 +2193,8 @@ h_{21}' & h_{22}'
 	
 	Si noti che i parametri di trasmissione non possono essere determinati riferendosi a configurazioni sperimentali simili a quelle viste per le altre rappresentazioni: questo perché non è possibile applicare simultaneamente un generatore di corrente ed uno di tensione alla stessa porta. Questa applicazione simultanea richiede l’uso di un componente che vedremo in seguito, chiamato l’**amplificatore operazionale ideale**. I parametri $t$ possono essere derivati attraverso calcoli a partire da altre rappresentazioni, come mostrato in seguito.
 
+
+
+#### #Esercizio(calcolo dei parametri H, T)
+
+Si richiede il calcolo dei parametri H del doppio bipolo tripolare mostrato in fig. 1.. Riportiamo di seguito per comodità la rappre-
