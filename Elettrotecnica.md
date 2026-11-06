@@ -2127,4 +2127,6 @@ $$E_{eq_{1}}=V_{1}=-A \ R \\ \\ E_{eq_{2}}=V_{2}=0$$
 
 La rappresentazione completa risulta:
 
-$$V_{1}=R\cdot I_{1}+\frac{g \ R}{g+\frac{1}{R}}\cdot I_{2}-A \ R\\ \\$$
+$$V_{1}=R\cdot I_{1}+\frac{g \ R}{g+\frac{1}{R}}\cdot I_{2}-A \ R\\ \\V_{2}=r\cdot I_{1}+\frac{1}{g+\frac{1}{R}}\cdot I_{2}\\ \\(6.21)$$
+
+
