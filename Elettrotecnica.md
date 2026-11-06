@@ -2112,4 +2112,9 @@ $$r_{22}=\frac{1}{g+\frac{1}{R}}$$
 Inoltre,
 $$V_{1}=(g\cdot v) \ R=\frac{g \ R}{g+\frac{1}{R}}\ I_{2}$$
 quindi:
-$$r_{12}=$$
+$$r_{12}=\frac{g \ R}{g+\frac{1}{R}}$$
+
+![[Elettrotecnica-1793975097386.webp|411]]
+#Figura(6.17). *Prova semplice: agisce solo $I_{2}$*
+
+
