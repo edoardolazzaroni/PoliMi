@@ -2018,7 +2018,7 @@ Esso nasce dal tripolo formato dal collegamento a stella di tre resistori. Data 
 Osservando che la corrente nel resistore $R_{3}$ è data da:
 $$i_{3}=I_{1}+I_{2}$$
 è facile determinare le due tensioni:
-$$V_{1}=I_{1}\cdot R_{1}+(I_{1}+I_{2})\cdot r_{3}\\ \\ V_{2}=I_{2}\cdot R_{2}+(I_{1}+I_{2})\cdot R_{3}\\ \\(6.15)$$
+$$V_{1}=I_{1}\cdot R_{1}+(I_{1}+I_{2})\cdot R_{3}\\ \\ V_{2}=I_{2}\cdot R_{2}+(I_{1}+I_{2})\cdot R_{3}\\ \\(6.15)$$
 
 da cui, riordinando si ottiene la rappresentazione voluta:
-$$$$
+$$V_{1}=I_{1}\cdot \overbrace{(R_{1}+R_{3})}^{r_{11}}+I_{2}+I_{2}\cdot R_{3}\\ \\ V_{2}=I_{2}\cdot R_{2}+(I_{1}+I_{2})\cdot R_{3}\\ \\(6.16)$$
