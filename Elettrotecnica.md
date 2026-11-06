@@ -2188,4 +2188,15 @@ h_{21}' & h_{22}'
 - Un’ulteriore modalità di controllo del doppio bipolo consiste nel fissare come indipendenti entrambe le grandezze ad una porta e ricavare quelle all’altra porta in funzione delle prime. I relativi parametri vengono detti di trasmissione. La prima forma ha espressione:$$V_{1}\quad=\quad t_{11}\cdot V_{2}+t_{12}\cdot(-I_{2})+V_{1eq}\\ \\I_{1}\quad=\quad t_{21}\cdot V_{2}+t_{22}\cdot(-I_{2})+I_{1eq}\\ \\(6.29)$$
 	in cui si scelgono come variabili indipendenti la tensione $V_{2}$ e la corrente $−I_{2}$, cioè misurata uscente dalla porta $2$.
 	
-	La seconda forma ha espressione:$$V_{2}\quad=\quad t_{11}'\cdot V_{1}+t_{12}'\cdot(-I_{1})+V_{2eq}\\ \\I_{2}\quad=\quad t_{21}'\cdot V_{2}+t_{22}\cdot(-I_{2})+I_{1eq}\\ \\(6.29)$$
+	La seconda forma ha espressione:$$V_{2}\quad=\quad t_{11}'\cdot V_{1}+t_{12}'\cdot(-I_{1})+V_{2eq}\\ \\I_{2}\quad=\quad t_{21}'\cdot V_{1}+t_{22}'\cdot(-I_{1})+I_{2eq}\\ \\(6.30)$$
+	in cui si scelgono come variabili indipendenti la tensione $V_{1}$ e la corrente $−I_{1}$ uscente dalla porta $1$.
+	
+	Si noti che i parametri di trasmissione non possono essere determinati riferendosi a configurazioni sperimentali simili a quelle viste per le altre rappresentazioni: questo perché non è possibile applicare simultaneamente un generatore di corrente ed uno di tensione alla stessa porta. Questa applicazione simultanea
+
+richiede l’uso di un componente che vedremo in seguito, chiamato
+
+l’amplificatore operazionale ideale. I parametri t possono essere
+
+derivati attraverso calcoli a partire da altre rappresentazioni, come
+
+mostrato in seguito.
