@@ -2123,4 +2123,8 @@ Infine, la **terza prova** consiste nel ripristinare il generatore indipendente 
 ![[Elettrotecnica-1793975200802.webp|488]]
 #Figura(6.18). *Prova semplice in cui agisce solo $A$*
 
-$$E_{eq_{1}}=V_{1}=-A \ R$$
+$$E_{eq_{1}}=V_{1}=-A \ R \\ \\ E_{eq_{2}}=V_{2}=0$$
+
+La rappresentazione completa risulta:
+
+$$V_{1}=R\cdot I_{1}+\frac{g \ R}{g+\frac{1}{R}}\cdot I_{2}-A \ R\\ \\$$
