@@ -2009,4 +2009,7 @@ corrispondono alla configurazione circuitale mostrata in figura:
 
 #### #Esercizio(vario) (1)
 
-Ci proponiamo di calcolare i parametri della rappresentazione R del doppio bipolo mostrato in figura 1.29. Esso nasce dal tripolo formato dal collegamento a stella di tre resistori. Data la semplicità, procedi-
+Ci proponiamo di calcolare i parametri della rappresentazione R del doppio bipolo mostrato in figura:
+
+
+Esso nasce dal tripolo formato dal collegamento a stella di tre resistori. Data la semplicità, procedi-
