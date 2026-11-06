@@ -2034,7 +2034,7 @@ corrispondono alla configurazione circuitale mostrata in figura:
 > Non essendovi generatori indipendenti interni al doppio bipolo, sono zero i termini $E_{eq}$.
 > È possibile verificare la correttezza dei coefficienti applicando le prove semplici. *Per esempio*, la prova semplice $(6.5)$ corrisponde al circuito in figura, da cui si trova:
 > 
-> ![[Elettrotecnica-1793973360336.webp|422]]
+> ![[Elettrotecnica-1793973360336.webp|332x167]]
 > #Figura(6.12). *Prova semplice*
 > 
 > $$V_{1}=I_{1}\cdot(R_{1}+R_{3})$$
@@ -2047,40 +2047,39 @@ corrispondono alla configurazione circuitale mostrata in figura:
 
 #### #Esercizio(vario) (2)
 
-Proponiamo ora il calcolo dei parametri G del doppio bipolo in figura:
+> [!question] Esercizio
+> Proponiamo ora il calcolo dei parametri G del doppio bipolo in figura:
+> 
+> ![[Elettrotecnica-1793973639781.webp|313x167]]
+> #Figura(6.13). *Circuito a triangolo*
+> 
+> Questo doppio bipolo nasce dal tripolo formato dal **collegamento a triangolo di tre resistori**. Anche in questo caso è possibile procedere risolvendo direttamente la configurazione in cui agiscono entrambe le sorgenti esterne di tensione. Osservando che la tensione sul resistore $R_{12}$ è data da:
+> $$v_{12}=V_{1}-V_{2}$$
+> è facile determinare le due correnti di porta:
+> $$I_{1}=\frac{V_{1}}{R_{13}}+\frac{V_{1}-V_{2}}{R_{12}}\\ \\I_{2}=\frac{V_{2}}{R_{23}}+\frac{V_{2}-V_{1}}{R_{12}} \\ \\(6.18)$$
+> 
+> da cui, riordinando si ha la rappresentazione voluta:
+> $$I_{1}=V_{1}\cdot\overbrace{(\frac{1}{R_{13}}+\frac{1}{R_{12}})}^{g_{11}}+V_{2}\cdot\overbrace{-\frac{1}{R_{12}}}^{g_{12}}\\ \\ I_{2}=V_{1}\cdot\underbrace{-\frac{1}{R_{12}}}_{g_{21}}+V_{2}\cdot\underbrace{(\frac{1}{R_{13}}+\frac{1}{R_{12}})}_{g_{22}}\\ \\(6.19)$$
+> 
+> a cui corrisponde la matrice:
+> $$\mathbf{G}=\begin{vmatrix}
+> \frac{1}{R_{13}}+\frac{1}{R_{12}} & -\frac{1}{R_{12}} \\
+> -\frac{1}{R_{12}} & \frac{1}{R_{23}}+\frac{1}{R_{12}}
+> \end{vmatrix}\quad\quad(6.20)$$
+> 
+> Non essendovi generatori indipendenti interni al doppio bipolo, sono zero i termini $I_{eq}$.
+> Anche in questo caso, è possibile verificare la correttezza dei coefficienti calcolati seguendo la via semplificata delle prove semplici. *Per esempio*, la prova semplice $(6.12)$ corrisponde al circuito in figura, da cui si trova:
+> ![[Elettrotecnica-1793974323189.webp|321]]
+> #Figura(6.14). *Prova semplice*
+> 
+> $$I_{1}=V_{1}\cdot\left( \frac{1}{R_{13}}+\frac{1}{R_{21}} \right)$$
+> 
+> che conferma il valore di $g_{11}$. **Questo coefficiente sulla diagonale di $\mathbf{G}$ descrive un effetto locale alla porta $1$**, ovvero qual è l’effetto di $V_{1}$ su $I_{1}$ quando $V_{2}$ è spento.
+> Dal circuito in figura si ricava anche che:
+> $$I_{2}=V_{1}\cdot-\frac{1}{R_{12}}$$
+> 
+> che conferma il valore del coefficiente $g_{21}$. **Questo coefficiente estradiagonale descrive un effetto non locale o di trasferimento**, ovvero qual è l’effetto di $V_{1}$ alla porta $1$ su $I_{2}$ alla porta $2$, quando $V_{2}$ è spento.
+> 
+> Osserviamo infine che in entrambi i circuiti analizzati vale la proprietà $r_{12} = r_{21}$ e $g_{12} = g_{21}$. Quando le matrici $\mathbf{R}$ o $\mathbf{G}$ di un doppio bipolo **soddisfano questa simmetria si dice che il doppio bipolo è reciproco**.
 
-![[Elettrotecnica-1793973639781.webp|415]]
-#Figura(6.13). *Circuito a triangolo*
 
-Questo doppio bipolo nasce dal tripolo formato dal **collegamento a triangolo di tre resistori**. Anche in questo caso è possibile procedere risolvendo direttamente la configurazione in cui agiscono entrambe le sorgenti esterne di tensione. Osservando che la tensione sul resistore $R_{12}$ è data da:
-$$v_{12}=V_{1}-V_{2}$$
-è facile determinare le due correnti di porta:
-$$I_{1}=\frac{V_{1}}{R_{13}}+\frac{V_{1}-V_{2}}{R_{12}}\\ \\I_{2}=\frac{V_{2}}{R_{23}}+\frac{V_{2}-V_{1}}{R_{12}} \\ \\(6.18)$$
-
-da cui, riordinando si ha la rappresentazione voluta:
-$$I_{1}=V_{1}\cdot\overbrace{(\frac{1}{R_{13}}+\frac{1}{R_{12}})}^{g_{11}}+V_{2}\cdot\overbrace{-\frac{1}{R_{12}}}^{g_{12}}\\ \\ I_{2}=V_{1}\cdot\underbrace{-\frac{1}{R_{12}}}_{g_{21}}+V_{2}\cdot\underbrace{(\frac{1}{R_{13}}+\frac{1}{R_{12}})}_{g_{22}}\\ \\(6.19)$$
-
-a cui corrisponde la matrice:
-$$\mathbf{G}=\begin{vmatrix}
-\frac{1}{R_{13}}+\frac{1}{R_{12}} & -\frac{1}{R_{12}} \\
--\frac{1}{R_{12}} & \frac{1}{R_{23}}+\frac{1}{R_{12}}
-\end{vmatrix}\quad\quad(6.20)$$
-
-Non essendovi generatori indipendenti interni al doppio bipolo, sono zero i termini $I_{eq}$.
-Anche in questo caso, è possibile verificare la correttezza dei coefficienti calcolati seguendo la via semplificata delle prove semplici. *Per esempio*, la prova semplice $(6.12)$ corrisponde al circuito in figura, da cui si trova:
-![[Elettrotecnica-1793974323189.webp|321]]
-#Figura(6.14). *Prova semplice*
-
-$$I_{1}=V_{1}\cdot\left( \frac{1}{R_{13}}+\frac{1}{R_{21}} \right)$$
-
-che conferma il valore di $g_{11}$. **Questo coefficiente sulla diagonale di $\mathbf{G}$ descrive un effetto locale alla porta $1$**, ovvero qual è l’effetto di $V_{1}$ su $I_{1}$ quando $V_{2}$ è spento.
-Dal circuito in figura si ricava anche che:
-$$I_{2}=V_{1}\cdot-\frac{1}{R_{12}}$$
-
-che conferma il valore del coefficiente $g_{21}$. **Questo coefficiente estradiagonale descrive un effetto non locale o di trasferimento**, ovvero qual è l’effetto di $V_{1}$ alla porta $1$ su $I_{2}$ alla porta $2$, quando $V_{2}$ è spento.
-
-Osserviamo infine che in entrambi i circuiti analizzati vale la proprietà $r_{12} = r_{21}$ e $g_{12} = g_{21}$. Quando le matrici $\mathbf{R}$ o G di un doppio
-
-bipolo soddisfano questa simmetria si dice che il doppio bipolo è
-
-reciproco.
