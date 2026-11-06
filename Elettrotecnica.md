@@ -2085,50 +2085,54 @@ corrispondono alla configurazione circuitale mostrata in figura:
 
 #### #Esercizio(vario) (2)
 
-Si richiede il calcolo dei parametri R, cioè controllati dalle variabili corrente, del doppio bipolo composto mostrato in figura:
+> [!question] Esercizio
+> Si richiede il calcolo dei parametri R, cioè controllati dalle variabili corrente, del doppio bipolo composto mostrato in figura:
+> 
+> ![[Elettrotecnica-1793974736403.webp|373]]
+> #Figura(6.15). *Doppio bipolo di cui si chiede i parametri R*
+> 
+> 
+> 
+> La **prima prova semplice** è mostrata in figura 6.16. Si osserva che:
+> $$g\cdot v+v\frac{1}{R}=I_{2}=0\longrightarrow v=0$$
+> e quindi:
+> $$V_{1}=R \ I_{1}\longrightarrow r_{11}=R\\ \\ V_{2}=r \ I_{1}\longrightarrow r-
+> _{21}=r$$
+> 
+> ![[Elettrotecnica-1793974875346.webp|381]]
+> #Figura(6.16). *Prova semplice: agisce solo $I_{1}$*
+> 
+> 
+> La **seconda prova semplice** è mostrata in figura 6.17. Osservando che:
+> $$r\cdot I_{1}=0$$
+> si ha:
+> $$g\cdot v+v\frac{1}{R}=I_{2}\longrightarrow V_{2}=v=I_{2}\frac{1}{g+\frac{1}{R}}$$
+> dunque:
+> $$r_{22}=\frac{1}{g+\frac{1}{R}}$$
+> 
+> Inoltre,
+> $$V_{1}=(g\cdot v) \ R=\frac{g \ R}{g+\frac{1}{R}}\ I_{2}$$
+> quindi:
+> $$r_{12}=\frac{g \ R}{g+\frac{1}{R}}$$
+> 
+> ![[Elettrotecnica-1793975097386.webp|411]]
+> #Figura(6.17). *Prova semplice: agisce solo $I_{2}$*
+> 
+> 
+> Infine, la **terza prova** consiste nel ripristinare il generatore indipendente interno e spegnere entrambi i generatori esterni come mostrato in figura; osservando che $g \cdot v = 0$ e $r \cdot I_{1} = 0$ si ha:
+> 
+> ![[Elettrotecnica-1793975200802.webp|488]]
+> #Figura(6.18). *Prova semplice in cui agisce solo $A$*
+> 
+> $$E_{eq_{1}}=V_{1}=-A \ R \\ \\ E_{eq_{2}}=V_{2}=0$$
+> 
+> La rappresentazione completa risulta:
+> 
+> $$V_{1}=R\cdot I_{1}+\frac{g \ R}{g+\frac{1}{R}}\cdot I_{2}-A \ R\\ \\V_{2}=r\cdot I_{1}+\frac{1}{g+\frac{1}{R}}\cdot I_{2}\\ \\(6.21)$$
 
-![[Elettrotecnica-1793974736403.webp|373]]
-#Figura(6.15). *Doppio bipolo di cui si chiede i parametri R*
 
 
+## 6.3 **Altre rappresentazioni: tipo H, H' e T, T'**
 
-La **prima prova semplice** è mostrata in figura 6.16. Si osserva che:
-$$g\cdot v+v\frac{1}{R}=I_{2}=0\longrightarrow v=0$$
-e quindi:
-$$V_{1}=R \ I_{1}\longrightarrow r_{11}=R\\ \\ V_{2}=r \ I_{1}\longrightarrow r-
-_{21}=r$$
+Il caso di un doppio bipolo è più ricco rispetto a quello del bipolo avendo a disposizione quattro variabili alle porte anziché due. Di conseguenza esistono altri modi di controllare le variabili indipendenti in un doppio bipolo.
 
-![[Elettrotecnica-1793974875346.webp|381]]
-#Figura(6.16). *Prova semplice: agisce solo $I_{1}$*
-
-
-La **seconda prova semplice** è mostrata in figura 6.17. Osservando che:
-$$r\cdot I_{1}=0$$
-si ha:
-$$g\cdot v+v\frac{1}{R}=I_{2}\longrightarrow V_{2}=v=I_{2}\frac{1}{g+\frac{1}{R}}$$
-dunque:
-$$r_{22}=\frac{1}{g+\frac{1}{R}}$$
-
-Inoltre,
-$$V_{1}=(g\cdot v) \ R=\frac{g \ R}{g+\frac{1}{R}}\ I_{2}$$
-quindi:
-$$r_{12}=\frac{g \ R}{g+\frac{1}{R}}$$
-
-![[Elettrotecnica-1793975097386.webp|411]]
-#Figura(6.17). *Prova semplice: agisce solo $I_{2}$*
-
-
-Infine, la **terza prova** consiste nel ripristinare il generatore indipendente interno e spegnere entrambi i generatori esterni come mostrato in figura; osservando che $g \cdot v = 0$ e $r \cdot I_{1} = 0$ si ha:
-
-![[Elettrotecnica-1793975200802.webp|488]]
-#Figura(6.18). *Prova semplice in cui agisce solo $A$*
-
-$$E_{eq_{1}}=V_{1}=-A \ R \\ \\ E_{eq_{2}}=V_{2}=0$$
-
-La rappresentazione completa risulta:
-
-$$V_{1}=R\cdot I_{1}+\frac{g \ R}{g+\frac{1}{R}}\cdot I_{2}-A \ R\\ \\V_{2}=r\cdot I_{1}+\frac{1}{g+\frac{1}{R}}\cdot I_{2}\\ \\(6.21)$$
-
-
-
-## 6.3 **Altre rappresentazioni: tipo H, H' e T, e G**
