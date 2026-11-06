@@ -2327,8 +2327,8 @@ $$\mathbf{G}^{\nabla}=\begin{vmatrix}
 #Figura(6.30). *Doppio bipolo a triangolo*
 
 
-I due doppi bipoli sono equivalenti tra loro se le stesse rappresentazione hanno gli stessi parametri. Per imporre ciò, procediamo per
-
-primo a invertire la matrice R della stella per calcolarne la rappresen-
-
-tazione G:
+I due doppi bipoli sono equivalenti tra loro se le stesse rappresentazione hanno gli stessi parametri. Per imporre ciò, procediamo per primo a invertire la matrice $\mathbf{R}$ della stella per calcolarne la rappresentazione G:
+$$G^{\star}=\frac{1}{R_{1}R_{2}+R_{1}R_{3}+R_{3}R_{2}}\begin{vmatrix}
+R_{2}+R_{3} & -R_{3} \\
+-R_{3} & R_{1}+R_{3}
+\end{vmatrix}\quad \quad(6.43)$$
