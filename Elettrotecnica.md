@@ -2299,3 +2299,5 @@ La rappresentazione T esiste sse $r_{21} \ne 0$.
 
 Consideriamo i tripoli resistivi, definiti ai nodi esterni $1, 2,$ e $3$, mostrati in figura, chiamati **circuito a stella** (<u>Sinistra</u>) ed a **triangolo** (<u>Destra</u>):
 
+![[Elettrotecnica-1793980270045.webp|569]]
+#Figura(6.28). Circuito a stella ed a triangolo
