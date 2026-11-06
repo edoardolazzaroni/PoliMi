@@ -2300,4 +2300,12 @@ La rappresentazione T esiste sse $r_{21} \ne 0$.
 Consideriamo i tripoli resistivi, definiti ai nodi esterni $1, 2,$ e $3$, mostrati in figura, chiamati **circuito a stella** (<u>Sinistra</u>) ed a **triangolo** (<u>Destra</u>):
 
 ![[Elettrotecnica-1793980270045.webp|569]]
-#Figura(6.28). Circuito a stella ed a triangolo
+#Figura(6.28). *Circuito a stella ed a triangolo*
+
+
+Dimostriamo ora quali relazioni devono intercorrere tra i parametri di tali circuiti affinché siano **equivalenti ai fini esterni**. Imponendo la validità di tali relazioni sarà quindi possibile trasformare una stella di resistori in un triangolo e viceversa.
+Per questo, passiamo ai relativi doppi bipoli tripolari prendendo ad arbitrio un polo come <u>nodo comune alle due porte</u>, decidiamo di prendere il nodo $3$.
+
+La figura successiva riporta il doppio bipolo derivato dalla stella, di cui
+
+sappiamo dalla (1.17) che la matrice R è data da:
