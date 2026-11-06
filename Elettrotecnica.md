@@ -2273,18 +2273,10 @@ Viceversa, assegnata la forma implicita $(6.37)$, sarà possibile ricavare una p
 
 Vediamo un *esempio* in cui supponiamo che il doppio bipolo ammetta e sia nota la rappresentazione R che riscriviamo di seguito in forma implicita:
 $$(-1)\cdot V_{1}+0\cdot V_{2}+r_{11}\cdot I_{1}+r_{12}\cdot I_{2}+E_{eq_{1}}=0\\ \\0\cdot V_{1}+(-1)\cdot V_{2}+r_{21}\cdot I_{1}+r_{22}\cdot I_{2}+E_{eq_{2}}=0\\ \\(6.38)$$
-Possiamo ora chiederci, quale condizione devono soddisfare i coeffici- enti affinché esistano le rappresentazioni $\mathbf{G, H, T}$?
+Possiamo ora chiederci, quale condizione devono soddisfare i coeffici- enti affinché esistano le rappresentazioni $G, H, T$?
 
-Per l’esistenza di $\mathbf{G}$ si deve poter ricavare le due variabili I1 ed I2
+Per l’esistenza di $G$ si deve poter ricavare le due variabili $I_{1}$ ed $I_{2}$ dalle tensioni. I coefficienti che moltiplicano queste variabili sono quelli della matrice $\mathbf{R}$, dunque questa deve essere non singolare affinché esista $G$.
 
-dalle tensioni. I coefficienti che moltiplicano queste variabili sono
-
-quelli della matrice R, dunque questa deve essere non singolare
-
-affinché esista G.
-
-Per l’esistenza della rappresentazione H, ricordiamo che essa con-
-
-siste nell’esplicitare le variabili V1 ed I2. I coefficienti che moltipli-
+Per l’esistenza della rappresentazione H, ricordiamo che essa consiste nell’esplicitare le variabili $V_{1}$ ed I2. I coefficienti che moltipli-
 
 cano queste variabili in (1.38) formano la matrice:
