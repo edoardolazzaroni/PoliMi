@@ -2099,4 +2099,10 @@ $$V_{1}=R \ I_{1}\longrightarrow r_{11}=R\\ \\ V_{2}=r \ I_{1}\longrightarrow r-
 _{21}=r$$
 
 ![[Elettrotecnica-1793974875346.webp|381]]
-#Figura(6.16)
+#Figura(6.16). *Prova semplice: agisce solo $I_{1}$*
+
+
+La seconda prova semplice è mostrata in figura 6.17. Osservando che:
+$$r\cdot I_{1}=0$$
+si ha:
+$$$$
