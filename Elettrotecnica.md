@@ -2045,7 +2045,7 @@ corrispondono alla configurazione circuitale mostrata in figura:
 > che conferma il valore del coefficiente $r_{21}$. **Questo coefficiente estradiagonale descrive un effetto non locale o di trasferimento**, ovvero qual è l’effetto di $I_{1}$ alla porta $1$ su $V_{2}$ alla porta 2, quando $I_{2}$ è spento.
 
 
-#### #Esercizio(vario) (2)
+#### #Esercizio(circuito a triangolo)
 
 > [!question] Esercizio
 > Proponiamo ora il calcolo dei parametri G del doppio bipolo in figura:
@@ -2083,3 +2083,9 @@ corrispondono alla configurazione circuitale mostrata in figura:
 > Osserviamo infine che in entrambi i circuiti analizzati vale la proprietà $r_{12} = r_{21}$ e $g_{12} = g_{21}$. Quando le matrici $\mathbf{R}$ o $\mathbf{G}$ di un doppio bipolo **soddisfano questa simmetria si dice che il doppio bipolo è reciproco**.
 
 
+#### #Esercizio(vario) (2)
+
+Si richiede il calcolo dei parametri R, cioè controllati dalle variabili corrente, del doppio bipolo composto mostrato in figura:
+
+![[Elettrotecnica-1793974736403.webp|373]]
+#Figura(6.15). Doppio bipolo di cui si chiede i parametri R
