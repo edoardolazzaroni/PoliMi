@@ -2119,3 +2119,8 @@ $$r_{12}=\frac{g \ R}{g+\frac{1}{R}}$$
 
 
 Infine, la **terza prova** consiste nel ripristinare il generatore indipendente interno e spegnere entrambi i generatori esterni come mostrato in figura; osservando che $g \cdot v = 0$ e $r \cdot I_{1} = 0$ si ha:
+
+![[Elettrotecnica-1793975200802.webp|488]]
+#Figura(6.18). *Prova semplice in cui agisce solo $A$*
+
+$$E_{eq_{1}}=V_{1}=-A \ R$$
