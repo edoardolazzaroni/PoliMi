@@ -2146,8 +2146,4 @@ Il caso di un doppio bipolo è più ricco rispetto a quello del bipolo avendo a 
 	Anche in questo caso, è abitudine raccogliere i parametri $h$ in una matrice:$$\mathbf{H}=\begin{vmatrix}
 	h_{11} & h_{12} \\ h_{21} & h_{22}
 	\end{vmatrix}\quad\quad(6.23)$$
-	Le prove semplici mettono in evidenza il significato fisico dei
-
-parametri. Per esempio, i parametri che misurano l’effetto di V1
-
-sono:
+	Le prove semplici mettono in evidenza il significato fisico dei parametri. Per esempio, i parametri che misurano l’effetto di $V_{1}$ sono:$$h_{11}=\frac{V_{1}}{I_{1}}|_{V_{2}=0; \ gen. \ OFF}\\ \\h_{21}=\frac{I_{2}}{I_{1}}|_{V_{2}=0; \ gen. \ OFF}$$
