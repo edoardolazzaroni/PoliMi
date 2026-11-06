@@ -2295,4 +2295,7 @@ La rappresentazione T esiste sse $r_{21} \ne 0$.
 
 
 
-## 6.4 **Rappresentazione implicita**
+## 6.5 **Trasformazioni stella triangolo**
+
+Consideriamo i tripoli resistivi, definiti ai nodi esterni $1, 2,$ e $3$, mostrati in figura, chiamati **circuito a stella** (<u>Sinistra</u>) ed a **triangolo** (<u>Destra</u>):
+
