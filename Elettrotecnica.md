@@ -2270,3 +2270,6 @@ dove i coefficienti $m, n, c$ sono numeri reali (incluso lo zero).
 
 Viceversa, assegnata la forma implicita $(6.37)$, sarà possibile ricavare una particolare forma esplicita in cui si ricavano due delle quattro variabili in funzione delle rimanenti, **se e solo se la matrice dei coefficienti che moltiplicano le variabili da esplicitare è non singolare**.
 
+
+Vediamo un *esempio* in cui supponiamo che il doppio bipolo ammetta e sia nota la rappresentazione R che riscriviamo di seguito in forma implicita:
+$$(-1)\cdot V_{1}+0\cdot V_{2}+r_{11}\cdot I_{1}+r_{12}\cdot I_{2}+E_{eq_{1}}=0\\ \\0\cdot V_{1}+0\cdot V_{2}+r_{11}\cdot I_{1}+r_{12}\cdot I_{2}+E_{eq_{1}}=0$$
