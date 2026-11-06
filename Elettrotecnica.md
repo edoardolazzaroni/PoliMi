@@ -2277,6 +2277,14 @@ Possiamo ora chiederci, quale condizione devono soddisfare i coeffici- enti affi
 
 Per l’esistenza di $G$ si deve poter ricavare le due variabili $I_{1}$ ed $I_{2}$ dalle tensioni. I coefficienti che moltiplicano queste variabili sono quelli della matrice $\mathbf{R}$, dunque questa deve essere non singolare affinché esista $G$.
 
-Per l’esistenza della rappresentazione H, ricordiamo che essa consiste nell’esplicitare le variabili $V_{1}$ ed I2. I coefficienti che moltipli-
+Per l’esistenza della rappresentazione H, ricordiamo che essa consiste nell’esplicitare le variabili $V_{1}$ ed $I_{2}$. I coefficienti che moltiplicano queste variabili in $(6.38)$ formano la matrice:
+$$\begin{vmatrix}
+-1 & r_{12} \\
+0 & r_{22}
+\end{vmatrix}\quad \quad(6.39)$$
 
-cano queste variabili in (1.38) formano la matrice:
+Questa è non singolare sse $r_{22}\ne 0$.
+
+Infine, la rappresentazione T consiste nell’esplicitare $V_{1}$ e I1 i cui
+
+coefficienti danno:
