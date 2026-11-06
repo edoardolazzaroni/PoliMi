@@ -2314,7 +2314,7 @@ R_{3} & R_{2}+R_{3}
 \end{vmatrix}\quad \quad(6.41)$$
 
 ![[Elettrotecnica-1793980431583.webp|338]]
-#Figura(6.29). Doppio bipolo
+#Figura(6.29). *Doppio bipolo a stella*
 
 
 La figura 6.30 riporta il doppio bipolo derivato dal triangolo, di cui sappiamo dalla $(6.20)$ che la matrice $\mathbf{G}$ è data da:
@@ -2322,4 +2322,13 @@ La figura 6.30 riporta il doppio bipolo derivato dal triangolo, di cui sappiamo 
 $$\mathbf{G}^{\nabla}=\begin{vmatrix}
 \frac{1}{R_{13}}+\frac{1}{R_{12}} & -\frac{1}{R_{12}} \\
 -\frac{1}{R_{12}} & \frac{1}{R_{23}}+\frac{1}{R_{12}}
-\end{vmatrix}\quad \quad(6)$$
+\end{vmatrix}\quad \quad(6.42)$$
+![[Elettrotecnica-1793980630644.webp|350]]
+#Figura(6.30). *Doppio bipolo a triangolo*
+
+
+I due doppi bipoli sono equivalenti tra loro se le stesse rappresentazione hanno gli stessi parametri. Per imporre ciò, procediamo per
+
+primo a invertire la matrice R della stella per calcolarne la rappresen-
+
+tazione G:
