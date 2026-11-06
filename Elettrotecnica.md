@@ -2285,6 +2285,14 @@ $$\begin{vmatrix}
 
 Questa è non singolare sse $r_{22}\ne 0$.
 
-Infine, la rappresentazione T consiste nell’esplicitare $V_{1}$ e I1 i cui
+Infine, la rappresentazione T consiste nell’esplicitare $V_{1}$ e $I_{1}$ i cui coefficienti danno:
+$$\begin{vmatrix}
+-1 & r_{11} \\
+0 & r_{21}
+\end{vmatrix}\quad \quad(6.40)$$
 
-coefficienti danno:
+La rappresentazione T esiste sse $r_{21} \ne 0$.
+
+
+
+## 6.4 **Rappresentazione implicita**
