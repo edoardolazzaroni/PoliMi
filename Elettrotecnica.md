@@ -2307,8 +2307,16 @@ Dimostriamo ora quali relazioni devono intercorrere tra i parametri di tali circ
 Per questo, passiamo ai relativi doppi bipoli tripolari prendendo ad arbitrio un polo come <u>nodo comune alle due porte</u>, decidiamo di prendere il nodo $3$.
 
 La figura successiva riporta il doppio bipolo derivato dalla stella, di cui sappiamo dalla $(6.17)$ che la matrice $\mathbf{R}$ è data da:
+
 $$\mathbf{R}^{\star}=\begin{vmatrix}
 R_{1}+R_{3} & R_{3} \\
 R_{3} & R_{2}+R_{3}
 \end{vmatrix}\quad \quad(6.41)$$
 
+![[Elettrotecnica-1793980431583.webp|338]]
+#Figura(6.29). Doppio bipolo
+
+
+La figura 6.30 riporta il doppio bipolo derivato dal triangolo, di cui sappiamo dalla $(6.20)$ che la matrice $\mathbf{G}$ è data da:
+
+$$\mathbf{G}^{tri}$$
