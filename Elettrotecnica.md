@@ -2332,3 +2332,7 @@ $$G^{\star}=\frac{1}{R_{1}R_{2}+R_{1}R_{3}+R_{3}R_{2}}\begin{vmatrix}
 R_{2}+R_{3} & -R_{3} \\
 -R_{3} & R_{1}+R_{3}
 \end{vmatrix}\quad \quad(6.43)$$
+
+L’equivalenza stella-triangolo si ha sse $\mathbf{G}{\star} = \mathbf{G}^{\nabla}$.
+Imponendo l’uguaglianza dei parametri $g_{12}$, si ha:
+$$R_{12}=\frac{R_{1}R_{2}+R_{1}R_{3}+R_{3}R_{}}$$
