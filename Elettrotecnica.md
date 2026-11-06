@@ -2141,8 +2141,6 @@ Il caso di un doppio bipolo è più ricco rispetto a quello del bipolo avendo a 
 	#Figura(6.19). *Set-up sperimentale per determinare la rappresentazione H*
 	
 	Se il doppio bipolo è controllabile in questa modalità ibrida, allora le variabili dipendenti $V_{1}$ e $I_{2}$ avranno espressione:$$V_{1}\quad=\quad h_{11}\cdot I_{1}+h_{12}\cdot V_{2}+E_{1eq}\\ \\I_{2}\quad=\quad h_{21}\cdot I_{1}+h_{22}\cdot V_{2}+I_{2eq}\\ \\(6.22)$$
-	In questo caso i coefficienti $h$, che pesano l’effetto delle sorgenti esterne, non sono dimensionalmente omogenei tra loro: $h_{11}$ si misura in $\Omega$, $h_{22}$ in $\Omega^{-1}$ mentre $h_{12}$ e $h21 sono adimensionali.
-
-Infine, i termini E1eq e I2eq riassumo l’effetto dei generatori in-
-
-dipendenti interni sulle variabili di porta. Anche in questo caso, è
+	In questo caso i coefficienti $h$, che pesano l’effetto delle sorgenti esterne, non sono dimensionalmente omogenei tra loro: $h_{11}$ si misura in $\Omega$, $h_{22}$ in $\Omega^{-1}$ mentre $h_{12}$ e $h_{21}$ sono adimensionali.
+	Infine, i termini $E_{1eq}$ e $I_{2eq}$ riassumo l’effetto dei generatori indipendenti interni sulle variabili di porta.
+	Anche in questo caso, è abitudine raccogliere i parametri $h$ in una matrice:$$\mathbf{H}=\vm $$
