@@ -2009,34 +2009,41 @@ corrispondono alla configurazione circuitale mostrata in figura:
 
 #### #Esercizio(vario) (1)
 
-Ci proponiamo di calcolare i parametri della rappresentazione R del doppio bipolo mostrato in figura:
-![[Elettrotecnica-1793972883267.webp|308]]
-#Figura(6.11). *Circuito a stella*
+> [!question] Esercizio
+> Ci proponiamo di calcolare i parametri della rappresentazione R del doppio bipolo mostrato in figura:
+> 
+> ![[Elettrotecnica-1793972883267.webp|308]]
+> #Figura(6.11). *Circuito a stella*
+> 
+> 
+> Esso nasce dal tripolo formato dal collegamento a stella di tre resistori. Data la semplicità, procediamo risolvendo direttamente la configurazione in cui agiscono entrambe le sorgenti esterne di corrente.
+> Osservando che la corrente nel resistore $R_{3}$ è data da:
+> $$i_{3}=I_{1}+I_{2}$$
+> è facile determinare le due tensioni:
+> $$V_{1}=I_{1}\cdot R_{1}+(I_{1}+I_{2})\cdot R_{3}\\ \\ V_{2}=I_{2}\cdot R_{2}+(I_{1}+I_{2})\cdot R_{3}\\ \\(6.15)$$
+> 
+> da cui, riordinando si ottiene la rappresentazione voluta:
+> $$V_{1}=I_{1}\cdot \overbrace{(R_{1}+R_{3})}^{r_{11}}+I_{2}\cdot \overbrace{R_{3}}{r_{12}}\\ \\ V_{2}=I_{1}\cdot \underbrace{R_{3}}_{r_{21}}+I_{2}\cdot \underbrace{(R_{2}+R_{3})}_{r_{22}}\\ \\(6.16)$$
+> 
+> a cui corrisponde la matrice:
+> $$\mathbf{R}=\begin{vmatrix}
+> R_{1}+R_{3} & R_{3} \\
+> R_{3} & R_{2}+R_{3}
+> \end{vmatrix}\quad\quad(6.17)$$
+> 
+> Non essendovi generatori indipendenti interni al doppio bipolo, sono zero i termini $E_{eq}$.
+> È possibile verificare la correttezza dei coefficienti applicando le prove semplici. *Per esempio*, la prova semplice $(6.5)$ corrisponde al circuito in figura, da cui si trova:
+> 
+> ![[Elettrotecnica-1793973360336.webp|422]]
+> #Figura(6.12). *Prova semplice*
+> 
+> $$V_{1}=I_{1}\cdot(R_{1}+R_{3})$$
+> 
+> che conferma il valore di $r_{11}$. **Questo coefficiente che appartiene alla diagonale della matrice descrive un effetto locale alla porta $1$**, ovvero qual è l’effetto di $I_{1}$ su $V_{1}$ quando $I_{2}$ è spento. Dal circuito in figura, si ricava anche che:
+> $$V_{2}=I_{1}\cdot R_{3}$$
+> 
+> che conferma il valore del coefficiente $r_{21}$. **Questo coefficiente estradiagonale descrive un effetto non locale o di trasferimento**, ovvero qual è l’effetto di $I_{1}$ alla porta $1$ su $V_{2}$ alla porta 2, quando $I_{2}$ è spento.
 
 
-Esso nasce dal tripolo formato dal collegamento a stella di tre resistori. Data la semplicità, procediamo risolvendo direttamente la configurazione in cui agiscono entrambe le sorgenti esterne di corrente.
-Osservando che la corrente nel resistore $R_{3}$ è data da:
-$$i_{3}=I_{1}+I_{2}$$
-è facile determinare le due tensioni:
-$$V_{1}=I_{1}\cdot R_{1}+(I_{1}+I_{2})\cdot R_{3}\\ \\ V_{2}=I_{2}\cdot R_{2}+(I_{1}+I_{2})\cdot R_{3}\\ \\(6.15)$$
+#### #Esercizio(vario) (2)
 
-da cui, riordinando si ottiene la rappresentazione voluta:
-$$V_{1}=I_{1}\cdot \overbrace{(R_{1}+R_{3})}^{r_{11}}+I_{2}\cdot \overbrace{R_{3}}{r_{12}}\\ \\ V_{2}=I_{1}\cdot \underbrace{R_{3}}_{r_{21}}+I_{2}\cdot \underbrace{(R_{2}+R_{3})}_{r_{22}}\\ \\(6.16)$$
-
-a cui corrisponde la matrice:
-$$\mathbf{R}=\begin{vmatrix}
-R_{1}+R_{3} & R_{3} \\
-R_{3} & R_{2}+R_{3}
-\end{vmatrix}\quad\quad(6.17)$$
-
-Non essendovi generatori indipendenti interni al doppio bipolo, sono zero i termini $E_{eq}$.
-È possibile verificare la correttezza dei coefficienti applicando le prove semplici. *Per esempio*, la prova semplice $(6.5)$ corrisponde al circuito in figura, da cui si trova:
-![[Elettrotecnica-1793973360336.webp|422]]
-#Figura(6.12). *Prova semplice*
-
-$$V_{1}=I_{1}\cdot(R_{1}+R_{3})$$
-
-che conferma il valore di $r_{11}$. **Questo coefficiente che appartiene alla diagonale della matrice descrive un effetto locale alla porta $1$**, ovvero qual è l’effetto di $I_{1}$ su $V_{1}$ quando $I_{2}$ è spento. Dal circuito in figura, si ricava anche che:
-$$V_{2}=I_{1}\cdot R_{3}$$
-
-che conferma il valore del coefficiente $r_{21}$. **Questo coefficiente estradiagonale descrive un effetto non locale o di trasferimento**, ovvero qual è l’effetto di $I_{1}$ alla porta $1$ su $V_{2}$ alla porta 2, quando $I_{2}$ è spento.
