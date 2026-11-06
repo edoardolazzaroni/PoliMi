@@ -2176,4 +2176,13 @@ Questa configurazione porta alla rappresentazione coi parametri $h'$:
 
 $$I_{1}\quad=\quad h_{11}'\cdot V_{1}+h_{12}'+I_{1eq}\\ \\V_{2}=h_{21}'\cdot V_{1}+h_{22}'\cdot I_{2}+E_{2eq}\\ \\(6.27)$$
 
-e relativ
+e relativa matrice:
+
+$$\mathbf{H}'=\begin{vmatrix}
+h_{11}' & h_{12}' \\
+h_{21}' & h_{22}'
+\end{vmatrix}\quad \quad (6.28)$$
+
+
+
+- 
