@@ -2229,3 +2229,8 @@ R_{1} & 1 \\
 -1 & \frac{1}{R_{b}}
 \end{vmatrix}\quad \quad(6.33)$$
 
+
+
+
+Supponiamo ora di voler ricavare i parametri $t$ del doppio bipolo in figura, partendo dai parametri $h$ appena calcolati. Ricordando che nella rappresentazione $t$ le variabili dipendenti cioè che esplicitiamo sono $V_{1}$ ed $I_{1}$, elaboriamo sulla seconda delle $(6.32)$ per ricavare $I_{1}$:
+$$$$
