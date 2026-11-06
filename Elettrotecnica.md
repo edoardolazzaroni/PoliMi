@@ -2241,4 +2241,4 @@ $$V_{1}=-R_{a}\cdot I_{2}+\frac{R_{a}}{R_{b}}\cdot V_{2}+V_{2}$$
 
 Infine riordinando le $(6.35)$ e $(6.34)$ si deriva la rappresentazione T:
 
-$$$$
+$$V_{1}\quad=\quad\left( 1+\frac{R_{a}}{R_{b}} \right)\cdot V_{2}+R_{a}\cdot(-I_{2})\\ \\I_{1}\quad=\quad$$
