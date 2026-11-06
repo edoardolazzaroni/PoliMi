@@ -2068,3 +2068,9 @@ $$\mathbf{G}=\begin{vmatrix}
 
 Non essendovi generatori indipendenti interni al doppio bipolo, sono zero i termini $I_{eq}$.
 Anche in questo caso, è possibile verificare la correttezza dei coefficienti calcolati seguendo la via semplificata delle prove semplici. *Per esempio*, la prova semplice $(6.12)$ corrisponde al circuito in figura, da cui si trova:
+![[Elettrotecnica-1793974323189.webp|321]]
+#Figura(6.14). *Prova semplice*
+
+$$I_{1}=V_{1}\cdot\left( \frac{1}{R_{13}}+\frac{1}{R_{21}} \right)$$
+
+che conferma il valore di $
