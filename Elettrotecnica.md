@@ -2335,4 +2335,8 @@ R_{2}+R_{3} & -R_{3} \\
 
 L’equivalenza stella-triangolo si ha sse $\mathbf{G}{\star} = \mathbf{G}^{\nabla}$.
 Imponendo l’uguaglianza dei parametri $g_{12}$, si ha:
-$$R_{12}=\frac{R_{1}R_{2}+R_{1}R_{3}+R_{3}R_{}}$$
+$$R_{12}=\frac{R_{1}R_{2}+R_{1}R_{3}+R_{3}R_{2}}{R_{3}}=R_{1}+R_{2}+\frac{R_{1}R_{2}}{R_{3}}\quad(6.44)$$
+
+Quindi, imponendo l’uguaglianza dei parametri $g_{11}$ e $g_{11}$ e tenendo conto della $(6.44)$, si ricava:
+
+$$R_{13}=\frac{R_{1}R_{2}+R_{1}R_{3}+R_{3}R_{2}}{R_{3}}=R_{1}+R_{2}+\frac{R_{1}R_{2}}{R_{3}}\quad(6.44)$$
