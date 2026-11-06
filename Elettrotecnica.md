@@ -2220,4 +2220,4 @@ $$V_{1}=1 \ V_{2}\longrightarrow h_{12}=1\\ \\ I_{2}=\frac{V_{2}}{R_{b}}\longrig
 
 La rappresentazione H è dunque data dalle equazioni:
 
-$$$$
+$$V_{1}\quad=\quad R_{a}\cdot I_{1}+1\cdot V_{2}\\ \\I_{2}\quad=\quad(-1)\cdot I_{1}+\frac{1}{R_{b}}\cdot V_{2}\\ \\()$$
