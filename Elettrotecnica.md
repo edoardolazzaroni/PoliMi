@@ -2032,3 +2032,12 @@ R_{3} & R_{2}+R_{3}
 Non essendovi generatori indipendenti interni al doppio bipolo, sono zero i termini $E_{eq}$.
 È possibile verificare la correttezza dei coefficienti applicando le prove semplici. *Per esempio*, la prova semplice $(6.5)$ corrisponde al circuito in figura, da cui si trova:
 ![[Elettrotecnica-1793973360336.webp|422]]
+#Figura(6.12). *Prova semplice*
+
+$$V_{1}=I_{1}\cdot(R_{1}+R_{3})$$
+
+che conferma il valore di $r_{11}$. Questo coefficiente che appartiene alla diagonale della matrice descrive un effetto locale alla porta 1,
+
+ovvero qual è l’effetto di I1 su V1 quando I2 è spento. Dal circuito in
+
+fig. 1.12, si ricava anche che
