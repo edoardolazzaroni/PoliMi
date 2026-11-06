@@ -2203,4 +2203,5 @@ Si richiede il calcolo dei parametri H del doppio bipolo tripolare mostrato in f
 Riportiamo di seguito per comodità la rappresentazione H, senza termini dovuti ai generatori indipendenti:
 $$V_{1}\quad=\quad h_{11}\cdot I_{1}+h_{12}\cdot V_{2}+E_{1eq}\\ \\I_{2}\quad=\quad h_{21}\cdot I_{1}+h_{22}\cdot V_{2}+I_{2eq}\\ \\(6.31)$$
 
-La prima prova semplice è mostrata in figura 6.25, da cui si ricava:
+
+La **prima prova semplice** è mostrata in figura 6.25, da cui si ricava:
