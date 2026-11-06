@@ -2250,3 +2250,4 @@ Si fa notare che la stessa rappresentazione T si può ottenere riferendosi al ci
 Si ha:
 $$i_{b}=\frac{V_{2}}{R_{b}}$$
 da cui:
+$$I_{1}=i_{b}+(-I_{2})=\frac{V_{2}}{R_{b}}+(-)$$
