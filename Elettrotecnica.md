@@ -2174,7 +2174,7 @@ Chiaramente è possibile invertire le variabili di controllo alle porte, cioè i
 
 Questa configurazione porta alla rappresentazione coi parametri $h'$:
 
-$$I_{1}\quad=\quad h_{11}'\cdot V_{1}+h_{12}'+I_{1eq}\\ \\V_{2}=h_{21}'\cdot V_{1}+h_{22}'\cdot I_{2}+E_{2eq}\\ \\(6.27)$$
+$$I_{1}\quad=\quad h_{11}'\cdot V_{1}+h_{12}'+I_{1eq}\\ \\V_{2}\q yad=h_{21}'\cdot V_{1}+h_{22}'\cdot I_{2}+E_{2eq}\\ \\(6.27)$$
 
 e relativa matrice:
 
@@ -2185,4 +2185,4 @@ h_{21}' & h_{22}'
 
 
 
-- 
+- Un’ulteriore modalità di controllo del doppio bipolo consiste nel fissare come indipendenti entrambe le grandezze ad una porta e ricavare quelle all’altra porta in funzione delle prime. I relativi parametri vengono detti di trasmissione. La prima forma ha espressione:$$V_{1}\$$
