@@ -2207,7 +2207,7 @@ $$V_{1}\quad=\quad h_{11}\cdot I_{1}+h_{12}\cdot V_{2}+E_{1eq}\\ \\I_{2}\quad=\q
 
 
 La **prima prova semplice** è mostrata in figura 6.25, da cui si ricava:
-$$V_{1}=I_{1}R_{\alpha}\longrightarrow h_{11}=R_{\alpha}\\ \\ I_{2}=-I_{1}\longrightarrow h_{21}=-1$$
+$$V_{1}=I_{1}R_{a}\longrightarrow h_{11}=R_{a}\\ \\ I_{2}=-I_{1}\longrightarrow h_{21}=-1$$
 ![[Elettrotecnica-1793978187872.webp|294]]
 #Figura(6.25). *Prova semplice*
 
@@ -2220,4 +2220,12 @@ $$V_{1}=1 \ V_{2}\longrightarrow h_{12}=1\\ \\ I_{2}=\frac{V_{2}}{R_{b}}\longrig
 
 La rappresentazione H è dunque data dalle equazioni:
 
-$$V_{1}\quad=\quad R_{a}\cdot I_{1}+1\cdot V_{2}\\ \\I_{2}\quad=\quad(-1)\cdot I_{1}+\frac{1}{R_{b}}\cdot V_{2}\\ \\()$$
+$$V_{1}\quad=\quad R_{a}\cdot I_{1}+1\cdot V_{2}\\ \\I_{2}\quad=\quad(-1)\cdot I_{1}+\frac{1}{R_{b}}\cdot V_{2}\\ \\(6.32)$$
+
+o se si preferisce dalla matrice:
+
+$$\mathbf{H}=\begin{vmatrix}
+R_{1} & 1 \\
+-1 & \frac{1}{R_{b}}
+\end{vmatrix}\quad \quad(6.33)$$
+
