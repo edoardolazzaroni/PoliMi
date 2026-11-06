@@ -2006,3 +2006,7 @@ corrispondono alla configurazione circuitale mostrata in figura:
 #Figura(6.10). *Prova semplice per il calcolo di $I_{1eq}$ e $I_{2eq}$, entrambi i generatori esterni $V_{1}$ e $V_{2}$ sono spenti, cioè corto circuitati, agiscono solo le sorgenti interne*
 
 
+
+#### #Esercizio(vario) (1)
+
+Ci proponiamo di calcolare i parametri della rappresentazione R del doppio bipolo mostrato in figura 1.29. Esso nasce dal tripolo formato dal collegamento a stella di tre resistori. Data la semplicità, procedi-
