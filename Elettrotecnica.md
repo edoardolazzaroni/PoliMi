@@ -2149,8 +2149,7 @@ Il caso di un doppio bipolo è più ricco rispetto a quello del bipolo avendo a 
 	Le prove semplici mettono in evidenza il significato fisico dei parametri. Per esempio, i parametri che misurano l’effetto di $V_{1}$ sono:$$h_{11}=\frac{V_{1}}{I_{1}}|_{V_{2}=0; \ gen. \ OFF}\\ \\h_{21}=\frac{I_{2}}{I_{1}}|_{V_{2}=0; \ gen. \ OFF}\\ \\(6.24)$$
 	e corrispondono alal configurazione circuitale mostrata in figura:
 	![[Elettrotecnica-1793976051293.webp|377]]
-	#Figura(6.20). Prova semplice per il calcolo di $h_{11}$ e $h_{21}$: agisce il solo
+	#Figura(6.20). *Prova semplice per il calcolo di $h_{11}$ e $h_{21}$: agisce il solo generatore $I_{1}$, sono spente le sorgenti interne*
 
-generatore I1, sono spente le sorgenti
-
-interne.
+	
+	In modo simile, i parametri che misurano l’effetto di $V_{2}$ sono:$$h_{12}=\frac{V_{1}}{V_{1}}|_{V_{2}=0; \ gen. \ OFF}\\ \\h_{21}=\frac{I_{2}}{I_{1}}|_{V_{2}=0; \ gen. \ OFF}\\ \\(6.24)$$
