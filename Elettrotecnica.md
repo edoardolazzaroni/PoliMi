@@ -2236,4 +2236,9 @@ R_{1} & 1 \\
 Supponiamo ora di voler ricavare i parametri $t$ del doppio bipolo in figura, partendo dai parametri $h$ appena calcolati. Ricordando che nella rappresentazione $t$ le variabili dipendenti cioè che esplicitiamo sono $V_{1}$ ed $I_{1}$, elaboriamo sulla seconda delle $(6.32)$ per ricavare $I_{1}$:
 $$I_{1}=-I_{2}+\frac{1}{R_{b}}\cdot V_{2}\quad(6.34)$$
 
-Sostituendo quest’ultima eq. nella prima di (1.32), si ottiene
+Sostituendo quest’ultima equazione nella prima di $(6.32)$, si ottiene:
+$$V_{1}=-R_{a}\cdot I_{2}+\frac{R_{a}}{R_{b}}\cdot V_{2}+V_{2}$$
+
+Infine riordinando le $(6.35)$ e $(6.34)$ si deriva la rappresentazione T:
+
+$$$$
