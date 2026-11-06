@@ -2191,12 +2191,5 @@ h_{21}' & h_{22}'
 	La seconda forma ha espressione:$$V_{2}\quad=\quad t_{11}'\cdot V_{1}+t_{12}'\cdot(-I_{1})+V_{2eq}\\ \\I_{2}\quad=\quad t_{21}'\cdot V_{1}+t_{22}'\cdot(-I_{1})+I_{2eq}\\ \\(6.30)$$
 	in cui si scelgono come variabili indipendenti la tensione $V_{1}$ e la corrente $−I_{1}$ uscente dalla porta $1$.
 	
-	Si noti che i parametri di trasmissione non possono essere determinati riferendosi a configurazioni sperimentali simili a quelle viste per le altre rappresentazioni: questo perché non è possibile applicare simultaneamente un generatore di corrente ed uno di tensione alla stessa porta. Questa applicazione simultanea
+	Si noti che i parametri di trasmissione non possono essere determinati riferendosi a configurazioni sperimentali simili a quelle viste per le altre rappresentazioni: questo perché non è possibile applicare simultaneamente un generatore di corrente ed uno di tensione alla stessa porta. Questa applicazione simultanea richiede l’uso di un componente che vedremo in seguito, chiamato l’**amplificatore operazionale ideale**. I parametri $t$ possono essere derivati attraverso calcoli a partire da altre rappresentazioni, come mostrato in seguito.
 
-richiede l’uso di un componente che vedremo in seguito, chiamato
-
-l’amplificatore operazionale ideale. I parametri t possono essere
-
-derivati attraverso calcoli a partire da altre rappresentazioni, come
-
-mostrato in seguito.
