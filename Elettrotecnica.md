@@ -2022,3 +2022,10 @@ $$V_{1}=I_{1}\cdot R_{1}+(I_{1}+I_{2})\cdot R_{3}\\ \\ V_{2}=I_{2}\cdot R_{2}+(I
 
 da cui, riordinando si ottiene la rappresentazione voluta:
 $$V_{1}=I_{1}\cdot \overbrace{(R_{1}+R_{3})}^{r_{11}}+I_{2}\cdot \overbrace{R_{3}}{r_{12}}\\ \\ V_{2}=I_{1}\cdot \underbrace{R_{3}}_{r_{21}}+I_{2}\cdot \underbrace{(R_{2}+R_{3})}_{r_{22}}\\ \\(6.16)$$
+
+a cui corrisponde la matrice:
+$$\mathbf{R}=\begin{vmatrix}
+R_{1}+R_{3} & R_{3} \\
+R_{3} & R_{2}+R_{3}
+\end{vmatrix}\quad\quad(6.17)$$
+
