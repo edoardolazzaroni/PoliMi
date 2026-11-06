@@ -2105,4 +2105,8 @@ _{21}=r$$
 La seconda prova semplice è mostrata in figura 6.17. Osservando che:
 $$r\cdot I_{1}=0$$
 si ha:
-$$$$
+$$g\cdot v+v\frac{1}{R}=I_{2}\longrightarrow V_{2}=v=I_{2}\frac{1}{g+\frac{1}{R}}$$
+dunque:
+$$r_{22}=\frac{1}{g+\frac{1}{R}}$$
+
+Inoltre,
