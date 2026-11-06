@@ -2243,6 +2243,10 @@ Infine riordinando le $(6.35)$ e $(6.34)$ si deriva la rappresentazione T:
 
 $$V_{1}\quad=\quad\left( 1+\frac{R_{a}}{R_{b}} \right)\cdot V_{2}+R_{a}\cdot(-I_{2})\\ \\I_{1}\quad=\quad \frac{1}{R_{b}}\cdot V_{2}+1\cdot(-I_{2})\\ \\(6.36)$$
 
-Si fa notare che la stessa rappresentazione T si può ottenere riferendosi al circuito mostrato in figura 6.27, in cui il doppio bipolo è collegato a due bipoli non meglio precisati. Supponendo note le variabili alla porta $2$, disegnate in blu, si possono ricavare quelle alla porta $1$,
+Si fa notare che la stessa rappresentazione T si può ottenere riferendosi al circuito mostrato in figura 6.27, in cui il doppio bipolo è collegato a due bipoli non meglio precisati. Supponendo note le variabili alla porta $2$, disegnate in blu, si possono ricavare quelle alla porta $1$, disegnate in rosso.
+![[Elettrotecnica-1793978798454.webp|331]]
+#Figura(6.27). *Circuito per il calcolo diretto dei parametri T*
 
-disegnate in rosso. Si ha:
+Si ha:
+$$i_{b}=\frac{V_{2}}{R_{b}}$$
+da cui:
