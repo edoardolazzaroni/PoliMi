@@ -2047,3 +2047,9 @@ corrispondono alla configurazione circuitale mostrata in figura:
 
 #### #Esercizio(vario) (2)
 
+Proponiamo ora il calcolo dei parametri G del doppio bipolo in figura:
+
+![[Elettrotecnica-1793973639781.webp|415]]
+#Figura(6.13). *Circuito a triangolo*
+
+Questo doppio bipolo nasce dal tripolo formato dal collegamento a triangolo di tre resistori. Anche in questo caso è possibile
