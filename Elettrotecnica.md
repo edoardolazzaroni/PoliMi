@@ -2213,4 +2213,4 @@ $$V_{1}=I_{1}R_{\alpha}\longrightarrow h_{11}=R_{\alpha}\\ \\ I_{2}=-I_{1}\longr
 
 
 La seconda prova è mostrata in figura 6.26, da cui si ricava:
-
+$$V_{1}=1 \ V_{2}\longrightarrow h_{12}=1\\ \\ I_{2}=\frac{V_{2}}{R_{b}}\longrightarrow h_{22}=\frac{1/R_{b}$$
