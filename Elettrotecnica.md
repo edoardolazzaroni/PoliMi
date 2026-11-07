@@ -2347,4 +2347,11 @@ $$R_{13}=\frac{R_{1}R_{2}+R_{1}R_{3}+R_{3}R_{2}}{R_{2}}=R_{1}+R_{3}+\frac{R_{1}R
 
 Per ricavare le trasformazioni inverse, procediamo invertendo la matrice $\mathbf{G}$ del triangolo in modo da ricavarne la $\mathbf{R}$. Nel far ciò, per comodità, utilizziamo la notazione dei parametri $G_{ik}=\frac{1}{R_{ik}}$. Si ha :
 
-$$\mathbf{R}^{\nabla}=\frac{1}{G_{12}G_{23}+G_{13}G_{12}+G_{12}G_{23}}$$
+$$\mathbf{R}^{\nabla}=\frac{1}{G_{12}G_{23}+G_{13}G_{12}+G_{12}G_{23}}\begin{vmatrix}
+G_{23}+G_{12} & G_{12} \\
+G_{12} & G_{13}+G_{12}
+\end{vmatrix}\quad \quad (6.47)$$
+
+Quindi imponiamo l’uguaglianza delle matrici $\mathbf{R}{\nabla} = \mathbf{R}^{\nabla}$. Partiamo
+
+coi termini r12:
