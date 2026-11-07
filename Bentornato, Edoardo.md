@@ -60,7 +60,7 @@ SORT due DESC
 	
 	[[Geometria e Algebra Lineare]]
 	[[Fondamenti di Informatica]]
-	[[![[image.png|banner-fade|471]]Elettrotecnica]]
+	[[Elettrotecnica]]
 	[[Algoritmi e Principi dell'Informatica]]
 
 
