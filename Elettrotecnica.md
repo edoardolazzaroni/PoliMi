@@ -2359,4 +2359,7 @@ e poi passiamo ai termini $r_{11}$ e $r_{22}$ tenendo conto dell'ultima equazion
 
 $$R_{1}=\frac{G_{23}}{G_{13}G_{23}+G_{13}G_{12}+G_{12}+G_{23}}\quad(6.49)\\ \\R_{2}=\frac{G_{13}}{G_{13}G_{23}+G_{13}G_{12}+G_{12}+G_{23}}\quad(6.50)$$
 
-Queste relazioni 
+**Queste relazioni rappresentano le trasformazioni triangolo-stella**.
+
+Esse possono essere ulteriormente ridotte in una forma più semplice da ricordare; per questo, torniamo ad esprimere le conduttanze del circuito a triangolo in termini di resistenze, risulta:
+$$R_{3}=\frac{G_{12}}{G_{12}G_{23}+G_{13}G_{12}+G_{12}+G_{23}}\quad(6.48)$$
