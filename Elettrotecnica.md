@@ -2364,6 +2364,7 @@ $$R_{1}=\frac{G_{23}}{G_{13}G_{23}+G_{13}G_{12}+G_{12}+G_{23}}\quad(6.49)\\ \\R_
 Esse possono essere ulteriormente ridotte in una forma più semplice da ricordare; per questo, torniamo ad esprimere le conduttanze del circuito a triangolo in termini di resistenze, risulta:
 $$R_{3}=\frac{R_{23}R_{12}}{R_{12}+R_{23}+R_{13}}\quad(6.51)\\ \\R_{1}=\frac{R_{13}R_{12}}{R_{12}+R_{23}+R_{13}}\quad(6.52)\\ \\R_{2}=\frac{R_{21}R_{23}}{R_{12}+R_{23}+R_{13}}\quad(6.53)$$
 
+
 Riassumendo la procedura per la trasformazione stella-triangolo è illustrata in figura 6.31, dove per sottolineare il metodo indipendentemente dai simboli si sono rinominate le resistenze:
 ![[Elettrotecnica-1794084845063.webp|687]]
 #Figura(6.31). *Trasformazione stella-triangolo*
@@ -2371,5 +2372,10 @@ Riassumendo la procedura per la trasformazione stella-triangolo è illustrata in
 
 La procedura per la trasformazione triangolo-stella è invece illustrata in figura:
 
-![[Elettrotecnica-1794084883557.webp]]
-#Figura(6.32). *Trasformazione tri-triangolo*
+![[Elettrotecnica-1794084883557.webp|677]]
+#Figura(6.32). *Trasformazione triangolo-stella*
+
+
+
+## 6.6 **Amplificatore operazionale**
+
