@@ -2345,3 +2345,4 @@ $$R_{13}=\frac{R_{1}R_{2}+R_{1}R_{3}+R_{3}R_{2}}{R_{2}}=R_{1}+R_{3}+\frac{R_{1}R
 **Queste relazioni rappresentano le trasformazioni stella-triangolo**.
 
 
+Per ricavare le trasformazioni inverse, procediamo invertendo la matrice $\mathbf{G}$ del triangolo in modo da ricavarne la $\mathbf{R}$. Nel far ciò, per comodità, utilizziamo la notazione dei parametri $G_{ik}=\7$. Si ha :
