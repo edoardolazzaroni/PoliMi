@@ -2355,4 +2355,8 @@ G_{12} & G_{13}+G_{12}
 Quindi imponiamo l’uguaglianza delle matrici $\mathbf{R}{\nabla} = \mathbf{R}^{\star}$. Partiamo coi termini $r_{12}$:
 $$R_{3}=\frac{G_{12}}{G_{12}G_{23}+G_{13}G_{12}+G_{12}+G_{23}}\quad(6.48)$$
 
-e poi passiamo ai termini $r_{11}$ e $r_{22}$
+e poi passiamo ai termini $r_{11}$ e $r_{22}$ tenendo conto dell'ultima equazione, si ha:
+
+$$R_{1}=\frac{G_{23}}{G_{13}G_{23}+G_{13}G_{12}+G_{12}+G_{23}}\quad(6.49)\\ \\R_{2}=\frac{G_{13}}{G_{13}G_{23}+G_{13}G_{12}+G_{12}+G_{23}}\quad(6.50)$$
+
+Queste relazioni 
