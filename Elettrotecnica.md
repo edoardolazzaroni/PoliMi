@@ -2352,6 +2352,7 @@ G_{23}+G_{12} & G_{12} \\
 G_{12} & G_{13}+G_{12}
 \end{vmatrix}\quad \quad (6.47)$$
 
-Quindi imponiamo l’uguaglianza delle matrici $\mathbf{R}{\nabla} = \mathbf{R}^{\nabla}$. Partiamo
+Quindi imponiamo l’uguaglianza delle matrici $\mathbf{R}{\nabla} = \mathbf{R}^{\star}$. Partiamo coi termini $r_{12}$:
+$$R_{3}=\frac{G_{12}}{G_{12}G_{23}+G_{13}G_{12}+G_{12}+G_{23}}\quad(6.48)$$
 
-coi termini r12:
+e poi passiamo ai termini $r_{11}$ e $r_{22}$
