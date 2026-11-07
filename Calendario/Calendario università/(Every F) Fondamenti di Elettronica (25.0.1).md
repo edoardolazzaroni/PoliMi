@@ -4,7 +4,8 @@ allDay: false
 startTime: 10:15
 endTime: 13:00
 type: recurring
-daysOfWeek: [F]
+daysOfWeek:
+  - F
 startRecur: 2026-09-18
 endRecur: 2026-12-19
 ---

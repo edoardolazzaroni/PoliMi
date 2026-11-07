@@ -1,5 +1,5 @@
 ---
-title: "The Easiest Way to Connect Your Obsidian Vault with Github"
+title: The Easiest Way to Connect Your Obsidian Vault with Github
 ---
 I watched a few videos on how to setup the obsidian-git plugin and it feels like most of them overcomplicate the process. So I decided to write a set of instructions and a video to show how easy it to accomplish this even if you have no idea what "git" is.
 

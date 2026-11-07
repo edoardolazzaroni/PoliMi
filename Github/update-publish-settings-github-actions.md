@@ -1,5 +1,5 @@
 ---
-title: "Update the Publish Settings"
+title: Update the Publish Settings
 ---
 There are two things you can modify in the workflow. The publish directory and the blog repository.
 

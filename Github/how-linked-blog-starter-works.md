@@ -1,5 +1,5 @@
 ---
-title: "How the Linked Blog Starter works"
+title: How the Linked Blog Starter works
 date: 2022-12-30
 ---
 1. Notes are updated in your Obsidian Vault
