@@ -1,4 +1,4 @@
-![[im|banner-fade]]
+![[image-1.png|banner-fade]]
 
 # **Capitolo I: Il modello circuitale**
 
