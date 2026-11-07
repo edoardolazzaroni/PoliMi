@@ -2362,4 +2362,12 @@ $$R_{1}=\frac{G_{23}}{G_{13}G_{23}+G_{13}G_{12}+G_{12}+G_{23}}\quad(6.49)\\ \\R_
 **Queste relazioni rappresentano le trasformazioni triangolo-stella**.
 
 Esse possono essere ulteriormente ridotte in una forma più semplice da ricordare; per questo, torniamo ad esprimere le conduttanze del circuito a triangolo in termini di resistenze, risulta:
-$$R_{3}=\frac{G_{12}}{G_{12}G_{23}+G_{13}G_{12}+G_{12}+G_{23}}\quad(6.48)$$
+$$R_{3}=\frac{R_{23}R_{12}}{R_{12}+R_{23}+R_{13}}\quad(6.51)\\ \\R_{1}=\frac{R_{13}R_{12}}{R_{12}+R_{23}+R_{13}}\quad(6.52)\\ \\R_{2}=\frac{R_{21}R_{23}}{R_{12}+R_{23}+R_{13}}\quad(6.53)$$
+
+Riassumendo la procedura per la trasformazione stella−→triangolo
+
+è illustrata in fig. 1.31 dove per sottolineare il metodo indipendente-
+
+mente dai simboli si sono rinominate le resistenze. La procedura per
+
+la trasformazione triangolo−→stella è invece illustrata in fig. 1.32.
