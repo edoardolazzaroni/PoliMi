@@ -2420,16 +2420,8 @@ si ha che per $A\rightarrow \infty$:
 
 $$V_{i}=0\\I_{i}=0\\ \\(6.54)$$
 
-Quindi, l’op-amp inserito in una rete di retroazione e con amplificazione infinita si comporta come un doppio bipolo con tensione e corrente nulle alla porta di ingresso come mostrato in 1.37(Destra).
+Quindi, l’op-amp inserito in una rete di retroazione e con amplificazione infinita si comporta come un doppio bipolo con tensione e corrente nulle alla porta di ingresso come mostrato in 6.37 (Destra).
 
-Le equazioni (1.54) rappresentano il legame costitutivo del modello
+Le equazioni $(6.54)$ rappresentano il legame costitutivo del modello di op-amp ideale.
+Si noti come tali equazioni non forniscono alcuna informazione circa i valori della tensione $V_{o}$ e corrente Io alla porta di uscita. In pratica, il modello ideale di op-amp viene impiegato per semplificare l’analisi ed il progetto dei circuiti che lo contengono per valori sufficientemente grandi dell’amplificazione (*as esempio* $A > 100$).
 
-di op-amp ideale. Si noti come tali equazioni non forniscono alcuna
-
-informazione circa i valori della tensione Vo e corrente Io alla porta
-
-di uscita. In pratica, il modello ideale di op-amp viene impiegato per
-
-semplificare l’analisi ed il progetto dei circuiti che lo contengono per
-
-valori sufficientemente grandi dell’amplificazione (es. A > 100).
