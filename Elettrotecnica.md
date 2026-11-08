@@ -2598,6 +2598,7 @@ In questa sezione impariamo a descrivere grandezze elettriche che sono funzioni 
 $$x(t)=X_{m}\cos(\omega t+\phi)\quad\quad(7.1)$$
 
 dove il parametro $X_{m}$ viene detto **ampiezza** o valore di picco, $\omega$ è la **pulsazione** e $\phi$ la **fase** o angolo. Per comprendere il significato di tali parametri, partiamo considerando il caso semplificato in cui $\phi=0$ e dunque la grandezza si riduce a $x(t) = X_{m} \cos(\omega t)$ come mostrato in figura:
-
+![[Elettrotecnica-1794148040908.webp|442]]
+#Figura(7.1). 
 
 Il parametro Xm semplicemente scala la funzione coseno (il
