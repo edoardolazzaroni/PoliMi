@@ -2503,22 +2503,27 @@ Potremmo chiederci: da dove viene tale potenza ? La risposta è semplice: dalle 
 
 #### #Esercizio(amplificatore operazionale) (2)
 
-Nel secondo esercizio analizziamo il comportamento del circuito mostrato in figura:
-![[Elettrotecnica-1794145857052.webp|337]]
-#Figura(6.42). *Stadio non invertente*
+> [!question] Esercizio
+> Nel secondo esercizio analizziamo il comportamento del circuito mostrato in figura:
+> ![[Elettrotecnica-1794145857052.webp|337]]
+> #Figura(6.42). *Stadio non invertente*
+> 
+> In questo caso per semplicità l’uscita non è stata connessa ad alcun carico. Dalla maglia di ingresso, utilizzando il modello ideale di op-amp, notiamo che:
+> $$v_{1}=E$$
+> cioè la tensione della sorgente cade tutta sul resistore $R_{1}$ la cui corrente è:
+> $$i_{1}=\frac{E}{R_{1}}$$
+> Tale corrente scorre anche nel resistore $R_{2}$ producendo una tensione:
+> $$v_{2}=i_{2}\cdot R_{2}=\frac{E}{R_{1}}\cdot R_{2}$$
+> Infine, dalla KVL alla maglia di uscita troviamo che:
+> $$V_{o}=v_{1}+v_{2}=E\cdot\left( 1+\frac{R_{2}}{R_{1}} \right)$$
+> 
+> Questo circuito produce un’amplificazione della tensione di ingresso del fattore $1 + \frac{R2}{R_{1}}$ mantenendone il segno. Per questo viene comunemente indicato col nome di **stadio di amplificazione non invertente**.
+> 
+> Si noti che **la trattazione svolta NON muta se si tiene conto di un resistore collegato all’uscita**. Tuttavia il resistore di carico modificherà la corrente $I_{o}$.
 
-In questo caso per semplicità l’uscita non è stata connessa ad alcun carico. Dalla maglia di ingresso, utilizzando il modello ideale di op-amp, notiamo che:
-$$v_{1}=E$$
-cioè la tensione della sorgente cade tutta sul resistore $R_{1}$ la cui corrente è:
-$$i_{1}=\frac{E}{R_{1}}$$
-Tale corrente scorre anche nel resistore $R_{2}$ producendo una tensione:
-$$v_{2}=i_{2}\cdot R_{2}=\frac{E}{R_{1}}\cdot R_{2}$$
-Infine, dalla KVL alla maglia di uscita troviamo che:
-$$V_{o}=v_{1}+v_{2}=E\cdot\left( 1+\frac{R_{2}}{R_{1}} \right)$$
 
-Questo circuito produce un’amplificazione della tensione di ingresso del fattore $1 + \frac{R2}{R_{1}}$ mantenendone il segno. Per questo viene comunemente indicato col nome di **stadio di amplificazione non invertente**.
+#### #Esercizio(amplificatore operazionale) (3)
 
-Si noti che **la trattazione svolta NON muta se si tiene conto di un resistore collegato all’uscita**. Tuttavia il resistore di carico modificherà la corrente $I_{o}$.
+Infine, come ulteriore esempio vediamo cosa accade quando nel circuito in [[|figura 6.42 la resistenza R1 →∞, cioè diventa un circuito
 
-
-
+aperto.
