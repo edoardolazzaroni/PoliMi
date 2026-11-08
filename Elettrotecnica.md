@@ -2636,3 +2636,7 @@ dove è evidente che $\frac{\phi}{\omega}$ gioca il ruolo del parametro $a$ vist
 ![[Elettrotecnica-1794161324785.webp|445]]
 #Figura(7.3). *Effetto del parametro fase*
 
+
+Per esempio, si consideri quando tale intervallo vale un quarto di periodo, come mostrato in figura 1.4(Alto) si ottiene la funzione
+
+−Xm sin(ωt).
