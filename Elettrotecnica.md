@@ -2425,3 +2425,8 @@ Quindi, l’op-amp inserito in una rete di retroazione e con amplificazione infi
 Le equazioni $(6.54)$ rappresentano il legame costitutivo del modello di op-amp ideale.
 Si noti come tali equazioni non forniscono alcuna informazione circa i valori della tensione $V_{o}$ e corrente Io alla porta di uscita. In pratica, il modello ideale di op-amp viene impiegato per semplificare l’analisi ed il progetto dei circuiti che lo contengono per valori sufficientemente grandi dell’amplificazione (*as esempio* $A > 100$).
 
+
+
+#### #Esercizio(amplificatore operazionale)
+
+Approfondiamo ora la comprensione del significato di modello ideale svolgendo l’analisi del circuito esempio mostrato in figura:
