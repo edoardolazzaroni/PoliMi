@@ -2460,4 +2460,8 @@ Vedremo che **le due strade portano allo stesso risultato finale**.
 
 Concludiamo che:
 
-1) Il modello ideale fornisce esattamente lo stesso risultato del modello realistico se $A\to in$.
+1) Il modello ideale fornisce esattamente lo stesso risultato del modello realistico se $A\to \infty$;
+2) Tale risultato non dipende dal valore $A$ ma solo dal generatore e dal resistore di retroazione;
+3) Nella pratica, per valori tipici di $A$ (*ad esempio* $≥102$), il risultato fornito dal modello ideale si differenzia da quello fornito dal modello realistico per meno di $1 \ $. Questa precisione è più che sufficiente
+
+per l’analisi "a mano" e il predimensionamento elettronico.
