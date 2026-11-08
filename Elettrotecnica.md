@@ -2412,4 +2412,7 @@ Il modello potrebbe essere complicato ulteriormente introducendo altri effetti d
 
 Accanto al modello realistico, esiste un modello ideale ulteriormente semplificato che viene ampiamente utilizzato nelle fasi preliminari di progetto elettronico e che è indispensabile padroneggiare: il modello ideale si applica quando l’op-amp è inserito in una rete elettrica come mostrato in figura (Sinistra), dove la porta di ingresso e quella di uscita sono collegate a due bipoli esterni, inoltre **il morsetto d’uscita è collegato ad uno di quelli in ingresso attraverso un bipolo detto di retroazione**.
 ![[Elettrotecnica-1794137824132.webp|500]]
-#Figura(6.37). 
+#Figura(6.37). *Op-amp inserito in una rete con retroazione e suo modello ideale di tipo doppio bipolo*
+
+In queste condizioni, come verificheremo nell’analisi successiva, la tensione $V_{o}$ si mantiene di valore limitato (all’interno dell’intervallo di linearità) anche per valori infinitamente grandi dell’amplificazione $A$. Poiché vale:
+$$V_{I}=\frac{V_{o}}{A}\quad\quad I_{i}=\frac{V_{i}}{}$$
