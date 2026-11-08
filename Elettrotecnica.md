@@ -2566,6 +2566,13 @@ Ovvero <u>questo particolare bipolo assorbe una potenza elettrica totale nulla</
 $$V_{1}\cdot I_{1}=V_{2}\cdot(-I_{2})$$
 si può affermare che la potenza elettrica assorbita (o entrante alla porta $1$) è uguale alle potenza erogata (o uscente) dalla porta $2$, come mostrato in figura:
 ![[Elettrotecnica-1794146920785.webp|474]]
-#Figura(6.45). 
+#Figura(6.45). *Il trasformatore ideale eroga in uscita tutta e sola la potenza che assorbe in ingresso*
 
-Questa figura mostra l’essenza del dispositivo
+
+Questa figura mostra l’essenza del dispositivo trasformatore incorporata nel suo modello ideale: il trasformatore ideale riduce di un fattore $k$ la tensione $V_{1}$ in ingresso e contemporaneamente incrementa dello stesso fattore la corrente $I_{1}$ senza alterare la potenza in gioco. Per questo viene utilizzato in un vasto numero di applicazioni in cui si deve passare da una rete che lavora con valori elevati di tensione ad una che richiede tensioni molto più ridotte (*ad esempio* dalla rete di distribuzione ad un calcolatore).
+
+Vediamo un’altra proprietà del trasformatore con l’aiuto di figura 6. dove un bipolo equivalente di tipo serie è collegato alla porta 2.
+
+Si vuole determinare il modello equivalente, cioè il legame I, V, visto
+
+alla porta 1. Si ha:
