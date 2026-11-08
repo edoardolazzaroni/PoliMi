@@ -2532,18 +2532,11 @@ Questo caso è mostrato in figura (Sinistra):
 Dal circuito di sinistra, vediamo come la tensione al nodo $A$ rispetto al filo di riferimento è uguale a $E$ e quindi $V_{o} = E$ indipendentemente dal carico applicato.
 Per questo motivo questo circuito viene comunemente indicato col nome di **inseguitore di tensione**.
 
-Nella figura 6.43 (Destra) l’inseguitore è ridisegnato come si usa fare negli schemi elettronici, si noti che la resistenza $R_{2}$ è stata sostituita da un filo (i.e. un corto cir-
+Nella figura 6.43 (Destra) l’inseguitore è ridisegnato come si usa fare negli schemi elettronici, si noti che la resistenza $R_{2}$ è stata sostituita da un filo (*per esempio* un corto circuito).
+Questa sostituzione è ininfluente dato che $R_{2}$ è attraversato da corrente nulla: è lecito chiedersi: ma a che serve un dispositivo che riporta una tensione tale e quale a se stessa ?
 
-cuito). Questa sostituzione è ininfluente dato che R2 è attraversato da
+La risposta è che questo circuito "disaccoppia" ciò che è collegato in ingresso al nodo $+$ dal carico in uscita, ovvero l’ingresso e il carico non sono collegati elettricamente e non si influenzano tra di loro, possono dunque essere progettati separatamente in modo modulare.
 
-corrente nulla. E’ lecito chiedersi: ma a che serve un dispositivo che
 
-riporta una tensione tale e quale a se stessa ? La risposta è che questo
 
-circuito "disaccoppia" ciò che è collegato in ingresso al nodo + dal
-
-carico in uscita, ovvero l’ingresso e il carico non sono collegati elet-
-
-tricamente e non si influenzano tra di loro, possono dunque essere
-
-progettati separatamente in modo modulare.
+## 6.8 **Trasformator**
