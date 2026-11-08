@@ -2608,3 +2608,12 @@ da cui otteniamo:
 $$T=\frac{2\pi}{\omega}\quad Periodo \ [s] \\ \\\omega = \frac{2\pi}{T}\quad  Pulsazione \ \left[ \frac{rad}{s} \right] \\ \\ f=\frac{1}{T}=\frac{\omega}{2\pi}\quad Frequenza \ [s^{-1}=Hz]$$
 
 l'unità di misura della **frequenza** è l'Hertz [Hz].
+Una grandezza periodica, che talvolta indicheremo anche come <u>segnale periodico</u> o forma d’onda periodica, con periodo $T$ ripete i suoi valori ogni $T$ secondi.
+
+La frequenza è l’inverso del periodo, cioè ci dice quante volte si ripete un dato valore in un periodo. Consideriamo quale esempio il segnale di clock in un calcolatore che ha freqeunze tipica
+
+di circa 3GHz= 3 · 109Hz: questo significa che in un secondo esso
+
+si ripete 3 miliardi di volte, mentre il suo periodo è di circa 333 pico
+
+10−12 secondi.
