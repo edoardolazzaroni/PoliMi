@@ -2549,5 +2549,15 @@ Il simbolo adottato in Teoria dei circuiti è mostrato in figura, dove il parame
 ![[Elettrotecnica-1794146635548.webp|324]]
 #Figura(6.44). *Il doppio bipolo trasformatore ideale*
 
+
  Il legame costitutivo è dato da:
 $$V_{1}=k\cdot V_{2}\\ \\I_{1}=-\frac{1}{k}\cdot I_{2}\\ \\(6.58)$$
+e corrisponde alla matrice dei parametri di trasmissione $T$ data da:
+$$\mathbf{T}=\begin{vmatrix}
+k & 0 \\
+0 & \frac{1}{k}
+\end{vmatrix}\quad\quad(6.59)$$
+
+Il comportamento è il seguente: la tensione $V_{1}$ é pari a $V_{2}$ amplificata del fattore $k, mentre la corrente I1 è data da I2 (cambiata di segno)
+
+ridotta dello stesso fattore.
