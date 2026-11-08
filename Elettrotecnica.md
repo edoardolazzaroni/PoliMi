@@ -2545,4 +2545,6 @@ Potremmo chiederci: da dove viene tale potenza ? La risposta è semplice: dalle 
 Introduciamo il modello ideale di un altro dispositivo estremamente diffuso nelle applicazioni elettriche ed elettroniche: il **trasformatore**.
 
 Sottolineiamo come il trasformatore fisico funziona in presenza di grandezze elettriche variabili nel tempo, come vedremo, nelle note successive; tuttavia il suo modello ideale può essere presentato nel contesto dei doppi bipoli.
-Il simbolo adottato in Teoria dei circuiti è mostrato in fig dove il parametro k è indicato come rapporto di
+Il simbolo adottato in Teoria dei circuiti è mostrato in figura, dove il parametro $k$ è indicato come <u>rapporto di trasformazione</u>. Il legame costitutivo è dato da:
+$$V_{1}=k\cdot V_{2}\\ \\I_{1}=-\frac{1}{k}\cdot I_{2}\\ \\(6.58)$$
+
