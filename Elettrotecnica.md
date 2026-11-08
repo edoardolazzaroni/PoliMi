@@ -2605,10 +2605,6 @@ Il parametro $X_{m}$ semplicemente scala la funzione coseno (il cui massimo sapp
 Poiché $\cos(· )$ è periodico di periodo $2\pi$, abbiamo che anche $x(t)$ è periodico ed il suo periodo $T$ è quel valore del tempo $t= T$ per cui l’argomento del coseno vale $2\pi$, ovvero:
 $$\omega T=2\pi$$
 da cui otteniamo:
-$$T=\frac{2\pi}{\omega}\quad Periodo \ [s] \\ \\\omega = \frac{2\pi}{T}\quad  Pulsazione \ \left[ \frac{rad}{s} \right] \\ \\ f=\frac{1}{T}=$$
-**[Periodo (s)]**
+$$T=\frac{2\pi}{\omega}\quad Periodo \ [s] \\ \\\omega = \frac{2\pi}{T}\quad  Pulsazione \ \left[ \frac{rad}{s} \right] \\ \\ f=\frac{1}{T}=\frac{\omega}{2\pi}\quad Frequenza \ [s^{-1}=Hz]$$
 
-o alternativamente:
-$$\omega = \frac{2\pi}{T}$$
-
-**[Periodo (s)]**
+l'unità di misura della **frequenza** è l'Hertz [Hz].
