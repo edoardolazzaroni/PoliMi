@@ -2638,4 +2638,7 @@ dove è evidente che $\frac{\phi}{\omega}$ gioca il ruolo del parametro $a$ vist
 
 
 Per esempio, si consideri quando tale intervallo vale un quarto di periodo, come mostrato in figura 7.4 (Alto) si ottiene la funzione $−X_{m} \sin(\omega \ t)$.
-
+Ricordando che $\omega = \frac{2\pi}{T}$ si ha che la fase corrispondente vale:
+$$\frac{\phi}{\omega}=\frac{T}{4}\longrightarrow \phi=\frac{\pi}{2}$$
+ovvero:
+$$$$
