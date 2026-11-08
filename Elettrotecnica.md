@@ -2599,7 +2599,7 @@ $$x(t)=X_{m}\cos(\omega t+\phi)\quad\quad(7.1)$$
 
 dove il parametro $X_{m}$ viene detto **ampiezza** o valore di picco, $\omega$ è la **pulsazione** e $\phi$ la **fase** o angolo. Per comprendere il significato di tali parametri, partiamo considerando il caso semplificato in cui $\phi=0$ e dunque la grandezza si riduce a $x(t) = X_{m} \cos(\omega t)$ come mostrato in figura:
 ![[Elettrotecnica-1794148040908.webp|442]]
-#Figura(7.1). Funzione $X_{m} \cos(\omega t)$
+#Figura(7.1). *Funzione $X_{m} \cos(\omega t)$*
 
 Il parametro $X_{m}$ semplicemente scala la funzione coseno (il cui massimo sappiamo valere uno) e la sua unità di misura è la stessa della grandezza $x(t)$ (*ad esempio* sarà in volt se la grandezza è una tensione o ampere se la grandezza è una corrente).
 Poiché $\cos(· )$ è periodico di periodo $2\pi$, abbiamo che anche $x(t)$ è periodico ed il suo periodo $T$ è quel valore del tempo $t= T$ per cui l’argomento del coseno vale $2\pi$, ovvero:
@@ -2613,4 +2613,8 @@ Una grandezza periodica, che talvolta indicheremo anche come <u>segnale periodic
 La frequenza è l’inverso del periodo, cioè ci dice quante volte si ripete un dato valore in un periodo. Consideriamo quale esempio il segnale di clock in un calcolatore che ha frequenza tipica di circa $3 \ GHz= 3 \cdot 10^{9} \ Hz$: questo significa che in un secondo esso si ripete 3 miliardi di volte, mentre il suo periodo è di circa $333$ pico $10^{-12}$ secondi.
 Nella trasmissione 5G, attualmente si utilizzano dei segnali sinusoidali (portante) con frequenza fino a $90 \ GHz$, ovvero con periodo di circa $11$ pico secondi.
 
-Veniamo ora al significato del parametro fase. Per questo premettiamo il concetto di anticipo o ritardo di una funzione (o segnale) del tempo. Sia $g(t)$ una funzione del tempo con andamento mostrato in figura (Alto) che raggiunge il suo massimo in $t_{}$. Dato un numero
+Veniamo ora al significato del parametro fase. Per questo premettiamo il concetto di anticipo o ritardo di una funzione (o segnale) del tempo. Sia $g(t)$ una funzione del tempo con andamento mostrato in figura (Alto) che raggiunge il suo massimo in $t_{0}$:
+![[Elettrotecnica-1794160981768.webp|301]]
+#Figura(7.2). *Shift temporale della funzione $g(t)$*
+
+Dato un numero
