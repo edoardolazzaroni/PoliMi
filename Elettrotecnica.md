@@ -2437,8 +2437,11 @@ L’op-amp è collegato in ingresso ad una sorgente ideale di corrente ed a un r
 
 Procederemo in due modi distinti:
 
-1) risolviamo il circuito utilizzando il modello realistico e quindi vediamo come si trasforma la soluzione quando $A\rightarrow \infty$; 2) risolviamo il circuito con il modello
+1) risolviamo il circuito utilizzando il modello realistico e quindi vediamo come si trasforma la soluzione quando $A\rightarrow \infty$;
+2) risolviamo il circuito con il modello di op-amp ideale.
 
-di op-amp ideale. Vedremo che le due strade portano allo stesso
+Vedremo che **le due strade portano allo stesso risultato finale**.
 
-risultato finale.
+
+1. Sostituiamo il modello realistico nel circuito ottenendo lo schema mostrato in figura: 
+2. Assumiamo come incognita la tensione $Vi_{i}$ (fate attenzione al verso). Applicando la KVL alla maglia centrale, si ricava:
