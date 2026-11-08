@@ -2383,13 +2383,16 @@ In questa sezione descriviamo un componente elettronico estremamente diffuso nel
 
 Il dispositivo fisico amplificatore operazionale (op-amp *dall’inglese "operational amplifier"*) si presenta come un componente elettronico con molti morsetti esterni.
 La figura mostra il caso di un op-amp con 5 morsetti, due di questi servono per alimentare il componente mentre i tre rimanenti sono quelli che elaborano le variabili elettriche in ingresso per produrre quella di uscita.
-![[Elettrotecnica-1794136557568.webp|414]]
+![[Elettrotecnica-1794136557568.webp|387]]
 
 #Figura(6.33). *Dispositivo amplificatore operazionale*
 
 La figura 6.34 mostra come il componente viene connesso a due batterie rappresentate da due generatori ideali di tensione collegate ad un filo di riferimento. Queste sorgenti "accendono" il dispositivo.
-![[Elettrotecnica-1794136589499.webp|521]]
+![[Elettrotecnica-1794136589499.webp|399]]
 #Figura(6.34). *Collegamento dell’op-amp alle alimentazioni*
 
 
 In questo modo si viene a formare un doppio bipolo in cui la porta uno è costituita dai due morsetti di ingresso $+$ e $−$ mentre la porta due è formata dal morsetto di uscita e dal riferimento. Il legame tra la tensione di ingresso $V_{i}$ e quella di uscita $V_{o}$ è descritto dalla curva caratteristica mostrata in figura:
+
+![[Elettrotecnica-1794136761266.webp|364]]
+#Figura(6.35).
