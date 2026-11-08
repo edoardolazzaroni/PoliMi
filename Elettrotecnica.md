@@ -2525,8 +2525,25 @@ Potremmo chiederci: da dove viene tale potenza ? La risposta è semplice: dalle 
 #### #Esercizio(amplificatore operazionale) (3)
 
 Infine, come ulteriore esempio vediamo cosa accade quando nel circuito in [[#Esercizio(amplificatore operazionale) (2)|figura 6.42]] la resistenza $R_{1} \to \infty$, cioè diventa un <u>circuito aperto</u>.
-uesto caso è mostrato in figura 6.43 (Sinistra):
+Questo caso è mostrato in figura (Sinistra):
 ![[Elettrotecnica-1794146247195.webp|631]]
 #Figura(6.43). *Due modi di disegnare un inseguitore di tensione*
 
 Dal circuito di sinistra, vediamo come la tensione al nodo $A$ rispetto al filo di riferimento è uguale a $E$ e quindi $V_{o} = E$ indipendentemente dal carico applicato.
+Per questo motivo questo circuito viene comunemente indicato col nome di **inseguitore di tensione**.
+
+Nella figura 6.43 (Destra) l’inseguitore è ridisegnato come si usa fare negli schemi elettronici, si noti che la resistenza $R_{2}$ è stata sostituita da un filo (i.e. un corto cir-
+
+cuito). Questa sostituzione è ininfluente dato che R2 è attraversato da
+
+corrente nulla. E’ lecito chiedersi: ma a che serve un dispositivo che
+
+riporta una tensione tale e quale a se stessa ? La risposta è che questo
+
+circuito "disaccoppia" ciò che è collegato in ingresso al nodo + dal
+
+carico in uscita, ovvero l’ingresso e il carico non sono collegati elet-
+
+tricamente e non si influenzano tra di loro, possono dunque essere
+
+progettati separatamente in modo modulare.
