@@ -2613,8 +2613,14 @@ Una grandezza periodica, che talvolta indicheremo anche come <u>segnale periodic
 La frequenza è l’inverso del periodo, cioè ci dice quante volte si ripete un dato valore in un periodo. Consideriamo quale esempio il segnale di clock in un calcolatore che ha frequenza tipica di circa $3 \ GHz= 3 \cdot 10^{9} \ Hz$: questo significa che in un secondo esso si ripete 3 miliardi di volte, mentre il suo periodo è di circa $333$ pico $10^{-12}$ secondi.
 Nella trasmissione 5G, attualmente si utilizzano dei segnali sinusoidali (portante) con frequenza fino a $90 \ GHz$, ovvero con periodo di circa $11$ pico secondi.
 
-Veniamo ora al significato del parametro fase. Per questo premettiamo il concetto di anticipo o ritardo di una funzione (o segnale) del tempo. Sia $g(t)$ una funzione del tempo con andamento mostrato in figura (Alto) che raggiunge il suo massimo in $t_{0}$:
+Veniamo ora al significato del parametro fase. Per questo <u>premettiamo il concetto di anticipo o ritardo di una funzione (o segnale) del tempo</u>. Sia $g(t)$ una funzione del tempo con andamento mostrato in figura (Alto) che raggiunge il suo massimo in $t_{0}$:
 ![[Elettrotecnica-1794160981768.webp|301]]
 #Figura(7.2). *Shift temporale della funzione $g(t)$*
 
-Dato un numero
+
+Dato un numero reale positivo $a$, consideriamo la funzione:
+$$g(t+a)$$
+il cui grafico è mostrato in figura (Medio). L’effetto del parametro $a$ è quello di **anticipare temporalmente** la forma d’onda rispetto a $g(t)$.
+Infatti massimo di $g(t + a)$ viene raggiunto quando l’argomento di
+
+g(· ) vale t0, cioè in:
