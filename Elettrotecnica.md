@@ -2479,4 +2479,8 @@ $$i_{1}=\frac{E}{R_{1}}$$
 mentre dal nodo di ingresso si ha:
 $$i_{2}=i_{1}$$
 La tensione sul resistore di retroazione risulta:
-$$v_{1}$$
+$$v_{1}=\frac{E}{R_{1}}\cdot R_{2}$$
+
+Infine applicando la KVL alla maglia che passa per il resistore di uscita (o di carico) $R_{3}$ la resistenza $R_{2}$ e i morsetti di ingresso dell’op-amp si trova:
+$$V_{o}=-v_{2}=E\cdot\frac{-R_{2}}{R_{1}}$$
+
