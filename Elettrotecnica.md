@@ -2488,4 +2488,7 @@ Si noti come la $V_{o}$ **non dipenda dal resistore** $R_{3}$ collegato all’us
 Questo circuito dunque amplifica la tensione $E$ della sorgente in ingresso di un fattore che dipende dal rapporto $\frac{R_{2}}{R_{1}}$ e ne cambia il segno; per questo viene comunemente indicato come **stadio di amplificazione invertente**.
 
 Completiamo l’analisi valutando la potenza elettrica assorbita dall’op-amp. Ricordiamo che <u>in un doppio bipolo la potenza elettrica assorbita è data dalla somma delle potenze assorbite dalle due porte che lo compongono</u>. In questo caso avremo:
-$$p_{op \ - \ amp}=V_{i}\cdot I$$
+$$p_{op \ - \ amp}=V_{i}\cdot I_{i}+V_{o}\cdot I_{o}=V_{o}\cdot I_{o}$$
+
+ovvero la potenza assorbita dal doppio bipolo coincide con quella assorbita alla porta di uscita. Calcoliamo $I_{o}$:
+$$I_{o}=i_{2}-i_{3}=\frac{E}{R_{1}}$$
