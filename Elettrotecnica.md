@@ -2404,6 +2404,14 @@ attraverso il parametro $A$ detto <u>amplificazione</u>.
 Al di fuori di tale intervallo la curva spiana, ovvero la tensione di uscita raggiunge o un valore massimo (legato al valore dell’alimentazione positiva) o un valore minimo (dovuto all’alimentazione negativa) detti <u>valori di saturazione</u>.
 
 Nell’ipotesi che funzioni nella zona lineare della sua caratteristica (ipotesi imposta nella maggior parte delle applicazioni), l’op-amp viene rappresentato come mostrato in figura (Sinistra), cioè omettendo le alimentazioni, e modellato ai fini esterni come il doppio bipolo in figura (Destra):
+![[Elettrotecnica-1794137722137.webp|566]]
+#Figura(6.36). *Modello realistico*
 
+Questo modello, che definiremo "realistico in continua", comprende una resistenza di ingresso $R_{i}$ alla porta uno ed un generatore di tensione pilotato in tensione alla porta due.
+Il modello potrebbe essere complicato ulteriormente introducendo altri effetti di second’ordine, per esempio una (piccola) resistenza di uscita $R_{o}$ in serie all’uscita. Tuttavia questo complicherebbe inutilmente la trattazione senza modificare le conclusioni.
 
-Questo modello, che definiremo "realistico in continua", comprende una resistenza di ingresso $R_{i}$ alla porta uno ed un generatore di tensione pilotato in tensione alla porta due. Il
+Accanto al modello realistico, esiste un modello ideale ulteriormente semplificato che viene ampiamente utilizzato nelle fasi preliminari di progetto elettronico e che è indispensabile padroneggiare:
+
+Il modello ideale si applica quando l’op-amp è inserito in una rete
+
+elettrica come mostrato in fig. 1.37(Sinistra): dove la porta di in-
