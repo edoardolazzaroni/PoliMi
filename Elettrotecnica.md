@@ -2625,8 +2625,6 @@ Infatti il massimo di $g(t + a)$ viene raggiunto quando l’argomento di $g(· )
 $$t+a=t_{0}\longrightarrow t=t_{0}-a$$
 Viceversa la funzione del tempo:
 $$g(t-a)$$
-mostrata in figura (Basso) sarà **ritardata temporalmente** di $a$ rispetto a $g(t)$ e quindi raggiunge il suo massimo in $t0 + a$. In sostanza
+mostrata in figura (Basso) sarà **ritardata temporalmente** di $a$ rispetto a $g(t)$ e quindi raggiunge il suo massimo in $t_{0} + a$.
+In sostanza l’effetto di un parametro sommato $a$ nell’argomento di una <mark class="hltr-yellow">funzione ha l’effetto di traslare nel tempo ("shifting") la forma d’onda</mark>.
 
-l’effetto di un parametro sommato a t nell’argomento di una funzione
-
-ha l’effetto di traslare nel tempo ("shifting") la forma d’onda.
