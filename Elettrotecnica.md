@@ -2571,8 +2571,12 @@ si può affermare che la potenza elettrica assorbita (o entrante alla porta $1$)
 
 Questa figura mostra l’essenza del dispositivo trasformatore incorporata nel suo modello ideale: il trasformatore ideale riduce di un fattore $k$ la tensione $V_{1}$ in ingresso e contemporaneamente incrementa dello stesso fattore la corrente $I_{1}$ senza alterare la potenza in gioco. Per questo viene utilizzato in un vasto numero di applicazioni in cui si deve passare da una rete che lavora con valori elevati di tensione ad una che richiede tensioni molto più ridotte (*ad esempio* dalla rete di distribuzione ad un calcolatore).
 
-Vediamo un’altra proprietà del trasformatore con l’aiuto di figura 6. dove un bipolo equivalente di tipo serie è collegato alla porta 2.
+Vediamo un’altra proprietà del trasformatore con l’aiuto in figura dove un bipolo equivalente di tipo serie è collegato alla porta $2$:
+![[Elettrotecnica-1794147015462.webp|461]]
+#Figura(6.46). Il trasformatore ideale
 
-Si vuole determinare il modello equivalente, cioè il legame I, V, visto
+può venire impiegato per modificare i
 
-alla porta 1. Si ha:
+parametri di un bipolo. 
+
+Si vuole determinare il modello equivalente, cioè il legame $I, V$, visto alla porta $1$. Si ha:
