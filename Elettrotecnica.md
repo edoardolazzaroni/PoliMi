@@ -2494,4 +2494,11 @@ ovvero la potenza assorbita dal doppio bipolo coincide con quella assorbita alla
 $$I_{o}=i_{2}-i_{3}=\frac{E}{R_{1}}-\frac{V_{o}}{R_{3}}=\frac{E}{R_{1}}+E\cdot \frac{R_{2}}{R_{1}\cdot R_{3}}$$
 
 Quindi la potenza assorbita vale:
-$$p_{op \ - \ amp}=(-E)$$
+$$p_{op \ - \ amp}=\left( -E\cdot \frac{E_{2}}{R_{1}} \right)\cdot\left[ \frac{E}{R_{1}}\left( 1+\frac{R_{2}}{R_{3}} \right) \right]$$
+
+Per valori positivi di $E$ e resistori fisici ($R > 0$) la corrente $I_{o}$ è positiva mentre la tensione $V_{o}$ è negativa, dunque la potenza assorbita è negativa. **Il dispositivo op-amp eroga potenza elettrica**.
+Potremmo chiederci: da dove viene tale potenza ? La risposta è semplice: dalle sorgenti di tensione interne che servono per alimentarlo. Si noti inoltre come la resistenza collegata R3, che non ha effetto sulla Vo ne
+
+ha su Io e quindi sulla potenza erogata. Tale potenza aumenta al
+
+diminuire del valore di R3.
