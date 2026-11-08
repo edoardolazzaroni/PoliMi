@@ -2472,4 +2472,11 @@ Si noti come tali equazioni non forniscono alcuna informazione circa i valori de
 
 Analizziamo il comportamento elettrico del circuito mostrato in figura utilizzando il modello ideale di op-amp. Notate come la tensione di uscita $V_{o}$ venga riportata all’ingresso, attraverso la resistenza di retroazione $R_{2}$.
 ![[Elettrotecnica-1794138963701.webp|403]]
-#Figura (6-4)
+#Figura(6.41). *Circuito invertente*
+
+Il procedimento generale in questa tipologia di analisi è quello di <mark class="hltr-yellow">partire dall’ingresso dell’op-amp dove abbiamo tutta l’informazione e procedere risolvendo verso l’uscita</mark>. Dalla maglia di ingresso vediamo che:
+$$i_{1}=\frac{E}{R_{1}}$$
+mentre dal nodo di ingresso si ha:
+$$i_{2}=i_{1}$$
+La tensione sul resistore di retroazione risulta:
+$$v_{1}$$
