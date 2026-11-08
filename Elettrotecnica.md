@@ -2451,4 +2451,8 @@ Vedremo che **le due strade portano allo stesso risultato finale**.
 	In questa condizione limite, dalla $(6.55)$ si trova:$$V_{i}=0$$che conferma il modello di comportamento dato dalle $(6.54)$. Mentre dalla $(6.56)$, svolgendo il limite (<u>regola di De l’Hopital</u>), si ha:$$V_{o}=-I_{s}\cdot R_{f}\quad(6.57)$$che dà la soluzione della tensione in uscita e conferma che questo valore è finito anche per valori infinitamente grandi di $A$.
 
 
-- Nel secondo
+- Nel secondo approccio, usiamo direttamente il modello ideale di op-amp all’interno del circuito come mostrato in figura:
+	![[Elettrotecnica-1794138628716.webp|269]]
+	#Figura(6.40). *Soluzione con modello ideale*
+	
+	In 
