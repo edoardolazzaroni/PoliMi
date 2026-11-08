@@ -2429,39 +2429,43 @@ Si noti come tali equazioni non forniscono alcuna informazione circa i valori de
 
 #### #Esercizio(amplificatore operazionale)
 
-Approfondiamo ora la comprensione del significato di modello ideale svolgendo l’analisi del circuito esempio mostrato in figura:
-![[Elettrotecnica-1794138116313.webp|387]]
-#Figura(6.38). *Circuito esempio con op-amp*
+> [!question] Esercizio
+> Approfondiamo ora la comprensione del significato di modello ideale svolgendo l’analisi del circuito esempio mostrato in figura:
+> ![[Elettrotecnica-1794138116313.webp|387]]
+> #Figura(6.38). *Circuito esempio con op-amp*
+> 
+> L’op-amp è collegato in ingresso ad una sorgente ideale di corrente ed a un resistore di uscita, inoltre una resistenza di retroazione $R_{f}$ (detta di "feedback") collega l’uscita con il nodo−in ingresso: in questo caso si parla di retroazione negativa ed è la configurazione che rende stabile il circuito.
+> 
+> Procederemo in due modi distinti:
+> 
+> 1) risolviamo il circuito utilizzando il modello realistico e quindi vediamo come si trasforma la soluzione quando $A\rightarrow \infty$;
+> 2) risolviamo il circuito con il modello di op-amp ideale.
+> 
+> Vedremo che **le due strade portano allo stesso risultato finale**.
+> 
+> 
+> - Sostituiamo il modello realistico nel circuito ottenendo lo schema mostrato in figura:
+> 	![[Elettrotecnica-1794138293897.webp|291]]
+> 	#Figura(6.39). *Soluzione con modello realistico*
+> 	
+> 	Assumiamo come incognita la tensione $Vi_{i}$ (fate attenzione al verso). Applicando la KVL alla maglia centrale, si ricava:$$V_{i}=\frac{-I_{s}}{\frac{1}{R_{i}}}+\frac{(1+A)}{R_{f}}\quad(6.55)$$e quindi quello di $V_{o}$:$$V_{o}=I_{s}\cdot\frac{-A}{\frac{1}{R_{i}}+\frac{(1+A)}{R_{f}}}\quad(6.56)$$Che cosa accade quando $A\rightarrow \infty$?
+> 	In questa condizione limite, dalla $(6.55)$ si trova:$$V_{i}=0$$che conferma il modello di comportamento dato dalle $(6.54)$. Mentre dalla $(6.56)$, svolgendo il limite (<u>regola di De l’Hopital</u>), si ha:$$V_{o}=-I_{s}\cdot R_{f}\quad(6.57)$$che dà la soluzione della tensione in uscita e conferma che questo valore è finito anche per valori infinitamente grandi di $A$.
+> 
+> 
+> - Nel secondo approccio, usiamo direttamente il modello ideale di op-amp all’interno del circuito come mostrato in figura:
+> 	![[Elettrotecnica-1794138628716.webp|269]]
+> 	#Figura(6.40). *Soluzione con modello ideale*
+> 	
+> 	In questo caso si ha che la corrente che scorre nel resistore $R_{f}$ è la stessa $I_{s}$ impressa dal generatore. Dunque:$$V_{f}=I_{s}\cdot R_{f}$$Inoltre applicando la KVL alla maglia che include $R_{o}$ passa da $R_{f}$ e quindi si chiude passando per i morsetti di ingresso dell’op-amp, abbiamo:$$V_{o}+V_{f}+0=0$$che dà:$$V_{o}=-V_{f}=-I_{s}\cdot R_{f}$$e coincide con la $(6.57)$.
+> 
+> 
+> Concludiamo che:
+> 
+> 1) Il modello ideale fornisce esattamente lo stesso risultato del modello realistico se $A\to \infty$;
+> 2) Tale risultato non dipende dal valore $A$ ma solo dal generatore e dal resistore di retroazione;
+> 3) Nella pratica, per valori tipici di $A$ (*ad esempio* $≥102$), il risultato fornito dal modello ideale si differenzia da quello fornito dal modello realistico per meno di $\frac{1}{100}$. Questa precisione è più che sufficiente per l’analisi "a mano" e il predimensionamento elettronico.
 
-L’op-amp è collegato in ingresso ad una sorgente ideale di corrente ed a un resistore di uscita, inoltre una resistenza di retroazione $R_{f}$ (detta di "feedback") collega l’uscita con il nodo−in ingresso: in questo caso si parla di retroazione negativa ed è la configurazione che rende stabile il circuito.
-
-Procederemo in due modi distinti:
-
-1) risolviamo il circuito utilizzando il modello realistico e quindi vediamo come si trasforma la soluzione quando $A\rightarrow \infty$;
-2) risolviamo il circuito con il modello di op-amp ideale.
-
-Vedremo che **le due strade portano allo stesso risultato finale**.
 
 
-- Sostituiamo il modello realistico nel circuito ottenendo lo schema mostrato in figura:
-	![[Elettrotecnica-1794138293897.webp|291]]
-	#Figura(6.39). *Soluzione con modello realistico*
-	
-	Assumiamo come incognita la tensione $Vi_{i}$ (fate attenzione al verso). Applicando la KVL alla maglia centrale, si ricava:$$V_{i}=\frac{-I_{s}}{\frac{1}{R_{i}}}+\frac{(1+A)}{R_{f}}\quad(6.55)$$e quindi quello di $V_{o}$:$$V_{o}=I_{s}\cdot\frac{-A}{\frac{1}{R_{i}}+\frac{(1+A)}{R_{f}}}\quad(6.56)$$Che cosa accade quando $A\rightarrow \infty$?
-	In questa condizione limite, dalla $(6.55)$ si trova:$$V_{i}=0$$che conferma il modello di comportamento dato dalle $(6.54)$. Mentre dalla $(6.56)$, svolgendo il limite (<u>regola di De l’Hopital</u>), si ha:$$V_{o}=-I_{s}\cdot R_{f}\quad(6.57)$$che dà la soluzione della tensione in uscita e conferma che questo valore è finito anche per valori infinitamente grandi di $A$.
 
-
-- Nel secondo approccio, usiamo direttamente il modello ideale di op-amp all’interno del circuito come mostrato in figura:
-	![[Elettrotecnica-1794138628716.webp|269]]
-	#Figura(6.40). *Soluzione con modello ideale*
-	
-	In questo caso si ha che la corrente che scorre nel resistore $R_{f}$ è la stessa $I_{s}$ impressa dal generatore. Dunque:$$V_{f}=I_{s}\cdot R_{f}$$Inoltre applicando la KVL alla maglia che include $R_{o}$ passa da $R_{f}$ e quindi si chiude passando per i morsetti di ingresso dell’op-amp, abbiamo:$$V_{o}+V_{f}+0=0$$che dà:$$V_{o}=-V_{f}=-I_{s}\cdot R_{f}$$e coincide con la $(6.57)$.
-
-
-Concludiamo che:
-
-1) Il modello ideale fornisce esattamente lo stesso risultato del modello realistico se $A\to \infty$;
-2) Tale risultato non dipende dal valore $A$ ma solo dal generatore e dal resistore di retroazione;
-3) Nella pratica, per valori tipici di $A$ (*ad esempio* $≥102$), il risultato fornito dal modello ideale si differenzia da quello fornito dal modello realistico per meno di $1 \ $. Questa precisione è più che sufficiente
-
-per l’analisi "a mano" e il predimensionamento elettronico.
+## 6.7 **Stadi di amplificazione con op-amp**
