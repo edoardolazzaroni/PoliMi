@@ -2641,4 +2641,6 @@ Per esempio, si consideri quando tale intervallo vale un quarto di periodo, come
 Ricordando che $\omega = \frac{2\pi}{T}$ si ha che la fase corrispondente vale:
 $$\frac{\phi}{\omega}=\frac{T}{4}\longrightarrow \phi=\frac{\pi}{2}$$
 ovvero:
-$$$$
+$$\cos\left( \omega \ t+\frac{\pi}{2} \right)=-\sin(\omega \ t)$$
+
+Se 
