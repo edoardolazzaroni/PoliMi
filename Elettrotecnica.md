@@ -2588,4 +2588,5 @@ Il circuito equivalente alla porta $1$ è dato da una resistenza equivalente $k^
 
 
 
-# **Capitolo VII: Doppi bipoli**
+# **Capitolo VII: Regime sinusoidale e fasori**
+
