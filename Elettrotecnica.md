@@ -2524,19 +2524,25 @@ Potremmo chiederci: da dove viene tale potenza ? La risposta è semplice: dalle 
 
 #### #Esercizio(amplificatore operazionale) (3)
 
-Infine, come ulteriore esempio vediamo cosa accade quando nel circuito in [[#Esercizio(amplificatore operazionale) (2)|figura 6.42]] la resistenza $R_{1} \to \infty$, cioè diventa un <u>circuito aperto</u>.
-Questo caso è mostrato in figura (Sinistra):
-![[Elettrotecnica-1794146247195.webp|631]]
-#Figura(6.43). *Due modi di disegnare un inseguitore di tensione*
+> [!question] Esercizio
+> Infine, come ulteriore esempio vediamo cosa accade quando nel circuito in [[#Esercizio(amplificatore operazionale) (2)|figura 6.42]] la resistenza $R_{1} \to \infty$, cioè diventa un <u>circuito aperto</u>.
+> Questo caso è mostrato in figura (Sinistra):
+> ![[Elettrotecnica-1794146247195.webp|631]]
+> #Figura(6.43). *Due modi di disegnare un inseguitore di tensione*
+> 
+> Dal circuito di sinistra, vediamo come la tensione al nodo $A$ rispetto al filo di riferimento è uguale a $E$ e quindi $V_{o} = E$ indipendentemente dal carico applicato.
+> Per questo motivo questo circuito viene comunemente indicato col nome di **inseguitore di tensione**.
+> 
+> Nella figura 6.43 (Destra) l’inseguitore è ridisegnato come si usa fare negli schemi elettronici, si noti che la resistenza $R_{2}$ è stata sostituita da un filo (*per esempio* un corto circuito).
+> Questa sostituzione è ininfluente dato che $R_{2}$ è attraversato da corrente nulla: è lecito chiedersi: ma a che serve un dispositivo che riporta una tensione tale e quale a se stessa ?
+> 
+> La risposta è che questo circuito "disaccoppia" ciò che è collegato in ingresso al nodo $+$ dal carico in uscita, ovvero l’ingresso e il carico non sono collegati elettricamente e non si influenzano tra di loro, possono dunque essere progettati separatamente in modo modulare.
 
-Dal circuito di sinistra, vediamo come la tensione al nodo $A$ rispetto al filo di riferimento è uguale a $E$ e quindi $V_{o} = E$ indipendentemente dal carico applicato.
-Per questo motivo questo circuito viene comunemente indicato col nome di **inseguitore di tensione**.
-
-Nella figura 6.43 (Destra) l’inseguitore è ridisegnato come si usa fare negli schemi elettronici, si noti che la resistenza $R_{2}$ è stata sostituita da un filo (*per esempio* un corto circuito).
-Questa sostituzione è ininfluente dato che $R_{2}$ è attraversato da corrente nulla: è lecito chiedersi: ma a che serve un dispositivo che riporta una tensione tale e quale a se stessa ?
-
-La risposta è che questo circuito "disaccoppia" ciò che è collegato in ingresso al nodo $+$ dal carico in uscita, ovvero l’ingresso e il carico non sono collegati elettricamente e non si influenzano tra di loro, possono dunque essere progettati separatamente in modo modulare.
 
 
+## 6.8 **Trasformatore ideale**
 
-## 6.8 **Trasformator**
+Introduciamo il modello ideale di un altro dispositivo estremamente diffuso nelle applicazioni elettriche ed elettroniche: il **trasformatore**.
+
+Sottolineiamo come il trasformatore fisico funziona in presenza di grandezze elettriche variabili nel tempo, come vedremo, nelle note successive; tuttavia il suo modello ideale può essere presentato nel contesto dei doppi bipoli.
+Il simbolo adottato in Teoria dei circuiti è mostrato in fig dove il parametro k è indicato come rapporto di
