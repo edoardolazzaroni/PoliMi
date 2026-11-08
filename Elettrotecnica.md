@@ -2401,4 +2401,5 @@ Nella parte centrale della curva, in un intervallo centrato nell’origine degli
 $$V_{o}=A\cdot V_{i}$$
 attraverso il parametro $A$ detto <u>amplificazione</u>.
 
-Al di fuori di tale intervallo la curva spiana, ovvero la tensione di uscita raggiunge o un valore massimo (legato al valore dell’alimentazione positiva) o un valore minimo (dovuto all’alimentazione negativa) detti valori di saturazione.
+Al di fuori di tale intervallo la curva spiana, ovvero la tensione di uscita raggiunge o un valore massimo (legato al valore dell’alimentazione positiva) o un valore minimo (dovuto all’alimentazione negativa) detti <u>valori di saturazione</u>.
+
