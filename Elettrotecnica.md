@@ -2606,3 +2606,7 @@ Poiché $\cos(· )$ è periodico di periodo $2\pi$, abbiamo che anche $x(t)$ è 
 $$\omega T=2\pi$$
 da cui otteniamo:
 $$T=\frac{2\pi}{\omega}$$
+**[Periodo (s)]**
+
+o alternativamente:
+
