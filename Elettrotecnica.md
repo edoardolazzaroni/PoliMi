@@ -2576,4 +2576,9 @@ Vediamo un’altra proprietà del trasformatore con l’aiuto in figura dove un 
 #Figura(6.46). *Il trasformatore ideale può venire impiegato per modificare i parametri di un bipolo*
 
 Si vuole determinare il modello equivalente, cioè il legame $I, V$, visto alla porta $1$. Si ha:
-$$-I_{2}=l$$
+$$-I_{2}=k\cdot I$$
+e dunque dalla maglia alla porta $2$ si ricava:
+$$V_{2}=-I_{2}\cdot R+E=K\cdot I\cdot R+E$$
+
+Infine la tensione $V$ risulta:
+$$V=k\cdot V_{2}=I\cdot(k^2)$$
