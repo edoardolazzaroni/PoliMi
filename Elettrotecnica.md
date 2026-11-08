@@ -2657,4 +2657,4 @@ Da quest’ultima osserviamo come **la funzione seno può venire scritta come la
 ## 7.2 **Richiami di trigonometria**
 
 Riportiamo di seguito alcune relazioni trigonometriche, probabilmente già note, utili per la prosecuzione. Dati due angoli $\alpha$ e $\beta$ valgono le seguenti identità trigonometriche:
-$$$$
+$$\cos^2\alpha+\sin^2\alpha=1\quad\quad(7.3)\\ \\ \cos(\alpha-\beta)=\cos \alpha\cdot \cos \beta+\sin \alpha\cdot \sin be$$
