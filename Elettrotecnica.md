@@ -2469,3 +2469,7 @@ Si noti come tali equazioni non forniscono alcuna informazione circa i valori de
 
 
 ## 6.7 **Stadi di amplificazione con op-amp**
+
+Analizziamo il comportamento elettrico del circuito mostrato in figura utilizzando il modello ideale di op-amp. Notate come la tensione di uscita $V_{o}$ venga riportata all’ingresso, attraverso la resistenza di retroazione $R_{2}$.
+![[Elettrotecnica-1794138963701.webp|403]]
+#Figura (6-4)
