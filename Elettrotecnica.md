@@ -2410,8 +2410,6 @@ Nell’ipotesi che funzioni nella zona lineare della sua caratteristica (ipotesi
 Questo modello, che definiremo "realistico in continua", comprende una resistenza di ingresso $R_{i}$ alla porta uno ed un generatore di tensione pilotato in tensione alla porta due.
 Il modello potrebbe essere complicato ulteriormente introducendo altri effetti di second’ordine, per esempio una (piccola) resistenza di uscita $R_{o}$ in serie all’uscita. Tuttavia questo complicherebbe inutilmente la trattazione senza modificare le conclusioni.
 
-Accanto al modello realistico, esiste un modello ideale ulteriormente semplificato che viene ampiamente utilizzato nelle fasi preliminari di progetto elettronico e che è indispensabile padroneggiare:
-
-Il modello ideale si applica quando l’op-amp è inserito in una rete
-
-elettrica come mostrato in fig. 1.37(Sinistra): dove la porta di in-
+Accanto al modello realistico, esiste un modello ideale ulteriormente semplificato che viene ampiamente utilizzato nelle fasi preliminari di progetto elettronico e che è indispensabile padroneggiare: il modello ideale si applica quando l’op-amp è inserito in una rete elettrica come mostrato in figura (Sinistra), dove la porta di ingresso e quella di uscita sono collegate a due bipoli esterni, inoltre **il morsetto d’uscita è collegato ad uno di quelli in ingresso attraverso un bipolo detto di retroazione**.
+![[Elettrotecnica-1794137824132.webp|500]]
+#Figura(6.37). 
