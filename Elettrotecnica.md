@@ -2634,4 +2634,5 @@ $$x(t)=X_{m}\cos\left[ \omega\left( t+\frac{\phi}{\omega} \right) \right]\quad \
 
 dove è evidente che $\frac{\phi}{\omega}$ gioca il ruolo del parametro $a$ visto prima, cioè rappresenta l’intervallo di tempo di cui viene anticipato il coseno come mostrato in figura:
 ![[Elettrotecnica-1794161324785.webp|445]]
-#Figura (7.)
+#Figura(7.3). *Effetto del parametro fase*
+
