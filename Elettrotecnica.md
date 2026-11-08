@@ -2443,5 +2443,8 @@ Procederemo in due modi distinti:
 Vedremo che **le due strade portano allo stesso risultato finale**.
 
 
-1. Sostituiamo il modello realistico nel circuito ottenendo lo schema mostrato in figura: 
-2. Assumiamo come incognita la tensione $Vi_{i}$ (fate attenzione al verso). Applicando la KVL alla maglia centrale, si ricava:
+1. Sostituiamo il modello realistico nel circuito ottenendo lo schema mostrato in figura:
+	![[Elettrotecnica-1794138293897.webp|291]]
+	#Figura(6.39). *Soluzione con modello realistico*
+	
+	Assumiamo come incognita la tensione $Vi_{i}$ (fate attenzione al verso). Applicando la KVL alla maglia centrale, si ricava:$$V_{i}=\frac{-I_{s}}{\frac{1}{R_{i}}}$$
