@@ -2528,8 +2528,4 @@ Infine, come ulteriore esempio vediamo cosa accade quando nel circuito in [[#Ese
 uesto caso è mostrato in figura 6.43 (Sinistra):
 
 
-Dal circuito di sinistra, vediamo come la tensione al nodo $A$ rispetto al filo di rifer-
-
-imento è uguale a E e quindi Vo = E indipendentemente dal carico
-
-applicato
+Dal circuito di sinistra, vediamo come la tensione al nodo $A$ rispetto al filo di riferimento è uguale a $E$ e quindi $V_{o} = E$ indipendentemente dal carico applicato.
