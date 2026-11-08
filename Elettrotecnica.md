@@ -2524,6 +2524,12 @@ Potremmo chiederci: da dove viene tale potenza ? La risposta è semplice: dalle 
 
 #### #Esercizio(amplificatore operazionale) (3)
 
-Infine, come ulteriore esempio vediamo cosa accade quando nel circuito in [[|figura 6.42 la resistenza R1 →∞, cioè diventa un circuito
+Infine, come ulteriore esempio vediamo cosa accade quando nel circuito in [[#Esercizio(amplificatore operazionale) (2)|figura 6.42]] la resistenza $R_{1} \to \infty$, cioè diventa un <u>circuito aperto</u>.
+uesto caso è mostrato in figura 6.43 (Sinistra):
 
-aperto.
+
+Dal circuito di sinistra, vediamo come la tensione al nodo $A$ rispetto al filo di rifer-
+
+imento è uguale a E e quindi Vo = E indipendentemente dal carico
+
+applicato
