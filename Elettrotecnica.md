@@ -2595,4 +2595,4 @@ Il circuito equivalente alla porta $1$ è dato da una resistenza equivalente $k^
 
 In questa sezione impariamo a descrivere grandezze elettriche che sono funzioni sinusoidali del tempo. Indichiamo con $x(t)$ la generica tensione o corrente sinusoidale in un circuito elettrico, questa avrà un’espressione del tipo:
 
-$$x(t)=X_{m}\cos$$
+$$x(t)=X_{m}\cos(\omega t+\phi)$$
