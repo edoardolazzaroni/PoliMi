@@ -2455,4 +2455,9 @@ Vedremo che **le due strade portano allo stesso risultato finale**.
 	![[Elettrotecnica-1794138628716.webp|269]]
 	#Figura(6.40). *Soluzione con modello ideale*
 	
-	In questo caso si ha che la corrente che scorre nel resistore $R_{f}$ è la stessa $I_{s}$ impressa dal generatore. Dunque:$$V_{f}=I_{s}\cdot R_{f}$$Inoltre applicando la KVL alla maglia che include $R_{o}$ passa da $R_{f}$ e quindi si chiude passando per i morsetti di ingresso dell’op-amp, abbiamo:$$V_{o}+V_{f}+0=0$$
+	In questo caso si ha che la corrente che scorre nel resistore $R_{f}$ è la stessa $I_{s}$ impressa dal generatore. Dunque:$$V_{f}=I_{s}\cdot R_{f}$$Inoltre applicando la KVL alla maglia che include $R_{o}$ passa da $R_{f}$ e quindi si chiude passando per i morsetti di ingresso dell’op-amp, abbiamo:$$V_{o}+V_{f}+0=0$$che dà:$$V_{o}=-V_{f}=-I_{s}\cdot R_{f}$$e coincide con la $(6.57)$.
+
+
+Concludiamo che:
+
+1) Il modello ideale fornisce esattamente lo stesso risultato del modello realistico se $A\to in$.
