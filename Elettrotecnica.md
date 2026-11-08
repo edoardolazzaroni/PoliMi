@@ -2427,7 +2427,7 @@ Si noti come tali equazioni non forniscono alcuna informazione circa i valori de
 
 
 
-#### #Esercizio(amplificatore operazionale)
+#### #Esercizio(amplificatore operazionale) (1)
 
 > [!question] Esercizio
 > Approfondiamo ora la comprensione del significato di modello ideale svolgendo l’analisi del circuito esempio mostrato in figura:
@@ -2498,3 +2498,11 @@ $$p_{op \ - \ amp}=\left( -E\cdot \frac{E_{2}}{R_{1}} \right)\cdot\left[ \frac{E
 
 Per valori positivi di $E$ e resistori fisici ($R > 0$) la corrente $I_{o}$ è positiva mentre la tensione $V_{o}$ è negativa, dunque la potenza assorbita è negativa. **Il dispositivo op-amp eroga potenza elettrica**.
 Potremmo chiederci: da dove viene tale potenza ? La risposta è semplice: dalle sorgenti di tensione interne che servono per alimentarlo. Si noti inoltre come la resistenza collegata $R_{3}$, che non ha effetto sulla $V_{o}$ ne ha su $Io_{o}$ e quindi sulla potenza erogata. Tale potenza aumenta al diminuire del valore di $R_{3}$.
+
+
+
+#### #Esercizio(amplificatore operazionale) (2)
+
+Nel secondo esercizio analizziamo il comportamento del circuito mostrato in figura:
+![[Elettrotecnica-1794145857052.webp|337]]
+#Figura(6.42). 
