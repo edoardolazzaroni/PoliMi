@@ -2505,4 +2505,10 @@ Potremmo chiederci: da dove viene tale potenza ? La risposta è semplice: dalle 
 
 Nel secondo esercizio analizziamo il comportamento del circuito mostrato in figura:
 ![[Elettrotecnica-1794145857052.webp|337]]
-#Figura(6.42). 
+#Figura(6.42). *Stadio non invertente*
+
+In questo caso per semplicità l’uscita non è stata connessa ad alcun carico. Dalla maglia di ingresso, utilizzando il modello ideale di op-amp, notiamo che:
+$$v_{1}=E$$
+cioè la tensione della sorgente cade tutta sul resistore $R_{1}$ la cui corrente è:
+$$i_{1}=\frac{E}{R_{1}}$$
+Tale correnter asco
