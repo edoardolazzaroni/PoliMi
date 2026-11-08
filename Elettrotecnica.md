@@ -2431,7 +2431,7 @@ Si noti come tali equazioni non forniscono alcuna informazione circa i valori de
 
 > [!question] Esercizio
 > Approfondiamo ora la comprensione del significato di modello ideale svolgendo l’analisi del circuito esempio mostrato in figura:
-> ![[Elettrotecnica-1794138116313.webp|387]]
+> ![[Elettrotecnica-1794138116313.webp|312x192]]
 > #Figura(6.38). *Circuito esempio con op-amp*
 > 
 > L’op-amp è collegato in ingresso ad una sorgente ideale di corrente ed a un resistore di uscita, inoltre una resistenza di retroazione $R_{f}$ (detta di "feedback") collega l’uscita con il nodo−in ingresso: in questo caso si parla di retroazione negativa ed è la configurazione che rende stabile il circuito.
@@ -2483,4 +2483,7 @@ $$v_{1}=\frac{E}{R_{1}}\cdot R_{2}$$
 
 Infine applicando la KVL alla maglia che passa per il resistore di uscita (o di carico) $R_{3}$ la resistenza $R_{2}$ e i morsetti di ingresso dell’op-amp si trova:
 $$V_{o}=-v_{2}=E\cdot\frac{-R_{2}}{R_{1}}$$
+
+Si noti come la $V_{o}$ **non dipenda dal resistore** $R_{3}$ collegato all’uscita.
+Questo circuito dunque amplifica la tensione $E$ della sorgente in ingresso di un fattore che dipende dal rapporto $\frac{R_{2}}{R_{1}}$ e ne cambia il segno; per questo viene comunemente indicato come **stadio di amplificazione invertente**.
 
