@@ -2637,7 +2637,7 @@ dove è evidente che $\frac{\phi}{\omega}$ gioca il ruolo del parametro $a$ vist
 #Figura(7.3). *Effetto del parametro fase*
 
 
-Per esempio, si consideri quando tale intervallo vale un quarto di periodo, come mostrato in figura 7.4 (Alto) si ottiene la funzione $−X_{m} \sin(\omega \ t)$.
+Per esempio, si consideri quando tale intervallo vale un quarto di periodo, come mostrato in figura (Alto), da cui si ottiene la funzione $−X_{m} \sin(\omega \ t)$:
 ![[Elettrotecnica-1794161901648.webp|383]]
 #Figura(7.4). *Sfasamento di $\frac{\pi}{2}$ (<u>Alto</u>) e di $-\frac{\pi}{2}$ (<u>Basso</u>)*
 
@@ -2646,4 +2646,7 @@ $$\frac{\phi}{\omega}=\frac{T}{4}\longrightarrow \phi=\frac{\pi}{2}$$
 ovvero:
 $$\cos\left( \omega \ t+\frac{\pi}{2} \right)=-\sin(\omega \ t)$$
 
-Se viceversa l’intervallo $\frac{\phi}{\omega}$ vale $\frac{−T}{4}$, come mostrato in figura 7.4(Basso), si ottiene la funzione $X_{m} \sin(\omega \ t)$. In questo caso a fase corrispondente vale:
+Se viceversa l’intervallo $\frac{\phi}{\omega}$ vale $\frac{−T}{4}$, come mostrato in figura 7.4 (Basso), si ottiene la funzione $X_{m} \sin(\omega \ t)$. In questo caso a fase corrispondente vale:
+$$\frac{\phi}{\omega}=-\frac{T}{4}\longrightarrow \phi=-\frac{\pi}{2}$$
+ovvero:
+$$\cos\left( \omega \ t+\frac{\pi}{2} \right)=-\sin(\omega \ t)$$
