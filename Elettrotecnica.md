@@ -2395,4 +2395,10 @@ La figura 6.34 mostra come il componente viene connesso a due batterie rappresen
 In questo modo si viene a formare un doppio bipolo in cui la porta uno è costituita dai due morsetti di ingresso $+$ e $−$ mentre la porta due è formata dal morsetto di uscita e dal riferimento. Il legame tra la tensione di ingresso $V_{i}$ e quella di uscita $V_{o}$ è descritto dalla curva caratteristica mostrata in figura:
 
 ![[Elettrotecnica-1794136761266.webp|364]]
-#Figura(6.35).
+#Figura(6.35). *Legame ingresso uscita*
+
+Nella parte centrale della curva, in un intervallo centrato nell’origine degli assi, il legame è lineare di proporzionalità diretta:
+$$V_{o}=A\cdot V_{i}$$
+attraverso il parametro $A$ detto <u>amplificazione</u>.
+
+Al di fuori di tale intervallo la curva spiana, ovvero la tensione di uscita raggiunge o un valore massimo (legato al valore dell’alimentazione positiva) o un valore minimo (dovuto all’alimentazione negativa) detti valori di saturazione.
