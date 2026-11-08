@@ -2430,3 +2430,13 @@ Si noti come tali equazioni non forniscono alcuna informazione circa i valori de
 #### #Esercizio(amplificatore operazionale)
 
 Approfondiamo ora la comprensione del significato di modello ideale svolgendo l’analisi del circuito esempio mostrato in figura:
+![[Elettrotecnica-1794138116313.webp|387]]
+#Figura(6.38). *Circuito esempio con op-amp*
+
+L’op-amp è collegato in ingresso ad una sorgente ideale di corrente ed a un resistore di uscita, inoltre una resistenza di retroazione Rf
+
+(detta di "feedback") collega l’uscita con il nodo−in ingresso: in
+
+questo caso si parla di retroazione negativa ed è la configurazione
+
+che rende stabile1 il circuito
