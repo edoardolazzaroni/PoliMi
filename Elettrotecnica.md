@@ -2564,38 +2564,8 @@ Se si calcola la potenza elettrica assorbita dal doppio bipolo sostituendo il le
 $$p_{trans}=V_{1}\cdot I_{1}+V_{2}\cdot I_{2}=(K\cdot V_{2})\cdot\left( -\frac{1}{k}\cdot I_{2} \right)+V_{2}\cdot I_{2}=0$$
 Ovvero <u>questo particolare bipolo assorbe una potenza elettrica totale nulla</u>. In altri termini osservando che:
 $$V_{1}\cdot I_{1}=V_{2}\cdot(-I_{2})$$
-si può affermare che la potenza elettrica assorbita (o entrante alla porta $1$) è uguale alle potenza erogata (o uscente) dalla porta 2, come
+si può affermare che la potenza elettrica assorbita (o entrante alla porta $1$) è uguale alle potenza erogata (o uscente) dalla porta $2$, come mostrato in figura:
+![[Elettrotecnica-1794146920785.webp|474]]
+#Figura(6.45). 
 
-mostrato in fig. 1.45. Questa figura mostra l’essenza del dispositivo
-
-1
-
-trasformatore incorporata nel suo modello ideale: il trasformatore
-
-ideale riduce di un fattore k la tensione V1 in ingresso e contem-
-
-poraneamente incrementa dello stesso fattore la corrente I1 senza
-
-alterare la potenza in gioco. Per questo viene utilizzato in un vasto
-
-numero di applicazioni in cui si deve passare da una rete che lavora
-
-con valori elevati di tensione ad una che richiede tensioni molto più
-
-ridotte (es. dalla rete di distribuzione ad un calcolatore).
-
-Vediamo un’altra proprietà del trasformatore con l’aiuto di fig.
-
-1.46 dove un bipolo equivalente di tipo serie è collegato alla porta 2.
-
-Si vuole determinare il modello equivalente, cioè il legame I, V, visto
-
-alla porta 1. Si ha:
-
-−I2 = k· I
-
-e dunque dalla maglia alla porta 2 si ricava:
-
-V2 =−I2· R + E= k· I· R + E
-
-capitolo 6 33
+Questa figura mostra l’essenza del dispositivo
