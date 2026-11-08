@@ -2643,4 +2643,4 @@ $$\frac{\phi}{\omega}=\frac{T}{4}\longrightarrow \phi=\frac{\pi}{2}$$
 ovvero:
 $$\cos\left( \omega \ t+\frac{\pi}{2} \right)=-\sin(\omega \ t)$$
 
-Se 
+Se viceversa l’intervallo $\frac{\phi}{\omega}$ vale $\frac{−T}{4}$, come mostrato in figura 7.4(Basso), si ottiene la funzione $X_{m} \sin(\omega \ t)$. In questo caso a fase corrispondente vale:
