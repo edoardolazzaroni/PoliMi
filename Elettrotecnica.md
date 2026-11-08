@@ -2605,8 +2605,10 @@ Il parametro $X_{m}$ semplicemente scala la funzione coseno (il cui massimo sapp
 Poiché $\cos(· )$ è periodico di periodo $2\pi$, abbiamo che anche $x(t)$ è periodico ed il suo periodo $T$ è quel valore del tempo $t= T$ per cui l’argomento del coseno vale $2\pi$, ovvero:
 $$\omega T=2\pi$$
 da cui otteniamo:
-$$T=\frac{2\pi}{\omega}$$
+$$T=\frac{2\pi}{\omega} \\ \\\omega = \frac{2\pi}{T}$$
 **[Periodo (s)]**
 
 o alternativamente:
+$$\omega = \frac{2\pi}{T}$$
 
+**[Periodo (s)]**
