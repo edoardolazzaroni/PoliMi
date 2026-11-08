@@ -2433,10 +2433,12 @@ Approfondiamo ora la comprensione del significato di modello ideale svolgendo l�
 ![[Elettrotecnica-1794138116313.webp|387]]
 #Figura(6.38). *Circuito esempio con op-amp*
 
-L’op-amp è collegato in ingresso ad una sorgente ideale di corrente ed a un resistore di uscita, inoltre una resistenza di retroazione Rf
+L’op-amp è collegato in ingresso ad una sorgente ideale di corrente ed a un resistore di uscita, inoltre una resistenza di retroazione $R_{f}$ (detta di "feedback") collega l’uscita con il nodo−in ingresso: in questo caso si parla di retroazione negativa ed è la configurazione che rende stabile il circuito.
 
-(detta di "feedback") collega l’uscita con il nodo−in ingresso: in
+Procederemo in due modi distinti:
 
-questo caso si parla di retroazione negativa ed è la configurazione
+1) risolviamo il circuito utilizzando il modello realistico e quindi vediamo come si trasforma la soluzione quando $A\rightarrow \infty$; 2) risolviamo il circuito con il modello
 
-che rende stabile1 il circuito
+di op-amp ideale. Vedremo che le due strade portano allo stesso
+
+risultato finale.
