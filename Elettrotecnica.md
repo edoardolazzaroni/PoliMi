@@ -2565,14 +2565,14 @@ $$p_{trans}=V_{1}\cdot I_{1}+V_{2}\cdot I_{2}=(K\cdot V_{2})\cdot\left( -\frac{1
 Ovvero <u>questo particolare bipolo assorbe una potenza elettrica totale nulla</u>. In altri termini osservando che:
 $$V_{1}\cdot I_{1}=V_{2}\cdot(-I_{2})$$
 si può affermare che la potenza elettrica assorbita (o entrante alla porta $1$) è uguale alle potenza erogata (o uscente) dalla porta $2$, come mostrato in figura:
-![[Elettrotecnica-1794146920785.webp|474]]
+![[Elettrotecnica-1794146920785.webp|413]]
 #Figura(6.45). *Il trasformatore ideale eroga in uscita tutta e sola la potenza che assorbe in ingresso*
 
 
 Questa figura mostra l’essenza del dispositivo trasformatore incorporata nel suo modello ideale: il trasformatore ideale riduce di un fattore $k$ la tensione $V_{1}$ in ingresso e contemporaneamente incrementa dello stesso fattore la corrente $I_{1}$ senza alterare la potenza in gioco. Per questo viene utilizzato in un vasto numero di applicazioni in cui si deve passare da una rete che lavora con valori elevati di tensione ad una che richiede tensioni molto più ridotte (*ad esempio* dalla rete di distribuzione ad un calcolatore).
 
 Vediamo un’altra proprietà del trasformatore con l’aiuto in figura dove un bipolo equivalente di tipo serie è collegato alla porta $2$:
-![[Elettrotecnica-1794147015462.webp|461]]
+![[Elettrotecnica-1794147015462.webp|437]]
 #Figura(6.46). *Il trasformatore ideale può venire impiegato per modificare i parametri di un bipolo*
 
 Si vuole determinare il modello equivalente, cioè il legame $I, V$, visto alla porta $1$. Si ha:
@@ -2581,4 +2581,11 @@ e dunque dalla maglia alla porta $2$ si ricava:
 $$V_{2}=-I_{2}\cdot R+E=K\cdot I\cdot R+E$$
 
 Infine la tensione $V$ risulta:
-$$V=k\cdot V_{2}=I\cdot(k^2)$$
+$$V=k\cdot V_{2}=I\cdot(k^2 R)+k\cdot E$$
+
+Il circuito equivalente alla porta $1$ è dato da una resistenza equivalente $k^2 \ R$ in serie ad un generatore di tensione equivalente di valore $k \ E$.
+
+
+
+
+# **Capitolo VII: Doppi bipoli**
