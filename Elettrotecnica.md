@@ -2629,4 +2629,9 @@ mostrata in figura (Basso) sarà **ritardata temporalmente** di $a$ rispetto a $
 In sostanza l’effetto di un parametro sommato $a$ nell’argomento di una <mark class="hltr-yellow">funzione ha l’effetto di traslare nel tempo ("shifting") la forma d’onda</mark>.
 
 Alla luce di ciò, riscriviamo la sinusoide $(7.1)$ nel modo seguente:
-$$x(t)=X_{m}\cos[\omega()]$$
+
+$$x(t)=X_{m}\cos\left[ \omega\left( t+\frac{\phi}{\omega} \right) \right]\quad \quad (7.2)$$
+
+dove è evidente che $\frac{\phi}{\omega}$ gioca il ruolo del parametro $a$ visto prima, cioè rappresenta l’intervallo di tempo di cui viene anticipato il coseno come mostrato in figura:
+![[Elettrotecnica-1794161324785.webp|445]]
+#Figura (7.)
