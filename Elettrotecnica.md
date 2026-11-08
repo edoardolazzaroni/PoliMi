@@ -2491,4 +2491,7 @@ Completiamo l’analisi valutando la potenza elettrica assorbita dall’op-amp. 
 $$p_{op \ - \ amp}=V_{i}\cdot I_{i}+V_{o}\cdot I_{o}=V_{o}\cdot I_{o}$$
 
 ovvero la potenza assorbita dal doppio bipolo coincide con quella assorbita alla porta di uscita. Calcoliamo $I_{o}$:
-$$I_{o}=i_{2}-i_{3}=\frac{E}{R_{1}}$$
+$$I_{o}=i_{2}-i_{3}=\frac{E}{R_{1}}-\frac{V_{o}}{R_{3}}=\frac{E}{R_{1}}+E\cdot \frac{R_{2}}{R_{1}\cdot R_{3}}$$
+
+Quindi la potenza assorbita vale:
+$$p_{op \ - \ amp}=(-E)$$
