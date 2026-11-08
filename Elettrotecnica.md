@@ -2380,6 +2380,8 @@ La procedura per la trasformazione triangolo-stella è invece illustrata in figu
 ## 6.6 **Amplificatore operazionale**
 
 In questa sezione descriviamo un componente elettronico estremamente diffuso nelle applicazioni e che, come vedremo, viene modellato come un due porta. Il comportamento elettrico presenta delle peculiarità che richiedono uno studio ad "hoc". Vedremo anche come tali peculiarità possono essere incorporate in un modello di comportamento ideale, cioè la cui complessità è ridotta all’essenziale.
+![[Elettrotecnica-1794136557568.webp|350]]
+#Figura(6.33). *Dispositivo amplificatore operazionale*
 
 Il dispositivo fisico amplificatore operazionale (*op-amp dall’inglese "operational amplifier"*) si presenta come un componente elettronico con molti morsetti esterni.
 La figura mostra il caso di un op-amp con 5 morsetti, due di questi servono per alimentare il componente mentre i tre rimanenti sono quelli che elaborano le variabili elettriche in ingresso per produrre quella di uscita.
