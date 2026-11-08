@@ -2599,6 +2599,16 @@ $$x(t)=X_{m}\cos(\omega t+\phi)\quad\quad(7.1)$$
 
 dove il parametro $X_{m}$ viene detto **ampiezza** o valore di picco, $\omega$ è la **pulsazione** e $\phi$ la **fase** o angolo. Per comprendere il significato di tali parametri, partiamo considerando il caso semplificato in cui $\phi=0$ e dunque la grandezza si riduce a $x(t) = X_{m} \cos(\omega t)$ come mostrato in figura:
 ![[Elettrotecnica-1794148040908.webp|442]]
-#Figura(7.1). 
+#Figura(7.1). Funzione $X_{m} \cos(\omega t)$
 
-Il parametro Xm semplicemente scala la funzione coseno (il
+Il parametro $X_{m}$ semplicemente scala la funzione coseno (il cui massimo sappiamo valere uno) e la sua unità di misura è la stessa
+
+della grandezza x(t) (i.e. sarà in volt se la grandezza è una tensione o
+
+ampere se la grandezza è una corrente). Poiché cos(· ) è periodico di
+
+periodo 2π, abbiamo che anche x(t) è periodico ed il suo periodo T è
+
+quel valore del tempo t= T per cui l’argomento del coseno vale 2π,
+
+ovvero:
