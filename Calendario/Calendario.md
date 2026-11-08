@@ -16,8 +16,6 @@ type: folder_brief_live
 	- [[2026-10-30 Montagna]]
 	- [[2026-10-31 Montagna]]
 	- [[2026-11-01 Montagna]]
-	- [[2026-11-07 Pranzo famiglia]]
-	- [[2026-11-14 Ambroggi]]
 - **Calendario università**
 	- **Calendario esami**
 		- [[2026-10-30 Geometria ed algebra lineare (parziale)]]
