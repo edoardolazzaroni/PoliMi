@@ -2415,4 +2415,21 @@ Accanto al modello realistico, esiste un modello ideale ulteriormente semplifica
 #Figura(6.37). *Op-amp inserito in una rete con retroazione e suo modello ideale di tipo doppio bipolo*
 
 In queste condizioni, come verificheremo nell’analisi successiva, la tensione $V_{o}$ si mantiene di valore limitato (all’interno dell’intervallo di linearità) anche per valori infinitamente grandi dell’amplificazione $A$. Poiché vale:
-$$V_{I}=\frac{V_{o}}{A}\quad\quad I_{i}=\frac{V_{i}}{}$$
+$$V_{I}=\frac{V_{o}}{A}\quad\quad I_{i}=\frac{V_{i}}{R_{i}}$$
+si ha che per $A\rightarrow \infty$:
+
+$$V_{i}=0\\I_{i}=0\\ \\(6.54)$$
+
+Quindi, l’op-amp inserito in una rete di retroazione e con amplificazione infinita si comporta come un doppio bipolo con tensione e corrente nulle alla porta di ingresso come mostrato in 1.37(Destra).
+
+Le equazioni (1.54) rappresentano il legame costitutivo del modello
+
+di op-amp ideale. Si noti come tali equazioni non forniscono alcuna
+
+informazione circa i valori della tensione Vo e corrente Io alla porta
+
+di uscita. In pratica, il modello ideale di op-amp viene impiegato per
+
+semplificare l’analisi ed il progetto dei circuiti che lo contengono per
+
+valori sufficientemente grandi dell’amplificazione (es. A > 100).
