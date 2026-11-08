@@ -2511,4 +2511,7 @@ In questo caso per semplicità l’uscita non è stata connessa ad alcun carico.
 $$v_{1}=E$$
 cioè la tensione della sorgente cade tutta sul resistore $R_{1}$ la cui corrente è:
 $$i_{1}=\frac{E}{R_{1}}$$
-Tale correnter asco
+Tale corrente scorre anche nel resistore $R_{2}$ producendo una tensione:
+$$v_{2}=i_{2}\cdot R_{2}=\frac{E}{R_{1}}\cdot R_{2}$$
+Infine, dalla KVL alla maglia di uscita troviamo che:
+$$V_{o}=v_{1}+v_{2}=E\cdot(1)$$
