@@ -2558,6 +2558,7 @@ k & 0 \\
 0 & \frac{1}{k}
 \end{vmatrix}\quad\quad(6.59)$$
 
-Il comportamento è il seguente: la tensione $V_{1}$ é pari a $V_{2}$ amplificata del fattore $k, mentre la corrente I1 è data da I2 (cambiata di segno)
+Il comportamento è il seguente: la tensione $V_{1}$ é pari a $V_{2}$ amplificata del fattore $k$, mentre la corrente $I_{1}$ è data da $I_{2}$ (**cambiata di segno**) ridotta dello stesso fattore.
 
-ridotta dello stesso fattore.
+Se si calcola la potenza elettrica assorbita dal doppio bipolo sostituendo il legame costitutivo si ha:
+$$p_{trans}=V_{1}\cdot I_{1}+V_{2}\cdot I_{2}=(K\cdot V_{2})\cdot\left( -\frac{1}{k}\cdot I_{2} \right)+V_{2}\cdot I:$$
