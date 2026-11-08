@@ -2467,7 +2467,6 @@ Si noti come tali equazioni non forniscono alcuna informazione circa i valori de
 
 
 
-
 ## 6.7 **Stadi di amplificazione con op-amp**
 
 Analizziamo il comportamento elettrico del circuito mostrato in figura utilizzando il modello ideale di op-amp. Notate come la tensione di uscita $V_{o}$ venga riportata all’ingresso, attraverso la resistenza di retroazione $R_{2}$.
@@ -2653,3 +2652,9 @@ $$\cos\left( \omega \ t-\frac{\pi}{2} \right)=\sin(\omega \ t)$$
 
 Da quest’ultima osserviamo come **la funzione seno può venire scritta come la corrispondente funzione coseno ritardata di $\frac{\pi}{2}$**.
 
+
+
+## 7.2 **Richiami di trigonometria**
+
+Riportiamo di seguito alcune relazioni trigonometriche, probabilmente già note, utili per la prosecuzione. Dati due angoli $\alpha$ e $\beta$ valgono le seguenti identità trigonometriche:
+$$$$
