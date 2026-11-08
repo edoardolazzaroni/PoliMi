@@ -2637,6 +2637,5 @@ dove è evidente che $\frac{\phi}{\omega}$ gioca il ruolo del parametro $a$ vist
 #Figura(7.3). *Effetto del parametro fase*
 
 
-Per esempio, si consideri quando tale intervallo vale un quarto di periodo, come mostrato in figura 1.4(Alto) si ottiene la funzione
+Per esempio, si consideri quando tale intervallo vale un quarto di periodo, come mostrato in figura 7.4 (Alto) si ottiene la funzione $−X_{m} \sin(\omega \ t)$.
 
-−Xm sin(ωt).
