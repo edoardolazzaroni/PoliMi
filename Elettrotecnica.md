@@ -2381,7 +2381,7 @@ La procedura per la trasformazione triangolo-stella è invece illustrata in figu
 
 In questa sezione descriviamo un componente elettronico estremamente diffuso nelle applicazioni e che, come vedremo, viene modellato come un due porta. Il comportamento elettrico presenta delle peculiarità che richiedono uno studio ad "hoc". Vedremo anche come tali peculiarità possono essere incorporate in un modello di comportamento ideale, cioè la cui complessità è ridotta all’essenziale.
 
-Il dispositivo fisico amplificatore operazionale (*op-amp dall’inglese "operational amplifier"*) si presenta come un componente elettronico con molti morsetti esterni.
+Il dispositivo fisico amplificatore operazionale (op-amp *dall’inglese "operational amplifier"*) si presenta come un componente elettronico con molti morsetti esterni.
 La figura mostra il caso di un op-amp con 5 morsetti, due di questi servono per alimentare il componente mentre i tre rimanenti sono quelli che elaborano le variabili elettriche in ingresso per produrre quella di uscita.
 ![[Elettrotecnica-1794136557568.webp|414]]
 
@@ -2389,6 +2389,7 @@ La figura mostra il caso di un op-amp con 5 morsetti, due di questi servono per 
 
 La figura 6.34 mostra come il componente viene connesso a due batterie rappresentate da due generatori ideali di tensione collegate ad un filo di riferimento. Queste sorgenti "accendono" il dispositivo.
 ![[Elettrotecnica-1794136589499.webp|521]]
-#Figura(6.34). Collegamento dell’op-amp
+#Figura(6.34). *Collegamento dell’op-amp alle alimentazioni*
 
-alle alimentazioni.
+
+In questo modo si viene a formare un doppio bipolo in cui la porta uno è costituita dai due morsetti di ingresso $+$ e $−$ mentre la porta due è formata dal morsetto di uscita e dal riferimento. Il legame tra la tensione di ingresso $V_{i}$ e quella di uscita $V_{o}$ è descritto dalla curva caratteristica mostrata in figura:
