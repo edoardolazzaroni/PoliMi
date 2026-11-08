@@ -2659,8 +2659,7 @@ Da quest’ultima osserviamo come **la funzione seno può venire scritta come la
 Riportiamo di seguito alcune relazioni trigonometriche, probabilmente già note, utili per la prosecuzione. Dati due angoli $\alpha$ e $\beta$ valgono le seguenti identità trigonometriche:
 $$\cos^2\alpha+\sin^2\alpha=1\quad\quad(7.3)\\ \\ \cos(\alpha-\beta)=\cos \alpha\cdot \cos \beta+\sin \alpha\cdot \sin \beta\quad \quad(7.4)\\ \\cos(\alpha+\beta)=\cos \alpha\cdot \cos \beta-\sin \alpha\cdot \sin \beta\quad\quad(7.5)$$
 
-Sommando la $(7.4)$ alla $(.5)$ si ricava facilmente la formula di
+Sommando la $(7.4)$ alla $(7.5)$ si ricava facilmente la **formula di prostaferesi** che permette di esprime il prodotto di sinusoide attraverso una somma:
 
-prostaferesi che permette di esprime il prodotto di sinusoide at-
+$$\cos \alpha\cdot \cos \beta=\frac{1}{2}\cos(\alpha+\beta)+\frac{1}{2}\cos(\alpha-\beta)\quad\quad(7.6)$$
 
-traverso una somma:
