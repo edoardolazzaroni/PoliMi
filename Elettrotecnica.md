@@ -2573,10 +2573,7 @@ Questa figura mostra l’essenza del dispositivo trasformatore incorporata nel s
 
 Vediamo un’altra proprietà del trasformatore con l’aiuto in figura dove un bipolo equivalente di tipo serie è collegato alla porta $2$:
 ![[Elettrotecnica-1794147015462.webp|461]]
-#Figura(6.46). Il trasformatore ideale
-
-può venire impiegato per modificare i
-
-parametri di un bipolo. 
+#Figura(6.46). *Il trasformatore ideale può venire impiegato per modificare i parametri di un bipolo*
 
 Si vuole determinare il modello equivalente, cioè il legame $I, V$, visto alla porta $1$. Si ha:
+$$-I_{2}=l$$
