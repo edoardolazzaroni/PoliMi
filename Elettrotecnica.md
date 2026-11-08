@@ -2602,6 +2602,7 @@ dove il parametro $X_{m}$ viene detto **ampiezza** o valore di picco, $\omega$ �
 #Figura(7.1). Funzione $X_{m} \cos(\omega t)$
 
 Il parametro $X_{m}$ semplicemente scala la funzione coseno (il cui massimo sappiamo valere uno) e la sua unità di misura è la stessa della grandezza $x(t)$ (*ad esempio* sarà in volt se la grandezza è una tensione o ampere se la grandezza è una corrente).
-Poiché $\cos(· )$ è periodico di periodo $2\pi$, abbiamo che anche $x(t)$ è periodico ed il suo periodo $T$ è quel valore del tempo $t= T per cui l’argomento del coseno vale 2π,
-
-ovvero:
+Poiché $\cos(· )$ è periodico di periodo $2\pi$, abbiamo che anche $x(t)$ è periodico ed il suo periodo $T$ è quel valore del tempo $t= T$ per cui l’argomento del coseno vale $2\pi$, ovvero:
+$$\omega T=2\pi$$
+da cui otteniamo:
+$$T=\frac{2\pi}{\omega}$$
