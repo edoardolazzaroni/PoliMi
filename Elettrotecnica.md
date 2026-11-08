@@ -2448,4 +2448,4 @@ Vedremo che **le due strade portano allo stesso risultato finale**.
 	#Figura(6.39). *Soluzione con modello realistico*
 	
 	Assumiamo come incognita la tensione $Vi_{i}$ (fate attenzione al verso). Applicando la KVL alla maglia centrale, si ricava:$$V_{i}=\frac{-I_{s}}{\frac{1}{R_{i}}}+\frac{(1+A)}{R_{f}}\quad(6.55)$$e quindi quello di $V_{o}$:$$V_{o}=I_{s}\cdot\frac{-A}{\frac{1}{R_{i}}+\frac{(1+A)}{R_{f}}}\quad(6.56)$$Che cosa accade quando $A\rightarrow \infty$?
-	In questa condizione limie
+	In questa condizione limite, dalla $(6.55)$ si trova:$$V_{i}=0$$che conferma il modello di comportamento dato dalle $(6.54)$. Mentre dalla $(6.56)$, svolgendo il limite (<u>regola di De l’Hopital</u>), si ha:$$V_{o}=-I_{s}$$
