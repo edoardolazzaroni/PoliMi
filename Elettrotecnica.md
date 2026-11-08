@@ -2526,6 +2526,7 @@ Potremmo chiederci: da dove viene tale potenza ? La risposta è semplice: dalle 
 
 Infine, come ulteriore esempio vediamo cosa accade quando nel circuito in [[#Esercizio(amplificatore operazionale) (2)|figura 6.42]] la resistenza $R_{1} \to \infty$, cioè diventa un <u>circuito aperto</u>.
 uesto caso è mostrato in figura 6.43 (Sinistra):
-
+![[Elettrotecnica-1794146247195.webp|631]]
+#Figura(6.43). *Due modi di disegnare un inseguitore di tensione*
 
 Dal circuito di sinistra, vediamo come la tensione al nodo $A$ rispetto al filo di riferimento è uguale a $E$ e quindi $V_{o} = E$ indipendentemente dal carico applicato.
