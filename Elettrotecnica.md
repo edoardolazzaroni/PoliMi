@@ -2595,4 +2595,10 @@ Il circuito equivalente alla porta $1$ è dato da una resistenza equivalente $k^
 
 In questa sezione impariamo a descrivere grandezze elettriche che sono funzioni sinusoidali del tempo. Indichiamo con $x(t)$ la generica tensione o corrente sinusoidale in un circuito elettrico, questa avrà un’espressione del tipo:
 
-$$x(t)=X_{m}\cos(\omega t+\phi)$$
+$$x(t)=X_{m}\cos(\omega t+\phi)\quad\quad(7.1)$$
+
+dove il parametro $X_{m}$ viene detto **ampiezza** o valore di picco, $\omega$ è la **pulsazione** e $\phi$ la **fase** o angolo. Per comprendere il significato di tali parametri, partiamo considerando il caso semplificato in cui φ= 0 e
+
+dunque la grandezza si riduce a x(t) = Xm cos(ωt) come mostrato in
+
+fig. 1.1. Il parametro Xm semplicemente scala la funzione coseno (il
