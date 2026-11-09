@@ -2939,4 +2939,8 @@ Dato un numero complesso, che è il fasore di una grandezza sinusoidale, è poss
 
 Come secondo esempio, sia dato il fasore:
 $$\mathbf{V}_{4}=\frac{1-j}{1+2j}(1+j)$$
-e la pulsazione $\omega= 1000 \ rad/s$ 
+e la pulsazione $\omega= 1000 \ rad/s$, si vuole ricavare la sinusoide $v_{4}(t)$.
+
+
+Valutiamo modulo e fase dei singoli termini dell'espressione:
+$$$$
