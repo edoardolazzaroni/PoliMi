@@ -2746,3 +2746,6 @@ Più nel dettaglio, la corrente $i_{c}(t)$ è in <u>anticipo</u> di $\frac{\pi}{
 
 
 In modo analogo, ricordiamo che in un bipolo di tipo **induttore**, il cui simbolo è mostrato in figura, il legame costitutivo è:
+$$v_{L}(t)=L\frac{di_{L}(t)}{dt}\quad \quad(7.15)$$
+![[Elettrotecnica-1794212389528.webp|202]]
+#Figura(7.10). Indut
