@@ -2788,3 +2788,4 @@ $$\lambda=-\frac{1}{\tau}=-\frac{1}{R \ C}$$
 $$v_{cp}(t)=V_{m}\cos(\omega t+\phi)\quad(7.20)$$
 che è dello stesso tipo del termine noto cioè è una **sinusoide con la stessa pulsazione** $\omega$ la cui ampiezza e fase vanno determinate.
 
+L'evoluzione nel tempo, per $t>0$
