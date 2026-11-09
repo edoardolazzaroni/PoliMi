@@ -2918,3 +2918,6 @@ Vediamo degli *esempi*:
 
 Sia dato il fasore:
 $$\mathbf{I}_{3}=\frac{1+j}{1-j}$$
+ad una pulsazione assegnata $\omega=10 \ rad/s$, si chiede di determinare il corrispondente sinusoide $i_{3}(t)$.
+
+Il metodo più semplice per il calcolo è quello di valutare modulo e fase del numeratore e denominatore: 
