@@ -2730,3 +2730,7 @@ $$\frac{1}{C}\int_{t_{0}}^t i_{c}(t')dt'=\int_{v_{c}(t_{0})}^{v_{c}(t)} dv_{c}\q
 Risolvendo e riordinando si ha:
 
 $$v_{c}(t)=v_{c}(t_{0})+\frac{1}{C}\int_{t_{0}}^t i_{c}(t')dt'\quad(7.14)$$
+
+Se applichiamo la sorgente sinusoidale di tensione ad un condensatore come in figura, in modo che $v_{c}(t) = v_{s}(t)$, dalla $(7.11)$ si deduce che la corrente $i_{c}(t)$:
+
+$$i_{c}(t)=(\omega C)(-E)\sin(\omega t)=(\omega C)E\cos(\omega)$$
