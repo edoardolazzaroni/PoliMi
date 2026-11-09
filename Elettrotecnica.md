@@ -2740,3 +2740,12 @@ $$i_{c}(t)=(\omega C)(-E)\sin(\omega t)=(\omega C)E\cos\left( \omega t+\frac{\pi
 è una sinusoide con la stessa pulsazione $\omega$ ma con ampiezza e fase diverse:
 ![[Elettrotecnica-1794212153623.webp|498]]
 #Figura(7.9). *La corrente e la tensione ai capi di un condensatore sono in quadratura*
+
+
+Più nel dettaglio, la corrente $i_{c}(t)$ è in anticipo di $\frac{\pi}{2}$ rispetto alla tensione, ovvero è in **quadratura**, e la sua ampiezza è proporzionale alla pulsazione. In particolare al limite ω →0, cioè
+
+il generatore tende ad una sorgente in DC, allora ic(t) = 0A, cioè il
+
+condensatore si comporta come un circuito aperto. Questo risultato è
+
+coerente con la pittura "fisica" descritta nella parte di campi ?
