@@ -3002,4 +3002,7 @@ $$s(t)=x_{1}(t)+\frac{d}{dt}x_{2}(t)$$
 Qual è il modulo e la fase di $s(t)$?
 
 
-Procediamo calcolando i f
+Procediamo calcolando i fasori:
+$$\mathbf{X}_{1}=12\\ \mathbf{X}_{2}=2j$$
+Quindi sfruttando le proprietà di linearità e derivazione, calcoliamo il fasore $\mathbf{S}\iff s(t)$ associato univocamente a $s(t)$:
+$$\mathbf{S}=X_{1}+j\omega$$
