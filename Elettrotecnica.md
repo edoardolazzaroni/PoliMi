@@ -3019,26 +3019,9 @@ Grazie a questa definizione è ora possibile dimostrare le seguenti **proprietà
 
 ## 8.1 **Trasformazione nel dominio delle frequenze**
 
-In un circuito che opera in regime sinusoidale, tutte le grandezze tensione e corrente sono sinusoidi alla stessa pulsazione ω. In virtù
+In un circuito che opera in regime sinusoidale, tutte le grandezze tensione e corrente sono sinusoidi alla stessa pulsazione $\omega$. 
+In virtù delle proprietà dei [[#7.6 **Il fasore**|fasori]] è possibile riscrivere le relazioni che esprimono le leggi di Kirchhoff e quelle che definiscono i legami costitutivi in termini di fasori associati alle sinusoidi. In questo modo il problema dell’analisi del circuito viene "spostato" dal dominio fisico del tempo a quello matematico dei fasori.
 
-delle proprietà dei fasori, viste nella Nota7, è possibile riscrivere le
-
-relazioni che esprimono le leggi di Kirchhoff e quelle che definis-
-
-cono i legami costitutivi in termini di fasori associati alle sinusoidi. In
-
-questo modo il problema dell’analisi del circuito viene "spostato" dal
-
-dominio fisico del tempo a quello matematico dei fasori. Il vantag-
-
-gio computazionale sta nel fatto che nel nuovo dominio le equazioni
-
-differenziali che governano l’analisi nel tempo si trasformano in
-
-relazione algebriche tra numeri complessi. Questo tipo di procedi-
-
-mento molto comune in Ingegneria rappresenta un caso particolare
-
-di trasformazione dal dominio del tempo a quello delle frequenze.
+Il vantaggio computazionale sta nel fatto che nel nuovo dominio le equazioni differenziali che governano l’analisi nel tempo si trasformano in relazione algebriche tra numeri complessi. Questo tipo di procedimento molto comune in Ingegneria rappresenta un caso particolare di trasformazione dal dominio del tempo a quello delle frequenze.
 
 La fig.1.1 illustra in modo pittorico tale procedimento. Le grandezze
