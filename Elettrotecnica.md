@@ -3038,8 +3038,5 @@ La generica KCL che bilancia le n correnti sinusoidali ad un nodo (o attraverso 
 $$i_{1}(t) \pm i_{2}(t)\cdots\pm i_{n}(t)=0$$
 
 Si noti che lo zero a secondo membro indica la sinusoide con ampiezza nulla che è $0 \ \forall \ t$.
-Se si considerano i relativi fasori $ik(t) ←→Ik$, per k= 1, . . . , n, ed il fasore numero complesso zero associato alla
-
-sinusoide nulla 0 ←→0 per la proprietà di linearità applicata ad
-
-ambo i membri si ricava:
+Se si considerano i relativi fasori $i_{k}(t)\iff \mathbf{I}_{k}$, per $k= 1, \cdots , n$, ed il fasore numero complesso zero associato alla sinusoide nulla $0 \iff 0$ per la proprietà di linearità applicata ad ambo i membri si ricava:
+$$\mathbf{I}_{1}\pmb fI$$
