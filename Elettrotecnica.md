@@ -2907,3 +2907,5 @@ $$Z_{1}Z_{2}=Z_{1}=|Z_{1}||Z_{2}|e^{j\measuredangle Z_{1}}e^{j\measuredangle Z_{
 
 ha come modulo il prodotto dei moduli e come fase la somma delle fasi dei due numeri.
 
+In modo analogo, svolgendo il rapporto si ottiene:
+$$\frac{Z_{1}}{Z_{2}}=\frac{|Z_{1}|}{|Z_{2}|}e^{j\measuredangle Z_{1}}e^{-j\measuredangle Z_{2}}=\frac{|Z_{1}|}{|Z_{2}|}e^{j(\measur)}$$
