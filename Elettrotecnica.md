@@ -2772,4 +2772,11 @@ Utilizzando il legame costitutivo del condensatore $(7.11)$ e osservando che la 
 $$v_{R}(t)=R \ C\frac{dv_{c}(t)}{dt}$$
 Detta tensione sommata a quella del condensatore dà la tensione imposta dalla sorgente e quindi conduce alla seguente equazione:
 $$\tau\frac{dv_{c}(t)}{dt}+v_{c}(t)=E\cos(\omega t)\quad(7.17)$$
-dove si è usata la notazione $\tau=R \ C$
+dove si è usata la notazione $\tau=R \ C$.
+La $(7.17)$ è un'**equazione differenziale**, in quanto in essa compare la variabile incognita $v_{c}(t)$, che è funzione di $t$, e la sua derivata. Più in particolare questa è un’equazione lineare, in quanto la variabile e la sua derivata compaiono all’interno di una combinazione lineare (*ad esempio* somma o moltiplicazione per un coefficiente), a coefficienti costanti, ovvero $ è costante e non dipende da t,
+
+di ordine uno, perché compare solo la derivata di prim’ordine. Il ter-
+
+mine a destra di (1.17) è detto termine noto e come vedete, nel nostro
+
+problema è la grandezza sinusoidale impressa.
