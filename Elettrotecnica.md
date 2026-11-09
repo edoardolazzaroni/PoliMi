@@ -2974,7 +2974,10 @@ Il termine:
 $$\mathbf{X}e^{j\omega t}=X_{m}e^{j\phi}e^{j\omega t}=X_{m}e^{j(\omega t+\phi)}$$
 è un numero complesso di modulo pari a $X_{m}$ e con una fase $\omega t+\phi$ variabile nel tempo.
 È abitudine rappresentare questo numero complesso che varia nel tempo come un vettore, come in figura, a cui si dà il nome di vettore rotante.
-
+![[Elettrotecnica-1794218226262.webp|295]]
+#Figura(7.16). *Il vettore rotante*
 
 Per $t= 0$, quando $\omega t= 0$, il vettore rotante è sovrapposto al fasore, mentre negli istanti successivi, questo vettore ruota in senso antiorario con velocità angolare $\omega$.
-In ogni
+In ogni istante di tempo $t$, la proiezione del vettore rotante sull’asse reale fornisce il valore della funzione sinusoidale $x(t)$.
+
+Grazie a questa definizione è ora possibile dimostrare le seguenti **proprietà**:
