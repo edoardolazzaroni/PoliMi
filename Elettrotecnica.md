@@ -2837,4 +2837,18 @@ e quindi:
 $$B=\omega \tau\frac{E}{1+(\omega \tau)^2}$$
 
 Infine, grazie alle $(7.10)$ ricaviamo modulo e fase:
-$$X_{m}=\sqrt{A^2+B^2}$$
+$$X_{m}=\sqrt{A^2+B^2}=\frac{E}{\sqrt{1+(\omega \tau)^2}}\\ \\ \phi=-atan\left( \frac{B}{A} \right)=-atan(\omega \tau)\\ \\(7.25)$$
+
+Questo conferma che la funzione sinusoidale $(7.20)$ risolve l’equazione differenziale ($1.17) e ci fornisce anche i valori dei parametri ampiezza
+
+e fase di tale soluzione. Tale derivazione matematica ha tuttavia una
+
+valenza soprattutto teorica, il calcolo pratico con questo metodo "di
+
+sostituzione" è molto complicato anche per un circuito semplice
+
+come quello in fig.1.11. Nella sezione seguente apprenderemo un
+
+metodo di analisi molto più adatto a risolvere circuiti elettrici che
+
+operano in regime sinusoidale.
