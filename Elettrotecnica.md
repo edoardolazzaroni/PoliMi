@@ -3034,7 +3034,7 @@ Le grandezze fasore ricavate dall’analisi condotta nel dominio delle frequenze
 
 ### Leggi di Kirchoff
 
-La generica KCL che bilancia le n correnti sinusoidali ad un nodo (o attraverso una superficie chiusa) di un circuito in AC è una combinazione lineare di dette correnti eguagliate a zero:
+La generica **KCL** che bilancia le n correnti sinusoidali ad un nodo (o attraverso una superficie chiusa) di un circuito in AC è una combinazione lineare di dette correnti eguagliate a zero:
 $$i_{1}(t) \pm i_{2}(t)\cdots\pm i_{n}(t)=0$$
 
 Si noti che lo zero a secondo membro indica la sinusoide con ampiezza nulla che è $0 \ \forall \ t$.
@@ -3043,6 +3043,8 @@ $$\mathbf{I}_{1}\pm \mathbf{I}_{2}\cdots\pm \mathbf{I}_{n}=\mathbf{0}$$
 
 cioè la stessa combinazione lineare equagliata a zero vale per i fasori.
 
-La medesima conclusione vale per la KVL applicata ad un insieme di $m$ tensioni sinusoidali la cui somma algebrica lungo una maglia dà
+La medesima conclusione vale per la **KVL** applicata ad un insieme di $m$ tensioni sinusoidali la cui somma algebrica lungo una maglia dà zero:
+$$v_{1}(t) \pm v_{2}(t)\cdots\pm v_{m}(t)=0$$
 
-zero:
+La stessa combinazione lineare equagliata a zero vale per i relativi fasori:
+$$\mathbf{V}_{1}\pm \mathbf{V}_{2}\cdots\pm \mathbf{V}_{m}=\mathbf{0}$$
