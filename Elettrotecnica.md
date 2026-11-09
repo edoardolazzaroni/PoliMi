@@ -2742,10 +2742,7 @@ $$i_{c}(t)=(\omega C)(-E)\sin(\omega t)=(\omega C)E\cos\left( \omega t+\frac{\pi
 #Figura(7.9). *La corrente e la tensione ai capi di un condensatore sono in quadratura*
 
 
-Più nel dettaglio, la corrente $i_{c}(t)$ è in anticipo di $\frac{\pi}{2}$ rispetto alla tensione, ovvero è in **quadratura**, e la sua ampiezza è proporzionale alla pulsazione. In particolare al limite ω →0, cioè
+Più nel dettaglio, la corrente $i_{c}(t)$ è in <u>anticipo</u> di $\frac{\pi}{2}$ rispetto alla tensione, ovvero è in **quadratura**, e la sua ampiezza è proporzionale alla pulsazione. In particolare al limite $\omega \to 0$, cioè il generatore tende ad una sorgente in DC, allora $i_{c}(t) = 0 \ A$, cioè il condensatore si comporta come un circuito aperto.
 
-il generatore tende ad una sorgente in DC, allora ic(t) = 0A, cioè il
 
-condensatore si comporta come un circuito aperto. Questo risultato è
-
-coerente con la pittura "fisica" descritta nella parte di campi ?
+In modo analogo, ricordiamo che in un bipolo di tipo **induttore**, il cui simbolo è mostrato in figura, il legame costitutivo è:
