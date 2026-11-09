@@ -3014,4 +3014,8 @@ Grazie a questa definizione è ora possibile dimostrare le seguenti **proprietà
 
 
 
-# **Capitolo VIII: Regime sinusoidale e fasori**
+# **Capitolo VIII: Analisi di circuiti in AC**
+
+
+## 8.1 **Trasformazione nel dominio delle frequenze**
+
