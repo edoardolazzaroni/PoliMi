@@ -2943,4 +2943,4 @@ e la pulsazione $\omega= 1000 \ rad/s$, si vuole ricavare la sinusoide $v_{4}(t)
 
 
 Valutiamo modulo e fase dei singoli termini dell'espressione:
-$$$$
+$$|1-j|=\sqrt{ 2 } \quad\quad \measuredangle(1-j)=atan(1)=\frac{\pi}{4}\\ \\|1-j|=\sqrt{ 2 } \quad\quad \measuredangle(1+j)=atan(-1)=-\frac{\pi}{4}$$
