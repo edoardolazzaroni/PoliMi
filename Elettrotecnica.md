@@ -2677,4 +2677,9 @@ $$A=X_{m}\cos \phi\\ \\B=-X_{m}\sin \phi\\ \\(7.9)$$
 Tali relazioni ci permettono di passare dalla rappresentazione $(7.1)$ in termini di ampiezza e fase alla $(7.8)$ dove compare la somma di un coseno ed un seno.
 
 Invertendo le $(7.9)$, troviamo:
-$$X_{m}=\sqrt{A^2+B^2}\\ \\ \phi=-a \atan$$
+$$X_{m}=\sqrt{A^2+B^2}\\ \\ \phi=-atan\left( \frac{B}{A} \right)\\ \\(7.10)$$
+
+dove $atan(· )$ indica la funzione arcotangente.
+Quest’ultime ci permettono il passaggio inverso dalla rappresentazione $(7.8)$ in termini di somma di un coseno ed un seno alla $(7.1)$ dove compaiono ampiezza e fase.
+
+
