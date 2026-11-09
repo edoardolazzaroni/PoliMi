@@ -2674,6 +2674,7 @@ $$x(t)=A \cos(\omega \ t)+ B \sin(\omega \ t)\quad (7.8)$$
 con la posizione:
 $$A=X_{m}\cos \phi\\ \\B=-X_{m}\sin \phi\\ \\(7.9)$$
 
-Tali relazioni ci permettono di passare dalla rappresentazione $(7.1)$ in termini di ampiezza e fase alla $(7.8)$ dove compare la somma
+Tali relazioni ci permettono di passare dalla rappresentazione $(7.1)$ in termini di ampiezza e fase alla $(7.8)$ dove compare la somma di un coseno ed un seno.
 
-di un coseno ed un seno.
+Invertendo le $(7.9)$, troviamo:
+$$X_{m}=\sqrt{A^2+B^2}\\ \\ \phi=-a \atan$$
