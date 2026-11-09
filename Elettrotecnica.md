@@ -2861,3 +2861,4 @@ La rappresentazione grafica nel <u>piano di Gauss</u> del numero $\mathbf{X}$ è
 
 
 Viceversa, dato il numero in forma cartesiana è possibile ricavare la <u>forma polare</u> come segue:
+$$X_{m}=|\mathbf{X}|=\sqrt{a^2+b^2}\\ \\ \phi=$$
