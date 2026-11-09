@@ -2736,4 +2736,7 @@ $$i_{c}(t)=(\omega C)(-E)\sin(\omega t)=(\omega C)E\cos\left( \omega t+\frac{\pi
 ![[Elettrotecnica-1794212120370.webp|226]]
 #Figura(7.8). *Condensatore con sorgente sinusoidale*
 
+
 è una sinusoide con la stessa pulsazione $\omega$ ma con ampiezza e fase diverse:
+![[Elettrotecnica-1794212153623.webp|498]]
+#Figura(7.9). *La corrente e la tensione ai capi di un condensatore sono in quadratura*
