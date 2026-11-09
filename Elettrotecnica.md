@@ -2693,6 +2693,7 @@ Ci riferiamo ai circuiti elementari mostrati in figura:
 ![[Elettrotecnica-1794210422680.webp|456]]
 #Figura(7.5). *Reti resistive con generatore sinusoidale*
 
+
 Sul singolo resistore $R$ continua a valere la legge di Ohm tra i valori istantanei delle correnti e tensioni ai suoi capi, cioè:
 $$v(t)=R \ i(t)$$
 
@@ -2701,6 +2702,7 @@ $$i(t)=\frac{1}{R}v_{s}(t)=\frac{1}{R}E\cos(\omega t)$$
 
 Come mostrato in figura 7.6, la **forma d’onda della corrente e della tensione ai capi del resistore sono due sinusoidi "in fase"**, cioè raggiungono i massimi/minimi e attraversano l’asse zero negli stessi istanti di tempo:
 ![[Elettrotecnica-1794211320189.webp|528]]
-#Figura(7.6
+#Figura(7.6). *In un resistore $i(t)$ e $v(t)$ sono in fase*
+
 
 In modo simile, per il circuito in figura 7.5 (Destra) è
