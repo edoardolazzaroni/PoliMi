@@ -2821,4 +2821,9 @@ $$v_{cp}(t)\quad=\quad A \ \cos(\omega t)+B\sin(\omega t)\quad(7.21)$$
 e ricordiamo che valgono le relazioni $(7.10)$. Sostituendo la $(7.21)$ nell'equazione differenziale, otteniamo:
 $$-\omega t  A \ \sin(\omega t)\quad + \quad \omega t  B \ \cos(\omega t)\\ \\ +B \ \sin(\omega t)\quad +\quad A \ \cos(\omega t)\quad=\quad E \  \cos(\omega t)\\ \\(7.22)$$
 Raccogliamo i coefficienti che moltiplicano il seno e quelli che moltiplicano il coseno:
-$$(-\omega \tau A+B)\cdot \sin(\omega t)-$$
+$$(-\omega \tau A+B)\cdot \sin(\omega t)+(\omega \tau B + A)\cdot \cos(\omega t)=E \ \cos(\omega t)\quad(7.23)$$
+Quindi bilanciamo separatamente i coefficienti che moltiplicano il seno ai due membri e quelli che moltiplicano il coseno:
+$$\begin{cases}
+-\omega \tau A + B = 0 \\
+\omega \tau B + A
+\end{cases}$$
