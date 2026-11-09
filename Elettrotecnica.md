@@ -2965,4 +2965,10 @@ $$x(t)\iff \mathbf{(X)}$$
 
 Per dimostrare agevolmente le altre proprietà fondamentale dei fasori (talvolta indicate come i lemmi dei fasori) è utile introdurre una relazione formale tra fasore e sinusoide. Questa relazione sarà usata solo ai <u>fini teorici</u>. Data la sinusoide:
 $$x(t)=X_{m}\cos(\omega t+\phi)$$
-ed il re
+ed il relativo fasore:
+$$\mathbf{X}=X_{m}e^{j\phi}$$
+vale la seguente relazione:
+$$x(t)=\mathrm{Re}[\mathbf{X}e^{j\omega t}]$$
+
+Il termine:
+$$\mathbf{X}e^{j\omega t}=X_{m}e^{j\phi}$$
