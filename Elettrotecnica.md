@@ -2819,4 +2819,4 @@ Si ha che dopo un tempo sufficientemente lungo in modo che tutti i transitori si
 In questa sezione dimostriamo che la funzione sinusoidale $(7.20)$ è soluzione dell’equazione differenziale $(7.17)$. A tal fine, riscriviamo la sinusoide $v_{cp}(t)$ come somma di un coseno e di un seno:
 $$v_{cp}(t)\quad=\quad A \ \cos(\omega t)+B\sin(\omega t)\quad(7.21)$$
 e ricordiamo che valgono le relazioni $(7.10)$. Sostituendo la $(7.21)$ nell'equazione differenziale, otteniamo:
-$$-\omega t A \ $$
+$$-\omega t \quad A \ \sin(\omega t)+\omega t \quad B \ \cos(\omega t)\\ \\ +B \ \sin(\omega t)\quad +\quad A \ \cos(\omega t)\quad=\quad E \  \cos(\omega t\)$$
