@@ -2982,4 +2982,5 @@ In ogni istante di tempo $t$, la proiezione del vettore rotante sull’asse real
 
 Grazie a questa definizione è ora possibile dimostrare le seguenti **proprietà**:
 
-- **LINEARITÀ**. Siano date due sinusoidi, con la stessa pulsazione $\omega$ ed i relativi fasori:$$x_{1}(t)\iff \mathbf{X}_{1}\\x_{2}(t)\iff \mathbf{X}_{2}$$Inoltre, siano $k_{1},k_{2}$ due numeri reali qualunque. Si costruisce la funzione del tempo $y(t)$ che è data dalla combinazione lineare:$$y(t)=k_{1}\cdot x_{1}(t)+k$$
+- **LINEARITÀ**. Siano date due sinusoidi, con la stessa pulsazione $\omega$ ed i relativi fasori:$$x_{1}(t)\iff \mathbf{X}_{1}\\x_{2}(t)\iff \mathbf{X}_{2}$$Inoltre, siano $k_{1},k_{2}$ due numeri reali qualunque. Si costruisce la funzione del tempo $y(t)$ che è data dalla combinazione lineare:$$y(t)=k_{1}\cdot x_{1}(t)+k_{2}\cdot x_{2}(t)\quad(7.30)$$La Trigonometria ci indica che $y(t)$ è sempre una sinusoide di pulsazione $\omega$.
+	Ci chiediamo allora qual è l'espressione del fasore $\mathbf{Y}$ di tal
