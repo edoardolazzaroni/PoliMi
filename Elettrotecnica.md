@@ -2929,3 +2929,8 @@ e quindi:
 $$|\mathbf{I}_{3}|=1\quad \quad \measuredangle (\mathbf{I}_{3})=\frac{\pi}{4}-\left( -\frac{\pi}{4} \right)=\frac{\pi}{2}\longrightarrow \mathbf{I}_{3}=j$$
 e la corrispondente sinusoide vale:
 $$i_{3}(t)=1\cos\left( \omega t+\frac{\pi}{2} \right)=1\cos\left( 10 \ t + \frac{\pi}{2} \right)$$
+
+Come verifica dei calcoli coi numeri complessi è possibile procedere usando la forma cartesiana moltiplicando numeratore e denominatore per il complesso coniugato del denominatore:
+$$\mathbf{I}_{3}=\frac{1+j}{1-j}\cdot\frac{1+j}{1+j}=\frac{1-1+2j}{2}=j$$
+
+
