@@ -2924,4 +2924,4 @@ ad una pulsazione assegnata $\omega=10 \ rad/s$, si chiede di determinare il cor
 
 
 Il metodo più semplice per il calcolo è quello di valutare modulo e fase del numeratore e denominatore:
-$$|1+j|=$$
+$$|1+j|=\sqrt{ 2 } \quad\quad \measuredangle(1+j)=atan(1)=\frac{\pi}{4}$$
