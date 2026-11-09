@@ -2808,4 +2808,6 @@ L’esperienza mostra che in un circuito elettrico che gode delle seguenti **pro
 
 - Il circuito è lineare;
 - Tutte le sue sorgenti sono sinusoidali con la stessa pulsazione $\omega$ (isofrequenziali);
-- Le sue pulsazioni natuali $$
+- Le sue pulsazioni naturali $\lambda_{i}$, che in generale sono numeri complessi, hanno parte reale strettamente negativa, cioè $\mathrm{Re}(\lambda_{i})<0$.
+
+Si ha che dopo un tempo sufficientemente lungo in modo che tutti i transitori si sono estinti, tutte le sue grandezze elettriche sono delle sinusoidi a pulsazione $\omega$. In questa condizione si dice che il circuito opera in regime sinusoidale.
