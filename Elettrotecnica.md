@@ -2997,3 +2997,9 @@ Grazie a questa definizione è ora possibile dimostrare le seguenti **proprietà
 
 Sono date le sinusoidi isofrequenziali:
 $$x_{1}(t)=12 \ \cos(4t)\\ \\x_{2}(t)=2 \ \cos\left( 4t+\frac{\pi}{2} \right)$$
+Si costruisce la sinusoide:
+$$s(t)=x_{1}(t)+\frac{d}{dt}x_{2}(t)$$
+Qual è il modulo e la fase di $s(t)$?
+
+
+Procediamo calcolando i f
