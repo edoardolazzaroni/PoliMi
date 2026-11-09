@@ -2861,4 +2861,9 @@ La rappresentazione grafica nel <u>piano di Gauss</u> del numero $\mathbf{X}$ è
 
 
 Viceversa, dato il numero in forma cartesiana è possibile ricavare la <u>forma polare</u> come segue:
-$$X_{m}=|\mathbf{X}|=\sqrt{a^2+b^2}\\ \\ \phi=\measuredangle \mathbf{X}=atan()$$
+$$X_{m}=|\mathbf{X}|=\sqrt{a^2+b^2}\\ \\ \phi=\measuredangle \mathbf{X}=atan\left( \frac{b}{a} \right)\\ \\(7.29)$$
+in cui al valore della fase $\phi$ calcolato come sopra va aggiungo $\pi$ se $a<0$.
+
+
+Vediamo alcuni esempi pratici di calcolo:
+
