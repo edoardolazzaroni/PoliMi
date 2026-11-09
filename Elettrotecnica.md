@@ -2902,10 +2902,18 @@ in cui al valore della fase $\phi$ calcolato come sopra va aggiungo $\pi$ se $a<
 Rivediamo alcune operazioni matematiche fondamentali svolte con numeri complessi in forma polare. Siano dati due numeri complessi:
 $$Z_{1}=|Z_{1}|e^{j\measuredangle Z_{1}}\\ \\Z_{2}=|Z_{2}|e^{j\measuredangle Z_{2}}$$
 
-il loro prodotto risulta:
+il loro **prodotto** risulta:
 $$Z_{1}Z_{2}=Z_{1}=|Z_{1}||Z_{2}|e^{j\measuredangle Z_{1}}e^{j\measuredangle Z_{2}}=|Z_{1}||Z_{2}|e^{j(\measuredangle Z_{1}+\measuredangle Z_{2})}$$
 
 ha come modulo il prodotto dei moduli e come fase la somma delle fasi dei due numeri.
 
-In modo analogo, svolgendo il rapporto si ottiene:
-$$\frac{Z_{1}}{Z_{2}}=\frac{|Z_{1}|}{|Z_{2}|}e^{j\measuredangle Z_{1}}e^{-j\measuredangle Z_{2}}=\frac{|Z_{1}|}{|Z_{2}|}e^{j(\measur)}$$
+In modo analogo, svolgendo il **rapporto** si ottiene:
+$$\frac{Z_{1}}{Z_{2}}=\frac{|Z_{1}|}{|Z_{2}|}e^{j\measuredangle Z_{1}}e^{-j\measuredangle Z_{2}}=\frac{|Z_{1}|}{|Z_{2}|}e^{j(\measuredangle Z_{1}-\measuredangle Z_{2})}$$
+
+ha come modulo il rapporto dei moduli e come fase la differenza delle fasi dei due numeri.
+
+Dato un numero complesso, che è il fasore di una grandezza sinusoidale, è possibile ricavare univocamente tale grandezza calcolando il modulo e la fase del numero complesso.
+
+Vediamo degli *esempi*:
+
+Sia dato il fasore:
