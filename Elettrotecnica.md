@@ -2937,19 +2937,20 @@ Dato un numero complesso, che è il fasore di una grandezza sinusoidale, è poss
 
 #### #Esercizio(fasori) (4)
 
-Come secondo esempio, sia dato il fasore:
-$$\mathbf{V}_{4}=\frac{1-j}{1+2j}(1+j)$$
-e la pulsazione $\omega= 1000 \ rad/s$, si vuole ricavare la sinusoide $v_{4}(t)$.
-
-
-Valutiamo modulo e fase dei singoli termini dell'espressione:
-$$|1-j|=\sqrt{ 2 } \quad\quad \measuredangle(1-j)=atan(-1)=-\frac{\pi}{4}\\ \\|1+2j|=\sqrt{ 5 } \quad\quad \measuredangle(1+2j)=atan(2)\\ \\|1+j|=\sqrt{ 2 } \quad\quad \measuredangle(1+j)=atan(1)=\frac{\pi}{4}$$
-quindi:
-$$|\mathbf{V}_{4}|=\frac{2}{\sqrt{ 5 }}$$
-e:
-$$\measuredangle \mathbf{V}_{4}=-\frac{\pi}{4}+\frac{\pi}{4}-atan(2)=-atan(2)=-1.107 \ rad \approx -63^{o}$$
-Dunque la sinusoide vale:
-$$v_{4}(t)=\frac{2}{\sqrt{ 5 }}\cos(\omega t-1.107)$$
-che talvolta, con abuso di notazione e allo scopo di quantificare in
-
-modo più intuitivo il valore della fase, troverete scritto:
+> [!question] Esercizio
+> Come secondo esempio, sia dato il fasore:
+> $$\mathbf{V}_{4}=\frac{1-j}{1+2j}(1+j)$$
+> e la pulsazione $\omega= 1000 \ rad/s$, si vuole ricavare la sinusoide $v_{4}(t)$.
+> 
+> 
+> Valutiamo modulo e fase dei singoli termini dell'espressione:
+> $$|1-j|=\sqrt{ 2 } \quad\quad \measuredangle(1-j)=atan(-1)=-\frac{\pi}{4}\\ \\|1+2j|=\sqrt{ 5 } \quad\quad \measuredangle(1+2j)=atan(2)\\ \\|1+j|=\sqrt{ 2 } \quad\quad \measuredangle(1+j)=atan(1)=\frac{\pi}{4}$$
+> quindi:
+> $$|\mathbf{V}_{4}|=\frac{2}{\sqrt{ 5 }}$$
+> e:
+> $$\measuredangle \mathbf{V}_{4}=-\frac{\pi}{4}+\frac{\pi}{4}-atan(2)=-atan(2)=-1.107 \ rad \approx -63^{o}$$
+> Dunque la sinusoide vale:
+> $$v_{4}(t)=\frac{2}{\sqrt{ 5 }}\cos(\omega t-1.107)$$
+> che talvolta, con abuso di notazione e allo scopo di quantificare in modo più intuitivo il valore della fase, troverete scritto:
+> $$v_{4}(t)=\frac{2}{\sqrt{ 5 }}\cos(\omega t-63^{o})$$
+> dove nell'argomento del coseno $\omega t$ è in radianti mentre la fase è data in gradi. E’ chiaro che nel caso si voglia valutare tale funzione è necessario convertire uno dei due termini in modo da averli espressi nella <u>stessa unità di misura</u> (radianti o gradi).
