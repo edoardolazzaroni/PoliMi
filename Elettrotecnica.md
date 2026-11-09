@@ -2665,6 +2665,6 @@ $$\cos \alpha\cdot \cos \beta=\frac{1}{2}\cos(\alpha+\beta)+\frac{1}{2}\cos(\alp
 
 Infine riportiamo la relazione tra due modi di rappresentazione della funzione sinusoidale. Partendo dall’espressione $(7.1)$ applichiamo la $(7.5)$:
 $$\begin{align}
-x(t) \quad = \quad X_{m}\cos(\omega \ t + \phi) \\
-(X_{m}\cos \phi)\cos(\omega t)+()
+x(t) &= X_{m}\cos(\omega \ t + \phi) \\ \\
+&= (X_{m}\cos \phi)\cos(\omega t)+(-X_{m}\sin \phi)\sin(\omega \ t)
 \end{align}$$
