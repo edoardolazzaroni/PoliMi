@@ -2770,4 +2770,6 @@ Approfondiamo questo concetto con l’aiuto di un semplice circuito di test, mos
 
 Utilizzando il legame costitutivo del condensatore $(7.11)$ e osservando che la corrente nel resistore $R$ è uguale a $i_{c}(t)$, si calcola la tensione sul resistore:
 $$v_{R}(t)=R \ C\frac{dv_{c}(t)}{dt}$$
-Detta tensione sommata a quella del condensatore dà l
+Detta tensione sommata a quella del condensatore dà la tensione imposta dalla sorgente e quindi conduce alla seguente equazione:
+$$\tau\frac{dv_{c}(t)}{dt}+v_{c}(t)=E\cos(\omega t)\quad(7.17)$$
+dove si è usata la notazione $\tau=R \ C$
