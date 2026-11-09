@@ -3039,4 +3039,10 @@ $$i_{1}(t) \pm i_{2}(t)\cdots\pm i_{n}(t)=0$$
 
 Si noti che lo zero a secondo membro indica la sinusoide con ampiezza nulla che è $0 \ \forall \ t$.
 Se si considerano i relativi fasori $i_{k}(t)\iff \mathbf{I}_{k}$, per $k= 1, \cdots , n$, ed il fasore numero complesso zero associato alla sinusoide nulla $0 \iff 0$ per la proprietà di linearità applicata ad ambo i membri si ricava:
-$$\mathbf{I}_{1}\pmb fI$$
+$$\mathbf{I}_{1}\pm \mathbf{I}_{2}\cdots\pm \mathbf{I}_{n}=\mathbf{0}$$
+
+cioè la stessa combinazione lineare equagliata a zero vale per i fasori.
+
+La medesima conclusione vale per la KVL applicata ad un insieme di $m$ tensioni sinusoidali la cui somma algebrica lungo una maglia dà
+
+zero:
