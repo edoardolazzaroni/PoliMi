@@ -2903,4 +2903,7 @@ Rivediamo alcune operazioni matematiche fondamentali svolte con numeri complessi
 $$Z_{1}=|Z_{1}|e^{j\measuredangle Z_{1}}\\ \\Z_{2}=|Z_{2}|e^{j\measuredangle Z_{2}}$$
 
 il loro prodotto risulta:
-$$Z_{1}Z_{2}=Z_{1}=|Z_{1}||Z|e^{j\measuredangle Z_{1}}$$
+$$Z_{1}Z_{2}=Z_{1}=|Z_{1}||Z_{2}|e^{j\measuredangle Z_{1}}e^{j\measuredangle Z_{2}}=|Z_{1}||Z_{2}|e^{j(\measuredangle Z_{1}+\measuredangle Z_{2})}$$
+
+ha come modulo il prodotto dei moduli e come fase la somma delle fasi dei due numeri.
+
