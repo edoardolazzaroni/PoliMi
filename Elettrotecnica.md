@@ -2971,4 +2971,5 @@ vale la seguente relazione:
 $$x(t)=\mathrm{Re}[\mathbf{X}e^{j\omega t}]$$
 
 Il termine:
-$$\mathbf{X}e^{j\omega t}=X_{m}e^{j\phi}$$
+$$\mathbf{X}e^{j\omega t}=X_{m}e^{j\phi}e^{j\omega t}=X_{m}e^{j(\omega t+\phi)}$$
+è un numero complesso di modulo pari a $X_{m}$ e con una fase $\omega t+\phi$ variabile nel 
