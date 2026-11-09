@@ -2756,4 +2756,9 @@ e quindi coinvolge la derivata rispetto al tempo della corrente, mentre $L$ è l
 Anche in questo caso l’equazione $(7.15)$ può essere riscritta in modo da derivare la corrente nell’induttore in funzione della sua tensione. Si ottiene:
 $$i_{L}(t)=i_{L}(t_{0})+\frac{1}{L}\int_{t_{0}}^t v_{L}(t')dt'\quad(7.16)$$
 
-Quindi anche nel caso dell'induttore, il legame tra corrente e tensione non è una relazione tra i valori istantanei ma coinvolge l'operatore deri
+Quindi anche nel caso dell'induttore, il legame tra corrente e tensione non è una relazione tra i valori istantanei ma coinvolge l'operatore derivata/integrale.
+
+
+
+## 7.4 **Risposta a regime sinusoidale**
+
