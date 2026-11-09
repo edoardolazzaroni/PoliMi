@@ -2959,5 +2959,10 @@ Dato un numero complesso, che è il fasore di una grandezza sinusoidale, è poss
 
 ## 7.8 **Proprietà dei fasori**
 
-Nella sezione precedente, partendo dalla definizione operativa di fasore, si è mostrato operativamente come data una sinusoide si possa calcolare in modo univoco il corrispondente fasore e viceversa, come dato il fasore (e assegnata $\omega$) come si calcoli in modo univoco la corrispondente sinusoide funzione del tempo. Dunque vale la proprietà che tra una sinusoide e ed il relativo fasore esiste una corrispondenza biunivoca. Tale corrispondenza sarà indicata col simbolo:
-$$x(t)\i$$
+Nella sezione precedente, partendo dalla definizione operativa di fasore, si è mostrato operativamente come data una sinusoide si possa calcolare in modo univoco il corrispondente fasore e viceversa, come dato il fasore (e assegnata $\omega$) come si calcoli in modo univoco la corrispondente sinusoide funzione del tempo.
+Dunque vale la proprietà che <mark class="hltr-yellow">tra una sinusoide e ed il relativo fasore esiste una corrispondenza biunivoca</mark>. Tale corrispondenza sarà indicata col simbolo:
+$$x(t)\iff \mathbf{(X)}$$
+
+Per dimostrare agevolmente le altre proprietà fondamentale dei fasori (talvolta indicate come i lemmi dei fasori) è utile introdurre una relazione formale tra fasore e sinusoide. Questa relazione sarà usata solo ai <u>fini teorici</u>. Data la sinusoide:
+$$x(t)=X_{m}\cos(\omega t+\phi)$$
+ed il re
