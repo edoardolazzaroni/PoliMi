@@ -2925,7 +2925,7 @@ Dato un numero complesso, che è il fasore di una grandezza sinusoidale, è poss
 > 
 > 
 > Il metodo più semplice per il calcolo è quello di valutare modulo e fase del numeratore e denominatore:
-> $$|1+j|=\sqrt{ 2 } \quad\quad \measuredangle(1+j)=atan(1)=\frac{\pi}{4}\\ \\|1-j|=\sqrt{ 2 } \quad\quad \measuredangle(1+j)=atan(-1)=-\frac{\pi}{4}$$
+> $$|1+j|=\sqrt{ 2 } \quad\quad \measuredangle(1+j)=atan(1)=\frac{\pi}{4}\\ \\|1-j|=\sqrt{ 2 } \quad\quad \measuredangle(1-j)=atan(-1)=-\frac{\pi}{4}$$
 > e quindi:
 > $$|\mathbf{I}_{3}|=1\quad \quad \measuredangle (\mathbf{I}_{3})=\frac{\pi}{4}-\left( -\frac{\pi}{4} \right)=\frac{\pi}{2}\longrightarrow \mathbf{I}_{3}=j$$
 > e la corrispondente sinusoide vale:
@@ -2943,4 +2943,6 @@ e la pulsazione $\omega= 1000 \ rad/s$, si vuole ricavare la sinusoide $v_{4}(t)
 
 
 Valutiamo modulo e fase dei singoli termini dell'espressione:
-$$|1-j|=\sqrt{ 2 } \quad\quad \measuredangle(1-j)=atan(1)=\frac{\pi}{4}\\ \\|1-j|=\sqrt{ 2 } \quad\quad \measuredangle(1+j)=atan(-1)=-\frac{\pi}{4}$$
+$$|1-j|=\sqrt{ 2 } \quad\quad \measuredangle(1-j)=atan(-1)=-\frac{\pi}{4}\\ \\|1+2j|=\sqrt{ 5 } \quad\quad \measuredangle(1+2j)=atan(2)\\ \\|1+j|=\sqrt{ 2 } \quad\quad \measuredangle(1+j)=atan(1)=\frac{\pi}{4}$$
+Quindi:
+$$$$
