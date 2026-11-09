@@ -2732,5 +2732,8 @@ Risolvendo e riordinando si ha:
 $$v_{c}(t)=v_{c}(t_{0})+\frac{1}{C}\int_{t_{0}}^t i_{c}(t')dt'\quad(7.14)$$
 
 Se applichiamo la sorgente sinusoidale di tensione ad un condensatore come in figura, in modo che $v_{c}(t) = v_{s}(t)$, dalla $(7.11)$ si deduce che la corrente $i_{c}(t)$:
+$$i_{c}(t)=(\omega C)(-E)\sin(\omega t)=(\omega C)E\cos\left( \omega t+\frac{\pi}{2} \right)$$
+![[Elettrotecnica-1794212120370.webp|226]]
+#Figura(7.8). *Condensatore con sorgente sinusoidale*
 
-$$i_{c}(t)=(\omega C)(-E)\sin(\omega t)=(\omega C)E\cos(\omega)$$
+è una sinusoide con la stessa pulsazione $\omega$ ma con ampiezza e fase diverse:
