@@ -2789,6 +2789,10 @@ $$v_{cp}(t)=V_{m}\cos(\omega t+\phi)\quad(7.20)$$
 che è dello stesso tipo del termine noto cioè è una **sinusoide con la stessa pulsazione** $\omega$ la cui ampiezza e fase vanno determinate.
 
 L'evoluzione nel tempo, per $t>0$, della funzione esponenziale $(7.19)$ (con esponente $\lambda$ **negativo**), è tale che $v_{ch}(t)$ tende ad estinguersi nel tempo e per questo viene indicato col nome di **transitorio**.
-![[Elettrotecnica-1794214026294.webp]]
+![[Elettrotecnica-1794214026294.webp|421]]
+#Figura(7.12). *Funzione $v_{ch}(t)$*
 
-In una prima fase dell'analisi, il termine $v_{ch}(t)$ può essere 
+
+In una prima fase dell'analisi, il termine $v_{ch}(t)$ può essere trascurato, supponendo di voler calcolare $v_{c}(t)$ per tempi sufficientemente grandi per i quali il transitorio si è esaurito.
+In queste condizioni si ha:
+$$$$
