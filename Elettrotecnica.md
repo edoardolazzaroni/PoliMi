@@ -2786,3 +2786,5 @@ $$\lambda=-\frac{1}{\tau}=-\frac{1}{R \ C}$$
 
 è detta **pulsazione naturale del sistema** mentre $K$ è un numero reale da determinare, ed il secondo termine:
 $$v_{cp}(t)=V_{m}\cos(\omega t+\phi)\quad(7.20)$$
+che è dello stesso tipo del termine noto cioè è una **sinusoide con la stessa pulsazione** $\omega$ la cui ampiezza e fase vanno determinate.
+
