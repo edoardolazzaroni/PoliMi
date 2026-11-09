@@ -2884,12 +2884,19 @@ in cui al valore della fase $\phi$ calcolato come sopra va aggiungo $\pi$ se $a<
 
 #### #Esercizio(fasori) (2)
 
-Sia data la tensione:
-$$v_{2}(t)=5 \sin(100 \ t)$$
+> [!question] Esercizio
+> Sia data la tensione:
+> $$v_{2}(t)=5 \sin(100 \ t)$$
+> 
+> Per calcolarne il fasore, riscriviamo la sinusoide come un coseno:
+> $$v_{2}(t)=5\cos\left( 100 \ t-\frac{\pi}{2} \right)\to \mathbf{V}_{2}=5e^{-j\frac{\pi}{2}}=-5j$$
+> come mostrato in figura:
+> 
+> ![[Elettrotecnica-1794216046210.webp|270]]
+> #Figura(7.15). *Il fasore $\mathbf{V}_{2}$*
 
-Per calcolarne il fasore, riscriviamo la sinusoide come un coseno:
-$$v_{2}(t)=5\cos\left( 100 \ t-\frac{\pi}{2} \right)\to \mathbf{V}_{2}=5e^{-j\frac{\pi}{2}}=-5j$$
-come mostrato in figura:
 
-![[Elettrotecnica-1794216046210.webp|270]]
-#Figura ()
+
+## 7.7 **Dai numeri complessi ai fasori**
+
+Rivediamo alcune operazioni matematiche fondamentali svolte con numeri complessi in forma polare. Siano dati due numeri complessi:
