@@ -2795,4 +2795,5 @@ L'evoluzione nel tempo, per $t>0$, della funzione esponenziale $(7.19)$ (con esp
 
 In una prima fase dell'analisi, il termine $v_{ch}(t)$ può essere trascurato, supponendo di voler calcolare $v_{c}(t)$ per tempi sufficientemente grandi per i quali il transitorio si è esaurito.
 In queste condizioni si ha:
-$$$$
+$$v_{c}(t)=v_{cp}(t)=V_{m}\cos(\omega t+\phi)$$
+che viene chiamata la **risposta a regime sinusoidale**.
