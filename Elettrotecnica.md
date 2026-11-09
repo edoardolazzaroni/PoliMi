@@ -2705,4 +2705,6 @@ Come mostrato in figura 7.6, la **forma d’onda della corrente e della tensione
 #Figura(7.6). *In un resistore $i(t)$ e $v(t)$ sono in fase*
 
 
-In modo simile, per il circuito in figura 7.5 (Destra) è
+In modo simile, per il circuito in figura 7.5 (Destra) è possibile applicare la KVL e quindi ricavare la corrente di maglia:
+
+$$i(t) \ R_{1}+i(t) \ R_{2}=v_{s}(t)\longri$$
