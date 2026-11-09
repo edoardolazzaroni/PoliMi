@@ -1,3 +1,6 @@
+---
+banner: "[[API(banner).png]]"
+---
 
 
 # **Parte I: Informatica Teorica**

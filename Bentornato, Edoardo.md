@@ -1,3 +1,6 @@
+---
+banner: "[[dashboard(banner).png]]"
+---
 
 ___
 
