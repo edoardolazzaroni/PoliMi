@@ -2868,15 +2868,24 @@ in cui al valore della fase $\phi$ calcolato come sopra va aggiungo $\pi$ se $a<
 
 #### #Esercizio(fasori) (1)
 
- Sia data la tensione sinusoidale:
-$$v_{1}(t)=10\cos\left( 100 \ t+\frac{\pi}{4} \right)$$
-si chiede di calcolarne il fasore corrispondente.
+> [!question] Esercizio
+>  Sia data la tensione sinusoidale:
+> $$v_{1}(t)=10\cos\left( 100 \ t+\frac{\pi}{4} \right)$$
+> si chiede di calcolarne il fasore corrispondente.
+> 
+> 
+> Risulta:
+> $$\mathbf{V}_{1}=10e^{j\frac{\pi}{4}}=5\sqrt{2}+j \ 5\sqrt{2}=5\sqrt{2}(1+j)$$
+> come mostrato in figura:
+> 
+> ![[Elettrotecnica-1794215893927.webp|332]]
+> #Figura(7.14). *Il fasore $\mathbf{V}_{1}$*
 
 
-Risulta:
-$$\mathbf{V}_{1}=10e^{j\frac{\pi}{4}}=5\sqrt{2}+j \ 5\sqrt{2}=5\sqrt{2}(1+j)$$
-come mostrato in figura:
-![[Elettrotecnica-1794215893927.webp|332]]
-#Figura(7.14). *Il fasore $\mathbf{V}_{1}$*
+#### #Esercizio(fasori) (2)
 
+Sia data la tensione:
+$$v_{2}(t)=5 \sin(100 \ t)$$
 
+Per calcolarne il fasore, riscriviamo la sinusoide come un coseno:
+$$v_{2}(t)=$$
