@@ -1,3 +1,6 @@
+---
+banner: "[[fondamentidiinformatica(banner).png]]"
+---
 
 [[Fondamenti di C.pdf|Fondamenti di C(89)]]
 [[C89-mappa-radiale-fix.excalidraw]]
