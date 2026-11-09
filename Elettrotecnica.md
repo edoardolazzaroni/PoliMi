@@ -2707,4 +2707,10 @@ Come mostrato in figura 7.6, la **forma d’onda della corrente e della tensione
 
 In modo simile, per il circuito in figura 7.5 (Destra) è possibile applicare la KVL e quindi ricavare la corrente di maglia:
 
-$$i(t) \ R_{1}+i(t) \ R_{2}=v_{s}(t)\longri$$
+$$i(t) \ R_{1}+i(t) \ R_{2}=v_{s}(t)\longrightarrow i(t)=\frac{E}{R_{1}+R_{2}}\cos(\omega t)$$
+
+oppure ricavare una delle tensioni sui due resistori, *per esempio*:
+
+$$v_{R_{2}}(t)=E\frac{R_{1}}{R_{1}+R_{2}}\cos(\omega t)$$
+
+Ve
