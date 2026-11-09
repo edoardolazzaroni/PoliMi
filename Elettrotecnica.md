@@ -2800,3 +2800,5 @@ In una prima fase dell'analisi, il termine $v_{ch}(t)$ può essere trascurato, s
 In queste condizioni si ha:
 $$v_{c}(t)=v_{cp}(t)=V_{m}\cos(\omega t+\phi)$$
 che viene chiamata la **risposta a regime sinusoidale**.
+
+Si noti che a transitorio esaurito, anche le altre variabili elettriche nel circuito, per esempio $i_{c}(t)$ o la tensione sul resistore, sono funzioni sinusoidali alla stessa pulsazione $\omega$ e con ampiezza e fase da determinarsi. Cioè tutta la rete opera in Regime Alternato Sinusoidale ("Alternating Cu)
