@@ -2914,10 +2914,14 @@ ha come modulo il rapporto dei moduli e come fase la differenza delle fasi dei 
 
 Dato un numero complesso, che è il fasore di una grandezza sinusoidale, è possibile ricavare univocamente tale grandezza calcolando il modulo e la fase del numero complesso.
 
-Vediamo degli *esempi*:
+
+
+#### #Esercizio(fasori) (3)
 
 Sia dato il fasore:
 $$\mathbf{I}_{3}=\frac{1+j}{1-j}$$
 ad una pulsazione assegnata $\omega=10 \ rad/s$, si chiede di determinare il corrispondente sinusoide $i_{3}(t)$.
 
-Il metodo più semplice per il calcolo è quello di valutare modulo e fase del numeratore e denominatore: 
+
+Il metodo più semplice per il calcolo è quello di valutare modulo e fase del numeratore e denominatore:
+$$|1+j|=$$
