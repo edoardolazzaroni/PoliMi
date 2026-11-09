@@ -2778,4 +2778,8 @@ La $(7.17)$ è un'**equazione differenziale**, in quanto in essa compare la vari
 Il termine a destra della $(7.17)$ è detto termine noto e come vedete, nel nostro problema è la grandezza sinusoidale impressa.
 
 L’Analisi Matematica ci fornisce la forma risolutiva, cioè l’espressione della funzione $v_{c}(t)$ che è soluzione della $(7.17)$. Tale espressione è riportata di seguito:
-$$v_{c}(t)=$$
+$$v_{c}(t)=v_{ch}(t)+v_{cp}(t)\quad(7.18)$$
+è composta da due termini, il primo:
+$$v_{ch}(t)=ke^{\lambda t}\quad(7.19)$$
+dove, nel nostro caso,
+$$\lambda=-\frac{1}{\tau}=-\frac{1}{R\C}$$
