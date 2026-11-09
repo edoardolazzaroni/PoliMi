@@ -3032,7 +3032,7 @@ La seguente figura illustra in modo pittorico tale procedimento:
 Le grandezze fasore ricavate dall’analisi condotta nel dominio delle frequenze potranno, alla fine, essere anti-trasformate dalle frequenze al tempo in virtù della biunivocità del legame sinusoide-fasore.
 
 
-### Leggi di Kirchoff
+- ### Leggi di Kirchoff
 
 La generica **KCL** che bilancia le n correnti sinusoidali ad un nodo (o attraverso una superficie chiusa) di un circuito in AC è una combinazione lineare di dette correnti eguagliate a zero:
 $$i_{1}(t) \pm i_{2}(t)\cdots\pm i_{n}(t)=0$$
@@ -3048,3 +3048,7 @@ $$v_{1}(t) \pm v_{2}(t)\cdots\pm v_{m}(t)=0$$
 
 La stessa combinazione lineare equagliata a zero vale per i relativi fasori:
 $$\mathbf{V}_{1}\pm \mathbf{V}_{2}\cdots\pm \mathbf{V}_{m}=\mathbf{0}$$
+
+
+- ### Legami costitutivi (leggi di Ohm)
+
