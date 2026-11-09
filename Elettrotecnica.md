@@ -2745,7 +2745,13 @@ $$i_{c}(t)=(\omega C)(-E)\sin(\omega t)=(\omega C)E\cos\left( \omega t+\frac{\pi
 Più nel dettaglio, la corrente $i_{c}(t)$ è in <u>anticipo</u> di $\frac{\pi}{2}$ rispetto alla tensione, ovvero è in **quadratura**, e la sua ampiezza è proporzionale alla pulsazione. In particolare al limite $\omega \to 0$, cioè il generatore tende ad una sorgente in DC, allora $i_{c}(t) = 0 \ A$, cioè il condensatore si comporta come un circuito aperto.
 
 
-In modo analogo, ricordiamo che in un bipolo di tipo **induttore**, il cui simbolo è mostrato in figura, il legame costitutivo è:
-$$v_{L}(t)=L\frac{di_{L}(t)}{dt}\quad \quad(7.15)$$
-![[Elettrotecnica-1794212389528.webp|202]]
-#Figura(7.10). Indut
+> [!important] Definizione
+> In modo analogo, ricordiamo che in un bipolo di tipo **induttore**, il cui simbolo è mostrato in figura, il legame costitutivo è:
+> $$v_{L}(t)=L\frac{di_{L}(t)}{dt}\quad \quad(7.15)$$
+> ![[Elettrotecnica-1794212389528.webp|202]]
+> #Figura(7.10). *Induttore lineare*
+> 
+
+e quindi coinvolge la derivata rispetto al tempo della corrente, mentre $L$ è l’**autoinduttanza** (o semplicemente **induttanza**), misurata in henry [H].
+Anche in questo caso l’equazione $(7.15)$ può essere riscritta in modo da derivare la corrente nell’induttore in funzione della sua tensione. Si ottiene:
+$$$$
