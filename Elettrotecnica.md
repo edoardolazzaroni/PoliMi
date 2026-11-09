@@ -2765,4 +2765,9 @@ Quindi anche nel caso dell'induttore, il legame tra corrente e tensione non è u
 L’analisi di circuiti con sorgenti sinusoidali ed elementi dinamici conduce ad equazioni differenziali.
 Approfondiamo questo concetto con l’aiuto di un semplice circuito di test, mostrato in figura 7.11, contenete una sorgente sinusoidale $v_{s}(t) = E \cos(\omega t)$ ed un condensatore:
 ![[Elettrotecnica-1794213016833.webp|333]]
-#Figura(7.11)
+#Figura(7.11). *Circuito con elemento dinamico condensatore*
+
+
+Utilizzando il legame costitutivo del condensatore $(7.11)$ e osservando che la corrente nel resistore $R$ è uguale a $i_{c}(t)$, si calcola la tensione sul resistore:
+$$v_{R}(t)=R \ C\frac{dv_{c}(t)}{dt}$$
+Detta tensione sommata a quella del condensatore dà l
