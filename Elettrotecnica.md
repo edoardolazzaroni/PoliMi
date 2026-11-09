@@ -2762,3 +2762,7 @@ Quindi anche nel caso dell'induttore, il legame tra corrente e tensione non è u
 
 ## 7.4 **Risposta a regime sinusoidale**
 
+L’analisi di circuiti con sorgenti sinusoidali ed elementi dinamici conduce ad equazioni differenziali.
+Approfondiamo questo concetto con l’aiuto di un semplice circuito di test, mostrato in figura 7.11, contenete una sorgente sinusoidale $v_{s}(t) = E \cos(\omega t)$ ed un condensatore:
+![[Elettrotecnica-1794213016833.webp|333]]
+#Figura(7.11)
