@@ -2981,3 +2981,5 @@ Per $t= 0$, quando $\omega t= 0$, il vettore rotante è sovrapposto al fasore, m
 In ogni istante di tempo $t$, la proiezione del vettore rotante sull’asse reale fornisce il valore della funzione sinusoidale $x(t)$.
 
 Grazie a questa definizione è ora possibile dimostrare le seguenti **proprietà**:
+
+- **LINEARITÀ**. Siano date due sinusoidi, con la stessa pulsazione $\omega$ ed i relativi fasori:$$x_{1}(t)\iff \mathbf{}$$
