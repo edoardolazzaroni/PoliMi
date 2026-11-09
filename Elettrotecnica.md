@@ -2699,6 +2699,8 @@ $$v(t)=R \ i(t)$$
 Quindi per il circuito in figura (Sinistra) si ha:
 $$i(t)=\frac{1}{R}v_{s}(t)=\frac{1}{R}E\cos(\omega t)$$
 
-Come mostrato in figura 7.6, la **forma d’onda della corrente e della tensione ai capi del resistore sono due sinusoidi "in fase"**, cioè raggiungono i massimi/minimi e attraversano l’asse zero negli stessi istanti di tempo.
+Come mostrato in figura 7.6, la **forma d’onda della corrente e della tensione ai capi del resistore sono due sinusoidi "in fase"**, cioè raggiungono i massimi/minimi e attraversano l’asse zero negli stessi istanti di tempo:
+![[Elettrotecnica-1794211320189.webp|528]]
+#Figura(7.6
 
 In modo simile, per il circuito in figura 7.5 (Destra) è
