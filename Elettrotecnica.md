@@ -2688,10 +2688,10 @@ Quest’ultime ci permettono il passaggio inverso dalla rappresentazione $(7.8)$
 
 Iniziamo col valutare cosa accade quando una sorgente sinusoidale:
 $$v_{s}(t)=E\cos(\omega t)$$
-viene inserita all’interno di un circuito resistivo, ovvero formato da
+viene inserita all’interno di un circuito resistivo, ovvero formato da resistenze, generatori pilotati e/o più in generale da doppi bipoli.
 
-resistenze, generatori pilotati e/o più in generale da doppi bipoli.
+Ci riferiamo ai circuiti elementari mostrati in figura:
 
-Ci riferiamo ai circuiti elementari mostrati in fig. 1.5. Sul singolo
+Sul singolo resistore $R$ continua a valere la legge di Ohm tra i valori istantanei delle correnti e tensioni ai suoi capi, cioè:
 
-resistore R continua a valuere la legge di Ohm tra i valori istantanei
+$$$$$
