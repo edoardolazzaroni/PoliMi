@@ -2846,3 +2846,6 @@ Tale derivazione matematica ha tuttavia una <u>valenza soprattutto teorica</u>, 
 
 ## 7.6 **Il fasore**
 
+Tale metodo consiste nell’associare alla generica sinusoide:
+$$x(t)=X_{m}\cos(\omega t+\phi)\quad(7.26)$$
+il numero com
