@@ -2851,4 +2851,7 @@ $$x(t)=X_{m}\cos(\omega t+\phi)\quad(7.26)$$
 il **numero complesso** detto **fasore** espresso nella forma polare:
 $$\mathbf{X}=X_{m}e^{j\phi}\quad(7.27)$$
 
-dove $j$ indica l'unità immaginaria $j=\sqrt{-1}$, che 
+dove $j$ indica l'unità immaginaria $j=\sqrt{-1}$, che ha come modulo l’ampiezza (o valore di picco) della sinusoide e come argomento la sua fase. Dalla forma polare è poi possibile passare alla <u>forma cartesiana</u>:
+$$\mathbf{X}=X_{m}\cos \phi+jX_{m}\sin \phi=a+jb\quad(7.28)$$
+
+con $\mathrm{Re}(\mathbf{X})$ 
