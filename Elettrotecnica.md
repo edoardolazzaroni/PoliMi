@@ -3035,4 +3035,11 @@ Le grandezze fasore ricavate dall’analisi condotta nel dominio delle frequenze
 ### Leggi di Kirchoff
 
 La generica KCL che bilancia le n correnti sinusoidali ad un nodo (o attraverso una superficie chiusa) di un circuito in AC è una combinazione lineare di dette correnti eguagliate a zero:
-$$i_{1}(t) \pm i_{2}$$
+$$i_{1}(t) \pm i_{2}(t)\cdots\pm i_{n}(t)=0$$
+
+Si noti che lo zero a secondo membro indica la sinusoide con ampiezza nulla che è $0 \ \forall \ t$.
+Se si considerano i relativi fasori $ik(t) ←→Ik$, per k= 1, . . . , n, ed il fasore numero complesso zero associato alla
+
+sinusoide nulla 0 ←→0 per la proprietà di linearità applicata ad
+
+ambo i membri si ricava:
