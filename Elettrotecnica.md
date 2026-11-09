@@ -2995,17 +2995,23 @@ Grazie a questa definizione è ora possibile dimostrare le seguenti **proprietà
 
 #### #Esercizio(fasori) (5)
 
-Sono date le sinusoidi isofrequenziali:
-$$x_{1}(t)=12 \ \cos(4t)\\ \\x_{2}(t)=2 \ \cos\left( 4t+\frac{\pi}{2} \right)$$
-Si costruisce la sinusoide:
-$$s(t)=x_{1}(t)+\frac{d}{dt}x_{2}(t)$$
-Qual è il modulo e la fase di $s(t)$?
+> [!question] Esercizio
+> Sono date le sinusoidi isofrequenziali:
+> $$x_{1}(t)=12 \ \cos(4t)\\ \\x_{2}(t)=2 \ \cos\left( 4t+\frac{\pi}{2} \right)$$
+> Si costruisce la sinusoide:
+> $$s(t)=x_{1}(t)+\frac{d}{dt}x_{2}(t)$$
+> Qual è il modulo e la fase di $s(t)$?
+> 
+> 
+> Procediamo calcolando i fasori:
+> $$\mathbf{X}_{1}=12\\ \mathbf{X}_{2}=2j$$
+> Quindi sfruttando le proprietà di linearità e derivazione, calcoliamo il fasore $\mathbf{S}\iff s(t)$ associato univocamente a $s(t)$:
+> $$\mathbf{S}=X_{1}+j\omega X_{2}=12+j4 \ 4 \ 2 \ j =12-8=4$$
+> Da cui concludiamo che:
+> $$s(t)=4 \ \cos(4t)$$
+> ha modulo $4$ e fase $0$.
 
 
-Procediamo calcolando i fasori:
-$$\mathbf{X}_{1}=12\\ \mathbf{X}_{2}=2j$$
-Quindi sfruttando le proprietà di linearità e derivazione, calcoliamo il fasore $\mathbf{S}\iff s(t)$ associato univocamente a $s(t)$:
-$$\mathbf{S}=X_{1}+j\omega X_{2}=12+j4 \ 4 \ 2 \ j =12-8=4$$
-Da cui concludiamo che:
-$$s(t)=4 \ \cos(4t)$$
-ha modulo $4$ e fase $0$
+
+
+# **Capitolo VIII: Regime sinusoidale e fasori**
