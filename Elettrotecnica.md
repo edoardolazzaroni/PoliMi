@@ -2663,3 +2663,7 @@ Sommando la $(7.4)$ alla $(7.5)$ si ricava facilmente la **formula di prostafere
 
 $$\cos \alpha\cdot \cos \beta=\frac{1}{2}\cos(\alpha+\beta)+\frac{1}{2}\cos(\alpha-\beta)\quad\quad(7.6)$$
 
+Infine riportiamo la relazione tra due modi di rappresentazione della funzione sinusoidale. Partendo dall’espressione $(7.1)$ applichiamo la $(7.5)$:
+$$\begin{align}
+x(t)=
+\end{align}$$
