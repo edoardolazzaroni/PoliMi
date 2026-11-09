@@ -2865,5 +2865,8 @@ $$X_{m}=|\mathbf{X}|=\sqrt{a^2+b^2}\\ \\ \phi=\measuredangle \mathbf{X}=atan\lef
 in cui al valore della fase $\phi$ calcolato come sopra va aggiungo $\pi$ se $a<0$.
 
 
-Vediamo alcuni esempi pratici di calcolo:
 
+#### #Esercizio(fasori) (1)
+
+ Sia data la tensione sinusoidale:
+$$v_{1}(t)=10\cos\left( 100 \ t+\frac{\pi}{4} \right)$$
