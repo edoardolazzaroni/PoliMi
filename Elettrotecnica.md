@@ -2900,3 +2900,7 @@ in cui al valore della fase $\phi$ calcolato come sopra va aggiungo $\pi$ se $a<
 ## 7.7 **Dai numeri complessi ai fasori**
 
 Rivediamo alcune operazioni matematiche fondamentali svolte con numeri complessi in forma polare. Siano dati due numeri complessi:
+$$Z_{1}=|Z_{1}|e^{j\measuredangle Z_{1}}\\ \\Z_{2}=|Z_{2}|e^{j\measuredangle Z_{2}}$$
+
+il loro prodotto risulta:
+$$Z_{1}Z_{2}=Z_{1}=|Z_{1}||Z|e^{j\measuredangle Z_{1}}$$
