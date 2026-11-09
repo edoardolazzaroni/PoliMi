@@ -2917,3 +2917,4 @@ Dato un numero complesso, che è il fasore di una grandezza sinusoidale, è poss
 Vediamo degli *esempi*:
 
 Sia dato il fasore:
+$$\mathbf{I}_{3}=\frac{1+j}{1-j}$$
