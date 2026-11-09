@@ -2856,4 +2856,8 @@ $$\mathbf{X}=X_{m}\cos \phi+jX_{m}\sin \phi=a+jb\quad(7.28)$$
 
 con $\mathrm{Re}(\mathbf{X})=a=X_{m}\cos \phi$ e $\mathrm{Im}(\mathbf{X})=b=X_{m}\sin \phi$.
 La rappresentazione grafica nel <u>piano di Gauss</u> del numero $\mathbf{X}$ è mostrata in figura:
+![[Elettrotecnica-1794215507400.webp|405]]
+#Figura(7.13). *Il fasore $\mathbf{X}$*
 
+
+Viceversa, dato il numero in forma cartesiana è possibile ricavare la <u>forma polare</u> come segue:
