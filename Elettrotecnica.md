@@ -2848,4 +2848,7 @@ Tale derivazione matematica ha tuttavia una <u>valenza soprattutto teorica</u>, 
 
 Tale metodo consiste nell’associare alla generica sinusoide:
 $$x(t)=X_{m}\cos(\omega t+\phi)\quad(7.26)$$
-il numero com
+il **numero complesso** detto **fasore** espresso nella forma polare:
+$$\mathbf{X}=X_{m}e^{j\phi}\quad(7.27)$$
+
+dove $j$ indica l'unità immaginaria $j=\sqrt{-1}$, che 
