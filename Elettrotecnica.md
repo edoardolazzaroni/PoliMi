@@ -2693,5 +2693,7 @@ viene inserita all’interno di un circuito resistivo, ovvero formato da resiste
 Ci riferiamo ai circuiti elementari mostrati in figura:
 
 Sul singolo resistore $R$ continua a valere la legge di Ohm tra i valori istantanei delle correnti e tensioni ai suoi capi, cioè:
+$$v(t)=R \ i(t)$$
 
-$$$$$
+Quindi per il circuito in figura (Sinistra) si ha:
+$$i(t)=\frac{1}{R}v_{s}(t)=\frac{1}{R}E\cos(\omega t)$$
