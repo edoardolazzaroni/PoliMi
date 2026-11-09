@@ -2683,3 +2683,15 @@ dove $atan(· )$ indica la funzione arcotangente.
 Quest’ultime ci permettono il passaggio inverso dalla rappresentazione $(7.8)$ in termini di somma di un coseno ed un seno alla $(7.1)$ dove compaiono ampiezza e fase.
 
 
+
+## 7.3 **Sorgenti sinusidali e bipoli dinamici**
+
+Iniziamo col valutare cosa accade quando una sorgente sinusoidale:
+$$v_{s}(t)=E\cos(\omega t)$$
+viene inserita all’interno di un circuito resistivo, ovvero formato da
+
+resistenze, generatori pilotati e/o più in generale da doppi bipoli.
+
+Ci riferiamo ai circuiti elementari mostrati in fig. 1.5. Sul singolo
+
+resistore R continua a valuere la legge di Ohm tra i valori istantanei
