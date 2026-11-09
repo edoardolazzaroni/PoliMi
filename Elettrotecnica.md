@@ -2832,4 +2832,9 @@ $$\begin{cases}
 Dalla prima otteniamo:
 $$B=\omega \tau A$$
 che sostituito nella seconda dà:
-$$A=\frac{E}{1ì(\omega t)}$$
+$$A=\frac{E}{1+(\omega \tau)^2}$$
+e quindi:
+$$B=\omega \tau\frac{E}{1+(\omega \tau)^2}$$
+
+Infine, grazie alle $(7.10)$ ricaviamo modulo e fase:
+$$X_{m}=\sqrt{A^2+B^2}$$
