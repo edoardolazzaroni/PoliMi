@@ -2888,4 +2888,8 @@ Sia data la tensione:
 $$v_{2}(t)=5 \sin(100 \ t)$$
 
 Per calcolarne il fasore, riscriviamo la sinusoide come un coseno:
-$$v_{2}(t)=$$
+$$v_{2}(t)=5\cos\left( 100 \ t-\frac{\pi}{2} \right)\to \mathbf{V}_{2}=5e^{-j\frac{\pi}{2}}=-5j$$
+come mostrato in figura:
+
+![[Elettrotecnica-1794216046210.webp|270]]
+#Figura ()
