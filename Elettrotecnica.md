@@ -3005,4 +3005,7 @@ Qual è il modulo e la fase di $s(t)$?
 Procediamo calcolando i fasori:
 $$\mathbf{X}_{1}=12\\ \mathbf{X}_{2}=2j$$
 Quindi sfruttando le proprietà di linearità e derivazione, calcoliamo il fasore $\mathbf{S}\iff s(t)$ associato univocamente a $s(t)$:
-$$\mathbf{S}=X_{1}+j\omega$$
+$$\mathbf{S}=X_{1}+j\omega X_{2}=12+j4 \ 4 \ 2 \ j =12-8=4$$
+Da cui concludiamo che:
+$$s(t)=4 \ \cos(4t)$$
+ha modulo $4$ e fase $0$
