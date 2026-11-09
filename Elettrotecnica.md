@@ -2988,6 +2988,5 @@ Grazie a questa definizione è ora possibile dimostrare le seguenti **proprietà
 
 
 
-- **DERIVAZIONE**. È data una sinusoide ed il suo fasore:$$x(t)\iff \mathbf{X}$$Si esegue la derivata rispetto al tempo della sinusoide:$$y(t)=\frac{dx(t)}{dt}\quad(7.35)$$che, dalla Trigonometria, si sa essere una nuova sinusoide alla stessa pulsazione $\omega$. Quanto vale il fasore $\mathbf{Y}$ della derivata ? Anche in questo caso la risposta si ottiene agevolmente sostituendo a x(t)
-
-in (1.8) la sua definizione in termini di vettore rotante:
+- **DERIVAZIONE**. È data una sinusoide ed il suo fasore:$$x(t)\iff \mathbf{X}$$Si esegue la derivata rispetto al tempo della sinusoide:$$y(t)=\frac{dx(t)}{dt}\quad(7.35)$$che, dalla Trigonometria, si sa essere una nuova sinusoide alla stessa pulsazione $\omega$.
+	Quanto vale il fasore $\mathbf{Y}$ della derivata ? Anche in questo caso la risposta si ottiene agevolmente sostituendo a $x(t)$ in $(7.8)$ la sua definizione in termini di vettore rotante:$$y(t)=\mathrm{Re}[\mathbf{X} \ j\omega e^{j\omega t}]\quad(7.37)$$da cui, poichè $\mathbf{X}$ non dipende dal tempo mentre 
