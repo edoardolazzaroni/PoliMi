@@ -2816,3 +2816,4 @@ Si ha che dopo un tempo sufficientemente lungo in modo che tutti i transitori si
 
 ## 7.5 **Soluzione particolare**
 
+In questa sezione dimostriamo che la funzione sinusoidale $(7.20)$ è soluzione dell’equazione differenziale $(7.17)$. A tal fine, riscriviamo la sinusoide $v(t)$ come somma di un coseno e di un seno
