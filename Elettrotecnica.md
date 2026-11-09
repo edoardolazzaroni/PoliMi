@@ -2722,8 +2722,6 @@ Vediamo dunque come tutte le le grandezze elettriche sono una replica della form
 > #Figura(7.7). *Condensatore lineare*
 
 e quindi non è semplicemente un legame tra valori istantanei ma coinvolge la derivata rispetto al tempo della tensione, mentre $C$ è la **capacità** misurata in farad [F].
-L’equazione $(7.11)$ può riscriversi in modo da esprimete la tensione in funzione della corrente. Per questo
-
-moltiplichiamo entrambi i membri di (1.11) per dt
-
-C , ottenendo
+L’equazione $(7.11)$ può riscriversi in modo da esprimete la tensione in funzione della corrente. Per questo moltiplichiamo entrambi i membri di $(7.11)$ per $\frac{dt}{C}$, ottenendo:
+$$\frac{1}{C}i_{c}(t)dt=dv_{c}\quad(7.12)$$
+e quindi integriamo sull'intervallo $(t_{0},)$
