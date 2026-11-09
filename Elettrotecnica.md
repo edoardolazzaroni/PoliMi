@@ -2669,5 +2669,11 @@ $$\begin{align}
 x(t) &= X_{m}\cos(\omega \ t + \phi) \\ \\
 &= (X_{m}\cos \phi)\cos(\omega t)+(-X_{m}\sin \phi)\sin(\omega \ t)
 \end{align} \\ \\(7.7)$$
-che ouò essere riscritta:
-$$x(t)=A \cos(\omega \ t)+ B \sin(\omega \ t)\quad (7)$$
+che può essere riscritta:
+$$x(t)=A \cos(\omega \ t)+ B \sin(\omega \ t)\quad (7.8)$$
+con la posizione:
+$$A=X_{m}\cos \phi\\ \\B=-X_{m}\sin \phi\\ \\(7.9)$$
+
+Tali relazioni ci permettono di passare dalla rappresentazione $(7.1)$ in termini di ampiezza e fase alla $(7.8)$ dove compare la somma
+
+di un coseno ed un seno.
