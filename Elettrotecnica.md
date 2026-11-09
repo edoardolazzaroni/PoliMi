@@ -2782,4 +2782,7 @@ $$v_{c}(t)=v_{ch}(t)+v_{cp}(t)\quad(7.18)$$
 è composta da due termini, il primo:
 $$v_{ch}(t)=ke^{\lambda t}\quad(7.19)$$
 dove, nel nostro caso,
-$$\lambda=-\frac{1}{\tau}=-\frac{1}{R\C}$$
+$$\lambda=-\frac{1}{\tau}=-\frac{1}{R \ C}$$
+
+è detta **pulsazione naturale del sistema** mentre $K$ è un numero reale da determinare, ed il secondo termine:
+$$v_{cp}(t)=V_{m}\cos(\omega t+\phi)\quad(7.20)$$
