@@ -2715,3 +2715,6 @@ $$v_{R_{2}}(t)=E\frac{R_{1}}{R_{1}+R_{2}}\cos(\omega t)$$
 Vediamo dunque come tutte le le grandezze elettriche sono una replica della forma d’onda del generatore scalate di un certo fattore. Tutto quanto appreso nell’analisi dei circuiti in DC si estende ad una rete resistiva con generatori sinusoidali.
 **Quest’ultima affermazione NON è più valida se all’interno del modello circuitale compare almeno un elemento dinamico, cioè un condensatore o un induttore**.
 
+Ricordiamo che in un bipolo di tipo **condensatore**, il cui simbolo è mostrato in figura, il legame costitutivo è:
+$$i_{c}(t)=C\frac{dv_{c}(t)}{dt}\quad\quad(7.11)$$
+![[Elettrotecnica-1794211762917.webp|364]]
