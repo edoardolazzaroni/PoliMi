@@ -2947,4 +2947,9 @@ $$|1-j|=\sqrt{ 2 } \quad\quad \measuredangle(1-j)=atan(-1)=-\frac{\pi}{4}\\ \\|1
 quindi:
 $$|\mathbf{V}_{4}|=\frac{2}{\sqrt{ 5 }}$$
 e:
-$$\measuredangle \mathbf{V}_{4}=-\frac{\pi}{4}+\frac{\pi}{4}-atan(2)=-atan(2)=-1-107 \ rad \approx -64$$
+$$\measuredangle \mathbf{V}_{4}=-\frac{\pi}{4}+\frac{\pi}{4}-atan(2)=-atan(2)=-1.107 \ rad \approx -63^{o}$$
+Dunque la sinusoide vale:
+$$v_{4}(t)=\frac{2}{\sqrt{ 5 }}\cos(\omega t-1.107)$$
+che talvolta, con abuso di notazione e allo scopo di quantificare in
+
+modo più intuitivo il valore della fase, troverete scritto:
