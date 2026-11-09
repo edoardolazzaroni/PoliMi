@@ -2918,19 +2918,25 @@ Dato un numero complesso, che è il fasore di una grandezza sinusoidale, è poss
 
 #### #Esercizio(fasori) (3)
 
-Sia dato il fasore:
-$$\mathbf{I}_{3}=\frac{1+j}{1-j}$$
-ad una pulsazione assegnata $\omega=10 \ rad/s$, si chiede di determinare il corrispondente sinusoide $i_{3}(t)$.
+> [!question] Esercizio
+> Sia dato il fasore:
+> $$\mathbf{I}_{3}=\frac{1+j}{1-j}$$
+> ad una pulsazione assegnata $\omega=10 \ rad/s$, si chiede di determinare il corrispondente sinusoide $i_{3}(t)$.
+> 
+> 
+> Il metodo più semplice per il calcolo è quello di valutare modulo e fase del numeratore e denominatore:
+> $$|1+j|=\sqrt{ 2 } \quad\quad \measuredangle(1+j)=atan(1)=\frac{\pi}{4}\\ \\|1-j|=\sqrt{ 2 } \quad\quad \measuredangle(1+j)=atan(-1)=-\frac{\pi}{4}$$
+> e quindi:
+> $$|\mathbf{I}_{3}|=1\quad \quad \measuredangle (\mathbf{I}_{3})=\frac{\pi}{4}-\left( -\frac{\pi}{4} \right)=\frac{\pi}{2}\longrightarrow \mathbf{I}_{3}=j$$
+> e la corrispondente sinusoide vale:
+> $$i_{3}(t)=1\cos\left( \omega t+\frac{\pi}{2} \right)=1\cos\left( 10 \ t + \frac{\pi}{2} \right)$$
+> 
+> Come verifica dei calcoli coi numeri complessi è possibile procedere usando la forma cartesiana moltiplicando numeratore e denominatore per il complesso coniugato del denominatore:
+> $$\mathbf{I}_{3}=\frac{1+j}{1-j}\cdot\frac{1+j}{1+j}=\frac{1-1+2j}{2}=j$$
 
 
-Il metodo più semplice per il calcolo è quello di valutare modulo e fase del numeratore e denominatore:
-$$|1+j|=\sqrt{ 2 } \quad\quad \measuredangle(1+j)=atan(1)=\frac{\pi}{4}\\ \\|1-j|=\sqrt{ 2 } \quad\quad \measuredangle(1+j)=atan(-1)=-\frac{\pi}{4}$$
-e quindi:
-$$|\mathbf{I}_{3}|=1\quad \quad \measuredangle (\mathbf{I}_{3})=\frac{\pi}{4}-\left( -\frac{\pi}{4} \right)=\frac{\pi}{2}\longrightarrow \mathbf{I}_{3}=j$$
-e la corrispondente sinusoide vale:
-$$i_{3}(t)=1\cos\left( \omega t+\frac{\pi}{2} \right)=1\cos\left( 10 \ t + \frac{\pi}{2} \right)$$
+#### #Esercizio(fasori) (4)
 
-Come verifica dei calcoli coi numeri complessi è possibile procedere usando la forma cartesiana moltiplicando numeratore e denominatore per il complesso coniugato del denominatore:
-$$\mathbf{I}_{3}=\frac{1+j}{1-j}\cdot\frac{1+j}{1+j}=\frac{1-1+2j}{2}=j$$
-
-
+Come secondo esempio, sia dato il fasore:
+$$\mathbf{V}_{4}=\frac{1-j}{1+2j}(1+j)$$
+e la pulsazione $\omega= 1000 \ rad/s$ 
