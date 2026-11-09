@@ -2954,3 +2954,10 @@ Dato un numero complesso, che è il fasore di una grandezza sinusoidale, è poss
 > che talvolta, con abuso di notazione e allo scopo di quantificare in modo più intuitivo il valore della fase, troverete scritto:
 > $$v_{4}(t)=\frac{2}{\sqrt{ 5 }}\cos(\omega t-63^{o})$$
 > dove nell'argomento del coseno $\omega t$ è in radianti mentre la fase è data in gradi. E’ chiaro che nel caso si voglia valutare tale funzione è necessario convertire uno dei due termini in modo da averli espressi nella <u>stessa unità di misura</u> (radianti o gradi).
+
+
+
+## 7.8 **Proprietà dei fasori**
+
+Nella sezione precedente, partendo dalla definizione operativa di fasore, si è mostrato operativamente come data una sinusoide si possa calcolare in modo univoco il corrispondente fasore e viceversa, come dato il fasore (e assegnata $\omega$) come si calcoli in modo univoco la corrispondente sinusoide funzione del tempo. Dunque vale la proprietà che tra una sinusoide e ed il relativo fasore esiste una corrispondenza biunivoca. Tale corrispondenza sarà indicata col simbolo:
+$$x(t)\i$$
