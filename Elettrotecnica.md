@@ -2710,7 +2710,8 @@ In modo simile, per il circuito in figura 7.5 (Destra) è possibile applicare la
 $$i(t) \ R_{1}+i(t) \ R_{2}=v_{s}(t)\longrightarrow i(t)=\frac{E}{R_{1}+R_{2}}\cos(\omega t)$$
 
 oppure ricavare una delle tensioni sui due resistori, *per esempio*:
-
 $$v_{R_{2}}(t)=E\frac{R_{1}}{R_{1}+R_{2}}\cos(\omega t)$$
 
-Ve
+Vediamo dunque come tutte le le grandezze elettriche sono una replica della forma d’onda del generatore scalate di un certo fattore. Tutto quanto appreso nell’analisi dei circuiti in DC si estende ad una rete resistiva con generatori sinusoidali.
+**Quest’ultima affermazione NON è più valida se all’interno del modello circuitale compare almeno un elemento dinamico, cioè un condensatore o un induttore**.
+
