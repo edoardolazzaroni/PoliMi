@@ -3215,4 +3215,5 @@ $$\mathbf{Z}_{L}=j_{10},1=10j\\ \\ \mathbf{Z}_{C}=\frac{1000}{j10 \ 5}=-20j$$
 Ricaviamo quindi che l’impedenza del bipolo composto dalla serie dell’induttore con il resistore $R_{1}$ vale:
 $$\mathbf{Z}_{1}=R_{1}+\mathbf{Z}_{L}=10(1+j)$$
 
-È ora possibile trasformare il generatore formato dalla serie di $v_{s}(t)$ con $\mathbf{Z_$ nel parallelo di un generatore di corrente di fasore
+È ora possibile trasformare il generatore formato dalla serie di $v_{s}(t)$ con $\mathbf{Z}_{1}$ nel parallelo di un generatore di corrente di fasore:
+$$\mathbf{I}_{1}=\frac{\mathbf{V}_{s}}{\mathbf{Z}_{1}}=-\frac{j}{10(1+j)}=-\frac{1+j}{20}$$
