@@ -3055,4 +3055,8 @@ $$\mathbf{V}_{1}\pm \mathbf{V}_{2}\cdots\pm \mathbf{V}_{m}=\mathbf{0}$$
 	- Il legame costitutivo di un resistore formulato nel dominio del tempo:![[Elettrotecnica-1794325023965.webp|203]]
 		#Figura(8.2). *Il resistore in regime sinusoidale*
 		$$v(t)=R\cdot i(t)$$si trasforma nell'analogo legame tra i suoi fasori:$$\mathbf{V}=R\cdot \mathbf{I}$$I due fasori, mostrati in figura, hanno la stessa fase e risultano pertanto allineati:![[Elettrotecnica-1794325088999.webp|482]]
-		#Figura(8.3). In un resistore tensione e corrente sono i
+		#Figura(8.3). *In un resistore tensione e corrente sono in fase*
+		La stessa relazione vale per i fasori delle tensioni e correnti nei generatori pilotati.
+
+
+	- Nel caso di un condensatore, invece il legame costitutivo nel tempo:$$i_{c}(t)=C_{1}\cdot$$
