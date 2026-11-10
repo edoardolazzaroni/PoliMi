@@ -3135,4 +3135,8 @@ $$v_{s}(t)=10\cos(10^3t)V \\ R=1 \ k\Omega \\ C=1 \ \mu F$$
 Con questi valori, si ricava:
 $$\mathbf{V}_{c}=\frac{10}{1+j10^3\cdot 10^{-6}\cdot 10^3}=\frac{10}{1+j}$$
 e quindi:
-$$|b|$$
+$$|\mathbf{V}_{c}|=\frac{10}{\sqrt{ 2 }} \ \cos(10^3t-\frac{\pi}{4}) \ V$$
+
+
+
+## 8.3 **Co**
