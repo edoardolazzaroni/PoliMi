@@ -3193,3 +3193,4 @@ E’ facile estendere la regola di trasformazione di un bipolo composto da una s
 
 
 Con riferimento alla figura, vale:
+$$\mathbf{Z}_{s}=$$
