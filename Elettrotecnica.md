@@ -3101,3 +3101,5 @@ Avremo per il <u>resistore</u>:
 $$\mathbf{Y}_{R}=\frac{\mathbf{I}}{\mathbf{V}}=G$$
 Per il <u>condensatore</u>:
 $$\mathbf{Y}_{C}=\frac{\mathbf{I}_{C}}{\mathbf{V}_{C}}=j\omega C$$
+Ed infine per l’<u>induttore</u>:
+$$\mathbf{Y}_{L}=\frac{\mathbf{I}_{L}}{\mathbf{V}_{C}}=j\omega C$$
