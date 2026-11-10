@@ -3082,9 +3082,9 @@ L’analisi dei vari elementi circuitali mostra dunque come il legame tra i faso
 $$\mathbf{Z}=\frac{\mathbf{V}}{\mathbf{I}}$$
 che chiamiamo l'**impedenza** del bipolo.
 
-Il concetto di impedenza in AC estende quello di resistenza in DC. In particolare, l’impedenza di un resistore:
+Il concetto di impedenza in AC estende quello di resistenza in DC. In particolare, l’impedenza di un <u>resistore</u>:
 $$\mathbf{Z}_{R}=\frac{\mathbf{V}}{\mathbf{I}}=R$$
 è un numero reale e coincide con la sua resistenza.
 
-Per il condensatore e induttore, invece, l’impedenza è un numero immaginario e vale rispettivamente:
-$$$$
+Per il <u>condensatore</u> e <u>induttore</u>, invece, l’impedenza è un numero immaginario e vale rispettivamente:
+$$\mathbf{Z}_{C}=\frac{\mathbf{V}_{C}}{\mathbf{I}_{C}}=\frac{1}{j\omega C}=-j\frac{1}{\omega C}\\ \\ $$
