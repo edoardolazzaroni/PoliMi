@@ -3149,4 +3149,5 @@ I metodi per calcolarla sono una generalizzazione immediata di quanto visto in D
 Si ricava facilmente che:
 $$\mathbf{V}=\mathbf{I}\cdot(\mathbf{Z}_{1}+\mathbf{Z}_{2}+\mathbf{Z}_{3})$$
 
-che estende la proprietà: l’impedenza equivalente della serie di bipoli descritti da impedenze è dato dalla somma delle impedenze dei singoli elementi.
+che estende la **proprietà**: l’impedenza equivalente della serie di bipoli descritti da impedenze è dato dalla somma delle impedenze dei singoli elementi.
+
