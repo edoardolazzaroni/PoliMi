@@ -3176,12 +3176,7 @@ $$\mathbf{Z}=\frac{R_{1}}{1+j\omega C \ R_{1}}=\frac{R_{1}-j\omega C \ R_{1}^2}{
 
 Da questo esempio, si vede come, in generale, <mark class="hltr-yellow">l’impedenza di un bipolo composto si può riscrivere nella forma</mark>:
 $$\mathbf{Z}(j\omega)=R(\omega)+jX(\omega)$$
-che mette in evidenza come l’impedenza sia un numero complesso funzione di $j\omega$ composto da una parte reale R(ω), indicata col nome
+che mette in evidenza come l’impedenza sia un numero complesso funzione di $j\omega$ composto da una parte reale $R(\omega)$, indicata col nome di resistenza, ed una parte immaginaria $X(\omega)$ chiamata **reattanza**.
 
-di resistenza, ed una parte immaginaria X(ω) chiamata reattanza.
-
-In modo analogo, in generale, l’ammettenza di un bipolo com-
-
-posto è anch’essa composta da una parte reale ed una immaginaria,
-
-ovvero:
+In modo analogo, in generale, <mark class="hltr-yellow">l’ammettenza di un bipolo composto è anch’essa composta da una parte reale ed una immaginaria</mark>, ovvero:
+$$\mathbf{Y}(j\omega)=G(\omega)+jB(\omega)$$
