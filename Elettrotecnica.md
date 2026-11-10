@@ -3062,4 +3062,6 @@ $$\mathbf{V}_{1}\pm \mathbf{V}_{2}\cdots\pm \mathbf{V}_{m}=\mathbf{0}$$
 	- Nel caso di un condensatore, invece il legame costitutivo nel tempo:![[Elettrotecnica-1794325312145.webp|183]]
 		#Figura(8.4). *Il condensatore*
 		$$i_{c}(t)=C\cdot\frac{dv_{c}(t)}{dt}$$si trasforma in:$$\mathbf{I}_{c}=j\omega \ C\mathbf{V}_{c}$$Le relazioni tra i moduli dei fasori sono:$$|\mathbf{I}_{c}|=\omega C|\mathbf{V}_{c}|$$mentre le fasi risultano "in quadratura":$$\measuredangle \mathbf{I}_{c}=\measuredangle \mathbf{V}_{c}+\frac{\pi}{2}$$![[Elettrotecnica-1794325356884.webp|263]]
-		#Figura (8.5)
+		#Figura(8.5). *In un condensatore il fasore della corrente è in anticipo di $90^{o}$ rispetto a quello della tensione*
+		
+		Si osservi che al limite $\omega \to 0$, ovvero quando **le sinusoidi tendono ad un valore costante e quindi il regime AC si riduce al regime DC** si ha:$$|\mathbf{I}|$$
