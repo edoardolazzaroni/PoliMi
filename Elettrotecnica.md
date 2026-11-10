@@ -3126,7 +3126,4 @@ L'analisi segue i seguenti passi:
 - Si applicano le leggi di Kirchhoff sui fasori ed i legami costitutivi. Nell’esempio abbiamo:$$\mathbf{I}_{c}R+\mathbf{I}_{c}\frac{1}{j\omega C}=\mathbf{V}_{s}=E$$da cui:$$\mathbf{I}_{c}=\frac{E}{R+\frac{1}{j\omega C}}$$e quindi:$$\mathbf{V}_{c}=E\frac{\frac{1}{j\omega C}}{{R+\frac{1}{j\omega C}}}=\frac{E}{1+j\omega C}$$
 
 - Infine è possibile antitrasformare i fasori nelle corrispondenti grandezze sinusoidali nel dominio del tempo. Per questo, si calcola modulo e fase:$$|\mathbf{V}_{c}|=\frac{E}{\sqrt{ 1+(\omega RC)^2 }}$$e$$\measuredangle \mathbf{V}_{c}=-atan(\omega RC)$$che corrispondo alla sinusoide:$$v_{c}(t)=\frac{E}{\sqrt{ 1+(\omega RC)^2 }}\cos[\omega t-atan(\omega RC)]$$
-	Notate come tale soluzione coincida, come dev’essere, con la
-soluzione particolare vcp(t) ricavata nella (1.25) della Nota 7 dove
-
-si era posto τ = R C.
+	Notate come tale soluzione coincida, come dev’essere, con la soluzione particolare $v_{cp}(t)$ ricavata nella $(7.25)$ del [[#7.5 **Soluzione particolare**|settimo capitolo]] dove si era posto $τ = R C.
