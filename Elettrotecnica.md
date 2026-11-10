@@ -3190,7 +3190,8 @@ Notate che nell’esercizio considerato, si ha $G(\omega) = \frac{1}{R_{1}}$ (in
 ## 8.4 **Trasformazione dei generatori**
 
 E’ facile estendere la regola di trasformazione di un bipolo composto da una sorgente di tensione sinusoidale in serie ad un’impedenza in un bipolo composto da una sorgente di corrente sinusoidale e da un’impedenza (o ammettenza) in parallelo.
-
+![[Elettrotecnica-1794330188316.webp|413]]
+#Figura(8.13). *Trasformazione serie parallelo dei generatori reali*
 
 Con riferimento alla figura, valgono:
 $$\mathbf{Z}_{s}=\mathbf{Z}_{p}\\ \\ \mathbf{I}_{p}=\frac{\mathbf{V}_{s}}{\mathbf{Z}_{s}}$$
