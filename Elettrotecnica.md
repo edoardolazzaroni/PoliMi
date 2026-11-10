@@ -3151,3 +3151,11 @@ $$\mathbf{V}=\mathbf{I}\cdot(\mathbf{Z}_{1}+\mathbf{Z}_{2}+\mathbf{Z}_{3})$$
 
 che estende la **proprietà**: l’impedenza equivalente della serie di bipoli descritti da impedenze è dato dalla somma delle impedenze dei singoli elementi.
 
+
+In modo analogo la figura seguente mostra il collegamento parallelo di bipoli descritti dalle loro ammettenze:
+![[Elettrotecnica-1794328706045.webp|357]]
+#Figura(8.11). Collegamento parallelo di
+
+ammettenze.
+
+Si ricava che:
