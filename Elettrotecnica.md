@@ -3189,4 +3189,7 @@ Notate che nell’esercizio considerato, si ha $G(\omega) = \frac{1}{R_{1}}$ (in
 
 ## 8.4 **Trasformazione dei generatori**
 
-E’ facile estendere la regola di trasformazione di un bipolo composto da una sorgente di tensione sinusoidale in serie ad un’impedenza in un bipolo composto da una sorgente di corrente sinusoidale e da un’impedenza (o ammettenza) in parallelo. Con riferimento alla figura vale:
+E’ facile estendere la regola di trasformazione di un bipolo composto da una sorgente di tensione sinusoidale in serie ad un’impedenza in un bipolo composto da una sorgente di corrente sinusoidale e da un’impedenza (o ammettenza) in parallelo.
+
+
+Con riferimento alla figura, vale:
