@@ -3143,7 +3143,7 @@ $$|\mathbf{V}_{c}|=\frac{10}{\sqrt{ 2 }} \ \cos(10^3t-\frac{\pi}{4}) \ V$$
 
 Collegando in serie o in parallelo bipoli elementari (cioè resistori, condensatori e induttori) si ottengono bipoli composti la cui impedenza o ammettenza equivalente si ricava da quelle dei bipoli elementari.
 I metodi per calcolarla sono una generalizzazione immediata di quanto visto in DC. Per esempio, la figura mostra il collegamento serie di bipoli descritti dalle loro impedenze:
-![[Elettrotecnica-1794327290702.webp|388]]
+![[Elettrotecnica-1794327290702.webp|371]]
 #Figura(8.10). *Collegamento serie di impedenze*
 
 Si ricava facilmente che:
@@ -3154,8 +3154,16 @@ che estende la **proprietà**: l’impedenza equivalente della serie di bipoli d
 
 In modo analogo la figura seguente mostra il collegamento parallelo di bipoli descritti dalle loro ammettenze:
 ![[Elettrotecnica-1794328706045.webp|357]]
-#Figura(8.11). Collegamento parallelo di
-
-ammettenze.
+#Figura(8.11). *Collegamento parallelo di ammettenze*
 
 Si ricava che:
+$$\mathbf{I}=\mathbf{V}\cdot(\mathbf{Y}_{1}+\mathbf{Y}_{2}+\mathbf{Y}_{3})$$
+
+che estende la **proprietà**: l’ammettenza equivalente del collegamento in parallelo di bipoli descritti da ammettenze è dato dalla somma delle ammettenze dei singoli elementi.
+
+
+Analizziamo il bipolo composto mostrato in fig. e determini-
+
+amo l’impedenza equivalente. Calcoliamo prima l’ammettenza equiv-
+
+alente:
