@@ -3067,4 +3067,4 @@ $$\mathbf{V}_{1}\pm \mathbf{V}_{2}\cdots\pm \mathbf{V}_{m}=\mathbf{0}$$
 		Si osservi che al limite $\omega \to 0$, ovvero quando **le sinusoidi tendono ad un valore costante e quindi il regime AC si riduce al regime DC** si ha:$$|\mathbf{I}_{C}|=\omega C|\mathbf{V}_{c}|=0$$cioè <u>il condensatore si comporta come un circuito aperto</u>.
 
 
-	- Infine, per un **induttore** il legame costitutivo nel tempo:$$v_{L}(t)=L\cdot\frac{di_{l}(t)}{dt}$$si trasforma in:$$\mathbf{V}_{l}=j\omega l\mathbf{{i}_{}}$$
+	- Infine, per un **induttore** il legame costitutivo nel tempo:$$v_{L}(t)=L\cdot\frac{di_{l}(t)}{dt}$$si trasforma in:$$\mathbf{V}_{l}=j\omega \ L\mathbf{{I}_{L}}$$Le relazioni tra i moduli dei fasori sono:$$|\mathbf{V}_{L}|=\omega L|\mathbf{I}_{L}|$$mentre per le fasi si ha:$$\measuredangle \mathbf{V}_{L}$$
