@@ -3225,4 +3225,8 @@ $$\mathbf{V}_{AB}=\left( \frac{1}{10}-\frac{1+j}{20} \right)\cdot \frac{1}{\frac
 
 Infine antitrasformando nel tempo otteniamo:
 
-$$v_{AB}$$
+$$v_{AB}(t)=\frac{\sqrt{ 2 }}{2} \ \cos\left( 10t-\frac{\pi}{4} \right) \ V$$
+
+
+
+## 8.5 **Sovrapposizione degli effetti in AC, equivalenti Thevenin e Norton, Parametri dei doppi bipoli**
