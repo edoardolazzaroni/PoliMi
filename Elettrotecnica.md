@@ -3180,3 +3180,9 @@ che mette in evidenza come l’impedenza sia un numero complesso funzione di $j\
 
 In modo analogo, in generale, <mark class="hltr-yellow">l’ammettenza di un bipolo composto è anch’essa composta da una parte reale ed una immaginaria</mark>, ovvero:
 $$\mathbf{Y}(j\omega)=G(\omega)+jB(\omega)$$
+dove $G(\omega)$ viene detta conduttanza mentre $B(\omega)$ viene chiamata **suscettanza**.
+
+
+Notate che nell’esercizio considerato, si ha $G(\omega) = \frac{1}{R_{1}}$ (in questo esempio la conduttanza equivalente non dipende da $ω$), mentre
+
+B(ω) = ωC.
