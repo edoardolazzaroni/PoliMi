@@ -3025,7 +3025,7 @@ In virtù delle proprietà dei [[#7.6 **Il fasore**|fasori]] è possibile riscri
 Il vantaggio computazionale sta nel fatto che nel nuovo dominio le equazioni differenziali che governano l’analisi nel tempo si trasformano in relazione algebriche tra numeri complessi. Questo tipo di procedimento molto comune in Ingegneria rappresenta un caso particolare di trasformazione dal dominio del tempo a quello delle frequenze.
 
 La seguente figura illustra in modo pittorico tale procedimento:
-![[Elettrotecnica-1794264953129.webp|504]]
+![[Elettrotecnica-1794264953129.webp|411]]
 #Figura(8.1). *Il metodo della trasformata*
 
 
@@ -3052,3 +3052,4 @@ $$\mathbf{V}_{1}\pm \mathbf{V}_{2}\cdots\pm \mathbf{V}_{m}=\mathbf{0}$$
 
 - ### Legami costitutivi (leggi di Ohm)
 
+	- 
