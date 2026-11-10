@@ -3110,6 +3110,10 @@ $$\mathbf{Y}_{L}=\frac{\mathbf{I}_{L}}{\mathbf{V}_{L}}=\frac{1}{j\omega L}=-j\fr
 
 Vediamo il procedimento che si segue per svolgere l’analisi di un circuito che opera in regime alternato sinusoidale facendo riferimento alla rete di test mostrata in figura e contenente una sorgente sinusoidale:
 $$v_{s}(t)=E\cos(\omega t)$$
+![[Elettrotecnica-1794326403684.webp|341]]
+#Figura(8.8). *Rete di test nel dominio del tempo*
 
 
 L'analisi segue i seguenti passi:
+
+- Ai generatori sinusoidali (isofrequenziali) si sostituiscono i corrispondenti fasori. I bipoli vengono descritti dai fasori delle tensioni e correnti e dalle impedenze (ammettenze). Così facendo il problema viene trasformato nel dominio dei fasori, come mostrato nella fig. 1.9. Nell’esempio, si ha
