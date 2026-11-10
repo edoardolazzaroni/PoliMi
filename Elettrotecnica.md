@@ -3098,4 +3098,6 @@ $$\mathbf{Y}=\frac{\mathbf{1}}{\mathbf{Z}}=\frac{\mathbf{I}}{\mathbf{V}}$$
 detta **ammettenza** del bipolo.
 
 Avremo per il <u>resistore</u>:
-$$\mathbf{Z}_{R}=$$
+$$\mathbf{Y}_{R}=\frac{\mathbf{I}}{\mathbf{V}}=G$$
+Per il <u>condensatore</u>:
+$$\mathbf{Y}_{C}=\frac{\mathbf{I}_{C}}{\mathbf{V}_{C}}=j\omega C$$
