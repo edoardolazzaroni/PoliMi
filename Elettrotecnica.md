@@ -3118,5 +3118,11 @@ L'analisi segue i seguenti passi:
 
 - Ai generatori sinusoidali (isofrequenziali) si sostituiscono i corrispondenti fasori. I bipoli vengono descritti dai fasori delle tensioni e correnti e dalle impedenze (ammettenze). Così facendo il problema viene trasformato nel dominio dei fasori, come mostrato in figura:
 		![[Elettrotecnica-1794326502231.webp|295]]
-	#Figura(8.9). Rete di test trasformata nel dominio delle frequenze.
-	Nell’esempio, si ha:
+	#Figura(8.9). *Rete di test trasformata nel dominio delle frequenze*
+	
+	
+	Nell’esempio, si ha:$$\mathbf{V}_{s}=E\\ \\ \mathbf{Z}_{c}=\frac{1}{j\omega C}$$
+
+- Si applicano le leggi di Kirchhoff sui fasori ed i legami costitutivi.
+
+Nell’esempio abbiamo:
