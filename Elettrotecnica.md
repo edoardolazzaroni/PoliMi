@@ -3089,6 +3089,13 @@ $$\mathbf{Z}_{R}=\frac{\mathbf{V}}{\mathbf{I}}=R$$
 Per il <u>condensatore</u> e <u>induttore</u>, invece, l’impedenza è un numero immaginario e vale rispettivamente:
 $$\mathbf{Z}_{C}=\frac{\mathbf{V}_{C}}{\mathbf{I}_{C}}=\frac{1}{j\omega C}=-j\frac{1}{\omega C}\\ \\ \mathbf{Z}_{L}=\frac{\mathbf{V}_{L}}{\mathbf{I}_{L}}=j\omega L$$
 
+
+
 In modo analogo a quanto svolto in DC, dove data la resistenza $R$ si è definito il suo inverso conduttanza $G= \frac{1}{R}$, in AC è possibile definire l’<u>inverso dell’impedenza</u>:
 
-$$\mathbf{Y}_{0}\mathbf{}$$
+$$\mathbf{Y}=\frac{\mathbf{1}}{\mathbf{Z}}=\frac{\mathbf{I}}{\mathbf{V}}$$
+
+detta **ammettenza** del bipolo.
+
+Avremo per il <u>resistore</u>:
+$$\mathbf{Z}_{R}=$$
