@@ -3059,4 +3059,4 @@ $$\mathbf{V}_{1}\pm \mathbf{V}_{2}\cdots\pm \mathbf{V}_{m}=\mathbf{0}$$
 		La stessa relazione vale per i fasori delle tensioni e correnti nei generatori pilotati.
 
 
-	- Nel caso di un condensatore, invece il legame costitutivo nel tempo:$$i_{c}(t)=C_{1}\cdot$$
+	- Nel caso di un condensatore, invece il legame costitutivo nel tempo:$$i_{c}(t)=C\cdot\frac{dv_{c}(t)}{dt}$$si trasforma in:$$\mathbf{I}_{c}=j\omega \ C\mathbf{V}_{c}$$Le relazioni tra i moduli dei fasori sono:$$|\mathbf{I}|$$
