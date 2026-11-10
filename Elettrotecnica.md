@@ -3221,4 +3221,8 @@ $$\mathbf{I}_{1}=\frac{\mathbf{V}_{s}}{\mathbf{Z}_{1}}=-\frac{j}{10(1+j)}=-\frac
 #Figura(8.15). *Circuito trasformato*
 
 Ora possiamo sommare i fasori dei due generatori di corrente e determinare $V_{AB}$ moltiplicando la corrente risultante per l’impedenza parallelo:
-$$\mathbf{V}_{AB}=\left( \frac{1}{10}-\frac{1+j}{20} \right)\cdot \frac{1}{\frac{1}{10(1+j)}+\frac{1}{-20j}+\frac{1}{20}}=\left( \frac{1-j}{} \right)$$
+$$\mathbf{V}_{AB}=\left( \frac{1}{10}-\frac{1+j}{20} \right)\cdot \frac{1}{\frac{1}{10(1+j)}+\frac{1}{-20j}+\frac{1}{20}}=\left( \frac{1-j}{20} \right)\cdot \frac{1}{\frac{1-j}{20}+\frac{1+j}{20}}=\frac{1-j}{2}$$
+
+Infine antitrasformando nel tempo otteniamo:
+
+$$v_{AB}$$
