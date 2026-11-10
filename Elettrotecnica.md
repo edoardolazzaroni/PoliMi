@@ -3202,6 +3202,8 @@ per la trasformazione **parallelo/serie**.
 
 
 Applichiamo tali trasformazione per risolvere il circuito seguente mostrato in figura, in cui ci viene richiesto di calcolare la tensione $v_{AB}(t)$ a regime:
-
+![[Elettrotecnica-1794330242126.webp|418]]
+#Figura(8.14). *Circuito in AC*
 
 Sono dati:
+$$v_{s}(t)=\sin(10t) \ V \\ i_{s}(t)=0.1\cos(10t) \ A $$
