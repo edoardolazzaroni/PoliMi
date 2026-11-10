@@ -3078,7 +3078,13 @@ $$\mathbf{V}_{1}\pm \mathbf{V}_{2}\cdots\pm \mathbf{V}_{m}=\mathbf{0}$$
 
 
 L’analisi dei vari elementi circuitali mostra dunque come il legame tra i fasori della tensione e corrente sia di tipo algebrico. E’ dunque possibile definire il numero complesso:
+
 $$\mathbf{Z}=\frac{\mathbf{V}}{\mathbf{I}}$$
 che chiamiamo l'**impedenza** del bipolo.
-Il concetto di impedenza in AC estende quello di resistenza in DC. In particolare, l’impedenza di
-un resistore:
+
+Il concetto di impedenza in AC estende quello di resistenza in DC. In particolare, l’impedenza di un resistore:
+$$\mathbf{Z}_{R}=\frac{\mathbf{V}}{\mathbf{I}}=R$$
+è un numero reale e coincide con la sua resistenza.
+
+Per il condensatore e induttore, invece, l’impedenza è un numero immaginario e vale rispettivamente:
+$$$$
