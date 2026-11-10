@@ -3194,5 +3194,13 @@ E’ facile estendere la regola di trasformazione di un bipolo composto da una s
 
 Con riferimento alla figura, valgono:
 $$\mathbf{Z}_{s}=\mathbf{Z}_{p}\\ \\ \mathbf{I}_{p}=\frac{\mathbf{V}_{s}}{\mathbf{Z}_{s}}$$
-per la trasformazione serie/parallelo oppure:
+per la trasformazione **serie/parallelo**, oppure:
 $$\mathbf{V}_{s}=\mathbf{I}_{p}\cdot \mathbf{Z}_{p}$$
+per la trasformazione **parallelo/serie**.
+
+
+
+Applichiamo tali trasformazione per risolvere il circuito seguente mostrato in figura, in cui ci viene richiesto di calcolare la tensione $v_{AB}(t)$ a regime:
+
+
+Sono dati:
