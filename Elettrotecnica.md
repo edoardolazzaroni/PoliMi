@@ -3070,4 +3070,10 @@ $$\mathbf{V}_{1}\pm \mathbf{V}_{2}\cdots\pm \mathbf{V}_{m}=\mathbf{0}$$
 	- Infine, per un **induttore** il legame costitutivo nel tempo:![[Elettrotecnica-1794325677274.webp|176]]
 		#Figura(8.6). *L'induttore*
 		$$v_{L}(t)=L\cdot\frac{di_{l}(t)}{dt}$$si trasforma in:$$\mathbf{V}_{l}=j\omega \ L\mathbf{{I}_{L}}$$Le relazioni tra i moduli dei fasori sono:$$|\mathbf{V}_{L}|=\omega L|\mathbf{I}_{L}|$$mentre per le fasi si ha:$$\measuredangle \mathbf{V}_{L}=\measuredangle \mathbf{I}_{L}+\frac{\pi}{2}$$![[Elettrotecnica-1794325731545.webp|257]]
-		#Figura(8.7). In un induttore il fasore della tensione è in anticipo di $90^{}$
+		#Figura(8.7). *In un induttore il fasore della tensione è in anticipo di $90^{o}$*
+		
+		Al limite $\omega\to0$ (cioè in DC) si ha:$$|\mathbf{V}_{L}|=\omega L|\mathbf{I}_{L}|=0$$cioè <u>l'induttore si comporta come un corto circuito</u>.
+
+
+
+L’analisi dei vari elementi circuitali mostra dunque come il legame
