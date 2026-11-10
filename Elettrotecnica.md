@@ -3206,4 +3206,7 @@ Applichiamo tali trasformazione per risolvere il circuito seguente mostrato in f
 #Figura(8.14). *Circuito in AC*
 
 Sono dati:
-$$v_{s}(t)=\sin(10t) \ V \\ i_{s}(t)=0.1\cos(10t) \ A $$
+$$v_{s}(t)=\sin(10t) \ V \\ i_{s}(t)=0.1\cos(10t) \ A \\ L=1 \ H \\ C=5 \ mF \\ R_{1}=10 \ \Omega \| R_{2}=20 \ \Omega$$
+
+Calcoliamo i fasori dei due generatori:
+$$\mathbf{V}_{s}=-j\\ \\bf I$$
