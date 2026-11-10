@@ -3229,4 +3229,5 @@ $$v_{AB}(t)=\frac{\sqrt{ 2 }}{2} \ \cos\left( 10t-\frac{\pi}{4} \right) \ V$$
 
 
 
-## 8.5 **Sovrapposizione degli effetti in AC, equivalenti Thevenin e Norton, Parametri dei doppi bipoli**
+## 8.5 **Sovrapposizione degli effetti in AC, equivalenti Thevenin e Norton, parametri dei doppi bipoli**
+
