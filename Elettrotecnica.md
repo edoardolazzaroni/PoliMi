@@ -3162,8 +3162,8 @@ $$\mathbf{I}=\mathbf{V}\cdot(\mathbf{Y}_{1}+\mathbf{Y}_{2}+\mathbf{Y}_{3})$$
 che estende la **proprietà**: l’ammettenza equivalente del collegamento in parallelo di bipoli descritti da ammettenze è dato dalla somma delle ammettenze dei singoli elementi.
 
 
-Analizziamo il bipolo composto mostrato in fig. e determini-
+Analizziamo il bipolo composto mostrato in figURA e determiniamo l’impedenza equivalente:
+![[Elettrotecnica-1794328807217.webp|262]]
+#Figura(8.12). *Bipolo composto dal parallelo $R_{1}$ e $C$*
 
-amo l’impedenza equivalente. Calcoliamo prima l’ammettenza equiv-
-
-alente:
+Calcoliamo prima l’ammettenza equivalente:
