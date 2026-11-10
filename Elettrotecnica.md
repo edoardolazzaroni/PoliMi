@@ -3172,4 +3172,4 @@ Calcoliamo prima l’ammettenza equivalente:
 $$\mathbf{Y}=\frac{1}{R_{1}}+j\omega C=\frac{1+j\omega C \ R_{1}}{R_{1}}$$
 
 e quindi invertiamo:
-$$\mathbf{Z}=\frac{R_{1}}{1}$$
+$$\mathbf{Z}=\frac{R_{1}}{1+j\omega C \ R_{1}}=\frac{R_{1}-j\omega C \ R_{1}^2}{1+(\omega C \ R_{1})^2}=\frac{R_{1}}{1+(\omega C \ R_{1})^2}$$
