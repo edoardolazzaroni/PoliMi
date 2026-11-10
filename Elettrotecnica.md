@@ -3052,14 +3052,14 @@ $$\mathbf{V}_{1}\pm \mathbf{V}_{2}\cdots\pm \mathbf{V}_{m}=\mathbf{0}$$
 
 - ### Legami costitutivi (leggi di Ohm)
 
-	- Il legame costitutivo di un resistore formulato nel dominio del tempo:![[Elettrotecnica-1794325023965.webp|203]]
+	- Il legame costitutivo di un **resistore** formulato nel dominio del tempo:![[Elettrotecnica-1794325023965.webp|203]]
 		#Figura(8.2). *Il resistore in regime sinusoidale*
 		$$v(t)=R\cdot i(t)$$si trasforma nell'analogo legame tra i suoi fasori:$$\mathbf{V}=R\cdot \mathbf{I}$$I due fasori, mostrati in figura, hanno la stessa fase e risultano pertanto allineati:![[Elettrotecnica-1794325088999.webp|482]]
 		#Figura(8.3). *In un resistore tensione e corrente sono in fase*
 		La stessa relazione vale per i fasori delle tensioni e correnti nei generatori pilotati.
 
 
-	- Nel caso di un condensatore, invece il legame costitutivo nel tempo:![[Elettrotecnica-1794325312145.webp|183]]
+	- Nel caso di un **condensatore**, invece il legame costitutivo nel tempo:![[Elettrotecnica-1794325312145.webp|183]]
 		#Figura(8.4). *Il condensatore*
 		$$i_{c}(t)=C\cdot\frac{dv_{c}(t)}{dt}$$si trasforma in:$$\mathbf{I}_{c}=j\omega \ C\mathbf{V}_{c}$$Le relazioni tra i moduli dei fasori sono:$$|\mathbf{I}_{c}|=\omega C|\mathbf{V}_{c}|$$mentre le fasi risultano "in quadratura":$$\measuredangle \mathbf{I}_{c}=\measuredangle \mathbf{V}_{c}+\frac{\pi}{2}$$![[Elettrotecnica-1794325356884.webp|263]]
 		#Figura(8.5). *In un condensatore il fasore della corrente è in anticipo di $90^{o}$ rispetto a quello della tensione*
@@ -3067,4 +3067,4 @@ $$\mathbf{V}_{1}\pm \mathbf{V}_{2}\cdots\pm \mathbf{V}_{m}=\mathbf{0}$$
 		Si osservi che al limite $\omega \to 0$, ovvero quando **le sinusoidi tendono ad un valore costante e quindi il regime AC si riduce al regime DC** si ha:$$|\mathbf{I}_{C}|=\omega C|\mathbf{V}_{c}|=0$$cioè <u>il condensatore si comporta come un circuito aperto</u>.
 
 
-	- Infine, per un induttore il legame costitutivo nel tempo:
+	- Infine, per un **induttore** il legame costitutivo nel tempo:$$v_{L}(t)=L\cdot\frac{di_{l}(t)}{dt}$$si trasforma in:$$\mathbf{V}_{l}=j\omega l\mathbf{{i}_{}}$$
