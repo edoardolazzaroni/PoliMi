@@ -3052,4 +3052,6 @@ $$\mathbf{V}_{1}\pm \mathbf{V}_{2}\cdots\pm \mathbf{V}_{m}=\mathbf{0}$$
 
 - ### Legami costitutivi (leggi di Ohm)
 
-	- Il legame costitutivo di un resistore formulato nel dominio del tempo:$$v(t)=R\cdot i(t)$$si trasforma nell'analogo legame tra i suoi fasori:$$\mathbf{V}=R\cdot \mathbf{I}$$
+	- Il legame costitutivo di un resistore formulato nel dominio del tempo:![[Elettrotecnica-1794325023965.webp|151]]
+		#
+		$$v(t)=R\cdot i(t)$$si trasforma nell'analogo legame tra i suoi fasori:$$\mathbf{V}=R\cdot \mathbf{I}$$I due fasori, mostrati in figura, hanno la stessa fase e risultano pertanto allineati:
