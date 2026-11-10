@@ -3124,3 +3124,5 @@ L'analisi segue i seguenti passi:
 	Nell’esempio, si ha:$$\mathbf{V}_{s}=E\\ \\ \mathbf{Z}_{c}=\frac{1}{j\omega C}$$
 
 - Si applicano le leggi di Kirchhoff sui fasori ed i legami costitutivi. Nell’esempio abbiamo:$$\mathbf{I}_{c}R+\mathbf{I}_{c}\frac{1}{j\omega C}=\mathbf{V}_{s}=E$$da cui:$$\mathbf{I}_{c}=\frac{E}{R+\frac{1}{j\omega C}}$$e quindi:$$\mathbf{V}_{c}=E\frac{\frac{1}{j\omega C}}{{R+\frac{1}{j\omega C}}}=\frac{E}{1+j\omega C}$$
+
+- Infine è possibile antitrasformare i fasori nelle corrispondenti grandezze sinusoidali nel dominio del tempo. Per questo, si calcola modulo e fase:$$|\mathbf{V}_{c}|=\frac{E}{\sqrt{ 1+(\omega RC)^2 }}$$e$$\measuredangle \mathbf{V}_{C}=$$
