@@ -3106,4 +3106,10 @@ $$\mathbf{Y}_{L}=\frac{\mathbf{I}_{L}}{\mathbf{V}_{L}}=\frac{1}{j\omega L}=-j\fr
 
 
 
-## 8.2 **Trasformazione nel dominio delle frequenze**
+## 8.2 **Analisi in AC**
+
+Vediamo il procedimento che si segue per svolgere l’analisi di un circuito che opera in regime alternato sinusoidale facendo riferimento alla rete di test mostrata in figura e contenente una sorgente sinusoidale:
+$$v_{s}(t)=E\cos(\omega t)$$
+
+
+L'analisi segue i seguenti passi:
