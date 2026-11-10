@@ -3102,4 +3102,8 @@ $$\mathbf{Y}_{R}=\frac{\mathbf{I}}{\mathbf{V}}=G$$
 Per il <u>condensatore</u>:
 $$\mathbf{Y}_{C}=\frac{\mathbf{I}_{C}}{\mathbf{V}_{C}}=j\omega C$$
 Ed infine per l’<u>induttore</u>:
-$$\mathbf{Y}_{L}=\frac{\mathbf{I}_{L}}{\mathbf{V}_{C}}=j\omega C$$
+$$\mathbf{Y}_{L}=\frac{\mathbf{I}_{L}}{\mathbf{V}_{L}}=\frac{1}{j\omega L}=-j\frac{1}{\omega L}$$
+
+
+
+## 8.2 **Trasformazione nel dominio delle frequenze**
