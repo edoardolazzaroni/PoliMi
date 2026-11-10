@@ -3192,5 +3192,7 @@ Notate che nell’esercizio considerato, si ha $G(\omega) = \frac{1}{R_{1}}$ (in
 E’ facile estendere la regola di trasformazione di un bipolo composto da una sorgente di tensione sinusoidale in serie ad un’impedenza in un bipolo composto da una sorgente di corrente sinusoidale e da un’impedenza (o ammettenza) in parallelo.
 
 
-Con riferimento alla figura, vale:
-$$\mathbf{Z}_{s}=$$
+Con riferimento alla figura, valgono:
+$$\mathbf{Z}_{s}=\mathbf{Z}_{p}\\ \\ \mathbf{I}_{p}=\frac{\mathbf{V}_{s}}{\mathbf{Z}_{s}}$$
+per la trasformazione serie/parallelo oppure:
+$$\mathbf{V}_{s}=\mathbf{I}_{p}\cdot \mathbf{Z}_{p}$$
