@@ -3131,4 +3131,4 @@ L'analisi segue i seguenti passi:
 
 
 Proviamo ora a rivedere l’analisi **utilizzando dei valori numerici**. I dati siano:
-$$v_{s}(t)=10\cos(10^3t)V \\ R=1 \$$
+$$v_{s}(t)=10\cos(10^3t)V \\ R=1 \ k\Omega \\ C=1 \ \mFu$$
