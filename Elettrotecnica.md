@@ -3183,6 +3183,10 @@ $$\mathbf{Y}(j\omega)=G(\omega)+jB(\omega)$$
 dove $G(\omega)$ viene detta conduttanza mentre $B(\omega)$ viene chiamata **suscettanza**.
 
 
-Notate che nell’esercizio considerato, si ha $G(\omega) = \frac{1}{R_{1}}$ (in questo esempio la conduttanza equivalente non dipende da $ω$), mentre
+Notate che nell’esercizio considerato, si ha $G(\omega) = \frac{1}{R_{1}}$ (in questo esempio la conduttanza equivalente non dipende da $ω$), mentre $B(\omega) = \omega \ C$.
 
-B(ω) = ωC.
+
+
+## 8.4 **Trasformazione dei generatori**
+
+E’ facile estendere la regola di trasformazione di un bipolo composto da una sorgente di tensione sinusoidale in serie ad un’impedenza in un bipolo composto da una sorgente di corrente sinusoidale e da un’impedenza (o ammettenza) in parallelo. Con riferimento alla figura vale:
