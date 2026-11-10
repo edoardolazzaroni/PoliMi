@@ -3144,6 +3144,9 @@ $$|\mathbf{V}_{c}|=\frac{10}{\sqrt{ 2 }} \ \cos(10^3t-\frac{\pi}{4}) \ V$$
 Collegando in serie o in parallelo bipoli elementari (cioè resistori, condensatori e induttori) si ottengono bipoli composti la cui impedenza o ammettenza equivalente si ricava da quelle dei bipoli elementari.
 I metodi per calcolarla sono una generalizzazione immediata di quanto visto in DC. Per esempio, la figura mostra il collegamento serie di bipoli descritti dalle loro impedenze:
 ![[Elettrotecnica-1794327290702.webp|388]]
-#
+#Figura(8.10). *Collegamento serie di impedenze*
 
-Si ricava
+Si ricava facilmente che:
+$$\mathbf{V}=\mathbf{I}\cdot(\mathbf{Z}_{1}+\mathbf{Z}_{2}+\mathbf{Z}_{3})$$
+
+che estende la proprietà: l’impedenza equivalente della serie di bipoli descritti da impedenze è dato dalla somma delle impedenze dei singoli elementi.
