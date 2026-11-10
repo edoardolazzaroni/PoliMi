@@ -3052,7 +3052,7 @@ $$\mathbf{V}_{1}\pm \mathbf{V}_{2}\cdots\pm \mathbf{V}_{m}=\mathbf{0}$$
 
 - ### Legami costitutivi (leggi di Ohm)
 
-	- Il legame costitutivo di un **resistore** formulato nel dominio del tempo:![[Elettrotecnica-1794325023965.webp|203]]
+	- Il legame costitutivo di un **resistore** formulato nel dominio del tempo:![[Elettrotecnica-1794325023965.webp|172]]
 		#Figura(8.2). *Il resistore in regime sinusoidale*
 		$$v(t)=R\cdot i(t)$$si trasforma nell'analogo legame tra i suoi fasori:$$\mathbf{V}=R\cdot \mathbf{I}$$I due fasori, mostrati in figura, hanno la stessa fase e risultano pertanto allineati:![[Elettrotecnica-1794325088999.webp|482]]
 		#Figura(8.3). *In un resistore tensione e corrente sono in fase*
@@ -3067,4 +3067,6 @@ $$\mathbf{V}_{1}\pm \mathbf{V}_{2}\cdots\pm \mathbf{V}_{m}=\mathbf{0}$$
 		Si osservi che al limite $\omega \to 0$, ovvero quando **le sinusoidi tendono ad un valore costante e quindi il regime AC si riduce al regime DC** si ha:$$|\mathbf{I}_{C}|=\omega C|\mathbf{V}_{c}|=0$$cioè <u>il condensatore si comporta come un circuito aperto</u>.
 
 
-	- Infine, per un **induttore** il legame costitutivo nel tempo:$$v_{L}(t)=L\cdot\frac{di_{l}(t)}{dt}$$si trasforma in:$$\mathbf{V}_{l}=j\omega \ L\mathbf{{I}_{L}}$$Le relazioni tra i moduli dei fasori sono:$$|\mathbf{V}_{L}|=\omega L|\mathbf{I}_{L}|$$mentre per le fasi si ha:$$\measuredangle \mathbf{V}_{L}$$
+	- Infine, per un **induttore** il legame costitutivo nel tempo:![[Elettrotecnica-1794325677274.webp|176]]
+		#Figura 
+		$$v_{L}(t)=L\cdot\frac{di_{l}(t)}{dt}$$si trasforma in:$$\mathbf{V}_{l}=j\omega \ L\mathbf{{I}_{L}}$$Le relazioni tra i moduli dei fasori sono:$$|\mathbf{V}_{L}|=\omega L|\mathbf{I}_{L}|$$mentre per le fasi si ha:$$\measuredangle \mathbf{V}_{L}=\measuredangle \mathbf{I}_{L}+\frac{\pi}{2}$$
