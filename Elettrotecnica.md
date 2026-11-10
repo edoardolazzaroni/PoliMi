@@ -3209,4 +3209,6 @@ Sono dati:
 $$v_{s}(t)=\sin(10t) \ V \\ i_{s}(t)=0.1\cos(10t) \ A \\ L=1 \ H \\ C=5 \ mF \\ R_{1}=10 \ \Omega \| R_{2}=20 \ \Omega$$
 
 Calcoliamo i fasori dei due generatori:
-$$\mathbf{V}_{s}=-j\\ \\bf I$$
+$$\mathbf{V}_{s}=-j\\ \\ \mathbf{I}_{s}=0.1$$
+e le impedenze dell’induttore e condensatore:
+$$\mathbf{Z}_{L}=j_{10},1=10j\\ \\ \mathbf{Z}_{C}=\frac{1000}{j10 \ 5}=-20j$$
