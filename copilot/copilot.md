@@ -6,17 +6,12 @@ type: folder_brief_live
 #INDEX of all Copilot skills, prompts, chats and projects
 
 %% Begin Waypoint %%
+- **copilot-conversations**
 - **copilot-custom-prompts**
 - **memory**
 - **projects**
 - **skills**
-	- **copilot-fetch-x**
-		- [[SKILL]]
-	- **copilot-web-fetch**
-		- [[SKILL]]
 	- **copilot-web-search**
-		- [[SKILL]]
-	- **copilot-youtube-transcript**
 		- [[SKILL]]
 	- **json-canvas**
 		- **references**
