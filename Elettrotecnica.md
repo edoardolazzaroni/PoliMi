@@ -3305,4 +3305,9 @@ dove i coefficienti $\mathbf{y}$ sono dimensionalmente delle ammettenze e genera
 
 
 Infine è possibile ricavare le **rappresentazioni ibride**, cioè controllate da una corrente ad una porta e da una tensione all’altra porta.
-La figura mostra la configurazione per il calcolo della prima rappresentazione ibrida in cui si impone $I_{1}$ e $V_{2}$.
+La figura mostra la configurazione per il calcolo della prima rappresentazione ibrida in cui si impone $\mathbf{I}_{1}$ e $\mathbf{V}_{2}$:
+![[Elettrotecnica-1794408471814.webp|398]]
+#Figura(8.24). *Set-up sperimentale per determinare la rappresentazione $H_{1}$*
+
+L’espressione dei fasori delle rimanenti variabili di porta sarà:
+$$\mathbf{V}_{1}\quad=\quad$$
