@@ -3291,8 +3291,11 @@ Calcoliamo *per esercizio* i parametri $\mathbf{z}$ risolvendo direttamente la r
 $$\mathbf{V}_{1}=\mathbf{I}_{1}j\omega L+(\mathbf{I}_{1}+\mathbf{I}_{2})R\\ \\ \mathbf{V}_{2}=\mathbf{I}_{2}\frac{1}{j\omega C}+(\mathbf{I}_{1}+\mathbf{I}_{2})R$$
 da cui riordinando:
 $$\mathbf{V}_{1}\quad =\quad \overbrace{(j\omega L+R)}^{\mathbf{z}_{11}}\cdot \mathbf{I}_{1}+\overbrace{R}^{\mathbf{z}_{12}}\cdot \mathbf{I}_{2}\\ \\ \mathbf{V}_{2}=\underbrace{R}_{\mathbf{z}_{12}}\cdot \mathbf{I}_{1}+\underbrace{\left( \frac{1}{j\omega C}+R \right)}_{\mathbf{z}_{22}}\cdot \mathbf{I}_{2}\\ \\(8.7)$$
-I parametri $\mathbf{z}$ in generale dipendono da $j\omega$ e quindi andrebbero in-
+I parametri $\mathbf{z}$ in generale dipendono da $j\omega$ e quindi andrebbero indicati come $\mathbf{z}_{11}(j\omega)$, $\mathbf{z}_{12}(j\omega)$, ecc$\cdots$. Tale dipendenza è stata omessa per semplificare la notazione.
 
-dicati come z11(jω), z12(jω), ecc.. Tale dipendenza è stata omessa
 
-per semplificare la notazione.
+In modo analogo la rappresentazione controllata in tensione si valuta imponendo i valori dei fasori delle due tensioni $V_{1}$ e $V_{2}$
+
+alle porte e quindi determinando i fasori delle correnti, come
+
+mostrato in fig.
