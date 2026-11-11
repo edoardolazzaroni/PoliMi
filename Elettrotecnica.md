@@ -3326,6 +3326,8 @@ Riesaminiamo per primo il caso di una rete operante in AC e accessibile da una s
 
 La sovrapposizione degli effetti ci assicura che se il bipolo è controllabile in corrente esiste un coefficiente complesso $\mathbf{Z}(j\omega)$ tale che:
 $$\mathbf{V}=\mathbf{Z}(j\omega)\cdot \mathbf{I}$$
+
+
 La funzione di rete $\mathbf{Z}(j\omega)$ coincide con l’impedenza equivalente del modello Thevenin. Se invece colleghiamo una sorgente sinusoidale di tensione di fasore $\mathbf{V}$ come mostrato in figura:
 ![[Elettrotecnica-1794409345279.webp|424]]
 #Figura(8.26). *Set-up per il calcolo della funzione di rete $\mathbf{Y}(j\omega)$*
@@ -3335,3 +3337,12 @@ $$\mathbf{I}=\mathbf{Y}(j\omega)\cdot \mathbf{V}$$
 La funzione di rete $\mathbf{Y}(j\omega)$ coincide con l’ammettenza equivalente del modello Norton.
 
 Nel caso del bipolo le due funzioni di rete calcolate descrivono un effetto locale cioè tra tensione e corrente misurate alla stessa porta: queste funzioni di rete vengono talvolta indicate col nome di funzioni **immettenza**.
+
+
+Passiamo ora ad esaminare il caso in cui la rete, operante in AC,
+
+sia accessibile da una coppia di porte, sia cioè un doppio bipolo, e
+
+non contenga sorgenti indipendenti interne, come mostrato in fig.
+
+1.27.
