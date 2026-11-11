@@ -3326,12 +3326,5 @@ Riesaminiamo per primo il caso di una rete operante in AC e accessibile da una s
 
 La sovrapposizione degli effetti ci assicura che se il bipolo è controllabile in corrente esiste un coefficiente complesso $\mathbf{Z}(j\omega)$ tale che:
 $$\mathbf{V}=\mathbf{Z}(j\omega)\cdot \mathbf{I}$$
-La funzione di rete Z(jω) coincide con l’impedenza equivalente del
 
-modello Thevenin. Se invece colleghiamo una sorgente sinusoidale di
-
-tensione di fasore V come mostrato in fig. 1.26 ed il bipolo è control-
-
-labile in tensione, allora esiste un coefficiente complesso Y(jω) tale
-
-che
+La funzione di rete $\mathbf{Z}(j\omega)$ coincide con l’impedenza equivalente del modello Thevenin. Se invece colleghiamo una sorgente sinusoidale di tensione di fasore $\mathbf{V}$ come mostrato in figura 1.26 ed il bipolo è controllabile in tensione, allora esiste un coefficiente complesso $\mathbf{Y}(j\omega)$ tale che:
