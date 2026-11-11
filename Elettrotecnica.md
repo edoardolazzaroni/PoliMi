@@ -3383,4 +3383,5 @@ Valutiamo la funzione di trasferimento per il circuito mostrato in figura:
 
 
 Si ha:
-$$\mathbf{H}(j\omega)=\mathbf{}$$
+$$\mathbf{H}(j\omega)=\frac{\mathbf{V}_{o}}{\mathbf{V}_{s}}=\frac{1}{1+j\omega C R}\quad(8.10)$$
+da cui il modulo:
