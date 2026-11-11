@@ -3343,3 +3343,8 @@ Passiamo ora ad esaminare il caso in cui la rete, operante in AC, sia accessibil
 ![[Elettrotecnica-1794409541990.webp|440]]
 #Figura(8.27). *Funzione di rete di trasferimento $\mathbf{H}(j\omega)$*
 
+$$\mathbf{V}_{o}=\mathbf{H}(j\omega)\cdot \mathbf{V}_{s}$$
+
+Questo caso si verifica in molte applicazioni dell’elettronica, automazione o nei sistemi di comunicazione. Ad una porta, il doppio bipolo riceve una grandezza sinusoidale in ingresso, rappresentata dalla sorgente $\mathbf{V}_{s}$, mentre la tensione all’altra porta rappresenta la grandezza di uscita o risposta della rete, il cui fasore indichiamo con $\mathbf{V}_{o}$ (*"output"*).
+
+Il teorema di sovrapposizione degli effetti afferma l’esistenza di uncoefficiente complesso H(jω) tale che
