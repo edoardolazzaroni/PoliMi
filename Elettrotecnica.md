@@ -3259,7 +3259,9 @@ Le <u>conseguenze della sovrapposizione degli effetti</u> in AC sono le <u>medes
 	#Figura(8.17). *Bipolo in AC controllato in corrente*
 
 	Se il circuito così formato ammette soluzione, allora si ha che il fasore della tensione alla porta vale:$$\mathbf{V}=\mathbf{Z}_{eq}(j\omega)\cdot \mathbf{I}+\mathbf{E}_{eq}(j\omega)$$dove $\mathbf{Z}_{eq}(j\omega)$, detta **impedenza equivalente**, è il coefficiente che pesa l’effetto della sorgente esterna mentre $\mathbf{E}_{eq}(j\omega)$, detta **tensione a vuoto**, riassume l’effetto di tutte le sorgenti interne.
-	
-	I parametri dell’equivalente Thevenin si determinano attraverso le prove semplici che corrispondono alle loro definizioni:$$\mathbf{Z}_{eq}=\frac{\mathbf{V}}{\mathbf{I}}|_{gen. \ int. \ OFF}\\ \\ \mathbf{E}_{eq}=\mathbf{V}|_{\mathbf{I}=0}\\ \\(8.4)$$La rete di partenza è equivalente ai fini esterni al bipolo di tipo
 
-serie in fig.
+	I parametri dell’equivalente Thevenin si determinano attraverso le prove semplici che corrispondono alle loro definizioni:$$\mathbf{Z}_{eq}=\frac{\mathbf{V}}{\mathbf{I}}|_{gen. \ int. \ OFF}\\ \\ \mathbf{E}_{eq}=\mathbf{V}|_{\mathbf{I}=0}\\ \\(8.4)$$La rete di partenza è equivalente ai fini esterni al bipolo di tipo serie in figura:![[Elettrotecnica-1794406514310.webp|429]]
+	#Figura(8.18). *Bipolo equivalente di Thevenin*
+
+
+	Nel secondo caso, la rete viene collegata ad una sorgente esterna di tensione come in figura:
