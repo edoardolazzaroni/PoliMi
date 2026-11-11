@@ -3398,3 +3398,4 @@ $$\omega_{c}C \ R=1$$
 ovvero:
 $$\omega_{c}=\frac{1}{C \ R}$$
 In corrispondenza di tale pulsazione si ha:
+$$|\mathbf{H}(j\omega_{c})|$$
