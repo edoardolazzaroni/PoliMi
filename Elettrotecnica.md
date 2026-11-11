@@ -3360,4 +3360,8 @@ $$v_{s}(t)=V_{M}\cos(\overline{\omega}t+\phi_{s})$$
 alla pulsazione $\overline{\omega}$, e quindi il suo fasore sia:
 $$\mathbf{V}_{s}=V_{M}e^{j\phi_{s}}$$
 Il fasore dell'uscita:
-$$\mathbf{V}_{o}=\mathbf{H}(j\overline{\omega})\cdot V_{M}e$$
+$$\mathbf{V}_{o}=\mathbf{H}(j\overline{\omega})\cdot V_{M}e^{j\phi_{s}}$$
+ha modulo:
+$$|\mathbf{V}_{o}|=|\mathbf{H}(j\overline{\omega})|\cdot V_{M}$$
+e fase:
+$$\measuredangle \mathbf{V}_{o}=\measuredangle \mathbf{H}_$$
