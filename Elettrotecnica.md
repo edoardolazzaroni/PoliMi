@@ -3231,4 +3231,13 @@ $$v_{AB}(t)=\frac{\sqrt{ 2 }}{2} \ \cos\left( 10t-\frac{\pi}{4} \right) \ V$$
 
 ## 8.5 **Sovrapposizione degli effetti in AC, equivalenti Thevenin e Norton, parametri dei doppi bipoli**
 
-Un’altra estensione immediata da DC ad AC è il metodo risolutivo dell’**analisi nodale semplice** e modificata. **Applichiamola** al circuito di test mostrato in fig
+Un’altra estensione immediata da DC ad AC è il metodo risolutivo dell’**analisi nodale semplice** e **modificata**.
+Applichiamola al circuito di test mostrato in figura:
+![[Elettrotecnica-1794405638282.webp|472]]
+#Figura(8.16). *Circuito di test in AC risolto con l’analisi nodale*
+
+Si noti che nella figura sono mostrati direttamente i fasori $V_{s}$ e $I_{s}$ dei due generatori indipendenti e che tali generatori sono isofre-
+
+quenziali alla pulsazione ω. Solo in questo caso il circuito può oper-
+
+are in AC.
