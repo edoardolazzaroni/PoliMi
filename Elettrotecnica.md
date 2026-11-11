@@ -3271,4 +3271,4 @@ Le <u>conseguenze della sovrapposizione degli effetti</u> in AC sono le <u>medes
 	Se il circuito così formato ammette soluzione, allora si ha che il fasore della corrente alla porta vale:$$\mathbf{I}=\mathbf{Y}_{eq}(j\omega)\cdot \mathbf{V}+\mathbf{I}_{eq}(j\omega)$$dove $\mathbf{Y}_{eq}$, detta **ammettenza equivalente**, è il coefficiente che pesa l’effetto della sorgente esterna mentre $\mathbf{I}_{eq}(j\omega)$, detta **corrente di corto circuito**, riassume l’effetto di tutte le sorgenti interne.
 
 
-	
+	I parametri dell’equivalente Norton si determinano attraverso le prove semplici:$$\mathbf{Y}_{eq}=\frac{\mathbf{I}}{\mathbf{V}}|_{gen. \ int. \ OFF}\\ \\ \mathbf{I}_{eq}=\mathbf{I}|_{\mathbf{V}=0}\\ \\ ()$$
