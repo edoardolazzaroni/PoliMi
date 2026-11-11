@@ -3300,4 +3300,9 @@ In modo analogo la rappresentazione controllata in tensione si valuta imponendo 
 
 
 Nell’ipotesi che il circuito così costituito ammetta, unica, la soluzione, l’espressione dei fasori delle correnti sarà:
-$$\mathbf{I}_{1}\quad=\quad \mathbf{y}_{11}\cdot \mathbf{V}_{1}+\mathbf{y}_{12}\cdot \mathbf{V}_{2}\\ \\ \mathbf{I}_{2}\quad=\quad \mathbf{y}_{21}\cdot \mathbf{V}+\mathbf{y}_{22}\cdot \mathbf{V}_{2}\\ \\(8.)$$
+$$\mathbf{I}_{1}\quad=\quad \mathbf{y}_{11}\cdot \mathbf{V}_{1}+\mathbf{y}_{12}\cdot \mathbf{V}_{2}\\ \\ \mathbf{I}_{2}\quad=\quad \mathbf{y}_{21}\cdot \mathbf{V}+\mathbf{y}_{22}\cdot \mathbf{V}_{2}\\ \\(8.8)$$
+dove i coefficienti $\mathbf{y}$ sono dimensionalmente delle ammettenze e generalizzano al caso AC i i coefficienti $g$ visti in DC.
+
+
+Infine è possibile ricavare le **rappresentazioni ibride**, cioè controllate da una corrente ad una porta e da una tensione all’altra porta.
+La figura mostra la configurazione per il calcolo della prima rappresentazione ibrida in cui si impone $I_{1}$ e $V_{2}$.
