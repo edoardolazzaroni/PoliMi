@@ -3322,4 +3322,16 @@ $$\mathbf{h}_{12}=\frac{R}{R+\frac{1}{j\omega C}}\\ \\ \mathbf{h}_{22}=\frac{1}{
 
 Riesaminiamo per primo il caso di una rete operante in AC e accessibile da una sola porta (ovvero un bipolo). Supponiamo che la rete non contenga sorgenti indipendenti interne. Supponiamo quindi di collegarle una sorgente sinusoidale di corrente a pulsazione $\omega$ il cui fasore è $\mathbf{I}$ come mostrato in figura:
 ![[Elettrotecnica-1794409182595.webp|372]]
-#Figura(8.25). Set-up per il calcolo dellafunzione di rete Z(jω)
+#Figura(8.25). *Set-up per il calcolo della funzione di rete $\mathbf{Z}(j\omega)$*
+
+La sovrapposizione degli effetti ci assicura che se il bipolo è controllabile in corrente esiste un coefficiente complesso $\mathbf{Z}(j\omega)$ tale che:
+$$\mathbf{V}=\mathbf{Z}(j\omega)\cdot \mathbf{I}$$
+La funzione di rete Z(jω) coincide con l’impedenza equivalente del
+
+modello Thevenin. Se invece colleghiamo una sorgente sinusoidale di
+
+tensione di fasore V come mostrato in fig. 1.26 ed il bipolo è control-
+
+labile in tensione, allora esiste un coefficiente complesso Y(jω) tale
+
+che
