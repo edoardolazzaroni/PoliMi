@@ -3310,4 +3310,5 @@ La figura mostra la configurazione per il calcolo della prima rappresentazione i
 #Figura(8.24). *Set-up sperimentale per determinare la rappresentazione $H_{1}$*
 
 L’espressione dei fasori delle rimanenti variabili di porta sarà:
-$$\mathbf{V}_{1}\quad=\quad$$
+$$\mathbf{V}_{1}\quad=\quad \mathbf{h}_{11}\cdot \mathbf{I}_{1}+\mathbf{h}_{12}\cdot \mathbf{V}_{2}\\ \\ \mathbf{I}_{2}\quad=\quad \mathbf{h}_{21}\cdot \mathbf{I}_{1}+\mathbf{h}_{22}\cdot \mathbf{V}_{2}\\ \\(8.9)$$
+
