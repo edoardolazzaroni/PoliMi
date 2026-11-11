@@ -3347,4 +3347,19 @@ $$\mathbf{V}_{o}=\mathbf{H}(j\omega)\cdot \mathbf{V}_{s}$$
 
 Questo caso si verifica in molte applicazioni dell’elettronica, automazione o nei sistemi di comunicazione. Ad una porta, il doppio bipolo riceve una grandezza sinusoidale in ingresso, rappresentata dalla sorgente $\mathbf{V}_{s}$, mentre la tensione all’altra porta rappresenta la grandezza di uscita o risposta della rete, il cui fasore indichiamo con $\mathbf{V}_{o}$ (*"output"*).
 
-Il teorema di sovrapposizione degli effetti afferma l’esistenza di uncoefficiente complesso H(jω) tale che
+Il teorema di sovrapposizione degli effetti afferma l’esistenza di un coefficiente complesso $\mathbf{H}(j\omega)$ tale che:
+$$\mathbf{V}_{o}=\mathbf{H}(j\omega)\cdot \mathbf{V}_{s}$$
+e definito come il rapporto dei fasori:
+$$\mathbf{H}(j\omega)=\frac{\mathbf{V}_{o}}{\mathbf{V}_{s}}$$
+
+Poiché tale funzione di rete lega grandezze elettriche a porte diverse, viene indicata col nome di funzione di rete di trasferimento o sem-plicemente funzione di trasferimento.
+
+La funzione di trasferimento contiene l’informazione di come varia
+
+la risposta della rete al variare della frequenza dell’ingresso, cioè
+
+contiene l’informazione della sua risposta in frequenza.
+
+Supponiamo infatti che la tensione in ingresso nel dominio del
+
+tempo sia data dalla sinusoide:
