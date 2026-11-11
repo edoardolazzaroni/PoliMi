@@ -3391,7 +3391,7 @@ $$\measuredangle \mathbf{H}(j\omega)=-atan(\omega C \ R)$$
 
 L'andamento del modulo è mostrato in figura:
 ![[Elettrotecnica-1794411136617.webp|401]]
-
+#Figura(8.29). *Grafico del modulo*
 
 E’ possibile analizzare qualitativamente tale grafico osservando l’esistenza di una pulsazione caratteristica (cioè particolare) che chiameremo $\omega_{c}$ alla quale la parte immaginaria del denominatore nella $(8.10)$ risulta unitaria. Ciò avviene quando:
 $$\omega_{c}C \ R=1$$
