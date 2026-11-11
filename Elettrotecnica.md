@@ -3283,4 +3283,4 @@ Le <u>conseguenze della sovrapposizione degli effetti</u> in AC sono le <u>medes
 	#Figura(8.22). *Set-up sperimentale per determinare la rappresentazione Z*
 
 
-	Nell’ipotesi che il circuito così costituito ammetta, unica, la soluzione, il principio di sovrapposizione degli effetti ci indica quale sarà l’espressione dei fasori delle tensioni:$$\mathbf{V}_{1}\quad=\quad \mathbf{z}_{11}\cdot \mathbf{I}_{1}+\mathbf{z}_{12}\cdot \mathbf{I}_{2}\\ \\ \mathbf{V}_{2}$$
+	Nell’ipotesi che il circuito così costituito ammetta, unica, la soluzione, il principio di sovrapposizione degli effetti ci indica quale sarà l’espressione dei fasori delle tensioni:$$\mathbf{V}_{1}\quad=\quad \mathbf{z}_{11}\cdot \mathbf{I}_{1}+\mathbf{z}_{12}\cdot \mathbf{I}_{2}\\ \\ \mathbf{V}_{2}\quad=\quad \mathbf{z}_{21}\cdot \mathbf{I}_{1}+\mathbf{z}_{22}\cdot \mathbf{I}_{2}\\ \\(8.6)$$
