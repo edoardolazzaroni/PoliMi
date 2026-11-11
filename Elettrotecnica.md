@@ -3241,4 +3241,7 @@ Si noti che nella figura sono mostrati direttamente i fasori $V_{s}$ e $I_{s}$ d
 La rete contiene anche un elemento dinamico induttore ed un generatore di corrente pilotato in tensione. Il metodo dell’analisi nodale in AC consiste nell’<u>assumere come incognite i fasori di un insieme di tensioni di nodo</u> e quindi <u>bilanciare i fasori delle correnti in un insieme di nodi </u>o superfici chiuse.
 
 Nel caso specifico del circuito in figura, è utile sfruttare il fatto che la sorgente di tensione e l’induttore in serie possono essere visti come un unico bipolo controllabile in tensione. In questo modo, basterà assumere come incognita il fasore della tensione di nodo $\mathbf{E}$ e quindi bilanciare i fasori delle correnti attraverso la superficie chiusa la cui traccia sul foglio è tratteggiata in figura. Avremo:
-$$-\mathbf{I}_{s}$$
+$$-\mathbf{I}_{s}+\frac{\mathbf{E}}{R}+g\cdot(\mathbf{V}_{s}-\mathbf{E})+\frac{\mathbf{E}-\mathbf{V}_{s}}{j\omega L}=\mathbf{0}\quad(8.1)$$
+
+Riordinando i termini, si ottiene l’equazione risolutiva:
+$$(\frac{1}{R}$$
