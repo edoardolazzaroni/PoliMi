@@ -3279,10 +3279,8 @@ Le <u>conseguenze della sovrapposizione degli effetti</u> in AC sono le <u>medes
 	#Figura(8.21). *Doppio bipolo in AC*
 
 
-	La rappresentazione controllata in corrente prevede di imporre i valori dei fasori delle due correnti $I_{1}$ ed $I_{2}$ alle porte e di determinare in funzione di questi ultimi i fasori delle tensioni come mostrato in figura:![[Elettrotecnica-1794406914488.webp|413]]
+	La rappresentazione controllata in corrente prevede di imporre i valori dei fasori delle due correnti $I_{1}$ ed $I_{2}$ alle porte e di determinare in funzione di questi ultimi i fasori delle tensioni come mostrato in figura:![[Elettrotecnica-1794406914488.webp|384]]
 	#Figura(8.22). *Set-up sperimentale per determinare la rappresentazione Z*
 
 
-	Nell’ipotesi che il circuito così costituito ammetta, unica, la soluzione, il principio di sovrapposizione degli effetti ci indica quale sarà
-
-l’espressione dei fasori delle tensioni:
+	Nell’ipotesi che il circuito così costituito ammetta, unica, la soluzione, il principio di sovrapposizione degli effetti ci indica quale sarà l’espressione dei fasori delle tensioni:$$\mathbf{V}_{1}\quad=\quad \mathbf{z}_{11}\cdot \mathbf{I}_{1}+\mathbf{z}_{12}\cdot \mathbf{I}_{2}\\ \\ \mathbf{V}_{2}$$
