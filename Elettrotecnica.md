@@ -3364,4 +3364,7 @@ $$\mathbf{V}_{o}=\mathbf{H}(j\overline{\omega})\cdot V_{M}e^{j\phi_{s}}$$
 ha modulo:
 $$|\mathbf{V}_{o}|=|\mathbf{H}(j\overline{\omega})|\cdot V_{M}$$
 e fase:
-$$\measuredangle \mathbf{V}_{o}=\measuredangle \mathbf{H}_$$
+$$\measuredangle \mathbf{V}_{o}=\measuredangle \mathbf{H}(j\overline{\omega})+\phi_{s}$$
+
+Infine, antitrasformando nel dominio del tempo ricaviamo la tensione di uscita:
+$$v_{o}(t)=|\mathbf{H}(j\overline{\omega})|\cdot V_{M}\cdot \cos(\overline{\omega}t+)$$
