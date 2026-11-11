@@ -3286,5 +3286,7 @@ Le <u>conseguenze della sovrapposizione degli effetti</u> in AC sono le <u>medes
 	Nell’ipotesi che il circuito così costituito ammetta, unica, la soluzione, il principio di sovrapposizione degli effetti ci indica quale sarà l’espressione dei fasori delle tensioni:$$\mathbf{V}_{1}\quad=\quad \mathbf{z}_{11}\cdot \mathbf{I}_{1}+\mathbf{z}_{12}\cdot \mathbf{I}_{2}\\ \\ \mathbf{V}_{2}\quad=\quad \mathbf{z}_{21}\cdot \mathbf{I}_{1}+\mathbf{z}_{22}\cdot \mathbf{I}_{2}\\ \\(8.6)$$dove i coefficienti $\mathbf{z}$, che dimensionalmente sono delle impedenze, generalizzano al caso AC i coefficienti $r$ visti in DC. Si noti che nell’esempio considerato mancano i termini $\mathbf{E}_{eq}$ in quanto<u> il doppio bipolo non contiente sorgenti interne</u>.
 
 
+
 Calcoliamo *per esercizio* i parametri $\mathbf{z}$ risolvendo direttamente la rete in figura 8.22, si ha:
-$$\mathbf{V}_{}$$
+$$\mathbf{V}_{1}=\mathbf{I}_{1}j\omega L+(\mathbf{I}_{1}+\mathbf{I}_{2})R\\ \\ \mathbf{V}_{2}=\mathbf{I}_{2}\frac{1}{j\omega C}+(\mathbf{I}_{1}+\mathbf{I}_{2})R$$
+da cui riordinando:
