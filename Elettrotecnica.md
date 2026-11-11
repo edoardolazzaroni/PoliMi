@@ -3357,4 +3357,7 @@ Poiché tale funzione di rete lega grandezze elettriche a porte diverse, viene i
 La funzione di trasferimento contiene l’informazione di come varia la risposta della rete al variare della frequenza dell’ingresso, cioè <u>contiene l’informazione della sua risposta in frequenza</u>.
 Supponiamo infatti che la tensione in ingresso nel dominio del tempo sia data dalla sinusoide:
 $$v_{s}(t)=V_{M}\cos(\overline{\omega}t+\phi_{s})$$
-alla pulsazione $\ov$
+alla pulsazione $\overline{\omega}$, e quindi il suo fasore sia:
+$$\mathbf{V}_{s}=V_{M}e^{j\phi_{s}}$$
+Il fasore dell'uscita:
+$$\mathbf{V}_{o}=\mathbf{H}(j\overline{\omega})\cdot V_{M}e$$
