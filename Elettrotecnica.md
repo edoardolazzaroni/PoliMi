@@ -3339,10 +3339,7 @@ La funzione di rete $\mathbf{Y}(j\omega)$ coincide con l’ammettenza equivalent
 Nel caso del bipolo le due funzioni di rete calcolate descrivono un effetto locale cioè tra tensione e corrente misurate alla stessa porta: queste funzioni di rete vengono talvolta indicate col nome di funzioni **immettenza**.
 
 
-Passiamo ora ad esaminare il caso in cui la rete, operante in AC,
+Passiamo ora ad esaminare il caso in cui la rete, operante in AC, sia accessibile da una coppia di porte, sia cioè un doppio bipolo, e non contenga sorgenti indipendenti interne, come mostrato in figura:
+![[Elettrotecnica-1794409541990.webp|440]]
+#Figura(8.27). *Funzione di rete di trasferimento $\mathbf{H}(j\omega)$*
 
-sia accessibile da una coppia di porte, sia cioè un doppio bipolo, e
-
-non contenga sorgenti indipendenti interne, come mostrato in fig.
-
-1.27.
