@@ -3290,4 +3290,9 @@ Le <u>conseguenze della sovrapposizione degli effetti</u> in AC sono le <u>medes
 Calcoliamo *per esercizio* i parametri $\mathbf{z}$ risolvendo direttamente la rete in figura 8.22, si ha:
 $$\mathbf{V}_{1}=\mathbf{I}_{1}j\omega L+(\mathbf{I}_{1}+\mathbf{I}_{2})R\\ \\ \mathbf{V}_{2}=\mathbf{I}_{2}\frac{1}{j\omega C}+(\mathbf{I}_{1}+\mathbf{I}_{2})R$$
 da cui riordinando:
-$$\mathbf{V}_{1}\quad =\quad \overbrace{(j\omega L+R)}^{\mathbf{z}_{11}}\cdot \mathbf{I}_{1}+\overbrace{R}^{\mathbf{z}_{12}}\cdot \mathbf{I}_{2}\\ \\ \mathbf{V}_{2}=\underbrace{R}_{\mathbf{z}_{12}}\cdot \mathbf{I}_{1}+\left( \frac{1}{j\omega C}+R \right)\cdot \mathbf{I}_{2}$$
+$$\mathbf{V}_{1}\quad =\quad \overbrace{(j\omega L+R)}^{\mathbf{z}_{11}}\cdot \mathbf{I}_{1}+\overbrace{R}^{\mathbf{z}_{12}}\cdot \mathbf{I}_{2}\\ \\ \mathbf{V}_{2}=\underbrace{R}_{\mathbf{z}_{12}}\cdot \mathbf{I}_{1}+\underbrace{\left( \frac{1}{j\omega C}+R \right)}_{\mathbf{z}_{22}}\cdot \mathbf{I}_{2}\\ \\(8.7)$$
+I parametri $\mathbf{z}$ in generale dipendono da $j\omega$ e quindi andrebbero in-
+
+dicati come z11(jω), z12(jω), ecc.. Tale dipendenza è stata omessa
+
+per semplificare la notazione.
