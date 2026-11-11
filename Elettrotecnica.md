@@ -3401,4 +3401,4 @@ In corrispondenza di tale pulsazione si ha:
 $$|\mathbf{H}(j\omega_{c})|=\frac{1}{\sqrt{ 2 }}\\ \\ \measuredangle \mathbf{H}(j\omega_{c})=-\frac{\pi}{4}$$
 Consideriamo ora i casi:
 
-- l'’ingresso abbia pulsazione $\omega$ tale che
+- l'ingresso abbia pulsazione $\omega$ tale che:$$\omega\ll \omega_{c}$$Ragionando al limite quando $\omega\to o$, dalla $(8.10)$ si ha:$$$
