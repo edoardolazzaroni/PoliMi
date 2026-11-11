@@ -3378,3 +3378,9 @@ Tali "effetti" chiaramente cambiano al variare della pulsazione dell’ingresso 
 #### #Esercizio(funzione di trasferimento) (1)
 
 Valutiamo la funzione di trasferimento per il circuito mostrato in figura:
+![[Elettrotecnica-1794410106972.webp|345]]
+#Figura(8.28). *Circuito di tipo filtro passa basso*
+
+
+Si ha:
+$$\mathbf{H}(j\omega)=\mathbf{}$$
