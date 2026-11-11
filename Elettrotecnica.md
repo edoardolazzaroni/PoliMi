@@ -3312,4 +3312,6 @@ La figura mostra la configurazione per il calcolo della prima rappresentazione i
 L’espressione dei fasori delle rimanenti variabili di porta sarà:
 $$\mathbf{V}_{1}\quad=\quad \mathbf{h}_{11}\cdot \mathbf{I}_{1}+\mathbf{h}_{12}\cdot \mathbf{V}_{2}\\ \\ \mathbf{I}_{2}\quad=\quad \mathbf{h}_{21}\cdot \mathbf{I}_{1}+\mathbf{h}_{22}\cdot \mathbf{V}_{2}\\ \\(8.9)$$
 dove i coefficienti complessi $\mathbf{h}$ generalizzano al caso AC i coefficienti $h$ visti in DC. Provate a calcolare tali coefficienti attraverso le prove semplici, ovvero prima spegnendo la sorgente $\mathbf{V}_{2}$:
-$$$$
+$$\mathbf{h}_{11}=j\omega L+\frac{R}{1+j\omega CR}\\ \\ \mathbf{h}_{21}=-\frac{R}{R+\frac{1}{j\omega C}}$$
+e quindi spegnendo la sorgente $\mathbf{I}_{1}$:
+$$\mathbf{h}_{12}=\frac{R}{}$$
