@@ -3249,8 +3249,14 @@ $$\left( \frac{1}{R}-g+\frac{1}{j\omega L} \right)\cdot \mathbf{E}=\underbrace{1
 L'incognita $\mathbf{E}$ è moltiplicata per un coefficiente complesso $A$. Dunque, nell’ipotesi che il coefficiente $\mathbf{A}\ne 0$, l’equazione ammette <mark class="hltr-yellow">una ed una sola soluzione</mark>:
 $$\mathbf{E}=\underbrace{\frac{1}{\mathbf{A}}\mathbf{B}_{1}}_{\mathbf{H}_{1} \ (j\omega)}\cdot \mathbf{I}_{s}+\underbrace{\frac{1}{\mathbf{A}}\mathbf{B_{2}}}_{\mathbf{H}_{2} \ (j\omega)}\cdot \mathbf{V}_{s}\quad(8.3)$$
 
-L’espressione $(8.3)$ mostra come il fasore della variabile osservata, così come di ogni altra variabile nel circuito, siano una combinazione lineare dei fasori delle sorgenti indipendenti. I coefficienti complessi $\mathbf{H}_{1}(j\omega)$ e $\mathbf{H}_{2}(j\omega)$, i cui valori sono funzioni della pulsazione $ω$, deter-
+L’espressione $(8.3)$ mostra come il fasore della variabile osservata, così come di ogni altra variabile nel circuito, siano una combinazione lineare dei fasori delle sorgenti indipendenti. I coefficienti complessi $\mathbf{H}_{1}(j\omega)$ e $\mathbf{H}_{2}(j\omega)$, i cui valori sono funzioni della pulsazione $\omega$, determinano l’effetto che ciascuna sorgente ha sulla variabile osservata e vengono chiamati **funzioni di rete**.
 
-minano l’effetto che ciascuna sorgente ha sulla variabile osservata e
 
-vengono chiamati funzioni di rete.
+Le <u>conseguenze della sovrapposizione degli effetti</u> in AC sono le <u>medesime</u> che abbiamo visto in DC:
+
+- Operativamente la sovrapposizione degli effetti permette di calcolare il fasore soluzione di un circuito che opera in AC facendo agire le sorgenti indipendenti individualmente e quindi sommando i relativi effetti parziali;
+- Altre conseguenze sono l’estensione dei circuiti equivalenti di
+
+Thevenin e di Norton. Nel primo caso, una rete generica accessi-
+
+bile da una coppia di morsetti e formata da resistori, generatori
