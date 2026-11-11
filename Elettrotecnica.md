@@ -3283,10 +3283,8 @@ Le <u>conseguenze della sovrapposizione degli effetti</u> in AC sono le <u>medes
 	#Figura(8.22). *Set-up sperimentale per determinare la rappresentazione Z*
 
 
-	Nell’ipotesi che il circuito così costituito ammetta, unica, la soluzione, il principio di sovrapposizione degli effetti ci indica quale sarà l’espressione dei fasori delle tensioni:$$\mathbf{V}_{1}\quad=\quad \mathbf{z}_{11}\cdot \mathbf{I}_{1}+\mathbf{z}_{12}\cdot \mathbf{I}_{2}\\ \\ \mathbf{V}_{2}\quad=\quad \mathbf{z}_{21}\cdot \mathbf{I}_{1}+\mathbf{z}_{22}\cdot \mathbf{I}_{2}\\ \\(8.6)$$dove i coefficienti $\mathbf{z}$, che dimensionalmente sono delle impe-
+	Nell’ipotesi che il circuito così costituito ammetta, unica, la soluzione, il principio di sovrapposizione degli effetti ci indica quale sarà l’espressione dei fasori delle tensioni:$$\mathbf{V}_{1}\quad=\quad \mathbf{z}_{11}\cdot \mathbf{I}_{1}+\mathbf{z}_{12}\cdot \mathbf{I}_{2}\\ \\ \mathbf{V}_{2}\quad=\quad \mathbf{z}_{21}\cdot \mathbf{I}_{1}+\mathbf{z}_{22}\cdot \mathbf{I}_{2}\\ \\(8.6)$$dove i coefficienti $\mathbf{z}$, che dimensionalmente sono delle impedenze, generalizzano al caso AC i coefficienti $r$ visti in DC. Si noti che nell’esempio considerato mancano i termini $\mathbf{E}_{eq}$ in quanto<u> il doppio bipolo non contiente sorgenti interne</u>.
 
-denze, generalizzano al caso AC i coefficienti r visti in DC. Si
 
-noti che nell’esempio considerato mancano i termini Eeq in quanto
-
-il doppio bipolo non contiente sorgenti interne.
+Calcoliamo *per esercizio* i parametri $\mathbf{z}$ risolvendo direttamente la rete in figura 8.22, si ha:
+$$\mathbf{V}_{}$$
