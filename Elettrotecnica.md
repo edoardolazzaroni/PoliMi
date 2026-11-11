@@ -3318,4 +3318,8 @@ $$\mathbf{h}_{12}=\frac{R}{R+\frac{1}{j\omega C}}\\ \\ \mathbf{h}_{22}=\frac{1}{
 
 
 
-## 8.6 **Funzione di trasferimento e risposta **
+## 8.6 **Funzione di trasferimento e risposta in frequenza**
+
+Riesaminiamo per primo il caso di una rete operante in AC e accessibile da una sola porta (ovvero un bipolo). Supponiamo che la rete non contenga sorgenti indipendenti interne. Supponiamo quindi di collegarle una sorgente sinusoidale di corrente a pulsazione $\omega$ il cui fasore è $\mathbf{I}$ come mostrato in figura:
+![[Elettrotecnica-1794409182595.webp|372]]
+#Figura(8.25). Set-up per il calcolo dellafunzione di rete Z(jω)
