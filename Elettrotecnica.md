@@ -3352,14 +3352,9 @@ $$\mathbf{V}_{o}=\mathbf{H}(j\omega)\cdot \mathbf{V}_{s}$$
 e definito come il rapporto dei fasori:
 $$\mathbf{H}(j\omega)=\frac{\mathbf{V}_{o}}{\mathbf{V}_{s}}$$
 
-Poiché tale funzione di rete lega grandezze elettriche a porte diverse, viene indicata col nome di funzione di rete di trasferimento o sem-plicemente funzione di trasferimento.
+Poiché tale funzione di rete lega grandezze elettriche a porte diverse, viene indicata col nome di **funzione di rete di trasferimento** o semplicemente **funzione di trasferimento**.
 
-La funzione di trasferimento contiene l’informazione di come varia
-
-la risposta della rete al variare della frequenza dell’ingresso, cioè
-
-contiene l’informazione della sua risposta in frequenza.
-
-Supponiamo infatti che la tensione in ingresso nel dominio del
-
-tempo sia data dalla sinusoide:
+La funzione di trasferimento contiene l’informazione di come varia la risposta della rete al variare della frequenza dell’ingresso, cioè <u>contiene l’informazione della sua risposta in frequenza</u>.
+Supponiamo infatti che la tensione in ingresso nel dominio del tempo sia data dalla sinusoide:
+$$v_{s}(t)=V_{M}\cos(\overline{\omega}t+\phi_{s})$$
+alla pulsazione $\ov$
