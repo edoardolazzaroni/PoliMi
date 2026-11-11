@@ -3386,4 +3386,9 @@ Si ha:
 $$\mathbf{H}(j\omega)=\frac{\mathbf{V}_{o}}{\mathbf{V}_{s}}=\frac{1}{1+j\omega C R}\quad(8.10)$$
 da cui il <u>modulo</u>:
 $$|\mathbf{H}(j\omega)|=\frac{1}{\sqrt{ 1 +(\omega C \ R)^2}}$$
-e la fase:
+e la <u>fase</u>:
+$$\measuredangle \mathbf{H}(j\omega)=-atan(\omega C \ R)$$
+
+L'andamento del modulo è mostrato in figura:
+
+E’ possibile analizzare qualitativamente tale grafico osservando l’esistenza di una pulsazione caratteristica (cioè particolare) che chiameremo $\omega_{c}$ alla quale
