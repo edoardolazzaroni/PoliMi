@@ -3278,10 +3278,11 @@ Le <u>conseguenze della sovrapposizione degli effetti</u> in AC sono le <u>medes
 - Infine è possibile estendere al dominio AC le rappresentazioni dei doppi bipoli. A tale scopo, utilizzeremo come esempio il doppio bipolo (tripolare) mostrato in figura:![[Elettrotecnica-1794406855743.webp|321]]
 	#Figura(8.21). *Doppio bipolo in AC*
 
-	La rappresentazione controllata in corrente prevede di imporre i
 
-valori dei fasori delle due correnti I1 ed I2 alle porte e di deter-
+	La rappresentazione controllata in corrente prevede di imporre i valori dei fasori delle due correnti $I_{1}$ ed $I_{2}$ alle porte e di determinare in funzione di questi ultimi i fasori delle tensioni come mostrato in figura:![[Elettrotecnica-1794406914488.webp|413]]
+	#Figura(8.22). *Set-up sperimentale per determinare la rappresentazione Z*
 
-minare in funzione di questi ultimi i fasori delle tensioni come
 
-mostrato in fig
+	Nell’ipotesi che il circuito così costituito ammetta, unica, la soluzione, il principio di sovrapposizione degli effetti ci indica quale sarà
+
+l’espressione dei fasori delle tensioni:
