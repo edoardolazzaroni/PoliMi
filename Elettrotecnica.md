@@ -3384,4 +3384,6 @@ Valutiamo la funzione di trasferimento per il circuito mostrato in figura:
 
 Si ha:
 $$\mathbf{H}(j\omega)=\frac{\mathbf{V}_{o}}{\mathbf{V}_{s}}=\frac{1}{1+j\omega C R}\quad(8.10)$$
-da cui il modulo:
+da cui il <u>modulo</u>:
+$$|\mathbf{H}(j\omega)|=\frac{1}{\sqrt{ 1 +(\omega C \ R)^2}}$$
+e la fase:
