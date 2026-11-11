@@ -3236,8 +3236,18 @@ Applichiamola al circuito di test mostrato in figura:
 ![[Elettrotecnica-1794405638282.webp|472]]
 #Figura(8.16). *Circuito di test in AC risolto con l’analisi nodale*
 
-Si noti che nella figura sono mostrati direttamente i fasori $V_{s}$ e $I_{s}$ dei due generatori indipendenti e che tali generatori sono isofre-
+Si noti che nella figura sono mostrati direttamente i fasori $V_{s}$ e $I_{s}$ dei due generatori indipendenti e che **tali generatori sono isofrequenziali alla pulsazione** $\omega$. Solo in questo caso il circuito può operare in AC.
 
-quenziali alla pulsazione ω. Solo in questo caso il circuito può oper-
+La rete contiene anche un elemento dinamico induttore ed un generatore di corrente pilotato in tensione. Il metodo dell’analisi nodale in AC consiste nell’assumere come incognite i fasori di un insieme di tensioni di nodo e quindi bilanciare i fasori delle correnti in un insieme di nodi o superfici chiuse.
 
-are in AC.
+Nel caso specifico del circuito in fig. 1.16, è utile sfruttare il fatto
+
+che la sorgente di tensione e l’induttore in serie possono essere visti
+
+come un unico bipolo controllabile in tensione. In questo modo,
+
+basterà assumere come incognita il fasore della tensione di nodo E e
+
+quindi bilanciare i fasori delle correnti attraverso la superficie chiusa
+
+la cui traccia sul foglio è tratteggiata in figura. Avremo:
