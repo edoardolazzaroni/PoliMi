@@ -3244,4 +3244,4 @@ Nel caso specifico del circuito in figura, è utile sfruttare il fatto che la so
 $$-\mathbf{I}_{s}+\frac{\mathbf{E}}{R}+g\cdot(\mathbf{V}_{s}-\mathbf{E})+\frac{\mathbf{E}-\mathbf{V}_{s}}{j\omega L}=\mathbf{0}\quad(8.1)$$
 
 Riordinando i termini, si ottiene l’equazione risolutiva:
-$$(\frac{1}{R}$$
+$$\left( \frac{1}{R}-g+\frac{1}{j\omega L} \right)\cdot \mathbf{E}=\underbrace{1}_{\mathbf{B}_{1}}\cdot \mathbf{I}_{s}+\left( \frac{1}{j\omega L}-g \right)\cdot \mathbf{V}_{s}$$
