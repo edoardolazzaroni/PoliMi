@@ -3314,4 +3314,8 @@ $$\mathbf{V}_{1}\quad=\quad \mathbf{h}_{11}\cdot \mathbf{I}_{1}+\mathbf{h}_{12}\
 dove i coefficienti complessi $\mathbf{h}$ generalizzano al caso AC i coefficienti $h$ visti in DC. Provate a calcolare tali coefficienti attraverso le prove semplici, ovvero prima spegnendo la sorgente $\mathbf{V}_{2}$:
 $$\mathbf{h}_{11}=j\omega L+\frac{R}{1+j\omega CR}\\ \\ \mathbf{h}_{21}=-\frac{R}{R+\frac{1}{j\omega C}}$$
 e quindi spegnendo la sorgente $\mathbf{I}_{1}$:
-$$\mathbf{h}_{12}=\frac{R}{}$$
+$$\mathbf{h}_{12}=\frac{R}{R+\frac{1}{j\omega C}}\\ \\ \mathbf{h}_{22}=\frac{1}{R+\frac{1}{j\omega C}}$$
+
+
+
+## 8.6 **Funzione di trasferimento e risposta **
