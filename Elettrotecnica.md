@@ -3258,4 +3258,6 @@ Le <u>conseguenze della sovrapposizione degli effetti</u> in AC sono le <u>medes
 - Altre conseguenze sono l’estensione dei circuiti equivalenti di Thevenin e di Norton; nel primo caso, una rete generica accessibile da una coppia di morsetti e formata da resistori, generatori pilotati, induttori, condensatori e generatori sinusoidali isofrequenziali alla pulsazione $\omega$, come in figura, viene collegata ad una sorgente esterna di corrente pure isofrequenziale:![[Elettrotecnica-1794406303240.webp|467]]
 	#Figura(8.17). *Bipolo in AC controllato in corrente*
 
-	Se il circuito così formato ammette soluzione, allora si ha che il fasore della tensione alla porta vale:$$\mathbf{V}=\mathbf{Z}_{eq}(j\omega)\cdot \mathbf{I}+\mathbf{E}_{eq}(j\omega)$$dove $$$
+	Se il circuito così formato ammette soluzione, allora si ha che il fasore della tensione alla porta vale:$$\mathbf{V}=\mathbf{Z}_{eq}(j\omega)\cdot \mathbf{I}+\mathbf{E}_{eq}(j\omega)$$dove $\mathbf{Z}_{eq}(j\omega)$, detta **impedenza equivalente**, è il coefficiente che pesa l’effetto della sorgente esterna mentre $\mathbf{E}_{eq}(j\omega)$, detta **tensione a vuoto**, riassume l’effetto di tutte le sorgenti interne.
+	
+	I parametri dell’equivalente Thevenin si determinano attraverso le prove semplici che corrispondono alle loro definizioni:$$$$
