@@ -3268,4 +3268,7 @@ Le <u>conseguenze della sovrapposizione degli effetti</u> in AC sono le <u>medes
 	Nel secondo caso, la rete viene collegata ad una sorgente esterna di tensione come in figura:![[Elettrotecnica-1794406588452.webp|405]]
 	#Figura(8.19). *Bipolo in AC controllato in tensione*
 
-	Se il circuito così formato ammette soluzione, allora si ha che il fasore della corrente alla porta vale:$$\mathbf{}$$
+	Se il circuito così formato ammette soluzione, allora si ha che il fasore della corrente alla porta vale:$$\mathbf{I}=\mathbf{Y}_{eq}(j\omega)\cdot \mathbf{V}+\mathbf{I}_{eq}(j\omega)$$dove $\mathbf{Y}_{eq}$, detta **ammettenza equivalente**, è il coefficiente che pesa l’effetto della sorgente esterna mentre $\mathbf{I}_{eq}(j\omega)$, detta **corrente di corto circuito**, riassume l’effetto di tutte le sorgenti interne.
+
+
+	
