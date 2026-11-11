@@ -3275,3 +3275,13 @@ Le <u>conseguenze della sovrapposizione degli effetti</u> in AC sono le <u>medes
 	#Figura(8.20). *Bipolo equivalente di Norton*
 
 
+- Infine è possibile estendere al dominio AC le rappresentazioni dei doppi bipoli. A tale scopo, utilizzeremo come esempio il doppio bipolo (tripolare) mostrato in figura:![[Elettrotecnica-1794406855743.webp|321]]
+	#Figura(8.21). *Doppio bipolo in AC*
+
+	La rappresentazione controllata in corrente prevede di imporre i
+
+valori dei fasori delle due correnti I1 ed I2 alle porte e di deter-
+
+minare in funzione di questi ultimi i fasori delle tensioni come
+
+mostrato in fig
