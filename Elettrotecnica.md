@@ -3255,8 +3255,5 @@ L’espressione $(8.3)$ mostra come il fasore della variabile osservata, così c
 Le <u>conseguenze della sovrapposizione degli effetti</u> in AC sono le <u>medesime</u> che abbiamo visto in DC:
 
 - Operativamente la sovrapposizione degli effetti permette di calcolare il fasore soluzione di un circuito che opera in AC facendo agire le sorgenti indipendenti individualmente e quindi sommando i relativi effetti parziali;
-- Altre conseguenze sono l’estensione dei circuiti equivalenti di
-
-Thevenin e di Norton. Nel primo caso, una rete generica accessi-
-
-bile da una coppia di morsetti e formata da resistori, generatori
+- Altre conseguenze sono l’estensione dei circuiti equivalenti di Thevenin e di Norton; nel primo caso, una rete generica accessibile da una coppia di morsetti e formata da resistori, generatori pilotati, induttori, condensatori e generatori sinusoidali isofrequenziali alla pulsazione $\omega$, come in figura, viene collegata ad una sorgente esterna di corrente pure isofrequenziale:![[Elettrotecnica-1794406303240.webp|467]]
+	
