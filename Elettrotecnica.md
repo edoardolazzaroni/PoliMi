@@ -3260,4 +3260,6 @@ Le <u>conseguenze della sovrapposizione degli effetti</u> in AC sono le <u>medes
 
 	Se il circuito così formato ammette soluzione, allora si ha che il fasore della tensione alla porta vale:$$\mathbf{V}=\mathbf{Z}_{eq}(j\omega)\cdot \mathbf{I}+\mathbf{E}_{eq}(j\omega)$$dove $\mathbf{Z}_{eq}(j\omega)$, detta **impedenza equivalente**, è il coefficiente che pesa l’effetto della sorgente esterna mentre $\mathbf{E}_{eq}(j\omega)$, detta **tensione a vuoto**, riassume l’effetto di tutte le sorgenti interne.
 	
-	I parametri dell’equivalente Thevenin si determinano attraverso le prove semplici che corrispondono alle loro definizioni:$$$$
+	I parametri dell’equivalente Thevenin si determinano attraverso le prove semplici che corrispondono alle loro definizioni:$$\mathbf{Z}_{eq}=\frac{\mathbf{V}}{\mathbf{I}}|_{gen. \ int. \ OFF}\\ \\ \mathbf{E}_{eq}=\mathbf{V}|_{\mathbf{I}=0}\\ \\(8.4)$$La rete di partenza è equivalente ai fini esterni al bipolo di tipo
+
+serie in fig.
