@@ -3367,4 +3367,12 @@ e fase:
 $$\measuredangle \mathbf{V}_{o}=\measuredangle \mathbf{H}(j\overline{\omega})+\phi_{s}$$
 
 Infine, antitrasformando nel dominio del tempo ricaviamo la tensione di uscita:
-$$v_{o}(t)=|\mathbf{H}(j\overline{\omega})|\cdot V_{M}\cdot \cos(\overline{\omega}t+)$$
+$$v_{o}(t)=|\mathbf{H}(j\overline{\omega})|\cdot V_{M}\cdot \cos(\overline{\omega}t+\measuredangle \mathbf{H}(j\overline{\omega})+\phi_{s})$$
+
+Il modulo della funzione di transferimento, valutata alla pulsazione dell’ingresso, scala il modulo dell’ingresso mentre la fase della funzione di trasferimenti, valutata in detta pulsazione, si somma a quella dell’ingresso.
+
+Tali "effetti" chiaramente cambiano al variare della pulsazione dell’ingresso e quindi risulta estremamente istruttivo rappresentare graficamente come varia modulo e fase della funzione di trasferimento in funzione di $\omega$.
+
+
+
+#### #Esercizio(fasori) (1)
