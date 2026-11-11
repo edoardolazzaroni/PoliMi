@@ -3375,4 +3375,6 @@ Tali "effetti" chiaramente cambiano al variare della pulsazione dell’ingresso 
 
 
 
-#### #Esercizio(fasori) (1)
+#### #Esercizio(funzione di trasferimento) (1)
+
+Valutiamo la funzione di trasferimento per il circuito mostrato in figura:
