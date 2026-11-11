@@ -3294,8 +3294,10 @@ $$\mathbf{V}_{1}\quad =\quad \overbrace{(j\omega L+R)}^{\mathbf{z}_{11}}\cdot \m
 I parametri $\mathbf{z}$ in generale dipendono da $j\omega$ e quindi andrebbero indicati come $\mathbf{z}_{11}(j\omega)$, $\mathbf{z}_{12}(j\omega)$, ecc$\cdots$. Tale dipendenza è stata omessa per semplificare la notazione.
 
 
-In modo analogo la rappresentazione controllata in tensione si valuta imponendo i valori dei fasori delle due tensioni $V_{1}$ e $V_{2}$
+In modo analogo la rappresentazione controllata in tensione si valuta imponendo i valori dei fasori delle due tensioni $V_{1}$ e $V_{2}$ alle porte e quindi determinando i fasori delle correnti, come mostrato in figura:
+![[Elettrotecnica-1794408278709.webp|396]]
+#Figura(8.23). *Set-up sperimentale per determinare la rappresentazione Y*
 
-alle porte e quindi determinando i fasori delle correnti, come
 
-mostrato in fig.
+Nell’ipotesi che il circuito così costituito ammetta, unica, la soluzione, l’espressione dei fasori delle correnti sarà:
+$$\mathbf{I}_{1}$$
