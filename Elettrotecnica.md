@@ -3398,4 +3398,7 @@ $$\omega_{c}C \ R=1$$
 ovvero:
 $$\omega_{c}=\frac{1}{C \ R}$$
 In corrispondenza di tale pulsazione si ha:
-$$|\mathbf{H}(j\omega_{c})|$$
+$$|\mathbf{H}(j\omega_{c})|=\frac{1}{\sqrt{ 2 }}\\ \\ \measuredangle \mathbf{H}(j\omega_{c})=-\frac{\pi}{4}$$
+Consideriamo ora i casi:
+
+- l'’ingresso abbia pulsazione $\omega$ tale che
