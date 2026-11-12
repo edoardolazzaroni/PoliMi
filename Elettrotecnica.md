@@ -3682,3 +3682,11 @@ $$L_{eq}=(L_{1}+L_{2}-2M)$$
 
 - ### Collegamento in parallelo
 
+Per trattare agevolmente il collegamento in parallelo di induttori accoppiati, invertiamo la rappresentazione $(8.18)$ in modo da ottenere quella controllata in tensione. Si ha:
+$$\begin{vmatrix}
+\mathbf{I}_{1} \\
+\mathbf{I}_{2}
+\end{vmatrix}=\frac{1}{j\omega(L_{1}L_{2}-M^2)}\begin{vmatrix}
+L_{2} & -M \\
+-M & L_{1}
+\end{vmatrix}$$
