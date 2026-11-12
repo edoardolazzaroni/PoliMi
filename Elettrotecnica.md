@@ -3644,6 +3644,7 @@ il cui valore è compreso nell’intervallo di valori $[0, 1]$. Tale parametro v
 E’ infine interessante studiare i circuiti ottenuti collegando gli induttori accoppiati in serie e in parallelo:
 
 
+
 - ### Collegamento in serie
 
 Colleghiamo le due porte in serie nella modalità mostrata in figura, detta talvolta "equiversa":
@@ -3674,4 +3675,10 @@ $$\mathbf{V}_{1}=j\omega(L_{1}-M)\cdot \mathbf{I} \\ \\ \mathbf{V}_{2}=j\omega(M
 si ottiene:
 $$\mathbf{V}=j\omega(L_{1}+L_{2}-2M)\cdot \mathbf{I}$$
 
-In questo  caso, il collegamento è equivalente ad un induttore di valore
+In questo  caso, il collegamento è equivalente ad un **induttore** di valore:
+$$L_{eq}=(L_{1}+L_{2}-2M)$$
+
+
+
+- ### Collegamento in parallelo
+
