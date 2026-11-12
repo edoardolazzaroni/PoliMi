@@ -3455,3 +3455,8 @@ e sono quindi <u>non nulli</u>, tuttavia sommandosi:
 $$\mathbf{I}=\mathbf{I}_{C}+\mathbf{I}_{L}=\mathbf{V}j\omega_{o}C+\mathbf{V}\frac{-j}{\omega_{o}L}=\mathbf{V}\cdot j\left( \omega_{o}C-\frac{1}{\omega_{o}L} \right)=\mathbf{V}\cdot j \ B(\omega_{o})=\mathbf{0}$$
 <u>si elidono vicendevolmente</u>.
 
+Collegando il risonatore parallelo $L \ C$ ad un resistore come in figura, si ottiene un circuito che opera in frequenza come un **filtro passa banda**:
+![[Elettrotecnica-1794471780818.webp|447]]
+#Figura 
+
+Si supponga infatti che il segnale in ingresso al circuito sia la
