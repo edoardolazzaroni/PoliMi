@@ -3422,4 +3422,4 @@ $$\omega_{c}=\frac{1}{10^3\cdot 10^{-6}}=10^3 \ rad/s \approx 160 \ Hz$$
 
 Analizziamo i **casi**:
 
-- l’ingresso sia il segnale:$$v_{s}(t)=10 \cos(100t)$$
+- l’ingresso sia il segnale:$$v_{s}(t)=10 \cos(100t) \ V$$Alla pulsazione $\omega = 100 \ rad/s$ la funzione di trasferimento $(8.10)$ vale:$$\mathbf{H}(j\omega)\approx \frac{1}{1+j \ 0.1}\quad$$
