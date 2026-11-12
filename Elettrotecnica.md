@@ -3586,8 +3586,10 @@ dove $L$ è l’**autoinduttanza**. Tale concetto si può estendere pensando ad 
 ![[Elettrotecnica-1794474525200.webp|552]]
 #Figura(8.40).
 
-Si supponga da prima di applicare una corrente $I1(t)$ alla
+Si supponga da prima di applicare una corrente $I_{1}(t)$ alla porta $1$ e di lasciare aperta la porta due $I_{2}(t) = 0$. Si avrà una flusso concatenato col primo avvolgimento come nel caso dell’induttore:
+$$\phi_{1}'(t)=L_{1}\cdot I_{1}(t)$$
+inoltre, poiché una parte delle linee di campo $\overrightarrow{B}$ concatenano anche
 
-porta 1 e di lasciare aperta la porta due I2(t) = 0. Si avrà una flusso
+il secondo avvolgimento, si avrà un flusso concatenato anche al sec-
 
-concatenato col primo avvolgimento come nel caso dell’induttore:
+ondo avvolgimento:
