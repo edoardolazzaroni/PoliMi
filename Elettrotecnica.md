@@ -3592,3 +3592,5 @@ inoltre, poiché una parte delle linee di campo $\overrightarrow{B}$ concatenano
 $$\phi_{2}'(t)=M\cdot I_{1}(t)$$
 descritto da un **coefficiente** detto **di mutua induzione**, misurato in henry [H].
 
+La situazione si può replicare come mostrato in figura (Destra), applicando ora una corrente $I_{2}(t)$ alla porta $2$ mentre la porta uno rimane aperta $I_{1}(t) = 0$. Si avrà una flusso concatenato col secondo avvolgimento che determina una autoinduzione alla porta due:
+$$\phi_{2}''(t)=L_{2}\cdot I_{2}(t)$$
