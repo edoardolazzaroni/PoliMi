@@ -3627,6 +3627,14 @@ Si noti come nel simbolo in figura 8.41 si sia soliti riportare con due "puntini
 
 Supponiamo infatti, di invertire tale convenzione alla porta due, come mostrato in figura 8.42, ovvero di assumere come grandezze a questa porta le variabili:
 $$\mathbf{V}_{2}'=-\mathbf{V}_{2}\\ \\ \mathbf{I}_{2}'=-\mathbf{I}_{2}$$
-
 ![[Elettrotecnica-1794483609181.webp|329]]
-#Figura(8.42). L’inversione dei puntini ad una porta inverte il segno di $M$
+#Figura(8.42). *L’inversione dei puntini ad una porta inverte il segno di $M$*
+
+
+Sostituendo nella $(8.17)$ si ottiene:
+$$\mathbf{V}_{1}=j\omega L_{1}\cdot \mathbf{I}_{1}-j\omega M\cdot \mathbf{I}_{2}'\\ \\ \mathbf{V}_{2}=-j\omega M\cdot \mathbf{I}_{1}+j\omega L_{2}\cdot \mathbf{I}_{2}'\\ \\(8.19)$$
+dove si è invertito il segno davanti al coefficiente della mutua induttanza M. Dunque per descrivere l’induzione mutua tra i due avvolgi-
+
+menti è necessario precisare il valore ed il segno di M e i puntini alle
+
+due porte
