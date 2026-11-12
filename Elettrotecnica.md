@@ -3437,4 +3437,4 @@ Iniziamo analizzando il comportamento elettrico in regime AC del circuito mostra
 
 
 La sua ammettenza vale:
-$$\mathcal{Y}$$
+$$\Upsilon(j\omega)=j\omega C+\frac{1}{j\omega L}=j\left( \omega C-\frac{1}{\omega L} \right)$$
