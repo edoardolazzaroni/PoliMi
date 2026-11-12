@@ -3599,4 +3599,4 @@ $$\phi_{1}''(t)=M\cdot I_{2}(t)$$
 descritto da $M$.
 
 Dunque, nel caso in cui le correnti alle due porte sono entrambe non nulle, gli effetti singoli si sovrappongono portando ai flussi totali:
-$$\phi_{1}(t)=L_{1}$$
+$$\phi_{1}(t)=L_{1}\cdot I_{1}(t)+M\cdot I_{2}t\\ \\ \phi_{2}(t)=M\cdot I_{1}t+L_{2}\cdot I_{2}t \\ \\ $$
