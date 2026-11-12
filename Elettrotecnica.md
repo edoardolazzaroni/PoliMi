@@ -3449,10 +3449,5 @@ Esiste un valore caratteristico della pulsazione, che indicheremo con $\omega_{O
 $$\omega_{o}C=\frac{1}{\omega_{o}L}\longrightarrow \omega_{o}=\sqrt{ \frac{1}{LC} }$$
 tale valore della pulsazione è detto **pulsazione di risonanza**.
 
-Dunque, alla pulsazione di risonanza la composizione parallelo L C è equiv-
-
-alente ai fini esterni ad un circuito aperto. Accade infatti che per un
-
-valore qualsiasi della tensione ai suoi capi, rappresentato dal fasore
-
-V, i fasori delle correnti nei due elementi valgono:
+Dunque, alla pulsazione di risonanza la composizione parallelo $L \ C$ è equivalente ai fini esterni ad un circuito aperto. Accade infatti che per un valore qualsiasi della tensione ai suoi capi, rappresentato dal fasore $\mathbf{V}$, i fasori delle correnti nei due elementi valgono:
+$$\mathbf{I}_{C}=\mathbf{V}\cdot j\omega_{o}C\\ \\ \mathbf{I}_{L}=\mathbf{V}\cdot\frac{-j}{}$$
