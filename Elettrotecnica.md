@@ -3505,7 +3505,7 @@ si elidono vicendevolmente.
 
 
 
-#### #Esercizio(risonanza)
+#### #Esercizio(risonanza) (1)
 
 E’ assegnato il circuito in AC mostrato in figura di cui si chiede di calcolare a regime $i_{C_{1}}(t)$ e $v_{L_{2}}(t)$:
 ![[Elettrotecnica-1794473319377.webp|365]]
@@ -3534,4 +3534,10 @@ $$\mathbf{I}=\frac{1-j}{5-5j+10j}=\cdots=-\frac{j}{5}$$
 Tornando al circuito originale in figura 8.37, possiamo ricavare col partitore di corrente:
 $$\mathbf{I}_{C_{1}}=-\frac{j}{5}\cdot\frac{\frac{j}{5}}{\frac{1}{10}+\frac{j}{5}+\frac{-j}{10}}=-\frac{j}{5}\cdot \frac{2j}{1+j}=\frac{2}{5}\cdot \frac{1}{1+j}$$
 Nel tempo:
-$$i_{C_{1}}(t)=\sqrt{ 2 }$$
+$$i_{C_{1}}(t)=\frac{\sqrt{ 2 }}{5}\cos\left( 10^3t-\frac{\pi}{4} \right) \ A$$
+
+In modo simile si ha:
+$$\mathbf{V}_{L_{2}}=-\frac{j}{5}\cdot 20j=4$$
+Nel tempo:
+$$v_{L_{2}}(t)=4\cos(10^3t) \ V$$
+
