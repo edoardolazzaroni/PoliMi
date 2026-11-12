@@ -3699,4 +3699,6 @@ Colleghiamo le due porte in parallelo nella modalità equiversa mostrata in figu
 #Figura(8.45). *Collegamento parallelo equiverso*
 
 Si ha:
-$$\mathbf{V}=\mathbf{}$$
+$$\mathbf{V}=\mathbf{V}_{1}=\mathbf{V}_{2}\\ \\ \mathbf{I}=\mathbf{I}_{1}+\mathbf{I}_{2}$$
+Quindi sostituendo nella $(8.22)$ si ottiene:
+$$\mathbf{I}=\frac{L_{1}+L_{2}}$$
