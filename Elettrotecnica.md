@@ -3471,4 +3471,6 @@ L'andamento qualitativo di modulo e fase in funzione di $\omega$ (cioè la rispo
 
 - per $\omega=\omega_{o}$, cioè alla risonanza, si ha $\mathbf{Z}(j\omega_{o})=R$
 - per pulsazioni, significativamente più piccole della pulsazione di risonanza, si può ragionare al limite per $\omega \to 0$ dove $\mathbf{Z}(j\omega)\approx j\omega L$ si ha dunque:$$\lim_{ \omega \ \to \ 0 } |\mathbf{Z}(j\omega)|=0\\ \\ \lim_{ \omega \ \to \ 0 } \measuredangle \mathbf{Z}(j\omega)=\frac{\pi}{2}$$
-- viceversa, per pulsazioni significativamente più grandi della pulsazione di risonanza ragionando al limite per $\omega \to \infty$ si trova $\mathbf{Z}(j\omega)\approx \frac{1}{j\omega C}$ si ha dunque:$$\lim_{ \omega \ \to \  \infty } |\mathbf{Z}(j\omega)|=0\\ \\ \lim_{ \omega \ \to \ \infty } $$
+- viceversa, per pulsazioni significativamente più grandi della pulsazione di risonanza ragionando al limite per $\omega \to \infty$ si trova $\mathbf{Z}(j\omega)\approx \frac{1}{j\omega C}$ si ha dunque:$$\lim_{ \omega \ \to \  \infty } |\mathbf{Z}(j\omega)|=0\\ \\ \lim_{ \omega \ \to \ \infty } \measuredangle \mathbf{Z}(j\omega)=-\frac{\pi}{2}$$
+
+I grafici del modulo e della fase sono riportati di seguito:
