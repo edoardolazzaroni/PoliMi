@@ -3429,3 +3429,10 @@ Analizziamo i **casi**:
 
 
 
+## 8.7 **Risonanza**
+
+Iniziamo analizzando il comportamento elettrico in regime AC del
+
+circuito mostrato in fig.1.31 composto dal collegamento parallelo di
+
+un induttore e un condensatore. La sua ammettenza vale:
