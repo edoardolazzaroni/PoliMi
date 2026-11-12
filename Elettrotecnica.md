@@ -3608,6 +3608,13 @@ $$\mathbf{V}_{1}=j\omega L_{1}\cdot \mathbf{I}_{1}+j\omega M\cdot \mathbf{I}_{2}
 
 Queste equazioni rappresentano il legame costitutivo del doppio bipolo che descrive due induttori mutuamente accoppiati, il cui simbolo circuitale è mostrato in figura:
 ![[Elettrotecnica-1794483423415.webp|324]]
-#Figura(8.41). Simbolo circuitale degli induttori mutuamente accoppiati.
+#Figura(8.41). *Simbolo circuitale degli induttori mutuamente accoppiati*
 
-Tali equazioni si possono
+Tali equazioni si possono scrivere in forma compatta:
+$$\begin{vmatrix}
+\mathbf{V}_{1} \\
+\mathbf{V}_{2}
+\end{vmatrix}=j\omega \overbrace{\begin{vmatrix}
+L_{1} & M \\
+M & L_{2}
+\end{vmatrix}}^{\mathbf{L}}\cdot$$
