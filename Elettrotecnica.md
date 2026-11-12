@@ -3576,6 +3576,5 @@ si elidono vicendevolmente.
 
 
 
-
 ## 8.8 **Induttori mutuamente accoppiati**
 
