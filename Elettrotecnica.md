@@ -3512,4 +3512,9 @@ E’ assegnato il circuito in AC mostrato in figura di cui si chiede di calcolar
 #Figura(8.37). *Circuito in AC*
 
 I dati sono:
-$$v_{s}(t)=\sqrt{ 2 }\cos\left( 10^3t-\frac{\pi}{4} \right) \ V \\  R=10 \\ C_{1}=200 \ \mu F \\ C_{2}=100 \ \mu F \\ L_{1}=10 \ mH \\ L$$
+$$v_{s}(t)=\sqrt{ 2 }\cos\left( 10^3t-\frac{\pi}{4} \right) \ V \\  R=10 \\ C_{1}=200 \ \mu F \\ C_{2}=100 \ \mu F \\ L_{1}=10 \ mH \\ L_{2}=20 \ mH$$
+
+Calcoliamo il fasore:
+$$\mathbf{V}_{s}=1-j$$
+e le impedenza:
+$$\mathbf{Z}_{C_{1}}=-5j\\ \mathbf{Z}_{L_{1}}=10j\\ \mathbf{Z}_{C_{2}}=-10j \\ $$
