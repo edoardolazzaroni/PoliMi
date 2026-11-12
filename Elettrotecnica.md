@@ -3500,4 +3500,7 @@ $$\omega_{o}L=\frac{1}{\omega_{o}C}\longrightarrow \omega_{o}=\sqrt{ \frac{1}{LC
 Dunque, alla pulsazione di risonanza la composizione serie $L \ C$ è equivalente ai fini esterni ad un corto circuito. Infatti un valore qualsiasi della corrente $\mathbf{I}$, i fasori delle due tensioni:
 $$\mathbf{V}_{L}=\mathbf{I}\cdot j\omega_{o}L \\ \\ \mathbf{V}_{C}=\mathbf{I}\cdot\frac{-j}{\omega_{o}C}$$
 pur essendo <u>non nulli</u>, tuttavia sommandosi:
-$$\mathbf{V}=\mathbf{V}_{L}+\mathbf{V}_{C}=\mathbf{I}j\omega_{o}L+\mathbf{I}\frac{-j}{}$$
+$$\mathbf{V}=\mathbf{V}_{L}+\mathbf{V}_{C}=\mathbf{I}j\omega_{o}L+\mathbf{I}\frac{-j}{\omega_{o}C}=\mathbf{I}\cdot j\left( \omega_{o}L-\frac{1}{\omega_{o}C} \right)=\mathbf{I}\cdot jX(\omega_{o})=\mathbf{0}$$
+si elidono vicendevolmente.
+
+
