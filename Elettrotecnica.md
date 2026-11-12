@@ -3710,6 +3710,10 @@ $$L_{eq}=\frac{(L_{1}L_{2}-M^2)}{L_{1}+L_{2}-2M}$$
 
 Viceversa, collegando in modo controverso come in figura:
 ![[Elettrotecnica-1794484554841.webp|327]]
-#Figura(8.46). Collegamento parallelo
+#Figura(8.46). *Collegamento parallelo controverso*
 
-controverso
+Si ha:
+$$\mathbf{V}_{1}=\mathbf{V}\\ \\ \mathbf{V}_{2}=-\mathbf{V}\\ \\ \mathbf{I}=\mathbf{I}_{1}-\mathbf{I}_{2}$$
+
+Quindi sostituendo nella $(8.22)$ si ottiene:
+$$$$
