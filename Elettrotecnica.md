@@ -3532,4 +3532,6 @@ da cui calcoliamo la **corrente nella maglia**:
 $$\mathbf{I}=\frac{1-j}{5-5j+10j}=\cdots=-\frac{j}{5}$$
 
 Tornando al circuito originale in figura 8.37, possiamo ricavare col partitore di corrente:
-$$\mathbf{I}_{C_{1}}=-\frac{j}{5}\cdot\frac{\frac{j}{5}}{\frac{1}{10}+\frac{j}{5}}$$
+$$\mathbf{I}_{C_{1}}=-\frac{j}{5}\cdot\frac{\frac{j}{5}}{\frac{1}{10}+\frac{j}{5}+\frac{-j}{10}}=-\frac{j}{5}\cdot \frac{2j}{1+j}=\frac{2}{5}\cdot \frac{1}{1+j}$$
+Nel tempo:
+$$i_{C_{1}}(t)=\sqrt{ 2 }$$
