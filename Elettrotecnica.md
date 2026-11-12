@@ -3519,4 +3519,7 @@ $$\mathbf{V}_{s}=1-j$$
 e le impedenza:
 $$\mathbf{Z}_{C_{1}}=-5j\\ \mathbf{Z}_{L_{1}}=10j\\ \mathbf{Z}_{C_{2}}=-10j \\ \mathbf{Z}_{L_{2}}=20j$$
 Quindi componiamo gli elementi in parallelo calcolandone l'ammettenza equivalente:
-$$\mathbf{Y}_{1}=\frac{1}{10}+\frac{j}{5}+\frac{-j}{10}=1+\frac{1+j}{10}$$
+$$\mathbf{Y}_{1}=\frac{1}{10}+\frac{j}{5}+\frac{-j}{10}=1+\frac{1+j}{10}\to \mathbf{Z}_{1}=5(1-j)$$
+
+L'impedenza dei due elementi in serie vale:
+$$\mathbf{Z}_{2}=20j-10j=10j$$
