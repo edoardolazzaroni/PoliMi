@@ -3716,4 +3716,7 @@ Si ha:
 $$\mathbf{V}_{1}=\mathbf{V}\\ \\ \mathbf{V}_{2}=-\mathbf{V}\\ \\ \mathbf{I}=\mathbf{I}_{1}-\mathbf{I}_{2}$$
 
 Quindi sostituendo nella $(8.22)$ si ottiene:
-$$$$
+$$\mathbf{I}=\frac{L_{1}+L_{2}-2M}{j\omega(L_{1}L_{2}-M^2)}\mathbf{V}$$
+
+In questo caso, la coppia di induttori accoppiati è equivalente ad un **induttore** di autoinduttanza:
+$$L_{eq}=\frac{(L_{1}L_{2}-M^2)}{L_{1}+L_{2}-2M}$$
