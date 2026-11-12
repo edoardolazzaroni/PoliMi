@@ -3425,4 +3425,7 @@ Analizziamo i **casi**:
 - l’ingresso sia il segnale:$$v_{s}(t)=10 \cos(100t) \ V$$Alla pulsazione $\omega = 100 \ rad/s$ la funzione di trasferimento $(8.10)$ vale:$$\mathbf{H}(j\omega)\approx \frac{1}{1+j \ 0.1}\quad(8.13)$$e quindi:$$|\mathbf{H}(j\omega)|=0.995\\ \\ \measuredangle \mathbf{H}(j\omega)=-0.997 \ rad$$La sinusoide di uscita:$$v_{o}(t)=9.95\cos(100t-0.997) \ V$$è praticamente uguale all'ingresso.
 
 
-- nel secondo caso, l'ingresso è il segnale:$$v_{s}(t)=10 \cos(10^4 \ t) \ V$$Alla pulsazione $\omega=10^4 \ rad/s$ la funzione di trasferimento $(8.10)$ vale:$$\mathbf{H}(j\omega)\approx \frac{1}{1+10j}\quad(8.14)$$e quindi:$$|\mathbf{H}(j\omega)|=0.995 \\ \\ \measuredangle \mathbf{H}$$
+- nel secondo caso, l'ingresso è il segnale:$$v_{s}(t)=10 \cos(10^4 \ t) \ V$$Alla pulsazione $\omega=10^4 \ rad/s$ la funzione di trasferimento $(8.10)$ vale:$$\mathbf{H}(j\omega)\approx \frac{1}{1+10j}\quad(8.14)$$e quindi:$$|\mathbf{H}(j\omega)|=0.995 \\ \\ \measuredangle \mathbf{H}(JOME)=-1.47 \ rad$$La sinusoide di uscita:$$v_{o}(t)=0.995\cos(10^4 \ t -84^0) \ V$$è stata attenuata di un fattore $10$ e ritardata rispetto all’ingresso di quasi un quarto di periodo.
+
+
+
