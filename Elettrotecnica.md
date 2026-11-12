@@ -3414,3 +3414,6 @@ Infine la figura successiva mostra l’andamento della fase:
 ![[Elettrotecnica-1794470462219.webp|420]]
 #Figura(8.30). *Grafico della fase*
 
+
+Facciamo qualche conto sul filtro passa basso coi dati numerici:
+$$R=1 \ k\Omega\\C=1 \ \$$
