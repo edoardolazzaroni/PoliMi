@@ -3599,4 +3599,7 @@ $$\phi_{1}''(t)=M\cdot I_{2}(t)$$
 descritto da $M$.
 
 Dunque, nel caso in cui le correnti alle due porte sono entrambe non nulle, gli effetti singoli si sovrappongono portando ai flussi totali:
-$$\phi_{1}(t)=L_{1}\cdot I_{1}(t)+M\cdot I_{2}t\\ \\ \phi_{2}(t)=M\cdot I_{1}t+L_{2}\cdot I_{2}t \\ \\ $$
+$$\phi_{1}(t)=L_{1}\cdot I_{1}(t)+M\cdot I_{2}t\\ \\ \phi_{2}(t)=M\cdot I_{1}t+L_{2}\cdot I_{2}t \\ \\ (8.15)$$
+
+Dalla legge dell’induzione elettromagnetica, le tensioni nel dominio del tempo valgono:
+$$V_{1}(t)=L_{1}\cdot\frac{dI_{1}(t)}{dt}+M\cdot\frac{dI_{2}(t)}{dt}\\ \\ V_{2}(t)=L_{\cdot\frac{dI_{1}(t)}{dt}+M\cdot\frac{dI_{2}(t)}{dt}$$
