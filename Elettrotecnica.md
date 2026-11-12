@@ -3594,3 +3594,9 @@ descritto da un **coefficiente** detto **di mutua induzione**, misurato in henry
 
 La situazione si può replicare come mostrato in figura (Destra), applicando ora una corrente $I_{2}(t)$ alla porta $2$ mentre la porta uno rimane aperta $I_{1}(t) = 0$. Si avrà una flusso concatenato col secondo avvolgimento che determina una autoinduzione alla porta due:
 $$\phi_{2}''(t)=L_{2}\cdot I_{2}(t)$$
+e un flusso "non locale" concatenato al primo avvolgimento:
+$$\phi_{1}''(t)=M\cdot I_{2}(t)$$
+descritto da $M$.
+
+Dunque, nel caso in cui le correnti alle due porte sono entrambe non nulle, gli effetti singoli si sovrappongono portando ai flussi totali:
+$$\phi_{1}(t)=L_{1}$$
