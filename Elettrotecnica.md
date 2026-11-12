@@ -3411,3 +3411,6 @@ Consideriamo ora i **casi**:
 
 Riassumendo, il circuito in figura 8.29 si comporta come un **filtro passa basso** in quanto lascia passare le basse frequenze (basse rispetto a $\omega_{c}$), mentre <u>elimina le alte frequenze</u>. Per questo la pulsazione $\omega_{c}$ viene comunemente indicata col nome di pulsazione di taglio.
 Infine la figura successiva mostra l’andamento della fase:
+![[Elettrotecnica-1794470462219.webp|420]]
+#Figura(8.30). *Grafico della fase*
+
