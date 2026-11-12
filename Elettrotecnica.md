@@ -3474,3 +3474,27 @@ L'andamento qualitativo di modulo e fase in funzione di $\omega$ (cioè la rispo
 - viceversa, per pulsazioni significativamente più grandi della pulsazione di risonanza ragionando al limite per $\omega \to \infty$ si trova $\mathbf{Z}(j\omega)\approx \frac{1}{j\omega C}$ si ha dunque:$$\lim_{ \omega \ \to \  \infty } |\mathbf{Z}(j\omega)|=0\\ \\ \lim_{ \omega \ \to \ \infty } \measuredangle \mathbf{Z}(j\omega)=-\frac{\pi}{2}$$
 
 I grafici del modulo e della fase sono riportati di seguito:
+![[Elettrotecnica-1794472230673.webp|403]]
+#Figura(8.34). *Modulo dell'impedenza*
+
+![[Elettrotecnica-1794472255701.webp|383]]
+#Figura(8.35). *Fase dell’impedenza*
+
+
+Concludiamo che la risposta in tensione di questo circuito ad un ingresso in corrente sinusoidale è significativa se la pulsazione
+
+dell’ingresso è prossima a quella di risonanza. Infatti la risposta è
+
+massima alla risonanza dove inoltre tensione e corrente sono in fase.
+
+Per pulsazioni che si allontano da quella di risonanza, la risposta
+
+del circuito si riduce rapidamente, cioè l’ingresso viene significativa-
+
+mente attenuato. Questo tipo di circuito opera dunque una selezione
+
+delle frequenze in una banda di valori e viene comunemente indicato
+
+come filtro passa banda. Una sua tipica applicazione è nella selezione
+
+della frequenza di una emittente radio.
