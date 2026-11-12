@@ -3470,4 +3470,5 @@ $$|\mathbf{Z}|=\frac{1}{\sqrt{ \frac{1}{R^2}+\left( \omega C-\frac{1}{\omega L} 
 L'andamento qualitativo di modulo e fase in funzione di $\omega$ (cioè la risposta in frequenza) si può dedurre dalle seguenti **osservazioni**:
 
 - per $\omega=\omega_{o}$, cioè alla risonanza, si ha $\mathbf{Z}(j\omega_{o})=R$
-- per pulsazioni, significativamente più piccole della pulsazione di risonanza, si può ragionare al limite per $\omega \to 0$ dove $\mathbf{Z}(j\omega)\approx j\omega L$ si ha dunque:
+- per pulsazioni, significativamente più piccole della pulsazione di risonanza, si può ragionare al limite per $\omega \to 0$ dove $\mathbf{Z}(j\omega)\approx j\omega L$ si ha dunque:$$ò\lim_{ \omega \ \to \ 0 } |\mathbf{Z}(j\omega)|=0\\ \\ \lim_{ \omega \ \to \ 0 } \measuredangle \mathbf{Z}(j\omega)=\frac{\pi}{2}$$
+- viceversa, per pulsazioni significativamente più grandi della pulsazione di risonanza ragionando al limite per $ω →∞ si trova:
