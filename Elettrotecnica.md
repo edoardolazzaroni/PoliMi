@@ -3400,7 +3400,6 @@ $$\omega_{c}=\frac{1}{C \ R}$$
 In corrispondenza di tale pulsazione si ha:
 $$|\mathbf{H}(j\omega_{c})|=\frac{1}{\sqrt{ 2 }}\\ \\ \measuredangle \mathbf{H}(j\omega_{c})=-\frac{\pi}{4}$$
 
-
 Consideriamo ora i **casi**:
 
 - l'ingresso abbia pulsazione $\omega$ tale che:$$\omega\ll \omega_{c}$$Ragionando al limite quando $\omega\to o$, dalla $(8.10)$ si ha:$$\mathbf{H}(j\omega) \approx \frac{1}{1+j_{0}}\quad(8.11)$$e quindi:$$\lim_{ \omega \ \to \ 0 } |\mathbf{H}(j\omega)|=1\\ \\ \lim_{ \omega \ \to \ 0} \measuredangle \mathbf{H}(j\omega)=0$$Ovvero per pulsazioni significativamente più piccole di $\omega_{c}$, la sinusoide in ingresso viene trasferita praticamente identica in uscita con la stessa ampiezza e con sfasamento che tende a zero.
@@ -3419,4 +3418,8 @@ Infine la figura successiva mostra l’andamento della fase:
 Facciamo qualche conto sul filtro passa basso coi dati numerici:
 $$R=1 \ k\Omega\\C=1 \ \mu F$$
 In questo caso, la pulsazione di taglio vale:
-$$\omega_{c}=\frac{1}{10^3\cdot 10^{-6}}=10^3 \ $$
+$$\omega_{c}=\frac{1}{10^3\cdot 10^{-6}}=10^3 \ rad/s \approx 160 \ Hz$$
+
+Analizziamo i **casi**:
+
+- l’ingresso sia il segnale:$$v_{s}(t)=10 \cos(100t)$$
