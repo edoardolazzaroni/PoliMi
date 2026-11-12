@@ -3496,4 +3496,6 @@ $$Z(j\omega)=j\omega L$+\frac{1}{j\omega C}=j\underbrace{\left( \omega L-\frac{1
 ed è quindi<u> puramente immaginaria</u> (cioè **reattiva**).
 Esiste un valore caratteristico della pulsazione, che indicheremo ancora come pulsazione di risonanza $\omega_{o}$, per la quale la reattanza della serie è zero.
 In questo caso ciò accade quando:
-$$\omega_{o}L=\frac{1}{\omega_{o}C}\longrightarrow$$
+$$\omega_{o}L=\frac{1}{\omega_{o}C}\longrightarrow \omega_{o}=\sqrt{ \frac{1}{LC} }$$
+Dunque, alla pulsazione di risonanza la composizione serie $L \ C$ è equivalente ai fini esterni ad un corto circuito. Infatti un valore qualsiasi della corrente $\mathbf{I}$, i fasori delle due tensioni:
+$$\mathbf{V}_{L}=\mathbf{I}\cdot j\omega_{o}L \\ \\ \mathbf{V}_{C}=\mathbf{}$$
