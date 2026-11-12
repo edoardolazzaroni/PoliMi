@@ -3509,6 +3509,7 @@ si elidono vicendevolmente.
 
 > [!question] Esercizio
 > E’ assegnato il circuito in AC mostrato in figura di cui si chiede di calcolare a regime $i_{C_{1}}(t)$ e $v_{L_{2}}(t)$:
+> 
 > ![[Elettrotecnica-1794473319377.webp|365]]
 > #Figura(8.37). *Circuito in AC*
 > 
@@ -3526,6 +3527,7 @@ si elidono vicendevolmente.
 > $$\mathbf{Z}_{2}=20j-10j=10j$$
 > 
 > Ci siamo ricondotti al circuito equivalente in figura:
+> 
 > ![[Elettrotecnica-1794473634663.webp|324]]
 > #Figura(8.38).
 > 
@@ -3546,29 +3548,34 @@ si elidono vicendevolmente.
 
 #### #Esercizio(risonanza) (2)
 
-Ripetiamo l'esercizio modificando i dati:
-$$C_{1}=C_{2}=100  \ \mu F \\ L_{1}=L_{2}=10 \ mH$$
+> [!question] Esercizio
+> Ripetiamo l'esercizio modificando i dati:
+> $$C_{1}=C_{2}=100  \ \mu F \\ L_{1}=L_{2}=10 \ mH$$
+> 
+> Le impedenze degli elementi divengono:
+> $$\mathbf{Z}_{C_{1}}=-10j\\  \mathbf{Z}_{L_{1}}=10j \\ \mathbf{Z}_{C_{2}}=-10j \\ \mathbf{Z}_{L_{2}}=10j$$
+> Vediamo dunque che:
+> $$\mathbf{Y}_{1}=\frac{1}{10}+\frac{j}{10}-\frac{j}{10}=\frac{1}{10}\to \mathbf{Z}_{1}=10$$
+> cioè $\mathbf{C}_{1}$ e $\mathbf{L}_{1}$ sono **in risonanza parallelo** e sono **equivalenti ad un circuito aperto**.
+> 
+> L’impedenza dei due elementi in serie vale:
+> $$\mathbf{Z}_{2}=10j-10j=0$$
+> $\mathbf{C}_{2}$ e $\mathbf{L}_{2}$ sono **in risonanza serie** e sono **equivalenti ad un corto circuito**. Il circuito equivalente è ora quello mostrato in figura:
+> 
+> ![[Elettrotecnica-1794474126010.webp|335x232]]
+> #Figura(8.39). 
+> 
+> da cui calcoliamo:
+> $$\mathbf{V}_{1}=\mathbf{V}_{s}=1-j$$
+> e quindi:
+> $$\mathbf{I}_{C_{1}}=\frac{1-j}{-10j}=\frac{j(1-j)}{10}\to i_{C_{1}}(t)=\frac{\sqrt{ 2 }}{10}\cos\left( 10^3t+\frac{\pi}{4} \right) \ A$$
+> mentre:
+> $$\mathbf{V}_{L_{2}}=\frac{1-j}{10}10j=(1-j)j$$
+> cioè:
+> $$v_{L_{2}}(t)=\sqrt{ 2 }\cos\left( 10^3t+\frac{\pi}{4} \right) \ V$$
 
-Le impedenze degli elementi divengono:
-$$\mathbf{Z}_{C_{1}}=-10j\\  \mathbf{Z}_{L_{1}}=10j \\ \mathbf{Z}_{C_{2}}=-10j \\ \mathbf{Z}_{L_{2}}=10j$$
-Vediamo dunque che:
-$$\mathbf{Y}_{1}=\frac{1}{10}+\frac{j}{10}-\frac{j}{10}=\frac{1}{10}\to \mathbf{Z}_{1}=10$$
-cioè $\mathbf{C}_{1}$ e $\mathbf{L}_{1}$ sono **in risonanza parallelo** e sono **equivalenti ad un circuito aperto**.
-
-L’impedenza dei due elementi in serie vale:
-$$\mathbf{Z}_{2}=10j-10j=0$$
-$\mathbf{C}_{2}$ e $\mathbf{L}_{2}$ sono **in risonanza serie** e sono **equivalenti ad un corto circuito**. Il circuito equivalente è ora quello mostrato in figura:
-![[Elettrotecnica-1794474126010.webp|371]]
-#Figura(8.39). 
-
-da cui calcoliamo:
-$$\mathbf{V}_{1}=\mathbf{V}_{s}=1-j$$
-e quindi:
-$$\mathbf{I}_{C_{1}}=\frac{1-j}{-10j}=\frac{j(1-j)}{10}\to i_{C_{1}}(t)=\frac{\sqrt{ 2 }}{10}\cos\left( 10^3t+\frac{\pi}{4} \right) \ A$$
-mentre:
-$$\mathbf{V}_{L_{2}}=\frac{1-j}{10}10j=(1-j)j$$
-cioè:
-$$v_{L_{2}}(t)=\sqrt{ 2 }\cos\left( 10^3t+\frac{\pi}{4} \right) \ V$$
 
 
+
+## 8.8 **Induttori mutuamente accoppiati**
 
