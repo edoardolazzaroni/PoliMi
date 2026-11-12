@@ -3523,3 +3523,10 @@ $$\mathbf{Y}_{1}=\frac{1}{10}+\frac{j}{5}+\frac{-j}{10}=1+\frac{1+j}{10}\to \mat
 
 L'impedenza dei due elementi in serie vale:
 $$\mathbf{Z}_{2}=20j-10j=10j$$
+
+Ci siamo ricondotti al circuito equivalente in figura:
+![[Elettrotecnica-1794473634663.webp|324]]
+#Figura(8.38).
+
+da cui calcoliamo la corrente nella maglia:
+$$\mathbf{I}=\frac{1-j}{5-5j}$$
