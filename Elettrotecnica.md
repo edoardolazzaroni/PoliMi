@@ -3633,8 +3633,17 @@ $$\mathbf{V}_{2}'=-\mathbf{V}_{2}\\ \\ \mathbf{I}_{2}'=-\mathbf{I}_{2}$$
 
 Sostituendo nella $(8.17)$ si ottiene:
 $$\mathbf{V}_{1}=j\omega L_{1}\cdot \mathbf{I}_{1}-j\omega M\cdot \mathbf{I}_{2}'\\ \\ \mathbf{V}_{2}=-j\omega M\cdot \mathbf{I}_{1}+j\omega L_{2}\cdot \mathbf{I}_{2}'\\ \\(8.19)$$
-dove si è invertito il segno davanti al coefficiente della mutua induttanza M. Dunque per descrivere l’induzione mutua tra i due avvolgi-
+dove si è invertito il segno davanti al coefficiente della mutua induttanza $M$.
+Dunque per descrivere l’induzione mutua tra i due avvolgimenti è necessario precisare il valore ed il segno di $M$ e i puntini alle due porte.
 
-menti è necessario precisare il valore ed il segno di M e i puntini alle
+Un ulteriore parametro utilizzato nelle applicazioni è il **coefficiente di accoppiamento**, definito come:
+$$k=\frac{|M|}{\sqrt{ L_{1}L_{2} }}$$
+il cui valore è compreso nell’intervallo di valori $[0, 1]$. Tale parametro vale $k= 0$ se i due avvolgimenti sono completamente disaccop-
 
-due porte
+piati, cioè M= 0, mentre vale k= 1 nella situazione ideale in cui
+
+l’accoppiamento è perfetto quando M2 = L1 L2.
+
+E’ infine interessante studiare i circuiti ottenuti collegando gli
+
+induttori accoppiati in serie e in parallelo.
