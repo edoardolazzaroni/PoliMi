@@ -574,7 +574,7 @@ Gli operatori $|,·,∗$ definiti per le espressioni regolari, hanno un implicit
 
 Il linguaggio generato dal sistema di pattern consiste in tutte le stringhe su $A$ ottenute da $p$ sostituendo ogni variabile in $p$ con una stringa su $A$.
 
-Ad esempio, il pattern $<0,1,v_1,v_2,v_1v_10v_2 >$ rappresenta il linguaggio composto dalle stringhe che iniziano con $0$ (nel caso in cui $v_1 = ε$) oppure che iniziano con una qualunque stringa sull’alfabeto $A$ (in questo caso binario) ripetuta due volte, seguita da uno $0$ e terminano con una qualunque altra stringa dell’alfabeto $A$ (inclusa ε).
+Ad esempio, il pattern $<0,1,v_1,v_2,v_1v_10v_2 >$ rappresenta il linguaggio composto dalle stringhe che iniziano con $0$ (nel caso in cui $v_1 = ε$) oppure che iniziano con una qualunque stringa sull’alfabeto $A$ (in questo caso binario) ripetuta due volte, seguita da uno $0$ e terminano con una qualunque altra stringa dell’alfabeto $A$ (inclusa $ε$).
 
 Le espressioni regolari seguono la stessa idea dei sistemi di pattern, ma hanno un potere espressivo differente: nello specifico è possibile esprimere certi linguaggi con i pattern, ma non con le espressioni regolare, e viceversa, è possibile esprimere alcuni linguaggi con le espressioni regolari, ma non con i pattern. Per tale motivo, i due modelli si dicono essere **non confrontabili**.
 
