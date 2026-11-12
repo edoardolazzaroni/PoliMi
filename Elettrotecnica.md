@@ -3507,3 +3507,4 @@ si elidono vicendevolmente.
 
 #### #Esercizio(risonanza)
 
+E’ assegnato il circuito in AC mostrato in figura di cui si chiede di calcolare a regime $iC1(t) e vL2(t)
