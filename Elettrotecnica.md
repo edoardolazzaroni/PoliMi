@@ -3588,8 +3588,7 @@ dove $L$ è l’**autoinduttanza**. Tale concetto si può estendere pensando ad 
 
 Si supponga da prima di applicare una corrente $I_{1}(t)$ alla porta $1$ e di lasciare aperta la porta due $I_{2}(t) = 0$. Si avrà una flusso concatenato col primo avvolgimento come nel caso dell’induttore:
 $$\phi_{1}'(t)=L_{1}\cdot I_{1}(t)$$
-inoltre, poiché una parte delle linee di campo $\overrightarrow{B}$ concatenano anche
+inoltre, poiché una parte delle linee di campo $\overrightarrow{B}$ concatenano anche il secondo avvolgimento, si avrà un flusso concatenato anche al secondo avvolgimento:
+$$\phi_{2}'(t)=M\cdot I_{1}(t)$$
+descritto da un **coefficiente** detto **di mutua induzione**, misurato in henry [H].
 
-il secondo avvolgimento, si avrà un flusso concatenato anche al sec-
-
-ondo avvolgimento:
