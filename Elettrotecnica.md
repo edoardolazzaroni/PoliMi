@@ -3654,4 +3654,9 @@ Si ha:
 $$\mathbf{I}=\mathbf{I}_{1}=\mathbf{I}_{2}\\ \\ \mathbf{V}=\mathbf{V}_{1}+\mathbf{V}_{2}$$
 
 Quindi sostituendo nelle $(8.17)$:
-$$\mathbf{V}_{1}=j\omega (L_{1}+ M)\cdot \mathbf{I}\\ \\ \mathbf{V}_{2}=-j\omega M\cdot \mathbf{I}_{1}+j\omega L_{2}\cdot \mathbf{I}_{2}'\\ \\(8.19)$$
+$$\mathbf{V}_{1}=j\omega (L_{1}+ M)\cdot \mathbf{I}\\ \\ \mathbf{V}_{2}=\mathbf{V}_{1}=j\omega (M+L_{2})\cdot \mathbf{I}\\ \\(8.20)$$
+si ottiene:
+$$\mathbf{V}=j\omega(L_{1}+L_{2}+2M)\cdot \mathbf{I}$$
+
+Concludiamo che tale collegamento è equivalente ad un induttore di valore:
+$$L_{eq}=$$
