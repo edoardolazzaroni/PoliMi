@@ -3445,4 +3445,14 @@ La suscettanza del parallelo è data dalla somma delle suscettanza del condensat
 #Figura(8.32). *Suscettanza in funzione di $\omega$*
 
 
-Esiste un valore caratteristico della pulsazione, che indicheremo con $\omega_{O}$, per la quale le due componenti si elidono e quindi l’ammettenza del parallelo risulta zero. Ciò accade quando:
+Esiste un valore caratteristico della pulsazione, che indicheremo con $\omega_{O}$, per la quale le due componenti si elidono e quindi<mark class="hltr-yellow"> l’ammettenza del parallelo risulta zero</mark>. Ciò accade quando:
+$$\omega_{o}C=\frac{1}{\omega_{o}L}\longrightarrow \omega_{o}=\sqrt{ \frac{1}{LC} }$$
+tale valore della pulsazione è detto **pulsazione di risonanza**.
+
+Dunque, alla pulsazione di risonanza la composizione parallelo L C è equiv-
+
+alente ai fini esterni ad un circuito aperto. Accade infatti che per un
+
+valore qualsiasi della tensione ai suoi capi, rappresentato dal fasore
+
+V, i fasori delle correnti nei due elementi valgono:
