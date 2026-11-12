@@ -3658,5 +3658,12 @@ $$\mathbf{V}_{1}=j\omega (L_{1}+ M)\cdot \mathbf{I}\\ \\ \mathbf{V}_{2}=\mathbf{
 si ottiene:
 $$\mathbf{V}=j\omega(L_{1}+L_{2}+2M)\cdot \mathbf{I}$$
 
-Concludiamo che tale collegamento è equivalente ad un induttore di valore:
-$$L_{eq}=$$
+Concludiamo che tale collegamento è equivalente ad un **induttore** di valore:
+$$L_{eq}=(L_{1}+L_{2}+2M)$$
+
+
+Viceversa collegando le due porte in serie ma nella modalità mostrata in figura, detta "controversa":
+![[Elettrotecnica-1794484057137.webp|421]]
+#Figura(8.44). 
+
+Si ha:
