@@ -3582,5 +3582,12 @@ Abbiamo visto nella parte di cenni ai campi elettrici e magnetici, come un filo 
 
 Si genera così una porta elettrica con legame costitutivo differenziale:
 $$v(t) = L \frac{di(t)}{dt}$$
+dove $L$ è l’**autoinduttanza**. Tale concetto si può estendere pensando ad una configurazione come quella mostrata in figura (Sinistra) dove al supporto magnetico viene avvolto un secondo filo:
+![[Elettrotecnica-1794474525200.webp|552]]
+#Figura(8.40).
 
-dt dove L è l’autoinduttanza. Tale concetto si può es-
+Si supponga da prima di applicare una corrente $I1(t)$ alla
+
+porta 1 e di lasciare aperta la porta due I2(t) = 0. Si avrà una flusso
+
+concatenato col primo avvolgimento come nel caso dell’induttore:
