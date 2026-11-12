@@ -3452,4 +3452,6 @@ tale valore della pulsazione è detto **pulsazione di risonanza**.
 Dunque, alla pulsazione di risonanza la composizione parallelo $L \ C$ è equivalente ai fini esterni ad un circuito aperto. Accade infatti che per un valore qualsiasi della tensione ai suoi capi, rappresentato dal fasore $\mathbf{V}$, i fasori delle correnti nei due elementi valgono:
 $$\mathbf{I}_{C}=\mathbf{V}\cdot j\omega_{o}C\\ \\ \mathbf{I}_{L}=\mathbf{V}\cdot\frac{-j}{\omega_{o}L}$$
 e sono quindi <u>non nulli</u>, tuttavia sommandosi:
-$$\mathbf{I}=\mathbf{I}_{C}+\mathbf{I}_{L}=\mathbf{V}j\omega_{o}C+\mathbf{V}\frac{-j}{\omega_{o}L}=\mathbf{V}\cdot j()$$
+$$\mathbf{I}=\mathbf{I}_{C}+\mathbf{I}_{L}=\mathbf{V}j\omega_{o}C+\mathbf{V}\frac{-j}{\omega_{o}L}=\mathbf{V}\cdot j\left( \omega_{o}C-\frac{1}{\omega_{o}L} \right)=\mathbf{V}\cdot j \ B(\omega_{o})=\mathbf{0}$$
+<u>si elidono vicendevolmente</u>.
+
