@@ -3640,8 +3640,15 @@ Un ulteriore parametro utilizzato nelle applicazioni è il **coefficiente di acc
 $$k=\frac{|M|}{\sqrt{ L_{1}L_{2} }}$$
 il cui valore è compreso nell’intervallo di valori $[0, 1]$. Tale parametro vale $k= 0$ se i due avvolgimenti sono completamente disaccoppiati, cioè $M= 0$, mentre vale $k= 1$ nella situazione ideale in cui l’accoppiamento è perfetto quando $M^2 = L_{1} \  L_{2}$.
 
+
 E’ infine interessante studiare i circuiti ottenuti collegando gli induttori accoppiati in serie e in parallelo:
 
-### Collegamento in serie
 
-Colleghiamo le due porte in serie nella modalità mostrata in figura, detta talvolta "equiversa". Si ha:
+- ### Collegamento in serie
+
+Colleghiamo le due porte in serie nella modalità mostrata in figura, detta talvolta "equiversa":
+![[Elettrotecnica-1794483830754.webp|507]]
+#Figura(8.43). *Collegamento serie equiverso*
+
+Si ha:
+$$\mathbf{I}=\mathbf{I}_{1}=\mathbf{I}_{2}$$
