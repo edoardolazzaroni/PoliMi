@@ -3617,4 +3617,14 @@ $$\begin{vmatrix}
 \end{vmatrix}=j\omega \overbrace{\begin{vmatrix}
 L_{1} & M \\
 M & L_{2}
-\end{vmatrix}}^{\mathbf{L}}\cdot$$
+\end{vmatrix}}^{\mathbf{L}}\cdot \begin{vmatrix}
+\mathbf{I}_{1} \\
+\mathbf{I}_{2}
+\end{vmatrix}\quad(8.18)$$
+raccogliendo le auto e mutua induttanze nella matrice $\mathbf{L}$ delle induttanze.
+
+Si noti come nel simbolo in figura 8.41 si sia soliti riportare con due "puntini" i morsetti alle porte in cui è misurata (entrante) la corrente e la tensione di porta: tale precisazione è necessaria per dare definire senza ambiguità l’effetto di mutua induttanza.
+
+Supponiamo infatti, di invertire tale convenzione alla porta due, come mostrato in figura 1.42, ovvero di assumere come grandezze a
+
+questa porta le variabili:
