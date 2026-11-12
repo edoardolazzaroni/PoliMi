@@ -3625,6 +3625,8 @@ raccogliendo le auto e mutua induttanze nella matrice $\mathbf{L}$ delle indutta
 
 Si noti come nel simbolo in figura 8.41 si sia soliti riportare con due "puntini" i morsetti alle porte in cui è misurata (entrante) la corrente e la tensione di porta: tale precisazione è necessaria per dare definire senza ambiguità l’effetto di mutua induttanza.
 
-Supponiamo infatti, di invertire tale convenzione alla porta due, come mostrato in figura 1.42, ovvero di assumere come grandezze a
+Supponiamo infatti, di invertire tale convenzione alla porta due, come mostrato in figura 8.42, ovvero di assumere come grandezze a questa porta le variabili:
+$$\mathbf{V}_{2}'=-\mathbf{V}_{2}\\ \\ \mathbf{I}_{2}'=-\mathbf{I}_{2}$$
 
-questa porta le variabili:
+![[Elettrotecnica-1794483609181.webp|329]]
+#Figura(8.42). L’inversione dei puntini ad una porta inverte il segno di $M$
