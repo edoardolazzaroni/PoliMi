@@ -3507,37 +3507,44 @@ si elidono vicendevolmente.
 
 #### #Esercizio(risonanza) (1)
 
-E’ assegnato il circuito in AC mostrato in figura di cui si chiede di calcolare a regime $i_{C_{1}}(t)$ e $v_{L_{2}}(t)$:
-![[Elettrotecnica-1794473319377.webp|365]]
-#Figura(8.37). *Circuito in AC*
+> [!question] Esercizio
+> E’ assegnato il circuito in AC mostrato in figura di cui si chiede di calcolare a regime $i_{C_{1}}(t)$ e $v_{L_{2}}(t)$:
+> ![[Elettrotecnica-1794473319377.webp|365]]
+> #Figura(8.37). *Circuito in AC*
+> 
+> I dati sono:
+> $$v_{s}(t)=\sqrt{ 2 }\cos\left( 10^3t-\frac{\pi}{4} \right) \ V \\  R=10 \\ C_{1}=200 \ \mu F \\ C_{2}=100 \ \mu F \\ L_{1}=10 \ mH \\ L_{2}=20 \ mH$$
+> 
+> Calcoliamo il fasore:
+> $$\mathbf{V}_{s}=1-j$$
+> e le impedenza:
+> $$\mathbf{Z}_{C_{1}}=-5j\\ \mathbf{Z}_{L_{1}}=10j\\ \mathbf{Z}_{C_{2}}=-10j \\ \mathbf{Z}_{L_{2}}=20j$$
+> Quindi componiamo gli elementi in parallelo calcolandone l'ammettenza equivalente:
+> $$\mathbf{Y}_{1}=\frac{1}{10}+\frac{j}{5}+\frac{-j}{10}=1+\frac{1+j}{10}\to \mathbf{Z}_{1}=5(1-j)$$
+> 
+> L'impedenza dei due elementi in serie vale:
+> $$\mathbf{Z}_{2}=20j-10j=10j$$
+> 
+> Ci siamo ricondotti al circuito equivalente in figura:
+> ![[Elettrotecnica-1794473634663.webp|324]]
+> #Figura(8.38).
+> 
+> da cui calcoliamo la **corrente nella maglia**:
+> $$\mathbf{I}=\frac{1-j}{5-5j+10j}=\cdots=-\frac{j}{5}$$
+> 
+> Tornando al circuito originale in figura 8.37, possiamo ricavare col partitore di corrente:
+> $$\mathbf{I}_{C_{1}}=-\frac{j}{5}\cdot\frac{\frac{j}{5}}{\frac{1}{10}+\frac{j}{5}+\frac{-j}{10}}=-\frac{j}{5}\cdot \frac{2j}{1+j}=\frac{2}{5}\cdot \frac{1}{1+j}$$
+> Nel tempo:
+> $$i_{C_{1}}(t)=\frac{\sqrt{ 2 }}{5}\cos\left( 10^3t-\frac{\pi}{4} \right) \ A$$
+> 
+> In modo simile si ha:
+> $$\mathbf{V}_{L_{2}}=-\frac{j}{5}\cdot 20j=4$$
+> Nel tempo:
+> $$v_{L_{2}}(t)=4\cos(10^3t) \ V$$
+> 
 
-I dati sono:
-$$v_{s}(t)=\sqrt{ 2 }\cos\left( 10^3t-\frac{\pi}{4} \right) \ V \\  R=10 \\ C_{1}=200 \ \mu F \\ C_{2}=100 \ \mu F \\ L_{1}=10 \ mH \\ L_{2}=20 \ mH$$
 
-Calcoliamo il fasore:
-$$\mathbf{V}_{s}=1-j$$
-e le impedenza:
-$$\mathbf{Z}_{C_{1}}=-5j\\ \mathbf{Z}_{L_{1}}=10j\\ \mathbf{Z}_{C_{2}}=-10j \\ \mathbf{Z}_{L_{2}}=20j$$
-Quindi componiamo gli elementi in parallelo calcolandone l'ammettenza equivalente:
-$$\mathbf{Y}_{1}=\frac{1}{10}+\frac{j}{5}+\frac{-j}{10}=1+\frac{1+j}{10}\to \mathbf{Z}_{1}=5(1-j)$$
+#### #Esercizio(risonanza) (2)
 
-L'impedenza dei due elementi in serie vale:
-$$\mathbf{Z}_{2}=20j-10j=10j$$
-
-Ci siamo ricondotti al circuito equivalente in figura:
-![[Elettrotecnica-1794473634663.webp|324]]
-#Figura(8.38).
-
-da cui calcoliamo la **corrente nella maglia**:
-$$\mathbf{I}=\frac{1-j}{5-5j+10j}=\cdots=-\frac{j}{5}$$
-
-Tornando al circuito originale in figura 8.37, possiamo ricavare col partitore di corrente:
-$$\mathbf{I}_{C_{1}}=-\frac{j}{5}\cdot\frac{\frac{j}{5}}{\frac{1}{10}+\frac{j}{5}+\frac{-j}{10}}=-\frac{j}{5}\cdot \frac{2j}{1+j}=\frac{2}{5}\cdot \frac{1}{1+j}$$
-Nel tempo:
-$$i_{C_{1}}(t)=\frac{\sqrt{ 2 }}{5}\cos\left( 10^3t-\frac{\pi}{4} \right) \ A$$
-
-In modo simile si ha:
-$$\mathbf{V}_{L_{2}}=-\frac{j}{5}\cdot 20j=4$$
-Nel tempo:
-$$v_{L_{2}}(t)=4\cos(10^3t) \ V$$
-
+Ripetiamo l'esercizio modificando i dati:
+$$C_{1}=C_{2}=100  \ \mu F$$
