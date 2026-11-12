@@ -3485,5 +3485,3 @@ Concludiamo che la risposta in tensione di questo circuito ad un ingresso in cor
 Infatti la risposta è massima alla risonanza dove inoltre tensione e corrente sono in fase.
 Per pulsazioni che si allontano da quella di risonanza, la risposta del circuito si riduce rapidamente, cioè l’ingresso viene significativamente attenuato. Questo tipo di circuito opera dunque una selezione delle frequenze in una banda di valori e viene comunemente indicato come **filtro passa banda**; una sua tipica applicazione è nella selezione della frequenza di una emittente radio.
 
-
-
