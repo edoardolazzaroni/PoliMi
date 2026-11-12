@@ -3431,8 +3431,10 @@ Analizziamo i **casi**:
 
 ## 8.7 **Risonanza**
 
-Iniziamo analizzando il comportamento elettrico in regime AC del
+Iniziamo analizzando il comportamento elettrico in regime AC del circuito mostrato in figura, composto dal collegamento parallelo di un induttore e un condensatore:
+![[Elettrotecnica-1794471241146.webp|437]]
+#Figura(8.31). *Risonatore parallelo*
 
-circuito mostrato in fig.1.31 composto dal collegamento parallelo di
 
-un induttore e un condensatore. La sua ammettenza vale:
+La sua ammettenza vale:
+$$\mathcal{Y}$$
