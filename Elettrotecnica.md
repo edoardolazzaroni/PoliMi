@@ -3440,6 +3440,9 @@ La sua **ammettenza** vale:
 $$\Upsilon(j\omega)=j\omega C+\frac{1}{j\omega L}=j\underbrace{\left( \omega C-\frac{1}{\omega L} \right)}_{B(\omega)}$$
 
 ed è quindi <u>puramente immaginaria</u>.
-La suscettanza del parallelo è data dalla somma delle suscettanza del condensatore $\omega_{c}$ che è positiva e della suscettanza dell’induttore $$ che è negativa, come
+La suscettanza del parallelo è data dalla somma delle suscettanza del condensatore $\omega_{c}$ che è positiva e della suscettanza dell’induttore $-\frac{1}{\omega L}$ che è negativa, come mostrato in figura:
+![[Elettrotecnica-1794471431426.webp|321]]
+#Figura(8.32). *Suscettanza in funzione di $\omega$*
 
-mostrato in fig.1.32 Esiste un valore caratteristico della pulsazione,
+
+Esiste un valore caratteristico della pulsazione, che indicheremo con $\omega_{O}$, per la quale le due componenti si elidono e quindi l’ammettenza del parallelo risulta zero. Ciò accade quando:
