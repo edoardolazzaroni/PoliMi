@@ -3638,12 +3638,10 @@ Dunque per descrivere l’induzione mutua tra i due avvolgimenti è necessario p
 
 Un ulteriore parametro utilizzato nelle applicazioni è il **coefficiente di accoppiamento**, definito come:
 $$k=\frac{|M|}{\sqrt{ L_{1}L_{2} }}$$
-il cui valore è compreso nell’intervallo di valori $[0, 1]$. Tale parametro vale $k= 0$ se i due avvolgimenti sono completamente disaccop-
+il cui valore è compreso nell’intervallo di valori $[0, 1]$. Tale parametro vale $k= 0$ se i due avvolgimenti sono completamente disaccoppiati, cioè $M= 0$, mentre vale $k= 1$ nella situazione ideale in cui l’accoppiamento è perfetto quando $M^2 = L_{1} \  L_{2}$.
 
-piati, cioè M= 0, mentre vale k= 1 nella situazione ideale in cui
+E’ infine interessante studiare i circuiti ottenuti collegando gli induttori accoppiati in serie e in parallelo:
 
-l’accoppiamento è perfetto quando M2 = L1 L2.
+### Collegamento in serie
 
-E’ infine interessante studiare i circuiti ottenuti collegando gli
-
-induttori accoppiati in serie e in parallelo.
+Colleghiamo le due porte in serie nella modalità mostrata in figura, detta talvolta "equiversa". Si ha:
