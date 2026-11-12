@@ -3490,5 +3490,10 @@ Sfruttando la dualità è possibile costruire il **risonatore di tipo serie** mo
 ![[Elettrotecnica-1794472770487.webp|362]]
 #Figura(8.36). *Risonatore serie*
 
-L'impedenza della serie vale:
-$$Z(j\omega)=j\omega L$+\frac{1}{j\omega C}=j\underbrace{\left( \omega L-\frac{1}{\omega C} \right)}_{X(\omega)}$
+L'**impedenza** della serie vale:
+$$Z(j\omega)=j\omega L$+\frac{1}{j\omega C}=j\underbrace{\left( \omega L-\frac{1}{\omega C} \right)}_{X(\omega)}$$
+
+ed è quindi<u> puramente immaginaria</u> (cioè **reattiva**).
+Esiste un valore caratteristico della pulsazione, che indicheremo ancora come pulsazione di risonanza $\omega_{o}$, per la quale la reattanza della serie è zero.
+In questo caso ciò accade quando:
+$$\omega_{o}L=\frac{1}{\omega_{o}C}\longrightarrow$$
