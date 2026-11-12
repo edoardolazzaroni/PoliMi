@@ -3436,5 +3436,10 @@ Iniziamo analizzando il comportamento elettrico in regime AC del circuito mostra
 #Figura(8.31). *Risonatore parallelo*
 
 
-La sua ammettenza vale:
-$$\Upsilon(j\omega)=j\omega C+\frac{1}{j\omega L}=j\left( \omega C-\frac{1}{\omega L} \right)$$
+La sua **ammettenza** vale:
+$$\Upsilon(j\omega)=j\omega C+\frac{1}{j\omega L}=j\underbrace{\left( \omega C-\frac{1}{\omega L} \right)}_{B(\omega)}$$
+
+ed è quindi <u>puramente immaginaria</u>.
+La suscettanza del parallelo è data dalla somma delle suscettanza del condensatore $\omega_{c}$ che è positiva e della suscettanza dell’induttore $$ che è negativa, come
+
+mostrato in fig.1.32 Esiste un valore caratteristico della pulsazione,
