@@ -3565,3 +3565,10 @@ da cui calcoliamo:
 $$\mathbf{V}_{1}=\mathbf{V}_{s}=1-j$$
 e quindi:
 $$\mathbf{I}_{C_{1}}=\frac{1-j}{-10j}=\frac{j(1-j)}{10}\to i_{C_{1}}(t)=\frac{\sqrt{ 2 }}{10}\cos\left( 10^3t+\frac{\pi}{4} \right) \ A$$
+mentre:
+$$\mathbf{V}_{L_{2}}=\frac{1-j}{10}10j=(1-j)j$$
+cioè:
+$$v_{L_{2}}(t)=\sqrt{ 2 }\cos\left( 10^3t+\frac{\pi}{4} \right) \ V$$
+
+
+
