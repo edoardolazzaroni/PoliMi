@@ -3517,4 +3517,6 @@ $$v_{s}(t)=\sqrt{ 2 }\cos\left( 10^3t-\frac{\pi}{4} \right) \ V \\  R=10 \\ C_{1
 Calcoliamo il fasore:
 $$\mathbf{V}_{s}=1-j$$
 e le impedenza:
-$$\mathbf{Z}_{C_{1}}=-5j\\ \mathbf{Z}_{L_{1}}=10j\\ \mathbf{Z}_{C_{2}}=-10j \\ $$
+$$\mathbf{Z}_{C_{1}}=-5j\\ \mathbf{Z}_{L_{1}}=10j\\ \mathbf{Z}_{C_{2}}=-10j \\ \mathbf{Z}_{L_{2}}=20j$$
+Quindi componiamo gli elementi in parallelo calcolandone l'ammettenza equivalente:
+$$\mathbf{Y}_{1}=\frac{1}{10}+\frac{j}{5}+\frac{-j}{10}=1+\frac{1+j}{10}$$
