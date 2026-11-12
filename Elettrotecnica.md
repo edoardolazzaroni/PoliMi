@@ -3550,4 +3550,11 @@ Ripetiamo l'esercizio modificando i dati:
 $$C_{1}=C_{2}=100  \ \mu F \\ L_{1}=L_{2}=10 \ mH$$
 
 Le impedenze degli elementi divengono:
-$$\mathbf{Z}_{C_{1}}=-10j\\ \\ \mathbf{Z}_{L_{1}}=10j \\ \mathbf{Z}_{C_{2}}=-10j \\ \mathbf{Z}_{L_{2}}$$
+$$\mathbf{Z}_{C_{1}}=-10j\\  \mathbf{Z}_{L_{1}}=10j \\ \mathbf{Z}_{C_{2}}=-10j \\ \mathbf{Z}_{L_{2}}=10j$$
+Vediamo dunque che:
+$$\mathbf{Y}_{1}=\frac{1}{10}+\frac{j}{10}-\frac{j}{10}=\frac{1}{10}\to \mathbf{Z}_{1}=10$$
+cioè $\mathbf{C}_{1}$ e $\mathbf{L}_{1}$ sono in risonanza parallelo e sono equivalenti ad un
+
+circuito aperto.
+
+L’impedenza dei due elementi in serie vale:
