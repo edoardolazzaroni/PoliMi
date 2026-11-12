@@ -3689,4 +3689,14 @@ $$\begin{vmatrix}
 \end{vmatrix}=\frac{1}{j\omega(L_{1}L_{2}-M^2)}\begin{vmatrix}
 L_{2} & -M \\
 -M & L_{1}
-\end{vmatrix}$$
+\end{vmatrix}\cdot \begin{vmatrix}
+\mathbf{V}_{1} \\
+\mathbf{V}_{2}
+\end{vmatrix}\quad(8.22)$$
+
+Colleghiamo le due porte in parallelo nella modalità equiversa mostrata in figura:
+![[Elettrotecnica-1794484364721.webp|451]]
+#Figura(8.45). *Collegamento parallelo equiverso*
+
+Si ha:
+$$\mathbf{V}=\mathbf{}$$
