@@ -3507,4 +3507,9 @@ si elidono vicendevolmente.
 
 #### #Esercizio(risonanza)
 
-E’ assegnato il circuito in AC mostrato in figura di cui si chiede di calcolare a regime $iC1(t) e vL2(t)
+E’ assegnato il circuito in AC mostrato in figura di cui si chiede di calcolare a regime $i_{C_{1}}(t)$ e $v_{L_{2}}(t)$:
+![[Elettrotecnica-1794473319377.webp|365]]
+#Figura(8.37). *Circuito in AC*
+
+I dati sono:
+$$v_{s}(t)=\sqrt{ 2 }\cos(10)$$
