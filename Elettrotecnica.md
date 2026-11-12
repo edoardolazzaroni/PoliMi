@@ -3664,6 +3664,10 @@ $$L_{eq}=(L_{1}+L_{2}+2M)$$
 
 Viceversa collegando le due porte in serie ma nella modalità mostrata in figura, detta "controversa":
 ![[Elettrotecnica-1794484057137.webp|421]]
-#Figura(8.44). 
+#Figura(8.44). *Collegamento serie controverso*
 
 Si ha:
+$$\mathbf{I}_{1}=\mathbf{I}\\ \\ \mathbf{I}_{2}=-\mathbf{I}\\ \\ \mathbf{V}=\mathbf{V}_{1}-\mathbf{V}_{2}$$
+
+Quindi sostituendo nelle $(8.17)$:
+$$\mathbf{V}_{1}=j\omega(L_{1}-M)\c$$
