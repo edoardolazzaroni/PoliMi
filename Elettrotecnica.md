@@ -3481,20 +3481,9 @@ I grafici del modulo e della fase sono riportati di seguito:
 #Figura(8.35). *Fase dell’impedenza*
 
 
-Concludiamo che la risposta in tensione di questo circuito ad un ingresso in corrente sinusoidale è significativa se la pulsazione
+Concludiamo che la risposta in tensione di questo circuito ad un ingresso in corrente sinusoidale è significativa se la pulsazione dell’ingresso è prossima a quella di risonanza.
+Infatti la risposta è massima alla risonanza dove inoltre tensione e corrente sono in fase.
+Per pulsazioni che si allontano da quella di risonanza, la risposta del circuito si riduce rapidamente, cioè l’ingresso viene significativamente attenuato. Questo tipo di circuito opera dunque una selezione delle frequenze in una banda di valori e viene comunemente indicato come **filtro passa banda**; una sua tipica applicazione è nella selezione della frequenza di una emittente radio.
 
-dell’ingresso è prossima a quella di risonanza. Infatti la risposta è
 
-massima alla risonanza dove inoltre tensione e corrente sono in fase.
 
-Per pulsazioni che si allontano da quella di risonanza, la risposta
-
-del circuito si riduce rapidamente, cioè l’ingresso viene significativa-
-
-mente attenuato. Questo tipo di circuito opera dunque una selezione
-
-delle frequenze in una banda di valori e viene comunemente indicato
-
-come filtro passa banda. Una sua tipica applicazione è nella selezione
-
-della frequenza di una emittente radio.
