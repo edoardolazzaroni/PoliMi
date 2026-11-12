@@ -3705,4 +3705,11 @@ Quindi sostituendo nella $(8.22)$ si ottiene:
 $$\mathbf{I}=\frac{L_{1}+L_{2}-2M}{j\omega(L_{1}L_{2}-M^2)}\mathbf{V}$$
 
 La coppia di induttori accoppiati è equivalente ad un **induttore** di autoinduttanza:
-$$L_{eq}=\frac{(L_{1}L_{2})}$$
+$$L_{eq}=\frac{(L_{1}L_{2}-M^2)}{L_{1}+L_{2}-2M}$$
+
+
+Viceversa, collegando in modo controverso come in figura:
+![[Elettrotecnica-1794484554841.webp|327]]
+#Figura(8.46). Collegamento parallelo
+
+controverso
