@@ -3578,3 +3578,9 @@ si elidono vicendevolmente.
 
 ## 8.8 **Induttori mutuamente accoppiati**
 
+Abbiamo visto nella parte di cenni ai campi elettrici e magnetici, come un filo avvolto su di un supporto di materiale ferromagnetico si comporti come un induttore elettrico: una corrente elettrica variabile nel tempo nell’avvolgimento genera un campo induzione magnetica il cui flusso concatenato induce una tensione elettrica ai sui capi.
+
+Si genera così una porta elettrica con legame costitutivo differenziale:
+$$v(t) = L \frac{di(t)}{dt}$$
+
+dt dove L è l’autoinduttanza. Tale concetto si può es-
