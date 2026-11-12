@@ -3512,4 +3512,4 @@ E’ assegnato il circuito in AC mostrato in figura di cui si chiede di calcolar
 #Figura(8.37). *Circuito in AC*
 
 I dati sono:
-$$v_{s}(t)=\sqrt{ 2 }\cos(10)$$
+$$v_{s}(t)=\sqrt{ 2 }\cos\left( 10^3t-\frac{\pi}{4} \right) \ V \\  R=10 \\ C_{1}=200 \ \mu F \\ C_{2}=100 \ \mu F \\ L_{1}=10 \ mH \\ L$$
