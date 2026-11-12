@@ -3553,8 +3553,10 @@ Le impedenze degli elementi divengono:
 $$\mathbf{Z}_{C_{1}}=-10j\\  \mathbf{Z}_{L_{1}}=10j \\ \mathbf{Z}_{C_{2}}=-10j \\ \mathbf{Z}_{L_{2}}=10j$$
 Vediamo dunque che:
 $$\mathbf{Y}_{1}=\frac{1}{10}+\frac{j}{10}-\frac{j}{10}=\frac{1}{10}\to \mathbf{Z}_{1}=10$$
-cioè $\mathbf{C}_{1}$ e $\mathbf{L}_{1}$ sono in risonanza parallelo e sono equivalenti ad un
-
-circuito aperto.
+cioè $\mathbf{C}_{1}$ e $\mathbf{L}_{1}$ sono **in risonanza parallelo** e sono **equivalenti ad un circuito aperto**.
 
 L’impedenza dei due elementi in serie vale:
+$$\mathbf{Z}_{2}=10j-10j=0$$
+$\mathbf{C}_{2}$ e $\mathbf{L}_{2}$ sono **in risonanza serie** e sono **equivalenti ad un corto circuito**. Il circuito equivalente è ora quello mostrato in figura.. da cui
+
+calcoliamo
