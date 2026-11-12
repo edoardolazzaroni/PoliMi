@@ -3557,6 +3557,9 @@ cioè $\mathbf{C}_{1}$ e $\mathbf{L}_{1}$ sono **in risonanza parallelo** e sono
 
 L’impedenza dei due elementi in serie vale:
 $$\mathbf{Z}_{2}=10j-10j=0$$
-$\mathbf{C}_{2}$ e $\mathbf{L}_{2}$ sono **in risonanza serie** e sono **equivalenti ad un corto circuito**. Il circuito equivalente è ora quello mostrato in figura.. da cui
+$\mathbf{C}_{2}$ e $\mathbf{L}_{2}$ sono **in risonanza serie** e sono **equivalenti ad un corto circuito**. Il circuito equivalente è ora quello mostrato in figura:
+![[Elettrotecnica-1794474126010.webp|371]]
+#Figura(8.39). 
 
-calcoliamo
+da cui calcoliamo:
+$$\mathbf{V}_{1}=\mathbf{V}_{s}$$
