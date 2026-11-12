@@ -3604,4 +3604,10 @@ $$\phi_{1}(t)=L_{1}\cdot I_{1}(t)+M\cdot I_{2}t\\ \\ \phi_{2}(t)=M\cdot I_{1}t+L
 Dalla legge dell’induzione elettromagnetica, le tensioni nel dominio del tempo valgono:
 $$V_{1}(t)=L_{1}\cdot\frac{dI_{1}(t)}{dt}+M\cdot\frac{dI_{2}(t)}{dt}\\ \\ V_{2}(t)=M\cdot\frac{dI_{1}(t)}{dt}+L_{2}\cdot\frac{dI_{2}(t)}{dt}\\ \\(8.16)$$
 e quindi nel dominio dei fasori si ha:
-$$\mathbf{V}_{1}=j\omega L_{1}\cdot \mathbf{I}_{1}+j\omega M\cdot \mathbf{I}_{2}\\ \\$$
+$$\mathbf{V}_{1}=j\omega L_{1}\cdot \mathbf{I}_{1}+j\omega M\cdot \mathbf{I}_{2}\\ \\ \mathbf{V}_{2}=j\omega M\cdot \mathbf{I}_{1}+j\omega L_{2}\cdot \mathbf{I}_{2}\\ \\(8.17)$$
+
+Queste equazioni rappresentano il legame costitutivo del doppio bipolo che descrive due induttori mutuamente accoppiati, il cui simbolo circuitale è mostrato in figura:
+![[Elettrotecnica-1794483423415.webp|324]]
+#Figura(8.41). Simbolo circuitale degli induttori mutuamente accoppiati.
+
+Tali equazioni si possono
