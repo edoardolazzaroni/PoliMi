@@ -3462,4 +3462,8 @@ Collegando il risonatore parallelo $L \ C$ ad un resistore come in figura, si ot
 
 Si supponga infatti che il segnale in ingresso al circuito sia la corrente rappresentata da una sorgente sinusoidale di fasore $\mathbf{I}$ la cui pulsazione $\omega$ possa essere variata a nostro piacimento. Come uscita o risposta del circuito si assume la tensione misurata sul parallelo dei tre elementi il cui fasore:
 $$\mathbf{V}=\mathbf{I}\cdot \mathbf{Z}(j\omega)$$
-è legato a quello dell'ingresso at
+è legato a quello dell'ingresso attraverso la funzione di rete impedenza. Quest'ultima si calcola facilmente:
+$$\mathbf{Z}=\frac{1}{\frac{1}{R}+j\left( \omega C-\frac{1}{\omega L} \right)}$$
+
+Il modulo e fase della funzione di rete valgono:
+$$|\mathbf{Z}|=\frac{1}{\sqrt{ \frac{1}{R^2}+(\omega C) }}$$
