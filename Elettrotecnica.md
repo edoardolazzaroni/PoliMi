@@ -3528,5 +3528,8 @@ Ci siamo ricondotti al circuito equivalente in figura:
 ![[Elettrotecnica-1794473634663.webp|324]]
 #Figura(8.38).
 
-da cui calcoliamo la corrente nella maglia:
-$$\mathbf{I}=\frac{1-j}{5-5j}$$
+da cui calcoliamo la **corrente nella maglia**:
+$$\mathbf{I}=\frac{1-j}{5-5j+10j}=\cdots=-\frac{j}{5}$$
+
+Tornando al circuito originale in figura 8.37, possiamo ricavare col partitore di corrente:
+$$\mathbf{I}_{C_{1}}=-\frac{j}{5}\cdot\frac{\frac{j}{5}}{\frac{1}{10}+\frac{j}{5}}$$
