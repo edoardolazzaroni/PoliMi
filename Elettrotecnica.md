@@ -3487,5 +3487,8 @@ Per pulsazioni che si allontano da quella di risonanza, la risposta del circuito
 
 
 Sfruttando la dualità è possibile costruire il **risonatore di tipo serie** mostrato in figura:
-![[Elettrotecnica-1794472770487.webp|383]]
-#Figura(8.36). Risonatore s
+![[Elettrotecnica-1794472770487.webp|362]]
+#Figura(8.36). *Risonatore serie*
+
+L'impedenza della serie vale:
+$$Z(j\omega)=j\omega L$+\frac{1}{j\omega C}=j\underbrace{\left( \omega L-\frac{1}{\omega C} \right)}_{X(\omega)}$
