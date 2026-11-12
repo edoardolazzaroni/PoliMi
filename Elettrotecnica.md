@@ -3432,7 +3432,7 @@ Analizziamo i **casi**:
 ## 8.7 **Risonanza**
 
 Iniziamo analizzando il comportamento elettrico in regime AC del circuito mostrato in figura, composto dal collegamento parallelo di un induttore e un condensatore:
-![[Elettrotecnica-1794471241146.webp|437]]
+![[Elettrotecnica-1794471241146.webp|371]]
 #Figura(8.31). *Risonatore parallelo*
 
 
@@ -3455,8 +3455,11 @@ e sono quindi <u>non nulli</u>, tuttavia sommandosi:
 $$\mathbf{I}=\mathbf{I}_{C}+\mathbf{I}_{L}=\mathbf{V}j\omega_{o}C+\mathbf{V}\frac{-j}{\omega_{o}L}=\mathbf{V}\cdot j\left( \omega_{o}C-\frac{1}{\omega_{o}L} \right)=\mathbf{V}\cdot j \ B(\omega_{o})=\mathbf{0}$$
 <u>si elidono vicendevolmente</u>.
 
+
 Collegando il risonatore parallelo $L \ C$ ad un resistore come in figura, si ottiene un circuito che opera in frequenza come un **filtro passa banda**:
 ![[Elettrotecnica-1794471780818.webp|447]]
-#Figura 
+#Figura(8.33). *Filtro passa banda parallelo*
 
-Si supponga infatti che il segnale in ingresso al circuito sia la
+Si supponga infatti che il segnale in ingresso al circuito sia la corrente rappresentata da una sorgente sinusoidale di fasore $\mathbf{I}$ la cui pulsazione $\omega$ possa essere variata a nostro piacimento. Come uscita o risposta del circuito si assume la tensione misurata sul parallelo dei tre elementi il cui fasore:
+$$\mathbf{V}=\mathbf{I}\cdot \mathbf{Z}(j\omega)$$
+è legato a quello dell'ingresso at
