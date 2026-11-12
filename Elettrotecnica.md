@@ -3651,4 +3651,7 @@ Colleghiamo le due porte in serie nella modalità mostrata in figura, detta talv
 #Figura(8.43). *Collegamento serie equiverso*
 
 Si ha:
-$$\mathbf{I}=\mathbf{I}_{1}=\mathbf{I}_{2}$$
+$$\mathbf{I}=\mathbf{I}_{1}=\mathbf{I}_{2}\\ \\ \mathbf{V}=\mathbf{V}_{1}+\mathbf{V}_{2}$$
+
+Quindi sostituendo nelle $(8.17)$:
+$$\mathbf{V}_{1}=j\omega (L_{1}+ M)\cdot \mathbf{I}\\ \\ \mathbf{V}_{2}=-j\omega M\cdot \mathbf{I}_{1}+j\omega L_{2}\cdot \mathbf{I}_{2}'\\ \\(8.19)$$
