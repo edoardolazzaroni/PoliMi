@@ -3562,4 +3562,6 @@ $\mathbf{C}_{2}$ e $\mathbf{L}_{2}$ sono **in risonanza serie** e sono **equival
 #Figura(8.39). 
 
 da cui calcoliamo:
-$$\mathbf{V}_{1}=\mathbf{V}_{s}$$
+$$\mathbf{V}_{1}=\mathbf{V}_{s}=1-j$$
+e quindi:
+$$\mathbf{I}_{C_{1}}=\frac{1-j}{-10j}=\frac{j(1-j)}{10}\to i_{C_{1}}(t)=\frac{\sqrt{ 2 }}{10}\cos\left( 10^3t+\frac{\pi}{4} \right) \ A$$
