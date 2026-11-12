@@ -3403,8 +3403,18 @@ $$|\mathbf{H}(j\omega_{c})|=\frac{1}{\sqrt{ 2 }}\\ \\ \measuredangle \mathbf{H}(
 
 Consideriamo ora i **casi**:
 
-- l'ingresso abbia pulsazione $\omega$ tale che:$$\omega\ll \omega_{c}$$Ragionando al limite quando $\omega\to o$, dalla $(8.10)$ si ha:$$\mathbf{H}(j\omega) \approx \frac{1}{1+j_{0}}\quad(8.11)$$e quindi:$$\lim_{ \omega \ \to \ 0 } |\mathbf{H}(j\omega)|=1\\ \\ \lim_{ \omega \ \to \ 0} \measuredangle \mathbf{H}(j\omega)=0$$
-	Ovvero per pulsazioni significativamente più piccole di $\omega_{c}$, la sinusoide in ingresso viene trasferita praticamente identica in uscita con la stessa ampiezza e con sfasamento che tende a zero.
+- l'ingresso abbia pulsazione $\omega$ tale che:$$\omega\ll \omega_{c}$$Ragionando al limite quando $\omega\to o$, dalla $(8.10)$ si ha:$$\mathbf{H}(j\omega) \approx \frac{1}{1+j_{0}}\quad(8.11)$$e quindi:$$\lim_{ \omega \ \to \ 0 } |\mathbf{H}(j\omega)|=1\\ \\ \lim_{ \omega \ \to \ 0} \measuredangle \mathbf{H}(j\omega)=0$$Ovvero per pulsazioni significativamente più piccole di $\omega_{c}$, la sinusoide in ingresso viene trasferita praticamente identica in uscita con la stessa ampiezza e con sfasamento che tende a zero.
 
 
-- l’ingresso abbia invece pulsazione $\omega$ tale che:$$\omega\gg \omega_{c}$$Ragionando al limite quando $\omega\to \infty$, dalla $(8.10)$ si ha:$$\mathbf{H}(j\omega)\approx \frac{1}{j\omega C \ R}\quad(8.12)$$e quindi:$$\lim_{ \omega \ \to \ \infty } |\mathbf{H}(j\omega)|=0\\ \\ \lim_{ \omega \ \to \ \infty } \measuredangle \mathbf{H}(j\omega)$$
+- l’ingresso abbia invece pulsazione $\omega$ tale che:$$\omega\gg \omega_{c}$$Ragionando al limite quando $\omega\to \infty$, dalla $(8.10)$ si ha:$$\mathbf{H}(j\omega)\approx \frac{1}{j\omega C \ R}\quad(8.12)$$e quindi:$$\lim_{ \omega \ \to \ \infty } |\mathbf{H}(j\omega)|=0\\ \\ \lim_{ \omega \ \to \ \infty } \measuredangle \mathbf{H}(j\omega)=\measuredangle(-j)=-\frac{\pi}{2}$$Ovvero per pulsazioni significativamente più grandi di $\omega_{c}$, la sinusoide in uscita ha ampiezza che tende a zero ed uno sfasamento di $−90^o$ rispetto all’ingresso. In pratica, le alte frequenze vengono "tagliate".
+
+
+Riassumendo,il circuito in fig.1.29 si comporta come un filtro passa basso in
+
+quanto lascia passare le basse frequenze (basse rispetto a ωc) mentre
+
+elimina le alte frequenze. Per questo la pulsazione ωc viene comune-
+
+mente indicata col nome di pulsazione di taglio.
+
+Infine la fig.1.30 mostra l’andamento della fase.
