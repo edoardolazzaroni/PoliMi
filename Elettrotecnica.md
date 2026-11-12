@@ -3407,4 +3407,4 @@ Consideriamo ora i **casi**:
 	Ovvero per pulsazioni significativamente più piccole di $\omega_{c}$, la sinusoide in ingresso viene trasferita praticamente identica in uscita con la stessa ampiezza e con sfasamento che tende a zero.
 
 
-- l’ingresso abbia invece pulsazione $\omega$ tale che:$$\omega\gg \omega_{c}$$Ragionando al limite quando $\omega\to \infty$, dalla $(8.10)$ si ha:$$\mathbf{H}(j\omega)appro$$
+- l’ingresso abbia invece pulsazione $\omega$ tale che:$$\omega\gg \omega_{c}$$Ragionando al limite quando $\omega\to \infty$, dalla $(8.10)$ si ha:$$\mathbf{H}(j\omega)\approx \frac{1}{j\omega C \ R}\quad(8.12)$$e quindi:$$\lim_{ \omega \ \to \ \infty } |\mathbf{H}(j\omega)|=0\\ \\ \lim_{ \omega \ \to \ \infty } \measuredangle \mathbf{H}(j\omega)$$
