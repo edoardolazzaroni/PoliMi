@@ -3466,4 +3466,7 @@ $$\mathbf{V}=\mathbf{I}\cdot \mathbf{Z}(j\omega)$$
 $$\mathbf{Z}=\frac{1}{\frac{1}{R}+j\left( \omega C-\frac{1}{\omega L} \right)}$$
 
 Il modulo e fase della funzione di rete valgono:
-$$|\mathbf{Z}|=\frac{1}{\sqrt{ \frac{1}{R^2}+(\omega C) }}$$
+$$|\mathbf{Z}|=\frac{1}{\sqrt{ \frac{1}{R^2}+\left( \omega C-\frac{1}{\omega L} \right)^2 }}\\ \\ \measuredangle \mathbf{Z}=-atan\frac{\omega C-\frac{1}{\omega L}}{\frac{1}{R}}$$
+L'andamento qualitativo di modulo e fase in funzione di $\omega$ (cioè la risposta in frequenza) si può dedurre dalle seguenti **osservazioni**:
+
+- per $\omega=\omega$
