@@ -3504,3 +3504,6 @@ $$\mathbf{V}=\mathbf{V}_{L}+\mathbf{V}_{C}=\mathbf{I}j\omega_{o}L+\mathbf{I}\fra
 si elidono vicendevolmente.
 
 
+
+#### #Esercizio(risonanza)
+
