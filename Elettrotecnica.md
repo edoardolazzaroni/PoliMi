@@ -3950,5 +3950,10 @@ Del circuito mostrato in figura si chiede di calcolare la potenza attiva e reatt
 Dati:
 $$v_{s}(t)=10\cos(1000t) \ V \\ R=1 \ k\Omega \\ C = 1 \ \mu F \\ L= 1 \ H$$
 
+
 Notiamo che le potenze erogate dalla sorgente sono le potenze assorbite dal bipolo ad essa collegato, dunque valutiamo la potenza complessa assorbita da detto bipolo. Risulta:
-$$\mathbf{S}=\frac{1}{2}V_{m}^2$\mathbf{Y}^{\star}$
+$$\mathbf{S}=\frac{1}{2}V_{m}^2\mathbf{Y}^{\star}$$
+dove $\mathbf{Y}$è l’ammettenza equivalente del bipolo.
+Determiniamo le impedenze del condensatore ed induttore:
+$$\mathbf{Z}_{c}=-1000j \\ \\ \mathbf{Z}_{l}=1000j$$
+Da cui 
