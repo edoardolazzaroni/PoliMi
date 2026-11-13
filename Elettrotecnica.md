@@ -3853,8 +3853,9 @@ Vediamo come si calcola la potenza complessa, e le sue componenti reale ed immag
 
 Poichè $\mathbf{V}=\mathbf{Z}\mathbf{I}$, si ha:
 $$\mathbf{S}=\frac{1}{2}\mathbf{V}\mathbf{I}^{\star}=\frac{1}{2}\mathbf{Z}\mathbf{I}\mathbf{I}^{\star}=\frac{1}{2}|\mathbf{I}|^2\mathbf{Z}=\overbrace{\frac{1}{2}|\mathbf{I}|^2R}^{P}+j\overbrace{\frac{1}{2}|\mathbf{I}|^2X}^{Q}$$
-dove $|\mathbf{I}|^2=I_{m}^2$ è il quadrato del valore di picco della corrente.
+dove $|\mathbf{I}|^2=I_{m}^2$ è il <u>quadrato del valore di picco della corrente</u>.
 
 Di seguito sono riportati i casi particolari in cui il bipolo si riduce ad un resistore o ad un elemento dinamico:
 
-- Resistore: in questo caso $\mathbf{Z}=R$ e dunque:$$\mathbf{S}=P=\frac{1}{2}|\mathbf{I}|$$
+- **Resistore**: in questo caso $\mathbf{Z}=R$ e dunque:$$\mathbf{S}=P=\frac{1}{2}|\mathbf{I}|^2R$$
+- **Condensatore**: in questo caso $\mathbf{Z}=j\left( -\frac{1}{\omega C} \right)$ e dunque:$$\mathbf{S}=j$$
