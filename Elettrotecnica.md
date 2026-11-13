@@ -3766,7 +3766,10 @@ Osservando che $\phi_{v}=\phi_{i}+\phi$, si ha:
 $$\begin{align}
 v(t) =  V_{m} \cos(\underbrace{\omega t+\phi_{i}}_{\beta}+\underbrace{\phi}_{\alpha}) \\
 \\ =V_{m}\cos \phi\cdot \cos(\omega t+\phi_{i})-V_{m}\sin \phi\cdot \cos\left( \omega t+\phi_{i}+\frac{\pi}{2} \right) \\ \\ (9.1) \end{align}$$
-Moltiplicando per la corrente si perviene a:
+Moltiplicando per la <u>corrente</u> si perviene a:
+
 $$\begin{align}
 p(t) =  V_{m}I_{m} \cos \phi\cdot\cos^2(\omega t+\phi_{i})+V_{m}I_{m}\sin \phi\cdot \cos\left( \omega t+\phi_{i}+\frac{\pi}{2} \right)\cdot \cos(\omega t+\phi_{i}) \\
-\\ =\frac{V_{m}I_{m}}{2}\cos(\phi)+\overbrace{\frac{V_{m}I_{m}}{2}\cos(\phi)}^{Potenza \ Attiva}\cdot \cos(2\omega t+2\phi_{i})+\underbrace \\ \\ (9.1) \end{align}$$
+\\ =\frac{V_{m}I_{m}}{2}\cos(\phi)+\overbrace{\frac{V_{m}I_{m}}{2}\cos(\phi)}^{Potenza \ Attiva}\cdot \cos(2\omega t+2\phi_{i})+\underbrace{\frac{V_{m}I_{m}}{2}\sin \phi}_{Potenza \ \mathrm{Re}attiva}\cdot \cos\left( 2\omega t+2\phi_{i}+\frac{\pi}{2} \right) \\ \\ (9.2) \end{align}$$
+
+Il primo termine 
