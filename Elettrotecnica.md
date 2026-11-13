@@ -3757,4 +3757,10 @@ detto **fattore di potenza**.
 
 La conoscenza della potenza media assorbita da un bipolo non è tuttavia sufficiente a descriverlo completamente, spesso è infatti necessario valutare l’entità delle oscillazioni che la potenza istantanea subisce nel tempo, oscillazioni troppo grandi possono danneggiare la rete o alcune apparecchiature elettroniche. La natura delle oscillazioni della potenza cambia a seconda che il bipolo abbia un comportamente puramente resistivo (cioè tensione e corrente sono in fase) oppure contenga al suo interno anche elementi dinamici modellati con induttori e/o condensatori.
 
-Per mettere in luce questo aspetto, riscriviamo la tensione scomponendola (come fasore) in una componente in fase con la corrente ed una in quadrature come descritto in figur
+Per mettere in luce questo aspetto, riscriviamo la tensione scomponendola (come fasore) in una componente in fase con la corrente ed una in quadrature come descritto in figura:
+![[Elettrotecnica-1794578861555.webp|354]]
+#Figura(9.3). *Scomposizione della tensione*
+
+Osservando che $\phi_{v}=\phi_{i}+\phi$, si ha:
+
+$$\beg$$
