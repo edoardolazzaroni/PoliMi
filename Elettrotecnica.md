@@ -3974,4 +3974,6 @@ $$\mathbf{I}_{l}=\frac{\mathbf{V}_{s}}{Z_{l}}=\frac{10}{j1000}=\frac{1}{100}(-j)
 Quindi, la potenza attiva assorbita dal resistore vale:
 $$P_{R}=\frac{1}{2}|\mathbf{I}_{R}|^2R=\frac{1}{2}\left( \frac{\sqrt{ 2 }}{200} \right)^2 1000=\frac{1}{40} \ W$$
 La potenza reattiva assorbita dal condensatore risulta:
-$$Q_{c}=\frac{\frac{1}{2}|\mathbf{I}_{c}|^2(X_{c})=$$
+$$Q_{c}=\frac{1}{2}|\mathbf{I}_{c}|^2(X_{c})=\frac{1}{2}\left( \frac{\sqrt{ 2 }}{200} \right)^2 (-1000)=-\frac{1}{40} \ VAR$$
+mentre quella dell'induttore:
+$$Q_{l}=\frac{1}{2}|\mathbf{I}_{l}|^2(X_{c})=\frac{1}{2}\left( \frac{\sqrt{ 2 }}{200} \right)^2 (-1000)=-\frac{1}{40} \ VAR$$
