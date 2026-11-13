@@ -3806,4 +3806,6 @@ Per comprendere meglio il significato fisico di tali potenze, <u>consideriamo i 
 	La potenza istantanea oscilla attorno al valore zero, con un’ampiezza pari alla potenza reattiva $Q$. Il bipolo dinamico assorbe potenza per metà del tempo mentre è in grado di erogarla (cioè di restituirla) per l’altra metà del tempo. Questo avviene in quanto **condensatore** e **induttore** sono **in grado di immagazzinare la potenza elettrica assorbita in una forma interna di Energia**. Dunque la potenza reattiva è quella componente della potenza oscillante che non corrisponde ad un effettivo assorbimento medio di potenza.
 
 
-Infine, torniamo alla $(9.2)$ e 
+Infine, torniamo alla $(9.2)$ e riscriviamo il solo termine oscillante come:
+$$P\cdot \cos(2\omega t+2\phi_{i})+Q\cdot \cos\left( 2\omega t+2\phi_{i}+\frac{\pi}{2} \right)\quad(9.3)$$
+Uan
