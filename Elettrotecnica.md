@@ -3734,3 +3734,5 @@ $$v(t)=V_{m}\cos(\omega t+\phi_{v})\\ \\ i(t)=I_{m}\cos(\omega t+\phi_{i})$$
 ![[Elettrotecnica-1794578378319.webp|322]]
 #Figura(9.1). *Bipolo in AC*
 
+Estendendo il <u>concetto di potenza elettrica introdotto in DC</u> è ora possibile definire la **potenza elettrica istantanea assorbita** dal bipolo (assorbita in quanto tensione e corrente sono misurate con la convenzione degli utilizzatori):
+$$p(t)=v(t)\cdot i(t)=V_{m}I_{m}\cos(\omega t+\phi_{v})\cos(\omega t+\phi_{i})$$
