@@ -3894,4 +3894,6 @@ e quindi il valore efficace è dato da:
 $$V_{eff}=\frac{V_{m}}{\sqrt{ 2 }}$$
 
 In termini di valore efficace di tensione $V_{eff}=\frac{V_{m}}{\sqrt{ 2 }}$ e corrente $I_{eff}=\frac{I_{m}}{\sqrt{ 2 }}$, la potenza attiva e reattiva si possono riscrivere come:
-$$P=\frac{V_{m}}{\sqrt{ 2 }} \ I_{m}$$
+$$P=\frac{V_{m}}{\sqrt{ 2 }} \ \frac{I_{m}}{\sqrt{ 2 }}\cos \phi=V_{eff}I_{eff}\cos \phi \\ \\ Q=\frac{V_{m}}{\sqrt{ 2 }} \ \frac{I_{m}}{\sqrt{ 2 }}\sin \phi=V_{eff}I_{eff}\sin \phi$$
+
+Inoltre 
