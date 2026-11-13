@@ -3812,4 +3812,10 @@ Usando i **fasori** è facile verificare che la somma delle due sinusoidi (alla 
 $$\sqrt{ P^2+Q^2 }\cdot \cos\left( 2\omega t+2\phi_{i}+atan\left( \frac{Q}{P} \right) \right)\quad(9.4)$$
 
 Il valore di picco della potenza oscillante:
-$$\sqrt{ P^2+Q^2 }=\frac{V_{m}I_{m}}{2} \sqrt{ \cos^2\phi+\sin^2\phi }$$
+$$\sqrt{ P^2+Q^2 }=\frac{V_{m}I_{m}}{2} \sqrt{ \cos^2\phi+\sin^2\phi }=\frac{V_{m}I_{m}}{2}$$
+viene detta **potenza apparente** e misurata in volt ampere [VA].
+
+
+
+## 9.2 **Potenza complessa**
+
