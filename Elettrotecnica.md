@@ -3819,3 +3819,16 @@ viene detta **potenza apparente** e misurata in volt ampere [VA].
 
 ## 9.2 **Potenza complessa**
 
+Nella sezione precedente si sono introdotti i termini che compongono
+
+(o caratterizzano) la potenza istantanea assorbita da un bipolo in
+
+regime AC con attenzione al loro significato fisico. In questa sezione
+
+definiamo un’ulteriore grandezza matematica che permette di cal-
+
+colare in modo agevole i vari termini che compongono la potenza
+
+partendo dai fasori associati alla tensione e corrente. Indichiamo
+
+come di consueto i fasori come:
