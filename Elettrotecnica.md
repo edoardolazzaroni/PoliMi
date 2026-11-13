@@ -3956,4 +3956,10 @@ $$\mathbf{S}=\frac{1}{2}V_{m}^2\mathbf{Y}^{\star}$$
 dove $\mathbf{Y}$è l’ammettenza equivalente del bipolo.
 Determiniamo le impedenze del condensatore ed induttore:
 $$\mathbf{Z}_{c}=-1000j \\ \\ \mathbf{Z}_{l}=1000j$$
-Da cui 
+Da cui calcoliamo l’impedenza del bipolo:
+$$\mathbf{Z}=\frac{(1-j)\cdot j}{1-j+j}\cdot 1000=(1+j)\cdot 1000$$
+e l'ammettenza:
+$$\mathbf{Y}=\frac{1-j}{2000}$$
+
+Quindi:
+$$\mathbf{S}=\frac{1}{2}(10)^2$$
