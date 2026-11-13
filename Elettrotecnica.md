@@ -3803,4 +3803,7 @@ Per comprendere meglio il significato fisico di tali potenze, <u>consideriamo i 
 	#Figura(9.5). *Potenza istantanea in un elemento dinamico*
 
 	
-	La potenza istantanea oscilla attorno al
+	La potenza istantanea oscilla attorno al valore zero, con un’ampiezza pari alla potenza reattiva $Q$. Il bipolo dinamico assorbe potenza per metà del tempo mentre è in grado di erogarla (cioè di restituirla) per l’altra metà del tempo. Questo avviene in quanto **condensatore** e **induttore** sono **in grado di immagazzinare la potenza elettrica assorbita in una forma interna di Energia**. Dunque la potenza reattiva è quella componente della potenza oscillante che non corrisponde ad un effettivo assorbimento medio di potenza.
+
+
+Infine, torniamo alla $(9.2)$ e 
