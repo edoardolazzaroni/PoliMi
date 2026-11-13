@@ -3866,4 +3866,5 @@ Si procede in modo simile nel caso di bipolo descritto dalla sua ammettenza $\ma
 #Figura(9.8). *Bipolo di ammettenza $\mathbf{Y}$*
 
 
-In questo caso, essendo $\mathbf{I}=\mathbf{Y}\mathbf{V}$
+In questo caso, essendo $\mathbf{I}=\mathbf{Y}\mathbf{V}$, si determina:
+$$\mathbf{S}=\frac{1}{2}\mathbf{V}\mathbf{I}^{\star}=\frac{1}{2}\mathbf{Y}^{\star}\mathbf{V}\mathbf{V}^{\star}=\frac{1}{2}|\mathbf{V}|^2\mathbf{Y}^{\star}=\overbrace{}^{P}$$
