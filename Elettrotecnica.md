@@ -3933,3 +3933,14 @@ $$\frac{1}{2}\mathbf{V}\mathbf{I}^{\star}=\frac{1}{2}\mathbf{V}_{1}\mathbf{I}_{1
 
 Ovvero, la potenza complessa totale entrante nel bipolo composto è pari alla somma delle potenze complesse assorbite dai bipoli (o porte) che lo formano.
 Ciò vale anche separatamente per le parti **reali**, vedi figura 9.10, e **immaginarie**, figura 9.11, **della potenza complessa**:
+![[Elettrotecnica-1794584776421.webp|326]]
+#Figura(9.10). *La potenza attiva assorbita ai morsetti di un bipolo composto è la somma delle potenze attive assorbite dagli elementi che lo compongono: $P_{tot} = P_{1} + P_{2} + P_{3} + P_{4}$*
+
+![[Elettrotecnica-1794584822142.webp|324]]
+#Figura(9.11). La potenza attiva assorbita ai morsetti di un bipolo composto è la
+
+somma delle potenze attive assorbite
+
+dagli elementi che lo compongono, i.e.
+
+Qtot = Q1 + Q2 + Q3 + Q4.
