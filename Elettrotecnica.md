@@ -3888,4 +3888,5 @@ Nei calcoli ingegneristici degli impianti elettrici, spesso si preferisce elimin
 Data una funzione generica $f(t)$ del tempo, periodica di periodo $T$, si definisce valore efficace la seguente quantità:
 $$f_{eff}=\sqrt{ \frac{1}{2}\int_{0}^T f^2(t) \ dt }$$
 cioè il valore efficace al quadrato corrisponde col valor medio della funzione $f^2(t)$.
-Nel caso di una funzione sinusoidale del tempo $v(t)=$
+Nel caso di una funzione sinusoidale del tempo $v(t)=V_{m}\cos(\omega t)$, il quadrato del valore efficace risulta:
+$$V_{eff}^2=\frac{1}{T}\int_{0}^T V_{m}^2\cos^2(\omega t) \ dt =\frac{1}{T}\int_{0}^T (V_{m}^2)$$
