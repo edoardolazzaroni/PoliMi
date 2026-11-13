@@ -3998,4 +3998,4 @@ Si vede dunque che fissati i valori di $P$ e $V_{m}$, **il valore di picco della
 $$P_{R}=\frac{1}{2}I_{m}^2R_{s}$$
 
 Infine, la potenza erogata $P_e$ dall’ente fornitore dell’energia sarà data da:
-$$P_{e}=P_{R}+P=\frac{1}{2}\left( \frac{2P}{} \right)$$
+$$P_{e}=P_{R}+P=\frac{1}{2}\left( \frac{2P}{V_{m}\cos \phi} \right)^2\cdot R_{s}+P$$
