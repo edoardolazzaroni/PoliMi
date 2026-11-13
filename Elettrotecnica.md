@@ -3926,4 +3926,6 @@ Soffermiamoci ora sul caso di una rete elettrica operante in AC e formata dal co
 
 
 Dal Teorema di Boucherot, si ha:
-$$\frac{1}{2}\mathbf{V}_{0}\mathbf{I}_{0}^{\star}+\frac{1}{2}\mathbf{V}_{1}\mathbf{I}_{1}^{\star}+\frac{1}{2}\mathbf{V}_{2}$$
+$$\frac{1}{2}\mathbf{V}_{0}\mathbf{I}_{0}^{\star}+\frac{1}{2}\mathbf{V}_{1}\mathbf{I}_{1}^{\star}+\frac{1}{2}\mathbf{V}_{2}\mathbf{I}_{2}^{\star}+\frac{1}{2}\mathbf{V}_{3}\mathbf{I}_{3}^{\star}+\frac{1}{2}\mathbf{V}_{4}\mathbf{I}_{4}^{\star}=\mathbf{0}$$
+
+Quindi, osservando che le variabili esterne al bipolo composto sono $\mathbf{V}=\mathbf{V}_{}0$ e I=−I0, si può riscrivere:
