@@ -3995,4 +3995,7 @@ Dall’espressione della potenza attiva assorbita:
 $$P=\frac{1}{2}V_{m}I_{m}\cos \phi\to I_{m}=\frac{2P}{V_{m}\cos \phi}\quad(9.8)$$
 
 Si vede dunque che fissati i valori di $P$ e $V_{m}$, **il valore di picco della corrente entrante nel bipolo utilizzatore è determinato dal fattore di potenza**, cioè dalla potenza reattiva associata all’utilizzatore. A sua volta, il valore di picco Im della corrente, che fluisce nel resistore $R_{s}$ dovuto alla linea di distribuzione causa una dissipazione di potenza pari alla potenza attiva assorbita dal resistore:
-$$$
+$$P_{R}=\frac{1}{2}I_{m}^2R_{s}$$
+
+Infine, la potenza erogata $P_e$ dall’ente fornitore dell’energia sarà data da:
+$$P_{e}=P_{R}+P=\frac{1}{2}\left( \frac{2P}{} \right)$$
