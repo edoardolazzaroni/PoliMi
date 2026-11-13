@@ -3871,6 +3871,6 @@ $$\mathbf{S}=\frac{1}{2}\mathbf{V}\mathbf{I}^{\star}=\frac{1}{2}\mathbf{Y}^{\sta
 
 dove $|\mathbf{V}|^2=V_{m}^2$ è il <u>quadrato del valore di picco della tensione</u>.
 
-Di seguito sono riportati i casi particolari per un resistore o un singoloe elemento dinamico, condensatore o induttore:
+Di seguito sono riportati i casi particolari per un resistore o un singolo elemento dinamico, condensatore o induttore:
 
-- **Resistore**: 
+- **Resistore**: in questo caso $\mathbf{Y}=G$ e dunque:$$\mathbf{S}=P=\frac{1}{2}$$
