@@ -3964,4 +3964,7 @@ $$\mathbf{Y}=\frac{1-j}{2000}$$
 Quindi:
 $$\mathbf{S}=\frac{1}{2}(10)^2\frac{(1+j)}{2000}=\frac{25}{1000}(1+j) \\ \\ P= 25 \ m W \\ \\ Q = 25 \ mVAR$$
 inoltre:
-$$\phi=atan(1)=\frac{\pi}{4}\to \cos p$$
+$$\phi=atan(1)=\frac{\pi}{4}\to \cos \phi \approx 0.7$$
+
+Verifichiamo la correttezza dei risultati attraverso il bilancio delle potenze. Per questo, valutiamo la corrente nella serie del resistore col condensatore:
+$$\mathbf{I}_{R}=\mathbf{I}_{C}=\frac{\mathbf{V}_{s}}{Z_{l}}=\frac{10}{j_{1000}}$$
