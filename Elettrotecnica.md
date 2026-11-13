@@ -3727,3 +3727,5 @@ $$L_{eq}=\frac{(L_{1}L_{2}-M^2)}{L_{1}+L_{2}-2M}$$
 # **Capitolo IX: Potenza in regime sinusoidale**
 
 
+## 9.1 **Potenza istantanea, media, attiva e reattiva**
+
