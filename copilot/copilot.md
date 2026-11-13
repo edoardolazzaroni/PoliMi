@@ -11,8 +11,6 @@ type: folder_brief_live
 - **memory**
 - **projects**
 - **skills**
-	- **copilot-web-search**
-		- [[SKILL]]
 	- **json-canvas**
 		- **references**
 			- [[EXAMPLES]]
