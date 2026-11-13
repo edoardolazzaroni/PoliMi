@@ -3833,5 +3833,8 @@ $$\begin{align}
 \end{align}$$
 
 ovvero che la potenza complessa è appunto un numero complesso la cui parte reale coincide con la potenza attiva mentre la parte immaginaria dà la potenza reattiva.
-Inoltre il modulo della potenza complessa coincide con la potenza apparente:
-$$|\mathbf{S}|=S=$$
+Inoltre <u>il modulo della potenza complessa coincide con la potenza apparente</u>:
+$$|\mathbf{S}|=S=\sqrt{ P^2 + Q^2}=\frac{V_{m}I_{m}}{2}$$
+
+La potenza complessa e le sue componenti sono mostrato in figura, detta **triangolo delle potenze**, da cui si vede anche come l’angolo di sfasamento si possa calcolare come:
+$$\phi$$
