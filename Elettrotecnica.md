@@ -3937,10 +3937,9 @@ Ciò vale anche separatamente per le parti **reali**, vedi figura 9.10, e **imma
 #Figura(9.10). *La potenza attiva assorbita ai morsetti di un bipolo composto è la somma delle potenze attive assorbite dagli elementi che lo compongono: $P_{tot} = P_{1} + P_{2} + P_{3} + P_{4}$*
 
 ![[Elettrotecnica-1794584822142.webp|324]]
-#Figura(9.11). La potenza attiva assorbita ai morsetti di un bipolo composto è la
+#Figura(9.11). *La potenza attiva assorbita ai morsetti di un bipolo composto è la somma delle potenze attive assorbite dagli elementi che lo compongono: $Q_{tot} = Q_{1} + Q_{2} + Q_{3} + Q_{4}$*
 
-somma delle potenze attive assorbite
 
-dagli elementi che lo compongono, i.e.
 
-Qtot = Q1 + Q2 + Q3 + Q4.
+#### #Esercizio(potenze) (1)
+
