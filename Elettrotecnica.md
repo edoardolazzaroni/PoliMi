@@ -3929,4 +3929,7 @@ Dal Teorema di Boucherot, si ha:
 $$\frac{1}{2}\mathbf{V}_{0}\mathbf{I}_{0}^{\star}+\frac{1}{2}\mathbf{V}_{1}\mathbf{I}_{1}^{\star}+\frac{1}{2}\mathbf{V}_{2}\mathbf{I}_{2}^{\star}+\frac{1}{2}\mathbf{V}_{3}\mathbf{I}_{3}^{\star}+\frac{1}{2}\mathbf{V}_{4}\mathbf{I}_{4}^{\star}=\mathbf{0}$$
 
 Quindi, osservando che le variabili esterne al bipolo composto sono $\mathbf{V}=\mathbf{V}_{0}$ e $n\mathbf{I}=−\mathbf{I}_{0}$, si può riscrivere:
-$$\frac{1}{2}\mathbf{V}\mathbf{I}^{\star}=\frac{1}{2}\mathbf{V}_{1}\mathbf{I}_{1}^{\star}+\frac{1}{2}\mathbf{V}_{0}\mathbf{I}_{0}^{\star}$$
+$$\frac{1}{2}\mathbf{V}\mathbf{I}^{\star}=\frac{1}{2}\mathbf{V}_{1}\mathbf{I}_{1}^{\star}+\frac{1}{2}\mathbf{V}_{2}\mathbf{I}_{2}^{\star}+\frac{1}{2}\mathbf{V}_{3}\mathbf{I}_{3}^{\star}+\frac{1}{2}\mathbf{V}_{4}\mathbf{I}_{4}^{\star}$$
+
+Ovvero, la potenza complessa totale entrante nel bipolo composto è pari alla somma delle potenze complesse assorbite dai bipoli (o porte) che lo formano.
+Ciò vale anche separatamente per le parti **reali**, vedi figura 9.10, e **immaginarie**, figura 9.11, **della potenza complessa**:
