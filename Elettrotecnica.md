@@ -3829,5 +3829,9 @@ $$\mathbf{S}=\frac{1}{2}\mathbf{V}\mathbf{I}^{\star}$$
 dove $\mathbf{I}^{\star}$ denota il <u>complesso coniugato del fasore</u> della corrente.
 Ricordando che la definizione di angolo di sfasamento tra tensione e corrente $\phi = \phi_{v}−\phi_{i}$, è facile verificare che:
 $$\begin{align}
-\mathbf{S}= \\ \\ =\frac{1}{2}V_{m}e^{j\phi_{v}}I_{m}e^{-j\phi_{i}} \\ \\ = \frac{V_{m}I_{m}}{2}e^{j\phi} \\ \\ = \frac{V_{m}I_{m}}{2}\cos \phi+j\frac{_{;}}
+\mathbf{S}= \\ \\ =\frac{1}{2}V_{m}e^{j\phi_{v}}I_{m}e^{-j\phi_{i}} \\ \\ = \frac{V_{m}I_{m}}{2}e^{j\phi} \\ \\ = \frac{V_{m}I_{m}}{2}\cos \phi+j\frac{V_{m}I_{m}}{2}\sin \phi \\ \\ = P+jQ \\ \\(9.6)
 \end{align}$$
+
+ovvero che la potenza complessa è appunto un numero complesso la cui parte reale coincide con la potenza attiva mentre la parte immaginaria dà la potenza reattiva.
+Inoltre il modulo della potenza complessa coincide con la potenza apparente:
+$$|\mathbf{S}|=S=$$
