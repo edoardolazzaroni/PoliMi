@@ -3776,4 +3776,13 @@ Il primo termine nell’espressione $(9.2)$ è costante e, come già visto, corr
 $$P=\frac{V_{m}I_{m}}{2}\cos \phi$$
 è detta **potenza attiva**; in regime sinusoidale la potenza attiva è uguale alla potenza media $P= P_{m}$.
 
-Infine, l’ultimo termine, dovuto alla componente della tensione in quadrature con la corrente, è una funzione oscillante di ampiezza
+
+Infine, l’ultimo termine, dovuto alla **componente della tensione in quadrature con la corrente**, è una funzione oscillante di ampiezza:
+$$Q=\frac{V_{m}I_{m}}{2}\sin \phi$$
+detto **potenza reattiva**. La potenza reattiva $Q$ pur essendo dimensionalmente una grandezza in watt si misura in volt ampere reattivi [VAR].
+
+
+
+Per comprendere meglio il significato fisico di tali potenze, consideriamo i casi particolari di bipoli composti da un resistore oppure da
+
+un solo elemento dinamico, condensatore e induttore.
