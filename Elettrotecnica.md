@@ -3976,4 +3976,8 @@ $$P_{R}=\frac{1}{2}|\mathbf{I}_{R}|^2R=\frac{1}{2}\left( \frac{\sqrt{ 2 }}{200} 
 La potenza reattiva assorbita dal condensatore risulta:
 $$Q_{c}=\frac{1}{2}|\mathbf{I}_{c}|^2(X_{c})=\frac{1}{2}\left( \frac{\sqrt{ 2 }}{200} \right)^2 (-1000)=-\frac{1}{40} \ VAR$$
 mentre quella dell'induttore:
-$$Q_{l}=\frac{1}{2}|\mathbf{I}_{l}|^2(X_{c})=\frac{1}{2}\left( \frac{\sqrt{ 2 }}{200} \right)^2 (-1000)=-\frac{1}{40} \ VAR$$
+$$Q_{l}=\frac{1}{2}|\mathbf{I}_{l}|^2(X_{l})=\frac{1}{2}\left( \frac{1}{100} \right)^2 (1000)=\frac{1}{20} \ VAR$$
+
+È facile verificare che i bilanci:
+$$P=P_{R}\\ \\ Q=Q_{l}+Q_{c}$$
+sono soddisf
