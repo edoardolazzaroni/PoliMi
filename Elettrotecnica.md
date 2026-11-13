@@ -3799,4 +3799,8 @@ Per comprendere meglio il significato fisico di tali potenze, <u>consideriamo i 
 - **Bipolo dinamico, condensatore o induttore**.
 
 	In un bipolo dinamico, tensione e corrente sono in quadratura e quindi il fattore di potenza vale zero: $\phi = \pm \frac{\pi}{2}$ e $\cos \phi= 0$.
-	La potenza istantanea è composta dal solo terzo termine ed ha potenza media nulla:$$$$
+	La potenza istantanea è composta dal solo terzo termine ed ha potenza media nulla:$$P_{m}=0$$come mostrato in figura:![[Elettrotecnica-1794580635916.webp|417]]
+	#Figura(9.5). *Potenza istantanea in un elemento dinamico*
+
+	
+	La potenza istantanea oscilla attorno al
