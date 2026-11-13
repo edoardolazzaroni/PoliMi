@@ -3738,3 +3738,18 @@ Estendendo il <u>concetto di potenza elettrica introdotto in DC</u> è ora possi
 $$p(t)=v(t)\cdot i(t)=V_{m}I_{m}\cos(\omega t+\phi_{v})\cos(\omega t+\phi_{i})$$
 Questa può essere riscritta nella forma:
 $$p(t)=\frac{V_{M}I_{M}}{2}\cos(\phi)+\frac{V_{m}I_{m}}{2}\cos(2\omega t+\phi_{v}+\phi_{I})$$
+dove si è denotato con:
+$$\phi=\phi_{v}-\phi_{i}$$
+la differenza tra la fase della tensione e quella della corrente spesso indicato col nome di **sfasamento**.
+
+La potenza istantanea è dunque composta da un primo termine costante (cioè che non dipende dal tempo) e da un secondo termine "oscillante" cioè che varia nel tempo come una sinusoide a frequenza
+
+2ω. I due termini e la loro composizione sono mostrati nella fig.1.2.
+
+In molte applicazioni, è rilevante valutare la potenza elettrica che
+
+in media viene assorbita da un bipolo, per es. la nostra abitazione che
+
+è vista dalla rete come un bipolo in AC. In particolare viene definita
+
+la potenza media sul periodo
