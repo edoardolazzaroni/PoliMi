@@ -3730,4 +3730,7 @@ $$L_{eq}=\frac{(L_{1}L_{2}-M^2)}{L_{1}+L_{2}-2M}$$
 ## 9.1 **Potenza istantanea, media, attiva e reattiva**
 
 Un generico bipolo operante in regime sinusoidale, come mostrato in figura, è <mark class="hltr-yellow">descritto dalla coppia di variabili sinusoidali tensione e corrente</mark>:
-$$$$
+$$v(t)=V_{m}\cos(\omega t+\phi_{v})\\ \\ i(t)=I_{m}\cos(\omega t+\phi_{i})$$
+![[Elettrotecnica-1794578378319.webp|322]]
+#Figura(9.1). *Bipolo in AC*
+
