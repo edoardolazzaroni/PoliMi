@@ -3893,4 +3893,5 @@ $$V_{eff}^2=\frac{1}{T}\int_{0}^T V_{m}^2\cos^2(\omega t) \ dt =\frac{1}{T}\int_
 e quindi il valore efficace è dato da:
 $$V_{eff}=\frac{V_{m}}{\sqrt{ 2 }}$$
 
-In termini di valore efficace di tensione $V_{eff}$
+In termini di valore efficace di tensione $V_{eff}=\frac{V_{m}}{\sqrt{ 2 }}$ e corrente $I_{eff}=\frac{I_{m}}{\sqrt{ 2 }}$, la potenza attiva e reattiva si possono riscrivere come:
+$$P=\frac{V_{m}}{\sqrt{ 2 }} \ I_{m}$$
