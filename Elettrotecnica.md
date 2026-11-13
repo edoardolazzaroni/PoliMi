@@ -3751,4 +3751,10 @@ In molte applicazioni, è rilevante valutare la potenza elettrica che in media v
 $$P_{m}=\frac{1}{T}\int_{0}^T p(t) \ dt=\frac{V_{m}I_{m}}{2}\cos(\phi)$$
 
 che coincide con il termine costante nel tempo (il termine oscillante che ha periodo $\frac{T}{2}$ dà integrale nullo sul periodo).
-La potenza media dunque non dipende solo dalle ampiezze di corrente e tensione ma anche dal loro sfasamento attraverso il termine
+La potenza media dunque <u>non dipende solo dalle ampiezze di corrente e tensione ma anche dal loro sfasamento</u> attraverso il termine:
+$$\cos(\phi)$$
+detto **fattore di potenza**.
+
+La conoscenza della potenza media assorbita da un bipolo non è tuttavia sufficiente a descriverlo completamente, spesso è infatti necessario valutare l’entità delle oscillazioni che la potenza istantanea subisce nel tempo, oscillazioni troppo grandi possono danneggiare la rete o alcune apparecchiature elettroniche. La natura delle oscillazioni della potenza cambia a seconda che il bipolo abbia un comportamente puramente resistivo (cioè tensione e corrente sono in fase) oppure contenga al suo interno anche elementi dinamici modellati con induttori e/o condensatori.
+
+Per mettere in luce questo aspetto, riscriviamo la tensione scomponendola (come fasore) in una componente in fase con la corrente ed una in quadrature come descritto in figur
