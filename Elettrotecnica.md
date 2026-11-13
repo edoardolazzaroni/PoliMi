@@ -3838,7 +3838,12 @@ Inoltre <u>il modulo della potenza complessa coincide con la potenza apparente</
 $$|\mathbf{S}|=S=\sqrt{ P^2 + Q^2}=\frac{V_{m}I_{m}}{2}$$
 
 La potenza complessa e le sue componenti sono mostrato in figura, detta **triangolo delle potenze**:
+![[Elettrotecnica-1794581628935.webp|349]]
+#Figura(9.6). *Triangolo delle potenze*
 
 
 da cui si vede anche come l’angolo di sfasamento si possa calcolare come:
 $$\phi=atan\left( \frac{Q}{P} \right)$$
+
+
+Vediamo come si calcola la potenza complessa, e le sue componenti reale ed immaginaria, nel caso generico di un bipolo descritto dalla sua impedenza $\mathbf{Z}= R + jX$, come mostrato in figura:
