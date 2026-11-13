@@ -3765,4 +3765,4 @@ Osservando che $\phi_{v}=\phi_{i}+\phi$, si ha:
 
 $$\begin{align}
 v(t) =  V_{m} \cos(\underbrace{\omega t+\phi_{i}}_{\beta}+\underbrace{\phi}_{\alpha}) \\
-\\ =V_{m}\cos \phi\cdot \cos(\omega t+\phi_{i})-V_{m}\sin \phi\cdot \cos(\omega t)\end{align}$$
+\\ =V_{m}\cos \phi\cdot \cos(\omega t+\phi_{i})-V_{m}\sin \phi\cdot \cos\left( \omega t+\phi_{i}+\frac{\pi}{2} \right) \\ \\ = \end{align}$$
