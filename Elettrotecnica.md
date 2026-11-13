@@ -3885,4 +3885,7 @@ Utilizzando la definizione di fasore $(9.2)$ basata sul valore di picco delle si
 
 Nei calcoli ingegneristici degli impianti elettrici, spesso si preferisce eliminare la "necessità di ricordare tale coefficiente" introducendo una definizione di fasore scalata rispetto a quella classica: tale fattore di scala è dato dal **valore efficace della sinusoide**.
 
-Data una funzione generica $f(t)$ del tempo, 
+Data una funzione generica $f(t)$ del tempo, periodica di periodo $T$, si definisce valore efficace la seguente quantità:
+$$f_{eff}=\sqrt{ \frac{1}{2}\int_{0}^T f^2(t) \ dt }$$
+cioè il valore efficace al quadrato corrisponde col valor medio della funzione $f^2(t)$.
+Nel caso di una funzione sinusoidale del tempo $v(t)=$
