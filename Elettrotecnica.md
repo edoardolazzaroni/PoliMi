@@ -3874,4 +3874,5 @@ dove $|\mathbf{V}|^2=V_{m}^2$ è il <u>quadrato del valore di picco della tensio
 Di seguito sono riportati i casi particolari per un resistore o un singolo elemento dinamico, condensatore o induttore:
 
 - **Resistore**: in questo caso $\mathbf{Y}=G$ e dunque:$$\mathbf{S}=P=\frac{1}{2}|\mathbf{V}|^2G$$
-- Induttore: si ha $\mathbf{Y}=j\left( \frac{-1}{\omega L} \right)$e dunque:$$\mathbf{S}=j\frac{1}{2}|\mathbf{V}|^2(-B)=j\frac{1}{2}|\mathbf{V}|$$
+- **Induttore**: si ha $\mathbf{Y}=j\left( \frac{-1}{\omega L} \right)$e dunque:$$\mathbf{S}=j\frac{1}{2}|\mathbf{V}|^2(-B)=j\frac{1}{2}|\mathbf{V}|^2\left( \frac{1}{\omega L} \right)$$da cui si conferma che la potenza reattiva assorbita dall’induttore è <u>positiva</u>:$$Q=\frac{1}{2}|\mathbf{V}|^2 \frac{1}{\omega L}$$
+- **Condensatore**: si ha $\mathbf{Y}$
