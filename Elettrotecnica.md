@@ -3858,4 +3858,5 @@ dove $|\mathbf{I}|^2=I_{m}^2$ è il <u>quadrato del valore di picco della corren
 Di seguito sono riportati i casi particolari in cui il bipolo si riduce ad un resistore o ad un elemento dinamico:
 
 - **Resistore**: in questo caso $\mathbf{Z}=R$ e dunque:$$\mathbf{S}=P=\frac{1}{2}|\mathbf{I}|^2R$$
-- **Condensatore**: in questo caso $\mathbf{Z}=j\left( -\frac{1}{\omega C} \right)$ e dunque:$$\mathbf{S}=j\frac{1}{2}|\mathbf{I}|^2X=j\frac{1}{2}|\mathbf{I}|^2\left( -\frac{1}{\omega C} \right)$$e quindi la potenza reattiva assorbita dal condensatore è negativa (per valori fisici di C) e vale:$$Q=-\frac{\frac{1}{2}|\mathbf{I}|^21}{}$$
+- **Condensatore**: in questo caso $\mathbf{Z}=j\left( -\frac{1}{\omega C} \right)$ e dunque:$$\mathbf{S}=j\frac{1}{2}|\mathbf{I}|^2X=j\frac{1}{2}|\mathbf{I}|^2\left( -\frac{1}{\omega C} \right)$$e quindi la potenza reattiva assorbita dal condensatore è negativa (per valori fisici di C) e vale:$$Q=-\frac{1}{2}|\mathbf{I}|^2 \ \frac{1}{\omega C}$$
+- **Induttore**: si ha $\mathbf{Z}=j\omega L$ e quindi:$$\mathbf{S}=j\frac{1}{2}|\mathbf{I}|^2X=j\frac{1}$$
