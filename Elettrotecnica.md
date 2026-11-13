@@ -3869,4 +3869,8 @@ Si procede in modo simile nel caso di bipolo descritto dalla sua ammettenza $\ma
 In questo caso, essendo $\mathbf{I}=\mathbf{Y}\mathbf{V}$, si determina:
 $$\mathbf{S}=\frac{1}{2}\mathbf{V}\mathbf{I}^{\star}=\frac{1}{2}\mathbf{Y}^{\star}\mathbf{V}\mathbf{V}^{\star}=\frac{1}{2}|\mathbf{V}|^2\mathbf{Y}^{\star}=\overbrace{\frac{1}{2}|\mathbf{V}|^2G}^{P}+j\overbrace{\frac{1}{2}|\mathbf{V}|^2(-B)}^{Q}$$
 
-dove $|\mathbf{V}|^2=V_{m}^2$ 
+dove $|\mathbf{V}|^2=V_{m}^2$ è il <u>quadrato del valore di picco della tensione</u>.
+
+Di seguito sono riportati i casi particolari per un resistore o un singoloe elemento dinamico, condensatore o induttore:
+
+- Resistore: 
