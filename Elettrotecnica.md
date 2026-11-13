@@ -3875,4 +3875,26 @@ Di seguito sono riportati i casi particolari per un resistore o un singolo eleme
 
 - **Resistore**: in questo caso $\mathbf{Y}=G$ e dunque:$$\mathbf{S}=P=\frac{1}{2}|\mathbf{V}|^2G$$
 - **Induttore**: si ha $\mathbf{Y}=j\left( \frac{-1}{\omega L} \right)$e dunque:$$\mathbf{S}=j\frac{1}{2}|\mathbf{V}|^2(-B)=j\frac{1}{2}|\mathbf{V}|^2\left( \frac{1}{\omega L} \right)$$da cui si conferma che la potenza reattiva assorbita dall’induttore è <u>positiva</u>:$$Q=\frac{1}{2}|\mathbf{V}|^2 \frac{1}{\omega L}$$
-- **Condensatore**: si ha $\mathbf{Y}=j\omega C$ e quindi:$$\mathbf{S}=j\frac{1}{2}|\mathbf{V}|^2(-B)=j\frac{1}{2}|\mathbf{V}|^2(-\omega C)$$che conferma come la potenza reattiva assorbita dal condensatore è <u>negativa</u>:$$$
+- **Condensatore**: si ha $\mathbf{Y}=j\omega C$ e quindi:$$\mathbf{S}=j\frac{1}{2}|\mathbf{V}|^2(-B)=j\frac{1}{2}|\mathbf{V}|^2(-\omega C)$$che conferma come la potenza reattiva assorbita dal condensatore è <u>negativa</u>:$$Q=-\frac{1}{2}|\mathbf{V}|^2\omega C$$
+
+
+
+## 9.3 **Rappresentazione col valore efficace**
+
+Utilizzando la definizione di fasore $(9.2)$ basata sul valore di picco
+
+delle sinusoidi, l’espressione della potenza complessa, affinché le
+
+sue parti reale ed immaginaria diano la potenza attiva e reattiva,
+
+contiene il coefficiente 1
+
+2 . Nei calcoli ingegneristici degli impianti
+
+elettrici, spesso si preferisce eliminare la "necessità di ricordare tale
+
+coefficiente" introducendo una definizione di fasore scalata rispetto
+
+a quella classica. Tale fattore di scala è dato dal valore efficace della
+
+sinusoide.
