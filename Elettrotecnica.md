@@ -3847,3 +3847,9 @@ $$\phi=atan\left( \frac{Q}{P} \right)$$
 
 
 Vediamo come si calcola la potenza complessa, e le sue componenti reale ed immaginaria, nel caso generico di un bipolo descritto dalla sua impedenza $\mathbf{Z}= R + jX$, come mostrato in figura:
+![[Elettrotecnica-1794581691942.webp|234]]
+#Figura(9.7). *Bipolo di impedenza $\mathbf{Z}$*
+
+
+Poichè $\mathbf{V}=\mathbf{Z}\mathbf{I}$, si ha:
+$$\mathbf{S}=\frac{1}{2}\mathbf{V}\mathbf{I}^{\star}=\frac{1}{2}\mathbf{Z}\mathbf{I}\mathbf{I}$$
