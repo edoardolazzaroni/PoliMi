@@ -3897,4 +3897,10 @@ In termini di valore efficace di tensione $V_{eff}=\frac{V_{m}}{\sqrt{ 2 }}$ e c
 $$P=\frac{V_{m}}{\sqrt{ 2 }} \ \frac{I_{m}}{\sqrt{ 2 }}\cos \phi=V_{eff}I_{eff}\cos \phi \\ \\ Q=\frac{V_{m}}{\sqrt{ 2 }} \ \frac{I_{m}}{\sqrt{ 2 }}\sin \phi=V_{eff}I_{eff}\sin \phi$$
 
 Inoltre, scalando i fasori, cioè <u>definendoli in termine di valore efficace</u>, ovvero:
-$$\mathbf{V}=\frac{V_{m}}{\sqrt{ 2 }}e^{j\phi_{v}}=V_{eff}e^{j\phi_{v}}\\ \\ \mathbf{I}=\frac{I_{m}}{\sqrt{ 2 }}e^{}$$
+$$\mathbf{V}=\frac{V_{m}}{\sqrt{ 2 }}e^{j\phi_{v}}=V_{eff}e^{j\phi_{v}}\\ \\ \mathbf{I}=\frac{I_{m}}{\sqrt{ 2 }}e^{j\phi_{i}}=I_{eff}e^{j\phi_{i}}\\ \\ (9.7)$$
+si ha che la potenza complessa si semplifica in:
+$$\mathbf{S}=\mathbf{V}\mathbf{I}^{\star}$$
+
+
+
+## 9.4 **Rappresentazione col valore efficace**
