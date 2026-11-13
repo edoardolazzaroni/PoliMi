@@ -3962,4 +3962,6 @@ e l'ammettenza:
 $$\mathbf{Y}=\frac{1-j}{2000}$$
 
 Quindi:
-$$\mathbf{S}=\frac{1}{2}(10)^2$$
+$$\mathbf{S}=\frac{1}{2}(10)^2\frac{(1+j)}{2000}=\frac{25}{1000}(1+j) \\ \\ P= 25 \ m W \\ \\ Q = 25 \ mVAR$$
+inoltre:
+$$\phi=atan(1)=\frac{\pi}{4}\to \cos p$$
