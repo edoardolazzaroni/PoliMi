@@ -3987,3 +3987,6 @@ Ciò vale anche separatamente per le parti **reali**, vedi figura 9.10, e **imma
 
 ## 9.5 **Rifasamento**
 
+L’argomento di questa sezione riguarda un problema tipico che si affronta nell’ambito dei sistemi per la distribuzione dell’energia elettrica. Studiamo infatti il caso di un utilizzatore inserito in una rete di distribuzione per il quale la tensione ai sui capi viene fissata da una qualche forma di regolazione al valore di picco $V_{m}$ e al quale viene fornita la potenza attiva $P$ (in watt), come mostrato in figura:
+![[Elettrotecnica-1794602531399.webp|437]]
+#Figura(9.13)
