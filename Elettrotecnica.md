@@ -3764,5 +3764,6 @@ Per mettere in luce questo aspetto, riscriviamo la tensione scomponendola (come 
 Osservando che $\phi_{v}=\phi_{i}+\phi$, si ha:
 
 $$\begin{align}
-v(t) =  V_{m} \cos(\underbrace{\omega t+\phi_{i}}_{\beta})
+v(t) =  V_{m} \cos(\underbrace{\omega t+\phi_{i}}_{\beta}+\underbrace{\phi}_{\alpha}) \\
+\\ =V_{m}\cos \phi\cdot \cos(\omega t+\phi_{I})
 \end{align}$$
