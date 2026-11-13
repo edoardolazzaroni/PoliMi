@@ -3881,16 +3881,8 @@ Di seguito sono riportati i casi particolari per un resistore o un singolo eleme
 
 ## 9.3 **Rappresentazione col valore efficace**
 
-Utilizzando la definizione di fasore $(9.2)$ basata sul valore di picco delle sinusoidi, l’espressione della potenza complessa, affinché le sue parti reale ed immaginaria diano la potenza attiva e reattiva,
+Utilizzando la definizione di fasore $(9.2)$ basata sul valore di picco delle sinusoidi, l’espressione della potenza complessa, affinché le sue parti reale ed immaginaria diano la potenza attiva e reattiva, contiene il coefficiente $\frac{1}{2}$.
 
-contiene il coefficiente 1
+Nei calcoli ingegneristici degli impianti elettrici, spesso si preferisce eliminare la "necessità di ricordare tale coefficiente" introducendo una definizione di fasore scalata rispetto a quella classica: tale fattore di scala è dato dal **valore efficace della sinusoide**.
 
-2 . Nei calcoli ingegneristici degli impianti
-
-elettrici, spesso si preferisce eliminare la "necessità di ricordare tale
-
-coefficiente" introducendo una definizione di fasore scalata rispetto
-
-a quella classica. Tale fattore di scala è dato dal valore efficace della
-
-sinusoide.
+Data una funzione generica $f(t)$ del tempo, 
