@@ -3861,4 +3861,9 @@ Di seguito sono riportati i casi particolari in cui il bipolo si riduce ad un re
 - **Condensatore**: in questo caso $\mathbf{Z}=j\left( -\frac{1}{\omega C} \right)$ e dunque:$$\mathbf{S}=j\frac{1}{2}|\mathbf{I}|^2X=j\frac{1}{2}|\mathbf{I}|^2\left( -\frac{1}{\omega C} \right)$$e quindi la potenza reattiva assorbita dal condensatore è <u>negativa</u> (per valori fisici di $C$) e vale:$$Q=-\frac{1}{2}|\mathbf{I}|^2 \ \frac{1}{\omega C}$$
 - **Induttore**: si ha $\mathbf{Z}=j\omega L$ e quindi:$$\mathbf{S}=j\frac{1}{2}|\mathbf{I}|^2X=j\frac{1}{2}|\mathbf{I}|^2\omega L$$e quindi la potenza reattiva assorbita dall’induttore è <u>positiva</u> (per valori fisici di $L$) e vale:$$Q=\frac{1}{2}|\mathbf{I}|^2\omega L$$
 
-Si p
+Si procede in modo simile nel caso di bipolo descritto dalla sua ammettenza $\mathbf{Y}= G + jB$, come mostrato in figura:
+![[Elettrotecnica-1794582160948.webp|213]]
+#Figura(9.8). *Bipolo di ammettenza $\mathbf{Y}$*
+
+
+In questo caso, essendo $\mathbf{I}=\mathbf{Y}\mathbf{V}$
