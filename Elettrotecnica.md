@@ -3783,6 +3783,8 @@ detto **potenza reattiva**. La potenza reattiva $Q$ pur essendo dimensionalmente
 
 
 
-Per comprendere meglio il significato fisico di tali potenze, consideriamo i casi particolari di bipoli composti da un resistore oppure da
+Per comprendere meglio il significato fisico di tali potenze, <u>consideriamo i casi particolari </u>di bipoli composti da un resistore oppure da un solo elemento dinamico, condensatore e induttore:
 
-un solo elemento dinamico, condensatore e induttore.
+- **Bipolo Resistore**.
+	
+	In questo caso, 
