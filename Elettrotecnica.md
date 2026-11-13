@@ -3765,4 +3765,8 @@ Osservando che $\phi_{v}=\phi_{i}+\phi$, si ha:
 
 $$\begin{align}
 v(t) =  V_{m} \cos(\underbrace{\omega t+\phi_{i}}_{\beta}+\underbrace{\phi}_{\alpha}) \\
-\\ =V_{m}\cos \phi\cdot \cos(\omega t+\phi_{i})-V_{m}\sin \phi\cdot \cos\left( \omega t+\phi_{i}+\frac{\pi}{2} \right) \\ \\ = \end{align}$$
+\\ =V_{m}\cos \phi\cdot \cos(\omega t+\phi_{i})-V_{m}\sin \phi\cdot \cos\left( \omega t+\phi_{i}+\frac{\pi}{2} \right) \\ \\ (9.1) \end{align}$$
+Moltiplicando per la corrente si perviene a:
+$$\begin{align}
+p(t) =  V_{m}I_{m} \cos \phi\cdot\cos(\underbrace{\omega t+\phi_{i}}_{\beta}+\underbrace{\phi}_{\alpha}) \\
+\\ =V_{m}\cos \phi\cdot \cos(\omega t+\phi_{i})-V_{m}\sin \phi\cdot \cos\left( \omega t+\phi_{i}+\frac{\pi}{2} \right) \\ \\ (9.1) \end{align}$$
