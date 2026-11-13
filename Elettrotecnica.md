@@ -3908,4 +3908,5 @@ $$\mathbf{S}=\mathbf{V}\mathbf{I}^{\star}$$
 Per un circuito che opera in regime AC, composto da $N_{el.}$ bipoli (o porte elettriche) si supponga di misurare i fasori delle tensioni $\mathbf{V}_{k}$ e correnti $\mathbf{I}_{k}$ alle porte, dove $k= 1, \cdots , N_{el.}$, con la stessa convenzione, per esempio la convenzione degli utilizzatori. Nell’ipotesi che dette tensioni soddisfino la KVL, sappiamo che è possibile introdurre i potenziali ai nodi i cui fasori indichiamo con $\mathbf{E}_{n}$. Formiamo la **sommatoria estesa a tutti gli elementi del circuito**:
 $$\sum_{k=1}^{N_{el.}} \frac{1}{2}\mathbf{V}_{k}\mathbf{I}_{k}^{\star}$$
 
-Se le tensioni di porta vengono scritte in funzione dei potenziali ai nodi e la sommatoria viene svolta, come mostrato nella Nota1 per un circuito generico, questa risulta a sua volta la combinazione di termini del tipo:
+Se le tensioni di porta vengono scritte in funzione dei potenziali ai nodi e la sommatoria viene svolta, come mostrato per un circuito generico, questa risulta a sua volta la combinazione di termini del tipo:
+$$\frac{1}{2}\mathbf{E}_{n}\cdot\left( \sum_{Nodo \ n} \right)$$
