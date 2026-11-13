@@ -3989,4 +3989,7 @@ Ciò vale anche separatamente per le parti **reali**, vedi figura 9.10, e **imma
 
 L’argomento di questa sezione riguarda un problema tipico che si affronta nell’ambito dei sistemi per la distribuzione dell’energia elettrica. Studiamo infatti il caso di un utilizzatore inserito in una rete di distribuzione per il quale la tensione ai sui capi viene fissata da una qualche forma di regolazione al valore di picco $V_{m}$ e al quale viene fornita la potenza attiva $P$ (in watt), come mostrato in figura:
 ![[Elettrotecnica-1794602531399.webp|437]]
-#Figura(9.13)
+#Figura(9.13). *Utilizzatore servito da una linea di distribuzione dell’energia elettrica*
+
+Dall’espressione della potenza attiva assorbita:
+$$P=\frac{1}{2}V_{m}I_{m}\cos \phi\to I_{m}=$$
