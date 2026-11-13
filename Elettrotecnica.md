@@ -3943,41 +3943,47 @@ Ciò vale anche separatamente per le parti **reali**, vedi figura 9.10, e **imma
 
 #### #Esercizio(potenze) (1)
 
-Del circuito mostrato in figura si chiede di calcolare la potenza attiva e reattiva erogate dalla sorgente AC ed il fattore di potenza $\cos \phi$:
-![[Elettrotecnica-1794600720606.webp|392]]
-#Figura(9.12). *Circuito in AC*
+> [!question] Esercizio
+> Del circuito mostrato in figura si chiede di calcolare la potenza attiva e reattiva erogate dalla sorgente AC ed il fattore di potenza $\cos \phi$:
+> ![[Elettrotecnica-1794600720606.webp|392]]
+> #Figura(9.12). *Circuito in AC*
+> 
+> Dati:
+> $$v_{s}(t)=10\cos(1000t) \ V \\ R=1 \ k\Omega \\ C = 1 \ \mu F \\ L= 1 \ H$$
+> 
+> 
+> Notiamo che le potenze erogate dalla sorgente sono le potenze assorbite dal bipolo ad essa collegato, dunque valutiamo la potenza complessa assorbita da detto bipolo. Risulta:
+> $$\mathbf{S}=\frac{1}{2}V_{m}^2\mathbf{Y}^{\star}$$
+> dove $\mathbf{Y}$è l’ammettenza equivalente del bipolo.
+> Determiniamo le impedenze del condensatore ed induttore:
+> $$\mathbf{Z}_{c}=-1000j \\ \\ \mathbf{Z}_{l}=1000j$$
+> Da cui calcoliamo l’impedenza del bipolo:
+> $$\mathbf{Z}=\frac{(1-j)\cdot j}{1-j+j}\cdot 1000=(1+j)\cdot 1000$$
+> e l'ammettenza:
+> $$\mathbf{Y}=\frac{1-j}{2000}$$
+> 
+> Quindi:
+> $$\mathbf{S}=\frac{1}{2}(10)^2\frac{(1+j)}{2000}=\frac{25}{1000}(1+j) \\ \\ P= 25 \ m W \\ \\ Q = 25 \ mVAR$$
+> inoltre:
+> $$\phi=atan(1)=\frac{\pi}{4}\to \cos \phi \approx 0.7$$
+> 
+> Verifichiamo la correttezza dei risultati attraverso il bilancio delle potenze. Per questo, valutiamo la corrente nella serie del resistore col condensatore:
+> $$\mathbf{I}_{R}=\mathbf{I}_{C}=\frac{\mathbf{V}_{s}}{R+Z_{c}}=\frac{10}{(1-j)1000}=\frac{10}{2000}(1+j)$$
+> e dell'induttore:
+> $$\mathbf{I}_{l}=\frac{\mathbf{V}_{s}}{Z_{l}}=\frac{10}{j1000}=\frac{1}{100}(-j)$$
+> 
+> Quindi, la potenza attiva assorbita dal resistore vale:
+> $$P_{R}=\frac{1}{2}|\mathbf{I}_{R}|^2R=\frac{1}{2}\left( \frac{\sqrt{ 2 }}{200} \right)^2 1000=\frac{1}{40} \ W$$
+> La potenza reattiva assorbita dal condensatore risulta:
+> $$Q_{c}=\frac{1}{2}|\mathbf{I}_{c}|^2(X_{c})=\frac{1}{2}\left( \frac{\sqrt{ 2 }}{200} \right)^2 (-1000)=-\frac{1}{40} \ VAR$$
+> mentre quella dell'induttore:
+> $$Q_{l}=\frac{1}{2}|\mathbf{I}_{l}|^2(X_{l})=\frac{1}{2}\left( \frac{1}{100} \right)^2 (1000)=\frac{1}{20} \ VAR$$
+> 
+> È facile verificare che i bilanci:
+> $$P=P_{R}\\ \\ Q=Q_{l}+Q_{c}$$
+> sono soddisfatti.
 
-Dati:
-$$v_{s}(t)=10\cos(1000t) \ V \\ R=1 \ k\Omega \\ C = 1 \ \mu F \\ L= 1 \ H$$
 
 
-Notiamo che le potenze erogate dalla sorgente sono le potenze assorbite dal bipolo ad essa collegato, dunque valutiamo la potenza complessa assorbita da detto bipolo. Risulta:
-$$\mathbf{S}=\frac{1}{2}V_{m}^2\mathbf{Y}^{\star}$$
-dove $\mathbf{Y}$è l’ammettenza equivalente del bipolo.
-Determiniamo le impedenze del condensatore ed induttore:
-$$\mathbf{Z}_{c}=-1000j \\ \\ \mathbf{Z}_{l}=1000j$$
-Da cui calcoliamo l’impedenza del bipolo:
-$$\mathbf{Z}=\frac{(1-j)\cdot j}{1-j+j}\cdot 1000=(1+j)\cdot 1000$$
-e l'ammettenza:
-$$\mathbf{Y}=\frac{1-j}{2000}$$
+## 9.5 **Rifasamento**
 
-Quindi:
-$$\mathbf{S}=\frac{1}{2}(10)^2\frac{(1+j)}{2000}=\frac{25}{1000}(1+j) \\ \\ P= 25 \ m W \\ \\ Q = 25 \ mVAR$$
-inoltre:
-$$\phi=atan(1)=\frac{\pi}{4}\to \cos \phi \approx 0.7$$
-
-Verifichiamo la correttezza dei risultati attraverso il bilancio delle potenze. Per questo, valutiamo la corrente nella serie del resistore col condensatore:
-$$\mathbf{I}_{R}=\mathbf{I}_{C}=\frac{\mathbf{V}_{s}}{R+Z_{c}}=\frac{10}{(1-j)1000}=\frac{10}{2000}(1+j)$$
-e dell'induttore:
-$$\mathbf{I}_{l}=\frac{\mathbf{V}_{s}}{Z_{l}}=\frac{10}{j1000}=\frac{1}{100}(-j)$$
-
-Quindi, la potenza attiva assorbita dal resistore vale:
-$$P_{R}=\frac{1}{2}|\mathbf{I}_{R}|^2R=\frac{1}{2}\left( \frac{\sqrt{ 2 }}{200} \right)^2 1000=\frac{1}{40} \ W$$
-La potenza reattiva assorbita dal condensatore risulta:
-$$Q_{c}=\frac{1}{2}|\mathbf{I}_{c}|^2(X_{c})=\frac{1}{2}\left( \frac{\sqrt{ 2 }}{200} \right)^2 (-1000)=-\frac{1}{40} \ VAR$$
-mentre quella dell'induttore:
-$$Q_{l}=\frac{1}{2}|\mathbf{I}_{l}|^2(X_{l})=\frac{1}{2}\left( \frac{1}{100} \right)^2 (1000)=\frac{1}{20} \ VAR$$
-
-È facile verificare che i bilanci:
-$$P=P_{R}\\ \\ Q=Q_{l}+Q_{c}$$
-sono soddisf
