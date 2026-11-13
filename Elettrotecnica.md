@@ -3826,4 +3826,8 @@ $$\mathbf{V}=V_{m}e^{j\phi_{v}}\\ \\ \mathbf{I}=I_{m}e^{j\phi_{i}}\\ \\(9.5)$$
 Introduciamo ora la grandezza **potenza complessa**:
 $$\mathbf{S}=\frac{1}{2}\mathbf{V}\mathbf{I}^{\star}$$
 
-dove $\mathbf{I}^{\star}$
+dove $\mathbf{I}^{\star}$ denota il <u>complesso coniugato del fasore</u> della corrente.
+Ricordando che la definizione di angolo di sfasamento tra tensione e corrente $\phi = \phi_{v}−\phi_{i}$, è facile verificare che:
+$$\begin{align}
+\mathbf{S}=
+\end{align}$$
