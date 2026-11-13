@@ -3748,4 +3748,7 @@ La **potenza istantanea** è dunque composta da un primo termine costante (cioè
 
 
 In molte applicazioni, è rilevante valutare la potenza elettrica che in media viene assorbita da un bipolo, per esempio la nostra abitazione che è vista dalla rete come un bipolo in AC. In particolare viene definita la **potenza media** sul periodo $T=\frac{2\pi}{\omega}$:
-$$P_{m}=\frac{1}{T}\int_{}$$
+$$P_{m}=\frac{1}{T}\int_{0}^T p(t) \ dt=\frac{V_{m}I_{m}}{2}\cos(\phi)$$
+
+che coincide con il termine costante nel tempo (il termine oscillante che ha periodo $\frac{T}{2}$ dà integrale nullo sul periodo).
+La potenza media dunque non dipende solo dalle ampiezze di corrente e tensione ma anche dal loro sfasamento attraverso il termine
