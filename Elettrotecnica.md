@@ -3881,9 +3881,7 @@ Di seguito sono riportati i casi particolari per un resistore o un singolo eleme
 
 ## 9.3 **Rappresentazione col valore efficace**
 
-Utilizzando la definizione di fasore $(9.2)$ basata sul valore di picco
-
-delle sinusoidi, l’espressione della potenza complessa, affinché le
+Utilizzando la [[##  |definizione di fasore]] $(9.2)$ basata sul valore di picco delle sinusoidi, l’espressione della potenza complessa, affinché le
 
 sue parti reale ed immaginaria diano la potenza attiva e reattiva,
 
