@@ -3873,4 +3873,4 @@ dove $|\mathbf{V}|^2=V_{m}^2$ è il <u>quadrato del valore di picco della tensio
 
 Di seguito sono riportati i casi particolari per un resistore o un singoloe elemento dinamico, condensatore o induttore:
 
-- Resistore: 
+- **Resistore**: 
