@@ -3919,3 +3919,6 @@ e reattiva:
 $$\sum_{k=1}^{N_{el.}}Q_{k}=0$$
 Questo risultato prende il nome di **Teorema di Boucherot**.
 
+
+Soffermiamoci ora sul caso di una rete elettrica operante in AC e formata dal collegamento di un bipolo composto e da un bipolo esterno numerato con $0$:
+![[Elettrotecnica-1794584521567.webp]]
