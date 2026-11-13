@@ -3729,3 +3729,5 @@ $$L_{eq}=\frac{(L_{1}L_{2}-M^2)}{L_{1}+L_{2}-2M}$$
 
 ## 9.1 **Potenza istantanea, media, attiva e reattiva**
 
+Un generico bipolo operante in regime sinusoidale, come mostrato in figura, è <mark class="hltr-yellow">descritto dalla coppia di variabili sinusoidali tensione e corrente</mark>:
+$$$$
