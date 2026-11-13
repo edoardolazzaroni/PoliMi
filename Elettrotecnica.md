@@ -3789,4 +3789,12 @@ Per comprendere meglio il significato fisico di tali potenze, <u>consideriamo i 
 	
 	In questo caso, tensione e corrente sono in fase quindi $\phi = 0$ e $\cos \phi= 1$. La potenza istantanea è composta dai soli primi due termini ed ha potenza media non nulla uguale alla potenza attiva:$$P_{m}=P=\frac{V_{m}I_{m}}{2}$$come mostrato in figura:
 	![[Elettrotecnica-1794580406112.webp|412]]
-	#Figura(9.4). Potenza istantanea in un resistore
+	#Figura(9.4). *Potenza istantanea in un resistore*
+
+	
+	Inoltre **in un resistore la potenza istantanea** (**assorbita**) non è **mai negativa**.
+	Questo conferma che un resistore è il modello di un bipolo che può solo assorbire potenza. Dunque la potenza attiva è quella componente della potenza oscillante che è associata ad un effettivo assorbimento medio da parte del bipolo.
+
+
+- Bipolo dinamico, condensatore o induttore.
+
