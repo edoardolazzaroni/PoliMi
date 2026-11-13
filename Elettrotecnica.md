@@ -3967,4 +3967,8 @@ inoltre:
 $$\phi=atan(1)=\frac{\pi}{4}\to \cos \phi \approx 0.7$$
 
 Verifichiamo la correttezza dei risultati attraverso il bilancio delle potenze. Per questo, valutiamo la corrente nella serie del resistore col condensatore:
-$$\mathbf{I}_{R}=\mathbf{I}_{C}=\frac{\mathbf{V}_{s}}{Z_{l}}=\frac{10}{j_{1000}}$$
+$$\mathbf{I}_{R}=\mathbf{I}_{C}=\frac{\mathbf{V}_{s}}{Z_{l}}=\frac{10}{j1000}=\frac{1}{100}(-j)$$
+e dell'induttore:
+$$\mathbf{I}_{l}=\frac{\mathbf{V}_{s}}{Z_{l}}=\frac{10}{j}$$
+
+Quindi, 
