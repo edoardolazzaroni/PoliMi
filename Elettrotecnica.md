@@ -3809,4 +3809,7 @@ Per comprendere meglio il significato fisico di tali potenze, <u>consideriamo i 
 Infine, torniamo alla $(9.2)$ e riscriviamo il solo termine oscillante come:
 $$P\cdot \cos(2\omega t+2\phi_{i})+Q\cdot \cos\left( 2\omega t+2\phi_{i}+\frac{\pi}{2} \right)\quad(9.3)$$
 Usando i **fasori** è facile verificare che la somma delle due sinusoidi (alla pulsazione $2\omega$) dà la sinusoide:
-$$\sqrt{ P^2+Q^2 }\cdot \cos\left( 2\omega t+2\phi_{i}+atan\left( \frac{Q}{P} \right) \right)$$
+$$\sqrt{ P^2+Q^2 }\cdot \cos\left( 2\omega t+2\phi_{i}+atan\left( \frac{Q}{P} \right) \right)\quad(9.4)$$
+
+Il valore di picco della potenza oscillante:
+$$\sqrt{ P^2+Q^2 }=\frac{V_{m}I_{m}}{2} \sqrt{ \cos^2\phi+\sin^2\phi }$$
