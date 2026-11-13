@@ -3743,7 +3743,9 @@ $$\phi=\phi_{v}-\phi_{i}$$
 la differenza tra la fase della tensione e quella della corrente spesso indicato col nome di **sfasamento**.
 
 La **potenza istantanea** è dunque composta da un primo termine costante (cioè che non dipende dal tempo) e da un secondo termine "oscillante" cioè che varia nel tempo come una sinusoide a frequenza $2\omega$. I due termini e la loro composizione sono mostrati nella figura:
-![[Elettrotecnica-1794578648608.webp|375]]
-#Figura(9.2). 
+![[Elettrotecnica-1794578648608.webp|400]]
+#Figura(9.2). *La potenza istantanea è la somma di un termine costante nel tempo e di uno oscillante*
 
-In molte applicazioni, è rilevante valutare la potenza elettrica che in media viene assorbita da un bipolo, per esempio la nostra abitazione che è vista dalla rete come un bipolo in AC. In particolare viene definita la **potenza media** sul periodo
+
+In molte applicazioni, è rilevante valutare la potenza elettrica che in media viene assorbita da un bipolo, per esempio la nostra abitazione che è vista dalla rete come un bipolo in AC. In particolare viene definita la **potenza media** sul periodo $T=\frac{2\pi}{\omega}$:
+$$P_{m}=\frac{1}{T}\int_{}$$
