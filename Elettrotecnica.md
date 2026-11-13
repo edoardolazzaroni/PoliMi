@@ -3772,6 +3772,8 @@ $$\begin{align}
 p(t) = \\ \\ = V_{m}I_{m} \cos \phi\cdot\cos^2(\omega t+\phi_{i})+V_{m}I_{m}\sin \phi\cdot \cos\left( \omega t+\phi_{i}+\frac{\pi}{2} \right)\cdot \cos(\omega t+\phi_{i}) \\
 \\ =\frac{V_{m}I_{m}}{2}\cos(\phi)+\overbrace{\frac{V_{m}I_{m}}{2}\cos(\phi)}^{Potenza \ Attiva}\cdot \cos(2\omega t+2\phi_{i})+\underbrace{\frac{V_{m}I_{m}}{2}\sin \phi}_{Potenza \ \mathrm{Re}attiva}\cdot \cos\left( 2\omega t+2\phi_{i}+\frac{\pi}{2} \right) \\ \\ (9.2) \end{align}$$
 
-Il primo termine nell’espressione $(9.2)$ è costante e, come già visto, corrisponde alla potenza media $P_{m}$. Il secondo termine, dovuto alla componente della tensione in fase con la corrente, è invece una
+Il primo termine nell’espressione $(9.2)$ è costante e, come già visto, corrisponde alla potenza media $P_{m}$. Il secondo termine, dovuto alla **componente della tensione in fase con la corrente**, è invece una funzione oscillante nel tempo la cui ampiezza:
+$$P=\frac{V_{m}I_{m}}{2}\cos \phi$$
+è detta **potenza attiva**; in regime sinusoidale la potenza attiva è uguale alla potenza media $P= P_{m}$.
 
-funzione oscillante nel tempo la cui ampiezza
+Infine, l’ultimo termine, dovuto alla componente della tensione in quadrature con la corrente, è una funzione oscillante di ampiezza
