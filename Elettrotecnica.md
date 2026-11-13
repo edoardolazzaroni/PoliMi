@@ -3944,6 +3944,8 @@ Ciò vale anche separatamente per le parti **reali**, vedi figura 9.10, e **imma
 #### #Esercizio(potenze) (1)
 
 Del circuito mostrato in figura si chiede di calcolare la potenza attiva e reattiva erogate dalla sorgente AC ed il fattore di potenza $\cos \phi$:
-![[Elettrotecnica-1794600685927.webp|299]]
+![[Elettrotecnica-1794600720606.webp|392]]
+#Figura(9.12). *Circuito in AC*
 
 Dati:
+$$v_{s}(t)=10\cos(1000t)$$
