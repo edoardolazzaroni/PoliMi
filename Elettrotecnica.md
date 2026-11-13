@@ -3787,4 +3787,6 @@ Per comprendere meglio il significato fisico di tali potenze, <u>consideriamo i 
 
 - **Bipolo Resistore**.
 	
-	In questo caso, 
+	In questo caso, tensione e corrente sono in fase quindi $\phi = 0$ e $C= 1$. La potenza istantanea è composta dai soli primi due
+
+termini ed ha potenza media non nulla uguale alla potenza attiva
