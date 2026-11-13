@@ -3921,11 +3921,12 @@ Questo risultato prende il nome di **Teorema di Boucherot**.
 
 
 Soffermiamoci ora sul caso di una rete elettrica operante in AC e formata dal collegamento di un bipolo composto e da un bipolo esterno numerato con $0$:
-![[Elettrotecnica-1794584521567.webp|472]]
+![[Elettrotecnica-1794584521567.webp|418]]
 #Figura(9.9). *Rete elettrica formata da un bipolo composto collegato ad un bipolo esterno $0$*
 
 
 Dal Teorema di Boucherot, si ha:
 $$\frac{1}{2}\mathbf{V}_{0}\mathbf{I}_{0}^{\star}+\frac{1}{2}\mathbf{V}_{1}\mathbf{I}_{1}^{\star}+\frac{1}{2}\mathbf{V}_{2}\mathbf{I}_{2}^{\star}+\frac{1}{2}\mathbf{V}_{3}\mathbf{I}_{3}^{\star}+\frac{1}{2}\mathbf{V}_{4}\mathbf{I}_{4}^{\star}=\mathbf{0}$$
 
-Quindi, osservando che le variabili esterne al bipolo composto sono $\mathbf{V}=\mathbf{V}_{}0$ e I=−I0, si può riscrivere:
+Quindi, osservando che le variabili esterne al bipolo composto sono $\mathbf{V}=\mathbf{V}_{0}$ e $n\mathbf{I}=−\mathbf{I}_{0}$, si può riscrivere:
+$$\frac{1}{2}\mathbf{V}\mathbf{I}^{\star}=\frac{1}{2}\mathbf{V}_{1}\mathbf{I}_{1}^{\star}+\frac{1}{2}\mathbf{V}_{0}\mathbf{I}_{0}^{\star}$$
