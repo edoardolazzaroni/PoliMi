@@ -3875,4 +3875,4 @@ Di seguito sono riportati i casi particolari per un resistore o un singolo eleme
 
 - **Resistore**: in questo caso $\mathbf{Y}=G$ e dunque:$$\mathbf{S}=P=\frac{1}{2}|\mathbf{V}|^2G$$
 - **Induttore**: si ha $\mathbf{Y}=j\left( \frac{-1}{\omega L} \right)$e dunque:$$\mathbf{S}=j\frac{1}{2}|\mathbf{V}|^2(-B)=j\frac{1}{2}|\mathbf{V}|^2\left( \frac{1}{\omega L} \right)$$da cui si conferma che la potenza reattiva assorbita dall’induttore è <u>positiva</u>:$$Q=\frac{1}{2}|\mathbf{V}|^2 \frac{1}{\omega L}$$
-- **Condensatore**: si ha $\mathbf{Y}$
+- **Condensatore**: si ha $\mathbf{Y}=j\omega C$ e quindi:$$\mathbf{S}=j\frac{1}{2}|\mathbf{V}|^2(-B)=j\frac{1}{2}|\mathbf{V}|^2(-\omega C)$$che conferma come la potenza reattiva assorbita dal condensatore è <u>negativa</u>:$$$
