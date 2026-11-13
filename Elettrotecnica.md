@@ -3911,4 +3911,4 @@ $$\sum_{k=1}^{N_{el.}} \frac{1}{2}\mathbf{V}_{k}\mathbf{I}_{k}^{\star}$$
 Se le tensioni di porta vengono scritte in funzione dei potenziali ai nodi e la sommatoria viene svolta, come mostrato per un circuito generico, questa risulta a sua volta la combinazione di termini del tipo:
 $$\frac{1}{2}\mathbf{E}_{n}\cdot\left( \sum_{Nodo \ n} \mathbf{I}_{k}^{\star}\right)$$
 cioè del fasore del potenziale al nodo n moltiplicato per la somma dei fasori delle correnti uscenti da quel nodo, coniugati. Se i fasori delle correnti, e quindi i loro complessi coniugati, soddisfano la KCL, ognuno di questi termini è nullo e dunque è nulla la sommatoria complessiva. <mark class="hltr-yellow">Si estende dunque il teorema di Tellegen in regime AC</mark>. In un circuito elettrico, poiché le tensioni e correnti soddisfano le leggi di Kirchhoff (ed anche i legami costitutivi) vale dunque il seguente bilancio delle potenze complesse:
-$$\sum_{k=1}$$
+$$\sum_{k=1}^{N_{el.}} \frac{1}{2}\mathbf{V}_{k}\mathbf{I}_{k}^{\star}=\sum_{k=1}^{N_{el.}}\mathbf{S}_{k}=\sum_{k=1}^{N_{el.}}(P_{k}+jQ_{k})$$
