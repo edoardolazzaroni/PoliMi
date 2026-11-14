@@ -4006,3 +4006,10 @@ Il caso più vantaggioso è quando $\cos \phi= 1$, cioè l’utilizzatore ha pot
 Per questo motivo l’ente erogatore richiede che gli utilizzatori, specialmente quelli più grandi, debbano <u>assicurare un valore minimo del fattore di potenza</u> e in caso non soddisfino tale requisito debbano provvedere a un’operazione chiamata **rifasamento**.
 
 Poiché nella pratica la potenza reattiva degli utilizzatori è di tipo induttivo (quindi $Q > 0 \ VAR$), il rifasamento comunemente consiste nel collegare in parallelo al bipolo un condensatore che introduce potenza reattiva negativa che tende a ridurre quella preesistente, come in figura:
+![[Elettrotecnica-1794654127605.webp|353]]
+#Figura(9.14). *Inserimento di un condensatore di rifasamento*
+
+
+**L’inserimento di un elemento reattivo come il condensatore chiaramente non varia il valore di $P$**. Inoltre si può assumere che anche il valore di picco della tensione Vm rimanga inalterato.
+
+Dunque, se la potenza reattiva prima del rifasamento è:
