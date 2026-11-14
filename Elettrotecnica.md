@@ -4001,6 +4001,18 @@ Infine, la potenza erogata $P_e$ dall’ente fornitore dell’energia sarà data
 $$P_{e}=P_{R}+P=\frac{1}{2}\left( \frac{2P}{V_{m}\cos \phi} \right)^2\cdot R_{s}+P$$
 
 Risulta evidente che minore è il fattore di potenza dell’utilizzatore, cioè maggiore è la potenza reattiva ad esso associata, e maggiore è la potenza attiva complessiva che l’ente fornitore deve erogare a parità di potenza attiva assorbita dall’utente.
-Il caso più vantaggioso è quando $\cos \phi= 1$, cioè l’utilizzatore ha potenza reattiva nulla, per cui è minima Im. La "performance" degrada al ridursi di cos φ fino ad
+Il caso più vantaggioso è quando $\cos \phi= 1$, cioè l’utilizzatore ha potenza reattiva nulla, per cui è minima $I_m$. La "performance" degrada al ridursi di $\cos \phi$ fino ad arrivare al caso limite in cui quando $\cos \phi\to 0$ si ha $I_{m}\to \infty, P_{e}\to \infty$.
 
-arrivare al caso limite in cui quando
+Per questo motivo l’ente erogatore richiede che gli utilizzatori, specialmente quelli più grandi, debbano assicurare un valore minimo del fattore di potenza e in caso non soddifino tale requisito debbano
+
+provvedere a un’operazione chiamata rifasamento.
+
+Poiché nella pratica la potenza reattiva degli utilizzatori è di tipo
+
+induttivo (quindi Q > 0VAR), il rifasamento comunemente consiste
+
+nel collegare in parallelo al bipolo un condensatore che introduce
+
+potenza reattiva negativa che tende a ridurre quella preesistente, vedi
+
+fig
