@@ -4072,3 +4072,6 @@ Un tipico esempio è quello di un’antenna che riceve un segnale che possiamo m
 #Figura(9.16). *Problema del massimo trasferimento di potenza*
 
 
+I parametri del modello, cioè il fasore del generatore (che rappresenta il segnale ricevuto, qui assunto composto da una sola armonica) $\mathbf{E}$ e l’impedenza serie:
+$$\mathbf{Z}_{s}=R_{s}+jX_{s}\quad\quad(R_{s}>0 \ \Omega)$$
+sono **assegnati** e non "accessibili" al progettista.
