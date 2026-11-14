@@ -4040,4 +4040,10 @@ Dalla $(9.8)$ valutiamo il valore di picco della corrente:
 $$I_{m}=\frac{2\cdot 1000}{100\sqrt{ 2 }\cdot \frac{\sqrt{ 2 }}{2}}=200 \ A$$
 e la potenza assorbita dal resistore di linea:
 $$P_{R}=\frac{1}{2}200^2\cdot 0.1=2 \ kW$$
-Dunque, in questo s
+Dunque, in questo scenario, la potenza erogata vale:
+$$P_{e}=P_{R}+P=12 \ kW$$
+
+
+Supponiamo che ci venga imposto un fattore di potenza tale che:
+$$\cos\tilde{\phi}=0.9$$
+valutiamo la capacit
