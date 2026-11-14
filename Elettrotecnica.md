@@ -4023,4 +4023,9 @@ come mostrato in figura:
 
 
 Tale variazione è **negativa**, quindi uguagliando il modulo della variazione al modulo della potenza reattiva del condensatore (che è pure negativa), si ottiene:
-$$P\tan \phi-P\tan$$
+$$P\tan \phi-P\tan\tilde{\phi}=\frac{1}{2}V_{m}^2 \ \omega \ C_{rif}$$
+da cui è facile ricavare il valore di $C_{rif}$ richiesto.
+
+
+
+#### #Esercizio(potenze) (1)
