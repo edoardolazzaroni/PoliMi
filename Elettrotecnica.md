@@ -4010,6 +4010,8 @@ Poiché nella pratica la potenza reattiva degli utilizzatori è di tipo induttiv
 #Figura(9.14). *Inserimento di un condensatore di rifasamento*
 
 
-**L’inserimento di un elemento reattivo come il condensatore chiaramente non varia il valore di $P$**. Inoltre si può assumere che anche il valore di picco della tensione Vm rimanga inalterato.
-
+**L’inserimento di un elemento reattivo come il condensatore chiaramente non varia il valore di $P$**. Inoltre si può assumere che anche il valore di picco della tensione $V_{m}$ rimanga inalterato.
 Dunque, se la potenza reattiva prima del rifasamento è:
+$$Q=P\tan \phi$$
+e indichiano con $\tilde{\phi}$ l'angolo di fase a rifasamento avvenuto, ovvero:
+$$\cos\tilde{\phi}=$$
