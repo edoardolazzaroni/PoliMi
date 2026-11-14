@@ -3999,3 +3999,8 @@ $$P_{R}=\frac{1}{2}I_{m}^2R_{s}$$
 
 Infine, la potenza erogata $P_e$ dall’ente fornitore dell’energia sarà data da:
 $$P_{e}=P_{R}+P=\frac{1}{2}\left( \frac{2P}{V_{m}\cos \phi} \right)^2\cdot R_{s}+P$$
+
+Risulta evidente che minore è il fattore di potenza dell’utilizzatore, cioè maggiore è la potenza reattiva ad esso associata, e maggiore è la potenza attiva complessiva che l’ente fornitore deve erogare a parità di potenza attiva assorbita dall’utente.
+Il caso più vantaggioso è quando $\cos \phi= 1$, cioè l’utilizzatore ha potenza reattiva nulla, per cui è minima Im. La "performance" degrada al ridursi di cos φ fino ad
+
+arrivare al caso limite in cui quando
