@@ -4050,4 +4050,7 @@ valutiamo la capacità di rifasamento necessaria per soddisfare questa specifica
 Poichè $\tan\tilde{\phi}=0.48$, si deriva:
 $$\tilde{Q}=P\tan\tilde{\phi}=4.8 \ kVAR$$
 e quindi:
-$$$
+$$\Delta Q=-10000+4800=-5.2 \ kVAR$$
+
+Infine:
+$$|\Delta Q|=\frac{1}{2}V_{m}^2 \ \omega \ C_{rif}\to C_{rif}=\f$$
