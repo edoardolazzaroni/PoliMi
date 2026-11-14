@@ -4106,4 +4106,21 @@ detta **potenza utilizzabile**.
 
 
 
-# **Capitolo X: Transito**
+# **Capitolo X: Transitorio**
+
+
+## 10.1 **Risposta completa di un circuito dinamico con condensatore**
+
+In questo capitolo esaminiamo la risposta completa nel tempo di uncircuito elettrico che contiene un elemento dinamico di tipo con-
+
+densatore. Il focus è sulla componente "transitoria" dell’evoluzione
+
+temporale della risposta che precede il raggiungimento di un regime
+
+(DC o AC). Partiamo dal caso DC, cioè quando tutti le sorgenti nel
+
+circuito sono di tipo costante nel tempo. La fig.1.1(Sinistra) mostra
+
+questo caso mettendo in evidenza il condensatore e il circuito resis-
+
+tivo uno-porta ad esso collegato ai morsetti A−B.
