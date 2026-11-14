@@ -4118,6 +4118,6 @@ Partiamo dal caso DC, cioè quando tutti le sorgenti nel circuito sono di tipo c
 #Figura(10.1). *Circuito di ordine uno con condensatore (Sinistra); circuito equivalente "visto" dal condensatore (Destra)*
 
 
-Inoltre facciamo l’ipotesi che tale circuito uno-porta ammetta l’equivalente di tipo Thevenin con parametri $E_{eq}$ e $R_{eq} \ne 0 \ \Omega$ come mostrato in figura (Destra). Ragionando su tale equivalente è facile ricavare l’equazione differenziale che governa la variabile tensione
-
-sul condensatore:
+Inoltre facciamo l’ipotesi che tale circuito uno-porta ammetta l’equivalente di tipo Thevenin con parametri $E_{eq}$ e $R_{eq} \ne 0 \ \Omega$ come mostrato in figura (Destra). Ragionando su tale equivalente è facile ricavare **l’equazione differenziale che governa la variabile tensione sul condensatore**:
+$$\tau\frac{dv_{c}(t)}{dt}+v_{c}(t)=E_{eq}\quad(10.1)$$
+dove la quantità $\tau=R_{eq}C$ viene detta la costante di tempo del circuito.
