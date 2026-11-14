@@ -4100,4 +4100,10 @@ La soluzione fisica è dunque $R_{L} = R_{s}$ che unita alla condizione sulla re
 $$\mathbf{Z}_{L}=\mathbf{Z}_{s}^{\star}$$
 In questa condizione, si dice che **il carico è adattato** o anche adattato su base coniugata.
 Se adattato, il carico assorbe la potenza massima:
-$$P_{L}^{max}=\frac{\frac{1}{8}|\mathbf{E}|^2}{}$$
+$$P_{L}^{max}=\frac{1}{8} \frac{|\mathbf{E}|^2}{R_{s}}$$
+detta **potenza utilizzabile**.
+
+
+
+
+# **Capitolo X: Transito**
