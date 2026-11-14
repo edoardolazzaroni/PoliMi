@@ -4014,4 +4014,7 @@ Poiché nella pratica la potenza reattiva degli utilizzatori è di tipo induttiv
 Dunque, se la potenza reattiva prima del rifasamento è:
 $$Q=P\tan \phi$$
 e indichiano con $\tilde{\phi}$ l'angolo di fase a rifasamento avvenuto, ovvero:
-$$\cos\tilde{\phi}=$$
+$$\cos\tilde{\phi}=fattore \ di \ potenza \ del \ carico \ rifasato$$
+si ha che la variazione di potenza reattiva deve valere:
+$$\Delta Q=-P\tan \phi+P\tan\tilde{\phi}$$
+come mostrato in figura:
