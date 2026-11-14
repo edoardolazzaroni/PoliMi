@@ -3941,7 +3941,7 @@ Ciò vale anche separatamente per le parti **reali**, vedi figura 9.10, e **imma
 
 
 
-#### #Esercizio(potenze) (1)
+#### #Esercizio(potenze)
 
 > [!question] Esercizio
 > Del circuito mostrato in figura si chiede di calcolare la potenza attiva e reattiva erogate dalla sorgente AC ed il fattore di potenza $\cos \phi$:
@@ -4028,4 +4028,7 @@ da cui è facile ricavare il valore di $C_{rif}$ richiesto.
 
 
 
-#### #Esercizio(potenze) (1)
+#### #Esercizio(numerico)
+
+Sono dati:
+$$V_{m}=100\sqrt{ 2 } \ V \\ \omega=2\pi\cdot 50 \ rad/s \\ P= 10 \ kW \\ $$
