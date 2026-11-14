@@ -4075,3 +4075,6 @@ Un tipico esempio è quello di un’antenna che riceve un segnale che possiamo m
 I parametri del modello, cioè il fasore del generatore (che rappresenta il segnale ricevuto, qui assunto composto da una sola armonica) $\mathbf{E}$ e l’impedenza serie:
 $$\mathbf{Z}_{s}=R_{s}+jX_{s}\quad\quad(R_{s}>0 \ \Omega)$$
 sono **assegnati** e non "accessibili" al progettista.
+
+I fili provenienti dall’antenna devono essere collegati ad un amplificatore di cui viene modellata l’impedenza di ingresso $\mathbf{Z}_{L} =R_{L} + jX_{L}$. I parametri dell’impedenza di ingresso possono essere modificati dal progettista allo scopo di ottimizzare la ricezione del segnale che avviene quando è massima la potenza attiva assorbita da $\mathbf{Z}_{L}$.
+Ci chiediamo quali siano i valori di tali parametri, con la condizione ulteriore che per la fisica realizzabilità $RL > 0 $.
