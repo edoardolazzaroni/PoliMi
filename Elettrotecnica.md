@@ -4065,3 +4065,10 @@ da cui è facile ricavare il valore di $C_{rif}$ richiesto.
 
 ## 9.6 **Teorema del massimo trasferimento di potenza**
 
+L’argomento di questa sezione riveste <mark class="hltr-yellow">notevole importanza nell’ambito dei sistemi di ricetrasmissione delle telecomunicazioni</mark>.
+
+Un tipico esempio è quello di un’antenna che riceve un segnale che possiamo modellare con un circuito di tipo Thevenin come mostrato in figura:
+![[Elettrotecnica-1794655220267.webp|432]]
+#Figura(9.16). *Problema del massimo trasferimento di potenza*
+
+
