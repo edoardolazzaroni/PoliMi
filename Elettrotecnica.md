@@ -4018,3 +4018,9 @@ $$\cos\tilde{\phi}=fattore \ di \ potenza \ del \ carico \ rifasato$$
 si ha che la variazione di potenza reattiva deve valere:
 $$\Delta Q=-P\tan \phi+P\tan\tilde{\phi}$$
 come mostrato in figura:
+![[Elettrotecnica-1794654314601.webp|305]]
+#Figura(9.15). *Triangolo delle potenze prima e dopo il rifasamento*
+
+
+Tale variazione è **negativa**, quindi uguagliando il modulo della variazione al modulo della potenza reattiva del condensatore (che è pure negativa), si ottiene:
+$$P\tan \phi-P\tan$$
