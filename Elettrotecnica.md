@@ -4131,5 +4131,5 @@ $$v_{c}(t)=v_{ch}(t)+v_{cp}(t)\quad(10.2)$$
 composta da due termini, come discusso nel seguito:
 
 1) Il primo termine nella $(10.2)$, è la soluzione generale dell'equazione omogenea associata:$$\tau\frac{dv_{c}(t)}{dt}+v_{c}(t)=0\quad(10.3)$$cioè ell’equazione differenziale ottenuta azzerando il temine noto. L’espressione generale che la risolve è la seguente:$$v_{ch}(t)=Ke^{\lambda(t-t_{0})}\quad(10.4)$$dove $\lambda,K$ sono due parametri incogniti da determinare.
-	Sostituendo $v_{c}(t)=v_{ch}(t)$ nella $(10.3)$ si ottiene:$$\tau \lambda Ke^{lam\bra{(t)} }$$
+	Sostituendo $v_{c}(t)=v_{ch}(t)$ nella $(10.3)$ si ottiene:$$\tau \lambda Ke^{\lambda(t-t_{0})}+Ke^{\lambda(t-t_{0})}=(\tau \lambda+1)Ke^{\lambda(t-t_{0})}=0\quad(10.5)$$Dividendo per 
 2) 
