@@ -4123,3 +4123,6 @@ $$\tau\frac{dv_{c}(t)}{dt}+v_{c}(t)=E_{eq}\quad(10.1)$$
 dove la quantità $\tau=R_{eq}C$ viene detta la **costante di tempo** del circuito.
 Osserviamo che nel caso di soli sorgenti in DC, il termine noto, che appare al membro di destra nella $(10.1)$, è una costante.
 Vogliamo determinare l’espressione generale di $v_{c}(t)$ che risolve la $(10.1)$ con l’aggiunta dell’informazione del valore di tale tensione in un istante di tempo arbitrario $t_{0}$ assunto come origine dei tempi, cioè:
+$$v_{c}(t_{0})=v_{c_{0}}$$
+Tale problema matematico prende il nome di <mark class="hltr-yellow">Problema ai valori iniziali di Cauchy</mark>.
+
