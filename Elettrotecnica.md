@@ -4031,4 +4031,6 @@ da cui è facile ricavare il valore di $C_{rif}$ richiesto.
 #### #Esercizio(numerico)
 
 Sono dati:
-$$V_{m}=100\sqrt{ 2 } \ V \\ \omega=2\pi\cdot 50 \ rad/s \\ P= 10 \ kW \\ $$
+$$V_{m}=100\sqrt{ 2 } \ V \\ \omega=2\pi\cdot 50 \ rad/s \\ P= 10 \ kW \\ \cos \phi=\frac{\sqrt{ 2 }}{2}\approx 0.707 \\ R_{s}=0.1 \ \Omega$$
+Con questi dati, si ha che:
+$$\phi=45^o \\ \\ Q=$$
