@@ -4126,4 +4126,5 @@ Vogliamo determinare l’espressione generale di $v_{c}(t)$ che risolve la $(10.
 $$v_{c}(t_{0})=v_{c_{0}}$$
 Tale problema matematico prende il nome di <mark class="hltr-yellow">Problema ai valori iniziali di Cauchy</mark>.
 
-Come già in parte anticipato nel il regime AC), dall’Analisi Matematica sappiamo che tale forma risolutiva è un’espressione del tipo:
+Come già in parte anticipato nel [[#]] regime AC, dall’Analisi Matematica sappiamo che tale forma risolutiva è un’espressione del tipo:
+$$v_{c}(t)=v_{ch}(t)+v_{cp}(t)$$
