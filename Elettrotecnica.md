@@ -4046,4 +4046,8 @@ $$P_{e}=P_{R}+P=12 \ kW$$
 
 Supponiamo che ci venga imposto un fattore di potenza tale che:
 $$\cos\tilde{\phi}=0.9$$
-valutiamo la capacit
+valutiamo la capacità di rifasamento necessaria per soddisfare questa specifica.
+Poichè $\tan\tilde{\phi}=0.48$, si deriva:
+$$\tilde{Q}=P\tan\tilde{\phi}=4.8 \ kVAR$$
+e quindi:
+$$$
