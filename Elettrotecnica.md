@@ -4092,4 +4092,12 @@ cioè ad essere una funzione della sola $R_{L}$. Con un semplice studio di funzi
 $$\frac{dP_{L}(R_{L})}{R_{L}}=\frac{0.5\cdot|\mathbf{E}|^2}{(R_{s}+R_{L})^4}\cdot[(R_{s}+R_{L})^2-R_{L}2(R_{s}+R_{L})]\quad(9.11)$$
 
 si annulla, cioè:
-$$R_{s}^2+R_{L}^2+2R_{s}R_{L}-2R_{L}R_{s}$$
+$$R_{s}^2+R_{L}^2+2R_{s}R_{L}-2R_{L}R_{s}-2R_{L}^2=0$$
+che si semplifica in:
+$$R_{s}^2-R_{L}^2=0\to R_{L}=\pm R_{s}$$
+
+La soluzione fisica è dunque $RL = R:s$ che unita alla condizione sulla
+
+reattanza ci porta alla conclusione che il massimo trasferimento di
+
+potenza si ha quando:
