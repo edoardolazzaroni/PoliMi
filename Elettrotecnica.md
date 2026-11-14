@@ -4053,4 +4053,4 @@ e quindi:
 $$\Delta Q=-10000+4800=-5.2 \ kVAR$$
 
 Infine:
-$$|\Delta Q|=\frac{1}{2}V_{m}^2 \ \omega \ C_{rif}\to C_{rif}=\frac{2\cdot|\Delta Q|}{V_{m}^2 \ \omega}=\frac{2\cdot 5200}$$
+$$|\Delta Q|=\frac{1}{2}V_{m}^2 \ \omega \ C_{rif}\to C_{rif}=\frac{2\cdot|\Delta Q|}{V_{m}^2 \ \omega}=\frac{2\cdot 5200}{20000 \ 2\pi 50}$$
