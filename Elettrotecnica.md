@@ -4056,4 +4056,6 @@ Infine:
 $$|\Delta Q|=\frac{1}{2}V_{m}^2 \ \omega \ C_{rif}\to C_{rif}=\frac{2\cdot|\Delta Q|}{V_{m}^2 \ \omega}=\frac{2\cdot 5200}{20000 \ 2\pi 50}=1.66 \ mF$$
 
 La corrente che scorre nel carico rifasato (a valle del condensatore, vedi figura 9.14) si ricava dalla $(9.8)$:
-$$\tilde{I}_{m}=\frac{2\cdot 10000}$$
+$$\tilde{I}_{m}=\frac{2\cdot 10000}{100\sqrt{ 2 }\cdot 0.9}=157 \ A$$
+che corrisponde alla potenza dissipata nella linea e potenza erogata:
+$$P_{R}=\frac{1}{2}157^2\cdot 0.1=1235 \ kW\to P_{e}=11235 \ kW$$
