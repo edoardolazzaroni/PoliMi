@@ -4033,4 +4033,8 @@ da cui è facile ricavare il valore di $C_{rif}$ richiesto.
 Sono dati:
 $$V_{m}=100\sqrt{ 2 } \ V \\ \omega=2\pi\cdot 50 \ rad/s \\ P= 10 \ kW \\ \cos \phi=\frac{\sqrt{ 2 }}{2}\approx 0.707 \\ R_{s}=0.1 \ \Omega$$
 Con questi dati, si ha che:
-$$\phi=45^o \\ \\ Q=$$
+$$\phi=45^o \\ \\ Q=P\tan 45^o=10 \ kVAR$$
+
+
+Dalla $(9.8)$ valutiamo il valore di picco della corrente:
+$$I_{m}=\frac{2\cdot 1000}{}$$
