@@ -4053,4 +4053,7 @@ e quindi:
 $$\Delta Q=-10000+4800=-5.2 \ kVAR$$
 
 Infine:
-$$|\Delta Q|=\frac{1}{2}V_{m}^2 \ \omega \ C_{rif}\to C_{rif}=\frac{2\cdot|\Delta Q|}{V_{m}^2 \ \omega}=\frac{2\cdot 5200}{20000 \ 2\pi 50}$$
+$$|\Delta Q|=\frac{1}{2}V_{m}^2 \ \omega \ C_{rif}\to C_{rif}=\frac{2\cdot|\Delta Q|}{V_{m}^2 \ \omega}=\frac{2\cdot 5200}{20000 \ 2\pi 50}=1.66 \ mF$$
+
+La corrente che scorre nel carico rifasato (a valle del condensatore, vedi figura 9.14) si ricava dalla $(9.8)$:
+$$\tilde{I}_{m}=\frac{2\cdot 10000}$$
