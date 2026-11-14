@@ -4080,4 +4080,6 @@ I fili provenienti dall’antenna devono essere collegati ad un amplificatore di
 Ci chiediamo quali siano i valori di tali parametri, con la condizione ulteriore che per la fisica realizzabilità $R_{L} > 0 \ \Omega$.
 
 A tal fine, calcoliamo la corrente nella maglia:
-$$\mathbf{I}=\frac{\mathbf{E}}{\mathbf{Z}_{s}}$$
+$$\mathbf{I}=\frac{\mathbf{E}}{\mathbf{Z}_{s}+\mathbf{Z}_{s}}=\frac{\mathbf{E}}{(R_{s}+R_{L})+j(X_{s}+X_{L})}$$
+e quindi la potenza assorbita dal carico:
+$$P_{L}(R_{L},X_{L})=\frac{1}{2}\frac{|\mathbf{E}|}$$
