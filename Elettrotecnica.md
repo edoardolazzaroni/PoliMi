@@ -4113,11 +4113,13 @@ detta **potenza utilizzabile**.
 
 In questo capitolo esaminiamo<mark class="hltr-yellow"> la risposta completa nel tempo di un circuito elettrico che contiene un elemento dinamico di tipo condensatore</mark>. Il focus è sulla componente "transitoria" dell’evoluzione temporale della risposta che precede il raggiungimento di un regime (DC o AC). 
 
-Partiamo dal caso DC, cioè quando tutti le sorgenti nel circuito sono di tipo costante nel tempo. La figura (Sinistra) mostra questo caso mettendo in evidenza il condensatore e il circuito resistivo uno-porta ad esso collegato ai morsetti $A−B$:
+Partiamo dal <u>caso DC</u>, cioè quando tutti le sorgenti nel circuito sono di tipo costante nel tempo. La figura (Sinistra) mostra questo caso mettendo in evidenza il condensatore e il circuito resistivo uno-porta ad esso collegato ai morsetti $A−B$:
 ![[Elettrotecnica-1794656135714.webp|598]]
 #Figura(10.1). *Circuito di ordine uno con condensatore (Sinistra); circuito equivalente "visto" dal condensatore (Destra)*
 
 
 Inoltre facciamo l’ipotesi che tale circuito uno-porta ammetta l’equivalente di tipo Thevenin con parametri $E_{eq}$ e $R_{eq} \ne 0 \ \Omega$ come mostrato in figura (Destra). Ragionando su tale equivalente è facile ricavare **l’equazione differenziale che governa la variabile tensione sul condensatore**:
 $$\tau\frac{dv_{c}(t)}{dt}+v_{c}(t)=E_{eq}\quad(10.1)$$
-dove la quantità $\tau=R_{eq}C$ viene detta la costante di tempo del circuito.
+dove la quantità $\tau=R_{eq}C$ viene detta la **costante di tempo** del circuito.
+Osserviamo che nel caso di soli sorgenti in DC, il termine noto, che appare al membro di destra nella $(10.1)$, è una costante.
+Vogliamo determinare l’espressione generale di $v_{c}(t)$ che risolve la $(10.1)$ con l’aggiunta dell’informazione del valore di tale tensione in un istante di tempo arbitrario $t_{0}$ assunto come origine dei tempi, cioè:
