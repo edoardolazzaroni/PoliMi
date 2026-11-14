@@ -4084,6 +4084,7 @@ $$\mathbf{I}=\frac{\mathbf{E}}{\mathbf{Z}_{s}+\mathbf{Z}_{s}}=\frac{\mathbf{E}}{
 e quindi la potenza assorbita dal carico:
 $$P_{L}(R_{L},X_{L})=\frac{1}{2}\frac{|\mathbf{E}|^2\cdot R_{L}}{(R_{s}+R_{L})^2+(X_{s}+X_{L})^2}\quad(9.9)$$
 
-Per quel che riguarda il parametro $X_{L}$, questo può assumere sia valori positivi che negativi. Quindi è intuitivo concludere che il valore che minimizza il denominatore di (1.9) è quello per cui si elide il
-
-termine:
+Per quel che riguarda il parametro $X_{L}$, questo può assumere sia valori positivi che negativi. Quindi è intuitivo concludere che il valore che minimizza il denominatore della $(9.9)$ è quello per cui si elide il termine:
+$$X_{s}+X_{L}=0\to X_{L}=-X_{s}$$
+Grazie a questa posizione la potenza nel carico si riduce a:
+$$P_{L}(R_{L})=\frac{1}{2}\frac{|\mathbf{E}|^}$$
