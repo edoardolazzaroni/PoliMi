@@ -4114,3 +4114,10 @@ detta **potenza utilizzabile**.
 In questo capitolo esaminiamo<mark class="hltr-yellow"> la risposta completa nel tempo di un circuito elettrico che contiene un elemento dinamico di tipo condensatore</mark>. Il focus è sulla componente "transitoria" dell’evoluzione temporale della risposta che precede il raggiungimento di un regime (DC o AC). 
 
 Partiamo dal caso DC, cioè quando tutti le sorgenti nel circuito sono di tipo costante nel tempo. La figura (Sinistra) mostra questo caso mettendo in evidenza il condensatore e il circuito resistivo uno-porta ad esso collegato ai morsetti $A−B$:
+![[Elettrotecnica-1794656135714.webp|598]]
+#Figura(10.1). *Circuito di ordine uno con condensatore (Sinistra); circuito equivalente "visto" dal condensatore (Destra)*
+
+
+Inoltre facciamo l’ipotesi che tale circuito uno-porta ammetta l’equivalente di tipo Thevenin con parametri $E_{eq}$ e $R_{eq} \ne 0 \ \Omega$ come mostrato in figura (Destra). Ragionando su tale equivalente è facile ricavare l’equazione differenziale che governa la variabile tensione
+
+sul condensatore:
