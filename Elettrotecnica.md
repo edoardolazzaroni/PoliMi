@@ -4030,32 +4030,38 @@ da cui è facile ricavare il valore di $C_{rif}$ richiesto.
 
 #### #Esercizio(numerico)
 
-Sono dati:
-$$V_{m}=100\sqrt{ 2 } \ V \\ \omega=2\pi\cdot 50 \ rad/s \\ P= 10 \ kW \\ \cos \phi=\frac{\sqrt{ 2 }}{2}\approx 0.707 \\ R_{s}=0.1 \ \Omega$$
-Con questi dati, si ha che:
-$$\phi=45^o \\ \\ Q=P\tan 45^o=10 \ kVAR$$
+> [!question] Esercizio
+> Sono dati:
+> $$V_{m}=100\sqrt{ 2 } \ V \\ \omega=2\pi\cdot 50 \ rad/s \\ P= 10 \ kW \\ \cos \phi=\frac{\sqrt{ 2 }}{2}\approx 0.707 \\ R_{s}=0.1 \ \Omega$$
+> Con questi dati, si ha che:
+> $$\phi=45^o \\ \\ Q=P\tan 45^o=10 \ kVAR$$
+> 
+> 
+> Dalla $(9.8)$ valutiamo il valore di picco della corrente:
+> $$I_{m}=\frac{2\cdot 1000}{100\sqrt{ 2 }\cdot \frac{\sqrt{ 2 }}{2}}=200 \ A$$
+> e la potenza assorbita dal resistore di linea:
+> $$P_{R}=\frac{1}{2}200^2\cdot 0.1=2 \ kW$$
+> Dunque, in questo scenario, la potenza erogata vale:
+> $$P_{e}=P_{R}+P=12 \ kW$$
+> 
+> 
+> Supponiamo che ci venga imposto un fattore di potenza tale che:
+> $$\cos\tilde{\phi}=0.9$$
+> valutiamo la capacità di rifasamento necessaria per soddisfare questa specifica.
+> Poichè $\tan\tilde{\phi}=0.48$, si deriva:
+> $$\tilde{Q}=P\tan\tilde{\phi}=4.8 \ kVAR$$
+> e quindi:
+> $$\Delta Q=-10000+4800=-5.2 \ kVAR$$
+> 
+> Infine:
+> $$|\Delta Q|=\frac{1}{2}V_{m}^2 \ \omega \ C_{rif}\to C_{rif}=\frac{2\cdot|\Delta Q|}{V_{m}^2 \ \omega}=\frac{2\cdot 5200}{20000 \ 2\pi 50}=1.66 \ mF$$
+> 
+> La corrente che scorre nel carico rifasato (a valle del condensatore, vedi figura 9.14) si ricava dalla $(9.8)$:
+> $$\tilde{I}_{m}=\frac{2\cdot 10000}{100\sqrt{ 2 }\cdot 0.9}=157 \ A$$
+> che corrisponde alla potenza dissipata nella linea e potenza erogata:
+> $$P_{R}=\frac{1}{2}157^2\cdot 0.1=1235 \ kW\to P_{e}=11235 \ kW$$
 
 
-Dalla $(9.8)$ valutiamo il valore di picco della corrente:
-$$I_{m}=\frac{2\cdot 1000}{100\sqrt{ 2 }\cdot \frac{\sqrt{ 2 }}{2}}=200 \ A$$
-e la potenza assorbita dal resistore di linea:
-$$P_{R}=\frac{1}{2}200^2\cdot 0.1=2 \ kW$$
-Dunque, in questo scenario, la potenza erogata vale:
-$$P_{e}=P_{R}+P=12 \ kW$$
 
+## 9.6 **Teorema del massimo trasferimento di potenza**
 
-Supponiamo che ci venga imposto un fattore di potenza tale che:
-$$\cos\tilde{\phi}=0.9$$
-valutiamo la capacità di rifasamento necessaria per soddisfare questa specifica.
-Poichè $\tan\tilde{\phi}=0.48$, si deriva:
-$$\tilde{Q}=P\tan\tilde{\phi}=4.8 \ kVAR$$
-e quindi:
-$$\Delta Q=-10000+4800=-5.2 \ kVAR$$
-
-Infine:
-$$|\Delta Q|=\frac{1}{2}V_{m}^2 \ \omega \ C_{rif}\to C_{rif}=\frac{2\cdot|\Delta Q|}{V_{m}^2 \ \omega}=\frac{2\cdot 5200}{20000 \ 2\pi 50}=1.66 \ mF$$
-
-La corrente che scorre nel carico rifasato (a valle del condensatore, vedi figura 9.14) si ricava dalla $(9.8)$:
-$$\tilde{I}_{m}=\frac{2\cdot 10000}{100\sqrt{ 2 }\cdot 0.9}=157 \ A$$
-che corrisponde alla potenza dissipata nella linea e potenza erogata:
-$$P_{R}=\frac{1}{2}157^2\cdot 0.1=1235 \ kW\to P_{e}=11235 \ kW$$
