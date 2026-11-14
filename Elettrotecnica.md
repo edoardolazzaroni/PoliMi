@@ -4096,8 +4096,8 @@ $$R_{s}^2+R_{L}^2+2R_{s}R_{L}-2R_{L}R_{s}-2R_{L}^2=0$$
 che si semplifica in:
 $$R_{s}^2-R_{L}^2=0\to R_{L}=\pm R_{s}$$
 
-La soluzione fisica è dunque $RL = R:s$ che unita alla condizione sulla
-
-reattanza ci porta alla conclusione che il massimo trasferimento di
-
-potenza si ha quando:
+La soluzione fisica è dunque $R_{L} = R_{s}$ che unita alla condizione sulla reattanza ci porta alla conclusione che il massimo trasferimento di potenza si ha quando:
+$$\mathbf{Z}_{L}=\mathbf{Z}_{s}^{\star}$$
+In questa condizione, si dice che **il carico è adattato** o anche adattato su base coniugata.
+Se adattato, il carico assorbe la potenza massima:
+$$P_{L}^{max}=\frac{\frac{1}{8}|\mathbf{E}|^2}{}$$
