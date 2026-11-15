@@ -4248,10 +4248,7 @@ dove la quantità $\tau=L \ G_{eq}=\frac{L}{R_{eq}}$ è ora  la **costante di t
 
 Vogliamo determinare l’espressione generale di $i_{L}(t)$ che risolve la $(10.15)$ con l’aggiunta dell’informazione del valore della corrente in un istante di tempo arbitrario $t_{0}$ assunto come origine dei tempi, cioè:
 $$i_{L}(t_{0})=i_{L}(0)$$
-Osserviamo come la $(10.15)$ sia formalmente uguale all’equazione $(10.1) studiata per il condensatore dopo aver sostituito la variabile ten-
-
-sione con la corrente nell’induttore. Seguendo il medesimo proced-
-
-imento si verifica per esempio che la pulsazione naturale in questo
-
-caso vale
+Osserviamo come la $(10.15)$ sia formalmente uguale all’equazione $(10.1)$ studiata per il condensatore dopo aver sostituito la variabile tensione con la corrente nell’induttore. Seguendo il medesimo procedimento si verifica per esempio che la pulsazione naturale in questo caso vale:
+$$\lambda=-\frac{1}{\tau}=-\frac{1}{G_{eq}L}=-\frac{R_{eq}}{L}$$
+Inoltre la soluzione generale assume l’espressione:
+$$i_{L}(t)=(i_{L_{0}}-I_{eq})$$
