@@ -4189,12 +4189,5 @@ come mostrato nel grafico in figura:
 
 ### Calcolo delle altre variabili nel circuito:
 
-In un circuito dinamico contenente un condensatore, la risposta viene prima di tutto calcolata per la variabile tensione sul conden-
-
-satore, come illustrato nei passaggi precedenti. Dopodiché tutte le
-
-altre variabili elettriche possono essere dedotte immaginando di sos-
-
-tituire il condensatore con un generatore di tensione che impone la
-
-tensione di forma d’onda vc(t), come mostrato in fig.
+In un circuito dinamico contenente un condensatore, la risposta viene prima di tutto calcolata per la variabile tensione sul condensatore, come illustrato nei passaggi precedenti. Dopodiché tutte le altre variabili elettriche possono essere dedotte immaginando di sostituire il condensatore con un generatore di tensione che impone la tensione di forma d’onda $v_{c}(t)$, come mostrato in figura:
+![[Elettrotecnica-1794737244376.webp]]
