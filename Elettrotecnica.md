@@ -4265,62 +4265,66 @@ $$v_{L}(t)=0 \ V$$
 
 #### #Esercizio(circuito con induttore)
 
-Applichiamo la teoria sviluppata nella sezione precedente al circuito mostrato in figura, che contiene un induttore ed un generatore di corrente pilotato in corrente:
-![[Elettrotecnica-1794749069166.webp|443]]
-#Figura(10.12). *Circuito dinamico con induttore*
+> [!question] Esercizio
+> Applichiamo la teoria sviluppata nella sezione precedente al circuito mostrato in figura, che contiene un induttore ed un generatore di corrente pilotato in corrente:
+> ![[Elettrotecnica-1794749069166.webp|443]]
+> #Figura(10.12). *Circuito dinamico con induttore*
+> 
+> I dati sono:
+> $$E=20 \ V \\ R_{1}=R_{2}=10 \ \Omega \\ L= 1 \ mH \\ \beta= 8$$
+> inoltre è nota la <u>condizione iniziale</u> $i_{L}(0)= 0 \ A$.
+> 
+> Per questo, determiniamo per primo il circuito equivalente di tipo Norton "visto" dall’induttore. La figura seguente mostra la prova semplice per il calcolo del parametro $R_{eq}$:
+> ![[Elettrotecnica-1794749180569.webp|336]]
+> #Figura(10.13). *Calcolo del parametro $R_{eq}$*
+> 
+> Si ottiene:
+> $$I=\frac{V}{R_{1}}+\frac{V}{R_{2}}+\beta\frac{V}{R_{2}}=V\left( \frac{1}{R_{1}}+\frac{9}{R_{2}} \right)=V\cdot 1$$
+> da cui:
+> $$R_{eq}=1 \ \Omega \\ \\ \tau=\frac{L}{R_{eq}}=1 \ ms$$
+> 
+> La figura seguente mostra invece la prova semplice per il calcolo del parametro $I_{eq}$:
+> ![[Elettrotecnica-1794749315756.webp|395]]
+> #Figura(10.14). *Calcolo del parametro $I_{eq}$*
+> 
+> 
+> Notando che $I_{x} = 0$, si ricava:
+> $$I_{eq}=i_{L \infty}=\frac{E}{R_{1}}=\frac{20}{10}=2 \ A$$
+> La forma d'onda della corrente nell’induttore vale:
+> $$i_{L}(t)=-2e^{-1000t}+2 \ A$$
+> come mostrato in figura (Alto):
+> ![[Elettrotecnica-1794749417577.webp|382]]
+> #Figura(10.15). *Andamento di $i_{L}(t)$ (Alto) e di $v_{L}(t)$ (Basso)*
+> 
+> 
+> Per il calcolo della tensione sull’induttore, conviene fare riferimento al circuito equivalente mostrato in figura 10.16, in cui <u>immaginiamo di sostituire l’induttore con un generatore di corrente che imprime la forma d’onda nota</u> $i_{L}(t)$.
+> Ricordando che a regime DC l’induttore diventa un corto circuito e quindi $v_{L \infty} = 0$, la tensione ha espressione:
+> $$v_{L}(t)=v_{L}(0)e^{-1000t}, V$$
+> ![[Elettrotecnica-1794749530931.webp|312]]
+> #Figura(10.16). *Circuito per il calcolo di $v_{L}(t)$*
+> 
+> 
+> Il valore $v_{L}(0)$ lo ricaviamo dalla figura sostituendo la corrente $i_{L}(0) = 0 \ A$:
+> $$v_{L}(0)=(I_{eq}-i_{L}(0))\cdot R_{eq}=2\cdot 1=2 \ V$$
+> 
+> Calcoliamo la forma d’onda della corrente $I_{y}(t)$: per questo, prima ne valutiamo il valore in $t= 0$ analizzando il circuito in figura (ottenuto da $i_{L}(0) = 0 \ A$):
+> ![[Elettrotecnica-1794749660065.webp|289]]
+> #Figura(10.17). *Circuito per il calcolo di $I_{y}(0)$*
+> 
+> Si ha:
+> $$I_{y}(0)=I_{x} \\ \\ I_{x}R_{2}+(\beta+1)I_{x}R_{1}=I_{x}(10+90)=20 \ V \\ \\ I_{y}(0)=I_{x}=\frac{20}{100}=0.2 \ A$$
+> 
+> Quindi, determiniamo $I_{y}(\infty)$ risolvendo il circuito mostrato in figura (ottenuto ricordando che $v_{L}(\infty) = 0$):
+> ![[Elettrotecnica-1794749786205.webp|326]]
+> #Figura(10.18). Circuito per il calcolo di $I_{y}(\infty)$
+> 
+> Si ha:
+> $$I_{x}=\frac{0}{10}=0 \ A$$
+> e dunque:
+> $$I_{y}(\infty)=\frac{E}{R_{1}}=2 \ A$$
+> 
+> L'espressione di $I_{y}(t)$ vale:
+> $$I_{y}(t)=(I_{y}(0)-I_{y}(\infty))e^{-1000t}+I_{y}(\infty)=(0.2-2)e^{-1000t}+2 \ A$$
 
-I dati sono:
-$$E=20 \ V \\ R_{1}=R_{2}=10 \ \Omega \\ L= 1 \ mH \\ \beta= 8$$
-inoltre è nota la <u>condizione iniziale</u> $i_{L}(0)= 0 \ A$.
-
-Per questo, determiniamo per primo il circuito equivalente di tipo Norton "visto" dall’induttore. La figura seguente mostra la prova semplice per il calcolo del parametro $R_{eq}$:
-![[Elettrotecnica-1794749180569.webp|336]]
-#Figura(10.13). *Calcolo del parametro $R_{eq}$*
-
-Si ottiene:
-$$I=\frac{V}{R_{1}}+\frac{V}{R_{2}}+\beta\frac{V}{R_{2}}=V\left( \frac{1}{R_{1}}+\frac{9}{R_{2}} \right)=V\cdot 1$$
-da cui:
-$$R_{eq}=1 \ \Omega \\ \\ \tau=\frac{L}{R_{eq}}=1 \ ms$$
-
-La figura seguente mostra invece la prova semplice per il calcolo del parametro $I_{eq}$:
-![[Elettrotecnica-1794749315756.webp|395]]
-#Figura(10.14). *Calcolo del parametro $I_{eq}$*
 
 
-Notando che $I_{x} = 0$, si ricava:
-$$I_{eq}=i_{L \infty}=\frac{E}{R_{1}}=\frac{20}{10}=2 \ A$$
-La forma d'onda della corrente nell’induttore vale:
-$$i_{L}(t)=-2e^{-1000t}+2 \ A$$
-come mostrato in figura (Alto):
-![[Elettrotecnica-1794749417577.webp|382]]
-#Figura(10.15). *Andamento di $i_{L}(t)$ (Alto) e di $v_{L}(t)$ (Basso)*
-
-
-Per il calcolo della tensione sull’induttore, conviene fare riferimento al circuito equivalente mostrato in figura 10.16, in cui <u>immaginiamo di sostituire l’induttore con un generatore di corrente che imprime la forma d’onda nota</u> $i_{L}(t)$.
-Ricordando che a regime DC l’induttore diventa un corto circuito e quindi $v_{L \infty} = 0$, la tensione ha espressione:
-$$v_{L}(t)=v_{L}(0)e^{-1000t}, V$$
-![[Elettrotecnica-1794749530931.webp|312]]
-#Figura(10.16). *Circuito per il calcolo di $v_{L}(t)$*
-
-
-Il valore $v_{L}(0)$ lo ricaviamo dalla figura sostituendo la corrente $i_{L}(0) = 0 \ A$:
-$$v_{L}(0)=(I_{eq}-i_{L}(0))\cdot R_{eq}=2\cdot 1=2 \ V$$
-
-Calcoliamo la forma d’onda della corrente $I_{y}(t)$: per questo, prima ne valutiamo il valore in $t= 0$ analizzando il circuito in figura (ottenuto da $i_{L}(0) = 0 \ A$):
-![[Elettrotecnica-1794749660065.webp|289]]
-#Figura(10.17). *Circuito per il calcolo di $I_{y}(0)$*
-
-Si ha:
-$$I_{y}(0)=I_{x} \\ \\ I_{x}R_{2}+(\beta+1)I_{x}R_{1}=I_{x}(10+90)=20 \ V \\ \\ I_{y}(0)=I_{x}=\frac{20}{100}=0.2 \ A$$
-
-Quindi, determiniamo $I_{y}(\infty)$ risolvendo il circuito mostrato in figura (ottenuto ricordando che $v_{L}(\infty) = 0$):
-![[Elettrotecnica-1794749786205.webp|326]]
-#Figura(10.18). Circuito per il calcolo di $I_{y}(\infty)$
-
-Si ha:
-$$I_{x}=\frac{0}{10}=0 \ A$$
-e dunque:
-$$I_{y}(\infty)=\frac{E}{R_{1}}=2 \ A$$
-
-L'espressione di $I_{y}(t)$ vale:
-$$I_{y}(t)=(I_{y}(0)-I_{y})$$
