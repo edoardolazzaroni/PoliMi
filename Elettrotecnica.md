@@ -4213,4 +4213,9 @@ $$x(t)=(x(0)-x_{\infty})e^{-\frac{t}{\tau}}+x_{\infty}$$
 $$i_{s}(0)=\frac{10+2}{1000}=12 \ mA$$
 Notate infine che usando la forma:
 $$i_{s}(t)=(i_{s}(0)-i_{s \infty})e^{-\frac{t}{\tau}}+i_{s \infty}$$
-coi valori di regime e iniziali calcolati si ritrovi la soluzione nella $(10.14).
+coi valori di regime e iniziali calcolati si ritrovi la soluzione nella $(10.14)$.
+
+
+
+Come **caso particolare**, vediamo come <u>calcolare la variabile corrente nel condensatore</u>.
+A tal fine 
