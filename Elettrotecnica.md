@@ -4190,4 +4190,9 @@ come mostrato nel grafico in figura:
 ### Calcolo delle altre variabili nel circuito:
 
 In un circuito dinamico contenente un condensatore, la risposta viene prima di tutto calcolata per la variabile tensione sul condensatore, come illustrato nei passaggi precedenti. Dopodiché tutte le altre variabili elettriche possono essere dedotte immaginando di sostituire il condensatore con un generatore di tensione che impone la tensione di forma d’onda $v_{c}(t)$, come mostrato in figura:
-![[Elettrotecnica-1794737244376.webp]]
+![[Elettrotecnica-1794737244376.webp|413]]
+#Figura(10.8). *Circuito resistivo per il calcolo delle altre variabili*
+
+
+Supponiamo, per esempio, di voler determinare la forma d’onda nel tempo della variabile $i_{s}(t)$ che scorre nella sorgente di tensione $E_{s}$. Risolvendo, si ottiene:
+$$i_{s}(t)=\frac{E_{s}-v_{c}(t)}{R_{1}}=\frac{10+}$$
