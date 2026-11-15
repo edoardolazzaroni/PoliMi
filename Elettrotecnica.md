@@ -4212,3 +4212,5 @@ $$x(t)=(x(0)-x_{\infty})e^{-\frac{t}{\tau}}+x_{\infty}$$
 *Per esempio*, la variabile $i_{s}(0)$ si determina dal circuito con $v_{c}(0)=-2 \ V$:
 $$i_{s}(0)=\frac{10+2}{1000}=12 \ mA$$
 Notate infine che usando la forma:
+$$i_{s}(t)=(i_{s}(0)-i_{s \infty})e^{-\frac{t}{\tau}}+i_{s \infty}$$
+coi valori di regime e iniziali calcolati si ritrovi la soluzione nella $(10.14).
