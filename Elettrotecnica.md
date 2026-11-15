@@ -4251,4 +4251,6 @@ $$i_{L}(t_{0})=i_{L}(0)$$
 Osserviamo come la $(10.15)$ sia formalmente uguale all’equazione $(10.1)$ studiata per il condensatore dopo aver sostituito la variabile tensione con la corrente nell’induttore. Seguendo il medesimo procedimento si verifica per esempio che la pulsazione naturale in questo caso vale:
 $$\lambda=-\frac{1}{\tau}=-\frac{1}{G_{eq}L}=-\frac{R_{eq}}{L}$$
 Inoltre la soluzione generale assume l’espressione:
-$$i_{L}(t)=(i_{L_{0}}-I_{eq})$$
+$$i_{L}(t)=\underbrace{(i_{L_{0}}-I_{eq})e^{-\frac{(t-t_{0})}{\tau}}}_{Transitorio}+\underbrace{I_{eq}}_{Regime}\quad(10.16)$$
+che mette in luce la risposta in transitorio e quella a regime.
+In particolare, quest’ultima è il termine che sopravvive per $t \to \infty$ e dunque
