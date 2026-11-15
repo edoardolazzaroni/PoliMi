@@ -4296,5 +4296,13 @@ come mostrato in figura (Alto):
 #Figura(10.15). *Andamento di $i_{L}(t)$ (Alto) e di $v_{L}(t)$ (Basso)*
 
 
-Per il calcolo della tensione sull’induttore, conviene fare riferimento al circuito equivalente mostrato in figura 10.16, in cui immaginiamo di sostituire l’induttore con un generatore di corrente che imprime la forma d’onda nota $i_{L}(t)$.
+Per il calcolo della tensione sull’induttore, conviene fare riferimento al circuito equivalente mostrato in figura 10.16, in cui <u>immaginiamo di sostituire l’induttore con un generatore di corrente che imprime la forma d’onda nota</u> $i_{L}(t)$.
 Ricordando che a regime DC l’induttore diventa un corto circuito e quindi $v_{L \infty} = 0$, la tensione ha espressione:
+$$v_{L}(t)=v_{L}(0)e^{-1000t}, V$$
+![[Elettrotecnica-1794749530931.webp|312]]
+#Figura(10.16). *Circuito per il calcolo di $v_{L}(t)$*
+
+
+Il valore $v_{L}(0)$ lo ricaviamo dalla figura sostituendo la corrente
+
+iL(0) = 0 A:
