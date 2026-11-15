@@ -4219,6 +4219,9 @@ coi valori di regime e iniziali calcolati si ritrovi la soluzione nella $(10.14)
 
 Come **caso particolare**, vediamo come <u>calcolare la variabile corrente nel condensatore</u>.
 A tal fine è conveniente sfruttare il circuito di Thevenin gia calcolato, come mostrato in figura:
+![[Elettrotecnica-1794739672095.webp|396]]
+#Figura(10.9). *Circuito per il calcolo della corrente nel condensatore*
 
 
 La corrente avrà un’espressione del tipo:
+$$i_{c}(t)=i_{c}$$
