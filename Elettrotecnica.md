@@ -4311,4 +4311,6 @@ Calcoliamo la forma d’onda della corrente $I_{y}(t)$: per questo, prima ne val
 #Figura(10.17). *Circuito per il calcolo di $I_{y}(0)$*
 
 Si ha:
-$$I_{y}(0)$$
+$$I_{y}(0)=I_{x} \\ \\ I_{x}R_{2}+(\beta+1)I_{x}R_{1}=I_{x}(10+90)=20 \ V \\ \\ I_{y}(0)=I_{x}=\frac{20}{100}=0.2 \ A$$
+
+Quindi, 
