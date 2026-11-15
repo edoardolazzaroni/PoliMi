@@ -4205,4 +4205,7 @@ Il coefficiente $B$ rappresenta il valore a regime della variabile considerata, 
 $$x_{\infty}=i_{s \infty}=B=5 \ mA$$
 Tale valore di regime DC della generica variabile si può calcolare analizzando il circuito in figura 10.8 con $v_{c \infty} = 5 \ V$ (**oppure sostituendo il condensatore con un circuito aperto**).
 Inoltre, mponendo la condizione iniziale $x(0) = i_{s}(0) = A + B$, si ha che il coefficiente $A$ vale:
-$$$$
+$$A=x(0)-B=x(0)-x_{\infty}$$
+Si conclude che la generica variabile elettrica ammette una forma risolutiva del tipo:
+$$x(t)=(x(0)-x_{\infty})e^{-\frac{t}{\tau}}+x_{\infty}$$
+*Per esempio*, la variabile
