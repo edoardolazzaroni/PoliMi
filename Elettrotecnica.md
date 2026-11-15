@@ -4328,3 +4328,8 @@ $$v_{L}(t)=0 \ V$$
 
 
 
+## 10.4 **Casi particolari**
+
+Fino ad ora si sono analizzati circuiti in cui la resistenza equivalente vista dall’elemento dinamico, condensatore o induttore, è finita e diversa da zero. Vediamo cosa accade quando questa ipotesi non è vera in quanto il circuito collegato all’elemento adinamico ammette un solo tipo di equivalente, o Thevenin o Norton. Partiamo col caso
+
+mostrato in fig. 1.19. In questo scenario, l’equazione che governa il
