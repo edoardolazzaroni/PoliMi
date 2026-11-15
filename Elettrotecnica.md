@@ -4396,4 +4396,6 @@ $$L\frac{di_{L}(t)}{dt}=E_{s}\quad(10.19)$$
 E quindi è semplice risolvere per integrazione diretta, nel caso generale $E_{s} = v_{s}(t)$ funzione del tempo, dopo avere riscritto la $(10.17)$ nella forma:
 $$di_{L}(t)=\frac{1}{L}v_{s}(t) \ dt$$
 Integrando sul generico intervallo $(t_{0}, t)$, si perviene a:
-$$$$
+$$\int_{i_{L}(t_{0})}^{i_{L}(t)}di_{L}=\frac{1}{L}\int _{t_{0}}^t v_{s}(t') \ dt'$$
+che ci porta all'espressione risolutiva:
+$$i_{L}(t)=i_{l}$$
