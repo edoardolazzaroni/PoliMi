@@ -4137,6 +4137,7 @@ composta da due termini, come discusso nel seguito:
 - Il secondo termine nella $(10.2)$ è una **soluzione particolare** della $(10.1)$ dello stesso tipo del termine noto. In questo caso, la soluzione particolare deve essere una funzione costante:$$v_{cp}(t)=V_{cp}\quad(10.8)$$Sostituendo $v_{c}(t)=V_{cp}$ nella $(10.1)$ si conclude che:$$V_{cp}=E_{eq}\quad(10.9)$$Sostituendo le espressioni determinate per i suoi due termini, la soluzione generale $(10.2)$ si trasforma in:$$v_{c}(t)=Ke^{-\frac{(t-t_{0})}{\tau}}+E_{eq}\quad(10.10)$$L'ultimo parametro da determinare, cioè $K$, viene "fissato" dalla condizione iniziale. Infatti, imponendo che:$$v_{c}(t_{0})=v_{c_{0}}=K+E_{eq}$$si conclude che:$$K=v_{c_{0}}-E_{eq}$$e quindi:$$v_{c}(t)=\underbrace{(v_{c_{0}}-E_{eq})e^{-\frac{(t-t_{0})}{\tau}}}_{Transitorio}+\underbrace{E_{eq}}_{Regime}\quad(10.11)$$E' dunque possibile svolgere le seguenti considerazioni:
 1. Se la pulsazione naturale del sistema è strettamente minore di zero, cioè $\lambda=-\frac{1}{\tau} < 0$, allora il primo termine nella $(10.11)$ è una funzione esponenziale del tempo con esponente negativo, cioè del tipo $e^{\frac{−t}{\tau}}$. Tale funzione tende a svanire asintoticamente per $t \to \infty$. In questo caso, il primo termine della $(10.11)$ viene detto **Risposta in Transitorio** o semplicemente **transitorio** ed il circuito si dice <u>asintoticamente stabile</u>. Si noti che in un circuito asintoticamente stabile la risposta che si ha dopo un tempo "sufficientemente lungo in modo che il transitorio si sia esaurito", non dipende dalla condizione iniziale. In altri termini, il fatto di partire da $v_{c}(t_{0})$ diverse fra loro non cambia la risposta di regime.
 
+
 2. Il secondo termine della $(10.11)$ è la parte di risposta che sopravvive per $t \to\infty$ dopo che il transitorio si è esaurito e viene detto **Risposta a Regime**. Viene perciò indicato anche come:$$E_{eq}=v_{c\infty}$$
 	Nel caso di circuiti con sorgenti DC, tale regime si valuta analizzando il circuito in cui all’elemento dinamico si sostituisce il relativo modello valido in DC. Nel caso di un condensatore, il legame costitutivo:$$i_{c}(t)=C\frac{dv_{c}(t)}{dt}$$si riduce in DC a:$$i_{c}(t)=0 \ A$$<u>cioè ad un circuito aperto</u>.
 ![[Elettrotecnica-1794736320532.webp|399]]
@@ -4144,8 +4145,8 @@ composta da due termini, come discusso nel seguito:
 
 
 3. L'ampiezza della risposta in transitorio è determinata da $v_{c_{0}}−E_{eq} = v_{c_{0}}−v_{c\infty}$, cioè dalla differenza tra la condizione iniziale e quella di regime. La durata (e quindi la velocità) del transitorio è invece decisa dal valore della costante di tempo $\tau$. Si calcoli infatti la retta tangente alla funzione $v_{c}(t)$ in $t= t_{0}$. L’equazione di tale retta $y(t) = m \times(t−t_{0}) + q$ diventa:$$y(t)=\frac{dv_{c}(t)}{dt}|_{t=t_{0}}\times(t-t_{0})+v_{c_{0}}$$e quindi dalla $(10.11)$ si ha:$$y(t)=\frac{E_{eq}-v_{c_{0}}}{\tau}\times(t-t_{0})+v_{c_{0}}$$La retta tangente è tale che:$$t(t=t_{0}+\tau)=E_{eq}=v_{c\infty}$$cioè essa interseca il valore della risposta a regime dopo $\tau$ secondi (dall’istante iniziale di riferimento), come mostrato in figura: Dopo 5 costanti di tempo si ha $e^{−5} \approx 0$ ed il transitorio si considera in pratica esaurito:![[Elettrotecnica-1794736395487.webp|507]]
-	#Figura(10.3). La risposta completa e il
+	#Figura(10.3). *La risposta completa e il significato di costante di tempo, si è assunto $t_{0} = 0 \ s$*
 
-significato di costante di tempo, si è
 
-assunto t0 = 0 s.
+Concludiamo l’analisi della risposta del circuito $(10.11)$, osservando come talvolta si preferisca riscriverla nel modo seguente:
+$$$$
