@@ -4153,4 +4153,4 @@ E' dunque possibile svolgere le seguenti **considerazioni**:
 
 
 Concludiamo l’analisi della risposta del circuito $(10.11)$, osservando come talvolta si preferisca riscriverla nel modo seguente:
-$$v_{c}(t)=\underbrace{}$$
+$$v_{c}(t)=\underbrace{v_{c_{0}}e^{-\frac{(t-t_{0})}{\tau}}}_{Ingresso \ zero}+\underbrace{E_{eq}\left( 1-e^{-\frac{(t-t_{0})}{\tau}} \right)}_{Stato }$$
