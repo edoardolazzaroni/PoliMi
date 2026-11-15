@@ -4224,4 +4224,6 @@ A tal fine è conveniente sfruttare il circuito di Thevenin gia calcolato, come 
 
 
 La corrente avrà un’espressione del tipo:
-$$i_{c}(t)=i_{c}$$
+$$i_{c}(t)=i_{c}(0)e^{-\frac{t}{\tau}}$$
+poichè a regime $i_{c \infty}=0$. Inoltre:
+$$i_{c}(0)=\frac{E_{eq}-v_{c}(0)}{R_{eq}}=\frac{5-(-2)}{500}=14 \ mA$$
