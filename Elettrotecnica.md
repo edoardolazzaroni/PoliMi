@@ -4266,6 +4266,9 @@ $$v_{L}(t)=0 \ V$$
 #### #Esercizio(circuito con induttore)
 
 Applichiamo la teoria sviluppata nella sezione precedente al circuito mostrato in figura, che contiene un induttore ed un generatore di corrente pilotato in corrente:
-
+![[Elettrotecnica-1794749069166.webp|443]]
+#Figura(10.12). *Circuito dinamico con induttore*
 
 I dati sono:
+$$E=20 \ V \\ R_{1}=R_{2}=10 \ \Omega \\ L= 1 \ mH \\ \beta= 8$$
+inoltre è nota la condizione iniziale $$
