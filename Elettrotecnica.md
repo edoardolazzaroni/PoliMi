@@ -4241,3 +4241,5 @@ Passiamo ad analizzare la risposta di un circuito che contiene un induttore come
 
 
 Tale figura mette in evidenza l’induttore ed il circuito resistivo uno-porta ad esso collegato ai morsetti $A−B$.
+Inoltre facciamo l’ipotesi che tale circuito uno-porta ammetta l’equivalente di tipo Norton con parametri $I_{eq}$ e $G_{eq} =\frac{1}{R_{eq}} \ne 0  \ Ω^{-1}$ come mostrato in figura (Destra).
+Ragionando su tale equivalente è facile ricavare l’equazione differenziale che governa la variabile corrente nell’induttore:
