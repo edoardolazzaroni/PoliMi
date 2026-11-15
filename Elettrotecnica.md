@@ -4227,3 +4227,12 @@ La corrente avrà un’espressione del tipo:
 $$i_{c}(t)=i_{c}(0)e^{-\frac{t}{\tau}}$$
 poichè a regime $i_{c \infty}=0$. Inoltre:
 $$i_{c}(0)=\frac{E_{eq}-v_{c}(0)}{R_{eq}}=\frac{5-(-2)}{500}=14 \ mA$$
+L'andamento nel tempo della corrente è mostrato nella figura:
+![[Elettrotecnica-1794739786675.webp|435]]
+#Figura(10.10). *Corrente nel condensatore*
+
+
+
+## 10.3 **Risposta completa di un circuito dinamico con induttore**
+
+
