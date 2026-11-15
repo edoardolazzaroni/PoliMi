@@ -4333,6 +4333,9 @@ $$v_{L}(t)=0 \ V$$
 Fino ad ora si sono analizzati circuiti in cui la <u>resistenza equivalente</u> vista dall’elemento dinamico, condensatore o induttore, è<u> finita e diversa da zero</u>. Vediamo cosa accade quando questa ipotesi non è vera in quanto il circuito collegato all’elemento adinamico ammette un solo tipo di equivalente, o Thevenin o Norton.
 
 Partiamo col caso mostrato in figura:
+![[Elettrotecnica-1794750134129.webp|323]]
+#Figura(10.19). *Condensatore collegato a sorgente indipendente di tensione*
 
 
 In questo scenario, l’equazione che governa il circuito si riduce a:
+$$v_{c}(t)=E_{s}$$
