@@ -4169,4 +4169,12 @@ Applichiamo la teoria sviluppata nella sezione precedente al circuito mostrato i
 
 I dati sono:
 $$E_{s}=10 \ V \\ R_{1}=R_{2}=1 \ k\Omega \\ C= 1 \ mF$$
-inoltre è nota la condizione iniziale $v_{c}(0)=-2 \ V$
+inoltre è nota la <u>condizione iniziale</u> $v_{c}(0)=-2 \ V$.
+
+
+Facciamo riferimento al circuito resistivo mostrato in figura, che è collegato ai morsetti $AB$ del condensatore e calcoliamone i parametri dell’equivalente Thevenin:
+![[Elettrotecnica-1794736970530.webp|335]]
+#Figura(10.6). *Circuito uno-porta resistivo collegato al condensatore*
+
+Risulta:
+$$$
