@@ -4140,8 +4140,4 @@ composta da due termini, come discusso nel seguito:
 2. Il secondo termine della $(10.11)$ è la parte di risposta che sopravvive per $t \to\infty$ dopo che il transitorio si è esaurito e viene detto **Risposta a Regime**. Viene perciò indicato anche come:$$E_{eq}=v_{c\infty}$$
 	Nel caso di circuiti con sorgenti DC, tale regime si valuta analizzando il circuito in cui all’elemento dinamico si sostituisce il relativo modello valido in DC. Nel caso di un condensatore, il legame costitutivo:$$i_{c}(t)=C\frac{dv_{c}(t)}{dt}$$si riduce in DC a:$$i_{c}(t)=0 \ A$$<u>cioè ad un circuito aperto</u>.
 
-3. L'ampiezza della risposta in transitorio è determinata da $v_{c_{0}}−E_{eq} = v_{c_{0}}−v_{c\infty}$, cioè dalla differenza tra la condizione iniziale e quella di regime. La durata (e quindi la velocità) del transitorio è invece decisa dal valore della costante di tempo τ. Si calcoli
-
-infatti la retta tangente alla funzione vc(t) in t= t0. L’equazione di
-
-tale retta y(t) = m ×(t−t0) + q diventa:
+3. L'ampiezza della risposta in transitorio è determinata da $v_{c_{0}}−E_{eq} = v_{c_{0}}−v_{c\infty}$, cioè dalla differenza tra la condizione iniziale e quella di regime. La durata (e quindi la velocità) del transitorio è invece decisa dal valore della costante di tempo $\tau$. Si calcoli infatti la retta tangente alla funzione $v_{c}(t)$ in $t= t_{0}$. L’equazione di tale retta $y(t) = m \times(t−t_{0}) + q$ diventa:
