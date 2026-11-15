@@ -4274,7 +4274,7 @@ $$E=20 \ V \\ R_{1}=R_{2}=10 \ \Omega \\ L= 1 \ mH \\ \beta= 8$$
 inoltre è nota la <u>condizione iniziale</u> $i_{L}(0)= 0 \ A$.
 
 Per questo, determiniamo per primo il circuito equivalente di tipo Norton "visto" dall’induttore. La figura seguente mostra la prova semplice per il calcolo del parametro $R_{eq}$:
-![[Elettrotecnica-1794749180569.webp|389]]
+![[Elettrotecnica-1794749180569.webp|336]]
 #Figura(10.13). *Calcolo del parametro $R_{eq}$*
 
 Si ottiene:
@@ -4283,3 +4283,8 @@ da cui:
 $$R_{eq}=1 \ \Omega \\ \\ \tau=\frac{L}{R_{eq}}=1 \ ms$$
 
 La figura seguente mostra invece la prova semplice per il calcolo del parametro $I_{eq}$:
+![[Elettrotecnica-1794749315756.webp|395]]
+#Figura(10.14). *Calcolo del parametro $I_{eq}$*
+
+Notando che $I_{x} = 0$, si ricava:
+$$I_{eq}=i_{L \infty}=\frac{E}{R_{1}}=\frac{20}{10}=2 \ A$$
