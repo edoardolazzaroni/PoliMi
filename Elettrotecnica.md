@@ -4369,8 +4369,6 @@ $$C\frac{dv_{c}(t)}{dt}=0$$
 ed il suo polinomio caratteristico vale:
 $$p(\lambda)=C\lambda=0$$
 che ha come radice la pulsazione naturale $\lambda = 0$.
-Tale risultato indica che il circuito in figura 10.20 **è un sistema semplicemente stabile ma non asintoticamente stabile**. Infatti, valutiamo la risposta libera (o a ingresso zero) del circuito dovuta ad una condizione iniziale $vc(t0) = v_{c_{0}}$ non nulla quando la sorgente di corrente è spenta, i.e.,
-
-Is = 0. Il condensatore risulta collegato ad un circuito aperto e dalla
-
-(1.18) si deduce che:
+Tale risultato indica che il circuito in figura 10.20 **è un sistema semplicemente stabile ma non asintoticamente stabile**. Infatti, valutiamo la risposta libera (o a ingresso zero) del circuito dovuta ad una condizione iniziale $v_{c}(t_{0}) = v_{c_{0}}$ non nulla quando la sorgente di corrente è spenta, ovvero $I_{s} = 0$. Il condensatore risulta collegato ad un circuito aperto e dalla $(10.18)$ si deduce che:
+$$v_{c}(t)=v_{c}(t_{0})\quad \forall t \ge 0$$
+ovvero 
