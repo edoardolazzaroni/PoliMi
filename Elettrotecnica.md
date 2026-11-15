@@ -3231,3 +3231,1145 @@ $$v_{AB}(t)=\frac{\sqrt{ 2 }}{2} \ \cos\left( 10t-\frac{\pi}{4} \right) \ V$$
 
 ## 8.5 **Sovrapposizione degli effetti in AC, equivalenti Thevenin e Norton, parametri dei doppi bipoli**
 
+Un’altra estensione immediata da DC ad AC è il metodo risolutivo dell’**analisi nodale semplice** e **modificata**.
+Applichiamola al circuito di test mostrato in figura:
+![[Elettrotecnica-1794405638282.webp|472]]
+#Figura(8.16). *Circuito di test in AC risolto con l’analisi nodale*
+
+Si noti che nella figura sono mostrati direttamente i fasori $V_{s}$ e $I_{s}$ dei due generatori indipendenti e che **tali generatori sono isofrequenziali alla pulsazione** $\omega$. Solo in questo caso il circuito può operare in AC.
+
+La rete contiene anche un elemento dinamico induttore ed un generatore di corrente pilotato in tensione. Il metodo dell’analisi nodale in AC consiste nell’<u>assumere come incognite i fasori di un insieme di tensioni di nodo</u> e quindi <u>bilanciare i fasori delle correnti in un insieme di nodi </u>o superfici chiuse.
+
+Nel caso specifico del circuito in figura, è utile sfruttare il fatto che la sorgente di tensione e l’induttore in serie possono essere visti come un unico bipolo controllabile in tensione. In questo modo, basterà assumere come incognita il fasore della tensione di nodo $\mathbf{E}$ e quindi bilanciare i fasori delle correnti attraverso la superficie chiusa la cui traccia sul foglio è tratteggiata in figura. Avremo:
+$$-\mathbf{I}_{s}+\frac{\mathbf{E}}{R}+g\cdot(\mathbf{V}_{s}-\mathbf{E})+\frac{\mathbf{E}-\mathbf{V}_{s}}{j\omega L}=\mathbf{0}\quad(8.1)$$
+
+Riordinando i termini, si ottiene l’equazione risolutiva:
+$$\left( \frac{1}{R}-g+\frac{1}{j\omega L} \right)\cdot \mathbf{E}=\underbrace{1}_{\mathbf{B}_{1}}\cdot \mathbf{I}_{s}+\underbrace{\left( \frac{1}{j\omega L}-g \right)}_{\mathbf{B}_{2}}\cdot \mathbf{V}_{s}\quad(8.2)$$
+
+L'incognita $\mathbf{E}$ è moltiplicata per un coefficiente complesso $A$. Dunque, nell’ipotesi che il coefficiente $\mathbf{A}\ne 0$, l’equazione ammette <mark class="hltr-yellow">una ed una sola soluzione</mark>:
+$$\mathbf{E}=\underbrace{\frac{1}{\mathbf{A}}\mathbf{B}_{1}}_{\mathbf{H}_{1} \ (j\omega)}\cdot \mathbf{I}_{s}+\underbrace{\frac{1}{\mathbf{A}}\mathbf{B_{2}}}_{\mathbf{H}_{2} \ (j\omega)}\cdot \mathbf{V}_{s}\quad(8.3)$$
+
+L’espressione $(8.3)$ mostra come il fasore della variabile osservata, così come di ogni altra variabile nel circuito, siano una combinazione lineare dei fasori delle sorgenti indipendenti. I coefficienti complessi $\mathbf{H}_{1}(j\omega)$ e $\mathbf{H}_{2}(j\omega)$, i cui valori sono funzioni della pulsazione $\omega$, determinano l’effetto che ciascuna sorgente ha sulla variabile osservata e vengono chiamati **funzioni di rete**.
+
+
+Le <u>conseguenze della sovrapposizione degli effetti</u> in AC sono le <u>medesime</u> che abbiamo visto in DC:
+
+- Operativamente la sovrapposizione degli effetti permette di calcolare il fasore soluzione di un circuito che opera in AC facendo agire le sorgenti indipendenti individualmente e quindi sommando i relativi effetti parziali;
+- Altre conseguenze sono l’estensione dei circuiti equivalenti di Thevenin e di Norton; nel primo caso, una rete generica accessibile da una coppia di morsetti e formata da resistori, generatori pilotati, induttori, condensatori e generatori sinusoidali isofrequenziali alla pulsazione $\omega$, come in figura, viene collegata ad una sorgente esterna di corrente pure isofrequenziale:![[Elettrotecnica-1794406303240.webp|467]]
+	#Figura(8.17). *Bipolo in AC controllato in corrente*
+
+	Se il circuito così formato ammette soluzione, allora si ha che il fasore della tensione alla porta vale:$$\mathbf{V}=\mathbf{Z}_{eq}(j\omega)\cdot \mathbf{I}+\mathbf{E}_{eq}(j\omega)$$dove $\mathbf{Z}_{eq}(j\omega)$, detta **impedenza equivalente**, è il coefficiente che pesa l’effetto della sorgente esterna mentre $\mathbf{E}_{eq}(j\omega)$, detta **tensione a vuoto**, riassume l’effetto di tutte le sorgenti interne.
+
+	
+	I parametri dell’equivalente Thevenin si determinano attraverso le prove semplici che corrispondono alle loro definizioni:$$\mathbf{Z}_{eq}=\frac{\mathbf{V}}{\mathbf{I}}|_{gen. \ int. \ OFF}\\ \\ \mathbf{E}_{eq}=\mathbf{V}|_{\mathbf{I}=0}\\ \\(8.4)$$La rete di partenza è equivalente ai fini esterni al bipolo di tipo serie in figura:![[Elettrotecnica-1794406514310.webp|277]]
+	#Figura(8.18). *Bipolo equivalente di Thevenin*
+
+
+	Nel secondo caso, la rete viene collegata ad una sorgente esterna di tensione come in figura:![[Elettrotecnica-1794406588452.webp|405]]
+	#Figura(8.19). *Bipolo in AC controllato in tensione*
+
+	Se il circuito così formato ammette soluzione, allora si ha che il fasore della corrente alla porta vale:$$\mathbf{I}=\mathbf{Y}_{eq}(j\omega)\cdot \mathbf{V}+\mathbf{I}_{eq}(j\omega)$$dove $\mathbf{Y}_{eq}$, detta **ammettenza equivalente**, è il coefficiente che pesa l’effetto della sorgente esterna mentre $\mathbf{I}_{eq}(j\omega)$, detta **corrente di corto circuito**, riassume l’effetto di tutte le sorgenti interne.
+
+
+	I parametri dell’equivalente Norton si determinano attraverso le prove semplici:$$\mathbf{Y}_{eq}=\frac{\mathbf{I}}{\mathbf{V}}|_{gen. \ int. \ OFF}\\ \\ \mathbf{I}_{eq}=\mathbf{I}|_{\mathbf{V}=0}\\ \\ (8.5)$$La rete di partenza è equivalente ai fini esterni al bipolo di tipo parallelo mostrato in figura:![[Elettrotecnica-1794406792706.webp|408]]
+	#Figura(8.20). *Bipolo equivalente di Norton*
+
+
+- Infine è possibile estendere al dominio AC le rappresentazioni dei doppi bipoli. A tale scopo, utilizzeremo come esempio il doppio bipolo (tripolare) mostrato in figura:![[Elettrotecnica-1794406855743.webp|321]]
+	#Figura(8.21). *Doppio bipolo in AC*
+
+
+	La rappresentazione controllata in corrente prevede di imporre i valori dei fasori delle due correnti $I_{1}$ ed $I_{2}$ alle porte e di determinare in funzione di questi ultimi i fasori delle tensioni come mostrato in figura:![[Elettrotecnica-1794406914488.webp|384]]
+	#Figura(8.22). *Set-up sperimentale per determinare la rappresentazione Z*
+
+
+	Nell’ipotesi che il circuito così costituito ammetta, unica, la soluzione, il principio di sovrapposizione degli effetti ci indica quale sarà l’espressione dei fasori delle tensioni:$$\mathbf{V}_{1}\quad=\quad \mathbf{z}_{11}\cdot \mathbf{I}_{1}+\mathbf{z}_{12}\cdot \mathbf{I}_{2}\\ \\ \mathbf{V}_{2}\quad=\quad \mathbf{z}_{21}\cdot \mathbf{I}_{1}+\mathbf{z}_{22}\cdot \mathbf{I}_{2}\\ \\(8.6)$$dove i coefficienti $\mathbf{z}$, che dimensionalmente sono delle impedenze, generalizzano al caso AC i coefficienti $r$ visti in DC. Si noti che nell’esempio considerato mancano i termini $\mathbf{E}_{eq}$ in quanto<u> il doppio bipolo non contiente sorgenti interne</u>.
+
+
+
+Calcoliamo *per esercizio* i parametri $\mathbf{z}$ risolvendo direttamente la rete in figura 8.22, si ha:
+$$\mathbf{V}_{1}=\mathbf{I}_{1}j\omega L+(\mathbf{I}_{1}+\mathbf{I}_{2})R\\ \\ \mathbf{V}_{2}=\mathbf{I}_{2}\frac{1}{j\omega C}+(\mathbf{I}_{1}+\mathbf{I}_{2})R$$
+da cui riordinando:
+$$\mathbf{V}_{1}\quad =\quad \overbrace{(j\omega L+R)}^{\mathbf{z}_{11}}\cdot \mathbf{I}_{1}+\overbrace{R}^{\mathbf{z}_{12}}\cdot \mathbf{I}_{2}\\ \\ \mathbf{V}_{2}=\underbrace{R}_{\mathbf{z}_{12}}\cdot \mathbf{I}_{1}+\underbrace{\left( \frac{1}{j\omega C}+R \right)}_{\mathbf{z}_{22}}\cdot \mathbf{I}_{2}\\ \\(8.7)$$
+I parametri $\mathbf{z}$ in generale dipendono da $j\omega$ e quindi andrebbero indicati come $\mathbf{z}_{11}(j\omega)$, $\mathbf{z}_{12}(j\omega)$, ecc$\cdots$. Tale dipendenza è stata omessa per semplificare la notazione.
+
+
+In modo analogo la rappresentazione controllata in tensione si valuta imponendo i valori dei fasori delle due tensioni $V_{1}$ e $V_{2}$ alle porte e quindi determinando i fasori delle correnti, come mostrato in figura:
+![[Elettrotecnica-1794408278709.webp|396]]
+#Figura(8.23). *Set-up sperimentale per determinare la rappresentazione Y*
+
+
+Nell’ipotesi che il circuito così costituito ammetta, unica, la soluzione, l’espressione dei fasori delle correnti sarà:
+$$\mathbf{I}_{1}\quad=\quad \mathbf{y}_{11}\cdot \mathbf{V}_{1}+\mathbf{y}_{12}\cdot \mathbf{V}_{2}\\ \\ \mathbf{I}_{2}\quad=\quad \mathbf{y}_{21}\cdot \mathbf{V}+\mathbf{y}_{22}\cdot \mathbf{V}_{2}\\ \\(8.8)$$
+dove i coefficienti $\mathbf{y}$ sono dimensionalmente delle ammettenze e generalizzano al caso AC i i coefficienti $g$ visti in DC.
+
+
+Infine è possibile ricavare le **rappresentazioni ibride**, cioè controllate da una corrente ad una porta e da una tensione all’altra porta.
+La figura mostra la configurazione per il calcolo della prima rappresentazione ibrida in cui si impone $\mathbf{I}_{1}$ e $\mathbf{V}_{2}$:
+![[Elettrotecnica-1794408471814.webp|398]]
+#Figura(8.24). *Set-up sperimentale per determinare la rappresentazione $H_{1}$*
+
+L’espressione dei fasori delle rimanenti variabili di porta sarà:
+$$\mathbf{V}_{1}\quad=\quad \mathbf{h}_{11}\cdot \mathbf{I}_{1}+\mathbf{h}_{12}\cdot \mathbf{V}_{2}\\ \\ \mathbf{I}_{2}\quad=\quad \mathbf{h}_{21}\cdot \mathbf{I}_{1}+\mathbf{h}_{22}\cdot \mathbf{V}_{2}\\ \\(8.9)$$
+dove i coefficienti complessi $\mathbf{h}$ generalizzano al caso AC i coefficienti $h$ visti in DC. Provate a calcolare tali coefficienti attraverso le prove semplici, ovvero prima spegnendo la sorgente $\mathbf{V}_{2}$:
+$$\mathbf{h}_{11}=j\omega L+\frac{R}{1+j\omega CR}\\ \\ \mathbf{h}_{21}=-\frac{R}{R+\frac{1}{j\omega C}}$$
+e quindi spegnendo la sorgente $\mathbf{I}_{1}$:
+$$\mathbf{h}_{12}=\frac{R}{R+\frac{1}{j\omega C}}\\ \\ \mathbf{h}_{22}=\frac{1}{R+\frac{1}{j\omega C}}$$
+
+
+
+## 8.6 **Funzione di trasferimento e risposta in frequenza**
+
+Riesaminiamo per primo il caso di una rete operante in AC e accessibile da una sola porta (ovvero un bipolo). Supponiamo che la rete non contenga sorgenti indipendenti interne. Supponiamo quindi di collegarle una sorgente sinusoidale di corrente a pulsazione $\omega$ il cui fasore è $\mathbf{I}$ come mostrato in figura:
+![[Elettrotecnica-1794409182595.webp|372]]
+#Figura(8.25). *Set-up per il calcolo della funzione di rete $\mathbf{Z}(j\omega)$*
+
+La sovrapposizione degli effetti ci assicura che se il bipolo è controllabile in corrente esiste un coefficiente complesso $\mathbf{Z}(j\omega)$ tale che:
+$$\mathbf{V}=\mathbf{Z}(j\omega)\cdot \mathbf{I}$$
+
+
+La funzione di rete $\mathbf{Z}(j\omega)$ coincide con l’impedenza equivalente del modello Thevenin. Se invece colleghiamo una sorgente sinusoidale di tensione di fasore $\mathbf{V}$ come mostrato in figura:
+![[Elettrotecnica-1794409345279.webp|424]]
+#Figura(8.26). *Set-up per il calcolo della funzione di rete $\mathbf{Y}(j\omega)$*
+
+ed il bipolo è controllabile in tensione, allora esiste un coefficiente complesso $\mathbf{Y}(j\omega)$ tale che:
+$$\mathbf{I}=\mathbf{Y}(j\omega)\cdot \mathbf{V}$$
+La funzione di rete $\mathbf{Y}(j\omega)$ coincide con l’ammettenza equivalente del modello Norton.
+
+Nel caso del bipolo le due funzioni di rete calcolate descrivono un effetto locale cioè tra tensione e corrente misurate alla stessa porta: queste funzioni di rete vengono talvolta indicate col nome di funzioni **immettenza**.
+
+
+Passiamo ora ad esaminare il caso in cui la rete, operante in AC, sia accessibile da una coppia di porte, sia cioè un doppio bipolo, e non contenga sorgenti indipendenti interne, come mostrato in figura:
+![[Elettrotecnica-1794409541990.webp|440]]
+#Figura(8.27). *Funzione di rete di trasferimento $\mathbf{H}(j\omega)$*
+
+$$\mathbf{V}_{o}=\mathbf{H}(j\omega)\cdot \mathbf{V}_{s}$$
+
+Questo caso si verifica in molte applicazioni dell’elettronica, automazione o nei sistemi di comunicazione. Ad una porta, il doppio bipolo riceve una grandezza sinusoidale in ingresso, rappresentata dalla sorgente $\mathbf{V}_{s}$, mentre la tensione all’altra porta rappresenta la grandezza di uscita o risposta della rete, il cui fasore indichiamo con $\mathbf{V}_{o}$ (*"output"*).
+
+Il teorema di sovrapposizione degli effetti afferma l’esistenza di un coefficiente complesso $\mathbf{H}(j\omega)$ tale che:
+$$\mathbf{V}_{o}=\mathbf{H}(j\omega)\cdot \mathbf{V}_{s}$$
+e definito come il rapporto dei fasori:
+$$\mathbf{H}(j\omega)=\frac{\mathbf{V}_{o}}{\mathbf{V}_{s}}$$
+
+Poiché tale funzione di rete lega grandezze elettriche a porte diverse, viene indicata col nome di **funzione di rete di trasferimento** o semplicemente **funzione di trasferimento**.
+
+La funzione di trasferimento contiene l’informazione di come varia la risposta della rete al variare della frequenza dell’ingresso, cioè <u>contiene l’informazione della sua risposta in frequenza</u>.
+Supponiamo infatti che la tensione in ingresso nel dominio del tempo sia data dalla sinusoide:
+$$v_{s}(t)=V_{M}\cos(\overline{\omega}t+\phi_{s})$$
+alla pulsazione $\overline{\omega}$, e quindi il suo fasore sia:
+$$\mathbf{V}_{s}=V_{M}e^{j\phi_{s}}$$
+Il fasore dell'uscita:
+$$\mathbf{V}_{o}=\mathbf{H}(j\overline{\omega})\cdot V_{M}e^{j\phi_{s}}$$
+ha modulo:
+$$|\mathbf{V}_{o}|=|\mathbf{H}(j\overline{\omega})|\cdot V_{M}$$
+e fase:
+$$\measuredangle \mathbf{V}_{o}=\measuredangle \mathbf{H}(j\overline{\omega})+\phi_{s}$$
+
+Infine, antitrasformando nel dominio del tempo ricaviamo la tensione di uscita:
+$$v_{o}(t)=|\mathbf{H}(j\overline{\omega})|\cdot V_{M}\cdot \cos(\overline{\omega}t+\measuredangle \mathbf{H}(j\overline{\omega})+\phi_{s})$$
+
+Il modulo della funzione di transferimento, valutata alla pulsazione dell’ingresso, scala il modulo dell’ingresso mentre la fase della funzione di trasferimenti, valutata in detta pulsazione, si somma a quella dell’ingresso.
+
+Tali "effetti" chiaramente cambiano al variare della pulsazione dell’ingresso e quindi risulta estremamente istruttivo rappresentare graficamente come varia modulo e fase della funzione di trasferimento in funzione di $\omega$.
+
+
+
+#### #Esercizio(funzione di trasferimento) (1)
+
+Valutiamo la funzione di trasferimento per il circuito mostrato in figura:
+![[Elettrotecnica-1794410106972.webp|345]]
+#Figura(8.28). *Circuito di tipo filtro passa basso*
+
+
+Si ha:
+$$\mathbf{H}(j\omega)=\frac{\mathbf{V}_{o}}{\mathbf{V}_{s}}=\frac{1}{1+j\omega C R}\quad(8.10)$$
+da cui il <u>modulo</u>:
+$$|\mathbf{H}(j\omega)|=\frac{1}{\sqrt{ 1 +(\omega C \ R)^2}}$$
+e la <u>fase</u>:
+$$\measuredangle \mathbf{H}(j\omega)=-atan(\omega C \ R)$$
+
+L'andamento del modulo è mostrato in figura:
+![[Elettrotecnica-1794411136617.webp|401]]
+#Figura(8.29). *Grafico del modulo*
+
+E’ possibile analizzare qualitativamente tale grafico osservando l’esistenza di una pulsazione caratteristica (cioè particolare) che chiameremo $\omega_{c}$ alla quale la parte immaginaria del denominatore nella $(8.10)$ risulta unitaria. Ciò avviene quando:
+$$\omega_{c}C \ R=1$$
+ovvero:
+$$\omega_{c}=\frac{1}{C \ R}$$
+In corrispondenza di tale pulsazione si ha:
+$$|\mathbf{H}(j\omega_{c})|=\frac{1}{\sqrt{ 2 }}\\ \\ \measuredangle \mathbf{H}(j\omega_{c})=-\frac{\pi}{4}$$
+
+Consideriamo ora i **casi**:
+
+- l'ingresso abbia pulsazione $\omega$ tale che:$$\omega\ll \omega_{c}$$Ragionando al limite quando $\omega\to o$, dalla $(8.10)$ si ha:$$\mathbf{H}(j\omega) \approx \frac{1}{1+j_{0}}\quad(8.11)$$e quindi:$$\lim_{ \omega \ \to \ 0 } |\mathbf{H}(j\omega)|=1\\ \\ \lim_{ \omega \ \to \ 0} \measuredangle \mathbf{H}(j\omega)=0$$Ovvero per pulsazioni significativamente più piccole di $\omega_{c}$, la sinusoide in ingresso viene trasferita praticamente identica in uscita con la stessa ampiezza e con sfasamento che tende a zero.
+
+
+- l’ingresso abbia invece pulsazione $\omega$ tale che:$$\omega\gg \omega_{c}$$Ragionando al limite quando $\omega\to \infty$, dalla $(8.10)$ si ha:$$\mathbf{H}(j\omega)\approx \frac{1}{j\omega C \ R}\quad(8.12)$$e quindi:$$\lim_{ \omega \ \to \ \infty } |\mathbf{H}(j\omega)|=0\\ \\ \lim_{ \omega \ \to \ \infty } \measuredangle \mathbf{H}(j\omega)=\measuredangle(-j)=-\frac{\pi}{2}$$Ovvero per pulsazioni significativamente più grandi di $\omega_{c}$, la sinusoide in uscita ha ampiezza che tende a zero ed uno sfasamento di $−90^o$ rispetto all’ingresso. In pratica, le alte frequenze vengono "tagliate".
+
+
+Riassumendo, il circuito in figura 8.29 si comporta come un **filtro passa basso** in quanto lascia passare le basse frequenze (basse rispetto a $\omega_{c}$), mentre <u>elimina le alte frequenze</u>. Per questo la pulsazione $\omega_{c}$ viene comunemente indicata col nome di pulsazione di taglio.
+Infine la figura successiva mostra l’andamento della fase:
+![[Elettrotecnica-1794470462219.webp|420]]
+#Figura(8.30). *Grafico della fase*
+
+
+
+Facciamo qualche conto sul filtro passa basso coi dati numerici:
+$$R=1 \ k\Omega\\C=1 \ \mu F$$
+In questo caso, la pulsazione di taglio vale:
+$$\omega_{c}=\frac{1}{10^3\cdot 10^{-6}}=10^3 \ rad/s \approx 160 \ Hz$$
+
+Analizziamo i **casi**:
+
+- l’ingresso sia il segnale:$$v_{s}(t)=10 \cos(100t) \ V$$Alla pulsazione $\omega = 100 \ rad/s$ la funzione di trasferimento $(8.10)$ vale:$$\mathbf{H}(j\omega)\approx \frac{1}{1+j \ 0.1}\quad(8.13)$$e quindi:$$|\mathbf{H}(j\omega)|=0.995\\ \\ \measuredangle \mathbf{H}(j\omega)=-0.997 \ rad$$La sinusoide di uscita:$$v_{o}(t)=9.95\cos(100t-0.997) \ V$$è praticamente uguale all'ingresso.
+
+
+- nel secondo caso, l'ingresso è il segnale:$$v_{s}(t)=10 \cos(10^4 \ t) \ V$$Alla pulsazione $\omega=10^4 \ rad/s$ la funzione di trasferimento $(8.10)$ vale:$$\mathbf{H}(j\omega)\approx \frac{1}{1+10j}\quad(8.14)$$e quindi:$$|\mathbf{H}(j\omega)|=0.995 \\ \\ \measuredangle \mathbf{H}(JOME)=-1.47 \ rad$$La sinusoide di uscita:$$v_{o}(t)=0.995\cos(10^4 \ t -84^0) \ V$$è stata attenuata di un fattore $10$ e ritardata rispetto all’ingresso di quasi un quarto di periodo.
+
+
+
+## 8.7 **Risonanza**
+
+Iniziamo analizzando il comportamento elettrico in regime AC del circuito mostrato in figura, composto dal collegamento parallelo di un induttore e un condensatore:
+![[Elettrotecnica-1794471241146.webp|371]]
+#Figura(8.31). *Risonatore parallelo*
+
+
+La sua **ammettenza** vale:
+$$\Upsilon(j\omega)=j\omega C+\frac{1}{j\omega L}=j\underbrace{\left( \omega C-\frac{1}{\omega L} \right)}_{B(\omega)}$$
+
+ed è quindi <u>puramente immaginaria</u>.
+La suscettanza del parallelo è data dalla somma delle suscettanza del condensatore $\omega_{c}$ che è positiva e della suscettanza dell’induttore $-\frac{1}{\omega L}$ che è negativa, come mostrato in figura:
+![[Elettrotecnica-1794471431426.webp|321]]
+#Figura(8.32). *Suscettanza in funzione di $\omega$*
+
+
+Esiste un valore caratteristico della pulsazione, che indicheremo con $\omega_{O}$, per la quale le due componenti si elidono e quindi<mark class="hltr-yellow"> l’ammettenza del parallelo risulta zero</mark>. Ciò accade quando:
+$$\omega_{o}C=\frac{1}{\omega_{o}L}\longrightarrow \omega_{o}=\sqrt{ \frac{1}{LC} }$$
+tale valore della pulsazione è detto **pulsazione di risonanza**.
+
+Dunque, alla pulsazione di risonanza la composizione parallelo $L \ C$ è equivalente ai fini esterni ad un circuito aperto. Accade infatti che per un valore qualsiasi della tensione ai suoi capi, rappresentato dal fasore $\mathbf{V}$, i fasori delle correnti nei due elementi valgono:
+$$\mathbf{I}_{C}=\mathbf{V}\cdot j\omega_{o}C\\ \\ \mathbf{I}_{L}=\mathbf{V}\cdot\frac{-j}{\omega_{o}L}$$
+e sono quindi <u>non nulli</u>, tuttavia sommandosi:
+$$\mathbf{I}=\mathbf{I}_{C}+\mathbf{I}_{L}=\mathbf{V}j\omega_{o}C+\mathbf{V}\frac{-j}{\omega_{o}L}=\mathbf{V}\cdot j\left( \omega_{o}C-\frac{1}{\omega_{o}L} \right)=\mathbf{V}\cdot j \ B(\omega_{o})=\mathbf{0}$$
+<u>si elidono vicendevolmente</u>.
+
+
+Collegando il risonatore parallelo $L \ C$ ad un resistore come in figura, si ottiene un circuito che opera in frequenza come un **filtro passa banda**:
+![[Elettrotecnica-1794471780818.webp|447]]
+#Figura(8.33). *Filtro passa banda parallelo*
+
+Si supponga infatti che il segnale in ingresso al circuito sia la corrente rappresentata da una sorgente sinusoidale di fasore $\mathbf{I}$ la cui pulsazione $\omega$ possa essere variata a nostro piacimento. Come uscita o risposta del circuito si assume la tensione misurata sul parallelo dei tre elementi il cui fasore:
+$$\mathbf{V}=\mathbf{I}\cdot \mathbf{Z}(j\omega)$$
+è legato a quello dell'ingresso attraverso la funzione di rete impedenza. Quest'ultima si calcola facilmente:
+$$\mathbf{Z}=\frac{1}{\frac{1}{R}+j\left( \omega C-\frac{1}{\omega L} \right)}$$
+
+Il modulo e fase della funzione di rete valgono:
+$$|\mathbf{Z}|=\frac{1}{\sqrt{ \frac{1}{R^2}+\left( \omega C-\frac{1}{\omega L} \right)^2 }}\\ \\ \measuredangle \mathbf{Z}=-atan\frac{\omega C-\frac{1}{\omega L}}{\frac{1}{R}}$$
+L'andamento qualitativo di modulo e fase in funzione di $\omega$ (cioè la risposta in frequenza) si può dedurre dalle seguenti **osservazioni**:
+
+- per $\omega=\omega_{o}$, cioè alla risonanza, si ha $\mathbf{Z}(j\omega_{o})=R$
+- per pulsazioni, significativamente più piccole della pulsazione di risonanza, si può ragionare al limite per $\omega \to 0$ dove $\mathbf{Z}(j\omega)\approx j\omega L$ si ha dunque:$$\lim_{ \omega \ \to \ 0 } |\mathbf{Z}(j\omega)|=0\\ \\ \lim_{ \omega \ \to \ 0 } \measuredangle \mathbf{Z}(j\omega)=\frac{\pi}{2}$$
+- viceversa, per pulsazioni significativamente più grandi della pulsazione di risonanza ragionando al limite per $\omega \to \infty$ si trova $\mathbf{Z}(j\omega)\approx \frac{1}{j\omega C}$ si ha dunque:$$\lim_{ \omega \ \to \  \infty } |\mathbf{Z}(j\omega)|=0\\ \\ \lim_{ \omega \ \to \ \infty } \measuredangle \mathbf{Z}(j\omega)=-\frac{\pi}{2}$$
+
+I grafici del modulo e della fase sono riportati di seguito:
+![[Elettrotecnica-1794472230673.webp|403]]
+#Figura(8.34). *Modulo dell'impedenza*
+
+![[Elettrotecnica-1794472255701.webp|383]]
+#Figura(8.35). *Fase dell’impedenza*
+
+
+Concludiamo che la risposta in tensione di questo circuito ad un ingresso in corrente sinusoidale è significativa se la pulsazione dell’ingresso è prossima a quella di risonanza.
+Infatti la risposta è massima alla risonanza dove inoltre tensione e corrente sono in fase.
+Per pulsazioni che si allontano da quella di risonanza, la risposta del circuito si riduce rapidamente, cioè l’ingresso viene significativamente attenuato. Questo tipo di circuito opera dunque una selezione delle frequenze in una banda di valori e viene comunemente indicato come **filtro passa banda**; una sua tipica applicazione è nella selezione della frequenza di una emittente radio.
+
+
+Sfruttando la dualità è possibile costruire il **risonatore di tipo serie** mostrato in figura:
+![[Elettrotecnica-1794472770487.webp|362]]
+#Figura(8.36). *Risonatore serie*
+
+L'**impedenza** della serie vale:
+$$Z(j\omega)=j\omega L$+\frac{1}{j\omega C}=j\underbrace{\left( \omega L-\frac{1}{\omega C} \right)}_{X(\omega)}$$
+
+ed è quindi<u> puramente immaginaria</u> (cioè **reattiva**).
+Esiste un valore caratteristico della pulsazione, che indicheremo ancora come pulsazione di risonanza $\omega_{o}$, per la quale la reattanza della serie è zero.
+In questo caso ciò accade quando:
+$$\omega_{o}L=\frac{1}{\omega_{o}C}\longrightarrow \omega_{o}=\sqrt{ \frac{1}{LC} }$$
+Dunque, alla pulsazione di risonanza la composizione serie $L \ C$ è equivalente ai fini esterni ad un corto circuito. Infatti un valore qualsiasi della corrente $\mathbf{I}$, i fasori delle due tensioni:
+$$\mathbf{V}_{L}=\mathbf{I}\cdot j\omega_{o}L \\ \\ \mathbf{V}_{C}=\mathbf{I}\cdot\frac{-j}{\omega_{o}C}$$
+pur essendo <u>non nulli</u>, tuttavia sommandosi:
+$$\mathbf{V}=\mathbf{V}_{L}+\mathbf{V}_{C}=\mathbf{I}j\omega_{o}L+\mathbf{I}\frac{-j}{\omega_{o}C}=\mathbf{I}\cdot j\left( \omega_{o}L-\frac{1}{\omega_{o}C} \right)=\mathbf{I}\cdot jX(\omega_{o})=\mathbf{0}$$
+si elidono vicendevolmente.
+
+
+
+#### #Esercizio(risonanza) (1)
+
+> [!question] Esercizio
+> E’ assegnato il circuito in AC mostrato in figura di cui si chiede di calcolare a regime $i_{C_{1}}(t)$ e $v_{L_{2}}(t)$:
+> 
+> ![[Elettrotecnica-1794473319377.webp|365]]
+> #Figura(8.37). *Circuito in AC*
+> 
+> I dati sono:
+> $$v_{s}(t)=\sqrt{ 2 }\cos\left( 10^3t-\frac{\pi}{4} \right) \ V \\  R=10 \\ C_{1}=200 \ \mu F \\ C_{2}=100 \ \mu F \\ L_{1}=10 \ mH \\ L_{2}=20 \ mH$$
+> 
+> Calcoliamo il fasore:
+> $$\mathbf{V}_{s}=1-j$$
+> e le impedenza:
+> $$\mathbf{Z}_{C_{1}}=-5j\\ \mathbf{Z}_{L_{1}}=10j\\ \mathbf{Z}_{C_{2}}=-10j \\ \mathbf{Z}_{L_{2}}=20j$$
+> Quindi componiamo gli elementi in parallelo calcolandone l'ammettenza equivalente:
+> $$\mathbf{Y}_{1}=\frac{1}{10}+\frac{j}{5}+\frac{-j}{10}=1+\frac{1+j}{10}\to \mathbf{Z}_{1}=5(1-j)$$
+> 
+> L'impedenza dei due elementi in serie vale:
+> $$\mathbf{Z}_{2}=20j-10j=10j$$
+> 
+> Ci siamo ricondotti al circuito equivalente in figura:
+> 
+> ![[Elettrotecnica-1794473634663.webp|324]]
+> #Figura(8.38).
+> 
+> da cui calcoliamo la **corrente nella maglia**:
+> $$\mathbf{I}=\frac{1-j}{5-5j+10j}=\cdots=-\frac{j}{5}$$
+> 
+> Tornando al circuito originale in figura 8.37, possiamo ricavare col partitore di corrente:
+> $$\mathbf{I}_{C_{1}}=-\frac{j}{5}\cdot\frac{\frac{j}{5}}{\frac{1}{10}+\frac{j}{5}+\frac{-j}{10}}=-\frac{j}{5}\cdot \frac{2j}{1+j}=\frac{2}{5}\cdot \frac{1}{1+j}$$
+> Nel tempo:
+> $$i_{C_{1}}(t)=\frac{\sqrt{ 2 }}{5}\cos\left( 10^3t-\frac{\pi}{4} \right) \ A$$
+> 
+> In modo simile si ha:
+> $$\mathbf{V}_{L_{2}}=-\frac{j}{5}\cdot 20j=4$$
+> Nel tempo:
+> $$v_{L_{2}}(t)=4\cos(10^3t) \ V$$
+> 
+
+
+#### #Esercizio(risonanza) (2)
+
+> [!question] Esercizio
+> Ripetiamo l'esercizio modificando i dati:
+> $$C_{1}=C_{2}=100  \ \mu F \\ L_{1}=L_{2}=10 \ mH$$
+> 
+> Le impedenze degli elementi divengono:
+> $$\mathbf{Z}_{C_{1}}=-10j\\  \mathbf{Z}_{L_{1}}=10j \\ \mathbf{Z}_{C_{2}}=-10j \\ \mathbf{Z}_{L_{2}}=10j$$
+> Vediamo dunque che:
+> $$\mathbf{Y}_{1}=\frac{1}{10}+\frac{j}{10}-\frac{j}{10}=\frac{1}{10}\to \mathbf{Z}_{1}=10$$
+> cioè $\mathbf{C}_{1}$ e $\mathbf{L}_{1}$ sono **in risonanza parallelo** e sono **equivalenti ad un circuito aperto**.
+> 
+> L’impedenza dei due elementi in serie vale:
+> $$\mathbf{Z}_{2}=10j-10j=0$$
+> $\mathbf{C}_{2}$ e $\mathbf{L}_{2}$ sono **in risonanza serie** e sono **equivalenti ad un corto circuito**. Il circuito equivalente è ora quello mostrato in figura:
+> 
+> ![[Elettrotecnica-1794474126010.webp|335x232]]
+> #Figura(8.39). 
+> 
+> da cui calcoliamo:
+> $$\mathbf{V}_{1}=\mathbf{V}_{s}=1-j$$
+> e quindi:
+> $$\mathbf{I}_{C_{1}}=\frac{1-j}{-10j}=\frac{j(1-j)}{10}\to i_{C_{1}}(t)=\frac{\sqrt{ 2 }}{10}\cos\left( 10^3t+\frac{\pi}{4} \right) \ A$$
+> mentre:
+> $$\mathbf{V}_{L_{2}}=\frac{1-j}{10}10j=(1-j)j$$
+> cioè:
+> $$v_{L_{2}}(t)=\sqrt{ 2 }\cos\left( 10^3t+\frac{\pi}{4} \right) \ V$$
+
+
+
+## 8.8 **Induttori mutuamente accoppiati**
+
+Abbiamo visto nella parte di cenni ai campi elettrici e magnetici, come un filo avvolto su di un supporto di materiale ferromagnetico si comporti come un induttore elettrico: una corrente elettrica variabile nel tempo nell’avvolgimento genera un campo induzione magnetica il cui flusso concatenato induce una tensione elettrica ai sui capi.
+
+Si genera così una porta elettrica con legame costitutivo differenziale:
+$$v(t) = L \frac{di(t)}{dt}$$
+dove $L$ è l’**autoinduttanza**. Tale concetto si può estendere pensando ad una configurazione come quella mostrata in figura (Sinistra) dove al supporto magnetico viene avvolto un secondo filo:
+![[Elettrotecnica-1794474525200.webp|552]]
+#Figura(8.40).
+
+Si supponga da prima di applicare una corrente $I_{1}(t)$ alla porta $1$ e di lasciare aperta la porta due $I_{2}(t) = 0$. Si avrà una flusso concatenato col primo avvolgimento come nel caso dell’induttore:
+$$\phi_{1}'(t)=L_{1}\cdot I_{1}(t)$$
+inoltre, poiché una parte delle linee di campo $\overrightarrow{B}$ concatenano anche il secondo avvolgimento, si avrà un flusso concatenato anche al secondo avvolgimento:
+$$\phi_{2}'(t)=M\cdot I_{1}(t)$$
+descritto da un **coefficiente** detto **di mutua induzione**, misurato in henry [H].
+
+La situazione si può replicare come mostrato in figura (Destra), applicando ora una corrente $I_{2}(t)$ alla porta $2$ mentre la porta uno rimane aperta $I_{1}(t) = 0$. Si avrà una flusso concatenato col secondo avvolgimento che determina una autoinduzione alla porta due:
+$$\phi_{2}''(t)=L_{2}\cdot I_{2}(t)$$
+e un flusso "non locale" concatenato al primo avvolgimento:
+$$\phi_{1}''(t)=M\cdot I_{2}(t)$$
+descritto da $M$.
+
+Dunque, nel caso in cui le correnti alle due porte sono entrambe non nulle, gli effetti singoli si sovrappongono portando ai flussi totali:
+$$\phi_{1}(t)=L_{1}\cdot I_{1}(t)+M\cdot I_{2}t\\ \\ \phi_{2}(t)=M\cdot I_{1}t+L_{2}\cdot I_{2}t \\ \\ (8.15)$$
+
+Dalla legge dell’induzione elettromagnetica, le tensioni nel dominio del tempo valgono:
+$$V_{1}(t)=L_{1}\cdot\frac{dI_{1}(t)}{dt}+M\cdot\frac{dI_{2}(t)}{dt}\\ \\ V_{2}(t)=M\cdot\frac{dI_{1}(t)}{dt}+L_{2}\cdot\frac{dI_{2}(t)}{dt}\\ \\(8.16)$$
+e quindi nel dominio dei fasori si ha:
+$$\mathbf{V}_{1}=j\omega L_{1}\cdot \mathbf{I}_{1}+j\omega M\cdot \mathbf{I}_{2}\\ \\ \mathbf{V}_{2}=j\omega M\cdot \mathbf{I}_{1}+j\omega L_{2}\cdot \mathbf{I}_{2}\\ \\(8.17)$$
+
+Queste equazioni rappresentano il legame costitutivo del doppio bipolo che descrive due induttori mutuamente accoppiati, il cui simbolo circuitale è mostrato in figura:
+![[Elettrotecnica-1794483423415.webp|324]]
+#Figura(8.41). *Simbolo circuitale degli induttori mutuamente accoppiati*
+
+Tali equazioni si possono scrivere in forma compatta:
+$$\begin{vmatrix}
+\mathbf{V}_{1} \\
+\mathbf{V}_{2}
+\end{vmatrix}=j\omega \overbrace{\begin{vmatrix}
+L_{1} & M \\
+M & L_{2}
+\end{vmatrix}}^{\mathbf{L}}\cdot \begin{vmatrix}
+\mathbf{I}_{1} \\
+\mathbf{I}_{2}
+\end{vmatrix}\quad(8.18)$$
+raccogliendo le auto e mutua induttanze nella matrice $\mathbf{L}$ delle induttanze.
+
+Si noti come nel simbolo in figura 8.41 si sia soliti riportare con due "puntini" i morsetti alle porte in cui è misurata (entrante) la corrente e la tensione di porta: tale precisazione è necessaria per dare definire senza ambiguità l’effetto di mutua induttanza.
+
+Supponiamo infatti, di invertire tale convenzione alla porta due, come mostrato in figura 8.42, ovvero di assumere come grandezze a questa porta le variabili:
+$$\mathbf{V}_{2}'=-\mathbf{V}_{2}\\ \\ \mathbf{I}_{2}'=-\mathbf{I}_{2}$$
+![[Elettrotecnica-1794483609181.webp|329]]
+#Figura(8.42). *L’inversione dei puntini ad una porta inverte il segno di $M$*
+
+
+Sostituendo nella $(8.17)$ si ottiene:
+$$\mathbf{V}_{1}=j\omega L_{1}\cdot \mathbf{I}_{1}-j\omega M\cdot \mathbf{I}_{2}'\\ \\ \mathbf{V}_{2}=-j\omega M\cdot \mathbf{I}_{1}+j\omega L_{2}\cdot \mathbf{I}_{2}'\\ \\(8.19)$$
+dove si è invertito il segno davanti al coefficiente della mutua induttanza $M$.
+Dunque per descrivere l’induzione mutua tra i due avvolgimenti è necessario precisare il valore ed il segno di $M$ e i puntini alle due porte.
+
+Un ulteriore parametro utilizzato nelle applicazioni è il **coefficiente di accoppiamento**, definito come:
+$$k=\frac{|M|}{\sqrt{ L_{1}L_{2} }}$$
+il cui valore è compreso nell’intervallo di valori $[0, 1]$. Tale parametro vale $k= 0$ se i due avvolgimenti sono completamente disaccoppiati, cioè $M= 0$, mentre vale $k= 1$ nella situazione ideale in cui l’accoppiamento è perfetto quando $M^2 = L_{1} \  L_{2}$.
+
+
+E’ infine interessante studiare i circuiti ottenuti collegando gli induttori accoppiati in serie e in parallelo:
+
+
+
+- ### Collegamento in serie
+
+Colleghiamo le due porte in serie nella modalità mostrata in figura, detta talvolta "equiversa":
+![[Elettrotecnica-1794483830754.webp|507]]
+#Figura(8.43). *Collegamento serie equiverso*
+
+Si ha:
+$$\mathbf{I}=\mathbf{I}_{1}=\mathbf{I}_{2}\\ \\ \mathbf{V}=\mathbf{V}_{1}+\mathbf{V}_{2}$$
+
+Quindi sostituendo nelle $(8.17)$:
+$$\mathbf{V}_{1}=j\omega (L_{1}+ M)\cdot \mathbf{I}\\ \\ \mathbf{V}_{2}=\mathbf{V}_{1}=j\omega (M+L_{2})\cdot \mathbf{I}\\ \\(8.20)$$
+si ottiene:
+$$\mathbf{V}=j\omega(L_{1}+L_{2}+2M)\cdot \mathbf{I}$$
+
+Concludiamo che tale collegamento è equivalente ad un **induttore** di valore:
+$$L_{eq}=(L_{1}+L_{2}+2M)$$
+
+
+Viceversa collegando le due porte in serie ma nella modalità mostrata in figura, detta "controversa":
+![[Elettrotecnica-1794484057137.webp|421]]
+#Figura(8.44). *Collegamento serie controverso*
+
+Si ha:
+$$\mathbf{I}_{1}=\mathbf{I}\\ \\ \mathbf{I}_{2}=-\mathbf{I}\\ \\ \mathbf{V}=\mathbf{V}_{1}-\mathbf{V}_{2}$$
+
+Quindi sostituendo nelle $(8.17)$:
+$$\mathbf{V}_{1}=j\omega(L_{1}-M)\cdot \mathbf{I} \\ \\ \mathbf{V}_{2}=j\omega(M-L_{2})\cdot \mathbf{I}\\ \\(8.21)$$
+si ottiene:
+$$\mathbf{V}=j\omega(L_{1}+L_{2}-2M)\cdot \mathbf{I}$$
+
+In questo  caso, il collegamento è equivalente ad un **induttore** di valore:
+$$L_{eq}=(L_{1}+L_{2}-2M)$$
+
+
+
+- ### Collegamento in parallelo
+
+Per trattare agevolmente il collegamento in parallelo di induttori accoppiati, invertiamo la rappresentazione $(8.18)$ in modo da ottenere quella controllata in tensione. Si ha:
+$$\begin{vmatrix}
+\mathbf{I}_{1} \\
+\mathbf{I}_{2}
+\end{vmatrix}=\frac{1}{j\omega(L_{1}L_{2}-M^2)}\begin{vmatrix}
+L_{2} & -M \\
+-M & L_{1}
+\end{vmatrix}\cdot \begin{vmatrix}
+\mathbf{V}_{1} \\
+\mathbf{V}_{2}
+\end{vmatrix}\quad(8.22)$$
+
+Colleghiamo le due porte in parallelo nella modalità equiversa mostrata in figura:
+![[Elettrotecnica-1794484364721.webp|451]]
+#Figura(8.45). *Collegamento parallelo equiverso*
+
+Si ha:
+$$\mathbf{V}=\mathbf{V}_{1}=\mathbf{V}_{2}\\ \\ \mathbf{I}=\mathbf{I}_{1}+\mathbf{I}_{2}$$
+
+Quindi sostituendo nella $(8.22)$ si ottiene:
+$$\mathbf{I}=\frac{L_{1}+L_{2}-2M}{j\omega(L_{1}L_{2}-M^2)}\mathbf{V}$$
+
+La coppia di induttori accoppiati è equivalente ad un **induttore** di autoinduttanza:
+$$L_{eq}=\frac{(L_{1}L_{2}-M^2)}{L_{1}+L_{2}-2M}$$
+
+
+Viceversa, collegando in modo controverso come in figura:
+![[Elettrotecnica-1794484554841.webp|327]]
+#Figura(8.46). *Collegamento parallelo controverso*
+
+Si ha:
+$$\mathbf{V}_{1}=\mathbf{V}\\ \\ \mathbf{V}_{2}=-\mathbf{V}\\ \\ \mathbf{I}=\mathbf{I}_{1}-\mathbf{I}_{2}$$
+
+Quindi sostituendo nella $(8.22)$ si ottiene:
+$$\mathbf{I}=\frac{L_{1}+L_{2}-2M}{j\omega(L_{1}L_{2}-M^2)}\mathbf{V}$$
+
+In questo caso, la coppia di induttori accoppiati è equivalente ad un **induttore** di autoinduttanza:
+$$L_{eq}=\frac{(L_{1}L_{2}-M^2)}{L_{1}+L_{2}-2M}$$
+
+
+
+
+# **Capitolo IX: Potenza in regime sinusoidale**
+
+
+## 9.1 **Potenza istantanea, media, attiva e reattiva**
+
+Un generico bipolo operante in regime sinusoidale, come mostrato in figura, è <mark class="hltr-yellow">descritto dalla coppia di variabili sinusoidali tensione e corrente</mark>:
+$$v(t)=V_{m}\cos(\omega t+\phi_{v})\\ \\ i(t)=I_{m}\cos(\omega t+\phi_{i})$$
+![[Elettrotecnica-1794578378319.webp|322]]
+#Figura(9.1). *Bipolo in AC*
+
+Estendendo il <u>concetto di potenza elettrica introdotto in DC</u> è ora possibile definire la **potenza elettrica istantanea assorbita** dal bipolo (assorbita in quanto tensione e corrente sono misurate con la convenzione degli utilizzatori):
+$$p(t)=v(t)\cdot i(t)=V_{m}I_{m}\cos(\omega t+\phi_{v})\cos(\omega t+\phi_{i})$$
+Questa può essere riscritta nella forma:
+$$p(t)=\frac{V_{M}I_{M}}{2}\cos(\phi)+\frac{V_{m}I_{m}}{2}\cos(2\omega t+\phi_{v}+\phi_{I})$$
+dove si è denotato con:
+$$\phi=\phi_{v}-\phi_{i}$$
+la differenza tra la fase della tensione e quella della corrente spesso indicato col nome di **sfasamento**.
+
+La **potenza istantanea** è dunque composta da un primo termine costante (cioè che non dipende dal tempo) e da un secondo termine "oscillante" cioè che varia nel tempo come una sinusoide a frequenza $2\omega$. I due termini e la loro composizione sono mostrati nella figura:
+![[Elettrotecnica-1794578648608.webp|400]]
+#Figura(9.2). *La potenza istantanea è la somma di un termine costante nel tempo e di uno oscillante*
+
+
+In molte applicazioni, è rilevante valutare la potenza elettrica che in media viene assorbita da un bipolo, per esempio la nostra abitazione che è vista dalla rete come un bipolo in AC. In particolare viene definita la **potenza media** sul periodo $T=\frac{2\pi}{\omega}$:
+$$P_{m}=\frac{1}{T}\int_{0}^T p(t) \ dt=\frac{V_{m}I_{m}}{2}\cos(\phi)$$
+
+che coincide con il termine costante nel tempo (il termine oscillante che ha periodo $\frac{T}{2}$ dà integrale nullo sul periodo).
+La potenza media dunque <u>non dipende solo dalle ampiezze di corrente e tensione ma anche dal loro sfasamento</u> attraverso il termine:
+$$\cos(\phi)$$
+detto **fattore di potenza**.
+
+La conoscenza della potenza media assorbita da un bipolo non è tuttavia sufficiente a descriverlo completamente, spesso è infatti necessario valutare l’entità delle oscillazioni che la potenza istantanea subisce nel tempo, oscillazioni troppo grandi possono danneggiare la rete o alcune apparecchiature elettroniche. La natura delle oscillazioni della potenza cambia a seconda che il bipolo abbia un comportamente puramente resistivo (cioè tensione e corrente sono in fase) oppure contenga al suo interno anche elementi dinamici modellati con induttori e/o condensatori.
+
+Per mettere in luce questo aspetto, riscriviamo la tensione scomponendola (come fasore) in una componente in fase con la corrente ed una in quadrature come descritto in figura:
+![[Elettrotecnica-1794578861555.webp|354]]
+#Figura(9.3). *Scomposizione della tensione*
+
+Osservando che $\phi_{v}=\phi_{i}+\phi$, si ha:
+
+$$\begin{align}
+v(t) = \\ \\ = V_{m} \cos(\underbrace{\omega t+\phi_{i}}_{\beta}+\underbrace{\phi}_{\alpha}) \\
+\\ =V_{m}\cos \phi\cdot \cos(\omega t+\phi_{i})-V_{m}\sin \phi\cdot \cos\left( \omega t+\phi_{i}+\frac{\pi}{2} \right) \\ \\ (9.1) \end{align}$$
+Moltiplicando per la <u>corrente</u> si perviene a:
+
+$$\begin{align}
+p(t) = \\ \\ = V_{m}I_{m} \cos \phi\cdot\cos^2(\omega t+\phi_{i})+V_{m}I_{m}\sin \phi\cdot \cos\left( \omega t+\phi_{i}+\frac{\pi}{2} \right)\cdot \cos(\omega t+\phi_{i}) \\
+\\ =\frac{V_{m}I_{m}}{2}\cos(\phi)+\overbrace{\frac{V_{m}I_{m}}{2}\cos(\phi)}^{Potenza \ Attiva}\cdot \cos(2\omega t+2\phi_{i})+\underbrace{\frac{V_{m}I_{m}}{2}\sin \phi}_{Potenza \ \mathrm{Re}attiva}\cdot \cos\left( 2\omega t+2\phi_{i}+\frac{\pi}{2} \right) \\ \\ (9.2) \end{align}$$
+
+Il primo termine nell’espressione $(9.2)$ è costante e, come già visto, corrisponde alla potenza media $P_{m}$. Il secondo termine, dovuto alla **componente della tensione in fase con la corrente**, è invece una funzione oscillante nel tempo la cui ampiezza:
+$$P=\frac{V_{m}I_{m}}{2}\cos \phi$$
+è detta **potenza attiva**; in regime sinusoidale la potenza attiva è uguale alla potenza media $P= P_{m}$.
+
+
+Infine, l’ultimo termine, dovuto alla **componente della tensione in quadrature con la corrente**, è una funzione oscillante di ampiezza:
+$$Q=\frac{V_{m}I_{m}}{2}\sin \phi$$
+detto **potenza reattiva**. La potenza reattiva $Q$ pur essendo dimensionalmente una grandezza in watt si misura in volt ampere reattivi [VAR].
+
+
+
+Per comprendere meglio il significato fisico di tali potenze, <u>consideriamo i casi particolari </u>di bipoli composti da un resistore oppure da un solo elemento dinamico, condensatore e induttore:
+
+- **Bipolo Resistore**.
+	
+	In questo caso, tensione e corrente sono in fase quindi $\phi = 0$ e $\cos \phi= 1$. La potenza istantanea è composta dai soli primi due termini ed ha potenza media non nulla uguale alla potenza attiva:$$P_{m}=P=\frac{V_{m}I_{m}}{2}$$come mostrato in figura:
+	![[Elettrotecnica-1794580406112.webp|412]]
+	#Figura(9.4). *Potenza istantanea in un resistore*
+
+	
+	Inoltre **in un resistore la potenza istantanea** (**assorbita**) non è **mai negativa**.
+	Questo conferma che un resistore è il modello di un bipolo che può solo assorbire potenza. Dunque la potenza attiva è quella componente della potenza oscillante che è associata ad un effettivo assorbimento medio da parte del bipolo.
+
+
+- **Bipolo dinamico, condensatore o induttore**.
+
+	In un bipolo dinamico, tensione e corrente sono in quadratura e quindi il fattore di potenza vale zero: $\phi = \pm \frac{\pi}{2}$ e $\cos \phi= 0$.
+	La potenza istantanea è composta dal solo terzo termine ed ha potenza media nulla:$$P_{m}=0$$come mostrato in figura:![[Elettrotecnica-1794580635916.webp|417]]
+	#Figura(9.5). *Potenza istantanea in un elemento dinamico*
+
+	
+	La potenza istantanea oscilla attorno al valore zero, con un’ampiezza pari alla potenza reattiva $Q$. Il bipolo dinamico assorbe potenza per metà del tempo mentre è in grado di erogarla (cioè di restituirla) per l’altra metà del tempo. Questo avviene in quanto **condensatore** e **induttore** sono **in grado di immagazzinare la potenza elettrica assorbita in una forma interna di Energia**. Dunque la potenza reattiva è quella componente della potenza oscillante che non corrisponde ad un effettivo assorbimento medio di potenza.
+
+
+Infine, torniamo alla $(9.2)$ e riscriviamo il solo termine oscillante come:
+$$P\cdot \cos(2\omega t+2\phi_{i})+Q\cdot \cos\left( 2\omega t+2\phi_{i}+\frac{\pi}{2} \right)\quad(9.3)$$
+Usando i **fasori** è facile verificare che la somma delle due sinusoidi (alla pulsazione $2\omega$) dà la sinusoide:
+$$\sqrt{ P^2+Q^2 }\cdot \cos\left( 2\omega t+2\phi_{i}+atan\left( \frac{Q}{P} \right) \right)\quad(9.4)$$
+
+Il valore di picco della potenza oscillante:
+$$\sqrt{ P^2+Q^2 }=\frac{V_{m}I_{m}}{2} \sqrt{ \cos^2\phi+\sin^2\phi }=\frac{V_{m}I_{m}}{2}$$
+viene detta **potenza apparente** e misurata in volt ampere [VA].
+
+
+
+## 9.2 **Potenza complessa**
+
+Nella sezione precedente si sono introdotti i termini che compongono (o caratterizzano) la potenza istantanea assorbita da un bipolo in regime AC con attenzione al loro significato fisico. In questa sezione definiamo un’ulteriore grandezza matematica che permette di calcolare in modo agevole i vari termini che compongono la potenza partendo dai fasori associati alla tensione e corrente. Indichiamo come di consueto i fasori come:
+$$\mathbf{V}=V_{m}e^{j\phi_{v}}\\ \\ \mathbf{I}=I_{m}e^{j\phi_{i}}\\ \\(9.5)$$
+<u>definiti facendo riferimento al valore di picco delle relative sinusoidi</u>.
+
+Introduciamo ora la grandezza **potenza complessa**:
+$$\mathbf{S}=\frac{1}{2}\mathbf{V}\mathbf{I}^{\star}$$
+
+dove $\mathbf{I}^{\star}$ denota il <u>complesso coniugato del fasore</u> della corrente.
+Ricordando che la definizione di angolo di sfasamento tra tensione e corrente $\phi = \phi_{v}−\phi_{i}$, è facile verificare che:
+$$\begin{align}
+\mathbf{S}= \\ \\ =\frac{1}{2}V_{m}e^{j\phi_{v}}I_{m}e^{-j\phi_{i}} \\ \\ = \frac{V_{m}I_{m}}{2}e^{j\phi} \\ \\ = \frac{V_{m}I_{m}}{2}\cos \phi+j\frac{V_{m}I_{m}}{2}\sin \phi \\ \\ = P+jQ \\ \\(9.6)
+\end{align}$$
+
+ovvero che la potenza complessa è appunto un numero complesso la cui parte reale coincide con la potenza attiva mentre la parte immaginaria dà la potenza reattiva.
+Inoltre <u>il modulo della potenza complessa coincide con la potenza apparente</u>:
+
+$$|\mathbf{S}|=S=\sqrt{ P^2 + Q^2}=\frac{V_{m}I_{m}}{2}$$
+
+La potenza complessa e le sue componenti sono mostrato in figura, detta **triangolo delle potenze**:
+![[Elettrotecnica-1794581628935.webp|349]]
+#Figura(9.6). *Triangolo delle potenze*
+
+
+da cui si vede anche come l’angolo di sfasamento si possa calcolare come:
+$$\phi=atan\left( \frac{Q}{P} \right)$$
+
+
+Vediamo come si calcola la potenza complessa, e le sue componenti reale ed immaginaria, nel caso generico di un bipolo descritto dalla sua impedenza $\mathbf{Z}= R + jX$, come mostrato in figura:
+![[Elettrotecnica-1794581691942.webp|234]]
+#Figura(9.7). *Bipolo di impedenza $\mathbf{Z}$*
+
+
+Poichè $\mathbf{V}=\mathbf{Z}\mathbf{I}$, si ha:
+$$\mathbf{S}=\frac{1}{2}\mathbf{V}\mathbf{I}^{\star}=\frac{1}{2}\mathbf{Z}\mathbf{I}\mathbf{I}^{\star}=\frac{1}{2}|\mathbf{I}|^2\mathbf{Z}=\overbrace{\frac{1}{2}|\mathbf{I}|^2R}^{P}+j\overbrace{\frac{1}{2}|\mathbf{I}|^2X}^{Q}$$
+dove $|\mathbf{I}|^2=I_{m}^2$ è il <u>quadrato del valore di picco della corrente</u>.
+
+Di seguito sono riportati i casi particolari in cui il bipolo si riduce ad un resistore o ad un elemento dinamico:
+
+- **Resistore**: in questo caso $\mathbf{Z}=R$ e dunque:$$\mathbf{S}=P=\frac{1}{2}|\mathbf{I}|^2R$$
+- **Condensatore**: in questo caso $\mathbf{Z}=j\left( -\frac{1}{\omega C} \right)$ e dunque:$$\mathbf{S}=j\frac{1}{2}|\mathbf{I}|^2X=j\frac{1}{2}|\mathbf{I}|^2\left( -\frac{1}{\omega C} \right)$$e quindi la potenza reattiva assorbita dal condensatore è <u>negativa</u> (per valori fisici di $C$) e vale:$$Q=-\frac{1}{2}|\mathbf{I}|^2 \ \frac{1}{\omega C}$$
+- **Induttore**: si ha $\mathbf{Z}=j\omega L$ e quindi:$$\mathbf{S}=j\frac{1}{2}|\mathbf{I}|^2X=j\frac{1}{2}|\mathbf{I}|^2\omega L$$e quindi la potenza reattiva assorbita dall’induttore è <u>positiva</u> (per valori fisici di $L$) e vale:$$Q=\frac{1}{2}|\mathbf{I}|^2\omega L$$
+
+Si procede in modo simile nel caso di bipolo descritto dalla sua ammettenza $\mathbf{Y}= G + jB$, come mostrato in figura:
+![[Elettrotecnica-1794582160948.webp|213]]
+#Figura(9.8). *Bipolo di ammettenza $\mathbf{Y}$*
+
+
+In questo caso, essendo $\mathbf{I}=\mathbf{Y}\mathbf{V}$, si determina:
+$$\mathbf{S}=\frac{1}{2}\mathbf{V}\mathbf{I}^{\star}=\frac{1}{2}\mathbf{Y}^{\star}\mathbf{V}\mathbf{V}^{\star}=\frac{1}{2}|\mathbf{V}|^2\mathbf{Y}^{\star}=\overbrace{\frac{1}{2}|\mathbf{V}|^2G}^{P}+j\overbrace{\frac{1}{2}|\mathbf{V}|^2(-B)}^{Q}$$
+
+dove $|\mathbf{V}|^2=V_{m}^2$ è il <u>quadrato del valore di picco della tensione</u>.
+
+Di seguito sono riportati i casi particolari per un resistore o un singolo elemento dinamico, condensatore o induttore:
+
+- **Resistore**: in questo caso $\mathbf{Y}=G$ e dunque:$$\mathbf{S}=P=\frac{1}{2}|\mathbf{V}|^2G$$
+- **Induttore**: si ha $\mathbf{Y}=j\left( \frac{-1}{\omega L} \right)$e dunque:$$\mathbf{S}=j\frac{1}{2}|\mathbf{V}|^2(-B)=j\frac{1}{2}|\mathbf{V}|^2\left( \frac{1}{\omega L} \right)$$da cui si conferma che la potenza reattiva assorbita dall’induttore è <u>positiva</u>:$$Q=\frac{1}{2}|\mathbf{V}|^2 \frac{1}{\omega L}$$
+- **Condensatore**: si ha $\mathbf{Y}=j\omega C$ e quindi:$$\mathbf{S}=j\frac{1}{2}|\mathbf{V}|^2(-B)=j\frac{1}{2}|\mathbf{V}|^2(-\omega C)$$che conferma come la potenza reattiva assorbita dal condensatore è <u>negativa</u>:$$Q=-\frac{1}{2}|\mathbf{V}|^2\omega C$$
+
+
+
+## 9.3 **Rappresentazione col valore efficace**
+
+Utilizzando la definizione di fasore $(9.2)$ basata sul valore di picco delle sinusoidi, l’espressione della potenza complessa, affinché le sue parti reale ed immaginaria diano la potenza attiva e reattiva, contiene il coefficiente $\frac{1}{2}$.
+
+Nei calcoli ingegneristici degli impianti elettrici, spesso si preferisce eliminare la "necessità di ricordare tale coefficiente" introducendo una definizione di fasore scalata rispetto a quella classica: tale fattore di scala è dato dal **valore efficace della sinusoide**.
+
+Data una funzione generica $f(t)$ del tempo, periodica di periodo $T$, si definisce valore efficace la seguente quantità:
+$$f_{eff}=\sqrt{ \frac{1}{2}\int_{0}^T f^2(t) \ dt }$$
+cioè il valore efficace al quadrato corrisponde col valor medio della funzione $f^2(t)$.
+Nel caso di una funzione sinusoidale del tempo $v(t)=V_{m}\cos(\omega t)$, il quadrato del valore efficace risulta:
+$$V_{eff}^2=\frac{1}{T}\int_{0}^T V_{m}^2\cos^2(\omega t) \ dt =\frac{1}{T}\int_{0}^T \left( \frac{V_{m}^2}{2}+\frac{V_{m}^2}{2}\cos(2\omega t) \right) \ dt=\frac{V_{m}^2}{2}$$
+e quindi il valore efficace è dato da:
+$$V_{eff}=\frac{V_{m}}{\sqrt{ 2 }}$$
+
+In termini di valore efficace di tensione $V_{eff}=\frac{V_{m}}{\sqrt{ 2 }}$ e corrente $I_{eff}=\frac{I_{m}}{\sqrt{ 2 }}$, la **potenza attiva** e **reattiva** si possono riscrivere rispettivamente come:
+$$P=\frac{V_{m}}{\sqrt{ 2 }} \ \frac{I_{m}}{\sqrt{ 2 }}\cos \phi=V_{eff}I_{eff}\cos \phi \\ \\ Q=\frac{V_{m}}{\sqrt{ 2 }} \ \frac{I_{m}}{\sqrt{ 2 }}\sin \phi=V_{eff}I_{eff}\sin \phi$$
+
+Inoltre, scalando i fasori, cioè <u>definendoli in termine di valore efficace</u>, ovvero:
+$$\mathbf{V}=\frac{V_{m}}{\sqrt{ 2 }}e^{j\phi_{v}}=V_{eff}e^{j\phi_{v}}\\ \\ \mathbf{I}=\frac{I_{m}}{\sqrt{ 2 }}e^{j\phi_{i}}=I_{eff}e^{j\phi_{i}}\\ \\ (9.7)$$
+si ha che la potenza complessa si semplifica in:
+$$\mathbf{S}=\mathbf{V}\mathbf{I}^{\star}$$
+
+
+
+## 9.4 **Teorema di Boucherot**
+
+Per un circuito che opera in regime AC, composto da $N_{el.}$ bipoli (o porte elettriche) si supponga di misurare i fasori delle tensioni $\mathbf{V}_{k}$ e correnti $\mathbf{I}_{k}$ alle porte, dove $k= 1, \cdots , N_{el.}$, con la stessa convenzione, per esempio la convenzione degli utilizzatori. Nell’ipotesi che dette tensioni soddisfino la KVL, sappiamo che è possibile introdurre i potenziali ai nodi i cui fasori indichiamo con $\mathbf{E}_{n}$. Formiamo la **sommatoria estesa a tutti gli elementi del circuito**:
+$$\sum_{k=1}^{N_{el.}} \frac{1}{2}\mathbf{V}_{k}\mathbf{I}_{k}^{\star}$$
+
+Se le tensioni di porta vengono scritte in funzione dei potenziali ai nodi e la sommatoria viene svolta, come mostrato per un circuito generico, questa risulta a sua volta la combinazione di termini del tipo:
+$$\frac{1}{2}\mathbf{E}_{n}\cdot\left( \sum_{Nodo \ n} \mathbf{I}_{k}^{\star}\right)$$
+cioè del fasore del potenziale al nodo n moltiplicato per la somma dei fasori delle correnti uscenti da quel nodo, coniugati. Se i fasori delle correnti, e quindi i loro complessi coniugati, soddisfano la KCL, ognuno di questi termini è nullo e dunque è nulla la sommatoria complessiva. <mark class="hltr-yellow">Si estende dunque il teorema di Tellegen in regime AC</mark>. In un circuito elettrico, poiché le tensioni e correnti soddisfano le leggi di Kirchhoff (ed anche i legami costitutivi) vale dunque il seguente bilancio delle potenze complesse:
+$$\sum_{k=1}^{N_{el.}} \frac{1}{2}\mathbf{V}_{k}\mathbf{I}_{k}^{\star}=\sum_{k=1}^{N_{el.}}\mathbf{S}_{k}=\sum_{k=1}^{N_{el.}}(P_{k}+jQ_{k})=\mathbf{0}$$
+
+Notate che il bilancio si può anche riscrivere separatamente in termini di potenza attiva:
+$$\sum_{k=1}^{N_{el.}}P_{k}=0$$
+e reattiva:
+$$\sum_{k=1}^{N_{el.}}Q_{k}=0$$
+Questo risultato prende il nome di **Teorema di Boucherot**.
+
+
+Soffermiamoci ora sul caso di una rete elettrica operante in AC e formata dal collegamento di un bipolo composto e da un bipolo esterno numerato con $0$:
+![[Elettrotecnica-1794584521567.webp|418]]
+#Figura(9.9). *Rete elettrica formata da un bipolo composto collegato ad un bipolo esterno $0$*
+
+
+Dal Teorema di Boucherot, si ha:
+$$\frac{1}{2}\mathbf{V}_{0}\mathbf{I}_{0}^{\star}+\frac{1}{2}\mathbf{V}_{1}\mathbf{I}_{1}^{\star}+\frac{1}{2}\mathbf{V}_{2}\mathbf{I}_{2}^{\star}+\frac{1}{2}\mathbf{V}_{3}\mathbf{I}_{3}^{\star}+\frac{1}{2}\mathbf{V}_{4}\mathbf{I}_{4}^{\star}=\mathbf{0}$$
+
+Quindi, osservando che le variabili esterne al bipolo composto sono $\mathbf{V}=\mathbf{V}_{0}$ e $n\mathbf{I}=−\mathbf{I}_{0}$, si può riscrivere:
+$$\frac{1}{2}\mathbf{V}\mathbf{I}^{\star}=\frac{1}{2}\mathbf{V}_{1}\mathbf{I}_{1}^{\star}+\frac{1}{2}\mathbf{V}_{2}\mathbf{I}_{2}^{\star}+\frac{1}{2}\mathbf{V}_{3}\mathbf{I}_{3}^{\star}+\frac{1}{2}\mathbf{V}_{4}\mathbf{I}_{4}^{\star}$$
+
+Ovvero, la potenza complessa totale entrante nel bipolo composto è pari alla somma delle potenze complesse assorbite dai bipoli (o porte) che lo formano.
+Ciò vale anche separatamente per le parti **reali**, vedi figura 9.10, e **immaginarie**, figura 9.11, **della potenza complessa**:
+![[Elettrotecnica-1794584776421.webp|326]]
+#Figura(9.10). *La potenza attiva assorbita ai morsetti di un bipolo composto è la somma delle potenze attive assorbite dagli elementi che lo compongono: $P_{tot} = P_{1} + P_{2} + P_{3} + P_{4}$*
+
+![[Elettrotecnica-1794584822142.webp|324]]
+#Figura(9.11). *La potenza attiva assorbita ai morsetti di un bipolo composto è la somma delle potenze attive assorbite dagli elementi che lo compongono: $Q_{tot} = Q_{1} + Q_{2} + Q_{3} + Q_{4}$*
+
+
+
+#### #Esercizio(potenze)
+
+> [!question] Esercizio
+> Del circuito mostrato in figura si chiede di calcolare la potenza attiva e reattiva erogate dalla sorgente AC ed il fattore di potenza $\cos \phi$:
+> ![[Elettrotecnica-1794600720606.webp|392]]
+> #Figura(9.12). *Circuito in AC*
+> 
+> Dati:
+> $$v_{s}(t)=10\cos(1000t) \ V \\ R=1 \ k\Omega \\ C = 1 \ \mu F \\ L= 1 \ H$$
+> 
+> 
+> Notiamo che le potenze erogate dalla sorgente sono le potenze assorbite dal bipolo ad essa collegato, dunque valutiamo la potenza complessa assorbita da detto bipolo. Risulta:
+> $$\mathbf{S}=\frac{1}{2}V_{m}^2\mathbf{Y}^{\star}$$
+> dove $\mathbf{Y}$è l’ammettenza equivalente del bipolo.
+> Determiniamo le impedenze del condensatore ed induttore:
+> $$\mathbf{Z}_{c}=-1000j \\ \\ \mathbf{Z}_{l}=1000j$$
+> Da cui calcoliamo l’impedenza del bipolo:
+> $$\mathbf{Z}=\frac{(1-j)\cdot j}{1-j+j}\cdot 1000=(1+j)\cdot 1000$$
+> e l'ammettenza:
+> $$\mathbf{Y}=\frac{1-j}{2000}$$
+> 
+> Quindi:
+> $$\mathbf{S}=\frac{1}{2}(10)^2\frac{(1+j)}{2000}=\frac{25}{1000}(1+j) \\ \\ P= 25 \ m W \\ \\ Q = 25 \ mVAR$$
+> inoltre:
+> $$\phi=atan(1)=\frac{\pi}{4}\to \cos \phi \approx 0.7$$
+> 
+> Verifichiamo la correttezza dei risultati attraverso il bilancio delle potenze. Per questo, valutiamo la corrente nella serie del resistore col condensatore:
+> $$\mathbf{I}_{R}=\mathbf{I}_{C}=\frac{\mathbf{V}_{s}}{R+Z_{c}}=\frac{10}{(1-j)1000}=\frac{10}{2000}(1+j)$$
+> e dell'induttore:
+> $$\mathbf{I}_{l}=\frac{\mathbf{V}_{s}}{Z_{l}}=\frac{10}{j1000}=\frac{1}{100}(-j)$$
+> 
+> Quindi, la potenza attiva assorbita dal resistore vale:
+> $$P_{R}=\frac{1}{2}|\mathbf{I}_{R}|^2R=\frac{1}{2}\left( \frac{\sqrt{ 2 }}{200} \right)^2 1000=\frac{1}{40} \ W$$
+> La potenza reattiva assorbita dal condensatore risulta:
+> $$Q_{c}=\frac{1}{2}|\mathbf{I}_{c}|^2(X_{c})=\frac{1}{2}\left( \frac{\sqrt{ 2 }}{200} \right)^2 (-1000)=-\frac{1}{40} \ VAR$$
+> mentre quella dell'induttore:
+> $$Q_{l}=\frac{1}{2}|\mathbf{I}_{l}|^2(X_{l})=\frac{1}{2}\left( \frac{1}{100} \right)^2 (1000)=\frac{1}{20} \ VAR$$
+> 
+> È facile verificare che i bilanci:
+> $$P=P_{R}\\ \\ Q=Q_{l}+Q_{c}$$
+> sono soddisfatti.
+
+
+
+## 9.5 **Rifasamento**
+
+L’argomento di questa sezione riguarda un problema tipico che si affronta nell’ambito dei sistemi per la distribuzione dell’energia elettrica. Studiamo infatti il caso di un utilizzatore inserito in una rete di distribuzione per il quale la tensione ai sui capi viene fissata da una qualche forma di regolazione al valore di picco $V_{m}$ e al quale viene fornita la potenza attiva $P$ (in watt), come mostrato in figura:
+![[Elettrotecnica-1794602531399.webp|437]]
+#Figura(9.13). *Utilizzatore servito da una linea di distribuzione dell’energia elettrica*
+
+Dall’espressione della potenza attiva assorbita:
+$$P=\frac{1}{2}V_{m}I_{m}\cos \phi\to I_{m}=\frac{2P}{V_{m}\cos \phi}\quad(9.8)$$
+
+Si vede dunque che fissati i valori di $P$ e $V_{m}$, **il valore di picco della corrente entrante nel bipolo utilizzatore è determinato dal fattore di potenza**, cioè dalla potenza reattiva associata all’utilizzatore. A sua volta, il valore di picco Im della corrente, che fluisce nel resistore $R_{s}$ dovuto alla linea di distribuzione causa una dissipazione di potenza pari alla potenza attiva assorbita dal resistore:
+$$P_{R}=\frac{1}{2}I_{m}^2R_{s}$$
+
+Infine, la potenza erogata $P_e$ dall’ente fornitore dell’energia sarà data da:
+$$P_{e}=P_{R}+P=\frac{1}{2}\left( \frac{2P}{V_{m}\cos \phi} \right)^2\cdot R_{s}+P$$
+
+Risulta evidente che minore è il fattore di potenza dell’utilizzatore, cioè maggiore è la potenza reattiva ad esso associata, e maggiore è la potenza attiva complessiva che l’ente fornitore deve erogare a parità di potenza attiva assorbita dall’utente.
+Il caso più vantaggioso è quando $\cos \phi= 1$, cioè l’utilizzatore ha potenza reattiva nulla, per cui è minima $I_m$. La "performance" degrada al ridursi di $\cos \phi$ fino ad arrivare al caso limite in cui quando $\cos \phi\to 0$ si ha $I_{m}\to \infty, P_{e}\to \infty$.
+
+Per questo motivo l’ente erogatore richiede che gli utilizzatori, specialmente quelli più grandi, debbano <u>assicurare un valore minimo del fattore di potenza</u> e in caso non soddisfino tale requisito debbano provvedere a un’operazione chiamata **rifasamento**.
+
+Poiché nella pratica la potenza reattiva degli utilizzatori è di tipo induttivo (quindi $Q > 0 \ VAR$), il rifasamento comunemente consiste nel collegare in parallelo al bipolo un condensatore che introduce potenza reattiva negativa che tende a ridurre quella preesistente, come in figura:
+![[Elettrotecnica-1794654127605.webp|353]]
+#Figura(9.14). *Inserimento di un condensatore di rifasamento*
+
+
+**L’inserimento di un elemento reattivo come il condensatore chiaramente non varia il valore di $P$**. Inoltre si può assumere che anche il valore di picco della tensione $V_{m}$ rimanga inalterato.
+Dunque, se la potenza reattiva prima del rifasamento è:
+$$Q=P\tan \phi$$
+e indichiano con $\tilde{\phi}$ l'angolo di fase a rifasamento avvenuto, ovvero:
+$$\cos\tilde{\phi}=fattore \ di \ potenza \ del \ carico \ rifasato$$
+si ha che la variazione di potenza reattiva deve valere:
+$$\Delta Q=-P\tan \phi+P\tan\tilde{\phi}$$
+come mostrato in figura:
+![[Elettrotecnica-1794654314601.webp|305]]
+#Figura(9.15). *Triangolo delle potenze prima e dopo il rifasamento*
+
+
+Tale variazione è **negativa**, quindi uguagliando il modulo della variazione al modulo della potenza reattiva del condensatore (che è pure negativa), si ottiene:
+$$P\tan \phi-P\tan\tilde{\phi}=\frac{1}{2}V_{m}^2 \ \omega \ C_{rif}$$
+da cui è facile ricavare il valore di $C_{rif}$ richiesto.
+
+
+
+#### #Esercizio(numerico)
+
+> [!question] Esercizio
+> Sono dati:
+> $$V_{m}=100\sqrt{ 2 } \ V \\ \omega=2\pi\cdot 50 \ rad/s \\ P= 10 \ kW \\ \cos \phi=\frac{\sqrt{ 2 }}{2}\approx 0.707 \\ R_{s}=0.1 \ \Omega$$
+> Con questi dati, si ha che:
+> $$\phi=45^o \\ \\ Q=P\tan 45^o=10 \ kVAR$$
+> 
+> 
+> Dalla $(9.8)$ valutiamo il valore di picco della corrente:
+> $$I_{m}=\frac{2\cdot 1000}{100\sqrt{ 2 }\cdot \frac{\sqrt{ 2 }}{2}}=200 \ A$$
+> e la potenza assorbita dal resistore di linea:
+> $$P_{R}=\frac{1}{2}200^2\cdot 0.1=2 \ kW$$
+> Dunque, in questo scenario, la potenza erogata vale:
+> $$P_{e}=P_{R}+P=12 \ kW$$
+> 
+> 
+> Supponiamo che ci venga imposto un fattore di potenza tale che:
+> $$\cos\tilde{\phi}=0.9$$
+> valutiamo la capacità di rifasamento necessaria per soddisfare questa specifica.
+> Poichè $\tan\tilde{\phi}=0.48$, si deriva:
+> $$\tilde{Q}=P\tan\tilde{\phi}=4.8 \ kVAR$$
+> e quindi:
+> $$\Delta Q=-10000+4800=-5.2 \ kVAR$$
+> 
+> Infine:
+> $$|\Delta Q|=\frac{1}{2}V_{m}^2 \ \omega \ C_{rif}\to C_{rif}=\frac{2\cdot|\Delta Q|}{V_{m}^2 \ \omega}=\frac{2\cdot 5200}{20000 \ 2\pi 50}=1.66 \ mF$$
+> 
+> La corrente che scorre nel carico rifasato (a valle del condensatore, vedi figura 9.14) si ricava dalla $(9.8)$:
+> $$\tilde{I}_{m}=\frac{2\cdot 10000}{100\sqrt{ 2 }\cdot 0.9}=157 \ A$$
+> che corrisponde alla potenza dissipata nella linea e potenza erogata:
+> $$P_{R}=\frac{1}{2}157^2\cdot 0.1=1235 \ kW\to P_{e}=11235 \ kW$$
+
+
+
+## 9.6 **Teorema del massimo trasferimento di potenza**
+
+L’argomento di questa sezione riveste <mark class="hltr-yellow">notevole importanza nell’ambito dei sistemi di ricetrasmissione delle telecomunicazioni</mark>.
+
+Un tipico esempio è quello di un’antenna che riceve un segnale che possiamo modellare con un circuito di tipo Thevenin come mostrato in figura:
+![[Elettrotecnica-1794655220267.webp|432]]
+#Figura(9.16). *Problema del massimo trasferimento di potenza*
+
+
+I parametri del modello, cioè il fasore del generatore (che rappresenta il segnale ricevuto, qui assunto composto da una sola armonica) $\mathbf{E}$ e l’impedenza serie:
+$$\mathbf{Z}_{s}=R_{s}+jX_{s}\quad\quad(R_{s}>0 \ \Omega)$$
+sono **assegnati** e non "accessibili" al progettista.
+
+I fili provenienti dall’antenna devono essere collegati ad un amplificatore di cui viene modellata l’impedenza di ingresso $\mathbf{Z}_{L} =R_{L} + jX_{L}$. I parametri dell’impedenza di ingresso possono essere modificati dal progettista allo scopo di ottimizzare la ricezione del segnale che avviene quando è massima la potenza attiva assorbita da $\mathbf{Z}_{L}$.
+Ci chiediamo quali siano i valori di tali parametri, con la condizione ulteriore che per la fisica realizzabilità $R_{L} > 0 \ \Omega$.
+
+A tal fine, calcoliamo la corrente nella maglia:
+$$\mathbf{I}=\frac{\mathbf{E}}{\mathbf{Z}_{s}+\mathbf{Z}_{s}}=\frac{\mathbf{E}}{(R_{s}+R_{L})+j(X_{s}+X_{L})}$$
+e quindi la potenza assorbita dal carico:
+$$P_{L}(R_{L},X_{L})=\frac{1}{2}\frac{|\mathbf{E}|^2\cdot R_{L}}{(R_{s}+R_{L})^2+(X_{s}+X_{L})^2}\quad(9.9)$$
+
+Per quel che riguarda il parametro $X_{L}$, questo può assumere sia valori positivi che negativi. Quindi è intuitivo concludere che il valore che minimizza il denominatore della $(9.9)$ è quello per cui si elide il termine:
+$$X_{s}+X_{L}=0\to X_{L}=-X_{s}$$
+Grazie a questa posizione la potenza nel carico si riduce a:
+$$P_{L}(R_{L})=\frac{1}{2}\frac{|\mathbf{E}|^2\cdot R_{L}}{(R_{s}+R_{L})^2}\quad(9.10)$$
+cioè ad essere una funzione della sola $R_{L}$. Con un semplice studio di funzione è immediato verificare che tale funzione ha un minimo dove la sua derivata:
+$$\frac{dP_{L}(R_{L})}{R_{L}}=\frac{0.5\cdot|\mathbf{E}|^2}{(R_{s}+R_{L})^4}\cdot[(R_{s}+R_{L})^2-R_{L}2(R_{s}+R_{L})]\quad(9.11)$$
+
+si annulla, cioè:
+$$R_{s}^2+R_{L}^2+2R_{s}R_{L}-2R_{L}R_{s}-2R_{L}^2=0$$
+che si semplifica in:
+$$R_{s}^2-R_{L}^2=0\to R_{L}=\pm R_{s}$$
+
+La soluzione fisica è dunque $R_{L} = R_{s}$ che unita alla condizione sulla reattanza ci porta alla conclusione che il massimo trasferimento di potenza si ha quando:
+$$\mathbf{Z}_{L}=\mathbf{Z}_{s}^{\star}$$
+In questa condizione, si dice che **il carico è adattato** o anche adattato su base coniugata.
+Se adattato, il carico assorbe la potenza massima:
+$$P_{L}^{max}=\frac{1}{8} \frac{|\mathbf{E}|^2}{R_{s}}$$
+detta **potenza utilizzabile**.
+
+
+
+
+# **Capitolo X: Transitorio**
+
+
+## 10.1 **Risposta completa di un circuito dinamico con condensatore**
+
+In questo capitolo esaminiamo<mark class="hltr-yellow"> la risposta completa nel tempo di un circuito elettrico che contiene un elemento dinamico di tipo condensatore</mark>. Il focus è sulla componente "transitoria" dell’evoluzione temporale della risposta che precede il raggiungimento di un regime (DC o AC). 
+
+Partiamo dal <u>caso DC</u>, cioè quando tutti le sorgenti nel circuito sono di tipo costante nel tempo. La figura (Sinistra) mostra questo caso mettendo in evidenza il condensatore e il circuito resistivo uno-porta ad esso collegato ai morsetti $A−B$:
+![[Elettrotecnica-1794656135714.webp|598]]
+#Figura(10.1). *Circuito di ordine uno con condensatore (Sinistra); circuito equivalente "visto" dal condensatore (Destra)*
+
+
+Inoltre facciamo l’ipotesi che tale circuito uno-porta ammetta l’equivalente di tipo Thevenin con parametri $E_{eq}$ e $R_{eq} \ne 0 \ \Omega$ come mostrato in figura (Destra). Ragionando su tale equivalente è facile ricavare **l’equazione differenziale che governa la variabile tensione sul condensatore**:
+$$\tau\frac{dv_{c}(t)}{dt}+v_{c}(t)=E_{eq}\quad(10.1)$$
+dove la quantità $\tau=R_{eq}C$ viene detta la **costante di tempo** del circuito.
+Osserviamo che nel caso di soli sorgenti in DC, il termine noto, che appare al membro di destra nella $(10.1)$, è una costante.
+Vogliamo determinare l’espressione generale di $v_{c}(t)$ che risolve la $(10.1)$ con l’aggiunta dell’informazione del valore di tale tensione in un istante di tempo arbitrario $t_{0}$ assunto come origine dei tempi, cioè:
+$$v_{c}(t_{0})=v_{c_{0}}$$
+Tale problema matematico prende il nome di <mark class="hltr-yellow">Problema ai valori iniziali di Cauchy</mark>.
+
+Come già in parte anticipato nel [[#7.4 **Risposta a regime sinusoidale**|regime AC]], dall’Analisi Matematica sappiamo che tale forma risolutiva è un’espressione del tipo:
+$$v_{c}(t)=v_{ch}(t)+v_{cp}(t)\quad(10.2)$$
+composta da due termini, come discusso nel seguito:
+
+- Il primo termine nella $(10.2)$, è la soluzione generale dell'equazione omogenea associata:$$\tau\frac{dv_{c}(t)}{dt}+v_{c}(t)=0\quad(10.3)$$cioè ell’equazione differenziale ottenuta azzerando il temine noto. L’espressione generale che la risolve è la seguente:$$v_{ch}(t)=Ke^{\lambda(t-t_{0})}\quad(10.4)$$dove $\lambda,K$ sono due parametri incogniti da determinare.
+	
+	Sostituendo $v_{c}(t)=v_{ch}(t)$ nella $(10.3)$ si ottiene:$$\tau \lambda Ke^{\lambda(t-t_{0})}+Ke^{\lambda(t-t_{0})}=(\tau \lambda+1)Ke^{\lambda(t-t_{0})}=0\quad(10.5)$$Dividendo per $Ke^{\lambda(t-t_{0})}$ (nell'ipotesi $K\ne 0$), si semplifica nella seguente equazione:$$p(\lambda)=\tau \lambda+1=0\quad(10.6)$$in cui si eguaglia a zero il polinomio $p(\lambda)$ di grado uno nella variabile $\lambda$. Tale polinomio è detto il **polinomio caratteristico dell’omogenea associata**. L’espressione $(10.4)$ risolve la $(10.3)$ sse $\lambda$ è la radice del polinomio caratteristico, cioè:$$\lambda=-\frac{1}{\tau}=-\frac{1}{R_{eq} \ C}$$in tal caso è detta **pulsazione naturale**. Con questa posizione, la $(10.4)$ diviene:$$v_{ch}(t)=Ke^{-\frac{(t-t_{0})}{\tau}}\quad(10.7)$$
+
+- Il secondo termine nella $(10.2)$ è una **soluzione particolare** della $(10.1)$ dello stesso tipo del termine noto. In questo caso, la soluzione particolare deve essere una funzione costante:$$v_{cp}(t)=V_{cp}\quad(10.8)$$Sostituendo $v_{c}(t)=V_{cp}$ nella $(10.1)$ si conclude che:$$V_{cp}=E_{eq}\quad(10.9)$$Sostituendo le espressioni determinate per i suoi due termini, la soluzione generale $(10.2)$ si trasforma in:$$v_{c}(t)=Ke^{-\frac{(t-t_{0})}{\tau}}+E_{eq}\quad(10.10)$$L'ultimo parametro da determinare, cioè $K$, viene "fissato" dalla condizione iniziale. Infatti, imponendo che:$$v_{c}(t_{0})=v_{c_{0}}=K+E_{eq}$$si conclude che:$$K=v_{c_{0}}-E_{eq}$$e quindi:$$v_{c}(t)=\underbrace{(v_{c_{0}}-E_{eq})e^{-\frac{(t-t_{0})}{\tau}}}_{Transitorio}+\underbrace{E_{eq}}_{Regime}\quad(10.11)$$
+
+
+E' dunque possibile svolgere le seguenti **considerazioni**:
+
+1. Se la pulsazione naturale del sistema è strettamente minore di zero, cioè $\lambda=-\frac{1}{\tau} < 0$, allora il primo termine nella $(10.11)$ è una funzione esponenziale del tempo con esponente negativo, cioè del tipo $e^{\frac{−t}{\tau}}$. Tale funzione tende a svanire asintoticamente per $t \to \infty$. In questo caso, il primo termine della $(10.11)$ viene detto **Risposta in Transitorio** o semplicemente **transitorio** ed il circuito si dice <u>asintoticamente stabile</u>. Si noti che in un circuito asintoticamente stabile la risposta che si ha dopo un tempo "sufficientemente lungo in modo che il transitorio si sia esaurito", non dipende dalla condizione iniziale. In altri termini, il fatto di partire da $v_{c}(t_{0})$ diverse fra loro non cambia la risposta di regime.
+
+
+2. Il secondo termine della $(10.11)$ è la parte di risposta che sopravvive per $t \to\infty$ dopo che il transitorio si è esaurito e viene detto **Risposta a Regime**. Viene perciò indicato anche come:$$E_{eq}=v_{c\infty}$$
+	Nel caso di circuiti con sorgenti DC, tale regime si valuta analizzando il circuito in cui all’elemento dinamico si sostituisce il relativo modello valido in DC. Nel caso di un condensatore, il legame costitutivo:$$i_{c}(t)=C\frac{dv_{c}(t)}{dt}$$si riduce in DC a:$$i_{c}(t)=0 \ A$$<u>cioè ad un circuito aperto</u>.
+![[Elettrotecnica-1794736320532.webp|399]]
+#Figura(10.2). *La risposta completa è la sovrapposizione della risposta in transitorio e di quella a regime. Nella figura si è assunto che $E_{eq} > v_{c_{0}}$ e che $t_{0} = 0 \ s$*
+
+
+3. L'ampiezza della risposta in transitorio è determinata da $v_{c_{0}}−E_{eq} = v_{c_{0}}−v_{c\infty}$, cioè dalla differenza tra la condizione iniziale e quella di regime. La durata (e quindi la velocità) del transitorio è invece decisa dal valore della costante di tempo $\tau$. Si calcoli infatti la retta tangente alla funzione $v_{c}(t)$ in $t= t_{0}$. L’equazione di tale retta $y(t) = m \times(t−t_{0}) + q$ diventa:$$y(t)=\frac{dv_{c}(t)}{dt}|_{t=t_{0}}\times(t-t_{0})+v_{c_{0}}$$e quindi dalla $(10.11)$ si ha:$$y(t)=\frac{E_{eq}-v_{c_{0}}}{\tau}\times(t-t_{0})+v_{c_{0}}$$La retta tangente è tale che:$$t(t=t_{0}+\tau)=E_{eq}=v_{c\infty}$$cioè essa interseca il valore della risposta a regime dopo $\tau$ secondi (dall’istante iniziale di riferimento), come mostrato in figura: Dopo 5 costanti di tempo si ha $e^{−5} \approx 0$ ed il transitorio si considera in pratica esaurito:![[Elettrotecnica-1794736395487.webp|507]]
+	#Figura(10.3). *La risposta completa e il significato di costante di tempo, si è assunto $t_{0} = 0 \ s$*
+
+
+Concludiamo l’analisi della risposta del circuito $(10.11)$, osservando come talvolta si preferisca riscriverla nel modo seguente:
+$$v_{c}(t)=\underbrace{v_{c_{0}}e^{-\frac{(t-t_{0})}{\tau}}}_{Ingresso \ zero}+\underbrace{E_{eq}\left( 1-e^{-\frac{(t-t_{0})}{\tau}} \right)}_{Stato \ zero}\quad (10.12)$$
+
+cioè nella risposta dovuta alla sola condizione iniziale in assenza di sorgenti DC, detta **Risposta a ingresso zero** o **risposta libera**, e in quella dovuta alle sole sorgenti DC del circuito partendo da condizione iniziale nulla, detta **Risposta a stato zero** o **risposta forzata**.
+![[Elettrotecnica-1794736679719.webp|398]]
+#Figura(10.4). *La risposta completa scomposta in Risposta a ingresso zero e Risposta a stato zero*
+
+
+
+## 10.2 **Analisi del circuito dinamico**
+
+Applichiamo la teoria sviluppata nella sezione precedente al circuito mostrato in figura:
+![[Elettrotecnica-1794736863195.webp|546]]
+#Figura(10.5). *Circuito dinamico di cui si richiede il calcolo della risposta*
+
+I dati sono:
+$$E_{s}=10 \ V \\ R_{1}=R_{2}=1 \ k\Omega \\ C= 1 \ mF$$
+inoltre è nota la <u>condizione iniziale</u> $v_{c}(0)=-2 \ V$.
+
+
+Facciamo riferimento al circuito resistivo mostrato in figura, che è collegato ai morsetti $AB$ del condensatore e calcoliamone i parametri dell’equivalente Thevenin:
+![[Elettrotecnica-1794736970530.webp|335]]
+#Figura(10.6). *Circuito uno-porta resistivo collegato al condensatore*
+
+Risulta:
+$$E_{eq}=v_{c\infty}=E_{s}\frac{R_{2}}{R_{1}+R_{2}}=5 \ V$$
+Osserviamo che questa è la tensione che si ha sul condensatore a regime DC quando diviene equivalente ad un circuito aperto. Inoltre:
+$$R_{eq}=R_{1}||R_{2}=500 \ \Omega \to \tau=C R_{eq}=0.5 \ s$$
+La teoria svolta nella sezione precedente ci indica che la risposta del circuito per $t \ge 0$ risulta:
+$$v_{c}(t)=(-2-5)e^{-\frac{t}{0.5}}+5=-7e^{-2t}+5 \ V\quad(10.13)$$
+come mostrato nel grafico in figura:
+![[Elettrotecnica-1794737145352.webp|488]]
+#Figura(10.7). *Andamento nel tempo della tensione sul condensatore*
+
+
+### Calcolo delle altre variabili nel circuito:
+
+In un circuito dinamico contenente un condensatore, la risposta viene prima di tutto calcolata per la variabile tensione sul condensatore, come illustrato nei passaggi precedenti. Dopodiché tutte le altre variabili elettriche possono essere dedotte immaginando di sostituire il condensatore con un generatore di tensione che impone la tensione di forma d’onda $v_{c}(t)$, come mostrato in figura:
+![[Elettrotecnica-1794737244376.webp|413]]
+#Figura(10.8). *Circuito resistivo per il calcolo delle altre variabili*
+
+
+Supponiamo, per esempio, di voler determinare la forma d’onda nel tempo della variabile $i_{s}(t)$ che scorre nella sorgente di tensione $E_{s}$. Risolvendo, si ottiene:
+$$i_{s}(t)=\frac{E_{s}-v_{c}(t)}{R_{1}}=\frac{10+7e^{-2t}-5}{1000}=\frac{7}{1000}e^{-2t}+\frac{5}{1000} \ A\quad(10.14)$$
+
+Si può osservare come per la generica variabile elettrica $x(t)$, dove in questo caso $x(t) = i_{s}(t)$, la forma d’onda sia sempre del tipo:
+$$x(t)=i_{s}(t)=Ae^{-t/\tau}+B$$
+dove in questo caso:
+$$A=7 \ mA \\ B= 5 \ mA$$
+Il coefficiente $B$ rappresenta il valore a regime della variabile considerata, infatti per $t \to \infty$, si ha:
+$$x_{\infty}=i_{s \infty}=B=5 \ mA$$
+Tale valore di regime DC della generica variabile si può calcolare analizzando il circuito in figura 10.8 con $v_{c \infty} = 5 \ V$ (**oppure sostituendo il condensatore con un circuito aperto**).
+Inoltre, mponendo la condizione iniziale $x(0) = i_{s}(0) = A + B$, si ha che il coefficiente $A$ vale:
+$$A=x(0)-B=x(0)-x_{\infty}$$
+Si conclude che la generica variabile elettrica ammette una forma risolutiva del tipo:
+$$x(t)=(x(0)-x_{\infty})e^{-\frac{t}{\tau}}+x_{\infty}$$
+
+*Per esempio*, la variabile $i_{s}(0)$ si determina dal circuito con $v_{c}(0)=-2 \ V$:
+$$i_{s}(0)=\frac{10+2}{1000}=12 \ mA$$
+Notate infine che usando la forma:
+$$i_{s}(t)=(i_{s}(0)-i_{s \infty})e^{-\frac{t}{\tau}}+i_{s \infty}$$
+coi valori di regime e iniziali calcolati si ritrovi la soluzione nella $(10.14)$.
+
+
+
+Come **caso particolare**, vediamo come <u>calcolare la variabile corrente nel condensatore</u>.
+A tal fine è conveniente sfruttare il circuito di Thevenin gia calcolato, come mostrato in figura:
+![[Elettrotecnica-1794739672095.webp|396]]
+#Figura(10.9). *Circuito per il calcolo della corrente nel condensatore*
+
+
+La corrente avrà un’espressione del tipo:
+$$i_{c}(t)=i_{c}(0)e^{-\frac{t}{\tau}}$$
+poichè a regime $i_{c \infty}=0$. Inoltre:
+$$i_{c}(0)=\frac{E_{eq}-v_{c}(0)}{R_{eq}}=\frac{5-(-2)}{500}=14 \ mA$$
+L'andamento nel tempo della corrente è mostrato nella figura:
+![[Elettrotecnica-1794739786675.webp|403]]
+#Figura(10.10). *Corrente nel condensatore*
+
+
+
+## 10.3 **Risposta completa di un circuito dinamico con induttore**
+
+Passiamo ad analizzare la risposta di un circuito che contiene un induttore come mostrato nella figura (Sinistra):
+![[Elettrotecnica-1794739872073.webp|478]]
+#Figura(10.11). *Circuito di ordine uno con induttore (Sinistra); circuito equivalente "visto" dall’induttore (Destra)*
+
+
+Tale figura mette in evidenza l’induttore ed il circuito resistivo uno-porta ad esso collegato ai morsetti $A−B$.
+Inoltre facciamo l’ipotesi che tale circuito uno-porta ammetta l’equivalente di tipo Norton con parametri $I_{eq}$ e $G_{eq} =\frac{1}{R_{eq}} \ne 0  \ Ω^{-1}$ come mostrato in figura (Destra).
+Ragionando su tale equivalente è facile ricavare l’**equazione differenziale che governa la variabile corrente nell’induttore**:
+$$\tau\frac{di_{L}(t)}{dt}+i_{L}(t)=I_{eq}\quad(10.15)$$
+dove la quantità $\tau=L \ G_{eq}=\frac{L}{R_{eq}}$ è ora  la **costante di tempo** del circuito.
+
+Vogliamo determinare l’espressione generale di $i_{L}(t)$ che risolve la $(10.15)$ con l’aggiunta dell’informazione del valore della corrente in un istante di tempo arbitrario $t_{0}$ assunto come origine dei tempi, cioè:
+$$i_{L}(t_{0})=i_{L}(0)$$
+Osserviamo come la $(10.15)$ sia formalmente uguale all’equazione $(10.1)$ studiata per il condensatore dopo aver sostituito la variabile tensione con la corrente nell’induttore. Seguendo il medesimo procedimento si verifica per esempio che la pulsazione naturale in questo caso vale:
+$$\lambda=-\frac{1}{\tau}=-\frac{1}{G_{eq}L}=-\frac{R_{eq}}{L}$$
+Inoltre la soluzione generale assume l’espressione:
+$$i_{L}(t)=\underbrace{(i_{L_{0}}-I_{eq})e^{-\frac{(t-t_{0})}{\tau}}}_{Transitorio}+\underbrace{I_{eq}}_{Regime}\quad(10.16)$$
+che mette in luce la risposta in transitorio e quella a regime.
+In particolare, quest’ultima è il termine che sopravvive per $t \to \infty$ e dunque si indica come:
+$$I_{eq}=i_{L \infty}$$
+Nel caso di circuiti con sorgenti DC, **la risposta a regime si valuta analizzando il circuito in cui all’elemento dinamico si sostituisce il relativo modello valido in DC**. Nel caso di un induttore, il legame costitutivo:
+$$v_{L}(t)=L\frac{di_{L}(t)}{dt}$$
+si riduce in DC a:
+$$v_{L}(t)=0 \ V$$
+<u>cioè ad un corto circuito</u>.
+
+
+
+#### #Esercizio(circuito con induttore)
+
+> [!question] Esercizio
+> Applichiamo la teoria sviluppata nella sezione precedente al circuito mostrato in figura, che contiene un induttore ed un generatore di corrente pilotato in corrente:
+> ![[Elettrotecnica-1794749069166.webp|443]]
+> #Figura(10.12). *Circuito dinamico con induttore*
+> 
+> I dati sono:
+> $$E=20 \ V \\ R_{1}=R_{2}=10 \ \Omega \\ L= 1 \ mH \\ \beta= 8$$
+> inoltre è nota la <u>condizione iniziale</u> $i_{L}(0)= 0 \ A$.
+> 
+> Per questo, determiniamo per primo il circuito equivalente di tipo Norton "visto" dall’induttore. La figura seguente mostra la prova semplice per il calcolo del parametro $R_{eq}$:
+> ![[Elettrotecnica-1794749180569.webp|336]]
+> #Figura(10.13). *Calcolo del parametro $R_{eq}$*
+> 
+> Si ottiene:
+> $$I=\frac{V}{R_{1}}+\frac{V}{R_{2}}+\beta\frac{V}{R_{2}}=V\left( \frac{1}{R_{1}}+\frac{9}{R_{2}} \right)=V\cdot 1$$
+> da cui:
+> $$R_{eq}=1 \ \Omega \\ \\ \tau=\frac{L}{R_{eq}}=1 \ ms$$
+> 
+> La figura seguente mostra invece la prova semplice per il calcolo del parametro $I_{eq}$:
+> ![[Elettrotecnica-1794749315756.webp|395]]
+> #Figura(10.14). *Calcolo del parametro $I_{eq}$*
+> 
+> 
+> Notando che $I_{x} = 0$, si ricava:
+> $$I_{eq}=i_{L \infty}=\frac{E}{R_{1}}=\frac{20}{10}=2 \ A$$
+> La forma d'onda della corrente nell’induttore vale:
+> $$i_{L}(t)=-2e^{-1000t}+2 \ A$$
+> come mostrato in figura (Alto):
+> ![[Elettrotecnica-1794749417577.webp|382]]
+> #Figura(10.15). *Andamento di $i_{L}(t)$ (Alto) e di $v_{L}(t)$ (Basso)*
+> 
+> 
+> Per il calcolo della tensione sull’induttore, conviene fare riferimento al circuito equivalente mostrato in figura 10.16, in cui <u>immaginiamo di sostituire l’induttore con un generatore di corrente che imprime la forma d’onda nota</u> $i_{L}(t)$.
+> Ricordando che a regime DC l’induttore diventa un corto circuito e quindi $v_{L \infty} = 0$, la tensione ha espressione:
+> $$v_{L}(t)=v_{L}(0)e^{-1000t}, V$$
+> ![[Elettrotecnica-1794749530931.webp|312]]
+> #Figura(10.16). *Circuito per il calcolo di $v_{L}(t)$*
+> 
+> 
+> Il valore $v_{L}(0)$ lo ricaviamo dalla figura sostituendo la corrente $i_{L}(0) = 0 \ A$:
+> $$v_{L}(0)=(I_{eq}-i_{L}(0))\cdot R_{eq}=2\cdot 1=2 \ V$$
+> 
+> Calcoliamo la forma d’onda della corrente $I_{y}(t)$: per questo, prima ne valutiamo il valore in $t= 0$ analizzando il circuito in figura (ottenuto da $i_{L}(0) = 0 \ A$):
+> ![[Elettrotecnica-1794749660065.webp|289]]
+> #Figura(10.17). *Circuito per il calcolo di $I_{y}(0)$*
+> 
+> Si ha:
+> $$I_{y}(0)=I_{x} \\ \\ I_{x}R_{2}+(\beta+1)I_{x}R_{1}=I_{x}(10+90)=20 \ V \\ \\ I_{y}(0)=I_{x}=\frac{20}{100}=0.2 \ A$$
+> 
+> Quindi, determiniamo $I_{y}(\infty)$ risolvendo il circuito mostrato in figura (ottenuto ricordando che $v_{L}(\infty) = 0$):
+> ![[Elettrotecnica-1794749786205.webp|326]]
+> #Figura(10.18). Circuito per il calcolo di $I_{y}(\infty)$
+> 
+> Si ha:
+> $$I_{x}=\frac{0}{10}=0 \ A$$
+> e dunque:
+> $$I_{y}(\infty)=\frac{E}{R_{1}}=2 \ A$$
+> 
+> L'espressione di $I_{y}(t)$ vale:
+> $$I_{y}(t)=(I_{y}(0)-I_{y}(\infty))e^{-1000t}+I_{y}(\infty)=(0.2-2)e^{-1000t}+2 \ A$$
+
+
+
+## 10.4 **Casi particolari**
+
+Fino ad ora si sono analizzati circuiti in cui la <u>resistenza equivalente</u> vista dall’elemento dinamico, condensatore o induttore, è<u> finita e diversa da zero</u>. Vediamo cosa accade quando questa ipotesi non è vera in quanto il circuito collegato all’elemento adinamico ammette un solo tipo di equivalente, o Thevenin o Norton.
+
+Partiamo col caso mostrato in figura:
+![[Elettrotecnica-1794750134129.webp|259]]
+#Figura(10.19). *Condensatore collegato a sorgente indipendente di tensione*
+
+
+In questo scenario, l’equazione che governa il circuito si riduce a:
+$$v_{c}(t)=E_{s}$$
+cioè ad una equazione algebrica molto semplice. Si dice che il problema dinamico *degenera* in problema puramente algebrico immediatamente risolubile:
+$$v_{c}(t)=E_{s} \\ \\ i_{c}(t)=C\frac{dE_{s}}{dt}$$
+
+Ben diverso è invece il caso mostrato in figura, in cui il condensatore è collegato ad una sorgente indipendente di corrente che imprime la corrente $I_{s}$:
+![[Elettrotecnica-1794750308410.webp|317]]
+#Figura(10.20). *Condensatore collegato a sorgente indipendente di corrente*
+
+
+L'equazione differenziale che governa il circuito si scrive:
+$$C\frac{dv_{c}(t)}{dt}=I_{s}\quad(10.17)$$
+Se confrontiamo col caso generale riportato nella $(10.1)$, possiamo notare come ora nell’equazione differenziale manchi il termine $v_{c}(t)$. Questo permette di risolvere per integrazione diretta. Nel caso generale in cui $I_{s} = i_{s}(t)$ è funzione del tempo, dopo avere riscritto la $(10.17)$ nella forma:
+$$dv_{c}(t)=\frac{1}{C}i_{s}(t) \ dt$$
+integriamo ambo i membri sul generico intervallo $(t_{0},t)$:
+$$\int_{v_{c}(t_{0})}^{v_{c}(t)}dv_{c}=\frac{1}{C}\int_{t_{0}}^t i_{s}(t') \ dt'$$
+che ci porta all'espressione risolutiva:
+$$v_{c}(t)=v_{c}(t_{0})+\frac{1}{C}\int_{t_{0}}^t i_{s}(t') \ dt'$$
+
+*Per esempio*, se il generatore di corrente è una sorgente in DC, con $I_{s}$ costante, la tensione sul condensatore risulta:
+$$v_{c}(t)=v_{c}(t_{0})+\frac{I_{s}}{C}(t-t_{0})\quad (10.18)$$
+cioè <u>varia nel tempo linearmente</u> con una pendenza pari a $\frac{I_{s}}{C}$ , come mostrato in figura:
+![[Elettrotecnica-1794752803259.webp|291x342]]
+#Figura(10.21). *Evoluzione nel tempo della tensione e corrente del condensatore collegato ad una sorgente di corrente DC*
+
+
+
+È istruttivo, riesaminare l’ODE $(10.17)$ e tentare di applicare lo stesso procedimento visto nella [[#10.1 **Risposta completa di un circuito dinamico con condensatore**|prima sezione]] che passa attraverso il calcolo del polinomio caratteristico dell’omogenea associata. L’omogenea associata alla $(10.17)$ é semplicemente:
+$$C\frac{dv_{c}(t)}{dt}=0$$
+ed il suo polinomio caratteristico vale:
+$$p(\lambda)=C\lambda=0$$
+che ha come radice la pulsazione naturale $\lambda = 0$.
+Tale risultato indica che il circuito in figura 10.20 **è un sistema semplicemente stabile ma non asintoticamente stabile**. Infatti, valutiamo la risposta libera (o a ingresso zero) del circuito dovuta ad una condizione iniziale $v_{c}(t_{0}) = v_{c_{0}}$ non nulla quando la sorgente di corrente è spenta, ovvero $I_{s} = 0$. Il condensatore risulta collegato ad un circuito aperto e dalla $(10.18)$ si deduce che:
+$$v_{c}(t)=v_{c}(t_{0})\quad \forall t \ge 0$$
+ovvero la risposta libera rimane indefinitamente al valore iniziale senza estinguersi. In questo caso <u>non è dunque possibile parlare di risposta in transitorio ed a regime</u>.
+
