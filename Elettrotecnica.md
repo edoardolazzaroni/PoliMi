@@ -4385,6 +4385,15 @@ immediatamente risolubile:
 $$i_{L}(t)=I_{s} \\ \\ v_{L}(t)=L\frac{dI_{s}}{dt}$$
 
 
-Rimane da esaminare il caso mostrato in figura, in cui l’induttore è collegato ad una sorgente indipendente di tensione che imprime la tensione $E_{s}$. In quest’ultimo caso, l’equazione differenziale che
+Rimane da esaminare il caso mostrato in figura, in cui l’induttore è collegato ad una sorgente indipendente di tensione che imprime la tensione $E_{s}$:
+![[Elettrotecnica-1794774949655.webp|385]]
+#Figura(10.23). *Induttore collegato a sorgente indipendente di tensione*
 
-governa il circuito si scrive:
+
+In quest’ultimo caso, l’equazione differenziale che governa il circuito si scrive:
+$$L\frac{di_{L}(t)}{dt}=E_{s}\quad(10.19)$$
+E quindi è semplice risolvere per integrazione diretta, nel caso gen-
+
+erale Es = vs(t) funzione del tempo, dopo avere riscritto (1.17) nella
+
+forma:
