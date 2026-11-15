@@ -4340,4 +4340,8 @@ Partiamo col caso mostrato in figura:
 In questo scenario, l’equazione che governa il circuito si riduce a:
 $$v_{c}(t)=E_{s}$$
 cioè ad una equazione algebrica molto semplice. Si dice che il problema dinamico *degenera* in problema puramente algebrico immediatamente risolubile:
-$$v_{c}(t)=E_{s} \\$$
+$$v_{c}(t)=E_{s} \\ \\ i_{c}(t)=C\frac{dE_{s}}{dt}$$
+
+Ben diverso è invece il caso mostrato in figura, in cui il condensatore è collegato ad una sorgente indipendente di corrente che imprime la corrente $I_{s}$:
+![[Elettrotecnica-1794750308410.webp|399]]
+#Figura(10.20). Condensatore collegato a sorgente indipendente di corrente.
