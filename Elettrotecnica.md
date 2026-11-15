@@ -4346,9 +4346,14 @@ Ben diverso è invece il caso mostrato in figura, in cui il condensatore è coll
 ![[Elettrotecnica-1794750308410.webp|399]]
 #Figura(10.20). *Condensatore collegato a sorgente indipendente di corrente*
 
+
 L'equazione differenziale che governa il circuito si scrive:
 $$C\frac{dv_{c}(t)}{dt}=I_{s}\quad(10.17)$$
 Se confrontiamo col caso generale riportato nella $(10.1)$, possiamo notare come ora nell’equazione differenziale manchi il termine $v_{c}(t)$. Questo permette di risolvere per integrazione diretta. Nel caso generale in cui $I_{s} = i_{s}(t)$ è funzione del tempo, dopo avere riscritto la $(10.17)$ nella forma:
 $$dv_{c}(t)=\frac{1}{C}i_{s}(t) \ dt$$
 integriamo ambo i membri sul generico intervallo $(t_{0},t)$:
-$$\int_{v_{c}(t_{0})}^{v_{c}(t)}dv_{c}=\frac{1}{C}\int_{t_{o}}$$
+$$\int_{v_{c}(t_{0})}^{v_{c}(t)}dv_{c}=\frac{1}{C}\int_{t_{0}}^t i_{s}(t') \ dt'$$
+che ci porta all'espressione risolutiva:
+$$v_{c}(t)=v_{c}(t_{0})+\frac{1}{C}\int_{t_{0}}^t i_{s}(t') \ dt'$$
+
+Per 
