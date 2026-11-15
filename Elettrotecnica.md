@@ -4271,4 +4271,7 @@ Applichiamo la teoria sviluppata nella sezione precedente al circuito mostrato i
 
 I dati sono:
 $$E=20 \ V \\ R_{1}=R_{2}=10 \ \Omega \\ L= 1 \ mH \\ \beta= 8$$
-inoltre è nota la condizione iniziale $$
+inoltre è nota la <u>condizione iniziale</u> $i_{L}(0)= 0 \ A$.
+
+Per questo, determiniamo per primo il circuito equivalente di tipo Norton "visto" dall’induttore. La figura seguente mostra la prova semplice per il calcolo del parametro $R_{eq}$. Si ottiene:
+![[Elettrotecnica-1794749180569.webp]]
