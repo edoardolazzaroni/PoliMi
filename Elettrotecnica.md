@@ -4157,4 +4157,13 @@ $$v_{c}(t)=\underbrace{v_{c_{0}}e^{-\frac{(t-t_{0})}{\tau}}}_{Ingresso \ zero}+\
 
 cioè nella risposta dovuta alla sola condizione iniziale in assenza di sorgenti DC, detta **Risposta a ingresso zero** o **risposta libera**, e in quella dovuta alle sole sorgenti DC del circuito partendo da condizione iniziale nulla, detta **Risposta a stato zero** o **risposta forzata**.
 ![[Elettrotecnica-1794736679719.webp|398]]
-#
+#Figura(10.4). *La risposta completa scomposta in Risposta a ingresso zero e Risposta a stato zero*
+
+
+
+## 10.2 **Analisi del circuito dinamico**
+
+Applichiamo la teoria sviluppata nella sezione precedente al circuito mostrato in figura:
+
+
+I dati sono:
