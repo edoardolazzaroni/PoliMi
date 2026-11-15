@@ -4164,6 +4164,7 @@ cioè nella risposta dovuta alla sola condizione iniziale in assenza di sorgenti
 ## 10.2 **Analisi del circuito dinamico**
 
 Applichiamo la teoria sviluppata nella sezione precedente al circuito mostrato in figura:
-
+![[Elettrotecnica-1794736863195.webp|546]]
+#Figura (10.5)
 
 I dati sono:
