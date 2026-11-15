@@ -4195,4 +4195,7 @@ In un circuito dinamico contenente un condensatore, la risposta viene prima di t
 
 
 Supponiamo, per esempio, di voler determinare la forma d’onda nel tempo della variabile $i_{s}(t)$ che scorre nella sorgente di tensione $E_{s}$. Risolvendo, si ottiene:
-$$i_{s}(t)=\frac{E_{s}-v_{c}(t)}{R_{1}}=\frac{10+}$$
+$$i_{s}(t)=\frac{E_{s}-v_{c}(t)}{R_{1}}=\frac{10+7e^{-2t}-5}{1000}=\frac{7}{1000}e^{-2t}+\frac{5}{1000} \ A\quad(10.14)$$
+
+Si può osservare come per la generica variabile elettrica $x(t)$, dove in questo caso $x(t) = i_{s}(t)$, la forma d’onda sia sempre del tipo:
+$$x(t)=i_{s}(t)$$
