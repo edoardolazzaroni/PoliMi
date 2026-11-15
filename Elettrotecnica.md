@@ -4358,4 +4358,11 @@ $$v_{c}(t)=v_{c}(t_{0})+\frac{1}{C}\int_{t_{0}}^t i_{s}(t') \ dt'$$
 
 *Per esempio*, se il generatore di corrente è una sorgente in DC, con $I_{s}$ costante, la tensione sul condensatore risulta:
 $$v_{c}(t)=v_{c}(t_{0})+\frac{I_{s}}{C}(t-t_{0})\quad (10.18)$$
-cioè varia nel tempo linearmente con una pendenza pari a $\frac{I_{s}}{C}$ , come mostrato in figura:
+cioè <u>varia nel tempo linearmente</u> con una pendenza pari a $\frac{I_{s}}{C}$ , come mostrato in figura:
+![[Elettrotecnica-1794752803259.webp|291x342]]
+#Figura(10.21). *Evoluzione nel tempo della tensione e corrente del condensatore collegato ad una sorgente di corrente DC*
+
+
+È istruttivo, riesaminare l’ODE $(10.17)$ e tentare di applicare lo stesso procedimento visto nella sezione 1 che passa attraverso il calcolo del polinomio caratteristico dell’omogenea associata. L’omogenea
+
+associata alla (1.17) é semplicemente:
