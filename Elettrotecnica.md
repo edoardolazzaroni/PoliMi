@@ -4153,4 +4153,8 @@ E' dunque possibile svolgere le seguenti **considerazioni**:
 
 
 Concludiamo l’analisi della risposta del circuito $(10.11)$, osservando come talvolta si preferisca riscriverla nel modo seguente:
-$$v_{c}(t)=\underbrace{v_{c_{0}}e^{-\frac{(t-t_{0})}{\tau}}}_{Ingresso \ zero}+\underbrace{E_{eq}\left( 1-e^{-\frac{(t-t_{0})}{\tau}} \right)}_{Stato }$$
+$$v_{c}(t)=\underbrace{v_{c_{0}}e^{-\frac{(t-t_{0})}{\tau}}}_{Ingresso \ zero}+\underbrace{E_{eq}\left( 1-e^{-\frac{(t-t_{0})}{\tau}} \right)}_{Stato \ zero}\quad (10.12)$$
+
+cioè nella risposta dovuta alla sola condizione iniziale in assenza di sorgenti DC, detta **Risposta a ingresso zero** o **risposta libera**, e in quella dovuta alle sole sorgenti DC del circuito partendo da condizione iniziale nulla, detta **Risposta a stato zero** o **risposta forzata**.
+![[Elettrotecnica-1794736679719.webp|398]]
+#
