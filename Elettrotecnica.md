@@ -4303,6 +4303,9 @@ $$v_{L}(t)=v_{L}(0)e^{-1000t}, V$$
 #Figura(10.16). *Circuito per il calcolo di $v_{L}(t)$*
 
 
-Il valore $v_{L}(0)$ lo ricaviamo dalla figura sostituendo la corrente
+Il valore $v_{L}(0)$ lo ricaviamo dalla figura sostituendo la corrente $i_{L}(0) = 0 \ A$:
+$$v_{L}(0)=(I_{eq}-i_{L}(0))\cdot R_{eq}=2\cdot 1=2 \ V$$
 
-iL(0) = 0 A:
+Calcoliamo la forma d’onda della corrente $I_{y}(t)$: per questo, prima ne valutiamo il valore in $t= 0 analizzando il circuito in fig. 1.17
+
+(ottenuto da iL(0) = 0 A. Si ha:
