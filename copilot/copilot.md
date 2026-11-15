@@ -10,6 +10,12 @@ type: folder_brief_live
 - **memory**
 - **projects**
 - **skills**
+	- **copilot-fetch-x**
+		- [[SKILL]]
+	- **copilot-web-fetch**
+		- [[SKILL]]
+	- **copilot-youtube-transcript**
+		- [[SKILL]]
 	- **json-canvas**
 		- **references**
 			- [[EXAMPLES]]
