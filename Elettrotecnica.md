@@ -4264,3 +4264,8 @@ $$v_{L}(t)=0 \ V$$
 
 
 #### #Esercizio(circuito con induttore)
+
+Applichiamo la teoria sviluppata nella sezione precedente al circuito mostrato in figura, che contiene un induttore ed un generatore di corrente pilotato in corrente:
+
+
+I dati sono:
