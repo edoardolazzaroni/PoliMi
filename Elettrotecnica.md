@@ -4365,4 +4365,12 @@ cioè <u>varia nel tempo linearmente</u> con una pendenza pari a $\frac{I_{s}}{C
 
 
 È istruttivo, riesaminare l’ODE $(10.17)$ e tentare di applicare lo stesso procedimento visto nella [[#10.1 **Risposta completa di un circuito dinamico con condensatore**|prima sezione]] che passa attraverso il calcolo del polinomio caratteristico dell’omogenea associata. L’omogenea associata alla $(10.17)$ é semplicemente:
-$$C\frac{}$$
+$$C\frac{dv_{c}(t)}{dt}=0$$
+ed il suo polinomio caratteristico vale:
+$$p(\lambda)=C\lambda=0$$
+che ha come radice la pulsazione naturale $\lambda = 0$.
+Tale risultato indica che il circuito in figura 10.20 **è un sistema semplicemente stabile ma non asintoticamente stabile**. Infatti, valutiamo la risposta libera (o a ingresso zero) del circuito dovuta ad una condizione iniziale $vc(t0) = v_{c_{0}}$ non nulla quando la sorgente di corrente è spenta, i.e.,
+
+Is = 0. Il condensatore risulta collegato ad un circuito aperto e dalla
+
+(1.18) si deduce che:
