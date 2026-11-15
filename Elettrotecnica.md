@@ -4386,7 +4386,7 @@ $$i_{L}(t)=I_{s} \\ \\ v_{L}(t)=L\frac{dI_{s}}{dt}$$
 
 
 Rimane da esaminare il caso mostrato in figura, in cui l’induttore è collegato ad una sorgente indipendente di tensione che imprime la tensione $E_{s}$:
-![[Elettrotecnica-1794774949655.webp|385]]
+![[Elettrotecnica-1794774949655.webp|326]]
 #Figura(10.23). *Induttore collegato a sorgente indipendente di tensione*
 
 
@@ -4398,4 +4398,4 @@ $$di_{L}(t)=\frac{1}{L}v_{s}(t) \ dt$$
 Integrando sul generico intervallo $(t_{0}, t)$, si perviene a:
 $$\int_{i_{L}(t_{0})}^{i_{L}(t)}di_{L}=\frac{1}{L}\int _{t_{0}}^t v_{s}(t') \ dt'$$
 che ci porta all'espressione risolutiva:
-$$i_{L}(t)=i_{l}$$
+$$i_{L}(t)=i_{L}(t_{0})+\frac{1}{L}\int_{t_{0}}^t v_{s}(t') \ dt'$$
