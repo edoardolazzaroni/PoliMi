@@ -4339,3 +4339,5 @@ Partiamo col caso mostrato in figura:
 
 In questo scenario, l’equazione che governa il circuito si riduce a:
 $$v_{c}(t)=E_{s}$$
+cioè ad una equazione algebrica molto semplice. Si dice che il problema dinamico *degenera* in problema puramente algebrico immediatamente risolubile:
+$$v_{c}(t)=E_{s} \\$$
