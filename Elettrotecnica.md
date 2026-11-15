@@ -4256,4 +4256,9 @@ che mette in luce la risposta in transitorio e quella a regime.
 In particolare, quest’ultima è il termine che sopravvive per $t \to \infty$ e dunque si indica come:
 $$I_{eq}=i_{L \infty}$$
 Nel caso di circuiti con sorgenti DC, **la risposta a regime si valuta analizzando il circuito in cui all’elemento dinamico si sostituisce il relativo modello valido in DC**. Nel caso di un induttore, il legame costitutivo:
-$$v_{L}(t)=L\frac{di_{L}}$$
+$$v_{L}(t)=L\frac{di_{L}(t)}{dt}$$
+si riduce in DC a:
+$$v_{L}(t)=0 \ V$$
+<u>cioè ad un corto circuito</u>.
+
+
