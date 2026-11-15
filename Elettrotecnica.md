@@ -4315,6 +4315,12 @@ $$I_{y}(0)=I_{x} \\ \\ I_{x}R_{2}+(\beta+1)I_{x}R_{1}=I_{x}(10+90)=20 \ V \\ \\ 
 
 Quindi, determiniamo $I_{y}(\infty)$ risolvendo il circuito mostrato in figura (ottenuto ricordando che $v_{L}(\infty) = 0$):
 ![[Elettrotecnica-1794749786205.webp|326]]
-#Figura(10.18). Circuito per il calcolo di $Iy(\infty)$
+#Figura(10.18). Circuito per il calcolo di $I_{y}(\infty)$
 
 Si ha:
+$$I_{x}=\frac{0}{10}=0 \ A$$
+e dunque:
+$$I_{y}(\infty)=\frac{E}{R_{1}}=2 \ A$$
+
+L'espressione di $I_{y}(t)$ vale:
+$$I_{y}(t)=(I_{y}(0)-I_{y})$$
