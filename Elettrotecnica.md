@@ -4181,4 +4181,20 @@ $$E_{eq}=v_{c\infty}=E_{s}\frac{R_{2}}{R_{1}+R_{2}}=5 \ V$$
 Osserviamo che questa è la tensione che si ha sul condensatore a regime DC quando diviene equivalente ad un circuito aperto. Inoltre:
 $$R_{eq}=R_{1}||R_{2}=500 \ \Omega \to \tau=C R_{eq}=0.5 \ s$$
 La teoria svolta nella sezione precedente ci indica che la risposta del circuito per $t \ge 0$ risulta:
-$$v_{c}(t)=(-2-5)e^{-\frac{t}{0.5}}+5=-7e^{-2t}+5 \ V\quad(10.)$$
+$$v_{c}(t)=(-2-5)e^{-\frac{t}{0.5}}+5=-7e^{-2t}+5 \ V\quad(10.13)$$
+come mostrato nel grafico in figura:
+![[Elettrotecnica-1794737145352.webp|488]]
+#Figura(10.7). *Andamento nel tempo della tensione sul condensatore*
+
+
+### Calcolo delle altre variabili nel circuito:
+
+In un circuito dinamico contenente un condensatore, la risposta viene prima di tutto calcolata per la variabile tensione sul conden-
+
+satore, come illustrato nei passaggi precedenti. Dopodiché tutte le
+
+altre variabili elettriche possono essere dedotte immaginando di sos-
+
+tituire il condensatore con un generatore di tensione che impone la
+
+tensione di forma d’onda vc(t), come mostrato in fig.
