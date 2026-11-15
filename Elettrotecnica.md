@@ -4373,3 +4373,5 @@ Tale risultato indica che il circuito in figura 10.20 **è un sistema sempliceme
 $$v_{c}(t)=v_{c}(t_{0})\quad \forall t \ge 0$$
 ovvero la risposta libera rimane indefinitamente al valore iniziale senza estinguersi. In questo caso <u>non è dunque possibile parlare di risposta in transitorio ed a regime</u>.
 
+
+Considerazioni analoghe valgono nel caso dell’**induttore**: nel caso mostrato in fig. 1.22. L’equazione che governa il circuito
