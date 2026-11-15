@@ -4334,4 +4334,5 @@ Fino ad ora si sono analizzati circuiti in cui la <u>resistenza equivalente</u> 
 
 Partiamo col caso mostrato in figura:
 
+
 In questo scenario, l’equazione che governa il circuito si riduce a:
