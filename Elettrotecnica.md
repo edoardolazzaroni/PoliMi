@@ -4262,3 +4262,5 @@ $$v_{L}(t)=0 \ V$$
 <u>cioè ad un corto circuito</u>.
 
 
+
+#### #Esercizio(circuito con induttore)
