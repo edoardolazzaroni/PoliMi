@@ -4333,7 +4333,7 @@ $$v_{L}(t)=0 \ V$$
 Fino ad ora si sono analizzati circuiti in cui la <u>resistenza equivalente</u> vista dall’elemento dinamico, condensatore o induttore, è<u> finita e diversa da zero</u>. Vediamo cosa accade quando questa ipotesi non è vera in quanto il circuito collegato all’elemento adinamico ammette un solo tipo di equivalente, o Thevenin o Norton.
 
 Partiamo col caso mostrato in figura:
-![[Elettrotecnica-1794750134129.webp|323]]
+![[Elettrotecnica-1794750134129.webp|259]]
 #Figura(10.19). *Condensatore collegato a sorgente indipendente di tensione*
 
 
@@ -4343,7 +4343,7 @@ cioè ad una equazione algebrica molto semplice. Si dice che il problema dinamic
 $$v_{c}(t)=E_{s} \\ \\ i_{c}(t)=C\frac{dE_{s}}{dt}$$
 
 Ben diverso è invece il caso mostrato in figura, in cui il condensatore è collegato ad una sorgente indipendente di corrente che imprime la corrente $I_{s}$:
-![[Elettrotecnica-1794750308410.webp|399]]
+![[Elettrotecnica-1794750308410.webp|317]]
 #Figura(10.20). *Condensatore collegato a sorgente indipendente di corrente*
 
 
@@ -4363,6 +4363,6 @@ cioè <u>varia nel tempo linearmente</u> con una pendenza pari a $\frac{I_{s}}{C
 #Figura(10.21). *Evoluzione nel tempo della tensione e corrente del condensatore collegato ad una sorgente di corrente DC*
 
 
-È istruttivo, riesaminare l’ODE $(10.17)$ e tentare di applicare lo stesso procedimento visto nella sezione 1 che passa attraverso il calcolo del polinomio caratteristico dell’omogenea associata. L’omogenea
 
-associata alla (1.17) é semplicemente:
+È istruttivo, riesaminare l’ODE $(10.17)$ e tentare di applicare lo stesso procedimento visto nella [[#10.1 **Risposta completa di un circuito dinamico con condensatore**|prima sezione]] che passa attraverso il calcolo del polinomio caratteristico dell’omogenea associata. L’omogenea associata alla $(10.17)$ é semplicemente:
+$$C\frac{}$$
