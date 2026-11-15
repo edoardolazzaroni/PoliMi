@@ -4392,8 +4392,8 @@ Rimane da esaminare il caso mostrato in figura, in cui l’induttore è collegat
 
 In quest’ultimo caso, l’equazione differenziale che governa il circuito si scrive:
 $$L\frac{di_{L}(t)}{dt}=E_{s}\quad(10.19)$$
-E quindi è semplice risolvere per integrazione diretta, nel caso gen-
 
-erale Es = vs(t) funzione del tempo, dopo avere riscritto (1.17) nella
-
-forma:
+E quindi è semplice risolvere per integrazione diretta, nel caso generale $E_{s} = v_{s}(t)$ funzione del tempo, dopo avere riscritto la $(10.17)$ nella forma:
+$$di_{L}(t)=\frac{1}{L}v_{s}(t) \ dt$$
+Integrando sul generico intervallo $(t_{0}, t)$, si perviene a:
+$$$$
