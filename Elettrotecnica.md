@@ -4286,5 +4286,11 @@ La figura seguente mostra invece la prova semplice per il calcolo del parametro 
 ![[Elettrotecnica-1794749315756.webp|395]]
 #Figura(10.14). *Calcolo del parametro $I_{eq}$*
 
+
 Notando che $I_{x} = 0$, si ricava:
 $$I_{eq}=i_{L \infty}=\frac{E}{R_{1}}=\frac{20}{10}=2 \ A$$
+La forma d'onda della corrente nell’induttore vale:
+$$i_{L}(t)=-2e^{-1000t}+2 \ A$$
+come mostrato in figura (Alto):
+![[Elettrotecnica-1794749417577.webp|382]]
+#Figura(10.15). Andamento di $i_{L}(t)$ (Alto) e di vL(t) (Basso).
