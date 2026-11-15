@@ -4381,4 +4381,10 @@ Considerazioni analoghe valgono nel caso dell’**induttore**, come nel caso mos
 
 L’equazione che governa il circuito degenera nell’equazione algebrica:
 $$i_{L}(t)=I_{s}$$
-immediatamrnt
+immediatamente risolubile:
+$$i_{L}(t)=I_{s} \\ \\ v_{L}(t)=L\frac{dI_{s}}{dt}$$
+
+
+Rimane da esaminare il caso mostrato in figura, in cui l’induttore è collegato ad una sorgente indipendente di tensione che imprime la tensione $E_{s}$. In quest’ultimo caso, l’equazione differenziale che
+
+governa il circuito si scrive:
