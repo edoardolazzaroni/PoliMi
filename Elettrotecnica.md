@@ -4278,4 +4278,8 @@ Per questo, determiniamo per primo il circuito equivalente di tipo Norton "visto
 #Figura(10.13). *Calcolo del parametro $R_{eq}$*
 
 Si ottiene:
-$$I=\frac{V}{R_{1}}+\frac{V}{R_{2}}+\beta\frac{V}{R_{2}}=V\left( \frac{1}{R_{1}}+\frac{9}{R_{2}} \right)=V\cdot$$
+$$I=\frac{V}{R_{1}}+\frac{V}{R_{2}}+\beta\frac{V}{R_{2}}=V\left( \frac{1}{R_{1}}+\frac{9}{R_{2}} \right)=V\cdot 1$$
+da cui:
+$$R_{eq}=1 \ \Omega \\ \\ \tau=\frac{L}{R_{eq}}=1 \ ms$$
+
+La figura seguente mostra invece la prova semplice per il calcolo del parametro $I_{eq}$:
