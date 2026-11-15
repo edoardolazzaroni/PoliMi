@@ -4253,4 +4253,7 @@ $$\lambda=-\frac{1}{\tau}=-\frac{1}{G_{eq}L}=-\frac{R_{eq}}{L}$$
 Inoltre la soluzione generale assume l’espressione:
 $$i_{L}(t)=\underbrace{(i_{L_{0}}-I_{eq})e^{-\frac{(t-t_{0})}{\tau}}}_{Transitorio}+\underbrace{I_{eq}}_{Regime}\quad(10.16)$$
 che mette in luce la risposta in transitorio e quella a regime.
-In particolare, quest’ultima è il termine che sopravvive per $t \to \infty$ e dunque
+In particolare, quest’ultima è il termine che sopravvive per $t \to \infty$ e dunque si indica come:
+$$I_{eq}=i_{L \infty}$$
+Nel caso di circuiti con sorgenti DC, **la risposta a regime si valuta analizzando il circuito in cui all’elemento dinamico si sostituisce il relativo modello valido in DC**. Nel caso di un induttore, il legame costitutivo:
+$$v_{L}(t)=L\frac{di_{L}}$$
