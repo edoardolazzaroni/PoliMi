@@ -4134,7 +4134,11 @@ composta da due termini, come discusso nel seguito:
 	
 	Sostituendo $v_{c}(t)=v_{ch}(t)$ nella $(10.3)$ si ottiene:$$\tau \lambda Ke^{\lambda(t-t_{0})}+Ke^{\lambda(t-t_{0})}=(\tau \lambda+1)Ke^{\lambda(t-t_{0})}=0\quad(10.5)$$Dividendo per $Ke^{\lambda(t-t_{0})}$ (nell'ipotesi $K\ne 0$), si semplifica nella seguente equazione:$$p(\lambda)=\tau \lambda+1=0\quad(10.6)$$in cui si eguaglia a zero il polinomio $p(\lambda)$ di grado uno nella variabile $\lambda$. Tale polinomio è detto il **polinomio caratteristico dell’omogenea associata**. L’espressione $(10.4)$ risolve la $(10.3)$ sse $\lambda$ è la radice del polinomio caratteristico, cioè:$$\lambda=-\frac{1}{\tau}=-\frac{1}{R_{eq} \ C}$$in tal caso è detta **pulsazione naturale**. Con questa posizione, la $(10.4)$ diviene:$$v_{ch}(t)=Ke^{-\frac{(t-t_{0})}{\tau}}\quad(10.7)$$
 
-- Il secondo termine nella $(10.2)$ è una **soluzione particolare** della $(10.1)$ dello stesso tipo del termine noto. In questo caso, la soluzione particolare deve essere una funzione costante:$$v_{cp}(t)=V_{cp}\quad(10.8)$$Sostituendo $v_{c}(t)=V_{cp}$ nella $(10.1)$ si conclude che:$$V_{cp}=E_{eq}\quad(10.9)$$Sostituendo le espressioni determinate per i suoi due termini, la soluzione generale $(10.2)$ si trasforma in:$$v_{c}(t)=Ke^{-\frac{(t-t_{0})}{\tau}}+E_{eq}\quad(10.10)$$L'ultimo parametro da determinare, cioè $K$, viene "fissato" dalla condizione iniziale. Infatti, imponendo che:$$v_{c}(t_{0})=v_{c_{0}}=K+E_{eq}$$si conclude che:$$K=v_{c_{0}}-E_{eq}$$e quindi:$$v_{c}(t)=\underbrace{(v_{c_{0}}-E_{eq})e^{-\frac{(t-t_{0})}{\tau}}}_{Transitorio}+\underbrace{E_{eq}}_{Regime}\quad(10.11)$$E' dunque possibile svolgere le seguenti considerazioni:
+- Il secondo termine nella $(10.2)$ è una **soluzione particolare** della $(10.1)$ dello stesso tipo del termine noto. In questo caso, la soluzione particolare deve essere una funzione costante:$$v_{cp}(t)=V_{cp}\quad(10.8)$$Sostituendo $v_{c}(t)=V_{cp}$ nella $(10.1)$ si conclude che:$$V_{cp}=E_{eq}\quad(10.9)$$Sostituendo le espressioni determinate per i suoi due termini, la soluzione generale $(10.2)$ si trasforma in:$$v_{c}(t)=Ke^{-\frac{(t-t_{0})}{\tau}}+E_{eq}\quad(10.10)$$L'ultimo parametro da determinare, cioè $K$, viene "fissato" dalla condizione iniziale. Infatti, imponendo che:$$v_{c}(t_{0})=v_{c_{0}}=K+E_{eq}$$si conclude che:$$K=v_{c_{0}}-E_{eq}$$e quindi:$$v_{c}(t)=\underbrace{(v_{c_{0}}-E_{eq})e^{-\frac{(t-t_{0})}{\tau}}}_{Transitorio}+\underbrace{E_{eq}}_{Regime}\quad(10.11)$$
+
+
+E' dunque possibile svolgere le seguenti **considerazioni**:
+
 1. Se la pulsazione naturale del sistema è strettamente minore di zero, cioè $\lambda=-\frac{1}{\tau} < 0$, allora il primo termine nella $(10.11)$ è una funzione esponenziale del tempo con esponente negativo, cioè del tipo $e^{\frac{−t}{\tau}}$. Tale funzione tende a svanire asintoticamente per $t \to \infty$. In questo caso, il primo termine della $(10.11)$ viene detto **Risposta in Transitorio** o semplicemente **transitorio** ed il circuito si dice <u>asintoticamente stabile</u>. Si noti che in un circuito asintoticamente stabile la risposta che si ha dopo un tempo "sufficientemente lungo in modo che il transitorio si sia esaurito", non dipende dalla condizione iniziale. In altri termini, il fatto di partire da $v_{c}(t_{0})$ diverse fra loro non cambia la risposta di regime.
 
 
@@ -4149,4 +4153,4 @@ composta da due termini, come discusso nel seguito:
 
 
 Concludiamo l’analisi della risposta del circuito $(10.11)$, osservando come talvolta si preferisca riscriverla nel modo seguente:
-$$$$
+$$v_{c}(t)=\underbrace{}$$
