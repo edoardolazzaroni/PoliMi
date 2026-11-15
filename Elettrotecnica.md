@@ -4344,4 +4344,7 @@ $$v_{c}(t)=E_{s} \\ \\ i_{c}(t)=C\frac{dE_{s}}{dt}$$
 
 Ben diverso è invece il caso mostrato in figura, in cui il condensatore è collegato ad una sorgente indipendente di corrente che imprime la corrente $I_{s}$:
 ![[Elettrotecnica-1794750308410.webp|399]]
-#Figura(10.20). Condensatore collegato a sorgente indipendente di corrente.
+#Figura(10.20). *Condensatore collegato a sorgente indipendente di corrente*
+
+L'equazione differenziale che governa il circuito si scrive:
+$$C\frac{dv_{c}(t)}{dt}=I_{s}\quad(10.17)$$
