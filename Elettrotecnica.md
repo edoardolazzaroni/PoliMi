@@ -4374,4 +4374,11 @@ $$v_{c}(t)=v_{c}(t_{0})\quad \forall t \ge 0$$
 ovvero la risposta libera rimane indefinitamente al valore iniziale senza estinguersi. In questo caso <u>non è dunque possibile parlare di risposta in transitorio ed a regime</u>.
 
 
-Considerazioni analoghe valgono nel caso dell’**induttore**: nel caso mostrato in fig. 1.22. L’equazione che governa il circuito
+Considerazioni analoghe valgono nel caso dell’**induttore**, come nel caso mostrato in figura:
+![[Elettrotecnica-1794774832826.webp|299]]
+#Figura(10.22). *Induttore collegato a sorgente indipendente di corrente*
+
+
+L’equazione che governa il circuito degenera nell’equazione algebrica:
+$$i_{L}(t)=I_{s}$$
+immediatamrnt
