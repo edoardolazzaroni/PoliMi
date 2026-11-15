@@ -4313,4 +4313,8 @@ Calcoliamo la forma d’onda della corrente $I_{y}(t)$: per questo, prima ne val
 Si ha:
 $$I_{y}(0)=I_{x} \\ \\ I_{x}R_{2}+(\beta+1)I_{x}R_{1}=I_{x}(10+90)=20 \ V \\ \\ I_{y}(0)=I_{x}=\frac{20}{100}=0.2 \ A$$
 
-Quindi, 
+Quindi, determiniamo $I_{y}(\infty)$ risolvendo il circuito mostrato in figura (ottenuto ricordando che $v_{L}(\infty) = 0$):
+![[Elettrotecnica-1794749786205.webp|326]]
+#Figura(10.18). Circuito per il calcolo di $Iy(\infty)$
+
+Si ha:
