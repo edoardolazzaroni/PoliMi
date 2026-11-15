@@ -4165,6 +4165,8 @@ cioè nella risposta dovuta alla sola condizione iniziale in assenza di sorgenti
 
 Applichiamo la teoria sviluppata nella sezione precedente al circuito mostrato in figura:
 ![[Elettrotecnica-1794736863195.webp|546]]
-#Figura (10.5)
+#Figura(10.5). *Circuito dinamico di cui si richiede il calcolo della risposta*
 
 I dati sono:
+$$E_{s}=10 \ V \\ R_{1}=R_{2}=1 \ k\Omega \\ C= 1 \ mF$$
+inoltre è nota la condizione iniziale $v_{c}(0)=-2 \ V$
