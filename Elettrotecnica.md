@@ -4244,6 +4244,14 @@ Tale figura mette in evidenza l’induttore ed il circuito resistivo uno-porta a
 Inoltre facciamo l’ipotesi che tale circuito uno-porta ammetta l’equivalente di tipo Norton con parametri $I_{eq}$ e $G_{eq} =\frac{1}{R_{eq}} \ne 0  \ Ω^{-1}$ come mostrato in figura (Destra).
 Ragionando su tale equivalente è facile ricavare l’**equazione differenziale che governa la variabile corrente nell’induttore**:
 $$\tau\frac{di_{L}(t)}{dt}+i_{L}(t)=I_{eq}\quad(10.15)$$
-dove la quantità $\tau=L \ G_{eq}=\frac{L}{R_{eq}}$ è ora  la costante di tempo del
+dove la quantità $\tau=L \ G_{eq}=\frac{L}{R_{eq}}$ è ora  la **costante di tempo** del circuito.
 
-circuito.
+Vogliamo determinare l’espressione generale di $i_{L}(t)$ che risolve la $(10.15)$ con l’aggiunta dell’informazione del valore della corrente in un istante di tempo arbitrario $t_{0}$ assunto come origine dei tempi, cioè:
+$$i_{L}(t_{0})=i_{L}(0)$$
+Osserviamo come la $(10.15)$ sia formalmente uguale all’equazione $(10.1) studiata per il condensatore dopo aver sostituito la variabile ten-
+
+sione con la corrente nell’induttore. Seguendo il medesimo proced-
+
+imento si verifica per esempio che la pulsazione naturale in questo
+
+caso vale
