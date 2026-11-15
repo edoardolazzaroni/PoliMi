@@ -6,6 +6,7 @@ type: folder_brief_live
 #INDEX of all Copilot skills, prompts, chats and projects
 
 %% Begin Waypoint %%
+- **copilot-conversations**
 - **copilot-custom-prompts**
 - **memory**
 - **projects**
