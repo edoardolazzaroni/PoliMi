@@ -4356,4 +4356,6 @@ $$\int_{v_{c}(t_{0})}^{v_{c}(t)}dv_{c}=\frac{1}{C}\int_{t_{0}}^t i_{s}(t') \ dt'
 che ci porta all'espressione risolutiva:
 $$v_{c}(t)=v_{c}(t_{0})+\frac{1}{C}\int_{t_{0}}^t i_{s}(t') \ dt'$$
 
-Per 
+*Per esempio*, se il generatore di corrente è una sorgente in DC, con $I_{s}$ costante, la tensione sul condensatore risulta:
+$$v_{c}(t)=v_{c}(t_{0})+\frac{I_{s}}{C}(t-t_{0})\quad (10.18)$$
+cioè varia nel tempo linearmente con una pendenza pari a $\frac{I_{s}}{C}$ , come mostrato in figura:
