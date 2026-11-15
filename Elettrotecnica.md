@@ -4293,4 +4293,8 @@ La forma d'onda della corrente nell’induttore vale:
 $$i_{L}(t)=-2e^{-1000t}+2 \ A$$
 come mostrato in figura (Alto):
 ![[Elettrotecnica-1794749417577.webp|382]]
-#Figura(10.15). Andamento di $i_{L}(t)$ (Alto) e di vL(t) (Basso).
+#Figura(10.15). *Andamento di $i_{L}(t)$ (Alto) e di $v_{L}(t)$ (Basso)*
+
+
+Per il calcolo della tensione sull’induttore, conviene fare riferimento al circuito equivalente mostrato in figura 10.16, in cui immaginiamo di sostituire l’induttore con un generatore di corrente che imprime la forma d’onda nota $i_{L}(t)$.
+Ricordando che a regime DC l’induttore diventa un corto circuito e quindi $v_{L \infty} = 0$, la tensione ha espressione:
