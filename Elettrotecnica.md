@@ -4348,3 +4348,12 @@ Ben diverso è invece il caso mostrato in figura, in cui il condensatore è coll
 
 L'equazione differenziale che governa il circuito si scrive:
 $$C\frac{dv_{c}(t)}{dt}=I_{s}\quad(10.17)$$
+Se confrontiamo col caso generale riportato nella $(10.1)$, possiamo notare
+
+come ora nell’equazione differenziale manchi il termine vc(t). Questo
+
+permette di risolvere per integrazione diretta. Nel caso generale in
+
+cui Is = is(t) è funzione del tempo, dopo avere riscritto (1.17) nella
+
+forma:
