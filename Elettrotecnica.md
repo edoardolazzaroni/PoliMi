@@ -4399,3 +4399,6 @@ Integrando sul generico intervallo $(t_{0}, t)$, si perviene a:
 $$\int_{i_{L}(t_{0})}^{i_{L}(t)}di_{L}=\frac{1}{L}\int _{t_{0}}^t v_{s}(t') \ dt'$$
 che ci porta all'espressione risolutiva:
 $$i_{L}(t)=i_{L}(t_{0})+\frac{1}{L}\int_{t_{0}}^t v_{s}(t') \ dt'$$
+
+Se poi il generatore di tensione è una sorgente in DC, con $E_s$ costante, la corrente nell’induttore diviene:
+$$i_{L}(t)=i_{L}(t_{0})+\frac{E_{s}}{}$$
