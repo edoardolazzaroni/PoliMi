@@ -4401,4 +4401,7 @@ che ci porta all'espressione risolutiva:
 $$i_{L}(t)=i_{L}(t_{0})+\frac{1}{L}\int_{t_{0}}^t v_{s}(t') \ dt'$$
 
 Se poi il generatore di tensione è una sorgente in DC, con $E_s$ costante, la corrente nell’induttore diviene:
-$$i_{L}(t)=i_{L}(t_{0})+\frac{E_{s}}{}$$
+$$i_{L}(t)=i_{L}(t_{0})+\frac{E_{s}}{L}(t-t_{0})\quad(10.20)$$
+cioè <u>varia nel tempo linearmente</u> con una pendenza pari a $\frac{E_{s}}{L}$.
+
+Anche per l’induttore, l’ODE (1.19) porta all’omogenea assoc
