@@ -4404,4 +4404,7 @@ Se poi il generatore di tensione è una sorgente in DC, con $E_s$ costante, la c
 $$i_{L}(t)=i_{L}(t_{0})+\frac{E_{s}}{L}(t-t_{0})\quad(10.20)$$
 cioè <u>varia nel tempo linearmente</u> con una pendenza pari a $\frac{E_{s}}{L}$.
 
-Anche per l’induttore, l’ODE (1.19) porta all’omogenea assoc
+Anche per l’induttore, l’ODE $(10.19)$ porta all’omogenea associata:
+$$L\frac{di_{L}(t)}{dt}=0$$
+ed al polinomio caratteristico:
+$$p(\lambda)=L\lambda=0$$
