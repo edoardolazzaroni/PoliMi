@@ -4410,6 +4410,10 @@ ed al polinomio caratteristico:
 $$p(\lambda)=L\lambda=0$$
 he ha come radice la pulsazione naturale $\lambda= 0$. Il circuito in figura 10.20 è <u>semplicemente stabile ma non asintoticamente stabil</u>e.
 
-Valutiamo la risposta libera (o a ingresso zero) del circuito dovuta ad una condizione iniziale $i_{L}(t_{0}) = i_{L_{0}}$ non nulla quando la sorgente di tensione è spenta, ovvero Es = 0. In questa condizione, l’induttore risulta
+Valutiamo la risposta libera (o a ingresso zero) del circuito dovuta ad una condizione iniziale $i_{L}(t_{0}) = i_{L_{0}}$ non nulla quando la sorgente di tensione è spenta, ovvero $E_{s} = 0$. In questa condizione, l’induttore risulta collegato ad un corto circuito e dalla $(10.20)$ deduciamo che:
+$$i_{L}(t)=i_{L}(t_{0})\quad\quad \forall t \ge 0$$
+ovvero la corrente iniziale circola indefinitamente nel corto circuito senza mai estinguersi.
 
-collegato ad un corto circuito e dalla (1.20) deduciamo che:
+
+
+## 10.5 **Casi particolari**
