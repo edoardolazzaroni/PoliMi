@@ -4418,4 +4418,7 @@ ovvero la corrente iniziale circola indefinitamente nel corto circuito senza mai
 
 ## 10.5 **Proprietà di continuità della variabile di stato**
 
-Partiamo considerando il caso del **condensatore**; la proprietà di continuità afferma quanto segue: se la corrente nel condensatore si mantiene limitata, cioè $|i_{c}(t)| < \infty$, allora la tensione è una funzione continua del tempo.
+Partiamo considerando il caso del **condensatore**; la proprietà di continuità afferma quanto segue: se la corrente nel condensatore si mantiene limitata, cioè $|i_{c}(t)| < \infty$, allora la tensione è una <mark class="hltr-yellow">funzione continua del tempo</mark>.
+
+Questa proprietà si dimostra agevolmente partendo dall’equazione costitutiva del condensatore in cui la tensione è espressa in funzione della corrente, come riportato di seguito:
+$$v_{c}(t)-v_{c}(t_{0})=\frac{1}{C}\int_{t_{0}}^t i_{C}(t')$$
