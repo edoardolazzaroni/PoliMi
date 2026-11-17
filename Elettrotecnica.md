@@ -4473,3 +4473,12 @@ Il circuito in figura nell’istante di tempo $t_{0} = 0$ si trova a regime con 
 
 Dati:
 $$E_{s}=12 \ V \\ C=10 \ mF \\ R_{1}=6 \ \Omega \\ R_{2}=2 \ \Omega \\ R_{3}=4 \ \Omega$$
+
+- Analizziamo il circuito nell’intervallo di tempo $(−\infty, 0^−)$ che precede l’apertura di $S$. In questo intervallo il circuito è asintoticamente stabile, infatti la resistenza equivalente vista dal condensatore vale $R_{2} || R_{2}$ ed è quindi finita e non nulla.
+	**ATTENZIONE**: In questo intervallo, le grandezze elettriche aregime corrispondono coi valori che esse assumono in t−
+
+0 . Quindi
+
+sostituendo al condensatore il suo modello DC (cioè un aperto), si
+
+trova:
