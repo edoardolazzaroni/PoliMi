@@ -4469,6 +4469,7 @@ Vediamo l’applicazione del metodo con degli *esempi* di calcolo:
 
 Il circuito in figura nell’istante di tempo $t_{0} = 0$ si trova a regime con l’interruttore $S$ in posizione Chiusa (ON). In $t_{0}$ l’interruttore viene aperto istantaneamente. Vogliamo investigare come evolve nel tempo la variabile di stato $v_{c}(t)$ e la corrente $i_{x}(t)$ indicata in figura.
 ![[Elettrotecnica-1794949762985.webp|354]]
-#Figura (10.26)
+#Figura(10.26). *Circuito dinamico con condensatore ed interruttore*
 
 Dati:
+$$E_{s}=12 \ V \\ C=10 \ mF \\ R_{1}=6 \ \Omega \\ R_{2}=2 \ \Omega \\ R_{3}=4 \ \Omega$$
