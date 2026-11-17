@@ -4452,4 +4452,9 @@ Questo corrisponde al fatto che ad essa è associata la quantità di carica $q(t
 Sfruttando la dualità è possibile dimostrare che per un induttore la **proprietà di continuità** afferma quanto segue: se la tensione in un induttore si mantiene limitata, cioè $|v_{L}(t)|< \infty$, allora la corrente è una funzione continua del tempo.
 La proprietà si può verificare partendo dall’equazione costitutiva dell’induttore:
 $$i_{L}(t)-i_{L}(t_{0})=\frac{1}{L}\int_{t_{0}}^t v_{L}(t') \ dt'\quad(10.22)$$
-e ripetendo il procedimento visto sopra. Dunque la variabile di stato dell’induttore è la sua corrente elettrica che è associata al flusso magnetico concatenato con l’induttore fisico, $φ(t) = L iL(t)$.
+e ripetendo il procedimento visto sopra. Dunque la variabile di stato dell’induttore è la sua corrente elettrica che è associata al flusso magnetico concatenato con l’induttore fisico, $\phi(t) = L i_{L}(t)$.
+
+
+
+## 10.6 **nalisi di circuiti che contengono interruttori**
+
