@@ -4433,4 +4433,8 @@ si ha:
 $$\lim_{ t \to t_{0} } \frac{1}{C}\int_{t_{0}}^t i_{C}(t') \ dt' \le 0$$
 
 In modo simile:
-$$\frac{1}{C}\int_{t_{0}}^t i_{C}(t') \ dt' \ge \frac{\frac{1}{C}m}()$$
+$$\frac{1}{C}\int_{t_{0}}^t i_{C}(t') \ dt' \ge \frac{1}{C}m(t-t_{0})$$
+e dunque:
+$$\lim_{ t \to t_{0} } \frac{1}{C}\int_{t_{0}}^t i_{C}(t') \ dt' \ge 0$$
+Si conclude:
+$$$$
