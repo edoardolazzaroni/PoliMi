@@ -4460,11 +4460,15 @@ e ripetendo il procedimento visto sopra. Dunque la variabile di stato dell’ind
 
 Un **interruttore** ("switch" in inglese) è un bipolo a cui è associata una <u>variabile di stato binaria</u>. Tale variabile ci dice se l’interruttore è nello stato "Aperto" (OFF) o nello stato "Chiuso" (ON). Quando l’interruttore è aperto si comporta come un circuito aperto, cioè $I= 0 \ \forall V$, mentre quando è chiuso si comporta come un corto circuito, $V= 0 \ \forall I$. Lo stato dell’interruttore può essere controllato meccanicamente con un tasto, come avviene per gli interruttori che usiamo nelle nostre abitazioni per accendere o spegnere la luce. Nei dispositivi elettronici viene controllato da una variabile elettrica, per esempio il valore di una tensione rispetto ad un livello di soglia. Il passaggio da uno stato all’altro viene indicato col nome di **commutazione**.
 ![[Elettrotecnica-1794949595488.webp|421]]
-#Figura(10.26). *Il bipolo interruttore*
+#Figura(10.25). *Il bipolo interruttore*
 
 Molti circuiti elettronici, ad esempio i circuiti digitali per l’elaborazione dell’informazione, contengono interruttori elettronici che commutano da uno stato all’altro in certi istanti di tempo. La commutazione di uno o più interruttori provoca un cambiamento della struttura (topologia) del circuito e quindi una risposta transitoria. L’analisi nel tempo dell’evoluzione del circuito tra una commutazione e l’altra viene condotta sfruttando la proprietà di continuità della variabile di stato, cioè imponendo che immediatamente prima e immediatamente dopo l’istante di commutazione la variabile di stato mantenga lo stesso valore.
 
 
 Vediamo l’applicazione del metodo con degli *esempi* di calcolo:
 
-Il circuito in figura nell’istante di tempo $t_{0} = 0$ si trova a regime con l’interruttore $S$ in posizione Chiusa (ON). In $t_{0}$ l’interruttore viene aperto istantaneamente. Vogliamo investigare come evolve nel tempo la variabile di stato $v_{c}(t)$ e la corrente ix(t) indicata in figura. Dati:
+Il circuito in figura nell’istante di tempo $t_{0} = 0$ si trova a regime con l’interruttore $S$ in posizione Chiusa (ON). In $t_{0}$ l’interruttore viene aperto istantaneamente. Vogliamo investigare come evolve nel tempo la variabile di stato $v_{c}(t)$ e la corrente $i_{x}(t)$ indicata in figura.
+![[Elettrotecnica-1794949762985.webp|354]]
+#Figura (10.26)
+
+Dati:
