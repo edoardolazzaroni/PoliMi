@@ -4458,14 +4458,7 @@ e ripetendo il procedimento visto sopra. Dunque la variabile di stato dell’ind
 
 ## 10.6 **Analisi di circuiti che contengono interruttori**
 
-Un **interruttore** ("switch" in inglese) è un bipolo a cui è associata una <u>variabile di stato binaria</u>. Tale variabile ci dice se l’interruttore è nello stato "Aperto" (OFF) o nello stato "Chiuso" (ON). Quando l’interruttore è aperto si comporta come un circuito aperto, cioè $I= 0 \ \forall V$, mentre quando è chiuso si comporta come un corto circuito, $V= 0 \ ∀I. Lo stato dell’interruttore può essere
+Un **interruttore** ("switch" in inglese) è un bipolo a cui è associata una <u>variabile di stato binaria</u>. Tale variabile ci dice se l’interruttore è nello stato "Aperto" (OFF) o nello stato "Chiuso" (ON). Quando l’interruttore è aperto si comporta come un circuito aperto, cioè $I= 0 \ \forall V$, mentre quando è chiuso si comporta come un corto circuito, $V= 0 \ \forall I$. Lo stato dell’interruttore può essere controllato meccanicamente con un tasto, come avviene per gli interruttori che usiamo nelle nostre abitazioni per accendere o spegnere la luce. Nei dispositivi elettronici viene controllato da una variabile elettrica, per esempio il valore di una tensione rispetto ad un livello di soglia. Il passaggio da uno stato all’altro viene indicato col nome di **commutazione**.
+![[Elettrotecnica-1794949595488.webp|464]]
+#Figura (10.2)
 
-controllato meccanicamente con un tasto, come avviene per gli inter-
-
-ruttori che usiamo nelle nostre abitazioni per accendere o spegnere
-
-la luce. Nei dispositivi elettronici viene controllato da una variabile
-
-elettrica, per esempio il valore di una tensione rispetto ad un livello
-
-di soglia. Il passaggio da uno stato all’altro viene indicato col nome
