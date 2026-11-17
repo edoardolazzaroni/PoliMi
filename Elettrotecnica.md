@@ -4475,4 +4475,4 @@ Dati:
 $$E_{s}=12 \ V \\ C=10 \ mF \\ R_{1}=6 \ \Omega \\ R_{2}=2 \ \Omega \\ R_{3}=4 \ \Omega$$
 
 - Analizziamo il circuito nell’intervallo di tempo $(−\infty, 0^−)$ che precede l’apertura di $S$. In questo intervallo il circuito è asintoticamente stabile, infatti la resistenza equivalente vista dal condensatore vale $R_{2} || R_{2}$ ed è quindi finita e non nulla.
-	**ATTENZIONE**: In questo intervallo, le grandezze elettriche a regime corrispondono coi valori che esse assumono in $t_{0}^-$ . Quindi sostituendo al condensatore il suo modello DC (cioè un aperto), si trova:$$v_{C}(0^-)=E_{s}\frac{R_{2}}{R_{1}+R_{2}}=12\frac{2}{6+2}=3 \ V$$
+	**ATTENZIONE**: In questo intervallo, le grandezze elettriche a regime corrispondono coi valori che esse assumono in $t_{0}^-$ . Quindi sostituendo al condensatore il suo modello DC (cioè un aperto), si trova:$$v_{C}(0^-)=E_{s}\frac{R_{2}}{R_{1}+R_{2}}=12\frac{2}{6+2}=3 \ V \\ \\ i_{x}(0^-)=\frac{E_{s}}{R_{1}+R_{2}}=\frac{12}{6+2}=1.5 \ A$$Si noti che inoltre la corrente nel condensatore a regime vale zero, $i_{C}(0^-)$
