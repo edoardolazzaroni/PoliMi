@@ -4428,4 +4428,6 @@ $$m \le i_{c}(t) \le M$$
 Quindi, si calcola il limite:
 $$\lim_{t \to \ t_{0}} v_{c}(t)-v_{c}(t_{0})=\lim_{ t \to t_{0} } \frac{1}{C}\int_{t_{0}}^t i_{C}(t') \ dt'$$
 Osservando che:
-$$\frac{1}{C}\int_{t_{0}}^t $$
+$$\frac{1}{C}\int_{t_{0}}^t i_{C}(t') \ dt' \le \frac{1}{C}M(t-t_{0})$$
+si ha:
+$$\lim_{ t \to t_{0} } \frac{1}{C}\int_{t_{0}}^t i_{C}(t') \ dt$$
