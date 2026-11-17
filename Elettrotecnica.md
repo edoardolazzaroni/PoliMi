@@ -4426,3 +4426,4 @@ $$v_{c}(t)-v_{c}(t_{0})=\frac{1}{C}\int_{t_{0}}^t i_{C}(t') \ dt'\quad(10.21)$$
 Se la corrente si mantiene limitata, significa che esiste un valore minimo $m$ di corrente ed un valore massimo $M$ tali che:
 $$m \le i_{c}(t) \le M$$
 Quindi, si calcola il limite:
+$$\lim_{t \to \ t_{0}} $$
