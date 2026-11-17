@@ -4446,7 +4446,7 @@ La figura seguente mostra proprio il caso in cui la corrente presenta un gradino
 Ragionando per assurdo, un gradino della tensione comporterebbe un valore infinito della corrente quindi una potenza elettrica assorbita dal condensatore infinita. <u>La tensione sul condensatore la cui forma d’onda gode di regolarità</u> viene detta la **variabile di stato**.
 Questo corrisponde al fatto che ad essa è associata la quantità di carica $q(t) = C v_{c}(t)$ accumulata nel dispositivo condensatore che ne determina lo stato fisico.
 ![[Elettrotecnica-1794943443042.webp|345]]
-#Figura(10.24). In un condensatore, la $v_{C}(t)$ è una funzione continua del tempo
+#Figura(10.24). *In un condensatore, la $v_{C}(t)$ è una funzione continua del tempo*
 
 
 Sfruttando la dualità è possibile dimostrare che per un induttore la **proprietà di continuità** afferma quanto segue: se la tensione in un induttore si mantiene limitata, cioè $|v_{L}(t)|< \infty$, allora la corrente è una funzione continua del tempo.
@@ -4459,6 +4459,9 @@ e ripetendo il procedimento visto sopra. Dunque la variabile di stato dell’ind
 ## 10.6 **Analisi di circuiti che contengono interruttori**
 
 Un **interruttore** ("switch" in inglese) è un bipolo a cui è associata una <u>variabile di stato binaria</u>. Tale variabile ci dice se l’interruttore è nello stato "Aperto" (OFF) o nello stato "Chiuso" (ON). Quando l’interruttore è aperto si comporta come un circuito aperto, cioè $I= 0 \ \forall V$, mentre quando è chiuso si comporta come un corto circuito, $V= 0 \ \forall I$. Lo stato dell’interruttore può essere controllato meccanicamente con un tasto, come avviene per gli interruttori che usiamo nelle nostre abitazioni per accendere o spegnere la luce. Nei dispositivi elettronici viene controllato da una variabile elettrica, per esempio il valore di una tensione rispetto ad un livello di soglia. Il passaggio da uno stato all’altro viene indicato col nome di **commutazione**.
-![[Elettrotecnica-1794949595488.webp|464]]
-#Figura (10.2)
+![[Elettrotecnica-1794949595488.webp|421]]
+#Figura(10.26). *Il bipolo interruttore*
 
+Molti circuiti elettronici, ad esempio i circuiti digitali per l’elaborazione dell’informazione, contengono interruttori elettronici che commutano da uno stato all’altro in certi istanti di tempo. La commutazione di uno o più interruttori provoca un cambiamento della struttura (topologia) del circuito e quindi una risposta transitoria. L’analisi nel tempo dell’evoluzione del circuito tra una commutazione e l’altra viene condotta sfruttando la proprietà di continuità della variabile di stato, cioè imponendo che immediatamente prima e immediatamente dopo
+
+l’istante di commutazione la variabile di stato mantenga lo stesso valore.
