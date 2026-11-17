@@ -4462,6 +4462,9 @@ Un **interruttore** ("switch" in inglese) è un bipolo a cui è associata una <u
 ![[Elettrotecnica-1794949595488.webp|421]]
 #Figura(10.26). *Il bipolo interruttore*
 
-Molti circuiti elettronici, ad esempio i circuiti digitali per l’elaborazione dell’informazione, contengono interruttori elettronici che commutano da uno stato all’altro in certi istanti di tempo. La commutazione di uno o più interruttori provoca un cambiamento della struttura (topologia) del circuito e quindi una risposta transitoria. L’analisi nel tempo dell’evoluzione del circuito tra una commutazione e l’altra viene condotta sfruttando la proprietà di continuità della variabile di stato, cioè imponendo che immediatamente prima e immediatamente dopo
+Molti circuiti elettronici, ad esempio i circuiti digitali per l’elaborazione dell’informazione, contengono interruttori elettronici che commutano da uno stato all’altro in certi istanti di tempo. La commutazione di uno o più interruttori provoca un cambiamento della struttura (topologia) del circuito e quindi una risposta transitoria. L’analisi nel tempo dell’evoluzione del circuito tra una commutazione e l’altra viene condotta sfruttando la proprietà di continuità della variabile di stato, cioè imponendo che immediatamente prima e immediatamente dopo l’istante di commutazione la variabile di stato mantenga lo stesso valore.
 
-l’istante di commutazione la variabile di stato mantenga lo stesso valore.
+
+Vediamo l’applicazione del metodo con degli *esempi* di calcolo:
+
+Il circuito in figura nell’istante di tempo $t_{0} = 0$ si trova a regime con l’interruttore $S$ in posizione Chiusa (ON). In $t_{0}$ l’interruttore viene aperto istantaneamente. Vogliamo investigare come evolve nel tempo la variabile di stato $v_{c}(t)$ e la corrente ix(t) indicata in figura. Dati:
