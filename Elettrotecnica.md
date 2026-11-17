@@ -4449,8 +4449,7 @@ Questo corrisponde al fatto che ad essa è associata la quantità di carica $q(t
 #Figura(10.24). In un condensatore, la $v_{C}(t)$ è una funzione continua del tempo
 
 
-Sfruttando la dualità è possibile dimostrare che per un induttore la proprietà di continuità afferma quanto segue: se la tensione in un induttore si mantiene limitata, cioè $|v_{L}(t)|< \infty$, allora la corrente è una funzione continua del tempo.
-
-La proprietà si può verificare partendo dall’equazione costitutiva
-
-dell’induttore:
+Sfruttando la dualità è possibile dimostrare che per un induttore la **proprietà di continuità** afferma quanto segue: se la tensione in un induttore si mantiene limitata, cioè $|v_{L}(t)|< \infty$, allora la corrente è una funzione continua del tempo.
+La proprietà si può verificare partendo dall’equazione costitutiva dell’induttore:
+$$i_{L}(t)-i_{L}(t_{0})=\frac{1}{L}\int_{t_{0}}^t v_{L}(t') \ dt'\quad(10.22)$$
+e ripetendo il procedimento visto sopra. Dunque la variabile di stato dell’induttore è la sua corrente elettrica che è associata al flusso magnetico concatenato con l’induttore fisico, $φ(t) = L iL(t)$.
