@@ -4444,7 +4444,13 @@ che <u>prova la continuità</u>.
 Notate che la proprietà di continuità riguarda la variabile tensione del condensatore mentre <u>nulla si sa sulla sua corrente che invece può presentare dei "salti"</u>.
 La figura seguente mostra proprio il caso in cui la corrente presenta un gradino in $t_{0}$, cioè una discontinuità di primo tipo: nello stesso istante la variabile tensione, essendo (proporzionale a) l’integrale della corrente si mantiene continua pur presentando un cambiamento della sua derivata prima (punto angoloso).
 Ragionando per assurdo, un gradino della tensione comporterebbe un valore infinito della corrente quindi una potenza elettrica assorbita dal condensatore infinita. <u>La tensione sul condensatore la cui forma d’onda gode di regolarità</u> viene detta la **variabile di stato**.
+Questo corrisponde al fatto che ad essa è associata la quantità di carica $q(t) = C v_{c}(t)$ accumulata nel dispositivo condensatore che ne determina lo stato fisico.
+![[Elettrotecnica-1794943443042.webp|345]]
+#Figura(10.24). In un condensatore, la $v_{C}(t)$ è una funzione continua del tempo
 
-Questo corrisponde al fatto che ad essa è associata la quantità di carica $q(t) = C v_{c}(t)$ accumulata nel dispositivo condensatore che ne
 
-determina lo stato fisico.
+Sfruttando la dualità è possibile dimostrare che per un induttore la proprietà di continuità afferma quanto segue: se la tensione in un induttore si mantiene limitata, cioè $|v_{L}(t)|< \infty$, allora la corrente è una funzione continua del tempo.
+
+La proprietà si può verificare partendo dall’equazione costitutiva
+
+dell’induttore:
