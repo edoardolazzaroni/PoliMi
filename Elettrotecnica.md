@@ -4441,13 +4441,8 @@ $$\lim_{ t \to t_{0} } v_{c}(t)-v_{c}(t_{0})=0$$
 che <u>prova la continuità</u>.
 
 
-Notate che la proprietà di continuità riguarda la variabile tensione del condensatore mentre nulla si sa sulla sua corrente che invece può
-
-presentare dei "salti". La fig. 1.24, mostra proprio il caso in cui la
-
-corrente presenta un gradino in t0, cioè una discontinuità di primo
-
-tipo: nello stesso istante la variabile tensione, essendo (proporzionale
+Notate che la proprietà di continuità riguarda la variabile tensione del condensatore mentre <u>nulla si sa sulla sua corrente che invece può presentare dei "salti"</u>.
+La figura seguente mostra proprio il caso in cui la corrente presenta un gradino in $t_{0}$, cioè una discontinuità di primo tipo: nello stesso istante la variabile tensione, essendo (proporzionale
 
 a) l’integrale della corrente si mantine continua pur presentando
 
