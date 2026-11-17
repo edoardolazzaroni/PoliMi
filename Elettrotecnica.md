@@ -4456,5 +4456,5 @@ e ripetendo il procedimento visto sopra. Dunque la variabile di stato dell’ind
 
 
 
-## 10.6 **nalisi di circuiti che contengono interruttori**
+## 10.6 **Analisi di circuiti che contengono interruttori**
 
