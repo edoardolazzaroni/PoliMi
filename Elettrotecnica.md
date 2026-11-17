@@ -4437,4 +4437,20 @@ $$\frac{1}{C}\int_{t_{0}}^t i_{C}(t') \ dt' \ge \frac{1}{C}m(t-t_{0})$$
 e dunque:
 $$\lim_{ t \to t_{0} } \frac{1}{C}\int_{t_{0}}^t i_{C}(t') \ dt' \ge 0$$
 Si conclude:
-$$$$
+$$\lim_{ t \to t_{0} } v_{c}(t)-v_{c}(t_{0})=0$$
+che <u>prova la continuità</u>.
+
+
+Notate che la proprietà di continuità riguarda la variabile tensione
+
+del condensatore mentre nulla si sa sulla sua corrente che invece può
+
+presentare dei "salti". La fig. 1.24, mostra proprio il caso in cui la
+
+corrente presenta un gradino in t0, cioè una discontinuità di primo
+
+tipo: nello stesso istante la variabile tensione, essendo (proporzionale
+
+a) l’integrale della corrente si mantine continua pur presentando
+
+un cambiamento della sua derivata prima (punto angoloso). Ra-
