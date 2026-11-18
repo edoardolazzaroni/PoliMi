@@ -4484,4 +4484,6 @@ $$E_{s}=12 \ V \\ C=10 \ mF \\ R_{1}=6 \ \Omega \\ R_{2}=2 \ \Omega \\ R_{3}=4 \
 
 Si deduce quanto segue:
 
-1. L'equazione differenziale che governa il circuito per $t > 0$ è:$$\tau\frac{dv_{c}(t)}{dt}+v_{c}(t)=v_{c}(\infty)$$che coi numeri diventa:$$\frac{30}{1000}\frac{dv_{c}(t)}{dt}+v_{c}(t)=6 \ V$$L'equazione si può anche riscriver
+1. L'**equazione differenziale che governa il circuito** per $t > 0$ è:$$\tau\frac{dv_{c}(t)}{dt}+v_{c}(t)=v_{c}(\infty)$$che coi numeri diventa:$$\frac{30}{1000}\frac{dv_{c}(t)}{dt}+v_{c}(t)=6 \ V$$L'equazione si può anche riscrivere nella forma:$$\frac{dv_{c}(t)}{dt}=-\frac{v_{c}(t)}{\tau}+\frac{v_{c}(\infty)}{\tau}$$detta **equazione di stato**.
+
+2. L'evoluzione nel tempo per $t > 0$, cioè la risposta nel tempo, delle grandezze elettriche desiderate risulta:
