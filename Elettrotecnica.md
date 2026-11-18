@@ -4512,4 +4512,8 @@ $$V_{s_{1}}=12 \ V \\ V_{s_{2}}=3 \ V \\ L= 2 \ H \\ R_{1}=R_{2}=R_{3}=2 \ \Omeg
 	#Figura(10.30). *Circuito per $t>0$*
 	
 	
-	Si ricava:$$v_{x}(0^+)=-i_{L}(0)R_{1}=-3 \ V \\ \\ v_{L}(0^+)=V_{s_{1}}-i_{L}(0)(R_{1}+R_{2})=6 \ V$$Rimangono da valutare la resistenza equivalente vista dall’induttore:$$R_{eq}=R_{1}+R_{3}=4 \ \Omega\to \tau=\frac{L}{R_{eq}}=0.5 \ s$$e le variabili a regime per $t\to \infty$
+	Si ricava:$$v_{x}(0^+)=-i_{L}(0)R_{1}=-3 \ V \\ \\ v_{L}(0^+)=V_{s_{1}}-i_{L}(0)(R_{1}+R_{2})=6 \ V$$Rimangono da valutare la resistenza equivalente vista dall’induttore:$$R_{eq}=R_{1}+R_{3}=4 \ \Omega\to \tau=\frac{L}{R_{eq}}=0.5 \ s$$e le variabili a regime per $t\to \infty$:$$i_{L}(\infty)=\frac{V_{s_{1}}}{R_{1}+R_{2}}=3 \ A \\ \\ v_{x}(\infty)=-i_{L}(\infty)R_{1}=-6 \ V$$
+
+Si deduce quanto segue:
+
+1. L'equazione 
