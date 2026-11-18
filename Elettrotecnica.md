@@ -4509,5 +4509,6 @@ $$V_{s_{1}}=12 \ V \\ V_{s_{2}}=3 \ V \\ L= 2 \ H \\ R_{1}=R_{2}=R_{3}=2 \ \Omeg
 
 - Analizziamo il circuito nell’intervallo di tempo $(−\infty, 0^-)$ che precede l’apertura di $S$. In questo intervallo il circuito è asintoticamente stabile, infatti la resistenza equivalente vista dall’induttore è finita e vale $(R_{1} || R_{2}) + R_{3}= 3 \ \Omega$. Determiniamo per primo il valore della variabile di stato a regime DC in quanto questo corrisponde al suo valore nell’istante di tempo $t= 0^-$. Quindi sostituiamo all’induttore un corto circuito ed applichiamo l’analisi nodale per calcolare la tensione $v_{ab}$. Si ha:$$\frac{v_{ab}-V_{s_{1}}}{R_{1}}+\frac{v_{ab}+V_{s_{2}}}{R_{2}}+\frac{v_{ab}}{R_{3}}=\frac{v_{ab}-12}{2}+\frac{v_{ab}+3}{2}+\frac{v_{ab}}{2}=0\to v_{ab}=3 \ V$$Ne consegue che:$$i_{L}(0^-)=\frac{3}{2} \ A$$ed anche che:$$v_{x}(0^-)=v_{ab}-V_{s_{1}}=-9 \ V$$
 - Grazie alla <u>proprietà di continuità </u>della variabile $i_{L}(t)$, sappiamo che $i_{L}(0^+) = i_{L}(0^-)$ e quindi <u>possiamo usare questo valore noto come valore iniziale</u> per analizzare il circuito per $t > 0$ quando l’interruttore si è aperto, come mostrato in figura:![[Elettrotecnica-1795004662046.webp|520]]
-	#Figura(10.30). 
-	Si ricava:
+	#Figura(10.30). *Circuito per $t>0$*
+	
+	Si ricava:$$v_{x}(0^+)=-i_{L}(0)R_{1}=-3 \ V \\ \\ v_{L}(0^+)=V_{s_{1}}-i_{L}(0)(R_{1}èR_{2})$$
