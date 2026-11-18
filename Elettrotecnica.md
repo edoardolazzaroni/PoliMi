@@ -510,7 +510,7 @@ Il suo legame costitutivo o equazione caratteristica è dato da:
 $$v = R \ i \quad (2.1)$$
 
 Dunque l’equazione caratteristica è un legame di proporzionalità diretta attraverso il parametro resistenza, questa si misura in ohm $[Ω]$.
-La figura 2.4 illustra la curva caratteristica nel piano $i-v$ che è una retta passante per l’origine degli assi avente pendenza $R$.
+La figura illustra la curva caratteristica nel piano $i-v$ che è una retta passante per l’origine degli assi avente pendenza $R$:
 ![[Elettrotecnica-1793196208464.webp|292]]
 #Figura(2.4).
 
