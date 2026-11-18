@@ -4506,3 +4506,9 @@ Nel circuito in figura l’interruttore $S$ si trova Chiuso <u>da tanto tempo</u
 
 Dati:
 $$V_{s_{1}}=12 \ V \\ V_{s_{2}}=3 \ V \\ L= 2 \ H \\ R_{1}=R_{2}=R_{3}=2 \ \Omega$$
+
+- Analizziamo il circuito nell’intervallo di tempo $(−\infty, 0^-)$ che precede l’apertura di $S$. In questo intervallo il circuito è asintoticamente stabile, infatti la resistenza equivalente vista dall’induttore è finita e vale $(R_{1} || R_{2}) + R_{3}= 3 \ \Omega$. Determiniamo per primo il valore della variabile di stato a regime DC in quanto questo corrisponde al suo valore nell’istante di tempo $t= 0-$. Quindi
+
+sostituiamo all’induttore un corto circuito e quindi applichiamo
+
+l’analisi nodale per calcolare la tensione vab. Si ha:
