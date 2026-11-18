@@ -4552,4 +4552,5 @@ $$p(t)=v_{1}(t)i_{1}(t)+v_{2}(t)i_{2}(t)$$
 risulta:
 $$p(t)=L_{1}i_{1}(t)\frac{di_{1}(t)}{dt}+Mi_{1}(t)\frac{di_{2}(t)}{dt}+Mi_{2}(t)\frac{di_{1}(t)}{dt}+L_{2}i_{2}(t)\frac{di_{2}(t)}{dt}$$
 
-Il lavoro assorbito nell'intervallo di tempo $(t_{1},t_{2})$ d
+Il <u>lavoro assorbito</u> nell'intervallo di tempo $(t_{1},t_{2})$ diviene:
+$$\begin{align}\mathcal{L}(t_{1},t_{2})=  \\  \int{}\end{align}$$
