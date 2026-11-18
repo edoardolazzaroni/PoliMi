@@ -4559,4 +4559,4 @@ e risulta dato dalla <u>variazione di energia accumulata nella coppia di indutto
 $$E_{Ind \ Acc}(t)=\frac{1}{2}L_{1}i_{1}^2(t)+\frac{1}{2}L_{2}i_{2}^2(t)+Mi_{1}(t)i_{2}(t)\quad(10.25)$$
 
 Si noti infatti che:
-$$i_{1}(t)\frac{di_{2}(t)}{dt}+i_{2}(t)\frac{di_{1}(t)}{dt}=\frac{d[i_{}]}$$
+$$i_{1}(t)\frac{di_{2}(t)}{dt}+i_{2}(t)\frac{di_{1}(t)}{dt}=\frac{d[i_{1}(t)\cdot i_{2}(t)]}{dt}$$
