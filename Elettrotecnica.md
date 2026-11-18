@@ -4532,4 +4532,6 @@ Nella [[#**Capitolo IX Potenza in regime sinusoidale**|nono capitolo]] si è sot
 Questo implica la facoltà di immagazzinare il lavoro elettrico assorbito in una forma interna di Energia. E’ possibile determinare l’espressione di tale energia, calcolando il lavoro elettrico assorbito in un intervallo di tempo $(t_{1}, t_{2})$:
 $$\mathcal{L}(t_{1},t_{2})=\int_{t_{1}}^{t_{2}} v_{c}(t)i_{c}(t) \ dt$$
 Quindi dal legame costitutivo:
-$$i_{c}8t$$
+$$i_{c}(t)=C\frac{dv_{c}(t)}{dt}$$
+si ottiene:
+$$\mathcal{L}(t_{1},t_{2})=\int_{v_{c}()t_{1}}^{t_{2}} Cv_{c}(t) \ dv_{c}(t) \ dt$$
