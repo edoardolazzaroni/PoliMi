@@ -4511,4 +4511,5 @@ $$V_{s_{1}}=12 \ V \\ V_{s_{2}}=3 \ V \\ L= 2 \ H \\ R_{1}=R_{2}=R_{3}=2 \ \Omeg
 - Grazie alla <u>proprietà di continuità </u>della variabile $i_{L}(t)$, sappiamo che $i_{L}(0^+) = i_{L}(0^-)$ e quindi <u>possiamo usare questo valore noto come valore iniziale</u> per analizzare il circuito per $t > 0$ quando l’interruttore si è aperto, come mostrato in figura:![[Elettrotecnica-1795004662046.webp|520]]
 	#Figura(10.30). *Circuito per $t>0$*
 	
-	Si ricava:$$v_{x}(0^+)=-i_{L}(0)R_{1}=-3 \ V \\ \\ v_{L}(0^+)=V_{s_{1}}-i_{L}(0)(R_{1}èR_{2})$$
+	
+	Si ricava:$$v_{x}(0^+)=-i_{L}(0)R_{1}=-3 \ V \\ \\ v_{L}(0^+)=V_{s_{1}}-i_{L}(0)(R_{1}+R_{2})=6 \ V$$Rimangono da valutare la resistenza equivalente vista dall’induttore:$$R_{eq}=R_{1}+R_{3}=4 \ \Omega\to \tau=\frac{L}{R_{eq}}=0.5 \ s$$e le variabili a regime per $t\to \infty$
