@@ -4534,4 +4534,8 @@ $$\mathcal{L}(t_{1},t_{2})=\int_{t_{1}}^{t_{2}} v_{c}(t)i_{c}(t) \ dt$$
 Quindi dal legame costitutivo:
 $$i_{c}(t)=C\frac{dv_{c}(t)}{dt}$$
 si ottiene:
-$$\mathcal{L}(t_{1},t_{2})=\int_{v_{c}()t_{1}}^{t_{2}} Cv_{c}(t) \ dv_{c}(t) \ dt$$
+$$\mathcal{L}(t_{1},t_{2})=\int_{v_{c}(t_{1)}}^{v_{c}(t_{2})} Cv_{c}(t) \ dv_{c}(t) \ dt=\frac{1}{2}Cv_{c}^2(t_{2})-\frac{1}{2}Cv_{c}^2(t_{1})$$
+
+Si conclude che esiste una funzione energia che descrive l’accumulo
+
+di lavoro elettrico, definita come:
