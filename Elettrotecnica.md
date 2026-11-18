@@ -4482,8 +4482,10 @@ $$E_{s}=12 \ V \\ C=10 \ mF \\ R_{1}=6 \ \Omega \\ R_{2}=2 \ \Omega \\ R_{3}=4 \
 	
 	Si impone per prima la continuità $v_{c}(0^+)=v_{c}(0^-)=3 \ V$. Le altre variabili elettriche non sono necessariamente continue e dunque si devono determinare immaginando di sostituire al condensatore un generatore di tensione che impone il valore iniziale noto. Si ha:$$i_{x}(0^+)=\frac{v_{c}(0)}{R_{2}+R_{3}}=\frac{3}{2+4}=0.5 \ A \\ \\ i_{C}(0^+)=\frac{E_{s}-v_{c}(0)}{R_{1}}-i_{x}(0^+)=1.0 \ A$$Serve ora calcolare la costante di tempo del circuito, cioè trovare la resistenza equivalente vista dal condensatore. Dopo aver spento $E_{s}$, è facile ricavare:$$R_{eq}=R_{1}||(R_{2}+R_{3})=6||6=3 \ \Omega \\ \\ \tau=R_{eq} \ C= 30 \ ms$$A regime, per $t\to \infty$, si ottiene:$$v_{c}(\infty)=E_{s}\frac{R_{2}+R_{3}}{R_{1}+R_{2}+R_{3}}=12\frac{2+4}{6+2+4}=6 \ V \\ \\ i_{x}(\infty)=\frac{E_{s}}{R_{1}+R_{2}+R_{3}}=\frac{12}{6+2+4}=1.0 \ A$$mentre a regime la corrente nel condensatore si annulla ($i_{C}(\infty)=0$).
 
+
 Si deduce quanto segue:
 
 1. L'**equazione differenziale che governa il circuito** per $t > 0$ è:$$\tau\frac{dv_{c}(t)}{dt}+v_{c}(t)=v_{c}(\infty)$$che coi numeri diventa:$$\frac{30}{1000}\frac{dv_{c}(t)}{dt}+v_{c}(t)=6 \ V$$L'equazione si può anche riscrivere nella forma:$$\frac{dv_{c}(t)}{dt}=-\frac{v_{c}(t)}{\tau}+\frac{v_{c}(\infty)}{\tau}$$detta **equazione di stato**.
 
-2. L'evoluzione nel tempo per $t > 0$, cioè la risposta nel tempo, delle grandezze elettriche desiderate risulta:
+
+2. L'evoluzione nel tempo per $t > 0$, cioè la risposta nel tempo, delle grandezze elettriche desiderate risulta:$$v_{c}(t)=(3-6)e^{-\frac{t}{\tau}}+6 \ V \\ \\ i_{x}(t)=(0.5-1)e^{-\frac{t}{\tau}}+1 \ A \\ \\ i$$
