@@ -4516,4 +4516,4 @@ $$V_{s_{1}}=12 \ V \\ V_{s_{2}}=3 \ V \\ L= 2 \ H \\ R_{1}=R_{2}=R_{3}=2 \ \Omeg
 
 Si deduce quanto segue:
 
-1. L'equazione 
+1. L'**equazione differenziale che governa il circuito** per $t > 0$ è:$$\tau\frac{di_{L}(t)}{dt}+i_{L}(t)=i_{L}(\infty)$$che coi numeri diventa:$$$$
