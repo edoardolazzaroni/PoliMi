@@ -4488,4 +4488,6 @@ Si deduce quanto segue:
 1. L'**equazione differenziale che governa il circuito** per $t > 0$ è:$$\tau\frac{dv_{c}(t)}{dt}+v_{c}(t)=v_{c}(\infty)$$che coi numeri diventa:$$\frac{30}{1000}\frac{dv_{c}(t)}{dt}+v_{c}(t)=6 \ V$$L'equazione si può anche riscrivere nella forma:$$\frac{dv_{c}(t)}{dt}=-\frac{v_{c}(t)}{\tau}+\frac{v_{c}(\infty)}{\tau}$$detta **equazione di stato**.
 
 
-2. L'evoluzione nel tempo per $t > 0$, cioè la risposta nel tempo, delle grandezze elettriche desiderate risulta:$$v_{c}(t)=(3-6)e^{-\frac{t}{\tau}}+6 \ V \\ \\ i_{x}(t)=(0.5-1)e^{-\frac{t}{\tau}}+1 \ A \\ \\ i$$
+2. L'evoluzione nel tempo per $t > 0$, cioè la risposta nel tempo, delle grandezze elettriche desiderate risulta:$$v_{c}(t)=(3-6)e^{-\frac{t}{\tau}}+6 \ V \\ \\ i_{x}(t)=(0.5-1)e^{-\frac{t}{\tau}}+1 \ A \\ \\ i_{c}(t)=1e^{-\frac{t}{\tau}} \ A$$
+
+3. Si noti ancora una volta come le correnti $i_{x}(t)$ e $i_{C}(t)$ siano discontinue nell'istante di commutazione;
