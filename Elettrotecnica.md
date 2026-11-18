@@ -4524,7 +4524,10 @@ Vediamo l’applicazione del metodo con degli *esempi* di calcolo:
 
 ### Energia nel condensatore, induttore e induttori accoppiati
 
-Nella nono capitolo si è sottolineato la differenza che esiste tra il modello di un resistore e quello di un elemento dinamico, condensatore o induttore, da un punto di vista energetico:
+Nella [[#**Capitolo IX Potenza in regime sinusoidale**|nono capitolo]] si è sottolineato <mark class="hltr-yellow">la differenza che esiste tra il modello di un resistore e quello di un elemento dinamico, condensatore o induttore, da un punto di vista energetico</mark>:
 
-- Il resistore infatti rappresenta un bipolo che può solo assorbire potenza elettrica che trasforma poi in modo irreversibile in calore o altra forma di lavoro;
-- Un condensatore in regime sinusoidale invece nella seconda metà del periodo eroga la potenza elettrica assorbita durante la prima metà di periodo. Questo implica la facoltà di immagazzinare il lavoro elettrico assorbito in una forma interna di Energia. E’ possibile determinare l’espressione di tale energia, calcolando il lavoro elettrico assorbito in un intervallo di tempo $(t_{1}, t_{2})$:
+- Il **resistore** infatti rappresenta un bipolo che può solo assorbire potenza elettrica che trasforma poi in modo irreversibile in calore o altra forma di lavoro;
+- Un **condensatore** in regime sinusoidale invece nella seconda metà del periodo eroga la potenza elettrica assorbita durante la prima metà di periodo.
+
+Questo implica la facoltà di immagazzinare il lavoro elettrico assorbito in una forma interna di Energia. E’ possibile determinare l’espressione di tale energia, calcolando il lavoro elettrico assorbito in un intervallo di tempo $(t_{1}, t_{2})$:
+$$$$
