@@ -4490,4 +4490,7 @@ Si deduce quanto segue:
 
 2. L'evoluzione nel tempo per $t > 0$, cioè la risposta nel tempo, delle grandezze elettriche desiderate risulta:$$v_{c}(t)=(3-6)e^{-\frac{t}{\tau}}+6 \ V \\ \\ i_{x}(t)=(0.5-1)e^{-\frac{t}{\tau}}+1 \ A \\ \\ i_{c}(t)=1e^{-\frac{t}{\tau}} \ A$$
 
-3. Si noti ancora una volta come le correnti $i_{x}(t)$ e $i_{C}(t)$ siano discontinue nell'istante di commutazione;
+3. Si noti ancora una volta come le correnti $i_{x}(t)$ e $i_{C}(t)$ siano discontinue nell'istante di commutazione:![[Elettrotecnica-1795004045735.webp|317]]
+	#Figura(10.28). *Evoluzione nel tempo*
+
+
