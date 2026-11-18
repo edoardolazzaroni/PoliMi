@@ -4553,4 +4553,4 @@ risulta:
 $$p(t)=L_{1}i_{1}(t)\frac{di_{1}(t)}{dt}+Mi_{1}(t)\frac{di_{2}(t)}{dt}+Mi_{2}(t)\frac{di_{1}(t)}{dt}+L_{2}i_{2}(t)\frac{di_{2}(t)}{dt}$$
 
 Il <u>lavoro assorbito</u> nell'intervallo di tempo $(t_{1},t_{2})$ diviene:
-$$\begin{align}\mathcal{L}(t_{1},t_{2})=  \\  =\int_{t_{1}}^{t_{2}}p(t) \ dt \\ =L_{1}\int_{t_{1}}^{t_{2}} i_{1}(t)\frac{di_{1}(t)}{dt} \ dt + L_{2}\int_{t_{1}}^{t_{2}} i_{2}(t)\frac{di_{2}(t)}{dt} \ dt + M\ \end{align}$$
+$$\begin{align}\mathcal{L}(t_{1},t_{2})=  \\  =\int_{t_{1}}^{t_{2}}p(t) \ dt \\ =L_{1}\int_{t_{1}}^{t_{2}} i_{1}(t)\frac{di_{1}(t)}{dt} \ dt + L_{2}\int_{t_{1}}^{t_{2}} i_{2}(t)\frac{di_{2}(t)}{dt} \ dt + M\int_{t_{1}}^{t_{2}} \left( i_{1}(t)\frac{di_{2}(t)}{dt}+i_{2}(t)\frac{di_{1}(t)}{dt} \right) \ dt  \\  =E_{Ind \ Acc}(t_{2})-E_{} \end{align}$$
