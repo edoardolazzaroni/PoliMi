@@ -4471,7 +4471,8 @@ Vediamo l’applicazione del metodo con degli *esempi* di calcolo:
 #### #Esercizio(circuito con interruttore) (1)
 
 > [!question] Esercizio
-> Il circuito in figura nell’istante di tempo $t_{0} = 0$ si trova a regime con l’interruttore $S$ in posizione Chiusa (ON). In $t_{0}$ l’interruttore viene aperto istantaneamente. Vogliamo investigare come evolve nel tempo la variabile di stato $v_{c}(t)$ e la corrente $i_{x}(t)$ indicata in figura.
+> Il circuito in figura nell’istante di tempo $t_{0} = 0$ si trova a regime con l’interruttore $S$ in posizione Chiusa (ON). In $t_{0}$ l’interruttore viene aperto istantaneamente. Vogliamo investigare come evolve nel tempo la variabile di stato $v_{c}(t)$ e la corrente $i_{x}(t)$ indicata in figura:
+> 
 > ![[Elettrotecnica-1794949762985.webp|354]]
 > #Figura(10.26). *Circuito dinamico con condensatore ed interruttore*
 > 
@@ -4481,7 +4482,7 @@ Vediamo l’applicazione del metodo con degli *esempi* di calcolo:
 > - Analizziamo il circuito nell’intervallo di tempo $(−\infty, 0^−)$ che precede l’apertura di $S$. In questo intervallo il circuito è asintoticamente stabile, infatti la resistenza equivalente vista dal condensatore vale $R_{2} || R_{2}$ ed è quindi finita e non nulla.
 > 	**ATTENZIONE**: In questo intervallo, le grandezze elettriche a regime corrispondono coi valori che esse assumono in $t_{0}^-$ . Quindi sostituendo al condensatore il suo modello DC (cioè un aperto), si trova:$$v_{C}(0^-)=E_{s}\frac{R_{2}}{R_{1}+R_{2}}=12\frac{2}{6+2}=3 \ V \\ \\ i_{x}(0^-)=\frac{E_{s}}{R_{1}+R_{2}}=\frac{12}{6+2}=1.5 \ A$$Si noti che inoltre la corrente nel condensatore a regime vale zero, $i_{C}(0^-)=0$;
 > 
-> - Quindi si passa a studiare l'intervallo di tempo $(0^+, \infty)$ in cui l'interruttore è aperto ed il circuito assume la configurazione mostrata in figura:![[Elettrotecnica-1795003624573.webp|439]]
+> - Quindi si passa a studiare l'intervallo di tempo $(0^+, \infty)$ in cui l'interruttore è aperto ed il circuito assume la configurazione mostrata in figura:![[Elettrotecnica-1795003624573.webp|363x232]]
 > 	#Figura(10.27). *Circuito dopo l’apertura di $S$*
 > 	
 > 	Si impone per prima la continuità $v_{c}(0^+)=v_{c}(0^-)=3 \ V$. Le altre variabili elettriche non sono necessariamente continue e dunque si devono determinare immaginando di sostituire al condensatore un generatore di tensione che impone il valore iniziale noto. Si ha:$$i_{x}(0^+)=\frac{v_{c}(0)}{R_{2}+R_{3}}=\frac{3}{2+4}=0.5 \ A \\ \\ i_{C}(0^+)=\frac{E_{s}-v_{c}(0)}{R_{1}}-i_{x}(0^+)=1.0 \ A$$Serve ora calcolare la costante di tempo del circuito, cioè trovare la resistenza equivalente vista dal condensatore. Dopo aver spento $E_{s}$, è facile ricavare:$$R_{eq}=R_{1}||(R_{2}+R_{3})=6||6=3 \ \Omega \\ \\ \tau=R_{eq} \ C= 30 \ ms$$A regime, per $t\to \infty$, si ottiene:$$v_{c}(\infty)=E_{s}\frac{R_{2}+R_{3}}{R_{1}+R_{2}+R_{3}}=12\frac{2+4}{6+2+4}=6 \ V \\ \\ i_{x}(\infty)=\frac{E_{s}}{R_{1}+R_{2}+R_{3}}=\frac{12}{6+2+4}=1.0 \ A$$mentre a regime la corrente nel condensatore si annulla ($i_{C}(\infty)=0$).
@@ -4502,6 +4503,7 @@ Vediamo l’applicazione del metodo con degli *esempi* di calcolo:
 
 > [!question] Esercizio
 > Nel circuito in figura l’interruttore $S$ si trova Chiuso <u>da tanto tempo</u> (cioè in modo che **tutti i transitori sono esauriti**) e nell’istante $t_{0} = 0$ viene Aperto. Determinare come evolve nel tempo la variabile di stato $i_{L}(t)$ e la tensione $v_{x}(t)$ indicata in figura:
+> 
 > ![[Elettrotecnica-1795004293292.webp|350]]
 > #Figura(10.29). *Circuito dinamico con induttore ed interruttore*
 > 
@@ -4509,7 +4511,7 @@ Vediamo l’applicazione del metodo con degli *esempi* di calcolo:
 > $$V_{s_{1}}=12 \ V \\ V_{s_{2}}=3 \ V \\ L= 2 \ H \\ R_{1}=R_{2}=R_{3}=2 \ \Omega$$
 > 
 > - Analizziamo il circuito nell’intervallo di tempo $(−\infty, 0^-)$ che precede l’apertura di $S$. In questo intervallo il circuito è asintoticamente stabile, infatti la resistenza equivalente vista dall’induttore è finita e vale $(R_{1} || R_{2}) + R_{3}= 3 \ \Omega$. Determiniamo per primo il valore della variabile di stato a regime DC in quanto questo corrisponde al suo valore nell’istante di tempo $t= 0^-$. Quindi sostituiamo all’induttore un corto circuito ed applichiamo l’analisi nodale per calcolare la tensione $v_{ab}$. Si ha:$$\frac{v_{ab}-V_{s_{1}}}{R_{1}}+\frac{v_{ab}+V_{s_{2}}}{R_{2}}+\frac{v_{ab}}{R_{3}}=\frac{v_{ab}-12}{2}+\frac{v_{ab}+3}{2}+\frac{v_{ab}}{2}=0\to v_{ab}=3 \ V$$Ne consegue che:$$i_{L}(0^-)=\frac{3}{2} \ A$$ed anche che:$$v_{x}(0^-)=v_{ab}-V_{s_{1}}=-9 \ V$$
-> - Grazie alla <u>proprietà di continuità </u>della variabile $i_{L}(t)$, sappiamo che $i_{L}(0^+) = i_{L}(0^-)$ e quindi <u>possiamo usare questo valore noto come valore iniziale</u> per analizzare il circuito per $t > 0$ quando l’interruttore si è aperto, come mostrato in figura:![[Elettrotecnica-1795004662046.webp|520]]
+> - Grazie alla <u>proprietà di continuità </u>della variabile $i_{L}(t)$, sappiamo che $i_{L}(0^+) = i_{L}(0^-)$ e quindi <u>possiamo usare questo valore noto come valore iniziale</u> per analizzare il circuito per $t > 0$ quando l’interruttore si è aperto, come mostrato in figura:![[Elettrotecnica-1795004662046.webp|318x215]]
 > 	#Figura(10.30). *Circuito per $t>0$*
 > 	
 > 	
