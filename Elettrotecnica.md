@@ -4536,6 +4536,9 @@ $$i_{c}(t)=C\frac{dv_{c}(t)}{dt}$$
 si ottiene:
 $$\mathcal{L}(t_{1},t_{2})=\int_{v_{c}(t_{1)}}^{v_{c}(t_{2})} Cv_{c}(t) \ dv_{c}(t) \ dt=\frac{1}{2}Cv_{c}^2(t_{2})-\frac{1}{2}Cv_{c}^2(t_{1})$$
 
-Si conclude che esiste una funzione energia che descrive l’accumulo
+Si conclude che <u>esiste una funzione energia che descrive l’accumulo di lavoro elettrico</u>, definita come:
+$$E_{c}(t)=\frac{1}{2}Cv_{c}^2(t)$$
+tale che<mark class="hltr-yellow"> il lavoro assorbito dal condensatore risulta essere la differenza tra l’energia accumulata nell’istante finale e quella nell’istante iniziale</mark>.
 
-di lavoro elettrico, definita come:
+Analogamente per il bipolo induttore si deriva l’espressione dell’energia:
+$$E_{L}(t)=$$
