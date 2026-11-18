@@ -4547,5 +4547,7 @@ $$E_{L}(t)=\frac{1}{2}Li_{L}^2(t)$$
 
 Infine, vediamo il caso degli **induttori mutuamente accoppiati**:
 $$v_{1}(t)=L_{1}\frac{di_{1}(t)}{dt}+M\frac{di_{2}(t)}{dt} \\ \\ v_{2}(t)=M\frac{di_{1}(t)}{dt}+L_{2}\frac{di_{2}(t)}{dt} \\ \\ (10.23)$$
-La potenza elettrica assorbita dal due porte è data da:
-$$p(t)=v_{1}(t)$$
+La potenza elettrica assorbita dal due porte data da:
+$$p(t)=v_{1}(t)i_{1}(t)+v_{2}(t)i_{2}(t)$$
+risulta:
+$$p(t)=L_{1}i_{1}(t)\frac{di_{1}(t)}{dt}+Mi_{1}(t)\frac{di_{2}(t)}{dt}$$
