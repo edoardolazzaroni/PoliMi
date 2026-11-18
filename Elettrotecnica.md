@@ -4500,21 +4500,48 @@ Vediamo l’applicazione del metodo con degli *esempi* di calcolo:
 
 #### #Esercizio(circuito con interruttore) (2)
 
-Nel circuito in figura l’interruttore $S$ si trova Chiuso <u>da tanto tempo</u> (cioè in modo che **tutti i transitori sono esauriti**) e nell’istante $t_{0} = 0$ viene Aperto. Determinare come evolve nel tempo la variabile di stato $i_{L}(t)$ e la tensione $v_{x}(t)$ indicata in figura:
-![[Elettrotecnica-1795004293292.webp|350]]
-#Figura(10.29). *Circuito dinamico con induttore ed interruttore*
+> [!question] Esercizio
+> Nel circuito in figura l’interruttore $S$ si trova Chiuso <u>da tanto tempo</u> (cioè in modo che **tutti i transitori sono esauriti**) e nell’istante $t_{0} = 0$ viene Aperto. Determinare come evolve nel tempo la variabile di stato $i_{L}(t)$ e la tensione $v_{x}(t)$ indicata in figura:
+> ![[Elettrotecnica-1795004293292.webp|350]]
+> #Figura(10.29). *Circuito dinamico con induttore ed interruttore*
+> 
+> Dati:
+> $$V_{s_{1}}=12 \ V \\ V_{s_{2}}=3 \ V \\ L= 2 \ H \\ R_{1}=R_{2}=R_{3}=2 \ \Omega$$
+> 
+> - Analizziamo il circuito nell’intervallo di tempo $(−\infty, 0^-)$ che precede l’apertura di $S$. In questo intervallo il circuito è asintoticamente stabile, infatti la resistenza equivalente vista dall’induttore è finita e vale $(R_{1} || R_{2}) + R_{3}= 3 \ \Omega$. Determiniamo per primo il valore della variabile di stato a regime DC in quanto questo corrisponde al suo valore nell’istante di tempo $t= 0^-$. Quindi sostituiamo all’induttore un corto circuito ed applichiamo l’analisi nodale per calcolare la tensione $v_{ab}$. Si ha:$$\frac{v_{ab}-V_{s_{1}}}{R_{1}}+\frac{v_{ab}+V_{s_{2}}}{R_{2}}+\frac{v_{ab}}{R_{3}}=\frac{v_{ab}-12}{2}+\frac{v_{ab}+3}{2}+\frac{v_{ab}}{2}=0\to v_{ab}=3 \ V$$Ne consegue che:$$i_{L}(0^-)=\frac{3}{2} \ A$$ed anche che:$$v_{x}(0^-)=v_{ab}-V_{s_{1}}=-9 \ V$$
+> - Grazie alla <u>proprietà di continuità </u>della variabile $i_{L}(t)$, sappiamo che $i_{L}(0^+) = i_{L}(0^-)$ e quindi <u>possiamo usare questo valore noto come valore iniziale</u> per analizzare il circuito per $t > 0$ quando l’interruttore si è aperto, come mostrato in figura:![[Elettrotecnica-1795004662046.webp|520]]
+> 	#Figura(10.30). *Circuito per $t>0$*
+> 	
+> 	
+> 	Si ricava:$$v_{x}(0^+)=-i_{L}(0)R_{1}=-3 \ V \\ \\ v_{L}(0^+)=V_{s_{1}}-i_{L}(0)(R_{1}+R_{2})=6 \ V$$Rimangono da valutare la resistenza equivalente vista dall’induttore:$$R_{eq}=R_{1}+R_{3}=4 \ \Omega\to \tau=\frac{L}{R_{eq}}=0.5 \ s$$e le variabili a regime per $t\to \infty$:$$i_{L}(\infty)=\frac{V_{s_{1}}}{R_{1}+R_{2}}=3 \ A \\ \\ v_{x}(\infty)=-i_{L}(\infty)R_{1}=-6 \ V$$
+> 
+> Si deduce quanto segue:
+> 
+> 1. L'**equazione differenziale che governa il circuito** per $t > 0$ è:$$\tau\frac{di_{L}(t)}{dt}+i_{L}(t)=i_{L}(\infty)$$che coi numeri diventa:$$0.5\frac{di_{L}(t)}{dt}+i_{L}(t)=3 \ A$$L'equazione si può anche riscrivere nella forma di **equazione di stato**:$$\frac{di_{L}(t)}{dt}=-\frac{i_{L}(t)}{\tau}+\frac{i_{L}(\infty)}{\tau}$$
+> 2. L'evoluzione nel tempo per $t > 0$, cioè la risposta nel tempo, delle grandezze elettriche desiderate risulta:$$i_{L}(t)=(1.5-3)e^{-\frac{t}{\tau}}+3 \ A \\ \\ v_{x}(t)=(-3+6)e^{-\frac{t}{\tau}}-6 \ V \\ \\ v_{L}(t)=6e^{-\frac{t}{\tau}} \ V$$
 
-Dati:
-$$V_{s_{1}}=12 \ V \\ V_{s_{2}}=3 \ V \\ L= 2 \ H \\ R_{1}=R_{2}=R_{3}=2 \ \Omega$$
 
-- Analizziamo il circuito nell’intervallo di tempo $(−\infty, 0^-)$ che precede l’apertura di $S$. In questo intervallo il circuito è asintoticamente stabile, infatti la resistenza equivalente vista dall’induttore è finita e vale $(R_{1} || R_{2}) + R_{3}= 3 \ \Omega$. Determiniamo per primo il valore della variabile di stato a regime DC in quanto questo corrisponde al suo valore nell’istante di tempo $t= 0^-$. Quindi sostituiamo all’induttore un corto circuito ed applichiamo l’analisi nodale per calcolare la tensione $v_{ab}$. Si ha:$$\frac{v_{ab}-V_{s_{1}}}{R_{1}}+\frac{v_{ab}+V_{s_{2}}}{R_{2}}+\frac{v_{ab}}{R_{3}}=\frac{v_{ab}-12}{2}+\frac{v_{ab}+3}{2}+\frac{v_{ab}}{2}=0\to v_{ab}=3 \ V$$Ne consegue che:$$i_{L}(0^-)=\frac{3}{2} \ A$$ed anche che:$$v_{x}(0^-)=v_{ab}-V_{s_{1}}=-9 \ V$$
-- Grazie alla <u>proprietà di continuità </u>della variabile $i_{L}(t)$, sappiamo che $i_{L}(0^+) = i_{L}(0^-)$ e quindi <u>possiamo usare questo valore noto come valore iniziale</u> per analizzare il circuito per $t > 0$ quando l’interruttore si è aperto, come mostrato in figura:![[Elettrotecnica-1795004662046.webp|520]]
-	#Figura(10.30). *Circuito per $t>0$*
-	
-	
-	Si ricava:$$v_{x}(0^+)=-i_{L}(0)R_{1}=-3 \ V \\ \\ v_{L}(0^+)=V_{s_{1}}-i_{L}(0)(R_{1}+R_{2})=6 \ V$$Rimangono da valutare la resistenza equivalente vista dall’induttore:$$R_{eq}=R_{1}+R_{3}=4 \ \Omega\to \tau=\frac{L}{R_{eq}}=0.5 \ s$$e le variabili a regime per $t\to \infty$:$$i_{L}(\infty)=\frac{V_{s_{1}}}{R_{1}+R_{2}}=3 \ A \\ \\ v_{x}(\infty)=-i_{L}(\infty)R_{1}=-6 \ V$$
 
-Si deduce quanto segue:
+### Energia nel condensatore, induttore e induttori accoppiati
 
-1. L'**equazione differenziale che governa il circuito** per $t > 0$ è:$$\tau\frac{di_{L}(t)}{dt}+i_{L}(t)=i_{L}(\infty)$$che coi numeri diventa:$$0.5\frac{di_{L}(t)}{dt}+i_{L}(t)=3 \ A$$L'equazione si può anche riscrivere nella forma di **equazione di stato**:$$\frac{di_{L}(t)}{dt}=-\frac{i_{L}(t)}{\tau}+\frac{i_{L}(\infty)}{\tau}$$
-2. L'evoluzione nel tempo per $t > 0$, cioè la risposta nel tempo, delle grandezze elettriche desiderate risulta:$$i_{L}(t)=(1.5-3)e^{-\frac{t}{\tau}}+3 \ A \\ \\ v_{x}(t)=(-3+6)e^{-\frac{t}{\tau}}-6 \ V \\ \\ v_{L}(t)=$$
+Nella Nota9 si è sottolineato la differenza che esiste tra il modello di
+
+un resistore e quello di un elemento dinamico, condensatore o indut-
+
+tore, da un punto di vista energetico. Il resistore infatti rappresenta
+
+un bipolo che può solo assorbire potenza elettrica che trasforma poi
+
+in modo irreversibile in calore o altra forma di lavoro. Un conden-
+
+satore in regime sinusoidale invece nella seconda metà del periodo
+
+eroga la potenza elettrica assorbita durante la prima metà di peri-
+
+odo. Questo implica la facoltà di immagazzinare il lavoro elettrico
+
+assorbito in una forma interna di Energia. E’ possibie determinare
+
+l’espressione di tale energia, calcolando il lavoro elettrico assorbito in
+
+un intervallo di tempo (t1, t2):
