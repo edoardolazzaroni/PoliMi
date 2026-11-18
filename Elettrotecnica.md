@@ -4556,4 +4556,7 @@ Il <u>lavoro assorbito</u> nell'intervallo di tempo $(t_{1},t_{2})$ diviene:
 $$\begin{align}\mathcal{L}(t_{1},t_{2})=  \\  =\int_{t_{1}}^{t_{2}}p(t) \ dt \\ =L_{1}\int_{t_{1}}^{t_{2}} i_{1}(t)\frac{di_{1}(t)}{dt} \ dt + L_{2}\int_{t_{1}}^{t_{2}} i_{2}(t)\frac{di_{2}(t)}{dt} \ dt + M\int_{t_{1}}^{t_{2}} \left( i_{1}(t)\frac{di_{2}(t)}{dt}+i_{2}(t)\frac{di_{1}(t)}{dt} \right) \ dt  \\  =E_{Ind \ Acc}(t_{2})-E_{Ind \ Acc}(t_{1}) \end{align} \\ \\ (10.24)$$
 
 e risulta dato dalla <u>variazione di energia accumulata nella coppia di induttori</u> definita come:
-$$E_{Ind \ Acc}(t)=\frac{1}{2}L_{1}i_{1}^2(t)$$
+$$E_{Ind \ Acc}(t)=\frac{1}{2}L_{1}i_{1}^2(t)+\frac{1}{2}L_{2}i_{2}^2(t)+Mi_{1}(t)i_{2}(t)\quad(10.25)$$
+
+Si noti infatti che:
+$$i_{1}(t)\frac{di_{2}(t)}{dt}+i_{2}(t)\frac{di_{1}(t)}{dt}=\frac{d[i_{}]}$$
