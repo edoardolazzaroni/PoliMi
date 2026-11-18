@@ -368,8 +368,8 @@ $$v_{kj}= e_{k}−e_{j}.$$
 > Determinare per primo il valore della tensione $v_{7}$ scrivendo una sola KVL. Successivamente completate determinando le altre tensioni incognite.
 > Quindi si fissi il nodo $E$ come riferimento e si determinino i potenziali ai rimanenti nodi.
 > 
-> $$v_{7}=-v_{1}-v_{2}=v_{6}-v_{5}$$
-> $$v_{2}=-v_{1}-v_{4}+v_{3}=1-(-2)+(-1)=2 \ V \\ \\ v_{6}=v_{5}-v_{3}=3-(-1)=4 \ V \\ \\ v_{7}=-v_{2}-v_{5}=-2-3=5 \ V$$
+> $$v_{7}=-v_{2}-v_{5}=-v_{1}+v_{4}+v_{6}$$
+> $$v_{2}=-v_{1}-v_{4}+v_{3}=1-(-2)+(-1)=2 \ V \\ \\ v_{6}=v_{5}-v_{3}=3-(-1)=4 \ V \\ \\ v_{7}=-v_{2}-v_{5}=-v_{1}+v_{4}+v_{6}=-2-3=1+=5 \ V$$
 
 
 
