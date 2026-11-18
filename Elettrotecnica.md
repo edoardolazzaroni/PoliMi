@@ -4498,4 +4498,5 @@ Vediamo l’applicazione del metodo con degli *esempi* di calcolo:
 > 	#Figura(10.28). *Evoluzione nel tempo*
 
 
-#### #Esercizio(circuito con induttore)
+#### #Esercizio(circuito con interruttore) (2)
+
