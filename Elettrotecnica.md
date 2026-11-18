@@ -4530,4 +4530,6 @@ Nella [[#**Capitolo IX Potenza in regime sinusoidale**|nono capitolo]] si è sot
 - Un **condensatore** in regime sinusoidale invece nella seconda metà del periodo eroga la potenza elettrica assorbita durante la prima metà di periodo.
 
 Questo implica la facoltà di immagazzinare il lavoro elettrico assorbito in una forma interna di Energia. E’ possibile determinare l’espressione di tale energia, calcolando il lavoro elettrico assorbito in un intervallo di tempo $(t_{1}, t_{2})$:
-$$$$
+$$\mathcal{L}(t_{1},t_{2})=\int_{t_{1}}^{t_{2}} v_{c}(t)i_{c}(t) \ dt$$
+Quindi dal legame costitutivo:
+$$i_{c}8t$$
