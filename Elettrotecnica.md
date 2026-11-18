@@ -4500,3 +4500,5 @@ Vediamo l’applicazione del metodo con degli *esempi* di calcolo:
 
 #### #Esercizio(circuito con interruttore) (2)
 
+Nel circuito in figura l’interruttore $S$ si trova Chiuso <u>da tanto tempo</u> (cioè in modo che **tutti i transitori sono esauriti**) e nell’istante $t_{0} = 0$ viene Aperto. Determinare come evolve nel tempo la variabile di stato $i_{L}(t)$ e la tensione $v_{x}(t)$ indicata in figura:
+![[Elettrotecnica-1795004293292.webp]]
