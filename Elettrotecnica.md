@@ -369,7 +369,7 @@ $$v_{kj}= e_{k}−e_{j}.$$
 > Quindi si fissi il nodo $E$ come riferimento e si determinino i potenziali ai rimanenti nodi.
 > 
 > $$v_{7}=-v_{1}-v_{2}=v_{6}-v_{5}$$
-> $$v_{2}=-v_{1}-v_{4}+v_{3}=1-(-2)+(-1)=2 \ V \\ \\ v_{6}=v_{5}-v_{3}=3-(-1)=4 \ V \\ \\ v_{7}$$
+> $$v_{2}=-v_{1}-v_{4}+v_{3}=1-(-2)+(-1)=2 \ V \\ \\ v_{6}=v_{5}-v_{3}=3-(-1)=4 \ V \\ \\ v_{7}=v_{1}-v_{2}=v_{6}-v_{5}=1-2=4-3$$
 
 
 
