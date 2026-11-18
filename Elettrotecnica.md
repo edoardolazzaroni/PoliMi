@@ -4540,5 +4540,10 @@ Si conclude che <u>esiste una funzione energia che descrive l’accumulo di lavo
 $$E_{c}(t)=\frac{1}{2}Cv_{c}^2(t)$$
 tale che<mark class="hltr-yellow"> il lavoro assorbito dal condensatore risulta essere la differenza tra l’energia accumulata nell’istante finale e quella nell’istante iniziale</mark>.
 
-Analogamente per il bipolo induttore si deriva l’espressione dell’energia:
-$$E_{L}(t)=$$
+
+Analogamente per il bipolo **induttore** si deriva l’espressione dell’energia:
+$$E_{L}(t)=\frac{1}{2}Li_{L}^2(t)$$
+
+
+Infine, vediamo il caso degli **induttori mutuamente accoppiati**:
+$$v_{1}(t)=L_{1}\frac{di_{1}(t)}{dt}+$$
