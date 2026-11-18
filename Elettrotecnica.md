@@ -356,7 +356,7 @@ $$v_{kj}= e_{k}−e_{j}.$$
 > Determinare per primo il valore della corrente $i_{3}$ scrivendo una sola KCL. Successivamente completare determinando le correnti incognite.
 > 
 > $$i_{3}+i_{6}-i_{4}=0\to i_{3}=i_{4}-i_{6}$$
-> $$i_{1}=-i_{2}-i_{7}=-1-3=-4 \ A$$
+> $$i_{1}=-i_{2}-i_{7}=-1-3=-4 \ A \\ \\ i_{4}=-i_{1}=4 \ A \\ \\ $$
 
 
 #### #Esercizio(Leggi di Kirchoff) (2)
