@@ -4465,32 +4465,37 @@ Un **interruttore** ("switch" in inglese) è un bipolo a cui è associata una <u
 Molti circuiti elettronici, ad esempio i circuiti digitali per l’elaborazione dell’informazione, contengono interruttori elettronici che commutano da uno stato all’altro in certi istanti di tempo. La commutazione di uno o più interruttori provoca un cambiamento della struttura (topologia) del circuito e quindi una risposta transitoria. L’analisi nel tempo dell’evoluzione del circuito tra una commutazione e l’altra viene condotta sfruttando la proprietà di continuità della variabile di stato, cioè imponendo che immediatamente prima e immediatamente dopo l’istante di commutazione la variabile di stato mantenga lo stesso valore.
 
 
+
 Vediamo l’applicazione del metodo con degli *esempi* di calcolo:
 
-Il circuito in figura nell’istante di tempo $t_{0} = 0$ si trova a regime con l’interruttore $S$ in posizione Chiusa (ON). In $t_{0}$ l’interruttore viene aperto istantaneamente. Vogliamo investigare come evolve nel tempo la variabile di stato $v_{c}(t)$ e la corrente $i_{x}(t)$ indicata in figura.
-![[Elettrotecnica-1794949762985.webp|354]]
-#Figura(10.26). *Circuito dinamico con condensatore ed interruttore*
+#### #Esercizio(circuito con interruttore) (1)
 
-Dati:
-$$E_{s}=12 \ V \\ C=10 \ mF \\ R_{1}=6 \ \Omega \\ R_{2}=2 \ \Omega \\ R_{3}=4 \ \Omega$$
+> [!question] Esercizio
+> Il circuito in figura nell’istante di tempo $t_{0} = 0$ si trova a regime con l’interruttore $S$ in posizione Chiusa (ON). In $t_{0}$ l’interruttore viene aperto istantaneamente. Vogliamo investigare come evolve nel tempo la variabile di stato $v_{c}(t)$ e la corrente $i_{x}(t)$ indicata in figura.
+> ![[Elettrotecnica-1794949762985.webp|354]]
+> #Figura(10.26). *Circuito dinamico con condensatore ed interruttore*
+> 
+> Dati:
+> $$E_{s}=12 \ V \\ C=10 \ mF \\ R_{1}=6 \ \Omega \\ R_{2}=2 \ \Omega \\ R_{3}=4 \ \Omega$$
+> 
+> - Analizziamo il circuito nell’intervallo di tempo $(−\infty, 0^−)$ che precede l’apertura di $S$. In questo intervallo il circuito è asintoticamente stabile, infatti la resistenza equivalente vista dal condensatore vale $R_{2} || R_{2}$ ed è quindi finita e non nulla.
+> 	**ATTENZIONE**: In questo intervallo, le grandezze elettriche a regime corrispondono coi valori che esse assumono in $t_{0}^-$ . Quindi sostituendo al condensatore il suo modello DC (cioè un aperto), si trova:$$v_{C}(0^-)=E_{s}\frac{R_{2}}{R_{1}+R_{2}}=12\frac{2}{6+2}=3 \ V \\ \\ i_{x}(0^-)=\frac{E_{s}}{R_{1}+R_{2}}=\frac{12}{6+2}=1.5 \ A$$Si noti che inoltre la corrente nel condensatore a regime vale zero, $i_{C}(0^-)=0$;
+> 
+> - Quindi si passa a studiare l'intervallo di tempo $(0^+, \infty)$ in cui l'interruttore è aperto ed il circuito assume la configurazione mostrata in figura:![[Elettrotecnica-1795003624573.webp|439]]
+> 	#Figura(10.27). *Circuito dopo l’apertura di $S$*
+> 	
+> 	Si impone per prima la continuità $v_{c}(0^+)=v_{c}(0^-)=3 \ V$. Le altre variabili elettriche non sono necessariamente continue e dunque si devono determinare immaginando di sostituire al condensatore un generatore di tensione che impone il valore iniziale noto. Si ha:$$i_{x}(0^+)=\frac{v_{c}(0)}{R_{2}+R_{3}}=\frac{3}{2+4}=0.5 \ A \\ \\ i_{C}(0^+)=\frac{E_{s}-v_{c}(0)}{R_{1}}-i_{x}(0^+)=1.0 \ A$$Serve ora calcolare la costante di tempo del circuito, cioè trovare la resistenza equivalente vista dal condensatore. Dopo aver spento $E_{s}$, è facile ricavare:$$R_{eq}=R_{1}||(R_{2}+R_{3})=6||6=3 \ \Omega \\ \\ \tau=R_{eq} \ C= 30 \ ms$$A regime, per $t\to \infty$, si ottiene:$$v_{c}(\infty)=E_{s}\frac{R_{2}+R_{3}}{R_{1}+R_{2}+R_{3}}=12\frac{2+4}{6+2+4}=6 \ V \\ \\ i_{x}(\infty)=\frac{E_{s}}{R_{1}+R_{2}+R_{3}}=\frac{12}{6+2+4}=1.0 \ A$$mentre a regime la corrente nel condensatore si annulla ($i_{C}(\infty)=0$).
+> 
+> 
+> Si deduce quanto segue:
+> 
+> 1. L'**equazione differenziale che governa il circuito** per $t > 0$ è:$$\tau\frac{dv_{c}(t)}{dt}+v_{c}(t)=v_{c}(\infty)$$che coi numeri diventa:$$\frac{30}{1000}\frac{dv_{c}(t)}{dt}+v_{c}(t)=6 \ V$$L'equazione si può anche riscrivere nella forma:$$\frac{dv_{c}(t)}{dt}=-\frac{v_{c}(t)}{\tau}+\frac{v_{c}(\infty)}{\tau}$$detta **equazione di stato**.
+> 
+> 
+> 2. L'evoluzione nel tempo per $t > 0$, cioè la risposta nel tempo, delle grandezze elettriche desiderate risulta:$$v_{c}(t)=(3-6)e^{-\frac{t}{\tau}}+6 \ V \\ \\ i_{x}(t)=(0.5-1)e^{-\frac{t}{\tau}}+1 \ A \\ \\ i_{c}(t)=1e^{-\frac{t}{\tau}} \ A$$
+> 
+> 3. Si noti ancora una volta come le correnti $i_{x}(t)$ e $i_{C}(t)$ siano discontinue nell'istante di commutazione:![[Elettrotecnica-1795004045735.webp|348x354]]
+> 	#Figura(10.28). *Evoluzione nel tempo*
 
-- Analizziamo il circuito nell’intervallo di tempo $(−\infty, 0^−)$ che precede l’apertura di $S$. In questo intervallo il circuito è asintoticamente stabile, infatti la resistenza equivalente vista dal condensatore vale $R_{2} || R_{2}$ ed è quindi finita e non nulla.
-	**ATTENZIONE**: In questo intervallo, le grandezze elettriche a regime corrispondono coi valori che esse assumono in $t_{0}^-$ . Quindi sostituendo al condensatore il suo modello DC (cioè un aperto), si trova:$$v_{C}(0^-)=E_{s}\frac{R_{2}}{R_{1}+R_{2}}=12\frac{2}{6+2}=3 \ V \\ \\ i_{x}(0^-)=\frac{E_{s}}{R_{1}+R_{2}}=\frac{12}{6+2}=1.5 \ A$$Si noti che inoltre la corrente nel condensatore a regime vale zero, $i_{C}(0^-)=0$;
 
-- Quindi si passa a studiare l'intervallo di tempo $(0^+, \infty)$ in cui l'interruttore è aperto ed il circuito assume la configurazione mostrata in figura:![[Elettrotecnica-1795003624573.webp|439]]
-	#Figura(10.27). *Circuito dopo l’apertura di $S$*
-	
-	Si impone per prima la continuità $v_{c}(0^+)=v_{c}(0^-)=3 \ V$. Le altre variabili elettriche non sono necessariamente continue e dunque si devono determinare immaginando di sostituire al condensatore un generatore di tensione che impone il valore iniziale noto. Si ha:$$i_{x}(0^+)=\frac{v_{c}(0)}{R_{2}+R_{3}}=\frac{3}{2+4}=0.5 \ A \\ \\ i_{C}(0^+)=\frac{E_{s}-v_{c}(0)}{R_{1}}-i_{x}(0^+)=1.0 \ A$$Serve ora calcolare la costante di tempo del circuito, cioè trovare la resistenza equivalente vista dal condensatore. Dopo aver spento $E_{s}$, è facile ricavare:$$R_{eq}=R_{1}||(R_{2}+R_{3})=6||6=3 \ \Omega \\ \\ \tau=R_{eq} \ C= 30 \ ms$$A regime, per $t\to \infty$, si ottiene:$$v_{c}(\infty)=E_{s}\frac{R_{2}+R_{3}}{R_{1}+R_{2}+R_{3}}=12\frac{2+4}{6+2+4}=6 \ V \\ \\ i_{x}(\infty)=\frac{E_{s}}{R_{1}+R_{2}+R_{3}}=\frac{12}{6+2+4}=1.0 \ A$$mentre a regime la corrente nel condensatore si annulla ($i_{C}(\infty)=0$).
-
-
-Si deduce quanto segue:
-
-1. L'**equazione differenziale che governa il circuito** per $t > 0$ è:$$\tau\frac{dv_{c}(t)}{dt}+v_{c}(t)=v_{c}(\infty)$$che coi numeri diventa:$$\frac{30}{1000}\frac{dv_{c}(t)}{dt}+v_{c}(t)=6 \ V$$L'equazione si può anche riscrivere nella forma:$$\frac{dv_{c}(t)}{dt}=-\frac{v_{c}(t)}{\tau}+\frac{v_{c}(\infty)}{\tau}$$detta **equazione di stato**.
-
-
-2. L'evoluzione nel tempo per $t > 0$, cioè la risposta nel tempo, delle grandezze elettriche desiderate risulta:$$v_{c}(t)=(3-6)e^{-\frac{t}{\tau}}+6 \ V \\ \\ i_{x}(t)=(0.5-1)e^{-\frac{t}{\tau}}+1 \ A \\ \\ i_{c}(t)=1e^{-\frac{t}{\tau}} \ A$$
-
-3. Si noti ancora una volta come le correnti $i_{x}(t)$ e $i_{C}(t)$ siano discontinue nell'istante di commutazione:![[Elettrotecnica-1795004045735.webp|317]]
-	#Figura(10.28). *Evoluzione nel tempo*
-
-
+#### #Esercizio(circuito con induttore)
