@@ -5,6 +5,7 @@ banner: "[[fondamentidiinformatica(banner).png]]"
 [[Fondamenti di C.pdf|Fondamenti di C(89)]]
 [[C89-mappa-radiale-fix.excalidraw]]
 [[C89|Cheat Sheet con tutte le funzioni del linguaggio C(89)]]
+[[C(89) - cheat sheet]]
 
 
 L’informatica è una scienza, ovvero una conoscenza  sistematica di tecniche e metodi per rappresentare ed elaborare l’informazione. È inoltre costituita da una collezione strutturata di 

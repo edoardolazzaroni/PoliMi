@@ -65,6 +65,7 @@ SORT due DESC
 	[[Fondamenti di Informatica]]
 	[[Elettrotecnica]]
 	[[Algoritmi e Principi dell'Informatica]]
+	[[Fondamenti di Elettronica]]
 
 
 - ## Link utili 🔗:
