@@ -3,6 +3,7 @@ banner: "[[elettrotecnica(banner.png]]"
 ---
 [[00_Video_Esercitazioni_Maffezzoni.pdf|File registrazioni esercitazioni (Ghilardi)]]
 
+
 # **Capitolo I: Il modello circuitale**
 
 
