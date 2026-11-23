@@ -1567,7 +1567,7 @@ ovvero alberi binari completi che rappresentano i confronti fra gli elementi eff
 
 La lunghezza del cammino semplice più lungo dalla radice di un albero di decisione ad una delle sue foglie rappresenta il numero di confronti che un determinato algoritmo di ordinamento deve svolgere nel caso peggiore: questo numero è equivalente all’altezza dell’albero stesso. Si introduce quindi il seguente teorema, che determina un limite inferiore sul tempo di esecuzione degli algoritmi di ordinamento per confronti:
 
-- #TEOREMA(27). Qualsiasi algoritmo di ordinamento per confronti richiede $Ω(n \ log \ n)$ confronti nel caso peggiore. 
+- #TEOREMA(27). Qualsiasi algoritmo di ordinamento per confronti richiede $Ω(n \ log \ n)$ confronti nel caso peggiore.
 
 Da cui deriva anche:
 
