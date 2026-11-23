@@ -3,6 +3,7 @@ banner: "[[elettrotecnica(banner.png]]"
 ---
 [[00_Video_Esercitazioni_Maffezzoni.pdf|File registrazioni esercitazioni (Ghilardi)]]
 [[Circuiti elettrici (R. Perfetti).pdf|Libro di testo: Circuiti Elettrici (R. Perfetti)]]
+[[schema per esercizi.pdf|Formulario e schema per esercizi]]
 
 # **Capitolo I: Il modello circuitale**
 
