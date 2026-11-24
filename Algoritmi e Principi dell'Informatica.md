@@ -596,7 +596,7 @@ Le espressioni regolari seguono la stessa idea dei sistemi di pattern, ma hanno 
 ## **Computabilità**
 
 
-In questa sezione si cercherà di rispondere alla domanda: quali problemi possono essere affrontati e risolti mediante gli automi analizzati? Si ricordi che automi e grammatiche, pur essendo modelli matematici, si possono considerare dispositivi meccanici per la risoluzione di problemi e che esistono formalismi che hanno un potere espressivo maggiore di altri, ossia sono in grado di riconoscere una classe di linguaggi che altri formalismi non riescono a riconoscere. Inoltre, si ricordi che, nessun formalismo è più potente delle macchine di Turing, sia dal punto di vista del riconoscimento che della traduzione di linguaggi e, per tanto, sono detti formalismi massimi.
+In questa sezione si cercherà di rispondere alla domanda: <u>quali problemi possono essere affrontati e risolti mediante gli automi analizzati</u>? Si ricordi che automi e grammatiche, pur essendo modelli matematici, si possono considerare dispositivi meccanici per la risoluzione di problemi e che esistono formalismi che hanno un potere espressivo maggiore di altri, ossia sono in grado di riconoscere una classe di linguaggi che altri formalismi non riescono a riconoscere. Inoltre, si ricordi che, nessun formalismo è più potente delle macchine di Turing, sia dal punto di vista del riconoscimento che della traduzione di linguaggi e, per tanto, sono detti formalismi massimi.
 
 
 ### **5.1 Formalizzazione dei Problemi**
@@ -612,7 +612,7 @@ Ovvero il linguaggio formato da una stringa e la sua traduzione, separati dal si
 
 ### **5.2 Tesi di Church**
 
-Le macchine di Turing, come visto in precedenza, sono il formalismo più potente che si ha a disposizione per il calcolo computazionale: ogni programma eseguibile da un calcolatore moderno può essere eseguito anche da una macchina di Turing. Dunque, le macchine di Turing hanno la stessa espressività dei linguaggi di programmazione ad alto livello, detti anche Turing completi.
+<u>Le macchine di Turing</u>, come visto in precedenza, sono <u>il formalismo più potente che si ha a disposizione per il calcolo computazionale</u>: ogni programma eseguibile da un calcolatore moderno può essere eseguito anche da una macchina di Turing. Dunque, le macchine di Turing hanno la stessa espressività dei linguaggi di programmazione ad alto livello, detti anche Turing completi.
 
 Più formalmente, data una MT $M$, è possibile costruire un programma, scritto in un determinato linguaggio di programmazione (come C, Java ecc...), che simuli il comportamento di $M$, purchè il calcolatore disponga di una quantità di memoria sufficiente durante l’esecuzione. Inoltre, dato un programma scritto in un determinato linguaggio di programmazione, è possibile costruire una MT $M$ che calcoli la stessa funzione calcolata dal programma.
 
@@ -624,7 +624,7 @@ In base a questo risultato si può affermare che, se si riesce a dimostrare che 
 
 Si introduce ora il concetto di **algoritmo**, centrale nell’informatica. Per algoritmo si intende la procedura di risoluzione di un problema mediante un dispositivo automatico di calcolo. Gli algoritmi si possono anche intendere come un metodo astratto di descrizione dei programmi eseguibili, ovvero una sequenza di comandi che, una volta eseguiti, portano alla risoluzione del problema.
 
-Ogni algoritmo ha le seguenti proprietà:
+Ogni algoritmo ha le seguenti **proprietà**:
 
 1. Un algoritmo deve contenere una sequenza finita di istruzioni;
 2. Ogni istruzione deve essere immediatamente eseguibile da qualche procedimento meccanico di calcolo, ossia deve esistere un processore che sia in grado di comprendere univocamente le istruzioni e di eseguirle producendo risultati precisi ed inequivocabili;
