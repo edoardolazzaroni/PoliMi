@@ -694,7 +694,7 @@ Quando si scrive un programma, ci sono diverse proprietà che si vorebbero garan
 
 #Figura(5) *Gerarchia dei problemi*
 
-![[Algoritmi e Principi dell'Informatica-1779647450525.webp|396]]
+![[Algoritmi e Principi dell'Informatica-1779647450525.webp|445]]
 
 
 - #TEOREMA(12) **Halting Problem**: nessuna MT può calcolare la funzione $g : \mathbb{N} ×\mathbb{N} →\left\{0,1\right\}$ definita nel seguente modo: $g(x,y) =$ `if` $f_y(x) = ⊥$ `then` $1$ `else` $0$
