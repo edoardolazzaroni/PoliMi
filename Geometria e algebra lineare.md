@@ -783,16 +783,10 @@ Si può dimostrare che <mark class="hltr-yellow">uno spazio vettoriale di dimens
 	Consideriamo in $\mathbb{R}^3$ i due vettori indipendenti $\mathbf{v}_{1}=(1,0,-1)$ e $\mathbf{v}_{2}=(0,1,-1)$;
 	detto $V$ il sottospazio vettoriale di $\mathbb{R}^3$ generato da $\mathbf{v}_{1},\mathbf{v}_{2}$ (che come si verifica non è altro che il piano passante per l'origine di equazione $x+y+z=0$), proponiamoci di costruire una base ortonormale di $V$, ossia di ortonormalizzare la base $\mathbf{v}_{1},\mathbf{v}_{2}$. I passi sono i seguenti:
 	
-	1) Normalizziamo $\mathbf{v}_{1}$, definendo: $\mathbf{u}_{1}=\frac{\mathbf{v}_{1}}{|\mathbf{v}_{1}|}=\left( \frac{1}{\sqrt{2}},0,-\frac{1}{\sqrt{2}} \right)$;
-	
-	2) Calcoliamo la componente di $\mathbf{v}_{2}$ nella direzione di $\mathbf{u}_{1}$, data da:
-						$(\mathbf{v}_{2}\cdot\mathbf{u}_{1})\mathbf{u}_{1}=\frac{1}{\sqrt{2}}\left( \frac{1}{\sqrt{2}},0,-\frac{1}{\sqrt{2}} \right)=\left( \frac{1}{2},0,-\frac{1}{2} \right)$
-	
-	3) Sottraiamo a $\mathbf{v}_{2}$ la sua componente nella direzione di $\mathbf{u}_{1}$, ottenendo così un vettore ortogonale a $\mathbf{u}_{1}$ e che insieme ad esso genera $V$:
-					$\mathbf{v}_{2}-(\mathbf{v}_{2}\cdot\mathbf{u}_{1})\mathbf{u}_{1}=(0,1,-1)-\left( \frac{1}{2},0,-\frac{1}{2} \right)=\left( -\frac{1}{2},1,-\frac{1}{2} \right)$
-	
+	1) Normalizziamo $\mathbf{v}_{1}$, definendo:$$\mathbf{u}_{1}=\frac{\mathbf{v}_{1}}{|\mathbf{v}_{1}|}=\left( \frac{1}{\sqrt{2}},0,-\frac{1}{\sqrt{2}} \right)$$
+	2) Calcoliamo la componente di $\mathbf{v}_{2}$ nella direzione di $\mathbf{u}_{1}$, data da:$$(\mathbf{v}_{2}\cdot\mathbf{u}_{1})\mathbf{u}_{1}=\frac{1}{\sqrt{2}}\left( \frac{1}{\sqrt{2}},0,-\frac{1}{\sqrt{2}} \right)=\left( \frac{1}{2},0,-\frac{1}{2} \right)$$
+	3) Sottraiamo a $\mathbf{v}_{2}$ la sua componente nella direzione di $\mathbf{u}_{1}$, ottenendo così un vettore ortogonale a $\mathbf{u}_{1}$ e che insieme ad esso genera $V$:$$\mathbf{v}_{2}-(\mathbf{v}_{2}\cdot\mathbf{u}_{1})\mathbf{u}_{1}=(0,1,-1)-\left( \frac{1}{2},0,-\frac{1}{2} \right)=\left( -\frac{1}{2},1,-\frac{1}{2} \right)$$
 	4) Normalizziamo quest'ultimo vettore, definendo:$$\mathbf{u}_{2}=\frac{\left( \frac{1}{2},1,-\frac{1}{2} \right)}{\sqrt{\frac{1}{4}+1+\frac{1}{4}}}=\sqrt{\frac{2}{3}}\left( -\frac{1}{2},1,-\frac{1}{2} \right)=\left( -\frac{1}{\sqrt{6}},\sqrt{\frac{2}{3}},-\frac{1}{\sqrt{6}} \right)$$
-		
 		Il lettore verifichi che $\mathbf{u}_{1},\mathbf{u}_{2}$ costituiscono effettivamente una base ortonormale di $V$.
 		Se ora volessimo costruire una base ortonormale di $\mathbb{R}^3$ che abbia come primi elementi $\mathbf{u}_{1},\mathbf{u}_{2}$, dovremmo iterare il procedimento come segue:
 	
