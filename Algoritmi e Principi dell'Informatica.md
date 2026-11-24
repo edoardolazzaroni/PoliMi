@@ -843,7 +843,7 @@ Dal concetto di interpretazione, si possono definire le seguenti proprietà dell
 
 Un insieme di formule $F$ comporta logicamente una formula $G$ o, equivalentemente, una formula $G$ è una conseguenza logica di un insieme di formule $F$, se ogni modello di $F$ è anche un modello di $G$ e si scrive con $F⊨ G$. Dopo aver stabilito una corrispondenza semantica fra due formule logiche, è possibile anche stabilire una relazione di equivalenza fra due formule logiche, relazione che vale solamente se la corrispondenza fra le due formule è biunivoca, ovvero se vale sia $F ⊨ G$ che $G⊨ F$: una tale relazione si rappresenta con la scrittura $F ≡G$.
 
-Esistono innumerevoli equivalenze notevoli:
+Esistono innumerevoli <u>equivalenze notevoli</u>:
 
 $F ∧F ≡F$
 $F ∨F ≡F$
@@ -997,7 +997,7 @@ Tramite questa logica, si possono scrivere formule che risolvono il problema del
 Si può dimostrare che, data una qualsiasi formula $F$ appartenente alla logica monadica del secondo ordine, è possibile costruire un automa a stati finiti che accetta lo stesso linguaggio $L$ definito da $F$ e, viceversa, dato un qualsiasi automa a stati finiti, è possibile enunciare una formula che riconosce lo stesso linguaggio. Di conseguenza, si può affermare che la classe dei linguaggi definibili dalle formule della logica monadica del secondo ordine coincide con i linguaggi regolari.
 
 #Figura(8) *Gerarchia dei linguaggi*
-![[Algoritmi e Principi dell'Informatica-1779879393076.webp|546]]
+![[Algoritmi e Principi dell'Informatica-1779879393076.webp|654]]
 
 
 ### **6.5 Logica per la descrizione di Proprietà**
