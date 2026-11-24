@@ -791,18 +791,15 @@ Si può dimostrare che <mark class="hltr-yellow">uno spazio vettoriale di dimens
 	3) Sottraiamo a $\mathbf{v}_{2}$ la sua componente nella direzione di $\mathbf{u}_{1}$, ottenendo così un vettore ortogonale a $\mathbf{u}_{1}$ e che insieme ad esso genera $V$:
 					$\mathbf{v}_{2}-(\mathbf{v}_{2}\cdot\mathbf{u}_{1})\mathbf{u}_{1}=(0,1,-1)-\left( \frac{1}{2},0,-\frac{1}{2} \right)=\left( -\frac{1}{2},1,-\frac{1}{2} \right)$
 	
-	4) Normalizziamo quest'ultimo vettore, definendo:
-					$\mathbf{u}_{2}=\frac{\left( \frac{1}{2},1,-\frac{1}{2} \right)}{\sqrt{\frac{1}{4}+1+\frac{1}{4}}}=\sqrt{\frac{2}{3}}\left( -\frac{1}{2},1,-\frac{1}{2} \right)=\left( -\frac{1}{\sqrt{6}},\sqrt{\frac{2}{3}},-\frac{1}{\sqrt{6}} \right)$
+	4) Normalizziamo quest'ultimo vettore, definendo:$$\mathbf{u}_{2}=\frac{\left( \frac{1}{2},1,-\frac{1}{2} \right)}{\sqrt{\frac{1}{4}+1+\frac{1}{4}}}=\sqrt{\frac{2}{3}}\left( -\frac{1}{2},1,-\frac{1}{2} \right)=\left( -\frac{1}{\sqrt{6}},\sqrt{\frac{2}{3}},-\frac{1}{\sqrt{6}} \right)$$
 		
 		Il lettore verifichi che $\mathbf{u}_{1},\mathbf{u}_{2}$ costituiscono effettivamente una base ortonormale di $V$.
 		Se ora volessimo costruire una base ortonormale di $\mathbb{R}^3$ che abbia come primi elementi $\mathbf{u}_{1},\mathbf{u}_{2}$, dovremmo iterare il procedimento come segue:
 	
-	1) Scegliamo un vettore di $\mathbb{R}^3$ indipendente da $\mathbf{u}_{1},\mathbf{u}_{2}$, per esempio $\mathbf{v}_{3}=(0,0,1)$;
+	5) Scegliamo un vettore di $\mathbb{R}^3$ indipendente da $\mathbf{u}_{1},\mathbf{u}_{2}$, per esempio $\mathbf{v}_{3}=(0,0,1)$;
 	
-	2) Sottraiamo a $\mathbf{v}_{3}$ la sua proiezione su $V$, ossia calcoliamo:
-	$\mathbf{v}_{3}'=\mathbf{v}_{3}-{(\mathbf{v}_{3}\cdot\mathbf{u}_{1})\mathbf{u}_{1}+(\mathbf{v}_{3}\cdot\mathbf{u}_{2})\mathbf{u}_{2}}=(0,0,1)-\left\{ -\frac{1}{\sqrt{2}}\left( \frac{1}{\sqrt{2}},0,-\frac{1}{\sqrt{2}}\right)-\frac{1}{\sqrt{6}}(-\frac{1}{\sqrt{6}},\sqrt{\frac{2}{3}},-\frac{1}{\sqrt{6}}) \right\}=\left( \frac{1}{3},\frac{1}{3},\frac{1}{3} \right)$
-	3) Normalizziamo $\mathbf{v}_{3}'$, ottenendo:
-							$\mathbf{u}_{3}=\frac{\left( \frac{1}{3},\frac{1}{3},\frac{1}{3} \right)}{\sqrt{\frac{1}{3}}}=\left( \frac{1}{\sqrt{3}},\frac{1}{\sqrt{3}},\frac{1}{\sqrt{3}} \right)$
+	6) Sottraiamo a $\mathbf{v}_{3}$ la sua proiezione su $V$, ossia calcoliamo:$$\mathbf{v}_{3}'=\mathbf{v}_{3}-{(\mathbf{v}_{3}\cdot\mathbf{u}_{1})\mathbf{u}_{1}+(\mathbf{v}_{3}\cdot\mathbf{u}_{2})\mathbf{u}_{2}}=(0,0,1)-\left\{ -\frac{1}{\sqrt{2}}\left( \frac{1}{\sqrt{2}},0,-\frac{1}{\sqrt{2}}\right)-\frac{1}{\sqrt{6}}(-\frac{1}{\sqrt{6}},\sqrt{\frac{2}{3}},-\frac{1}{\sqrt{6}}) \right\}=\left( \frac{1}{3},\frac{1}{3},\frac{1}{3} \right)$$
+	7) Normalizziamo $\mathbf{v}_{3}'$, ottenendo:$$\mathbf{u}_{3}=\frac{\left( \frac{1}{3},\frac{1}{3},\frac{1}{3} \right)}{\sqrt{\frac{1}{3}}}=\left( \frac{1}{\sqrt{3}},\frac{1}{\sqrt{3}},\frac{1}{\sqrt{3}} \right)$$
 	
 	Il lettore verifichi che $\mathbf{u}_{3}$ è ortogonale a $\mathbf{u}_{1},\mathbf{u}_{2}$ ed ha modulo unitario, perciò $\mathbf{u}_{1},\mathbf{u}_{2},\mathbf{u}_{3}$ sono una base ortonormale di $\mathbb{R}^3$, i cui primi due elementi sono una base ortonormale di $V$.
 	
