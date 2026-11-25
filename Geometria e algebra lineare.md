@@ -2327,11 +2327,7 @@ Dal Teorema precedente segue in particolare che se una matrice reale ha tutti gl
 
 Una classe particolare di matrici reali che, come vedremo, risultano <mark class="hltr-yellow">sempre diagonalizzabili</mark>, è quella delle **matrici simmetriche**. Per discutere questo risultato dobbiamo prima introdurre un'altra classe di matrici che giocano un ruolo importante, quello delle **matrici ortogonali**.
 
-- #DEFINIZIONE(21). Una matrice $\mathbf{A}$ reale di tipo $(n,n)$ si dice **ortogonale** se:
-	
-							$\mathbf{A}\cdot\mathbf{A}^\top=\mathbf{A}^\top\cdot\mathbf{A}=\mathbf{I}$
-	
-	ossia se $\mathbf{A}$ è una matrice non singolare la cui inversa coincide con la trasposta.
+- #DEFINIZIONE(21). Una matrice $\mathbf{A}$ reale di tipo $(n,n)$ si dice **ortogonale** se:$$\mathbf{A}\cdot\mathbf{A}^\top=\mathbf{A}^\top\cdot\mathbf{A}=\mathbf{I}$$ossia se $\mathbf{A}$ è una matrice non singolare la cui inversa coincide con la trasposta.
 
 [[#4.1 **L'algebra delle matrici**|Ricordiamo]] che la trasposta $\mathbf{A}^\top$ di una matrice $\mathbf{A}$ è quella che si ottiene scambiando le righe con le colonne. Perciò se $\mathbf{A}=(a_{ij})$, $\mathbf{A}^\top=(a_{ji})$.
 Inoltre, se $\mathbf{A},\mathbf{B}$ sono due matrici $(n,n)$, vale la proprietà $(\mathbf{A}\mathbf{B})^\top=\mathbf{B}^\top\mathbf{A}^\top$.
@@ -2371,10 +2367,7 @@ Inoltre, se $\mathbf{A},\mathbf{B}$ sono due matrici $(n,n)$, vale la proprietà
 	
 	
 	d. Con le notazioni del prodotto righe per colonne, il prodotto scalare $\mathbf{x}\cdot\mathbf{y}$ è $\mathbf{x}^\top\mathbf{y}$, quello dei trasformati è $\quad(\mathbf{A}\mathbf{x})^\top\cdot(\mathbf{A}\mathbf{y})=\mathbf{x}^\top\mathbf{A}^\top\mathbf{A}\mathbf{y}=\mathbf{x}^\top\mathbf{I}_{n}\mathbf{y}=\mathbf{x}^\top\mathbf{y}$
-	quindi il prodotto scalare si conserva; in particolare allora si conserva il modulo dei vettori:
-		
-						$|\mathbf{A}\mathbf{x}|^2=(\mathbf{A}\mathbf{x})^\top(\mathbf{A}\mathbf{x})=\mathbf{x}^\top\mathbf{x}=|\mathbf{x}|^2$
-
+	quindi il prodotto scalare si conserva; in particolare allora si conserva il modulo dei vettori:$$|\mathbf{A}\mathbf{x}|^2=(\mathbf{A}\mathbf{x})^\top(\mathbf{A}\mathbf{x})=\mathbf{x}^\top\mathbf{x}=|\mathbf{x}|^2$$
 
 Se $n=2,3$ la conservazione del prodotto scalare ha il significato geometrico di conservazione degli angoli e delle lunghezze. Geometricamente, le trasformazioni lineari che conservano gli angoli e lunghezze sono le rotazioni rispetto all'origine, eventualmente accompagnate da una riflessione (rispetto ad una retta, nel piano; rispetto a un piano, nello spazio), ad eccezione delle traslazioni in quanto non sono trasformazioni lineari.
 Precisamente, si osserva che le trasformazioni lineari che rappresentano una rotazione rispetto all'origine senza alcuna riflessione sono rappresentate da matrici ortogonali aventi $\det=1$; queste matrici si chiamano ortogonali speciali, o comunemente **matrici di rotazione**.
