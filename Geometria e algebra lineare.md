@@ -931,7 +931,7 @@ Lo stesso accade nel prossimo esempio:
 
 
 *Esempio* (3). La derivata si può vedere come operatore lineare tra i seguenti spazi:
-$$L:C^{1}([a,b])\to C([]a,b])\\L:f\mapsto f'$$
+$$L:C^{1}([a,b])\to C([a,b])\\L:f\mapsto f'$$
 (linearità della derivata, Analisi 1).
 
 
