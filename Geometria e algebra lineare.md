@@ -340,7 +340,7 @@ b) Nel secondo caso si vuole scrivere l'equazione della retta passante per i pun
 Le equazioni parametriche della retta risultano allora
 $$\begin{cases} x=x_0+t(x_1-x_0)\\ y=y_0+t(y_1-y_0) \\ z=z_0+t(z_1-z_0) \end{cases}$$
 
-![[Geometria e Algebra Lineare-1791120647041.webp|553]]
+![[Geometria e Algebra Lineare-1791120647041.webp|593]]
 #Figura(18)
 
 
