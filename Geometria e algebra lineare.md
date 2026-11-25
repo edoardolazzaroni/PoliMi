@@ -2035,16 +2035,17 @@ Quando però tutto viene riletto in termini di fattorizzazione della matrice $\m
 
 Ci serviamo di un *esempio* di $4$ eq. in $5$ incognite, ma lavorando direttamrnte sulla matrice dei coefficienti del sistema, che supponiamo sia:
 
-$\mathbf{A}={\begin{pmatrix}1&3&3&2&0 \\  2&6&9&1&-6 \\  -1&-3&3&0&-2 \\  -1&-3&1&-6&-8\end{pmatrix}}$
+$$\mathbf{A}={\begin{pmatrix}1&3&3&2&0 \\  2&6&9&1&-6 \\  -1&-3&3&0&-2 \\  -1&-3&1&-6&-8\end{pmatrix}}$$
 
 Il primo pivot è $a_{11}=1\ne 0$, per cui le consuete operazioni elementari permettono di produrre zeri nella prima colonna sotto quel pivot; si ottiene:
 
-${\begin{pmatrix}1&3&3&2&0 \\  0&0&3&-3&-6 \\  0&0&6&2&-2 \\  0&0&4&-4&-8\end{pmatrix}}$
+$${\begin{pmatrix}1&3&3&2&0 \\  0&0&3&-3&-6 \\  0&0&6&2&-2 \\  0&0&4&-4&-8\end{pmatrix}}$$
 
 Il secondo pivot è $0$, gli elementi sottostanti sono nulli e lo scambio di righe non può produrre un pivot $\ne 0$.
 Per procedere oltre con l'eliminazione si va al primo elemento non nullo in seconda riga, nelle colonne successive; nell'esempio è $3$ in terza colonna. Annulliamo gli elementi sotto il $3$ con le operazioni: $3^a \ riga-(2\times 2^a \ riga)$ e $4^a \ riga-\left( \frac{4}{3}\times 2^a \ riga \right)$.
+Si ottiene così la matrice:
 
-Si ottiene così la matrice: $\mathbf{U}={\begin{pmatrix}1&3&3&2&0 \\  0&0&3&-3&-6 \\  0&0&0&8&10 \\  0&0&0&0&0\end{pmatrix}}$
+$$\mathbf{U}={\begin{pmatrix}1&3&3&2&0 \\  0&0&3&-3&-6 \\  0&0&0&8&10 \\  0&0&0&0&0\end{pmatrix}}$$
 
 Si considera ora la terza colonna dove si riconosce che il nuovo pivot è $8$.
 Essendoci solo zeri nell'ultima riga, il processo di eliminazione è finito. La forma finale di $\mathbf{U}$ è triangolare alta (in questo caso detta anche <u>trapezoidale alta</u>) con pivot uguali a $1$ (prima riga), $3$ (seconda riga) e $8$ (terza riga) non nulli.
