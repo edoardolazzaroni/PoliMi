@@ -2259,11 +2259,7 @@ Per quanto visto, i passi da seguire sono i seguenti:
 	Per $\lambda=2$: $\quad{\begin{cases}-x+y=0 \\  0=0\end{cases}}\quad$ perciò gli autovalori sono $(x,x)$; uno di essi è $(1,1)$.
 
 3) Osserviamo ora che i due autovettori $(1,0),(1,1)$ sono indipendenti, perciò formano una base di $\mathbb{R}^2$. Pertanto $\mathbf{A}$ è diagonalizzabile, con:$$\mathbf{\Lambda}={\begin{pmatrix}1&0 \\  0&2\end{pmatrix}},\quad\mathbf{S}={\begin{pmatrix}1&1 \\  0&1\end{pmatrix}}$$
-	
-	calcolando anche $\mathbf{S}^{-1}={\begin{pmatrix}1&-1 \\  0&1\end{pmatrix}}$ si può scrivere la relazione $\mathbf{A}=\mathbf{S}\mathbf{\Lambda}\mathbf{S}^{-1}$:
-	
-	${\begin{pmatrix}1&1 \\  0&2\end{pmatrix}}={\begin{pmatrix}1&1 \\  0&1\end{pmatrix}}{\begin{pmatrix}1&0 \\  0&2\end{pmatrix}}{\begin{pmatrix}1&-1 \\  0&1\end{pmatrix}}$
-
+	calcolando anche $\mathbf{S}^{-1}={\begin{pmatrix}1&-1 \\  0&1\end{pmatrix}}$ si può scrivere la relazione $\mathbf{A}=\mathbf{S}\mathbf{\Lambda}\mathbf{S}^{-1}$:$${\begin{pmatrix}1&1 \\  0&2\end{pmatrix}}={\begin{pmatrix}1&1 \\  0&1\end{pmatrix}}{\begin{pmatrix}1&0 \\  0&2\end{pmatrix}}{\begin{pmatrix}1&-1 \\  0&1\end{pmatrix}}$$
 Abbiamo così diagonalizzato la matrice $\mathbf{A}$.
 
 
@@ -2298,10 +2294,7 @@ Arriviamo così al seguente:
 	
 	*Dimostrazione*:
 	
-	Infatti, se la matrice è diagonalizzabile, $\mathbb{K}^n$ ha una base di autovettori di $\mathbf{A}$. Ora, se $\lambda_{1},\lambda_{2},\cdots,\lambda_{k}$ sono gli autovalori distinti di $\mathbf{A}$ (se $\mathbb{K}=\mathbb{R}$ reali perchè $\mathbf{A}$ è diagonalizzabile), ciascun autospazio fornisce $d_{j}$ autovettori indipendenti tra loro (per definizione di molteplicità geometrica), e indipendenti da quelli degli altri autospazi (per il Teorema precedente, punto (a)). Il numero totale di autovettori indipendenti è quindi:
-	
-									$\sum_{j=1}^k d_{j}$
-	
+	Infatti, se la matrice è diagonalizzabile, $\mathbb{K}^n$ ha una base di autovettori di $\mathbf{A}$. Ora, se $\lambda_{1},\lambda_{2},\cdots,\lambda_{k}$ sono gli autovalori distinti di $\mathbf{A}$ (se $\mathbb{K}=\mathbb{R}$ reali perchè $\mathbf{A}$ è diagonalizzabile), ciascun autospazio fornisce $d_{j}$ autovettori indipendenti tra loro (per definizione di molteplicità geometrica), e indipendenti da quelli degli altri autospazi (per il Teorema precedente, punto (a)). Il numero totale di autovettori indipendenti è quindi:$$\sum_{j=1}^k d_{j}$$
 	D'altro canto $d_{j}<m_{j}$ e $\sum_{j=1}^k m_{j}=n$; perciò l'unica possibilità per avere $n$ autovettori reali e indipendenti è che sia $d_{j}=m_{j} \quad \forall j$, quindi gli autovalori sono regolari.
 	Viceversa, supponiamo ora che gli autovalori $\lambda_{1},\lambda_{2},\cdots,\lambda_{k}$ siano tutti regolari, quindi ogni autospazio fornisce $m_{j}$ autovettori indipendenti tra loro (e indipendenti da quelli degli altri autospazi). In conclusione, il numero totale di autovettori indipendenti è $\sum_{j=1}^k m_{j}=n$, dunque $\mathbb{K}^n$ ha una base di autovettori di $\mathbf{A}$.
 
