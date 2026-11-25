@@ -2105,24 +2105,18 @@ Supponiamo che $\mathbb{R}^n$ sia riferito alla base canonica $\mathbf{e}^1,\mat
 La matrice $\mathbf{S}=(\mathbf{\tilde{e}}^1|\mathbf{\tilde{e}}^{2}|\cdots|\mathbf{\tilde{e}}^{n})$ ottenuta accostando i vettori (colonna) $\mathbf{\tilde{e}}^1,\mathbf{\tilde{e}}^{2},\cdots,\mathbf{\tilde{e}}^{n}$ rappresenta, nella base canonica, la trasformazione che fa passare da una base all'altra. Infatti, come si verifica subito: $\mathbf{S}\mathbf{e}^i=\mathbf{\tilde{e}}^i\quad (i=1,2,\cdots,n)$
 
 Poichè i vettori $\mathbf{\tilde{e}}^i$ sono indipendenti, $\det\mathbf{S}\ne 0$, quindi $\mathbf{S}$ è invertibile, e possiamo anche scrivere:
-
-								$\mathbf{e}^i=\mathbf{S}^{-1}\mathbf{\tilde{e}}^i$
-
+$$\mathbf{e}^i=\mathbf{S}^{-1}\mathbf{\tilde{e}}^i$$
 Se quindi un vettore di $\mathbb{R}^n$ ha, rispetto alla base canonica, le coordinate $\mathbf{x}=(x_{1},x_{2},\cdots,x_{n})$, nella 
 nuova base avrà coordinate $\mathbf{\tilde{x}}=(\tilde{x}_{1},\tilde{x}_{2},\cdots,\tilde{x}_{n})$ date da:
-
-								$\mathbf{\tilde{x}}=\mathbf{S}^{-1}\mathbf{x}$
-
+$$\mathbf{\tilde{x}}=\mathbf{S}^{-1}\mathbf{x}$$
 Infatti, se la matrice $\mathbf{S}=(s_{ij})$ ha per colonne le rappresentazioni dei vettori $\mathbf{\tilde{e}}^i$ nella base di $\mathbf{e}_{i}$, significa che $s_{ij}=(\mathbf{\tilde{e}}_{j})_{i}$, quindi da:
-
-								$\mathbf{x}=\sum_{j=1}^n \tilde{x}_{j}\mathbf{\tilde{e}}_{j}$
-
+$$\mathbf{x}=\sum_{j=1}^n \tilde{x}_{j}\mathbf{\tilde{e}}_{j}$$
 ricaviamo: $x_{i}=\sum_{j=1}^n \tilde{x}_{j}(\mathbf{\tilde{e}}_{j})_{i}=\sum_{j=1}^n \tilde{x}_{j}s_{ij}$, ossia $\mathbf{x}=\mathbf{S}\mathbf{\tilde{x}}$.
 
 Allora, se $\mathbf{y}=\mathbf{A}\mathbf{x}$ nella base canonica, risulta: $\mathbf{\tilde{y}}=\mathbf{S}^{-1}\mathbf{y}=\mathbf{S}^{-1}\mathbf{A}\mathbf{x}=\mathbf{S}^{-1}\mathbf{A}\mathbf{S}\mathbf{\tilde{x}}$
 e perciò la trasformazione $\mathcal{L}$ nella nuova base è rappresentata dalla matrice:
 
-								$\mathbf{\tilde{A}}=\mathbf{S}^{-1}\mathbf{A}\mathbf{S}$
+$$\mathbf{\tilde{A}}=\mathbf{S}^{-1}\mathbf{A}\mathbf{S}$$
 
 Si dice che due matrici $\mathbf{A},\mathbf{\tilde{A}}$ legate da quest'ultima relazione (con $\mathbf{S}$ ovviamente matrice invertibile) sono **SIMILI**, o **EQUIVALENTI**.
 
@@ -2158,7 +2152,7 @@ In altre parole, ci stiamo chiedendo se esistono particolari vettori sui quali l
 Scrivendo $\mathbf{I}_{n}\mathbf{v}$ al posto di $\mathbf{v}$ possiamo riscrivere l'ultima equazione nella forma: $(\mathbf{A}-\lambda\mathbf{I}_{n})\mathbf{v}=\mathbf{0}$.
 In questa equazione il vettore $\mathbf{v}$ (come lo scalare $\lambda$) è incognito: le componenti del vettore soddisfano perciò un sistema lineare omogeneo $n\times n$. Sappiamo che, perchè esistano vettori $\mathbf{v}$ (non nulli) che risolvono tale equazione, dovrà essere:
 
-								$D(\lambda)=|\mathbf{A}-\lambda\mathbf{I}_{n}|=0$
+$$D(\lambda)=|\mathbf{A}-\lambda\mathbf{I}_{n}|=0$$
 
 *Per esempio*, 
 per $n=2$, se $\mathbf{A}={\begin{pmatrix}a_{11}&a_{12}\\a_{21}&a_{22}\end{pmatrix}} \quad \rightarrow \quad {\begin{vmatrix}a_{11}-\lambda &a_{12} \\  a_{21}&a_{22}-\lambda \end{vmatrix}}=\lambda^2-(a_{11}+a_{22})\lambda+a_{11}a_{22}-a_{12}a_{21}=0$
@@ -2167,7 +2161,7 @@ L'ultima equazione è un'equazione algebrica in $\lambda$, di grado $n$, detta *
 Questo polinomio dipende solo dalla trasformazione lineare, e non dal riferimento in cui questa è descritta; in altri termini, non varia se si sostituisce alla matrice $\mathbf{A}$ un'altra matrice ad essa equivalente. Infatti si può scrivere: $\mathbf{S}^{-1}\mathbf{A}\mathbf{S}-\lambda\mathbf{I}=\mathbf{S}^{-1}(\mathbf{A}-\lambda)\mathbf{S}$
 e quindi, usando le proprietà del determinante:
 
-					$|\mathbf{S}^{-1}\mathbf{A}\mathbf{S}-\lambda\mathbf{I}|=|\mathbf{S}^{-1}(\mathbf{A}-\lambda)\mathbf{S}|=\frac{1}{|\mathbf{S}|}\mathbf{A}-\lambda\mathbf{I}|\mathbf{S}|=\mathbf{D}(\lambda)$
+$$|\mathbf{S}^{-1}\mathbf{A}\mathbf{S}-\lambda\mathbf{I}|=|\mathbf{S}^{-1}(\mathbf{A}-\lambda)\mathbf{S}|=\frac{1}{|\mathbf{S}|}\mathbf{A}-\lambda\mathbf{I}|\mathbf{S}|=\mathbf{D}(\lambda)$
 
 È utile fissare il risultato appena ottenuto:
 
